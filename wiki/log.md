@@ -164,3 +164,46 @@ Index updated with 12 pages
 
 **Broken links** (1):
   - wiki/entities/obsidian.md → [[wikilinks]]
+
+## [2026-04-07 22:29] ingest | Getting Started - Git Documentation - Obsidian Publish.md
+
+Ingested raw/Getting Started - Git Documentation - Obsidian Publish.md into knowledge graph.
+
+Preview: ## Desktop  You can either start by cloning an existing remote repository as described [here](https://publish.obsidian.md/git-doc/Getting+Started#For%20existing%20remote%20repository) or start with in...
+
+## [2026-04-07 22:29] ingest | MoMoA Researcher – code.md
+
+Ingested raw/MoMoA Researcher – code.md into knowledge graph.
+
+Preview: ## A Mixture of Mixture of Agents Researcher  In this experiment we’re building an **Agentic Research Scientist**.  <audio src="https://labs.google/code/assets/backstory.DKXVQrT-.m4a"></audio>  0:00  ...
+
+## [2026-04-07 22:30] ingest | romannurikProductCanvas-Experiment A multiplayer collaborative canvas for product brainstorming.md
+
+Ingested raw/romannurikProductCanvas-Experiment A multiplayer collaborative canvas for product brainstorming.md into knowledge graph.
+
+Preview: ## Product Canvas Experiment  A multiplayer collaborative canvas for product brainstorming  👉 [**Read the article**](https://labs.google/code/experiments/product-canvas)  ## Building locally  1. Creat...
+
+## [2026-04-07 22:31] write
+
+Updated page: wiki/sources/obsidian-git-setup.md
+
+## [2026-04-07 22:32] write
+
+Updated page: wiki/sources/momoa-researcher.md
+
+## [2026-04-07 22:32] write
+
+Updated page: wiki/sources/product-canvas.md
+
+## [2026-04-07 22:33] index
+
+Index updated with 15 pages
+
+## [2026-04-07 22:35] lint
+
+🩺 **Wiki Health Check** — 15 pages
+
+**Broken links** (3):
+  - wiki/entities/obsidian.md → [[wikilinks]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/sources/momoa-researcher.md → [[AlphaEvolve]]

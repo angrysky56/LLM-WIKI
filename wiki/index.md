@@ -1,5 +1,5 @@
 ---
-updated: 2026-04-07T20:36:51Z
+updated: 2026-04-07T22:33:17Z
 type: index
 ---
 
@@ -15,3 +15,6 @@ type: index
 - [[project-synapse]] — Graph-backed MCP server providing semantic search, knowledge synthesis, and wiki bridge
 - [[zettelkasten-engine]] — Autonomous pattern detection and insight synthesis engine within Project Synapse
 - [[llm-wiki-pattern]] — Karpathy's pattern for LLM-maintained persistent Markdown knowledge bases
+- [[momoa-researcher]] — Google Labs agentic research scientist using Mixture of Mixture of Agents
+- [[obsidian-git-setup]] — Setup guide for the Obsidian Git community plugin (desktop and mobile)
+- [[product-canvas]] — Google Labs multiplayer brainstorming canvas with AI voice agent and wiki knowledge editor

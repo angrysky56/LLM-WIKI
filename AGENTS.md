@@ -83,7 +83,7 @@ When Synapse is connected:
 
 ## Git / Version Control
 
-The vault is synced via the Obsidian Git plugin to:
+The vault is synced via the Obsidian Git plugin to (check with user as this may change):
 `https://github.com/angrysky56/LLM-WIKI`
 
 All rollbacks are handled via git. The LLM does not need to

@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "AGENTS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "AGENTS"
             }
           }
         ],
@@ -211,8 +211,8 @@
   },
   "active": "7b63a30a26831808",
   "lastOpenFiles": [
-    "raw/MoMoA Researcher – code.md",
     "README.md",
+    "raw/MoMoA Researcher – code.md",
     "wiki/sources/product-canvas.md",
     "wiki/sources/momoa-researcher.md",
     "wiki/sources/obsidian-git-setup.md",

@@ -194,8 +194,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fad5650d26baaff2",
+  "active": "2ab9c987c297f7a1",
   "lastOpenFiles": [
+    "wiki/concepts/memex.md",
+    "wiki/concepts/graphrag.md",
+    "wiki/entities/zettelkasten-engine.md",
+    "wiki/entities/obsidian.md",
+    "wiki/entities/neo4j.md",
     "wiki/concepts/persistent-knowledge-compilation.md",
     "raw/Getting Started - Git Documentation - Obsidian Publish.md",
     "wiki/index.md",

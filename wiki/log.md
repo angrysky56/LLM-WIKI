@@ -99,3 +99,68 @@ Index updated with 6 pages
   - wiki/sources/llm-wiki-pattern.md → [[Project Synapse]]
   - wiki/sources/llm-wiki-pattern.md → [[Neo4j]]
   - wiki/sources/llm-wiki-pattern.md → [[Zettelkasten Engine]]
+
+## [2026-04-07 20:35] lint
+
+🩺 **Wiki Health Check** — 7 pages
+
+**Broken links** (28):
+  - wiki/concepts/persistent-knowledge-compilation.md → [[Memex]]
+  - wiki/concepts/rag.md → [[GraphRAG]]
+  - wiki/entities/project-synapse.md → [[Neo4j]]
+  - wiki/entities/project-synapse.md → [[Zettelkasten Engine]]
+  - wiki/log.md → [[Memex]]
+  - wiki/log.md → [[GraphRAG]]
+  - wiki/log.md → [[Neo4j]]
+  - wiki/log.md → [[Zettelkasten Engine]]
+  - wiki/log.md → [[Obsidian]]
+  - wiki/log.md → [[Neo4j]]
+  - wiki/log.md → [[Zettelkasten Engine]]
+  - wiki/log.md → [[Memex]]
+  - wiki/log.md → [[GraphRAG]]
+  - wiki/log.md → [[Neo4j]]
+  - wiki/log.md → [[Zettelkasten Engine]]
+  - wiki/log.md → [[Memex]]
+  - wiki/log.md → [[GraphRAG]]
+  - wiki/log.md → [[Neo4j]]
+  - wiki/log.md → [[Zettelkasten Engine]]
+  - wiki/log.md → [[Obsidian]]
+  - wiki/log.md → [[Neo4j]]
+  - wiki/log.md → [[Zettelkasten Engine]]
+  - wiki/log.md → [[Obsidian]]
+  - wiki/log.md → [[Neo4j]]
+  - wiki/log.md → [[Zettelkasten Engine]]
+  - wiki/sources/llm-wiki-pattern.md → [[Obsidian]]
+  - wiki/sources/llm-wiki-pattern.md → [[Neo4j]]
+  - wiki/sources/llm-wiki-pattern.md → [[Zettelkasten Engine]]
+
+## [2026-04-07 20:36] write
+
+Updated page: wiki/entities/neo4j.md
+
+## [2026-04-07 20:36] write
+
+Updated page: wiki/entities/obsidian.md
+
+## [2026-04-07 20:36] write
+
+Updated page: wiki/entities/zettelkasten-engine.md
+
+## [2026-04-07 20:36] write
+
+Updated page: wiki/concepts/graphrag.md
+
+## [2026-04-07 20:36] write
+
+Updated page: wiki/concepts/memex.md
+
+## [2026-04-07 20:36] index
+
+Index updated with 12 pages
+
+## [2026-04-07 20:37] lint
+
+🩺 **Wiki Health Check** — 12 pages
+
+**Broken links** (1):
+  - wiki/entities/obsidian.md → [[wikilinks]]

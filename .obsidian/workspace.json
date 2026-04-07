@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/concepts/persistent-knowledge-compilation.md",
+                "file": "wiki/concepts/rag.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "persistent-knowledge-compilation"
+              "title": "rag"
             }
           }
         ]
@@ -196,12 +196,12 @@
   },
   "active": "fad5650d26baaff2",
   "lastOpenFiles": [
+    "wiki/concepts/persistent-knowledge-compilation.md",
     "raw/Getting Started - Git Documentation - Obsidian Publish.md",
     "wiki/index.md",
     "wiki/entities/project-synapse.md",
     "wiki/entities/andrej-karpathy.md",
     "wiki/concepts/rag.md",
-    "wiki/concepts/persistent-knowledge-compilation.md",
     "wiki/sources/llm-wiki-pattern.md",
     "wiki/log.md",
     "AGENTS.md",

@@ -207,3 +207,227 @@ Index updated with 15 pages
   - wiki/entities/obsidian.md → [[wikilinks]]
   - wiki/log.md → [[wikilinks]]
   - wiki/sources/momoa-researcher.md → [[AlphaEvolve]]
+
+## [2026-04-10 23:07] ingest | The 10 Steps to Design Thinking.md
+
+Ingested raw/The 10 Steps to Design Thinking.md into knowledge graph.
+
+Preview: ![MIDT Class Image](https://professional.mit.edu/sites/default/files/styles/news_thumb/public/2019-04/PROMO_Design-Thinking_people_0.jpg?h=f90c9064&itok=HICAxMIU)  Design thinking is playing an increa...
+
+## [2026-04-10 23:07] ingest | byarbroughobsidian-para Template for using Obsidian for P.A.R.A..md
+
+Ingested raw/byarbroughobsidian-para Template for using Obsidian for P.A.R.A..md into knowledge graph.
+
+Preview: ## Obsidian PARA  [View on Medium](https://b-yarbrough.medium.com/obsidian-and-para-are-the-perfect-pairing-together-you-can-remember-connect-and-create-7a87c8882de5)  Obsidian and PARA are the perfec...
+
+## [2026-04-10 23:07] write
+
+Updated page: wiki/sources/design-thinking-mit.md
+
+## [2026-04-10 23:07] write
+
+Updated page: wiki/sources/obsidian-para-byarbrough.md
+
+## [2026-04-10 23:08] write
+
+Updated page: wiki/concepts/para-methodology.md
+
+## [2026-04-10 23:08] index
+
+Index updated with 18 pages
+
+## [2026-04-10 23:13] ingest | obsidian-skillsskillsobsidian-cliSKILL.md at main.md
+
+Ingested raw/obsidian-skillsskillsobsidian-cliSKILL.md at main.md into knowledge graph.
+
+Preview: | name | obsidian-cli | | --- | --- | | description | Interact with Obsidian vaults using the Obsidian CLI to read, create, search, and manage notes, tasks, properties, and more. Also supports plugin ...
+
+## [2026-04-10 23:14] write
+
+Updated page: wiki/sources/obsidian-cli-skill.md
+
+## [2026-04-10 23:18] write
+
+Updated page: wiki/entities/obsidian.md
+
+## [2026-04-10 23:18] write
+
+Updated page: wiki/concepts/design-thinking.md
+
+## [2026-04-10 23:19] write
+
+Updated page: AGENTS.md
+
+## [2026-04-10 23:19] index
+
+Index updated with 20 pages
+
+## [2026-04-11 00:22] write
+
+Updated page: wiki/concepts/synapse-llm-wiki-operating-guide.md
+
+## [2026-04-11 00:22] index
+
+Index updated with 21 pages
+
+## [2026-04-11 00:24] write
+
+Updated page: wiki/concepts/causal-state-edm-ood-isomorphism.md
+
+## [2026-04-11 00:24] write
+
+Updated page: wiki/entities/edm-framework.md
+
+## [2026-04-11 00:24] index
+
+Index updated with 23 pages
+
+## [2026-04-11 00:26] write
+
+Updated page: wiki/entities/edm-framework.md
+
+## [2026-04-11 00:27] write
+
+Updated page: wiki/concepts/causal-state-edm-ood-isomorphism.md
+
+## [2026-04-11 00:27] write
+
+Updated page: wiki/sources/kim-ahn-edm-2026.md
+
+## [2026-04-11 00:27] index
+
+Index updated with 24 pages
+
+## [2026-04-11 00:46] ingest | Uncovering simultaneous breakthroughs with a robust measure of disruptiveness.md
+
+Ingested raw/Uncovering simultaneous breakthroughs with a robust measure of disruptiveness.md into knowledge graph.
+
+Preview: Kim et al.,Sci. Adv.12, eadx3420 (2026)   S c i e n c e A d v A n c e S | R e S e A R c h A R t i c l e   1 of 13   S C I E N T I F I C C O M M U N I T Y   Uncovering simultaneous breakthroughs with a...
+
+## [2026-04-11 00:47] write
+
+Updated page: wiki/sources/kim-ahn-edm-2026.md
+
+## [2026-04-11 00:47] lint
+
+🩺 **Wiki Health Check** — 24 pages
+
+**Broken links** (12):
+  - wiki/concepts/para-methodology.md → [[llm-wiki]]
+  - wiki/concepts/synapse-llm-wiki-operating-guide.md → [[slug]]
+  - wiki/concepts/synapse-llm-wiki-operating-guide.md → [[Display Text]]
+  - wiki/entities/obsidian.md → [[Page Name]]
+  - wiki/entities/obsidian.md → [[obsidian-cli-skill\]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[AlphaEvolve]]
+  - wiki/sources/momoa-researcher.md → [[AlphaEvolve]]
+  - wiki/sources/obsidian-cli-skill.md → [[llm-wiki]]
+  - wiki/sources/obsidian-para-byarbrough.md → [[llm-wiki]]
+
+## [2026-04-11 00:49] write
+
+Updated page: wiki/entities/alphaevolve.md
+
+## [2026-04-11 00:49] index
+
+Index updated with 25 pages
+
+## [2026-04-11 00:49] lint
+
+🩺 **Wiki Health Check** — 25 pages
+
+**Broken links** (14):
+  - wiki/concepts/synapse-llm-wiki-operating-guide.md → [[slug]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[llm-wiki]]
+  - wiki/log.md → [[slug]]
+  - wiki/log.md → [[Display Text]]
+  - wiki/log.md → [[Page Name]]
+  - wiki/log.md → [[obsidian-cli-skill\]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[llm-wiki]]
+  - wiki/log.md → [[llm-wiki]]
+
+## [2026-04-11 00:51] lint
+
+🩺 **Wiki Health Check** — 25 pages
+
+**Broken links** (28):
+  - wiki/concepts/synapse-llm-wiki-operating-guide.md → [[page-slug]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[llm-wiki]]
+  - wiki/log.md → [[slug]]
+  - wiki/log.md → [[Display Text]]
+  - wiki/log.md → [[Page Name]]
+  - wiki/log.md → [[obsidian-cli-skill\]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[llm-wiki]]
+  - wiki/log.md → [[llm-wiki]]
+  - wiki/log.md → [[slug]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[llm-wiki]]
+  - wiki/log.md → [[slug]]
+  - wiki/log.md → [[Display Text]]
+  - wiki/log.md → [[Page Name]]
+  - wiki/log.md → [[obsidian-cli-skill\]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[llm-wiki]]
+  - wiki/log.md → [[llm-wiki]]
+
+## [2026-04-11 00:58] write
+
+Updated page: wiki/entities/obsidian-skills-repo.md
+
+## [2026-04-11 00:58] index
+
+Index updated with 26 pages
+
+## [2026-04-11 03:50] write
+
+Updated page: wiki/concepts/synapse-llm-wiki-operating-guide.md
+
+## [2026-04-11 03:50] index
+
+Index updated with 26 pages
+
+## [2026-04-11 04:35] write
+
+Updated page: wiki/concepts/synapse-retrieval-architecture.md
+
+## [2026-04-11 04:35] index
+
+Index updated with 27 pages
+
+## [2026-04-11 04:47] write
+
+Updated page: wiki/concepts/wiki-indexing-theory.md
+
+## [2026-04-11 04:48] write
+
+Updated page: wiki/concepts/tag-taxonomy.md
+
+## [2026-04-11 04:49] index
+
+Index updated with 29 pages
+
+## [2026-04-11 05:03] write
+
+Updated page: wiki/concept-index.md
+
+## [2026-04-11 05:05] index
+
+Index updated with 30 pages

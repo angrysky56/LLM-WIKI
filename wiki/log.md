@@ -431,3 +431,224 @@ Updated page: wiki/concept-index.md
 ## [2026-04-11 05:05] index
 
 Index updated with 30 pages
+
+## [2026-04-11 06:13] index
+
+Index updated with 30 pages
+
+## [2026-04-11 06:13] lint
+
+🩺 **Wiki Health Check** — 30 pages
+
+**Broken links** (58):
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[llm-wiki]]
+  - wiki/log.md → [[slug]]
+  - wiki/log.md → [[Display Text]]
+  - wiki/log.md → [[Page Name]]
+  - wiki/log.md → [[obsidian-cli-skill\]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[llm-wiki]]
+  - wiki/log.md → [[llm-wiki]]
+  - wiki/log.md → [[slug]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[llm-wiki]]
+  - wiki/log.md → [[slug]]
+  - wiki/log.md → [[Display Text]]
+  - wiki/log.md → [[Page Name]]
+  - wiki/log.md → [[obsidian-cli-skill\]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[llm-wiki]]
+  - wiki/log.md → [[llm-wiki]]
+  - wiki/log.md → [[page-slug]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[llm-wiki]]
+  - wiki/log.md → [[slug]]
+  - wiki/log.md → [[Display Text]]
+  - wiki/log.md → [[Page Name]]
+  - wiki/log.md → [[obsidian-cli-skill\]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[llm-wiki]]
+  - wiki/log.md → [[llm-wiki]]
+  - wiki/log.md → [[slug]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[llm-wiki]]
+  - wiki/log.md → [[slug]]
+  - wiki/log.md → [[Display Text]]
+  - wiki/log.md → [[Page Name]]
+  - wiki/log.md → [[obsidian-cli-skill\]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[llm-wiki]]
+  - wiki/log.md → [[llm-wiki]]
+  - wiki/synthesis/synapse-llm-wiki-operating-guide.md → [[page-slug]]
+  - wiki/synthesis/synapse-retrieval-architecture.md → [[wikilinks]]
+  - wiki/synthesis/synapse-retrieval-architecture.md → [[wikilinks]]
+**Non-reciprocal links** (18) — A links to B but B doesn't link back:
+  - [[graphrag]] → [[project-synapse]] (no return link)
+  - [[obsidian-skills-repo]] → [[project-synapse]] (no return link)
+  - [[obsidian-skills-repo]] → [[obsidian]] (no return link)
+  - [[design-thinking]] → [[para-methodology]] (no return link)
+  - [[design-thinking]] → [[persistent-knowledge-compilation]] (no return link)
+  - [[design-thinking]] → [[memex]] (no return link)
+  - [[rag]] → [[project-synapse]] (no return link)
+  - [[obsidian]] → [[para-methodology]] (no return link)
+  - [[obsidian]] → [[project-synapse]] (no return link)
+  - [[obsidian]] → [[neo4j]] (no return link)
+  - [[obsidian]] → [[andrej-karpathy]] (no return link)
+  - [[zettelkasten-engine]] → [[neo4j]] (no return link)
+  - [[persistent-knowledge-compilation]] → [[project-synapse]] (no return link)
+  - [[persistent-knowledge-compilation]] → [[memex]] (no return link)
+  - [[edm-framework]] → [[zettelkasten-engine]] (no return link)
+  - [[edm-framework]] → [[persistent-knowledge-compilation]] (no return link)
+  - [[edm-framework]] → [[graphrag]] (no return link)
+  - [[andrej-karpathy]] → [[rag]] (no return link)
+**Non-preferred tags** (2) — use controlled vocabulary:
+  - wiki/entities/tools/edm-framework.md: `scientometrics` → use `science-of-science`
+  - wiki/sources/papers/kim-ahn-edm-2026.md: `scientometrics` → use `science-of-science`
+
+## [2026-04-11 07:12] index
+
+Index updated with 30 pages
+
+## [2026-04-11 07:12] lint
+
+🩺 **Wiki Health Check** — 30 pages
+
+**Broken links** (116):
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[llm-wiki]]
+  - wiki/log.md → [[slug]]
+  - wiki/log.md → [[Display Text]]
+  - wiki/log.md → [[Page Name]]
+  - wiki/log.md → [[obsidian-cli-skill\]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[llm-wiki]]
+  - wiki/log.md → [[llm-wiki]]
+  - wiki/log.md → [[slug]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[llm-wiki]]
+  - wiki/log.md → [[slug]]
+  - wiki/log.md → [[Display Text]]
+  - wiki/log.md → [[Page Name]]
+  - wiki/log.md → [[obsidian-cli-skill\]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[llm-wiki]]
+  - wiki/log.md → [[llm-wiki]]
+  - wiki/log.md → [[page-slug]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[llm-wiki]]
+  - wiki/log.md → [[slug]]
+  - wiki/log.md → [[Display Text]]
+  - wiki/log.md → [[Page Name]]
+  - wiki/log.md → [[obsidian-cli-skill\]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[llm-wiki]]
+  - wiki/log.md → [[llm-wiki]]
+  - wiki/log.md → [[slug]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[llm-wiki]]
+  - wiki/log.md → [[slug]]
+  - wiki/log.md → [[Display Text]]
+  - wiki/log.md → [[Page Name]]
+  - wiki/log.md → [[obsidian-cli-skill\]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[llm-wiki]]
+  - wiki/log.md → [[llm-wiki]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[llm-wiki]]
+  - wiki/log.md → [[slug]]
+  - wiki/log.md → [[Display Text]]
+  - wiki/log.md → [[Page Name]]
+  - wiki/log.md → [[obsidian-cli-skill\]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[llm-wiki]]
+  - wiki/log.md → [[llm-wiki]]
+  - wiki/log.md → [[slug]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[llm-wiki]]
+  - wiki/log.md → [[slug]]
+  - wiki/log.md → [[Display Text]]
+  - wiki/log.md → [[Page Name]]
+  - wiki/log.md → [[obsidian-cli-skill\]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[llm-wiki]]
+  - wiki/log.md → [[llm-wiki]]
+  - wiki/log.md → [[page-slug]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[llm-wiki]]
+  - wiki/log.md → [[slug]]
+  - wiki/log.md → [[Display Text]]
+  - wiki/log.md → [[Page Name]]
+  - wiki/log.md → [[obsidian-cli-skill\]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[llm-wiki]]
+  - wiki/log.md → [[llm-wiki]]
+  - wiki/log.md → [[slug]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[llm-wiki]]
+  - wiki/log.md → [[slug]]
+  - wiki/log.md → [[Display Text]]
+  - wiki/log.md → [[Page Name]]
+  - wiki/log.md → [[obsidian-cli-skill\]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[llm-wiki]]
+  - wiki/log.md → [[llm-wiki]]
+  - wiki/log.md → [[page-slug]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/log.md → [[wikilinks]]
+  - wiki/synthesis/synapse-llm-wiki-operating-guide.md → [[page-slug]]
+  - wiki/synthesis/synapse-retrieval-architecture.md → [[wikilinks]]
+  - wiki/synthesis/synapse-retrieval-architecture.md → [[wikilinks]]
+**Non-reciprocal links** (4) — A links to B but B doesn't link back:
+  - [[graphrag]] → [[persistent-knowledge-compilation]] (no return link)
+  - [[obsidian-skills-repo]] → [[project-synapse]] (no return link)
+  - [[design-thinking]] → [[persistent-knowledge-compilation]] (no return link)
+  - [[design-thinking]] → [[memex]] (no return link)

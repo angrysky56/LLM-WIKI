@@ -25,3 +25,10 @@ The part Bush couldn't solve was **who does the maintenance**. The LLM handles t
 ## Key Difference from the Web
 
 Bush envisioned something closer to a personal wiki than a public search engine. The web became public and link-driven; the Memex was private and trail-driven. This wiki system is closer to Bush's original idea.
+
+## Connections
+
+- [[llm-wiki-pattern]] — the direct contemporary implementation of Bush's idea
+- [[persistent-knowledge-compilation]] — the paradigm that finally solves Bush's maintenance problem
+- [[andrej-karpathy]] — explicitly drew the line from Memex to the LLM wiki pattern
+- [[design-thinking]] — Bush imagined associative trails through prior art and analogs — exactly the research phase (steps 2–3) of design thinking

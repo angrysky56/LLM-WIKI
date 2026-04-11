@@ -1,0 +1,48 @@
+filters:
+  and:
+    - file.inFolder("Clippings")
+    - 'file.ext == "md"'
+
+formulas:
+  type: >-
+    if(file.inFolder("Clippings/papers"), "📄 paper",
+    if(file.inFolder("Clippings/articles"), "📰 article",
+    if(file.inFolder("Clippings/documentation"), "📖 documentation",
+    if(file.inFolder("Clippings/repositories"), "💾 repository",
+    "❓ unknown"))))
+  age_days: '(now() - file.ctime).days.round(0)'
+  source_url: 'if(source, source, "—")'
+
+properties:
+  formula.type:
+    displayName: "Type"
+  formula.source_url:
+    displayName: "Source"
+  formula.age_days:
+    displayName: "Days ago"
+  file.ctime:
+    displayName: "Added"
+
+views:
+  - type: table
+    name: "All Clippings"
+    order:
+      - file.name
+      - formula.type
+      - formula.source_url
+      - formula.age_days
+      - file.ctime
+    groupBy:
+      property: formula.type
+      direction: ASC
+
+  - type: table
+    name: "Recent (30 days)"
+    filters:
+      and:
+        - 'formula.age_days <= 30'
+    order:
+      - file.name
+      - formula.type
+      - formula.source_url
+      - file.ctime

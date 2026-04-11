@@ -26,3 +26,10 @@ Graph database used as the knowledge backbone of [[Project Synapse]].
 ## Version
 
 Running Neo4j 2026.x with Cypher 25 syntax. Local embeddings via sentence-transformers or Ollama — no paid API keys required.
+
+## Connections
+
+- [[project-synapse]] — the MCP server using this as its graph backend
+- [[obsidian]] — the human-readable layer sitting above this graph layer
+- [[zettelkasten-engine]] — runs pattern detection directly over this graph
+- [[graphrag]] — the retrieval paradigm implemented using this database

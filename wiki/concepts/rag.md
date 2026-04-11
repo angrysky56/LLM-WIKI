@@ -34,6 +34,13 @@ A pattern where an LLM retrieves relevant document chunks from a vector store at
 
 ## Alternatives
 
-- [[Persistent Knowledge Compilation|wiki/concepts/persistent-knowledge-compilation]] — compile knowledge ahead of time
-- [[GraphRAG]] — combine vector search with graph traversal for richer context
-- Hybrid approaches (e.g. [[Project Synapse]]) that use RAG as a routing layer into a pre-compiled knowledge graph
+- [[persistent-knowledge-compilation]] — compile knowledge ahead of time
+- [[graphrag]] — combine vector search with graph traversal for richer context
+- [[project-synapse]] — hybrid implementation using RAG as a routing layer into a pre-compiled knowledge graph
+
+## Connections
+
+- [[andrej-karpathy]] — explicitly proposed the LLM wiki pattern as an alternative to RAG's statelessness
+- [[project-synapse]] — the system in this wiki that supersedes naive RAG
+- [[graphrag]] — the graph-augmented extension of RAG
+- [[persistent-knowledge-compilation]] — the paradigm that replaces RAG's interpret-on-every-run model

@@ -28,11 +28,21 @@ Rather than re-deriving answers from raw documents on every query (RAG), an LLM 
 
 ## Implementations
 
-- [[LLM Wiki Pattern|wiki/sources/llm-wiki-pattern]] — Karpathy's file-system-only approach
-- [[Project Synapse]] — graph-backed implementation with Neo4j + vector search
+- [[llm-wiki-pattern]] — Karpathy's file-system-only approach
+- [[project-synapse]] — graph-backed implementation with Neo4j + vector search
 
 ## Open Questions
 
 - At what scale does compilation cost exceed query-time RAG cost?
 - How to handle contradictions between sources without human arbitration?
 - Can compilation be made incremental enough to be real-time?
+
+## Connections
+
+- [[rag]] — the stateless alternative this paradigm replaces
+- [[project-synapse]] — the primary implementation in this system
+- [[memex]] — Bush's 1945 vision as intellectual ancestor
+- [[andrej-karpathy]] — articulated this paradigm for LLMs
+- [[edm-framework]] — disruptive papers are OOD events that break pre-compiled knowledge bases; the disruption score signals when compilation needs updating
+- [[graphrag]] — complementary: GraphRAG retrieves from the graph; compilation pre-synthesises into it
+- [[design-thinking]] — front-end design research (steps 1–6) is a strong candidate for compilation rather than re-derivation per query

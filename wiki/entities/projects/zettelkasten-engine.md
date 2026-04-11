@@ -27,3 +27,9 @@ Based on Niklas Luhmann's Zettelkasten method:
 ## Integration
 
 Insights are stored as `Zettel` nodes in Neo4j with vector embeddings, enabling semantic search over generated hypotheses — not just raw facts.
+
+## Connections
+
+- [[project-synapse]] — the system this engine lives inside
+- [[neo4j]] — the graph database this engine runs pattern detection over
+- [[edm-framework]] — EDM's disruption score is applicable as a curation signal: high-distance insight nodes signal novel (disruptive) patterns worth surfacing

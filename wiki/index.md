@@ -1,35 +1,35 @@
 ---
-updated: 2026-04-11T05:05:01Z
+updated: 2026-04-11T07:12:15Z
 type: index
 ---
 
 # Wiki Index
 
 - [[concept-index]] — Conceptual index — maps ideas to pages by meaning rather than structure; complement to the structural TOC in index.md
-- [[causal-state-edm-ood-isomorphism]] — Synthesis connecting epsilon machine causal states to EDM citation vectors — disruptive papers as OOD state-splitting events, simultaneous discoveries as causal state convergence, with LLM hallucination detection implications
 - [[design-thinking]] — Human-centered innovation framework — structured process from need identification through verification, with leverage concentrated in the often-neglected front-end phases
 - [[graphrag]] — RAG enhanced with graph traversal for richer context beyond vector similarity
 - [[memex]] — Vannevar Bush's 1945 vision of a personal associative knowledge device
 - [[para-methodology]] — Tiago Forte's PARA framework — actionability-based universal information organization (Projects, Areas, Resources, Archives)
 - [[persistent-knowledge-compilation]] — Paradigm of LLM pre-compiling knowledge into persistent structured bases vs stateless RAG
 - [[rag]] — Retrieval-Augmented Generation — the standard stateless document Q&A pattern
-- [[synapse-llm-wiki-operating-guide]] — Agent operating instructions for the Synapse + LLM-WIKI system — tool decision logic, content lifecycle, ingest and fetch workflows, writing conventions
-- [[synapse-retrieval-architecture]] — Four-stage query_knowledge pipeline: entity graph seeding → RRF hybrid search → wikilink expansion → Zettelkasten insights
 - [[tag-taxonomy]] — Controlled vocabulary for wiki tags — preferred terms with USE/UF equivalence, BT/NT hierarchy, and RT associative relationships
-- [[wiki-indexing-theory]] — IR and indexing theory applied to LLM-WIKI: TOC vs conceptual index, controlled vocabulary, thesaurus relationships, HITS on wikilinks, mere mentions, and GAAC clustering for wiki health
-- [[alphaevolve]] — Google DeepMind's evolutionary coding agent — discovered novel algorithms surpassing decades-old human solutions via LLM mutation and automated evaluation
 - [[andrej-karpathy]] — AI researcher, author of the LLM Wiki pattern
+- [[alphaevolve]] — Google DeepMind's evolutionary coding agent — discovered novel algorithms surpassing decades-old human solutions via LLM mutation and automated evaluation
+- [[project-synapse]] — Graph-backed MCP server providing semantic search, knowledge synthesis, and wiki bridge
+- [[zettelkasten-engine]] — Autonomous pattern detection and insight synthesis engine within Project Synapse
 - [[edm-framework]] — Embedding Disruptiveness Measure — Kim, Kojaku & Ahn (2026) — directional skip-gram on citation networks yielding past/future vectors whose cosine distance quantifies scientific disruption
 - [[neo4j]] — Graph database providing vector search, fulltext indexing, and relationship traversal
 - [[obsidian-skills-repo]] — kepano's agent skill definitions for Obsidian — markdown, bases, canvas, CLI, and defuddle web extraction
 - [[obsidian]] — Markdown knowledge app — the human-readable frontend for the wiki
-- [[project-synapse]] — Graph-backed MCP server providing semantic search, knowledge synthesis, and wiki bridge
-- [[zettelkasten-engine]] — Autonomous pattern detection and insight synthesis engine within Project Synapse
 - [[design-thinking-mit]] — MIT Professional Education overview of the 10-step design thinking framework by Blade Kotelly
-- [[kim-ahn-edm-2026]] — Kim, Kojaku & Ahn (Science Advances 2026) — introduces EDM embedding-based disruption metric; outperforms CD index; detects simultaneous discoveries via future vector nearest-neighbor clustering
 - [[llm-wiki-pattern]] — Karpathy's pattern for LLM-maintained persistent Markdown knowledge bases
 - [[momoa-researcher]] — Google Labs agentic research scientist using Mixture of Mixture of Agents
+- [[product-canvas]] — Google Labs multiplayer brainstorming canvas with AI voice agent and wiki knowledge editor
 - [[obsidian-cli-skill]] — kepano's Obsidian CLI agent skill — command reference for reading, writing, searching, and managing Obsidian vaults from the terminal
 - [[obsidian-git-setup]] — Setup guide for the Obsidian Git community plugin (desktop and mobile)
 - [[obsidian-para-byarbrough]] — byarbrough's Obsidian PARA template — Tiago Forte's 4-category knowledge organization system implemented in Obsidian
-- [[product-canvas]] — Google Labs multiplayer brainstorming canvas with AI voice agent and wiki knowledge editor
+- [[kim-ahn-edm-2026]] — Kim, Kojaku & Ahn (Science Advances 2026) — introduces EDM embedding-based disruption metric; outperforms CD index; detects simultaneous discoveries via future vector nearest-neighbor clustering
+- [[causal-state-edm-ood-isomorphism]] — Synthesis connecting epsilon machine causal states to EDM citation vectors — disruptive papers as OOD state-splitting events, simultaneous discoveries as causal state convergence, with LLM hallucination detection implications
+- [[synapse-llm-wiki-operating-guide]] — Agent operating instructions for the Synapse + LLM-WIKI system — tool decision logic, content lifecycle, ingest and fetch workflows, writing conventions
+- [[synapse-retrieval-architecture]] — Four-stage query_knowledge pipeline: entity graph seeding → RRF hybrid search → wikilink expansion → Zettelkasten insights
+- [[wiki-indexing-theory]] — IR and indexing theory applied to LLM-WIKI: TOC vs conceptual index, controlled vocabulary, thesaurus relationships, HITS on wikilinks, mere mentions, and GAAC clustering for wiki health

@@ -42,5 +42,6 @@ Organize by **when you'll need it**, not **what it is**. A note about nutrition 
 ## Connections
 
 - [[obsidian-para-byarbrough]] — source template
-- [[design-thinking-mit]] — design projects map naturally onto PARA Projects/Areas
+- [[obsidian]] — the tool this is implemented in for this vault
+- [[design-thinking]] — design projects map naturally onto PARA's Projects/Areas split
 - [[llm-wiki-pattern]] — wiki pattern as alternative/complement to PARA for AI-persistent knowledge

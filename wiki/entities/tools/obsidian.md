@@ -31,5 +31,8 @@ From [[andrej-karpathy]]: "Obsidian is the IDE; the LLM is the programmer; the w
 ## Connections
 
 - [[neo4j]] — graph backend; Obsidian is the human-readable complement
-- [[para-methodology]] — organizational philosophy applicable to vault structure
-- [[obsidian-cli-skill]] — programmatic access to running Obsidian instance
+- [[project-synapse]] — the MCP server bridging this vault to the graph
+- [[para-methodology]] — organizational philosophy implemented via frontmatter status
+- [[andrej-karpathy]] — coined the "Obsidian is the IDE" framing for this system
+- [[obsidian-skills-repo]] — agent skill definitions for working with Obsidian formats
+- [[obsidian-cli-skill]] — programmatic access to a running Obsidian instance

@@ -1,6 +1,6 @@
 ---
 summary: Kim, Kojaku & Ahn (Science Advances 2026) — introduces EDM embedding-based disruption metric; outperforms CD index; detects simultaneous discoveries via future vector nearest-neighbor clustering
-tags: [EDM, disruption, citation-network, simultaneous-discovery, scientometrics, science-advances, 2026]
+tags: [EDM, disruption, citation-network, simultaneous-discovery, science-of-science, science-advances, 2026]
 updated: 2026-04-11T00:47:00Z
 ---
 

@@ -45,3 +45,13 @@ Raw Source → Semantic Pipeline → Neo4j (entities, facts, embeddings)
 - `query_knowledge` — vector semantic search over the graph
 - `explore_connections` — graph traversal for hidden relationships
 - `wiki_lint` — health check for orphans, broken links, missing frontmatter
+
+## Connections
+
+- [[neo4j]] — the graph/vector storage layer
+- [[obsidian]] — the human-readable wiki output layer
+- [[zettelkasten-engine]] — the autonomous insight synthesis component
+- [[rag]] — the stateless baseline this system supersedes
+- [[graphrag]] — the graph-retrieval paradigm this implements
+- [[persistent-knowledge-compilation]] — the core architectural philosophy
+- [[llm-wiki-pattern]] — the Karpathy pattern this extends

@@ -15,7 +15,7 @@ A private, mechanized library where an individual stores all their books, record
 
 ## Why It Matters Here
 
-Bush's vision is the intellectual ancestor of the [[LLM Wiki Pattern|wiki/sources/llm-wiki-pattern]]:
+Bush's vision is the intellectual ancestor of the [[llm-wiki-pattern|LLM Wiki Pattern]]:
 - Private, actively curated knowledge store
 - Connections between documents as valuable as the documents themselves
 - Associative trails ≈ wikilinks + graph relationships

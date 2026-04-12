@@ -11,10 +11,14 @@
             "id": "59469fa690a78f0a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "wiki/entities/tools/neo4j.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "neo4j"
             }
           }
         ]
@@ -192,12 +196,22 @@
   },
   "active": "59469fa690a78f0a",
   "lastOpenFiles": [
+    "raw/Electrons in moiré crystals explore higher-dimensional quantum worlds.md",
+    "wiki/sources/articles/hilbert-hotel-graph-architecture.md",
+    "raw/You said  Ha, this is from Gemma5 e2b  How would....md",
+    "Clippings/articles/2026/You said  Ha, this is from Gemma5 e2b  How would....md",
+    "wiki/concepts/edm-framework.md",
+    "wiki/sources/repositories/product-canvas.md",
+    "raw/opendataloader-projectopendataloader-pdf PDF Parser for AI-ready data. Automate PDF accessibility. Open-source..md",
+    "raw/The Price Is Not Right Neuro-Symbolic Methods Outperform VLAs on Structured Long-Horizon Manipulation Tasks with Significantly Lower Energy Consumption.md",
+    "raw/Untitled.md",
+    "raw/glm-ocr.md",
+    "wiki/synthesis/synapse-llm-wiki-operating-guide.md",
+    "wiki/synthesis/causal-state-edm-ood-isomorphism.md",
     "clippings-archive.base",
     "wiki/concepts/causal-state-edm-ood-isomorphism.md",
-    "wiki/synthesis/synapse-llm-wiki-operating-guide.md",
     "wiki/synthesis/synapse-retrieval-architecture.md",
     "wiki/synthesis/wiki-indexing-theory.md",
-    "wiki/synthesis/causal-state-edm-ood-isomorphism.md",
     "wiki/entities/projects/zettelkasten-engine.md",
     "wiki/entities/projects/project-synapse.md",
     "wiki/entities/projects/alphaevolve.md",
@@ -209,15 +223,6 @@
     "wiki/sources/documentation/obsidian-cli-skill.md",
     "wiki/sources/documentation/obsidian-git-setup.md",
     "wiki/sources/documentation/obsidian-para-byarbrough.md",
-    "wiki/sources/articles/design-thinking-mit.md",
-    "wiki/sources/articles/product-canvas.md",
-    "wiki/sources/articles/momoa-researcher.md",
-    "wiki/sources/articles/llm-wiki-pattern.md",
-    "wiki/sources/papers/kim-ahn-edm-2026.md",
-    "Clippings/articles/2026/llm-wiki.md",
-    "Clippings/articles/2026/You said  This is an organisational concept that ....md",
-    "Clippings/articles/2026/The 10 Steps to Design Thinking.md",
-    "Clippings/articles/2026/MoMoA Researcher – code.md",
     "wiki/synthesis",
     "wiki/entities/projects",
     "wiki/entities/people",
@@ -226,7 +231,6 @@
     "wiki/sources/documentation",
     "wiki/sources/articles",
     "wiki/sources/papers",
-    "Clippings/repositories/2026",
-    "Clippings/repositories"
+    "Clippings/repositories/2026"
   ]
 }

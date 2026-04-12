@@ -1,7 +1,10 @@
 ---
 summary: Google Labs multiplayer brainstorming canvas with AI voice agent and wiki knowledge editor
 tags: [collaboration, AI, brainstorming, Google, canvas]
-updated: 2026-04-07T22:32:36Z
+type: source
+sources: https://github.com/romannurik/ProductCanvas-Experiment
+status: reference
+updated: 2026-04-11T00:00:00Z
 created: 2026-04-07T22:32:36Z
 ---
 
@@ -26,6 +29,6 @@ A multiplayer collaborative canvas for product brainstorming, combining real-tim
 
 ## Relevance to This Wiki
 
-Demonstrates the convergence of real-time collaboration + AI + persistent knowledge (wiki editor). The "wiki-style project knowledge editor" component is exactly the pattern described in [[Persistent Knowledge Compilation|wiki/concepts/persistent-knowledge-compilation]] — a persistent artifact that accumulates project context.
+Demonstrates the convergence of real-time collaboration + AI + persistent knowledge (wiki editor). The "wiki-style project knowledge editor" component is exactly the pattern described in [[persistent-knowledge-compilation|Persistent Knowledge Compilation]] — a persistent artifact that accumulates project context.
 
-This is what a team-facing version of the [[LLM Wiki Pattern|wiki/sources/llm-wiki-pattern]] could look like: multiplayer, visual, with AI agents participating alongside humans.
+This is what a team-facing version of the [[llm-wiki-pattern|LLM Wiki Pattern]] could look like: multiplayer, visual, with AI agents participating alongside humans.

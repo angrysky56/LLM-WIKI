@@ -139,4 +139,5 @@ Run GAAC on page embeddings to find natural topic clusters. Flag similar pages a
 - [[zettelkasten-engine]] — where clustering and HITS scoring should be implemented
 - [[project-synapse]] — the system being improved
 - [[llm-wiki-pattern]] — the base pattern this extends
+- [[concept-index]] — the conceptual index this theory informed
 - [[edm-framework]] — parallel: EDM's future vectors as a citation PageRank analogue

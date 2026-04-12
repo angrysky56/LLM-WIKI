@@ -155,12 +155,13 @@ confidence: 0.0–1.0
 
 ## Wikilink Rules
 
-Filenames are lowercase-hyphen slugs. Wikilinks must match exactly:
-- `[[neo4j]]` → `wiki/entities/neo4j.md` ✓
+Filenames are lowercase-hyphen slugs. Wikilinks resolve case-insensitively in Obsidian, but prefer lowercase slugs for consistency:
+- `[[neo4j]]` → `wiki/entities/neo4j.md` ✓ (preferred)
+- `[[Neo4j]]` → also resolves ✓ (acceptable)
 - `[[design-thinking]]` → `wiki/concepts/design-thinking.md` ✓
-- `[[Neo4j]]` → **broken — wrong casing** ✗
 
 For display text: `[[page-slug|Display Text]]`  
+Never use full paths in wikilinks: `[[slug|Display]]` ✓ / `[[Display|wiki/path/slug]]` ✗  
 Never write wikilink syntax inside backtick code spans — the linter will still parse it as a link.
 
 ---

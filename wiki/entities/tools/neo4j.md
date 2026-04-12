@@ -33,3 +33,4 @@ Running Neo4j 2026.x with Cypher 25 syntax. Local embeddings via sentence-transf
 - [[obsidian]] — the human-readable layer sitting above this graph layer
 - [[zettelkasten-engine]] — runs pattern detection directly over this graph
 - [[graphrag]] — the retrieval paradigm implemented using this database
+- [[hilbert-hotel-graph-architecture]] — thought experiment: immutable nodes + lazy offset protocols for infinite graph operations

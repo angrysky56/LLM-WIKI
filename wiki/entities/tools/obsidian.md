@@ -36,3 +36,4 @@ From [[andrej-karpathy]]: "Obsidian is the IDE; the LLM is the programmer; the w
 - [[andrej-karpathy]] — coined the "Obsidian is the IDE" framing for this system
 - [[obsidian-skills-repo]] — agent skill definitions for working with Obsidian formats
 - [[obsidian-cli-skill]] — programmatic access to a running Obsidian instance
+- [[obsidian-git-setup]] — setup guide for the Git community plugin syncing this vault

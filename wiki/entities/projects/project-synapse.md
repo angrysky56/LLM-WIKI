@@ -19,7 +19,7 @@ An MCP server that combines:
 
 ## Role in This Wiki
 
-Project Synapse solves the scaling limitations of the [[LLM Wiki Pattern|wiki/sources/llm-wiki-pattern]]:
+Project Synapse solves the scaling limitations of the [[llm-wiki-pattern|LLM Wiki Pattern]]:
 
 | Karpathy Pattern | Project Synapse |
 |---|---|
@@ -55,3 +55,4 @@ Raw Source → Semantic Pipeline → Neo4j (entities, facts, embeddings)
 - [[graphrag]] — the graph-retrieval paradigm this implements
 - [[persistent-knowledge-compilation]] — the core architectural philosophy
 - [[llm-wiki-pattern]] — the Karpathy pattern this extends
+- [[obsidian-skills-repo]] — agent skill definitions including defuddle for web content cleaning

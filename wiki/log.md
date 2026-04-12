@@ -652,3 +652,47 @@ Index updated with 30 pages
   - [[obsidian-skills-repo]] → [[project-synapse]] (no return link)
   - [[design-thinking]] → [[persistent-knowledge-compilation]] (no return link)
   - [[design-thinking]] → [[memex]] (no return link)
+
+## [2026-04-12 05:59] index
+
+Index updated with 30 pages
+
+## [2026-04-12 05:59] lint
+
+🩺 **Wiki Health Check** — 30 pages
+
+**Orphans** (2):
+  - obsidian-git-setup
+  - concept-index
+**Broken links** (5):
+  - wiki/synthesis/synapse-llm-wiki-operating-guide.md → [[page-slug]]
+  - wiki/synthesis/synapse-llm-wiki-operating-guide.md → [[slug]]
+  - wiki/synthesis/synapse-llm-wiki-operating-guide.md → [[Display]]
+  - wiki/synthesis/synapse-retrieval-architecture.md → [[wikilinks]]
+  - wiki/synthesis/synapse-retrieval-architecture.md → [[wikilinks]]
+**Non-reciprocal links** (1) — A links to B but B doesn't link back:
+  - [[obsidian-skills-repo]] → [[project-synapse]] (no return link)
+
+## [2026-04-12 06:03] index
+
+Index updated with 30 pages
+
+## [2026-04-12 06:21] ingest | You said  Ha, this is from Gemma5 e2b  How would....md
+
+Ingested raw/You said  Ha, this is from Gemma5 e2b  How would....md into knowledge graph.
+
+Preview: **You**  Ha, this is from Gemma5 e2b:  How would you design the Hilbert Hotel's Guestbook?  Thinking...  Here's a thinking process that leads to the suggested design:  1\. \*\*Deconstruct the Request:...
+
+## [2026-04-12 06:22] write
+
+Updated page: wiki/sources/articles/hilbert-hotel-graph-architecture.md
+
+## [2026-04-12 06:22] index
+
+Index updated with 31 pages
+
+## [2026-04-12 06:23] lint
+
+🩺 **Wiki Health Check** — 31 pages
+
+✅ All clear — no issues found.

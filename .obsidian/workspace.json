@@ -194,8 +194,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fb4e959506b497a2",
+  "active": "2ab9c987c297f7a1",
   "lastOpenFiles": [
+    "wiki/entities/projects/efhf.md",
     "wiki/concepts/maximum-occupancy-principle.md",
     "wiki/concepts/edm-framework.md",
     "wiki/sources/articles/prd-ralph-loop-mop-gemini.md",
@@ -222,7 +223,6 @@
     "raw/glm-ocr.md",
     "wiki/synthesis/causal-state-edm-ood-isomorphism.md",
     "clippings-archive.base",
-    "wiki/concepts/causal-state-edm-ood-isomorphism.md",
     "wiki/synthesis",
     "wiki/entities/projects",
     "wiki/entities/people",

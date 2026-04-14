@@ -1,5 +1,5 @@
 ---
-updated: 2026-04-14T00:38:29Z
+updated: 2026-04-14T01:09:15Z
 type: index
 ---
 
@@ -34,7 +34,7 @@ type: index
 - [[ramirez-ruiz-mop-2024]] — Ramírez-Ruiz et al. (Nature Communications 2024) — Maximum Occupancy Principle: agents maximize future action-state path entropy instead of extrinsic reward, producing complex goal-directed behavior from intrinsic motivation alone
 - [[product-canvas]] — Google Labs multiplayer brainstorming canvas with AI voice agent and wiki knowledge editor
 - [[causal-state-edm-ood-isomorphism]] — Synthesis connecting epsilon machine causal states to EDM citation vectors — disruptive papers as OOD state-splitting events, simultaneous discoveries as causal state convergence, with LLM hallucination detection implications
-- [[mop-edm-cognitive-architecture]] — Synthesis applying Maximum Occupancy Principle + EDM disruption measurement to AI cognitive architecture — three implementation levels from inference-time guidance to attention-level mechanisms, with epistemic energy, absorbing states, and hallucination detection
+- [[mop-edm-cognitive-architecture]] — Synthesis applying Maximum Occupancy Principle + EDM disruption measurement to AI cognitive architecture — three implementation levels, KL regularization critique, mcp-logic integration, epistemic energy, and coherent complexity growth
 - [[synapse-llm-wiki-operating-guide]] — Agent operating instructions for the Synapse + LLM-WIKI system — tool decision logic, content lifecycle, ingest and fetch workflows, writing conventions
 - [[synapse-retrieval-architecture]] — Four-stage query_knowledge pipeline: entity graph seeding → RRF hybrid search → wikilink expansion → Zettelkasten insights
 - [[wiki-indexing-theory]] — IR and indexing theory applied to LLM-WIKI: TOC vs conceptual index, controlled vocabulary, thesaurus relationships, HITS on wikilinks, mere mentions, and GAAC clustering for wiki health

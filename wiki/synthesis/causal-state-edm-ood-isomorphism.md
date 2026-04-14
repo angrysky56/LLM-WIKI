@@ -1,14 +1,14 @@
 ---
-summary: Synthesis connecting epsilon machine causal states to EDM citation vectors — disruptive papers as OOD state-splitting events, simultaneous discoveries as causal state convergence, with LLM hallucination detection implications
-tags: [computational-mechanics, epsilon-machine, EDM, OOD, citation-networks, disruption, hallucination-detection, synthesis, lumpability, simultaneous-discovery]
-updated: 2026-04-11T00:27:03Z
+summary: Epsilon machine causal states ↔ EDM citation vectors — disruptive papers as OOD state-splitting events; connected to MOP (β = state-splitting appetite) and EFHF (hallucination = lumpability failure)
+tags: [computational-mechanics, epsilon-machine, EDM, OOD, citation-networks, disruption, hallucination-detection, synthesis, lumpability, simultaneous-discovery, MOP, EFHF]
+updated: 2026-04-14T04:13:57Z
 ---
 
 # Causal State Isomorphism: Epsilon Machines, EDM, and OOD Detection
 
-**Type:** Synthesis  
-**Origin:** Ty (original cross-domain insight, 2026-04-10)  
-**Source paper:** [[edm-framework]] — Kim, Kojaku & Ahn, *Science Advances* 2026  
+**Type:** Synthesis
+**Origin:** Ty (original cross-domain insight, 2026-04-10)
+**Source paper:** [[edm-framework]] — Kim, Kojaku & Ahn, *Science Advances* 2026
 **Confidence:** 0.88 — structural analogy confirmed by paper's formal derivation; LLM application section remains speculative
 
 ---
@@ -28,95 +28,85 @@ An epsilon machine finds the minimal, optimal predictive model of a stochastic p
 - **State splitting**: When an observation breaks the existing state structure (a past no longer predicts the expected future), the machine must mint a new causal state.
 
 ### EDM (Embedding Disruptiveness Measure)
-Directional skip-gram trained on citation networks. The formal objective aligns:
-- $p_i$ (past vector) with the **mean future vector of antecedent papers** $\sum_{j \in A_c(i)} f_j / |A_c(i)|$
-- $f_i$ (future vector) with the **mean past vector of descendant papers** $\sum_{k \in D_c(i)} p_k / |D_c(i)|$
-
-The disruption score $\Delta_i = 1 - (f_i \cdot p_i)/(|f_i||p_i|)$ formally approximates the **lack of reliance of descendants on antecedents** — i.e., how much the citation trajectory has been redirected.
+Directional skip-gram trained on citation networks. The disruption score $\Delta_i = 1 - (f_i \cdot p_i)/(|f_i||p_i|)$ formally approximates the **lack of reliance of descendants on antecedents** — how much the citation trajectory has been redirected.
 
 ---
 
 ## The Isomorphism (Confirmed by Paper's Derivation)
 
 | Epsilon Machine | EDM / Citation Network |
-|----------------|----------------------|
-| Causal state | Research trajectory cluster (papers sharing past→future mapping) |
-| Lumpable history | Consolidating paper — past predicts future, low $\Delta$ |
-| State-splitting event | Disruptive paper — past no longer predicts future, high $\Delta$ |
-| Conditional distribution over futures | Future vector $f_i$ (mean direction of descendant embedding cluster) |
+|---|---|
+| Causal state | Research trajectory cluster |
+| Lumpable history | Consolidating paper — low Δ |
+| State-splitting event | Disruptive paper — high Δ |
+| Conditional distribution over futures | Future vector $f_i$ |
 | OOD observation | Large cosine gap between $p_i$ and $f_i$ |
 
-The paper's derivation explicitly shows that $\Delta_i$ increases as $\sum_{j \in A_c(i)} \sum_{k \in D_c(i)} \log \Pr(j|k)$ decreases — the cross-log-probability between antecedents and descendants. This is precisely the quantity an epsilon machine would use to determine whether a past state still predicts the future state.
-
-**A consolidating paper is in-distribution** with respect to the field's current epsilon machine. A disruptive paper is an OOD event that forces state-splitting.
+A consolidating paper is in-distribution with respect to the field's current epsilon machine. A disruptive paper is an OOD event that forces state-splitting.
 
 ---
 
-## New Implication: Simultaneous Discoveries as Causal State Merging
+## Three Categories of Discovery
 
-The paper reveals a striking phenomenon: simultaneous discovery papers (independent papers reporting the same breakthrough) have **nearly identical future vectors** — they cluster as nearest neighbors in the embedding space. Of 80 high-citation candidate pairs, 80% were confirmed simultaneous discoveries.
-
-In epsilon machine terms, this is the **inverse of state-splitting**. Simultaneous discoveries represent two papers that, despite different citation histories (different past vectors), redirect the field to the **same future causal state**. Their future vectors converge because they're cited in the same conceptual contexts.
-
-This suggests a third category beyond disruption/consolidation:
-- **Consolidating** (low $\Delta$): fits existing causal state
-- **Disruptive** (high $\Delta$): creates new causal state  
-- **Convergent** (simultaneous discovery): multiple paths to same new causal state
+- **Consolidating** (low Δ): fits existing causal state
+- **Disruptive** (high Δ): creates new causal state
+- **Convergent** (simultaneous discovery): multiple paths to same new causal state — identical future vectors despite different past vectors
 
 ---
 
-## Implication: Information-Theoretic Disruption Score
+## Connection to MOP and EFHF
 
-$\Delta_i$ is not just a heuristic. It approximates the **statistical complexity cost** of the transition between the field's causal states induced by paper $i$. High disruption = high state-transition cost = high new causal information introduced into the system.
+This synthesis is the theoretical bridge connecting three frameworks:
 
-This provides a path to grounding EDM in formal computational mechanics measures (excess entropy, crypticity) rather than keeping it a purely empirical metric.
+**MOP's β parameter = state-splitting appetite.** When a [[maximum-occupancy-principle]] agent seeks high state entropy (β), it intentionally hunts for state-splitting events — discoveries that force the conceptual epsilon machine to grow. Each genuine high-Δ event increases the statistical complexity (excess entropy) of the world model. MOP selects for *coherent* complexity growth because absorbing states (contradictions) are terminal. See [[mop-edm-cognitive-architecture]] for the full synthesis.
+
+**EFHF's lumpability = controlled disruption.** The [[efhf]] architecture defines hallucination as lumpability failure — the model's macro-level predictions no longer commute with micro-level reality. This is the *same phenomenon* as uncontrolled high-Δ disruption in EDM terms, and as entering absorbing state territory without energy to return in MOP terms. The sheaf-consistency-enforcer detects this via coboundary norms between agents.
+
+**Formally verified (Prover9):** MOP absorbing states → EFHF Kernel 2 transitions → zero future entropy → zero future causal states. The chain is logically proved.
 
 ---
 
 ## Implication: LLM OOD Detection (Speculative)
 
-**Hypothesis:** Apply the past/future vector framework to LLM generation to detect hallucination and OOD trajectories in real time.
+Apply past/future vector framework to LLM generation for real-time hallucination detection:
+- **Past vector** ≈ context representation
+- **Future vector** ≈ generation trajectory representation
+- **Disruption signal** = cosine distance per step
 
-**Mechanism:**
-- **Past vector** ≈ compressed representation of the context window / prompt
-- **Future vector** ≈ representation of generated tokens / attended states
-- **Disruption signal** = cosine distance at each generation step
+Spike without grounded return path = hallucination (uncontrolled disruption). The EFHF L3-L5 stack (mcp-logic → sheaf-enforcer) provides the formal verification to distinguish controlled exploration from hallucinated leaps.
 
-A spike in this distance would flag that generation is producing a trajectory that **escapes the model's lumped training distribution** — structurally identical to a disruptive paper breaking the lumpability of a citation network.
-
-**The simultaneous discovery finding adds a new prediction:** if two "simultaneous hallucinations" occur (the model generates the same confabulation in two different contexts), they should have similar future vectors in the model's latent space, even if their prompts (past vectors) differ substantially. This could be a fingerprint for systematic, repeatable hallucination patterns — distinct from random OOD noise.
-
-**Caveats:**
-- Mapping attention/hidden states to "past" and "future" vectors is non-trivial for decoder-only architectures
-- Cosine distance in embedding space ≠ causal state distance without further formalization
-- Requires empirical validation
+**Simultaneous hallucination fingerprint:** If two different prompts produce the same confabulation with similar future vectors, this identifies systematic confabulation patterns distinct from random noise.
 
 ---
 
-## Implication: Zettelkasten Curation Signal
+## Zettelkasten Curation Signal
 
-Within [[project-synapse]]'s [[zettelkasten-engine]], this framework suggests a principled curation heuristic:
-
-- **Low $\Delta$** between a new insight node and existing graph → consolidating, potentially redundant → deprioritize
-- **High $\Delta$** → disruptive insight, new causal state → flag for attention, create new concept page
-- **Convergent future vectors** between two separate insight nodes → simultaneous discovery pattern → consider merging or explicitly linking as "same causal state reached by different paths"
+Within [[project-synapse]]'s [[zettelkasten-engine]]:
+- **Low Δ** → consolidating, potentially redundant → deprioritize
+- **High Δ** → disruptive insight, new causal state → flag for attention
+- **Convergent future vectors** → simultaneous discovery pattern → merge or link
+- **MOP guides which regions to explore next** → prefer high-entropy graph neighborhoods
 
 ---
 
 ## Open Questions (Updated)
 
-1. ~~Can the disruption score be grounded in computational mechanics?~~ **Partially answered:** the formal derivation confirms the cross-log-probability interpretation. Full connection to excess entropy/crypticity remains to do.
-2. Is the cosine distance monotonically related to state-splitting cost in the corresponding epsilon machine? (Still open — would require constructing the explicit epsilon machine for a citation subgraph)
-3. For LLMs: which internal representation best serves as the "past vector"? KV cache? Final hidden state? Attention entropy?
-4. Can the "convergent future vectors" fingerprint (simultaneous discovery detection) be used to identify **systematic LLM confabulation patterns** across different prompts?
-5. Does the simultaneous discovery phenomenon in science have an analog in knowledge compilation — i.e., do independently-derived wiki synthesis pages with similar content indicate a "ripe" concept worth a dedicated page?
+1. ~~Can the disruption score be grounded in computational mechanics?~~ **Partially answered.** Cross-log-probability interpretation confirmed. Full connection to excess entropy remains open.
+2. Is cosine distance monotonically related to state-splitting cost? (Requires constructing explicit epsilon machine for a subgraph.)
+3. For LLMs: which internal representation serves as past/future vector? KV cache? Hidden state? Attention?
+4. Can convergent future vectors identify systematic LLM confabulation patterns?
+5. ~~Path entropy ↔ excess entropy?~~ **Partially answered via MOP connection:** β-seeking = state-splitting = complexity growth. See [[mop-edm-cognitive-architecture]].
+6. Does independent wiki synthesis page convergence indicate a "ripe" concept worth a dedicated page?
 
 ---
 
 ## Connections
 
-- [[edm-framework]] — the source paper; formal math and empirical results
-- [[zettelkasten-engine]] — disruption/convergence scores as curation heuristics
-- [[persistent-knowledge-compilation]] — disruptive papers are exactly the OOD events that break pre-compiled knowledge bases
-- [[graphrag]] — citation graphs as a domain where this framework is directly applicable
-- [[rag]] — consolidating papers are ID w.r.t. a RAG index; disruptive ones cause retrieval failure
+- [[edm-framework]] — source paper; formal math and empirical results
+- [[maximum-occupancy-principle]] — MOP's β = state-splitting appetite; absorbing states = Kernel 2
+- [[efhf]] — lumpability framework; hallucination as lumpability failure
+- [[mop-edm-cognitive-architecture]] — full synthesis connecting all three frameworks
+- [[zettelkasten-engine]] — disruption/convergence as curation heuristics
+- [[persistent-knowledge-compilation]] — disruptive papers break pre-compiled knowledge bases
+- [[graphrag]] — citation graphs as directly applicable domain
+- [[rag]] — consolidating papers are ID w.r.t. RAG index; disruptive ones cause retrieval failure

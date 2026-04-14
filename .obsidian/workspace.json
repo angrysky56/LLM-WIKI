@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/synthesis/mop-edm-cognitive-architecture.md",
+                "file": "wiki/entities/projects/efhf.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "mop-edm-cognitive-architecture"
+              "title": "efhf"
             }
           }
         ]
@@ -194,13 +194,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2ab9c987c297f7a1",
+  "active": "fb4e959506b497a2",
   "lastOpenFiles": [
+    "wiki/concepts/sheffer-stroke.md",
+    "wiki/concepts/symbolic-regression.md",
+    "wiki/concepts/eml-operator.md",
+    "wiki/sources/papers/odrzywolek-eml-2026.md",
+    "raw/All elementary functions from a single operator.md",
+    "Clippings/papers/2026/All elementary functions from a single operator.md",
     "wiki/entities/projects/efhf.md",
+    "wiki/entities/tools/mcp-logic.md",
+    "wiki/entities/tools/hipai-montague.md",
+    "wiki/entities/projects/mop-explorer.md",
+    "wiki/synthesis/mop-edm-cognitive-architecture.md",
     "wiki/concepts/maximum-occupancy-principle.md",
     "wiki/concepts/edm-framework.md",
     "wiki/sources/articles/prd-ralph-loop-mop-gemini.md",
-    "wiki/synthesis/mop-edm-cognitive-architecture.md",
     "wiki/sources/papers/ramirez-ruiz-mop-2024.md",
     "Clippings/articles/2026/You said  What is a PRD.md",
     "raw/You said  What is a PRD.md",
@@ -213,15 +222,6 @@
     "wiki/synthesis/synapse-retrieval-architecture.md",
     "wiki/synthesis/wiki-indexing-theory.md",
     "wiki/entities/tools/neo4j.md",
-    "raw/Electrons in moiré crystals explore higher-dimensional quantum worlds.md",
-    "wiki/sources/articles/hilbert-hotel-graph-architecture.md",
-    "raw/You said  Ha, this is from Gemma5 e2b  How would....md",
-    "Clippings/articles/2026/You said  Ha, this is from Gemma5 e2b  How would....md",
-    "wiki/sources/repositories/product-canvas.md",
-    "raw/opendataloader-projectopendataloader-pdf PDF Parser for AI-ready data. Automate PDF accessibility. Open-source..md",
-    "raw/The Price Is Not Right Neuro-Symbolic Methods Outperform VLAs on Structured Long-Horizon Manipulation Tasks with Significantly Lower Energy Consumption.md",
-    "raw/glm-ocr.md",
-    "wiki/synthesis/causal-state-edm-ood-isomorphism.md",
     "clippings-archive.base",
     "wiki/synthesis",
     "wiki/entities/projects",

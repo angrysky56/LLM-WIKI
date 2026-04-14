@@ -734,3 +734,126 @@ Index updated with 35 pages
 ## [2026-04-14 01:26] write
 
 Updated page: wiki/entities/projects/efhf.md
+
+## [2026-04-14 04:11] write
+
+Updated page: wiki/synthesis/mop-edm-cognitive-architecture.md
+
+## [2026-04-14 04:12] write
+
+Updated page: wiki/concepts/maximum-occupancy-principle.md
+
+## [2026-04-14 04:13] write
+
+Updated page: wiki/synthesis/causal-state-edm-ood-isomorphism.md
+
+## [2026-04-14 04:14] write
+
+Updated page: wiki/entities/projects/mop-explorer.md
+
+## [2026-04-14 04:15] index
+
+Index updated with 37 pages
+
+## [2026-04-14 04:15] lint
+
+🩺 **Wiki Health Check** — 37 pages
+
+**Orphans** (1):
+  - mop-explorer
+**Broken links** (2):
+  - wiki/entities/projects/efhf.md → [[hipai-montague]]
+  - wiki/entities/projects/efhf.md → [[mcp-logic]]
+**Non-reciprocal links** (10) — A links to B but B doesn't link back:
+  - [[mop-explorer]] → [[project-synapse]] (no return link)
+  - [[mop-explorer]] → [[zettelkasten-engine]] (no return link)
+  - [[mop-explorer]] → [[maximum-occupancy-principle]] (no return link)
+  - [[mop-explorer]] → [[efhf]] (no return link)
+  - [[mop-explorer]] → [[edm-framework]] (no return link)
+  - [[maximum-occupancy-principle]] → [[edm-framework]] (no return link)
+  - [[maximum-occupancy-principle]] → [[zettelkasten-engine]] (no return link)
+  - [[efhf]] → [[neo4j]] (no return link)
+  - [[efhf]] → [[edm-framework]] (no return link)
+  - [[efhf]] → [[project-synapse]] (no return link)
+
+## [2026-04-14 04:16] write
+
+Updated page: wiki/entities/tools/hipai-montague.md
+
+## [2026-04-14 04:17] write
+
+Updated page: wiki/entities/tools/mcp-logic.md
+
+## [2026-04-14 04:17] index
+
+Index updated with 39 pages
+
+## [2026-04-14 04:18] lint
+
+🩺 **Wiki Health Check** — 39 pages
+
+**Non-reciprocal links** (13) — A links to B but B doesn't link back:
+  - [[hipai-montague]] → [[mop-explorer]] (no return link)
+  - [[mop-explorer]] → [[project-synapse]] (no return link)
+  - [[mop-explorer]] → [[zettelkasten-engine]] (no return link)
+  - [[mop-explorer]] → [[maximum-occupancy-principle]] (no return link)
+  - [[mop-explorer]] → [[efhf]] (no return link)
+  - [[mop-explorer]] → [[edm-framework]] (no return link)
+  - [[efhf]] → [[neo4j]] (no return link)
+  - [[efhf]] → [[project-synapse]] (no return link)
+  - [[efhf]] → [[edm-framework]] (no return link)
+  - [[mcp-logic]] → [[maximum-occupancy-principle]] (no return link)
+  - [[mcp-logic]] → [[mop-explorer]] (no return link)
+  - [[maximum-occupancy-principle]] → [[edm-framework]] (no return link)
+  - [[maximum-occupancy-principle]] → [[zettelkasten-engine]] (no return link)
+
+## [2026-04-14 08:14] ingest | All elementary functions from a single operator.md
+
+Ingested raw/All elementary functions from a single operator.md into knowledge graph.
+
+Preview: Andrzej Odrzywołek   Institute of Theoretical Physics, Jagiellonian University, 30-348 Krakow, Poland   E-mail: andrzej.odrzywolek@uj.edu.pl  ###### Abstract  A single two-input gate suffices for all ...
+
+## [2026-04-14 08:15] write
+
+Updated page: wiki/sources/papers/odrzywolek-eml-2026.md
+
+## [2026-04-14 08:15] write
+
+Updated page: wiki/concepts/eml-operator.md
+
+## [2026-04-14 08:16] write
+
+Updated page: wiki/concepts/symbolic-regression.md
+
+## [2026-04-14 08:16] write
+
+Updated page: wiki/concepts/sheffer-stroke.md
+
+## [2026-04-14 08:16] index
+
+Index updated with 43 pages
+
+## [2026-04-14 08:17] lint
+
+🩺 **Wiki Health Check** — 43 pages
+
+**Non-reciprocal links** (19) — A links to B but B doesn't link back:
+  - [[maximum-occupancy-principle]] → [[edm-framework]] (no return link)
+  - [[maximum-occupancy-principle]] → [[zettelkasten-engine]] (no return link)
+  - [[hipai-montague]] → [[mop-explorer]] (no return link)
+  - [[symbolic-regression]] → [[mcp-logic]] (no return link)
+  - [[symbolic-regression]] → [[alphaevolve]] (no return link)
+  - [[mcp-logic]] → [[maximum-occupancy-principle]] (no return link)
+  - [[mcp-logic]] → [[mop-explorer]] (no return link)
+  - [[sheffer-stroke]] → [[mcp-logic]] (no return link)
+  - [[mop-explorer]] → [[zettelkasten-engine]] (no return link)
+  - [[mop-explorer]] → [[project-synapse]] (no return link)
+  - [[mop-explorer]] → [[edm-framework]] (no return link)
+  - [[mop-explorer]] → [[efhf]] (no return link)
+  - [[mop-explorer]] → [[maximum-occupancy-principle]] (no return link)
+  - [[efhf]] → [[project-synapse]] (no return link)
+  - [[efhf]] → [[neo4j]] (no return link)
+  - [[efhf]] → [[edm-framework]] (no return link)
+  - [[eml-operator]] → [[mcp-logic]] (no return link)
+  - [[eml-operator]] → [[alphaevolve]] (no return link)
+  - [[eml-operator]] → [[efhf]] (no return link)

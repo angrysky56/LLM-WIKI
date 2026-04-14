@@ -722,3 +722,7 @@ Updated page: wiki/sources/articles/prd-ralph-loop-mop-gemini.md
 ## [2026-04-14 00:38] index
 
 Index updated with 35 pages
+
+## [2026-04-14 01:03] write
+
+Updated page: wiki/synthesis/mop-edm-cognitive-architecture.md

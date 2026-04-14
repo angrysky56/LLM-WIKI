@@ -1,15 +1,14 @@
 ---
-summary: Synthesis applying Maximum Occupancy Principle + EDM disruption measurement to AI cognitive architecture — three implementation levels from inference-time guidance to attention-level mechanisms, with epistemic energy, absorbing states, and hallucination detection
-tags: [MOP, EDM, cognitive-architecture, entropy, hallucination-detection, epistemic-energy, absorbing-states, RLHF, attention, synthesis, intrinsic-motivation, ethics]
-updated: 2026-04-14T00:36:45Z
-created: 2026-04-14T00:36:45Z
+summary: Synthesis applying Maximum Occupancy Principle + EDM disruption measurement to AI cognitive architecture — three implementation levels, KL regularization critique, mcp-logic integration, epistemic energy, and coherent complexity growth
+tags: [MOP, EDM, cognitive-architecture, entropy, hallucination-detection, epistemic-energy, absorbing-states, RLHF, attention, synthesis, intrinsic-motivation, ethics, KL-divergence, mcp-logic, computational-mechanics]
+updated: 2026-04-14T01:03:57Z
 ---
 
 # MOP-EDM Cognitive Architecture
 
 **Type:** Synthesis — original cross-domain design
 **Origin:** Ty (2026-04-13), building on [[maximum-occupancy-principle]], [[edm-framework]], [[causal-state-edm-ood-isomorphism]]
-**Confidence:** 0.72 — conceptual framework is sound and grounded in formal results; implementation details are speculative; no empirical validation yet
+**Confidence:** 0.75 — conceptual framework grounded in formal results; KL insight confirmed by MOP paper's proof; implementation details speculative
 
 ---
 
@@ -65,13 +64,27 @@ MOP's β parameter controls preference for state entropy — novel outcomes. EDM
 
 EDM found that simultaneous discovery papers have nearly identical future vectors despite different past vectors. The cognitive analog: if two different prompts/contexts lead the model to the same conceptual territory (similar future vectors), this indicates a **convergent insight** — something structurally robust in the model's knowledge. If they converge on the same *wrong* answer, this fingerprints a **systematic confabulation pattern** distinguishable from random noise.
 
+### MOP Agents Seek Coherent Complexity Growth
+
+When the MOP agent seeks high state entropy (β), it hunts for state-splitting events in the conceptual epsilon machine — discoveries that force the agent's world model to grow by accommodating structures that don't fit existing causal states. The excess entropy (statistical complexity) of the agent's world model increases with each genuine high-Δ event. MOP agents optimize for increasing the complexity of their own understanding. The absorbing state constraint prevents this from degenerating into noise: complexity growth that leads to contradiction is terminal. MOP therefore selects for *coherent* complexity growth — the model seeks to make its world model richer, not just noisier.
+
+---
+
+## The KL Regularization Problem (Key Insight for Training)
+
+The MOP paper proves (Supplemental Sec. F) that **KL-regularization with a uniform default policy is self-defeating for occupancy maximization.** When relative entropy $-D_{KL}(\pi || \pi_0)$ replaces absolute entropy $\mathcal{H}(A|s)$, the immediate intrinsic return becomes $\mathcal{H}(A|s) - \ln|A(s)|$. The negative logarithm *penalizes* states with many available actions — mathematically opposing the goal of exploring diverse action-state paths.
+
+**This directly challenges RLHF's standard structure.** The RLHF objective $\max_\pi \mathbb{E}[R(x)] - \beta_{KL} D_{KL}(\pi || \pi_{ref})$ uses KL divergence from the reference policy as a constraint. MOP proves this *actively suppresses* behavioral diversity — not as an incidental side effect, but as a mathematical consequence of the relative entropy objective. RLHF-trained models collapse toward deterministic responses partly because the KL regularizer penalizes occupying states where many response strategies are available.
+
+An MOP-informed training objective would use absolute entropy as the primary signal and define absorbing states as the constraints, producing models that are *optimally stochastic* — diverse by default, precise when near absorbing boundaries. The absorbing states replace the KL tether to a reference policy: instead of "don't stray too far from a known-good model," the constraint becomes "don't enter states from which no coherent continuation is possible."
+
 ---
 
 ## Three Implementation Levels
 
 ### Level 1: Inference-Time MOP (Most Practical)
 
-**Current state:** Models use greedy decoding (deterministic), temperature sampling (undirected noise), or top-k/top-p (constrained randomness). None of these have a principled theory of *when* to be variable and *when* to be precise.
+**Current state:** Models use greedy decoding (deterministic), temperature sampling (undirected noise), or top-k/top-p (constrained randomness). None have a principled theory of *when* to be variable and *when* to be precise.
 
 **MOP replacement:** Use the optimal policy (Eq. 6) to guide token-level or reasoning-step-level decisions:
 
@@ -88,36 +101,39 @@ This level requires no retraining — it modifies the inference pipeline only.
 
 **Current paradigm:** Pre-training (next-token prediction) → SFT → RLHF (reward maximization from preferences).
 
-**MOP modification of RLHF:** Replace reward maximization with path entropy maximization.
+**MOP modification of RLHF:** Replace reward maximization with path entropy maximization using **absolute** entropy, not KL-regularized entropy (see KL problem above).
 
-The standard RLHF objective:
-$$\max_\pi \mathbb{E}[R(s,a)] + \lambda \mathcal{H}(\pi)$$
-uses entropy as a *regularizer* — a secondary term that helps exploration during training but is ultimately dominated by the reward signal. The trained model converges toward deterministic behavior.
-
-The MOP training objective:
-$$\max_\pi \mathbb{E}\left[\sum_t \gamma^t \left(\alpha \mathcal{H}(A|s_t) + \beta \mathcal{H}(S'|s_t, a_t)\right)\right]$$
-uses entropy as the *primary objective*. The trained model converges toward stochastic behavior that is variable by default and deterministic only near absorbing states.
-
-**Constitutional AI alignment via absorbing states:** Instead of training the model with explicit preference signals for every possible scenario, define the absorbing states (types of outputs that constitute epistemic/ethical dead-ends) and let the model learn to navigate around them while maximizing cognitive diversity. This aligns with a deontological constraint structure: define the unconditional prohibitions (absorbing states), and let virtue/wisdom (the α/β-balanced exploration policy) emerge from the dynamics.
+**Constitutional AI alignment via absorbing states:** Instead of training with explicit preference signals for every scenario, define absorbing states (output types constituting epistemic/ethical dead-ends) and let the model learn to navigate around them while maximizing cognitive diversity. This aligns with deontological constraints: define unconditional prohibitions (absorbing states), let virtue/wisdom (the α/β-balanced policy) emerge from the dynamics.
 
 **α/β/γ as training hyperparameters:**
-- α controls how much the model is rewarded for trying different reasoning strategies
-- β controls how much the model is rewarded for reaching surprising conclusions
-- γ controls whether the model optimizes for short-term insight (low γ) or long-term understanding (high γ)
+- α controls reward for trying different reasoning strategies
+- β controls reward for reaching surprising conclusions
+- γ controls optimization for short-term insight (low γ) vs. long-term understanding (high γ)
 
 ### Level 3: Attention-Level MOP (Most Speculative)
 
-**Current attention:** Softmax over dot-product similarities produces a deterministic mapping from query to attended context. The model attends to whatever is most "relevant" — collapsing to dominant patterns.
+**Current attention:** Softmax over dot-product similarities → deterministic mapping from query to attended context, collapsing to dominant patterns.
 
-**MOP attention:** The attention distribution incorporates an entropy-maximizing component:
-- The model doesn't just attend to the most relevant tokens
-- It also allocates attention to *novel, underexplored* regions of the context
-- α controls the relevance-novelty balance per attention head
+**MOP attention:** Attention distribution incorporates entropy-maximizing component:
+- Allocates attention to novel, underexplored context regions alongside relevant ones
+- α controls relevance-novelty balance per attention head
 - Internal energy (attention entropy, layer-wise confidence) determines when exploration is safe vs. when precision is needed
 
-**Past/future decomposition of attention:** Causal attention already has a temporal structure — earlier positions inform later ones. The hidden state at each position could be decomposed into past-facing (consolidating prior context) and future-facing (setting up future generation) components. Monitoring the cosine distance between these — an attention-level EDM — would provide per-layer, per-head disruption signals.
+**Past/future decomposition of attention:** Causal attention has inherent temporal structure. Hidden states could be decomposed into past-facing (consolidating) and future-facing (generative) components. Monitoring cosine distance between these — attention-level EDM — provides per-layer, per-head disruption signals.
 
-This level would require novel architectural modifications and is a research direction, not an implementation plan. However, it has connections to existing work on attention entropy regularization, attention diversity, and multi-head attention redundancy reduction.
+---
+
+## Formal Verification via mcp-logic
+
+The [[mcp-logic]] server provides Prover9 (theorem proving) and Mace4 (model finding) as formal verification tools. In the MOP-EDM architecture, these serve specific roles:
+
+**Absorbing state detection:** Formalize the agent's current beliefs as first-order logic premises. Run `find_model(premises)` — if Mace4 cannot find a satisfying model, the beliefs are inconsistent → contradiction → absorbing state. The current reasoning chain must be terminated or rolled back.
+
+**Hypothesis validation (β-filter):** When the MOP agent proposes a novel connection (high Δ), formalize it as a conclusion and run `find_counterexample(premises, conclusion)`. Counterexample found → reject the connection. No counterexample → tentatively accept. This gates what the exploration drive commits to the knowledge base.
+
+**Abductive insight generation:** When the agent encounters something surprising, `abductive_explain(observation, candidates)` finds the VFE-minimizing explanation — the simplest consistent account. This bridges MOP's "seek high entropy" with formal reasoning: the agent explores freely, but its discoveries are grounded through abductive inference.
+
+**Design-defined absorbing states (answering Open Question 3):** Given the mandate for Type II Error Avoidance, absorbing states must be strictly defined by design within mcp-logic. If the neural component is allowed to "learn" what counts as an epistemic dead-end, it will hallucinate bridges across contradictions to keep exploring — exactly as the MOP paper shows agents fabricate goals to avoid absorbing states.
 
 ---
 
@@ -145,26 +161,27 @@ A standard Ralph Loop is a reward maximizer: complete PRD tasks, check boxes, te
 - Seek information sources (wiki queries via [[project-synapse]], paper retrieval) when energy is low
 - Use [[mcp-logic]] for absorbing state detection (contradiction, logical inconsistency)
 - Use EDM-style disruption signals to distinguish genuine insights from hallucinated connections
-- Never "terminate" — continue exploring until externally stopped, just as a MOP agent continues moving
+- Never "terminate" — continue exploring until externally stopped
 
 ### Zettelkasten Integration
 
 The [[zettelkasten-engine]]'s curation signals map directly:
 - **Low Δ insight:** Consolidating — reinforces existing patterns → deprioritize
 - **High Δ insight:** Disruptive — new causal state → flag for attention
-- **Convergent future vectors:** Simultaneous discovery pattern → merge or link as "same concept reached by different paths"
-- **MOP guides which insights to generate next:** Prefer high-entropy regions of the knowledge graph — concepts with many unresolved connections, underexplored neighborhoods, or high-confidence gaps
+- **Convergent future vectors:** Simultaneous discovery pattern → merge or link
+- **MOP guides which insights to generate next:** Prefer high-entropy regions of the knowledge graph
 
 ---
 
 ## Open Questions
 
-1. **What internal representations serve as past/future vectors?** KV cache states? Final hidden states? Attention patterns? This is the key empirical question for Level 2+3.
+1. **What internal representations serve as past/future vectors?** KV cache states? Final hidden states? Attention patterns? Key empirical question for Level 2+3.
 2. **How to define epistemic energy concretely?** Context utilization percentage? Perplexity over generated tokens? Attention entropy? Some combination?
-3. **Can absorbing state detection be learned?** Or must absorbing states be defined by design (as MOP requires in the physical case)?
-4. **Does MOP training actually produce more diverse outputs?** The SAC architecture used for continuous MOP suggests yes, but this needs empirical validation on language tasks.
-5. **Is there a connection between MOP's path entropy and computational mechanics' excess entropy?** If so, disruptive reasoning (high Δ) corresponds to high statistical complexity cost — the model is "paying" to create new causal states in its reasoning chain.
+3. ~~Can absorbing state detection be learned?~~ **Answered:** No — must be designed. Learned absorbing states allow the neural component to hallucinate escape paths. Type II Error Avoidance demands formal, design-time definitions verified via mcp-logic.
+4. **Does MOP training actually produce more diverse outputs?** SAC architecture used for continuous MOP suggests yes, but needs empirical validation on language tasks.
+5. ~~Is there a connection between MOP's path entropy and computational mechanics' excess entropy?~~ **Partially answered:** Yes. MOP agents seeking high β are hunting for state-splitting events that increase the statistical complexity of their world model. Each genuine high-Δ discovery increases excess entropy. Absorbing states ensure this complexity growth is coherent. Full formal proof connecting path entropy to excess entropy remains open.
 6. **Can the α/β ratio be made adaptive?** In physical MOP, α/β is fixed. In cognitive MOP, the optimal ratio might change depending on the task — high β for brainstorming, low β for fact-checking.
+7. **Can the KL insight be validated empirically?** Train two models: one with standard RLHF (KL regularization), one with absolute entropy MOP objective + absorbing states. Compare behavioral diversity and output quality.
 
 ---
 
@@ -173,7 +190,8 @@ The [[zettelkasten-engine]]'s curation signals map directly:
 - [[maximum-occupancy-principle]] — the foundational theory
 - [[ramirez-ruiz-mop-2024]] — source paper with mathematical formalism
 - [[edm-framework]] — disruption measurement framework providing the Δ signal
-- [[causal-state-edm-ood-isomorphism]] — the epsilon machine bridge connecting EDM to causal information theory
-- [[zettelkasten-engine]] — the insight generation system that would use MOP-guided exploration
-- [[project-synapse]] — the MCP infrastructure providing knowledge graph access for epistemic energy replenishment
-- [[persistent-knowledge-compilation]] — MOP predicts that compiled knowledge bases should maintain stochastic access patterns rather than deterministic retrieval hierarchies
+- [[causal-state-edm-ood-isomorphism]] — the epsilon machine bridge; state-splitting as coherent complexity growth
+- [[zettelkasten-engine]] — insight generation using MOP-guided exploration
+- [[project-synapse]] — MCP infrastructure for epistemic energy replenishment
+- [[persistent-knowledge-compilation]] — MOP predicts compiled knowledge bases should maintain stochastic access patterns
+- [[prd-ralph-loop-mop-gemini]] — the Gemini conversation that initiated the cognitive MOP framing

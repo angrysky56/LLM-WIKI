@@ -857,3 +857,47 @@ Index updated with 43 pages
   - [[eml-operator]] → [[mcp-logic]] (no return link)
   - [[eml-operator]] → [[alphaevolve]] (no return link)
   - [[eml-operator]] → [[efhf]] (no return link)
+
+## [2026-04-14 19:13] ingest | Guideless Artificial Life Model for Reproduction, Development, and Interactions.md
+
+Ingested raw/Guideless Artificial Life Model for Reproduction, Development, and Interactions.md into knowledge graph.
+
+Preview: [Skip Nav Destination](#)  Reproduction, development, and individual interactions are vital yet complex natural processes. Tierra (an ALife model proposed by Thomas Ray) and cellular automata, which c...
+
+## [2026-04-14 19:14] write
+
+Updated page: wiki/sources/papers/utimula-openpraparat-2025.md
+
+## [2026-04-14 19:14] write
+
+Updated page: wiki/concepts/open-ended-evolution.md
+
+## [2026-04-14 19:15] index
+
+Index updated with 45 pages
+
+## [2026-04-14 19:21] write
+
+Updated page: wiki/synthesis/minimal-generative-architectures.md
+
+## [2026-04-14 19:21] index
+
+Index updated with 46 pages
+
+## [2026-04-14 19:26] ingest | LLM-Guided Evolutionary Kernel Optimization From Research to Production KernelsYep!.md
+
+Ingested raw/LLM-Guided Evolutionary Kernel Optimization From Research to Production KernelsYep!.md into knowledge graph.
+
+Preview: *A technical discussion of how large language models can speed up GPU kernel optimization, from research ideas to production kernels.*  Some of the ideas in this article were tested in public: an earl...
+
+## [2026-04-14 19:27] write
+
+Updated page: wiki/sources/articles/llm-kernel-optimization.md
+
+## [2026-04-14 19:27] write
+
+Updated page: wiki/entities/projects/alphaevolve.md
+
+## [2026-04-14 19:28] index
+
+Index updated with 47 pages

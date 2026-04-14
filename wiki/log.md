@@ -696,3 +696,29 @@ Index updated with 31 pages
 🩺 **Wiki Health Check** — 31 pages
 
 ✅ All clear — no issues found.
+
+## [2026-04-14 00:33] ingest | You said  What is a PRD.md
+
+Ingested raw/You said  What is a PRD.md into knowledge graph.
+
+Preview: **You**  What is a PRD?  ---  **Gemini**  A **PRD** stands for **Product Requirements Document**. It serves as the "source of truth" for a new product or feature, moving it from a vague idea into a co...
+
+## [2026-04-14 00:34] write
+
+Updated page: wiki/sources/papers/ramirez-ruiz-mop-2024.md
+
+## [2026-04-14 00:35] write
+
+Updated page: wiki/concepts/maximum-occupancy-principle.md
+
+## [2026-04-14 00:36] write
+
+Updated page: wiki/synthesis/mop-edm-cognitive-architecture.md
+
+## [2026-04-14 00:37] write
+
+Updated page: wiki/sources/articles/prd-ralph-loop-mop-gemini.md
+
+## [2026-04-14 00:38] index
+
+Index updated with 35 pages

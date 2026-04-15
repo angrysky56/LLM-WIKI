@@ -194,8 +194,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fb4e959506b497a2",
+  "active": "c161994581ba454a",
   "lastOpenFiles": [
+    "wiki/sources/papers/bae-mor-2025.md",
     "wiki/synthesis/minimal-generative-architectures.md",
     "raw/Mixture-of-Recursions Learning Dynamic Recursive Depths for Adaptive Token-Level Computation.md",
     "raw/I Built a Tiny Computer Inside a Transformer.md",
@@ -221,7 +222,6 @@
     "Clippings/papers/2026/All elementary functions from a single operator.md",
     "wiki/entities/tools/mcp-logic.md",
     "wiki/entities/tools/hipai-montague.md",
-    "wiki/concepts/maximum-occupancy-principle.md",
     "clippings-archive.base",
     "wiki/synthesis",
     "wiki/entities/projects",

@@ -1,5 +1,5 @@
 ---
-updated: 2026-04-14T19:28:11Z
+updated: 2026-04-15T01:00:13Z
 type: index
 ---
 
@@ -36,6 +36,7 @@ type: index
 - [[llm-wiki-pattern]] — Karpathy's pattern for LLM-maintained persistent Markdown knowledge bases
 - [[momoa-researcher]] — Google Labs agentic research scientist using Mixture of Mixture of Agents
 - [[prd-ralph-loop-mop-gemini]] — Gemini conversation connecting PRD-driven Ralph Loops with MOP and Theory of Mind for autonomous scientific research — epistemic energy as the critical constraint
+- [[transformer-vm-moran-2026]] — Moran (2026) — analytically compiling programs into transformer weights; residual stream as registers, attention as lookup, FFN as arithmetic, layers as machine steps; connects to EML as minimal instruction set for compiled transformers
 - [[obsidian-cli-skill]] — kepano's Obsidian CLI agent skill — command reference for reading, writing, searching, and managing Obsidian vaults from the terminal
 - [[obsidian-git-setup]] — Setup guide for the Obsidian Git community plugin (desktop and mobile)
 - [[obsidian-para-byarbrough]] — byarbrough's Obsidian PARA template — Tiago Forte's 4-category knowledge organization system implemented in Obsidian

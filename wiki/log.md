@@ -901,3 +901,13 @@ Updated page: wiki/entities/projects/alphaevolve.md
 ## [2026-04-14 19:28] index
 
 Index updated with 47 pages
+
+## [2026-04-15 00:16] ingest | I Built a Tiny Computer Inside a Transformer.md
+
+Ingested raw/I Built a Tiny Computer Inside a Transformer.md into knowledge graph.
+
+Preview: transformers and hope useful pattern-recognition circuits emerge inside them. But what if we already knew the circuit? What if, instead of learning weights from data, we built them analytically so the...
+
+## [2026-04-15 00:21] write
+
+Updated page: wiki/sources/articles/transformer-vm-moran-2026.md

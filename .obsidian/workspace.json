@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "raw/I Built a Tiny Computer Inside a Transformer.md",
+                "file": "raw/Mixture-of-Recursions Learning Dynamic Recursive Depths for Adaptive Token-Level Computation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "I Built a Tiny Computer Inside a Transformer"
+              "title": "Mixture-of-Recursions Learning Dynamic Recursive Depths for Adaptive Token-Level Computation"
             }
           }
         ]
@@ -196,13 +196,16 @@
   },
   "active": "fb4e959506b497a2",
   "lastOpenFiles": [
-    "wiki/synthesis/mop-edm-cognitive-architecture.md",
+    "wiki/synthesis/minimal-generative-architectures.md",
+    "raw/Mixture-of-Recursions Learning Dynamic Recursive Depths for Adaptive Token-Level Computation.md",
     "raw/I Built a Tiny Computer Inside a Transformer.md",
+    "wiki/sources/articles/transformer-vm-moran-2026.md",
+    "Clippings/articles/2026/I Built a Tiny Computer Inside a Transformer.md",
+    "wiki/synthesis/mop-edm-cognitive-architecture.md",
     "raw/LLM-Guided Evolutionary Kernel Optimization From Research to Production KernelsYep!.md",
     "wiki/sources/articles/llm-kernel-optimization.md",
     "Clippings/articles/2026/LLM-Guided Evolutionary Kernel Optimization From Research to Production KernelsYep!.md",
     "raw/LLM-Guided Evolutionary Kernel Optimization From Research to Production KernelsYep! 1.md",
-    "wiki/synthesis/minimal-generative-architectures.md",
     "wiki/concepts/edm-framework.md",
     "wiki/concepts/eml-operator.md",
     "wiki/concepts/open-ended-evolution.md",
@@ -219,9 +222,6 @@
     "wiki/entities/tools/mcp-logic.md",
     "wiki/entities/tools/hipai-montague.md",
     "wiki/concepts/maximum-occupancy-principle.md",
-    "wiki/sources/articles/prd-ralph-loop-mop-gemini.md",
-    "wiki/sources/papers/ramirez-ruiz-mop-2024.md",
-    "Clippings/articles/2026/You said  What is a PRD.md",
     "clippings-archive.base",
     "wiki/synthesis",
     "wiki/entities/projects",

@@ -9,7 +9,7 @@ created: 2026-04-14T19:21:38Z
 
 **Type:** Synthesis — cross-domain structural isomorphism
 **Origin:** Ty (2026-04-14), extending [[mop-edm-cognitive-architecture]], incorporating [[eml-operator]], [[utimula-openpraparat-2025]], [[open-ended-evolution]]
-**Confidence:** 0.75 — structural parallels are strong; formal verification of cross-domain mappings not yet attempted
+**Confidence:** 0.80 — structural parallels confirmed across five domains; formal verification of cross-domain mappings not yet attempted
 
 ---
 
@@ -23,6 +23,7 @@ Four apparently unrelated results share a single structural pattern: **minimal p
 | **[[eml-operator]]** | 1 operator + constant 1 | Binary tree nesting: $S \to 1 \mid \operatorname{eml}(S,S)$ | Complex branch cuts, overflow clamping | All elementary functions |
 | **[[maximum-occupancy-principle]]** | Entropy + absorbing states | Action-state path integration | Energy depletion, terminal states | All goal-directed behavior |
 | **[[utimula-openpraparat-2025]]** | 4 gene actions + natural selection | Book/bookmarker gene expression | Energy metabolism, death | Emergent morphology, reproduction, ecology |
+| **[[transformer-vm-moran-2026]]** | 1 FFN op + attention lookup | Layer-by-layer state transitions | Finite width/depth, slot liveness | Deterministic compiled computation inside transformers |
 
 ---
 
@@ -125,6 +126,7 @@ The original [[mop-edm-cognitive-architecture]] maps MOP into EFHF as Layer 0. A
 3. **Removing energy transport** (the inter-cell epistemic energy analog) should cause reticulated creature collapse to simpler forms — confirmed by Utimula's Δs experiments (Δs=0.0 → smaller network, Δs=-0.1 → total collapse)
 4. **Active region ratio** in evolved books (~1.7%) should be predictable from information-theoretic bounds on genome compression — analogous to EML's Kolmogorov complexity K
 5. **Punctuated equilibrium timing** should correlate with the combinatorial distance to the nearest state-splitting mutation cascade — measurable via EML-style exhaustive search of the gene action tree space
+6. **An EML evaluator compiled into transformer weights** (per [[transformer-vm-moran-2026]]) should require only depth-K/2 layers for any elementary function of complexity K, since each layer provides two half-steps (attention + FFN). This would be the minimal possible compiled scientific calculator.
 
 ---
 
@@ -150,3 +152,4 @@ The original [[mop-edm-cognitive-architecture]] maps MOP into EFHF as Layer 0. A
 - [[symbolic-regression]] — EML trees as discoverable policy representations
 - [[efhf]] — the verification architecture; extended here with L-1
 - [[edm-framework]] — disruption measurement; Δ as the β-signal
+- [[transformer-vm-moran-2026]] — compiled computation in transformers; EML as minimal instruction set for L-1 implementation

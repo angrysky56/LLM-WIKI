@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/papers/2026/Mixture-of-Recursions Learning Dynamic Recursive Depths for Adaptive Token-Level Computation.md",
+                "file": "wiki/sources/mixture-of-recursions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Mixture-of-Recursions Learning Dynamic Recursive Depths for Adaptive Token-Level Computation"
+              "title": "mixture-of-recursions"
             }
           }
         ]
@@ -194,21 +194,27 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c161994581ba454a",
+  "active": "fb4e959506b497a2",
   "lastOpenFiles": [
-    "wiki/sources/papers/bae-mor-2025.md",
+    "wiki/synthesis/causal-state-edm-ood-isomorphism.md",
+    "wiki/sources/mixture-of-recursions.md",
     "wiki/synthesis/minimal-generative-architectures.md",
-    "Clippings/papers/2026/Mixture-of-Recursions Learning Dynamic Recursive Depths for Adaptive Token-Level Computation.md",
-    "raw/I Built a Tiny Computer Inside a Transformer.md",
-    "wiki/sources/articles/transformer-vm-moran-2026.md",
     "Clippings/articles/2026/I Built a Tiny Computer Inside a Transformer.md",
+    "raw/I Built a Tiny Computer Inside a Transformer.md",
     "wiki/synthesis/mop-edm-cognitive-architecture.md",
+    "raw/Mixture-of-Recursions Learning Dynamic Recursive Depths for Adaptive Token-Level Computation.md",
+    "Clippings/papers/2026/Mixture-of-Recursions Learning Dynamic Recursive Depths for Adaptive Token-Level Computation.md",
+    "raw/Guides Write a Critical Review of a Scientific Journal Article Analyzing the Text.md",
+    "wiki/concepts/eml-operator.md",
+    "wiki/concepts/edm-framework.md",
+    "raw/Externalization in LLM Agents A Unified Review of Memory, Skills, Protocols and Harness Engineering.md",
+    "raw/The Sheffer Stroke  Internet Encyclopedia of Philosophy.md",
+    "wiki/sources/papers/bae-mor-2025.md",
+    "wiki/sources/articles/transformer-vm-moran-2026.md",
     "raw/LLM-Guided Evolutionary Kernel Optimization From Research to Production KernelsYep!.md",
     "wiki/sources/articles/llm-kernel-optimization.md",
     "Clippings/articles/2026/LLM-Guided Evolutionary Kernel Optimization From Research to Production KernelsYep!.md",
     "raw/LLM-Guided Evolutionary Kernel Optimization From Research to Production KernelsYep! 1.md",
-    "wiki/concepts/edm-framework.md",
-    "wiki/concepts/eml-operator.md",
     "wiki/concepts/open-ended-evolution.md",
     "wiki/concepts/sheffer-stroke.md",
     "wiki/entities/projects/mop-explorer.md",
@@ -216,12 +222,6 @@
     "wiki/sources/papers/utimula-openpraparat-2025.md",
     "Clippings/articles/2026/Guideless Artificial Life Model for Reproduction, Development, and Interactions.md",
     "wiki/entities/projects/efhf.md",
-    "wiki/concepts/symbolic-regression.md",
-    "wiki/sources/papers/odrzywolek-eml-2026.md",
-    "raw/All elementary functions from a single operator.md",
-    "Clippings/papers/2026/All elementary functions from a single operator.md",
-    "wiki/entities/tools/mcp-logic.md",
-    "wiki/entities/tools/hipai-montague.md",
     "clippings-archive.base",
     "wiki/synthesis",
     "wiki/entities/projects",

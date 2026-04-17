@@ -923,3 +923,13 @@ Updated page: wiki/sources/papers/bae-mor-2025.md
 ## [2026-04-15 06:26] index
 
 Index updated with 49 pages
+
+## [2026-04-17 02:03] ingest | Mixture-of-Recursions Learning Dynamic Recursive Depths for Adaptive Token-Level Computation.md
+
+Ingested raw/Mixture-of-Recursions Learning Dynamic Recursive Depths for Adaptive Token-Level Computation.md into knowledge graph.
+
+Preview: Correspondence to:,.  Sangmin Bae KAIST AI Yujin Kim KAIST AI Reza Bayat Mila   Sungnyun Kim KAIST AI Jiyoun Ha Google Cloud Tal Schuster Google DeepMind Adam Fisch Google DeepMind Hrayr Harutyunyan G...
+
+## [2026-04-17 02:11] write
+
+Updated page: wiki/sources/mixture-of-recursions.md

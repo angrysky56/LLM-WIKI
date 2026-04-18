@@ -1008,3 +1008,45 @@ Index updated with 58 pages
 - Created core concept pages: [[reward-modeling]] and [[hidden-states]].
 - Expanded [[concept-index]] with "LLM Architecture & Training" section.
 - Rebuilt structural [[index]] (58 pages total).
+
+## [2026-04-18 20:13] ingest | You said  Tell me about Broca's area of the brain....md
+
+Ingested raw/You said  Tell me about Broca's area of the brain....md into knowledge graph.
+
+Preview: **You**  Tell me about Broca's area of the brain.  ---  **Gemini**  ## Broca's Area: The Brain's Speech Center  Broca's area is a crucial region of the brain primarily responsible for language product...
+
+## [2026-04-18 20:13] write
+
+Updated page: wiki/sources/articles/brocas-area-gemini-chat.md
+
+## [2026-04-18 20:13] write
+
+Updated page: wiki/concepts/brocas-area.md
+
+## [2026-04-18 20:13] write
+
+Updated page: wiki/concepts/wernickes-area.md
+
+## [2026-04-18 20:13] write
+
+Updated page: wiki/concepts/arcuate-fasciculus.md
+
+## [2026-04-18 20:13] write
+
+Updated page: wiki/concepts/myelination.md
+
+## [2026-04-18 20:14] write
+
+Updated page: wiki/synthesis/llm-biological-analogies.md
+
+## [2026-04-18 20:14] index
+
+Index updated with 64 pages
+
+## [2026-04-18 20:15] neurobiology-ingestion (Broca's Area)
+- Ingested Gemini chat "Tell me about Broca's area of the brain..."
+- Created source summary: [[brocas-area-gemini-chat]].
+- Created concept pages: [[brocas-area]], [[wernickes-area]], [[arcuate-fasciculus]], and [[myelination]].
+- Authored synthesis: [[llm-biological-analogies]] mapping language loop to Transformer architecture.
+- Expanded [[concept-index]] with "Neuroscience & Biological Analogies" section.
+- Rebuilt structural [[index]] (64 pages total).

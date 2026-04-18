@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "raw/You said  Tell me about Broca's area of the brain....md",
+                "file": "wiki/concepts/hidden-states.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "You said  Tell me about Broca's area of the brain..."
+              "title": "hidden-states"
             }
           }
         ]
@@ -196,8 +196,15 @@
   },
   "active": "ab0a0d9c009a800a",
   "lastOpenFiles": [
-    "wiki/concepts/hidden-states.md",
     "raw/You said  Tell me about Broca's area of the brain....md",
+    "wiki/synthesis/llm-biological-analogies.md",
+    "wiki/concepts/myelination.md",
+    "wiki/concepts/arcuate-fasciculus.md",
+    "wiki/concepts/wernickes-area.md",
+    "wiki/concepts/brocas-area.md",
+    "wiki/sources/articles/brocas-area-gemini-chat.md",
+    "Clippings/articles/2026/You said  Tell me about Broca's area of the brain....md",
+    "wiki/concepts/hidden-states.md",
     "wiki/sources/articles/llm-kernel-optimization.md",
     "wiki/sources/articles/transformer-vm-moran-2026.md",
     "wiki/sources/articles/prd-ralph-loop-mop-gemini.md",
@@ -215,13 +222,6 @@
     "wiki/concepts/critical-analysis.md",
     "wiki/sources/articles/critical-review-scientific-article-guide.md",
     "Clippings/articles/2026/Guides Write a Critical Review of a Scientific Journal Article Analyzing the Text.md",
-    "wiki/sources/papers/odrzywolek-eml-2026.md",
-    "raw/z-labdflash DFlash Block Diffusion for Flash Speculative Decoding.md",
-    "raw/tlaplusExamples A collection of TLA⁺ specifications of varying complexities..md",
-    "Clippings/articles/2026/I Built a Tiny Computer Inside a Transformer.md",
-    "wiki/sources/mixture-of-recursions.md",
-    "wiki/synthesis/causal-state-edm-ood-isomorphism.md",
-    "wiki/synthesis/minimal-generative-architectures.md",
     "clippings-archive.base",
     "wiki/synthesis",
     "wiki/entities/projects",

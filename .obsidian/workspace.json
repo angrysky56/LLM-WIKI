@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d09f42c4225f7000",
+        "id": "075274c0f3d01d78",
         "type": "tabs",
         "children": [
           {
-            "id": "fb4e959506b497a2",
+            "id": "ab0a0d9c009a800a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/sources/mixture-of-recursions.md",
+                "file": "raw/You said  Tell me about Broca's area of the brain....md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "mixture-of-recursions"
+              "title": "You said  Tell me about Broca's area of the brain..."
             }
           }
         ]
@@ -194,34 +194,34 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fb4e959506b497a2",
+  "active": "ab0a0d9c009a800a",
   "lastOpenFiles": [
-    "wiki/synthesis/causal-state-edm-ood-isomorphism.md",
-    "wiki/sources/mixture-of-recursions.md",
-    "wiki/synthesis/minimal-generative-architectures.md",
-    "Clippings/articles/2026/I Built a Tiny Computer Inside a Transformer.md",
-    "raw/I Built a Tiny Computer Inside a Transformer.md",
-    "wiki/synthesis/mop-edm-cognitive-architecture.md",
-    "raw/Mixture-of-Recursions Learning Dynamic Recursive Depths for Adaptive Token-Level Computation.md",
-    "Clippings/papers/2026/Mixture-of-Recursions Learning Dynamic Recursive Depths for Adaptive Token-Level Computation.md",
-    "raw/Guides Write a Critical Review of a Scientific Journal Article Analyzing the Text.md",
+    "wiki/concepts/hidden-states.md",
+    "raw/You said  Tell me about Broca's area of the brain....md",
+    "wiki/sources/articles/llm-kernel-optimization.md",
+    "wiki/sources/articles/transformer-vm-moran-2026.md",
+    "wiki/sources/articles/prd-ralph-loop-mop-gemini.md",
+    "wiki/concepts/symbolic-regression.md",
     "wiki/concepts/eml-operator.md",
     "wiki/concepts/edm-framework.md",
-    "raw/Externalization in LLM Agents A Unified Review of Memory, Skills, Protocols and Harness Engineering.md",
-    "raw/The Sheffer Stroke  Internet Encyclopedia of Philosophy.md",
-    "wiki/sources/papers/bae-mor-2025.md",
-    "wiki/sources/articles/transformer-vm-moran-2026.md",
-    "raw/LLM-Guided Evolutionary Kernel Optimization From Research to Production KernelsYep!.md",
-    "wiki/sources/articles/llm-kernel-optimization.md",
-    "Clippings/articles/2026/LLM-Guided Evolutionary Kernel Optimization From Research to Production KernelsYep!.md",
-    "raw/LLM-Guided Evolutionary Kernel Optimization From Research to Production KernelsYep! 1.md",
-    "wiki/concepts/open-ended-evolution.md",
-    "wiki/concepts/sheffer-stroke.md",
-    "wiki/entities/projects/mop-explorer.md",
-    "raw/Guideless Artificial Life Model for Reproduction, Development, and Interactions.md",
-    "wiki/sources/papers/utimula-openpraparat-2025.md",
-    "Clippings/articles/2026/Guideless Artificial Life Model for Reproduction, Development, and Interactions.md",
-    "wiki/entities/projects/efhf.md",
+    "wiki/concepts/reward-modeling.md",
+    "raw/DFlash Block Diffusion for Flash Speculative Decoding.md",
+    "wiki/sources/papers/reward-inside-model-elhsr.md",
+    "raw/Reward Inside the Model A Lightweight Hidden-State Reward Model for LLM’s Best-of-N sampling.md",
+    "Clippings/papers/2026/Reward Inside the Model A Lightweight Hidden-State Reward Model for LLM’s Best-of-N sampling.md",
+    "wiki/concepts/research-methodology.md",
+    "wiki/concepts/academic-peer-review.md",
+    "wiki/concepts/scientific-writing.md",
+    "wiki/concepts/critical-analysis.md",
+    "wiki/sources/articles/critical-review-scientific-article-guide.md",
+    "Clippings/articles/2026/Guides Write a Critical Review of a Scientific Journal Article Analyzing the Text.md",
+    "wiki/sources/papers/odrzywolek-eml-2026.md",
+    "raw/z-labdflash DFlash Block Diffusion for Flash Speculative Decoding.md",
+    "raw/tlaplusExamples A collection of TLA⁺ specifications of varying complexities..md",
+    "Clippings/articles/2026/I Built a Tiny Computer Inside a Transformer.md",
+    "wiki/sources/mixture-of-recursions.md",
+    "wiki/synthesis/causal-state-edm-ood-isomorphism.md",
+    "wiki/synthesis/minimal-generative-architectures.md",
     "clippings-archive.base",
     "wiki/synthesis",
     "wiki/entities/projects",

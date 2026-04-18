@@ -933,3 +933,78 @@ Preview: Correspondence to:,.  Sangmin Bae KAIST AI Yujin Kim KAIST AI Reza Baya
 ## [2026-04-17 02:11] write
 
 Updated page: wiki/sources/mixture-of-recursions.md
+
+## [2026-04-18 03:45] ingest | Guides Write a Critical Review of a Scientific Journal Article Analyzing the Text.md
+
+Ingested raw/Guides Write a Critical Review of a Scientific Journal Article Analyzing the Text.md into knowledge graph.
+
+Preview: [Skip to Main Content](#s-lg-guide-main)  ## 1\. Identify how and why the research was carried out  Read the article(s) carefully and use the questions below to help you identify how and why the resea...
+
+## [2026-04-18 03:46] write
+
+Updated page: wiki/sources/articles/critical-review-scientific-article-guide.md
+
+## [2026-04-18 03:46] write
+
+Updated page: wiki/concepts/critical-analysis.md
+
+## [2026-04-18 03:46] write
+
+Updated page: wiki/concepts/scientific-writing.md
+
+## [2026-04-18 03:46] write
+
+Updated page: wiki/concepts/academic-peer-review.md
+
+## [2026-04-18 03:46] write
+
+Updated page: wiki/concepts/research-methodology.md
+
+## [2026-04-18 03:46] index
+
+Index updated with 55 pages
+## [2026-04-18 03:46] ingest | Guides Write a Critical Review of a Scientific Journal Article Analyzing the Text.md
+
+Ingested raw/Guides Write a Critical Review of a Scientific Journal Article Analyzing the Text.md into knowledge graph and archived to Clippings/articles/2026/.
+
+## [2026-04-18 03:46] write
+
+Updated page: wiki/sources/articles/critical-review-scientific-article-guide.md (source summary)
+
+## [2026-04-18 03:46] write
+
+Created page: wiki/concepts/critical-analysis.md (concept)
+
+## [2026-04-18 03:46] write
+
+Created page: wiki/concepts/scientific-writing.md (concept)
+
+## [2026-04-18 03:46] write
+
+Created page: wiki/concepts/academic-peer-review.md (concept)
+
+## [2026-04-18 03:46] write
+
+Created page: wiki/concepts/research-methodology.md (concept)
+
+## [2026-04-18 03:46] index
+
+Index updated with 55 pages
+
+## [2026-04-18 03:53] ingest | Reward Inside the Model A Lightweight Hidden-State Reward Model for LLM’s Best-of-N sampling.md
+
+Ingested raw/Reward Inside the Model A Lightweight Hidden-State Reward Model for LLM’s Best-of-N sampling.md into knowledge graph.
+
+Preview: tcb@breakable  Jizhou Guo <sup>1</sup>  Zhaomin Wu <sup>2</sup>  Philip S. Yu   <sup>3</sup>   <sup>1</sup> Zhiyuan College, Shanghai Jiao Tong University   <sup>2</sup> National University of Singapo...
+
+## [2026-04-18 03:55] index
+
+Index updated with 58 pages
+
+## [2026-04-18] research-ingestion (ELHSR)
+- Ingested "Reward Inside the Model: A Lightweight Hidden-State Reward Model for LLM’s Best-of-N sampling" (arXiv:2505.12225v1).
+- Authored source summary: [[reward-inside-model-elhsr]].
+- Performed critical analysis using the [[critical-analysis]] framework.
+- Created core concept pages: [[reward-modeling]] and [[hidden-states]].
+- Expanded [[concept-index]] with "LLM Architecture & Training" section.
+- Rebuilt structural [[index]] (58 pages total).

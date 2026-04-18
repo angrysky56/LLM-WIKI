@@ -1,21 +1,27 @@
 ---
-updated: 2026-04-15T06:26:11Z
+updated: 2026-04-18T03:55:01Z
 type: index
 ---
 
 # Wiki Index
 
 - [[concept-index]] — Conceptual index — maps ideas to pages by meaning rather than structure; complement to the structural TOC in index.md
+- [[academic-peer-review]] — The process by which scholarly work is checked by experts in the same field to ensure quality and validity before publication.
+- [[critical-analysis]] — The systematic evaluation of research to understand its methodology, context, validity, and significance.
 - [[design-thinking]] — Human-centered innovation framework — structured process from need identification through verification, with leverage concentrated in the often-neglected front-end phases
 - [[edm-framework]] — Embedding Disruptiveness Measure — Kim, Kojaku & Ahn (2026) — directional skip-gram on citation networks yielding past/future vectors whose cosine distance quantifies scientific disruption
 - [[eml-operator]] — Single binary operator eml(x,y)=exp(x)−ln(y) that generates all elementary functions from constant 1 — the continuous NAND gate, with applications to symbolic regression, neuro-symbolic AI, automated reasoning, and single-instruction hardware
 - [[graphrag]] — RAG enhanced with graph traversal for richer context beyond vector similarity
+- [[hidden-states]] — The internal vector representations (activations) of data at each layer of a neural network, containing 'inner knowledge' and confidence signals.
 - [[maximum-occupancy-principle]] — Theory of behavior replacing reward maximization with action-state path entropy maximization — Layer 0 of EFHF architecture; absorbing states → Kernel 2 (Prover9-verified)
 - [[memex]] — Vannevar Bush's 1945 vision of a personal associative knowledge device
 - [[open-ended-evolution]] — The study of conditions enabling evolution to continually produce novelty without converging — central ALife question connecting Tierra, Geb, Lenia, and OpenPraparat, with evaluation via Bedau-Packard statistics and Dolson complexity barriers
 - [[para-methodology]] — Tiago Forte's PARA framework — actionability-based universal information organization (Projects, Areas, Resources, Archives)
 - [[persistent-knowledge-compilation]] — Paradigm of LLM pre-compiling knowledge into persistent structured bases vs stateless RAG
 - [[rag]] — Retrieval-Augmented Generation — the standard stateless document Q&A pattern
+- [[research-methodology]] — The specific procedures or techniques used to identify, select, process, and analyze information about a topic.
+- [[reward-modeling]] — The process of training a secondary model to assign scalar scores to LLM outputs, used for alignment (RLHF) and test-time scaling (Best-of-N).
+- [[scientific-writing]] — The practice of communicating scientific information to other scientists, characterized by precision, clarity, and adherence to established formats like IMRaD.
 - [[sheffer-stroke]] — A single primitive operator from which an entire computational domain is reconstructable — NAND for Boolean logic, EML for continuous mathematics, with structural parallels across domains
 - [[symbolic-regression]] — Discovering closed-form mathematical expressions from data — approaches include genetic programming, neural-guided search, and gradient-optimized EML trees that are complete by construction
 - [[tag-taxonomy]] — Controlled vocabulary for wiki tags — preferred terms with USE/UF equivalence, BT/NT hierarchy, and RT associative relationships
@@ -30,6 +36,7 @@ type: index
 - [[neo4j]] — Graph database providing vector search, fulltext indexing, and relationship traversal
 - [[obsidian-skills-repo]] — kepano's agent skill definitions for Obsidian — markdown, bases, canvas, CLI, and defuddle web extraction
 - [[obsidian]] — Markdown knowledge app — the human-readable frontend for the wiki
+- [[critical-review-scientific-article-guide]] — A structured guide for analyzing and critically reviewing scientific journal articles, focusing on research methods, context, and significance.
 - [[design-thinking-mit]] — MIT Professional Education overview of the 10-step design thinking framework by Blade Kotelly
 - [[hilbert-hotel-graph-architecture]] — Gemini conversation exploring Hilbert Hotel paradox as graph database architecture — immutable nodes with lazy offset protocols, quantum oracle sketching, and 4D superspace simulations
 - [[llm-kernel-optimization]] — Technical deep-dive on AlphaEvolve/OpenEvolve for GPU kernel optimization — LLM ensemble + diff-based mutation + real hardware eval; 23% GEMM speedup; Gemini optimizing its own training; tensor decomposition as game-playing; connects to MGA framework as engineering instantiation
@@ -40,10 +47,12 @@ type: index
 - [[obsidian-cli-skill]] — kepano's Obsidian CLI agent skill — command reference for reading, writing, searching, and managing Obsidian vaults from the terminal
 - [[obsidian-git-setup]] — Setup guide for the Obsidian Git community plugin (desktop and mobile)
 - [[obsidian-para-byarbrough]] — byarbrough's Obsidian PARA template — Tiago Forte's 4-category knowledge organization system implemented in Obsidian
+- [[mixture-of-recursions]] — MoR unifies parameter sharing and adaptive token-level computation via learned recursive depth routing — connects to causal state assignment and compiled-transformer execution models.
 - [[bae-mor-2025]] — Bae et al. (2025) — Mixture-of-Recursions: dynamic per-token recursion depth in shared-parameter transformers; expert-choice and token-choice routing; recursion-wise KV caching; 47% fewer params, 2x throughput; provides the adaptive-depth execution substrate for EML compiled transformers
 - [[kim-ahn-edm-2026]] — Kim, Kojaku & Ahn (Science Advances 2026) — introduces EDM embedding-based disruption metric; outperforms CD index; detects simultaneous discoveries via future vector nearest-neighbor clustering
 - [[odrzywolek-eml-2026]] — Odrzywołek (2026) — discovery of the EML operator eml(x,y)=exp(x)−ln(y), a single binary primitive generating all elementary functions from constant 1, with applications to symbolic regression via gradient-trainable binary trees
 - [[ramirez-ruiz-mop-2024]] — Ramírez-Ruiz et al. (Nature Communications 2024) — Maximum Occupancy Principle: agents maximize future action-state path entropy instead of extrinsic reward, producing complex goal-directed behavior from intrinsic motivation alone
+- [[reward-inside-model-elhsr]] — Efficient Linear Hidden State Reward (ELHSR): A lightweight reward model (<0.005% parameters) using internal LLM hidden states for Best-of-N sampling.
 - [[utimula-openpraparat-2025]] — Utimula (2025) — guideless ALife model combining Tierra gene mechanics with 3D virtual creatures; no fitness function; emergent reproduction (binary fission, budding), protective organs, and energy transport networks via mutation + natural selection
 - [[product-canvas]] — Google Labs multiplayer brainstorming canvas with AI voice agent and wiki knowledge editor
 - [[causal-state-edm-ood-isomorphism]] — Epsilon machine causal states ↔ EDM citation vectors — disruptive papers as OOD state-splitting events; connected to MOP (β = state-splitting appetite) and EFHF (hallucination = lumpability failure)

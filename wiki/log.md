@@ -1050,3 +1050,39 @@ Index updated with 64 pages
 - Authored synthesis: [[llm-biological-analogies]] mapping language loop to Transformer architecture.
 - Expanded [[concept-index]] with "Neuroscience & Biological Analogies" section.
 - Rebuilt structural [[index]] (64 pages total).
+
+## [2026-04-26 06:07] ingest | The Molecular Structure of Thought Mapping the Topology of Long Chain-of-Thought Reasoning.md
+
+Ingested raw/The Molecular Structure of Thought Mapping the Topology of Long Chain-of-Thought Reasoning.md into knowledge graph.
+
+Preview: 1\]ByteDance Seed China 2\]LARG, SCIR, Harbin Institute of Technology 3\]Peking University 4\]2077AI Foundation 5\]Nanjing University 6\]M-A-P 7\]Central South University  Qiguang Chen    Yantao Du   ...
+
+## [2026-04-26 06:08] ingest | What Physical ‘Life Force’ Turns Biology’s Wheels.md
+
+Ingested raw/What Physical ‘Life Force’ Turns Biology’s Wheels.md into knowledge graph.
+
+Preview: ![A collage illustration depicting a model of the proteins in a flagellar motor, surrounded by images of vintage rotors and gears, and diagrams of bacteria.](https://www.quantamagazine.org/wp-content/...
+
+## [2026-04-26 06:15] write
+
+Updated page: wiki/sources/papers/chen-molecular-cot-2026.md
+
+## [2026-04-26 06:15] write
+
+Updated page: wiki/sources/articles/wolchover-life-force-2026.md
+
+## [2026-04-26 06:24] write
+
+Updated page: wiki/synthesis/entropic-machinery-cot-and-flagellum.md
+
+## [2026-04-26 06:25] index
+
+Index updated with 67 pages
+
+## [2026-04-26 06:26] write
+
+Updated page: wiki/concept-index.md
+
+## [2026-04-26 06:26] index
+
+Index updated with 67 pages

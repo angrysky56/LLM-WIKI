@@ -1234,3 +1234,96 @@ Index updated with 73 pages
   - [[mop-explorer]] → [[zettelkasten-engine]] (no return link)
   - [[mop-explorer]] → [[project-synapse]] (no return link)
   - [[critical-analysis]] → [[edm-framework]] (no return link)
+
+## [2026-04-28 18:54] ingest | How does imagination really work in the brain New theory upends what we knew.md
+
+Ingested raw/How does imagination really work in the brain New theory upends what we knew.md into knowledge graph.
+
+Preview: Your brain is currently expending [about a fifth of your body’s energy](https://www.pnas.org/doi/10.1073/pnas.172399499), and almost none of that is being used for what you’re *doing* right now. Readi...
+
+## [2026-04-28 18:54] write
+
+Updated page: wiki/sources/articles/how-does-imagination-really-work-in-the-brain-new-theory-upends-what-we-knew.md
+
+
+
+## [2026-04-28 12:54] ingest | How does imagination really work in the brain New theory upends what we knew.md
+
+Ingested raw source into knowledge graph and archived to articles/2026/.
+
+## [2026-04-28 12:54] write
+
+Created pages:
+- wiki/sources/articles/how-does-imagination-really-work-in-the-brain-new-theory-upends-what-we-knew.md
+- wiki/entities/people/roger-koenig-robert.md
+- wiki/concepts/spontaneous-activity-reshaping-hypothesis.md
+- wiki/concepts/aphantasia.md
+- wiki/concepts/hyperphantasia.md
+
+## [2026-04-28 12:54] index
+
+Index updated with 78 pages
+
+
+## [2026-04-28 18:55] lint
+
+🩺 **Wiki Health Check** — 78 pages
+
+**Orphans** (3):
+  - brocas-area-gemini-chat
+  - bae-mor-2025
+  - mixture-of-recursions
+**Broken links** (14):
+  - wiki/concepts/reward-modeling.md → [[reasoning]]
+  - wiki/concepts/spontaneous-activity-reshaping-hypothesis.md → [[feedforward-activity]]
+  - wiki/concepts/spontaneous-activity-reshaping-hypothesis.md → [[feedback-activity]]
+  - wiki/sources/articles/how-does-imagination-really-work-in-the-brain-new-theory-upends-what-we-knew.md → [[feedforward-activity]]
+  - wiki/sources/articles/how-does-imagination-really-work-in-the-brain-new-theory-upends-what-we-knew.md → [[feedback-activity]]
+  - wiki/sources/mixture-of-recursions.md → [[i-built-a-tiny-computer-inside-a-transformer]]
+  - wiki/sources/mixture-of-recursions.md → [[efficient-transformers]]
+  - wiki/sources/mixture-of-recursions.md → [[mixture-of-depths]]
+  - wiki/sources/mixture-of-recursions.md → [[recursive-transformers]]
+  - wiki/sources/mixture-of-recursions.md → [[adaptive-computation]]
+  - wiki/sources/mixture-of-recursions.md → [[latent-reasoning]]
+  - wiki/sources/mixture-of-recursions.md → [[kv-cache]]
+  - wiki/sources/papers/reward-inside-model-elhsr.md → [[reasoning]]
+  - wiki/synthesis/llm-biological-analogies.md → [[wiki/sources/articles/brocas-area-gemini-chat]]
+**Non-reciprocal links** (26) — A links to B but B doesn't link back:
+  - [[hipai-montague]] → [[mop-explorer]] (no return link)
+  - [[symbolic-regression]] → [[mcp-logic]] (no return link)
+  - [[sheffer-stroke]] → [[mcp-logic]] (no return link)
+  - [[roger-koenig-robert]] → [[aphantasia]] (no return link)
+  - [[academic-peer-review]] → [[critical-analysis]] (no return link)
+  - [[reward-modeling]] → [[critical-analysis]] (no return link)
+  - [[critical-analysis]] → [[edm-framework]] (no return link)
+  - [[mop-explorer]] → [[efhf]] (no return link)
+  - [[mop-explorer]] → [[zettelkasten-engine]] (no return link)
+  - [[mop-explorer]] → [[edm-framework]] (no return link)
+  - [[mop-explorer]] → [[maximum-occupancy-principle]] (no return link)
+  - [[mop-explorer]] → [[project-synapse]] (no return link)
+  - [[alphaevolve]] → [[maximum-occupancy-principle]] (no return link)
+  - [[open-ended-evolution]] → [[efhf]] (no return link)
+  - [[open-ended-evolution]] → [[eml-operator]] (no return link)
+  - [[open-ended-evolution]] → [[maximum-occupancy-principle]] (no return link)
+  - [[mcp-logic]] → [[maximum-occupancy-principle]] (no return link)
+  - [[mcp-logic]] → [[mop-explorer]] (no return link)
+  - [[hidden-states]] → [[critical-analysis]] (no return link)
+  - [[efhf]] → [[neo4j]] (no return link)
+  - [[efhf]] → [[edm-framework]] (no return link)
+  - [[efhf]] → [[project-synapse]] (no return link)
+  - [[eml-operator]] → [[efhf]] (no return link)
+  - [[eml-operator]] → [[mcp-logic]] (no return link)
+  - [[maximum-occupancy-principle]] → [[edm-framework]] (no return link)
+  - [[maximum-occupancy-principle]] → [[zettelkasten-engine]] (no return link)
+
+## [2026-04-28 18:55] write
+
+Updated page: wiki/concepts/feedforward-activity.md
+
+## [2026-04-28 18:55] write
+
+Updated page: wiki/concepts/feedback-activity.md
+
+## [2026-04-28 18:55] index
+
+Index updated with 80 pages

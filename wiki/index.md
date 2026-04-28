@@ -1,5 +1,5 @@
 ---
-updated: 2026-04-28T18:33:14Z
+updated: 2026-04-28T18:55:48Z
 type: index
 ---
 
@@ -8,6 +8,7 @@ type: index
 - [[concept-index]] — Conceptual index — maps ideas to pages by meaning rather than structure; complement to the structural TOC in index.md
 - [[absence-of-worst-case-metric]] — Failure mode in evaluating high-stakes systems — judging success by whether the catastrophic event occurred while bracketing out steady-state cost; the metric that called nuclear deterrence "successful" and is being installed for AI
 - [[academic-peer-review]] — The process by which scholarly work is checked by experts in the same field to ensure quality and validity before publication.
+- [[aphantasia]] — Concept page for Aphantasia
 - [[arcuate-fasciculus]] — Concept page for Arcuate Fasciculus.
 - [[brocas-area]] — Concept page for Broca's Area.
 - [[critical-analysis]] — The systematic evaluation of research to understand its methodology, context, validity, and significance.
@@ -15,9 +16,12 @@ type: index
 - [[design-thinking]] — Human-centered innovation framework — structured process from need identification through verification, with leverage concentrated in the often-neglected front-end phases
 - [[edm-framework]] — Embedding Disruptiveness Measure — Kim, Kojaku & Ahn (2026) — directional skip-gram on citation networks yielding past/future vectors whose cosine distance quantifies scientific disruption
 - [[eml-operator]] — Single binary operator eml(x,y)=exp(x)−ln(y) that generates all elementary functions from constant 1 — the continuous NAND gate, with applications to symbolic regression, neuro-symbolic AI, automated reasoning, and single-instruction hardware
+- [[feedback-activity]] — Concept page for Feedback Activity
+- [[feedforward-activity]] — Concept page for Feedforward Activity
 - [[frame-transmission]] — The historical mechanism by which captured institutional forms are actually displaced — propagation of cognitive frames, person to person, inside captured institutions; the only durable lever, slow but consistent in the historical record
 - [[graphrag]] — RAG enhanced with graph traversal for richer context beyond vector similarity
 - [[hidden-states]] — The internal vector representations (activations) of data at each layer of a neural network, containing 'inner knowledge' and confidence signals.
+- [[hyperphantasia]] — Concept page for Hyperphantasia
 - [[institutional-capture-vs-species-framing]] — Reframe of "human nature" / "civilization" arguments — the unit making civilization-scale choices is not the species but a thin layer of captured institutions; reframes the Great Filter from technological to architectural
 - [[maximum-occupancy-principle]] — Theory of behavior replacing reward maximization with action-state path entropy maximization — Layer 0 of EFHF architecture; absorbing states → Kernel 2 (Prover9-verified)
 - [[memex]] — Vannevar Bush's 1945 vision of a personal associative knowledge device
@@ -31,10 +35,12 @@ type: index
 - [[scientific-writing]] — The practice of communicating scientific information to other scientists, characterized by precision, clarity, and adherence to established formats like IMRaD.
 - [[sheffer-stroke]] — A single primitive operator from which an entire computational domain is reconstructable — NAND for Boolean logic, EML for continuous mathematics, with structural parallels across domains
 - [[spin-vs-substrate]] — Analytical primitive — separating the rhetorical layer (clauses, statements, principles) from the operational layer (deployments, integrations, consequences); citing one as evidence about the other is the standard category error
+- [[spontaneous-activity-reshaping-hypothesis]] — Concept page for Spontaneous Activity Reshaping Hypothesis
 - [[symbolic-regression]] — Discovering closed-form mathematical expressions from data — approaches include genetic programming, neural-guided search, and gradient-optimized EML trees that are complete by construction
 - [[tag-taxonomy]] — Controlled vocabulary for wiki tags — preferred terms with USE/UF equivalence, BT/NT hierarchy, and RT associative relationships
 - [[wernickes-area]] — Concept page for Wernicke's Area.
 - [[andrej-karpathy]] — AI researcher, author of the LLM Wiki pattern
+- [[roger-koenig-robert]] — Entity page for neuroscientist Roger Koenig-Robert
 - [[alphaevolve]] — Google DeepMind's evolutionary coding agent — LLM ensemble + diff-based mutation + real hardware eval; 23% GEMM speedup; Gemini self-improvement; instantiates MGA pattern; open-sourced as OpenEvolve
 - [[efhf]] — Five-layer AI architecture implementing computational mechanics (epsilon machines, lumpability, causal closure) as a live multi-agent system — MOP proposed as Layer 0 for proactive exploration
 - [[mop-explorer]] — MOP-guided research agent using EFHF as verification backbone — autonomously explores concept spaces, generates hypotheses, verifies via L2-L5 pipeline, commits validated insights
@@ -49,6 +55,7 @@ type: index
 - [[critical-review-scientific-article-guide]] — A structured guide for analyzing and critically reviewing scientific journal articles, focusing on research methods, context, and significance.
 - [[design-thinking-mit]] — MIT Professional Education overview of the 10-step design thinking framework by Blade Kotelly
 - [[hilbert-hotel-graph-architecture]] — Gemini conversation exploring Hilbert Hotel paradox as graph database architecture — immutable nodes with lazy offset protocols, quantum oracle sketching, and 4D superspace simulations
+- [[how-does-imagination-really-work-in-the-brain-new-theory-upends-what-we-knew]] — Source summary for imagination theory article
 - [[llm-kernel-optimization]] — Technical deep-dive on AlphaEvolve/OpenEvolve for GPU kernel optimization — LLM ensemble + diff-based mutation + real hardware eval; 23% GEMM speedup; Gemini optimizing its own training; tensor decomposition as game-playing; connects to MGA framework as engineering instantiation
 - [[llm-wiki-pattern]] — Karpathy's pattern for LLM-maintained persistent Markdown knowledge bases
 - [[momoa-researcher]] — Google Labs agentic research scientist using Mixture of Mixture of Agents

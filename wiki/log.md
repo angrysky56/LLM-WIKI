@@ -1335,3 +1335,23 @@ Updated page: wiki/synthesis/intelligence-as-entropic-sculpting.md
 ## [2026-04-28 19:03] index
 
 Index updated with 81 pages
+
+## [2026-04-28 20:25] ingest | Eidetic Learning an Efficient and Provable Solution to Catastrophic Forgetting.md
+
+Ingested raw/Eidetic Learning an Efficient and Provable Solution to Catastrophic Forgetting.md into knowledge graph.
+
+Preview: Nicholas A. Dronen   Amazon   ndronen@amazon.com &Randall Balestriero   Brown University   randall\_balestriero@brown.edu  ###### Abstract  Catastrophic forgetting – the phenomenon of a neural network...
+
+## [2026-04-28 20:25] index
+
+Index updated with 79 pages (Deep refresh completed)
+
+## [2026-04-28 20:26] write
+
+Updated page: wiki/sources/papers/eidetic-learning-2021.md
+
+## [2026-04-28 20:30] ingest | test_ingest.md
+
+Ingested raw/test_ingest.md into knowledge graph.
+
+Preview: Project Synapse is an autonomous knowledge synthesis engine....

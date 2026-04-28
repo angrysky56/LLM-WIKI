@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "raw/Eidetic Learning an Efficient and Provable Solution to Catastrophic Forgetting.md",
+                "file": "raw/Emotion concepts and their function in a large language model.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Eidetic Learning an Efficient and Provable Solution to Catastrophic Forgetting"
+              "title": "Emotion concepts and their function in a large language model"
             }
           }
         ]
@@ -194,8 +194,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2ab9c987c297f7a1",
+  "active": "21788134b245b8c3",
   "lastOpenFiles": [
+    "raw/Eidetic Learning an Efficient and Provable Solution to Catastrophic Forgetting.md",
+    "Clippings/articles/2026/test_ingest.md",
+    "raw/test_ingest.md",
+    "wiki/sources/papers/eidetic-learning-2021.md",
+    "Clippings/papers/2026/Eidetic Learning an Efficient and Provable Solution to Catastrophic Forgetting.md",
     "wiki/synthesis/intelligence-as-entropic-sculpting.md",
     "wiki/concepts/feedback-activity.md",
     "wiki/concepts/feedforward-activity.md",
@@ -212,16 +217,11 @@
     "wiki/concepts/absence-of-worst-case-metric.md",
     "wiki/concepts/spin-vs-substrate.md",
     "raw/Emotion concepts and their function in a large language model.md",
-    "raw/Eidetic Learning an Efficient and Provable Solution to Catastrophic Forgetting.md",
     "wiki/synthesis/entropic-machinery-cot-and-flagellum.md",
     "wiki/synthesis/llm-biological-analogies.md",
     "wiki/sources/articles/wolchover-life-force-2026.md",
     "wiki/sources/papers/chen-molecular-cot-2026.md",
     "raw/The Molecular Structure of Thought Mapping the Topology of Long Chain-of-Thought Reasoning.md",
-    "Clippings/articles/2026/What Physical ‘Life Force’ Turns Biology’s Wheels.md",
-    "Clippings/papers/2026/The Molecular Structure of Thought Mapping the Topology of Long Chain-of-Thought Reasoning.md",
-    "raw/What Physical ‘Life Force’ Turns Biology’s Wheels.md",
-    "raw/How does imagination really work in the brain New theory upends what we knew.md",
     "clippings-archive.base",
     "wiki/synthesis",
     "wiki/entities/projects",

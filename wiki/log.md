@@ -1327,3 +1327,11 @@ Updated page: wiki/concepts/feedback-activity.md
 ## [2026-04-28 18:55] index
 
 Index updated with 80 pages
+
+## [2026-04-28 19:03] write
+
+Updated page: wiki/synthesis/intelligence-as-entropic-sculpting.md
+
+## [2026-04-28 19:03] index
+
+Index updated with 81 pages

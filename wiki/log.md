@@ -1355,3 +1355,65 @@ Updated page: wiki/sources/papers/eidetic-learning-2021.md
 Ingested raw/test_ingest.md into knowledge graph.
 
 Preview: Project Synapse is an autonomous knowledge synthesis engine....
+
+## [2026-04-28 21:09] lint
+
+🩺 **Wiki Health Check** — 82 pages
+
+**Orphans** (4):
+  - brocas-area-gemini-chat
+  - bae-mor-2025
+  - mixture-of-recursions
+  - eidetic-learning-2021
+**Broken links** (10):
+  - wiki/concepts/reward-modeling.md → [[reasoning]]
+  - wiki/sources/mixture-of-recursions.md → [[i-built-a-tiny-computer-inside-a-transformer]]
+  - wiki/sources/mixture-of-recursions.md → [[efficient-transformers]]
+  - wiki/sources/mixture-of-recursions.md → [[mixture-of-depths]]
+  - wiki/sources/mixture-of-recursions.md → [[recursive-transformers]]
+  - wiki/sources/mixture-of-recursions.md → [[adaptive-computation]]
+  - wiki/sources/mixture-of-recursions.md → [[latent-reasoning]]
+  - wiki/sources/mixture-of-recursions.md → [[kv-cache]]
+  - wiki/sources/papers/reward-inside-model-elhsr.md → [[reasoning]]
+  - wiki/synthesis/llm-biological-analogies.md → [[wiki/sources/articles/brocas-area-gemini-chat]]
+**Non-reciprocal links** (26) — A links to B but B doesn't link back:
+  - [[reward-modeling]] → [[critical-analysis]] (no return link)
+  - [[symbolic-regression]] → [[mcp-logic]] (no return link)
+  - [[hidden-states]] → [[critical-analysis]] (no return link)
+  - [[mcp-logic]] → [[mop-explorer]] (no return link)
+  - [[mcp-logic]] → [[maximum-occupancy-principle]] (no return link)
+  - [[maximum-occupancy-principle]] → [[edm-framework]] (no return link)
+  - [[maximum-occupancy-principle]] → [[zettelkasten-engine]] (no return link)
+  - [[academic-peer-review]] → [[critical-analysis]] (no return link)
+  - [[roger-koenig-robert]] → [[aphantasia]] (no return link)
+  - [[hipai-montague]] → [[mop-explorer]] (no return link)
+  - [[alphaevolve]] → [[maximum-occupancy-principle]] (no return link)
+  - [[efhf]] → [[neo4j]] (no return link)
+  - [[efhf]] → [[edm-framework]] (no return link)
+  - [[efhf]] → [[project-synapse]] (no return link)
+  - [[mop-explorer]] → [[edm-framework]] (no return link)
+  - [[mop-explorer]] → [[zettelkasten-engine]] (no return link)
+  - [[mop-explorer]] → [[efhf]] (no return link)
+  - [[mop-explorer]] → [[project-synapse]] (no return link)
+  - [[mop-explorer]] → [[maximum-occupancy-principle]] (no return link)
+  - [[critical-analysis]] → [[edm-framework]] (no return link)
+  - [[open-ended-evolution]] → [[eml-operator]] (no return link)
+  - [[open-ended-evolution]] → [[maximum-occupancy-principle]] (no return link)
+  - [[open-ended-evolution]] → [[efhf]] (no return link)
+  - [[eml-operator]] → [[efhf]] (no return link)
+  - [[eml-operator]] → [[mcp-logic]] (no return link)
+  - [[sheffer-stroke]] → [[mcp-logic]] (no return link)
+
+## [2026-04-28 21:11] ingest | Emotion concepts and their function in a large language model.md
+
+Ingested raw/Emotion concepts and their function in a large language model.md into knowledge graph.
+
+Preview: [Read the paper](https://transformer-circuits.pub/2026/emotions/index.html)  ![](https://www.youtube.com/watch?v=D4XTefP3Lsc)  All modern language models sometimes act like they have emotions. They ma...
+
+## [2026-04-28 21:12] write
+
+Updated page: wiki/sources/articles/emotion-concepts-llm.md
+
+## [2026-04-28 21:12] index
+
+Index updated with 81 pages (Deep refresh completed)

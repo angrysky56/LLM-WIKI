@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "raw/Emotion concepts and their function in a large language model.md",
+                "file": "raw/Eidetic Learning an Efficient and Provable Solution to Catastrophic Forgetting.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Emotion concepts and their function in a large language model"
+              "title": "Eidetic Learning an Efficient and Provable Solution to Catastrophic Forgetting"
             }
           }
         ]
@@ -196,8 +196,15 @@
   },
   "active": "21788134b245b8c3",
   "lastOpenFiles": [
-    "wiki/synthesis/entropic-machinery-cot-and-flagellum.md",
+    "wiki/synthesis/ai-governance-substrate-analysis.md",
+    "wiki/concepts/frame-transmission.md",
+    "wiki/concepts/cryptographic-vs-semantic-alignment.md",
+    "wiki/concepts/institutional-capture-vs-species-framing.md",
+    "wiki/concepts/absence-of-worst-case-metric.md",
+    "wiki/concepts/spin-vs-substrate.md",
     "raw/Emotion concepts and their function in a large language model.md",
+    "raw/Eidetic Learning an Efficient and Provable Solution to Catastrophic Forgetting.md",
+    "wiki/synthesis/entropic-machinery-cot-and-flagellum.md",
     "wiki/synthesis/llm-biological-analogies.md",
     "wiki/sources/articles/wolchover-life-force-2026.md",
     "wiki/sources/papers/chen-molecular-cot-2026.md",
@@ -215,13 +222,6 @@
     "raw/You said  Tell me about Broca's area of the brain....md",
     "wiki/concepts/myelination.md",
     "wiki/concepts/arcuate-fasciculus.md",
-    "wiki/concepts/wernickes-area.md",
-    "wiki/concepts/brocas-area.md",
-    "wiki/sources/articles/brocas-area-gemini-chat.md",
-    "Clippings/articles/2026/You said  Tell me about Broca's area of the brain....md",
-    "wiki/sources/articles/llm-kernel-optimization.md",
-    "wiki/sources/articles/transformer-vm-moran-2026.md",
-    "wiki/sources/articles/prd-ralph-loop-mop-gemini.md",
     "clippings-archive.base",
     "wiki/synthesis",
     "wiki/entities/projects",

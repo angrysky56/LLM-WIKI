@@ -1086,3 +1086,151 @@ Updated page: wiki/concept-index.md
 ## [2026-04-26 06:26] index
 
 Index updated with 67 pages
+
+## [2026-04-28 18:24] write
+
+Updated page: wiki/concepts/spin-vs-substrate.md
+
+## [2026-04-28 18:25] write
+
+Updated page: wiki/concepts/absence-of-worst-case-metric.md
+
+## [2026-04-28 18:25] write
+
+Updated page: wiki/concepts/institutional-capture-vs-species-framing.md
+
+## [2026-04-28 18:26] write
+
+Updated page: wiki/concepts/cryptographic-vs-semantic-alignment.md
+
+## [2026-04-28 18:27] write
+
+Updated page: wiki/concepts/frame-transmission.md
+
+## [2026-04-28 18:27] write
+
+Updated page: wiki/synthesis/ai-governance-substrate-analysis.md
+
+## [2026-04-28 18:28] index
+
+Index updated with 73 pages
+
+## [2026-04-28 18:28] lint
+
+🩺 **Wiki Health Check** — 73 pages
+
+**Orphans** (4):
+  - ai-governance-substrate-analysis
+  - brocas-area-gemini-chat
+  - bae-mor-2025
+  - mixture-of-recursions
+**Broken links** (20):
+  - wiki/concepts/reward-modeling.md → [[reasoning]]
+  - wiki/sources/mixture-of-recursions.md → [[i-built-a-tiny-computer-inside-a-transformer]]
+  - wiki/sources/mixture-of-recursions.md → [[efficient-transformers]]
+  - wiki/sources/mixture-of-recursions.md → [[mixture-of-depths]]
+  - wiki/sources/mixture-of-recursions.md → [[recursive-transformers]]
+  - wiki/sources/mixture-of-recursions.md → [[adaptive-computation]]
+  - wiki/sources/mixture-of-recursions.md → [[latent-reasoning]]
+  - wiki/sources/mixture-of-recursions.md → [[kv-cache]]
+  - wiki/sources/papers/reward-inside-model-elhsr.md → [[reasoning]]
+  - wiki/synthesis/ai-governance-substrate-analysis.md → [[../concepts/spin-vs-substrate]]
+  - wiki/synthesis/ai-governance-substrate-analysis.md → [[../concepts/absence-of-worst-case-metric]]
+  - wiki/synthesis/ai-governance-substrate-analysis.md → [[../concepts/institutional-capture-vs-species-framing]]
+  - wiki/synthesis/ai-governance-substrate-analysis.md → [[../concepts/cryptographic-vs-semantic-alignment]]
+  - wiki/synthesis/ai-governance-substrate-analysis.md → [[../concepts/frame-transmission]]
+  - wiki/synthesis/ai-governance-substrate-analysis.md → [[../concepts/spin-vs-substrate]]
+  - wiki/synthesis/ai-governance-substrate-analysis.md → [[../concepts/absence-of-worst-case-metric]]
+  - wiki/synthesis/ai-governance-substrate-analysis.md → [[../concepts/institutional-capture-vs-species-framing]]
+  - wiki/synthesis/ai-governance-substrate-analysis.md → [[../concepts/cryptographic-vs-semantic-alignment]]
+  - wiki/synthesis/ai-governance-substrate-analysis.md → [[../concepts/frame-transmission]]
+  - wiki/synthesis/llm-biological-analogies.md → [[wiki/sources/articles/brocas-area-gemini-chat]]
+**Non-reciprocal links** (26) — A links to B but B doesn't link back:
+  - [[cryptographic-vs-semantic-alignment]] → [[spin-vs-substrate]] (no return link)
+  - [[sheffer-stroke]] → [[mcp-logic]] (no return link)
+  - [[reward-modeling]] → [[critical-analysis]] (no return link)
+  - [[open-ended-evolution]] → [[maximum-occupancy-principle]] (no return link)
+  - [[open-ended-evolution]] → [[efhf]] (no return link)
+  - [[open-ended-evolution]] → [[eml-operator]] (no return link)
+  - [[symbolic-regression]] → [[mcp-logic]] (no return link)
+  - [[hidden-states]] → [[critical-analysis]] (no return link)
+  - [[mcp-logic]] → [[mop-explorer]] (no return link)
+  - [[mcp-logic]] → [[maximum-occupancy-principle]] (no return link)
+  - [[hipai-montague]] → [[mop-explorer]] (no return link)
+  - [[maximum-occupancy-principle]] → [[zettelkasten-engine]] (no return link)
+  - [[maximum-occupancy-principle]] → [[edm-framework]] (no return link)
+  - [[alphaevolve]] → [[maximum-occupancy-principle]] (no return link)
+  - [[efhf]] → [[edm-framework]] (no return link)
+  - [[efhf]] → [[project-synapse]] (no return link)
+  - [[efhf]] → [[neo4j]] (no return link)
+  - [[academic-peer-review]] → [[critical-analysis]] (no return link)
+  - [[eml-operator]] → [[efhf]] (no return link)
+  - [[eml-operator]] → [[mcp-logic]] (no return link)
+  - [[mop-explorer]] → [[efhf]] (no return link)
+  - [[mop-explorer]] → [[edm-framework]] (no return link)
+  - [[mop-explorer]] → [[maximum-occupancy-principle]] (no return link)
+  - [[mop-explorer]] → [[zettelkasten-engine]] (no return link)
+  - [[mop-explorer]] → [[project-synapse]] (no return link)
+  - [[critical-analysis]] → [[edm-framework]] (no return link)
+
+## [2026-04-28 18:29] write
+
+Updated page: wiki/synthesis/ai-governance-substrate-analysis.md
+
+## [2026-04-28 18:30] write
+
+Updated page: wiki/concepts/spin-vs-substrate.md
+
+## [2026-04-28 18:32] write
+
+Updated page: wiki/concept-index.md
+
+## [2026-04-28 18:33] index
+
+Index updated with 73 pages
+
+## [2026-04-28 18:33] lint
+
+🩺 **Wiki Health Check** — 73 pages
+
+**Orphans** (3):
+  - brocas-area-gemini-chat
+  - bae-mor-2025
+  - mixture-of-recursions
+**Broken links** (10):
+  - wiki/concepts/reward-modeling.md → [[reasoning]]
+  - wiki/sources/mixture-of-recursions.md → [[i-built-a-tiny-computer-inside-a-transformer]]
+  - wiki/sources/mixture-of-recursions.md → [[efficient-transformers]]
+  - wiki/sources/mixture-of-recursions.md → [[mixture-of-depths]]
+  - wiki/sources/mixture-of-recursions.md → [[recursive-transformers]]
+  - wiki/sources/mixture-of-recursions.md → [[adaptive-computation]]
+  - wiki/sources/mixture-of-recursions.md → [[latent-reasoning]]
+  - wiki/sources/mixture-of-recursions.md → [[kv-cache]]
+  - wiki/sources/papers/reward-inside-model-elhsr.md → [[reasoning]]
+  - wiki/synthesis/llm-biological-analogies.md → [[wiki/sources/articles/brocas-area-gemini-chat]]
+**Non-reciprocal links** (25) — A links to B but B doesn't link back:
+  - [[sheffer-stroke]] → [[mcp-logic]] (no return link)
+  - [[reward-modeling]] → [[critical-analysis]] (no return link)
+  - [[open-ended-evolution]] → [[maximum-occupancy-principle]] (no return link)
+  - [[open-ended-evolution]] → [[efhf]] (no return link)
+  - [[open-ended-evolution]] → [[eml-operator]] (no return link)
+  - [[symbolic-regression]] → [[mcp-logic]] (no return link)
+  - [[hidden-states]] → [[critical-analysis]] (no return link)
+  - [[mcp-logic]] → [[mop-explorer]] (no return link)
+  - [[mcp-logic]] → [[maximum-occupancy-principle]] (no return link)
+  - [[hipai-montague]] → [[mop-explorer]] (no return link)
+  - [[maximum-occupancy-principle]] → [[zettelkasten-engine]] (no return link)
+  - [[maximum-occupancy-principle]] → [[edm-framework]] (no return link)
+  - [[alphaevolve]] → [[maximum-occupancy-principle]] (no return link)
+  - [[efhf]] → [[edm-framework]] (no return link)
+  - [[efhf]] → [[project-synapse]] (no return link)
+  - [[efhf]] → [[neo4j]] (no return link)
+  - [[academic-peer-review]] → [[critical-analysis]] (no return link)
+  - [[eml-operator]] → [[efhf]] (no return link)
+  - [[eml-operator]] → [[mcp-logic]] (no return link)
+  - [[mop-explorer]] → [[efhf]] (no return link)
+  - [[mop-explorer]] → [[edm-framework]] (no return link)
+  - [[mop-explorer]] → [[maximum-occupancy-principle]] (no return link)
+  - [[mop-explorer]] → [[zettelkasten-engine]] (no return link)
+  - [[mop-explorer]] → [[project-synapse]] (no return link)
+  - [[critical-analysis]] → [[edm-framework]] (no return link)

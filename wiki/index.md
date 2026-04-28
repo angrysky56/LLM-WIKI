@@ -1,20 +1,24 @@
 ---
-updated: 2026-04-26T06:26:41Z
+updated: 2026-04-28T18:33:14Z
 type: index
 ---
 
 # Wiki Index
 
 - [[concept-index]] — Conceptual index — maps ideas to pages by meaning rather than structure; complement to the structural TOC in index.md
+- [[absence-of-worst-case-metric]] — Failure mode in evaluating high-stakes systems — judging success by whether the catastrophic event occurred while bracketing out steady-state cost; the metric that called nuclear deterrence "successful" and is being installed for AI
 - [[academic-peer-review]] — The process by which scholarly work is checked by experts in the same field to ensure quality and validity before publication.
 - [[arcuate-fasciculus]] — Concept page for Arcuate Fasciculus.
 - [[brocas-area]] — Concept page for Broca's Area.
 - [[critical-analysis]] — The systematic evaluation of research to understand its methodology, context, validity, and significance.
+- [[cryptographic-vs-semantic-alignment]] — Distinction between what cryptographic protocols can prove (integrity, provenance, state validity) and what they cannot (semantic alignment of outputs to consequences in a world the protocol does not see); decentralized consensus is necessary but not sufficient for AI governance
 - [[design-thinking]] — Human-centered innovation framework — structured process from need identification through verification, with leverage concentrated in the often-neglected front-end phases
 - [[edm-framework]] — Embedding Disruptiveness Measure — Kim, Kojaku & Ahn (2026) — directional skip-gram on citation networks yielding past/future vectors whose cosine distance quantifies scientific disruption
 - [[eml-operator]] — Single binary operator eml(x,y)=exp(x)−ln(y) that generates all elementary functions from constant 1 — the continuous NAND gate, with applications to symbolic regression, neuro-symbolic AI, automated reasoning, and single-instruction hardware
+- [[frame-transmission]] — The historical mechanism by which captured institutional forms are actually displaced — propagation of cognitive frames, person to person, inside captured institutions; the only durable lever, slow but consistent in the historical record
 - [[graphrag]] — RAG enhanced with graph traversal for richer context beyond vector similarity
 - [[hidden-states]] — The internal vector representations (activations) of data at each layer of a neural network, containing 'inner knowledge' and confidence signals.
+- [[institutional-capture-vs-species-framing]] — Reframe of "human nature" / "civilization" arguments — the unit making civilization-scale choices is not the species but a thin layer of captured institutions; reframes the Great Filter from technological to architectural
 - [[maximum-occupancy-principle]] — Theory of behavior replacing reward maximization with action-state path entropy maximization — Layer 0 of EFHF architecture; absorbing states → Kernel 2 (Prover9-verified)
 - [[memex]] — Vannevar Bush's 1945 vision of a personal associative knowledge device
 - [[myelination]] — Concept page for Myelination.
@@ -26,6 +30,7 @@ type: index
 - [[reward-modeling]] — The process of training a secondary model to assign scalar scores to LLM outputs, used for alignment (RLHF) and test-time scaling (Best-of-N).
 - [[scientific-writing]] — The practice of communicating scientific information to other scientists, characterized by precision, clarity, and adherence to established formats like IMRaD.
 - [[sheffer-stroke]] — A single primitive operator from which an entire computational domain is reconstructable — NAND for Boolean logic, EML for continuous mathematics, with structural parallels across domains
+- [[spin-vs-substrate]] — Analytical primitive — separating the rhetorical layer (clauses, statements, principles) from the operational layer (deployments, integrations, consequences); citing one as evidence about the other is the standard category error
 - [[symbolic-regression]] — Discovering closed-form mathematical expressions from data — approaches include genetic programming, neural-guided search, and gradient-optimized EML trees that are complete by construction
 - [[tag-taxonomy]] — Controlled vocabulary for wiki tags — preferred terms with USE/UF equivalence, BT/NT hierarchy, and RT associative relationships
 - [[wernickes-area]] — Concept page for Wernicke's Area.
@@ -62,8 +67,9 @@ type: index
 - [[reward-inside-model-elhsr]] — Efficient Linear Hidden State Reward (ELHSR): A lightweight reward model (<0.005% parameters) using internal LLM hidden states for Best-of-N sampling.
 - [[utimula-openpraparat-2025]] — Utimula (2025) — guideless ALife model combining Tierra gene mechanics with 3D virtual creatures; no fitness function; emergent reproduction (binary fission, budding), protective organs, and energy transport networks via mutation + natural selection
 - [[product-canvas]] — Google Labs multiplayer brainstorming canvas with AI voice agent and wiki knowledge editor
+- [[ai-governance-substrate-analysis]] — Five interlocking cognitive primitives for evaluating AI governance discourse at the substrate level — spin-vs-substrate, absence-of-worst-case metric, institutional capture vs species framing, cryptographic vs semantic alignment, frame transmission; ASEKE-compatible diagnostic toolkit
 - [[causal-state-edm-ood-isomorphism]] — Epsilon machine causal states ↔ EDM citation vectors — disruptive papers as OOD state-splitting events; connected to MOP (β = state-splitting appetite) and EFHF (hallucination = lumpability failure)
-- [[entropic-machinery-cot-and-flagellum]] — Cross-domain synthesis: Long CoT reasoning (Chen et al. 2026) and the bacterial flagellar motor (Wolchover 2026) implement the same five-part architecture — Boltzmann substrate + asymmetric multi-bond rectifier + conformational folding + continuously-replenished gradient + single-event signal cascade. Both papers independently dissolve a "vitalism-shaped" mystery using statistical mechanics; the merge predicts gradient-maintenance objectives for inference, generalizes Mole-Syn-style structural transfer, and connects to MOP, EFHF, and minimal-generative-architectures.
+- [[entropic-machinery-cot-and-flagellum]] — 
 - [[llm-biological-analogies]] — Synthesis page for LLM-biological analogies.
 - [[minimal-generative-architectures]] — Cross-domain synthesis: NAND, EML, MOP, and OpenPraparat share a structural pattern — minimal primitives + recursion + boundary constraints = unbounded complexity; OpenPraparat validates MOP predictions empirically; EML provides the computational substrate; extends EFHF with L-1 computational primitive layer
 - [[mop-edm-cognitive-architecture]] — Synthesis: MOP as EFHF Layer 0 + EDM disruption measurement — formally verified structural mapping (Prover9), three implementation levels, KL regularization critique, hallucination as lumpability failure, coherent complexity growth

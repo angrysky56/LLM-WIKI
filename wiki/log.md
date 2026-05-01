@@ -4,6 +4,16 @@ type: log
 
 # Wiki Log
 
+## [2026-05-01 07:52] config | EFHF Unified MCP
+
+Synthesized a unified Model Context Protocol (MCP) configuration for the entire EFHF ecosystem.
+
+**Actions:**
+- Resolved absolute paths for all EFHF servers in `/home/ty/Repositories/ai_workspace`.
+- Created [[efhf-mcp-configuration]] in `wiki/synthesis/`.
+- Verified entry points for 12+ servers including [[agem]], [[nexus]], [[graph-rlm]], and [[conscience-servitor]].
+- Documented technical requirements (`uv`, `node v22`, `ollama`) and setup instructions for Claude Desktop.
+
 ## [2026-05-01 07:07] bulk-ingest | Ty's Repos & Research Paper
 
 Major ingestion and organization session for [[tyler-hall|Ty]]'s core repository collection and the scientific paper "Why LLMs Aren't Scientists Yet".
@@ -2043,3 +2053,19 @@ Updated page: wiki/sources/repositories/sentience-metaphysics.md
 ## [2026-05-01 07:19] index
 
 Index updated with 112 pages (Deep refresh completed)
+
+## [2026-05-01 07:51] write
+
+Updated page: wiki/synthesis/efhf-mcp-configuration.md
+
+## [2026-05-01 07:51] index
+
+Index updated with 113 pages
+
+## [2026-05-01 08:17] write
+
+Updated page: wiki/synthesis/seg-scientist-agent-design.md
+
+## [2026-05-01 08:19] index
+
+Index updated with 114 pages

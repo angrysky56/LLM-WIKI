@@ -190,8 +190,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "21788134b245b8c3",
+  "active": "2ab9c987c297f7a1",
   "lastOpenFiles": [
+    "wiki/synthesis/seg-scientist-agent-design.md",
+    "wiki/synthesis/efhf-mcp-configuration.md",
     "wiki/sources/repositories/sentience-metaphysics.md",
     "wiki/sources/repositories/project-synapse-mcp.md",
     "wiki/entities/projects/tys-repos/sentience-metaphysics.md",
@@ -216,8 +218,6 @@
     "wiki/entities/projects/tys-repos/ast-mcp-server.md",
     "wiki/entities/projects/tys-repos/mcp-coordinator.md",
     "wiki/entities/projects/tys-repos/advanced-reasoning-mcp.md",
-    "wiki/entities/projects/tys-repos/mcp-logic.md",
-    "wiki/entities/projects/tys-repos/toward-transcendent-moral-instrumentality.md",
     "wiki/entities/projects/tys-repos",
     "clippings-archive.base",
     "wiki/synthesis",

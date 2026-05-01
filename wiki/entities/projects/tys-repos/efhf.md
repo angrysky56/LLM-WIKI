@@ -35,5 +35,6 @@ The **Emergent Functional Hierarchies Framework (EFHF)** is a comprehensive arch
 ## Connections
 - [[hipai-montague]] — Layer 2 world model.
 - [[sheaf-consistency-enforcer]] — Layer 5 enforcer.
+- [[efhf-mcp-configuration]] — Unified MCP configuration for the EFHF stack.
 - [[tys-repos]] — Part of Ty's repository collection.
 - [[agentic-research]] — Provides the grounding for autonomous research pipelines.

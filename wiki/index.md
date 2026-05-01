@@ -1,5 +1,5 @@
 ---
-updated: 2026-05-01T07:19:27Z
+updated: 2026-05-01T08:19:16Z
 type: index
 ---
 
@@ -109,11 +109,13 @@ type: index
 - [[sentience-metaphysics]] — Source summary for Sentience Metaphysics repo.
 - [[ai-governance-substrate-analysis]] — Five interlocking cognitive primitives for evaluating AI governance discourse at the substrate level — spin-vs-substrate, absence-of-worst-case metric, institutional capture vs species framing, cryptographic vs semantic alignment, frame transmission; ASEKE-compatible diagnostic toolkit
 - [[causal-state-edm-ood-isomorphism]] — Epsilon machine causal states ↔ EDM citation vectors — disruptive papers as OOD state-splitting events; connected to MOP (β = state-splitting appetite) and EFHF (hallucination = lumpability failure)
+- [[efhf-mcp-configuration]] — Master MCP configuration for the EFHF stack.
 - [[entropic-machinery-cot-and-flagellum]] — 
 - [[intelligence-as-entropic-sculpting]] — Synthesis: Intelligence as Entropic Sculpting (SARH + MOP)
 - [[llm-biological-analogies]] — Synthesis page for LLM-biological analogies.
 - [[minimal-generative-architectures]] — Cross-domain synthesis: NAND, EML, MOP, and OpenPraparat share a structural pattern — minimal primitives + recursion + boundary constraints = unbounded complexity; OpenPraparat validates MOP predictions empirically; EML provides the computational substrate; extends EFHF with L-1 computational primitive layer
 - [[mop-edm-cognitive-architecture]] — Synthesis: MOP as EFHF Layer 0 + EDM disruption measurement — formally verified structural mapping (Prover9), three implementation levels, KL regularization critique, hallucination as lumpability failure, coherent complexity growth
+- [[seg-scientist-agent-design]] — Integrated design for an autonomous AI scientist combining the SEG council (Layer 1) with the EFHF verification stack (Layers 2-5+), validated by end-to-end smoke test on a known-false claim.
 - [[synapse-llm-wiki-operating-guide]] — Agent operating instructions for the Synapse + LLM-WIKI system — tool decision logic, content lifecycle, ingest and fetch workflows, writing conventions
 - [[synapse-retrieval-architecture]] — Four-stage query_knowledge pipeline: entity graph seeding → RRF hybrid search → wikilink expansion → Zettelkasten insights
 - [[wiki-indexing-theory]] — IR and indexing theory applied to LLM-WIKI: TOC vs conceptual index, controlled vocabulary, thesaurus relationships, HITS on wikilinks, mere mentions, and GAAC clustering for wiki health

@@ -48,4 +48,5 @@ Compared to [[utimula-openpraparat-2025]]: AlphaEvolve is *guided* evolution (ha
 - [[utimula-openpraparat-2025]] — guideless evolutionary parallel
 - [[open-ended-evolution]] — AlphaEvolve minus fitness function = OEE
 - [[momoa-researcher]] — AI research agent context
+- [[agentic-research]] — The broader paradigm of autonomous AI-led scientific discovery.
 - [[causal-state-edm-ood-isomorphism]] — AI-generated algorithmic breakthroughs as high-Δ disruption events

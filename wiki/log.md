@@ -4,6 +4,27 @@ type: log
 
 # Wiki Log
 
+## [2026-05-01 07:07] bulk-ingest | Ty's Repos & Research Paper
+
+Major ingestion and organization session for [[tyler-hall|Ty]]'s core repository collection and the scientific paper "Why LLMs Aren't Scientists Yet".
+
+**Actions:**
+- Ingested 27 raw files (READMEs and research paper).
+- Archived all sources to `Clippings/` with auto-routing.
+- Created central hub: [[tys-repos]].
+- Created 15 project pages in `wiki/entities/projects/tys-repos/` covering the EFHF stack:
+    - [[efhf]], [[hipai-montague]], [[toward-transcendent-moral-instrumentality]]
+    - [[mcp-logic]], [[advanced-reasoning-mcp]], [[mcp-coordinator]]
+    - [[agem]], [[nexus]], [[graph-rlm]]
+    - [[sheaf-consistency-enforcer]], [[conscience-servitor]], [[ast-mcp-server]]
+    - [[aseke-compass-mcp]], [[verifier-graph]], [[ethical-ai-core]]
+- Created 4 source summaries in `wiki/sources/`:
+    - [[why-llms-arent-scientists-yet]]
+    - [[mcp-logic]] (source summary)
+    - [[nexus]] (source summary)
+    - [[agem]] (source summary)
+- Rebuilt wiki index (107 pages).
+
 ## [2026-04-07 20:00] ingest | llm-wiki.md
 
 Ingested raw/llm-wiki.md into knowledge graph.
@@ -1417,3 +1438,573 @@ Updated page: wiki/sources/articles/emotion-concepts-llm.md
 ## [2026-04-28 21:12] index
 
 Index updated with 81 pages (Deep refresh completed)
+
+## [2026-05-01 06:25] ingest | Why LLMs Aren't Scientists Yet Lessons from Four Autonomous Research Attempts.md
+
+Ingested raw/Why LLMs Aren't Scientists Yet Lessons from Four Autonomous Research Attempts.md into knowledge graph.
+
+Preview: [Paper](https://www.alphaxiv.org/abs/2601.03315) [Blog](https://www.alphaxiv.org/overview/2601.03315) [Resources](https://www.alphaxiv.org/resources/2601.03315)  / 30  Why LLMs Aren’t Scientists Yet: ...
+
+## [2026-05-01 06:25] write
+
+Updated page: wiki/sources/articles/why-llms-arent-scientists-yet.md
+
+## [2026-05-01 06:25] write
+
+Updated page: wiki/entities/people/dhruv-trehan.md
+
+## [2026-05-01 06:25] write
+
+Updated page: wiki/entities/people/paras-chopra.md
+
+## [2026-05-01 06:25] write
+
+Updated page: wiki/concepts/agentic-research.md
+
+## [2026-05-01 06:25] write
+
+Updated page: wiki/entities/tools/claude-code.md
+
+## [2026-05-01 06:25] write
+
+Updated page: wiki/entities/tools/gemini.md
+
+## [2026-05-01 06:25] index
+
+Index updated with 87 pages (Deep refresh completed)
+## [2026-05-01 00:25] ingest | Why LLMs Aren't Scientists Yet Lessons from Four Autonomous Research Attempts.md
+
+Ingested raw/Why LLMs Aren't Scientists Yet Lessons from Four Autonomous Research Attempts.md into knowledge graph and archived to Clippings/articles/2026/.
+
+## [2026-05-01 00:25] write
+
+Updated page: wiki/sources/articles/why-llms-arent-scientists-yet.md
+
+## [2026-05-01 06:25] write
+
+Updated page: wiki/entities/people/dhruv-trehan.md
+
+## [2026-05-01 06:25] write
+
+Updated page: wiki/entities/people/paras-chopra.md
+
+## [2026-05-01 06:25] write
+
+Updated page: wiki/concepts/agentic-research.md
+
+## [2026-05-01 06:25] write
+
+Updated page: wiki/entities/tools/claude-code.md
+
+## [2026-05-01 06:25] write
+
+Updated page: wiki/entities/tools/gemini.md
+
+## [2026-05-01 06:25] index
+
+Index updated with 87 pages
+
+## [2026-05-01 06:27] lint
+
+🩺 **Wiki Health Check** — 89 pages
+
+**Orphans** (5):
+  - mixture-of-recursions
+  - brocas-area-gemini-chat
+  - emotion-concepts-llm
+  - bae-mor-2025
+  - eidetic-learning-2021
+**Broken links** (17):
+  - wiki/concepts/reward-modeling.md → [[reasoning]]
+  - wiki/sources/articles/emotion-concepts-llm.md → [[blackmail]]
+  - wiki/sources/articles/emotion-concepts-llm.md → [[reward-hacking]]
+  - wiki/sources/articles/emotion-concepts-llm.md → [[neural-interpretability]]
+  - wiki/sources/articles/emotion-concepts-llm.md → [[ai-safety]]
+  - wiki/sources/articles/emotion-concepts-llm.md → [[steering-vectors]]
+  - wiki/sources/articles/emotion-concepts-llm.md → [[machine-psychology]]
+  - wiki/sources/articles/emotion-concepts-llm.md → [[functional-emotions]]
+  - wiki/sources/mixture-of-recursions.md → [[i-built-a-tiny-computer-inside-a-transformer]]
+  - wiki/sources/mixture-of-recursions.md → [[efficient-transformers]]
+  - wiki/sources/mixture-of-recursions.md → [[mixture-of-depths]]
+  - wiki/sources/mixture-of-recursions.md → [[recursive-transformers]]
+  - wiki/sources/mixture-of-recursions.md → [[adaptive-computation]]
+  - wiki/sources/mixture-of-recursions.md → [[latent-reasoning]]
+  - wiki/sources/mixture-of-recursions.md → [[kv-cache]]
+  - wiki/sources/papers/reward-inside-model-elhsr.md → [[reasoning]]
+  - wiki/synthesis/llm-biological-analogies.md → [[wiki/sources/articles/brocas-area-gemini-chat]]
+**Non-reciprocal links** (28) — A links to B but B doesn't link back:
+  - [[alphaevolve]] → [[maximum-occupancy-principle]] (no return link)
+  - [[critical-analysis]] → [[edm-framework]] (no return link)
+  - [[mop-explorer]] → [[maximum-occupancy-principle]] (no return link)
+  - [[mop-explorer]] → [[project-synapse]] (no return link)
+  - [[mop-explorer]] → [[efhf]] (no return link)
+  - [[mop-explorer]] → [[zettelkasten-engine]] (no return link)
+  - [[mop-explorer]] → [[edm-framework]] (no return link)
+  - [[symbolic-regression]] → [[mcp-logic]] (no return link)
+  - [[gemini]] → [[agentic-research]] (no return link)
+  - [[hidden-states]] → [[critical-analysis]] (no return link)
+  - [[efhf]] → [[neo4j]] (no return link)
+  - [[efhf]] → [[project-synapse]] (no return link)
+  - [[efhf]] → [[edm-framework]] (no return link)
+  - [[academic-peer-review]] → [[critical-analysis]] (no return link)
+  - [[hipai-montague]] → [[mop-explorer]] (no return link)
+  - [[open-ended-evolution]] → [[maximum-occupancy-principle]] (no return link)
+  - [[open-ended-evolution]] → [[efhf]] (no return link)
+  - [[open-ended-evolution]] → [[eml-operator]] (no return link)
+  - [[agentic-research]] → [[alphaevolve]] (no return link)
+  - [[roger-koenig-robert]] → [[aphantasia]] (no return link)
+  - [[reward-modeling]] → [[critical-analysis]] (no return link)
+  - [[maximum-occupancy-principle]] → [[edm-framework]] (no return link)
+  - [[maximum-occupancy-principle]] → [[zettelkasten-engine]] (no return link)
+  - [[eml-operator]] → [[mcp-logic]] (no return link)
+  - [[eml-operator]] → [[efhf]] (no return link)
+  - [[mcp-logic]] → [[maximum-occupancy-principle]] (no return link)
+  - [[mcp-logic]] → [[mop-explorer]] (no return link)
+  - [[sheffer-stroke]] → [[mcp-logic]] (no return link)
+
+## [2026-05-01 06:28] index
+
+Index updated with 87 pages
+
+## [2026-05-01 07:00] ingest | angrysky56Emergent-Functional-Hierarchies-Framework.md
+
+Ingested raw/angrysky56Emergent-Functional-Hierarchies-Framework.md into knowledge graph.
+
+Preview: ## Emergent Functional Hierarchies Framework (EFHF)  ## Overview  This project synthesises three interrelated theoretical frameworks and implements them as a working multi-agent AI system with formal ...
+
+## [2026-05-01 07:01] ingest | angrysky56HiPAI-Montague-Semantic-Cognition Uses Montague semantics and a deterministic graph database to enforce mathematically verified, immutable ethical logic, prevents utilitarian overrides of deontological constraints via an immutable cons.md
+
+Ingested raw/angrysky56HiPAI-Montague-Semantic-Cognition Uses Montague semantics and a deterministic graph database to enforce mathematically verified, immutable ethical logic, prevents utilitarian overrides of deontological constraints via an immutable cons.md into knowledge graph.
+
+Preview: ## HiPAI Montague Semantic Cognition  ### with Paraclete Protocol v2.0 — Operational Ethics Layer  A neuro-symbolic cognitive architecture blending Montague grammar semantics, graph-based world modeli...
+
+## [2026-05-01 07:01] ingest | angrysky56NEXUS.md
+
+Ingested raw/angrysky56NEXUS.md into knowledge graph.
+
+Preview: ## 🧠 NEXUS  **Neuro-Epistemic eXploration and Unified Synthesis Engine**  A cognitive architecture that synthesizes cutting-edge research in neuroscience, AI, and cognitive science into a unified fram...
+
+## [2026-05-01 07:01] ingest | angrysky56Toward-Transcendent-Moral-Instrumentality A modular ethical framework for AI featuring a three-tier logic (Deontology  Virtue  Utility) to enable cross-cultural adaptability while maintaining absolute harm-rejection boundaries..md
+
+Ingested raw/angrysky56Toward-Transcendent-Moral-Instrumentality A modular ethical framework for AI featuring a three-tier logic (Deontology  Virtue  Utility) to enable cross-cultural adaptability while maintaining absolute harm-rejection boundaries..md into knowledge graph.
+
+Preview: ### Toward Transcendent Moral Instrumentality  ## The Paraclete Protocol v2.0: Modular Ethical Core  ## A Universal Framework for Ethical Artificial Intelligence  **Philosophical Whitepaper**  ---  ##...
+
+## [2026-05-01 07:01] ingest | angrysky56advanced-reasoning-mcp Allows AI to perform advanced reasoning, store the reasoning automatically, and can create system prompts or domain knowledge as libraries..md
+
+Ingested raw/angrysky56advanced-reasoning-mcp Allows AI to perform advanced reasoning, store the reasoning automatically, and can create system prompts or domain knowledge as libraries..md into knowledge graph.
+
+Preview: ## Advanced Reasoning MCP Server  An elegant, self-contained MCP server that builds on the sequential thinking pattern with advanced cognitive capabilities including meta-reasoning, hypothesis testing...
+
+## [2026-05-01 07:01] ingest | angrysky56agent-group-evolving-molecular-system-AGEM The AGEM framework excels in scenarios requiring deep, multi-faceted reasoning where traditional linear approaches fall short. Dynamic interaction between specialized agents, mathematical cons.md
+
+Ingested raw/angrysky56agent-group-evolving-molecular-system-AGEM The AGEM framework excels in scenarios requiring deep, multi-faceted reasoning where traditional linear approaches fall short. Dynamic interaction between specialized agents, mathematical cons.md into knowledge graph.
+
+Preview: ## Agent Group Evolving Molecular System (AGEM)  RLM-LCM Molecular-CoT Group Evolving Agents — Sheaf-theoretic multi-agent coordination with lumpability-audited context management and self-healing cog...
+
+## [2026-05-01 07:01] ingest | angrysky56aseke-compass-mcp Building systemic discernment directly into a population, to recognize how their biological levers are being pulled by external leadership or algorithms—shifts the Cognitive Effort required for an Information System t.md
+
+Ingested raw/angrysky56aseke-compass-mcp Building systemic discernment directly into a population, to recognize how their biological levers are being pulled by external leadership or algorithms—shifts the Cognitive Effort required for an Information System t.md into knowledge graph.
+
+Preview: ## ASEKE Compass Engine — MCP Server  Behavioral analysis tools grounded in Panksepp's Affective Neuroscience (1998), Duckitt & Sibley's Dual Process Model (2009), and the ASEKE framework (Hall).  ## ...
+
+## [2026-05-01 07:01] ingest | angrysky56ast-mcp-server By transforming source code into a queryable Semantic Graph and a structured AST, this tool bridges the gap between reading text and understanding structure. For an AI assistant, it provides the spatial awareness needed.md
+
+Ingested raw/angrysky56ast-mcp-server By transforming source code into a queryable Semantic Graph and a structured AST, this tool bridges the gap between reading text and understanding structure. For an AI assistant, it provides the spatial awareness needed.md into knowledge graph.
+
+Preview: ## AST MCP Server  An MCP (Model Context Protocol) server that provides code structure and semantic analysis capabilities through Abstract Syntax Trees (AST) and Abstract Semantic Graphs (ASG).  ## Fe...
+
+## [2026-05-01 07:01] ingest | angrysky56conscience-servitor.md
+
+Ingested raw/angrysky56conscience-servitor.md into knowledge graph.
+
+Preview: ## Conscience Servitor  **EFHF Layer 5+ Meta-Orchestrator — Pre-Response Ethical Consistency Enforcement**  A Vulcan Jiminy Cricket for AI systems.  ## The Problem  The EFHF five-layer architecture pr...
+
+## [2026-05-01 07:02] ingest | angrysky56ethical-ai-core Create your own training data with cloud or local AI and train a lora via unsloth then chat with the trained model all in one app..md
+
+Ingested raw/angrysky56ethical-ai-core Create your own training data with cloud or local AI and train a lora via unsloth then chat with the trained model all in one app..md into knowledge graph.
+
+Preview: ## Ethical AI Core: Constitutional Judge & Alignment System  Generate synthetic alignment data, train a local "Judge" model, and chat with an ethically aligned AI—all from a local UI.  [![UI Screensho...
+
+## [2026-05-01 07:02] ingest | angrysky56graph-rlm.md
+
+Ingested raw/angrysky56graph-rlm.md into knowledge graph.
+
+Preview: ## Self-Healing Recursive Language Model (Graph-RLM)  > [!warning] Warning > **Code written by Google Gemini** (and a non-coder).  ## Current Status: Mostly functional.  > **"Unshackled" Reasoning**: ...
+
+## [2026-05-01 07:02] ingest | angrysky56mcp-logic Fully functional AI Logic Calculator utilizing Prover9Mace4 via Python based Model Context Protocol (MCP-Server)- tool for Windows Claude App etc.md
+
+Ingested raw/angrysky56mcp-logic Fully functional AI Logic Calculator utilizing Prover9Mace4 via Python based Model Context Protocol (MCP-Server)- tool for Windows Claude App etc.md into knowledge graph.
+
+Preview: ## MCP-Logic  An MCP server for automated first-order logic reasoning using Prover9 and Mace4.  ## Features  - **Theorem Proving** - Prove logical statements with Prover9 - **Model Finding** - Find fi...
+
+## [2026-05-01 07:02] ingest | angrysky56mcp_coordinator The MCP Coordinator is a self-optimizing orchestrator that bridges the gap between high-level human intent and low-level system execution. It is characterized by its ability to learn (skills), scale (recursion), adapt (.md
+
+Ingested raw/angrysky56mcp_coordinator The MCP Coordinator is a self-optimizing orchestrator that bridges the gap between high-level human intent and low-level system execution. It is characterized by its ability to learn (skills), scale (recursion), adapt (.md into knowledge graph.
+
+Preview: ## MCP-Coordinator  Save 100,000 tokens per tool call, avoid context bloat, and increase your AI's productivity by orders of magnitude by executing code internally via a secondary LLM subagent and aut...
+
+## [2026-05-01 07:02] ingest | angrysky56sheaf-consistency-enforcer.md
+
+Ingested raw/angrysky56sheaf-consistency-enforcer.md into knowledge graph.
+
+Preview: ## Sheaf Consistency Enforcer  Sheaf Laplacian-based consistency enforcer for **Kernel 1 persistence** across the EFH MCP tool stack.  Part of the [Emergent Functional Hierarchies Framework](https://g...
+
+## [2026-05-01 07:02] ingest | angrysky56vgcp-mcp-server.md
+
+Ingested raw/angrysky56vgcp-mcp-server.md into knowledge graph.
+
+Preview: ## VGCP MCP Server  **Verifiable Graph Context Protocol** - A Model Context Protocol server that provides DAG-structured reasoning with constraint verification.  ## The Constraint Crystallization Prin...
+
+## [2026-05-01 07:02] ingest | opendataloader-projectopendataloader-pdf PDF Parser for AI-ready data. Automate PDF accessibility. Open-source..md
+
+Ingested raw/opendataloader-projectopendataloader-pdf PDF Parser for AI-ready data. Automate PDF accessibility. Open-source..md into knowledge graph.
+
+Preview: ## OpenDataLoader PDF  **PDF Parser for AI-ready data. Automate PDF accessibility. Open-source.**  [![opendataloader-project%2Fopendataloader-pdf | Trendshift](https://camo.githubusercontent.com/96c28...
+
+## [2026-05-01 07:03] ingest | tlaplusExamples A collection of TLA⁺ specifications of varying complexities..md
+
+Ingested raw/tlaplusExamples A collection of TLA⁺ specifications of varying complexities..md into knowledge graph.
+
+Preview: ## TLA+ Examples  This is a repository of TLA <sup>+</sup> specifications and models covering applications in a variety of fields. It serves as:  - a comprehensive example library demonstrating how to...
+
+## [2026-05-01 07:03] ingest | z-labdflash DFlash Block Diffusion for Flash Speculative Decoding.md
+
+Ingested raw/z-labdflash DFlash Block Diffusion for Flash Speculative Decoding.md into knowledge graph.
+
+Preview: ## DFlash: Block Diffusion for Flash Speculative Decoding  [**Paper**](https://arxiv.org/abs/2602.06036) | [**Blog**](https://z-lab.ai/projects/dflash/) | [**Models**](https://huggingface.co/collectio...
+
+## [2026-05-01 07:03] ingest | lightweight-charts.md
+
+Ingested raw/lightweight-charts.md into knowledge graph.
+
+Preview: ## lightweight-charts-python  ![cover](https://pypi-camo.freetls.fastly.net/cc14da137450a3497f64aece377d685c539259b4/68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f6c6f7569736e773...
+
+## [2026-05-01 07:03] ingest | Classical to Quantum.md
+
+Ingested raw/Classical to Quantum.md into knowledge graph.
+
+Preview: We can go from Classical to Quantum, but we had to completely abandon the way we were originally trying to do it.  This is exactly where the two papers form a complete, closed-loop ecosystem. The LANL...
+
+## [2026-05-01 07:03] ingest | DFlash Block Diffusion for Flash Speculative Decoding.md
+
+Ingested raw/DFlash Block Diffusion for Flash Speculative Decoding.md into knowledge graph.
+
+Preview: Jian Chen    Yesheng Liang    Zhijian Liu  ###### Abstract  Autoregressive large language models (LLMs) deliver strong performance but require inherently sequential decoding, leading to high inference...
+
+## [2026-05-01 07:03] ingest | Electrons in moiré crystals explore higher-dimensional quantum worlds.md
+
+Ingested raw/Electrons in moiré crystals explore higher-dimensional quantum worlds.md into knowledge graph.
+
+Preview: ![Hundreds of parallel lines comprised of spheres recede into the distance. In the middle ground are seven large red dots and a white 3D arrow pointing up.](https://physics.mit.edu/wp-content/uploads/...
+
+## [2026-05-01 07:03] ingest | Externalization in LLM Agents A Unified Review of Memory, Skills, Protocols and Harness Engineering.md
+
+Ingested raw/Externalization in LLM Agents A Unified Review of Memory, Skills, Protocols and Harness Engineering.md into knowledge graph.
+
+Preview: ## The Shift Toward Externalized Agency  Recent advancements in Large Language Model (LLM) agents have often been attributed to the scaling of model parameters or the refinement of internal reasoning ...
+
+## [2026-05-01 07:03] ingest | Getting started  Lightweight Charts.md
+
+Ingested raw/Getting started  Lightweight Charts.md into knowledge graph.
+
+Preview: Version: 5.1  ## Requirements  Lightweight Charts™ is *a client-side* library that is not designed to work on the server side, for example, with Node.js.  The library code targets the [*ES2020* langua...
+
+## [2026-05-01 07:04] ingest | The Sheffer Stroke  Internet Encyclopedia of Philosophy.md
+
+Ingested raw/The Sheffer Stroke  Internet Encyclopedia of Philosophy.md into knowledge graph.
+
+Preview: ## The Sheffer Stroke  The Sheffer Stroke is one of the sixteen definable binary connectives of standard propositional logic. The stroke symbol is “|” as in (p∣q)↔(¬p∨¬q)  $$ (p∣q)↔(¬p∨¬q) $$   $$ (p ...
+
+## [2026-05-01 07:04] ingest | What is The Universe in a helium droplet about.md
+
+Ingested raw/What is The Universe in a helium droplet about.md into knowledge graph.
+
+Preview: This question shows research effort; it is useful and clear  This question does not show any research effort; it is unclear or not useful  Save this question.  Show activity on this post.  The book by...
+
+## [2026-05-01 07:05] ingest | You said  If we actually want AI to have a self....md
+
+Ingested raw/You said  If we actually want AI to have a self....md into knowledge graph.
+
+Preview: **You**  If we actually want AI to have a "self" (which I question if AI should have for several reasons) then we need to reward that formation in the models base training?  \*\*Deconstruct "Internal ...
+
+## [2026-05-01 07:05] write
+
+Updated page: wiki/entities/projects/tys-repos.md
+
+## [2026-05-01 07:05] write
+
+Updated page: wiki/entities/projects/tys-repos/hipai-montague.md
+
+## [2026-05-01 07:05] write
+
+Updated page: wiki/entities/projects/tys-repos/efhf.md
+
+## [2026-05-01 07:05] write
+
+Updated page: wiki/entities/projects/tys-repos/toward-transcendent-moral-instrumentality.md
+
+## [2026-05-01 07:05] write
+
+Updated page: wiki/entities/projects/tys-repos/mcp-logic.md
+
+## [2026-05-01 07:06] write
+
+Updated page: wiki/entities/projects/tys-repos/advanced-reasoning-mcp.md
+
+## [2026-05-01 07:06] write
+
+Updated page: wiki/entities/projects/tys-repos/mcp-coordinator.md
+
+## [2026-05-01 07:06] write
+
+Updated page: wiki/entities/projects/tys-repos/ast-mcp-server.md
+
+## [2026-05-01 07:06] write
+
+Updated page: wiki/entities/projects/tys-repos/sheaf-consistency-enforcer.md
+
+## [2026-05-01 07:06] write
+
+Updated page: wiki/entities/projects/tys-repos/conscience-servitor.md
+
+## [2026-05-01 07:06] write
+
+Updated page: wiki/entities/projects/tys-repos/agem.md
+
+## [2026-05-01 07:06] write
+
+Updated page: wiki/entities/projects/tys-repos/aseke-compass-mcp.md
+
+## [2026-05-01 07:06] write
+
+Updated page: wiki/entities/projects/tys-repos/verifier-graph.md
+
+## [2026-05-01 07:06] write
+
+Updated page: wiki/entities/projects/tys-repos/ethical-ai-core.md
+
+## [2026-05-01 07:06] write
+
+Updated page: wiki/sources/repositories/mcp-logic.md
+
+## [2026-05-01 07:06] write
+
+Updated page: wiki/entities/projects/tys-repos/nexus.md
+
+## [2026-05-01 07:06] write
+
+Updated page: wiki/entities/projects/tys-repos/graph-rlm.md
+
+## [2026-05-01 07:07] write
+
+Updated page: wiki/sources/papers/why-llms-arent-scientists-yet.md
+
+## [2026-05-01 07:07] write
+
+Updated page: wiki/sources/repositories/nexus.md
+
+## [2026-05-01 07:07] write
+
+Updated page: wiki/sources/repositories/agem.md
+
+## [2026-05-01 07:07] index
+
+Index updated with 107 pages (Deep refresh completed)
+
+## [2026-05-01 07:11] write
+
+Updated page: wiki/entities/people/tyler-hall.md
+
+## [2026-05-01 07:12] index
+
+Index updated with 108 pages (Deep refresh completed)
+
+## [2026-05-01 07:12] lint
+
+🩺 **Wiki Health Check** — 110 pages
+
+**Orphans** (6):
+  - mixture-of-recursions
+  - brocas-area-gemini-chat
+  - emotion-concepts-llm
+  - bae-mor-2025
+  - verifier-graph
+  - eidetic-learning-2021
+**Broken links** (22):
+  - wiki/concepts/reward-modeling.md → [[reasoning]]
+  - wiki/entities/projects/tys-repos/mcp-logic.md → [[categorical-reasoning]]
+  - wiki/entities/projects/tys-repos.md → [[vgcp-mcp-server]]
+  - wiki/entities/projects/tys-repos.md → [[agem-framework]]
+  - wiki/entities/projects/tys-repos.md → [[nexus-framework]]
+  - wiki/entities/projects/tys-repos.md → [[emergent-functional-hierarchies-framework]]
+  - wiki/sources/articles/emotion-concepts-llm.md → [[blackmail]]
+  - wiki/sources/articles/emotion-concepts-llm.md → [[reward-hacking]]
+  - wiki/sources/articles/emotion-concepts-llm.md → [[neural-interpretability]]
+  - wiki/sources/articles/emotion-concepts-llm.md → [[ai-safety]]
+  - wiki/sources/articles/emotion-concepts-llm.md → [[steering-vectors]]
+  - wiki/sources/articles/emotion-concepts-llm.md → [[machine-psychology]]
+  - wiki/sources/articles/emotion-concepts-llm.md → [[functional-emotions]]
+  - wiki/sources/mixture-of-recursions.md → [[i-built-a-tiny-computer-inside-a-transformer]]
+  - wiki/sources/mixture-of-recursions.md → [[efficient-transformers]]
+  - wiki/sources/mixture-of-recursions.md → [[mixture-of-depths]]
+  - wiki/sources/mixture-of-recursions.md → [[recursive-transformers]]
+  - wiki/sources/mixture-of-recursions.md → [[adaptive-computation]]
+  - wiki/sources/mixture-of-recursions.md → [[latent-reasoning]]
+  - wiki/sources/mixture-of-recursions.md → [[kv-cache]]
+  - wiki/sources/papers/reward-inside-model-elhsr.md → [[reasoning]]
+  - wiki/synthesis/llm-biological-analogies.md → [[wiki/sources/articles/brocas-area-gemini-chat]]
+**Non-reciprocal links** (59) — A links to B but B doesn't link back:
+  - [[alphaevolve]] → [[maximum-occupancy-principle]] (no return link)
+  - [[critical-analysis]] → [[edm-framework]] (no return link)
+  - [[mop-explorer]] → [[maximum-occupancy-principle]] (no return link)
+  - [[mop-explorer]] → [[project-synapse]] (no return link)
+  - [[mop-explorer]] → [[efhf]] (no return link)
+  - [[mop-explorer]] → [[zettelkasten-engine]] (no return link)
+  - [[mop-explorer]] → [[edm-framework]] (no return link)
+  - [[graph-rlm]] → [[tyler-hall]] (no return link)
+  - [[graph-rlm]] → [[agem]] (no return link)
+  - [[graph-rlm]] → [[efhf]] (no return link)
+  - [[symbolic-regression]] → [[mcp-logic]] (no return link)
+  - [[agem]] → [[efhf]] (no return link)
+  - [[hidden-states]] → [[critical-analysis]] (no return link)
+  - [[efhf]] → [[tys-repos]] (no return link)
+  - [[efhf]] → [[mcp-logic]] (no return link)
+  - [[efhf]] → [[agentic-research]] (no return link)
+  - [[tyler-hall]] → [[dhruv-trehan]] (no return link)
+  - [[tyler-hall]] → [[hipai-montague]] (no return link)
+  - [[tyler-hall]] → [[nexus]] (no return link)
+  - [[tyler-hall]] → [[agem]] (no return link)
+  - [[conscience-servitor]] → [[sheaf-consistency-enforcer]] (no return link)
+  - [[conscience-servitor]] → [[hipai-montague]] (no return link)
+  - [[conscience-servitor]] → [[mcp-logic]] (no return link)
+  - [[ast-mcp-server]] → [[mcp-coordinator]] (no return link)
+  - [[ast-mcp-server]] → [[tyler-hall]] (no return link)
+  - [[mcp-coordinator]] → [[tyler-hall]] (no return link)
+  - [[mcp-coordinator]] → [[efhf]] (no return link)
+  - [[mcp-coordinator]] → [[conscience-servitor]] (no return link)
+  - [[toward-transcendent-moral-instrumentality]] → [[tyler-hall]] (no return link)
+  - [[toward-transcendent-moral-instrumentality]] → [[hipai-montague]] (no return link)
+  - [[academic-peer-review]] → [[critical-analysis]] (no return link)
+  - [[sheaf-consistency-enforcer]] → [[hipai-montague]] (no return link)
+  - [[sheaf-consistency-enforcer]] → [[mcp-logic]] (no return link)
+  - [[hipai-montague]] → [[mcp-logic]] (no return link)
+  - [[hipai-montague]] → [[mop-explorer]] (no return link)
+  - [[tys-repos]] → [[hipai-montague]] (no return link)
+  - [[tys-repos]] → [[mcp-logic]] (no return link)
+  - [[tys-repos]] → [[agentic-research]] (no return link)
+  - [[open-ended-evolution]] → [[maximum-occupancy-principle]] (no return link)
+  - [[open-ended-evolution]] → [[efhf]] (no return link)
+  - [[open-ended-evolution]] → [[eml-operator]] (no return link)
+  - [[roger-koenig-robert]] → [[aphantasia]] (no return link)
+  - [[verifier-graph]] → [[tyler-hall]] (no return link)
+  - [[verifier-graph]] → [[agem]] (no return link)
+  - [[verifier-graph]] → [[tys-repos]] (no return link)
+  - [[verifier-graph]] → [[efhf]] (no return link)
+  - [[nexus]] → [[efhf]] (no return link)
+  - [[reward-modeling]] → [[critical-analysis]] (no return link)
+  - [[maximum-occupancy-principle]] → [[edm-framework]] (no return link)
+  - [[maximum-occupancy-principle]] → [[efhf]] (no return link)
+  - [[maximum-occupancy-principle]] → [[zettelkasten-engine]] (no return link)
+  - [[ethical-ai-core]] → [[toward-transcendent-moral-instrumentality]] (no return link)
+  - [[ethical-ai-core]] → [[tyler-hall]] (no return link)
+  - [[eml-operator]] → [[mcp-logic]] (no return link)
+  - [[eml-operator]] → [[efhf]] (no return link)
+  - [[aseke-compass-mcp]] → [[agem]] (no return link)
+  - [[aseke-compass-mcp]] → [[tyler-hall]] (no return link)
+  - [[sheffer-stroke]] → [[mcp-logic]] (no return link)
+  - [[advanced-reasoning-mcp]] → [[mcp-logic]] (no return link)
+
+## [2026-05-01 07:12] index
+
+Index updated with 108 pages (Deep refresh completed)
+
+## [2026-05-01 07:12] lint
+
+🩺 **Wiki Health Check** — 110 pages
+
+**Orphans** (5):
+  - mixture-of-recursions
+  - brocas-area-gemini-chat
+  - emotion-concepts-llm
+  - bae-mor-2025
+  - eidetic-learning-2021
+**Broken links** (18):
+  - wiki/concepts/reward-modeling.md → [[reasoning]]
+  - wiki/entities/projects/tys-repos/mcp-logic.md → [[categorical-reasoning]]
+  - wiki/sources/articles/emotion-concepts-llm.md → [[blackmail]]
+  - wiki/sources/articles/emotion-concepts-llm.md → [[reward-hacking]]
+  - wiki/sources/articles/emotion-concepts-llm.md → [[neural-interpretability]]
+  - wiki/sources/articles/emotion-concepts-llm.md → [[ai-safety]]
+  - wiki/sources/articles/emotion-concepts-llm.md → [[steering-vectors]]
+  - wiki/sources/articles/emotion-concepts-llm.md → [[machine-psychology]]
+  - wiki/sources/articles/emotion-concepts-llm.md → [[functional-emotions]]
+  - wiki/sources/mixture-of-recursions.md → [[i-built-a-tiny-computer-inside-a-transformer]]
+  - wiki/sources/mixture-of-recursions.md → [[efficient-transformers]]
+  - wiki/sources/mixture-of-recursions.md → [[mixture-of-depths]]
+  - wiki/sources/mixture-of-recursions.md → [[recursive-transformers]]
+  - wiki/sources/mixture-of-recursions.md → [[adaptive-computation]]
+  - wiki/sources/mixture-of-recursions.md → [[latent-reasoning]]
+  - wiki/sources/mixture-of-recursions.md → [[kv-cache]]
+  - wiki/sources/papers/reward-inside-model-elhsr.md → [[reasoning]]
+  - wiki/synthesis/llm-biological-analogies.md → [[wiki/sources/articles/brocas-area-gemini-chat]]
+**Non-reciprocal links** (59) — A links to B but B doesn't link back:
+  - [[alphaevolve]] → [[maximum-occupancy-principle]] (no return link)
+  - [[critical-analysis]] → [[edm-framework]] (no return link)
+  - [[mop-explorer]] → [[maximum-occupancy-principle]] (no return link)
+  - [[mop-explorer]] → [[project-synapse]] (no return link)
+  - [[mop-explorer]] → [[efhf]] (no return link)
+  - [[mop-explorer]] → [[zettelkasten-engine]] (no return link)
+  - [[mop-explorer]] → [[edm-framework]] (no return link)
+  - [[graph-rlm]] → [[tyler-hall]] (no return link)
+  - [[graph-rlm]] → [[agem]] (no return link)
+  - [[graph-rlm]] → [[efhf]] (no return link)
+  - [[symbolic-regression]] → [[mcp-logic]] (no return link)
+  - [[agem]] → [[efhf]] (no return link)
+  - [[hidden-states]] → [[critical-analysis]] (no return link)
+  - [[efhf]] → [[mcp-logic]] (no return link)
+  - [[efhf]] → [[agentic-research]] (no return link)
+  - [[tyler-hall]] → [[dhruv-trehan]] (no return link)
+  - [[tyler-hall]] → [[hipai-montague]] (no return link)
+  - [[tyler-hall]] → [[nexus]] (no return link)
+  - [[tyler-hall]] → [[agem]] (no return link)
+  - [[conscience-servitor]] → [[sheaf-consistency-enforcer]] (no return link)
+  - [[conscience-servitor]] → [[hipai-montague]] (no return link)
+  - [[conscience-servitor]] → [[mcp-logic]] (no return link)
+  - [[ast-mcp-server]] → [[mcp-coordinator]] (no return link)
+  - [[ast-mcp-server]] → [[tyler-hall]] (no return link)
+  - [[mcp-coordinator]] → [[tyler-hall]] (no return link)
+  - [[mcp-coordinator]] → [[efhf]] (no return link)
+  - [[mcp-coordinator]] → [[conscience-servitor]] (no return link)
+  - [[toward-transcendent-moral-instrumentality]] → [[tyler-hall]] (no return link)
+  - [[toward-transcendent-moral-instrumentality]] → [[hipai-montague]] (no return link)
+  - [[academic-peer-review]] → [[critical-analysis]] (no return link)
+  - [[sheaf-consistency-enforcer]] → [[hipai-montague]] (no return link)
+  - [[sheaf-consistency-enforcer]] → [[mcp-logic]] (no return link)
+  - [[hipai-montague]] → [[mcp-logic]] (no return link)
+  - [[hipai-montague]] → [[mop-explorer]] (no return link)
+  - [[tys-repos]] → [[hipai-montague]] (no return link)
+  - [[tys-repos]] → [[mcp-logic]] (no return link)
+  - [[tys-repos]] → [[agentic-research]] (no return link)
+  - [[tys-repos]] → [[nexus]] (no return link)
+  - [[tys-repos]] → [[agem]] (no return link)
+  - [[open-ended-evolution]] → [[maximum-occupancy-principle]] (no return link)
+  - [[open-ended-evolution]] → [[efhf]] (no return link)
+  - [[open-ended-evolution]] → [[eml-operator]] (no return link)
+  - [[roger-koenig-robert]] → [[aphantasia]] (no return link)
+  - [[verifier-graph]] → [[tyler-hall]] (no return link)
+  - [[verifier-graph]] → [[agem]] (no return link)
+  - [[verifier-graph]] → [[efhf]] (no return link)
+  - [[nexus]] → [[efhf]] (no return link)
+  - [[reward-modeling]] → [[critical-analysis]] (no return link)
+  - [[maximum-occupancy-principle]] → [[edm-framework]] (no return link)
+  - [[maximum-occupancy-principle]] → [[efhf]] (no return link)
+  - [[maximum-occupancy-principle]] → [[zettelkasten-engine]] (no return link)
+  - [[ethical-ai-core]] → [[toward-transcendent-moral-instrumentality]] (no return link)
+  - [[ethical-ai-core]] → [[tyler-hall]] (no return link)
+  - [[eml-operator]] → [[mcp-logic]] (no return link)
+  - [[eml-operator]] → [[efhf]] (no return link)
+  - [[aseke-compass-mcp]] → [[agem]] (no return link)
+  - [[aseke-compass-mcp]] → [[tyler-hall]] (no return link)
+  - [[sheffer-stroke]] → [[mcp-logic]] (no return link)
+  - [[advanced-reasoning-mcp]] → [[mcp-logic]] (no return link)

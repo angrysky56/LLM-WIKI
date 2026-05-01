@@ -1,5 +1,5 @@
 ---
-updated: 2026-04-28T21:12:16Z
+updated: 2026-05-01T07:12:16Z
 type: index
 ---
 
@@ -8,6 +8,7 @@ type: index
 - [[concept-index]] — Conceptual index — maps ideas to pages by meaning rather than structure; complement to the structural TOC in index.md
 - [[absence-of-worst-case-metric]] — Failure mode in evaluating high-stakes systems — judging success by whether the catastrophic event occurred while bracketing out steady-state cost; the metric that called nuclear deterrence "successful" and is being installed for AI
 - [[academic-peer-review]] — The process by which scholarly work is checked by experts in the same field to ensure quality and validity before publication.
+- [[agentic-research]] — The use of autonomous LLM agents to execute stages of the scientific research workflow, from idea generation to manuscript writing.
 - [[aphantasia]] — Concept page for Aphantasia
 - [[arcuate-fasciculus]] — Concept page for Arcuate Fasciculus.
 - [[brocas-area]] — Concept page for Broca's Area.
@@ -40,12 +41,33 @@ type: index
 - [[tag-taxonomy]] — Controlled vocabulary for wiki tags — preferred terms with USE/UF equivalence, BT/NT hierarchy, and RT associative relationships
 - [[wernickes-area]] — Concept page for Wernicke's Area.
 - [[andrej-karpathy]] — AI researcher, author of the LLM Wiki pattern
+- [[dhruv-trehan]] — Entity page for Dhruv Trehan.
+- [[paras-chopra]] — Entity page for Paras Chopra.
 - [[roger-koenig-robert]] — Entity page for neuroscientist Roger Koenig-Robert
+- [[tyler-hall]] — Entity page for Tyler Blaine Hall.
 - [[alphaevolve]] — Google DeepMind's evolutionary coding agent — LLM ensemble + diff-based mutation + real hardware eval; 23% GEMM speedup; Gemini self-improvement; instantiates MGA pattern; open-sourced as OpenEvolve
 - [[efhf]] — Five-layer AI architecture implementing computational mechanics (epsilon machines, lumpability, causal closure) as a live multi-agent system — MOP proposed as Layer 0 for proactive exploration
 - [[mop-explorer]] — MOP-guided research agent using EFHF as verification backbone — autonomously explores concept spaces, generates hypotheses, verifies via L2-L5 pipeline, commits validated insights
 - [[project-synapse]] — Graph-backed MCP server providing semantic search, knowledge synthesis, and wiki bridge
+- [[advanced-reasoning-mcp]] — Project page for advanced-reasoning-mcp.
+- [[agem]] — Project page for AGEM.
+- [[aseke-compass-mcp]] — Project page for aseke-compass-mcp.
+- [[ast-mcp-server]] — Project page for ast-mcp-server.
+- [[conscience-servitor]] — Project page for conscience-servitor.
+- [[efhf]] — Project page for EFHF.
+- [[ethical-ai-core]] — Project page for ethical-ai-core.
+- [[graph-rlm]] — Project page for Graph-RLM.
+- [[hipai-montague]] — Project page for HiPAI-Montague.
+- [[mcp-coordinator]] — Project page for mcp-coordinator.
+- [[mcp-logic]] — Project page for mcp-logic.
+- [[nexus]] — Project page for NEXUS.
+- [[sheaf-consistency-enforcer]] — Project page for sheaf-consistency-enforcer.
+- [[toward-transcendent-moral-instrumentality]] — Project page for TMI.
+- [[verifier-graph]] — Project page for verifier-graph.
+- [[tys-repos]] — Central hub for Ty's (angrysky56) repositories.
 - [[zettelkasten-engine]] — Autonomous pattern detection and insight synthesis engine within Project Synapse
+- [[claude-code]] — Entity page for Claude Code.
+- [[gemini]] — Entity page for Gemini.
 - [[hipai-montague]] — Graph-based world model MCP server — EFHF Layer 2; encodes beliefs and relationships for verification by mcp-logic
 - [[mcp-logic]] — First-order logic MCP server (Prover9/Mace4) — EFHF Layer 3; structural verification, absorbing state detection, hypothesis validation for MOP agents
 - [[neo4j]] — Graph database providing vector search, fulltext indexing, and relationship traversal
@@ -62,6 +84,7 @@ type: index
 - [[momoa-researcher]] — Google Labs agentic research scientist using Mixture of Mixture of Agents
 - [[prd-ralph-loop-mop-gemini]] — Gemini conversation connecting PRD-driven Ralph Loops with MOP and Theory of Mind for autonomous scientific research — epistemic energy as the critical constraint
 - [[transformer-vm-moran-2026]] — Moran (2026) — analytically compiling programs into transformer weights; residual stream as registers, attention as lookup, FFN as arithmetic, layers as machine steps; connects to EML as minimal instruction set for compiled transformers
+- [[why-llms-arent-scientists-yet]] — Compressed summary of the autonomous research case study.
 - [[wolchover-life-force-2026]] — Wolchover (Quanta 2026-04-20) — bacterial flagellar motor finally fully understood after 50 years; driven by proton motive force (Mitchell 1961, Nobel 1978); 5:2 stator geometry rectifies entropic+electric proton gradient into torque; CheY-P phosphorylation triggers C-ring conformational cascade for direction reversal; "entropic energy → kinetic energy" is the universal cellular energetics.
 - [[obsidian-cli-skill]] — kepano's Obsidian CLI agent skill — command reference for reading, writing, searching, and managing Obsidian vaults from the terminal
 - [[obsidian-git-setup]] — Setup guide for the Obsidian Git community plugin (desktop and mobile)
@@ -75,6 +98,10 @@ type: index
 - [[ramirez-ruiz-mop-2024]] — Ramírez-Ruiz et al. (Nature Communications 2024) — Maximum Occupancy Principle: agents maximize future action-state path entropy instead of extrinsic reward, producing complex goal-directed behavior from intrinsic motivation alone
 - [[reward-inside-model-elhsr]] — Efficient Linear Hidden State Reward (ELHSR): A lightweight reward model (<0.005% parameters) using internal LLM hidden states for Best-of-N sampling.
 - [[utimula-openpraparat-2025]] — Utimula (2025) — guideless ALife model combining Tierra gene mechanics with 3D virtual creatures; no fitness function; emergent reproduction (binary fission, budding), protective organs, and energy transport networks via mutation + natural selection
+- [[why-llms-arent-scientists-yet]] — Source summary for Why LLMs Aren't Scientists Yet.
+- [[agem]] — Source summary for AGEM repository.
+- [[mcp-logic]] — Source summary for mcp-logic.
+- [[nexus]] — Source summary for NEXUS.
 - [[product-canvas]] — Google Labs multiplayer brainstorming canvas with AI voice agent and wiki knowledge editor
 - [[ai-governance-substrate-analysis]] — Five interlocking cognitive primitives for evaluating AI governance discourse at the substrate level — spin-vs-substrate, absence-of-worst-case metric, institutional capture vs species framing, cryptographic vs semantic alignment, frame transmission; ASEKE-compatible diagnostic toolkit
 - [[causal-state-edm-ood-isomorphism]] — Epsilon machine causal states ↔ EDM citation vectors — disruptive papers as OOD state-splitting events; connected to MOP (β = state-splitting appetite) and EFHF (hallucination = lumpability failure)

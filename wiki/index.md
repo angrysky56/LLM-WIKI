@@ -1,5 +1,5 @@
 ---
-updated: 2026-05-01T07:12:16Z
+updated: 2026-05-01T07:19:27Z
 type: index
 ---
 
@@ -61,6 +61,8 @@ type: index
 - [[mcp-coordinator]] — Project page for mcp-coordinator.
 - [[mcp-logic]] — Project page for mcp-logic.
 - [[nexus]] — Project page for NEXUS.
+- [[project-synapse-mcp]] — Project page for Project Synapse MCP.
+- [[sentience-metaphysics]] — Project page for Sentience Metaphysics (SEG).
 - [[sheaf-consistency-enforcer]] — Project page for sheaf-consistency-enforcer.
 - [[toward-transcendent-moral-instrumentality]] — Project page for TMI.
 - [[verifier-graph]] — Project page for verifier-graph.
@@ -103,6 +105,8 @@ type: index
 - [[mcp-logic]] — Source summary for mcp-logic.
 - [[nexus]] — Source summary for NEXUS.
 - [[product-canvas]] — Google Labs multiplayer brainstorming canvas with AI voice agent and wiki knowledge editor
+- [[project-synapse-mcp]] — Source summary for Project Synapse repo.
+- [[sentience-metaphysics]] — Source summary for Sentience Metaphysics repo.
 - [[ai-governance-substrate-analysis]] — Five interlocking cognitive primitives for evaluating AI governance discourse at the substrate level — spin-vs-substrate, absence-of-worst-case metric, institutional capture vs species framing, cryptographic vs semantic alignment, frame transmission; ASEKE-compatible diagnostic toolkit
 - [[causal-state-edm-ood-isomorphism]] — Epsilon machine causal states ↔ EDM citation vectors — disruptive papers as OOD state-splitting events; connected to MOP (β = state-splitting appetite) and EFHF (hallucination = lumpability failure)
 - [[entropic-machinery-cot-and-flagellum]] — 

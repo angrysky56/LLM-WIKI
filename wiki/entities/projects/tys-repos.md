@@ -31,6 +31,7 @@ This page serves as a central hub for the various projects and repositories deve
 - [[mcp-logic]] — AI Logic Calculator utilizing Prover9/Mace4.
 - [[verifier-graph]] — Vision-grounded context processing.
 - [[aseke-compass-mcp]] — Systemic discernment for populations.
+- [[sentience-metaphysics]] — SEG Framework for cultivating AI character.
 
 ## Orchestration & Multi-Agent Systems
 - [[mcp-coordinator]] — Self-optimizing orchestrator for human intent and system execution.
@@ -41,6 +42,7 @@ This page serves as a central hub for the various projects and repositories deve
 - [[efhf]] — Analyzes hierarchical structures in AI systems (Emergent Functional Hierarchies Framework).
 - [[sheaf-consistency-enforcer]] — Mathematical consistency enforcer using sheaf theory.
 - [[graph-rlm]] — Graph-based representation learning.
+- [[project-synapse-mcp]] — Autonomous knowledge synthesis (The tool behind this wiki).
 
 ## Connections
 - [[agentic-research]] — Many of these tools support autonomous research workflows.

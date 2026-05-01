@@ -18,12 +18,15 @@ Major ingestion and organization session for [[tyler-hall|Ty]]'s core repository
     - [[agem]], [[nexus]], [[graph-rlm]]
     - [[sheaf-consistency-enforcer]], [[conscience-servitor]], [[ast-mcp-server]]
     - [[aseke-compass-mcp]], [[verifier-graph]], [[ethical-ai-core]]
-- Created 4 source summaries in `wiki/sources/`:
+    - [[project-synapse-mcp]], [[sentience-metaphysics]]
+- Created 6 source summaries in `wiki/sources/`:
     - [[why-llms-arent-scientists-yet]]
     - [[mcp-logic]] (source summary)
     - [[nexus]] (source summary)
     - [[agem]] (source summary)
-- Rebuilt wiki index (107 pages).
+    - [[project-synapse-mcp]] (source summary)
+    - [[sentience-metaphysics]] (source summary)
+- Rebuilt wiki index (110+ pages).
 
 ## [2026-04-07 20:00] ingest | llm-wiki.md
 
@@ -2008,3 +2011,35 @@ Index updated with 108 pages (Deep refresh completed)
   - [[aseke-compass-mcp]] → [[tyler-hall]] (no return link)
   - [[sheffer-stroke]] → [[mcp-logic]] (no return link)
   - [[advanced-reasoning-mcp]] → [[mcp-logic]] (no return link)
+
+## [2026-05-01 07:18] ingest | angrysky56project-synapse-mcp Transforms raw text into interconnected knowledge graphs and autonomously generates insights through advanced pattern detection. It combines formal semantic analysis (Montague Grammar) with Zettelkasten methodology.md
+
+Ingested raw/angrysky56project-synapse-mcp Transforms raw text into interconnected knowledge graphs and autonomously generates insights through advanced pattern detection. It combines formal semantic analysis (Montague Grammar) with Zettelkasten methodology.md into knowledge graph.
+
+Preview: ## 🧠 Project Synapse MCP Server  **Autonomous Knowledge Synthesis Engine with LLM-WIKI Integration**  Project Synapse is an MCP (Model Context Protocol) server that combines a Neo4j 2026.x graph datab...
+
+## [2026-05-01 07:18] ingest | angrysky56sentience_metaphysics.md
+
+Ingested raw/angrysky56sentience_metaphysics.md into knowledge graph.
+
+Preview: ## 🌱 SEG Framework: A Creche for AI Character Cultivation  > *"We get lost to find the best moments"* - Elara Vance  [Elara Vance SEG Persona](https://chatgpt.com/g/g-68b2bc0ee79c8191ae0256b9c6e31b95-...
+
+## [2026-05-01 07:19] write
+
+Updated page: wiki/entities/projects/tys-repos/project-synapse-mcp.md
+
+## [2026-05-01 07:19] write
+
+Updated page: wiki/entities/projects/tys-repos/sentience-metaphysics.md
+
+## [2026-05-01 07:19] write
+
+Updated page: wiki/sources/repositories/project-synapse-mcp.md
+
+## [2026-05-01 07:19] write
+
+Updated page: wiki/sources/repositories/sentience-metaphysics.md
+
+## [2026-05-01 07:19] index
+
+Index updated with 112 pages (Deep refresh completed)

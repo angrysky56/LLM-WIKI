@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "6afb97e9f5eb6052",
+        "id": "afe68373cd5a221e",
         "type": "tabs",
         "children": [
           {
-            "id": "21788134b245b8c3",
+            "id": "fbfc18cf313c01b7",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "raw/Language Evolution.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Language Evolution"
             }
           }
         ]
@@ -190,8 +194,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2ab9c987c297f7a1",
+  "active": "c161994581ba454a",
   "lastOpenFiles": [
+    "raw/ML Evolution Benchmarking Protocol.md",
+    "raw/‎Shorthand for Thought Review.md",
+    "raw/Shorthand for Thought Compressing LLM Reasoning via Entropy-Guided Supertokens.md",
+    "wiki/spikes/spike-001-spacy-owlready2.md",
+    "raw/Language Evolution.md",
+    "raw/Titans Learning to Memorize at Test Time.md",
+    "raw/Time and Causal Networks A New Kind of Science  Online by Stephen Wolfram Page 488.md",
+    "wiki/spikes/spike-campaign-001-004-summary.md",
+    "wiki/spikes",
+    "raw/Time and Causal Networks A New Kind of Science  Online by Stephen Wolfram Page 489.md",
+    "raw/github-actions-troubleshooting.md",
+    "raw/Manuscript Review Statistical structure and the evolution of languages.md",
+    "Untitled.md",
     "wiki/synthesis/seg-scientist-agent-design.md",
     "wiki/synthesis/efhf-mcp-configuration.md",
     "wiki/sources/repositories/sentience-metaphysics.md",
@@ -206,18 +223,6 @@
     "wiki/sources/repositories/agem.md",
     "wiki/sources/repositories/nexus.md",
     "wiki/sources/papers/why-llms-arent-scientists-yet.md",
-    "wiki/entities/projects/tys-repos/graph-rlm.md",
-    "wiki/entities/projects/tys-repos/nexus.md",
-    "wiki/sources/repositories/mcp-logic.md",
-    "wiki/entities/projects/tys-repos/ethical-ai-core.md",
-    "wiki/entities/projects/tys-repos/verifier-graph.md",
-    "wiki/entities/projects/tys-repos/aseke-compass-mcp.md",
-    "wiki/entities/projects/tys-repos/agem.md",
-    "wiki/entities/projects/tys-repos/conscience-servitor.md",
-    "wiki/entities/projects/tys-repos/sheaf-consistency-enforcer.md",
-    "wiki/entities/projects/tys-repos/ast-mcp-server.md",
-    "wiki/entities/projects/tys-repos/mcp-coordinator.md",
-    "wiki/entities/projects/tys-repos/advanced-reasoning-mcp.md",
     "wiki/entities/projects/tys-repos",
     "clippings-archive.base",
     "wiki/synthesis",
@@ -226,7 +231,6 @@
     "wiki/entities/tools",
     "wiki/sources/repositories",
     "wiki/sources/documentation",
-    "wiki/sources/articles",
-    "wiki/sources/papers"
+    "wiki/sources/articles"
   ]
 }

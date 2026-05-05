@@ -1,5 +1,5 @@
 ---
-updated: 2026-05-01T09:40:56Z
+updated: 2026-05-03T09:05:49Z
 type: index
 ---
 
@@ -107,6 +107,8 @@ type: index
 - [[product-canvas]] — Google Labs multiplayer brainstorming canvas with AI voice agent and wiki knowledge editor
 - [[project-synapse-mcp]] — Source summary for Project Synapse repo.
 - [[sentience-metaphysics]] — Source summary for Sentience Metaphysics repo.
+- [[spike-001-spacy-owlready2]] — VALIDATED — spaCy+owlready2 handles transitive subsumption, lemmatization, and pluralization in one sync_reasoner() call. Three v0.3 Layer-2 caveats collapse.
+- [[spike-campaign-001-004-summary]] — Four-spike campaign validating spaCy+owlready2+HermiT as Layer 2 substrate; transaction-per-claim semantics; OWL→Neo4j one-way projection.
 - [[ai-governance-substrate-analysis]] — Five interlocking cognitive primitives for evaluating AI governance discourse at the substrate level — spin-vs-substrate, absence-of-worst-case metric, institutional capture vs species framing, cryptographic vs semantic alignment, frame transmission; ASEKE-compatible diagnostic toolkit
 - [[causal-state-edm-ood-isomorphism]] — Epsilon machine causal states ↔ EDM citation vectors — disruptive papers as OOD state-splitting events; connected to MOP (β = state-splitting appetite) and EFHF (hallucination = lumpability failure)
 - [[efhf-mcp-configuration]] — Master MCP configuration for the EFHF stack.
@@ -115,7 +117,7 @@ type: index
 - [[llm-biological-analogies]] — Synthesis page for LLM-biological analogies.
 - [[minimal-generative-architectures]] — Cross-domain synthesis: NAND, EML, MOP, and OpenPraparat share a structural pattern — minimal primitives + recursion + boundary constraints = unbounded complexity; OpenPraparat validates MOP predictions empirically; EML provides the computational substrate; extends EFHF with L-1 computational primitive layer
 - [[mop-edm-cognitive-architecture]] — Synthesis: MOP as EFHF Layer 0 + EDM disruption measurement — formally verified structural mapping (Prover9), three implementation levels, KL regularization critique, hallucination as lumpability failure, coherent complexity growth
-- [[seg-scientist-agent-design]] — v0.2 design — Layer 3 wrapper fix verified; Layer 2 role corrected from NL→FOL bridge to world-model side-rail + Paraclete ethical gate after direct integration test.
+- [[seg-scientist-agent-design]] — v0.5 — implementation-ready. Spike Campaign 001-004 complete; Layer 2 fully specified by four validated pillars. Includes detailed implementation plan in 7 phases.
 - [[synapse-llm-wiki-operating-guide]] — Agent operating instructions for the Synapse + LLM-WIKI system — tool decision logic, content lifecycle, ingest and fetch workflows, writing conventions
 - [[synapse-retrieval-architecture]] — Four-stage query_knowledge pipeline: entity graph seeding → RRF hybrid search → wikilink expansion → Zettelkasten insights
 - [[wiki-indexing-theory]] — IR and indexing theory applied to LLM-WIKI: TOC vs conceptual index, controlled vocabulary, thesaurus relationships, HITS on wikilinks, mere mentions, and GAAC clustering for wiki health

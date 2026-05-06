@@ -2109,3 +2109,300 @@ Updated page: wiki/synthesis/seg-scientist-agent-design.md
 ## [2026-05-03 09:05] index
 
 Index updated with 116 pages
+
+## [2026-05-06 20:06] ingest | Isabelle Installation.md
+
+Ingested raw/Isabelle Installation.md into knowledge graph.
+
+Preview: ## General  Isabelle supports the three main platform families: Linux, Windows, macOS. The platform-specific application bundles include sources, documentation, and add-on components. A few extra depe...
+
+## [2026-05-06 20:06] write
+
+Updated page: wiki/sources/documentation/isabelle-installation.md
+
+## [2026-05-06 20:06] write
+
+Updated page: wiki/entities/tools/isabelle.md
+
+## [2026-05-06 20:06] ingest | Language Evolution.md
+
+Ingested raw/Language Evolution.md into knowledge graph.
+
+Preview: Language Evolution Paper Review  ## Conversation with Gemini  You said  Review the paper.  R  Research and Peer Review Assistant  Custom Gem  ## Research and Peer Review Assistant said  ### Manuscript...
+
+## [2026-05-06 20:06] write
+
+Updated page: wiki/sources/articles/language-evolution.md
+
+## [2026-05-06 20:06] write
+
+Updated page: wiki/concepts/language-evolution.md
+
+## [2026-05-06 20:07] ingest | ML Evolution Benchmarking Protocol.md
+
+Ingested raw/ML Evolution Benchmarking Protocol.md into knowledge graph.
+
+Preview: Designing Research for Wisdom in Evolution  ## Rigorous ML Evolution Benchmarking Protocol  ## The Evolution of Large Language Models: A Systematic Review of Guided, Unconstrained, and Handcrafted Arc...
+
+## [2026-05-06 20:07] write
+
+Updated page: wiki/sources/articles/ml-evolution-benchmarking-protocol.md
+
+## [2026-05-06 20:07] write
+
+Updated page: wiki/concepts/ml-evolution.md
+
+## [2026-05-06 20:07] ingest | Shorthand for Thought Compressing LLM Reasoning via Entropy-Guided Supertokens.md
+
+Ingested raw/Shorthand for Thought Compressing LLM Reasoning via Entropy-Guided Supertokens.md into knowledge graph.
+
+Preview: Large Language Models (LLMs) have achieved significant performance gains in complex tasks like mathematics, coding, and logical planning by utilizing Chain-of-Thought (CoT) reasoning. By generating in...
+
+## [2026-05-06 20:07] write
+
+Updated page: wiki/sources/articles/shorthand-for-thought.md
+
+## [2026-05-06 20:07] write
+
+Updated page: wiki/concepts/supertokens.md
+
+## [2026-05-06 20:07] ingest | Time and Causal Networks A New Kind of Science  Online by Stephen Wolfram Page 488.md
+
+Ingested raw/Time and Causal Networks A New Kind of Science  Online by Stephen Wolfram Page 488.md into knowledge graph.
+
+Preview: ![](https://www.wolframscience.com/nks/pages/p488--time-and-causal-networks/image-xlarge.png) ![](https://www.wolframscience.com/nks/pages/p488--time-and-causal-networks/image-large.png) ![](https://w...
+
+## [2026-05-06 20:07] ingest | Time and Causal Networks A New Kind of Science  Online by Stephen Wolfram Page 489.md
+
+Ingested raw/Time and Causal Networks A New Kind of Science  Online by Stephen Wolfram Page 489.md into knowledge graph.
+
+Preview: [‹](https://www.wolframscience.com/nks/p488--time-and-causal-networks/ "Previous page")  [›](https://www.wolframscience.com/nks/p490--time-and-causal-networks/ "Next page")  ![](https://www.wolframsci...
+
+## [2026-05-06 20:08] write
+
+Updated page: wiki/sources/documentation/wolfram-nks-causal-networks.md
+
+## [2026-05-06 20:08] write
+
+Updated page: wiki/concepts/causal-networks.md
+
+## [2026-05-06 20:08] ingest | Titans Learning to Memorize at Test Time.md
+
+Ingested raw/Titans Learning to Memorize at Test Time.md into knowledge graph.
+
+Preview: ## Introduction  Sequence modeling tasks present a fundamental challenge in machine learning: how can models effectively process and retain information from very long input sequences? Traditional Tran...
+
+## [2026-05-06 20:08] write
+
+Updated page: wiki/sources/articles/titans-test-time-memory.md
+
+## [2026-05-06 20:08] write
+
+Updated page: wiki/concepts/neural-long-term-memory.md
+
+## [2026-05-06 20:08] ingest | github-actions-troubleshooting.md
+
+Ingested raw/github-actions-troubleshooting.md into knowledge graph.
+
+Preview: # GitHub Actions CI Troubleshooting      ## When to Use  - You encounter Node.js deprecation warnings in GitHub Actions logs (e.g., "Node.js 20 actions are deprecated").  - You see warnings about `pun...
+
+## [2026-05-06 20:08] write
+
+Updated page: wiki/sources/documentation/github-actions-troubleshooting.md
+
+## [2026-05-06 20:08] ingest | shorthand-review.md
+
+Ingested raw/shorthand-review.md into knowledge graph.
+
+Preview: ### 2\. Methodological and Statistical Rigor  The study design is commendable for its model-agnostic approach, testing across three distinct model families. The use of **Supervised Fine-Tuning (SFT)**...
+
+## [2026-05-06 20:09] index
+
+Index updated with 129 pages (Deep refresh completed)
+
+## [2026-05-06 20:09] lint
+
+🩺 **Wiki Health Check** — 131 pages
+
+**Orphans** (7):
+  - eidetic-learning-2021
+  - ml-evolution
+  - mixture-of-recursions
+  - github-actions-troubleshooting
+  - brocas-area-gemini-chat
+  - bae-mor-2025
+  - emotion-concepts-llm
+**Broken links** (83):
+  - wiki/concepts/causal-networks.md → [[wolfram-physics-project]]
+  - wiki/concepts/causal-networks.md → [[chain-of-thought]]
+  - wiki/concepts/causal-networks.md → [[stephen-wolfram]]
+  - wiki/concepts/causal-networks.md → [[computational-irreducibility]]
+  - wiki/concepts/language-evolution.md → [[taylors-law]]
+  - wiki/concepts/language-evolution.md → [[emergent-communication]]
+  - wiki/concepts/ml-evolution.md → [[rz-nas]]
+  - wiki/concepts/ml-evolution.md → [[llama-nas]]
+  - wiki/concepts/ml-evolution.md → [[essa]]
+  - wiki/concepts/ml-evolution.md → [[neural-architecture-search]]
+  - wiki/concepts/ml-evolution.md → [[catastrophic-forgetting]]
+  - wiki/concepts/ml-evolution.md → [[evolutionary-strategies]]
+  - wiki/concepts/neural-long-term-memory.md → [[titans]]
+  - wiki/concepts/neural-long-term-memory.md → [[surprise-based-learning]]
+  - wiki/concepts/neural-long-term-memory.md → [[in-context-learning]]
+  - wiki/concepts/neural-long-term-memory.md → [[mamba]]
+  - wiki/concepts/reward-modeling.md → [[reasoning]]
+  - wiki/concepts/supertokens.md → [[chain-of-thought]]
+  - wiki/concepts/supertokens.md → [[superbpe]]
+  - wiki/concepts/supertokens.md → [[chain-of-thought]]
+  - wiki/concepts/supertokens.md → [[entropy-guided-compression]]
+  - wiki/entities/projects/tys-repos/mcp-logic.md → [[categorical-reasoning]]
+  - wiki/entities/tools/isabelle.md → [[formal-verification]]
+  - wiki/entities/tools/isabelle.md → [[interactive-theorem-proving]]
+  - wiki/entities/tools/isabelle.md → [[isabelle-hol]]
+  - wiki/sources/articles/emotion-concepts-llm.md → [[blackmail]]
+  - wiki/sources/articles/emotion-concepts-llm.md → [[reward-hacking]]
+  - wiki/sources/articles/emotion-concepts-llm.md → [[neural-interpretability]]
+  - wiki/sources/articles/emotion-concepts-llm.md → [[ai-safety]]
+  - wiki/sources/articles/emotion-concepts-llm.md → [[steering-vectors]]
+  - wiki/sources/articles/emotion-concepts-llm.md → [[machine-psychology]]
+  - wiki/sources/articles/emotion-concepts-llm.md → [[functional-emotions]]
+  - wiki/sources/articles/language-evolution.md → [[emergent-communication]]
+  - wiki/sources/articles/language-evolution.md → [[computational-irreducibility]]
+  - wiki/sources/articles/language-evolution.md → [[stephen-wolfram]]
+  - wiki/sources/articles/language-evolution.md → [[taylors-law]]
+  - wiki/sources/articles/language-evolution.md → [[directed-preferential-placement]]
+  - wiki/sources/articles/ml-evolution-benchmarking-protocol.md → [[collm-nas]]
+  - wiki/sources/articles/ml-evolution-benchmarking-protocol.md → [[rz-nas]]
+  - wiki/sources/articles/ml-evolution-benchmarking-protocol.md → [[llama-nas]]
+  - wiki/sources/articles/ml-evolution-benchmarking-protocol.md → [[essa]]
+  - wiki/sources/articles/ml-evolution-benchmarking-protocol.md → [[qes]]
+  - wiki/sources/articles/ml-evolution-benchmarking-protocol.md → [[control-llm]]
+  - wiki/sources/articles/ml-evolution-benchmarking-protocol.md → [[namm]]
+  - wiki/sources/articles/ml-evolution-benchmarking-protocol.md → [[neural-architecture-search]]
+  - wiki/sources/articles/ml-evolution-benchmarking-protocol.md → [[catastrophic-forgetting]]
+  - wiki/sources/articles/ml-evolution-benchmarking-protocol.md → [[evolutionary-strategies]]
+  - wiki/sources/articles/ml-evolution-benchmarking-protocol.md → [[llama-nas]]
+  - wiki/sources/articles/ml-evolution-benchmarking-protocol.md → [[essa]]
+  - wiki/sources/articles/ml-evolution-benchmarking-protocol.md → [[qes]]
+  - wiki/sources/articles/shorthand-for-thought.md → [[superbpe]]
+  - wiki/sources/articles/shorthand-for-thought.md → [[chain-of-thought]]
+  - wiki/sources/articles/shorthand-for-thought.md → [[entropy-guided-compression]]
+  - wiki/sources/articles/shorthand-for-thought.md → [[superbpe]]
+  - wiki/sources/articles/shorthand-for-thought.md → [[math-500]]
+  - wiki/sources/articles/titans-test-time-memory.md → [[in-context-learning]]
+  - wiki/sources/articles/titans-test-time-memory.md → [[surprise-based-learning]]
+  - wiki/sources/articles/titans-test-time-memory.md → [[google-research]]
+  - wiki/sources/articles/titans-test-time-memory.md → [[mamba]]
+  - wiki/sources/documentation/github-actions-troubleshooting.md → [[github-actions]]
+  - wiki/sources/documentation/github-actions-troubleshooting.md → [[trunk]]
+  - wiki/sources/documentation/github-actions-troubleshooting.md → [[prover9]]
+  - wiki/sources/documentation/github-actions-troubleshooting.md → [[uv]]
+  - wiki/sources/documentation/github-actions-troubleshooting.md → [[taplo]]
+  - wiki/sources/documentation/isabelle-installation.md → [[sledgehammer]]
+  - wiki/sources/documentation/isabelle-installation.md → [[formal-verification]]
+  - wiki/sources/documentation/isabelle-installation.md → [[java]]
+  - wiki/sources/documentation/isabelle-installation.md → [[latex]]
+  - wiki/sources/documentation/wolfram-nks-causal-networks.md → [[stephen-wolfram]]
+  - wiki/sources/documentation/wolfram-nks-causal-networks.md → [[mobile-automata]]
+  - wiki/sources/documentation/wolfram-nks-causal-networks.md → [[computational-universe]]
+  - wiki/sources/documentation/wolfram-nks-causal-networks.md → [[wolfram-physics-project]]
+  - wiki/sources/mixture-of-recursions.md → [[i-built-a-tiny-computer-inside-a-transformer]]
+  - wiki/sources/mixture-of-recursions.md → [[efficient-transformers]]
+  - wiki/sources/mixture-of-recursions.md → [[mixture-of-depths]]
+  - wiki/sources/mixture-of-recursions.md → [[recursive-transformers]]
+  - wiki/sources/mixture-of-recursions.md → [[adaptive-computation]]
+  - wiki/sources/mixture-of-recursions.md → [[latent-reasoning]]
+  - wiki/sources/mixture-of-recursions.md → [[kv-cache]]
+  - wiki/sources/papers/reward-inside-model-elhsr.md → [[reasoning]]
+  - wiki/synthesis/efhf-mcp-configuration.md → [[agent-group-evolving-molecular-system-agem]]
+  - wiki/synthesis/llm-biological-analogies.md → [[wiki/sources/articles/brocas-area-gemini-chat]]
+  - wiki/synthesis/seg-scientist-agent-design.md → [[seg-molecular-self]]
+**Non-reciprocal links** (61) — A links to B but B doesn't link back:
+  - [[eml-operator]] → [[mcp-logic]] (no return link)
+  - [[eml-operator]] → [[efhf]] (no return link)
+  - [[mop-explorer]] → [[zettelkasten-engine]] (no return link)
+  - [[mop-explorer]] → [[edm-framework]] (no return link)
+  - [[mop-explorer]] → [[efhf]] (no return link)
+  - [[mop-explorer]] → [[project-synapse]] (no return link)
+  - [[mop-explorer]] → [[maximum-occupancy-principle]] (no return link)
+  - [[academic-peer-review]] → [[critical-analysis]] (no return link)
+  - [[graph-rlm]] → [[agem]] (no return link)
+  - [[graph-rlm]] → [[efhf]] (no return link)
+  - [[graph-rlm]] → [[tyler-hall]] (no return link)
+  - [[hidden-states]] → [[critical-analysis]] (no return link)
+  - [[conscience-servitor]] → [[mcp-logic]] (no return link)
+  - [[conscience-servitor]] → [[hipai-montague]] (no return link)
+  - [[conscience-servitor]] → [[sheaf-consistency-enforcer]] (no return link)
+  - [[symbolic-regression]] → [[mcp-logic]] (no return link)
+  - [[reward-modeling]] → [[critical-analysis]] (no return link)
+  - [[agem]] → [[efhf]] (no return link)
+  - [[nexus]] → [[efhf]] (no return link)
+  - [[mcp-coordinator]] → [[efhf]] (no return link)
+  - [[mcp-coordinator]] → [[tyler-hall]] (no return link)
+  - [[mcp-coordinator]] → [[conscience-servitor]] (no return link)
+  - [[toward-transcendent-moral-instrumentality]] → [[hipai-montague]] (no return link)
+  - [[toward-transcendent-moral-instrumentality]] → [[tyler-hall]] (no return link)
+  - [[causal-networks]] → [[isabelle]] (no return link)
+  - [[sheffer-stroke]] → [[mcp-logic]] (no return link)
+  - [[roger-koenig-robert]] → [[aphantasia]] (no return link)
+  - [[verifier-graph]] → [[agem]] (no return link)
+  - [[verifier-graph]] → [[efhf]] (no return link)
+  - [[verifier-graph]] → [[tyler-hall]] (no return link)
+  - [[language-evolution]] → [[gemini]] (no return link)
+  - [[ethical-ai-core]] → [[tyler-hall]] (no return link)
+  - [[ethical-ai-core]] → [[toward-transcendent-moral-instrumentality]] (no return link)
+  - [[advanced-reasoning-mcp]] → [[mcp-logic]] (no return link)
+  - [[efhf]] → [[mcp-logic]] (no return link)
+  - [[efhf]] → [[agentic-research]] (no return link)
+  - [[sheaf-consistency-enforcer]] → [[mcp-logic]] (no return link)
+  - [[sheaf-consistency-enforcer]] → [[hipai-montague]] (no return link)
+  - [[maximum-occupancy-principle]] → [[zettelkasten-engine]] (no return link)
+  - [[maximum-occupancy-principle]] → [[edm-framework]] (no return link)
+  - [[maximum-occupancy-principle]] → [[efhf]] (no return link)
+  - [[ast-mcp-server]] → [[mcp-coordinator]] (no return link)
+  - [[ast-mcp-server]] → [[tyler-hall]] (no return link)
+  - [[critical-analysis]] → [[edm-framework]] (no return link)
+  - [[hipai-montague]] → [[mcp-logic]] (no return link)
+  - [[hipai-montague]] → [[mop-explorer]] (no return link)
+  - [[tyler-hall]] → [[agem]] (no return link)
+  - [[tyler-hall]] → [[nexus]] (no return link)
+  - [[tyler-hall]] → [[hipai-montague]] (no return link)
+  - [[tyler-hall]] → [[dhruv-trehan]] (no return link)
+  - [[aseke-compass-mcp]] → [[agem]] (no return link)
+  - [[aseke-compass-mcp]] → [[tyler-hall]] (no return link)
+  - [[tys-repos]] → [[agentic-research]] (no return link)
+  - [[tys-repos]] → [[agem]] (no return link)
+  - [[tys-repos]] → [[nexus]] (no return link)
+  - [[tys-repos]] → [[mcp-logic]] (no return link)
+  - [[tys-repos]] → [[hipai-montague]] (no return link)
+  - [[alphaevolve]] → [[maximum-occupancy-principle]] (no return link)
+  - [[open-ended-evolution]] → [[maximum-occupancy-principle]] (no return link)
+  - [[open-ended-evolution]] → [[efhf]] (no return link)
+  - [[open-ended-evolution]] → [[eml-operator]] (no return link)
+
+## [2026-05-06 20:09] write
+
+Updated page: wiki/concepts/chain-of-thought.md
+
+## [2026-05-06 20:09] write
+
+Updated page: wiki/entities/people/stephen-wolfram.md
+
+## [2026-05-06 20:09] write
+
+Updated page: wiki/entities/tools/mamba.md
+
+## [2026-05-06 20:09] write
+
+Updated page: wiki/concepts/surprise-based-learning.md
+
+## [2026-05-06 20:09] write
+
+Updated page: wiki/entities/tools/prover9.md
+
+## [2026-05-06 20:09] write
+
+Updated page: wiki/entities/tools/superbpe.md
+
+## [2026-05-06 20:09] index
+
+Index updated with 135 pages

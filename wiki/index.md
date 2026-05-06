@@ -1,5 +1,5 @@
 ---
-updated: 2026-05-03T09:05:49Z
+updated: 2026-05-06T20:09:50Z
 type: index
 ---
 
@@ -12,6 +12,8 @@ type: index
 - [[aphantasia]] — Concept page for Aphantasia
 - [[arcuate-fasciculus]] — Concept page for Arcuate Fasciculus.
 - [[brocas-area]] — Concept page for Broca's Area.
+- [[causal-networks]] — Concept page for causal network representations of evolution.
+- [[chain-of-thought]] — Concept page for Chain-of-Thought.
 - [[critical-analysis]] — The systematic evaluation of research to understand its methodology, context, validity, and significance.
 - [[cryptographic-vs-semantic-alignment]] — Distinction between what cryptographic protocols can prove (integrity, provenance, state validity) and what they cannot (semantic alignment of outputs to consequences in a world the protocol does not see); decentralized consensus is necessary but not sufficient for AI governance
 - [[design-thinking]] — Human-centered innovation framework — structured process from need identification through verification, with leverage concentrated in the often-neglected front-end phases
@@ -24,9 +26,12 @@ type: index
 - [[hidden-states]] — The internal vector representations (activations) of data at each layer of a neural network, containing 'inner knowledge' and confidence signals.
 - [[hyperphantasia]] — Concept page for Hyperphantasia
 - [[institutional-capture-vs-species-framing]] — Reframe of "human nature" / "civilization" arguments — the unit making civilization-scale choices is not the species but a thin layer of captured institutions; reframes the Great Filter from technological to architectural
+- [[language-evolution]] — Concept page for the statistical study of language evolution.
 - [[maximum-occupancy-principle]] — Theory of behavior replacing reward maximization with action-state path entropy maximization — Layer 0 of EFHF architecture; absorbing states → Kernel 2 (Prover9-verified)
 - [[memex]] — Vannevar Bush's 1945 vision of a personal associative knowledge device
+- [[ml-evolution]] — Concept page for autonomous machine learning model evolution.
 - [[myelination]] — Concept page for Myelination.
+- [[neural-long-term-memory]] — Concept page for neural long-term memory.
 - [[open-ended-evolution]] — The study of conditions enabling evolution to continually produce novelty without converging — central ALife question connecting Tierra, Geb, Lenia, and OpenPraparat, with evaluation via Bedau-Packard statistics and Dolson complexity barriers
 - [[para-methodology]] — Tiago Forte's PARA framework — actionability-based universal information organization (Projects, Areas, Resources, Archives)
 - [[persistent-knowledge-compilation]] — Paradigm of LLM pre-compiling knowledge into persistent structured bases vs stateless RAG
@@ -37,6 +42,8 @@ type: index
 - [[sheffer-stroke]] — A single primitive operator from which an entire computational domain is reconstructable — NAND for Boolean logic, EML for continuous mathematics, with structural parallels across domains
 - [[spin-vs-substrate]] — Analytical primitive — separating the rhetorical layer (clauses, statements, principles) from the operational layer (deployments, integrations, consequences); citing one as evidence about the other is the standard category error
 - [[spontaneous-activity-reshaping-hypothesis]] — Concept page for Spontaneous Activity Reshaping Hypothesis
+- [[supertokens]] — Concept page for compressed reasoning tokens.
+- [[surprise-based-learning]] — Concept page for surprise-based learning.
 - [[symbolic-regression]] — Discovering closed-form mathematical expressions from data — approaches include genetic programming, neural-guided search, and gradient-optimized EML trees that are complete by construction
 - [[tag-taxonomy]] — Controlled vocabulary for wiki tags — preferred terms with USE/UF equivalence, BT/NT hierarchy, and RT associative relationships
 - [[wernickes-area]] — Concept page for Wernicke's Area.
@@ -44,6 +51,7 @@ type: index
 - [[dhruv-trehan]] — Entity page for Dhruv Trehan.
 - [[paras-chopra]] — Entity page for Paras Chopra.
 - [[roger-koenig-robert]] — Entity page for neuroscientist Roger Koenig-Robert
+- [[stephen-wolfram]] — Entity page for Stephen Wolfram.
 - [[tyler-hall]] — Entity page for Tyler Blaine Hall.
 - [[alphaevolve]] — Google DeepMind's evolutionary coding agent — LLM ensemble + diff-based mutation + real hardware eval; 23% GEMM speedup; Gemini self-improvement; instantiates MGA pattern; open-sourced as OpenEvolve
 - [[efhf]] — Five-layer AI architecture implementing computational mechanics (epsilon machines, lumpability, causal closure) as a live multi-agent system — MOP proposed as Layer 0 for proactive exploration
@@ -71,26 +79,37 @@ type: index
 - [[claude-code]] — Entity page for Claude Code.
 - [[gemini]] — Entity page for Gemini.
 - [[hipai-montague]] — Graph-based world model MCP server — EFHF Layer 2; encodes beliefs and relationships for verification by mcp-logic
+- [[isabelle]] — Reference page for the Isabelle proof assistant.
+- [[mamba]] — Tool page for Mamba (SSM).
 - [[mcp-logic]] — First-order logic MCP server (Prover9/Mace4) — EFHF Layer 3; structural verification, absorbing state detection, hypothesis validation for MOP agents
 - [[neo4j]] — Graph database providing vector search, fulltext indexing, and relationship traversal
 - [[obsidian-skills-repo]] — kepano's agent skill definitions for Obsidian — markdown, bases, canvas, CLI, and defuddle web extraction
 - [[obsidian]] — Markdown knowledge app — the human-readable frontend for the wiki
+- [[prover9]] — Entity page for Prover9.
+- [[superbpe]] — Tool page for SuperBPE tokenization.
 - [[brocas-area-gemini-chat]] — Source summary for Gemini chat on Broca's area and LLM analogies.
 - [[critical-review-scientific-article-guide]] — A structured guide for analyzing and critically reviewing scientific journal articles, focusing on research methods, context, and significance.
 - [[design-thinking-mit]] — MIT Professional Education overview of the 10-step design thinking framework by Blade Kotelly
 - [[emotion-concepts-llm]] — Anthropic research on functional emotion representations in Claude Sonnet 4.5 and their causal effects on behavior.
 - [[hilbert-hotel-graph-architecture]] — Gemini conversation exploring Hilbert Hotel paradox as graph database architecture — immutable nodes with lazy offset protocols, quantum oracle sketching, and 4D superspace simulations
 - [[how-does-imagination-really-work-in-the-brain-new-theory-upends-what-we-knew]] — Source summary for imagination theory article
+- [[language-evolution]] — Review of language evolution statistics and AI communication frontiers.
 - [[llm-kernel-optimization]] — Technical deep-dive on AlphaEvolve/OpenEvolve for GPU kernel optimization — LLM ensemble + diff-based mutation + real hardware eval; 23% GEMM speedup; Gemini optimizing its own training; tensor decomposition as game-playing; connects to MGA framework as engineering instantiation
 - [[llm-wiki-pattern]] — Karpathy's pattern for LLM-maintained persistent Markdown knowledge bases
+- [[ml-evolution-benchmarking-protocol]] — Systematic review of guided vs unconstrained LLM architecture evolution.
 - [[momoa-researcher]] — Google Labs agentic research scientist using Mixture of Mixture of Agents
 - [[prd-ralph-loop-mop-gemini]] — Gemini conversation connecting PRD-driven Ralph Loops with MOP and Theory of Mind for autonomous scientific research — epistemic energy as the critical constraint
+- [[shorthand-for-thought]] — Compressing LLM reasoning via entropy-guided supertokens.
+- [[titans-test-time-memory]] — Titans: Learning to Memorize at Test Time summary.
 - [[transformer-vm-moran-2026]] — Moran (2026) — analytically compiling programs into transformer weights; residual stream as registers, attention as lookup, FFN as arithmetic, layers as machine steps; connects to EML as minimal instruction set for compiled transformers
 - [[why-llms-arent-scientists-yet]] — Compressed summary of the autonomous research case study.
 - [[wolchover-life-force-2026]] — Wolchover (Quanta 2026-04-20) — bacterial flagellar motor finally fully understood after 50 years; driven by proton motive force (Mitchell 1961, Nobel 1978); 5:2 stator geometry rectifies entropic+electric proton gradient into torque; CheY-P phosphorylation triggers C-ring conformational cascade for direction reversal; "entropic energy → kinetic energy" is the universal cellular energetics.
+- [[github-actions-troubleshooting]] — GitHub Actions CI Troubleshooting guide summary.
+- [[isabelle-installation]] — Official installation guide for Isabelle2025-2.
 - [[obsidian-cli-skill]] — kepano's Obsidian CLI agent skill — command reference for reading, writing, searching, and managing Obsidian vaults from the terminal
 - [[obsidian-git-setup]] — Setup guide for the Obsidian Git community plugin (desktop and mobile)
 - [[obsidian-para-byarbrough]] — byarbrough's Obsidian PARA template — Tiago Forte's 4-category knowledge organization system implemented in Obsidian
+- [[wolfram-nks-causal-networks]] — Wolfram's NKS excerpt on causal networks and spacetime.
 - [[mixture-of-recursions]] — MoR unifies parameter sharing and adaptive token-level computation via learned recursive depth routing — connects to causal state assignment and compiled-transformer execution models.
 - [[bae-mor-2025]] — Bae et al. (2025) — Mixture-of-Recursions: dynamic per-token recursion depth in shared-parameter transformers; expert-choice and token-choice routing; recursion-wise KV caching; 47% fewer params, 2x throughput; provides the adaptive-depth execution substrate for EML compiled transformers
 - [[chen-molecular-cot-2026]] — Chen et al. (2026) — Long CoT reasoning has stable molecular-like structure with three "bonds" (Deep-Reasoning ≈ covalent, Self-Reflection ≈ hydrogen, Self-Exploration ≈ van der Waals); attention weights ↔ Boltzmann distribution; effective transfer is structural, not lexical; Mole-Syn synthesizes Long CoT via distribution-transfer graphs without distillation.

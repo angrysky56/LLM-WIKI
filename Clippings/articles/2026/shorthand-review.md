@@ -1,16 +1,12 @@
 ---
-title: "‎Google Gemini"
+title: "Shorthand for Thought Review"
 source: "https://gemini.google.com/gem/3f3217f9b448/f6efe5109f275841"
 author:
 published:
 created: 2026-05-04
-description: "Meet Gemini, Google’s AI assistant. Get help with writing, planning, brainstorming, and more. Experience the power of generative AI."
+description: "Review of Shorthand for Thought: Compressing LLM Reasoning via Entropy-Guided Supertokens"
 tags:
   - "clippings"
----
-LLM Reasoning Compression and Interpretability
-
-## Conversation with Gemini
 
 You said
 

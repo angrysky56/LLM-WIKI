@@ -1,13 +1,6 @@
 ---
-summary: Entity page for Stephen Wolfram.
-tags: [scientist, computation, wolfram]
-updated: 2026-05-06T20:09:30Z
-created: 2026-05-06T20:09:30Z
----
-
----
 created: 2026-05-06T20:09:26Z
-updated: 2026-05-06T20:09:26Z
+updated: 2026-05-06T21:51:17Z
 type: entity
 summary: Computer scientist, physicist, and creator of Mathematica, Wolfram|Alpha, and Wolfram Language. Known for "A New Kind of Science."
 tags: [scientist, physicist, computation, nks]
@@ -28,8 +21,9 @@ Stephen Wolfram is a British-American computer scientist, physicist, and entrepr
 ## Key Concepts
 - [[computational-irreducibility]]
 - [[computational-universe]]
-- [[causal-networks]]
+- [[causal-networks]] (NKS/Physics context)
 
 ## Connections
 - Project: [[wolfram-physics-project]]
 - Source: [[wolfram-nks-causal-networks]]
+- Concept: [[load-bearing-reasoning]] (distinction from NKS causal graphs)

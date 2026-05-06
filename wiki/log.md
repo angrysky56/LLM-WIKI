@@ -2406,3 +2406,7 @@ Updated page: wiki/entities/tools/superbpe.md
 ## [2026-05-06 20:09] index
 
 Index updated with 135 pages
+
+## [2026-05-06 21:51] index
+
+Index updated with 136 pages

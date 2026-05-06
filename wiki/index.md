@@ -1,5 +1,5 @@
 ---
-updated: 2026-05-06T20:09:50Z
+updated: 2026-05-06T21:51:26Z
 type: index
 ---
 
@@ -12,7 +12,7 @@ type: index
 - [[aphantasia]] — Concept page for Aphantasia
 - [[arcuate-fasciculus]] — Concept page for Arcuate Fasciculus.
 - [[brocas-area]] — Concept page for Broca's Area.
-- [[causal-networks]] — Concept page for causal network representations of evolution.
+- [[causal-networks]] — A fundamental representation of spacetime in Wolfram Physics, where nodes are updating events and edges are causal dependencies in a multiway rewrite system.
 - [[chain-of-thought]] — Concept page for Chain-of-Thought.
 - [[critical-analysis]] — The systematic evaluation of research to understand its methodology, context, validity, and significance.
 - [[cryptographic-vs-semantic-alignment]] — Distinction between what cryptographic protocols can prove (integrity, provenance, state validity) and what they cannot (semantic alignment of outputs to consequences in a world the protocol does not see); decentralized consensus is necessary but not sufficient for AI governance
@@ -27,6 +27,7 @@ type: index
 - [[hyperphantasia]] — Concept page for Hyperphantasia
 - [[institutional-capture-vs-species-framing]] — Reframe of "human nature" / "civilization" arguments — the unit making civilization-scale choices is not the species but a thin layer of captured institutions; reframes the Great Filter from technological to architectural
 - [[language-evolution]] — Concept page for the statistical study of language evolution.
+- [[load-bearing-reasoning]] — A framework for interpretability that distinguishes between tokens necessary for a conclusion (load-bearing) and those that serve as statistical noise reduction (scaffolding).
 - [[maximum-occupancy-principle]] — Theory of behavior replacing reward maximization with action-state path entropy maximization — Layer 0 of EFHF architecture; absorbing states → Kernel 2 (Prover9-verified)
 - [[memex]] — Vannevar Bush's 1945 vision of a personal associative knowledge device
 - [[ml-evolution]] — Concept page for autonomous machine learning model evolution.
@@ -42,7 +43,7 @@ type: index
 - [[sheffer-stroke]] — A single primitive operator from which an entire computational domain is reconstructable — NAND for Boolean logic, EML for continuous mathematics, with structural parallels across domains
 - [[spin-vs-substrate]] — Analytical primitive — separating the rhetorical layer (clauses, statements, principles) from the operational layer (deployments, integrations, consequences); citing one as evidence about the other is the standard category error
 - [[spontaneous-activity-reshaping-hypothesis]] — Concept page for Spontaneous Activity Reshaping Hypothesis
-- [[supertokens]] — Concept page for compressed reasoning tokens.
+- [[supertokens]] — High-level vocabulary entries created by merging multi-token sequences (structural phrases) into single units, functioning as operators in a problem-space search.
 - [[surprise-based-learning]] — Concept page for surprise-based learning.
 - [[symbolic-regression]] — Discovering closed-form mathematical expressions from data — approaches include genetic programming, neural-guided search, and gradient-optimized EML trees that are complete by construction
 - [[tag-taxonomy]] — Controlled vocabulary for wiki tags — preferred terms with USE/UF equivalence, BT/NT hierarchy, and RT associative relationships
@@ -51,7 +52,7 @@ type: index
 - [[dhruv-trehan]] — Entity page for Dhruv Trehan.
 - [[paras-chopra]] — Entity page for Paras Chopra.
 - [[roger-koenig-robert]] — Entity page for neuroscientist Roger Koenig-Robert
-- [[stephen-wolfram]] — Entity page for Stephen Wolfram.
+- [[stephen-wolfram]] — Computer scientist, physicist, and creator of Mathematica, Wolfram|Alpha, and Wolfram Language. Known for "A New Kind of Science.
 - [[tyler-hall]] — Entity page for Tyler Blaine Hall.
 - [[alphaevolve]] — Google DeepMind's evolutionary coding agent — LLM ensemble + diff-based mutation + real hardware eval; 23% GEMM speedup; Gemini self-improvement; instantiates MGA pattern; open-sourced as OpenEvolve
 - [[efhf]] — Five-layer AI architecture implementing computational mechanics (epsilon machines, lumpability, causal closure) as a live multi-agent system — MOP proposed as Layer 0 for proactive exploration
@@ -99,7 +100,7 @@ type: index
 - [[ml-evolution-benchmarking-protocol]] — Systematic review of guided vs unconstrained LLM architecture evolution.
 - [[momoa-researcher]] — Google Labs agentic research scientist using Mixture of Mixture of Agents
 - [[prd-ralph-loop-mop-gemini]] — Gemini conversation connecting PRD-driven Ralph Loops with MOP and Theory of Mind for autonomous scientific research — epistemic energy as the critical constraint
-- [[shorthand-for-thought]] — Compressing LLM reasoning via entropy-guided supertokens.
+- [[shorthand-for-thought]] — Research on compressing LLM Chain-of-Thought (CoT) reasoning by merging low-entropy structural phrases into "supertokens.
 - [[titans-test-time-memory]] — Titans: Learning to Memorize at Test Time summary.
 - [[transformer-vm-moran-2026]] — Moran (2026) — analytically compiling programs into transformer weights; residual stream as registers, attention as lookup, FFN as arithmetic, layers as machine steps; connects to EML as minimal instruction set for compiled transformers
 - [[why-llms-arent-scientists-yet]] — Compressed summary of the autonomous research case study.

@@ -1,16 +1,9 @@
 ---
-summary: Concept page for compressed reasoning tokens.
-tags: [llm, tokenization, compression]
-updated: 2026-05-06T20:07:43Z
-created: 2026-05-06T20:07:43Z
----
-
----
 created: 2026-05-06T20:07:39Z
-updated: 2026-05-06T20:07:39Z
+updated: 2026-05-06T21:50:50Z
 type: concept
-summary: High-level vocabulary entries created by merging multi-token sequences (often structural phrases) into a single token for efficiency and interpretability.
-tags: [llm, tokenization, compression, nlp]
+summary: High-level vocabulary entries created by merging multi-token sequences (structural phrases) into single units, functioning as operators in a problem-space search.
+tags: [llm, cognitive-architecture, process-modeling, superbpe]
 sources: [[shorthand-for-thought]]
 status: active
 confidence: 1.0
@@ -18,19 +11,22 @@ confidence: 1.0
 
 # Supertokens
 
-Supertokens are an advanced form of tokenization where recurring, low-entropy sequences—typically structural phrases in [[chain-of-thought|Chain-of-Thought]] reasoning—are merged into a single entry in the model's vocabulary.
+Supertokens are an advanced form of tokenization where recurring structural sequences in reasoning traces are merged into single vocabulary entries. 
 
-## Mechanics
-- **Creation**: Identified using algorithms like [[superbpe]] which allow merging across whitespace.
-- **Embedding**: Initialized by averaging the embeddings of the constituent tokens to preserve semantic context.
-- **Utility**: Reduces the length of output sequences (lowering latency and cost) while serving as "diagnostic signposts" for model behavior.
+## Theoretical Lineage: Cognitive Architectures
+While supertokens are an LLM optimization, they function as high-level **operators** in a **Problem Space Hypothesis** (Newell, 1980). They align with the tradition of **Classical Cognitive Architectures** (Soar, ACT-R) and **GOMS-style operator analysis**, where reasoning is viewed as a sequence of discrete functional moves rather than a continuous stream.
 
-## Categories in Reasoning
-- **Verification**: "Let's check this," "Let us verify."
-- **Backtracking**: "Wait, hold on," "Let me restart."
-- **Strategy Shift**: "Alternatively," "Let's try a different approach."
+### Operators in Reasoning
+In this framework, supertokens represent discrete cognitive steps:
+- **Strategy Shift**: A move to a different branch of the search tree.
+- **Verification**: A consistency check on a previously emitted state.
+- **Backtracking**: Returning to a prior node in the problem space.
+
+## Interpretability: Causal Mediation
+Instead of viewing transitions between supertokens as "Wolfram-style physics," they are better analyzed as a **Causal Network of Intent**. By measuring which supertoken transitions are **load-bearing** (affecting the final conclusion) vs. **scaffolding** (statistical noise reduction), we can perform **Causal Mediation Analysis** (Pearl-flavored) on the model's internal "monologue."
 
 ## Connections
-- Source: [[shorthand-for-thought|Shorthand for Thought: Compressing LLM Reasoning]]
+- Source: [[shorthand-for-thought|Shorthand for Thought]]
+- Concept: [[load-bearing-reasoning]]
 - Concept: [[chain-of-thought]]
-- Concept: [[entropy-guided-compression]]
+- Tool: [[superbpe]]

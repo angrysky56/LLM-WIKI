@@ -1,36 +1,27 @@
 ---
-summary: Concept page for causal network representations of evolution.
-tags: [causal-networks, physics, logic]
-updated: 2026-05-06T20:08:09Z
-created: 2026-05-06T20:08:09Z
----
-
----
 created: 2026-05-06T20:08:04Z
-updated: 2026-05-06T20:08:04Z
+updated: 2026-05-06T21:51:04Z
 type: concept
-summary: A representation of system evolution where nodes are discrete events and edges are the causal dependencies between them.
-tags: [causal-networks, graph-theory, physics, logic]
+summary: A fundamental representation of spacetime in Wolfram Physics, where nodes are updating events and edges are causal dependencies in a multiway rewrite system.
+tags: [wolfram-physics, spacetime, nks, computation]
 sources: [[wolfram-nks-causal-networks]]
-status: active
+status: reference
 confidence: 1.0
 ---
 
-# Causal Networks
+# Causal Networks (NKS)
 
-Causal networks are directed graphs that represent the dependencies between discrete events in a dynamic system. In the context of [[wolfram-physics-project|Wolfram Physics]], they provide a model for spacetime where time is emergent from the causal ordering of events.
+In the context of the **[[wolfram-physics-project|Wolfram Physics Project]]** and **A New Kind of Science**, causal networks are directed graphs that represent the fundamental structure of the universe.
 
-## Key Properties
-- **Events as Nodes**: Each node represents a discrete change or "updating event" in the system.
-- **Causal Edges**: A directed edge from Event A to Event B indicates that A is a prerequisite for B; Event B cannot occur without the information or state produced by Event A.
-- **Independence**: Events that are not connected by a path in the network are causally independent and can be thought of as occurring "simultaneously" in some reference frames.
+## Mechanics
+- **Events as Nodes**: Each node represents a discrete "updating event" in a multiway rewrite system (e.g., hypergraph substitution).
+- **Causal Edges**: A directed edge from Event A to Event B exists **if and only if** Event A produces an output that is consumed by Event B.
+- **Emergent Spacetime**: Spacetime is not a pre-existing container but is emergent from the topology of this network.
 
-## Applications
-- **Physics**: Modeling spacetime as a discrete network of events.
-- **Logic & Reasoning**: Tracking the flow of truth-maintenance or dependency in complex reasoning chains (e.g., in [[isabelle]] or [[chain-of-thought]]).
-- **Distributed Systems**: Representing partial ordering of events (e.g., vector clocks).
+## Distinction from Reasoning
+While "causal network" is sometimes used metaphorically to describe LLM reasoning traces, the NKS definition is strictly defined by rewrite system semantics. For analysis of LLM intent and logical dependencies, see **[[load-bearing-reasoning]]**.
 
 ## Connections
 - Entity: [[stephen-wolfram]]
-- Concept: [[computational-irreducibility]]
-- Source: [[wolfram-nks-causal-networks|Time and Causal Networks (NKS)]]
+- Project: [[wolfram-physics-project]]
+- Source: [[wolfram-nks-causal-networks]]

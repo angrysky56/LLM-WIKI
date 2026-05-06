@@ -190,8 +190,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c161994581ba454a",
+  "active": "2ab9c987c297f7a1",
   "lastOpenFiles": [
+    "wiki/concepts/load-bearing-reasoning.md",
+    "raw/Isabelle Installation.md",
     "wiki/entities/tools/superbpe.md",
     "wiki/entities/tools/prover9.md",
     "wiki/concepts/surprise-based-learning.md",
@@ -216,8 +218,6 @@
     "wiki/sources/articles/ml-evolution-benchmarking-protocol.md",
     "Clippings/articles/2026/ML Evolution Benchmarking Protocol.md",
     "wiki/concepts/language-evolution.md",
-    "wiki/sources/articles/language-evolution.md",
-    "Clippings/articles/2026/Language Evolution.md",
     "wiki/spikes",
     "wiki/entities/projects/tys-repos",
     "clippings-archive.base",

@@ -1,8 +1,7 @@
 ---
-summary: Graph database providing vector search, fulltext indexing, and relationship traversal
-tags: [database, graph, vector-search, infrastructure]
-updated: 2026-04-07T20:36:04Z
-created: 2026-04-07T20:36:04Z
+summary: Graph database providing vector search, fulltext indexing, and relationship traversal — running 2026.04.0 with Qwen 4B embeddings
+tags: [database, graph, vector-search, infrastructure, neo4j]
+updated: 2026-05-07T16:47:14Z
 ---
 
 # Neo4j
@@ -25,7 +24,9 @@ Graph database used as the knowledge backbone of [[Project Synapse]].
 
 ## Version
 
-Running Neo4j 2026.x with Cypher 25 syntax. Local embeddings via sentence-transformers or Ollama — no paid API keys required.
+Running Neo4j 2026.04.0 (community edition). Qwen 4B via Ollama for embeddings (2560-dim). Key features from 2026.04.0: vector-3.0 quantization fix (was writing quantized data but not using it at query time), io_uring async I/O support, GenAI plugin with token handling functions, Cypher 25 IS LABELED / FOR syntax.
+
+See [[neo4j-2026-04-0-release]] for full release notes.
 
 ## Connections
 

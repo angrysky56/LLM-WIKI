@@ -2410,3 +2410,79 @@ Index updated with 135 pages
 ## [2026-05-06 21:51] index
 
 Index updated with 136 pages
+
+## [2026-05-07 07:49] ingest | Solo-preneur.md
+
+Ingested raw/Solo-preneur.md into knowledge graph.
+
+Preview: /home/ty/Repositories/meta-harness/ONBOARDING.md  *   Core Philosophy: "Time is money" and "Convenience is king."     *   Constraints:         *   Single developer (Solo-preneur/Indie Hacker).        ...
+
+## [2026-05-07 07:50] write
+
+Updated page: wiki/sources/articles/solo-preneur.md
+
+## [2026-05-07 07:50] index
+
+Index updated with 137 pages
+
+## [2026-05-07 08:37] write
+
+Updated page: wiki/sources/articles/solo-preneur.md
+
+## [2026-05-07 16:26] ingest | Discrete Time-To-Event Modeling – Predicting When Something Will Happen.md
+
+Ingested raw/Discrete Time-To-Event Modeling – Predicting When Something Will Happen.md into knowledge graph.
+
+Preview: ## Introduction  data science problems predict the *what* — for example, *what* will a house sell for? Or *what* will a customer purchase? Or *what* is the probability that a patient has a disease?  M...
+
+## [2026-05-07 16:27] write
+
+Updated page: wiki/sources/articles/discrete-time-to-event-modeling.md
+
+## [2026-05-07 16:45] ingest | Neo4j 2026.04.0.md
+
+Ingested raw/Neo4j 2026.04.0.md into knowledge graph.
+
+Preview: Release Date: 23 April 2026  ## Release Note for Neo4j 2026.04.0 (23 April 2026)  ## Server  - Neo4j 2026.04.0 introduces an expanded Query API transaction ID length from 4 to 6 characters, allowing t...
+
+## [2026-05-07 16:45] ingest | Hermes MCP (Model Context Protocol).md
+
+Ingested raw/Hermes MCP (Model Context Protocol).md into knowledge graph.
+
+Preview: MCP lets Hermes Agent connect to external tool servers so the agent can use tools that live outside Hermes itself — GitHub, databases, file systems, browser stacks, internal APIs, and more.  If you ha...
+
+## [2026-05-07 16:46] write
+
+Updated page: wiki/sources/articles/neo4j-2026-04-0-release.md
+
+## [2026-05-07 16:47] write
+
+Updated page: wiki/sources/documentation/hermes-mcp-integration.md
+
+## [2026-05-07 16:47] write
+
+Updated page: wiki/entities/tools/neo4j.md
+
+## [2026-05-07 16:48] ingest | Eris (mythology).md
+
+Ingested raw/Eris (mythology).md into knowledge graph.
+
+Preview: In [Greek mythology](https://en.wikipedia.org/wiki/Greek_mythology "Greek mythology"), **Eris** ([Ancient Greek](https://en.wikipedia.org/wiki/Ancient_Greek_language "Ancient Greek language"): Ἔρις, [...
+
+## [2026-05-07 16:48] ingest | SSH Command in Linux.md
+
+Ingested raw/SSH Command in Linux.md into knowledge graph.
+
+Preview: SSH (Secure Shell) is a secure communication protocol that allows a user to access and control a remote computer over a network.  - Unlike older protocols like Telnet or Rlogin, SSH encrypts every pie...
+
+## [2026-05-07 16:48] write
+
+Updated page: wiki/sources/articles/eris-mythology.md
+
+## [2026-05-07 16:48] write
+
+Updated page: wiki/sources/articles/ssh-command-in-linux.md
+
+## [2026-05-07 16:49] index
+
+Index updated with 142 pages

@@ -1,13 +1,13 @@
 ---
 summary: Central hub for Ty's (angrysky56) repositories.
 tags: [projects, index, ty-repo]
-updated: 2026-05-01T07:05:11Z
+updated: 2026-05-08T01:12:35Z
 created: 2026-05-01T07:05:11Z
 ---
 
 ---
 created: 2026-05-01T07:05:05Z
-updated: 2026-05-01T07:05:05Z
+updated: 2026-05-08T01:12:30Z
 type: synthesis
 summary: Index of projects and repositories developed by Ty (angrysky56), focusing on ethical AI, advanced reasoning, and multi-agent systems.
 tags: [projects, ty-repo, angrysky56, ai-ethics, mcp]
@@ -37,6 +37,7 @@ This page serves as a central hub for the various projects and repositories deve
 - [[mcp-coordinator]] — Self-optimizing orchestrator for human intent and system execution.
 - [[agem]] — Multi-faceted reasoning framework (Agent-Group Evolving Molecular system).
 - [[nexus]] — Multi-agent coordination system.
+- [[meta-harness]] — Framework for self-adaptive agent evolution and structured knowledge bootstrapping, integrated with Hermes.
 
 ## Mathematical & Structural Logic
 - [[efhf]] — Analyzes hierarchical structures in AI systems (Emergent Functional Hierarchies Framework).

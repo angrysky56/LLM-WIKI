@@ -2486,3 +2486,131 @@ Updated page: wiki/sources/articles/ssh-command-in-linux.md
 ## [2026-05-07 16:49] index
 
 Index updated with 142 pages
+
+## [2026-05-07 19:36] ingest | Agent Loop Internals  Hermes Agent.md
+
+Ingested raw/Agent Loop Internals  Hermes Agent.md into knowledge graph.
+
+Preview: The core orchestration engine is `run_agent.py` 's `AIAgent` class — roughly 13,700 lines that handle everything from prompt assembly to tool dispatch to provider failover.  ## Core Responsibilities  ...
+
+## [2026-05-07 19:36] ingest | Context Compression and Caching.md
+
+Ingested raw/Context Compression and Caching.md into knowledge graph.
+
+Preview: Hermes Agent uses a dual compression system and Anthropic prompt caching to manage context window usage efficiently across long conversations.  Source files: `agent/context_engine.py` (ABC), `agent/co...
+
+## [2026-05-07 19:37] ingest | Gateway Internals  Hermes Agent.md
+
+Ingested raw/Gateway Internals  Hermes Agent.md into knowledge graph.
+
+Preview: The messaging gateway is the long-running process that connects Hermes to 14+ external messaging platforms through a unified architecture.  ## Key Files  | File | Purpose | | --- | --- | | `gateway/ru...
+
+## [2026-05-07 19:37] ingest | Hermes Agent 1.md
+
+Ingested raw/Hermes Agent 1.md into knowledge graph.
+
+Preview: Hermes has a plugin system for adding custom tools, hooks, and integrations without modifying core code.  If you want to create a custom tool for yourself, your team, or one project, this is usually t...
+
+## [2026-05-07 19:37] ingest | Hermes Agent.md
+
+Ingested raw/Hermes Agent.md into knowledge graph.
+
+Preview: This page is the top-level map of Hermes Agent internals. Use it to orient yourself in the codebase, then dive into subsystem-specific docs for implementation details.  ## System Overview  ```markdown...
+
+## [2026-05-07 19:37] ingest | Prompt Assembly  Hermes Agent.md
+
+Ingested raw/Prompt Assembly  Hermes Agent.md into knowledge graph.
+
+Preview: Hermes deliberately separates:  - **cached system prompt state** - **ephemeral API-call-time additions**  This is one of the most important design choices in the project because it affects:  - token u...
+
+## [2026-05-07 19:37] ingest | Provider Runtime Resolution  Hermes Agent.md
+
+Ingested raw/Provider Runtime Resolution  Hermes Agent.md into knowledge graph.
+
+Preview: Hermes has a shared provider runtime resolver used across:  - CLI - gateway - cron jobs - ACP - auxiliary model calls  Primary implementation:  - `hermes_cli/runtime_provider.py` — credential resoluti...
+
+## [2026-05-07 19:37] ingest | Session Storage  Hermes Agent.md
+
+Ingested raw/Session Storage  Hermes Agent.md into knowledge graph.
+
+Preview: Hermes Agent uses a SQLite database (`~/.hermes/state.db`) to persist session metadata, full message history, and model configuration across CLI and gateway sessions. This replaces the earlier per-ses...
+
+## [2026-05-07 23:18] ingest | Agent Loop Internals  Hermes Agent.md
+
+Ingested raw/Agent Loop Internals  Hermes Agent.md into knowledge graph.
+
+Preview: The core orchestration engine is `run_agent.py` 's `AIAgent` class — roughly 13,700 lines that handle everything from prompt assembly to tool dispatch to provider failover.  ## Core Responsibilities  ...
+
+## [2026-05-07 23:18] ingest | Context Compression and Caching.md
+
+Ingested raw/Context Compression and Caching.md into knowledge graph.
+
+Preview: Hermes Agent uses a dual compression system and Anthropic prompt caching to manage context window usage efficiently across long conversations.  Source files: `agent/context_engine.py` (ABC), `agent/co...
+
+## [2026-05-07 23:18] ingest | Gateway Internals  Hermes Agent.md
+
+Ingested raw/Gateway Internals  Hermes Agent.md into knowledge graph.
+
+Preview: The messaging gateway is the long-running process that connects Hermes to 14+ external messaging platforms through a unified architecture.  ## Key Files  | File | Purpose | | --- | --- | | `gateway/ru...
+
+## [2026-05-07 23:18] ingest | Hermes Agent 1.md
+
+Ingested raw/Hermes Agent 1.md into knowledge graph.
+
+Preview: Hermes has a plugin system for adding custom tools, hooks, and integrations without modifying core code.  If you want to create a custom tool for yourself, your team, or one project, this is usually t...
+
+## [2026-05-07 23:18] ingest | Hermes Agent.md
+
+Ingested raw/Hermes Agent.md into knowledge graph.
+
+Preview: This page is the top-level map of Hermes Agent internals. Use it to orient yourself in the codebase, then dive into subsystem-specific docs for implementation details.  ## System Overview  ```markdown...
+
+## [2026-05-07 23:19] ingest | Hermes MCP (Model Context Protocol).md
+
+Ingested raw/Hermes MCP (Model Context Protocol).md into knowledge graph.
+
+Preview: MCP lets Hermes Agent connect to external tool servers so the agent can use tools that live outside Hermes itself — GitHub, databases, file systems, browser stacks, internal APIs, and more.  If you ha...
+
+## [2026-05-07 23:19] ingest | Prompt Assembly  Hermes Agent.md
+
+Ingested raw/Prompt Assembly  Hermes Agent.md into knowledge graph.
+
+Preview: Hermes deliberately separates:  - **cached system prompt state** - **ephemeral API-call-time additions**  This is one of the most important design choices in the project because it affects:  - token u...
+
+## [2026-05-07 23:19] ingest | Provider Runtime Resolution  Hermes Agent.md
+
+Ingested raw/Provider Runtime Resolution  Hermes Agent.md into knowledge graph.
+
+Preview: Hermes has a shared provider runtime resolver used across:  - CLI - gateway - cron jobs - ACP - auxiliary model calls  Primary implementation:  - `hermes_cli/runtime_provider.py` — credential resoluti...
+
+## [2026-05-07 23:19] ingest | Session Storage  Hermes Agent.md
+
+Ingested raw/Session Storage  Hermes Agent.md into knowledge graph.
+
+Preview: Hermes Agent uses a SQLite database (`~/.hermes/state.db`) to persist session metadata, full message history, and model configuration across CLI and gateway sessions. This replaces the earlier per-ses...
+
+## [2026-05-07 23:21] write
+
+Updated page: wiki/concepts/hermes_agent.md
+
+## [2026-05-07 23:21] write
+
+Updated page: wiki/concepts/meta_harness_loop.md
+
+## [2026-05-07 23:21] write
+
+Updated page: wiki/concepts/onboarding_standards.md
+
+## [2026-05-08 01:28] ingest | Hermes agents running in Discord.md
+
+Ingested raw/Hermes agents running in Discord.md into knowledge graph.
+
+Preview: **You**  I have a Hermes agent running in Discord, it is really fun! I am thinking I can make a Discord server full of agencies and the bots can all talk to each other by granting them user access to ...
+
+## [2026-05-08 01:28] write
+
+Updated page: wiki/sources/articles/hermes-multi-agent-discord-architecture.md
+
+## [2026-05-08 01:29] index
+
+Index updated with 147 pages

@@ -1,5 +1,5 @@
 ---
-updated: 2026-05-07T16:49:05Z
+updated: 2026-05-08T01:29:22Z
 type: index
 ---
 
@@ -23,6 +23,7 @@ type: index
 - [[feedforward-activity]] — Concept page for Feedforward Activity
 - [[frame-transmission]] — The historical mechanism by which captured institutional forms are actually displaced — propagation of cognitive frames, person to person, inside captured institutions; the only durable lever, slow but consistent in the historical record
 - [[graphrag]] — RAG enhanced with graph traversal for richer context beyond vector similarity
+- [[hermes_agent]] — Architectural overview of the Hermes Agent framework.
 - [[hidden-states]] — The internal vector representations (activations) of data at each layer of a neural network, containing 'inner knowledge' and confidence signals.
 - [[hyperphantasia]] — Concept page for Hyperphantasia
 - [[institutional-capture-vs-species-framing]] — Reframe of "human nature" / "civilization" arguments — the unit making civilization-scale choices is not the species but a thin layer of captured institutions; reframes the Great Filter from technological to architectural
@@ -30,9 +31,11 @@ type: index
 - [[load-bearing-reasoning]] — A framework for interpretability that distinguishes between tokens necessary for a conclusion (load-bearing) and those that serve as statistical noise reduction (scaffolding).
 - [[maximum-occupancy-principle]] — Theory of behavior replacing reward maximization with action-state path entropy maximization — Layer 0 of EFHF architecture; absorbing states → Kernel 2 (Prover9-verified)
 - [[memex]] — Vannevar Bush's 1945 vision of a personal associative knowledge device
+- [[meta_harness_loop]] — Core logic of the iterative evolution process in Meta-Harness.
 - [[ml-evolution]] — Concept page for autonomous machine learning model evolution.
 - [[myelination]] — Concept page for Myelination.
 - [[neural-long-term-memory]] — Concept page for neural long-term memory.
+- [[onboarding_standards]] — Standards and protocol for onboarding new domains to the Meta-Harness.
 - [[open-ended-evolution]] — The study of conditions enabling evolution to continually produce novelty without converging — central ALife question connecting Tierra, Geb, Lenia, and OpenPraparat, with evaluation via Bedau-Packard statistics and Dolson complexity barriers
 - [[para-methodology]] — Tiago Forte's PARA framework — actionability-based universal information organization (Projects, Areas, Resources, Archives)
 - [[persistent-knowledge-compilation]] — Paradigm of LLM pre-compiling knowledge into persistent structured bases vs stateless RAG
@@ -56,6 +59,7 @@ type: index
 - [[tyler-hall]] — Entity page for Tyler Blaine Hall.
 - [[alphaevolve]] — Google DeepMind's evolutionary coding agent — LLM ensemble + diff-based mutation + real hardware eval; 23% GEMM speedup; Gemini self-improvement; instantiates MGA pattern; open-sourced as OpenEvolve
 - [[efhf]] — Five-layer AI architecture implementing computational mechanics (epsilon machines, lumpability, causal closure) as a live multi-agent system — MOP proposed as Layer 0 for proactive exploration
+- [[meta-harness]] — A framework for self-adaptive agent evolution and structured knowledge bootstrapping, integrated with Hermes.
 - [[mop-explorer]] — MOP-guided research agent using EFHF as verification backbone — autonomously explores concept spaces, generates hypotheses, verifies via L2-L5 pipeline, commits validated insights
 - [[project-synapse]] — Graph-backed MCP server providing semantic search, knowledge synthesis, and wiki bridge
 - [[advanced-reasoning-mcp]] — Project page for advanced-reasoning-mcp.
@@ -94,6 +98,7 @@ type: index
 - [[discrete-time-to-event-modeling]] — Introduction to discrete-time survival analysis: discretization, censoring mechanisms, and life table foundations
 - [[emotion-concepts-llm]] — Anthropic research on functional emotion representations in Claude Sonnet 4.5 and their causal effects on behavior.
 - [[eris-mythology]] — Greek goddess of strife and discord — the Apple of Discord triggered the Trojan War
+- [[hermes-multi-agent-discord-architecture]] — Designing a hierarchical multi-agent system on Discord using Hermes harness — 3-tier architecture with mention-based routing, validated by Anthropic's Multiagent Sessions
 - [[hilbert-hotel-graph-architecture]] — Gemini conversation exploring Hilbert Hotel paradox as graph database architecture — immutable nodes with lazy offset protocols, quantum oracle sketching, and 4D superspace simulations
 - [[how-does-imagination-really-work-in-the-brain-new-theory-upends-what-we-knew]] — Source summary for imagination theory article
 - [[language-evolution]] — Review of language evolution statistics and AI communication frontiers.

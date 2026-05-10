@@ -1,5 +1,5 @@
 ---
-updated: 2026-05-08T01:29:22Z
+updated: 2026-05-10T03:42:18Z
 type: index
 ---
 
@@ -11,6 +11,7 @@ type: index
 - [[agentic-research]] — The use of autonomous LLM agents to execute stages of the scientific research workflow, from idea generation to manuscript writing.
 - [[aphantasia]] — Concept page for Aphantasia
 - [[arcuate-fasciculus]] — Concept page for Arcuate Fasciculus.
+- [[astar-structural-pathfinding]] — A* heuristic search applied to market pivot graphs with forward-projected goals — Path Coherence Ratio quantifies structural efficiency; cross-validated against geometric (channel) and stochastic (√σ) goal sources
 - [[brocas-area]] — Concept page for Broca's Area.
 - [[causal-networks]] — A fundamental representation of spacetime in Wolfram Physics, where nodes are updating events and edges are causal dependencies in a multiway rewrite system.
 - [[chain-of-thought]] — Concept page for Chain-of-Thought.
@@ -92,6 +93,7 @@ type: index
 - [[obsidian]] — Markdown knowledge app — the human-readable frontend for the wiki
 - [[prover9]] — Entity page for Prover9.
 - [[superbpe]] — Tool page for SuperBPE tokenization.
+- [[research_spec]] — 
 - [[brocas-area-gemini-chat]] — Source summary for Gemini chat on Broca's area and LLM analogies.
 - [[critical-review-scientific-article-guide]] — A structured guide for analyzing and critically reviewing scientific journal articles, focusing on research methods, context, and significance.
 - [[design-thinking-mit]] — MIT Professional Education overview of the 10-step design thinking framework by Blade Kotelly
@@ -125,6 +127,7 @@ type: index
 - [[mixture-of-recursions]] — MoR unifies parameter sharing and adaptive token-level computation via learned recursive depth routing — connects to causal state assignment and compiled-transformer execution models.
 - [[bae-mor-2025]] — Bae et al. (2025) — Mixture-of-Recursions: dynamic per-token recursion depth in shared-parameter transformers; expert-choice and token-choice routing; recursion-wise KV caching; 47% fewer params, 2x throughput; provides the adaptive-depth execution substrate for EML compiled transformers
 - [[chen-molecular-cot-2026]] — Chen et al. (2026) — Long CoT reasoning has stable molecular-like structure with three "bonds" (Deep-Reasoning ≈ covalent, Self-Reflection ≈ hydrogen, Self-Exploration ≈ van der Waals); attention weights ↔ Boltzmann distribution; effective transfer is structural, not lexical; Mole-Syn synthesizes Long CoT via distribution-transfer graphs without distillation.
+- [[ctx2skill]] — Self-evolving multi-agent framework that autonomously discovers natural-language skills from complex contexts via adversarial self-play — no human annotation, no external feedback.
 - [[eidetic-learning-2021]] — Summary of Eidetic Learning: An Efficient and Provable Solution to Catastrophic Forgetting — solving catastrophic forgetting via structured pruning and disjoint subnetworks.
 - [[kim-ahn-edm-2026]] — Kim, Kojaku & Ahn (Science Advances 2026) — introduces EDM embedding-based disruption metric; outperforms CD index; detects simultaneous discoveries via future vector nearest-neighbor clustering
 - [[odrzywolek-eml-2026]] — Odrzywołek (2026) — discovery of the EML operator eml(x,y)=exp(x)−ln(y), a single binary primitive generating all elementary functions from constant 1, with applications to symbolic regression via gradient-trainable binary trees
@@ -133,21 +136,26 @@ type: index
 - [[utimula-openpraparat-2025]] — Utimula (2025) — guideless ALife model combining Tierra gene mechanics with 3D virtual creatures; no fitness function; emergent reproduction (binary fission, budding), protective organs, and energy transport networks via mutation + natural selection
 - [[why-llms-arent-scientists-yet]] — Source summary for Why LLMs Aren't Scientists Yet.
 - [[agem]] — Source summary for AGEM repository.
+- [[cli-printing-press]] — Agent-first CLI generator that reverse-engineers APIs and prints Go CLI + MCP server + Claude Code skill for any API or website. Local SQLite, compound commands, NOI-driven design.
 - [[mcp-logic]] — Source summary for mcp-logic.
 - [[nexus]] — Source summary for NEXUS.
 - [[product-canvas]] — Google Labs multiplayer brainstorming canvas with AI voice agent and wiki knowledge editor
 - [[project-synapse-mcp]] — Source summary for Project Synapse repo.
 - [[sentience-metaphysics]] — Source summary for Sentience Metaphysics repo.
+- [[tabpfn]] — Foundation model for tabular data using in-context learning. Trained on synthetic data, matches XGBoost on small-to-medium datasets. GPU recommended. Rich extension ecosystem.
 - [[spike-001-spacy-owlready2]] — VALIDATED — spaCy+owlready2 handles transitive subsumption, lemmatization, and pluralization in one sync_reasoner() call. Three v0.3 Layer-2 caveats collapse.
 - [[spike-campaign-001-004-summary]] — Four-spike campaign validating spaCy+owlready2+HermiT as Layer 2 substrate; transaction-per-claim semantics; OWL→Neo4j one-way projection.
 - [[ai-governance-substrate-analysis]] — Five interlocking cognitive primitives for evaluating AI governance discourse at the substrate level — spin-vs-substrate, absence-of-worst-case metric, institutional capture vs species framing, cryptographic vs semantic alignment, frame transmission; ASEKE-compatible diagnostic toolkit
 - [[causal-state-edm-ood-isomorphism]] — Epsilon machine causal states ↔ EDM citation vectors — disruptive papers as OOD state-splitting events; connected to MOP (β = state-splitting appetite) and EFHF (hallucination = lumpability failure)
+- [[ctx2skill-on-efhf-rails]] — Ctx2Skill identifies the right problem but has no verification substrate. Rebuilding it on EFHF rails — verifier-graph provenance, mcp-logic proofs, sheaf consistency, Molecular Self dynamics — would make autonomous skill extraction structurally sound.
 - [[efhf-mcp-configuration]] — Master MCP configuration for the EFHF stack.
 - [[entropic-machinery-cot-and-flagellum]] — 
 - [[intelligence-as-entropic-sculpting]] — Synthesis: Intelligence as Entropic Sculpting (SARH + MOP)
+- [[librarian-report-2026-05-09]] — Week 1 quality audit — Orphans and Misclassifications in the LLM-WIKI knowledge graph
 - [[llm-biological-analogies]] — Synthesis page for LLM-biological analogies.
 - [[minimal-generative-architectures]] — Cross-domain synthesis: NAND, EML, MOP, and OpenPraparat share a structural pattern — minimal primitives + recursion + boundary constraints = unbounded complexity; OpenPraparat validates MOP predictions empirically; EML provides the computational substrate; extends EFHF with L-1 computational primitive layer
 - [[mop-edm-cognitive-architecture]] — Synthesis: MOP as EFHF Layer 0 + EDM disruption measurement — formally verified structural mapping (Prover9), three implementation levels, KL regularization critique, hallucination as lumpability failure, coherent complexity growth
+- [[research-brief-2026-05-09]] — 
 - [[seg-scientist-agent-design]] — v0.5 — implementation-ready. Spike Campaign 001-004 complete; Layer 2 fully specified by four validated pillars. Includes detailed implementation plan in 7 phases.
 - [[synapse-llm-wiki-operating-guide]] — Agent operating instructions for the Synapse + LLM-WIKI system — tool decision logic, content lifecycle, ingest and fetch workflows, writing conventions
 - [[synapse-retrieval-architecture]] — Four-stage query_knowledge pipeline: entity graph seeding → RRF hybrid search → wikilink expansion → Zettelkasten insights

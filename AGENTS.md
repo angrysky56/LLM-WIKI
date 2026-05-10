@@ -42,6 +42,9 @@ LLM-WIKI/
     │
     ├── concepts/               # External ideas, theories, patterns (FLAT — no subdirs yet)
     │
+    ├── research/              # Research projects from Wiki Researcher agent
+    │   └── index.md           # Active/archived project index
+    │
     └── synthesis/              # Original cross-domain thinking and materialized insights
 ```
 
@@ -61,6 +64,7 @@ LLM-WIKI/
 | `entity` (person) | `wiki/entities/people/` | Researcher, practitioner |
 | `entity` (project) | `wiki/entities/projects/` | Project, system, component |
 | `concept` | `wiki/concepts/` | External idea, theory, pattern (reference-quality) |
+| `research` | `wiki/research/` | Research project page from Wiki Researcher agent |
 | `synthesis` | `wiki/synthesis/` | Original cross-domain insight, materialized Zettel |
 | — | `wiki/synthesis/` | System docs (operating guides, architecture notes) |
 

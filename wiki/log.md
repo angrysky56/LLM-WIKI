@@ -2614,3 +2614,101 @@ Updated page: wiki/sources/articles/hermes-multi-agent-discord-architecture.md
 ## [2026-05-08 01:29] index
 
 Index updated with 147 pages
+
+## [2026-05-08 06:55] ingest | I Switched from OpenClaw to Hermes Agent. Here’s What Nobody Told Me.md
+
+Ingested raw/I Switched from OpenClaw to Hermes Agent. Here’s What Nobody Told Me.md into knowledge graph.
+
+Preview: *Hermes Agent hit* ***110k*** *GitHub stars in ten weeks — the fastest-growing agent framework of 2026. Here’s what actually makes it different from OpenClaw, how the self-learning loop works, and whe...
+
+## [2026-05-08 08:45] ingest | Hermes vs OpenClaw vs Claude Code When to Use Each.md
+
+Ingested raw/Hermes vs OpenClaw vs Claude Code When to Use Each.md into knowledge graph.
+
+Preview: ![Hermes OpenClaw Claude Code agent stack composition](https://d14lhgoyljo1xt.cloudfront.net/assets/blog-banner-1200x268-699e9fe89a3cc-1772003327341.webp)  Quick Summary:- Hermes, OpenClaw, and Claude...
+
+## [2026-05-08 19:18] fetch | from-context-to-skills-can-language-models-learn-from-contex.md
+
+Fetched https://arxiv.org/abs/2604.27660 via defuddle → ingested.
+
+Preview: ## Title:From Context to Skills: Can Language Models Learn from Context Skillfully?  [View PDF](https://arxiv.org/pdf/2604.27660) [HTML (experimental)](https://arxiv.org/html/2604.27660v2)  > Abstract...
+
+## [2026-05-08 19:19] write
+
+Updated page: wiki/sources/papers/ctx2skill.md
+
+## [2026-05-09 01:42] ingest | Graph Theory Heuristic Search Algorithm (A-Star) Applied in Trading.md
+
+Ingested raw/Graph Theory Heuristic Search Algorithm (A-Star) Applied in Trading.md into knowledge graph.
+
+Preview: ### Introduction  On live markets, price prints dozens of local highs and lows, and it quickly becomes unclear which of these are meaningful structure and which are noise. Traders often sense a "direc...
+
+## [2026-05-09 02:08] write
+
+Updated page: wiki/synthesis/ctx2skill-on-efhf-rails.md
+
+## [2026-05-09 02:11] write
+
+Updated page: wiki/concepts/astar-structural-pathfinding.md
+
+## [2026-05-09 18:31] fetch | precise-economic-policy-in-a-world-of-chaos.md
+
+Fetched https://neo4j.com/blog/supply-chain-and-logistics/precise-economic-policy-in-a-world-of-chaos via defuddle → ingested.
+
+Preview: ![Photo of Paolo Delano](https://dist.neo4j.com/wp-content/uploads/20240917104440/paolo-delano-150x150.jpg)  [Paolo Delano](https://neo4j.com/blog/contributor/paolo-delano/)  Solutions Engineer, Neo4j...
+
+## [2026-05-09 19:28] write
+
+Updated page: wiki/research/index.md
+
+## [2026-05-09 19:56] write
+
+Updated page: wiki/synthesis/librarian-report-2026-05-09.md
+
+## [2026-05-09 19:56] write
+
+Updated page: wiki/synthesis/research-brief-2026-05-09.md
+
+## [2026-05-09 19:57] index
+
+Index updated with 152 pages
+
+## [2026-05-09 20:04] librarian-audit
+
+Week 1 quality audit (Orphans + Misclassifications). Found 7,133 orphans (68% orphan rate), ~46% Person misclassification rate. Report at wiki/synthesis/librarian-report-2026-05-09.md. Index rebuilt with 152 pages.
+
+## [2026-05-09 20:25] ingest | The Markovian Thinker Architecture-Agnostic Linear Scaling of Reasoning.md
+
+Ingested raw/The Markovian Thinker Architecture-Agnostic Linear Scaling of Reasoning.md into knowledge graph.
+
+Preview: ## The Markovian Thinker: Architecture-Agnostic Linear Scaling of Reasoning  [Milad Aghajohari\*](https://miladink.github.io/), [Kamran Chitsaz\*](https://kmchiti.github.io/), [Amirhossein Kazemnejad\...
+
+## [2026-05-09 21:50] ingest | Free Models Router - Zero-Cost AI Inference.md
+
+Ingested raw/Free Models Router - Zero-Cost AI Inference.md into knowledge graph.
+
+Preview: The [Free Models Router](https://openrouter.ai/openrouter/free) (`openrouter/free`) automatically selects a free model at random from the available free models on OpenRouter. The router intelligently ...
+
+## [2026-05-10 03:34] ingest | cli-printing-press.md
+
+Ingested raw/cli-printing-press.md into knowledge graph.
+
+Preview: ## CLI Printing Press  Nothing is more valuable than time and money. In a world of AI agents, that's speed and token spend. A well-designed CLI is muscle memory for an agent: no hunting through docs, ...
+
+## [2026-05-10 03:35] ingest | PriorLabsTabPFN ⚡ TabPFN Foundation Model for Tabular Data ⚡.md
+
+Ingested raw/PriorLabsTabPFN ⚡ TabPFN Foundation Model for Tabular Data ⚡.md into knowledge graph.
+
+Preview: ## TabPFN  [![TabPFN Summary](https://github.com/PriorLabs/tabpfn-extensions/raw/main/tabpfn_summary.webp)](https://github.com/PriorLabs/tabpfn-extensions/blob/main/tabpfn_summary.webp)  ## Quick Star...
+
+## [2026-05-10 03:41] write
+
+Updated page: wiki/sources/repositories/cli-printing-press.md
+
+## [2026-05-10 03:42] write
+
+Updated page: wiki/sources/repositories/tabpfn.md
+
+## [2026-05-10 03:42] index
+
+Index updated with 155 pages

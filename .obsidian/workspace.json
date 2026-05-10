@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "4e3b52538e090c28",
+        "id": "d73e4199830b77a7",
         "type": "tabs",
         "children": [
           {
-            "id": "8dcbf1498826a8ad",
+            "id": "914084e8ee1ed992",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Clippings/repositories/2026/angrysky56sentience_metaphysics.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "angrysky56sentience_metaphysics"
             }
           }
         ]
@@ -190,34 +194,36 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8dcbf1498826a8ad",
+  "active": "914084e8ee1ed992",
   "lastOpenFiles": [
-    "wiki/entities/projects/meta-harness.md",
-    "wiki/sources/articles/hermes-multi-agent-discord-architecture.md",
-    "Clippings/articles/2026/Hermes agents running in Discord.md",
-    "raw/Hermes agents running in Discord.md",
+    "raw/Graphify AI coding assistant skill.md",
+    "wiki/concepts/maximum-occupancy-principle.md",
+    "wiki/sources/repositories/tabpfn.md",
+    "wiki/sources/repositories/cli-printing-press.md",
+    "raw/PriorLabsTabPFN ⚡ TabPFN Foundation Model for Tabular Data ⚡.md",
+    "Clippings/repositories/2026/PriorLabsTabPFN ⚡ TabPFN Foundation Model for Tabular Data ⚡.md",
+    "Clippings/repositories/2026/cli-printing-press.md",
+    "raw/Free Models Router - Zero-Cost AI Inference.md",
+    "Clippings/documentation/2026/Free Models Router - Zero-Cost AI Inference.md",
+    "raw/The Markovian Thinker Architecture-Agnostic Linear Scaling of Reasoning.md",
+    "Clippings/repositories/2026/The Markovian Thinker Architecture-Agnostic Linear Scaling of Reasoning.md",
+    "wiki/research/extraction-quality-audit/research_spec.md",
+    "wiki/research/extraction-quality-audit",
+    "wiki/synthesis/research-brief-2026-05-09.md",
+    "wiki/synthesis/librarian-report-2026-05-09.md",
+    "wiki/concepts/persistent-knowledge-compilation.md",
+    "wiki/concepts/research-methodology.md",
+    "wiki/concepts/para-methodology.md",
     "wiki/concepts/onboarding_standards.md",
+    "wiki/concepts/ml-evolution.md",
     "wiki/concepts/meta_harness_loop.md",
-    "wiki/concepts/hermes_agent.md",
-    "Clippings/documentation/2026/Session Storage  Hermes Agent_231904.md",
-    "Clippings/documentation/2026/Provider Runtime Resolution  Hermes Agent_231903.md",
-    "Clippings/documentation/2026/Prompt Assembly  Hermes Agent_231902.md",
-    "Clippings/documentation/2026/Hermes MCP (Model Context Protocol)_231901.md",
-    "Clippings/documentation/2026/Hermes Agent_231859.md",
-    "Clippings/documentation/2026/Hermes Agent 1_231858.md",
-    "Clippings/documentation/2026/Gateway Internals  Hermes Agent_231855.md",
-    "Clippings/documentation/2026/Context Compression and Caching_231854.md",
-    "Clippings/documentation/2026/Agent Loop Internals  Hermes Agent_231852.md",
-    "raw/Context Compression and Caching.md",
-    "raw/Session Storage  Hermes Agent.md",
-    "raw/Provider Runtime Resolution  Hermes Agent.md",
-    "raw/Prompt Assembly  Hermes Agent.md",
-    "raw/Hermes MCP (Model Context Protocol).md",
-    "raw/Hermes Agent.md",
-    "raw/Hermes Agent 1.md",
-    "raw/Gateway Internals  Hermes Agent.md",
-    "raw/Agent Loop Internals  Hermes Agent.md",
-    "Clippings/documentation/2026/Session Storage  Hermes Agent.md",
+    "wiki/concepts/feedback-activity.md",
+    "wiki/research/index.md",
+    "wiki/research",
+    "Clippings/articles/2026/precise-economic-policy-in-a-world-of-chaos.md",
+    "raw/precise-economic-policy-in-a-world-of-chaos.md",
+    "Clippings/documentation/2026/obsidian-cli SKILL.md at main.md",
+    "Clippings/documentation/2026/Hermes Agent 2.md",
     "wiki/spikes",
     "wiki/entities/projects/tys-repos",
     "clippings-archive.base",
@@ -225,8 +231,6 @@
     "wiki/entities/projects",
     "wiki/entities/people",
     "wiki/entities/tools",
-    "wiki/sources/repositories",
-    "wiki/sources/documentation",
-    "wiki/sources/articles"
+    "wiki/sources/repositories"
   ]
 }

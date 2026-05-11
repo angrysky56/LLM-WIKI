@@ -37,5 +37,5 @@ The Meta-Harness interfaces with Hermes via the `AIAgent` library directly.
 - **Interruptible**: Long-running tasks can be cancelled gracefully.
 
 ## Related
-- [[Meta-Harness Evolution Loop]]
+- [[meta_harness_loop]]
 - [[Domain Onboarding Standards]]

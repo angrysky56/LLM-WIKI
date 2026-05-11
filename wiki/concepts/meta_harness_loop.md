@@ -41,5 +41,5 @@ To onboard a new domain, follow the [[Domain Onboarding Standards]]:
 3. Provide baseline datasets and helper functions.
 
 ## Related
-- [[Hermes Agent Architecture]]
+- [[hermes_agent]]
 - [[Domain Onboarding Standards]]

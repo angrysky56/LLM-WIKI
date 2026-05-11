@@ -2712,3 +2712,13 @@ Updated page: wiki/sources/repositories/tabpfn.md
 ## [2026-05-10 03:42] index
 
 Index updated with 155 pages
+
+## [2026-05-11 07:41] ingest | TransformerLens A library for mechanistic interpretability of GPT-style language models.md
+
+Ingested raw/TransformerLens A library for mechanistic interpretability of GPT-style language models.md into knowledge graph.
+
+Preview: ## TransformerLens  A Library for Mechanistic Interpretability of Generative Language Models. Maintained by [Bryce Meyer](https://github.com/bryce13950) and created by [Neel Nanda](https://neelnanda.i...
+
+## [2026-05-11 08:10] write
+
+Updated page: wiki/synthesis/cross-layer-drift-falsification.md

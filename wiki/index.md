@@ -1,10 +1,19 @@
 ---
-updated: 2026-05-10T03:42:18Z
+updated: 2026-05-12T03:26:02Z
 type: index
 ---
 
 # Wiki Index
 
+- [[carryover]] — 
+- [[now]] — Master state for Markovian Dev Agency — active issues and specialist coordination
+- [[soul]] — Multi-specialty dev agency with persistent Markovian state across activations
+- [[carryover]] — 
+- [[carryover]] — 
+- [[carryover]] — 
+- [[carryover]] — 
+- [[user]] — User preferences and project context for the Markovian Dev Agency
+- [[issue-001]] — 
 - [[concept-index]] — Conceptual index — maps ideas to pages by meaning rather than structure; complement to the structural TOC in index.md
 - [[absence-of-worst-case-metric]] — Failure mode in evaluating high-stakes systems — judging success by whether the catastrophic event occurred while bracketing out steady-state cost; the metric that called nuclear deterrence "successful" and is being installed for AI
 - [[academic-peer-review]] — The process by which scholarly work is checked by experts in the same field to ensure quality and validity before publication.
@@ -30,6 +39,7 @@ type: index
 - [[institutional-capture-vs-species-framing]] — Reframe of "human nature" / "civilization" arguments — the unit making civilization-scale choices is not the species but a thin layer of captured institutions; reframes the Great Filter from technological to architectural
 - [[language-evolution]] — Concept page for the statistical study of language evolution.
 - [[load-bearing-reasoning]] — A framework for interpretability that distinguishes between tokens necessary for a conclusion (load-bearing) and those that serve as statistical noise reduction (scaffolding).
+- [[markovian-carryover]] — How to write bounded forward-state carryover at agent/session boundaries using structured templates
 - [[maximum-occupancy-principle]] — Theory of behavior replacing reward maximization with action-state path entropy maximization — Layer 0 of EFHF architecture; absorbing states → Kernel 2 (Prover9-verified)
 - [[memex]] — Vannevar Bush's 1945 vision of a personal associative knowledge device
 - [[meta_harness_loop]] — Core logic of the iterative evolution process in Meta-Harness.
@@ -60,6 +70,7 @@ type: index
 - [[tyler-hall]] — Entity page for Tyler Blaine Hall.
 - [[alphaevolve]] — Google DeepMind's evolutionary coding agent — LLM ensemble + diff-based mutation + real hardware eval; 23% GEMM speedup; Gemini self-improvement; instantiates MGA pattern; open-sourced as OpenEvolve
 - [[efhf]] — Five-layer AI architecture implementing computational mechanics (epsilon machines, lumpability, causal closure) as a live multi-agent system — MOP proposed as Layer 0 for proactive exploration
+- [[markovian-dev-agency]] — Dev agency with 4 specialists that maintains persistent Markovian state across activations
 - [[meta-harness]] — A framework for self-adaptive agent evolution and structured knowledge bootstrapping, integrated with Hermes.
 - [[mop-explorer]] — MOP-guided research agent using EFHF as verification backbone — autonomously explores concept spaces, generates hypotheses, verifies via L2-L5 pipeline, commits validated insights
 - [[project-synapse]] — Graph-backed MCP server providing semantic search, knowledge synthesis, and wiki bridge
@@ -84,6 +95,7 @@ type: index
 - [[zettelkasten-engine]] — Autonomous pattern detection and insight synthesis engine within Project Synapse
 - [[claude-code]] — Entity page for Claude Code.
 - [[gemini]] — Entity page for Gemini.
+- [[hermes-agent]] — Nous Research's open-source AI agent framework — multi-platform, provider-agnostic, skill-powered, with delegation, goals, cron, and memory systems
 - [[hipai-montague]] — Graph-based world model MCP server — EFHF Layer 2; encodes beliefs and relationships for verification by mcp-logic
 - [[isabelle]] — Reference page for the Isabelle proof assistant.
 - [[mamba]] — Tool page for Mamba (SSM).
@@ -123,6 +135,8 @@ type: index
 - [[obsidian-cli-skill]] — kepano's Obsidian CLI agent skill — command reference for reading, writing, searching, and managing Obsidian vaults from the terminal
 - [[obsidian-git-setup]] — Setup guide for the Obsidian Git community plugin (desktop and mobile)
 - [[obsidian-para-byarbrough]] — byarbrough's Obsidian PARA template — Tiago Forte's 4-category knowledge organization system implemented in Obsidian
+- [[persistent-goals-hermes-agent]] — /goal slash command — standing goal + auto-continuation loop with judge model, inspired by Codex CLI's Ralph loop
+- [[subagent-delegation-hermes-agent]] — delegate_task tool — isolated subagent spawning, batch parallelism, depth limits, model override, and durability tradeoffs
 - [[wolfram-nks-causal-networks]] — Wolfram's NKS excerpt on causal networks and spacetime.
 - [[mixture-of-recursions]] — MoR unifies parameter sharing and adaptive token-level computation via learned recursive depth routing — connects to causal state assignment and compiled-transformer execution models.
 - [[bae-mor-2025]] — Bae et al. (2025) — Mixture-of-Recursions: dynamic per-token recursion depth in shared-parameter transformers; expert-choice and token-choice routing; recursion-wise KV caching; 47% fewer params, 2x throughput; provides the adaptive-depth execution substrate for EML compiled transformers
@@ -146,7 +160,9 @@ type: index
 - [[spike-001-spacy-owlready2]] — VALIDATED — spaCy+owlready2 handles transitive subsumption, lemmatization, and pluralization in one sync_reasoner() call. Three v0.3 Layer-2 caveats collapse.
 - [[spike-campaign-001-004-summary]] — Four-spike campaign validating spaCy+owlready2+HermiT as Layer 2 substrate; transaction-per-claim semantics; OWL→Neo4j one-way projection.
 - [[ai-governance-substrate-analysis]] — Five interlocking cognitive primitives for evaluating AI governance discourse at the substrate level — spin-vs-substrate, absence-of-worst-case metric, institutional capture vs species framing, cryptographic vs semantic alignment, frame transmission; ASEKE-compatible diagnostic toolkit
+- [[bounded-structured-memory]] — Unifying SSL schema + Markovian carryover + Memory Curse fixes into a bounded structured memory architecture for Synapse
 - [[causal-state-edm-ood-isomorphism]] — Epsilon machine causal states ↔ EDM citation vectors — disruptive papers as OOD state-splitting events; connected to MOP (β = state-splitting appetite) and EFHF (hallucination = lumpability failure)
+- [[cross-layer-drift-falsification]] — Architectural falsification of the MOPS hypothesis — cross-layer geometric drift fails to detect hallucination in pretrained transformers; mechanistic explanation grounded in Pandey's sparse-circuit findings
 - [[ctx2skill-on-efhf-rails]] — Ctx2Skill identifies the right problem but has no verification substrate. Rebuilding it on EFHF rails — verifier-graph provenance, mcp-logic proofs, sheaf consistency, Molecular Self dynamics — would make autonomous skill extraction structurally sound.
 - [[efhf-mcp-configuration]] — Master MCP configuration for the EFHF stack.
 - [[entropic-machinery-cot-and-flagellum]] — 
@@ -156,6 +172,7 @@ type: index
 - [[minimal-generative-architectures]] — Cross-domain synthesis: NAND, EML, MOP, and OpenPraparat share a structural pattern — minimal primitives + recursion + boundary constraints = unbounded complexity; OpenPraparat validates MOP predictions empirically; EML provides the computational substrate; extends EFHF with L-1 computational primitive layer
 - [[mop-edm-cognitive-architecture]] — Synthesis: MOP as EFHF Layer 0 + EDM disruption measurement — formally verified structural mapping (Prover9), three implementation levels, KL regularization critique, hallucination as lumpability failure, coherent complexity growth
 - [[research-brief-2026-05-09]] — 
+- [[research-brief-2026-05-13]] — 
 - [[seg-scientist-agent-design]] — v0.5 — implementation-ready. Spike Campaign 001-004 complete; Layer 2 fully specified by four validated pillars. Includes detailed implementation plan in 7 phases.
 - [[synapse-llm-wiki-operating-guide]] — Agent operating instructions for the Synapse + LLM-WIKI system — tool decision logic, content lifecycle, ingest and fetch workflows, writing conventions
 - [[synapse-retrieval-architecture]] — Four-stage query_knowledge pipeline: entity graph seeding → RRF hybrid search → wikilink expansion → Zettelkasten insights

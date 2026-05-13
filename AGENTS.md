@@ -1,7 +1,7 @@
 ---
 summary: LLM-WIKI schema, conventions, and workflow guide for the AI agent maintaining this vault
-tags: [meta, schema, conventions, workflow]
-updated: 2026-04-11T00:00:00Z
+tags: [meta, schema, conventions, workflow, agent-architecture, delegation]
+updated: 2026-05-13
 ---
 
 # AGENTS — LLM-WIKI Schema
@@ -47,6 +47,92 @@ LLM-WIKI/
     │
     └── synthesis/              # Original cross-domain thinking and materialized insights
 ```
+
+### Agent Workspaces (carryover + vault)
+
+Each agent has an isolated workspace inside the shared vault. Layout:
+
+```
+LLM-WIKI/wiki/
+├── now.md                     # Root: overall system state (manager synthesizes)
+├── soul.md                    # Root: identity, principles
+├── user.md                    # Root: user profile, preferences
+├── agents.md                  # Root: agent registry, roles
+│
+├── agents/                    # Per-agent vaults (one subfolder each)
+│   ├── ha-agent/
+│   │   ├── carryover.md       # Markovian forward-state (~512 tokens max)
+│   │   ├── vault.md           # Current working context
+│   │   └── workspace/         # Scratch notes, temp files
+│   ├── librarian-agent/
+│   │   ├── carryover.md
+│   │   ├── vault.md
+│   │   └── workspace/
+│   └── researcher-agent/
+│       ├── carryover.md
+│       ├── vault.md
+│       └── workspace/
+│
+└── projects/                  # Shared project folders (agents collaborate here)
+    ├── meta-harness/
+    │   ├── now.md             # Project current state
+    │   ├── carryover.md       # Cross-agent carryover aggregation
+    │   └── workspace/
+    ├── synapse/
+    │   ├── now.md
+    │   └── workspace/
+    └── domain-graph-orchestrator/
+        ├── now.md
+        └── workspace/
+```
+
+#### Carryover State (Markovian Template)
+
+Every agent writes a bounded forward-state at session/iteration boundary. Format:
+
+```markdown
+## CarryoverState
+
+### Established
+- **[Entity/Fact]** What was confirmed or decided (cite sources)
+- ...
+
+### Open
+- **[Question]** What remains unresolved
+- **[Risk]** What could go wrong
+- ...
+
+### Heading
+- **[Intent]** Next session priority
+- **[Constraint]** Budget, time, scope limits
+```
+
+**Rules:**
+- Hard cap: ~512 tokens (~2000 characters)
+- If exceeded: prioritize Open > Established > Heading
+- Write to `agents/{agent-name}/carryover.md` before returning from delegation
+- Manager reads all carryovers and synthesizes into root `now.md`
+- Servitor reads project `now.md` + own `carryover.md` before starting work
+
+#### Agent Responsibilities
+
+| Agent | Reads | Writes | When |
+|-------|-------|--------|------|
+| Manager (HA) | All agent carryovers + project now.md | Root now.md + own carryover | Every session |
+| Servitor (worker) | Project now.md + own carryover | Own carryover | Every delegation turn |
+| Markovian Dev Agency | Root now.md + all carryovers | Root now.md + carryover + specialist dispatch | On activation |
+| Librarian | Root now.md + project now.md | Entity notes, project now.md | On ingestion/retrieval |
+
+#### Delegation (delegate_task + MiniMax)
+
+When spawning a subagent via `delegate_task`:
+
+1. Inject carryover as context: `{servitor_carryover}` + task goal + constraints
+2. Constrain to MiniMax only (1500 calls/5hr budget — don't spawn unbounded workers)
+3. Subagent reads its `carryover.md` (if exists), executes task, writes updated `carryover.md`
+4. Manager reads all carryovers post-delegation and synthesizes into `now.md`
+
+See [[markovian-carryover]] for full template and integration details.
 
 ### Design Principles
 

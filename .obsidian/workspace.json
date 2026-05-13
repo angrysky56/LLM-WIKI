@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/research/extraction-quality-audit/research_spec.md",
+                "file": "projects/goodrobot/wiki/entities/projects/goodrobot-technical-architecture.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "research_spec"
+              "title": "goodrobot-technical-architecture"
             }
           }
         ]
@@ -196,6 +196,20 @@
   },
   "active": "112a6c320f1c54df",
   "lastOpenFiles": [
+    "projects/goodrobot/wiki/entities/projects/goodrobot-gtm-strategy.md",
+    "projects/goodrobot/wiki/entities/projects/goodrobot.md",
+    "projects/goodrobot/now.md",
+    "projects/goodrobot/wiki/STRATEGIC_BRIEF.md",
+    "projects/goodrobot/wiki/entities/projects/goodrobot-technical-architecture.md",
+    "raw/paperclip company spec.md",
+    "projects/goodrobot/wiki/entities/projects",
+    "projects/goodrobot/wiki/entities/people",
+    "projects/goodrobot/wiki/synthesis",
+    "projects/goodrobot/wiki/research",
+    "projects/goodrobot/wiki/entities",
+    "projects/goodrobot/wiki/concepts",
+    "projects/goodrobot/wiki",
+    "wiki/research/extraction-quality-audit/research_spec.md",
     "wiki/entities/projects/tys-repos/efhf.md",
     "projects/goodrobot/onboarding",
     "projects/goodrobot",
@@ -217,19 +231,6 @@
     "wiki/projects/goodrobot/revenue-model.md",
     "wiki/projects/goodrobot/local-lead-gen.md",
     "wiki/projects/goodrobot/issues-index.md",
-    "wiki/projects/goodrobot/index.md",
-    "wiki/projects/goodrobot/hiring-plan.md",
-    "wiki/projects/goodrobot/business-concept.md",
-    "raw/Paperclip API.md",
-    "raw/Paperclip Hermes Adapter.md",
-    "wiki/projects/goodrobot",
-    "wiki/projects",
-    "wiki/entities/projects/goodrobot.md",
-    "wiki/synthesis/wiki-indexing-theory.md",
-    "wiki/agents/markovian-dev-agency/specialists/ticket-writer/workspace",
-    "wiki/agents/markovian-dev-agency/specialists/researcher/workspace",
-    "wiki/agents/markovian-dev-agency/specialists/fixer/workspace",
-    "wiki/agents/markovian-dev-agency/specialists/diagnostician/workspace",
-    "wiki/agents/markovian-dev-agency/workspace/tickets"
+    "wiki/projects/goodrobot/index.md"
   ]
 }

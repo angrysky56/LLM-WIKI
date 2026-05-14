@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/goodrobot/wiki/entities/projects/goodrobot-research-pipeline.md",
+                "file": "raw/Choosing the Right Agentic Design Pattern A Decision-Tree Approach.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "goodrobot-research-pipeline"
+              "title": "Choosing the Right Agentic Design Pattern A Decision-Tree Approach"
             }
           }
         ]
@@ -196,9 +196,13 @@
   },
   "active": "112a6c320f1c54df",
   "lastOpenFiles": [
+    "raw/Frank Einstein and Gemma on Truth and Emotion.md",
+    "raw/Choosing the Right Agentic Design Pattern A Decision-Tree Approach.md",
+    "raw/Frank Einstein and Gemma on Truth, Emotion, and the Sacred.md",
+    "projects/goodrobot/wiki/entities/projects/goodrobot-research-pipeline.md",
+    "projects/goodrobot/wiki/Q2_SALES_TARGET_LIST.md",
     "projects/goodrobot/now.md",
     "projects/goodrobot/wiki/STRATEGIC_BRIEF.md",
-    "projects/goodrobot/wiki/entities/projects/goodrobot-research-pipeline.md",
     "projects/goodrobot/wiki/entities/projects/goodrobot-technical-architecture.md",
     "projects/goodrobot/wiki/entities/projects/goodrobot-gtm-strategy.md",
     "projects/goodrobot/wiki/entities/projects/goodrobot.md",
@@ -227,10 +231,6 @@
     "wiki/agents/markovian-dev-agency/carryover.md",
     "wiki/agents/markovian-dev-agency/soul.md",
     "wiki/agents/markovian-dev-agency/user.md",
-    "wiki/entities/projects/markovian-dev-agency.md",
-    "wiki/projects/goodrobot/roadmap.md",
-    "wiki/projects/goodrobot/revenue-model.md",
-    "wiki/projects/goodrobot/local-lead-gen.md",
-    "wiki/projects/goodrobot/issues-index.md"
+    "wiki/entities/projects/markovian-dev-agency.md"
   ]
 }

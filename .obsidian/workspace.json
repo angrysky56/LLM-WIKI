@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/goodrobot/wiki/entities/projects/goodrobot-technical-architecture.md",
+                "file": "projects/goodrobot/wiki/entities/projects/goodrobot-research-pipeline.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "goodrobot-technical-architecture"
+              "title": "goodrobot-research-pipeline"
             }
           }
         ]
@@ -196,11 +196,12 @@
   },
   "active": "112a6c320f1c54df",
   "lastOpenFiles": [
-    "projects/goodrobot/wiki/entities/projects/goodrobot-gtm-strategy.md",
-    "projects/goodrobot/wiki/entities/projects/goodrobot.md",
     "projects/goodrobot/now.md",
     "projects/goodrobot/wiki/STRATEGIC_BRIEF.md",
+    "projects/goodrobot/wiki/entities/projects/goodrobot-research-pipeline.md",
     "projects/goodrobot/wiki/entities/projects/goodrobot-technical-architecture.md",
+    "projects/goodrobot/wiki/entities/projects/goodrobot-gtm-strategy.md",
+    "projects/goodrobot/wiki/entities/projects/goodrobot.md",
     "raw/paperclip company spec.md",
     "projects/goodrobot/wiki/entities/projects",
     "projects/goodrobot/wiki/entities/people",
@@ -230,7 +231,6 @@
     "wiki/projects/goodrobot/roadmap.md",
     "wiki/projects/goodrobot/revenue-model.md",
     "wiki/projects/goodrobot/local-lead-gen.md",
-    "wiki/projects/goodrobot/issues-index.md",
-    "wiki/projects/goodrobot/index.md"
+    "wiki/projects/goodrobot/issues-index.md"
   ]
 }

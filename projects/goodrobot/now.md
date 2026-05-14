@@ -32,9 +32,10 @@ Goal: "Good Ideas to benefit all people."
 - GOO-26: CEO — Drive GoodRobot forward ✅
 
 ## In Progress
-- GOO-27: CTO — Technical Architecture Overview (CTO Agent running)
 - GOO-28: CMO — Go-to-Market Strategy (CMO Agent running)
 - GOO-29: CFO — Financial Model Deep Dive (CFO Agent running)
+- GOO-32: CMO — End-to-End Sales Pipeline Activation (blocked by GOO-31)
+- GOO-33: CFO — Unit Economics Validation
 
 ## Open
 - No external customer pipeline yet

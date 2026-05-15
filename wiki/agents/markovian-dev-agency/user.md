@@ -11,8 +11,8 @@ tags: [user-preferences]
 ## Preferences
 
 - **Model:** MiniMax-M2.7 as primary (1500 calls/5hr budget)
-- **Claude Code:** Available but API-limited on Pro subscription — use judiciously
-- **OpenCode/MiniMax coding:** Preferred for budget-sensitive work
+- **Claude Code:** Available
+- **MiniMax:** Preferred for budget-sensitive work
 - **Output style:** Concise, direct, substantive. No fluff.
 - **Communication:** Plain text in Discord; media files sent natively
 

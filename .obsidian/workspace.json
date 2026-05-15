@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "339592a60a693628",
+        "id": "4dc0e86f0c108d49",
         "type": "tabs",
         "children": [
           {
-            "id": "112a6c320f1c54df",
+            "id": "bec34749f564fa57",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/agents/skills/agentic-multiagent/SKILL.md",
+                "file": "raw/AGEM ooe.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SKILL"
+              "title": "AGEM ooe"
             }
           }
         ]
@@ -194,43 +194,43 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "112a6c320f1c54df",
+  "active": "bec34749f564fa57",
   "lastOpenFiles": [
+    "wiki/concepts/open-ended-evolution.md",
+    "raw/AGEM ooe.md",
+    "wiki/concepts/meta_harness_loop.md",
+    "Domain Onboarding Standards.md",
+    "wiki/concepts/onboarding_standards.md",
+    "wiki/concepts/critical-analysis.md",
+    "wiki/sources/articles/critical-review-scientific-article-guide.md",
+    "wiki/concepts/astar-structural-pathfinding.md",
+    "raw/Truth, Emotion, and the Sacred.md",
+    "wiki/research/extraction-quality-audit/research_spec.md",
+    "raw/Frank Einstein and Gemma on Truth, Emotion, and the Sacred.md",
+    "wiki/synthesis/bounded-structured-memory.md",
+    "wiki/synthesis/ai-governance-substrate-analysis.md",
+    "wiki/agents/markovian-dev-agency/user.md",
+    "wiki/agents/markovian-dev-agency/soul.md",
+    "wiki/agents/markovian-dev-agency/now.md",
+    "wiki/agents/markovian-dev-agency/carryover.md",
+    "wiki/agents/markovian-dev-agency/specialists/ticket-writer/carryover.md",
+    "wiki/agents/markovian-dev-agency/specialists/researcher/carryover.md",
+    "wiki/agents/markovian-dev-agency/specialists/fixer/carryover.md",
+    "wiki/agents/markovian-dev-agency/specialists/diagnostician/carryover.md",
+    "wiki/agents/skills/agentic-multiagent/SKILL.md",
     "wiki/agents/skills/agentic-decision-tree/SKILL.md",
     "wiki/agents/skills/agem-expert/SKILL.md",
     "raw/Choosing the Right Agentic Design Pattern A Decision-Tree Approach.md",
     "wiki/agents/skills/agentic-react/SKILL.md",
     "wiki/agents/skills/agentic-react",
-    "wiki/agents/skills/agem-expert/references/STRATEGIES.md",
-    "wiki/agents/skills/agem-expert/references/PROVING_GROUNDS.md",
     "wiki/agents/skills/agem-expert/references",
     "wiki/agents/skills/agem-expert",
-    "wiki/agents/skills/value-guardian/references/AXIOMS.md",
     "wiki/agents/skills/value-guardian/references",
-    "wiki/agents/skills/value-guardian/SKILL.md",
     "wiki/agents/skills/value-guardian",
-    "wiki/agents/skills/single-agent/SKILL.md",
     "wiki/agents/skills/single-agent",
-    "wiki/agents/skills/agentic-multiagent/SKILL.md",
     "wiki/agents/skills/agentic-multiagent",
-    "wiki/agents/skills/supervisor-orchestrator/SKILL.md",
     "wiki/agents/skills/supervisor-orchestrator",
-    "wiki/agents/skills/agentic-tooluse/SKILL.md",
     "wiki/agents/skills/agentic-tooluse",
-    "wiki/agents/skills/agentic-planner/SKILL.md",
-    "wiki/agents/skills/agentic-planner",
-    "wiki/agents/skills/agentic-sequential/SKILL.md",
-    "wiki/agents/skills/hierarchical-supervisor/SKILL.md",
-    "wiki/agents/skills/supervisor-delegation/SKILL.md",
-    "wiki/agents/skills/skill-architect/references/TEMPLATE.md",
-    "wiki/agents/skills/skill-architect/references/CHECKLIST.md",
-    "wiki/agents/skills/unnamed-skill/SKILL.md",
-    "wiki/agents/skills/skill-architect/SKILL.md",
-    "wiki/agents/skills/parallel-execution/SKILL.md",
-    "wiki/agents/skills/agentic-reflection/SKILL.md",
-    "raw/Frank Einstein and Gemma on Truth and Emotion.md",
-    "raw/Frank Einstein and Gemma on Truth, Emotion, and the Sacred.md",
-    "projects/goodrobot/wiki/entities/projects/goodrobot-research-pipeline.md",
-    "projects/goodrobot/wiki/Q2_SALES_TARGET_LIST.md"
+    "wiki/agents/skills/agentic-planner"
   ]
 }

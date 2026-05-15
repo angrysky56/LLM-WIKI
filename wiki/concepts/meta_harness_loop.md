@@ -42,4 +42,4 @@ To onboard a new domain, follow the [[Domain Onboarding Standards]]:
 
 ## Related
 - [[hermes_agent]]
-- [[Domain Onboarding Standards]]
+- [[[Domain Onboarding Standards]]](obsidian://open?vault=LLM-WIKI&file=wiki%2Fconcepts%2Fonboarding_standards)

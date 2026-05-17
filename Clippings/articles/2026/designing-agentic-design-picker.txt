@@ -1,0 +1,38 @@
+When designing an "agentic design picker," we are essentially building a meta-orchestrator—a specialized skill or an MCP (Model Context Protocol) tool that evaluates a task's topological requirements before execution begins. Instead of hardcoding a single architecture, this skill acts as a dynamic router that provisions the right execution environment based on the decision tree's logic.
+
+Here is how the architecture for this skill could be structured:
+
+### 1. The Interface: The Gatekeeper
+
+The picker operates as the upstream entry point. It receives the raw task prompt along with any overarching system constraints (e.g., acceptable latency, accuracy requirements) and acts as the initial evaluator before any substantial compute is spent on the actual problem.
+
+### 2. The Evaluation Matrix (The Logic Layer)
+
+The core of the skill is an evaluation matrix that maps the incoming task against the five decision points outlined in the methodology.
+
+* **Path & Workflow Predictability:** The skill analyzes if the task is a fixed DAG (Directed Acyclic Graph). If it's a known, stable path, the picker can bypass heavy LLM reasoning loops entirely and output a configuration for a sequential workflow engine (such as generating a YAML manifest for an engine like Dagu).
+* **Structural Articulability:** Can the task be broken into clear dependencies upfront? If yes, it routes to a **Planning + ReAct** topology. If the structure is purely emergent and reactive, it defaults to standard **ReAct**.
+* **The Validation Tradeoff:** The skill weighs the cost of errors. If high-fidelity output is strictly required over speed, it appends a **Reflection** loop (a generate-critique-refine cycle) to the chosen pattern.
+* **Domain Span & Scale:** The skill checks for cognitive bottlenecks. Does the task require contradictory reasoning styles or exceed context limits? Only then does it provision a **Multi-Agent** specialist system.
+
+### 3. The Output: Topological Manifests
+
+Instead of just returning a string like "Use ReAct," the skill outputs a structured blueprint (JSON or YAML) that actualizes the architecture. This manifest instructs the downstream system on how to behave:
+
+* `topology_type: "planning_react"`
+* `required_tools: ["fetch_market_data", "calculate_metrics"]`
+* `reflection_enabled: true`
+* `max_iterations: 5`
+
+### 4. The Constraint & Inhibitory Layer
+
+This is where an operationally deployed constraint protocol becomes vital. A common failure mode in AI design is systems hallucinating the need for complex, resource-heavy multi-agent frameworks when a single well-prompted agent will do. The picker skill needs strict inhibitory guardrails:
+
+* **Complexity Penalty:** The system must default to the simplest architecture. The skill must explicitly justify stepping up from a Sequential Workflow to ReAct, or from ReAct to a Multi-Agent setup.
+* **Tool Contract Enforcement:** The skill evaluates exactly which external connections are necessary, ensuring tools sit firmly beneath the reasoning layer rather than confusing the primary execution loop.
+
+### 5. Execution Handoff
+
+Once the manifest is generated and validated against the constraint layer, the main orchestrator parses it, spins up the required contexts, attaches the necessary tool access, and initiates the execution.
+
+This approach transforms the decision tree from a theoretical concept into an automated, programmatic router, keeping the overarching architecture lean, predictable, and structurally sound.

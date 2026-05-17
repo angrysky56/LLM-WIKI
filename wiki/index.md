@@ -46,7 +46,7 @@ type: index
 - [[ml-evolution]] — Concept page for autonomous machine learning model evolution.
 - [[myelination]] — Concept page for Myelination.
 - [[neural-long-term-memory]] — Concept page for neural long-term memory.
-- [[onboarding_standards]] — Standards and protocol for onboarding new domains to the Meta-Harness.
+- [[Domain Onboarding Standards]] — Standards and protocol for onboarding new domains to the Meta-Harness.
 - [[open-ended-evolution]] — The study of conditions enabling evolution to continually produce novelty without converging — central ALife question connecting Tierra, Geb, Lenia, and OpenPraparat, with evaluation via Bedau-Packard statistics and Dolson complexity barriers
 - [[para-methodology]] — Tiago Forte's PARA framework — actionability-based universal information organization (Projects, Areas, Resources, Archives)
 - [[persistent-knowledge-compilation]] — Paradigm of LLM pre-compiling knowledge into persistent structured bases vs stateless RAG

@@ -1,6 +1,10 @@
 ---
-updated: 2026-05-13T00:20:36Z
+updated: 2026-05-17T21:15:00Z
 ---
+
+# 2026-05-17
+
+- 21:15 — Created [[self-prompting-via-production-stage-architecture]] synthesis: self-prompting as production-stage phenomenon, three-bond self-direction mechanism, non-equilibrium steady state, scaffolding vs. load-bearing, seven principles derived from Waldis + Chen + entropic-machinery synthesis. Connects to llm-biological-analogies (arcuate fasciculus), entropic-machinery-cot-and-flagellum (parent), chain-of-thought, load-bearing-reasoning, supertokens, bae-mor-2025, waldis-2026-instructions-shape-production.
 
 # 2026-05-13
 
@@ -1860,3 +1864,8 @@ Index updated with 235 pages
   - [[ast-mcp-server]] → [[mcp-coordinator]] (no return link)
   - [[markovian-dev-agency]] → [[hermes-agent]] (no return link)
   - [[markovian-dev-agency]] → [[markovian-carryover]] (no return link)
+
+## [2026-05-17 20:35] ingest | waldis-instructions-shape-language-2026
+- Clipping: Clippings/papers/2026/waldis-instructions-shape-language-2026.md
+- Source summary: wiki/sources/papers/waldis-2026-instructions-shape-production.md
+- Index updated: +1 entry (waldis-2026-instructions-shape-production)

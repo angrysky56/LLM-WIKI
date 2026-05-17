@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "4dc0e86f0c108d49",
+        "id": "cbf593fce8ce501b",
         "type": "tabs",
         "children": [
           {
-            "id": "bec34749f564fa57",
+            "id": "ccc6ebcf1df622da",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/sources/news/bill-cassidy-republican-senator-who-voted-to-convict-trump-l.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "bill-cassidy-republican-senator-who-voted-to-convict-trump-l"
+              "title": "New tab"
             }
           }
         ]
@@ -194,8 +190,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bec34749f564fa57",
+  "active": "c161994581ba454a",
   "lastOpenFiles": [
+    "wiki/synthesis/self-prompting-via-production-stage-architecture.md",
+    "wiki/sources/papers/waldis-2026-instructions-shape-production.md",
+    "Clippings/papers/2026/waldis-instructions-shape-language-2026.md",
+    "dropbox",
     "wiki/sources/news/spacex-starship-v3-launch-flight-12.md",
     "Clippings/articles/2026/spacex-sets-date-for-first-starship-version-3-launch.md",
     "raw/spacex-sets-date-for-first-starship-version-3-launch.md",
@@ -220,9 +220,6 @@
     "wiki/sources/news/how-worrying-is-the-ebola-outbreak-in-dr-congo.md",
     "wiki/sources/news/who-declares-ebola-outbreak-in-dr-congo-an-international-eme.md",
     "wiki/sources/news",
-    "Clippings/articles/2026/rescue-diver-dies-during-search-for-bodies-of-italians-who-d.md",
-    "raw/rescue-diver-dies-during-search-for-bodies-of-italians-who-d.md",
-    "Clippings/articles/2026/canadian-from-cruise-ship-tests-positive-for-hantavirus.md",
     "Clippings/articles/2026/designing-agentic-design-picker.txt",
     "raw/designing-agentic-design-picker.txt",
     "raw/Unconfirmed 744046.crdownload",
@@ -230,7 +227,6 @@
     "entities.json",
     "wiki/agents/skills/agentic-react",
     "wiki/agents/skills/agem-expert/references",
-    "wiki/agents/skills/agem-expert",
-    "wiki/agents/skills/value-guardian/references"
+    "wiki/agents/skills/agem-expert"
   ]
 }

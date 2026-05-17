@@ -1,5 +1,5 @@
 ---
-updated: 2026-05-17T19:08:26Z
+updated: 2026-05-17T20:35:00Z
 type: index
 ---
 
@@ -194,6 +194,7 @@ type: index
 - [[taiwan-reaffirms-independence-despite-trump-warning]] — Taiwan publicly reasserts sovereignty after Trump's warning, exposing divergence between US ambiguity and Taipei's own messaging.
 - [[uae-reports-drone-strike-near-abu-dhabi-nuclear-power-plant]] — Drone strike near UAE's Barakah nuclear plant — the Arab world's first civilian reactor — exposes nuclear site vulnerability.
 - [[who-declares-ebola-outbreak-in-dr-congo-an-international-eme]] — WHO declares DR Congo Ebola outbreak a global health emergency, its highest alert tier.
+- [[waldis-2026-instructions-shape-production]] — Waldis et al. (2026) — Instructions affect LLM production (output tokens) but not processing (input tokens); causal attention interventions confirm; asymmetry sharpens with scale and instruction-tuning; parallels human Broca's/Wernicke's dissociation.
 - [[bae-mor-2025]] — Bae et al. (2025) — Mixture-of-Recursions: dynamic per-token recursion depth in shared-parameter transformers; expert-choice and token-choice routing; recursion-wise KV caching; 47% fewer params, 2x throughput; provides the adaptive-depth execution substrate for EML compiled transformers
 - [[chen-molecular-cot-2026]] — Chen et al. (2026) — Long CoT reasoning has stable molecular-like structure with three "bonds" (Deep-Reasoning ≈ covalent, Self-Reflection ≈ hydrogen, Self-Exploration ≈ van der Waals); attention weights ↔ Boltzmann distribution; effective transfer is structural, not lexical; Mole-Syn synthesizes Long CoT via distribution-transfer graphs without distillation.
 - [[ctx2skill]] — Self-evolving multi-agent framework that autonomously discovers natural-language skills from complex contexts via adversarial self-play — no human annotation, no external feedback.
@@ -232,6 +233,7 @@ type: index
 - [[intelligence-as-entropic-sculpting]] — Synthesis: Intelligence as Entropic Sculpting (SARH + MOP)
 - [[librarian-report-2026-05-09]] — Week 1 quality audit — Orphans and Misclassifications in the LLM-WIKI knowledge graph
 - [[llm-biological-analogies]] — Synthesis page for LLM-biological analogies.
+- [[self-prompting-via-production-stage-architecture]] — Self-prompting is a production-stage phenomenon: three-bond topology (Deep-Reasoning/Self-Reflection/Self-Exploration) as self-direction structure; non-equilibrium steady state; scaffolding vs. load-bearing; arcuate fasciculus analogy; seven principles from Waldis + Chen + entropic-machinery synthesis
 - [[minimal-generative-architectures]] — Cross-domain synthesis: NAND, EML, MOP, and OpenPraparat share a structural pattern — minimal primitives + recursion + boundary constraints = unbounded complexity; OpenPraparat validates MOP predictions empirically; EML provides the computational substrate; extends EFHF with L-1 computational primitive layer
 - [[mop-edm-cognitive-architecture]] — Synthesis: MOP as EFHF Layer 0 + EDM disruption measurement — formally verified structural mapping (Prover9), three implementation levels, KL regularization critique, hallucination as lumpability failure, coherent complexity growth
 - [[research-brief-2026-05-09]] — 

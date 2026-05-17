@@ -1,11 +1,7 @@
 ---
-created: 2026-05-01T06:25:39Z
-updated: 2026-05-01T06:25:39Z
-type: concept
 summary: The use of autonomous LLM agents to execute stages of the scientific research workflow, from idea generation to manuscript writing.
-tags: [concepts, ai-agents, research-methodology, autonomy]
-status: active
-confidence: 0.8
+tags: [[concepts, ai-agents, research-methodology, autonomy]]
+updated: 2026-05-17T18:16:16Z
 ---
 
 # Agentic Research
@@ -27,10 +23,14 @@ As documented in [[why-llms-arent-scientists-yet]], current agentic research sys
 - **Implementation Drift**: The execution diverging from the original research intent.
 - **Context Degradation**: Loss of coherence across long-horizon research tasks.
 - **Scientific Taste**: The difficulty of training agents to recognize high-value research directions over trivial ones.
+- **Open-Ended Temporal Adaptation**: [[futuresim-adaptive-agents|FutureSim]] shows frontier agents score only 25% on real-world event forecasting; several perform worse than random guessing, indicating severe world-modelling gaps.
 
 ## Connections
+
 - [[alphaevolve]] — An early framework for autonomous discovery.
 - [[why-llms-arent-scientists-yet]] — A case study documenting failure modes in this field.
 - [[momoa-researcher]] — A multi-agent research framework.
 - [[gemini]] — Long-context model used for research orchestration.
 - [[claude-code]] — Agentic tool used for autonomous implementation.
+- [[is-grep-all-you-need]] — Grep vs. vector retrieval in agentic search; harness choice dominates retrieval choice across Claude Code, Codex, Gemini CLI.
+- [[futuresim-adaptive-agents]] — Temporal world event simulation exposing severe agent adaptation gaps.

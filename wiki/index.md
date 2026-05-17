@@ -1,5 +1,5 @@
 ---
-updated: 2026-05-12T03:26:02Z
+updated: 2026-05-17T19:08:26Z
 type: index
 ---
 
@@ -14,6 +14,27 @@ type: index
 - [[carryover]] — 
 - [[user]] — User preferences and project context for the Markovian Dev Agency
 - [[issue-001]] — 
+- [[agem-expert]] — 
+- [[PROVING_GROUNDS]] — 
+- [[STRATEGIES]] — 
+- [[agentic-decision-tree]] — 
+- [[agentic-multiagent]] — 
+- [[agentic-planner]] — 
+- [[agentic-react]] — 
+- [[agentic-reflection]] — 
+- [[agentic-sequential]] — 
+- [[SKILL]] — Tool use pattern for agents requiring external world interaction. Foundation layer for most real-world agentic tasks.
+- [[hierarchical-supervisor]] — 
+- [[parallel-execution]] — 
+- [[single-agent]] — 
+- [[SKILL]] — 
+- [[CHECKLIST]] — 
+- [[TEMPLATE]] — 
+- [[supervisor-delegation]] — 
+- [[supervisor-orchestrator]] — 
+- [[unnamed-skill]] — 
+- [[value-guardian]] — 
+- [[AXIOMS]] — 
 - [[concept-index]] — Conceptual index — maps ideas to pages by meaning rather than structure; complement to the structural TOC in index.md
 - [[absence-of-worst-case-metric]] — Failure mode in evaluating high-stakes systems — judging success by whether the catastrophic event occurred while bracketing out steady-state cost; the metric that called nuclear deterrence "successful" and is being installed for AI
 - [[academic-peer-review]] — The process by which scholarly work is checked by experts in the same field to ensure quality and validity before publication.
@@ -46,7 +67,6 @@ type: index
 - [[ml-evolution]] — Concept page for autonomous machine learning model evolution.
 - [[myelination]] — Concept page for Myelination.
 - [[neural-long-term-memory]] — Concept page for neural long-term memory.
-- [[Domain Onboarding Standards]] — Standards and protocol for onboarding new domains to the Meta-Harness.
 - [[open-ended-evolution]] — The study of conditions enabling evolution to continually produce novelty without converging — central ALife question connecting Tierra, Geb, Lenia, and OpenPraparat, with evaluation via Bedau-Packard statistics and Dolson complexity barriers
 - [[para-methodology]] — Tiago Forte's PARA framework — actionability-based universal information organization (Projects, Areas, Resources, Archives)
 - [[persistent-knowledge-compilation]] — Paradigm of LLM pre-compiling knowledge into persistent structured bases vs stateless RAG
@@ -70,6 +90,7 @@ type: index
 - [[tyler-hall]] — Entity page for Tyler Blaine Hall.
 - [[alphaevolve]] — Google DeepMind's evolutionary coding agent — LLM ensemble + diff-based mutation + real hardware eval; 23% GEMM speedup; Gemini self-improvement; instantiates MGA pattern; open-sourced as OpenEvolve
 - [[efhf]] — Five-layer AI architecture implementing computational mechanics (epsilon machines, lumpability, causal closure) as a live multi-agent system — MOP proposed as Layer 0 for proactive exploration
+- [[goodrobot]] — 
 - [[markovian-dev-agency]] — Dev agency with 4 specialists that maintains persistent Markovian state across activations
 - [[meta-harness]] — A framework for self-adaptive agent evolution and structured knowledge bootstrapping, integrated with Hermes.
 - [[mop-explorer]] — MOP-guided research agent using EFHF as verification backbone — autonomously explores concept spaces, generates hypotheses, verifies via L2-L5 pipeline, commits validated insights
@@ -105,14 +126,26 @@ type: index
 - [[obsidian]] — Markdown knowledge app — the human-readable frontend for the wiki
 - [[prover9]] — Entity page for Prover9.
 - [[superbpe]] — Tool page for SuperBPE tokenization.
+- [[business-concept]] — 
+- [[hiring-plan]] — 
+- [[issues-index]] — 
+- [[local-lead-gen]] — 
+- [[revenue-model]] — 
+- [[roadmap]] — 
 - [[research_spec]] — 
+- [[agem-ooe]] — 
 - [[brocas-area-gemini-chat]] — Source summary for Gemini chat on Broca's area and LLM analogies.
+- [[choosing-right-agentic-design-pattern]] — 
 - [[critical-review-scientific-article-guide]] — A structured guide for analyzing and critically reviewing scientific journal articles, focusing on research methods, context, and significance.
 - [[design-thinking-mit]] — MIT Professional Education overview of the 10-step design thinking framework by Blade Kotelly
+- [[designing-agentic-design-picker]] — 
 - [[discrete-time-to-event-modeling]] — Introduction to discrete-time survival analysis: discretization, censoring mechanisms, and life table foundations
 - [[emotion-concepts-llm]] — Anthropic research on functional emotion representations in Claude Sonnet 4.5 and their causal effects on behavior.
 - [[eris-mythology]] — Greek goddess of strife and discord — the Apple of Discord triggered the Trojan War
+- [[frank-einstein-gemma-truth-emotion-sacred]] — 
+- [[gemma4]] — 
 - [[hermes-multi-agent-discord-architecture]] — Designing a hierarchical multi-agent system on Discord using Hermes harness — 3-tier architecture with mention-based routing, validated by Anthropic's Multiagent Sessions
+- [[hermes-openclaw-paperclip-stack]] — 
 - [[hilbert-hotel-graph-architecture]] — Gemini conversation exploring Hilbert Hotel paradox as graph database architecture — immutable nodes with lazy offset protocols, quantum oracle sketching, and 4D superspace simulations
 - [[how-does-imagination-really-work-in-the-brain-new-theory-upends-what-we-knew]] — Source summary for imagination theory article
 - [[language-evolution]] — Review of language evolution statistics and AI communication frontiers.
@@ -127,35 +160,65 @@ type: index
 - [[ssh-command-in-linux]] — SSH command reference: connections, key auth, port forwarding, common options
 - [[titans-test-time-memory]] — Titans: Learning to Memorize at Test Time summary.
 - [[transformer-vm-moran-2026]] — Moran (2026) — analytically compiling programs into transformer weights; residual stream as registers, attention as lookup, FFN as arithmetic, layers as machine steps; connects to EML as minimal instruction set for compiled transformers
+- [[truth-emotion-sacred-agem-analysis]] — 
 - [[why-llms-arent-scientists-yet]] — Compressed summary of the autonomous research case study.
 - [[wolchover-life-force-2026]] — Wolchover (Quanta 2026-04-20) — bacterial flagellar motor finally fully understood after 50 years; driven by proton motive force (Mitchell 1961, Nobel 1978); 5:2 stator geometry rectifies entropic+electric proton gradient into torque; CheY-P phosphorylation triggers C-ring conformational cascade for direction reversal; "entropic energy → kinetic energy" is the universal cellular energetics.
+- [[acp-editor-integration-hermes-agent]] — 
+- [[automate-anything-with-cron]] — 
+- [[create-custom-subagents]] — 
+- [[delegation-parallel-work]] — 
+- [[event-hooks-hermes-agent]] — 
 - [[github-actions-troubleshooting]] — GitHub Actions CI Troubleshooting guide summary.
 - [[hermes-mcp-integration]] — Hermes Agent MCP integration: consuming external tools, acting as an MCP server for messaging, per-server filtering, sampling, dynamic discovery
 - [[isabelle-installation]] — Official installation guide for Isabelle2025-2.
 - [[obsidian-cli-skill]] — kepano's Obsidian CLI agent skill — command reference for reading, writing, searching, and managing Obsidian vaults from the terminal
 - [[obsidian-git-setup]] — Setup guide for the Obsidian Git community plugin (desktop and mobile)
 - [[obsidian-para-byarbrough]] — byarbrough's Obsidian PARA template — Tiago Forte's 4-category knowledge organization system implemented in Obsidian
+- [[paperclip-api]] — 
+- [[paperclip-company-spec]] — 
+- [[paperclip-hermes-adapter]] — 
 - [[persistent-goals-hermes-agent]] — /goal slash command — standing goal + auto-continuation loop with judge model, inspired by Codex CLI's Ralph loop
-- [[subagent-delegation-hermes-agent]] — delegate_task tool — isolated subagent spawning, batch parallelism, depth limits, model override, and durability tradeoffs
+- [[profiles-running-multiple-agents]] — 
+- [[subagent-delegation-hermes-agent]] — 
 - [[wolfram-nks-causal-networks]] — Wolfram's NKS excerpt on causal networks and spacetime.
 - [[mixture-of-recursions]] — MoR unifies parameter sharing and adaptive token-level computation via learned recursive depth routing — connects to causal state assignment and compiled-transformer execution models.
+- [[bill-cassidy-republican-senator-who-voted-to-convict-trump-l]] — Trump-backed challenger defeats Bill Cassidy in Republican primary — the seventh Republican to lose a primary after voting to convict Trump.
+- [[canadian-from-cruise-ship-tests-positive-for-hantavirus]] — Hantavirus case on a previously affected cruise ship highlights enclosed-environment transmission risk.
+- [[fpv-drone-strikes-show-hezbollahs-changing-tactics-against-i]] — Hezbollah's FPV drone videos reveal a qualitative leap in precision — commercial drones repurposed as guided munitions against Israel.
+- [[how-worrying-is-the-ebola-outbreak-in-dr-congo]] — The DR Congo Ebola outbreak is worrying due to urban spread of the rare Bundibugyo strain near porous borders.
+- [[large-scale-ukrainian-drone-attack-kills-three-in-moscow-region]] — Ukraine's largest drone attack on Moscow kills 3, breaching Russia's capital air defenses at scale.
+- [[man-ploughs-car-into-crowd-in-italy-before-trying-to-stab-th]] — Car-ramming + stabbing attack in Italy injures 8, echoing a well-established European terrorist template.
+- [[nigeria-boko-haram-kidnaps-over-50-schoolchildren-borno]] — Boko Haram kidnaps 50+ schoolchildren including toddlers in dawn raid on Mussa town, Borno State, Nigeria — recurring mass abduction pattern in NE Nigeria.
+- [[rescue-diver-dies-during-search-for-bodies-of-italians-who-d]] — Rescue diver killed in Maldives cave recovery operation — a notoriously lethal environment for even expert divers.
+- [[spacex-starship-v3-launch-flight-12]] — SpaceX schedules first Starship V3 (Flight 12) launch — largest rocket ever built, with self-documentation capability and major hardware upgrades over V2.
+- [[taiwan-reaffirms-independence-despite-trump-warning]] — Taiwan publicly reasserts sovereignty after Trump's warning, exposing divergence between US ambiguity and Taipei's own messaging.
+- [[uae-reports-drone-strike-near-abu-dhabi-nuclear-power-plant]] — Drone strike near UAE's Barakah nuclear plant — the Arab world's first civilian reactor — exposes nuclear site vulnerability.
+- [[who-declares-ebola-outbreak-in-dr-congo-an-international-eme]] — WHO declares DR Congo Ebola outbreak a global health emergency, its highest alert tier.
 - [[bae-mor-2025]] — Bae et al. (2025) — Mixture-of-Recursions: dynamic per-token recursion depth in shared-parameter transformers; expert-choice and token-choice routing; recursion-wise KV caching; 47% fewer params, 2x throughput; provides the adaptive-depth execution substrate for EML compiled transformers
 - [[chen-molecular-cot-2026]] — Chen et al. (2026) — Long CoT reasoning has stable molecular-like structure with three "bonds" (Deep-Reasoning ≈ covalent, Self-Reflection ≈ hydrogen, Self-Exploration ≈ van der Waals); attention weights ↔ Boltzmann distribution; effective transfer is structural, not lexical; Mole-Syn synthesizes Long CoT via distribution-transfer graphs without distillation.
 - [[ctx2skill]] — Self-evolving multi-agent framework that autonomously discovers natural-language skills from complex contexts via adversarial self-play — no human annotation, no external feedback.
 - [[eidetic-learning-2021]] — Summary of Eidetic Learning: An Efficient and Provable Solution to Catastrophic Forgetting — solving catastrophic forgetting via structured pruning and disjoint subnetworks.
+- [[futuresim-adaptive-agents]] — FutureSim replays real-world news chronologically to evaluate agent world-modelling; best frontier agent achieves only 25% accuracy, exposing severe gaps in open-ended temporal adaptation.
+- [[is-grep-all-you-need]] — Grep often outperforms vector retrieval in agentic search; harness architecture and tool result presentation matter more than retrieval strategy.
 - [[kim-ahn-edm-2026]] — Kim, Kojaku & Ahn (Science Advances 2026) — introduces EDM embedding-based disruption metric; outperforms CD index; detects simultaneous discoveries via future vector nearest-neighbor clustering
 - [[odrzywolek-eml-2026]] — Odrzywołek (2026) — discovery of the EML operator eml(x,y)=exp(x)−ln(y), a single binary primitive generating all elementary functions from constant 1, with applications to symbolic regression via gradient-trainable binary trees
+- [[opendeepthink-parallel-reasoning]] — Pairwise Bradley-Terry ranking aggregates noisy LLM judgments for robust parallel reasoning; +405 Elo on Codeforces in 8 rounds, model-agnostic transfer.
 - [[ramirez-ruiz-mop-2024]] — Ramírez-Ruiz et al. (Nature Communications 2024) — Maximum Occupancy Principle: agents maximize future action-state path entropy instead of extrinsic reward, producing complex goal-directed behavior from intrinsic motivation alone
 - [[reward-inside-model-elhsr]] — Efficient Linear Hidden State Reward (ELHSR): A lightweight reward model (<0.005% parameters) using internal LLM hidden states for Best-of-N sampling.
 - [[utimula-openpraparat-2025]] — Utimula (2025) — guideless ALife model combining Tierra gene mechanics with 3D virtual creatures; no fitness function; emergent reproduction (binary fission, budding), protective organs, and energy transport networks via mutation + natural selection
 - [[why-llms-arent-scientists-yet]] — Source summary for Why LLMs Aren't Scientists Yet.
 - [[agem]] — Source summary for AGEM repository.
 - [[cli-printing-press]] — Agent-first CLI generator that reverse-engineers APIs and prints Go CLI + MCP server + Claude Code skill for any API or website. Local SQLite, compound commands, NOI-driven design.
+- [[get-shit-done]] — 
+- [[graphify-ai-coding-assistant-skill]] — 
 - [[mcp-logic]] — Source summary for mcp-logic.
 - [[nexus]] — Source summary for NEXUS.
+- [[openclaw]] — 
+- [[paperclip]] — 
 - [[product-canvas]] — Google Labs multiplayer brainstorming canvas with AI voice agent and wiki knowledge editor
 - [[project-synapse-mcp]] — Source summary for Project Synapse repo.
 - [[sentience-metaphysics]] — Source summary for Sentience Metaphysics repo.
+- [[symbiotic-ai]] — 
 - [[tabpfn]] — Foundation model for tabular data using in-context learning. Trained on synthetic data, matches XGBoost on small-to-medium datasets. GPU recommended. Rich extension ecosystem.
 - [[spike-001-spacy-owlready2]] — VALIDATED — spaCy+owlready2 handles transitive subsumption, lemmatization, and pluralization in one sync_reasoner() call. Three v0.3 Layer-2 caveats collapse.
 - [[spike-campaign-001-004-summary]] — Four-spike campaign validating spaCy+owlready2+HermiT as Layer 2 substrate; transaction-per-claim semantics; OWL→Neo4j one-way projection.

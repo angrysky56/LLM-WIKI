@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/synthesis/synapse-llm-wiki-operating-guide.md",
+                "file": "wiki/sources/news/bill-cassidy-republican-senator-who-voted-to-convict-trump-l.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "synapse-llm-wiki-operating-guide"
+              "title": "bill-cassidy-republican-senator-who-voted-to-convict-trump-l"
             }
           }
         ]
@@ -194,35 +194,36 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2ab9c987c297f7a1",
+  "active": "bec34749f564fa57",
   "lastOpenFiles": [
-    "Clippings/articles/2026/Truth, Emotion, and the Sacred.md",
-    "Clippings/documentation/2026/Subagent Delegation  Hermes Agent.md",
-    "Clippings/documentation/2026/Profiles Running Multiple Agents.md",
-    "Clippings/repositories/2026/paperclip Open-source orchestration for zero-human companies.md",
-    "Clippings/documentation/2026/Paperclip Hermes Adapter.md",
-    "Clippings/documentation/2026/paperclip company spec.md",
-    "Clippings/documentation/2026/Paperclip API.md",
-    "Clippings/repositories/2026/openclawopenclaw Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞.md",
-    "Clippings/repositories/2026/lout33symbiotic-ai A symbiotic AI agent that remembers everything, challenges you, and extends your cognition..md",
-    "Clippings/articles/2026/How To Use Hermes With OpenClaw And Paperclip.md",
-    "Clippings/repositories/2026/Graphify AI coding assistant skill.md",
-    "Clippings/repositories/2026/get-shit-done A light-weight and powerful meta-prompting, context engineering and spec-driven development system.md",
-    "Clippings/articles/2026/gemma4.md",
-    "Clippings/articles/2026/Frank Einstein and Gemma on Truth, Emotion, and the Sacred.md",
-    "Clippings/documentation/2026/Event Hooks  Hermes Agent.md",
+    "wiki/sources/news/spacex-starship-v3-launch-flight-12.md",
+    "Clippings/articles/2026/spacex-sets-date-for-first-starship-version-3-launch.md",
+    "raw/spacex-sets-date-for-first-starship-version-3-launch.md",
+    "wiki/sources/news/nigeria-boko-haram-kidnaps-over-50-schoolchildren-borno.md",
+    "Clippings/articles/2026/fpv-drone-strikes-show-hezbollahs-changing-tactics-against-i_190619.md",
+    "raw/fpv-drone-strikes-show-hezbollahs-changing-tactics-against-i.md",
+    "Clippings/articles/2026/uae-reports-drone-strike-near-abu-dhabi-nuclear-power-plant_190513.md",
+    "raw/uae-reports-drone-strike-near-abu-dhabi-nuclear-power-plant.md",
+    "Clippings/articles/2026/large-scale-ukrainian-drone-attack-kills-three-in-moscow-reg_190413.md",
+    "raw/large-scale-ukrainian-drone-attack-kills-three-in-moscow-reg.md",
+    "Clippings/articles/2026/toddlers-among-more-than-50-schoolchildren-kidnapped-in-nige.md",
+    "raw/toddlers-among-more-than-50-schoolchildren-kidnapped-in-nige.md",
+    "wiki/synthesis/synapse-llm-wiki-operating-guide.md",
+    "wiki/sources/news/rescue-diver-dies-during-search-for-bodies-of-italians-who-d.md",
+    "wiki/sources/news/canadian-from-cruise-ship-tests-positive-for-hantavirus.md",
+    "wiki/sources/news/bill-cassidy-republican-senator-who-voted-to-convict-trump-l.md",
+    "wiki/sources/news/taiwan-reaffirms-independence-despite-trump-warning.md",
+    "wiki/sources/news/fpv-drone-strikes-show-hezbollahs-changing-tactics-against-i.md",
+    "wiki/sources/news/man-ploughs-car-into-crowd-in-italy-before-trying-to-stab-th.md",
+    "wiki/sources/news/uae-reports-drone-strike-near-abu-dhabi-nuclear-power-plant.md",
+    "wiki/sources/news/large-scale-ukrainian-drone-attack-kills-three-in-moscow-region.md",
+    "wiki/sources/news/how-worrying-is-the-ebola-outbreak-in-dr-congo.md",
+    "wiki/sources/news/who-declares-ebola-outbreak-in-dr-congo-an-international-eme.md",
+    "wiki/sources/news",
+    "Clippings/articles/2026/rescue-diver-dies-during-search-for-bodies-of-italians-who-d.md",
+    "raw/rescue-diver-dies-during-search-for-bodies-of-italians-who-d.md",
+    "Clippings/articles/2026/canadian-from-cruise-ship-tests-positive-for-hantavirus.md",
     "Clippings/articles/2026/designing-agentic-design-picker.txt",
-    "Clippings/documentation/2026/Delegation & Parallel Work.md",
-    "Clippings/documentation/2026/Create custom subagents.md",
-    "Clippings/articles/2026/Choosing the Right Agentic Design Pattern A Decision-Tree Approach.md",
-    "Clippings/documentation/2026/Automate Anything with Cron.md",
-    "Clippings/articles/2026/AGEM ooe.md",
-    "Clippings/documentation/2026/ACP Editor Integration  Hermes Agent.md",
-    "wiki/synthesis/synapse-retrieval-architecture.md",
-    "wiki/synthesis/wiki-indexing-theory.md",
-    "Domain Onboarding Standards.md",
-    "Domain Onboarding Standards.md",
-    "[Domain Onboarding Standards.md",
     "raw/designing-agentic-design-picker.txt",
     "raw/Unconfirmed 744046.crdownload",
     "mempalace.yaml",
@@ -230,7 +231,6 @@
     "wiki/agents/skills/agentic-react",
     "wiki/agents/skills/agem-expert/references",
     "wiki/agents/skills/agem-expert",
-    "wiki/agents/skills/value-guardian/references",
-    "wiki/agents/skills/value-guardian"
+    "wiki/agents/skills/value-guardian/references"
   ]
 }

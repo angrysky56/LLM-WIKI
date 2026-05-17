@@ -1,11 +1,7 @@
 ---
-created: 2026-04-18T03:56:00Z
-updated: 2026-04-18T03:56:00Z
-type: concept
-summary: "The process of training a secondary model to assign scalar scores to LLM outputs, used for alignment (RLHF) and test-time scaling (Best-of-N)."
-tags: [llm-training, rlhf, alignment, best-of-n]
-status: active
-confidence: 1.0
+summary: The process of training a secondary model to assign scalar scores to LLM outputs, used for alignment (RLHF) and test-time scaling (Best-of-N).
+tags: [[llm-training, rlhf, alignment, best-of-n]]
+updated: 2026-05-17T18:16:24Z
 ---
 
 # Reward Modeling
@@ -19,6 +15,7 @@ Reward modeling is a technique in machine learning where a separate model (the *
 - **Outcome vs. Process Reward**:
     - **Outcome Reward Models (ORM)**: Evaluate only the final answer.
     - **Process Reward Models (PRM)**: Evaluate each individual step in a reasoning path.
+- **Pairwise Ranking for Inference**: [[opendeepthink-parallel-reasoning|OpenDeepThink]] uses Bradley-Terry aggregation of pairwise LLM judgments as a reward-free alternative to explicit reward models, raising Gemini 3.1 Pro's Codeforces Elo by +405 points.
 
 ## Efficiency Innovations
 
@@ -30,3 +27,4 @@ Traditional reward models are often as large as the generator models they evalua
 - **[[reasoning]]**: Reward models are critical for identifying correct reasoning paths in complex math and logic tasks.
 - **[[hidden-states]]**: New approaches derive rewards directly from the generator's internal representations.
 - **[[critical-analysis]]**: Evaluating the reliability and bias of reward models is a key area of scientific review in LLM research.
+- **[[opendeepthink-parallel-reasoning]]**: Bradley-Terry pairwise aggregation as a reward-free selection mechanism for parallel reasoning.

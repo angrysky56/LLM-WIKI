@@ -1,11 +1,7 @@
 ---
-name: "agentic-tooluse"
-description: "Tool use pattern for agents requiring external world interaction. Foundation layer with design principles for effective tool contracts."
----
-
----
-name: "agentic-tooluse"
-description: "Tool use pattern for agents requiring external world interaction. Foundation layer for most real-world agentic tasks with design principles for effective tool contracts."
+summary: Tool use pattern for agents requiring external world interaction. Foundation layer for most real-world agentic tasks.
+tags: [agentic, tools, RAG, retrieval]
+updated: 2026-05-17T18:16:55Z
 ---
 
 # Agentic Tool Use Pattern
@@ -89,13 +85,15 @@ Effective tools have three components:
 
 ### Data Retrieval Tools
 
-| Tool | Purpose | Example |
-|------|---------|---------|
-| Database query | Structured data access | `query_sql(query)` |
-| Vector search | Semantic similarity | `search_similar(text, k)` |
-| Document retrieval | Unstructured text | `get_documents(query)` |
-| Web search | Real-time information | `web_search(query)` |
-| API call | External services | `call_api(endpoint, params)` |
+| Tool | Purpose | Example | Notes |
+|------|---------|---------|-------|
+| Database query | Structured data access | `query_sql(query)` | |
+| Vector search | Semantic similarity | `search_similar(text, k)` | Grep often outperforms vector retrieval in agentic pipelines — see [[is-grep-all-you-need]] |
+| Document retrieval | Unstructured text | `get_documents(query)` | |
+| Web search | Real-time information | `web_search(query)` | |
+| API call | External services | `call_api(endpoint, params)` | |
+
+> **Retrieval strategy caveat**: [[is-grep-all-you-need|Is Grep All You Need?]] (2026) empirically shows that grep/BM25 retrieval often outperforms vector retrieval in agentic search harnesses — and that the harness architecture (Claude Code, Codex, Gemini CLI) matters more than the retrieval strategy itself. Consider offering both retrieval modes and compare results.
 
 ### Action Tools
 

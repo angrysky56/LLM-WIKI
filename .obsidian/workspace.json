@@ -11,10 +11,14 @@
             "id": "ccc6ebcf1df622da",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Clippings/articles/2026/Recursive Language Models An All-in-One Deep Dive.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Recursive Language Models An All-in-One Deep Dive"
             }
           }
         ]
@@ -192,7 +196,30 @@
   },
   "active": "c161994581ba454a",
   "lastOpenFiles": [
+    "wiki/scratchpad/jobs/reports/news/news-2026-05-18-headlines.md",
+    "wiki/sources/news/2026-05/scotus-voting-rights-2026-05-18.md",
+    "wiki/sources/news/2026-05/trump-approval-war-polling-2026-05-18.md",
+    "wiki/sources/news/2026-05/trump-prayer-rally-2026-05-18.md",
+    "wiki/sources/news/2026-05/jwst-early-galaxies-2026-05-17.md",
+    "wiki/sources/news/2026-05/hantavirus-cruise-outbreak-2026-05-17.md",
+    "wiki/sources/news/2026-05/asteroid-2026-jh2-2026-05-18.md",
+    "wiki/sources/news/2026-05/iran-us-diplomacy-2026-05-18.md",
+    "wiki/sources/news/2026-05/trump-massie-primary-2026-05-17.md",
+    "wiki/scratchpad/jobs/reports/news",
+    "wiki/scratchpad/jobs/reports",
+    "wiki/sources/news/2026-05",
+    "wiki/index.md",
+    "wiki/concepts/load-bearing-reasoning.md",
+    "Clippings/articles/2026/Recursive Language Models An All-in-One Deep Dive.md",
+    "wiki/concept-index.md",
     "wiki/synthesis/self-prompting-via-production-stage-architecture.md",
+    "wiki/synthesis/bounded-structured-memory.md",
+    "wiki/scratchpad/jobs/index.md",
+    "wiki/scratchpad/jobs/sheet.md",
+    "wiki/scratchpad/jobs",
+    "wiki/scratchpad/index.md",
+    "wiki/scratchpad",
+    "wiki/sources/news/bill-cassidy-republican-senator-who-voted-to-convict-trump-l.md",
     "wiki/sources/papers/waldis-2026-instructions-shape-production.md",
     "Clippings/papers/2026/waldis-instructions-shape-language-2026.md",
     "dropbox",
@@ -201,32 +228,9 @@
     "raw/spacex-sets-date-for-first-starship-version-3-launch.md",
     "wiki/sources/news/nigeria-boko-haram-kidnaps-over-50-schoolchildren-borno.md",
     "Clippings/articles/2026/fpv-drone-strikes-show-hezbollahs-changing-tactics-against-i_190619.md",
-    "raw/fpv-drone-strikes-show-hezbollahs-changing-tactics-against-i.md",
-    "Clippings/articles/2026/uae-reports-drone-strike-near-abu-dhabi-nuclear-power-plant_190513.md",
-    "raw/uae-reports-drone-strike-near-abu-dhabi-nuclear-power-plant.md",
-    "Clippings/articles/2026/large-scale-ukrainian-drone-attack-kills-three-in-moscow-reg_190413.md",
-    "raw/large-scale-ukrainian-drone-attack-kills-three-in-moscow-reg.md",
-    "Clippings/articles/2026/toddlers-among-more-than-50-schoolchildren-kidnapped-in-nige.md",
-    "raw/toddlers-among-more-than-50-schoolchildren-kidnapped-in-nige.md",
-    "wiki/synthesis/synapse-llm-wiki-operating-guide.md",
-    "wiki/sources/news/rescue-diver-dies-during-search-for-bodies-of-italians-who-d.md",
-    "wiki/sources/news/canadian-from-cruise-ship-tests-positive-for-hantavirus.md",
-    "wiki/sources/news/bill-cassidy-republican-senator-who-voted-to-convict-trump-l.md",
-    "wiki/sources/news/taiwan-reaffirms-independence-despite-trump-warning.md",
-    "wiki/sources/news/fpv-drone-strikes-show-hezbollahs-changing-tactics-against-i.md",
-    "wiki/sources/news/man-ploughs-car-into-crowd-in-italy-before-trying-to-stab-th.md",
-    "wiki/sources/news/uae-reports-drone-strike-near-abu-dhabi-nuclear-power-plant.md",
-    "wiki/sources/news/large-scale-ukrainian-drone-attack-kills-three-in-moscow-region.md",
-    "wiki/sources/news/how-worrying-is-the-ebola-outbreak-in-dr-congo.md",
-    "wiki/sources/news/who-declares-ebola-outbreak-in-dr-congo-an-international-eme.md",
     "wiki/sources/news",
     "Clippings/articles/2026/designing-agentic-design-picker.txt",
     "raw/designing-agentic-design-picker.txt",
-    "raw/Unconfirmed 744046.crdownload",
-    "mempalace.yaml",
-    "entities.json",
-    "wiki/agents/skills/agentic-react",
-    "wiki/agents/skills/agem-expert/references",
-    "wiki/agents/skills/agem-expert"
+    "raw/Unconfirmed 744046.crdownload"
   ]
 }

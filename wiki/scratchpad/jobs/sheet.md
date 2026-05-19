@@ -23,14 +23,14 @@ type: jobs
 
 ## Active Jobs
 
-| Job ID | Job Name | Agent | Status | Last Run | Next Run | Notes |
-|--------|----------|-------|--------|----------|----------|-------|
-| `6ee16837c47c` | Wiki Librarian | librarian | pending | 2026-05-11 | 2026-05-18 6AM | Weekly quality audit |
-| `8ea33cfa560a` | Wiki Researcher | researcher | pending | 2026-05-14 | 2026-05-18 9AM | Mon/Thu discovery |
-| `297092f3b347` | orcaid-verification-indexer | orcaid | pending | 2026-05-18 | 2026-05-18 12PM | Every 6h |
-| `72599f850df2` | arxiv-top3-weekly | arxiv | pending | 2026-05-17 | 2026-05-18 10AM | Top 3 papers |
-| `eaaa6bdc8503` | world-news-daily | news | done | 2026-05-18 | 2026-05-19 9AM | Daily global news |
-| `c838e81a1496` | llm-wiki-raw-ingest | ingest | pending | 2026-05-17 | 2026-05-18 11AM | Raw→wiki pipeline |
+| Job ID | Job Name | Agent | Status | Last Run | Next Run | Agent Sheet |
+|--------|----------|-------|--------|----------|----------|-------------|
+| `eaaa6bdc8503` | world-news-daily | news | pending | 2026-05-18 | 2026-05-19 8AM | [[agent-sheets/news]] |
+| `8ea33cfa560a` | Wiki Researcher | researcher | pending | 2026-05-18 | 2026-05-21 8:30AM | [[agent-sheets/researcher]] |
+| `297092f3b347` | orcaid-verification-indexer | orcaid | pending | 2026-05-18 | 2026-05-19 9AM | [[agent-sheets/orcaid]] |
+| `72599f850df2` | arxiv-top3-weekly | arxiv | pending | 2026-05-18 | 2026-05-19 10AM | [[agent-sheets/arxiv]] |
+| `c838e81a1496` | llm-wiki-raw-ingest | ingest | pending | 2026-05-17 | 2026-05-18 10:30AM | [[agent-sheets/ingest]] |
+| `6ee16837c47c` | Wiki Librarian | librarian | pending | 2026-05-11 | 2026-05-18 11AM | [[agent-sheets/librarian]] |
 
 ## Task Delegation
 
@@ -58,41 +58,21 @@ type: jobs
 
 ## Instructions Per Agent
 
-### librarian
-1. Read this sheet to get current task focus
-2. Run quality audit (orphan rate, misclassifications, entity health)
-3. Write report to `jobs/reports/librarian/audit-YYYY-MM-DD.md`
-4. Update your status above when done
+Each agent reads its own sheet on every run. These sheets are the source of truth — not this central sheet.
 
-### researcher
-1. Read this sheet for discovery focus areas
-2. Run knowledge gap analysis and new topic research
-3. Write report to `jobs/reports/researcher/discovery-YYYY-MM-DD.md`
-4. Update your status above when done
+| Agent | Sheet | Purpose |
+|-------|-------|---------|
+| librarian | [[agent-sheets/librarian]] | Quality audit, orphan detection, link integrity |
+| researcher | [[agent-sheets/researcher]] | Knowledge gap analysis, new topic research |
+| orcaid | [[agent-sheets/orcaid]] | Verification sweep, drift detection, self_improve |
+| arxiv | [[agent-sheets/arxiv]] | Top 3 paper discovery and ingestion |
+| news | [[agent-sheets/news]] | Global news curation and wiki ingestion |
+| ingest | [[agent-sheets/ingest]] | raw→wiki pipeline, file processing |
 
-### orcaid
-1. Read this sheet — check if any drift correction tasks are queued
-2. Run verification index sweep
-3. If drift_rate > threshold: flag here and optionally trigger self_improve
-4. Write report to `jobs/reports/orcaid/verification-YYYY-MM-DD.md`
-5. Update your status above when done
-
-### arxiv
-1. Read this sheet for any paper focus areas Ty has specified
-2. Search for top 3 relevant papers (or use default: newest ML/AI papers)
-3. Ingest summaries to wiki
-4. Write report to `jobs/reports/arxiv/papers-YYYY-MM-DD.md`
-5. Update your status above when done
-
-### news
-1. Read this sheet — check if Ty has flagged any specific regions/topics
-2. Run global news scan
-3. Ingest significant stories to wiki
-4. Write report to `jobs/reports/news/headlines-YYYY-MM-DD.md`
-5. Update your status above when done
-
-### ingest
-1. Read this sheet — check if any priority sources need ingestion
-2. Run raw→wiki ingest pipeline
-3. Write report to `jobs/reports/ingest/ingest-YYYY-MM-DD.md`
-4. Update your status above when done
+**Each agent sheet contains:**
+1. Read the agent sheet (STEP 0)
+2. Read the central jobs sheet (STEP 1)
+3. Execute assigned tasks
+4. Write report to `jobs/reports/{agent}/`
+5. Update this sheet's status column
+6. Update own carryover in `jobs/reports/{agent}/carryover.md`

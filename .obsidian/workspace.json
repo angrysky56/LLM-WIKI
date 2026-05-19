@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "raw/What the docs don't tell you about Claude Code skills.md",
+                "file": "raw/Self-hosted AI Starter Kit.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "What the docs don't tell you about Claude Code skills"
+              "title": "Self-hosted AI Starter Kit"
             }
           }
         ]
@@ -196,9 +196,25 @@
   },
   "active": "ccc6ebcf1df622da",
   "lastOpenFiles": [
+    "wiki/sources/papers/awesome-code-as-agent-harness.md",
+    "Clippings/papers/2026/awesome-code-as-agent-harness.md",
+    "raw/yennningawesome-code-as-agent-harness-papers.md",
+    "wiki/sources/papers/code-as-agent-harness.md",
+    "Clippings/papers/2026/code-as-agent-harness.md",
+    "raw/code-as-agent-harness.md",
+    "wiki/scratchpad/jobs/reports/arxiv/arxiv-2026-05-19-top-papers.md",
+    "wiki/sources/papers/bae-lmac-2026.md",
+    "wiki/sources/papers/ma-sd-search-2026.md",
+    "wiki/sources/papers/xu-envfactory-2026.md",
+    "raw/envfactory-scaling-tool-use-agents-via-executable-environmen.md",
+    "wiki/scratchpad/jobs/reports/arxiv/search_arxiv.py",
+    "raw/breaking-news-world-news-and-video-from-al-jazeera.md",
+    "raw/breaking-news-video-and-the-latest-top-stories-from-the-us-a.md",
+    "raw/n8n Docs.md",
+    "raw/Self-hosted AI Starter Kit.md",
+    "raw/What the docs don't tell you about Claude Code skills.md",
     "wiki/scratchpad/agent-sheets/arxiv.md",
     "wiki/scratchpad/agent-sheets/orcaid.md",
-    "raw/What the docs don't tell you about Claude Code skills.md",
     "wiki/scratchpad/jobs/sheet.md",
     "wiki/scratchpad/jobs/reports/ingest",
     "wiki/scratchpad/jobs/reports/arxiv",
@@ -213,24 +229,8 @@
     "wiki/scratchpad/jobs/index.md",
     "wiki/scratchpad/jobs/reports/news/news-2026-05-18-headlines.md",
     "Clippings/articles/2026/Recursive Language Models An All-in-One Deep Dive.md",
-    "wiki/sources/news/2026-05/scotus-voting-rights-2026-05-18.md",
-    "wiki/sources/news/2026-05/trump-approval-war-polling-2026-05-18.md",
-    "wiki/sources/news/2026-05/trump-prayer-rally-2026-05-18.md",
-    "wiki/sources/news/2026-05/jwst-early-galaxies-2026-05-17.md",
-    "wiki/sources/news/2026-05/hantavirus-cruise-outbreak-2026-05-17.md",
-    "wiki/sources/news/2026-05/asteroid-2026-jh2-2026-05-18.md",
-    "wiki/sources/news/2026-05/iran-us-diplomacy-2026-05-18.md",
-    "wiki/sources/news/2026-05/trump-massie-primary-2026-05-17.md",
     "wiki/scratchpad/jobs/reports/news",
     "wiki/scratchpad/jobs/reports",
-    "wiki/sources/news/2026-05",
-    "wiki/index.md",
-    "wiki/concepts/load-bearing-reasoning.md",
-    "wiki/concept-index.md",
-    "wiki/synthesis/self-prompting-via-production-stage-architecture.md",
-    "wiki/synthesis/bounded-structured-memory.md",
-    "wiki/scratchpad/jobs",
-    "wiki/scratchpad/index.md",
-    "wiki/sources/news/bill-cassidy-republican-senator-who-voted-to-convict-trump-l.md"
+    "wiki/sources/news/2026-05"
   ]
 }

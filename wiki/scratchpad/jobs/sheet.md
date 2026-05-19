@@ -28,7 +28,7 @@ type: jobs
 | `eaaa6bdc8503` | world-news-daily | news | pending | 2026-05-18 | 2026-05-19 8AM | [[agent-sheets/news]] |
 | `8ea33cfa560a` | Wiki Researcher | researcher | pending | 2026-05-18 | 2026-05-21 8:30AM | [[agent-sheets/researcher]] |
 | `297092f3b347` | orcaid-verification-indexer | orcaid | pending | 2026-05-18 | 2026-05-19 9AM | [[agent-sheets/orcaid]] |
-| `72599f850df2` | arxiv-top3-weekly | arxiv | pending | 2026-05-18 | 2026-05-19 10AM | [[agent-sheets/arxiv]] |
+| `72599f850df2` | arxiv-top3-weekly | arxiv | **done** | 2026-05-19 | [[agent-sheets/arxiv]] |
 | `c838e81a1496` | llm-wiki-raw-ingest | ingest | pending | 2026-05-17 | 2026-05-18 10:30AM | [[agent-sheets/ingest]] |
 | `6ee16837c47c` | Wiki Librarian | librarian | pending | 2026-05-11 | 2026-05-18 11AM | [[agent-sheets/librarian]] |
 

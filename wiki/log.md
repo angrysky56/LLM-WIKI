@@ -2303,3 +2303,17 @@ Updated page: wiki/scratchpad/jobs/index.md
 ## [2026-05-18 16:33] index
 
 Index updated with 253 pages (Deep refresh completed)
+
+## [2026-05-19 16:46] fetch | code-as-agent-harness.md
+
+Fetched https://arxiv.org/abs/2605.18747 via defuddle → ingested.
+
+Preview: ## Title:Code as Agent Harness  Authors:[Xuying Ning](https://arxiv.org/search/cs?searchtype=author&query=Ning,+X), [Katherine Tieu](https://arxiv.org/search/cs?searchtype=author&query=Tieu,+K), [Dong...
+
+## [2026-05-19 16:46] write
+
+Updated page: wiki/sources/papers/code-as-agent-harness.md
+
+## [2026-05-19 17:27] write
+
+Updated page: wiki/sources/papers/awesome-code-as-agent-harness.md

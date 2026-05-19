@@ -11,14 +11,14 @@
             "id": "ccc6ebcf1df622da",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "raw/Self-hosted AI Starter Kit.md",
-                "mode": "source",
-                "source": false
+                "aFile": ".obsidian/plugins/obsidian-git/manifest.json",
+                "bFile": ".obsidian/plugins/obsidian-git/manifest.json",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "Self-hosted AI Starter Kit"
+              "icon": "diff",
+              "title": "Diff: manifest.json  (Working Tree)"
             }
           }
         ]
@@ -196,6 +196,7 @@
   },
   "active": "ccc6ebcf1df622da",
   "lastOpenFiles": [
+    "raw/Self-hosted AI Starter Kit.md",
     "wiki/sources/papers/awesome-code-as-agent-harness.md",
     "Clippings/papers/2026/awesome-code-as-agent-harness.md",
     "raw/yennningawesome-code-as-agent-harness-papers.md",
@@ -211,7 +212,6 @@
     "raw/breaking-news-world-news-and-video-from-al-jazeera.md",
     "raw/breaking-news-video-and-the-latest-top-stories-from-the-us-a.md",
     "raw/n8n Docs.md",
-    "raw/Self-hosted AI Starter Kit.md",
     "raw/What the docs don't tell you about Claude Code skills.md",
     "wiki/scratchpad/agent-sheets/arxiv.md",
     "wiki/scratchpad/agent-sheets/orcaid.md",

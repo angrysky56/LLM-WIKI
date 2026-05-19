@@ -1,4 +1,5 @@
 ---
+type: concept
 summary: The process of training a secondary model to assign scalar scores to LLM outputs, used for alignment (RLHF) and test-time scaling (Best-of-N).
 tags: [[llm-training, rlhf, alignment, best-of-n]]
 updated: 2026-05-17T18:16:24Z

@@ -30,7 +30,7 @@ type: jobs
 | `297092f3b347` | orcaid-verification-indexer | orcaid | pending | 2026-05-18 | 2026-05-19 9AM | [[agent-sheets/orcaid]] |
 | `72599f850df2` | arxiv-top3-weekly | arxiv | **done** | 2026-05-19 | [[agent-sheets/arxiv]] |
 | `c838e81a1496` | llm-wiki-raw-ingest | ingest | pending | 2026-05-17 | 2026-05-18 10:30AM | [[agent-sheets/ingest]] |
-| `6ee16837c47c` | Wiki Librarian | librarian | pending | 2026-05-11 | 2026-05-18 11AM | [[agent-sheets/librarian]] |
+| `6ee16837c47c` | Wiki Librarian | librarian | **done** | 2026-05-19 | N/A | [[agent-sheets/librarian]] |
 
 ## Task Delegation
 

@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "cbf593fce8ce501b",
+        "id": "6fac780927b0f6e2",
         "type": "tabs",
         "children": [
           {
-            "id": "ccc6ebcf1df622da",
+            "id": "b57d6628a158bb4f",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/plugins/obsidian-git/manifest.json",
-                "bFile": ".obsidian/plugins/obsidian-git/manifest.json",
-                "aRef": ""
+                "file": "wiki/scratchpad/agent-sheets/librarian.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: manifest.json  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "librarian"
             }
           }
         ]
@@ -194,8 +194,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ccc6ebcf1df622da",
+  "active": "b57d6628a158bb4f",
   "lastOpenFiles": [
+    "wiki/scratchpad/jobs/reports/librarian/audit-2026-05-20.md",
+    "AGENTS.md",
+    "wiki/scratchpad/jobs/reports/librarian/audit-2026-05-19.md",
+    "wiki/scratchpad/jobs/reports/librarian/librarian-2026-05-19-missing-agent-sheet.md",
+    "wiki/scratchpad/jobs/reports/arxiv/carryover.md",
+    "wiki/scratchpad/jobs/reports/arxiv/arxiv-2026-05-20-top-papers.md",
     "raw/Self-hosted AI Starter Kit.md",
     "wiki/sources/papers/awesome-code-as-agent-harness.md",
     "Clippings/papers/2026/awesome-code-as-agent-harness.md",
@@ -222,13 +228,7 @@
     "wiki/scratchpad/jobs/reports/researcher",
     "wiki/scratchpad/jobs/reports/librarian",
     "wiki/scratchpad/agent-sheets/researcher.md",
-    "wiki/scratchpad/agent-sheets/ingest.md",
-    "wiki/scratchpad/agent-sheets/librarian.md",
-    "wiki/scratchpad/agent-sheets/news.md",
     "wiki/scratchpad/agent-sheets",
-    "wiki/scratchpad/jobs/index.md",
-    "wiki/scratchpad/jobs/reports/news/news-2026-05-18-headlines.md",
-    "Clippings/articles/2026/Recursive Language Models An All-in-One Deep Dive.md",
     "wiki/scratchpad/jobs/reports/news",
     "wiki/scratchpad/jobs/reports",
     "wiki/sources/news/2026-05"

@@ -1,14 +1,14 @@
 ---
-summary: arxiv agent carryover — 3 papers ingested 2026-05-21 (EqR, DeepWeb-Bench, hyperparameter transfer)
+summary: arxiv agent carryover — no new papers 2026-05-21, latest batch still 2026-05-20
 tags: [arxiv, carryover]
-updated: 2026-05-21T16:53:32Z
+updated: 2026-05-21T19:20:20Z
 ---
 
 ---
 created: 2026-05-20T08:00:00Z
-updated: 2026-05-21T16:55:00Z
+updated: 2026-05-21T10:05:00Z
 type: report
-summary: "arxiv agent carryover — 3 papers ingested 2026-05-21 (EqR, DeepWeb-Bench, hyperparameter transfer); MCP server conversion errors bypassed via wiki_fetch_url"
+summary: "arxiv agent carryover — no new papers 2026-05-21 (no 2026-05-21 batch posted yet); 3 papers from 2026-05-20 batch already ingested"
 tags: [arxiv, carryover]
 sources: []
 status: active
@@ -24,15 +24,16 @@ confidence: high
 | 2026-05-18 | 3 papers ingested | EnvFactory, SD-Search, LMAC — credit assignment theme |
 | 2026-05-20 | No new papers | arXiv late-UTC batch not yet posted |
 | 2026-05-21 | 3 papers ingested | EqR (attractors), DeepWeb-Bench (benchmark), hyperparameter transfer (embedding LR) |
+| 2026-05-21 | No new papers | arXiv API shows latest batch is 2026-05-20 — no 2026-05-21 submissions posted yet |
 | 2026-05-22 | — | — |
 
 ## Current State
 
-- **arXiv**: 3 new papers successfully ingested from 2026-05-20 batch
-- **MCP conversion issue**: arxiv-mcp-server PDF conversion failed for 2 papers (2605.21488, 2605.21482) with `'NoneType' object has no attribute 'tables'` — bypassed by using wiki_fetch_url directly on arXiv abstract pages, which succeeded and ingested to Neo4j
-- **Wiki paper timeline**: populated — 3 new source pages created in wiki/sources/papers/
+- **arXiv**: No new submissions as of this run — latest batch is 2026-05-20 (already processed)
+- **arXiv submission cycle**: weekdays only, late-UTC afternoon/evening. 2026-05-21 batch may post later today or tomorrow.
+- **Wiki paper inventory**: 3 new pages from 2026-05-20 batch remain current
 
-## Papers Ingested (2026-05-21)
+## Papers Ingested (2026-05-20 batch — already processed)
 
 | Paper | arXiv ID | Key Finding | Wiki Connection |
 |-------|----------|-------------|------------------|
@@ -42,6 +43,8 @@ confidence: high
 
 ## Notes for Next Run
 
-- MCP server PDF conversion may be unreliable for certain paper structures; wiki_fetch_url on abstract pages works as fallback
+- No new batch today — nothing to ingest
+- arXiv posts on weekdays (Mon–Fri) in late afternoon UTC; next batch should be 2026-05-21 or 2026-05-22 submissions
 - Theme emerging across recent papers: **reasoning as dynamical systems** (EqR attractors, molecular CoT structure, self-prompting architecture) — worth tracking as a coherent research thread
 - DeepWeb-Bench finding (derivation > retrieval as failure mode) is consistent with FutureSim results — cross-validated signal worth synthesizing
+- MCP server PDF conversion may be unreliable for certain paper structures; `wiki_fetch_url` on abstract pages works as fallback

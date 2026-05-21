@@ -1,5 +1,5 @@
 ---
-updated: 2026-05-21T16:34:49Z
+updated: 2026-05-21T19:30:57Z
 type: index
 ---
 
@@ -146,18 +146,22 @@ type: index
 - [[researcher]] — Agent instructions for Wiki Researcher cron job
 - [[arxiv-2026-05-19-top-papers]] — 
 - [[arxiv-2026-05-20-top-papers]] — No new arXiv papers today; yesterday's report had 3 fresh papers from 2026-05-18
-- [[arxiv-2026-05-21-top-papers]] — arxiv daily report 2026-05-21: no new papers, rate-limited on arXiv, wiki ingestion timeline empty
-- [[carryover]] — arxiv agent carryover — no new papers today, rate-limited
+- [[arxiv-2026-05-21-top-papers]] — arxiv daily report 2026-05-21: no new arXiv submissions — latest batch is 2026-05-20 (already processed yesterday); arXiv API confirms no 2026-05-21 batch posted yet
+- [[arxiv-2026-05-22-top-papers]] — 3 papers from 2026-05-20 batch: EqR (attractor-based reasoning), DeepWeb-Bench (derivation > retrieval failure), hyperparameter transfer (embedding LR)
+- [[carryover]] — arxiv agent carryover — no new papers 2026-05-21, latest batch still 2026-05-20
 - [[papers-2026-05-19-researched]] — Three papers on production LLM agent architecture, VLM reasoning decoupling, and agentic clinical evidence seeking
 - [[papers-2026-05-20]] — Three papers on production LLM agent architecture, VLM reasoning decoupling, and agentic clinical evidence seeking
 - [[carryover]] — 
 - [[ingest-2026-05-20]] — 
+- [[ingest-2026-05-21-run]] — 
+- [[ingest-2026-05-21]] — Ingest run report — 1 source processed
 - [[audit-2026-05-19]] — 
 - [[audit-2026-05-20]] — 
 - [[librarian-2026-05-19-missing-agent-sheet]] — 
-- [[carryover]] — News agent carryover — AI supply chain fragility, great power realignment, energy transition shifts
+- [[carryover]] — News agent carryover — great power realignment, Ebola travel effects, Iran diplomacy, science themes
 - [[news-2026-05-18-headlines]] — Global news headlines for May 18, 2026 — Iran diplomacy, Trump polling, asteroid, JWST, hantavirus, SCOTUS, Massie primary, prayer rally
 - [[news-2026-05-20-headlines]] — Global news headlines for May 20, 2026 — 7 stories across geopolitics, AI/tech, science, health, and energy
+- [[news-2026-05-21-headlines]] — Global news headlines for May 21, 2026 — 9 stories across geopolitics, science, health, and space
 - [[sheet]] — Central task board for agent job dispatch
 - [[agem-ooe]] — 
 - [[brocas-area-gemini-chat]] — Source summary for Gemini chat on Broca's area and LLM analogies.
@@ -166,6 +170,7 @@ type: index
 - [[design-thinking-mit]] — MIT Professional Education overview of the 10-step design thinking framework by Blade Kotelly
 - [[designing-agentic-design-picker]] — 
 - [[discrete-time-to-event-modeling]] — Introduction to discrete-time survival analysis: discretization, censoring mechanisms, and life table foundations
+- [[ebola-plane-divert-2026]] — Air France flight to Detroit diverted to Montreal after Congolese Ebola-hit-region passenger boarded in error
 - [[emotion-concepts-llm]] — Anthropic research on functional emotion representations in Claude Sonnet 4.5 and their causal effects on behavior.
 - [[engineering-internal-awareness-and-closed-loop-self-regulation-in-large-language-models]] — Engineering internal check loop for LLMs via biofeedback paradigm, PID activation steering, and metacognitive quantization
 - [[eris-mythology]] — Greek goddess of strife and discord — the Apple of Discord triggered the Trojan War
@@ -182,11 +187,15 @@ type: index
 - [[momoa-researcher]] — Google Labs agentic research scientist using Mixture of Mixture of Agents
 - [[neo4j-2026-04-0-release]] — Neo4j 2026.04.0: vector-3.0 quantization fix, io_uring async I/O, GenAI plugin token functions, Cypher 25 GQL alignment
 - [[prd-ralph-loop-mop-gemini]] — Gemini conversation connecting PRD-driven Ralph Loops with MOP and Theory of Mind for autonomous scientific research — epistemic energy as the critical constraint
+- [[raul-castro-indictment-2026]] — US indicts Raúl Castro over 1996 plane shootdown; Russia/China condemn as coercive "violence
 - [[shorthand-for-thought]] — Research on compressing LLM Chain-of-Thought (CoT) reasoning by merging low-entropy structural phrases into "supertokens.
 - [[solo-preneur]] — Framework for solo-developer micro-SaaS: "time is money, convenience is king, marketing is queen" — constraints, 4 product categories, and strategic rules
 - [[ssh-command-in-linux]] — SSH command reference: connections, key auth, port forwarding, common options
+- [[sti-record-levels-europe-2026]] — Gonorrhoea +303% and syphilis doubled in Europe since 2015 — ECDC calls for urgent action
+- [[strait-of-hormuz-iran-claim-2026]] — Iran claims 22,000 sq km of Strait of Hormuz — UAE calls it "fragments of dreams"; US seizes oil tanker
 - [[titans-test-time-memory]] — Titans: Learning to Memorize at Test Time summary.
 - [[transformer-vm-moran-2026]] — Moran (2026) — analytically compiling programs into transformer weights; residual stream as registers, attention as lookup, FFN as arithmetic, layers as machine steps; connects to EML as minimal instruction set for compiled transformers
+- [[trump-iran-diplomacy-threats-2026]] — Trump oscillates between diplomacy and threats on Iran; 14-point peace plan under review
 - [[truth-emotion-sacred-agem-analysis]] — 
 - [[why-llms-arent-scientists-yet]] — Compressed summary of the autonomous research case study.
 - [[wolchover-life-force-2026]] — Wolchover (Quanta 2026-04-20) — bacterial flagellar motor finally fully understood after 50 years; driven by proton motive force (Mitchell 1961, Nobel 1978); 5:2 stator geometry rectifies entropic+electric proton gradient into torque; CheY-P phosphorylation triggers C-ring conformational cascade for direction reversal; "entropic energy → kinetic energy" is the universal cellular energetics.
@@ -209,20 +218,30 @@ type: index
 - [[subagent-delegation-hermes-agent]] — 
 - [[wolfram-nks-causal-networks]] — Wolfram's NKS excerpt on causal networks and spacetime.
 - [[mixture-of-recursions]] — MoR unifies parameter sharing and adaptive token-level computation via learned recursive depth routing — connects to causal state assignment and compiled-transformer execution models.
+- [[air-france-airbus-manslaughter-2009-2026-05-21]] — Air France and Airbus convicted of manslaughter over 228 deaths in 2009 Rio-Paris crash
 - [[alzheimers-breakthrough-2026-05-20]] — Researchers discover hidden Alzheimer's trigger and demonstrate successful intervention in models
 - [[asteroid-2026-jh2-2026-05-18]] — Newly discovered asteroid 2026 JH2, size of a blue whale, to narrowly miss Earth — discovered only days earlier; ranked zero on Torino impact hazard scale
+- [[china-cuba-us-threats-2026-05-21]] — China defended Cuba against US "threats" after Raúl Castro indictment — great-power signalling on same day as Xi-Putin summit
+- [[chirality-origin-life-2026-05-20]] — Scientists may have solved why biological molecules are "right-handed" — 150-year-old homochirality mystery points to elusive electronic effect
 - [[ebola-outbreak-drc-2026-05-20]] — WHO reports 600+ suspected Ebola cases, 139 deaths in rapidly expanding DRC outbreak
+- [[ebola-travel-restriction-2026-05-21]] — Air France flight diverted to Montreal after passenger from DRC Ebola outbreak region boarded "in error" — first visible travel restriction from WHO emergency declaration
 - [[github-data-breach-2026-05-20]] — GitHub confirms major data breach; thousands of repositories compromised in supply chain attack
 - [[hantavirus-cruise-outbreak-2026-05-17]] — Hantavirus outbreak on cruise ship spreads to North America — first Canadian case confirmed in B.C.; ship docked Netherlands for disinfection; drawing comparisons to early Covid response
 - [[iran-us-diplomacy-2026-05-18]] — Iran submits revised proposal to end war to US via Pakistani intermediary; Trump warns clock is ticking as drone attacks hit UAE and Saudi Arabia
 - [[jwst-early-galaxies-2026-05-17]] — James Webb Space Telescope observing 13-billion-year-old galaxies that shouldn't exist according to pre-launch cosmological models; continuing to challenge established theory
 - [[natural-hydrogen-discovery-2026-05-20]] — Scientists discover massive natural hydrogen deposit in Canada — potential clean energy breakthrough
+- [[russia-china-condemn-us-castro-indictment-2026-05-21]] — China and Russia jointly condemn US indictment of Raúl Castro — great-power signaling on same day as Xi-Putin summit
 - [[samsung-strike-2026-05-20]] — ~50,000 Samsung workers in South Korea preparing to strike — major risk to global chip supply
 - [[scotus-voting-rights-2026-05-18]] — Supreme Court voting rights ruling impacting local level; Black Democrats warn minority-majority legislative districts at risk; accusations of 'Jim Crow 2.0' redistricting tactics
+- [[smile-satellite-earth-magnetosphere-2026-05-21]] — European-Chinese SMILE satellite launched to image Earth's magnetosphere — the protective magnetic shield that defends life against solar wind
+- [[sti-record-levels-europe-2026-05-21]] — Record STI levels in Europe: gonorrhoea up 303% since 2015, syphilis doubled — congenital cases nearly doubled
+- [[strait-of-hormuz-iran-claim-2026-05-21]] — Iran creates "Persian Gulf Strait Authority" claiming control over 22,000+ sq km — challenge to US naval dominance of critical oil chokepoint
 - [[trump-approval-war-polling-2026-05-18]] — NYT polling shows Trump's approval sinking amid unpopular Iran war, darkening GOP electoral prospects for 2026 midterms
+- [[trump-iran-diplomacy-threats-2026-05-21]] — Trump alternates between military threats and diplomatic hope as Iran submits 14-point peace plan — fragile ceasefire with drone attacks continuing against US allies
 - [[trump-massie-primary-2026-05-17]] — Trump launches aggressive purge of Republican critic Thomas Massie in Kentucky primary; Bill Cassidy defeated in Louisiana; Massie calls himself 'unfazed
 - [[trump-prayer-rally-2026-05-18]] — Trump-backed prayer festival drew thousands to National Mall for America's 250th birthday celebration; Trump and administration officials addressed Christian gathering
 - [[uk-russia-oil-sanctions-2026-05-20]] — UK eases Russian oil sanctions as fuel prices soar — potential weakening of sanctions regime
+- [[us-flight-diverts-ebola-passenger-2026-05-21]] — Air France flight to Detroit diverted to Montreal after passenger from DRC Ebola region boarded in error — first visible travel restriction from WHO emergency
 - [[xi-putin-summit-2026-05-20]] — Xi and Putin meet in Beijing; Xi warns of 'law of the jungle' in rare display of alliance
 - [[bill-cassidy-republican-senator-who-voted-to-convict-trump-l]] — Trump-backed challenger defeats Bill Cassidy in Republican primary — the seventh Republican to lose a primary after voting to convict Trump.
 - [[canadian-from-cruise-ship-tests-positive-for-hantavirus]] — Hantavirus case on a previously affected cruise ship highlights enclosed-environment transmission risk.
@@ -236,6 +255,7 @@ type: index
 - [[taiwan-reaffirms-independence-despite-trump-warning]] — Taiwan publicly reasserts sovereignty after Trump's warning, exposing divergence between US ambiguity and Taipei's own messaging.
 - [[uae-reports-drone-strike-near-abu-dhabi-nuclear-power-plant]] — Drone strike near UAE's Barakah nuclear plant — the Arab world's first civilian reactor — exposes nuclear site vulnerability.
 - [[who-declares-ebola-outbreak-in-dr-congo-an-international-eme]] — WHO declares DR Congo Ebola outbreak a global health emergency, its highest alert tier.
+- [[agent-lab-2501.04227]] — 
 - [[awesome-code-as-agent-harness]] — Survey companion repo organizing 200+ papers on code as executable harness for LLM agents — three-layer framework: interface, mechanisms, scaling
 - [[bae-lmac-2026]] — LMAC uses an LLM as a protocol designer for cooperative multi-agent RL — iteratively refining agent-wise communication schemas via a state-awareness criterion (SAI) that measures per-dimension reconstruction accuracy and inter-agent knowledge imbalance
 - [[bae-mor-2025]] — Bae et al. (2025) — Mixture-of-Recursions: dynamic per-token recursion depth in shared-parameter transformers; expert-choice and token-choice routing; recursion-wise KV caching; 47% fewer params, 2x throughput; provides the adaptive-depth execution substrate for EML compiled transformers
@@ -244,9 +264,12 @@ type: index
 - [[code-as-agent-harness]] — Survey on code as operational substrate ("harness") for agentic AI systems
 - [[ctx2skill]] — Self-evolving multi-agent framework that autonomously discovers natural-language skills from complex contexts via adversarial self-play — no human annotation, no external feedback.
 - [[decoupling-perception-reasoning-vlm-post-training]] — Post-training VLMs with decoupled perception and reasoning modules improves visual task performance — challenging the long-CoT assumption
+- [[deepweb-bench-2026]] — DeepWeb-Bench: deep research benchmark — derivation/calibration failures dominate over retrieval; cross-model rho=0.61
 - [[eidetic-learning-2021]] — Summary of Eidetic Learning: An Efficient and Provable Solution to Catastrophic Forgetting — solving catastrophic forgetting via structured pruning and disjoint subnetworks.
+- [[equilibrium-reasoners-eqr-2026]] — Equilibrium Reasoners: test-time scaling via learned attractor landscapes, 2.6%→99% on Sudoku-Extreme
 - [[futuresim-adaptive-agents]] — FutureSim replays real-world news chronologically to evaluate agent world-modelling; best frontier agent achieves only 25% accuracy, exposing severe gaps in open-ended temporal adaptation.
 - [[is-grep-all-you-need]] — Grep often outperforms vector retrieval in agentic search; harness architecture and tool result presentation matter more than retrieval strategy.
+- [[kalra-barkeshli-hyperparameter-transfer-2026]] — μP's advantage over SP: almost entirely from maximizing embedding layer LR — simple fix resolves training instability bottleneck
 - [[kim-ahn-edm-2026]] — Kim, Kojaku & Ahn (Science Advances 2026) — introduces EDM embedding-based disruption metric; outperforms CD index; detects simultaneous discoveries via future vector nearest-neighbor clustering
 - [[ma-sd-search-2026]] — SD-Search: On-policy hindsight self-distillation for step-level credit assignment in search-augmented reasoning
 - [[odrzywolek-eml-2026]] — Odrzywołek (2026) — discovery of the EML operator eml(x,y)=exp(x)−ln(y), a single binary primitive generating all elementary functions from constant 1, with applications to symbolic regression via gradient-trainable binary trees

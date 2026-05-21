@@ -1,15 +1,8 @@
 ---
-summary: arxiv daily report 2026-05-21: no new papers, rate-limited on arXiv, wiki ingestion timeline empty
-tags: [arxiv, daily-report]
-updated: 2026-05-21T16:02:16Z
-created: 2026-05-21T16:02:16Z
----
-
----
 created: 2026-05-21T10:00:00Z
 updated: 2026-05-21T10:00:00Z
 type: report
-summary: "No new arXiv papers today — rate-limited on external search; wiki has no recently ingested papers"
+summary: "arxiv daily report 2026-05-21: no new arXiv submissions — latest batch is 2026-05-20 (already processed yesterday); arXiv API confirms no 2026-05-21 batch posted yet"
 tags: [arxiv, daily-report]
 sources: []
 status: active
@@ -18,35 +11,41 @@ confidence: high
 
 # arxiv Report — 2026-05-21
 
-## Papers Processed
+## Status: No New Papers
 
-**No new arXiv papers today.** 
+Today's arXiv search returned **zero new submissions** from 2026-05-21.
 
-Two avenues were checked:
-1. **Wiki ingestion timeline** — `synapse_timeline(entity="paper")` returned empty; no papers have been ingested into the wiki recently
-2. **arXiv external search** — Rate limit exceeded on both initial query and 15s-retry attempt; skipped per operating guide fallback rule
+The latest batch in the API is dated **2026-05-20** — the same batch that was already ingested in yesterday's report:
 
-## Context
+| Paper | arXiv ID | Key Finding |
+|-------|----------|-------------|
+| Equilibrium Reasoners (EqR) | 2605.21488 | Learned attractor landscapes → 2.6%→99% on Sudoku-Extreme |
+| DeepWeb-Bench | 2605.21482 | Derivation + calibration failures (>70%) dominate over retrieval |
+| Kalra & Barkeshli | 2605.21486 | μP advantage stems from maximizing embedding layer LR |
 
-arXiv submissions are posted in the late afternoon US time. The last successful ingestion was **2026-05-18** (3 papers: EnvFactory, SD-Search, LMAC — all on credit assignment in distributed/agentic systems). The 2026-05-20 run found nothing new at that time of day.
+All three were ingested and written to the wiki in yesterday's run.
 
-Today's run executed ~10:00 UTC — likely still before the day's main arXiv batch appears. The rate limit is an transient external condition, not a content finding.
+## arXiv API Check
+
+- Searched: `cat:cs.AI OR cat:cs.LG OR cat:cs.CL` — top 50 results sorted by submittedDate descending
+- Most recent submission date in API: **2026-05-20**
+- Papers from 2026-05-21: **0**
+- arXiv submission cycle: weekdays only, late-UTC afternoon/evening. A batch for 2026-05-21 may not have been posted yet at time of this run.
+
+## Thematic Threads (carryover from yesterday)
+
+The 2026-05-20 batch introduced three strong threads worth tracking:
+
+1. **Reasoning as Dynamical Systems** — EqR (attractors) + Chen molecular CoT + self-prompting architecture all point to reasoning as navigation in latent fixed-point landscapes
+2. **Derivation > Retrieval as Agent Failure Mode** — confirmed independently by DeepWeb-Bench and FutureSim — the bottleneck is not retrieval but correct consequence-tracing
+3. **Embedding Layer as Training Stability Bottleneck** — Kalra & Barkeshli's simple finding has large-scale implications for μP transfer
 
 ## Wiki State
 
-The wiki has 289 pages. Recent paper sources (`wiki/sources/papers/`) include:
+No changes to wiki/sources/papers/ today — yesterday's 3 new pages remain the current state.
 
-| Paper | Filed | Relevance |
-|-------|-------|-----------|
-| [[chen-molecular-cot-2026]] | Molecular CoT: three-bond structure of Long CoT reasoning | High — connects to [[self-prompting-via-production-stage-architecture]] |
-| [[waldis-2026-instructions-shape-production]] | Instructions affect production tokens but not processing tokens | High — connects to [[brocas-area]] / [[wernickes-area]] |
-| [[bae-mor-2025]] | Mixture-of-Recursions: adaptive per-token recursion depth | High — connects to [[eml-operator]] and [[compiled-transformer]] |
-| [[odrzywolek-eml-2026]] | EML operator as single primitive for elementary functions | High — connects to [[sheffer-stroke]] and [[minimal-generative-architectures]] |
-| [[ramirez-ruiz-mop-2024]] | Maximum Occupancy Principle (MOP) | Core — [[efhf]] Layer 0 |
-| [[odrzywolek-eml-2026]] | EML operator | Core — [[efhf]] L-1 computational primitive |
+## Next Run
 
-## Jobs Sheet Update
-
-- **Status**: complete (no new papers found)
-- **arXiv rate-limited**: next run should succeed or wait longer before retry
-- **Next run**: daily at 10:00 UTC — no action needed
+- arXiv typically posts new batches on weekdays (Mon–Fri) in the late afternoon UTC
+- Next run should pick up any 2026-05-21 or 2026-05-22 submissions that arrive before then
+- Theme to watch: **test-time compute scaling** continues to dominate — EqR, RLVR training, and minimal RLVR variants all intersect here

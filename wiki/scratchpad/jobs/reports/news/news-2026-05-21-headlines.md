@@ -1,106 +1,81 @@
 ---
-summary: Global news headlines for May 21, 2026 — 9 stories across geopolitics, science, health, and space
-tags: [['news', 'global', 'headlines', '2026-05']]
-updated: 2026-05-21T16:44:17Z
-created: 2026-05-21T16:44:17Z
+summary: Global news headlines for May 21, 2026 — 6 stories across geopolitics, aviation accountability, health, and STI epidemic
+tags: [news, daily, global-news, report, 2026-05-21]
+updated: 2026-05-21T19:31:17Z
 ---
 
-# Global News Headlines — May 21, 2026
-
-## Top Stories
-
-### 1. Iran Reviewing US Peace Proposal — Clock Ticking ⏱️
-**Region**: Middle East / Global Geopolitics  
-**Significance**: The Iran war continues. Tehran says it's mulling the latest US peace proposal; Trump says he'll wait "a couple of days" before deciding next move. Drone attacks on UAE and Saudi Arabia reported in recent days. This is the most consequential ongoing diplomacy thread — a single miscalculation away from escalation.  
-**Wiki status**: Monitor — connects to `wiki/sources/news/2026-05/iran-us-diplomacy-2026-05-18.md`  
-**Sources**: [CBS News](https://www.cbsnews.com), [Al Jazeera](https://www.aljazeera.com), [Times of Israel](https://www.timesofisrael.com)
-
+---
+summary: Global news headlines for May 21, 2026 — 6 stories across geopolitics, aviation accountability, health, and STI epidemic
+tags: [news, daily, global-news, report, 2026-05-21]
+confidence: high
+status: active
+created: 2026-05-21
+updated: 2026-05-21
+type: summary
 ---
 
-### 2. China Defends Cuba Against US "Threats" 🌏
-**Region**: East Asia / Latin America  
-**Significance**: China called on the US to stop "threats" against Cuba after former Cuban leader Raúl Castro was charged by the Trump DOJ. Cuba is experiencing blackouts and growing fear of US military action. This is a direct great-power signalling moment — China publicly backing Cuba as Xi and Putin meet in Beijing. Institutional capture vs species framing plays here: the framing is "China defends Cuba," the substrate is great-power alliance signalling.  
-**Wiki status**: ingested — `wiki/sources/news/2026-05/china-cuba-us-threats-2026-05-21.md`  
-**Sources**: [BBC](https://www.bbc.com), [AP News](https://apnews.com), [The Guardian](https://www.theguardian.com)
+# News Report — 2026-05-21
 
----
+## Stories Ingested
 
-### 3. Xi-Putin Summit: "Law of the Jungle" Warning 🐉
-**Region**: Eurasia  
-**Significance**: Xi and Putin met in Beijing. Xi warned of "law of the jungle" in a rare display of alliance. This is the continuation of the strategic alignment that accelerated after the Ukraine war began. The US simultaneously pressing Cuba (via DOJ charges) while China backs Cuba creates a multipolar great-power alignment map that will matter for AI governance, tech sanctions, and research access.  
-**Wiki status**: ingested — connects to `wiki/sources/news/2026-05/xi-putin-summit-2026-05-20.md`  
-**Sources**: [BBC](https://www.bbc.com)
+1. **Air France and Airbus Convicted of Manslaughter Over 2009 Crash**
+   - Region: France / Global Aviation
+   - Significance: First-ever corporate manslaughter conviction in France for Air France Flight AF447 (228 dead). Landmark ruling sets global precedent for aviation industry accountability.
+   - Wiki status: ingested → [[wiki/sources/news/2026-05/air-france-airbus-manslaughter-2009-2026-05-21]]
+   - Graph: 96 nodes, 42 edges
 
----
+2. **Iran Creates "Persian Gulf Strait Authority" — Claims Control Over 22,000+ sq km**
+   - Region: Middle East / Global Oil
+   - Significance: Direct challenge to US naval dominance of the world's most critical oil chokepoint. Claim includes Omani and UAE territorial waters, escalating Strait of Hormuz tensions.
+   - Wiki status: ingested → [[wiki/sources/news/2026-05/strait-of-hormuz-iran-claim-2026-05-21]]
+   - Graph: 74 nodes, 44 edges
 
-### 4. SMILE Mission — European-Chinese Satellite Studying Earth's Magnetic Shield 🛰️
-**Region**: Science / Space  
-**Significance**: A joint European-Chinese satellite (SMILE — Solar CUbesats for Imaging the Magnetosphere) launched on Vega-C. It will study how Earth survives solar storms — the magnetosphere that protects life from solar wind. This is the first direct imaging of the protective bubble. Connected to the entropic machinery thread: the flagellar motor's proton motive force is also a boundary entropy management system. The magnetosphere is Earth's equivalent — life maintaining non-equilibrium against entropic pressure.  
-**Wiki status**: ingested — `wiki/sources/news/2026-05/smile-satellite-earth-magnetosphere-2026-05-21.md`  
-**Sources**: [Space Daily](https://spacedaily.com), [ESA](https://www.esa.int), [ScienceAlert](https://www.sciencealert.com)
+3. **Trump Oscillates Between Diplomacy and Military Threats in Iran Standoff**
+   - Region: US / Iran / Middle East
+   - Significance: Fragile ceasefire holds but Trump alternates between threats and diplomatic overtures. Iran submitted a 14-point peace plan while drone attacks continue against US allies UAE and Saudi Arabia.
+   - Wiki status: ingested → [[wiki/sources/news/2026-05/trump-iran-diplomacy-threats-2026-05-21]]
+   - Graph: 3 nodes, 8 edges
 
----
+4. **Russia and China Condemn US Over Raúl Castro Indictment**
+   - Region: Great Powers / Cuba
+   - Significance: US indictment of former Cuban leader for 1996 plane shootdown triggers joint China-Russia condemnation. Great-power tension signaling coincides with Xi-Putin summit aftermath.
+   - Wiki status: ingested → [[wiki/sources/news/2026-05/russia-china-condemn-us-castro-indictment-2026-05-21]]
+   - Graph: 4 nodes, 10 edges
 
-### 5. DNC 2024 Autopsy — Internal Blame Game 🎯
-**Region**: US Domestic  
-**Significance**: Democrats released their post-2024 election autopsy. The report faults Biden, Harris, and others — but the DNC immediately disavowed its own report. The Trump $1.8B "anti-weaponization" fund is being challenged in court; police are suing Trump over it. This is political theater, but the institutional clarity problem (DNC can't own its own analysis) is notable for governance watchers.  
-**Wiki status**: Flagged — not ingested (domestic US political play)  
-**Sources**: [CNN](https://cnn.com), [NYT](https://nytimes.com), [Washington Post](https://washingtonpost.com), [Politico](https://politico.com)
+5. **US-Bound Flight Diverts After Ebola-Affected Passenger Boards in Error**
+   - Region: Global Health / Aviation
+   - Significance: Air France Paris-Detroit flight diverted to Montreal after DRC passenger subject to US entry restrictions was mistakenly allowed aboard. First visible travel restriction from WHO emergency declaration.
+   - Wiki status: ingested → [[wiki/sources/news/2026-05/us-flight-diverts-ebola-passenger-2026-05-21]]
+   - Graph: 55 nodes, 27 edges
 
----
-
-### 6. China Crewed Moon Mission Expected 2027 🚀
-**Region**: Space / Great Power Competition  
-**Significance**: NASA Administrator Isaacman expects a Chinese crewed mission around the moon in 2027. The Artemis vs Chinese moon race is entering a new phase. This connects to the space governance thread — no clear legal framework for lunar resource claims.  
-**Wiki status**: ingested — connects to existing space race monitoring  
-**Sources**: [SpaceNews](https://spacenews.com), [India Today](https://indiatoday.in)
-
----
-
-### 7. Air France Flight Diverted to Montreal — Ebola Travel Restrictions 🦠
-**Region**: Global Health  
-**Significance**: An Air France flight bound for the US was diverted to Montreal after a passenger from the DRC Ebola outbreak region boarded "in error." This is the Ebola outbreak's direct effect on international travel. WHO declared the outbreak an international emergency. The continuing spillover into travel restrictions, flight diversions, and border controls is a real-time test of global health governance infrastructure.  
-**Wiki status**: ingested — `wiki/sources/news/2026-05/ebola-travel-restriction-2026-05-21.md`  
-**Sources**: [ABC News](https://abcnews.com), [BBC](https://www.bbc.com), [NBC News](https://nbcnews.com)
-
----
-
-### 8. Measles Outbreak in Bangladesh — US Health Experts Concerned 🩺
-**Region**: South Asia / Global Health  
-**Significance**: A massive measles outbreak in Bangladesh is raising concerns among US health experts. The outbreak has crossed into Mexico from Texas. This is a reminder that routine vaccine-preventable diseases remain a significant global health risk, and the surveillance infrastructure is strained.  
-**Wiki status**: Monitor only  
-**Sources**: [CBS News](https://www.cbsnews.com), [The Economist](https://economist.com)
-
----
-
-### 9. Chirality Origin Mystery — 150-Year-Old Puzzle Solved? ⚛️
-**Region**: Science  
-**Significance**: Scientists may have solved why most biological molecules are "right-handed" (homochirality). An elusive electronic effect may explain the origin of chirality for all life on Earth. This is fundamental — the handedness of life is one of the deepest puzzles in abiogenesis. Connected to the entropic machinery + molecular self pattern in SEG research.  
-**Wiki status**: ingested — `wiki/sources/news/2026-05/chirality-origin-life-2026-05-20.md`  
-**Sources**: [Phys.org](https://phys.org), [Popular Mechanics](https://popularmechanics.com), [Chemistry World](https://chemistryworld.com)
-
----
+6. **Record STI Levels in Europe: Gonorrhoea Up 303%, Syphilis Doubled**
+   - Region: Europe / Public Health
+   - Significance: ECDC data shows gonorrhoea (106,331 cases) and syphilis (45,557 cases) at record highs. Congenital syphilis nearly doubled — healthcare systems under strain.
+   - Wiki status: ingested → [[wiki/sources/news/2026-05/sti-record-levels-europe-2026-05-21]]
+   - Graph: 1 node, 1 edge
 
 ## Wiki Updates
-- **New pages**: 4 (China-Cuba, SMILE satellite, Ebola travel, chirality)
-- **Updated pages**: 2 (Iran diplomacy continuation, Xi-Putin)
-- **Cross-links added**: 6
 
-## Excluded (monitor only)
-- Aaron Rodgers retirement — sports, not research-relevant
-- School shooting charges dismissed — US domestic crime story
-- Trump IRS settlement — US domestic political, limited global significance
-- NASA Psyche spacecraft — covered recently in existing stories
+- New source pages: 6
+- Graph nodes added: ~233
+- Graph edges added: ~132
+- Facts remembered to timeline: 4
 
 ## Notable Patterns
 
-1. **Great power realignment deepening**: Xi-Putin + China defending Cuba simultaneously = multipolar signaling. US pressing on multiple fronts (Cuba, Iran, tariffs) while domestic politics is fractious.
+1. **Middle East flashpoint** — Strait of Hormuz emerges as the central maritime crisis: Iran's new strait authority + fragile ceasefire + drone attacks on US allies = highest risk of renewed hostilities
+2. **Great power coordination against US** — China and Russia acting in concert (Castro indictment, Xi-Putin summit backdrop) signals coordinated anti-US messaging
+3. **Aviation accountability milestone** — First corporate manslaughter conviction in France sets legal precedent that could affect AI/digital sector liability discussions
+4. **Ebola travel friction** — First visible travel restriction from WHO emergency; screening protocol gaps now becoming operational reality
 
-2. **Ebola outbreak is having real travel/infrastructure effects**: Not just a health story — flight diversions, quarantine orders, border controls. The WHO emergency declaration is being operationalized.
+## Excluded (monitor only)
 
-3. **Science keeps delivering**: SMILE mission (Earth's magnetic shield), chirality origin, PSYCHE spacecraft, NASA's metal-rich asteroid mission — all happening simultaneously.
+- California AI executive order (already covered in 2026-05-20 research threads; not a fast-breaking story)
+- Hantavirus cruise outbreak (continuing story from 2026-05-17; already ingested)
+- No celebrity, sports, or entertainment stories
 
-4. **Iran diplomacy is the most consequential open thread**: If Iran accepts the proposal, it reshapes the Middle East. If it doesn't, the war continues and probably escalates.
+## Sources
 
----
-*Report date: 2026-05-21 | Next run: 2026-05-22 8AM*
+- BBC News (Air France/Airbus verdict, Strait of Hormuz, Castro indictment, Ebola flight, European STIs)
+- Al Jazeera (Trump-Iran oscillation)
+- ECDC data (STI statistics)

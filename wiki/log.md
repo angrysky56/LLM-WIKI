@@ -3385,3 +3385,15 @@ Index updated with 280 pages
   - [[graph-rlm]] → [[efhf]] (no return link)
   - [[graph-rlm]] → [[agem]] (no return link)
   - [[markovian-carryover]] → [[persistent-knowledge-compilation]] (no return link)
+
+## [2026-05-21 06:26] write
+
+Updated page: wiki/concepts/affective-ai-inner-architecture.md
+
+## [2026-05-21 06:26] index
+
+Index updated with 281 pages
+
+## [2026-05-21 07:05] write
+
+Updated page: wiki/concepts/metacognitive-architecture-closed-loop-self-regulation.md

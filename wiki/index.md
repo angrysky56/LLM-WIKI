@@ -1,5 +1,5 @@
 ---
-updated: 2026-05-18T16:33:03Z
+updated: 2026-05-20T18:18:24Z
 type: index
 ---
 
@@ -137,9 +137,21 @@ type: index
 - [[ingest]] — Agent instructions for llm-wiki-raw-ingest cron job
 - [[librarian]] — Agent instructions for Wiki Librarian cron job
 - [[news]] — Agent instructions for world-news-daily cron job
-- [[orcaid]] — Agent instructions for OrCAID verification cron job
+- [[orcaid]] — Agent instructions for OrCAID multi-agent delegation — task types, execution mechanisms, and workflow
 - [[researcher]] — Agent instructions for Wiki Researcher cron job
+- [[arxiv-2026-05-19-top-papers]] — 
+- [[arxiv-2026-05-20-top-papers]] — No new arXiv papers today; yesterday's report had 3 fresh papers from 2026-05-18
+- [[carryover]] — 
+- [[papers-2026-05-19-researched]] — Three papers on production LLM agent architecture, VLM reasoning decoupling, and agentic clinical evidence seeking
+- [[papers-2026-05-20]] — Three papers on production LLM agent architecture, VLM reasoning decoupling, and agentic clinical evidence seeking
+- [[carryover]] — 
+- [[ingest-2026-05-20]] — 
+- [[audit-2026-05-19]] — 
+- [[audit-2026-05-20]] — 
+- [[librarian-2026-05-19-missing-agent-sheet]] — 
+- [[carryover]] — News agent carryover — AI supply chain fragility, great power realignment, energy transition shifts
 - [[news-2026-05-18-headlines]] — Global news headlines for May 18, 2026 — Iran diplomacy, Trump polling, asteroid, JWST, hantavirus, SCOTUS, Massie primary, prayer rally
+- [[news-2026-05-20-headlines]] — Global news headlines for May 20, 2026 — 7 stories across geopolitics, AI/tech, science, health, and energy
 - [[sheet]] — Central task board for agent job dispatch
 - [[agem-ooe]] — 
 - [[brocas-area-gemini-chat]] — Source summary for Gemini chat on Broca's area and LLM analogies.
@@ -190,14 +202,21 @@ type: index
 - [[subagent-delegation-hermes-agent]] — 
 - [[wolfram-nks-causal-networks]] — Wolfram's NKS excerpt on causal networks and spacetime.
 - [[mixture-of-recursions]] — MoR unifies parameter sharing and adaptive token-level computation via learned recursive depth routing — connects to causal state assignment and compiled-transformer execution models.
+- [[alzheimers-breakthrough-2026-05-20]] — Researchers discover hidden Alzheimer's trigger and demonstrate successful intervention in models
 - [[asteroid-2026-jh2-2026-05-18]] — Newly discovered asteroid 2026 JH2, size of a blue whale, to narrowly miss Earth — discovered only days earlier; ranked zero on Torino impact hazard scale
+- [[ebola-outbreak-drc-2026-05-20]] — WHO reports 600+ suspected Ebola cases, 139 deaths in rapidly expanding DRC outbreak
+- [[github-data-breach-2026-05-20]] — GitHub confirms major data breach; thousands of repositories compromised in supply chain attack
 - [[hantavirus-cruise-outbreak-2026-05-17]] — Hantavirus outbreak on cruise ship spreads to North America — first Canadian case confirmed in B.C.; ship docked Netherlands for disinfection; drawing comparisons to early Covid response
 - [[iran-us-diplomacy-2026-05-18]] — Iran submits revised proposal to end war to US via Pakistani intermediary; Trump warns clock is ticking as drone attacks hit UAE and Saudi Arabia
 - [[jwst-early-galaxies-2026-05-17]] — James Webb Space Telescope observing 13-billion-year-old galaxies that shouldn't exist according to pre-launch cosmological models; continuing to challenge established theory
+- [[natural-hydrogen-discovery-2026-05-20]] — Scientists discover massive natural hydrogen deposit in Canada — potential clean energy breakthrough
+- [[samsung-strike-2026-05-20]] — ~50,000 Samsung workers in South Korea preparing to strike — major risk to global chip supply
 - [[scotus-voting-rights-2026-05-18]] — Supreme Court voting rights ruling impacting local level; Black Democrats warn minority-majority legislative districts at risk; accusations of 'Jim Crow 2.0' redistricting tactics
 - [[trump-approval-war-polling-2026-05-18]] — NYT polling shows Trump's approval sinking amid unpopular Iran war, darkening GOP electoral prospects for 2026 midterms
 - [[trump-massie-primary-2026-05-17]] — Trump launches aggressive purge of Republican critic Thomas Massie in Kentucky primary; Bill Cassidy defeated in Louisiana; Massie calls himself 'unfazed
 - [[trump-prayer-rally-2026-05-18]] — Trump-backed prayer festival drew thousands to National Mall for America's 250th birthday celebration; Trump and administration officials addressed Christian gathering
+- [[uk-russia-oil-sanctions-2026-05-20]] — UK eases Russian oil sanctions as fuel prices soar — potential weakening of sanctions regime
+- [[xi-putin-summit-2026-05-20]] — Xi and Putin meet in Beijing; Xi warns of 'law of the jungle' in rare display of alliance
 - [[bill-cassidy-republican-senator-who-voted-to-convict-trump-l]] — Trump-backed challenger defeats Bill Cassidy in Republican primary — the seventh Republican to lose a primary after voting to convict Trump.
 - [[canadian-from-cruise-ship-tests-positive-for-hantavirus]] — Hantavirus case on a previously affected cruise ship highlights enclosed-environment transmission risk.
 - [[fpv-drone-strikes-show-hezbollahs-changing-tactics-against-i]] — Hezbollah's FPV drone videos reveal a qualitative leap in precision — commercial drones repurposed as guided munitions against Israel.
@@ -210,20 +229,28 @@ type: index
 - [[taiwan-reaffirms-independence-despite-trump-warning]] — Taiwan publicly reasserts sovereignty after Trump's warning, exposing divergence between US ambiguity and Taipei's own messaging.
 - [[uae-reports-drone-strike-near-abu-dhabi-nuclear-power-plant]] — Drone strike near UAE's Barakah nuclear plant — the Arab world's first civilian reactor — exposes nuclear site vulnerability.
 - [[who-declares-ebola-outbreak-in-dr-congo-an-international-eme]] — WHO declares DR Congo Ebola outbreak a global health emergency, its highest alert tier.
+- [[awesome-code-as-agent-harness]] — Survey companion repo organizing 200+ papers on code as executable harness for LLM agents — three-layer framework: interface, mechanisms, scaling
+- [[bae-lmac-2026]] — LMAC leverages LLM reasoning to design communication protocols that enable multi-agent RL systems to reconstruct underlying states accurately and uniformly
 - [[bae-mor-2025]] — Bae et al. (2025) — Mixture-of-Recursions: dynamic per-token recursion depth in shared-parameter transformers; expert-choice and token-choice routing; recursion-wise KV caching; 47% fewer params, 2x throughput; provides the adaptive-depth execution substrate for EML compiled transformers
 - [[chen-molecular-cot-2026]] — Chen et al. (2026) — Long CoT reasoning has stable molecular-like structure with three "bonds" (Deep-Reasoning ≈ covalent, Self-Reflection ≈ hydrogen, Self-Exploration ≈ van der Waals); attention weights ↔ Boltzmann distribution; effective transfer is structural, not lexical; Mole-Syn synthesizes Long CoT via distribution-transfer graphs without distillation.
+- [[clinseekagent-multimodal-clinical-evidence-seeking]] — ClinSeekAgent automates multimodal evidence seeking for agentic clinical reasoning — addressing the gap where evidence is assumed rather than retrieved
+- [[code-as-agent-harness]] — Survey on code as operational substrate ("harness") for agentic AI systems
 - [[ctx2skill]] — Self-evolving multi-agent framework that autonomously discovers natural-language skills from complex contexts via adversarial self-play — no human annotation, no external feedback.
+- [[decoupling-perception-reasoning-vlm-post-training]] — Post-training VLMs with decoupled perception and reasoning modules improves visual task performance — challenging the long-CoT assumption
 - [[eidetic-learning-2021]] — Summary of Eidetic Learning: An Efficient and Provable Solution to Catastrophic Forgetting — solving catastrophic forgetting via structured pruning and disjoint subnetworks.
 - [[futuresim-adaptive-agents]] — FutureSim replays real-world news chronologically to evaluate agent world-modelling; best frontier agent achieves only 25% accuracy, exposing severe gaps in open-ended temporal adaptation.
 - [[is-grep-all-you-need]] — Grep often outperforms vector retrieval in agentic search; harness architecture and tool result presentation matter more than retrieval strategy.
 - [[kim-ahn-edm-2026]] — Kim, Kojaku & Ahn (Science Advances 2026) — introduces EDM embedding-based disruption metric; outperforms CD index; detects simultaneous discoveries via future vector nearest-neighbor clustering
+- [[ma-sd-search-2026]] — SD-Search: On-policy hindsight self-distillation for step-level credit assignment in search-augmented reasoning
 - [[odrzywolek-eml-2026]] — Odrzywołek (2026) — discovery of the EML operator eml(x,y)=exp(x)−ln(y), a single binary primitive generating all elementary functions from constant 1, with applications to symbolic regression via gradient-trainable binary trees
 - [[opendeepthink-parallel-reasoning]] — Pairwise Bradley-Terry ranking aggregates noisy LLM judgments for robust parallel reasoning; +405 Elo on Codeforces in 8 rounds, model-agnostic transfer.
+- [[production-llm-agent-runtime-architecture-patterns]] — A methodology for composing production LLM agent runtime architectures — treating the LLM/software boundary as a first-class design concern
 - [[ramirez-ruiz-mop-2024]] — Ramírez-Ruiz et al. (Nature Communications 2024) — Maximum Occupancy Principle: agents maximize future action-state path entropy instead of extrinsic reward, producing complex goal-directed behavior from intrinsic motivation alone
 - [[reward-inside-model-elhsr]] — Efficient Linear Hidden State Reward (ELHSR): A lightweight reward model (<0.005% parameters) using internal LLM hidden states for Best-of-N sampling.
 - [[utimula-openpraparat-2025]] — Utimula (2025) — guideless ALife model combining Tierra gene mechanics with 3D virtual creatures; no fitness function; emergent reproduction (binary fission, budding), protective organs, and energy transport networks via mutation + natural selection
 - [[waldis-2026-instructions-shape-production]] — Waldis et al. (2026) — Instructions affect LLM production (output tokens) but not processing (input tokens); causal attention interventions confirm; asymmetry sharpens with scale and instruction-tuning; parallels human Broca's/Wernicke's dissociation.
 - [[why-llms-arent-scientists-yet]] — Source summary for Why LLMs Aren't Scientists Yet.
+- [[xu-envfactory-2026]] — EnvFactory: Automated synthesis of executable MCP tool environments for agentic RL training, using topology-aware graph sampling and calibrated query refinement to produce realistic multi-turn trajectories with implicit human intents.
 - [[agem]] — Source summary for AGEM repository.
 - [[cli-printing-press]] — Agent-first CLI generator that reverse-engineers APIs and prints Go CLI + MCP server + Claude Code skill for any API or website. Local SQLite, compound commands, NOI-driven design.
 - [[get-shit-done]] — 

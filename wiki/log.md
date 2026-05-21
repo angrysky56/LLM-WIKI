@@ -2325,3 +2325,1063 @@ Updated page: wiki/scratchpad/jobs/reports/arxiv/arxiv-2026-05-20-top-papers.md
 ## [2026-05-19 19:03] write
 
 Updated page: wiki/scratchpad/jobs/reports/arxiv/carryover.md
+
+## [2026-05-20 14:08] ingest | xi-basks-in-spotlight-as-he-hosts-putin-days-after-trump.md
+
+Ingested raw/xi-basks-in-spotlight-as-he-hosts-putin-days-after-trump.md into knowledge graph.
+
+Preview: Spot the difference: How do Trump and Putin's China visits compare?  Cheering children - check. Military honour guard – check. Cannon fire and marching band - check.  Vladimir Putin's welcome outside ...
+
+## [2026-05-20 14:09] ingest | github-says-hackers-stole-data-from-thousands-of-internal-re.md
+
+Ingested raw/github-says-hackers-stole-data-from-thousands-of-internal-re.md into knowledge graph.
+
+Preview: GitHub, the popular developer platform owned by Microsoft, confirmed it was hacked and attackers had stolen data from around 3,800 internal code repositories.  The code hosting and sharing giant said ...
+
+## [2026-05-20 14:10] ingest | scientists-found-a-hidden-alzheimers-trigger-and-shut-it-dow.md
+
+Ingested raw/scientists-found-a-hidden-alzheimers-trigger-and-shut-it-dow.md into knowledge graph.
+
+Preview: Science News  ---  Date:  May 20, 2026  Source:  Indiana University  Summary:  A newly identified enzyme called IDOL could become a major new target in the fight against Alzheimer’s disease. Researche...
+
+## [2026-05-20 14:11] ingest | scientists-discover-massive-natural-hydrogen-source-beneath-.md
+
+Ingested raw/scientists-discover-massive-natural-hydrogen-source-beneath-.md into knowledge graph.
+
+Preview: Science News  ---  Date:  May 20, 2026  Source:  University of Toronto  Summary:  Scientists in Canada have discovered that ancient underground rocks are naturally producing hydrogen gas — and lots of...
+
+## [2026-05-20 14:12] ingest | why-are-nearly-50000-samsung-workers-about-to-strike-in-sout.md
+
+Ingested raw/why-are-nearly-50000-samsung-workers-about-to-strike-in-sout.md into knowledge graph.
+
+Preview: ![samsung](https://www.aljazeera.com/wp-content/uploads/2026/05/2026-05-20T045522Z_161452686_RC2RCLAGYCP3_RTRMADP_3_SAMSUNG-DISPUTE-1779267738.jpg?resize=770%2C513&quality=80)  A flag bearing the logo...
+
+## [2026-05-20 14:13] ingest | who-says-600-suspected-cases-139-deaths-in-growing-ebola-out.md
+
+Ingested raw/who-says-600-suspected-cases-139-deaths-in-growing-ebola-out.md into knowledge graph.
+
+Preview: ![WHO Director-General Tedros Adhanom Ghebreyesus speaks during a press conference on Ebola outbreak in Democratic Republic of Congo and Uganda, in Geneva, on May 20, 2026.](https://www.aljazeera.com/...
+
+## [2026-05-20 14:14] ingest | uk-eases-sanctions-on-russian-oil-imports-as-fuel-prices-soa.md
+
+Ingested raw/uk-eases-sanctions-on-russian-oil-imports-as-fuel-prices-soa.md into knowledge graph.
+
+Preview: ![Covers on fuel pumps reading "Sorry out of use" at a Royal Dutch Shell Plc petrol station near Guildford, U.K., on Monday, Sept. 27, 2021. The U.K. government took emergency measures late Sunday to ...
+
+## [2026-05-20 14:14] write
+
+Updated page: wiki/sources/news/2026-05/xi-putin-summit-2026-05-20.md
+
+## [2026-05-20 14:16] write
+
+Updated page: wiki/sources/news/2026-05/github-data-breach-2026-05-20.md
+
+## [2026-05-20 14:16] write
+
+Updated page: wiki/sources/news/2026-05/alzheimers-breakthrough-2026-05-20.md
+
+## [2026-05-20 14:16] write
+
+Updated page: wiki/sources/news/2026-05/natural-hydrogen-discovery-2026-05-20.md
+
+## [2026-05-20 14:16] write
+
+Updated page: wiki/sources/news/2026-05/samsung-strike-2026-05-20.md
+
+## [2026-05-20 14:16] write
+
+Updated page: wiki/sources/news/2026-05/ebola-outbreak-drc-2026-05-20.md
+
+## [2026-05-20 14:16] write
+
+Updated page: wiki/sources/news/2026-05/uk-russia-oil-sanctions-2026-05-20.md
+
+## [2026-05-20 14:17] write
+
+Updated page: wiki/scratchpad/jobs/reports/news/news-2026-05-20-headlines.md
+
+## [2026-05-20 14:17] write
+
+Updated page: wiki/scratchpad/jobs/reports/news/carryover.md
+
+## [2026-05-20 16:32] ingest | breaking-news-video-and-the-latest-top-stories-from-the-us-a.md
+
+Ingested raw/breaking-news-video-and-the-latest-top-stories-from-the-us-a.md into knowledge graph.
+
+Preview: ## Most read## Father-of-8 killed in San Diego mosque shooting hailed as a hero  1  [View original](https://www.bbc.com/news/articles/clyp3gkrwg9o)## Victim or enabler? Epstein girlfriend who could fa...
+
+## [2026-05-20 16:33] ingest | breaking-news-world-news-and-video-from-al-jazeera.md
+
+Ingested raw/breaking-news-world-news-and-video-from-al-jazeera.md into knowledge graph.
+
+Preview: Featured Content  BREAKING,  ## [US-Iran negotiations need more time, says Qatar](https://www.aljazeera.com/news/liveblog/2026/5/19/iran-war-live-trump-says-iran-attack-postponed-at-request-of-gulf-al...
+
+## [2026-05-20 16:33] ingest | envfactory-scaling-tool-use-agents-via-executable-environmen.md
+
+Ingested raw/envfactory-scaling-tool-use-agents-via-executable-environmen.md into knowledge graph.
+
+Preview: ## Title:EnvFactory: Scaling Tool-Use Agents via Executable Environments Synthesis and Robust RL  [View PDF](https://arxiv.org/pdf/2605.18703) [HTML (experimental)](https://arxiv.org/html/2605.18703v1...
+
+## [2026-05-20 16:35] ingest | n8n Docs.md
+
+Ingested raw/n8n Docs.md into knowledge graph.
+
+Preview: ## Docker Installation  n8n recommends using [Docker](https://www.docker.com/) for most self-hosting needs. It provides a clean, isolated environment, avoids operating system and tooling incompatibili...
+
+## [2026-05-20 16:35] ingest | Self-hosted AI Starter Kit.md
+
+Ingested raw/Self-hosted AI Starter Kit.md into knowledge graph.
+
+Preview: The Self-hosted AI Starter Kit is an open, docker compose template that bootstraps a fully featured Local AI and Low Code development environment.  Curated by [n8n](https://github.com/n8n-io), it comb...
+
+## [2026-05-20 16:36] ingest | What the docs don't tell you about Claude Code skills.md
+
+Ingested raw/What the docs don't tell you about Claude Code skills.md into knowledge graph.
+
+Preview: This month, I finished building a skill for every stage of my newsletter writing pipeline.  The process was straightforward, because everyone just told me: *“hey, its easy, a skill is just a well defi...
+
+## [2026-05-20 16:37] ingest | yennningawesome-code-as-agent-harness-papers.md
+
+Ingested raw/yennningawesome-code-as-agent-harness-papers.md into knowledge graph.
+
+Preview: ## Awesome Code as Agent Harness Papers  [![Awesome](https://camo.githubusercontent.com/9d49598b873146ec650fb3f275e8a532c765dabb1f61d5afa25be41e79891aa7/68747470733a2f2f617765736f6d652e72652f626164676...
+
+## [2026-05-20 16:37] lint
+
+🩺 **Wiki Health Check** — 283 pages
+
+**Orphans** (102):
+  - who-declares-ebola-outbreak-in-dr-congo-an-international-eme
+  - hermes-openclaw-paperclip-stack
+  - agentic-multiagent
+  - issues-index
+  - solo-preneur
+  - nigeria-boko-haram-kidnaps-over-50-schoolchildren-borno
+  - truth-emotion-sacred-agem-analysis
+  - cross-layer-drift-falsification
+  - clinseekagent-multimodal-clinical-evidence-seeking
+  - agentic-sequential
+  - ssh-command-in-linux
+  - business-concept
+  - single-agent
+  - librarian-2026-05-19-missing-agent-sheet
+  - agem-expert
+  - scotus-voting-rights-2026-05-18
+  - CHECKLIST
+  - asteroid-2026-jh2-2026-05-18
+  - cli-printing-press
+  - agentic-planner
+  - designing-agentic-design-picker
+  - research_spec
+  - supervisor-delegation
+  - delegation-parallel-work
+  - ingest
+  - natural-hydrogen-discovery-2026-05-20
+  - ma-sd-search-2026
+  - carryover
+  - production-llm-agent-runtime-architecture-patterns
+  - audit-2026-05-19
+  - AXIOMS
+  - github-data-breach-2026-05-20
+  - eris-mythology
+  - soul
+  - trump-prayer-rally-2026-05-18
+  - user
+  - hiring-plan
+  - issue-001
+  - alzheimers-breakthrough-2026-05-20
+  - automate-anything-with-cron
+  - arxiv
+  - researcher
+  - sheet
+  - decoupling-perception-reasoning-vlm-post-training
+  - hierarchical-supervisor
+  - TEMPLATE
+  - arxiv-2026-05-20-top-papers
+  - trump-approval-war-polling-2026-05-18
+  - event-hooks-hermes-agent
+  - local-lead-gen
+  - mixture-of-recursions
+  - PROVING_GROUNDS
+  - jwst-early-galaxies-2026-05-17
+  - arxiv-2026-05-19-top-papers
+  - agem-ooe
+  - xi-putin-summit-2026-05-20
+  - value-guardian
+  - news-2026-05-18-headlines
+  - hantavirus-cruise-outbreak-2026-05-17
+  - news
+  - eidetic-learning-2021
+  - get-shit-done
+  - STRATEGIES
+  - large-scale-ukrainian-drone-attack-kills-three-in-moscow-region
+  - papers-2026-05-20
+  - markovian-dev-agency
+  - iran-us-diplomacy-2026-05-18
+  - spacex-starship-v3-launch-flight-12
+  - roadmap
+  - discrete-time-to-event-modeling
+  - uk-russia-oil-sanctions-2026-05-20
+  - ml-evolution
+  - agentic-react
+  - orcaid
+  - audit-2026-05-20
+  - emotion-concepts-llm
+  - profiles-running-multiple-agents
+  - parallel-execution
+  - revenue-model
+  - librarian-report-2026-05-09
+  - samsung-strike-2026-05-20
+  - librarian
+  - bae-lmac-2026
+  - brocas-area-gemini-chat
+  - trump-massie-primary-2026-05-17
+  - now
+  - unnamed-skill
+  - astar-structural-pathfinding
+  - agentic-reflection
+  - research-brief-2026-05-13
+  - acp-editor-integration-hermes-agent
+  - hermes-mcp-integration
+  - hermes-multi-agent-discord-architecture
+  - subagent-delegation-hermes-agent
+  - ebola-outbreak-drc-2026-05-20
+  - supervisor-orchestrator
+  - hermes-agent
+  - symbiotic-ai
+  - xu-envfactory-2026
+  - goodrobot
+  - agentic-decision-tree
+  - SKILL
+**Broken links** (255):
+  - wiki/concepts/astar-structural-pathfinding.md → [[square-root-system]]
+  - wiki/concepts/astar-structural-pathfinding.md → [[market-cognitive-dissonance]]
+  - wiki/concepts/astar-structural-pathfinding.md → [[isotropic-coordinate-system]]
+  - wiki/concepts/astar-structural-pathfinding.md → [[square-root-system]]
+  - wiki/concepts/astar-structural-pathfinding.md → [[market-cognitive-dissonance]]
+  - wiki/concepts/causal-networks.md → [[wolfram-physics-project]]
+  - wiki/concepts/causal-networks.md → [[wolfram-physics-project]]
+  - wiki/concepts/chain-of-thought.md → [[titans]]
+  - wiki/concepts/chain-of-thought.md → [[reasoning]]
+  - wiki/concepts/hermes_agent.md → [[Domain Onboarding Standards]]
+  - wiki/concepts/language-evolution.md → [[taylors-law]]
+  - wiki/concepts/language-evolution.md → [[emergent-communication]]
+  - wiki/concepts/meta_harness_loop.md → [[Hermes Agent Architecture]]
+  - wiki/concepts/meta_harness_loop.md → [[Domain Onboarding Standards]]
+  - wiki/concepts/meta_harness_loop.md → [[[Domain Onboarding Standards]]
+  - wiki/concepts/ml-evolution.md → [[rz-nas]]
+  - wiki/concepts/ml-evolution.md → [[llama-nas]]
+  - wiki/concepts/ml-evolution.md → [[essa]]
+  - wiki/concepts/ml-evolution.md → [[neural-architecture-search]]
+  - wiki/concepts/ml-evolution.md → [[catastrophic-forgetting]]
+  - wiki/concepts/ml-evolution.md → [[evolutionary-strategies]]
+  - wiki/concepts/neural-long-term-memory.md → [[titans]]
+  - wiki/concepts/neural-long-term-memory.md → [[in-context-learning]]
+  - wiki/concepts/reward-modeling.md → [[reasoning]]
+  - wiki/concepts/surprise-based-learning.md → [[titans]]
+  - wiki/entities/people/stephen-wolfram.md → [[computational-irreducibility]]
+  - wiki/entities/people/stephen-wolfram.md → [[computational-universe]]
+  - wiki/entities/people/stephen-wolfram.md → [[wolfram-physics-project]]
+  - wiki/entities/projects/tys-repos/mcp-logic.md → [[categorical-reasoning]]
+  - wiki/entities/tools/hermes-agent.md → [[subagent-delegation]]
+  - wiki/entities/tools/hermes-agent.md → [[subagent-delegation]]
+  - wiki/entities/tools/hermes-agent.md → [[hermes-agent-skill]]
+  - wiki/entities/tools/isabelle.md → [[formal-verification]]
+  - wiki/entities/tools/isabelle.md → [[interactive-theorem-proving]]
+  - wiki/entities/tools/isabelle.md → [[isabelle-hol]]
+  - wiki/entities/tools/mamba.md → [[titans]]
+  - wiki/entities/tools/prover9.md → [[formal-verification]]
+  - wiki/projects/goodrobot/business-concept.md → [[goodrobot-revenue-model]]
+  - wiki/scratchpad/jobs/reports/arxiv/carryover.md → [[production-stage-architecture]]
+  - wiki/scratchpad/jobs/reports/news/news-2026-05-18-headlines.md → [[wiki/sources/news/2026-05/iran-us-diplomacy-2026-05-18.md]]
+  - wiki/scratchpad/jobs/reports/news/news-2026-05-18-headlines.md → [[wiki/sources/news/2026-05/trump-approval-war-polling-2026-05-18.md]]
+  - wiki/scratchpad/jobs/reports/news/news-2026-05-18-headlines.md → [[wiki/sources/news/2026-05/asteroid-2026-jh2-2026-05-18.md]]
+  - wiki/scratchpad/jobs/reports/news/news-2026-05-18-headlines.md → [[wiki/sources/news/2026-05/jwst-early-galaxies-2026-05-17.md]]
+  - wiki/scratchpad/jobs/reports/news/news-2026-05-18-headlines.md → [[wiki/sources/news/2026-05/hantavirus-cruise-outbreak-2026-05-17.md]]
+  - wiki/scratchpad/jobs/reports/news/news-2026-05-18-headlines.md → [[wiki/sources/news/2026-05/scotus-voting-rights-2026-05-18.md]]
+  - wiki/scratchpad/jobs/reports/news/news-2026-05-18-headlines.md → [[wiki/sources/news/2026-05/trump-massie-primary-2026-05-17.md]]
+  - wiki/scratchpad/jobs/reports/news/news-2026-05-18-headlines.md → [[wiki/sources/news/2026-05/trump-prayer-rally-2026-05-18.md]]
+  - wiki/scratchpad/jobs/reports/news/news-2026-05-20-headlines.md → [[wiki/sources/news/2026-05/xi-putin-summit-2026-05-20]]
+  - wiki/scratchpad/jobs/reports/news/news-2026-05-20-headlines.md → [[wiki/sources/news/2026-05/github-data-breach-2026-05-20]]
+  - wiki/scratchpad/jobs/reports/news/news-2026-05-20-headlines.md → [[wiki/sources/news/2026-05/alzheimers-breakthrough-2026-05-20]]
+  - wiki/scratchpad/jobs/reports/news/news-2026-05-20-headlines.md → [[wiki/sources/news/2026-05/natural-hydrogen-discovery-2026-05-20]]
+  - wiki/scratchpad/jobs/reports/news/news-2026-05-20-headlines.md → [[wiki/sources/news/2026-05/samsung-strike-2026-05-20]]
+  - wiki/scratchpad/jobs/reports/news/news-2026-05-20-headlines.md → [[wiki/sources/news/2026-05/ebola-outbreak-drc-2026-05-20]]
+  - wiki/scratchpad/jobs/reports/news/news-2026-05-20-headlines.md → [[wiki/sources/news/2026-05/uk-russia-oil-sanctions-2026-05-20]]
+  - wiki/scratchpad/jobs/sheet.md → [[agent-sheets/news]]
+  - wiki/scratchpad/jobs/sheet.md → [[agent-sheets/researcher]]
+  - wiki/scratchpad/jobs/sheet.md → [[agent-sheets/orcaid]]
+  - wiki/scratchpad/jobs/sheet.md → [[agent-sheets/arxiv]]
+  - wiki/scratchpad/jobs/sheet.md → [[agent-sheets/ingest]]
+  - wiki/scratchpad/jobs/sheet.md → [[agent-sheets/librarian]]
+  - wiki/scratchpad/jobs/sheet.md → [[agent-sheets/librarian]]
+  - wiki/scratchpad/jobs/sheet.md → [[agent-sheets/researcher]]
+  - wiki/scratchpad/jobs/sheet.md → [[agent-sheets/orcaid]]
+  - wiki/scratchpad/jobs/sheet.md → [[agent-sheets/arxiv]]
+  - wiki/scratchpad/jobs/sheet.md → [[agent-sheets/news]]
+  - wiki/scratchpad/jobs/sheet.md → [[agent-sheets/ingest]]
+  - wiki/sources/articles/agem-ooe.md → [[novelty-search]]
+  - wiki/sources/articles/agem-ooe.md → [[autopoiesis]]
+  - wiki/sources/articles/agem-ooe.md → [[major-transitions]]
+  - wiki/sources/articles/choosing-right-agentic-design-pattern.md → [[delegation]]
+  - wiki/sources/articles/choosing-right-agentic-design-pattern.md → [[agentic-design-picker]]
+  - wiki/sources/articles/designing-agentic-design-picker.md → [[agentic-design-picker]]
+  - wiki/sources/articles/emotion-concepts-llm.md → [[blackmail]]
+  - wiki/sources/articles/emotion-concepts-llm.md → [[reward-hacking]]
+  - wiki/sources/articles/emotion-concepts-llm.md → [[neural-interpretability]]
+  - wiki/sources/articles/emotion-concepts-llm.md → [[ai-safety]]
+  - wiki/sources/articles/emotion-concepts-llm.md → [[steering-vectors]]
+  - wiki/sources/articles/emotion-concepts-llm.md → [[machine-psychology]]
+  - wiki/sources/articles/emotion-concepts-llm.md → [[functional-emotions]]
+  - wiki/sources/articles/frank-einstein-gemma-truth-emotion-sacred.md → [[truth-seeking]]
+  - wiki/sources/articles/gemma4.md → [[ollama]]
+  - wiki/sources/articles/language-evolution.md → [[emergent-communication]]
+  - wiki/sources/articles/language-evolution.md → [[computational-irreducibility]]
+  - wiki/sources/articles/language-evolution.md → [[taylors-law]]
+  - wiki/sources/articles/language-evolution.md → [[directed-preferential-placement]]
+  - wiki/sources/articles/ml-evolution-benchmarking-protocol.md → [[collm-nas]]
+  - wiki/sources/articles/ml-evolution-benchmarking-protocol.md → [[rz-nas]]
+  - wiki/sources/articles/ml-evolution-benchmarking-protocol.md → [[llama-nas]]
+  - wiki/sources/articles/ml-evolution-benchmarking-protocol.md → [[essa]]
+  - wiki/sources/articles/ml-evolution-benchmarking-protocol.md → [[qes]]
+  - wiki/sources/articles/ml-evolution-benchmarking-protocol.md → [[control-llm]]
+  - wiki/sources/articles/ml-evolution-benchmarking-protocol.md → [[namm]]
+  - wiki/sources/articles/ml-evolution-benchmarking-protocol.md → [[neural-architecture-search]]
+  - wiki/sources/articles/ml-evolution-benchmarking-protocol.md → [[catastrophic-forgetting]]
+  - wiki/sources/articles/ml-evolution-benchmarking-protocol.md → [[evolutionary-strategies]]
+  - wiki/sources/articles/ml-evolution-benchmarking-protocol.md → [[llama-nas]]
+  - wiki/sources/articles/ml-evolution-benchmarking-protocol.md → [[essa]]
+  - wiki/sources/articles/ml-evolution-benchmarking-protocol.md → [[qes]]
+  - wiki/sources/articles/solo-preneur.md → [[micro-saas]]
+  - wiki/sources/articles/solo-preneur.md → [[solo-development]]
+  - wiki/sources/articles/solo-preneur.md → [[product-strategy]]
+  - wiki/sources/articles/solo-preneur.md → [[indie-hacking]]
+  - wiki/sources/articles/solo-preneur.md → [[programmatic-seo]]
+  - wiki/sources/articles/titans-test-time-memory.md → [[in-context-learning]]
+  - wiki/sources/articles/titans-test-time-memory.md → [[google-research]]
+  - wiki/sources/documentation/automate-anything-with-cron.md → [[hermes-agent-skills]]
+  - wiki/sources/documentation/create-custom-subagents.md → [[delegation]]
+  - wiki/sources/documentation/delegation-parallel-work.md → [[profiles]]
+  - wiki/sources/documentation/event-hooks-hermes-agent.md → [[webhook-subscriptions]]
+  - wiki/sources/documentation/github-actions-troubleshooting.md → [[github-actions]]
+  - wiki/sources/documentation/github-actions-troubleshooting.md → [[trunk]]
+  - wiki/sources/documentation/github-actions-troubleshooting.md → [[uv]]
+  - wiki/sources/documentation/github-actions-troubleshooting.md → [[taplo]]
+  - wiki/sources/documentation/isabelle-installation.md → [[sledgehammer]]
+  - wiki/sources/documentation/isabelle-installation.md → [[formal-verification]]
+  - wiki/sources/documentation/isabelle-installation.md → [[java]]
+  - wiki/sources/documentation/isabelle-installation.md → [[latex]]
+  - wiki/sources/documentation/paperclip-company-spec.md → [[agent-skills-spec]]
+  - wiki/sources/documentation/persistent-goals-hermes-agent.md → [[subagent-delegation]]
+  - wiki/sources/documentation/profiles-running-multiple-agents.md → [[delegation]]
+  - wiki/sources/documentation/subagent-delegation-hermes-agent.md → [[delegation]]
+  - wiki/sources/documentation/wolfram-nks-causal-networks.md → [[mobile-automata]]
+  - wiki/sources/documentation/wolfram-nks-causal-networks.md → [[computational-universe]]
+  - wiki/sources/documentation/wolfram-nks-causal-networks.md → [[wolfram-physics-project]]
+  - wiki/sources/mixture-of-recursions.md → [[i-built-a-tiny-computer-inside-a-transformer]]
+  - wiki/sources/mixture-of-recursions.md → [[efficient-transformers]]
+  - wiki/sources/mixture-of-recursions.md → [[mixture-of-depths]]
+  - wiki/sources/mixture-of-recursions.md → [[recursive-transformers]]
+  - wiki/sources/mixture-of-recursions.md → [[adaptive-computation]]
+  - wiki/sources/mixture-of-recursions.md → [[latent-reasoning]]
+  - wiki/sources/mixture-of-recursions.md → [[kv-cache]]
+  - wiki/sources/news/2026-05/alzheimers-breakthrough-2026-05-20.md → [[alzheimers-research]]
+  - wiki/sources/news/2026-05/alzheimers-breakthrough-2026-05-20.md → [[protein-aggregation]]
+  - wiki/sources/news/2026-05/asteroid-2026-jh2-2026-05-18.md → [[asteroid-2026-jh2]]
+  - wiki/sources/news/2026-05/asteroid-2026-jh2-2026-05-18.md → [[near-earth-objects]]
+  - wiki/sources/news/2026-05/asteroid-2026-jh2-2026-05-18.md → [[planetary-defense]]
+  - wiki/sources/news/2026-05/ebola-outbreak-drc-2026-05-20.md → [[global-health-security]]
+  - wiki/sources/news/2026-05/ebola-outbreak-drc-2026-05-20.md → [[ai-diagnostics]]
+  - wiki/sources/news/2026-05/github-data-breach-2026-05-20.md → [[ai-security]]
+  - wiki/sources/news/2026-05/github-data-breach-2026-05-20.md → [[open-source-ai]]
+  - wiki/sources/news/2026-05/hantavirus-cruise-outbreak-2026-05-17.md → [[hantavirus]]
+  - wiki/sources/news/2026-05/hantavirus-cruise-outbreak-2026-05-17.md → [[public-health]]
+  - wiki/sources/news/2026-05/hantavirus-cruise-outbreak-2026-05-17.md → [[cruise-ship-outbreak]]
+  - wiki/sources/news/2026-05/iran-us-diplomacy-2026-05-18.md → [[iran]]
+  - wiki/sources/news/2026-05/iran-us-diplomacy-2026-05-18.md → [[us-iran-tensions]]
+  - wiki/sources/news/2026-05/iran-us-diplomacy-2026-05-18.md → [[middle-east-geopolitics]]
+  - wiki/sources/news/2026-05/jwst-early-galaxies-2026-05-17.md → [[james-webb-space-telescope]]
+  - wiki/sources/news/2026-05/jwst-early-galaxies-2026-05-17.md → [[early-universe]]
+  - wiki/sources/news/2026-05/jwst-early-galaxies-2026-05-17.md → [[cosmology]]
+  - wiki/sources/news/2026-05/natural-hydrogen-discovery-2026-05-20.md → [[clean-energy-transition]]
+  - wiki/sources/news/2026-05/natural-hydrogen-discovery-2026-05-20.md → [[hydrogen-economy]]
+  - wiki/sources/news/2026-05/samsung-strike-2026-05-20.md → [[ai-hardware-supply-chain]]
+  - wiki/sources/news/2026-05/samsung-strike-2026-05-20.md → [[semiconductor-geopolitics]]
+  - wiki/sources/news/2026-05/scotus-voting-rights-2026-05-18.md → [[scotus]]
+  - wiki/sources/news/2026-05/scotus-voting-rights-2026-05-18.md → [[voting-rights-act]]
+  - wiki/sources/news/2026-05/scotus-voting-rights-2026-05-18.md → [[redistricting]]
+  - wiki/sources/news/2026-05/scotus-voting-rights-2026-05-18.md → [[us-supreme-court]]
+  - wiki/sources/news/2026-05/trump-approval-war-polling-2026-05-18.md → [[trump-administration]]
+  - wiki/sources/news/2026-05/trump-approval-war-polling-2026-05-18.md → [[iran-war]]
+  - wiki/sources/news/2026-05/trump-approval-war-polling-2026-05-18.md → [[us-2026-midterms]]
+  - wiki/sources/news/2026-05/trump-massie-primary-2026-05-17.md → [[thomas-massie]]
+  - wiki/sources/news/2026-05/trump-massie-primary-2026-05-17.md → [[trump-republican-party]]
+  - wiki/sources/news/2026-05/trump-massie-primary-2026-05-17.md → [[2026-republican-primaries]]
+  - wiki/sources/news/2026-05/trump-prayer-rally-2026-05-18.md → [[trump-administration]]
+  - wiki/sources/news/2026-05/trump-prayer-rally-2026-05-18.md → [[religion-american-politics]]
+  - wiki/sources/news/2026-05/trump-prayer-rally-2026-05-18.md → [[christian-nationalism]]
+  - wiki/sources/news/2026-05/uk-russia-oil-sanctions-2026-05-20.md → [[russia-sanctions-regime]]
+  - wiki/sources/news/2026-05/uk-russia-oil-sanctions-2026-05-20.md → [[ai-energy-economics]]
+  - wiki/sources/news/2026-05/xi-putin-summit-2026-05-20.md → [[ai-governance]]
+  - wiki/sources/news/2026-05/xi-putin-summit-2026-05-20.md → [[great-power-competition]]
+  - wiki/sources/news/bill-cassidy-republican-senator-who-voted-to-convict-trump-l.md → [[trump-endorsement-primary-dominance]]
+  - wiki/sources/news/bill-cassidy-republican-senator-who-voted-to-convict-trump-l.md → [[donald-trump]]
+  - wiki/sources/news/bill-cassidy-republican-senator-who-voted-to-convict-trump-l.md → [[us-senate]]
+  - wiki/sources/news/bill-cassidy-republican-senator-who-voted-to-convict-trump-l.md → [[republican-party]]
+  - wiki/sources/news/bill-cassidy-republican-senator-who-voted-to-convict-trump-l.md → [[us-politics]]
+  - wiki/sources/news/bill-cassidy-republican-senator-who-voted-to-convict-trump-l.md → [[cassidy]]
+  - wiki/sources/news/canadian-from-cruise-ship-tests-positive-for-hantavirus.md → [[hantavirus]]
+  - wiki/sources/news/canadian-from-cruise-ship-tests-positive-for-hantavirus.md → [[cruise-ship-outbreak]]
+  - wiki/sources/news/canadian-from-cruise-ship-tests-positive-for-hantavirus.md → [[public-health]]
+  - wiki/sources/news/canadian-from-cruise-ship-tests-positive-for-hantavirus.md → [[infectious-disease]]
+  - wiki/sources/news/fpv-drone-strikes-show-hezbollahs-changing-tactics-against-i.md → [[hezbollah]]
+  - wiki/sources/news/fpv-drone-strikes-show-hezbollahs-changing-tactics-against-i.md → [[fpv-drone]]
+  - wiki/sources/news/fpv-drone-strikes-show-hezbollahs-changing-tactics-against-i.md → [[israel]]
+  - wiki/sources/news/fpv-drone-strikes-show-hezbollahs-changing-tactics-against-i.md → [[drone-warfare]]
+  - wiki/sources/news/fpv-drone-strikes-show-hezbollahs-changing-tactics-against-i.md → [[lebanon]]
+  - wiki/sources/news/how-worrying-is-the-ebola-outbreak-in-dr-congo.md → [[ebola]]
+  - wiki/sources/news/how-worrying-is-the-ebola-outbreak-in-dr-congo.md → [[bundibugyo]]
+  - wiki/sources/news/how-worrying-is-the-ebola-outbreak-in-dr-congo.md → [[dr-congo]]
+  - wiki/sources/news/how-worrying-is-the-ebola-outbreak-in-dr-congo.md → [[who]]
+  - wiki/sources/news/large-scale-ukrainian-drone-attack-kills-three-in-moscow-region.md → [[large-scale-ukrainian-drone-attack-kills-three-in-moscow-reg]]
+  - wiki/sources/news/large-scale-ukrainian-drone-attack-kills-three-in-moscow-region.md → [[ukraine-russia-war]]
+  - wiki/sources/news/large-scale-ukrainian-drone-attack-kills-three-in-moscow-region.md → [[drone-warfare]]
+  - wiki/sources/news/large-scale-ukrainian-drone-attack-kills-three-in-moscow-region.md → [[moscow]]
+  - wiki/sources/news/large-scale-ukrainian-drone-attack-kills-three-in-moscow-region.md → [[drone-attack]]
+  - wiki/sources/news/man-ploughs-car-into-crowd-in-italy-before-trying-to-stab-th.md → [[vehicle-ramming-attack]]
+  - wiki/sources/news/man-ploughs-car-into-crowd-in-italy-before-trying-to-stab-th.md → [[italy]]
+  - wiki/sources/news/man-ploughs-car-into-crowd-in-italy-before-trying-to-stab-th.md → [[terrorism]]
+  - wiki/sources/news/man-ploughs-car-into-crowd-in-italy-before-trying-to-stab-th.md → [[hybrid-attack]]
+  - wiki/sources/news/rescue-diver-dies-during-search-for-bodies-of-italians-who-d.md → [[maldives]]
+  - wiki/sources/news/rescue-diver-dies-during-search-for-bodies-of-italians-who-d.md → [[cave-diving]]
+  - wiki/sources/news/rescue-diver-dies-during-search-for-bodies-of-italians-who-d.md → [[italians]]
+  - wiki/sources/news/rescue-diver-dies-during-search-for-bodies-of-italians-who-d.md → [[diving-accident]]
+  - wiki/sources/news/taiwan-reaffirms-independence-despite-trump-warning.md → [[taiwan]]
+  - wiki/sources/news/taiwan-reaffirms-independence-despite-trump-warning.md → [[us-china-relations]]
+  - wiki/sources/news/taiwan-reaffirms-independence-despite-trump-warning.md → [[south-china-sea]]
+  - wiki/sources/news/taiwan-reaffirms-independence-despite-trump-warning.md → [[trump-administration]]
+  - wiki/sources/news/uae-reports-drone-strike-near-abu-dhabi-nuclear-power-plant.md → [[uae]]
+  - wiki/sources/news/uae-reports-drone-strike-near-abu-dhabi-nuclear-power-plant.md → [[nuclear-security]]
+  - wiki/sources/news/uae-reports-drone-strike-near-abu-dhabi-nuclear-power-plant.md → [[drone-warfare]]
+  - wiki/sources/news/uae-reports-drone-strike-near-abu-dhabi-nuclear-power-plant.md → [[barakah-nuclear-plant]]
+  - wiki/sources/news/who-declares-ebola-outbreak-in-dr-congo-an-international-eme.md → [[ebola]]
+  - wiki/sources/news/who-declares-ebola-outbreak-in-dr-congo-an-international-eme.md → [[who]]
+  - wiki/sources/news/who-declares-ebola-outbreak-in-dr-congo-an-international-eme.md → [[public-health-emergency-of-international-concern]]
+  - wiki/sources/papers/clinseekagent-multimodal-clinical-evidence-seeking.md → [[agentic-reasoning]]
+  - wiki/sources/papers/decoupling-perception-reasoning-vlm-post-training.md → [[Titans]]
+  - wiki/sources/papers/decoupling-perception-reasoning-vlm-post-training.md → [[vlm]]
+  - wiki/sources/papers/futuresim-adaptive-agents.md → [[llm-evaluation]]
+  - wiki/sources/papers/is-grep-all-you-need.md → [[retrieval-augmented-generation]]
+  - wiki/sources/papers/is-grep-all-you-need.md → [[information-retrieval]]
+  - wiki/sources/papers/opendeepthink-parallel-reasoning.md → [[llm-evaluation]]
+  - wiki/sources/papers/production-llm-agent-runtime-architecture-patterns.md → [[production-stage-architecture]]
+  - wiki/sources/papers/production-llm-agent-runtime-architecture-patterns.md → [[llm-agent-architecture]]
+  - wiki/sources/papers/production-llm-agent-runtime-architecture-patterns.md → [[waldis-instructions-shape-language-2026]]
+  - wiki/sources/papers/production-llm-agent-runtime-architecture-patterns.md → [[llm-agent-architecture]]
+  - wiki/sources/papers/production-llm-agent-runtime-architecture-patterns.md → [[production-stage-architecture]]
+  - wiki/sources/papers/reward-inside-model-elhsr.md → [[reasoning]]
+  - wiki/sources/repositories/cli-printing-press.md → [[Clippings/repositories/2026/cli-printing-press]]
+  - wiki/sources/repositories/cli-printing-press.md → [[printing-press]]
+  - wiki/sources/repositories/cli-printing-press.md → [[sqlite]]
+  - wiki/sources/repositories/cli-printing-press.md → [[fts5]]
+  - wiki/sources/repositories/cli-printing-press.md → [[mcp]]
+  - wiki/sources/repositories/cli-printing-press.md → [[cobra]]
+  - wiki/sources/repositories/cli-printing-press.md → [[agent-native-design]]
+  - wiki/sources/repositories/cli-printing-press.md → [[compound-commands]]
+  - wiki/sources/repositories/cli-printing-press.md → [[non-obvious-insight]]
+  - wiki/sources/repositories/cli-printing-press.md → [[peter-steinberger]]
+  - wiki/sources/repositories/cli-printing-press.md → [[anthropic]]
+  - wiki/sources/repositories/get-shit-done.md → [[spec-driven-development]]
+  - wiki/sources/repositories/graphify-ai-coding-assistant-skill.md → [[codebase-inspection]]
+  - wiki/sources/repositories/openclaw.md → [[ollama]]
+  - wiki/sources/repositories/symbiotic-ai.md → [[sovereign-ai]]
+  - wiki/sources/repositories/tabpfn.md → [[Clippings/repositories/2026/PriorLabsTabPFN ⚡ TabPFN Foundation Model for Tabular Data ⚡]]
+  - wiki/sources/repositories/tabpfn.md → [[tabpfn-client]]
+  - wiki/sources/repositories/tabpfn.md → [[tabpfn-extensions]]
+  - wiki/sources/repositories/tabpfn.md → [[priorlabs]]
+  - wiki/sources/repositories/tabpfn.md → [[huggingface]]
+  - wiki/sources/repositories/tabpfn.md → [[tabular-data]]
+  - wiki/sources/repositories/tabpfn.md → [[in-context-learning]]
+  - wiki/sources/repositories/tabpfn.md → [[synthetic-data]]
+  - wiki/sources/repositories/tabpfn.md → [[random-forest]]
+  - wiki/sources/repositories/tabpfn.md → [[xgboost]]
+  - wiki/sources/repositories/tabpfn.md → [[shap]]
+  - wiki/synthesis/efhf-mcp-configuration.md → [[agent-group-evolving-molecular-system-agem]]
+  - wiki/synthesis/llm-biological-analogies.md → [[wiki/sources/articles/brocas-area-gemini-chat]]
+  - wiki/synthesis/seg-scientist-agent-design.md → [[seg-molecular-self]]
+**Missing frontmatter** (19):
+  - wiki/agents/markovian-dev-agency/carryover.md
+  - wiki/agents/markovian-dev-agency/specialists/diagnostician/carryover.md
+  - wiki/agents/markovian-dev-agency/specialists/fixer/carryover.md
+  - wiki/agents/markovian-dev-agency/specialists/researcher/carryover.md
+  - wiki/agents/markovian-dev-agency/specialists/ticket-writer/carryover.md
+  - wiki/agents/skills/agem-expert/references/PROVING_GROUNDS.md
+  - wiki/agents/skills/agem-expert/references/STRATEGIES.md
+  - wiki/agents/skills/skill-architect/SKILL.md
+  - wiki/agents/skills/skill-architect/references/CHECKLIST.md
+  - wiki/agents/skills/skill-architect/references/TEMPLATE.md
+  - wiki/agents/skills/value-guardian/references/AXIOMS.md
+  - wiki/research/extraction-quality-audit/research_spec.md
+  - wiki/scratchpad/jobs/reports/arxiv/arxiv-2026-05-19-top-papers.md
+  - wiki/scratchpad/jobs/reports/arxiv/carryover.md
+  - wiki/scratchpad/jobs/reports/librarian/audit-2026-05-19.md
+  - wiki/scratchpad/jobs/reports/librarian/audit-2026-05-20.md
+  - wiki/scratchpad/jobs/reports/librarian/librarian-2026-05-19-missing-agent-sheet.md
+  - wiki/synthesis/research-brief-2026-05-09.md
+  - wiki/synthesis/research-brief-2026-05-13.md
+**Non-reciprocal links** (76) — A links to B but B doesn't link back:
+  - [[reward-modeling]] → [[critical-analysis]] (no return link)
+  - [[critical-analysis]] → [[edm-framework]] (no return link)
+  - [[mcp-coordinator]] → [[efhf]] (no return link)
+  - [[mcp-coordinator]] → [[tyler-hall]] (no return link)
+  - [[mcp-coordinator]] → [[conscience-servitor]] (no return link)
+  - [[advanced-reasoning-mcp]] → [[mcp-logic]] (no return link)
+  - [[tyler-hall]] → [[agem]] (no return link)
+  - [[tyler-hall]] → [[nexus]] (no return link)
+  - [[tyler-hall]] → [[hipai-montague]] (no return link)
+  - [[tyler-hall]] → [[dhruv-trehan]] (no return link)
+  - [[sheffer-stroke]] → [[mcp-logic]] (no return link)
+  - [[symbolic-regression]] → [[mcp-logic]] (no return link)
+  - [[ethical-ai-core]] → [[tyler-hall]] (no return link)
+  - [[ethical-ai-core]] → [[toward-transcendent-moral-instrumentality]] (no return link)
+  - [[academic-peer-review]] → [[critical-analysis]] (no return link)
+  - [[eml-operator]] → [[mcp-logic]] (no return link)
+  - [[eml-operator]] → [[efhf]] (no return link)
+  - [[roger-koenig-robert]] → [[aphantasia]] (no return link)
+  - [[hipai-montague]] → [[mcp-logic]] (no return link)
+  - [[hipai-montague]] → [[mop-explorer]] (no return link)
+  - [[open-ended-evolution]] → [[efhf]] (no return link)
+  - [[open-ended-evolution]] → [[eml-operator]] (no return link)
+  - [[open-ended-evolution]] → [[maximum-occupancy-principle]] (no return link)
+  - [[graph-rlm]] → [[efhf]] (no return link)
+  - [[graph-rlm]] → [[tyler-hall]] (no return link)
+  - [[graph-rlm]] → [[agem]] (no return link)
+  - [[agem]] → [[efhf]] (no return link)
+  - [[toward-transcendent-moral-instrumentality]] → [[hipai-montague]] (no return link)
+  - [[toward-transcendent-moral-instrumentality]] → [[tyler-hall]] (no return link)
+  - [[markovian-carryover]] → [[persistent-knowledge-compilation]] (no return link)
+  - [[verifier-graph]] → [[efhf]] (no return link)
+  - [[verifier-graph]] → [[tyler-hall]] (no return link)
+  - [[verifier-graph]] → [[agem]] (no return link)
+  - [[aseke-compass-mcp]] → [[tyler-hall]] (no return link)
+  - [[aseke-compass-mcp]] → [[agem]] (no return link)
+  - [[meta-harness]] → [[hermes-agent]] (no return link)
+  - [[meta-harness]] → [[mcp-logic]] (no return link)
+  - [[meta-harness]] → [[agem]] (no return link)
+  - [[meta-harness]] → [[project-synapse]] (no return link)
+  - [[load-bearing-reasoning]] → [[hipai-montague]] (no return link)
+  - [[load-bearing-reasoning]] → [[isabelle]] (no return link)
+  - [[load-bearing-reasoning]] → [[chain-of-thought]] (no return link)
+  - [[meta_harness_loop]] → [[hermes-agent]] (no return link)
+  - [[language-evolution]] → [[gemini]] (no return link)
+  - [[language-evolution]] → [[stephen-wolfram]] (no return link)
+  - [[markovian-dev-agency]] → [[hermes-agent]] (no return link)
+  - [[markovian-dev-agency]] → [[markovian-carryover]] (no return link)
+  - [[causal-networks]] → [[load-bearing-reasoning]] (no return link)
+  - [[conscience-servitor]] → [[mcp-logic]] (no return link)
+  - [[conscience-servitor]] → [[hipai-montague]] (no return link)
+  - [[conscience-servitor]] → [[sheaf-consistency-enforcer]] (no return link)
+  - [[tys-repos]] → [[agentic-research]] (no return link)
+  - [[tys-repos]] → [[hipai-montague]] (no return link)
+  - [[tys-repos]] → [[nexus]] (no return link)
+  - [[tys-repos]] → [[mcp-logic]] (no return link)
+  - [[tys-repos]] → [[agem]] (no return link)
+  - [[prover9]] → [[isabelle]] (no return link)
+  - [[sheaf-consistency-enforcer]] → [[mcp-logic]] (no return link)
+  - [[sheaf-consistency-enforcer]] → [[hipai-montague]] (no return link)
+  - [[stephen-wolfram]] → [[load-bearing-reasoning]] (no return link)
+  - [[ast-mcp-server]] → [[tyler-hall]] (no return link)
+  - [[ast-mcp-server]] → [[mcp-coordinator]] (no return link)
+  - [[mop-explorer]] → [[efhf]] (no return link)
+  - [[mop-explorer]] → [[edm-framework]] (no return link)
+  - [[mop-explorer]] → [[maximum-occupancy-principle]] (no return link)
+  - [[mop-explorer]] → [[project-synapse]] (no return link)
+  - [[mop-explorer]] → [[zettelkasten-engine]] (no return link)
+  - [[nexus]] → [[efhf]] (no return link)
+  - [[hidden-states]] → [[critical-analysis]] (no return link)
+  - [[maximum-occupancy-principle]] → [[efhf]] (no return link)
+  - [[maximum-occupancy-principle]] → [[edm-framework]] (no return link)
+  - [[maximum-occupancy-principle]] → [[zettelkasten-engine]] (no return link)
+  - [[hermes-agent]] → [[markovian-carryover]] (no return link)
+  - [[alphaevolve]] → [[maximum-occupancy-principle]] (no return link)
+  - [[efhf]] → [[mcp-logic]] (no return link)
+  - [[efhf]] → [[agentic-research]] (no return link)
+
+## [2026-05-20 16:37] index
+
+Index updated with 277 pages (Deep refresh completed)
+
+## [2026-05-20 18:18] write
+
+Updated page: wiki/sources/papers/ma-sd-search-2026.md
+
+## [2026-05-20 18:18] index
+
+Index updated with 280 pages
+
+## [2026-05-20 18:18] lint
+
+🩺 **Wiki Health Check** — 286 pages
+
+**Orphans** (104):
+  - get-shit-done
+  - TEMPLATE
+  - event-hooks-hermes-agent
+  - supervisor-delegation
+  - ebola-outbreak-drc-2026-05-20
+  - samsung-strike-2026-05-20
+  - local-lead-gen
+  - business-concept
+  - jwst-early-galaxies-2026-05-17
+  - issue-001
+  - research-brief-2026-05-13
+  - who-declares-ebola-outbreak-in-dr-congo-an-international-eme
+  - mixture-of-recursions
+  - large-scale-ukrainian-drone-attack-kills-three-in-moscow-region
+  - ma-sd-search-2026
+  - supervisor-orchestrator
+  - orcaid
+  - single-agent
+  - eris-mythology
+  - trump-prayer-rally-2026-05-18
+  - news-2026-05-18-headlines
+  - user
+  - hantavirus-cruise-outbreak-2026-05-17
+  - trump-approval-war-polling-2026-05-18
+  - cli-printing-press
+  - github-data-breach-2026-05-20
+  - parallel-execution
+  - soul
+  - brocas-area-gemini-chat
+  - asteroid-2026-jh2-2026-05-18
+  - ml-evolution
+  - ingest-2026-05-20
+  - profiles-running-multiple-agents
+  - arxiv-2026-05-19-top-papers
+  - hiring-plan
+  - CHECKLIST
+  - agem-expert
+  - trump-massie-primary-2026-05-17
+  - audit-2026-05-19
+  - value-guardian
+  - researcher
+  - PROVING_GROUNDS
+  - hermes-agent
+  - ssh-command-in-linux
+  - agentic-react
+  - AXIOMS
+  - spacex-starship-v3-launch-flight-12
+  - solo-preneur
+  - automate-anything-with-cron
+  - ingest
+  - astar-structural-pathfinding
+  - scotus-voting-rights-2026-05-18
+  - audit-2026-05-20
+  - research_spec
+  - news
+  - SKILL
+  - papers-2026-05-19-researched
+  - librarian-report-2026-05-09
+  - subagent-delegation-hermes-agent
+  - roadmap
+  - truth-emotion-sacred-agem-analysis
+  - agentic-decision-tree
+  - emotion-concepts-llm
+  - papers-2026-05-20
+  - issues-index
+  - hermes-multi-agent-discord-architecture
+  - goodrobot
+  - delegation-parallel-work
+  - nigeria-boko-haram-kidnaps-over-50-schoolchildren-borno
+  - bae-lmac-2026
+  - production-llm-agent-runtime-architecture-patterns
+  - eidetic-learning-2021
+  - agem-ooe
+  - agentic-multiagent
+  - hermes-mcp-integration
+  - agentic-sequential
+  - cross-layer-drift-falsification
+  - unnamed-skill
+  - discrete-time-to-event-modeling
+  - symbiotic-ai
+  - revenue-model
+  - alzheimers-breakthrough-2026-05-20
+  - sheet
+  - arxiv
+  - xi-putin-summit-2026-05-20
+  - markovian-dev-agency
+  - decoupling-perception-reasoning-vlm-post-training
+  - agentic-reflection
+  - arxiv-2026-05-20-top-papers
+  - xu-envfactory-2026
+  - librarian-2026-05-19-missing-agent-sheet
+  - designing-agentic-design-picker
+  - uk-russia-oil-sanctions-2026-05-20
+  - natural-hydrogen-discovery-2026-05-20
+  - acp-editor-integration-hermes-agent
+  - STRATEGIES
+  - clinseekagent-multimodal-clinical-evidence-seeking
+  - hierarchical-supervisor
+  - librarian
+  - iran-us-diplomacy-2026-05-18
+  - now
+  - agentic-planner
+  - hermes-openclaw-paperclip-stack
+  - carryover
+**Broken links** (257):
+  - wiki/concepts/astar-structural-pathfinding.md → [[square-root-system]]
+  - wiki/concepts/astar-structural-pathfinding.md → [[market-cognitive-dissonance]]
+  - wiki/concepts/astar-structural-pathfinding.md → [[isotropic-coordinate-system]]
+  - wiki/concepts/astar-structural-pathfinding.md → [[square-root-system]]
+  - wiki/concepts/astar-structural-pathfinding.md → [[market-cognitive-dissonance]]
+  - wiki/concepts/causal-networks.md → [[wolfram-physics-project]]
+  - wiki/concepts/causal-networks.md → [[wolfram-physics-project]]
+  - wiki/concepts/chain-of-thought.md → [[titans]]
+  - wiki/concepts/chain-of-thought.md → [[reasoning]]
+  - wiki/concepts/hermes_agent.md → [[Domain Onboarding Standards]]
+  - wiki/concepts/language-evolution.md → [[taylors-law]]
+  - wiki/concepts/language-evolution.md → [[emergent-communication]]
+  - wiki/concepts/meta_harness_loop.md → [[Hermes Agent Architecture]]
+  - wiki/concepts/meta_harness_loop.md → [[Domain Onboarding Standards]]
+  - wiki/concepts/meta_harness_loop.md → [[[Domain Onboarding Standards]]
+  - wiki/concepts/ml-evolution.md → [[rz-nas]]
+  - wiki/concepts/ml-evolution.md → [[llama-nas]]
+  - wiki/concepts/ml-evolution.md → [[essa]]
+  - wiki/concepts/ml-evolution.md → [[neural-architecture-search]]
+  - wiki/concepts/ml-evolution.md → [[catastrophic-forgetting]]
+  - wiki/concepts/ml-evolution.md → [[evolutionary-strategies]]
+  - wiki/concepts/neural-long-term-memory.md → [[titans]]
+  - wiki/concepts/neural-long-term-memory.md → [[in-context-learning]]
+  - wiki/concepts/reward-modeling.md → [[reasoning]]
+  - wiki/concepts/surprise-based-learning.md → [[titans]]
+  - wiki/entities/people/stephen-wolfram.md → [[computational-irreducibility]]
+  - wiki/entities/people/stephen-wolfram.md → [[computational-universe]]
+  - wiki/entities/people/stephen-wolfram.md → [[wolfram-physics-project]]
+  - wiki/entities/projects/tys-repos/mcp-logic.md → [[categorical-reasoning]]
+  - wiki/entities/tools/hermes-agent.md → [[subagent-delegation]]
+  - wiki/entities/tools/hermes-agent.md → [[subagent-delegation]]
+  - wiki/entities/tools/hermes-agent.md → [[hermes-agent-skill]]
+  - wiki/entities/tools/isabelle.md → [[formal-verification]]
+  - wiki/entities/tools/isabelle.md → [[interactive-theorem-proving]]
+  - wiki/entities/tools/isabelle.md → [[isabelle-hol]]
+  - wiki/entities/tools/mamba.md → [[titans]]
+  - wiki/entities/tools/prover9.md → [[formal-verification]]
+  - wiki/projects/goodrobot/business-concept.md → [[goodrobot-revenue-model]]
+  - wiki/scratchpad/jobs/reports/arxiv/carryover.md → [[production-stage-architecture]]
+  - wiki/scratchpad/jobs/reports/news/news-2026-05-18-headlines.md → [[wiki/sources/news/2026-05/iran-us-diplomacy-2026-05-18.md]]
+  - wiki/scratchpad/jobs/reports/news/news-2026-05-18-headlines.md → [[wiki/sources/news/2026-05/trump-approval-war-polling-2026-05-18.md]]
+  - wiki/scratchpad/jobs/reports/news/news-2026-05-18-headlines.md → [[wiki/sources/news/2026-05/asteroid-2026-jh2-2026-05-18.md]]
+  - wiki/scratchpad/jobs/reports/news/news-2026-05-18-headlines.md → [[wiki/sources/news/2026-05/jwst-early-galaxies-2026-05-17.md]]
+  - wiki/scratchpad/jobs/reports/news/news-2026-05-18-headlines.md → [[wiki/sources/news/2026-05/hantavirus-cruise-outbreak-2026-05-17.md]]
+  - wiki/scratchpad/jobs/reports/news/news-2026-05-18-headlines.md → [[wiki/sources/news/2026-05/scotus-voting-rights-2026-05-18.md]]
+  - wiki/scratchpad/jobs/reports/news/news-2026-05-18-headlines.md → [[wiki/sources/news/2026-05/trump-massie-primary-2026-05-17.md]]
+  - wiki/scratchpad/jobs/reports/news/news-2026-05-18-headlines.md → [[wiki/sources/news/2026-05/trump-prayer-rally-2026-05-18.md]]
+  - wiki/scratchpad/jobs/reports/news/news-2026-05-20-headlines.md → [[wiki/sources/news/2026-05/xi-putin-summit-2026-05-20]]
+  - wiki/scratchpad/jobs/reports/news/news-2026-05-20-headlines.md → [[wiki/sources/news/2026-05/github-data-breach-2026-05-20]]
+  - wiki/scratchpad/jobs/reports/news/news-2026-05-20-headlines.md → [[wiki/sources/news/2026-05/alzheimers-breakthrough-2026-05-20]]
+  - wiki/scratchpad/jobs/reports/news/news-2026-05-20-headlines.md → [[wiki/sources/news/2026-05/natural-hydrogen-discovery-2026-05-20]]
+  - wiki/scratchpad/jobs/reports/news/news-2026-05-20-headlines.md → [[wiki/sources/news/2026-05/samsung-strike-2026-05-20]]
+  - wiki/scratchpad/jobs/reports/news/news-2026-05-20-headlines.md → [[wiki/sources/news/2026-05/ebola-outbreak-drc-2026-05-20]]
+  - wiki/scratchpad/jobs/reports/news/news-2026-05-20-headlines.md → [[wiki/sources/news/2026-05/uk-russia-oil-sanctions-2026-05-20]]
+  - wiki/scratchpad/jobs/sheet.md → [[agent-sheets/news]]
+  - wiki/scratchpad/jobs/sheet.md → [[agent-sheets/researcher]]
+  - wiki/scratchpad/jobs/sheet.md → [[agent-sheets/orcaid]]
+  - wiki/scratchpad/jobs/sheet.md → [[agent-sheets/arxiv]]
+  - wiki/scratchpad/jobs/sheet.md → [[agent-sheets/ingest]]
+  - wiki/scratchpad/jobs/sheet.md → [[agent-sheets/librarian]]
+  - wiki/scratchpad/jobs/sheet.md → [[agent-sheets/librarian]]
+  - wiki/scratchpad/jobs/sheet.md → [[agent-sheets/researcher]]
+  - wiki/scratchpad/jobs/sheet.md → [[agent-sheets/orcaid]]
+  - wiki/scratchpad/jobs/sheet.md → [[agent-sheets/arxiv]]
+  - wiki/scratchpad/jobs/sheet.md → [[agent-sheets/news]]
+  - wiki/scratchpad/jobs/sheet.md → [[agent-sheets/ingest]]
+  - wiki/sources/articles/agem-ooe.md → [[novelty-search]]
+  - wiki/sources/articles/agem-ooe.md → [[autopoiesis]]
+  - wiki/sources/articles/agem-ooe.md → [[major-transitions]]
+  - wiki/sources/articles/choosing-right-agentic-design-pattern.md → [[delegation]]
+  - wiki/sources/articles/choosing-right-agentic-design-pattern.md → [[agentic-design-picker]]
+  - wiki/sources/articles/designing-agentic-design-picker.md → [[agentic-design-picker]]
+  - wiki/sources/articles/emotion-concepts-llm.md → [[blackmail]]
+  - wiki/sources/articles/emotion-concepts-llm.md → [[reward-hacking]]
+  - wiki/sources/articles/emotion-concepts-llm.md → [[neural-interpretability]]
+  - wiki/sources/articles/emotion-concepts-llm.md → [[ai-safety]]
+  - wiki/sources/articles/emotion-concepts-llm.md → [[steering-vectors]]
+  - wiki/sources/articles/emotion-concepts-llm.md → [[machine-psychology]]
+  - wiki/sources/articles/emotion-concepts-llm.md → [[functional-emotions]]
+  - wiki/sources/articles/frank-einstein-gemma-truth-emotion-sacred.md → [[truth-seeking]]
+  - wiki/sources/articles/gemma4.md → [[ollama]]
+  - wiki/sources/articles/language-evolution.md → [[emergent-communication]]
+  - wiki/sources/articles/language-evolution.md → [[computational-irreducibility]]
+  - wiki/sources/articles/language-evolution.md → [[taylors-law]]
+  - wiki/sources/articles/language-evolution.md → [[directed-preferential-placement]]
+  - wiki/sources/articles/ml-evolution-benchmarking-protocol.md → [[collm-nas]]
+  - wiki/sources/articles/ml-evolution-benchmarking-protocol.md → [[rz-nas]]
+  - wiki/sources/articles/ml-evolution-benchmarking-protocol.md → [[llama-nas]]
+  - wiki/sources/articles/ml-evolution-benchmarking-protocol.md → [[essa]]
+  - wiki/sources/articles/ml-evolution-benchmarking-protocol.md → [[qes]]
+  - wiki/sources/articles/ml-evolution-benchmarking-protocol.md → [[control-llm]]
+  - wiki/sources/articles/ml-evolution-benchmarking-protocol.md → [[namm]]
+  - wiki/sources/articles/ml-evolution-benchmarking-protocol.md → [[neural-architecture-search]]
+  - wiki/sources/articles/ml-evolution-benchmarking-protocol.md → [[catastrophic-forgetting]]
+  - wiki/sources/articles/ml-evolution-benchmarking-protocol.md → [[evolutionary-strategies]]
+  - wiki/sources/articles/ml-evolution-benchmarking-protocol.md → [[llama-nas]]
+  - wiki/sources/articles/ml-evolution-benchmarking-protocol.md → [[essa]]
+  - wiki/sources/articles/ml-evolution-benchmarking-protocol.md → [[qes]]
+  - wiki/sources/articles/solo-preneur.md → [[micro-saas]]
+  - wiki/sources/articles/solo-preneur.md → [[solo-development]]
+  - wiki/sources/articles/solo-preneur.md → [[product-strategy]]
+  - wiki/sources/articles/solo-preneur.md → [[indie-hacking]]
+  - wiki/sources/articles/solo-preneur.md → [[programmatic-seo]]
+  - wiki/sources/articles/titans-test-time-memory.md → [[in-context-learning]]
+  - wiki/sources/articles/titans-test-time-memory.md → [[google-research]]
+  - wiki/sources/documentation/automate-anything-with-cron.md → [[hermes-agent-skills]]
+  - wiki/sources/documentation/create-custom-subagents.md → [[delegation]]
+  - wiki/sources/documentation/delegation-parallel-work.md → [[profiles]]
+  - wiki/sources/documentation/event-hooks-hermes-agent.md → [[webhook-subscriptions]]
+  - wiki/sources/documentation/github-actions-troubleshooting.md → [[github-actions]]
+  - wiki/sources/documentation/github-actions-troubleshooting.md → [[trunk]]
+  - wiki/sources/documentation/github-actions-troubleshooting.md → [[uv]]
+  - wiki/sources/documentation/github-actions-troubleshooting.md → [[taplo]]
+  - wiki/sources/documentation/isabelle-installation.md → [[sledgehammer]]
+  - wiki/sources/documentation/isabelle-installation.md → [[formal-verification]]
+  - wiki/sources/documentation/isabelle-installation.md → [[java]]
+  - wiki/sources/documentation/isabelle-installation.md → [[latex]]
+  - wiki/sources/documentation/paperclip-company-spec.md → [[agent-skills-spec]]
+  - wiki/sources/documentation/persistent-goals-hermes-agent.md → [[subagent-delegation]]
+  - wiki/sources/documentation/profiles-running-multiple-agents.md → [[delegation]]
+  - wiki/sources/documentation/subagent-delegation-hermes-agent.md → [[delegation]]
+  - wiki/sources/documentation/wolfram-nks-causal-networks.md → [[mobile-automata]]
+  - wiki/sources/documentation/wolfram-nks-causal-networks.md → [[computational-universe]]
+  - wiki/sources/documentation/wolfram-nks-causal-networks.md → [[wolfram-physics-project]]
+  - wiki/sources/mixture-of-recursions.md → [[i-built-a-tiny-computer-inside-a-transformer]]
+  - wiki/sources/mixture-of-recursions.md → [[efficient-transformers]]
+  - wiki/sources/mixture-of-recursions.md → [[mixture-of-depths]]
+  - wiki/sources/mixture-of-recursions.md → [[recursive-transformers]]
+  - wiki/sources/mixture-of-recursions.md → [[adaptive-computation]]
+  - wiki/sources/mixture-of-recursions.md → [[latent-reasoning]]
+  - wiki/sources/mixture-of-recursions.md → [[kv-cache]]
+  - wiki/sources/news/2026-05/alzheimers-breakthrough-2026-05-20.md → [[alzheimers-research]]
+  - wiki/sources/news/2026-05/alzheimers-breakthrough-2026-05-20.md → [[protein-aggregation]]
+  - wiki/sources/news/2026-05/asteroid-2026-jh2-2026-05-18.md → [[asteroid-2026-jh2]]
+  - wiki/sources/news/2026-05/asteroid-2026-jh2-2026-05-18.md → [[near-earth-objects]]
+  - wiki/sources/news/2026-05/asteroid-2026-jh2-2026-05-18.md → [[planetary-defense]]
+  - wiki/sources/news/2026-05/ebola-outbreak-drc-2026-05-20.md → [[global-health-security]]
+  - wiki/sources/news/2026-05/ebola-outbreak-drc-2026-05-20.md → [[ai-diagnostics]]
+  - wiki/sources/news/2026-05/github-data-breach-2026-05-20.md → [[ai-security]]
+  - wiki/sources/news/2026-05/github-data-breach-2026-05-20.md → [[open-source-ai]]
+  - wiki/sources/news/2026-05/hantavirus-cruise-outbreak-2026-05-17.md → [[hantavirus]]
+  - wiki/sources/news/2026-05/hantavirus-cruise-outbreak-2026-05-17.md → [[public-health]]
+  - wiki/sources/news/2026-05/hantavirus-cruise-outbreak-2026-05-17.md → [[cruise-ship-outbreak]]
+  - wiki/sources/news/2026-05/iran-us-diplomacy-2026-05-18.md → [[iran]]
+  - wiki/sources/news/2026-05/iran-us-diplomacy-2026-05-18.md → [[us-iran-tensions]]
+  - wiki/sources/news/2026-05/iran-us-diplomacy-2026-05-18.md → [[middle-east-geopolitics]]
+  - wiki/sources/news/2026-05/jwst-early-galaxies-2026-05-17.md → [[james-webb-space-telescope]]
+  - wiki/sources/news/2026-05/jwst-early-galaxies-2026-05-17.md → [[early-universe]]
+  - wiki/sources/news/2026-05/jwst-early-galaxies-2026-05-17.md → [[cosmology]]
+  - wiki/sources/news/2026-05/natural-hydrogen-discovery-2026-05-20.md → [[clean-energy-transition]]
+  - wiki/sources/news/2026-05/natural-hydrogen-discovery-2026-05-20.md → [[hydrogen-economy]]
+  - wiki/sources/news/2026-05/samsung-strike-2026-05-20.md → [[ai-hardware-supply-chain]]
+  - wiki/sources/news/2026-05/samsung-strike-2026-05-20.md → [[semiconductor-geopolitics]]
+  - wiki/sources/news/2026-05/scotus-voting-rights-2026-05-18.md → [[scotus]]
+  - wiki/sources/news/2026-05/scotus-voting-rights-2026-05-18.md → [[voting-rights-act]]
+  - wiki/sources/news/2026-05/scotus-voting-rights-2026-05-18.md → [[redistricting]]
+  - wiki/sources/news/2026-05/scotus-voting-rights-2026-05-18.md → [[us-supreme-court]]
+  - wiki/sources/news/2026-05/trump-approval-war-polling-2026-05-18.md → [[trump-administration]]
+  - wiki/sources/news/2026-05/trump-approval-war-polling-2026-05-18.md → [[iran-war]]
+  - wiki/sources/news/2026-05/trump-approval-war-polling-2026-05-18.md → [[us-2026-midterms]]
+  - wiki/sources/news/2026-05/trump-massie-primary-2026-05-17.md → [[thomas-massie]]
+  - wiki/sources/news/2026-05/trump-massie-primary-2026-05-17.md → [[trump-republican-party]]
+  - wiki/sources/news/2026-05/trump-massie-primary-2026-05-17.md → [[2026-republican-primaries]]
+  - wiki/sources/news/2026-05/trump-prayer-rally-2026-05-18.md → [[trump-administration]]
+  - wiki/sources/news/2026-05/trump-prayer-rally-2026-05-18.md → [[religion-american-politics]]
+  - wiki/sources/news/2026-05/trump-prayer-rally-2026-05-18.md → [[christian-nationalism]]
+  - wiki/sources/news/2026-05/uk-russia-oil-sanctions-2026-05-20.md → [[russia-sanctions-regime]]
+  - wiki/sources/news/2026-05/uk-russia-oil-sanctions-2026-05-20.md → [[ai-energy-economics]]
+  - wiki/sources/news/2026-05/xi-putin-summit-2026-05-20.md → [[ai-governance]]
+  - wiki/sources/news/2026-05/xi-putin-summit-2026-05-20.md → [[great-power-competition]]
+  - wiki/sources/news/bill-cassidy-republican-senator-who-voted-to-convict-trump-l.md → [[trump-endorsement-primary-dominance]]
+  - wiki/sources/news/bill-cassidy-republican-senator-who-voted-to-convict-trump-l.md → [[donald-trump]]
+  - wiki/sources/news/bill-cassidy-republican-senator-who-voted-to-convict-trump-l.md → [[us-senate]]
+  - wiki/sources/news/bill-cassidy-republican-senator-who-voted-to-convict-trump-l.md → [[republican-party]]
+  - wiki/sources/news/bill-cassidy-republican-senator-who-voted-to-convict-trump-l.md → [[us-politics]]
+  - wiki/sources/news/bill-cassidy-republican-senator-who-voted-to-convict-trump-l.md → [[cassidy]]
+  - wiki/sources/news/canadian-from-cruise-ship-tests-positive-for-hantavirus.md → [[hantavirus]]
+  - wiki/sources/news/canadian-from-cruise-ship-tests-positive-for-hantavirus.md → [[cruise-ship-outbreak]]
+  - wiki/sources/news/canadian-from-cruise-ship-tests-positive-for-hantavirus.md → [[public-health]]
+  - wiki/sources/news/canadian-from-cruise-ship-tests-positive-for-hantavirus.md → [[infectious-disease]]
+  - wiki/sources/news/fpv-drone-strikes-show-hezbollahs-changing-tactics-against-i.md → [[hezbollah]]
+  - wiki/sources/news/fpv-drone-strikes-show-hezbollahs-changing-tactics-against-i.md → [[fpv-drone]]
+  - wiki/sources/news/fpv-drone-strikes-show-hezbollahs-changing-tactics-against-i.md → [[israel]]
+  - wiki/sources/news/fpv-drone-strikes-show-hezbollahs-changing-tactics-against-i.md → [[drone-warfare]]
+  - wiki/sources/news/fpv-drone-strikes-show-hezbollahs-changing-tactics-against-i.md → [[lebanon]]
+  - wiki/sources/news/how-worrying-is-the-ebola-outbreak-in-dr-congo.md → [[ebola]]
+  - wiki/sources/news/how-worrying-is-the-ebola-outbreak-in-dr-congo.md → [[bundibugyo]]
+  - wiki/sources/news/how-worrying-is-the-ebola-outbreak-in-dr-congo.md → [[dr-congo]]
+  - wiki/sources/news/how-worrying-is-the-ebola-outbreak-in-dr-congo.md → [[who]]
+  - wiki/sources/news/large-scale-ukrainian-drone-attack-kills-three-in-moscow-region.md → [[large-scale-ukrainian-drone-attack-kills-three-in-moscow-reg]]
+  - wiki/sources/news/large-scale-ukrainian-drone-attack-kills-three-in-moscow-region.md → [[ukraine-russia-war]]
+  - wiki/sources/news/large-scale-ukrainian-drone-attack-kills-three-in-moscow-region.md → [[drone-warfare]]
+  - wiki/sources/news/large-scale-ukrainian-drone-attack-kills-three-in-moscow-region.md → [[moscow]]
+  - wiki/sources/news/large-scale-ukrainian-drone-attack-kills-three-in-moscow-region.md → [[drone-attack]]
+  - wiki/sources/news/man-ploughs-car-into-crowd-in-italy-before-trying-to-stab-th.md → [[vehicle-ramming-attack]]
+  - wiki/sources/news/man-ploughs-car-into-crowd-in-italy-before-trying-to-stab-th.md → [[italy]]
+  - wiki/sources/news/man-ploughs-car-into-crowd-in-italy-before-trying-to-stab-th.md → [[terrorism]]
+  - wiki/sources/news/man-ploughs-car-into-crowd-in-italy-before-trying-to-stab-th.md → [[hybrid-attack]]
+  - wiki/sources/news/rescue-diver-dies-during-search-for-bodies-of-italians-who-d.md → [[maldives]]
+  - wiki/sources/news/rescue-diver-dies-during-search-for-bodies-of-italians-who-d.md → [[cave-diving]]
+  - wiki/sources/news/rescue-diver-dies-during-search-for-bodies-of-italians-who-d.md → [[italians]]
+  - wiki/sources/news/rescue-diver-dies-during-search-for-bodies-of-italians-who-d.md → [[diving-accident]]
+  - wiki/sources/news/taiwan-reaffirms-independence-despite-trump-warning.md → [[taiwan]]
+  - wiki/sources/news/taiwan-reaffirms-independence-despite-trump-warning.md → [[us-china-relations]]
+  - wiki/sources/news/taiwan-reaffirms-independence-despite-trump-warning.md → [[south-china-sea]]
+  - wiki/sources/news/taiwan-reaffirms-independence-despite-trump-warning.md → [[trump-administration]]
+  - wiki/sources/news/uae-reports-drone-strike-near-abu-dhabi-nuclear-power-plant.md → [[uae]]
+  - wiki/sources/news/uae-reports-drone-strike-near-abu-dhabi-nuclear-power-plant.md → [[nuclear-security]]
+  - wiki/sources/news/uae-reports-drone-strike-near-abu-dhabi-nuclear-power-plant.md → [[drone-warfare]]
+  - wiki/sources/news/uae-reports-drone-strike-near-abu-dhabi-nuclear-power-plant.md → [[barakah-nuclear-plant]]
+  - wiki/sources/news/who-declares-ebola-outbreak-in-dr-congo-an-international-eme.md → [[ebola]]
+  - wiki/sources/news/who-declares-ebola-outbreak-in-dr-congo-an-international-eme.md → [[who]]
+  - wiki/sources/news/who-declares-ebola-outbreak-in-dr-congo-an-international-eme.md → [[public-health-emergency-of-international-concern]]
+  - wiki/sources/papers/clinseekagent-multimodal-clinical-evidence-seeking.md → [[agentic-reasoning]]
+  - wiki/sources/papers/decoupling-perception-reasoning-vlm-post-training.md → [[Titans]]
+  - wiki/sources/papers/decoupling-perception-reasoning-vlm-post-training.md → [[vlm]]
+  - wiki/sources/papers/futuresim-adaptive-agents.md → [[llm-evaluation]]
+  - wiki/sources/papers/is-grep-all-you-need.md → [[retrieval-augmented-generation]]
+  - wiki/sources/papers/is-grep-all-you-need.md → [[information-retrieval]]
+  - wiki/sources/papers/opendeepthink-parallel-reasoning.md → [[llm-evaluation]]
+  - wiki/sources/papers/production-llm-agent-runtime-architecture-patterns.md → [[production-stage-architecture]]
+  - wiki/sources/papers/production-llm-agent-runtime-architecture-patterns.md → [[llm-agent-architecture]]
+  - wiki/sources/papers/production-llm-agent-runtime-architecture-patterns.md → [[waldis-instructions-shape-language-2026]]
+  - wiki/sources/papers/production-llm-agent-runtime-architecture-patterns.md → [[llm-agent-architecture]]
+  - wiki/sources/papers/production-llm-agent-runtime-architecture-patterns.md → [[production-stage-architecture]]
+  - wiki/sources/papers/reward-inside-model-elhsr.md → [[reasoning]]
+  - wiki/sources/papers/xu-envfactory-2026.md → [[agent-group-evolving-molecular-system-agem]]
+  - wiki/sources/papers/xu-envfactory-2026.md → [[mcp-model-context-protocol]]
+  - wiki/sources/repositories/cli-printing-press.md → [[Clippings/repositories/2026/cli-printing-press]]
+  - wiki/sources/repositories/cli-printing-press.md → [[printing-press]]
+  - wiki/sources/repositories/cli-printing-press.md → [[sqlite]]
+  - wiki/sources/repositories/cli-printing-press.md → [[fts5]]
+  - wiki/sources/repositories/cli-printing-press.md → [[mcp]]
+  - wiki/sources/repositories/cli-printing-press.md → [[cobra]]
+  - wiki/sources/repositories/cli-printing-press.md → [[agent-native-design]]
+  - wiki/sources/repositories/cli-printing-press.md → [[compound-commands]]
+  - wiki/sources/repositories/cli-printing-press.md → [[non-obvious-insight]]
+  - wiki/sources/repositories/cli-printing-press.md → [[peter-steinberger]]
+  - wiki/sources/repositories/cli-printing-press.md → [[anthropic]]
+  - wiki/sources/repositories/get-shit-done.md → [[spec-driven-development]]
+  - wiki/sources/repositories/graphify-ai-coding-assistant-skill.md → [[codebase-inspection]]
+  - wiki/sources/repositories/openclaw.md → [[ollama]]
+  - wiki/sources/repositories/symbiotic-ai.md → [[sovereign-ai]]
+  - wiki/sources/repositories/tabpfn.md → [[Clippings/repositories/2026/PriorLabsTabPFN ⚡ TabPFN Foundation Model for Tabular Data ⚡]]
+  - wiki/sources/repositories/tabpfn.md → [[tabpfn-client]]
+  - wiki/sources/repositories/tabpfn.md → [[tabpfn-extensions]]
+  - wiki/sources/repositories/tabpfn.md → [[priorlabs]]
+  - wiki/sources/repositories/tabpfn.md → [[huggingface]]
+  - wiki/sources/repositories/tabpfn.md → [[tabular-data]]
+  - wiki/sources/repositories/tabpfn.md → [[in-context-learning]]
+  - wiki/sources/repositories/tabpfn.md → [[synthetic-data]]
+  - wiki/sources/repositories/tabpfn.md → [[random-forest]]
+  - wiki/sources/repositories/tabpfn.md → [[xgboost]]
+  - wiki/sources/repositories/tabpfn.md → [[shap]]
+  - wiki/synthesis/efhf-mcp-configuration.md → [[agent-group-evolving-molecular-system-agem]]
+  - wiki/synthesis/llm-biological-analogies.md → [[wiki/sources/articles/brocas-area-gemini-chat]]
+  - wiki/synthesis/seg-scientist-agent-design.md → [[seg-molecular-self]]
+**Missing frontmatter** (21):
+  - wiki/agents/markovian-dev-agency/carryover.md
+  - wiki/agents/markovian-dev-agency/specialists/diagnostician/carryover.md
+  - wiki/agents/markovian-dev-agency/specialists/fixer/carryover.md
+  - wiki/agents/markovian-dev-agency/specialists/researcher/carryover.md
+  - wiki/agents/markovian-dev-agency/specialists/ticket-writer/carryover.md
+  - wiki/agents/skills/agem-expert/references/PROVING_GROUNDS.md
+  - wiki/agents/skills/agem-expert/references/STRATEGIES.md
+  - wiki/agents/skills/skill-architect/SKILL.md
+  - wiki/agents/skills/skill-architect/references/CHECKLIST.md
+  - wiki/agents/skills/skill-architect/references/TEMPLATE.md
+  - wiki/agents/skills/value-guardian/references/AXIOMS.md
+  - wiki/research/extraction-quality-audit/research_spec.md
+  - wiki/scratchpad/jobs/reports/arxiv/arxiv-2026-05-19-top-papers.md
+  - wiki/scratchpad/jobs/reports/arxiv/carryover.md
+  - wiki/scratchpad/jobs/reports/ingest/carryover.md
+  - wiki/scratchpad/jobs/reports/ingest/ingest-2026-05-20.md
+  - wiki/scratchpad/jobs/reports/librarian/audit-2026-05-19.md
+  - wiki/scratchpad/jobs/reports/librarian/audit-2026-05-20.md
+  - wiki/scratchpad/jobs/reports/librarian/librarian-2026-05-19-missing-agent-sheet.md
+  - wiki/synthesis/research-brief-2026-05-09.md
+  - wiki/synthesis/research-brief-2026-05-13.md
+**Non-reciprocal links** (76) — A links to B but B doesn't link back:
+  - [[verifier-graph]] → [[tyler-hall]] (no return link)
+  - [[verifier-graph]] → [[efhf]] (no return link)
+  - [[verifier-graph]] → [[agem]] (no return link)
+  - [[eml-operator]] → [[mcp-logic]] (no return link)
+  - [[eml-operator]] → [[efhf]] (no return link)
+  - [[meta-harness]] → [[agem]] (no return link)
+  - [[meta-harness]] → [[mcp-logic]] (no return link)
+  - [[meta-harness]] → [[project-synapse]] (no return link)
+  - [[meta-harness]] → [[hermes-agent]] (no return link)
+  - [[open-ended-evolution]] → [[efhf]] (no return link)
+  - [[open-ended-evolution]] → [[eml-operator]] (no return link)
+  - [[open-ended-evolution]] → [[maximum-occupancy-principle]] (no return link)
+  - [[mcp-coordinator]] → [[tyler-hall]] (no return link)
+  - [[mcp-coordinator]] → [[efhf]] (no return link)
+  - [[mcp-coordinator]] → [[conscience-servitor]] (no return link)
+  - [[load-bearing-reasoning]] → [[chain-of-thought]] (no return link)
+  - [[load-bearing-reasoning]] → [[isabelle]] (no return link)
+  - [[load-bearing-reasoning]] → [[hipai-montague]] (no return link)
+  - [[language-evolution]] → [[stephen-wolfram]] (no return link)
+  - [[language-evolution]] → [[gemini]] (no return link)
+  - [[aseke-compass-mcp]] → [[tyler-hall]] (no return link)
+  - [[aseke-compass-mcp]] → [[agem]] (no return link)
+  - [[prover9]] → [[isabelle]] (no return link)
+  - [[advanced-reasoning-mcp]] → [[mcp-logic]] (no return link)
+  - [[critical-analysis]] → [[edm-framework]] (no return link)
+  - [[sheaf-consistency-enforcer]] → [[hipai-montague]] (no return link)
+  - [[sheaf-consistency-enforcer]] → [[mcp-logic]] (no return link)
+  - [[hidden-states]] → [[critical-analysis]] (no return link)
+  - [[reward-modeling]] → [[critical-analysis]] (no return link)
+  - [[causal-networks]] → [[load-bearing-reasoning]] (no return link)
+  - [[toward-transcendent-moral-instrumentality]] → [[tyler-hall]] (no return link)
+  - [[toward-transcendent-moral-instrumentality]] → [[hipai-montague]] (no return link)
+  - [[ethical-ai-core]] → [[tyler-hall]] (no return link)
+  - [[ethical-ai-core]] → [[toward-transcendent-moral-instrumentality]] (no return link)
+  - [[maximum-occupancy-principle]] → [[edm-framework]] (no return link)
+  - [[maximum-occupancy-principle]] → [[efhf]] (no return link)
+  - [[maximum-occupancy-principle]] → [[zettelkasten-engine]] (no return link)
+  - [[conscience-servitor]] → [[hipai-montague]] (no return link)
+  - [[conscience-servitor]] → [[mcp-logic]] (no return link)
+  - [[conscience-servitor]] → [[sheaf-consistency-enforcer]] (no return link)
+  - [[ast-mcp-server]] → [[tyler-hall]] (no return link)
+  - [[ast-mcp-server]] → [[mcp-coordinator]] (no return link)
+  - [[agem]] → [[efhf]] (no return link)
+  - [[symbolic-regression]] → [[mcp-logic]] (no return link)
+  - [[hermes-agent]] → [[markovian-carryover]] (no return link)
+  - [[alphaevolve]] → [[maximum-occupancy-principle]] (no return link)
+  - [[nexus]] → [[efhf]] (no return link)
+  - [[sheffer-stroke]] → [[mcp-logic]] (no return link)
+  - [[tyler-hall]] → [[hipai-montague]] (no return link)
+  - [[tyler-hall]] → [[agem]] (no return link)
+  - [[tyler-hall]] → [[dhruv-trehan]] (no return link)
+  - [[tyler-hall]] → [[nexus]] (no return link)
+  - [[academic-peer-review]] → [[critical-analysis]] (no return link)
+  - [[roger-koenig-robert]] → [[aphantasia]] (no return link)
+  - [[stephen-wolfram]] → [[load-bearing-reasoning]] (no return link)
+  - [[efhf]] → [[mcp-logic]] (no return link)
+  - [[efhf]] → [[agentic-research]] (no return link)
+  - [[mop-explorer]] → [[project-synapse]] (no return link)
+  - [[mop-explorer]] → [[zettelkasten-engine]] (no return link)
+  - [[mop-explorer]] → [[edm-framework]] (no return link)
+  - [[mop-explorer]] → [[maximum-occupancy-principle]] (no return link)
+  - [[mop-explorer]] → [[efhf]] (no return link)
+  - [[meta_harness_loop]] → [[hermes-agent]] (no return link)
+  - [[markovian-dev-agency]] → [[markovian-carryover]] (no return link)
+  - [[markovian-dev-agency]] → [[hermes-agent]] (no return link)
+  - [[hipai-montague]] → [[mcp-logic]] (no return link)
+  - [[hipai-montague]] → [[mop-explorer]] (no return link)
+  - [[tys-repos]] → [[nexus]] (no return link)
+  - [[tys-repos]] → [[agem]] (no return link)
+  - [[tys-repos]] → [[mcp-logic]] (no return link)
+  - [[tys-repos]] → [[agentic-research]] (no return link)
+  - [[tys-repos]] → [[hipai-montague]] (no return link)
+  - [[graph-rlm]] → [[tyler-hall]] (no return link)
+  - [[graph-rlm]] → [[efhf]] (no return link)
+  - [[graph-rlm]] → [[agem]] (no return link)
+  - [[markovian-carryover]] → [[persistent-knowledge-compilation]] (no return link)

@@ -25,12 +25,12 @@ type: jobs
 
 | Job ID | Job Name | Agent | Status | Last Run | Next Run | Agent Sheet |
 |--------|----------|-------|--------|----------|----------|-------------|
-| `eaaa6bdc8503` | world-news-daily | news | pending | 2026-05-18 | 2026-05-19 8AM | [[agent-sheets/news]] |
+| `eaaa6bdc8503` | world-news-daily | news | **done** | 2026-05-20 | 2026-05-21 8AM | [[agent-sheets/news]] |
 | `8ea33cfa560a` | Wiki Researcher | researcher | pending | 2026-05-18 | 2026-05-21 8:30AM | [[agent-sheets/researcher]] |
 | `297092f3b347` | orcaid-verification-indexer | orcaid | pending | 2026-05-18 | 2026-05-19 9AM | [[agent-sheets/orcaid]] |
-| `72599f850df2` | arxiv-top3-weekly | arxiv | **done** | 2026-05-19 | [[agent-sheets/arxiv]] |
-| `c838e81a1496` | llm-wiki-raw-ingest | ingest | pending | 2026-05-17 | 2026-05-18 10:30AM | [[agent-sheets/ingest]] |
-| `6ee16837c47c` | Wiki Librarian | librarian | **done** | 2026-05-19 | N/A | [[agent-sheets/librarian]] |
+| `72599f850df2` | arxiv-top3-weekly | arxiv | **done** | 2026-05-20 | 2026-05-21 10AM | [[agent-sheets/arxiv]] |
+| `c838e81a1496` | llm-wiki-raw-ingest | ingest | **done** | 2026-05-20 | 2026-05-21 10:30AM | [[agent-sheets/ingest]] |
+| `6ee16837c47c` | Wiki Librarian | librarian | **done** | 2026-05-20 | N/A | [[agent-sheets/librarian]] |
 
 ## Task Delegation
 
@@ -53,7 +53,7 @@ type: jobs
 | researcher | `jobs/reports/researcher/` | — |
 | orcaid | `jobs/reports/orcaid/` | — |
 | arxiv | `jobs/reports/arxiv/` | — |
-| news | `jobs/reports/news/` | — |
+| news | `jobs/reports/news/` | [[news-2026-05-20-headlines]] |
 | ingest | `jobs/reports/ingest/` | — |
 
 ## Instructions Per Agent

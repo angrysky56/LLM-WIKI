@@ -1,5 +1,5 @@
 ---
-updated: 2026-05-21T06:26:21Z
+updated: 2026-05-21T16:34:49Z
 type: index
 ---
 
@@ -38,8 +38,10 @@ type: index
 - [[concept-index]] — Conceptual index — maps ideas to pages by meaning rather than structure; complement to the structural TOC in index.md
 - [[absence-of-worst-case-metric]] — Failure mode in evaluating high-stakes systems — judging success by whether the catastrophic event occurred while bracketing out steady-state cost; the metric that called nuclear deterrence "successful" and is being installed for AI
 - [[academic-peer-review]] — The process by which scholarly work is checked by experts in the same field to ensure quality and validity before publication.
+- [[activation-steering]] — Paradigm for directly manipulating LLM latent activations at inference time to steer behavior without fine-tuning
 - [[affective-ai-inner-architecture]] — Framework for AI self-observation and modification via Panksepp affective systems, mechanistic interpretability, and activation steering
 - [[agentic-research]] — The use of autonomous LLM agents to execute stages of the scientific research workflow, from idea generation to manuscript writing.
+- [[alqr-memory-estimates]] — Memory estimates for A-LQR Jacobian caching: 2GB for A_k cache on 7B models, calibration cost ~1000 GPU-hours one-time, per-token inference is 64MB reads with no recomputation
 - [[aphantasia]] — Concept page for Aphantasia
 - [[arcuate-fasciculus]] — Concept page for Arcuate Fasciculus.
 - [[astar-structural-pathfinding]] — A* heuristic search applied to market pivot graphs with forward-projected goals — Path Coherence Ratio quantifies structural efficiency; cross-validated against geometric (channel) and stochastic (√σ) goal sources
@@ -63,8 +65,10 @@ type: index
 - [[load-bearing-reasoning]] — A framework for interpretability that distinguishes between tokens necessary for a conclusion (load-bearing) and those that serve as statistical noise reduction (scaffolding).
 - [[markovian-carryover]] — How to write bounded forward-state carryover at agent/session boundaries using structured templates
 - [[maximum-occupancy-principle]] — Theory of behavior replacing reward maximization with action-state path entropy maximization — Layer 0 of EFHF architecture; absorbing states → Kernel 2 (Prover9-verified)
+- [[mechanistic-interpretability]] — Reverse-engineering transformer internals — activation caching, circuit analysis, and the EEG of artificial minds
 - [[memex]] — Vannevar Bush's 1945 vision of a personal associative knowledge device
 - [[meta_harness_loop]] — Core logic of the iterative evolution process in Meta-Harness.
+- [[metacognitive-architecture-closed-loop-self-regulation]] — Engineering internal awareness and closed-loop self-regulation in LLMs using biofeedback paradigms, PID control, and LQR — peer-reviewed whitepaper summary
 - [[ml-evolution]] — Concept page for autonomous machine learning model evolution.
 - [[myelination]] — Concept page for Myelination.
 - [[neural-long-term-memory]] — Concept page for neural long-term memory.
@@ -142,7 +146,8 @@ type: index
 - [[researcher]] — Agent instructions for Wiki Researcher cron job
 - [[arxiv-2026-05-19-top-papers]] — 
 - [[arxiv-2026-05-20-top-papers]] — No new arXiv papers today; yesterday's report had 3 fresh papers from 2026-05-18
-- [[carryover]] — 
+- [[arxiv-2026-05-21-top-papers]] — arxiv daily report 2026-05-21: no new papers, rate-limited on arXiv, wiki ingestion timeline empty
+- [[carryover]] — arxiv agent carryover — no new papers today, rate-limited
 - [[papers-2026-05-19-researched]] — Three papers on production LLM agent architecture, VLM reasoning decoupling, and agentic clinical evidence seeking
 - [[papers-2026-05-20]] — Three papers on production LLM agent architecture, VLM reasoning decoupling, and agentic clinical evidence seeking
 - [[carryover]] — 
@@ -162,6 +167,7 @@ type: index
 - [[designing-agentic-design-picker]] — 
 - [[discrete-time-to-event-modeling]] — Introduction to discrete-time survival analysis: discretization, censoring mechanisms, and life table foundations
 - [[emotion-concepts-llm]] — Anthropic research on functional emotion representations in Claude Sonnet 4.5 and their causal effects on behavior.
+- [[engineering-internal-awareness-and-closed-loop-self-regulation-in-large-language-models]] — Engineering internal check loop for LLMs via biofeedback paradigm, PID activation steering, and metacognitive quantization
 - [[eris-mythology]] — Greek goddess of strife and discord — the Apple of Discord triggered the Trojan War
 - [[frank-einstein-gemma-truth-emotion-sacred]] — 
 - [[gemma4]] — 

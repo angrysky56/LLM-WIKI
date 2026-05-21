@@ -7,7 +7,7 @@ updated: 2026-05-18
 # Wiki Researcher — Agent Sheet
 
 **Job ID**: `8ea33cfa560a`  
-**Schedule**: Monday & Thursday 8:30 AM  
+**Schedule**: Daily 08:33 AM (cron) + manual trigger any time
 **Delivery**: #research Discord channel
 
 ---

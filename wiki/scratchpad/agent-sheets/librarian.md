@@ -7,7 +7,7 @@ updated: 2026-05-18
 # Wiki Librarian — Agent Sheet
 
 **Job ID**: `6ee16837c47c`  
-**Schedule**: Daily 11:00 AM  
+**Schedule**: Daily 08:42 AM (cron) + manual trigger any time
 **Delivery**: local (weekly digest to #research)
 
 ---

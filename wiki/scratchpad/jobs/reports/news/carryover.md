@@ -1,40 +1,41 @@
 ---
-summary: News agent carryover — great power realignment, Ebola travel effects, Iran diplomacy, science themes
+summary: News agent carryover — space science, DOJ corruption, SCOTUS bipartisanship, DNC fracture themes
 tags: [['news', 'carryover', '2026-05']]
-updated: 2026-05-21T16:46:04Z
+updated: 2026-05-22T08:00:00Z
 ---
 
-# News Agent Carryover — 2026-05-21
+# News Agent Carryover — 2026-05-22
 
 ## Emerging Themes This Week
 
-1. **Great power realignment deepening**: Xi-Putin alliance + China defending Cuba against US simultaneously. The multipolar alignment is becoming more explicit. US pressing on multiple fronts (Iran, Cuba, tariffs) while domestic politics is fractious.
+1. **Science delivering on multiple fronts simultaneously**: SMILE magnetosphere mission (ESA-China joint), NASA Psyche Mars flyby, chirality origin discovery from May 20. Space science showing unusual velocity — two major missions within 24 hours of each other. Worth tracking if this concentration pattern continues.
 
-2. **Ebola is now a travel/infrastructure story, not just health**: WHO emergency declaration is being operationalized — flight diversions, quarantine orders, border screening. The surveillance and response infrastructure is being tested in real time.
+2. **DOJ as political slush fund now documented**: Trump's $1.8B anti-weaponization fund has a DOJ memo showing explicit bypassing of congressional oversight. GOP senators revolted — but the mechanism exists and is being used. Institutional capture vector that affects [[ai-governance-substrate]] and broader regulatory environment.
 
-3. **Iran is the most consequential open thread**: Peace proposal is being reviewed. If accepted, reshapes Middle East. If rejected, war escalates. This deserves continued monitoring.
+3. **Supreme Court bipartisanship as outlier signal**: *Hamm v. Smith* (Barrett + Kavanaugh with liberal wing) is notable precisely because everything else is so polarized. Could indicate the Court will surprise on other 8th Amendment cases — or that the conservative justices are selectively finding constitutional limits in ways that won't generalize.
 
-4. **Science delivering simultaneously**: SMILE magnetosphere mission, chirality origin solution, NASA's Psyche mission to metal-rich asteroid — all happening at once.
+4. **Democratic party remains in post-2024 fracture**: Autopsy created controversy equal to the original loss. Internal factions using it for 2028 positioning. Party synthesis hasn't happened and may not happen before 2028 primaries begin heating up.
 
 ## Stories to Keep Monitoring
 
-- **Iran diplomacy**: Check daily for acceptance/rejection of peace proposal
-- **Ebola travel effects**: Watch for more flight restrictions, border controls, economic spillover
-- **China-Cuba-US**: How does Beijing respond further? Any military signalling?
-- **Xi-Putin outcomes**: What concrete agreements came out of the Beijing summit?
+- **Iran ceasefire**: Still holding as of 2026-05-22 — but fragile. Check daily for drone attacks or acceptance/rejection of 14-point peace plan.
+- **China-Cuba escalation signals**: Beijing's response to US pressure on Cuba — any military signalling? Xi-Putin summit outcomes still being operationalized.
+- **Ebola travel effects**: More flight restrictions? Economic spillover? WHO emergency declaration being tested in real time.
+- **Anti-weaponization fund**: Where does the GOP revolt lead? Is the fund actually operational or stalled by congressional resistance?
 
 ## Regions Needing Continued Attention
 
-- **Middle East**: Iran specifically — highest stakes
-- **East Asia**: China's great-power signalling (Cuba, Taiwan, South China Sea)
-- **DRC**: Ebola outbreak spreading patterns, WHO response adequacy
-- **Europe**: UK-Russia oil sanctions easing, European defense spending
+- **Middle East**: Iran specifically — ceasefire holding but open
+- **East Asia**: China's great-power signalling (Cuba, Taiwan, South China Sea) + joint space missions with Europe
+- **DRC**: Ebola outbreak — travel/infrastructure effects now operational
+- **US domestic**: DOJ institutional capture, Supreme Court jurisprudence, Democratic party reconstruction
 
 ## Connections to Wiki Research Threads
 
-- The great power realignment connects to `institutional-capture-vs-species-framing` — the species framing would say "civilization is fragmenting," the institutional capture frame says "captured institutions are realigning proxies."
-- SMILE mission + chirality origin connect to the entropic machinery thread
-- Ebola as infrastructure stress test connects to global health governance (AI governance substrate)
+- The DOJ slush fund connects to [[institutional-capture-vs-species-framing]] — this is the institutional capture thesis made concrete, not abstract
+- SMILE mission + chirality origin connect to the entropic machinery thread (Earth's magnetosphere as ordered structure against entropic solar wind)
+- Democratic autopsy fracture connects to the question of whether institutional Democrats can reconstruct a winning coalition or whether the fracture is fatal to 2028
+- Supreme Court bipartisanship connects to whether constitutional protections can survive maximum polarization — fragile institutionalist signal
 
 ---
-*Carryover updated: 2026-05-21 | Next run: 2026-05-22 8AM*
+*Carryover updated: 2026-05-22 | Next run: 2026-05-23 8AM*

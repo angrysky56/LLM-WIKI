@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/scratchpad/jobs/sheet.md",
+                "file": "Clippings/articles/2026/llm-wiki.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "sheet"
+              "title": "llm-wiki"
             }
           }
         ]
@@ -196,6 +196,22 @@
   },
   "active": "b57d6628a158bb4f",
   "lastOpenFiles": [
+    "wiki/scratchpad/agent-sheets/arxiv.md",
+    "wiki/scratchpad/jobs/reports/researcher/carryover.md",
+    "wiki/scratchpad/jobs/reports/researcher/discovery-2026-05-21.md",
+    "wiki/concepts/process-reward-model.md",
+    "wiki/concepts/mixture-of-experts.md",
+    "wiki/concepts/inference-time-compute-scaling.md",
+    "wiki/scratchpad/jobs/reports/news/news-2026-05-22-headlines.md",
+    "wiki/sources/news/2026-05/trump-anti-weaponization-fund-2026-05-22.md",
+    "wiki/sources/news/2026-05/scotus-death-penalty-intellectual-disability-2026-05-22.md",
+    "wiki/sources/news/2026-05/nasa-psyche-mars-flyby-2026-05-22.md",
+    "wiki/sources/news/2026-05/smile-satellite-earth-magnetosphere-2026-05-22.md",
+    "wiki/sources/news/2026-05/dnc-2024-autopsy-2026-05-22.md",
+    "wiki/scratchpad/agent-sheets/librarian.md",
+    "wiki/agents/markovian-dev-agency/soul.md",
+    "wiki/agents/markovian-dev-agency/user.md",
+    "wiki/scratchpad/jobs/sheet.md",
     "wiki/synthesis/wiki-indexing-theory.md",
     "wiki/sources/articles/ebola-plane-divert-2026.md",
     "wiki/sources/articles/strait-of-hormuz-iran-claim-2026.md",
@@ -206,22 +222,6 @@
     "Clippings/articles/2026/breaking-news-world-news-and-video-from-al-jazeera_193010.md",
     "wiki/sources/news/2026-05/strait-of-hormuz-iran-claim-2026-05-21.md",
     "Clippings/articles/2026/breaking-news-video-and-the-latest-top-stories-from-the-us-a_192915.md",
-    "wiki/sources/news/2026-05/air-france-airbus-manslaughter-2009-2026-05-21.md",
-    "wiki/sources/articles/raul-castro-indictment-2026.md",
-    "wiki/sources/articles/sti-record-levels-europe-2026.md",
-    "Clippings/articles/2026/russia-and-china-blast-us-over-indictment-of-former-cuban-le_192822.md",
-    "raw/russia-and-china-blast-us-over-indictment-of-former-cuban-le.md",
-    "Clippings/articles/2026/gonorrhoea-and-syphilis-hit-record-levels-in-europe-data-sho_192713.md",
-    "raw/gonorrhoea-and-syphilis-hit-record-levels-in-europe-data-sho.md",
-    "Clippings/articles/2026/russia-and-china-blast-us-over-indictment-of-former-cuban-le.md",
-    "Clippings/articles/2026/us-bound-plane-diverts-after-person-from-ebola-hit-region-bo.md",
-    "Clippings/articles/2026/gonorrhoea-and-syphilis-hit-record-levels-in-europe-data-sho.md",
-    "Clippings/articles/2026/trump-shifts-between-diplomacy-and-threats-in-iran-standoff_192249.md",
-    "raw/trump-shifts-between-diplomacy-and-threats-in-iran-standoff.md",
-    "Clippings/articles/2026/strait-of-hormuz-iran-steps-up-claim-to-control-middle-east-.md",
-    "wiki/scratchpad/jobs/reports/ingest/ingest-2026-05-21.md",
-    "Clippings/articles/2026/air-france-and-airbus-found-guilty-of-manslaughter-over-2009.md",
-    "wiki/sources/articles/trump-iran-diplomacy-threats-2026.md",
     "wiki/scratchpad/jobs/reports/arxiv/search_arxiv.py",
     "wiki/scratchpad/jobs/reports/ingest",
     "wiki/scratchpad/jobs/reports/arxiv",

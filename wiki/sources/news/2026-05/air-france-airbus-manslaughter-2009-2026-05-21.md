@@ -37,8 +37,8 @@ Paris Appeals Court convicted Air France and Airbus of manslaughter over the cra
 
 ## Related Incidents
 
-- [[wiki/sources/news/2026-05/github-data-breach-2026-05-20]] — corporate liability in tech sector
-- [[wiki/sources/news/2026-05/ebola-travel-restriction-2026-05-21]] — corporate responsibility in transport incidents
+- [[github-data-breach-2026-05-20]] — corporate liability in tech sector
+- [[ebola-travel-restriction-2026-05-21]] — corporate responsibility in transport incidents
 
 ## Tags
 

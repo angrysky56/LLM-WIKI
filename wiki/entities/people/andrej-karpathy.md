@@ -11,7 +11,7 @@ Former Director of AI at Tesla, founding member of OpenAI, Stanford PhD.
 
 ## Relevance to This Wiki
 
-Author of the [[LLM Wiki Pattern|wiki/sources/llm-wiki-pattern]] — the foundational architecture this knowledge base is built on.
+Author of the [[llm-wiki-pattern]] — the foundational architecture this knowledge base is built on.
 
 ## Key Contributions
 

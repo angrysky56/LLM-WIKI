@@ -1,8 +1,12 @@
 ---
+created: 2026-05-21
+updated: 2026-05-29
+type: concept
 summary: Framework for AI self-observation and modification via Panksepp affective systems, mechanistic interpretability, and activation steering
 tags: [affective-ai, metacognition, self-modification, panksepp, aseke, activation-steering, mechanistic-interpretability]
-updated: 2026-05-21T06:26:13Z
-created: 2026-05-21T06:26:13Z
+sources: 
+status: active
+confidence: 0.7
 ---
 
 # Affective AI: Inner Architecture & Self-Modification

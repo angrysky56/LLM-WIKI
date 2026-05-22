@@ -1,6 +1,6 @@
 ---
 summary: Scientists may have solved why biological molecules are "right-handed" — 150-year-old homochirality mystery points to elusive electronic effect
-tags: [['news', 'science', 'chemistry', 'origin-of-life', 'chirality', '2026-05']]
+tags: [news, science, chemistry, origin-of-life, chirality]
 updated: 2026-05-21T16:45:13Z
 created: 2026-05-21T16:45:13Z
 ---
@@ -33,9 +33,9 @@ This connects to several wiki threads:
 The fact that the solution involves an "elusive electronic effect" suggests this is a quantum-level phenomenon — which would make it one of the deepest layers of explanation in the entropic machinery thread.
 
 ## Connections
-- [[wiki/sources/articles/wolchover-life-force-2026]] — flagellar motor + proton motive force + entropic machinery
-- [[wiki/concepts/open-ended-evolution]] — symmetry-breaking as enabling condition
-- [[wiki/synthesis/entropic-machinery-cot-and-flagellum]] — flagellar motor as entropic boundary
+- [[wolchover-life-force-2026]] — flagellar motor + proton motive force + entropic machinery
+- [[open-ended-evolution]] — symmetry-breaking as enabling condition
+- [[entropic-machinery-cot-and-flagellum]] — flagellar motor as entropic boundary
 - [[wiki/sources/papers/chen-molecular-cot-2026]] — molecular bonds and structural chirality
 
 ## Timeline

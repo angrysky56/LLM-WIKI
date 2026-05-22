@@ -37,9 +37,9 @@ Iran announced the creation of a "Persian Gulf Strait Authority" claiming milita
 
 ## Related Stories
 
-- [[wiki/sources/news/2026-05/iran-us-diplomacy-2026-05-18]] — US-Iran standoff escalation
-- [[wiki/sources/news/2026-05/uae-reports-drone-strike-near-abu-dhabi-nuclear-power-plant]] — regional vulnerability
-- [[wiki/sources/news/2026-05/xi-putin-summit-2026-05-20]] — great power context
+- [[iran-us-diplomacy-2026-05-18]] — US-Iran standoff escalation
+- [[uae-reports-drone-strike-near-abu-dhabi-nuclear-power-plant]] — regional vulnerability
+- [[xi-putin-summit-2026-05-20]] — great power context
 
 ## Tags
 

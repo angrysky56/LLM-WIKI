@@ -1,6 +1,6 @@
 ---
 summary: Air France flight diverted to Montreal after passenger from DRC Ebola outbreak region boarded "in error" — first visible travel restriction from WHO emergency declaration
-tags: [['news', 'health', 'ebola', 'travel', 'global-health', '2026-05']]
+tags: [news, health, ebola, travel, global-health]
 updated: 2026-05-21T16:44:51Z
 created: 2026-05-21T16:44:51Z
 ---
@@ -30,9 +30,9 @@ The phrase "in error" is doing a lot of work here — it suggests either a ticke
 The broader implication: Ebola is no longer just a health story. It's becoming a travel, trade, and economic story — which is exactly how global health crises become geopolitical events.
 
 ## Connections
-- [[wiki/sources/news/2026-05/ebola-outbreak-drc-2026-05-20]] — WHO declared PHEIC
-- [[wiki/sources/news/2026-05/who-declares-ebola-outbreak-in-dr-congo-an-international-eme]] — WHO emergency declaration
-- [[wiki/scratchpad/jobs/reports/news/carryover]] — carryover notes Ebola as emerging pattern
+- [[ebola-outbreak-drc-2026-05-20]] — WHO declared PHEIC
+- [[who-declares-ebola-outbreak-in-dr-congo-an-international-eme]] — WHO emergency declaration
+- [[carryover]] — carryover notes Ebola as emerging pattern
 
 ## Timeline
 - 2026-05-21: Air France flight to US diverted to Montreal after DRC passenger boarded "in error"

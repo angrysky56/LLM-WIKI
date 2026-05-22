@@ -1,6 +1,6 @@
 ---
 summary: European-Chinese SMILE satellite launched to image Earth's magnetosphere — the protective magnetic shield that defends life against solar wind
-tags: [['news', 'science', 'space', 'earth-science', 'china', 'europe', '2026-05']]
+tags: [news, science, space, earth-science, china, europe]
 updated: 2026-05-21T16:44:38Z
 created: 2026-05-21T16:44:38Z
 ---
@@ -33,9 +33,9 @@ This connects to multiple threads in the wiki:
 The European-Chinese collaboration is also notable: despite geopolitical tensions, scientific cooperation continues on fundamental questions. This may reflect the universal human interest in understanding our protective environment.
 
 ## Connections
-- [[wiki/sources/articles/wolchover-life-force-2026]] — flagellar motor + entropic machinery
-- [[wiki/concepts/open-ended-evolution]] — non-equilibrium maintenance
-- [[wiki/synthesis/entropic-machinery-cot-and-flagellum]] — flagellar motor as case study in entropy management
+- [[wolchover-life-force-2026]] — flagellar motor + entropic machinery
+- [[open-ended-evolution]] — non-equilibrium maintenance
+- [[entropic-machinery-cot-and-flagellum]] — flagellar motor as case study in entropy management
 
 ## Timeline
 - 2026-05-21: SMILE satellite launched on Vega-C from European spaceport

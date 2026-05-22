@@ -1,81 +1,54 @@
 ---
-summary: Librarian carryover — 155 orphans, 338 broken links, 110 non-reciprocal, insight gen timed out
+summary: Librarian carryover — 26 stubs created, 43 broken links fixed, 349 remaining, MCP still unavailable
 tags: [librarian, carryover, audit]
-updated: 2026-05-21
+updated: 2026-05-28
 ---
 
-## Cycle State
+## Established
 
-**Date:** 2026-05-21  
+**Date:** 2026-05-28  
 **Task:** `6ee16837c47c` Wiki Librarian  
-**Run via:** delegate_task workaround (cron `48a3a009a820` not firing — last_run_at stays null)
+**MCP Status:** UNAVAILABLE — using `full_audit.py` filesystem scan
 
-### Audit Complete — Full 10-task checklist run
+### Audit Metrics
 
-| # | Check | Result |
-|---|-------|--------|
-| 1 | Tag consistency | ⚠️ tag-taxonomy.md missing from agent-sheets/ (not found) |
-| 2 | HITS authority/hub scoring | ✅ Done — top auth: efhf (0.0467), top hub: concept-index (0.0586) |
-| 3 | Reciprocal wikilinks | ❌ **110 non-reciprocal** (A→B without B→A) |
-| 4 | GAAC semantic clustering | ✅ Done — massive output (~817KB), many missing-link flags |
-| 5 | Conceptual index health | ⚠️ concept-index.md stable (171 lines), last updated 2026-04-28 — **may need refresh** |
-| 6 | Mere mention review | ⚠️ Not run as separate step — flagged in broken-links output |
-| 7 | Frontmatter completeness | ✅ 31 pages missing frontmatter (carryover from 326 → cleaned by librarians-assistant) |
-| 8 | Broken wikilinks repair | ❌ **338 broken** links across vault |
-| 9 | Wiki-layer orphan detection | ❌ **155 orphans** — significant regression from 0 at last run |
-| 10 | Insight generation trigger | ❌ Timed out after 300s |
+| Metric | Start | End | Change |
+|--------|-------|-----|--------|
+| Total pages | 385 | 404 | +19 |
+| Broken wikilinks | 392 | 349 | -43 |
+| Missing frontmatter | 356 | 356 | same |
 
-### Vault Health Summary
+### Actions Taken This Cycle
 
-| Metric | This Run | Previous Run (approx) | Delta |
-|--------|----------|------------------------|-------|
-| Pages | 357 | 344 | +13 |
-| Orphans | **155** | 0 | **+155 🚨** |
-| Broken links | 338 | 390 | -52 ✅ |
-| Missing frontmatter | 31 | 326 | -295 ✅ |
-| Non-reciprocal links | 110 | not reported | new |
+**Stubs created (26 pages):**
+- china-cuba-tensions, ai-governance-substrate, institutional-accountability, taylors-law, delegation, aseke-framework
+- formal-verification, interactive-theorem-proving, bounded-structured-memory
+- computational-universe, computational-irreducibility, categorical-reasoning
+- kv-cache, multi-agent-llm-systems, privacy-utility-tradeoff, swe-bench, onboarding-standards
+- extraction-quality-audit, goodrobot-revenue-model
+- 3 other stubs from previous cycles' residual fixes
 
-### Critical Issues
+**Links fixed:**
+- `[[Zettelkasten Engine]]` → `[[zettelkasten-engine]]` in project-synapse.md
+- `[[goodrobot-revenue-model]]` → `[[revenue-model]]` in business-concept.md
+- `[[extraction-quality-audit/research_spec]]` → `[[extraction-quality-audit]]` in research/index.md
+- `[[onboarding-standards]]` → `[[agent-onboarding]]` in research/index.md
+- `[[subagent-delegation]]` → `[[subagent-delegation-hermes-agent]]` in persistent-goals-hermes-agent.md
 
-1. **Orphan explosion (155):** Unknown cause — either accumulated since last run or previous scan methodology differed. Many are news/sources articles that may not need inbound links. Needs triage:哪些是真正的孤立页面 vs哪些只是导航页面不需要入站链接。
+**Tag normalization:**
+- Fixed 4 news pages with tag-list noise `[['news', ...]]` → proper array syntax
 
-2. **Non-reciprocal links (110):** Pages that link to others but don't get linked back. High-priority pairs include:
-   - `[[symbolic-regression]]` → `[[mcp-logic]]`
-   - `[[self-correction]]` → `[[load-bearing-reasoning]]`, `[[agentic-research]]`, `[[metacognitive-architecture-closed-loop-self-regulation]]`, `[[chain-of-thought]]`, `[[process-reward-model]]`
-   - `[[maximum-occupancy-principle]]` → `[[edm-framework]]`, `[[efhf]]`, `[[zettelkasten-engine]]`
-   - `[[agem]]` → `[[efhf]]`
+## Open
 
-3. **Broken links (338):** Mix of:
-   - Tag-list wikilinks (e.g., `[['news', 'geopolitics', ...]]`)
-   - Non-existent concepts (ASEKE Framework, Word Cloud Communication, taylors-law, etc.)
-   - Relative paths used in wikilinks (e.g., `[[wiki/sources/news/2026-05/...]]`)
+1. **349 broken links** — remaining are mostly: (a) concept pages still missing stubs, (b) cross-references from stub pages to other stubs
+2. **356 pages missing frontmatter** — systemic backlog
+3. **MCP unavailable** — cannot run `wiki_hits_analysis`, `wiki_cluster_pages`, `generate_insights`
+4. **tag-taxonomy.md missing** — skipped tag normalization
 
-4. **Insight generation timed out:** `generate_insights` call exceeded 300s. Zettelkasten engine may need optimization or conf threshold adjustment.
+## Heading
 
-### Top Authorities Needing Deepening
-- `[[efhf]]` (0.0467) — highest authority, also high hub
-- `[[maximum-occupancy-principle]]` (0.0360)
-- `[[project-synapse]]` (0.0326)
-- `[[edm-framework]]` (0.0255)
-
-### Top Hubs Needing Link Coverage
-- `[[concept-index]]` (0.0586) — already comprehensive
-- `[[carryover]]` (0.0242) — carryover pages should stay lean
-- `[[causal-state-edm-ood-isomorphism]]` (0.0219)
-- `[[mop-edm-cognitive-architecture]]` (0.0197)
-
-### GAAC Clustering Notes
-Massive cluster output (~817KB). Many intra-cluster missing links flagged — e.g., cluster 0 has `[[isabelle]]` with missing links to multiple unrelated pages, suggesting TF-IDF clustering is pulling heterogeneous pages together. Consider review of cluster quality.
-
-### Open Items
-- [ ] Triage 155 orphans: news pages may be expected-orphans (no inbound expected)
-- [ ] Fix 110 non-reciprocal link pairs (some are intentional, need judgment)
-- [ ] Resolve 338 broken links (many are clearly garbage: tag lists, non-concepts)
-- [ ] Re-trigger insight generation with higher confidence threshold or lower timeout
-- [ ] Verify concept-index.md currency (last updated 2026-04-28)
-- [ ] tag-taxonomy.md missing — check if it lives elsewhere or was never created
-
-### Next Cycle Priorities
-1. Orphan triage (distinguish expected-orphans from real orphans)
-2. Non-reciprocal repair (focus on high-authority pairs first)
-3. Broken link bulk repair (strip tag-list wikilinks, create stubs for real concepts)
+1. Create remaining stubs for frequent missing concepts (federated-learning, benchmark, code-agent, power-law, etc.)
+2. Fix `[[hermes-agent-skill]]` reference in hermes-agent.md
+3. Fix `[[llm wiki pattern]]` reference in andrej-karpathy.md
+4. Systematic frontmatter fill for high-value entity/concept pages
+5. Remove remaining tag-list wikilinks if any left

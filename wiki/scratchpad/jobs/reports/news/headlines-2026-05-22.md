@@ -2,49 +2,48 @@
 
 ## Stories Ingested
 
-1. **Rubio Declares Cuba a National Security Threat**
-   - Region: Latin America / Caribbean
-   - Significance: Direct bilateral escalation; Cuba's foreign minister accused Rubio of "instigating military aggression." Casts Cuba as a China-linked threat, linking to the ongoing US-China multi-theater pressure campaign.
-   - Wiki status: Ingested — `sources/rubio-declares-cuba-threat.md`
+1. **[NATO Troop Deployment to Poland](wiki/sources/articles/nato-troops-poland-may-2026.md)**
+   - Region: Europe / North Atlantic
+   - Significance: Trump announced 5,000 US troops to Poland — appearing to reverse prior administration posture. NATO allies welcomed the outcome but publicly described US communication as "confusing indeed." Pattern of contradictory signaling continues to erode alliance trust. Significant because it coincides with Russia-Ukraine ceasefire negotiations and reinforces NATO's eastern flank posture.
+   - Wiki status: ingested
 
-2. **Iran Publishes Map Claiming 22,000+ sq km of Strait of Hormuz**
-   - Region: Middle East / Persian Gulf
-   - Significance: Directly challenges freedom of navigation principles during fragile ceasefire; simultaneous with Qatar-mediated US-Iran indirect talks. Could be negotiating leverage or genuine territorial claim — tests ceasefire durability.
-   - Wiki status: Ingested — `sources/iran-claims-hormuz-waters.md`
+2. **[Alberta Independence Referendum — October 2026](wiki/sources/articles/alberta-independence-referendum-2026.md)**
+   - Region: North America / Canada
+   - Significance: Alberta's government scheduled a non-binding referendum for October 2026 on whether to hold a binding independence vote. Historically unprecedented for Canada — Quebec never reached this stage. Some observers noting potential US statehood angle for a sovereign Alberta. A major continental political map question that will play out over the next 5 months.
+   - Wiki status: ingested
 
-3. **Angry Crowd Sets Ebola Hospital Tents on Fire in DR Congo**
-   - Region: Africa / DRC
-   - Significance: Second major incident of response infrastructure collapsing. Community resistance to safe burial protocols and attacks on treatment centers suggest significant under-reporting and WHO emergency declaration increasingly likely.
-   - Wiki status: Ingested — `sources/ebola-hospital-tents-fire-congo.md`
+3. **[Ebola Bundibugyo Outbreak — WHO Emergency Declaration](wiki/sources/articles/ebola-bundibugyo-outbreak-drc-uganda-2026.md)**
+   - Region: Sub-Saharan Africa (DRC / Uganda)
+   - Significance: WHO declared this a public health emergency of international concern. First such declaration for the Bundibugyo species, which has no proven vaccine (~37% CFR). UK scientists developing new vaccine with trials possible in months. US public health cuts are impairing the response — creating a test case for global outbreak response capacity post-US disengagement.
+   - Wiki status: ingested
 
-4. **Ben-Gvir Flotilla Taunting Video Shatters Israeli Hasbara**
-   - Region: Middle East / Gaza
-   - Significance: Far-right minister's video of taunting abducted activists went viral, dealing multimillion-dollar public diplomacy effort in a single clip. Part of broader pattern where internal political incentives undermine strategic diplomatic objectives.
-   - Wiki status: Ingested — `sources/israel-ben-gvir-flotilla-video.md`
-
-5. **US Confirms No Change in Sanctioning Francesca Albanese**
-   - Region: United States / International institutions
-   - Significance: UN Special Rapporteur remains sanctioned for criticizing Israeli policies. Signals chilling effect on UN human rights mechanisms; US position as outlier among Western democracies on targeting international officials.
-   - Wiki status: Ingested — `sources/us-sanctions-francesca-albanese.md`
+4. **[Middle East Update — Lebanon Strikes, Hormuz Crisis, Russia Nukes to Belarus](wiki/sources/articles/middle-east-lebanon-hormuz-may-2026.md)**
+   - Region: Middle East / Europe
+   - Significance: Israeli attacks on Lebanon targeted health workers — continuing the pattern of domestic political signaling undermining strategic diplomatic objectives. Hormuz crisis continues to reshape Indian energy policy; Venezuela offering alternative oil. Russia sending additional nuclear weapons to Belarus, described by analysts as "something big" — escalation in nuclear dimension of the war. Ukraine claims 83,000 Russian dead in 2026.
+   - Wiki status: ingested
 
 ## Wiki Updates
-- New pages: 5 (`rubio-declares-cuba-threat`, `iran-claims-hormuz-waters`, `ebola-hospital-tents-fire-congo`, `israel-ben-gvir-flotilla-video`, `us-sanctions-francesca-albanese`)
+- New pages: 4
 - Updated pages: 0
-- Cross-links added: 0 (deferred — source pages written first)
+- Cross-links added: 4 (to [[institutional-accountability]], [[russia-ukraine-war]], [[public-health-governance]], [[who-emergency-declarations]], [[hormuz-strait-security]], [[russia-belarus-nuclear]])
 
 ## Excluded (monitor only)
-- **US Senate pushes back against $1.8bn anti-weaponization fund**: Institutional check on executive; follow up on whether fund actually stalls
-- **Trump shifts between diplomacy and threats in Iran standoff**: Narrative framing piece; signals are contradictory and cannot be resolved from public reporting
-- **Democrats' autopsy report on Kamala Harris loss**: Political domestic item; no significant global implications identified
-- **60% of Americans oppose Trump Iran war**: Public opinion trend; worth monitoring for policy impact
-- **Air France manslaughter verdict** (carryover story): Verdict was reached 17 years after crash; continuing to monitor for sentencing and appeal outcomes
+- **Turkey opposition court ousting**: Ongoing legal struggle by CHP leader Özgür Özel — significant but continuing storyline, not new event
+- **Carlo Petrini death**: Cultural/obituary — Slow Food founder died at 76; significant for food systems but not globally acute this cycle
+- **Guardiola Man City departure**: Sports — no intersection with research threads
+- **Man Utd Carrick appointment**: Sports — excluded
+- **South Korea Starbucks protests**: Symbolic activism, no major geopolitical significance this cycle
+- **Honduras gang violence (25 dead)**: Tragic but localized; no emerging pattern connecting to research threads
+- **Everest deaths**: Recurring seasonal risk, not new pattern
 
 ## Notable Patterns
 
-1. **Accountability in both directions simultaneously**: Air France guilty verdict (corporations held accountable after 17-year pursuit) contrasts with Ben-Gvir facing no consequences for taunting activists and Francesca Albanese facing US sanctions for documenting rights abuses. The accountability vector is not unidirectional — some institutions functioning, others captured or weaponized.
+1. **The reversal cadence is now a structural feature, not a bug**: Trump NATO deployment being described by allies as "confusing indeed" alongside welcoming — allies have learned to publicly accept while privately discount. This is the new normal for alliance management.
 
-2. **US-China simultaneous multi-theater pressure**: Cuba (China-linked) + Taiwan simultaneous is not coincidental. The carryover insight that "Beijing is being tested on multiple spheres of influence at once" is now a declared US policy posture via Rubio's national security threat designation.
+2. **Subnational separatism gaining institutional legitimacy**: Alberta referendum is not a fringe movement — it's a provincial government-backed process with a constitutional timeline. The North American map question joins UK, Spain, Canada, Belgium as Western democracies under structural pressure from within.
 
-3. **Iran ceasefire under direct challenge**: The Hormuz map claim is the most significant escalation since the ceasefire. Whether it's leverage or genuine affects whether talks produce anything real — watch for naval movements and diplomatic responses in next 48-72 hours.
+3. **Pandemic response infrastructure being stress-tested in real time**: Ebola Bundibugyo outbreak + US aid withdrawals = first real-world test of whether WHO declarations mean anything without funded response capacity behind them. The UK vaccine development is encouraging but won't arrive in time to contain current surge.
 
-4. **Ebola response infrastructure failing**: Two major incidents now — hospital attack + community resistance. WHO emergency declaration timing may have arrived or be imminent.
+4. **Hormuz becoming permanent strategic variable**: The strait is no longer just an Iranian leverage tool — it's reshaping Venezuelan oil routes to India, forcing Asian energy recalculations, and creating a new normal of disrupted Gulf transit. This is a durable structural change, not a temporary crisis.
+
+5. **Russia-Belarus nuclear integration accelerating**: Additional nukes to Belarus following the "something big" framing suggests Moscow is deliberately signaling escalation threshold changes, possibly in anticipation of ceasefire negotiations producing unfavorable terms.

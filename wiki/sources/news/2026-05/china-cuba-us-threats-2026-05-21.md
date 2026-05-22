@@ -1,6 +1,6 @@
 ---
 summary: China defended Cuba against US "threats" after Raúl Castro indictment — great-power signalling on same day as Xi-Putin summit
-tags: [['news', 'geopolitics', 'china', 'cuba', 'great-power', '2026-05']]
+tags: [news, geopolitics, china, cuba, great-power]
 updated: 2026-05-21T16:44:28Z
 created: 2026-05-21T16:44:28Z
 ---
@@ -32,9 +32,9 @@ The institutional capture vs species framing applies here: the rhetorical layer 
 The blackouts add a human dimension — Cubans are experiencing infrastructure stress at the same time their government is under US legal pressure. This creates a compounding crisis that Beijing may use to position itself as a stabilizer.
 
 ## Connections
-- [[wiki/sources/news/2026-05/xi-putin-summit-2026-05-20]] — Xi-Putin meeting in Beijing the same day
-- [[wiki/sources/news/2026-05/iran-us-diplomacy-2026-05-18]] — US pressing multiple fronts simultaneously
-- [[wiki/concepts/institutional-capture-vs-species-framing]] — spin-vs-substrate analytical frame
+- [[xi-putin-summit-2026-05-20]] — Xi-Putin meeting in Beijing the same day
+- [[iran-us-diplomacy-2026-05-18]] — US pressing multiple fronts simultaneously
+- [[institutional-capture-vs-species-framing]] — spin-vs-substrate analytical frame
 
 ## Timeline
 - 2026-05-21: China calls on US to end "threats" against Cuba

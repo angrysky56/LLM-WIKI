@@ -38,9 +38,9 @@ The US-Iran war remains in a fragile ceasefire as President Trump alternates bet
 
 ## Related Stories
 
-- [[wiki/sources/news/2026-05/strait-of-hormuz-iran-claim-2026-05-21]] — maritime escalation
-- [[wiki/sources/news/2026-05/uae-reports-drone-strike-near-abu-dhabi-nuclear-power-plant]] — regional vulnerability
-- [[wiki/sources/news/2026-05/iran-us-diplomacy-2026-05-18]] — previous day's coverage
+- [[strait-of-hormuz-iran-claim-2026-05-21]] — maritime escalation
+- [[uae-reports-drone-strike-near-abu-dhabi-nuclear-power-plant]] — regional vulnerability
+- [[iran-us-diplomacy-2026-05-18]] — previous day's coverage
 
 ## Tags
 

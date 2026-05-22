@@ -1,7 +1,12 @@
 ---
-summary: Fixed [[titans-test-time-memory]] to [[titans-test-time-memory]]
+created: 2026-05-21
+updated: 2026-05-29
+type: concept
+summary: Neural network architectures that explicitly separate working memory from long-term memory stores, enabling persistent information across very long contexts
 tags: [llm, memory, machine-learning, neural-memory]
-updated: 2026-05-21T22:20:51Z
+sources: [[titans-test-time-memory]]
+status: active
+confidence: 0.8
 ---
 
 ---

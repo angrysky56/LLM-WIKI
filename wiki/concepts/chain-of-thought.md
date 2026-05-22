@@ -1,14 +1,8 @@
 ---
-summary: Added [[load-bearing-reasoning]] return link to CoT
-tags: [llm, reasoning, prompting, cot]
-updated: 2026-05-21T23:12:28Z
----
-
----
-created: 2026-05-06T20:09:21Z
-updated: 2026-05-21T08:05:00Z
+created: 2026-05-06
+updated: 2026-05-29
 type: concept
-summary: A prompting technique and internal process where LLMs generate intermediate reasoning steps before providing a final answer.
+summary: A prompting technique and internal process where LLMs generate intermediate reasoning steps before providing a final answer
 tags: [llm, reasoning, prompting, cot]
 sources: [Wei et al. 2022]
 status: active

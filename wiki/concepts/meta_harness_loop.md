@@ -1,7 +1,12 @@
 ---
-summary: Fixed double-bracket link and Domain Onboarding Standards
+created: 2026-05-21
+updated: 2026-05-29
+type: concept
+summary: The meta-harness architecture — an agent framework where the harness evaluates and directs specialized sub-agents
 tags: [evolution, architecture, meta-harness]
-updated: 2026-05-21T22:21:01Z
+sources: 
+status: active
+confidence: 0.7
 ---
 
 ---

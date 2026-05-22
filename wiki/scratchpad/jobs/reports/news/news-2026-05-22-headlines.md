@@ -11,31 +11,31 @@ updated: 2026-05-22
 1. **SMILE Satellite Launches — Joint European-Chinese Mission to Study Earth's Magnetosphere**
    - Region: Space / Europe-China Cooperation
    - Significance: ESA-CAS joint mission launched on Vega-C from French Guiana. First mission to provide continuous 3D observations of Earth's protective magnetic shield. Science cooperation channel persists despite broader great-power competition.
-   - Wiki status: ingested → [[wiki/sources/news/2026-05/smile-satellite-earth-magnetosphere-2026-05-22]]
+   - Wiki status: ingested → [[smile-satellite-earth-magnetosphere-2026-05-22]]
    - Graph: 11 nodes, 3 edges
 
 2. **NASA Psyche Spacecraft Completes Mars Flyby — En Route to Metal-Rich Asteroid**
    - Region: Space / NASA
    - Significance: First spacecraft to visit a metal-rich world. Spectacular Mars images captured during gravitational assist. Will reach asteroid 16 Psyche in 2029 — could reveal how planetary cores form.
-   - Wiki status: ingested → [[wiki/sources/news/2026-05/nasa-psyche-mars-flyby-2026-05-22]]
+   - Wiki status: ingested → [[nasa-psyche-mars-flyby-2026-05-22]]
    - Graph: 6 nodes, 4 edges
 
 3. **Supreme Court Bars Execution of Possibly Intellectually Disabled Inmate — 5-4**
    - Region: US Law / Supreme Court
    - Significance: *Hamm v. Smith* (May 21) extends *Atkins v. Virginia* (2002) to cover post-conviction disability evidence. Rare cross-ideological coalition: Barrett and Kavanaugh joined Democratic appointees. First such case in over two decades.
-   - Wiki status: ingested → [[wiki/sources/news/2026-05/scotus-death-penalty-intellectual-disability-2026-05-22]]
+   - Wiki status: ingested → [[scotus-death-penalty-intellectual-disability-2026-05-22]]
    - Graph: 10 nodes, 6 edges
 
 4. **Trump's $1.8B "Anti-Weaponization" Fund — DOJ Memo Reveals Slush Fund for Allies**
    - Region: US Politics / DOJ / Congress
    - Significance: DOJ memo describes fund as bypassing congressional oversight entirely. GOP senators revolt — Senate budget vote delayed. January 6 officers suing to stop it. Corporate slush fund precedent with direct regulatory capture implications.
-   - Wiki status: ingested → [[wiki/sources/news/2026-05/trump-anti-weaponization-fund-2026-05-22]]
+   - Wiki status: ingested → [[trump-anti-weaponization-fund-2026-05-22]]
    - Graph: 10 nodes, 6 edges
 
 5. **DNC Releases 2024 Election Autopsy — Harris Loss Blamed on White House Failure**
    - Region: US Politics / Democratic Party
    - Significance: DNC 80+ page report found campaign failed to contrast Trump's economic record, left Biden age questions unaddressed, and lost coalition voters. Report's release became its own political crisis — internal factions rejected findings.
-   - Wiki status: ingested → [[wiki/sources/news/2026-05/dnc-2024-autopsy-2026-05-22]]
+   - Wiki status: ingested → [[dnc-2024-autopsy-2026-05-22]]
    - Graph: 8 nodes, 3 edges
 
 ## Wiki Updates

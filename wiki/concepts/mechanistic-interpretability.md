@@ -1,8 +1,11 @@
 ---
 summary: Reverse-engineering transformer internals — activation caching, circuit analysis, and the EEG of artificial minds
+sources:
+status: active
+confidence: 0.85
 tags: [llm, interpretability, mechanistic-interpretability, transformerlens, activation-space, circuits]
-updated: 2026-05-21T16:34:45Z
-created: 2026-05-21T16:34:45Z
+updated: 2026-05-29
+created: 2026-05-21
 ---
 
 ---

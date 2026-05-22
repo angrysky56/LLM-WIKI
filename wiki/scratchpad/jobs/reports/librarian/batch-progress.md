@@ -1,44 +1,42 @@
-# Batch Progress — 2026-05-21 09:15
+# Batch Progress — 2026-05-29 09:20
 
 ## Fixes Applied This Batch
 
-### P0 — Alias Stubs
-- All 4 P0 stubs already created (reasoning.md, rz-nas.md, llama-nas.md, wolfram-physics-project.md)
+### Broken Wikilinks Fixed (2 pages)
+- wiki/entities/tools/hermes-agent.md: `[[hermes-agent-skill]]` → `[[hermes-agent]]`
+- wiki/entities/people/andrej-karpathy.md: `[[LLM Wiki Pattern|wiki/sources/llm-wiki-pattern]]` → `[[llm-wiki-pattern]]`
 
-### P1 — Non-Reciprocal Wikilinks Fixed
-- Verified efhf↔maximum-occupancy-principle: bidirectional ✅
-- Verified hermes-agent↔markovian-dev-agency: B→A done, A→B done ✅
-- Verified meta-harness↔agem: bidirectional ✅
-- Verified load-bearing-reasoning↔chain-of-thought: bidirectional ✅
-- No additional P1 fixes needed (all core pairs done)
+### Stubs Created (22 pages)
+- accountability.md, governance.md, institutional-design.md
+- category-theory.md, mathematical-reasoning.md
+- formal-methods.md, proof-assistant.md
+- attention-mechanism.md, transformer-architecture.md
+- agentic-hierarchy.md, subagent-delegation.md, multi-agent-coordination.md
+- data-privacy.md, federated-learning.md
+- benchmark.md, code-agent.md
+- power-law.md, power-law-scaling.md, scaling-laws.md
+- allometric-scaling.md
+- great-power-rivalry.md, proxy-signalling.md
 
-### P2 — Broken Wikilinks Fixed (19 pages)
-- wiki/concepts/affective-ai-inner-architecture.md: removed 4 broken links (ASEKE Framework, Mechanistic Interpretability, Word Cloud Communication, TransformerLens Notes)
-- wiki/concepts/astar-structural-pathfinding.md: removed broken links (square-root-system, isotropic-coordinate-system, market-cognitive-dissonance) from body, kept as context
-- wiki/concepts/mechanistic-interpretability.md: fixed [[engineering-internal-awareness]] → [[metacognitive-architecture-closed-loop-self-regulation]]
-- wiki/concepts/ml-evolution.md: replaced 4 broken concept links (neural-architecture-search, catastrophic-forgetting, evolutionary-strategies, ml-evolution-benchmarking-protocol) with existing targets
-- wiki/concepts/reward-modeling.md: removed compound-tag wikilink
-- wiki/concepts/hermes_agent.md: fixed [[Domain Onboarding Standards]] → [[meta-harness]]
-- wiki/concepts/language-evolution.md: fixed [[taylors-law]] → [[length-generalization]], [[emergent-communication]] → [[load-bearing-reasoning]]
-- wiki/concepts/markovian-carryover.md: fixed [[page]] → [[bounded-structured-memory]]
-- wiki/concepts/neural-long-term-memory.md: fixed [[titans-test-time-memory]] (restored, exists in sources/articles)
-- wiki/concepts/chain-of-thought.md: fixed [[titans-test-time-memory]] (restored, exists), [[shorthand-for-thought]] (restored, exists)
-- wiki/concepts/agentic-research.md: removed compound-tag wikilink, fixed FutureSim display text
-- wiki/concepts/wolfram-physics-project.md: fixed [[computational-irreducibility]] and [[computational-universe]] → [[causal-networks]]
-- wiki/concepts/mixture-of-experts.md: fixed [[llm-evolution|llm-evolution]] → [[ml-evolution]]
-- wiki/concepts/constitutional-ai.md: fixed [[alignment]] → [[reward-modeling]]
-- wiki/concepts/astar-structural-pathfinding.md: removed market-cognitive-dissonance
+### Frontmatter Completions (6 concept pages)
+- affective-ai-inner-architecture.md: added type, sources, status, confidence
+- agentic-research.md: added type, sources, status, confidence; fixed tags (was `[[agentic-research]]`)
+- length-generalization.md: cleaned duplicate frontmatter, added sources, status
+- chain-of-thought.md: cleaned duplicate frontmatter, fixed summary trailing period
+- rag.md: added created, updated, type, sources, status, confidence; normalized tags to lowercase
+- reward-modeling.md: added created, updated, sources, status, confidence; added tags
+- spin-vs-substrate.md: added type, sources, status, confidence
+- neural-long-term-memory.md: added type, sources, status, confidence
+- meta_harness_loop.md: added type, sources, status, confidence
+- mechanistic-interpretability.md: added sources, status, confidence
+- activation-steering.md: added sources, status, confidence
 
 ## Remaining Open Items
-- 384 broken links remain (mostly news-tag arrays, non-existent concepts that aren't worth creating stubs for)
-- 108 non-reciprocal links remain (many intentional: agent reports linking to concepts, news pages linking to entities)
-- 284 orphan pages (mostly news articles with no inbound links expected)
-- 344 pages missing frontmatter (mostly agent carryovers, job reports, news sources)
-- P3 (frontmatter) and P4 (tag normalization) not yet started
-
-## Hard Blockers
-- None — all fixes applied cleanly
+- 331 broken links remain (mostly news-tag arrays and non-value stubs)
+- 346 pages missing frontmatter (large backlog; focus on concept/entity pages)
+- 284 orphan pages (mostly news articles with no expected inbound links)
+- MCP still unavailable — using full_audit.py filesystem scan
 
 ## Next Batch Starts With
-- P3: Frontmatter completeness (prioritize concept pages over agent reports)
-- P4: Tag normalization (concept vs concepts canonical, mixed-case normalization)
+- P3: Continue frontmatter for high-value concept/entity pages (hidden-states already complete, proceed to graphrag, memex, etc.)
+- P1: Some of the 22 new stubs need reciprocal links back from pages that reference them

@@ -7,7 +7,7 @@ created: 2026-04-07T20:36:21Z
 
 # Zettelkasten Engine
 
-The autonomous insight generation component of [[Project Synapse]].
+The autonomous insight generation component of [[project-synapse]].
 
 ## What It Does
 

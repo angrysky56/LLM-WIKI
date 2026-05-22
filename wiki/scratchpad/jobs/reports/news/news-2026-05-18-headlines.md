@@ -18,42 +18,42 @@ sources: Google News RSS (2026-05-18)
 ### 1. 🇮🇷 Iran Submits Revised Proposal to End War — US Diplomatic Window Open
 **Significance**: Active diplomatic channel reopens after drone strikes on UAE/Saudi Arabia. Iran's revised proposal, delivered via Pakistani intermediary, represents the most concrete de-escalation signal since strikes began. Trump simultaneously warned "clock is ticking" — dual-track pressure and diplomacy in play.
 - **Sources**: Reuters, NBC News, ABC News, Axios, Haaretz
-- **Wiki**: [[wiki/sources/news/2026-05/iran-us-diplomacy-2026-05-18.md]]
+- **Wiki**: [[iran-us-diplomacy-2026-05-18.md]]
 
 ### 2. 📉 Trump's Approval Sinks Amid Unpopular Iran War — GOP Prospects Darken
 **Significance**: NYT poll (May 18) shows sharp approval decline tied directly to the Iran war. This is the first major polling showing political cost of the conflict. Combined with waning Israel support, the war is becoming a 2026 midterm liability for Republicans.
 - **Sources**: The New York Times, The Times of Israel
-- **Wiki**: [[wiki/sources/news/2026-05/trump-approval-war-polling-2026-05-18.md]]
+- **Wiki**: [[trump-approval-war-polling-2026-05-18.md]]
 
 ### 3. ☄️ Asteroid 2026 JH2 to Narrowly Miss Earth — Blue Whale-Size, Discovered Days Ago
 **Significance**: A newly discovered near-Earth asteroid passed Earth at a distance closer than the Moon, discovered only days prior. Ranked zero on the Torino scale — no hazard — but the short detection window is notable for planetary defense awareness.
 - **Sources**: CNN, Space, Avi Loeb (Medium), WIRED
-- **Wiki**: [[wiki/sources/news/2026-05/asteroid-2026-jh2-2026-05-18.md]]
+- **Wiki**: [[asteroid-2026-jh2-2026-05-18.md]]
 
 ### 4. 🔭 JWST Observes Ancient Galaxies That Shouldn't Exist — Cosmological Models Challenged Again
 **Significance**: JWST continues finding 13-billion-year-old galaxies that conflict with Lambda-CDM pre-launch models. Not a crisis yet, but the pattern of anomalies is accumulating and driving active theoretical revision.
 - **Sources**: Space Daily, Phys.org, Sky & Telescope, SciTechDaily
-- **Wiki**: [[wiki/sources/news/2026-05/jwst-early-galaxies-2026-05-17.md]]
+- **Wiki**: [[jwst-early-galaxies-2026-05-17.md]]
 
 ### 5. 🦠 Hantavirus Cruise Outbreak Spreads to North America — First Canadian Case Confirmed
 **Significance**: The cruise ship outbreak (Netherlands-disinfected) has produced a confirmed North American case in a Canadian patient in British Columbia. Public health authorities monitoring; event triggering Covid-era comparison discussions.
 - **Sources**: ABC News, AP News, CNN, The Daily Beast, STAT News
-- **Wiki**: [[wiki/sources/news/2026-05/hantavirus-cruise-outbreak-2026-05-17.md]]
+- **Wiki**: [[hantavirus-cruise-outbreak-2026-05-17.md]]
 
 ### 6. ⚖️ SCOTUS Voting Rights Ruling Ripples Through Local Level — "Jim Crow 2.0" Accusations
 **Significance**: Supreme Court's voting rights decision triggering immediate redistricting action in Louisiana and Alabama. Black Democrats on offense; warnings of minority-majority district rollbacks ahead of 2026 elections. Southern political landscape shifting fast.
 - **Sources**: NPR, The New York Times, The Hill
-- **Wiki**: [[wiki/sources/news/2026-05/scotus-voting-rights-2026-05-18.md]]
+- **Wiki**: [[scotus-voting-rights-2026-05-18.md]]
 
 ### 7. 🔥 Trump Targets Republican Critic Thomas Massie in Kentucky Primary
 **Significance**: After Bill Cassidy's loss in Louisiana, Trump escalates MAGA purge against libertarian-leaning Massie — a rare case of Trump investing heavily to unseat a sitting Republican. Massie unfazed; primary outcome could signal staying power of anti-Trump conservatives.
 - **Sources**: The Guardian, NBC News, The New York Times, USA Today
-- **Wiki**: [[wiki/sources/news/2026-05/trump-massie-primary-2026-05-17.md]]
+- **Wiki**: [[trump-massie-primary-2026-05-17.md]]
 
 ### 8. ✝️ Trump-Backed Prayer Rally Draws Thousands to National Mall — America's 250th Birthday
 **Significance**: "We welcome Jesus!" — the convergence of Trump's political operation with Christian nationalism for America's 250th celebration is a data point in the religion-politics fusion trend. Attendance and optics suggest significant mobilization capacity heading into 2026.
 - **Sources**: The Washington Post, NBC News, The Guardian, NPR
-- **Wiki**: [[wiki/sources/news/2026-05/trump-prayer-rally-2026-05-18.md]]
+- **Wiki**: [[trump-prayer-rally-2026-05-18.md]]
 
 ---
 

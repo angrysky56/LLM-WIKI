@@ -1,8 +1,11 @@
 ---
 summary: Paradigm for directly manipulating LLM latent activations at inference time to steer behavior without fine-tuning
+sources:
+status: active
+confidence: 0.85
 tags: [llm, activation-steering, representation-engineering, interpretability]
-updated: 2026-05-21T16:34:29Z
-created: 2026-05-21T16:34:29Z
+updated: 2026-05-29
+created: 2026-05-21
 ---
 
 ---

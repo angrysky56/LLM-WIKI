@@ -1,8 +1,12 @@
 ---
+created: 2026-05-17
+updated: 2026-05-29
 type: concept
-summary: The process of training a secondary model to assign scalar scores to LLM outputs, used for alignment (RLHF) and test-time scaling (Best-of-N).
-tags: 
-updated: 2026-05-17T18:16:24Z
+summary: The process of training a secondary model to assign scalar scores to LLM outputs, used for alignment (RLHF) and test-time scaling (Best-of-N)
+tags: [reward-modeling, alignment, rlhf, llm-training]
+sources: 
+status: active
+confidence: 0.8
 ---
 
 # Reward Modeling

@@ -1,12 +1,6 @@
 ---
-summary: Fixed [[titans]] to [[titans-test-time-memory]]
-tags: [llm, generalization, context-length, positional-encoding, autoregressive, scaling]
-updated: 2026-05-21T22:20:50Z
----
-
----
-created: 2026-05-21T08:33:00Z
-updated: 2026-05-21T08:05:00Z
+created: 2026-05-21
+updated: 2026-05-29
 type: concept
 summary: The failure of LLMs to generalize from short training sequences to longer inference sequences — a fundamental limitation of autoregressive transformers
 tags: [llm, generalization, context-length, positional-encoding, autoregressive, scaling]

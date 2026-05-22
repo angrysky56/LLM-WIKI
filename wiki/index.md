@@ -1,5 +1,5 @@
 ---
-updated: 2026-05-22T07:00:23Z
+updated: 2026-05-22T14:09:38Z
 type: index
 ---
 
@@ -17,24 +17,38 @@ type: index
 - [[agem-expert]] — 
 - [[PROVING_GROUNDS]] — 
 - [[STRATEGIES]] — 
+- [[agem-expert]] — Agent skill — Agem Expert
 - [[agentic-decision-tree]] — 
+- [[agentic-decision-tree]] — Agent skill — Agentic Decision Tree
 - [[agentic-multiagent]] — 
+- [[agentic-multiagent]] — Agent skill — Agentic Multiagent
 - [[agentic-planner]] — 
+- [[agentic-planner]] — Agent skill — Agentic Planner
 - [[agentic-react]] — 
+- [[agentic-react]] — Agent skill — Agentic React
 - [[agentic-reflection]] — 
+- [[agentic-reflection]] — Agent skill — Agentic Reflection
 - [[agentic-sequential]] — 
+- [[agentic-sequential]] — Agent skill — Agentic Sequential
 - [[SKILL]] — Tool use pattern for agents requiring external world interaction. Foundation layer for most real-world agentic tasks.
 - [[hierarchical-supervisor]] — 
+- [[hierarchical-supervisor]] — Agent skill — Hierarchical Supervisor
 - [[parallel-execution]] — 
+- [[parallel-execution]] — Agent skill — Parallel Execution
 - [[single-agent]] — 
+- [[single-agent]] — Agent skill — Single Agent
 - [[SKILL]] — 
 - [[CHECKLIST]] — 
 - [[TEMPLATE]] — 
 - [[supervisor-delegation]] — 
+- [[supervisor-delegation]] — Agent skill — Supervisor Delegation
 - [[supervisor-orchestrator]] — 
+- [[supervisor-orchestrator]] — Agent skill — Supervisor Orchestrator
 - [[unnamed-skill]] — 
+- [[unnamed-skill]] — Agent skill — Unnamed Skill
 - [[value-guardian]] — 
 - [[AXIOMS]] — 
+- [[value-guardian]] — Agent skill — Value Guardian
 - [[concept-index]] — Conceptual index — maps ideas to pages by meaning rather than structure; complement to the structural TOC in index.md
 - [[absence-of-worst-case-metric]] — Failure mode in evaluating high-stakes systems — judging success by whether the catastrophic event occurred while bracketing out steady-state cost; the metric that called nuclear deterrence "successful" and is being installed for AI
 - [[academic-peer-review]] — The process by which scholarly work is checked by experts in the same field to ensure quality and validity before publication.
@@ -58,6 +72,7 @@ type: index
 - [[feedforward-activity]] — Concept page for Feedforward Activity
 - [[frame-transmission]] — The historical mechanism by which captured institutional forms are actually displaced — propagation of cognitive frames, person to person, inside captured institutions; the only durable lever, slow but consistent in the historical record
 - [[graphrag]] — RAG enhanced with graph traversal for richer context beyond vector similarity
+- [[group-relative-policy-optimization]] — GRPO — a group-relative policy optimization algorithm for LLM training that uses within-group advantage estimation instead of a reference model
 - [[hermes_agent]] — Architectural overview of the Hermes Agent framework.
 - [[hidden-states]] — The internal vector representations (activations) of data at each layer of a neural network, containing 'inner knowledge' and confidence signals.
 - [[hyperphantasia]] — Concept page for Hyperphantasia
@@ -173,10 +188,10 @@ type: index
 - [[audit-2026-05-21]] — 
 - [[audit-2026-05-23]] — 
 - [[batch-progress]] — 
-- [[carryover]] — Librarian carryover — 155 orphans, 338 broken links, 110 non-reciprocal, insight gen timed out
+- [[carryover]] — Librarian carryover — 354 broken links remain, MCP unavailable, tag-taxonomy missing
 - [[librarian-2026-05-19-missing-agent-sheet]] — 
 - [[carryover]] — Librarians assistant carryover 2026-05-21
-- [[carryover]] — News agent carryover — Cuba threat designation, Hormuz map claim, Ebola infrastructure collapse, Ben-Gvir hasbara damage, Albanese sanctions
+- [[carryover]] — News agent carryover — Alberta referendum, NATO reversal pattern, Ebola response capacity test, Hormuz structural change, Russia-Belarus nuke escalation
 - [[headlines-2026-05-22]] — 
 - [[news-2026-05-18-headlines]] — Global news headlines for May 18, 2026 — Iran diplomacy, Trump polling, asteroid, JWST, hantavirus, SCOTUS, Massie primary, prayer rally
 - [[news-2026-05-20-headlines]] — Global news headlines for May 20, 2026 — 7 stories across geopolitics, AI/tech, science, health, and energy
@@ -186,15 +201,18 @@ type: index
 - [[discovery-2026-05-21]] — 
 - [[discovery-2026-05-22]] — 
 - [[discovery-2026-05-26]] — 
+- [[discovery-2026-05-27]] — 
 - [[sheet]] — Updated job status to done for news
 - [[agem-ooe]] — 
 - [[air-france-airbus-manslaughter-verdict-2026]] — 
+- [[alberta-independence-referendum-2026]] — Alberta schedules October 2026 referendum on whether to hold binding independence vote
 - [[brocas-area-gemini-chat]] — Source summary for Gemini chat on Broca's area and LLM analogies.
 - [[choosing-right-agentic-design-pattern]] — 
 - [[critical-review-scientific-article-guide]] — A structured guide for analyzing and critically reviewing scientific journal articles, focusing on research methods, context, and significance.
 - [[design-thinking-mit]] — MIT Professional Education overview of the 10-step design thinking framework by Blade Kotelly
 - [[designing-agentic-design-picker]] — 
 - [[discrete-time-to-event-modeling]] — Introduction to discrete-time survival analysis: discretization, censoring mechanisms, and life table foundations
+- [[ebola-bundibugyo-outbreak-drc-uganda-2026]] — WHO emergency declaration for Ebola Bundibugyo outbreak in DRC/Uganda; no proven vaccine, UK developing new one
 - [[ebola-outbreak-drc-hospital-attack-2026]] — 
 - [[ebola-plane-divert-2026]] — Air France flight to Detroit diverted to Montreal after Congolese Ebola-hit-region passenger boarded in error
 - [[emotion-concepts-llm]] — Anthropic research on functional emotion representations in Claude Sonnet 4.5 and their causal effects on behavior.
@@ -210,8 +228,10 @@ type: index
 - [[llm-kernel-optimization]] — Technical deep-dive on AlphaEvolve/OpenEvolve for GPU kernel optimization — LLM ensemble + diff-based mutation + real hardware eval; 23% GEMM speedup; Gemini optimizing its own training; tensor decomposition as game-playing; connects to MGA framework as engineering instantiation
 - [[llm-wiki-pattern]] — Karpathy's pattern for LLM-maintained persistent Markdown knowledge bases
 - [[meta-social-media-addiction-settlement-2026]] — 
+- [[middle-east-lebanon-hormuz-may-2026]] — Israeli Lebanon strikes kill health workers; Venezuela offers India oil alternative amid Hormuz crisis; Russia sends more nukes to Belarus
 - [[ml-evolution-benchmarking-protocol]] — Systematic review of guided vs unconstrained LLM architecture evolution.
 - [[momoa-researcher]] — Google Labs agentic research scientist using Mixture of Mixture of Agents
+- [[nato-troops-poland-may-2026]] — Trump announces 5,000 US troops to Poland — NATO allies confused but welcoming
 - [[neo4j-2026-04-0-release]] — Neo4j 2026.04.0: vector-3.0 quantization fix, io_uring async I/O, GenAI plugin token functions, Cypher 25 GQL alignment
 - [[prd-ralph-loop-mop-gemini]] — Gemini conversation connecting PRD-driven Ralph Loops with MOP and Theory of Mind for autonomous scientific research — epistemic energy as the critical constraint
 - [[raul-castro-indictment-2026]] — US indicts Raúl Castro over 1996 plane shootdown; Russia/China condemn as coercive "violence

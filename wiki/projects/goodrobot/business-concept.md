@@ -31,7 +31,7 @@ GoodRobot provides plug-and-play AI agent teams that integrate with existing wor
 
 ## Business Model
 
-See: [[goodrobot-revenue-model]]
+See: [[revenue-model]]
 
 ## Competitive Landscape
 

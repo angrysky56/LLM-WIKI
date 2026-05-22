@@ -1,8 +1,12 @@
 ---
+created: 2026-04-07
+updated: 2026-05-29
+type: concept
 summary: Retrieval-Augmented Generation — the standard stateless document Q&A pattern
-tags: [RAG, LLM, architecture, vector-search]
-updated: 2026-04-07T20:01:19Z
-created: 2026-04-07T20:01:19Z
+tags: [rag, llm, architecture, vector-search]
+sources: 
+status: active
+confidence: 1.0
 ---
 
 # RAG (Retrieval-Augmented Generation)

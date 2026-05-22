@@ -14,7 +14,7 @@ Autonomous Knowledge Synthesis and Inference Engine — the graph-backed backbon
 An MCP server that combines:
 - **[[Neo4j]]** graph database with native vector indexes for semantic search
 - **Montague Grammar** parser for formal semantic analysis
-- **[[Zettelkasten Engine]]** for autonomous pattern detection and insight generation
+- **[[zettelkasten-engine]]** for autonomous pattern detection and insight generation
 - **Wiki adapter** bridging the Obsidian vault with the knowledge graph
 
 ## Role in This Wiki

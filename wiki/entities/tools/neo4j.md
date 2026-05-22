@@ -6,7 +6,7 @@ updated: 2026-05-07T16:47:14Z
 
 # Neo4j
 
-Graph database used as the knowledge backbone of [[Project Synapse]].
+Graph database used as the knowledge backbone of [[project-synapse]].
 
 ## Role in This System
 

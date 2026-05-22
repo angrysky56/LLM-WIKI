@@ -38,8 +38,8 @@ Beijing and Moscow rally behind Havana after the US indicted former Cuban leader
 
 ## Related Stories
 
-- [[wiki/sources/news/2026-05/xi-putin-summit-2026-05-20]] — China-Russia alliance display
-- [[wiki/sources/news/2026-05/china-cuba-us-threats-2026-05-21]] — previous coverage of China defending Cuba
+- [[xi-putin-summit-2026-05-20]] — China-Russia alliance display
+- [[china-cuba-us-threats-2026-05-21]] — previous coverage of China defending Cuba
 
 ## Tags
 

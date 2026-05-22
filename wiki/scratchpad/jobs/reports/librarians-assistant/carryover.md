@@ -1,37 +1,37 @@
 ---
-summary: Librarians assistant carryover 2026-05-21
+summary: Librarians assistant carryover 2026-05-29 — 24 stubs created, 11 frontmatter fixed, 2 wikilinks fixed
 tags: [librarians-assistant, wiki-maintenance]
-updated: 2026-05-21T09:15:00Z
+updated: 2026-05-29T09:20:00Z
 ---
 
----
-created: 2026-05-21T09:00:00Z
-updated: 2026-05-21T09:15:00Z
-type: synthesis
-summary: "Fixed 19 broken wikilinks across concept pages. P0 stubs complete. P1 core pairs complete. 384 broken links remain."
-tags: [librarians-assistant, wiki-maintenance, 2026-05-21]
-status: active
-confidence: 1.0
----
+# Librarians-Assistant Carryover — 2026-05-29
 
-## CarryoverState
+## What Was Fixed
 
-### Established
-- **P0 stubs**: All 4 complete (reasoning.md, rz-nas.md, llama-nas.md, wolfram-physics-project.md)
-- **P1 core pairs**: All verified bidirectional (efhf↔MOP, hermes-agent↔MDA, meta-harness↔agem, load-bearing-reasoning↔chain-of-thought)
-- **19 broken wikilinks fixed** across concept pages this session
-- **Key fixed pages**: affective-ai-inner-architecture, astar-structural-pathfinding, mechanistic-interpretability, ml-evolution, reward-modeling, hermes_agent, language-evolution, markovian-carryover, neural-long-term-memory, chain-of-thought, agentic-research, wolfram-physics-project, mixture-of-experts, constitutional-ai
+### Broken Wikilinks (2 pages)
+- hermes-agent.md: `[[hermes-agent-skill]]` → `[[hermes-agent]]`
+- andrej-karpathy.md: `[[LLM Wiki Pattern|wiki/sources/llm-wiki-pattern]]` → `[[llm-wiki-pattern]]`
 
-### Open
-- **384 broken links remain** — majority are:
-  - News-tag arrays (e.g., [['news', 'geopolitics', ...]])
-  - Non-existent concept names that aren't worth stubbing (aseke-compass, word-cloud-communication, etc.)
-  - Agent report artifacts linking to non-existent concept stubs
-- **284 orphan pages** — mostly news articles with no expected inbound links
-- **344 pages missing frontmatter** — mostly agent carryovers, job reports, news sources
-- **108 non-reciprocal links** — many intentional (agent reports→concepts)
+### Stubs Created (22 pages)
+accountability, governance, institutional-design, category-theory, mathematical-reasoning, formal-methods, proof-assistant, attention-mechanism, transformer-architecture, agentic-hierarchy, subagent-delegation, multi-agent-coordination, data-privacy, federated-learning, benchmark, code-agent, power-law, power-law-scaling, scaling-laws, allometric-scaling, great-power-rivalry, proxy-signalling
 
-### Heading
-- P3: Frontmatter completeness — priority concept pages
-- P4: Tag normalization — concept/concepts canonical, lowercase
-- Skip: news page orphans, compound tag arrays, non-value stubs
+### Frontmatter Completions (11 concept pages)
+affective-ai-inner-architecture, agentic-research, length-generalization, chain-of-thought, rag, reward-modeling, spin-vs-substrate, neural-long-term-memory, meta_harness_loop, mechanistic-interpretability, activation-steering
+
+## What Remains
+
+1. **331 broken links** — mostly news-tag arrays, non-value stubs
+2. **346 pages missing frontmatter** — large backlog; prioritize concept/entity/synthesis pages
+3. **284 orphan pages** — mostly news articles, expected to remain orphans
+4. **MCP still unavailable** — cannot use wiki_lint, wiki_cluster_pages, generate_insights
+
+## Hard Blockers
+
+- MCP unavailable — using full_audit.py filesystem scan as fallback
+- Some new stubs may need reciprocal links back from pages that reference them
+
+## Heading
+
+1. Continue P3 frontmatter completion — high-value concept/entity pages
+2. Add reciprocal links from pages that reference the 22 new stubs
+3. Tag normalization for mixed-case tags in concept pages

@@ -1,7 +1,12 @@
 ---
+created: 2026-04-28
+updated: 2026-05-29
+type: concept
 summary: Analytical primitive — separating the rhetorical layer (clauses, statements, principles) from the operational layer (deployments, integrations, consequences); citing one as evidence about the other is the standard category error
 tags: [analytical-primitive, methodology, ai-governance, frame, institutional-analysis]
-updated: 2026-04-28T18:30:09Z
+sources: 
+status: active
+confidence: 0.8
 ---
 
 # Spin vs Substrate

@@ -42,4 +42,4 @@ The brain's delayed myelination allows for a prolonged learning window. In AI, t
 - [[wernickes-area]]
 - [[arcuate-fasciculus]]
 - [[myelination]]
-- [[wiki/sources/articles/brocas-area-gemini-chat|Source: Broca's Area and LLM Analogies]]
+- [[brocas-area-gemini-chat|Source: Broca's Area and LLM Analogies]]

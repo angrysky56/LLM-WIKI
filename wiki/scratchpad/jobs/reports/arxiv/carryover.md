@@ -25,12 +25,12 @@ confidence: high
 | 2026-05-20 | No new papers | arXiv late-UTC batch not yet posted |
 | 2026-05-21 | 3 papers ingested | EqR (attractors), DeepWeb-Bench (benchmark), hyperparameter transfer (embedding LR) |
 | 2026-05-21 | No new papers | arXiv API shows latest batch is 2026-05-20 — no 2026-05-21 submissions posted yet |
-| 2026-05-22 | No new papers | arXiv API confirms latest batch still 2026-05-20; 2026-05-21 submissions not yet posted as of this run (09:28 UTC) |
+|| 2026-05-22 | 3 papers ingested | MOSS (source-level self-evolution), DeltaBox (ms-level C/R), LCGuard (KV privacy) — production agent infrastructure theme ||
 
 ## Current State
 
-- **arXiv**: No new submissions as of this run — latest batch is 2026-05-20 (already processed)
-- **arXiv submission cycle**: weekdays only, late-UTC afternoon/evening. 2026-05-21 batch may post later today or tomorrow.
+- **arXiv**: 2026-05-21 batch posted and fully processed — 3 new papers ingested (MOSS, DeltaBox, LCGuard)
+- **arXiv submission cycle**: Mon–Fri late-UTC afternoon/evening. Next batch likely 2026-05-23 (Friday) or 2026-05-26 (Monday)
 - **Wiki paper inventory**: 3 new pages from 2026-05-20 batch remain current
 
 ## Papers Ingested (2026-05-20 batch — already processed)

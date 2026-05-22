@@ -11,10 +11,14 @@
             "id": "b57d6628a158bb4f",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "wiki/entities/projects/tys-repos.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "tys-repos"
             }
           }
         ]
@@ -49,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "taylors",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -191,34 +194,35 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b57d6628a158bb4f",
+  "active": "c161994581ba454a",
   "lastOpenFiles": [
-    "raw/AI-Powered BRD & PRD Generator.md",
-    "wiki/scratchpad/jobs/reports/librarian/carryover.md",
-    "wiki/synthesis/essan-internal-representation.md",
-    "wiki/synthesis/verifiable-graph-context-protocol.md",
-    "wiki/scratchpad/jobs/reports/librarian/batch-progress.md",
-    "wiki/sources/articles/language-evolution.md",
-    "wiki/concepts/maximum-occupancy-principle.md",
-    "wiki/concepts/markovian-carryover.md",
-    "wiki/concepts/metacognitive-architecture-closed-loop-self-regulation.md",
-    "Clippings/repositories/2026/angrysky56aseke-compass-mcp Building systemic discernment directly into a population, to recognize how their biological levers are being pulled by external leadership or algorithms—shifts the Cognitive Effort required for an Information System t.md",
-    "Clippings/repositories/2026/angrysky56Emergent-Functional-Hierarchies-Framework.md",
-    "Clippings/repositories/2026/angrysky56vgcp-mcp-server.md",
-    "wiki/concepts/load-bearing-reasoning.md",
-    "wiki/scratchpad/jobs/reports/librarian/audit-2026-05-21.md",
-    "wiki/scratchpad/jobs/reports/researcher/discovery-2026-05-26.md",
-    "wiki/scratchpad/jobs/reports/news/headlines-2026-05-22.md",
-    "wiki/sources/iran-claims-hormuz-waters.md",
-    "wiki/sources/ebola-hospital-tents-fire-congo.md",
-    "wiki/sources/rubio-declares-cuba-threat.md",
-    "wiki/sources/us-sanctions-francesca-albanese.md",
-    "wiki/sources/israel-ben-gvir-flotilla-video.md",
-    "Clippings/articles/2026/us-says-it-has-not-changed-its-stance-on-sanctioning-frances.md",
-    "raw/us-says-it-has-not-changed-its-stance-on-sanctioning-frances.md",
-    "Clippings/articles/2026/how-ben-gvirs-flotilla-video-shattered-israels-multimillion-.md",
-    "raw/how-ben-gvirs-flotilla-video-shattered-israels-multimillion-.md",
-    "Clippings/articles/2026/llm-wiki.md",
+    "wiki/concepts/great-power-rivalry.md",
+    "wiki/concepts/allometric-scaling.md",
+    "wiki/concepts/scaling-laws.md",
+    "wiki/concepts/proxy-signalling.md",
+    "wiki/concepts/power-law-scaling.md",
+    "wiki/concepts/power-law.md",
+    "wiki/concepts/code-agent.md",
+    "wiki/concepts/benchmark.md",
+    "wiki/concepts/multi-agent-coordination.md",
+    "wiki/concepts/federated-learning.md",
+    "wiki/concepts/subagent-delegation.md",
+    "wiki/concepts/agentic-hierarchy.md",
+    "wiki/concepts/data-privacy.md",
+    "wiki/concepts/transformer-architecture.md",
+    "wiki/concepts/category-theory.md",
+    "wiki/concepts/proof-assistant.md",
+    "wiki/concepts/mathematical-reasoning.md",
+    "wiki/concepts/formal-methods.md",
+    "wiki/concepts/attention-mechanism.md",
+    "wiki/concepts/institutional-design.md",
+    "wiki/concepts/accountability.md",
+    "wiki/concepts/governance.md",
+    "wiki/concepts/extraction-quality-audit.md",
+    "wiki/synthesis/goodrobot-revenue-model.md",
+    "wiki/concepts/onboarding-standards.md",
+    "wiki/concepts/swe-bench.md",
+    "wiki/scratchpad/fix_tag_lists.py",
     "wiki/scratchpad/jobs/reports/librarians-assistant",
     "wiki/scratchpad/full_audit.py",
     "wiki/scratchpad/check_wiki.py",
@@ -227,7 +231,6 @@
     "wiki/scratchpad/jobs/reports/arxiv",
     "wiki/scratchpad/jobs/reports/orcaid",
     "wiki/scratchpad/jobs/reports/researcher",
-    "wiki/scratchpad/jobs/reports/librarian",
-    "wiki/scratchpad/agent-sheets"
+    "wiki/scratchpad/jobs/reports/librarian"
   ]
 }

@@ -11120,3 +11120,15 @@ Preview: HMAI & Development  TL;DR  Team gateways need deliberate choices across
   - [[causal-networks]] → [[load-bearing-reasoning]] (no return link)
   - [[mechanistic-interpretability]] → [[metacognitive-architecture-closed-loop-self-regulation]] (no return link)
   - [[mechanistic-interpretability]] → [[chain-of-thought]] (no return link)
+
+## [2026-05-22 17:11] write
+
+Updated page: wiki/synthesis/nairobi-protocol-gde.md
+
+## [2026-05-22 19:44] write
+
+Updated page: wiki/synthesis/nairobi-protocol-gde.md
+
+## [2026-05-22 20:57] write
+
+Updated page: wiki/synthesis/codegraph-hermes-integration-plan.md

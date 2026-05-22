@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/entities/projects/tys-repos.md",
+                "file": "raw/codegraph Pre-indexed code knowledge graph for Claude Code, Codex, Cursor, and OpenCode — fewer tokens, fewer tool calls, 100% local.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "tys-repos"
+              "title": "codegraph Pre-indexed code knowledge graph for Claude Code, Codex, Cursor, and OpenCode — fewer tokens, fewer tool calls, 100% local"
             }
           }
         ]
@@ -194,8 +194,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c161994581ba454a",
+  "active": "b57d6628a158bb4f",
   "lastOpenFiles": [
+    "wiki/synthesis/codegraph-hermes-integration-plan.md",
+    "wiki/entities/projects/tys-repos.md",
+    "raw/codegraph Pre-indexed code knowledge graph for Claude Code, Codex, Cursor, and OpenCode — fewer tokens, fewer tool calls, 100% local.md",
+    "wiki/synthesis/nairobi-protocol-gde.md",
     "wiki/concepts/great-power-rivalry.md",
     "wiki/concepts/allometric-scaling.md",
     "wiki/concepts/scaling-laws.md",
@@ -218,10 +222,6 @@
     "wiki/concepts/institutional-design.md",
     "wiki/concepts/accountability.md",
     "wiki/concepts/governance.md",
-    "wiki/concepts/extraction-quality-audit.md",
-    "wiki/synthesis/goodrobot-revenue-model.md",
-    "wiki/concepts/onboarding-standards.md",
-    "wiki/concepts/swe-bench.md",
     "wiki/scratchpad/fix_tag_lists.py",
     "wiki/scratchpad/jobs/reports/librarians-assistant",
     "wiki/scratchpad/full_audit.py",

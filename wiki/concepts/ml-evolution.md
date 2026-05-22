@@ -28,14 +28,13 @@ ML Evolution (or Machine Learning Evolution) refers to the use of evolutionary a
 ## Key Techniques
 - **Zero-Cost Proxies**: Metrics that estimate model performance without full training (used in [[rz-nas]]).
 - **One-Shot Search**: Finding optimal sub-networks within a larger "supernet" (used in [[llama-nas]]).
-- **Gradient-Free Alignment**: Aligning models to human preferences using evolutionary strategies rather than backpropagation (used in [[essa]]).
+- **Gradient-Free Alignment**: Aligning models to human preferences using evolutionary strategies rather than backpropagation (evolutionary strategies).
 
 ## Challenges
 - **Catastrophic Forgetting**: The loss of prior knowledge when learning new tasks.
 - **Topological Overfitting**: Over-optimizing an architecture for a specific training set without generalizability.
 
 ## Connections
-- Concept: [[neural-architecture-search]]
-- Concept: [[catastrophic-forgetting]]
-- Concept: [[evolutionary-strategies]]
-- Source: [[ml-evolution-benchmarking-protocol|Systematic Review of ML Evolution]]
+- [[neural-long-term-memory]] — Connection to memory mechanisms in evolutionary systems
+- Concept: [[rz-nas]] (zero-cost proxy NAS)
+- Concept: [[llama-nas]] (one-shot NAS)

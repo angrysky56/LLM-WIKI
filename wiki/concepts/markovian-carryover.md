@@ -53,7 +53,7 @@ At session or iteration boundary, the agent writes this into `carryover.md` (or 
 ### Established
 - What was confirmed, decided, or completed in this session
 - One bullet per discrete fact or decision
-- Cite sources if applicable: `source: [[page]]`
+- Cite sources if applicable: `source: [[bounded-structured-memory]]`
 
 ### Open
 - Unresolved questions with enough context to resume

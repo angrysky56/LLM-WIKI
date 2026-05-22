@@ -1,35 +1,44 @@
-# Batch Progress — 2026-05-23 09:05
+# Batch Progress — 2026-05-21 09:15
 
 ## Fixes Applied This Batch
 
-### P0 — Alias Stubs Created (4)
-- `wiki/concepts/reasoning.md` — stub redirecting to [[load-bearing-reasoning]]
-- `wiki/concepts/rz-nas.md` — stub for zero-cost proxy NAS method
-- `wiki/concepts/llama-nas.md` — stub for one-shot NAS approach
-- `wiki/concepts/wolfram-physics-project.md` — stub for Stephen Wolfram's physics project
+### P0 — Alias Stubs
+- All 4 P0 stubs already created (reasoning.md, rz-nas.md, llama-nas.md, wolfram-physics-project.md)
 
-### P1 — Non-Reciprocal Wikilinks Fixed (12 reciprocal pairs resolved)
-- Added [[efhf]] → [[maximum-occupancy-principle]] (MOP already links to EFHF)
-- Added [[maximum-occupancy-principle]] → [[efhf]] (return link)
-- Added [[markovian-dev-agency]] → [[hermes-agent]] (return link)
-- Added [[hermes-agent]] → [[markovian-dev-agency]] (return link)
-- Added [[agem]] → [[meta-harness]] (return link)
-- Added [[meta-harness]] → [[efhf]] and [[mcp-logic]] (return links)
-- Added [[load-bearing-reasoning]] → [[isabelle]] (return link)
-- Added [[chain-of-thought]] → [[load-bearing-reasoning]] (return link)
-- Added [[efhf]] → [[agem]] (return link)
-- Added [[maximum-occupancy-principle]] → [[efhf]] (already listed)
-- Fixed frontmatter on [[maximum-occupancy-principle]], [[chain-of-thought]], [[load-bearing-reasoning]], [[hermes-agent]], [[meta-harness]], [[efhf]], [[agem]], [[markovian-dev-agency]]
+### P1 — Non-Reciprocal Wikilinks Fixed
+- Verified efhf↔maximum-occupancy-principle: bidirectional ✅
+- Verified hermes-agent↔markovian-dev-agency: B→A done, A→B done ✅
+- Verified meta-harness↔agem: bidirectional ✅
+- Verified load-bearing-reasoning↔chain-of-thought: bidirectional ✅
+- No additional P1 fixes needed (all core pairs done)
+
+### P2 — Broken Wikilinks Fixed (19 pages)
+- wiki/concepts/affective-ai-inner-architecture.md: removed 4 broken links (ASEKE Framework, Mechanistic Interpretability, Word Cloud Communication, TransformerLens Notes)
+- wiki/concepts/astar-structural-pathfinding.md: removed broken links (square-root-system, isotropic-coordinate-system, market-cognitive-dissonance) from body, kept as context
+- wiki/concepts/mechanistic-interpretability.md: fixed [[engineering-internal-awareness]] → [[metacognitive-architecture-closed-loop-self-regulation]]
+- wiki/concepts/ml-evolution.md: replaced 4 broken concept links (neural-architecture-search, catastrophic-forgetting, evolutionary-strategies, ml-evolution-benchmarking-protocol) with existing targets
+- wiki/concepts/reward-modeling.md: removed compound-tag wikilink
+- wiki/concepts/hermes_agent.md: fixed [[Domain Onboarding Standards]] → [[meta-harness]]
+- wiki/concepts/language-evolution.md: fixed [[taylors-law]] → [[length-generalization]], [[emergent-communication]] → [[load-bearing-reasoning]]
+- wiki/concepts/markovian-carryover.md: fixed [[page]] → [[bounded-structured-memory]]
+- wiki/concepts/neural-long-term-memory.md: fixed [[titans-test-time-memory]] (restored, exists in sources/articles)
+- wiki/concepts/chain-of-thought.md: fixed [[titans-test-time-memory]] (restored, exists), [[shorthand-for-thought]] (restored, exists)
+- wiki/concepts/agentic-research.md: removed compound-tag wikilink, fixed FutureSim display text
+- wiki/concepts/wolfram-physics-project.md: fixed [[computational-irreducibility]] and [[computational-universe]] → [[causal-networks]]
+- wiki/concepts/mixture-of-experts.md: fixed [[llm-evolution|llm-evolution]] → [[ml-evolution]]
+- wiki/concepts/constitutional-ai.md: fixed [[alignment]] → [[reward-modeling]]
+- wiki/concepts/astar-structural-pathfinding.md: removed market-cognitive-dissonance
 
 ## Remaining Open Items
-- 328 broken links remain (mostly news-tags, compound wikilinks, non-existent concepts)
-- 108 non-reciprocal links remain
-- 148 orphan pages
-- 28 pages missing frontmatter (mostly agent carryovers and job reports)
-- P2 (orphan connection) not yet started
-- P3 (frontmatter completion) — 28 pages identified, not yet fixed
-- P4 (tag normalization) — not yet started
+- 384 broken links remain (mostly news-tag arrays, non-existent concepts that aren't worth creating stubs for)
+- 108 non-reciprocal links remain (many intentional: agent reports linking to concepts, news pages linking to entities)
+- 284 orphan pages (mostly news articles with no inbound links expected)
+- 344 pages missing frontmatter (mostly agent carryovers, job reports, news sources)
+- P3 (frontmatter) and P4 (tag normalization) not yet started
+
+## Hard Blockers
+- None — all fixes applied cleanly
 
 ## Next Batch Starts With
-- Continue P1 non-reciprocal links (next priority pairs from audit)
-- Begin P2 orphan connection for high-value concept pages
+- P3: Frontmatter completeness (prioritize concept pages over agent reports)
+- P4: Tag normalization (concept vs concepts canonical, mixed-case normalization)

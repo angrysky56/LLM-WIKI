@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/articles/2026/llm-wiki.md",
+                "file": "Clippings/repositories/2026/angrysky56vgcp-mcp-server.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "llm-wiki"
+              "title": "angrysky56vgcp-mcp-server"
             }
           }
         ]
@@ -194,8 +194,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2ab9c987c297f7a1",
+  "active": "b57d6628a158bb4f",
   "lastOpenFiles": [
+    "wiki/concepts/load-bearing-reasoning.md",
+    "wiki/scratchpad/jobs/reports/librarian/audit-2026-05-21.md",
+    "wiki/scratchpad/jobs/reports/researcher/discovery-2026-05-26.md",
+    "wiki/scratchpad/jobs/reports/news/headlines-2026-05-22.md",
+    "wiki/sources/iran-claims-hormuz-waters.md",
+    "wiki/sources/ebola-hospital-tents-fire-congo.md",
+    "wiki/sources/rubio-declares-cuba-threat.md",
+    "wiki/sources/us-sanctions-francesca-albanese.md",
+    "wiki/sources/israel-ben-gvir-flotilla-video.md",
+    "Clippings/articles/2026/us-says-it-has-not-changed-its-stance-on-sanctioning-frances.md",
+    "raw/us-says-it-has-not-changed-its-stance-on-sanctioning-frances.md",
+    "Clippings/articles/2026/how-ben-gvirs-flotilla-video-shattered-israels-multimillion-.md",
+    "raw/how-ben-gvirs-flotilla-video-shattered-israels-multimillion-.md",
+    "Clippings/articles/2026/llm-wiki.md",
     "wiki/scratchpad/jobs/reports/librarians-assistant/carryover.md",
     "wiki/scratchpad/jobs/reports/librarian/batch-progress.md",
     "wiki/scratchpad/jobs/reports/librarians-assistant",
@@ -211,20 +225,6 @@
     "wiki/concepts/titans.md",
     "wiki/sources/articles/air-france-airbus-manslaughter-verdict-2026.md",
     "wiki/sources/articles/trump-taiwan-call-2026.md",
-    "wiki/sources/articles/tiktok-youtube-ofcom-not-safe-enough-2026.md",
-    "wiki/scratchpad/jobs/reports/ingest/ingest-2026-05-23.md",
-    "wiki/sources/articles/ebola-outbreak-drc-hospital-attack-2026.md",
-    "wiki/sources/articles/meta-social-media-addiction-settlement-2026.md",
-    "wiki/sources/articles/spacex-ipo-spcx-2026.md",
-    "wiki/sources/articles/us-surveillance-cuba-flights-2026.md",
-    "Clippings/articles/2026/tiktok-and-youtube-not-safe-enough-for-kids-says-ofcom-repor.md",
-    "raw/tiktok-and-youtube-not-safe-enough-for-kids-says-ofcom-repor.md",
-    "Clippings/articles/2026/air-france-and-airbus-found-guilty-of-manslaughter-over-2009_213921.md",
-    "raw/air-france-and-airbus-found-guilty-of-manslaughter-over-2009.md",
-    "Clippings/articles/2026/trump-says-he-will-speak-to-taiwans-president-in-break-from-.md",
-    "raw/trump-says-he-will-speak-to-taiwans-president-in-break-from-.md",
-    "Clippings/articles/2026/ebola-outbreak-in-dr-congo-angry-crowd-sets-rwampara-hospita.md",
-    "raw/ebola-outbreak-in-dr-congo-angry-crowd-sets-rwampara-hospita.md",
     "wiki/scratchpad/jobs/reports/arxiv/search_arxiv.py",
     "wiki/scratchpad/jobs/reports/ingest",
     "wiki/scratchpad/jobs/reports/arxiv",

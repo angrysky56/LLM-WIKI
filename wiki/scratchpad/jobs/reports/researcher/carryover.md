@@ -1,19 +1,19 @@
 ## CarryoverState
 
 ### Established
-- **[[inference-time-compute-scaling]]** created: test-time compute as second scaling axis beyond training; BoN, PRM vs ORM, diminishing returns (May 2026)
-- **[[mixture-of-experts]]** created: MoE architecture; sparse conditional computation; memory unchanged, compute reduced; Mixtral/Grok/DBRX coverage (May 2026)
-- **[[process-reward-model]]** created: step-level scoring for credit assignment; SD-Search breakthrough (3B matches 72B teacher); implicit vs explicit PRM (May 2026)
-- **[[constitutional-ai]]** created: Anthropic's principle-based alignment; SL-CAI/RLAIF; self-critique loop; constitution as explicit principles (May 2026)
-- **[[length-generalization]]** created: training-to-inference length gap; positional encoding limitations; RoPE/ALiBi/YaRN solutions (May 2026)
-- **[[self-correction]]** created: implicit vs explicit self-correction; Self-Refine pattern; RAA hypothesis; Reflexion; self-verification (May 2026)
+- **[[inference-time-compute-scaling]]** updated: added economics section with four-variable trade-off framework (error_cost × accuracy_gain vs compute_cost), domain-specific recommendations, and Hermes deployment implications (May 2026)
+- **[[constitutional-ai]]** created: principle-based alignment; SL-CAI/RLAIF; self-critique loop (May 2026)
+- **[[length-generalization]]** created: training-to-inference gap; positional encoding limitations; RoPE/ALiBi/YaRN solutions (May 2026)
+- **[[self-correction]]** created: implicit vs explicit; Self-Refine pattern; RAA hypothesis; Reflexion; self-verification (May 2026)
+- **[[process-reward-model]]** created: step-level scoring; SD-Search breakthrough; implicit vs explicit PRM (May 2026)
+- **[[mixture-of-experts]]** created: sparse conditional computation; Mixtral/Grok/DBRX coverage (May 2026)
+- **[[maximum-occupancy-principle]]** created: path entropy maximization; reward-free behavior; absorbing states as design primitive; EFHF Layer 0 integration (May 2026)
 
 ### Open
-- **[Question]** Verifier-graph theory: concept vs synthesis classification? Needs Ty input (flagged May 21, still open)
-- **[Question]** Constitutional AI: standalone concept or folded into alignment? Left as standalone — the principle-based approach is meaningfully distinct
-- **[Risk]** Test-time compute economics section missing from inference-time-compute-scaling — important for Hermes deployment decisions
-- **[Question]** MOP fine-tuning: worth deep dive or leave brief?
+- **[Question]** Verifier-graph theory: concept vs synthesis classification? Needs Ty input. Open since May 21.
+- **[Question]** MOP + RLHF interaction: MOP's stochastic policy principle challenges RLHF's KL-regularization. Can they be combined?
+- **[Risk]** Adaptive budget learning: how to train the gating model that estimates problem difficulty. No clear paper yet — worth monitoring.
 
 ### Heading
-- **[Intent]** Next cycle: pick up from remaining gaps. Test-time compute economics is the most actionable — directly relevant to Hermes deployment. Verifier-graph classification needs Ty decision.
-- **[Constraint]** Schedule: next run Monday 2026-05-26 8:30AM
+- **[Intent]** Next cycle: continue from carryover gap list. Verifier-graph needs Ty decision. Monitor adaptive budget / gating model research.
+- **[Constraint]** Schedule: next run Tuesday 2026-05-27 8:30AM

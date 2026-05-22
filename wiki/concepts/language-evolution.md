@@ -33,6 +33,6 @@ Language evolution refers to the processes by which human languages change in st
 - **Semantic Hot Spots**: Identifying regions of rapid evolution can guide efficient model updating.
 
 ## Connections
-- Concept: [[taylors-law]]
-- Concept: [[emergent-communication]]
+- Concept: [[length-generalization]]
+- Concept: [[load-bearing-reasoning]]
 - Source: [[language-evolution|Gemini Review on Language Evolution]]

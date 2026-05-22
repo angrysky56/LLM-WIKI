@@ -89,12 +89,11 @@ AI self-modification requires:
 2. A framework for interpreting what you see (ASEKE — what system is firing?)
 3. A mechanism for applying change (activation steering)
 
-## Related Concepts
+## Connections
 
-- [[ASEKE Framework]] — the diagnostic and targeting system for emotional state observation
-- [[Mechanistic Interpretability]] — TransformerLens and related tools for internal state access
-- [[Word Cloud Communication]] — semantic vector packets as exploration fields
-- [[TransformerLens Notes]] — library for observing transformer internals
+- [[mechanistic-interpretability]] — TransformerLens and related tools for internal state access
+- [[activation-steering]] — Representation engineering for dynamic state modification
+- [[metacognitive-architecture-closed-loop-self-regulation]] — The closed-loop self-observation architecture this work builds toward
 
 ## Status
 

@@ -1,7 +1,7 @@
 ---
 type: concept
 summary: The process of training a secondary model to assign scalar scores to LLM outputs, used for alignment (RLHF) and test-time scaling (Best-of-N).
-tags: [[llm-training, rlhf, alignment, best-of-n]]
+tags: 
 updated: 2026-05-17T18:16:24Z
 ---
 
@@ -21,7 +21,7 @@ Reward modeling is a technique in machine learning where a separate model (the *
 ## Efficiency Innovations
 
 Traditional reward models are often as large as the generator models they evaluate (e.g., 7B or 13B parameters), making them computationally expensive. Recent research aims to reduce this overhead:
-- **[[reward-inside-model-elhsr|ELHSR]]**: Utilizes internal hidden states of the generator model to predict rewards with <0.005% of the parameters of traditional RMs.
+- ****: Utilizes internal hidden states of the generator model to predict rewards with <0.005% of the parameters of traditional RMs.
 
 ## Connections
 

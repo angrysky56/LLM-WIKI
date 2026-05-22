@@ -70,6 +70,43 @@ Research from 2025–2026 has identified several allocation strategies:
 
 4. **Self-reflection based**: Have the model assess its own confidence at intermediate steps and decide whether to continue, backtrack, or try an alternative approach.
 
+### Economics of Inference-Time Compute
+
+The decision to spend inference-time compute is fundamentally an economic trade-off between four variables:
+
+| Variable | Description | Typical Range |
+|---------|-------------|---------------|
+| **Error cost** | Cost of delivering a wrong answer | Domain-dependent: low for闲聊, extremely high for medical/coding |
+| **Compute cost** | $ per token of inference | GPU cost / throughput; ~$0.001–0.01 per 1K tokens |
+| **Accuracy gain** | Delta in task accuracy from BoN vs single-pass | Task-dependent; 0–15% for math/code |
+| **Latency budget** | How much latency the application can tolerate | Hard real-time: none; batch: unlimited |
+
+**The decision rule:** Inference-time compute is worth it when `error_cost × accuracy_gain > compute_cost`. This is why the economics shift dramatically by domain:
+
+- **High error cost + verifiable domains** (code generation, math, legal reasoning): BoN-64 with PRM-guidance is almost always justified. A wrong function call in production can cost hours of debugging.
+- **Low error cost + subjective domains** (chat, creative writing, summarization): Single-pass generation dominates. The "right" answer is not verifiable and errors don't compound.
+- **Medium error cost + verifiable** (fact QA, classification): ELHSR-style adaptive allocation with a lightweight gating model is the sweet spot — spend compute only on questions that are genuinely hard.
+
+**Compute-optimal inference budget** (when to stop scaling N):
+
+For a task with baseline accuracy `A₀` and per-attempt accuracy `p`, BoN with N attempts yields final accuracy:
+
+`A_N = 1 - (1-p)ⁿ`
+
+The marginal accuracy gain from adding attempt N is:
+
+`ΔA = (1-p)ⁿ⁻¹ × p`
+
+The marginal compute cost is constant. Diminishing returns set in when the marginal gain falls below the cost-per-attempt in accuracy units. Empirically, for math reasoning (p ≈ 0.5 per attempt), the curve flattens around N = 16–64 depending on model quality and problem difficulty.
+
+**Implications for Hermes deployment:**
+
+For a personal AI agent handling a mix of tasks:
+- **Tool calls and code generation**: Run BoN-16 to BoN-32 with hidden-state gating. Error recovery cost is high enough to justify the compute.
+- **Research and synthesis tasks**: PRM-guided beam search with wider branching on hard sub-problems; single-pass on straightforward queries.
+- **Casual conversation**: No inference-time scaling — single-pass is fine.
+- **Long-context reasoning** (multi-document synthesis): Nested BoN where the verifier scores both individual retrieved documents and final synthesis.
+
 ## Key Results
 
 | Method | Model Scale | Benchmark | Result | External Teacher |
@@ -89,15 +126,13 @@ Research from 2025–2026 has identified several allocation strategies:
 
 ## Open Questions
 
-1. **Optimal budget allocation**: What is the right compute budget for a given problem difficulty? Current approaches are heuristic.
+1. **Optimal budget allocation**: What is the right compute budget for a given problem difficulty? Current approaches are heuristic — adaptive gating models show promise but no unified theory exists.
 
 2. **PRM reliability**: Process reward models are expensive to train and easy to overfit. How do we get reliable step-level signals without human annotation?
 
-3. **Diminishing returns curve**: At what N does BoN stop being worth the compute? It varies by task and model. No unified theory.
+3. **Diminishing returns curve**: At what N does BoN stop being worth the compute? It varies by task and model. No unified theory — empirical curves suggest N=16–64 depending on difficulty and model quality.
 
-4. **Inference cost vs accuracy tradeoff**: For deployed systems, the economics of inference-time compute must be weighed against the cost of errors. When is it cheaper to ship a larger model vs use a smaller model with inference-time compute?
-
-5. **Combining BoN with architectural improvements**: Most research treats inference-time scaling as orthogonal to model architecture. Can we design architectures that are more efficient to scale at inference time?
+4. **Combining BoN with architectural improvements**: Most research treats inference-time scaling as orthogonal to model architecture. Can we design architectures that are more efficient to scale at inference time?
 
 ## Limitations
 

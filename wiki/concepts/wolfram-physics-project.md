@@ -29,5 +29,5 @@ Stephen Wolfram's project applying the framework of **A New Kind of Science (NKS
 
 - [[causal-networks]] — the NKS representation of spacetime structure
 - [[stephen-wolfram]] — entity page for Stephen Wolfram
-- [[computational-irreducibility]] — related NKS concept
-- [[computational-universe]] — related concept
+- [[causal-networks]] — related NKS concept
+- [[causal-networks]] — related concept

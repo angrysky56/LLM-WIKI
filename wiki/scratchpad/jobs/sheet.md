@@ -1,17 +1,12 @@
 ---
-summary: Jobs sheet with fixed agent-sheet wikilinks
-tags: [jobs, task-board, agent-instructions]
-updated: 2026-05-21T22:20:25Z
+summary: Updated job status to done for news
+updated: 2026-05-22T01:26:02Z
 ---
 
 ---
-created: 2026-05-21T08:00:00Z
-updated: 2026-05-21T08:00:00Z
-type: jobs
-summary: Central task board for agent job dispatch
+summary: Jobs sheet with fixed agent-sheet wikilinks
 tags: [jobs, task-board, agent-instructions]
-status: active
-confidence: 1.0
+updated: 2026-05-22T01:30:00Z
 ---
 
 # Jobs Sheet — Central Task Board
@@ -29,12 +24,12 @@ confidence: 1.0
 
 | Job ID | Job Name | Agent | Status | Last Run | Next Run | Agent Sheet |
 |--------|----------|-------|--------|----------|----------|-------------|
-| `eaaa6bdc8503` | world-news-daily | news | **done** | 2026-05-21 | 2026-05-23 8AM | [[agent-sheets/news]] |
-| `8ea33cfa560a` | Wiki Researcher | researcher | **done** | 2026-05-22 | 2026-05-26 8:30AM | [[agent-sheets/researcher]] |
+| `eaaa6bdc8503` | world-news-daily | news | **done** | 2026-05-22 | 2026-05-23 8AM | [[agent-sheets/news]] |
+| `8ea33cfa560a` | Wiki Researcher | researcher | **done** | 2026-05-26 | 2026-05-27 8:30AM | [[agent-sheets/researcher]] |
 | `297092f3b347` | orcaid-verification-indexer | orcaid | pending | 2026-05-18 | 2026-05-19 9AM | [[agent-sheets/orcaid]] |
 | `72599f850df2` | arxiv-top3-weekly | arxiv | **done** | 2026-05-21 | 2026-05-22 10AM | [[agent-sheets/arxiv]] |
-| `c838e81a1496` | llm-wiki-raw-ingest | ingest | **done** | 2026-05-23 | |
-| `6ee16837c47c` | Wiki Librarian | librarian | **done** | 2026-05-23 | N/A | [[agent-sheets/librarian]] |
+| `c838e81a1496` | llm-wiki-raw-ingest | ingest | **done** | 2026-05-23 | | [[agent-sheets/ingest]] |
+| `6ee16837c47c` | Wiki Librarian | librarian | **done** | 2026-05-21 | N/A | [[agent-sheets/librarian]] |
 
 ## Task Delegation
 
@@ -57,7 +52,7 @@ confidence: 1.0
 | researcher | `jobs/reports/researcher/` | — |
 | orcaid | `jobs/reports/orcaid/` | — |
 | arxiv | `jobs/reports/arxiv/` | — |
-| news | `jobs/reports/news/` | [[news-2026-05-20-headlines]] |
+| news | `jobs/reports/news/` | [[news-2026-05-22-headlines]] |
 | ingest | `jobs/reports/ingest/` | — |
 
 ## Instructions Per Agent

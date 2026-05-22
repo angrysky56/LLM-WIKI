@@ -1,5 +1,5 @@
 ---
-summary: Fixed [[titans]] to [[titans-test-time-memory]]
+summary: Fixed [[titans-test-time-memory]] to [[titans-test-time-memory]]
 tags: [llm, memory, machine-learning, neural-memory]
 updated: 2026-05-21T22:20:51Z
 ---
@@ -25,13 +25,13 @@ Neural Long-Term Memory (NLTM) is a paradigm in sequence modeling where the mode
 - **Parametric Storage**: Information is stored in weights rather than an external database or an ever-growing cache, allowing for fixed-size memory representations.
 - **Dynamic Forgetting**: Uses weight decay or gating to prioritize recent or important information over stale data.
 
-## Implementation: The [[titans-test-time-memory|Titans]] Model
+## Implementation: The [[titans-test-time-memory]] Model
 
 In the Titans architecture, NLTM uses **surprise-based memorization**, where gradients of a local loss function indicate which tokens carry enough new information to justify a weight update.
 
 ## Connections
 
-- Source: [[titans-test-time-memory|Titans: Learning to Memorize at Test Time]]
-- Concept: [[surprise-based-learning]]
-- Concept: [[in-context-learning]]
+- Source: [[titans-test-time-memory]]
+- Concept: [[mamba]]
+- Concept: 
 - Tool: [[mamba]]

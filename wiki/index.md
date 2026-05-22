@@ -1,5 +1,5 @@
 ---
-updated: 2026-05-21T23:14:04Z
+updated: 2026-05-22T02:03:06Z
 type: index
 ---
 
@@ -174,8 +174,9 @@ type: index
 - [[batch-progress]] — 
 - [[carryover]] — Librarian carryover — audit complete, remediation delegated
 - [[librarian-2026-05-19-missing-agent-sheet]] — 
-- [[carryover]] — 
-- [[carryover]] — News agent carryover — Iran Hormuz claim, SpaceX IPO, social media regulatory convergence, China multi-front pressure, Ebola response collapse
+- [[carryover]] — Librarians assistant carryover 2026-05-23
+- [[carryover]] — News agent carryover — Cuba threat designation, Hormuz map claim, Ebola infrastructure collapse, Ben-Gvir hasbara damage, Albanese sanctions
+- [[headlines-2026-05-22]] — 
 - [[news-2026-05-18-headlines]] — Global news headlines for May 18, 2026 — Iran diplomacy, Trump polling, asteroid, JWST, hantavirus, SCOTUS, Massie primary, prayer rally
 - [[news-2026-05-20-headlines]] — Global news headlines for May 20, 2026 — 7 stories across geopolitics, AI/tech, science, health, and energy
 - [[news-2026-05-21-headlines]] — 
@@ -183,7 +184,8 @@ type: index
 - [[carryover]] — 
 - [[discovery-2026-05-21]] — 
 - [[discovery-2026-05-22]] — 
-- [[sheet]] — Jobs sheet with fixed agent-sheet wikilinks
+- [[discovery-2026-05-26]] — 
+- [[sheet]] — Updated job status to done for news
 - [[agem-ooe]] — 
 - [[air-france-airbus-manslaughter-verdict-2026]] — 
 - [[brocas-area-gemini-chat]] — Source summary for Gemini chat on Broca's area and LLM analogies.
@@ -246,6 +248,9 @@ type: index
 - [[profiles-running-multiple-agents]] — 
 - [[subagent-delegation-hermes-agent]] — 
 - [[wolfram-nks-causal-networks]] — Wolfram's NKS excerpt on causal networks and spacetime.
+- [[ebola-hospital-tents-fire-congo]] — Crowd set fire to Ebola treatment tents in DR Congo after officials blocked burial; response infrastructure failing
+- [[iran-claims-hormuz-waters]] — Iran published map claiming armed forces oversight across 22,000+ sq km of Strait of Hormuz
+- [[israel-ben-gvir-flotilla-video]] — Ben-Gvir taunted abducted activists; video went viral, damaged Israeli hasbara
 - [[mixture-of-recursions]] — MoR unifies parameter sharing and adaptive token-level computation via learned recursive depth routing — connects to causal state assignment and compiled-transformer execution models.
 - [[air-france-airbus-manslaughter-2009-2026-05-21]] — Air France and Airbus convicted of manslaughter over 228 deaths in 2009 Rio-Paris crash
 - [[alzheimers-breakthrough-2026-05-20]] — Researchers discover hidden Alzheimer's trigger and demonstrate successful intervention in models
@@ -328,6 +333,8 @@ type: index
 - [[sentience-metaphysics]] — Source summary for Sentience Metaphysics repo.
 - [[symbiotic-ai]] — 
 - [[tabpfn]] — Foundation model for tabular data using in-context learning. Trained on synthetic data, matches XGBoost on small-to-medium datasets. GPU recommended. Rich extension ecosystem.
+- [[rubio-declares-cuba-threat]] — Rubio calls Cuba a US national security threat; Havana accuses him of lying and inciting aggression
+- [[us-sanctions-francesca-albanese]] — US doubled down on sanctioning UN human rights rapporteur for criticizing Israel
 - [[spike-001-spacy-owlready2]] — VALIDATED — spaCy+owlready2 handles transitive subsumption, lemmatization, and pluralization in one sync_reasoner() call. Three v0.3 Layer-2 caveats collapse.
 - [[spike-campaign-001-004-summary]] — Four-spike campaign validating spaCy+owlready2+HermiT as Layer 2 substrate; transaction-per-claim semantics; OWL→Neo4j one-way projection.
 - [[ai-governance-substrate-analysis]] — Five interlocking cognitive primitives for evaluating AI governance discourse at the substrate level — spin-vs-substrate, absence-of-worst-case metric, institutional capture vs species framing, cryptographic vs semantic alignment, frame transmission; ASEKE-compatible diagnostic toolkit

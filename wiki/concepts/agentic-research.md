@@ -1,6 +1,6 @@
 ---
 summary: The use of autonomous LLM agents to execute stages of the scientific research workflow, from idea generation to manuscript writing.
-tags: [[concepts, ai-agents, research-methodology, autonomy]]
+tags: [[agentic-research]]
 updated: 2026-05-17T18:16:16Z
 ---
 

@@ -38,7 +38,7 @@ This is the "EEG" of the artificial mind — the instrument that makes the inter
 
 ## Connection to Biofeedback Paradigm
 
-In the [[engineering-internal-awareness]] framework, mechanistic interpretability serves as the **observability layer** — the sensor apparatus equivalent to EEG/EMG/HRV electrodes on a biofeedback patient. Without this visibility, modulation (activation steering) cannot be closed-loop.
+In the [[metacognitive-architecture-closed-loop-self-regulation]] framework, mechanistic interpretability serves as the **observability layer** — the sensor apparatus equivalent to EEG/EMG/HRV electrodes on a biofeedback patient. Without this visibility, modulation (activation steering) cannot be closed-loop.
 
 See also: [[activation-steering]] for the complementary modulation half of the biofeedback loop.
 

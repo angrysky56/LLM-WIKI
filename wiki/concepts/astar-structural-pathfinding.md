@@ -7,7 +7,7 @@ created: 2026-05-09T02:11:26Z
 
 # A-Star Structural Pathfinding
 
-Adaptation of A* heuristic search ([wiki/sources](../sources/articles/) — see raw ingestion *Graph Theory Heuristic Search Algorithm (A-Star) Applied in Trading*) into a market-structure indicator. Implemented as `astar_structural_pathfinder.pine` (ST-EP07) inside the [[square-root-system]].
+Adaptation of A* heuristic search ([wiki/sources](../sources/articles/) — see raw ingestion *Graph Theory Heuristic Search Algorithm (A-Star) Applied in Trading*) into a market-structure indicator. Implemented as `astar_structural_pathfinder.pine` (ST-EP07) — a market-structure trading system.
 
 ## Why the naive port fails
 
@@ -45,7 +45,7 @@ Two derived metrics emerge from the four costs:
 - `D > 0` — channel cost > √cost = structure *lagging* physics = **compression** = stored energy
 - `D < 0` — channel cost < √cost = structure *ahead of* physics = **overextension** = mean-reversion risk
 
-This frame mirrors the [[market-cognitive-dissonance]] indicator's belief-vs-reaction tension, but expressed in path-cost space — which makes it complementary, not redundant. They frequently agree; when they disagree, the disagreement itself is an interpretable signal.
+This frame mirrors market belief-vs-reaction tension, but expressed in path-cost space — which makes it complementary, not redundant. When signals disagree, the disagreement itself is an interpretable signal.
 
 ## Adaptive gating — single-neuron perceptron
 
@@ -68,8 +68,7 @@ Six gated signals, all subject to cooldown:
 
 ## Connections
 
-- Foundation: [[isotropic-coordinate-system|ICS]], Yang-Zhang σ — same substrate as [[square-root-system]]
-- Psychological parallel: [[market-cognitive-dissonance]]
+- Foundation: Yang-Zhang σ estimation for volatility normalization
 - Methodological cousin: ST-EP06 Isotropic Trend Lines (longest-monotonic-segment is a one-scale analog of pivot-graph PCR)
 - Forward extension: hand learned perceptron weights to TimesFM for proper sequence-modeled gating
 

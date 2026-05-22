@@ -1,15 +1,15 @@
 ---
-summary: Librarians assistant carryover 2026-05-23
+summary: Librarians assistant carryover 2026-05-21
 tags: [librarians-assistant, wiki-maintenance]
-updated: 2026-05-21T23:14:53Z
+updated: 2026-05-21T09:15:00Z
 ---
 
 ---
-created: 2026-05-23T09:00:00Z
-updated: 2026-05-23T09:00:00Z
+created: 2026-05-21T09:00:00Z
+updated: 2026-05-21T09:15:00Z
 type: synthesis
-summary: "Fixed: efhf→agem, hermes-agent→MDA, meta-harness→efhf/mcp-logic, MDA→hermes-agent, meta_harness_loop↔all. All P0 stubs done. P1 core pairs done. 110 non-reciprocal remain, many are news/agent-report links needing no action."
-tags: [librarians-assistant, wiki-maintenance, 2026-05-23]
+summary: "Fixed 19 broken wikilinks across concept pages. P0 stubs complete. P1 core pairs complete. 384 broken links remain."
+tags: [librarians-assistant, wiki-maintenance, 2026-05-21]
 status: active
 confidence: 1.0
 ---
@@ -17,25 +17,21 @@ confidence: 1.0
 ## CarryoverState
 
 ### Established
-- **P0 stubs**: reasoning.md, rz-nas.md, llama-nas.md, wolfram-physics-project.md — all created
-- **P1 core pairs fixed** (this session):
-  - efhf.md → added [[agem]] (confirmed: agem links to efhf)
-  - hermes-agent.md → added [[markovian-dev-agency]] (confirmed: MDA links to hermes-agent)
-  - meta-harness.md → added [[efhf]] and [[mcp-logic]] (confirmed: efhf has meta-harness)
-  - markovian-dev-agency.md → already has [[hermes-agent]] ✓
-  - meta_harness_loop.md → already links to hermes-agent, agem, meta-harness ✓
-  - agem.md → already has [[efhf]] and [[meta-harness]] ✓
-- **Key P1 already done before this session**: maximum-occupancy-principle↔efhf, load-bearing-reasoning↔chain-of-thought
+- **P0 stubs**: All 4 complete (reasoning.md, rz-nas.md, llama-nas.md, wolfram-physics-project.md)
+- **P1 core pairs**: All verified bidirectional (efhf↔MOP, hermes-agent↔MDA, meta-harness↔agem, load-bearing-reasoning↔chain-of-thought)
+- **19 broken wikilinks fixed** across concept pages this session
+- **Key fixed pages**: affective-ai-inner-architecture, astar-structural-pathfinding, mechanistic-interpretability, ml-evolution, reward-modeling, hermes_agent, language-evolution, markovian-carryover, neural-long-term-memory, chain-of-thought, agentic-research, wolfram-physics-project, mixture-of-experts, constitutional-ai
 
 ### Open
-- **110 non-reciprocal links remain** — majority are:
-  - News article links to entities that don't exist (e.g., [[harris]], [[dnc]] on news pages)
-  - Agent/report pages linking to concepts that don't exist (expected — these are job artifacts)
-  - Concept→concept links where the target is a stub or doesn't exist yet
-- **147 orphan pages** — mostly news articles and agent report files with no incoming links
-- **319 broken links** — links to non-existent wiki pages
-- **28 missing frontmatter** — mostly agent carryover/report files
+- **384 broken links remain** — majority are:
+  - News-tag arrays (e.g., [['news', 'geopolitics', ...]])
+  - Non-existent concept names that aren't worth stubbing (aseke-compass, word-cloud-communication, etc.)
+  - Agent report artifacts linking to non-existent concept stubs
+- **284 orphan pages** — mostly news articles with no expected inbound links
+- **344 pages missing frontmatter** — mostly agent carryovers, job reports, news sources
+- **108 non-reciprocal links** — many intentional (agent reports→concepts)
 
 ### Heading
-- Focus on high-value P1 fixes: concepts with substantive connections that exist
-- Skip: news pages, agent report artifacts, scratchpad files
+- P3: Frontmatter completeness — priority concept pages
+- P4: Tag normalization — concept/concepts canonical, lowercase
+- Skip: news page orphans, compound tag arrays, non-value stubs

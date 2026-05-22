@@ -1,5 +1,5 @@
 ---
-updated: 2026-05-22T02:03:06Z
+updated: 2026-05-22T07:00:23Z
 type: index
 ---
 
@@ -76,7 +76,7 @@ type: index
 - [[mixture-of-experts]] — Sparse conditional computation via expert routing — activating only subnetworks per token, enabling massive parameter counts without proportional FLOPs
 - [[ml-evolution]] — Concept page for autonomous machine learning model evolution.
 - [[myelination]] — Concept page for Myelination.
-- [[neural-long-term-memory]] — Fixed [[titans]] to [[titans-test-time-memory]]
+- [[neural-long-term-memory]] — Fixed [[titans-test-time-memory]] to [[titans-test-time-memory]]
 - [[open-ended-evolution]] — The study of conditions enabling evolution to continually produce novelty without converging — central ALife question connecting Tierra, Geb, Lenia, and OpenPraparat, with evaluation via Bedau-Packard statistics and Dolson complexity barriers
 - [[para-methodology]] — Tiago Forte's PARA framework — actionability-based universal information organization (Projects, Areas, Resources, Archives)
 - [[persistent-knowledge-compilation]] — Paradigm of LLM pre-compiling knowledge into persistent structured bases vs stateless RAG
@@ -170,11 +170,12 @@ type: index
 - [[ingest-2026-05-23]] — 
 - [[audit-2026-05-19]] — 
 - [[audit-2026-05-20]] — 
+- [[audit-2026-05-21]] — 
 - [[audit-2026-05-23]] — 
 - [[batch-progress]] — 
-- [[carryover]] — Librarian carryover — audit complete, remediation delegated
+- [[carryover]] — Librarian carryover — 155 orphans, 338 broken links, 110 non-reciprocal, insight gen timed out
 - [[librarian-2026-05-19-missing-agent-sheet]] — 
-- [[carryover]] — Librarians assistant carryover 2026-05-23
+- [[carryover]] — Librarians assistant carryover 2026-05-21
 - [[carryover]] — News agent carryover — Cuba threat designation, Hormuz map claim, Ebola infrastructure collapse, Ben-Gvir hasbara damage, Albanese sanctions
 - [[headlines-2026-05-22]] — 
 - [[news-2026-05-18-headlines]] — Global news headlines for May 18, 2026 — Iran diplomacy, Trump polling, asteroid, JWST, hantavirus, SCOTUS, Massie primary, prayer rally
@@ -344,6 +345,7 @@ type: index
 - [[ctx2skill-on-efhf-rails]] — Ctx2Skill identifies the right problem but has no verification substrate. Rebuilding it on EFHF rails — verifier-graph provenance, mcp-logic proofs, sheaf consistency, Molecular Self dynamics — would make autonomous skill extraction structurally sound.
 - [[efhf-mcp-configuration]] — Master MCP configuration for the EFHF stack.
 - [[entropic-machinery-cot-and-flagellum]] — 
+- [[essan-internal-representation]] — Training framework for Essan symbols as internal representation markers in LLMs, enabling hallucination detection via activation geometry.
 - [[intelligence-as-entropic-sculpting]] — Synthesis: Intelligence as Entropic Sculpting (SARH + MOP)
 - [[librarian-report-2026-05-09]] — Week 1 quality audit — Orphans and Misclassifications in the LLM-WIKI knowledge graph
 - [[llm-biological-analogies]] — Synthesis page for LLM-biological analogies.
@@ -355,4 +357,5 @@ type: index
 - [[self-prompting-via-production-stage-architecture]] — Self-prompting (LLMs directing their own behavior mid-generation) is a production-stage phenomenon — operating entirely in the instruction-sensitive, behavior-driving half of the production/processing asymmetry. Waldis 2026 + Chen molecular CoT 2026 + entropic-machinery synthesis predict a specific architecture: self-generated directives work through the three-bond topology (Deep-Reasoning backbone + Self-Reflection fold-back + Self-Exploration basin escape), maintained as a non-equilibrium steady state against entropy, using single-event signal cascades to flip reasoning state. Supertoken analysis distinguishes scaffolding from load-bearing tokens in self-generated text; MoR's dynamic recursion router maps to self-directed compute allocation. Neuroanatomically, self-prompting is the arcuate fasciculus — language shaping language production — firing only into the Broca's side, not the Wernicke's side.
 - [[synapse-llm-wiki-operating-guide]] — Agent operating instructions for the Synapse + LLM-WIKI system — tool decision logic, content lifecycle, ingest and fetch workflows, writing conventions
 - [[synapse-retrieval-architecture]] — Four-stage query_knowledge pipeline: entity graph seeding → RRF hybrid search → wikilink expansion → Zettelkasten insights
+- [[verifiable-graph-context-protocol]] — VGCP — DAG-structured reasoning with constraint-verified node commitment
 - [[wiki-indexing-theory]] — IR and indexing theory applied to LLM-WIKI: TOC vs conceptual index, controlled vocabulary, thesaurus relationships, HITS on wikilinks, mere mentions, and GAAC clustering for wiki health

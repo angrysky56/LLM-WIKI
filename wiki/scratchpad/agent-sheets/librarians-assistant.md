@@ -15,7 +15,7 @@ updated: 2026-05-21
 
 ## Your Task
 
-Fix the open wiki health issues identified by the Wiki Librarian audit. Work in batches, report progress, and carry open items to the next cycle.
+Fix the open wiki health issues identified by the Wiki Librarian audit. Work in batches, report progress, and carry open items to the next cycle. **Your priorities come from the librarian's carryover and batch-progress — not from hardcoded instructions below.**
 
 **synapse** mcp tools:
 
@@ -28,65 +28,20 @@ Fix the open wiki health issues identified by the Wiki Librarian audit. Work in 
 
 ---
 
-## Priority Fix Order
-
-### P0 — Alias Stubs (high impact, easy wins)
-
-Create stub pages for concept aliases that have no target:
-
-1. **`[[reasoning]]`** → Create `wiki/concepts/reasoning.md` as a redirect/stub to `[[load-bearing-reasoning]]`
-2. **`[[rz-nas]]`** → Create `wiki/concepts/rz-nas.md` stub (it's a neural architecture search method)
-3. **`[[llama-nas]]`** → Create `wiki/concepts/llama-nas.md` stub (LLaMA NAS approach)
-4. **`[[wolfram-physics-project]]`** → Create `wiki/concepts/wolfram-physics-project.md` stub
-
-A stub page should have minimal frontmatter + a one-line description noting the concept is documented elsewhere or needs development.
-
-### P1 — Non-Reciprocal Wikilinks
-
-A→B without B→A. Add return links. Priority pairs from last audit:
-- `efhf` ↔ `maximum-occupancy-principle` (both missing)
-- `hermes-agent` ↔ `markovian-dev-agency` (missing both directions)
-- `meta-harness` ↔ `agem` (missing both)
-- `load-bearing-reasoning` ↔ `chain-of-thought` (missing both)
-- `maximum-occupancy-principle` ↔ `efhf` (already listed above)
-
-For each reciprocal pair: read both pages, add the missing wikilink to each.
-
-### P2 — Orphan Pages
-
-Pages with zero inbound links that are load-bearing concepts (not self-contained daily reports).  
-From last audit: `hermes-agent`, `librarian`, `researcher`, `orcaid`, `ingest`, `arxiv`, `meta-harness`, `agem`.
-
-Find related pages and add wikilink context from those pages.
-
-### P3 — Frontmatter Completeness
-
-Pages missing required frontmatter fields. Priority: concept pages over daily reports.
-
-Required fields: `created`, `updated`, `type`, `summary`, `tags`.
-
-### P4 — Tag Normalization
-
-Use `tag-taxonomy.md` as canonical. Normalize:
-- `concept` vs `concepts` → canonical is `concept`
-- Mixed-case variants → lowercase
-- Missing tags on concept pages
-
----
-
 ## Workflow
 
-### STEP 1 — Read carryover
+### STEP 1 — Read librarian carryover
 Read: `wiki/scratchpad/jobs/reports/librarian/carryover.md`  
-This tells you what the librarian found and what's already been fixed.
+This tells you what the librarian found and what's open. The carryover's "What Remains" section is your task list — work through it in the priority order specified there.
 
 ### STEP 2 — Read batch progress
 Read: `wiki/scratchpad/jobs/reports/librarian/batch-progress.md` (if it exists)  
-知道你已经做到哪里了.
+知道你已经做到哪里了. Start where the last run stopped — don't redo work already done.
 
 ### STEP 3 — Run fixes
-Work through P0 → P1 → P2 → P3 → P4 in order.
+Read the carryover's open items. Execute them in priority order. Stop at 50+ fixes or when you hit a hard blocker (needs judgment or content creation beyond scope).
 
+### STEP 4 — Update batch-progress
 After every 15-20 fixes, write a progress note to:
 `wiki/scratchpad/jobs/reports/librarian/batch-progress.md`
 
@@ -95,20 +50,16 @@ Format:
 # Batch Progress — YYYY-MM-DD HH:MM
 
 ## Fixes Applied This Batch
-- Fixed [[reasoning]] alias → created stub page
-- Added 5 reciprocal links
-- Resolved 3 orphans
+- [list of what you fixed]
 
 ## Remaining Open Items
-- [[llama-nas]] stub not yet created
-- 98 non-reciprocal links remain
-- etc.
+- [list, priority order]
 
 ## Next Batch Starts With
 - [first task]
 ```
 
-### STEP 4 — Update assistant carryover
+### STEP 5 — Update assistant carryover
 Write state to: `wiki/scratchpad/jobs/reports/librarians-assistant/carryover.md`
 
 ```markdown
@@ -124,7 +75,7 @@ Write state to: `wiki/scratchpad/jobs/reports/librarians-assistant/carryover.md`
 - [anything that needs judgment or content creation beyond scope]
 ```
 
-### STEP 5 — Report
+### STEP 6 — Report
 Deliver to origin (Discord thread):
 
 **Librarians-Assistant — YYYY-MM-DD**

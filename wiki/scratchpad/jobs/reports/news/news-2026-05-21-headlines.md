@@ -1,81 +1,70 @@
----
-summary: Global news headlines for May 21, 2026 — 6 stories across geopolitics, aviation accountability, health, and STI epidemic
-tags: [news, daily, global-news, report, 2026-05-21]
-updated: 2026-05-21T19:31:17Z
----
-
----
-summary: Global news headlines for May 21, 2026 — 6 stories across geopolitics, aviation accountability, health, and STI epidemic
-tags: [news, daily, global-news, report, 2026-05-21]
-confidence: high
-status: active
-created: 2026-05-21
-updated: 2026-05-21
-type: summary
----
-
 # News Report — 2026-05-21
 
 ## Stories Ingested
 
-1. **Air France and Airbus Convicted of Manslaughter Over 2009 Crash**
+1. **[Iran Steps Up Claim to Control Strait of Hormuz](wiki/sources/articles/strait-of-hormuz-iran-claim-2026.md)**
+   - Region: Middle East / Persian Gulf
+   - Significance: Iran published a map claiming armed forces oversight across 22,000+ sq km of the world's most critical oil transit chokepoint. ~20-25% of global oil passes through. Escalates ceasefire tensions.
+   - Wiki status: ingested
+
+2. **[US Military Surveillance Aircraft Near Cuba](wiki/sources/articles/us-surveillance-cuba-flights-2026.md)**
+   - Region: Caribbean / US-China
+   - Significance: Multiple US Navy reconnaissance flights tracked near Cuba — operationalization of escalating China-Cuba tensions. Spain/China condemnation of Raúl Castro indictment adds diplomatic layer.
+   - Wiki status: ingested
+
+3. **[SpaceX Files for IPO — Ticker SPCX](wiki/sources/articles/spacex-ipo-spcx-2026.md)**
+   - Region: Global / Technology / Finance
+   - Significance: SpaceX IPO filing could make Elon Musk the world's first trillionaire. Dominant launch provider with Starlink becoming largest satellite internet constellation. Financial透明度 will reframe Musk's net worth narrative.
+   - Wiki status: ingested
+
+4. **[Meta Settles Social Media Addiction Case](wiki/sources/articles/meta-social-media-addiction-settlement-2026.md)**
+   - Region: US / Global
+   - Significance: Meta settles Seattle school district case — test case for 1,200+ similar suits from school districts nationwide. Core claim: platforms designed addictive features for teenagers. Industry-wide exposure.
+   - Wiki status: ingested
+
+5. **[Ofcom: TikTok and YouTube "Not Safe Enough" for Kids](wiki/sources/articles/tiktok-youtube-ofcom-not-safe-enough-2026.md)**
+   - Region: UK / Global
+   - Significance: UK regulator issues finding both platforms fail child safety standards. Parallel to US Meta litigation — global regulatory convergence on children and social media. Online Safety Act enforcement beginning.
+   - Wiki status: ingested
+
+6. **[Trump Plans Direct Call With Taiwan President](wiki/sources/articles/trump-taiwan-call-2026.md)**
+   - Region: East Asia / US-China
+   - Significance: Break from decades of One China diplomatic protocol. $14bn arms sale under consideration simultaneously. Tests Chinese response capacity on multiple fronts (Taiwan + Cuba).
+   - Wiki status: ingested
+
+7. **[Ebola Outbreak: DRC Hospital Burned](wiki/sources/articles/ebola-outbreak-drc-hospital-attack-2026.md)**
+   - Region: DR Congo / Africa
+   - Significance: Grieving relatives burned Ebola response hospital tents. WHO emergency declaration still in effect but outbreak response is failing in practice. Community trust collapsed.
+   - Wiki status: ingested
+
+8. **[Air France and Airbus Guilty of Manslaughter (2009 Crash)](wiki/sources/articles/air-france-airbus-manslaughter-verdict-2026.md)**
    - Region: France / Global Aviation
-   - Significance: First-ever corporate manslaughter conviction in France for Air France Flight AF447 (228 dead). Landmark ruling sets global precedent for aviation industry accountability.
-   - Wiki status: ingested → [[wiki/sources/news/2026-05/air-france-airbus-manslaughter-2009-2026-05-21]]
-   - Graph: 96 nodes, 42 edges
-
-2. **Iran Creates "Persian Gulf Strait Authority" — Claims Control Over 22,000+ sq km**
-   - Region: Middle East / Global Oil
-   - Significance: Direct challenge to US naval dominance of the world's most critical oil chokepoint. Claim includes Omani and UAE territorial waters, escalating Strait of Hormuz tensions.
-   - Wiki status: ingested → [[wiki/sources/news/2026-05/strait-of-hormuz-iran-claim-2026-05-21]]
-   - Graph: 74 nodes, 44 edges
-
-3. **Trump Oscillates Between Diplomacy and Military Threats in Iran Standoff**
-   - Region: US / Iran / Middle East
-   - Significance: Fragile ceasefire holds but Trump alternates between threats and diplomatic overtures. Iran submitted a 14-point peace plan while drone attacks continue against US allies UAE and Saudi Arabia.
-   - Wiki status: ingested → [[wiki/sources/news/2026-05/trump-iran-diplomacy-threats-2026-05-21]]
-   - Graph: 3 nodes, 8 edges
-
-4. **Russia and China Condemn US Over Raúl Castro Indictment**
-   - Region: Great Powers / Cuba
-   - Significance: US indictment of former Cuban leader for 1996 plane shootdown triggers joint China-Russia condemnation. Great-power tension signaling coincides with Xi-Putin summit aftermath.
-   - Wiki status: ingested → [[wiki/sources/news/2026-05/russia-china-condemn-us-castro-indictment-2026-05-21]]
-   - Graph: 4 nodes, 10 edges
-
-5. **US-Bound Flight Diverts After Ebola-Affected Passenger Boards in Error**
-   - Region: Global Health / Aviation
-   - Significance: Air France Paris-Detroit flight diverted to Montreal after DRC passenger subject to US entry restrictions was mistakenly allowed aboard. First visible travel restriction from WHO emergency declaration.
-   - Wiki status: ingested → [[wiki/sources/news/2026-05/us-flight-diverts-ebola-passenger-2026-05-21]]
-   - Graph: 55 nodes, 27 edges
-
-6. **Record STI Levels in Europe: Gonorrhoea Up 303%, Syphilis Doubled**
-   - Region: Europe / Public Health
-   - Significance: ECDC data shows gonorrhoea (106,331 cases) and syphilis (45,557 cases) at record highs. Congenital syphilis nearly doubled — healthcare systems under strain.
-   - Wiki status: ingested → [[wiki/sources/news/2026-05/sti-record-levels-europe-2026-05-21]]
-   - Graph: 1 node, 1 edge
+   - Significance: French court finds both companies guilty — rare corporate criminal manslaughter verdict for design flaw. 17-year litigation ends. Sets aviation safety accountability precedent.
+   - Wiki status: ingested
 
 ## Wiki Updates
+- New pages: 8
+- Updated pages: 0
+- Cross-links added: 8 articles linked to existing wiki concepts
 
-- New source pages: 6
-- Graph nodes added: ~233
-- Graph edges added: ~132
-- Facts remembered to timeline: 4
+## Excluded (monitor only)
+- **Nvidia earnings miss expectations**: Record results but shares fell; investor concern about AI capex sustainability. Significant but may be noise vs signal.
+- **Walmart consumer spending warning**: Higher petrol prices cutting US consumer spending. Economic signal worth watching but not yet actionable.
+- **Air France crash verdict**: Ingested despite being historical (17-year case concluded today) — precedent value for institutional accountability analysis.
+- **Trump anti-weaponization fund GOP revolt**: Continuing story from yesterday carryover — Senate GOP delay. Monitor for institutional capture vector.
 
 ## Notable Patterns
 
-1. **Middle East flashpoint** — Strait of Hormuz emerges as the central maritime crisis: Iran's new strait authority + fragile ceasefire + drone attacks on US allies = highest risk of renewed hostilities
-2. **Great power coordination against US** — China and Russia acting in concert (Castro indictment, Xi-Putin summit backdrop) signals coordinated anti-US messaging
-3. **Aviation accountability milestone** — First corporate manslaughter conviction in France sets legal precedent that could affect AI/digital sector liability discussions
-4. **Ebola travel friction** — First visible travel restriction from WHO emergency; screening protocol gaps now becoming operational reality
+1. **US-China pressure on multiple fronts simultaneously**: Taiwan call + Cuba surveillance + Raúl Castro indictment. Beijing being tested on multiple spheres-of-influence simultaneously. Pattern likely intentional signaling.
 
-## Excluded (monitor only)
+2. **Social media platforms under simultaneous multi-jurisdiction attack**: Meta settlement (US, 1,200 cases) + Ofcom findings (UK) + Online Safety Act enforcement beginning. Industry facing regulatory convergence.
 
-- California AI executive order (already covered in 2026-05-20 research threads; not a fast-breaking story)
-- Hantavirus cruise outbreak (continuing story from 2026-05-17; already ingested)
-- No celebrity, sports, or entertainment stories
+3. **Iran ceasefire stress test**: Map claim of Hormuz control while ceasefire nominally holds. Either negotiating leverage or genuine territorial claim — worth monitoring daily.
 
-## Sources
+4. **Elon Musk's trillion-dollar moment**: SpaceX IPO at the same moment he's losing the OpenAI lawsuit and fighting multiple other legal battles. The IPO may be timed to capitalize on Starlink's value before other headwinds materialize.
 
-- BBC News (Air France/Airbus verdict, Strait of Hormuz, Castro indictment, Ebola flight, European STIs)
-- Al Jazeera (Trump-Iran oscillation)
-- ECDC data (STI statistics)
+5. **Institutional accountability in focus**: DOJ slush fund (carryover), Air France manslaughter verdict, Meta settlement, Ofcom regulation — institutions either functioning as accountability mechanisms or captured/ineffective. Worth tracking which pattern dominates.
+
+---
+
+*Report generated: 2026-05-21 | Next run: 2026-05-23 8AM*

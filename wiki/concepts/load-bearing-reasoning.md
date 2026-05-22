@@ -1,10 +1,16 @@
 ---
-created: 2026-05-06T21:50:58Z
-updated: 2026-05-06T21:50:58Z
+summary: Added [[isabelle]] return link to load-bearing-reasoning
+tags: [interpretability, causal-mediation, mech-interp, reasoning]
+updated: 2026-05-21T23:12:58Z
+---
+
+---
+created: 2026-05-23T08:50:00Z
+updated: 2026-05-23T08:55:00Z
 type: concept
 summary: A framework for interpretability that distinguishes between tokens necessary for a conclusion (load-bearing) and those that serve as statistical noise reduction (scaffolding).
 tags: [interpretability, causal-mediation, mech-interp, reasoning]
-sources: [Pearl (2001), Conmy et al. (2023), Shorthand for Thought (2026)]
+sources: ['Pearl (2001)', 'Conmy et al. (2023)', 'Shorthand for Thought (2026)']
 status: active
 confidence: 1.0
 ---

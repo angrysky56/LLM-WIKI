@@ -7,7 +7,7 @@ updated: 2026-05-18
 # world-news-daily — Agent Sheet
 
 **Job ID**: `eaaa6bdc8503`  
-**Schedule**: Daily 08:30 AM (cron) + manual trigger any time
+**Schedule**: Daily 08:00 AM (cron) + manual trigger any time
 **Delivery**: #news Discord channel
 
 ---

@@ -1,13 +1,12 @@
 ---
-summary: Project page for AGEM.
-tags: [projects, ty-repo, multi-agent]
-updated: 2026-05-01T07:06:26Z
-created: 2026-05-01T07:06:26Z
+summary: Added [[meta-harness]] return link to AGEM
+tags: [projects, ty-repo, angrysky56, multi-agent-systems, sheaf-theory, context-management, agem]
+updated: 2026-05-21T23:12:27Z
 ---
 
 ---
 created: 2026-05-01T07:06:19Z
-updated: 2026-05-01T07:06:19Z
+updated: 2026-05-23T08:55:00Z
 type: entity
 summary: Sheaf-theoretic multi-agent coordination framework with lumpability-audited context management.
 tags: [projects, ty-repo, angrysky56, multi-agent-systems, sheaf-theory, context-management, agem]
@@ -35,3 +34,4 @@ confidence: 1.0
 - [[mcp-coordinator]] — Provides meta-tool access and orchestration patterns.
 - [[conscience-servitor]] — Performs ethical triage on AGEM reasoning steps.
 - [[tys-repos]] — Part of Ty's repository collection.
+- [[meta-harness]] — Shares concepts with the self-adaptive agent evolution framework.

@@ -1,8 +1,15 @@
 ---
-created: 2026-05-11
-type: entity
-summary: "Nous Research's open-source AI agent framework — multi-platform, provider-agnostic, skill-powered, with delegation, goals, cron, and memory systems"
+summary: Added [[markovian-dev-agency]] return link to hermes-agent
 tags: [hermes, agent-framework, nous-research, delegation, goals, cron, multi-agent]
+updated: 2026-05-21T23:13:01Z
+---
+
+---
+created: 2026-05-11
+updated: 2026-05-23T08:55:00Z
+type: entity
+summary: Nous Research's open-source AI agent framework — multi-platform, provider-agnostic, skill-powered, with delegation, goals, cron, and memory systems
+tags: ['hermes', 'agent-framework', 'nous-research', 'delegation', 'goals', 'cron', 'multi-agent']
 status: active
 confidence: 0.95
 ---
@@ -67,3 +74,4 @@ The bounded-servitors framework ([[bounded-structured-memory]]) extends Hermes w
 - [[bounded-structured-memory]] — layered memory architecture
 - [[markovian-carryover]] — forward-state skill for agent continuity
 - [[hermes-agent-skill]] — skill documentation (hub-installed)
+- [[markovian-dev-agency]] — runs on Hermes as execution framework

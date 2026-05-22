@@ -1,10 +1,16 @@
 ---
+summary: Added [[hermes-agent]] return link to MDA
+tags: [agency, devops, markovian, persistent-agents, multi-specialist]
+updated: 2026-05-21T23:12:26Z
+---
+
+---
 created: 2026-05-13
-updated: 2026-05-13
+updated: 2026-05-23T08:55:00Z
 type: entity
 subtype: project
 summary: Dev agency with 4 specialists that maintains persistent Markovian state across activations
-tags: [agency, devops, markovian, persistent-agents, multi-specialist]
+tags: ['agency', 'devops', 'markovian', 'persistent-agents', 'multi-specialist']
 status: active
 confidence: 0.9
 sources: raw/paperclip Open-source orchestration for zero-human companies.md
@@ -26,7 +32,7 @@ markovian-dev-agency/
 │   ├── diagnostician/   # Root-cause analysis
 │   ├── fixer/           # Code changes
 │   ├── ticket-writer/   # Support tickets + docs
-│   └── researcher/      # Pattern research
+│   └── researcher/      # Technical research
 └── workspace/           # Shared operational space
     ├── active-issues/    # Issue tracking files
     ├── logs/            # Activity audit trail

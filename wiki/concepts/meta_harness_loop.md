@@ -1,8 +1,17 @@
 ---
+summary: Fixed double-bracket link and Domain Onboarding Standards
+tags: [evolution, architecture, meta-harness]
+updated: 2026-05-21T22:21:01Z
+---
+
+---
+created: 2026-05-07T23:21:32Z
+updated: 2026-05-21T08:10:00Z
+type: concept
 summary: Core logic of the iterative evolution process in Meta-Harness.
 tags: [evolution, architecture, meta-harness]
-updated: 2026-05-07T23:21:32Z
-created: 2026-05-07T23:21:32Z
+status: active
+confidence: 1.0
 ---
 
 # Meta-Harness Evolution Loop
@@ -26,20 +35,27 @@ graph TD
 ## Subsystems
 
 ### 1. Evolution Engine (`src/meta_harness/engine.py`)
+
 The engine manages the state of the evolution process, including the "frontier" (the best-performing system found so far). It constructs the prompts for the "Proposer" (the LLM responsible for generating new harness code).
 
 ### 2. Evaluator (`src/meta_harness/evaluator.py`)
+
 A domain-specific protocol that defines how to run benchmarks and calculate scores. Each new domain (e.g., text classification, legal reasoning) must implement this interface.
 
 ### 3. Hermes Wrapper (`src/meta_harness/wrapper.py`)
-A bridge to the [[Hermes Agent Architecture]], allowing the engine to execute autonomous research sessions and capture tool-use traces.
+
+A bridge to the [[hermes-agent]], allowing the engine to execute autonomous research sessions and capture tool-use traces.
 
 ## Onboarding New Domains
-To onboard a new domain, follow the [[Domain Onboarding Standards]]:
+
+To onboard a new domain, follow the Domain Onboarding Standards:
+
 1. Define a `domain_spec.md`.
 2. Implement an `Evaluator` for the domain.
 3. Provide baseline datasets and helper functions.
 
-## Related
-- [[hermes_agent]]
-- [[[Domain Onboarding Standards]]](obsidian://open?vault=LLM-WIKI&file=wiki%2Fconcepts%2Fonboarding_standards)
+## Connections
+
+- [[hermes-agent]]
+- [[agem]]
+- [[meta-harness]]

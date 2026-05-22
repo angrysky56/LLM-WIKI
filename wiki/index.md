@@ -1,5 +1,5 @@
 ---
-updated: 2026-05-21T19:30:57Z
+updated: 2026-05-21T23:14:04Z
 type: index
 ---
 
@@ -47,7 +47,8 @@ type: index
 - [[astar-structural-pathfinding]] — A* heuristic search applied to market pivot graphs with forward-projected goals — Path Coherence Ratio quantifies structural efficiency; cross-validated against geometric (channel) and stochastic (√σ) goal sources
 - [[brocas-area]] — Concept page for Broca's Area.
 - [[causal-networks]] — A fundamental representation of spacetime in Wolfram Physics, where nodes are updating events and edges are causal dependencies in a multiway rewrite system.
-- [[chain-of-thought]] — Concept page for Chain-of-Thought.
+- [[chain-of-thought]] — Added [[load-bearing-reasoning]] return link to CoT
+- [[constitutional-ai]] — Alignment technique using AI-generated self-critique and principle-based revision instead of human-labeled preference data
 - [[critical-analysis]] — The systematic evaluation of research to understand its methodology, context, validity, and significance.
 - [[cryptographic-vs-semantic-alignment]] — Distinction between what cryptographic protocols can prove (integrity, provenance, state validity) and what they cannot (semantic alignment of outputs to consequences in a world the protocol does not see); decentralized consensus is necessary but not sufficient for AI governance
 - [[design-thinking]] — Human-centered innovation framework — structured process from need identification through verification, with leverage concentrated in the often-neglected front-end phases
@@ -60,25 +61,33 @@ type: index
 - [[hermes_agent]] — Architectural overview of the Hermes Agent framework.
 - [[hidden-states]] — The internal vector representations (activations) of data at each layer of a neural network, containing 'inner knowledge' and confidence signals.
 - [[hyperphantasia]] — Concept page for Hyperphantasia
+- [[inference-time-compute-scaling]] — Allocating inference-time compute to improve reasoning quality — the frontier of scaling laws beyond training
 - [[institutional-capture-vs-species-framing]] — Reframe of "human nature" / "civilization" arguments — the unit making civilization-scale choices is not the species but a thin layer of captured institutions; reframes the Great Filter from technological to architectural
 - [[language-evolution]] — Concept page for the statistical study of language evolution.
-- [[load-bearing-reasoning]] — A framework for interpretability that distinguishes between tokens necessary for a conclusion (load-bearing) and those that serve as statistical noise reduction (scaffolding).
+- [[length-generalization]] — Fixed [[titans]] to [[titans-test-time-memory]]
+- [[llama-nas]] — Stub for LLaMA NAS concept
+- [[load-bearing-reasoning]] — Added [[isabelle]] return link to load-bearing-reasoning
 - [[markovian-carryover]] — How to write bounded forward-state carryover at agent/session boundaries using structured templates
-- [[maximum-occupancy-principle]] — Theory of behavior replacing reward maximization with action-state path entropy maximization — Layer 0 of EFHF architecture; absorbing states → Kernel 2 (Prover9-verified)
+- [[maximum-occupancy-principle]] — Added [[efhf]] return link
 - [[mechanistic-interpretability]] — Reverse-engineering transformer internals — activation caching, circuit analysis, and the EEG of artificial minds
 - [[memex]] — Vannevar Bush's 1945 vision of a personal associative knowledge device
-- [[meta_harness_loop]] — Core logic of the iterative evolution process in Meta-Harness.
+- [[meta_harness_loop]] — Fixed double-bracket link and Domain Onboarding Standards
 - [[metacognitive-architecture-closed-loop-self-regulation]] — Engineering internal awareness and closed-loop self-regulation in LLMs using biofeedback paradigms, PID control, and LQR — peer-reviewed whitepaper summary
+- [[mixture-of-experts]] — Sparse conditional computation via expert routing — activating only subnetworks per token, enabling massive parameter counts without proportional FLOPs
 - [[ml-evolution]] — Concept page for autonomous machine learning model evolution.
 - [[myelination]] — Concept page for Myelination.
-- [[neural-long-term-memory]] — Concept page for neural long-term memory.
+- [[neural-long-term-memory]] — Fixed [[titans]] to [[titans-test-time-memory]]
 - [[open-ended-evolution]] — The study of conditions enabling evolution to continually produce novelty without converging — central ALife question connecting Tierra, Geb, Lenia, and OpenPraparat, with evaluation via Bedau-Packard statistics and Dolson complexity barriers
 - [[para-methodology]] — Tiago Forte's PARA framework — actionability-based universal information organization (Projects, Areas, Resources, Archives)
 - [[persistent-knowledge-compilation]] — Paradigm of LLM pre-compiling knowledge into persistent structured bases vs stateless RAG
+- [[process-reward-model]] — Reward models that evaluate individual reasoning steps rather than final outcomes — enabling precise credit assignment and intelligent path pruning
 - [[rag]] — Retrieval-Augmented Generation — the standard stateless document Q&A pattern
+- [[reasoning]] — Alias stub redirecting to load-bearing-reasoning
 - [[research-methodology]] — The specific procedures or techniques used to identify, select, process, and analyze information about a topic.
 - [[reward-modeling]] — The process of training a secondary model to assign scalar scores to LLM outputs, used for alignment (RLHF) and test-time scaling (Best-of-N).
+- [[rz-nas]] — Stub for RZ-NAS neural architecture search concept
 - [[scientific-writing]] — The practice of communicating scientific information to other scientists, characterized by precision, clarity, and adherence to established formats like IMRaD.
+- [[self-correction]] — The capability and architectures of LLMs to detect, critique, and revise their own outputs — distinct from explicit CoT or formal metacognitive control
 - [[sheffer-stroke]] — A single primitive operator from which an entire computational domain is reconstructable — NAND for Boolean logic, EML for continuous mathematics, with structural parallels across domains
 - [[spin-vs-substrate]] — Analytical primitive — separating the rhetorical layer (clauses, statements, principles) from the operational layer (deployments, integrations, consequences); citing one as evidence about the other is the standard category error
 - [[spontaneous-activity-reshaping-hypothesis]] — Concept page for Spontaneous Activity Reshaping Hypothesis
@@ -86,7 +95,9 @@ type: index
 - [[surprise-based-learning]] — Concept page for surprise-based learning.
 - [[symbolic-regression]] — Discovering closed-form mathematical expressions from data — approaches include genetic programming, neural-guided search, and gradient-optimized EML trees that are complete by construction
 - [[tag-taxonomy]] — Controlled vocabulary for wiki tags — preferred terms with USE/UF equivalence, BT/NT hierarchy, and RT associative relationships
+- [[titans]] — Titans neural memory architecture — concept page resolving [[titans]] alias
 - [[wernickes-area]] — Concept page for Wernicke's Area.
+- [[wolfram-physics-project]] — Corrected wolfram-physics-project stub content
 - [[andrej-karpathy]] — AI researcher, author of the LLM Wiki pattern
 - [[dhruv-trehan]] — Entity page for Dhruv Trehan.
 - [[paras-chopra]] — Entity page for Paras Chopra.
@@ -94,14 +105,14 @@ type: index
 - [[stephen-wolfram]] — Computer scientist, physicist, and creator of Mathematica, Wolfram|Alpha, and Wolfram Language. Known for "A New Kind of Science.
 - [[tyler-hall]] — Entity page for Tyler Blaine Hall.
 - [[alphaevolve]] — Google DeepMind's evolutionary coding agent — LLM ensemble + diff-based mutation + real hardware eval; 23% GEMM speedup; Gemini self-improvement; instantiates MGA pattern; open-sourced as OpenEvolve
-- [[efhf]] — Five-layer AI architecture implementing computational mechanics (epsilon machines, lumpability, causal closure) as a live multi-agent system — MOP proposed as Layer 0 for proactive exploration
+- [[efhf]] — Added [[agem]] return link to EFHF
 - [[goodrobot]] — GoodRobot — SHUT DOWN status added
-- [[markovian-dev-agency]] — Dev agency with 4 specialists that maintains persistent Markovian state across activations
-- [[meta-harness]] — A framework for self-adaptive agent evolution and structured knowledge bootstrapping, integrated with Hermes.
+- [[markovian-dev-agency]] — Added [[hermes-agent]] return link to MDA
+- [[meta-harness]] — Added [[efhf]] and [[mcp-logic]] return links to meta-harness
 - [[mop-explorer]] — MOP-guided research agent using EFHF as verification backbone — autonomously explores concept spaces, generates hypotheses, verifies via L2-L5 pipeline, commits validated insights
 - [[project-synapse]] — Graph-backed MCP server providing semantic search, knowledge synthesis, and wiki bridge
 - [[advanced-reasoning-mcp]] — Project page for advanced-reasoning-mcp.
-- [[agem]] — Project page for AGEM.
+- [[agem]] — Added [[meta-harness]] return link to AGEM
 - [[aseke-compass-mcp]] — Project page for aseke-compass-mcp.
 - [[ast-mcp-server]] — Project page for ast-mcp-server.
 - [[conscience-servitor]] — Project page for conscience-servitor.
@@ -121,7 +132,7 @@ type: index
 - [[zettelkasten-engine]] — Autonomous pattern detection and insight synthesis engine within Project Synapse
 - [[claude-code]] — Entity page for Claude Code.
 - [[gemini]] — Entity page for Gemini.
-- [[hermes-agent]] — Nous Research's open-source AI agent framework — multi-platform, provider-agnostic, skill-powered, with delegation, goals, cron, and memory systems
+- [[hermes-agent]] — Added [[markovian-dev-agency]] return link to hermes-agent
 - [[hipai-montague]] — Graph-based world model MCP server — EFHF Layer 2; encodes beliefs and relationships for verification by mcp-logic
 - [[isabelle]] — Reference page for the Isabelle proof assistant.
 - [[mamba]] — Tool page for Mamba (SSM).
@@ -141,6 +152,7 @@ type: index
 - [[arxiv]] — 
 - [[ingest]] — Agent instructions for llm-wiki-raw-ingest cron job
 - [[librarian]] — Agent instructions for Wiki Librarian cron job
+- [[librarians-assistant]] — Agent instructions for Librarians-assistant cron job
 - [[news]] — Agent instructions for world-news-daily cron job
 - [[orcaid]] — Agent instructions for OrCAID multi-agent delegation — task types, execution mechanisms, and workflow
 - [[researcher]] — Agent instructions for Wiki Researcher cron job
@@ -154,22 +166,33 @@ type: index
 - [[carryover]] — 
 - [[ingest-2026-05-20]] — 
 - [[ingest-2026-05-21-run]] — 
-- [[ingest-2026-05-21]] — Ingest run report — 1 source processed
+- [[ingest-2026-05-21]] — Ingest run report — 5 sources processed (2026-05-21)
+- [[ingest-2026-05-23]] — 
 - [[audit-2026-05-19]] — 
 - [[audit-2026-05-20]] — 
+- [[audit-2026-05-23]] — 
+- [[batch-progress]] — 
+- [[carryover]] — Librarian carryover — audit complete, remediation delegated
 - [[librarian-2026-05-19-missing-agent-sheet]] — 
-- [[carryover]] — News agent carryover — great power realignment, Ebola travel effects, Iran diplomacy, science themes
+- [[carryover]] — 
+- [[carryover]] — News agent carryover — Iran Hormuz claim, SpaceX IPO, social media regulatory convergence, China multi-front pressure, Ebola response collapse
 - [[news-2026-05-18-headlines]] — Global news headlines for May 18, 2026 — Iran diplomacy, Trump polling, asteroid, JWST, hantavirus, SCOTUS, Massie primary, prayer rally
 - [[news-2026-05-20-headlines]] — Global news headlines for May 20, 2026 — 7 stories across geopolitics, AI/tech, science, health, and energy
-- [[news-2026-05-21-headlines]] — Global news headlines for May 21, 2026 — 9 stories across geopolitics, science, health, and space
-- [[sheet]] — Central task board for agent job dispatch
+- [[news-2026-05-21-headlines]] — 
+- [[news-2026-05-22-headlines]] — Global news headlines for May 22, 2026 — 5 stories across science, US politics, and law
+- [[carryover]] — 
+- [[discovery-2026-05-21]] — 
+- [[discovery-2026-05-22]] — 
+- [[sheet]] — Jobs sheet with fixed agent-sheet wikilinks
 - [[agem-ooe]] — 
+- [[air-france-airbus-manslaughter-verdict-2026]] — 
 - [[brocas-area-gemini-chat]] — Source summary for Gemini chat on Broca's area and LLM analogies.
 - [[choosing-right-agentic-design-pattern]] — 
 - [[critical-review-scientific-article-guide]] — A structured guide for analyzing and critically reviewing scientific journal articles, focusing on research methods, context, and significance.
 - [[design-thinking-mit]] — MIT Professional Education overview of the 10-step design thinking framework by Blade Kotelly
 - [[designing-agentic-design-picker]] — 
 - [[discrete-time-to-event-modeling]] — Introduction to discrete-time survival analysis: discretization, censoring mechanisms, and life table foundations
+- [[ebola-outbreak-drc-hospital-attack-2026]] — 
 - [[ebola-plane-divert-2026]] — Air France flight to Detroit diverted to Montreal after Congolese Ebola-hit-region passenger boarded in error
 - [[emotion-concepts-llm]] — Anthropic research on functional emotion representations in Claude Sonnet 4.5 and their causal effects on behavior.
 - [[engineering-internal-awareness-and-closed-loop-self-regulation-in-large-language-models]] — Engineering internal check loop for LLMs via biofeedback paradigm, PID activation steering, and metacognitive quantization
@@ -183,20 +206,26 @@ type: index
 - [[language-evolution]] — Review of language evolution statistics and AI communication frontiers.
 - [[llm-kernel-optimization]] — Technical deep-dive on AlphaEvolve/OpenEvolve for GPU kernel optimization — LLM ensemble + diff-based mutation + real hardware eval; 23% GEMM speedup; Gemini optimizing its own training; tensor decomposition as game-playing; connects to MGA framework as engineering instantiation
 - [[llm-wiki-pattern]] — Karpathy's pattern for LLM-maintained persistent Markdown knowledge bases
+- [[meta-social-media-addiction-settlement-2026]] — 
 - [[ml-evolution-benchmarking-protocol]] — Systematic review of guided vs unconstrained LLM architecture evolution.
 - [[momoa-researcher]] — Google Labs agentic research scientist using Mixture of Mixture of Agents
 - [[neo4j-2026-04-0-release]] — Neo4j 2026.04.0: vector-3.0 quantization fix, io_uring async I/O, GenAI plugin token functions, Cypher 25 GQL alignment
 - [[prd-ralph-loop-mop-gemini]] — Gemini conversation connecting PRD-driven Ralph Loops with MOP and Theory of Mind for autonomous scientific research — epistemic energy as the critical constraint
 - [[raul-castro-indictment-2026]] — US indicts Raúl Castro over 1996 plane shootdown; Russia/China condemn as coercive "violence
+- [[search-2026-05-21]] — Google News aggregation for 2026-05-21 — broad headline snapshot
 - [[shorthand-for-thought]] — Research on compressing LLM Chain-of-Thought (CoT) reasoning by merging low-entropy structural phrases into "supertokens.
 - [[solo-preneur]] — Framework for solo-developer micro-SaaS: "time is money, convenience is king, marketing is queen" — constraints, 4 product categories, and strategic rules
+- [[spacex-ipo-spcx-2026]] — 
 - [[ssh-command-in-linux]] — SSH command reference: connections, key auth, port forwarding, common options
 - [[sti-record-levels-europe-2026]] — Gonorrhoea +303% and syphilis doubled in Europe since 2015 — ECDC calls for urgent action
-- [[strait-of-hormuz-iran-claim-2026]] — Iran claims 22,000 sq km of Strait of Hormuz — UAE calls it "fragments of dreams"; US seizes oil tanker
+- [[strait-of-hormuz-iran-claim-2026]] — 
+- [[tiktok-youtube-ofcom-not-safe-enough-2026]] — 
 - [[titans-test-time-memory]] — Titans: Learning to Memorize at Test Time summary.
 - [[transformer-vm-moran-2026]] — Moran (2026) — analytically compiling programs into transformer weights; residual stream as registers, attention as lookup, FFN as arithmetic, layers as machine steps; connects to EML as minimal instruction set for compiled transformers
 - [[trump-iran-diplomacy-threats-2026]] — Trump oscillates between diplomacy and threats on Iran; 14-point peace plan under review
+- [[trump-taiwan-call-2026]] — 
 - [[truth-emotion-sacred-agem-analysis]] — 
+- [[us-surveillance-cuba-flights-2026]] — 
 - [[why-llms-arent-scientists-yet]] — Compressed summary of the autonomous research case study.
 - [[wolchover-life-force-2026]] — Wolchover (Quanta 2026-04-20) — bacterial flagellar motor finally fully understood after 50 years; driven by proton motive force (Mitchell 1961, Nobel 1978); 5:2 stator geometry rectifies entropic+electric proton gradient into torque; CheY-P phosphorylation triggers C-ring conformational cascade for direction reversal; "entropic energy → kinetic energy" is the universal cellular energetics.
 - [[acp-editor-integration-hermes-agent]] — 
@@ -223,19 +252,24 @@ type: index
 - [[asteroid-2026-jh2-2026-05-18]] — Newly discovered asteroid 2026 JH2, size of a blue whale, to narrowly miss Earth — discovered only days earlier; ranked zero on Torino impact hazard scale
 - [[china-cuba-us-threats-2026-05-21]] — China defended Cuba against US "threats" after Raúl Castro indictment — great-power signalling on same day as Xi-Putin summit
 - [[chirality-origin-life-2026-05-20]] — Scientists may have solved why biological molecules are "right-handed" — 150-year-old homochirality mystery points to elusive electronic effect
+- [[dnc-2024-autopsy-2026-05-22]] — DNC releases 2024 election autopsy report May 2026 — found Harris loss linked to White House failure, economic contrast failure, Biden age questions
 - [[ebola-outbreak-drc-2026-05-20]] — WHO reports 600+ suspected Ebola cases, 139 deaths in rapidly expanding DRC outbreak
 - [[ebola-travel-restriction-2026-05-21]] — Air France flight diverted to Montreal after passenger from DRC Ebola outbreak region boarded "in error" — first visible travel restriction from WHO emergency declaration
 - [[github-data-breach-2026-05-20]] — GitHub confirms major data breach; thousands of repositories compromised in supply chain attack
 - [[hantavirus-cruise-outbreak-2026-05-17]] — Hantavirus outbreak on cruise ship spreads to North America — first Canadian case confirmed in B.C.; ship docked Netherlands for disinfection; drawing comparisons to early Covid response
 - [[iran-us-diplomacy-2026-05-18]] — Iran submits revised proposal to end war to US via Pakistani intermediary; Trump warns clock is ticking as drone attacks hit UAE and Saudi Arabia
 - [[jwst-early-galaxies-2026-05-17]] — James Webb Space Telescope observing 13-billion-year-old galaxies that shouldn't exist according to pre-launch cosmological models; continuing to challenge established theory
+- [[nasa-psyche-mars-flyby-2026-05-22]] — NASA Psyche spacecraft completed Mars flyby on May 21, 2026 en route to metal-rich asteroid 16 Psyche — arriving 2029
 - [[natural-hydrogen-discovery-2026-05-20]] — Scientists discover massive natural hydrogen deposit in Canada — potential clean energy breakthrough
 - [[russia-china-condemn-us-castro-indictment-2026-05-21]] — China and Russia jointly condemn US indictment of Raúl Castro — great-power signaling on same day as Xi-Putin summit
 - [[samsung-strike-2026-05-20]] — ~50,000 Samsung workers in South Korea preparing to strike — major risk to global chip supply
+- [[scotus-death-penalty-intellectual-disability-2026-05-22]] — Supreme Court in Hamm v. Smith (May 21, 2026) narrowly barred execution of possibly intellectually disabled inmate — 5-4 split, Barrett/Kavanaugh joined Democratic appointees
 - [[scotus-voting-rights-2026-05-18]] — Supreme Court voting rights ruling impacting local level; Black Democrats warn minority-majority legislative districts at risk; accusations of 'Jim Crow 2.0' redistricting tactics
 - [[smile-satellite-earth-magnetosphere-2026-05-21]] — European-Chinese SMILE satellite launched to image Earth's magnetosphere — the protective magnetic shield that defends life against solar wind
+- [[smile-satellite-earth-magnetosphere-2026-05-22]] — SMILE satellite — joint European-Chinese mission to study Earth's magnetosphere — launched May 21, 2026 on Vega-C from French Guiana
 - [[sti-record-levels-europe-2026-05-21]] — Record STI levels in Europe: gonorrhoea up 303% since 2015, syphilis doubled — congenital cases nearly doubled
 - [[strait-of-hormuz-iran-claim-2026-05-21]] — Iran creates "Persian Gulf Strait Authority" claiming control over 22,000+ sq km — challenge to US naval dominance of critical oil chokepoint
+- [[trump-anti-weaponization-fund-2026-05-22]] — DOJ memo reveals Trump's $1.8B 'anti-weaponization' fund as slush fund for allies — GOP senators revolt, Senate budget vote delayed
 - [[trump-approval-war-polling-2026-05-18]] — NYT polling shows Trump's approval sinking amid unpopular Iran war, darkening GOP electoral prospects for 2026 midterms
 - [[trump-iran-diplomacy-threats-2026-05-21]] — Trump alternates between military threats and diplomatic hope as Iran submits 14-point peace plan — fragile ceasefire with drone attacks continuing against US allies
 - [[trump-massie-primary-2026-05-17]] — Trump launches aggressive purge of Republican critic Thomas Massie in Kentucky primary; Bill Cassidy defeated in Louisiana; Massie calls himself 'unfazed

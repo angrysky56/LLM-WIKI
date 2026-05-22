@@ -1,6 +1,12 @@
 ---
+summary: Added [[efhf]] and [[mcp-logic]] return links to meta-harness
+tags: [agentic-evolution, self-adaptive, hermes, meta-learning, knowledge-synthesis]
+updated: 2026-05-21T23:12:59Z
+---
+
+---
 created: 2026-05-08T01:12:20Z
-updated: 2026-05-08T01:12:20Z
+updated: 2026-05-23T08:55:00Z
 type: project
 summary: A framework for self-adaptive agent evolution and structured knowledge bootstrapping, integrated with Hermes.
 tags: [agentic-evolution, self-adaptive, hermes, meta-learning, knowledge-synthesis]
@@ -54,3 +60,4 @@ The project is currently in the **stabilization phase**.
 - [[project-synapse]] — Integrated with Synapse for knowledge synthesis.
 - [[hermes-agent]] — Utilizes Hermes for autonomous evolution.
 - [[agem]] — Shares concepts with the Agent-Group Evolving Molecular system.
+- [[efhf]] — Architecture that provides the formal verification substrate (via [[mcp-logic]]).

@@ -7,7 +7,7 @@ updated: 2026-05-18
 # llm-wiki-raw-ingest — Agent Sheet
 
 **Job ID**: `c838e81a1496`  
-**Schedule**: Daily 08:39 AM (cron) + manual trigger any time
+**Schedule**: Daily 08:30 AM (cron) + manual trigger any time
 **Delivery**: local (verbose internal job)
 
 ---

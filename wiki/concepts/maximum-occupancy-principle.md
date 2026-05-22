@@ -1,7 +1,18 @@
 ---
+summary: Added [[efhf]] return link
+tags: [MOP, entropy, intrinsic-motivation, behavioral-variability, reward-free, reinforcement-learning, absorbing-states, stochastic-policy, EFHF, Kernel-2, lumpability]
+updated: 2026-05-21T23:12:25Z
+---
+
+---
+created: 2026-04-14T04:12:42Z
+updated: 2026-05-23T08:55:00Z
+type: concept
 summary: Theory of behavior replacing reward maximization with action-state path entropy maximization — Layer 0 of EFHF architecture; absorbing states → Kernel 2 (Prover9-verified)
 tags: [MOP, entropy, intrinsic-motivation, behavioral-variability, reward-free, reinforcement-learning, absorbing-states, stochastic-policy, EFHF, Kernel-2, lumpability]
-updated: 2026-04-14T04:12:42Z
+sources: [[ramirez-ruiz-mop-2024]]
+status: active
+confidence: 1.0
 ---
 
 # Maximum Occupancy Principle
@@ -75,11 +86,3 @@ MOP serves as Layer 0 (Intrinsic Motivation) of the [[efhf]] architecture. The e
 - [[causal-state-edm-ood-isomorphism]] — epsilon machines provide the theoretical bridge; MOP agents seek to *create* new causal states
 - [[zettelkasten-engine]] — MOP-guided exploration prioritizes high-disruption insight regions
 - [[mop-edm-cognitive-architecture]] — full synthesis: MOP + EDM + EFHF cognitive architecture
-
-## Open Questions
-
-1. How do α/β map onto cognitive agent parameters? (explored in [[mop-edm-cognitive-architecture]])
-2. Can MOP be applied to attention mechanisms?
-3. What is the relationship between MOP's path entropy and computational mechanics' excess entropy? (partially answered — see [[mop-edm-cognitive-architecture]])
-4. Can MOP value iteration be adapted for online learning in unknown environments?
-5. Does the persistent stochasticity prediction hold for LLMs?

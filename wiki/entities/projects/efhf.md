@@ -1,8 +1,17 @@
 ---
+summary: Added [[agem]] return link to EFHF
+tags: [EFHF, lumpability, epsilon-machine, causal-closure, Kernel-1, Kernel-2, MOP, multi-agent, sheaf-consistency, conscience-servitor, computational-mechanics]
+updated: 2026-05-21T23:13:31Z
+---
+
+---
+created: 2026-04-14T01:26:54Z
+updated: 2026-05-23T08:55:00Z
+type: project
 summary: Five-layer AI architecture implementing computational mechanics (epsilon machines, lumpability, causal closure) as a live multi-agent system — MOP proposed as Layer 0 for proactive exploration
 tags: [EFHF, lumpability, epsilon-machine, causal-closure, Kernel-1, Kernel-2, MOP, multi-agent, sheaf-consistency, conscience-servitor, computational-mechanics]
-updated: 2026-04-14T01:26:54Z
-created: 2026-04-14T01:26:54Z
+status: active
+confidence: 1.0
 ---
 
 # Emergent Functional Hierarchies Framework
@@ -57,3 +66,4 @@ The [[maximum-occupancy-principle]] fills a specific gap: EFHF is reactive (wait
 - [[causal-state-edm-ood-isomorphism]] — epsilon machine bridge connecting EDM, EFHF, and MOP
 - [[project-synapse]] — knowledge graph infrastructure used by the system
 - [[neo4j]] — graph database backend
+- [[agem]] — Agent-Group Evolving Molecular system, multi-agent orchestration layer

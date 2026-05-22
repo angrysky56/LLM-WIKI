@@ -1,13 +1,17 @@
 ---
-summary: Central task board for agent job dispatch
+summary: Jobs sheet with fixed agent-sheet wikilinks
 tags: [jobs, task-board, agent-instructions]
-updated: 2026-05-18T14:00:00Z
-created: 2026-05-18T07:06:09Z
+updated: 2026-05-21T22:20:25Z
 ---
 
 ---
-created: 2026-05-18
+created: 2026-05-21T08:00:00Z
+updated: 2026-05-21T08:00:00Z
 type: jobs
+summary: Central task board for agent job dispatch
+tags: [jobs, task-board, agent-instructions]
+status: active
+confidence: 1.0
 ---
 
 # Jobs Sheet — Central Task Board
@@ -25,12 +29,12 @@ type: jobs
 
 | Job ID | Job Name | Agent | Status | Last Run | Next Run | Agent Sheet |
 |--------|----------|-------|--------|----------|----------|-------------|
-| `eaaa6bdc8503` | world-news-daily | news | **done** | 2026-05-22 | 2026-05-23 8AM | [[agent-sheets/news]] |
-| `8ea33cfa560a` | Wiki Researcher | researcher | **done** | 2026-05-21 | 2026-05-26 8:30AM | [[agent-sheets/researcher]] |
+| `eaaa6bdc8503` | world-news-daily | news | **done** | 2026-05-21 | 2026-05-23 8AM | [[agent-sheets/news]] |
+| `8ea33cfa560a` | Wiki Researcher | researcher | **done** | 2026-05-22 | 2026-05-26 8:30AM | [[agent-sheets/researcher]] |
 | `297092f3b347` | orcaid-verification-indexer | orcaid | pending | 2026-05-18 | 2026-05-19 9AM | [[agent-sheets/orcaid]] |
 | `72599f850df2` | arxiv-top3-weekly | arxiv | **done** | 2026-05-21 | 2026-05-22 10AM | [[agent-sheets/arxiv]] |
-| `c838e81a1496` | llm-wiki-raw-ingest | ingest | ~~**done**~~ **done** | 2026-05-21 | 2026-05-22 10:30AM | [[agent-sheets/ingest]] |
-| `6ee16837c47c` | Wiki Librarian | librarian | inprogress | 2026-05-20 | N/A | [[agent-sheets/librarian]] |
+| `c838e81a1496` | llm-wiki-raw-ingest | ingest | **done** | 2026-05-23 | |
+| `6ee16837c47c` | Wiki Librarian | librarian | **done** | 2026-05-23 | N/A | [[agent-sheets/librarian]] |
 
 ## Task Delegation
 
@@ -60,14 +64,14 @@ type: jobs
 
 Each agent reads its own sheet on every run. These sheets are the source of truth — not this central sheet.
 
-| Agent      | Sheet                       | Purpose                                           |
-| ---------- | --------------------------- | ------------------------------------------------- |
-| librarian  | [[agent-sheets/librarian]]  | Quality audit, orphan detection, link integrity   |
-| researcher | [[agent-sheets/researcher]] | Knowledge gap analysis, new topic research        |
-| orcaid     | [[agent-sheets/orcaid]]     | Verification sweep, drift detection, self_improve |
-| arxiv      | [[agent-sheets/arxiv]]      | Top 3 paper discovery and ingestion               |
-| news       | [[agent-sheets/news]]       | Global news curation and wiki ingestion           |
-| ingest     | [[agent-sheets/ingest]]     | raw→wiki pipeline, file processing                |
+| Agent | Sheet | Purpose |
+|-------|-------|---------|
+| librarian | [[agent-sheets/librarian]] | Quality audit, orphan detection, link integrity |
+| researcher | [[agent-sheets/researcher]] | Knowledge gap analysis, new topic research |
+| orcaid | [[agent-sheets/orcaid]] | Verification sweep, drift detection, self-improve |
+| arxiv | [[agent-sheets/arxiv]] | Top 3 paper discovery and ingestion |
+| news | [[agent-sheets/news]] | Global news curation and wiki ingestion |
+| ingest | [[agent-sheets/ingest]] | raw→wiki pipeline, file processing |
 
 **Each agent sheet contains:**
 1. Read the agent sheet (STEP 0)

@@ -1,7 +1,7 @@
 # arxiv-researcher — Better Arxiv Cron Agent
 
 **Job ID**: `72599f850df2`  
-**Schedule**: Daily 08:36 AM (cron) + manual trigger any time
+**Schedule**: Daily 08:20 AM (cron) + manual trigger any time
 **Delivery**: origin (Discord home channel)
 
 ---

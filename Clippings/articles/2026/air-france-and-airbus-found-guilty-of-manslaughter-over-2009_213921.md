@@ -1,0 +1,68 @@
+---
+title: Air France and Airbus found guilty of manslaughter over 2009 plane crash
+source: https://www.bbc.com/news/articles/czd2qmdvmq6o
+created: 2026-05-21T21:37:57Z
+tags: [clippings]
+---
+
+![Getty Images Plane wreckage floating in the sea](https://ichef.bbci.co.uk/news/1536/cpsprodpb/d5b5/live/0f7f6c10-5511-11f1-9e5e-fb37d8c40e64.jpg.webp)
+
+Getty Images Plane wreckage floating in the sea
+
+Air France and Airbus have been found guilty of manslaughter over a 2009 plane crash which killed 228 people.
+
+The Paris Appeals Court found the airline and aircraft manufacturer "solely and entirely responsible" for the incident, in which flight AF447from Rio de Janeiro to Paris crashed into the Atlantic Ocean.
+
+The passenger jet stalled during a storm and plunged into the water, killing all on board.
+
+A court had previously cleared the companies in April 2023, but they were found guiltyon Thursday after an eight-week trial. Both have repeatedly denied the charges and say they will appeal.
+
+All 12 crew members and 216 passengers on board the flight were killed when the plane crashed into the sea from a height of 38,000ft (11,580m), making it the deadliest incident in French aviation history.
+
+The wreckage was located after a long search of 10,000 sq km (3,860 sq miles) of sea floor. But the flight recorder was not found until 2011, after months of deep-sea searches.
+
+Relatives of some of the passengers, who were mainly French, Brazilian and German nationals, gathered to hear the verdict on Thursday.
+
+The companies have been asked to pay the maximum fine - €225,000 ($261,720; £194,500) each - but some victims' families have criticised the amount as a token penalty.
+
+Daniele Lamy, president of the AF447 victims' association, who lost her son in the accident, praised the court's verdict, adding that the justice system was "at last, taking into account the pain of the families faced with a collective tragedy of unbearable brutality".
+
+The ruling may be seen as causing damage to the companies' reputations.
+
+During their closing arguments in November, the deputy prosecutors said the companies' behaviour had been "unacceptable", accusing them of "spouting nonsense and pulling arguments out of thin air".
+
+![Universal Images Group via Getty Images It is a large, translucent board with 228 swallows and the words "in memory" in 20 languages inscribed above a list of the names of the victims.](https://ichef.bbci.co.uk/news/1536/cpsprodpb/f0f1/live/e8827de0-551b-11f1-bc8e-e9367b2a559d.jpg.webp)
+
+A memorial to the 228 victims was unveiled at a Paris cemetery a year after the crash
+
+The crash led to a complex recovery operation in a remote part of the Atlantic Ocean, more than 700 miles (1127km) from the coast of South America.
+
+During the initial searches, the French government had been responsible for investigating the crash and Brazilian forces took charge of retrieving the bodies.
+
+In the first 26 days of searches, 51 bodies were recovered, many still buckled into their seats.
+
+One family member who spoke to BBC News Brasil in 2019 said he had only been able to bury his son's remains over two years after the incident.
+
+His son, 40-year-old engineer Nelson Marinho Filho, nearly missed the flight out of Rio de Janeiro's Galeão International Airport and was the last person to board, according to Air France staff.
+
+The passengers came from 33 different countries, including 61 French nationals, 58 Brazilians, 26 Germans, two Americans, five Britons and three Irish nationals.
+
+One of the Britons was 11-year-old Alexander Bjoroy from Bristol, who had been returning to the UK via France after spending half-term in Brazil.
+
+Three Irish women - Eithne Walls from County Down, Jane Deasy from County Dublin, and Aisling Butler from Co Tipperary - were also among those killed.
+
+All three were doctors and were returning home from a holiday in Brazil.
+
+Brazilian prince Pedro Luiz de Orleans e Bragança also died in the crash at the age of 26.
+
+Out of the 216 passengers, there were 126 men, 82 women, 7 children and one infant on board.
+
+The 12 members of flight crew were mainly from France, with the exception of one Brazilian.
+
+In 2012, French investigators found that a combination of technical failure involving the plane's sensors and the pilots' inability to react to the aircraft stalling led to it plunging into the sea.
+
+While the pilots had been confused by faulty air-speed readings, they mistakenly pointed the nose of the plane upwards when it stalled instead of down. Since the crash, pilot training has been improved and the speed sensors replaced.
+
+A statement from Air France at the time of the crash said the pilot had more than 11,000 hours of flight time, including 1,700 hours on the same type of plane.
+
+The aircraft had last been through a maintenance check on 16 April 2009.

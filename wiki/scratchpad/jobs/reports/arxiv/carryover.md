@@ -25,7 +25,7 @@ confidence: high
 | 2026-05-20 | No new papers | arXiv late-UTC batch not yet posted |
 | 2026-05-21 | 3 papers ingested | EqR (attractors), DeepWeb-Bench (benchmark), hyperparameter transfer (embedding LR) |
 | 2026-05-21 | No new papers | arXiv API shows latest batch is 2026-05-20 — no 2026-05-21 submissions posted yet |
-| 2026-05-22 | — | — |
+| 2026-05-22 | No new papers | arXiv API confirms latest batch still 2026-05-20; 2026-05-21 submissions not yet posted as of this run (09:28 UTC) |
 
 ## Current State
 

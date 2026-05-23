@@ -29,7 +29,7 @@ updated: 2026-05-22T01:30:00Z
 | `297092f3b347` | orcaid-verification-indexer | orcaid | pending | 2026-05-18 | 2026-05-19 9AM | [[agent-sheets/orcaid]] |
 | `72599f850df2` | arxiv-top3-weekly | arxiv | **done** | 2026-05-22 | 2026-05-23 8:20AM | [[agent-sheets/arxiv]] |
 | `c838e81a1496` | llm-wiki-raw-ingest | ingest | **done** | 2026-05-28 | | [[agent-sheets/ingest]] |
-| `6ee16837c47c` | Wiki Librarian | librarian | **done** | 2026-05-21 | N/A | [[agent-sheets/librarian]] |
+| `6ee16837c47c` | Wiki Librarian | librarian | **done** | 2026-05-29 | N/A | [[agent-sheets/librarian]] |
 
 ## Task Delegation
 

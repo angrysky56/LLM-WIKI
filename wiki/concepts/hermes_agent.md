@@ -1,4 +1,9 @@
 ---
+type: concept
+sources: []
+status: reference
+confidence: 0.6
+---
 summary: Architectural overview of the Hermes Agent framework.
 tags: [hermes, architecture, agentic-ai]
 updated: 2026-05-07T23:21:28Z

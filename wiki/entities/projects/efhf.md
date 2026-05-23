@@ -1,10 +1,4 @@
 ---
-summary: Added [[agem]] return link to EFHF
-tags: [EFHF, lumpability, epsilon-machine, causal-closure, Kernel-1, Kernel-2, MOP, multi-agent, sheaf-consistency, conscience-servitor, computational-mechanics]
-updated: 2026-05-21T23:13:31Z
----
-
----
 created: 2026-04-14T01:26:54Z
 updated: 2026-05-23T08:55:00Z
 type: project
@@ -12,6 +6,7 @@ summary: Five-layer AI architecture implementing computational mechanics (epsilo
 tags: [EFHF, lumpability, epsilon-machine, causal-closure, Kernel-1, Kernel-2, MOP, multi-agent, sheaf-consistency, conscience-servitor, computational-mechanics]
 status: active
 confidence: 1.0
+sources: [[edm-framework]], [[maximum-occupancy-principle]]
 ---
 
 # Emergent Functional Hierarchies Framework
@@ -19,8 +14,6 @@ confidence: 1.0
 **Type:** Project — multi-agent AI architecture
 **Repository:** `/home/ty/Repositories/ai_workspace/Emergent-Functional-Hierarchies-Framework`
 **Status:** Active — five-layer system operational with seven MCP servers
-
----
 
 ## What It Is
 

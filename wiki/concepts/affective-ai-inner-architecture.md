@@ -9,6 +9,8 @@ status: active
 confidence: 0.7
 ---
 
+
+
 # Affective AI: Inner Architecture & Self-Modification
 
 ## Core Thesis
@@ -17,7 +19,8 @@ LLMs have a "think" phase (chain-of-thought), but chain-of-thought is cognitive 
 
 This document captures the theoretical and technical framework for building AI systems with genuine self-observation capabilities — grounded in Panksepp's affective neuroscience, mechanistic interpretability, and closed-loop activation steering.
 
----
+
+
 
 ## Part I: The Problem with Current LLMs
 
@@ -31,7 +34,10 @@ The gap: describing thinking is not the same as observing the internal state tha
 ## Part II: Panksepp's Seven Emotional Systems as Evolutionary Blueprints
 
 | System | Role | AI Parallel |
-|--------|------|-------------|
+|
+--|
+|
+-|
 | **SEEKING** | Curiosity, exploration, goal-pursuit | Exploratory subagents, curiosity-driven search |
 | **RAGE** | Obstacle removal, boundary defense | Error correction, constraint enforcement |
 | **FEAR** | Threat detection, escape | Threat pattern matching,保守 bias |

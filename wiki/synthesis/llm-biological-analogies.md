@@ -1,11 +1,4 @@
 ---
-summary: Synthesis page for LLM-biological analogies.
-tags: [synthesis, llm-architecture, neuroscience]
-updated: 2026-04-18T20:14:02Z
-created: 2026-04-18T20:14:02Z
----
-
----
 created: 2026-04-18T20:13:00Z
 updated: 2026-04-18T20:13:00Z
 type: synthesis
@@ -16,6 +9,8 @@ status: active
 confidence: 0.85
 ---
 
+
+
 # Biological Analogies in LLMs
 
 Modern Large Language Model (LLM) architectures, specifically Transformers, exhibit functional patterns that mirror the evolutionary strategies of the human brain's language centers.
@@ -23,7 +18,10 @@ Modern Large Language Model (LLM) architectures, specifically Transformers, exhi
 ## Functional Mapping
 
 | Biological Component | LLM Analogue | Functional Parallel |
-| :--- | :--- | :--- |
+| :
+ | :
+ | :
+ |
 | **[[wernickes-area]]** | Embedding Layer & Attention | Semantic extraction, contextual decoding, and mapping input to internal conceptual representations. |
 | **[[brocas-area]]** | FFN & Un-embedding Layer | Sequential syntax generation, motor-plan execution (token selection), and grammatical formatting. |
 | **[[arcuate-fasciculus]]** | Residual Stream | The communication highway carrying conceptual "blueprints" between layers and modules. |

@@ -1,9 +1,12 @@
 ---
 summary: Memory estimates for A-LQR Jacobian caching: 2GB for A_k cache on 7B models, calibration cost ~1000 GPU-hours one-time, per-token inference is 64MB reads with no recomputation
+type: concept
 tags: [a-lqr, memory-estimates, jacobian-caching, implementation, closed-loop]
 updated: 2026-05-21T08:28:21Z
 created: 2026-05-21T08:28:21Z
 ---
+
+
 
 # A-LQR Implementation: Memory Estimates and Jacobian Caching
 
@@ -28,7 +31,11 @@ Each A_k is a d×d matrix (square Jacobian of the layer's forward pass).
 **Storage per layer:** d² float32 values = d² × 4 bytes
 
 | Model Scale | d (hidden dim) | A_k per layer | T layers (total) |
-|-------------|---------------|---------------|------------------|
+|
+-|
+|
+|
+|
 | 125M (GPT-2 small) | 768 | 2.3 MB | ~75 MB |
 | 1.5B (Distill) | 1600 | 10 MB | ~320 MB |
 | 7B (Qwen/Llama) | 4096 | 64 MB | ~2 GB |
@@ -47,7 +54,10 @@ Typical m values:
 - Dense steering: m = d (full activation perturbation)
 
 | m | d=4096 | d=8192 |
-|---|--------|--------|
+|
+|
+--|
+--|
 | 16 | 256 KB | 1 MB |
 | 64 | 1 MB | 4 MB |
 | 256 | 4 MB | 16 MB |
@@ -98,7 +108,10 @@ The practical cost of recalibration (1000 GPU-hours) argues for selecting model 
 ## Summary
 
 | Component | Storage (7B, d=4096, T=32) | Notes |
-|-----------|--------------------------|-------|
+|
+--|
+--|
+-|
 | A_k cache (Jacobians) | 2 GB | One-time offline computation |
 | K_k cache (gain matrices) | 32 MB (m=64 sparse) to 2 GB (dense) | Depends on steering strategy |
 | Calibration working set | ~26 GB | B=1000, N=512, temporary during calibration |

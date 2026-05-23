@@ -4,6 +4,8 @@ tags: [computational-mechanics, epsilon-machine, EDM, OOD, citation-networks, di
 updated: 2026-04-14T04:13:57Z
 ---
 
+
+
 # Causal State Isomorphism: Epsilon Machines, EDM, and OOD Detection
 
 **Type:** Synthesis
@@ -11,13 +13,15 @@ updated: 2026-04-14T04:13:57Z
 **Source paper:** [[edm-framework]] — Kim, Kojaku & Ahn, *Science Advances* 2026
 **Confidence:** 0.88 — structural analogy confirmed by paper's formal derivation; LLM application section remains speculative
 
----
+
+
 
 ## The Core Claim
 
 EDM's past/future citation vectors are a domain-specific instantiation of epsilon machine causal states. This isomorphism yields a rigorous information-theoretic definition of "disruptive" vs "consolidating" papers, and suggests a novel OOD detection method for LLMs.
 
----
+
+
 
 ## Background: Two Frameworks
 
@@ -30,12 +34,15 @@ An epsilon machine finds the minimal, optimal predictive model of a stochastic p
 ### EDM (Embedding Disruptiveness Measure)
 Directional skip-gram trained on citation networks. The disruption score $\Delta_i = 1 - (f_i \cdot p_i)/(|f_i||p_i|)$ formally approximates the **lack of reliance of descendants on antecedents** — how much the citation trajectory has been redirected.
 
----
+
+
 
 ## The Isomorphism (Confirmed by Paper's Derivation)
 
 | Epsilon Machine | EDM / Citation Network |
-|---|---|
+|
+|
+|
 | Causal state | Research trajectory cluster |
 | Lumpable history | Consolidating paper — low Δ |
 | State-splitting event | Disruptive paper — high Δ |
@@ -44,7 +51,8 @@ Directional skip-gram trained on citation networks. The disruption score $\Delta
 
 A consolidating paper is in-distribution with respect to the field's current epsilon machine. A disruptive paper is an OOD event that forces state-splitting.
 
----
+
+
 
 ## Three Categories of Discovery
 
@@ -52,7 +60,8 @@ A consolidating paper is in-distribution with respect to the field's current eps
 - **Disruptive** (high Δ): creates new causal state
 - **Convergent** (simultaneous discovery): multiple paths to same new causal state — identical future vectors despite different past vectors
 
----
+
+
 
 ## Connection to MOP and EFHF
 
@@ -64,7 +73,8 @@ This synthesis is the theoretical bridge connecting three frameworks:
 
 **Formally verified (Prover9):** MOP absorbing states → EFHF Kernel 2 transitions → zero future entropy → zero future causal states. The chain is logically proved.
 
----
+
+
 
 ## Implication: LLM OOD Detection (Speculative)
 
@@ -77,7 +87,8 @@ Spike without grounded return path = hallucination (uncontrolled disruption). Th
 
 **Simultaneous hallucination fingerprint:** If two different prompts produce the same confabulation with similar future vectors, this identifies systematic confabulation patterns distinct from random noise.
 
----
+
+
 
 ## Zettelkasten Curation Signal
 
@@ -87,7 +98,8 @@ Within [[project-synapse]]'s [[zettelkasten-engine]]:
 - **Convergent future vectors** → simultaneous discovery pattern → merge or link
 - **MOP guides which regions to explore next** → prefer high-entropy graph neighborhoods
 
----
+
+
 
 ## Open Questions (Updated)
 
@@ -98,7 +110,8 @@ Within [[project-synapse]]'s [[zettelkasten-engine]]:
 5. ~~Path entropy ↔ excess entropy?~~ **Partially answered via MOP connection:** β-seeking = state-splitting = complexity growth. See [[mop-edm-cognitive-architecture]].
 6. Does independent wiki synthesis page convergence indicate a "ripe" concept worth a dedicated page?
 
----
+
+
 
 ## Connections
 

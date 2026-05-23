@@ -1,8 +1,12 @@
 ---
-summary: Vannevar Bush's 1945 vision of a personal associative knowledge device
-tags: [history, knowledge-management, vision]
-updated: 2026-04-07T20:36:40Z
 created: 2026-04-07T20:36:40Z
+updated: 2026-04-07T20:36:40Z
+type: concept
+summary: Vannevar Bush's 1945 vision of a personal associative knowledge device — the intellectual ancestor of the LLM wiki pattern
+sources: https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/
+status: reference
+confidence: 1.0
+tags: [history, knowledge-management, vision]
 ---
 
 # Memex

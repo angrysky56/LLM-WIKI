@@ -1,10 +1,4 @@
 ---
-summary: Added [[efhf]] return link
-tags: [MOP, entropy, intrinsic-motivation, behavioral-variability, reward-free, reinforcement-learning, absorbing-states, stochastic-policy, EFHF, Kernel-2, lumpability]
-updated: 2026-05-21T23:12:25Z
----
-
----
 created: 2026-04-14T04:12:42Z
 updated: 2026-05-23T08:55:00Z
 type: concept
@@ -15,12 +9,15 @@ status: active
 confidence: 1.0
 ---
 
+
+
 # Maximum Occupancy Principle
 
 **Source:** [[ramirez-ruiz-mop-2024]] — Ramírez-Ruiz et al., *Nature Communications* (2024)
 **Status:** Active research area with follow-up work (NeuroMOP, PIMBAA workshop 2025)
 
----
+
+
 
 ## What It Is
 
@@ -45,7 +42,10 @@ MOP resolves several persistent problems in theories of behavior:
 Only the ratio β/α and γ matter:
 
 | Parameter | Controls | Effect |
-|---|---|---|
+|
+|
+|
+|
 | α | Action entropy weight | Higher → more diverse action strategies |
 | β | State-transition entropy weight | Higher → preference for surprising/novel outcomes; also controls risk sensitivity |
 | γ | Discount factor | Higher → longer planning horizon; avoids myopic traps (noisy TV problem) |
@@ -71,7 +71,10 @@ MOP serves as Layer 0 (Intrinsic Motivation) of the [[efhf]] architecture. The e
 **Formally verified (Prover9):** MOP absorbing states → EFHF Kernel 2 transitions. Zero future entropy ↔ zero future computation ↔ Kernel 2. The structural equivalence is a logical theorem, not an analogy.
 
 | MOP Concept | EFHF Concept | Relationship |
-|---|---|---|
+|
+|
+|
+|
 | Absorbing state | Kernel 2 transition | Proved equivalent |
 | Energy reservoir | Buffering capacity T | Operational mapping |
 | Discount factor γ | Coherence window τ | Both control planning horizon |

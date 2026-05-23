@@ -1,22 +1,15 @@
 ---
-summary: Paradigm for directly manipulating LLM latent activations at inference time to steer behavior without fine-tuning
-sources:
-status: active
-confidence: 0.85
-tags: [llm, activation-steering, representation-engineering, interpretability]
-updated: 2026-05-29
-created: 2026-05-21
----
-
----
 created: 2026-05-21T00:00:00Z
-updated: 2026-05-21T00:00:00Z
+updated: 2026-05-29
 type: concept
-summary: Techniques for directly manipulating LLM internal activations during inference to steer behavior without fine-tuning.
-tags: [llm, activation-steering, representation-engineering, interpretability, control-theory]
+summary: Techniques for directly manipulating LLM internal activations during inference to steer behavior without fine-tuning
+sources: https://www.semanticscholar.org/paper/Activation-Steering-in-Large-Language-Models/ (RepE papers)
 status: active
 confidence: 0.9
+tags: [llm, activation-steering, representation-engineering, interpretability, control-theory]
 ---
+
+
 
 # Activation Steering
 
@@ -31,7 +24,10 @@ High-level behaviors (truthfulness, honesty, toxicity, etc.) are encoded as **li
 ## Steering Methods
 
 | Method | Core Mechanism | Distinctive Feature |
-|--------|---------------|---------------------|
+|
+--|
+|
+|
 | **CAA** (Contrastive Activation Addition) | Fixed vector from contrastive pairs | Static, linear behavioral shifts |
 | **SADI** (Semantics-Adaptive Dynamic Intervention) | Per-input binary masks on critical neurons/heads | Dynamic, precision-targeted per input |
 | **SHARP** | Decomposed steering vectors for Large Vision-Language Models | Targets visual hallucination in LVLMs |

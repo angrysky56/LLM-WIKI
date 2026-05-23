@@ -1,12 +1,4 @@
 ---
-summary: Master MCP configuration for the EFHF stack.
-tags: [mcp, infrastructure, config]
-updated: 2026-05-01T07:58:00Z
-created: 2026-05-01T07:51:15Z
----
-
----
-
 created: 2026-05-01T07:51:00Z
 updated: 2026-05-01T07:58:00Z
 type: synthesis
@@ -14,8 +6,9 @@ summary: Unified MCP configuration for the EFHF (Emergent Functional Hierarchies
 tags: [mcp, infrastructure, configuration, efhf]
 status: active
 confidence: 1.0
-
 ---
+
+
 
 # EFHF Unified MCP Configuration
 
@@ -126,7 +119,10 @@ To use this configuration with **Claude Desktop**, add the following JSON to you
 ## Component Roles (EFHF Layers)
 
 | Server                         | Role                                            | Layer |
-| :----------------------------- | :---------------------------------------------- | :---- |
+| :
+-- | :
+- | :
+- |
 | **project-synapse**            | Grounding layer (Wiki & Neo4j Indexing)         | 0     |
 | **hipai-montague**             | World Model (Semantic Cognition)                | 2     |
 | **mcp-logic**                  | Structural Verification (Theorem Proving)       | 3     |

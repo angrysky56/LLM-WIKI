@@ -7,6 +7,8 @@ status: reference
 updated: 2026-04-11T00:00:00Z
 ---
 
+
+
 # EDM — Embedding Disruptiveness Measure
 
 **Source:** Kim, Kojaku & Ahn — *Science Advances* 12, eadx3420 (2026)  
@@ -49,7 +51,10 @@ decreases — i.e., as descendant works less rely on antecedent works. This is t
 ## Why EDM Outperforms the CD Index
 
 | Property | CD Index (D) | EDM (Δ) |
-|---|---|---|
+|
+|
+|
+|
 | Score distribution | Highly degenerate, bunches at 0 | Continuous, smooth, high resolution |
 | Scope | Local 1-hop citation neighborhood | Global multi-hop network structure |
 | Simultaneous discoveries | **Catastrophic failure** | Robust |

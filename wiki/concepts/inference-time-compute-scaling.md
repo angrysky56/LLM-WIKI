@@ -9,6 +9,8 @@ confidence: 0.85
 sources: https://arxiv.org/abs/2504.02495, https://arxiv.org/abs/2505.12225v1, https://arxiv.org/abs/2605.15177
 ---
 
+
+
 # Inference-Time Compute Scaling
 
 The practice of allocating variable amounts of computational resources at inference time to improve reasoning quality — representing a second axis of scaling beyond the training compute that dominated LLM development from 2020–2024.
@@ -46,7 +48,11 @@ The simplest form. Generate N completions, rank by reward model, return best. Ga
 The distinction matters enormously for inference-time scaling:
 
 | Type | What it scores | Precision | Cost |
-|------|---------------|-----------|------|
+|
+|
+|
+--|
+|
 | **Outcome Reward Model (ORM)** | Final answer only | Binary correct/incorrect | Lower — fewer decisions |
 | **Process Reward Model (PRM)** | Each reasoning step | Token-level credit | Higher — per-token scoring |
 
@@ -75,7 +81,10 @@ Research from 2025–2026 has identified several allocation strategies:
 The decision to spend inference-time compute is fundamentally an economic trade-off between four variables:
 
 | Variable | Description | Typical Range |
-|---------|-------------|---------------|
+|
+|
+-|
+|
 | **Error cost** | Cost of delivering a wrong answer | Domain-dependent: low for闲聊, extremely high for medical/coding |
 | **Compute cost** | $ per token of inference | GPU cost / throughput; ~$0.001–0.01 per 1K tokens |
 | **Accuracy gain** | Delta in task accuracy from BoN vs single-pass | Task-dependent; 0–15% for math/code |
@@ -110,7 +119,12 @@ For a personal AI agent handling a mix of tasks:
 ## Key Results
 
 | Method | Model Scale | Benchmark | Result | External Teacher |
-|--------|-------------|-----------|--------|-----------------|
+|
+--|
+-|
+--|
+--|
+--|
 | ELHSR + BoN | 3B | MATH | 57.5% | None |
 | SD-Search | 3B | Multi-hop avg | 0.428 EM | None (self-distilled) |
 | SD-Search | 7B | Multi-hop avg | 0.476 EM | None |

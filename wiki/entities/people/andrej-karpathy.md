@@ -1,8 +1,12 @@
 ---
-summary: AI researcher, author of the LLM Wiki pattern
-tags: [person, AI, researcher]
-updated: 2026-04-07T20:01:35Z
 created: 2026-04-07T20:01:35Z
+updated: 2026-04-07T20:01:35Z
+type: entity
+summary: AI researcher, author of the LLM Wiki Pattern
+sources: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
+status: reference
+confidence: 1.0
+tags: [person, AI, researcher]
 ---
 
 # Andrej Karpathy

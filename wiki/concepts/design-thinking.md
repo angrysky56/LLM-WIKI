@@ -1,9 +1,12 @@
 ---
 summary: Human-centered innovation framework — structured process from need identification through verification, with leverage concentrated in the often-neglected front-end phases
+type: concept
 tags: [design-thinking, methodology, innovation, process, human-centered]
 updated: 2026-04-10T23:18:43Z
 created: 2026-04-10T23:18:43Z
 ---
+
+
 
 # Design Thinking
 
@@ -21,7 +24,9 @@ The framework is often presented as two phases with very different leverage rati
 Most practitioners underinvest here. Visible output is minimal (research notes, specs), but this is where the **"Experience Centerline"** is established — a shared understanding of the core human need.
 
 | Step | Focus |
-|------|-------|
+|
+|
+-|
 | 1. Identify Needs | Problem in full societal + contextual frame |
 | 2. Gather Information | Observe users; find cross-domain analogs |
 | 3. Stakeholder Analysis | Full network, not just "users"; seek win-wins |
@@ -33,7 +38,9 @@ Most practitioners underinvest here. Visible output is minimal (research notes, 
 Where most teams spend the majority of time. Without strong front-end work, this phase iterates around the wrong problem.
 
 | Step | Focus |
-|------|-------|
+|
+|
+-|
 | 7. Creative Design | Deep problem immersion; brainstorming; breakthrough stimulus |
 | 8. Conceptual Design | Winnow, re-combine, synthesize toward testable directions |
 | 9. Prototype Design | Testable models at varying fidelity |

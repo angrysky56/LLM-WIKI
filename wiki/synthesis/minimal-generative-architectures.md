@@ -5,34 +5,46 @@ updated: 2026-04-14T19:21:38Z
 created: 2026-04-14T19:21:38Z
 ---
 
+
+
 # Minimal Generative Architectures: MOP, EML, and Open-Ended Evolution
 
 **Type:** Synthesis — cross-domain structural isomorphism
 **Origin:** Ty (2026-04-14), extending [[mop-edm-cognitive-architecture]], incorporating [[eml-operator]], [[utimula-openpraparat-2025]], [[open-ended-evolution]]
 **Confidence:** 0.80 — structural parallels confirmed across five domains; formal verification of cross-domain mappings not yet attempted
 
----
+
+
 
 ## The Core Claim
 
 Four apparently unrelated results share a single structural pattern: **minimal primitives + recursive application + boundary constraints = unbounded complexity.** This pattern — which we call a Minimal Generative Architecture (MGA) — appears across Boolean logic, continuous mathematics, cognitive architecture, and evolutionary biology. The convergence is not coincidental: it reflects something fundamental about how complex systems generate richness from simplicity.
 
 | System | Primitives | Recursion | Boundary Constraints | Emergent Domain |
-|---|---|---|---|---|
+|
+|
+|
+|
+|
+|
 | **NAND** | 1 gate | Circuit composition | Power supply, fan-out limits | All Boolean logic |
 | **[[eml-operator]]** | 1 operator + constant 1 | Binary tree nesting: $S \to 1 \mid \operatorname{eml}(S,S)$ | Complex branch cuts, overflow clamping | All elementary functions |
 | **[[maximum-occupancy-principle]]** | Entropy + absorbing states | Action-state path integration | Energy depletion, terminal states | All goal-directed behavior |
 | **[[utimula-openpraparat-2025]]** | 4 gene actions + natural selection | Book/bookmarker gene expression | Energy metabolism, death | Emergent morphology, reproduction, ecology |
 | **[[transformer-vm-moran-2026]]** | 1 FFN op + attention lookup | Layer-by-layer state transitions | Finite width/depth, slot liveness | Deterministic compiled computation inside transformers |
 
----
+
+
 
 ## OpenPraparat as Embodied MOP
 
 The OpenPraparat model is the first empirical demonstration of MOP dynamics in a full evolutionary system. The mapping is not metaphorical — every structural element of MOP has a concrete physical counterpart:
 
 | MOP (Cognitive) | OpenPraparat (Embodied) | Evidence |
-|---|---|---|
+|
+|
+|
+|
 | Epistemic state space | Morphology + behavior + genome space | Creatures explore diverse forms without guidance |
 | Action entropy α | Gene action diversity (EXPAND, CONNECT, DISCONNECT, TRANSITION) | All four actions used in evolved creatures |
 | State entropy β | Ecological niche diversity | Dumbbell vs. reticulated = different survival strategies |
@@ -56,7 +68,8 @@ The dumbbell creature's protective white cells are the most striking MOP predict
 
 Experimentally confirmed: removing the protector gene causes extinction when competing against protector-equipped variants. The absorbing state avoidance strategy is not optional — it is a survival requirement that natural selection enforces.
 
----
+
+
 
 ## EML as the Computational Substrate
 
@@ -67,7 +80,9 @@ The [[mop-edm-cognitive-architecture]] requires continuous mathematics throughou
 MOP's optimal policy at each state selects actions via softmax over action entropy. This is a tree of continuous operations. EML's master formula is a parameterized tree of identical nodes. The isomorphism:
 
 | EML Tree | MOP Policy Tree |
-|---|---|
+|
+|
+|
 | Terminal node: constant 1 | Base case: default entropy |
 | Terminal node: variable x | Sensory input / state observation |
 | Internal node: eml(left, right) | Policy computation: combine value + entropy |
@@ -84,7 +99,8 @@ The book/bookmarker gene mechanism is itself an EML-like system: a fixed grammar
 - Measure Kolmogorov complexity of evolved behaviors in a principled way (EML leaf count K)
 - Compare complexity of dumbbell (simple) vs. reticulated (complex) creatures on a uniform scale
 
----
+
+
 
 ## The KL Insight Extended to Evolution
 
@@ -98,14 +114,20 @@ This triangulation strengthens the KL critique:
 - **OEE practice:** Fitness functions → collapsed morphological diversity
 - **All three solved the same way:** Replace explicit objective constraint with boundary constraints (absorbing states / energy depletion / death) and let entropy maximization drive exploration
 
----
+
+
 
 ## Extended EFHF Layer Mapping
 
 The original [[mop-edm-cognitive-architecture]] maps MOP into EFHF as Layer 0. Adding EML and OEE:
 
 | Layer | Function | MOP | EML | OEE/OpenPraparat |
-|---|---|---|---|---|
+|
+|
+|
+|
+|
+|
 | **L-1 (NEW)** | Computational substrate | — | EML operator: all continuous math from one primitive | Book/bookmarker: all gene programs from 4 actions |
 | **L0** | Intrinsic motivation | MOP softmax policy | EML tree = policy tree | Natural selection = survival-driven exploration |
 | L1 | Hypothesis generation | Exploration target | — | Mutation |
@@ -117,7 +139,8 @@ The original [[mop-edm-cognitive-architecture]] maps MOP into EFHF as Layer 0. A
 
 **L-1 is the key addition:** Below the motivation layer sits a *computational primitive layer* that provides the mathematical operations all higher layers use. EML proves this layer needs exactly one operator. OpenPraparat proves the biological equivalent needs exactly four gene actions. Both are MGAs.
 
----
+
+
 
 ## Testable Predictions
 
@@ -128,7 +151,8 @@ The original [[mop-edm-cognitive-architecture]] maps MOP into EFHF as Layer 0. A
 5. **Punctuated equilibrium timing** should correlate with the combinatorial distance to the nearest state-splitting mutation cascade — measurable via EML-style exhaustive search of the gene action tree space
 6. **An EML evaluator compiled into transformer weights** (per [[transformer-vm-moran-2026]]) should require only depth-K/2 layers for any elementary function of complexity K, since each layer provides two half-steps (attention + FFN). This would be the minimal possible compiled scientific calculator.
 
----
+
+
 
 ## Open Questions
 
@@ -138,7 +162,8 @@ The original [[mop-edm-cognitive-architecture]] maps MOP into EFHF as Layer 0. A
 4. Can OpenPraparat be modified to use EML-encoded neural network weights instead of direct character-to-float mapping? Would this improve evolvability by making the weight space more structured?
 5. Is there a ternary MGA (paralleling the speculated ternary EML operator) that eliminates the need for distinguished constants in all four domains?
 
----
+
+
 
 ## Connections
 

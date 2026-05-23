@@ -1,11 +1,4 @@
 ---
-summary: Synthesis: Intelligence as Entropic Sculpting (SARH + MOP)
-tags: [neuroscience, ai-architecture, entropy, mop, sarh, intelligence]
-updated: 2026-04-28T19:03:23Z
-created: 2026-04-28T19:03:23Z
----
-
----
 created: 2026-04-28T19:03:15Z
 updated: 2026-04-28T19:03:15Z
 type: synthesis
@@ -15,6 +8,8 @@ status: active
 confidence: 0.8
 ---
 
+
+
 # Intelligence as Entropic Sculpting
 
 This synthesis connects the [[spontaneous-activity-reshaping-hypothesis]] (SARH) with the [[maximum-occupancy-principle]] (MOP) to propose a unified view of intelligence as a process of managed entropy.
@@ -22,7 +17,11 @@ This synthesis connects the [[spontaneous-activity-reshaping-hypothesis]] (SARH)
 ## The Isomorphism
 
 | Framework | Domain | Primary Action | Energy/Entropy Role |
-| :--- | :--- | :--- | :--- |
+| :
+ | :
+ | :
+ | :
+ |
 | **[[maximum-occupancy-principle|MOP]]** | Behavior/Agency | **Expansion:** Maximizing future action-state path entropy. | Intrinsic motivation to maintain potential. |
 | **[[spontaneous-activity-reshaping-hypothesis|SARH]]** | Perception/Imagination | **Contraction:** Sculpting signals by suppressing background noise. | Energy efficiency via targeted inhibition. |
 

@@ -1,17 +1,12 @@
 ---
-summary: Added [[efhf]] and [[mcp-logic]] return links to meta-harness
-tags: [agentic-evolution, self-adaptive, hermes, meta-learning, knowledge-synthesis]
-updated: 2026-05-21T23:12:59Z
----
-
----
 created: 2026-05-08T01:12:20Z
 updated: 2026-05-23T08:55:00Z
 type: project
-summary: A framework for self-adaptive agent evolution and structured knowledge bootstrapping, integrated with Hermes.
-tags: [agentic-evolution, self-adaptive, hermes, meta-learning, knowledge-synthesis]
+summary: A framework for self-adaptive agent evolution and structured knowledge bootstrapping, integrated with Hermes
+sources: []
 status: active
 confidence: 0.95
+tags: [agentic-evolution, self-adaptive, hermes, meta-learning, knowledge-synthesis]
 ---
 
 # Meta-Harness

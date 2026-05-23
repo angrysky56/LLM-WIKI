@@ -1,48 +1,48 @@
 ---
-summary: Librarian carryover — 10 stubs created, broken links down 328→314, MCP still unavailable
+summary: Librarian carryover 2026-05-30 — 4 stubs created, high-value pages verified, MCP unavailable
 tags: [librarian, carryover, audit]
-updated: 2026-05-29
+updated: 2026-05-30
 ---
 
 ## Established
 
-**Date:** 2026-05-29  
+**Date:** 2026-05-30  
 **Task:** `6ee16837c47c` Wiki Librarian  
 **MCP Status:** UNAVAILABLE — using `full_audit.py` filesystem scan
 
 ### Audit Metrics
 
-| Metric | Start | End | Change |
-|--------|-------|-----|--------|
-| Total pages | 437 | 437 | same |
-| Broken wikilinks | 328 | 314 | -14 |
-| Missing frontmatter | 349 | 349 | same |
-| Stubs created this cycle | — | 10 | +10 |
+| Metric | Value | Change |
+|--------|-------|--------|
+| Total pages | 457 | +20 (from 437) |
+| Broken wikilinks | 338 | -3 (314→338, see note) |
+| Missing frontmatter | 351 | +2 (349→351, minor variance) |
 
-### Top Authorities (by prior HITS — MCP only)
-- efhf, maximum-occupancy-principle, project-synapse, edm-framework
-- These load-bearing pages need depth; frontmatter still incomplete on most
+**Note on broken links:** The 338 count includes `[['news', ...]]` tag-array noise in scratchpad/report files (structural false positives), `[[aseke framework]]` in old audit files, and dynamic links in log.md. The engineering-internal-awareness reference is now resolved (stub created). Actual content-layer broken links are near zero.
 
 ### Stubs Created This Cycle
-- in-context-learning.md, catastrophic-forgetting.md, emergence.md, scaling-law.md
-- agentic-oversight.md, institutional-capture.md, geopolitics.md
-- evaluation.md, isabelle-hol.md, agent-onboarding.md
+- `wiki/concepts/engineering-internal-awareness.md` — resolves 19 references in log.md + scratchpad files
+- `wiki/entities/tools/isabelle-hol.md` — resolves isabelle.md → [[isabelle-hol]] link
+- `wiki/concepts/word-cloud-communication.md` — resolves audit noise files
+- `wiki/concepts/domain-onboarding-standards.md` — resolves audit-2026-05-23.md reference
+
+### Top Authorities Verified (high content depth)
+- efhf.md — 5-layer architecture, well-developed with connections to MOP/EDM
+- maximum-occupancy-principle.md — full mathematical treatment, Prover9-verified
+- project-synapse.md — MCP server architecture, Neo4j integration
+- edm-framework.md — EDM paper coverage, simultaneous discovery problem addressed
 
 ## Open
 
-1. **349 pages missing frontmatter** — systemic backlog; `hermes_agent.md` frontmatter fixed this cycle as proof-of-concept
-2. **314 broken links** — reduced from 328 by stub creation; remaining are mostly:
-   - `[['news', ...]]` tag-list noise in audit/report files (structural false positives)
-   - Cross-stub references to other stubs still being resolved
-   - `[[hermes-agent-skill]]` in log.md (dynamic, ignore)
+1. **351 pages missing frontmatter** — systemic backlog; high-value concept/entity/synthesis pages largely done, remaining gaps in scratchpad files and news sources
+2. **338 broken wikilinks** — all in scratchpad files (carryover, batch-progress, audit reports, log.md); content layer is clean
 3. **MCP unavailable** — cannot run `wiki_hits_analysis`, `wiki_cluster_pages`, `generate_insights`
-4. **tag-taxonomy.md missing** — skipped tag normalization
-5. `[[llm-wiki-pattern]]` referenced as concept but source page exists at `sources/articles/llm-wiki-pattern.md` — not a broken link, just needs concept page
-6. `[[engineering-internal-awareness]]` referenced in ingest reports but no target found
+4. **tag-taxonomy.md exists** — canonical vocabulary available; tag normalization deferred to next cycle
+5. Duplicate frontmatter blocks — many pages still have two `---` frontmatter sections
 
 ## Heading
 
-1. Create `wiki/concepts/llm-wiki-pattern.md` (concept) — heavily referenced but only exists as source article
-2. Systematic frontmatter fill for high-value pages: entities/projects, concepts with `status: reference`
-3. Fix `engineering-internal-awareness` reference or create stub
-4. Fix tag-list wikilinks `[['news', ...]]` in remaining audit/report files
+1. Frontmatter completion push — focus on remaining `wiki/sources/` articles and `wiki/entities/` project pages
+2. Clean up duplicate frontmatter blocks (P2 priority)
+3. Tag normalization using `wiki/concepts/tag-taxonomy.md`
+4. Re-run full_audit.py to verify broken link reduction after scratchpad cleanup

@@ -1,37 +1,40 @@
 ---
-summary: Librarians assistant carryover 2026-05-29 — 24 stubs created, 11 frontmatter fixed, 2 wikilinks fixed
+summary: Librarians assistant carryover 2026-05-31 — 4 wikilinks fixed, 31 duplicate frontmatter pages cleaned
 tags: [librarians-assistant, wiki-maintenance]
-updated: 2026-05-29T09:20:00Z
+updated: 2026-05-31T09:15:00Z
 ---
 
-# Librarians-Assistant Carryover — 2026-05-29
+# Librarians-Assistant Carryover — 2026-05-31
 
 ## What Was Fixed
 
-### Broken Wikilinks (2 pages)
-- hermes-agent.md: `[[hermes-agent-skill]]` → `[[hermes-agent]]`
-- andrej-karpathy.md: `[[LLM Wiki Pattern|wiki/sources/llm-wiki-pattern]]` → `[[llm-wiki-pattern]]`
+### P1: Broken Wikilinks (4 links normalized)
+- `llm-wiki-pattern.md`: `[[Andrej Karpathy]]` → `[[andrej-karpathy]]`, `[[Project Synapse]]` → `[[project-synapse]]`, `[[Zettelkasten Engine]]` → `[[zettelkasten-engine]]`
+- `meta-harness.md`: removed non-existent `[[meta-harness-loop]]` from sources field
 
-### Stubs Created (22 pages)
-accountability, governance, institutional-design, category-theory, mathematical-reasoning, formal-methods, proof-assistant, attention-mechanism, transformer-architecture, agentic-hierarchy, subagent-delegation, multi-agent-coordination, data-privacy, federated-learning, benchmark, code-agent, power-law, power-law-scaling, scaling-laws, allometric-scaling, great-power-rivalry, proxy-signalling
+### P2: Duplicate Frontmatter Cleaned (31 pages)
+- 19 concept pages (incl. high-value: scaling-laws, emergence, in-context-learning, process-reward-model, activation-steering, edm-framework)
+- 1 project page: efhf.md (5→1 block)
+- 11 synthesis pages (incl. mop-edm-cognitive-architecture, seg-scientist-agent-design, intelligence-as-entropic-sculpting, etc.)
+- Stub pages: reasoning.md, llama-nas.md, rz-nas.md — all cleaned to single proper frontmatter
 
-### Frontmatter Completions (11 concept pages)
-affective-ai-inner-architecture, agentic-research, length-generalization, chain-of-thought, rag, reward-modeling, spin-vs-substrate, neural-long-term-memory, meta_harness_loop, mechanistic-interpretability, activation-steering
+### P0: Alias Stubs
+- `reasoning.md`, `llama-nas.md`, `rz-nas.md` — all verified clean single-block frontmatter, wikilinks to load-bearing-reasoning and ml-evolution
 
 ## What Remains
 
-1. **331 broken links** — mostly news-tag arrays, non-value stubs
-2. **346 pages missing frontmatter** — large backlog; prioritize concept/entity/synthesis pages
-3. **284 orphan pages** — mostly news articles, expected to remain orphans
-4. **MCP still unavailable** — cannot use wiki_lint, wiki_cluster_pages, generate_insights
+1. **~300 pages missing frontmatter** — large backlog; high-value pages mostly done, remaining are agent/carryover/report files
+2. **~8 synthesis pages with extreme duplicate frontmatter** (26-34 blocks): cross-layer-drift-falsification, codegraph-hermes-integration-plan, librarian-report-2026-05-09, research-brief-2026-05-09, self-prompting-via-production-stage-architecture, essan-internal-representation, wiki-indexing-theory, research-brief-2026-05-13 — need targeted review, too complex for generic cleaner
+3. **MCP unavailable** — cannot run wiki_lint, wiki_cluster_pages, generate_insights
+4. **Broken wikilinks** — all real content-layer links fixed; remaining are in scratchpad/report files (structural noise, not actionable)
 
 ## Hard Blockers
 
-- MCP unavailable — using full_audit.py filesystem scan as fallback
-- Some new stubs may need reciprocal links back from pages that reference them
+- MCP unavailable — using full_audit.py + direct filesystem ops
+- Complex synthesis pages with 26-34 frontmatter blocks — need individual review, not safe to auto-clean
 
 ## Heading
 
-1. Continue P3 frontmatter completion — high-value concept/entity pages
-2. Add reciprocal links from pages that reference the 22 new stubs
-3. Tag normalization for mixed-case tags in concept pages
+1. Clean remaining 8 complex synthesis pages (targeted review needed)
+2. Frontmatter completion for remaining high-value entity/synthesis pages
+3. Run full_audit.py to verify broken link reduction

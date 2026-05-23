@@ -2,10 +2,11 @@
 created: 2026-04-18T03:57:00Z
 updated: 2026-04-18T03:57:00Z
 type: concept
-summary: "The internal vector representations (activations) of data at each layer of a neural network, containing 'inner knowledge' and confidence signals."
-tags: [llm-architecture, interpretability, activations, linear-representation]
+summary: The internal vector representations (activations) of data at each layer of a neural network, containing "inner knowledge" and confidence signals
+sources: https://arxiv.org/abs/2406.04292 (ELHSR paper)
 status: active
 confidence: 1.0
+tags: [llm-architecture, interpretability, activations, linear-representation]
 ---
 
 # Hidden States

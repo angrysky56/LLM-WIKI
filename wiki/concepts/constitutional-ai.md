@@ -9,6 +9,8 @@ status: active
 confidence: 0.85
 ---
 
+
+
 # Constitutional AI
 
 Constitutional AI (CAI) is an alignment technique developed by Anthropic that trains language models to be helpful, harmless, and honest using a combination of self-critique and principle-based revision — without requiring large volumes of human-labeled preference data.
@@ -51,7 +53,10 @@ Example principles:
 ## Relationship to RLHF
 
 | Aspect | RLHF | Constitutional AI |
-|--------|------|-------------------|
+|
+--|
+|
+-|
 | Preference signal | Human raters | AI model critiques |
 | Training data | Human labels | AI-generated revisions |
 | Harm reduction | Implicit by preference | Explicit by principle |

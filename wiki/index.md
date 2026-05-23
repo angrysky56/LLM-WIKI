@@ -1,5 +1,5 @@
 ---
-updated: 2026-05-22T14:09:38Z
+updated: 2026-05-23T14:32:11Z
 type: index
 ---
 
@@ -52,78 +52,130 @@ type: index
 - [[concept-index]] — Conceptual index — maps ideas to pages by meaning rather than structure; complement to the structural TOC in index.md
 - [[absence-of-worst-case-metric]] — Failure mode in evaluating high-stakes systems — judging success by whether the catastrophic event occurred while bracketing out steady-state cost; the metric that called nuclear deterrence "successful" and is being installed for AI
 - [[academic-peer-review]] — The process by which scholarly work is checked by experts in the same field to ensure quality and validity before publication.
-- [[activation-steering]] — Paradigm for directly manipulating LLM latent activations at inference time to steer behavior without fine-tuning
+- [[accountability]] — Accountability in AI governance — who is responsible for agent actions and outcomes
+- [[activation-steering]] — Techniques for directly manipulating LLM internal activations during inference to steer behavior without fine-tuning
 - [[affective-ai-inner-architecture]] — Framework for AI self-observation and modification via Panksepp affective systems, mechanistic interpretability, and activation steering
-- [[agentic-research]] — The use of autonomous LLM agents to execute stages of the scientific research workflow, from idea generation to manuscript writing.
+- [[agent-onboarding]] — [STUB] Gate protocol for onboarding new agents into the system
+- [[agentic-hierarchy]] — Agentic hierarchy — organizational structure of multi-level AI agents with different levels of agency
+- [[agentic-oversight]] — [STUB] Oversight mechanism ensuring agentic systems operate within intended bounds
+- [[agentic-research]] — The use of autonomous LLM agents to execute stages of the scientific research workflow, from idea generation to manuscript writing
+- [[ai-governance-substrate]] — [STUB] Framework for AI governance — layered oversight, accountability mechanisms, substrate protocols
+- [[allometric-scaling]] — Allometric scaling — proportional relationship between body size and biological traits
 - [[alqr-memory-estimates]] — Memory estimates for A-LQR Jacobian caching: 2GB for A_k cache on 7B models, calibration cost ~1000 GPU-hours one-time, per-token inference is 64MB reads with no recomputation
 - [[aphantasia]] — Concept page for Aphantasia
 - [[arcuate-fasciculus]] — Concept page for Arcuate Fasciculus.
+- [[aseke-framework]] — [STUB] Aseke framework — decision-making framework for agentic planning and execution
 - [[astar-structural-pathfinding]] — A* heuristic search applied to market pivot graphs with forward-projected goals — Path Coherence Ratio quantifies structural efficiency; cross-validated against geometric (channel) and stochastic (√σ) goal sources
+- [[attention-mechanism]] — Attention mechanism — key-value lookup pattern at the core of transformer architectures
+- [[benchmark]] — Benchmark — standardized evaluation framework for measuring AI capability
+- [[bounded-structured-memory]] — [STUB] Bounded structured memory — layered memory architecture for agent continuity across sessions
 - [[brocas-area]] — Concept page for Broca's Area.
+- [[catastrophic-forgetting]] — [STUB] Phenomenon where neural networks forget previously learned knowledge upon learning new tasks
+- [[categorical-reasoning]] — [STUB] Categorical reasoning — reasoning using category theory structures and morphisms
+- [[category-theory]] — Category theory — mathematical study of abstract structures and their relationships
 - [[causal-networks]] — A fundamental representation of spacetime in Wolfram Physics, where nodes are updating events and edges are causal dependencies in a multiway rewrite system.
-- [[chain-of-thought]] — Added [[load-bearing-reasoning]] return link to CoT
+- [[chain-of-thought]] — A prompting technique and internal process where LLMs generate intermediate reasoning steps before providing a final answer
+- [[china-cuba-tensions]] — [STUB] Great-power rivalry dynamics between China and Cuba — proxy signalling, alliance messaging
+- [[code-agent]] — Code agent — AI agent specialized in software development tasks
+- [[computational-irreducibility]] — [STUB] Computational irreducibility — Wolfram's concept that some computations cannot be predicted without running them
+- [[computational-universe]] — [STUB] Computational universe — Wolfram's concept of all possible computations as foundation of physics
 - [[constitutional-ai]] — Alignment technique using AI-generated self-critique and principle-based revision instead of human-labeled preference data
 - [[critical-analysis]] — The systematic evaluation of research to understand its methodology, context, validity, and significance.
 - [[cryptographic-vs-semantic-alignment]] — Distinction between what cryptographic protocols can prove (integrity, provenance, state validity) and what they cannot (semantic alignment of outputs to consequences in a world the protocol does not see); decentralized consensus is necessary but not sufficient for AI governance
+- [[data-privacy]] — Data privacy — protection of personal information in AI systems
+- [[delegation]] — [STUB] Delegation — act of assigning authority from one agent to another with defined scope
 - [[design-thinking]] — Human-centered innovation framework — structured process from need identification through verification, with leverage concentrated in the often-neglected front-end phases
 - [[edm-framework]] — Embedding Disruptiveness Measure — Kim, Kojaku & Ahn (2026) — directional skip-gram on citation networks yielding past/future vectors whose cosine distance quantifies scientific disruption
+- [[emergence]] — [STUB] Phenotype of complex behavior arising from simple rules or scale
 - [[eml-operator]] — Single binary operator eml(x,y)=exp(x)−ln(y) that generates all elementary functions from constant 1 — the continuous NAND gate, with applications to symbolic regression, neuro-symbolic AI, automated reasoning, and single-instruction hardware
+- [[evaluation]] — [STUB] Evaluation methodology and benchmarks for LLM performance
+- [[extraction-quality-audit]] — [STUB] Research project for quantifying and remediating garbage entities in Synapse Neo4j graph
+- [[federated-learning]] — Federated learning — machine learning on decentralized data without raw data centralization
 - [[feedback-activity]] — Concept page for Feedback Activity
 - [[feedforward-activity]] — Concept page for Feedforward Activity
+- [[formal-methods]] — Formal methods — mathematically rigorous techniques for software and hardware verification
+- [[formal-verification]] — [STUB] Formal verification — mathematically proving program correctness against specifications
 - [[frame-transmission]] — The historical mechanism by which captured institutional forms are actually displaced — propagation of cognitive frames, person to person, inside captured institutions; the only durable lever, slow but consistent in the historical record
+- [[geopolitics]] — [STUB] Geopolitical dynamics between great powers — US, China, Russia
+- [[governance]] — Governance in AI systems — structures for directing, monitoring, and controlling AI behavior
 - [[graphrag]] — RAG enhanced with graph traversal for richer context beyond vector similarity
+- [[great-power-rivalry]] — Great power rivalry — competition between major geopolitical powers
 - [[group-relative-policy-optimization]] — GRPO — a group-relative policy optimization algorithm for LLM training that uses within-group advantage estimation instead of a reference model
-- [[hermes_agent]] — Architectural overview of the Hermes Agent framework.
-- [[hidden-states]] — The internal vector representations (activations) of data at each layer of a neural network, containing 'inner knowledge' and confidence signals.
+- [[hermes_agent]] — 
+- [[hidden-states]] — The internal vector representations (activations) of data at each layer of a neural network, containing "inner knowledge" and confidence signals
 - [[hyperphantasia]] — Concept page for Hyperphantasia
+- [[in-context-learning]] — The ability of language models to learn tasks from examples in context without any parameter updates — the core mechanism behind few-shot prompting
 - [[inference-time-compute-scaling]] — Allocating inference-time compute to improve reasoning quality — the frontier of scaling laws beyond training
+- [[institutional-accountability]] — [STUB] Mechanisms ensuring institutions remain accountable to their stated purposes rather than self-interest
 - [[institutional-capture-vs-species-framing]] — Reframe of "human nature" / "civilization" arguments — the unit making civilization-scale choices is not the species but a thin layer of captured institutions; reframes the Great Filter from technological to architectural
+- [[institutional-capture]] — [STUB] Phenomenon where institutions optimize for metrics rather than goals
+- [[institutional-design]] — Institutional design — the creation of organizations and structures with specific governance properties
+- [[interactive-theorem-proving]] — [STUB] Interactive theorem proving — human-guided proof construction in proof assistants
+- [[isabelle-hol]] — [STUB] Formal verification system based on higher-order logic
+- [[kv-cache]] — [STUB] KV-Cache — key-value cache in transformer attention mechanisms
 - [[language-evolution]] — Concept page for the statistical study of language evolution.
-- [[length-generalization]] — Fixed [[titans]] to [[titans-test-time-memory]]
+- [[length-generalization]] — The failure of LLMs to generalize from short training sequences to longer inference sequences — a fundamental limitation of autoregressive transformers
 - [[llama-nas]] — Stub for LLaMA NAS concept
+- [[llm-wiki-pattern]] — Karpathy's pattern for LLM-maintained persistent Markdown knowledge bases — the foundational architecture this wiki is built on
 - [[load-bearing-reasoning]] — Added [[isabelle]] return link to load-bearing-reasoning
 - [[markovian-carryover]] — How to write bounded forward-state carryover at agent/session boundaries using structured templates
+- [[mathematical-reasoning]] — Mathematical reasoning — rigorous deduction and proof-based thinking
 - [[maximum-occupancy-principle]] — Added [[efhf]] return link
 - [[mechanistic-interpretability]] — Reverse-engineering transformer internals — activation caching, circuit analysis, and the EEG of artificial minds
-- [[memex]] — Vannevar Bush's 1945 vision of a personal associative knowledge device
-- [[meta_harness_loop]] — Fixed double-bracket link and Domain Onboarding Standards
+- [[memex]] — Vannevar Bush's 1945 vision of a personal associative knowledge device — the intellectual ancestor of the LLM wiki pattern
+- [[meta_harness_loop]] — The meta-harness architecture — an agent framework where the harness evaluates and directs specialized sub-agents
 - [[metacognitive-architecture-closed-loop-self-regulation]] — Engineering internal awareness and closed-loop self-regulation in LLMs using biofeedback paradigms, PID control, and LQR — peer-reviewed whitepaper summary
 - [[mixture-of-experts]] — Sparse conditional computation via expert routing — activating only subnetworks per token, enabling massive parameter counts without proportional FLOPs
 - [[ml-evolution]] — Concept page for autonomous machine learning model evolution.
+- [[mop-and-rlhf-interaction]] — Structural tension between Maximum Occupancy Policy (MOP) entropy maximization and RLHF's KL-regularization — three potential resolution paths identified
+- [[multi-agent-coordination]] — Mechanisms by which multiple AI agents work together toward shared or negotiated goals — from shared state to market-based coordination
+- [[multi-agent-llm-systems]] — Frameworks and coordination patterns for using multiple LLM agents together to solve complex tasks beyond the capability of any single agent
 - [[myelination]] — Concept page for Myelination.
-- [[neural-long-term-memory]] — Fixed [[titans-test-time-memory]] to [[titans-test-time-memory]]
+- [[neural-long-term-memory]] — Neural network architectures that explicitly separate working memory from long-term memory stores, enabling persistent information across very long contexts
+- [[onboarding-standards]] — [STUB] Onboarding standards — norms for integrating new agents into a multi-agent system
 - [[open-ended-evolution]] — The study of conditions enabling evolution to continually produce novelty without converging — central ALife question connecting Tierra, Geb, Lenia, and OpenPraparat, with evaluation via Bedau-Packard statistics and Dolson complexity barriers
 - [[para-methodology]] — Tiago Forte's PARA framework — actionability-based universal information organization (Projects, Areas, Resources, Archives)
 - [[persistent-knowledge-compilation]] — Paradigm of LLM pre-compiling knowledge into persistent structured bases vs stateless RAG
+- [[power-law-scaling]] — Power law scaling — relationship between system size and properties following a power law
+- [[power-law]] — Power law — mathematical relationship where frequency varies as a power of some quantity
+- [[privacy-utility-tradeoff]] — [STUB] Privacy-utility tradeoff — balancing data usefulness against privacy protection
 - [[process-reward-model]] — Reward models that evaluate individual reasoning steps rather than final outcomes — enabling precise credit assignment and intelligent path pruning
+- [[proof-assistant]] — Proof assistant — interactive software for constructing and verifying mathematical proofs
+- [[proxy-signalling]] — Proxy signalling — indirect communication of capability or resolve through third parties
 - [[rag]] — Retrieval-Augmented Generation — the standard stateless document Q&A pattern
 - [[reasoning]] — Alias stub redirecting to load-bearing-reasoning
 - [[research-methodology]] — The specific procedures or techniques used to identify, select, process, and analyze information about a topic.
-- [[reward-modeling]] — The process of training a secondary model to assign scalar scores to LLM outputs, used for alignment (RLHF) and test-time scaling (Best-of-N).
+- [[reward-modeling]] — The process of training a secondary model to assign scalar scores to LLM outputs, used for alignment (RLHF) and test-time scaling (Best-of-N)
 - [[rz-nas]] — Stub for RZ-NAS neural architecture search concept
+- [[scaling-law]] — [STUB] Singular form of scaling-laws — law describing model performance vs compute/data
+- [[scaling-laws]] — Scaling laws — empirical relationships between model scale and AI capability
 - [[scientific-writing]] — The practice of communicating scientific information to other scientists, characterized by precision, clarity, and adherence to established formats like IMRaD.
 - [[self-correction]] — The capability and architectures of LLMs to detect, critique, and revise their own outputs — distinct from explicit CoT or formal metacognitive control
 - [[sheffer-stroke]] — A single primitive operator from which an entire computational domain is reconstructable — NAND for Boolean logic, EML for continuous mathematics, with structural parallels across domains
 - [[spin-vs-substrate]] — Analytical primitive — separating the rhetorical layer (clauses, statements, principles) from the operational layer (deployments, integrations, consequences); citing one as evidence about the other is the standard category error
 - [[spontaneous-activity-reshaping-hypothesis]] — Concept page for Spontaneous Activity Reshaping Hypothesis
+- [[subagent-delegation]] — Subagent delegation — pattern of spawning child agents to handle subtasks
 - [[supertokens]] — High-level vocabulary entries created by merging multi-token sequences (structural phrases) into single units, functioning as operators in a problem-space search.
 - [[surprise-based-learning]] — Concept page for surprise-based learning.
+- [[swe-bench]] — [STUB] SWE-Bench — benchmark for software engineering tasks with GitHub issues
 - [[symbolic-regression]] — Discovering closed-form mathematical expressions from data — approaches include genetic programming, neural-guided search, and gradient-optimized EML trees that are complete by construction
 - [[tag-taxonomy]] — Controlled vocabulary for wiki tags — preferred terms with USE/UF equivalence, BT/NT hierarchy, and RT associative relationships
+- [[taylors-law]] — [STUB] Taylor's law — ecological scaling relationship between mean and variance of population densities
 - [[titans]] — Titans neural memory architecture — concept page resolving [[titans]] alias
+- [[transformer-architecture]] — Transformer architecture — dominant neural network architecture based on self-attention
 - [[wernickes-area]] — Concept page for Wernicke's Area.
 - [[wolfram-physics-project]] — Corrected wolfram-physics-project stub content
-- [[andrej-karpathy]] — AI researcher, author of the LLM Wiki pattern
+- [[andrej-karpathy]] — AI researcher, author of the LLM Wiki Pattern
 - [[dhruv-trehan]] — Entity page for Dhruv Trehan.
 - [[paras-chopra]] — Entity page for Paras Chopra.
 - [[roger-koenig-robert]] — Entity page for neuroscientist Roger Koenig-Robert
 - [[stephen-wolfram]] — Computer scientist, physicist, and creator of Mathematica, Wolfram|Alpha, and Wolfram Language. Known for "A New Kind of Science.
 - [[tyler-hall]] — Entity page for Tyler Blaine Hall.
 - [[alphaevolve]] — Google DeepMind's evolutionary coding agent — LLM ensemble + diff-based mutation + real hardware eval; 23% GEMM speedup; Gemini self-improvement; instantiates MGA pattern; open-sourced as OpenEvolve
-- [[efhf]] — Added [[agem]] return link to EFHF
+- [[efhf]] — Five-layer AI architecture implementing computational mechanics (epsilon machines, lumpability, causal closure) as a live multi-agent system — MOP proposed as Layer 0 for proactive exploration
 - [[goodrobot]] — GoodRobot — SHUT DOWN status added
-- [[markovian-dev-agency]] — Added [[hermes-agent]] return link to MDA
-- [[meta-harness]] — Added [[efhf]] and [[mcp-logic]] return links to meta-harness
+- [[markovian-dev-agency]] — Dev agency with 4 specialists that maintains persistent Markovian state across activations
+- [[meta-harness]] — A framework for self-adaptive agent evolution and structured knowledge bootstrapping, integrated with Hermes
 - [[mop-explorer]] — MOP-guided research agent using EFHF as verification backbone — autonomously explores concept spaces, generates hypotheses, verifies via L2-L5 pipeline, commits validated insights
 - [[project-synapse]] — Graph-backed MCP server providing semantic search, knowledge synthesis, and wiki bridge
 - [[advanced-reasoning-mcp]] — Project page for advanced-reasoning-mcp.
@@ -174,25 +226,30 @@ type: index
 - [[arxiv-2026-05-19-top-papers]] — 
 - [[arxiv-2026-05-20-top-papers]] — No new arXiv papers today; yesterday's report had 3 fresh papers from 2026-05-18
 - [[arxiv-2026-05-21-top-papers]] — arxiv daily report 2026-05-21: no new arXiv submissions — latest batch is 2026-05-20 (already processed yesterday); arXiv API confirms no 2026-05-21 batch posted yet
-- [[arxiv-2026-05-22-top-papers]] — 3 papers from 2026-05-20 batch: EqR (attractor-based reasoning), DeepWeb-Bench (derivation > retrieval failure), hyperparameter transfer (embedding LR)
+- [[arxiv-2026-05-22-top-papers]] — 3 papers from 2026-05-21 batch: MOSS (source-level self-evolution), DeltaBox (ms-level C/R), LCGuard (KV sharing privacy)
+- [[arxiv-2026-05-23-top-papers]] — 3 papers from 2026-05-21 batch: VPO (diversity RL for test-time search), DeltaDirect (directional motion blindness fix), Recuriosity (persistent 3D world model for exploration)
 - [[carryover]] — arxiv agent carryover — no new papers 2026-05-21, latest batch still 2026-05-20
 - [[papers-2026-05-19-researched]] — Three papers on production LLM agent architecture, VLM reasoning decoupling, and agentic clinical evidence seeking
 - [[papers-2026-05-20]] — Three papers on production LLM agent architecture, VLM reasoning decoupling, and agentic clinical evidence seeking
+- [[papers-2026-05-22-researched]] — Three papers on delta-based AI agent checkpoint/rollback, RLHF memory optimization, and adaptive test-time reasoning
+- [[papers-2026-05-23-researched]] — 
 - [[carryover]] — 
 - [[ingest-2026-05-20]] — 
 - [[ingest-2026-05-21-run]] — 
 - [[ingest-2026-05-21]] — Ingest run report — 5 sources processed (2026-05-21)
 - [[ingest-2026-05-23]] — 
+- [[ingest-2026-05-28]] — 
 - [[audit-2026-05-19]] — 
 - [[audit-2026-05-20]] — 
 - [[audit-2026-05-21]] — 
 - [[audit-2026-05-23]] — 
 - [[batch-progress]] — 
-- [[carryover]] — Librarian carryover — 354 broken links remain, MCP unavailable, tag-taxonomy missing
+- [[carryover]] — Librarian carryover — 10 stubs created, broken links down 328→314, MCP still unavailable
 - [[librarian-2026-05-19-missing-agent-sheet]] — 
-- [[carryover]] — Librarians assistant carryover 2026-05-21
-- [[carryover]] — News agent carryover — Alberta referendum, NATO reversal pattern, Ebola response capacity test, Hormuz structural change, Russia-Belarus nuke escalation
+- [[carryover]] — Librarians assistant carryover 2026-05-29 — 1 concept page created, 12 frontmatter completions, MCP still unavailable
+- [[carryover]] — News agent carryover — China mine disaster, SpaceX V3, Ebola escalation, Rubio-India energy, Gabbard resignation
 - [[headlines-2026-05-22]] — 
+- [[headlines-2026-05-23]] — 
 - [[news-2026-05-18-headlines]] — Global news headlines for May 18, 2026 — Iran diplomacy, Trump polling, asteroid, JWST, hantavirus, SCOTUS, Massie primary, prayer rally
 - [[news-2026-05-20-headlines]] — Global news headlines for May 20, 2026 — 7 stories across geopolitics, AI/tech, science, health, and energy
 - [[news-2026-05-21-headlines]] — 
@@ -202,11 +259,13 @@ type: index
 - [[discovery-2026-05-22]] — 
 - [[discovery-2026-05-26]] — 
 - [[discovery-2026-05-27]] — 
+- [[discovery-2026-05-29]] — 
 - [[sheet]] — Updated job status to done for news
 - [[agem-ooe]] — 
 - [[air-france-airbus-manslaughter-verdict-2026]] — 
 - [[alberta-independence-referendum-2026]] — Alberta schedules October 2026 referendum on whether to hold binding independence vote
 - [[brocas-area-gemini-chat]] — Source summary for Gemini chat on Broca's area and LLM analogies.
+- [[china-coal-mine-explosion-shanxi-may-2026]] — 90 killed in Shanxi province gas explosion — China's deadliest mining disaster in 16 years
 - [[choosing-right-agentic-design-pattern]] — 
 - [[critical-review-scientific-article-guide]] — A structured guide for analyzing and critically reviewing scientific journal articles, focusing on research methods, context, and significance.
 - [[design-thinking-mit]] — MIT Professional Education overview of the 10-step design thinking framework by Blade Kotelly
@@ -214,6 +273,7 @@ type: index
 - [[discrete-time-to-event-modeling]] — Introduction to discrete-time survival analysis: discretization, censoring mechanisms, and life table foundations
 - [[ebola-bundibugyo-outbreak-drc-uganda-2026]] — WHO emergency declaration for Ebola Bundibugyo outbreak in DRC/Uganda; no proven vaccine, UK developing new one
 - [[ebola-outbreak-drc-hospital-attack-2026]] — 
+- [[ebola-outbreak-drc-who-very-high-may-2026]] — WHO raises DRC risk to 'very high' as suspected cases triple in one week; US public health cuts limiting response capacity
 - [[ebola-plane-divert-2026]] — Air France flight to Detroit diverted to Montreal after Congolese Ebola-hit-region passenger boarded in error
 - [[emotion-concepts-llm]] — Anthropic research on functional emotion representations in Claude Sonnet 4.5 and their causal effects on behavior.
 - [[engineering-internal-awareness-and-closed-loop-self-regulation-in-large-language-models]] — Engineering internal check loop for LLMs via biofeedback paradigm, PID activation steering, and metacognitive quantization
@@ -235,10 +295,12 @@ type: index
 - [[neo4j-2026-04-0-release]] — Neo4j 2026.04.0: vector-3.0 quantization fix, io_uring async I/O, GenAI plugin token functions, Cypher 25 GQL alignment
 - [[prd-ralph-loop-mop-gemini]] — Gemini conversation connecting PRD-driven Ralph Loops with MOP and Theory of Mind for autonomous scientific research — epistemic energy as the critical constraint
 - [[raul-castro-indictment-2026]] — US indicts Raúl Castro over 1996 plane shootdown; Russia/China condemn as coercive "violence
+- [[rubio-meets-modi-india-energy-may-2026]] — Rubio visits India with energy agenda to replace Iranian oil disrupted by US-Iran conflict; H-1B visa registrations down 38.5%
 - [[search-2026-05-21]] — Google News aggregation for 2026-05-21 — broad headline snapshot
 - [[shorthand-for-thought]] — Research on compressing LLM Chain-of-Thought (CoT) reasoning by merging low-entropy structural phrases into "supertokens.
 - [[solo-preneur]] — Framework for solo-developer micro-SaaS: "time is money, convenience is king, marketing is queen" — constraints, 4 product categories, and strategic rules
 - [[spacex-ipo-spcx-2026]] — 
+- [[spacex-starship-v3-launch-may-2026]] — Starship V3 completes major test objectives ahead of SpaceX IPO; booster recovered, ship splashed down in Indian Ocean
 - [[ssh-command-in-linux]] — SSH command reference: connections, key auth, port forwarding, common options
 - [[sti-record-levels-europe-2026]] — Gonorrhoea +303% and syphilis doubled in Europe since 2015 — ECDC calls for urgent action
 - [[strait-of-hormuz-iran-claim-2026]] — 
@@ -248,6 +310,7 @@ type: index
 - [[trump-iran-diplomacy-threats-2026]] — Trump oscillates between diplomacy and threats on Iran; 14-point peace plan under review
 - [[trump-taiwan-call-2026]] — 
 - [[truth-emotion-sacred-agem-analysis]] — 
+- [[tulsi-gabbard-resigns-intelligence-director-may-2026]] — Tulsi Gabbard resigns as US National Intelligence Director, citing husband's illness
 - [[us-surveillance-cuba-flights-2026]] — 
 - [[why-llms-arent-scientists-yet]] — Compressed summary of the autonomous research case study.
 - [[wolchover-life-force-2026]] — Wolchover (Quanta 2026-04-20) — bacterial flagellar motor finally fully understood after 50 years; driven by proton motive force (Mitchell 1961, Nobel 1978); 5:2 stator geometry rectifies entropic+electric proton gradient into torque; CheY-P phosphorylation triggers C-ring conformational cascade for direction reversal; "entropic energy → kinetic energy" is the universal cellular energetics.
@@ -325,24 +388,32 @@ type: index
 - [[ctx2skill]] — Self-evolving multi-agent framework that autonomously discovers natural-language skills from complex contexts via adversarial self-play — no human annotation, no external feedback.
 - [[decoupling-perception-reasoning-vlm-post-training]] — Post-training VLMs with decoupled perception and reasoning modules improves visual task performance — challenging the long-CoT assumption
 - [[deepweb-bench-2026]] — DeepWeb-Bench: deep research benchmark — derivation/calibration failures dominate over retrieval; cross-model rho=0.61
+- [[deltabox-stateful-agent-checkpoint-rollback-2026]] — Dong et al. (2026) — DeltaBox: millisecond-level checkpoint/rollback for stateful AI agents via change-based state management (DeltaFS + DeltaCR); 14ms ckpt, 5ms restore; enables practical MCTS and RL training at scale
+- [[deltadirect-directional-motion-blindness-video-llms-2026]] — DeltaDirect: Video-LLMs suffer directional motion blindness — near-chance on signed motion direction despite strong appearance recognition. Introduces MoDirect dataset and DeltaDirect projector auxiliary objective that improves accuracy from 25.9% to 85.4% on synthetic benchmarks and +21.9pp on real-world motion.
 - [[eidetic-learning-2021]] — Summary of Eidetic Learning: An Efficient and Provable Solution to Catastrophic Forgetting — solving catastrophic forgetting via structured pruning and disjoint subnetworks.
 - [[equilibrium-reasoners-eqr-2026]] — Equilibrium Reasoners: test-time scaling via learned attractor landscapes, 2.6%→99% on Sudoku-Extreme
 - [[futuresim-adaptive-agents]] — FutureSim replays real-world news chronologically to evaluate agent world-modelling; best frontier agent achieves only 25% accuracy, exposing severe gaps in open-ended temporal adaptation.
 - [[is-grep-all-you-need]] — Grep often outperforms vector retrieval in agentic search; harness architecture and tool result presentation matter more than retrieval strategy.
 - [[kalra-barkeshli-hyperparameter-transfer-2026]] — μP's advantage over SP: almost entirely from maximizing embedding layer LR — simple fix resolves training instability bottleneck
 - [[kim-ahn-edm-2026]] — Kim, Kojaku & Ahn (Science Advances 2026) — introduces EDM embedding-based disruption metric; outperforms CD index; detects simultaneous discoveries via future vector nearest-neighbor clustering
+- [[lcguard-kv-communication-guard-2026]] — Framework for safe KV-based latent communication in multi-agent LLM systems, using adversarial-learned transformations to suppress reconstruction-based leakage while preserving task utility.
 - [[ma-sd-search-2026]] — SD-Search: On-policy hindsight self-distillation for step-level credit assignment in search-augmented reasoning
+- [[moss-self-evolution-source-rewriting-2026]] — Wiki source page for MOSS paper on source-level self-evolving agents
 - [[odrzywolek-eml-2026]] — Odrzywołek (2026) — discovery of the EML operator eml(x,y)=exp(x)−ln(y), a single binary primitive generating all elementary functions from constant 1, with applications to symbolic regression via gradient-trainable binary trees
 - [[opendeepthink-parallel-reasoning]] — Pairwise Bradley-Terry ranking aggregates noisy LLM judgments for robust parallel reasoning; +405 Elo on Codeforces in 8 rounds, model-agnostic transfer.
+- [[papers-2026-05-22-researched]] — 
 - [[production-llm-agent-runtime-architecture-patterns]] — A methodology for composing production LLM agent runtime architectures — treating the LLM/software boundary as a first-class design concern
 - [[ramirez-ruiz-mop-2024]] — Ramírez-Ruiz et al. (Nature Communications 2024) — Maximum Occupancy Principle: agents maximize future action-state path entropy instead of extrinsic reward, producing complex goal-directed behavior from intrinsic motivation alone
+- [[recuriosity-episodic-context-3d-exploration-2026]] — Wiki source page for Recuriosity (2605.22814v1) — curiosity-driven 3D exploration with persistent 3DGS world model and episodic RGB transformer policy
 - [[reward-inside-model-elhsr]] — Efficient Linear Hidden State Reward (ELHSR): A lightweight reward model (<0.005% parameters) using internal LLM hidden states for Best-of-N sampling.
 - [[utimula-openpraparat-2025]] — Utimula (2025) — guideless ALife model combining Tierra gene mechanics with 3D virtual creatures; no fitness function; emergent reproduction (binary fission, budding), protective organs, and energy transport networks via mutation + natural selection
+- [[vector-policy-optimization-vpo-2026]] — VPO replaces GRPO's scalar reward with vector-valued rewards + stochastic scalarization, training LLMs to produce diverse candidate sets that Pareto-span the reward space — unlocking evolutionary test-time search that GRPO models cannot perform.
 - [[waldis-2026-instructions-shape-production]] — Waldis et al. (2026) — Instructions affect LLM production (output tokens) but not processing (input tokens); causal attention interventions confirm; asymmetry sharpens with scale and instruction-tuning; parallels human Broca's/Wernicke's dissociation.
 - [[why-llms-arent-scientists-yet]] — Source summary for Why LLMs Aren't Scientists Yet.
 - [[xu-envfactory-2026]] — EnvFactory: Automated synthesis of executable MCP tool environments for agentic RL training, using topology-aware graph sampling and calibrated query refinement to produce realistic multi-turn trajectories with implicit human intents.
 - [[agem]] — Source summary for AGEM repository.
 - [[cli-printing-press]] — Agent-first CLI generator that reverse-engineers APIs and prints Go CLI + MCP server + Claude Code skill for any API or website. Local SQLite, compound commands, NOI-driven design.
+- [[codegraph]] — Local code knowledge graph for Claude Code/Codex/Cursor — 35% cheaper, 70% fewer tool calls, 100% local
 - [[get-shit-done]] — 
 - [[graphify-ai-coding-assistant-skill]] — 
 - [[mcp-logic]] — Source summary for mcp-logic.
@@ -361,16 +432,19 @@ type: index
 - [[ai-governance-substrate-analysis]] — Five interlocking cognitive primitives for evaluating AI governance discourse at the substrate level — spin-vs-substrate, absence-of-worst-case metric, institutional capture vs species framing, cryptographic vs semantic alignment, frame transmission; ASEKE-compatible diagnostic toolkit
 - [[bounded-structured-memory]] — Unifying SSL schema + Markovian carryover + Memory Curse fixes into a bounded structured memory architecture for Synapse
 - [[causal-state-edm-ood-isomorphism]] — Epsilon machine causal states ↔ EDM citation vectors — disruptive papers as OOD state-splitting events; connected to MOP (β = state-splitting appetite) and EFHF (hallucination = lumpability failure)
+- [[codegraph-hermes-integration-plan]] — CodeGraph-driven integration plan: GeNNAiS memory architecture + AGEM EventBus/StateManager for Hermes
 - [[cross-layer-drift-falsification]] — Architectural falsification of the MOPS hypothesis — cross-layer geometric drift fails to detect hallucination in pretrained transformers; mechanistic explanation grounded in Pandey's sparse-circuit findings
 - [[ctx2skill-on-efhf-rails]] — Ctx2Skill identifies the right problem but has no verification substrate. Rebuilding it on EFHF rails — verifier-graph provenance, mcp-logic proofs, sheaf consistency, Molecular Self dynamics — would make autonomous skill extraction structurally sound.
 - [[efhf-mcp-configuration]] — Master MCP configuration for the EFHF stack.
 - [[entropic-machinery-cot-and-flagellum]] — 
 - [[essan-internal-representation]] — Training framework for Essan symbols as internal representation markers in LLMs, enabling hallucination detection via activation geometry.
+- [[goodrobot-revenue-model]] — [STUB] GoodRobot revenue model — subscription tiers, unit economics, financial projections
 - [[intelligence-as-entropic-sculpting]] — Synthesis: Intelligence as Entropic Sculpting (SARH + MOP)
 - [[librarian-report-2026-05-09]] — Week 1 quality audit — Orphans and Misclassifications in the LLM-WIKI knowledge graph
 - [[llm-biological-analogies]] — Synthesis page for LLM-biological analogies.
 - [[minimal-generative-architectures]] — Cross-domain synthesis: NAND, EML, MOP, and OpenPraparat share a structural pattern — minimal primitives + recursion + boundary constraints = unbounded complexity; OpenPraparat validates MOP predictions empirically; EML provides the computational substrate; extends EFHF with L-1 computational primitive layer
 - [[mop-edm-cognitive-architecture]] — Synthesis: MOP as EFHF Layer 0 + EDM disruption measurement — formally verified structural mapping (Prover9), three implementation levels, KL regularization critique, hallucination as lumpability failure, coherent complexity growth
+- [[nairobi-protocol-gde]] — O(1) deterministic knowledge retrieval via DCT-II geometric hashing + mmap — 345x faster than RAG, zero collisions
 - [[research-brief-2026-05-09]] — 
 - [[research-brief-2026-05-13]] — 
 - [[seg-scientist-agent-design]] — v0.5 — implementation-ready. Spike Campaign 001-004 complete; Layer 2 fully specified by four validated pillars. Includes detailed implementation plan in 7 phases.

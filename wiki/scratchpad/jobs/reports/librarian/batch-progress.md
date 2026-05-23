@@ -1,42 +1,44 @@
-# Batch Progress — 2026-05-29 09:20
+# Batch Progress — 2026-05-31 09:10
 
 ## Fixes Applied This Batch
 
-### Broken Wikilinks Fixed (2 pages)
-- wiki/entities/tools/hermes-agent.md: `[[hermes-agent-skill]]` → `[[hermes-agent]]`
-- wiki/entities/people/andrej-karpathy.md: `[[LLM Wiki Pattern|wiki/sources/llm-wiki-pattern]]` → `[[llm-wiki-pattern]]`
+### Broken Link Fixes (P1 — 4 wikilinks normalized)
+- `llm-wiki-pattern.md`: `[[Andrej Karpathy]]` → `[[andrej-karpathy]]`, `[[Project Synapse]]` → `[[project-synapse]]`, `[[Zettelkasten Engine]]` → `[[zettelkasten-engine]]` (4 links fixed)
+- `meta-harness.md`: Removed non-existent `[[meta-harness-loop]]` from sources field (1 broken link removed)
 
-### Stubs Created (22 pages)
-- accountability.md, governance.md, institutional-design.md
-- category-theory.md, mathematical-reasoning.md
-- formal-methods.md, proof-assistant.md
-- attention-mechanism.md, transformer-architecture.md
-- agentic-hierarchy.md, subagent-delegation.md, multi-agent-coordination.md
-- data-privacy.md, federated-learning.md
-- benchmark.md, code-agent.md
-- power-law.md, power-law-scaling.md, scaling-laws.md
-- allometric-scaling.md
-- great-power-rivalry.md, proxy-signalling.md
+### Duplicate Frontmatter Cleaned (P2 — 31 pages)
+**Concepts (19):**
+- scaling-laws.md, emergence.md, in-context-learning.md, process-reward-model.md, activation-steering.md, edm-framework.md, constitutional-ai.md, multi-agent-coordination.md, mixture-of-experts.md, delegation.md, mop-and-rlhf-interaction.md, affective-ai-inner-architecture.md, inference-time-compute-scaling.md, group-relative-policy-optimization.md, length-generalization.md, para-methodology.md (added type:), alqr-memory-estimates.md (added type:), metacognitive-architecture-closed-loop-self-regulation.md (added type:), design-thinking.md (added type:)
 
-### Frontmatter Completions (6 concept pages)
-- affective-ai-inner-architecture.md: added type, sources, status, confidence
-- agentic-research.md: added type, sources, status, confidence; fixed tags (was `[[agentic-research]]`)
-- length-generalization.md: cleaned duplicate frontmatter, added sources, status
-- chain-of-thought.md: cleaned duplicate frontmatter, fixed summary trailing period
-- rag.md: added created, updated, type, sources, status, confidence; normalized tags to lowercase
-- reward-modeling.md: added created, updated, sources, status, confidence; added tags
-- spin-vs-substrate.md: added type, sources, status, confidence
-- neural-long-term-memory.md: added type, sources, status, confidence
-- meta_harness_loop.md: added type, sources, status, confidence
-- mechanistic-interpretability.md: added sources, status, confidence
-- activation-steering.md: added sources, status, confidence
+**Projects (1):**
+- efhf.md (merged to clean single frontmatter block)
+
+**Synthesis (11):**
+- seg-scientist-agent-design.md, mop-edm-cognitive-architecture.md, minimal-generative-architectures.md, llm-biological-analogies.md, nairobi-protocol-gde.md, intelligence-as-entropic-sculpting.md, causal-state-edm-ood-isomorphism.md, verifiable-graph-context-protocol.md, bounded-structured-memory.md, synapse-llm-wiki-operating-guide.md, efhf-mcp-configuration.md
+
+**Stub Pages Fixed:**
+- reasoning.md: cleaned to single frontmatter block with proper fields
+- llama-nas.md: cleaned to single frontmatter block with proper fields
+- rz-nas.md: cleaned to single frontmatter block with proper fields
+
+### Remaining Duplicate Frontmatter
+- cross-layer-drift-falsification.md (26 blocks)
+- librarian-report-2026-05-09.md (34 blocks)
+- research-brief-2026-05-09.md (17 blocks)
+- codegraph-hermes-integration-plan.md (34 blocks)
+- self-prompting-via-production-stage-architecture.md (13 blocks)
+- essan-internal-representation.md (16 blocks)
+- wiki-indexing-theory.md (9 blocks)
+- research-brief-2026-05-13.md (6 blocks)
 
 ## Remaining Open Items
-- 331 broken links remain (mostly news-tag arrays and non-value stubs)
-- 346 pages missing frontmatter (large backlog; focus on concept/entity pages)
-- 284 orphan pages (mostly news articles with no expected inbound links)
-- MCP still unavailable — using full_audit.py filesystem scan
+
+1. **~300 pages still missing frontmatter** — large backlog, many are agent carryovers/scratchpad files not requiring full frontmatter
+2. **~8 synthesis pages with extreme duplicate frontmatter** (26-34 blocks) — too complex for simple cleaning, need targeted review
+3. **MCP still unavailable** — cannot use wiki_lint, wiki_cluster_pages, generate_insights
+4. **Broken wikilinks in scratchpad files** — news reports with `[['news', 'geopolitics', ...]]` tag arrays, `[[aseke framework]]`, etc. — structural false positives, ignore
 
 ## Next Batch Starts With
-- P3: Continue frontmatter for high-value concept/entity pages (hidden-states already complete, proceed to graphrag, memex, etc.)
-- P1: Some of the 22 new stubs need reciprocal links back from pages that reference them
+1. Clean remaining synthesis pages with extreme duplicate blocks (cross-layer-drift, codegraph-hermes, librarian-report, research-brief)
+2. Frontmatter completion for high-value pages still missing fields
+3. Verify broken link count dropped after fixes

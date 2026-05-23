@@ -1,17 +1,12 @@
 ---
-summary: Stub for LLaMA NAS concept
-tags: [concept]
-updated: 2026-05-21T23:10:38Z
----
-
----
 created: 2026-05-23T08:50:00Z
 updated: 2026-05-23T08:50:00Z
 type: concept
-summary: LLaMA NAS — neural architecture search approach applied to LLaMA model family; full documentation pending
+summary: LLaMA NAS — neural architecture search approach applied to LLaMA model family; stub pending full documentation
 tags: [concept, neural-architecture-search, ml, llama]
 status: reference
 confidence: 0.6
+sources: []
 ---
 
 # LLaMA NAS

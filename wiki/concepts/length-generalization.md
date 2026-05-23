@@ -9,6 +9,8 @@ status: active
 confidence: 0.8
 ---
 
+
+
 # Length Generalization
 
 Length generalization refers to the failure of large language models to perform well on sequences significantly longer than those encountered during training. A model trained on sequences of up to length L often degrades sharply when asked to process or generate sequences of length L+Δ, even when Δ is small.
@@ -41,7 +43,10 @@ During training, the key-value cache patterns for tokens at position N are learn
 ### Positional Encoding Extensions
 
 | Method | Approach | Generalization Behavior |
-|--------|----------|------------------------|
+|
+--|
+-|
+|
 | ALiBi | Bias added to attention scores based on distance | Extrapolates better than sinusoidal |
 | RoPE | Rotates queries/keys to encode relative position | Best extrapolation among fixed encodings |
 | Position Interpolation (PI) | Linearly rescales position indices | Smooths degradation but loses some resolution |

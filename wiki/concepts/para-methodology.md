@@ -1,9 +1,12 @@
 ---
 summary: Tiago Forte's PARA framework — actionability-based universal information organization (Projects, Areas, Resources, Archives)
+type: concept
 tags: [para, pkm, knowledge-management, organization, tiago-forte, methodology]
 updated: 2026-04-10T23:08:01Z
 created: 2026-04-10T23:08:01Z
 ---
+
+
 
 # PARA Methodology
 
@@ -35,7 +38,10 @@ Organize by **when you'll need it**, not **what it is**. A note about nutrition 
 ## Implementations in This Workspace
 
 | Vault | Location | Notes |
-|-------|----------|-------|
+|
+-|
+-|
+-|
 | obsidian-para | `/home/ty/Documents/obsidian-para` | Dedicated PARA vault |
 | LLM-WIKI | `/home/ty/Documents/LLM-WIKI` | Karpathy-style wiki (complementary approach) |
 

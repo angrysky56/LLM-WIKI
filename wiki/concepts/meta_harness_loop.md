@@ -1,22 +1,12 @@
 ---
-created: 2026-05-21
+created: 2026-05-07T23:21:32Z
 updated: 2026-05-29
 type: concept
 summary: The meta-harness architecture — an agent framework where the harness evaluates and directs specialized sub-agents
-tags: [evolution, architecture, meta-harness]
-sources: 
+sources: [[meta-harness]]
 status: active
 confidence: 0.7
----
-
----
-created: 2026-05-07T23:21:32Z
-updated: 2026-05-21T08:10:00Z
-type: concept
-summary: Core logic of the iterative evolution process in Meta-Harness.
 tags: [evolution, architecture, meta-harness]
-status: active
-confidence: 1.0
 ---
 
 # Meta-Harness Evolution Loop

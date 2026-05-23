@@ -1,14 +1,8 @@
 ---
-summary: Alias stub redirecting to load-bearing-reasoning
-tags: [concept]
-updated: 2026-05-21T23:10:36Z
----
-
----
 created: 2026-05-23T08:50:00Z
 updated: 2026-05-23T08:50:00Z
 type: concept
-summary: Redirect alias for [[load-bearing-reasoning]] — see that page for the full concept
+summary: Alias stub redirecting to load-bearing-reasoning — reasoning as a load-bearing cognitive structure
 tags: [concept]
 status: reference
 confidence: 1.0

@@ -12,27 +12,34 @@ sources:
   - https://arxiv.org/abs/2510.06557 (Markovian Thinker)
 ---
 
+
+
 # Bounded Structured Memory: SSL + Markovian Carryover for Synapse
 
 **Type:** Synthesis — architectural proposal  
 **Derives from:** [[synapse-retrieval-architecture]], [[persistent-knowledge-compilation]], [[zettelkasten-engine]]  
 **Supersedes:** raw extraction pipeline (current)
 
----
+
+
 
 ## Motivation
 
 Three recent papers converge on the same diagnosis from different angles:
 
 | Paper | Finding | Implication for Synapse |
-|---|---|---|
+|
+|
+|
+|
 | **Memory Curse** (2605.08060) | Expanded recall degrades cooperative intent; fix is *content curation* — synthetic cooperative records restore cooperation even at fixed prompt length | Ingest-time sanitization > post-hoc cleanup; what gets stored shapes agent behavior |
 | **SSL** (2604.24026) | Skills represented as raw text are machine-unfriendly; disentangling into Scheduling/Structural/Logical layers gives +12% MRR in retrieval, +24% F1 in risk assessment | Entity nodes need structured schema, not just raw name + embedding |
 | **Markovian Thinker** (2510.06557) | Bounded state decouples reasoning length from context size; linear compute, constant memory; agents learn to write a textual *carryover state* sufficient to continue after reset | Session working state must be bounded and explicitly synthesized, not raw transcript |
 
 The synthesis: **structured, bounded, content-curated memory** — where structure comes from SSL, bounded persistence from Markovian carryover, and content curation from the Memory Curse fix.
 
----
+
+
 
 ## The Core Proposal: Two-Layer Memory Architecture
 
@@ -86,7 +93,9 @@ EntityNode {
 **Addressing Synapse's garbage problems:**
 
 | Garbage pattern | SSL fix |
-|---|---|
+|
+|
+|
 | File path entities (97) | `structural.capacity == 'source'` with path validation in scheduling |
 | Single-char entities (14) | `scheduling.trigger_queries` minimum length enforcement; reject at ingest |
 | Generic untyped `Entity` (203) | `structural.supertype` required; untyped → quarantine for manual review |
@@ -128,7 +137,8 @@ CarryoverState {
 
 **Relation to Memory Curse:** The Memory Curse triggers when expanded history makes agents lose *forward-looking intent*. The carryover state explicitly encodes forward-looking intent: `open_questions`, `intended_direction`, `divergence_signal`. Storing this compactly — rather than full conversation history — is the direct analog of the paper's "memory sanitization" (replacing visible history with synthetic cooperative records).
 
----
+
+
 
 ## Ingest Pipeline: Sanitization Layer
 
@@ -154,7 +164,8 @@ Raw Source Text
 
 This is the direct implementation of the Memory Curse paper's finding: *memory sanitization* (fixed prompt length, cooperative content) restores cooperation substantially. Applied here: fixed node schema, curated content, forward-looking state synthesis.
 
----
+
+
 
 ## Retrieval: Bounded Recall with SSL-Constrained Expansion
 
@@ -185,12 +196,16 @@ Output: entity hits + facts + wiki links + insights
 
 **Why bounded expansion matters:** The Memory Curse shows that *more recall is not always better*. Constraining graph expansion to 2-hop from SSL-matched seeds keeps the retrieval focused. The carryover state's `current_domain` acts as an anchor — the query can only expand outward from entities relevant to the current session context.
 
----
+
+
 
 ## Relationship to Existing Architecture
 
 | Component | Current | Proposed |
-|---|---|---|
+|
+|
+|
+|
 | Entity node schema | `name + type + embedding` | Full SSL schema (scheduling/structural/logical) |
 | Session state | Full conversation transcript | Bounded CarryoverState (~512 tokens) |
 | Ingest | Lexical extraction → Neo4j | Sanitization layer → SSL normalization → Neo4j |
@@ -199,7 +214,8 @@ Output: entity hits + facts + wiki links + insights
 | Graph expansion | Unbounded ANN + BM25 | SSL-constrained + bounded 2-hop |
 | Garbage entities | Post-hoc cleanup (audit reports) | Ingest-time rejection + scheduling validation |
 
----
+
+
 
 ## Open Questions
 
@@ -208,7 +224,8 @@ Output: entity hits + facts + wiki links + insights
 3. **SSL schema validation:** The three SSL layers need formal constraints (what values are valid for each slot) before they can be used for ingest-time rejection rather than just post-hoc tagging.
 4. **Migration of existing nodes:** 18K+ nodes already in Neo4j. Full re-ingest with the new pipeline vs. gradual migration with backfill? The domain-graph-orchestrator MCP notes recommend full re-ingest for legacy data quality — same logic applies here.
 
----
+
+
 
 ## Connections
 

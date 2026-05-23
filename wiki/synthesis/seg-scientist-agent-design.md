@@ -1,10 +1,4 @@
 ---
-summary: v0.5 — implementation-ready. Spike Campaign 001-004 complete; Layer 2 fully specified by four validated pillars. Includes detailed implementation plan in 7 phases.
-tags: [synthesis, ai-scientist, agentic-research, seg, efhf, verification, design-v0.5, implementation-ready]
-updated: 2026-05-03T09:05:34Z
----
-
----
 created: 2026-05-01T08:15:00Z
 updated: 2026-05-03T09:05:00Z
 type: synthesis
@@ -13,6 +7,8 @@ tags: [synthesis, ai-scientist, agentic-research, seg, efhf, verification]
 status: implementation-ready
 confidence: 0.94
 ---
+
+
 
 # SEG Scientist Agent — Design v0.5
 
@@ -78,7 +74,10 @@ PROVENANCE & ORCHESTRATION (cross-cutting)
 ## What v0.5 adds over v0.4
 
 | Element | v0.4 | v0.5 |
-|---|---|---|
+|
+|
+|
+|
 | Layer 2 validation | architectural hypothesis | four spikes empirically validated |
 | Relational typing | separate routing rule | byproduct of deontic pass (Spike 002) |
 | Error recovery | "world rebuild on inconsistency" | transaction-per-claim via World Isolation (Spike 003) |
@@ -90,7 +89,10 @@ PROVENANCE & ORCHESTRATION (cross-cutting)
 ## Routing rule (claim-type → verification layer)
 
 | Claim regime | Route | Why |
-|---|---|---|
+|
+|
+|
+|
 | `X is a Y` / `X has property P` / `All Y are P` ⊢ `X is P` | Layer 2 | Depth-1 subsumption — HermiT trivial |
 | Transitive `X⊆Y, Y⊆Z, Z has P` ⊢ `X has P` | Layer 2 | Spike 001 validated |
 | Class consistency / disjointness | Layer 2 | OWL2 native |

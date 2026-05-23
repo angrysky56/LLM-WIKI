@@ -4,10 +4,11 @@ tags: [geometric-hashing, deterministic-retrieval, mojo, mmap, Nairobi_Protocol,
 updated: 2026-05-22T19:44:50Z
 ---
 
----
+
 summary: O(1) deterministic knowledge retrieval via DCT-II geometric hashing + mmap sparse files — 345x faster than RAG, zero collisions
 tags: geometric-hashing, deterministic-retrieval, mojo, mmap, Nairobi_Protocol, GDE, O(1), knowledge-store, content-addressed-storage, DCT-II, RRD-Kenya
----
+
+
 
 # Nairobi Protocol — Geometric Determinism Engine (GDE)
 
@@ -34,7 +35,9 @@ Slot:   (raw_offset // SLOT_SIZE) * SLOT_SIZE
 ```
 
 | Property | Value |
-|---|---|
+|
+|
+|
 | Hash dimensions | 24D float64 |
 | Input signal | 32 bytes (first N chars of lowered text) |
 | Determinism | Byte-level exact across different hardware |
@@ -65,7 +68,9 @@ Knowledge chunk returned in O(1)
 ## Key Results (WSL2 Ubuntu, 1M queries)
 
 | Metric | Value |
-|---|---|
+|
+|
+|
 | Hash + offset + seek | 20.64μs |
 | Full retrieval (+ 256B read) | 20.99μs |
 | Queries/sec | 47,620 |

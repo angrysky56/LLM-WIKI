@@ -1,11 +1,4 @@
 ---
-summary: VGCP — DAG-structured reasoning with constraint-verified node commitment
-tags: [verification, reasoning, graph, constraint-satisfaction, dag, tool-calling, provenance]
-updated: 2026-05-22T05:32:39Z
-created: 2026-05-22T05:32:39Z
----
-
----
 created: 2026-05-21
 updated: 2026-05-21
 type: synthesis
@@ -15,6 +8,8 @@ sources: [/home/ty/Repositories/ai_workspace/angrysky56vgcp-mcp-server/]
 status: active
 confidence: 0.9
 ---
+
+
 
 # Verifiable Graph Context Protocol (VGCP)
 
@@ -36,7 +31,10 @@ This is the semantic meaning of the Graph Kernel (∂): constraint boundaries ar
 ## Node Types
 
 | Type | Role | Can be root? |
-|------|------|-------------|
+|
+|
+|
+-|
 | `PREMISE` | Axiom, fact, retrieved data | Yes |
 | `WARRANT` | Intermediate reasoning step | No |
 | `CLAIM` | Conclusion or assertion | No |

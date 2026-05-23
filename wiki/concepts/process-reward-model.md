@@ -9,6 +9,8 @@ confidence: 0.88
 sources: https://arxiv.org/abs/2605.18299, https://arxiv.org/abs/2605.15177
 ---
 
+
+
 # Process Reward Models
 
 A specialized form of reward modeling that evaluates each individual step within a reasoning trace, rather than scoring only the final outcome. Enables precise credit assignment and intelligent search pruning — the critical enabler for test-time compute scaling beyond Best-of-N.
@@ -20,7 +22,8 @@ A specialized form of reward modeling that evaluates each individual step within
 ```
 Trajectory: [Step_1 → Step_2 → Step_3 → ... → Step_n → Answer]
 PRM:       [r_1,   r_2,   r_3,   ...,   r_n]  (step scores)
-ORM:       [--------------------------------R]  (single final score)
+ORM:       [
+--R]  (single final score)
 ```
 
 This step-level granularity enables:
@@ -59,7 +62,10 @@ PRMs require step-level annotations, which are expensive to produce:
 ### PRM vs ORM: When Each Matters
 
 | Scenario | ORM | PRM |
-|----------|-----|-----|
+|
+-|
+--|
+--|
 | Simple factual QA | ✓ Sufficient | Overkill |
 | Multi-step math proof | PRM critical | PRM needed |
 | Code generation (compilable check) | ORM can work | PRM helps on long files |
@@ -69,7 +75,11 @@ PRMs require step-level annotations, which are expensive to produce:
 ## Key Results
 
 | Method | Approach | Model | Result |
-|--------|---------|-------|--------|
+|
+--|
+|
+-|
+--|
 | Thinker (2025) | 72B teacher PRM | 3B student | 0.430 multi-hop EM |
 | SD-Search (2026) | Self-distilled implicit PRM | 3B | 0.428 multi-hop EM (matches Thinker, no teacher) |
 | SD-Search (2026) | Self-distilled implicit PRM | 7B | 0.476 multi-hop EM (surpasses Thinker by +2.4pts) |

@@ -1,145 +1,4 @@
 ---
-summary: Agent operating instructions for the Synapse + LLM-WIKI system — tool decision logic, content lifecycle, ingest and fetch workflows, writing conventions
-tags: [meta, agent, operating-guide, workflow, synapse, llm-wiki, defuddle]
-updated: 2026-04-11T03:50:24Z
----
-
-# Using the Synapse + LLM-WIKI System
-
-**Type:** Agent operating instructions  
-**Audience:** Claude (me) at the start of any session involving this system  
-**Last updated:** 2026-04-11
-
----
-
-## What This System Is
-
-Two layers that work together:
-
-| Layer | Tool | Role |
-|-------|------|------|
-| **Graph** | Neo4j via `project-synapse` MCP | Semantic storage, vector search, relationship traversal, insight generation |
-| **Wiki** | Obsidian vault at `/home/ty/Documents/LLM-WIKI` | Human-readable output, browsable Markdown, Git-versioned |
-
-They are not duplicates. Neo4j stores structured knowledge for machine retrieval. The wiki stores compressed, interlinked prose for human reading and my own orientation. **Both should be updated together.**
-
-The vault schema lives in `AGENTS.md` at the vault root. Read it if conventions are unclear.
-
----
-
-## Session Start Checklist
-
-1. Read `wiki/index.md` — get the current page inventory in one scan
-2. Check `raw/` — any files there need processing before the session ends
-3. If the user mentions a specific topic, run `wiki_search` before doing anything else — avoid re-creating existing knowledge
-
----
-
-## Tool Decision Logic
-
-### Fetching web content
-
-```
-Need content from a URL?
-│
-├─ URL is a standard article/page → wiki_fetch_url(url)
-│     defuddle strips clutter, ingests into Neo4j,
-│     archives to Clippings/ automatically — one call
-│
-└─ URL is already markdown (.md, raw GitHub, etc.) → use web_fetch directly
-      then save manually to raw/ and wiki_ingest_raw()
-```
-
-### Retrieving existing knowledge
-
-```
-User asks about a topic
-│
-├─ Likely already in the wiki?
-│   └─ YES → wiki_search first, then wiki_read_page on hits
-│
-├─ Relationship / connection question?
-│   └─ YES → explore_connections (graph traversal)
-│
-├─ Semantic / meaning question?
-│   └─ YES → query_knowledge (vector ANN search)
-│
-└─ Synthesising across multiple topics?
-    └─ YES → query_knowledge + wiki_read_page combo
-              then offer to file result as a new concept page
-```
-
-### When to write to the wiki
-
-| Page type | Create when |
-|-----------|-------------|
-| `wiki/sources/` | A source has been ingested (raw file or URL fetch) |
-| `wiki/concepts/` | A pattern spans multiple sources, or a synthesis emerges that isn't captured |
-| `wiki/entities/` | A person, tool, project, or org appears in multiple places |
-
-**Prefer updating over creating.** If the information fits as a section on an existing page, add it there rather than making a new page.
-
----
-
-## Content Lifecycle
-
-```
-Ty clips/saves → raw/            (your inbox)
-     or
-I fetch → wiki_fetch_url(url)    (web research)
-               │
-         [defuddle cleans]
-               │
-         [semantic pipeline] → Neo4j
-               │
-         wiki_write_page → wiki/sources/
-               │
-         auto-move → Clippings/  (permanent archive)
-```
-
-`raw/` is an **inbox only** — it should be empty at the end of every session. `Clippings/` is the permanent record. Source pages reference the **original URL**, not the file path, so nothing breaks when files move.
-
----
-
-## Ingest Workflow (file in raw/)
-
-```
-1. wiki_ingest_raw(filename)
-      → Neo4j nodes + embeddings
-      → auto-moves file to Clippings/ ✅ (automatic, no manual step)
-2. wiki_write_page(wiki/sources/<slug>.md)
-      → Compressed summary, key claims, original URL in frontmatter
-3. Update touched concept/entity pages with new wikilinks or sections
-4. wiki_update_index()
-```
-
-## Fetch Workflow (URL)
-
-```
-1. wiki_fetch_url(url)
-      → defuddle strips clutter
-      → Neo4j nodes + embeddings
-      → auto-archives to Clippings/ ✅ (automatic)
-2. wiki_write_page(wiki/sources/<slug>.md)   ← still my job
-3. Update touched concept/entity pages
-4. wiki_update_index()
-```
-
-Use `wiki_fetch_url(url, ingest=False)` to save to raw/ first for review before ingesting.
-
----
-
-## Writing Good Wiki Pages
-
-**Sources** (`wiki/sources/`): Compress the raw material. One "Core Insight" capturing the non-obvious takeaway. Key claims as a table. Original URL in frontmatter `sources` field. Don't reproduce — summarise and point.
-
-**Concepts** (`wiki/concepts/`): Define precisely, show the mechanism. Include a `## Connections` section with wikilinks and a `## Open Questions` section — this is how the system surfaces gaps.
-
-**Entities** (`wiki/entities/`): Role in this system first. A table of interfaces/relationships is more useful than prose.
-
-**Frontmatter required fields:**
-```yaml
----
 created: <ISO timestamp>
 updated: <ISO timestamp>
 type: entity | concept | source | synthesis
@@ -149,9 +8,12 @@ sources: <original URL>
 status: active | reference | archived
 confidence: 0.0–1.0
 ---
+
+
 ```
 
----
+
+
 
 ## Wikilink Rules
 
@@ -164,7 +26,8 @@ For display text: `[[page-slug|Display Text]]`
 Never use full paths in wikilinks: `[[slug|Display]]` ✓ / `[[Display|wiki/path/slug]]` ✗  
 Never write wikilink syntax inside backtick code spans — the linter will still parse it as a link.
 
----
+
+
 
 ## Lint Protocol
 
@@ -176,7 +39,8 @@ Fix order for real pages:
 3. Missing frontmatter — fill required fields
 4. Confidence < 0.7 — add a `## Caveats` section
 
----
+
+
 
 ## Insight Generation
 
@@ -187,7 +51,8 @@ Fix order for real pages:
 
 If an insight scores > 0.8 and is non-obvious, materialise it as a `wiki/concepts/` page with `type: synthesis`.
 
----
+
+
 
 ## What NOT to Do
 
@@ -198,12 +63,15 @@ If an insight scores > 0.8 and is non-obvious, materialise it as a `wiki/concept
 - **Don't lint log.md** — always false positives
 - **Don't use the `obsidian-para` vault** at `/home/ty/Documents/obsidian-para` — unset-up download; PARA is handled via `status` frontmatter here
 
----
+
+
 
 ## Full Tool Reference
 
 | Tool | When to use |
-|------|-------------|
+|
+|
+-|
 | `wiki_fetch_url(url)` | Fetch + clean + ingest + archive any web URL |
 | `wiki_ingest_raw(filename)` | Ingest file already in raw/ + auto-archive |
 | `wiki_write_page(path, body)` | Create/update any wiki page |
@@ -216,7 +84,8 @@ If an insight scores > 0.8 and is non-obvious, materialise it as a `wiki/concept
 | `explore_connections(topic)` | Graph traversal for hidden relationships |
 | `generate_insights()` | Zettelkasten pattern detection |
 
----
+
+
 
 ## Connections
 

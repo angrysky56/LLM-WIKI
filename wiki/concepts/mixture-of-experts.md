@@ -9,6 +9,8 @@ confidence: 0.88
 sources: https://arxiv.org/abs/2102.12166, https://arxiv.org/abs/2309.02427
 ---
 
+
+
 # Mixture of Experts
 
 A neural network architecture that divides parameters into discrete "expert" sub-networks and activates only a subset per forward pass — enabling massive parameter counts with a fraction of the FLOP cost per token.
@@ -33,7 +35,11 @@ where E_i is expert i's feedforward network, and g_i is the routing weight (typi
 MoE represents a fundamental tradeoff in the scaling tradeoff:
 
 | Architecture | Parameters | FLOPs/token | Memory |
-|-------------|-----------|-------------|--------|
+|
+-|
+--|
+-|
+--|
 | Dense (e.g., Llama 3 70B) | 70B | 140B FLOPs | Must load all weights |
 | MoE (e.g., Mixtral 8x7B) | 46.7B total, 12.9B active | ~12.9B FLOPs | Must load all weights, but only compute active |
 

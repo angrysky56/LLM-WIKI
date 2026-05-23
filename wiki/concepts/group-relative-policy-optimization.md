@@ -9,6 +9,8 @@ status: active
 confidence: 0.9
 ---
 
+
+
 # Group Relative Policy Optimization (GRPO)
 
 GRPO is a policy gradient algorithm for training LLMs that computes advantages by comparing within a group of samples from the same prompt — without requiring a separate reference model or critic network.
@@ -34,7 +36,10 @@ This makes GRPO significantly more computationally efficient than PPO, especiall
 ## Relationship to PPO
 
 | Aspect | PPO | GRPO |
-|--------|-----|------|
+|
+--|
+--|
+|
 | Baseline | Learned value function V(s) | Group mean μ(r_group) |
 | Reference model | Required (KL penalty) | Not required |
 | Critic network | Required | Not required |

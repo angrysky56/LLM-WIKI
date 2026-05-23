@@ -4,19 +4,23 @@ tags: [MOP, EDM, EFHF, cognitive-architecture, entropy, hallucination-detection,
 updated: 2026-04-14T04:11:54Z
 ---
 
+
+
 # MOP-EDM Cognitive Architecture
 
 **Type:** Synthesis — original cross-domain design
 **Origin:** Ty (2026-04-13), building on [[maximum-occupancy-principle]], [[edm-framework]], [[causal-state-edm-ood-isomorphism]], [[efhf]]
 **Confidence:** 0.80 — conceptual framework grounded in formal results; KL insight confirmed by MOP paper; AbsorbingState→Kernel2Transition proved (Prover9); EFHF integration at WEAK closure status
 
----
+
+
 
 ## The Core Claim
 
 MOP provides a principled *motivation* for how AI models should navigate reasoning space. EDM provides a principled *measurement* of where the model is in that space relative to known territory. EFHF provides the *verification and consistency enforcement* backbone. Together they define a cognitive architecture where models maintain exploratory diversity by default, become goal-directed when constrained, detect their own hallucinations via disruption signals, and avoid epistemic dead-ends without explicit reward engineering.
 
----
+
+
 
 ## EFHF Integration: MOP as Layer 0
 
@@ -36,7 +40,10 @@ MOP absorbing states are structurally equivalent to EFHF Kernel 2 transitions. T
 ### Full Layer Mapping
 
 | EFHF Layer | MOP Analog | Tool |
-|---|---|---|
+|
+|
+|
+|
 | **L0 (NEW)** | MOP Orchestrator — intrinsic motivation, action selection | MOP softmax policy |
 | L1 | Hypothesis generation from MOP's exploration target | LLM |
 | L2 | World model encoding of hypotheses | hipai-montague |
@@ -56,12 +63,16 @@ These three descriptions are the *same phenomenon* viewed from different theoret
 
 The sheaf-consistency-enforcer detects this via coboundary norms: when what mcp-logic has verified diverges from what hipai-montague believes, the edge residual rises, dual pressure accumulates, and the closure status degrades from KERNEL1 toward WARNING/TIMEOUT.
 
----
+
+
 
 ## The Physical-to-Cognitive Mapping
 
 | Physical MOP | Cognitive MOP | EFHF Implementation |
-|---|---|---|
+|
+|
+|
+|
 | Physical state (x, y, energy) | Epistemic state (understanding, hypotheses, confidence) | hipai-montague world model |
 | Physical actions (move L/R) | Cognitive actions (query, hypothesize, verify, synthesize) | MCP tool calls |
 | Energy reservoir | Epistemic energy E (coherence reserves) | Buffering capacity T |
@@ -73,7 +84,8 @@ The sheaf-consistency-enforcer detects this via coboundary norms: when what mcp-
 
 **The critical constraint:** Without energy depletion and absorbing states, MOP produces a random walk. *With* these constraints, goal-directed behavior emerges. The EFHF verification stack (L3-L5) provides the absorbing state detection that makes MOP's exploration controlled rather than chaotic.
 
----
+
+
 
 ## The EDM Connection
 
@@ -93,7 +105,8 @@ MOP agents seeking high β hunt for state-splitting events in the conceptual eps
 
 If two different reasoning paths converge on the same conceptual territory (similar future vectors despite different past vectors), this indicates a convergent insight or a systematic confabulation. EDM's simultaneous discovery finding provides the detection method.
 
----
+
+
 
 ## The KL Regularization Problem (Key Training Insight)
 
@@ -103,7 +116,8 @@ The MOP paper proves (Supplemental Sec. F) that KL-regularization with a uniform
 
 **MOP alternative:** Use absolute entropy as the primary signal. Define absorbing states as constraints. Produce models that are *optimally stochastic* — diverse by default, precise near absorbing boundaries. The absorbing states replace the KL tether: "don't enter states from which no coherent continuation is possible" replaces "don't stray from the reference model."
 
----
+
+
 
 ## Three Implementation Levels
 
@@ -119,7 +133,8 @@ Replace RLHF's KL-regularized reward maximization with absolute entropy path max
 
 Attention distribution incorporates entropy-maximizing component. Past/future decomposition of hidden states enables per-layer, per-head disruption monitoring — attention-level EDM.
 
----
+
+
 
 ## Formal Verification via EFHF Stack
 
@@ -139,19 +154,24 @@ Attention distribution incorporates entropy-maximizing component. Past/future de
 
 **Absorbing states are design-defined, not learned.** If the neural component learns to define epistemic dead-ends, it will hallucinate bridges across contradictions to keep exploring.
 
----
+
+
 
 ## Connection to the Ethical Framework
 
 | Ethical Layer | MOP Analog | EFHF Layer |
-|---|---|---|
+|
+|
+|
+|
 | **Deontology** (harm = harm) | Absorbing states | L5+ conscience-servitor triage |
 | **Virtue** (wisdom, integrity, fairness) | α/β-balanced optimal policy | L4 advanced-reasoning |
 | **Utilitarianism as servant** | Rewards serve entropy, not the reverse | L0 MOP orchestrator |
 
 MOP formally proves: when utility serves entropy (possibility), agents survive, explore, cooperate, and adapt. When utility is the master (reward maximization), agents park at food sources and lose behavioral diversity.
 
----
+
+
 
 ## Open Questions
 
@@ -163,7 +183,8 @@ MOP formally proves: when utility serves entropy (possibility), agents survive, 
 6. **Adaptive α/β?** High β for brainstorming, low β for fact-checking. Task-dependent tuning.
 7. **KL insight empirical validation?** Compare RLHF (KL-regularized) vs MOP (absolute entropy + absorbing states) trained models.
 
----
+
+
 
 ## Connections
 

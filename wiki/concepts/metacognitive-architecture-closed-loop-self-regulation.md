@@ -1,9 +1,12 @@
 ---
 summary: Engineering internal awareness and closed-loop self-regulation in LLMs using biofeedback paradigms, PID control, and LQR — peer-reviewed whitepaper summary
+type: concept
 tags: [metacognition, llm, closed-loop, activation-steering, pid-control, biofeedback, representation-engineering]
 updated: 2026-05-21T07:05:06Z
 created: 2026-05-21T07:05:06Z
 ---
+
+
 
 # Metacognitive Architecture: Closed-Loop Self-Regulation in LLMs
 
@@ -24,7 +27,9 @@ The claim that an "internal check loop" is technically infeasible misunderstands
 Human biofeedback demonstrates that "awareness" is not mystical — it is the mechanical translation of latent state data into usable feedback signals.
 
 | Biological | Artificial |
-|------------|------------|
+|
+|
+|
 | HRV, EEG, EMG sensors | TransformerLens activation hooks |
 | Sympathetic hyperarousal | Cascading hallucination / attention collapse |
 | Vagal tone regulation | PID activation steering |
@@ -70,7 +75,10 @@ By supplying semantically resonant and often contradictory tokens (e.g., `crucib
 ## Latent Behavioral Signatures as Control Objectives
 
 | Behavioral Objective | Control-Theoretic Term | Artificial Analog |
-|---------------------|------------------------|-------------------|
+|
+|
+|
+-|
 | Exploratory Variance | Entropic Drive | Pure semantic exploration, maximizing action-entropy |
 | Convergence-Forcing | Constraint Resolution | Forceful collapse of ambiguity to resolve tensions |
 | Boundary-Constraint | Safety Alignment Avoidance | Triggered by ungrounded abstraction |
@@ -90,7 +98,10 @@ This is the exact computational analog of connecting EEG electrodes to a biofeed
 **RepE** operates on the hypothesis that high-level behaviors are encoded as linear directions within the representation space. Contrastive pairs extract difference vectors that can be added at runtime to steer behavior without parameter updates.
 
 | Method | Mechanism | Distinctive Feature |
-|--------|-----------|---------------------|
+|
+--|
+--|
+|
 | CAA | Fixed vector addition | Static behavioral shifts |
 | SADI | Binary masks + element-wise scaling | Per-input dynamic adaptation |
 | SHARP | Decomposed steering vectors | Mitigates visual hallucinations in LVLMs |

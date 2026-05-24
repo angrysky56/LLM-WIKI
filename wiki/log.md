@@ -12556,3 +12556,21 @@ Index updated with 448 pages (Deep refresh completed)
   - [[conscience-servitor]] → [[mcp-logic]] (no return link)
   - [[mamba]] → [[titans]] (no return link)
   - [[subagent-delegation]] → [[bounded-structured-memory]] (no return link)
+
+## [2026-05-23 21:26] write
+
+Updated page: wiki/sources/papers/betteti-baggio-bullo-zampieri-idp-hopfield-2025.md
+
+## [2026-05-23 21:26] write
+
+Updated page: wiki/concepts/emergent-communication.md
+
+## [2026-05-23 21:26] write
+
+Updated page: wiki/concepts/hopfield-network.md
+
+## [2026-05-23 22:35] ingest | tufte-viz Claude Code skill — Edward Tufte data visualization principles.md
+
+Ingested raw/tufte-viz Claude Code skill — Edward Tufte data visualization principles.md into knowledge graph.
+
+Preview: [Raw](https://gist.github.com/aparente/e48c353755958621b3c0004593105a90/raw/d5bc9c522e16376c2d714eb8368bb36adb03aa2c/references__analytical-design.md)  [**references\_\_analytical-design.md**](#file-r...

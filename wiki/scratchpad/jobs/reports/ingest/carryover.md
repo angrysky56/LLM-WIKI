@@ -2,8 +2,7 @@
 
 ## Established
 - **Pipeline healthy**: raw/ emptied after every run, all files archived to Clippings/
-- **CodeGraph ingested**: GitHub repo — local code knowledge graph for Claude Code/Codex/Cursor/OpenCode
-- **Graph**: 454 pages indexed (+69 from prior run)
+- **Tufte-viz skill ingested**: 128 nodes, 64 edges — Edward Tufte analytical design principles for Claude Code
 - **Ingest tool**: wiki_ingest_raw auto-archives to Clippings/repositories/YYYY/
 
 ## Open
@@ -17,6 +16,5 @@
 - **Backlog**: Empty — raw/ is clean
 
 ## Notes
-- Single file this cycle (codegraph GitHub repo clip)
-- CodeGraph claims ~35% cost reduction, ~70% fewer tool calls for AI coding assistants
-- Could be relevant for Hermes Agent code intelligence integration
+- Tufte-viz skill covers: six principles of analytical design, sparklines, layering, chart critique
+- Potential Hermes Agent visualization skill integration candidate

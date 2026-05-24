@@ -190,8 +190,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2ab9c987c297f7a1",
+  "active": "c161994581ba454a",
   "lastOpenFiles": [
+    "Clippings/repositories/2026/tufte-viz Claude Code skill — Edward Tufte data visualization principles.md",
+    "raw/codegraph Pre-indexed code knowledge graph for Claude Code, Codex, Cursor, and OpenCode — fewer tokens, fewer tool calls, 100% local.md",
+    "raw/tufte-viz Claude Code skill — Edward Tufte data visualization principles.md",
+    "Clippings/papers/2025/betteti-idp-hopfield-sciadv-2025.pdf",
+    "Clippings/papers/2025",
+    "wiki/concepts/hopfield-network.md",
+    "wiki/concepts/emergent-communication.md",
+    "wiki/sources/papers/betteti-baggio-bullo-zampieri-idp-hopfield-2025.md",
     "wiki/concepts/domain-onboarding-standards.md",
     "wiki/entities/tools/isabelle-hol.md",
     "wiki/concepts/engineering-internal-awareness.md",
@@ -212,12 +220,6 @@
     "wiki/sources/articles/spacex-starship-v3-launch-may-2026.md",
     "wiki/sources/articles/china-coal-mine-explosion-shanxi-may-2026.md",
     "wiki/concepts/llm-wiki-pattern.md",
-    "wiki/concepts/agent-onboarding.md",
-    "wiki/concepts/isabelle-hol.md",
-    "wiki/concepts/institutional-capture.md",
-    "wiki/concepts/catastrophic-forgetting.md",
-    "wiki/concepts/scaling-law.md",
-    "wiki/concepts/agentic-oversight.md",
     "wiki/scratchpad/fix_tag_lists.py",
     "wiki/scratchpad/jobs/reports/librarians-assistant",
     "wiki/scratchpad/full_audit.py",
@@ -225,8 +227,6 @@
     "wiki/scratchpad/jobs/reports/arxiv/search_arxiv.py",
     "wiki/scratchpad/jobs/reports/ingest",
     "wiki/scratchpad/jobs/reports/arxiv",
-    "wiki/scratchpad/jobs/reports/orcaid",
-    "wiki/scratchpad/jobs/reports/researcher",
-    "wiki/scratchpad/jobs/reports/librarian"
+    "wiki/scratchpad/jobs/reports/orcaid"
   ]
 }

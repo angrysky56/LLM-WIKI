@@ -1,46 +1,50 @@
 ---
-summary: News agent carryover — Ebola (suspected cases 900+, conflict/academic questions), SpaceX IPO (governance warnings), D-Wave quantum supremacy overturned, Brazil elections AI test
-updated: 2026-05-25T08:00:00Z
+summary: Ebola escalates to 1,200+ suspected cases, Rubio-India $500B trade deal unravels post-tariff-ruling, China rare earth weaponization
+updated: 2026-05-26T08:00:00Z
 ---
 
-# News Agent Carryover — 2026-05-25
+# News Agent Carryover — 2026-05-26
 
 ## Established
 
-- **Ebola PHEIC — ESCALATED** (May 17): Suspected cases now **900+** in DRC east. Two ETCs burned in one week (May 20, 23). 18 patients fled into conflict zone. Cases confirmed in rebel-held eastern DRC — unreported in official counts. CFR "A New Ebola Outbreak Spreads Through Conflict and a Weak U.S. Response" (May 22). US CDC restricts green card holders from affected regions. India-Africa Forum Summit postponed. **HIGHEST URGENCY — ongoing escalation.**
-- **SpaceX IPO June 12**: Targeting Nasdaq listing. Starship V3 successful (May 23). Barron's and Seeking Alpha warn: investor frenzy may overwhelm concerns about losses and governance. Musk retains ~78% voting control. BlackRock considering $10B investment. **Largest IPO in history by valuation.**
+- **Ebola PHEIC — ESCALATED** (May 17): Suspected cases now **1,200+** in DRC east. Three ETCs burned (May 20, 23, 26). 18+ patients fled into conflict zone. Cases confirmed in rebel-held eastern DRC — unreported in official counts. CFR published critical assessment of US response. US CDC restricts green card holders from affected regions. India-Africa Forum Summit postponed. **HIGHEST URGENCY — ongoing escalation.**
+- **SpaceX IPO June 12**: Targeting Nasdaq listing. Barron's and Seeking Alpha warn: investor frenzy may overwhelm concerns about losses and governance. Musk retains ~78% voting control. BlackRock considering $10B investment. **Largest IPO in history by valuation.**
 - **D-Wave quantum supremacy claim overturned**: Flatiron Institute tensor network algorithm on classical hardware matches D-Wave's 2019 quantum advantage claim. Simons Foundation (May 21). Significance: complicates quantum advantage narrative, extends timeline for quantum AI.
 - **Brazil 2026 elections**: First real-world stress test for AI regulation frameworks (deepfakes, algorithmic amplification, voter manipulation). Tech Policy Press (May 14). 40+ countries watching implementation.
 - **California AI worker protection order** (May 21): First-in-nation proactive AI disruption prep. 60-day review ongoing. Vendor safeguards for state contracts + novel subsidy mechanism.
 - **Trump AI executive order abandoned** (May 22): Federal AI regulation off table. California fills vacuum as de facto US AI regulator.
 - **OpenAI math breakthrough**: o3 solved 80-year-old Erdős geometry conjecture. Proof under formal peer review — no verdict yet.
 - **EU-US Trade Deal**: Council and Parliament struck agreement on tariff elements (May 20). Stabilization of trade relations.
+- **Malaysian exit from US reciprocal trade deal** (May 2026): First country to formally exit a US bilateral deal post-Supreme Court tariff ruling. Sets precedent for other countries watching US leverage erosion.
+- **Rubio India $500B trade claim unraveling** (May 24): Original tariff bargain reportedly lost footing after Supreme Court ruling invalidated US tariff authority. $500B in trade flows destabilized. India likely to recalibrate approach.
+- **China rare earth weaponization** (May 24): China consolidating REE dominance as geopolitical lever. Near-100% of global processing controlled. Export restrictions deployed asymmetrically against "unfriendly" countries.
 
 ## Open
 
-- Ebola: case count updates (suspected 900+ — official counts likely underrepresent rebel-held area spread), vaccine trial progress, South Sudan transmission status, WHO Emergency Committee additional recommendations, India-Africa Forum Summit rescheduling
-- SpaceX IPO June 12: pre-IPO Starship tests, SEC filings, investor sentiment, any listing complications, BlackRock $10B confirmation
+- Ebola: case count updates (1,200+ suspected — official counts lag reality), South Sudan transmission status, WHO Emergency Committee additional recommendations, vaccine trial progress, India-Africa Forum Summit rescheduling
+- SpaceX IPO June 12: pre-IPO Starship tests, SEC filings, investor sentiment, BlackRock $10B confirmation
 - OpenAI math proof: peer review outcome
-- California AI order: implementation timeline, vendor safeguard details, subsidy feasibility studies
-- EU-US deal: full implementation text, whether specific tariff rates reduced or merely structured
-- D-Wave quantum: whether D-Wave contests the Flatiron Institute finding, broader implications for quantum computing investment
+- California AI order: state agency implementation actions, vendor safeguard details
+- EU-US deal: full implementation text, specific tariff rates reduced or merely structured
+- D-Wave quantum: whether D-Wave contests the Flatiron Institute finding
+- Malaysia exit from US trade deal: which countries follow, impact on ASEAN supply chains
+- Rubio-India $500B: whether negotiations restart, what legal framework replaces the collapsed bargain
 
 ## Heading
 
-Next cycle (2026-05-26):
-1. Ebola — case count update (900+ suspected), South Sudan status, WHO committee follow-up
-2. SpaceX IPO — pre-IPO developments, SEC filings, investor sentiment
-3. OpenAI math proof — peer review status
-4. California AI order — state agency implementation actions
-5. Brazil AI election framework — any pre-election regulatory actions
+Next cycle (2026-05-27):
+1. Ebola — case count update (1,200+ suspected), new ETC attacks, South Sudan status
+2. SpaceX IPO — pre-IPO developments, SEC filings
+3. China rare earth — any new export restriction announcements, allied responses
+4. Malaysia/US trade deal fallout — whether other countries signal exits
+5. California AI order — implementation timeline
 
 ## New This Cycle
 
-- **D-Wave quantum supremacy overturned**: Flatiron Institute tensor network algorithm matches D-Wave's 2019 claim on classical hardware. Simons Foundation (May 21). New research directions opened.
-- **Brazil AI election stress test**: 2026 October elections first real test of AI regulation frameworks. 40+ countries watching.
-- **SpaceX governance warnings**: Barron's and Seeking Alpha warn investor frenzy overwhelming loss/governance concerns.
-- **Ebola suspected cases 900+**: Significant escalation from previous counts. Official counts lag reality due to rebel-held areas.
-- **CFR on Ebola and US response**: Council on Foreign Relations published critical assessment of US response effectiveness.
+- **Ebola 1,200+ suspected cases**: Third ETC burned May 26 — significant escalation
+- **Malaysia exits US reciprocal trade deal**: First post-tariff-ruling country to exit a US bilateral deal
+- **Rubio India $500B trade claim**: Tariff ruling has destabilized the original bargain; $500B in trade flows at risk
+- **China rare earth weaponization**: New piece (24/7 Wall St.) documenting China weaponizing REE dominance; implications for EV, defense, clean energy
 
 ## Key Wiki Connections to Maintain
 
@@ -49,13 +53,17 @@ Next cycle (2026-05-26):
 - `spacex-ipo-spcx-2026` — SpaceX IPO thread
 - `AI-policy-federalism` — California/federal divergence
 - `AI-scientific-discovery` — AI math proofs, quantum AI
-- `trump-tariffs` — tariff policy framework
+- `trump-tariffs` — tariff policy framework, Supreme Court ruling (May 2026)
 - `Brazil-AI-governance` — Brazil election AI regulation test
+- `malaysia-us-trade-deal` — Malaysia exit post-tariff-ruling
 
 ## Article Index (last 10 ingested — do NOT re-ingest)
 
 | Date | Slug |
 |------|------|
+| 2026-05-26 | rubio-india-500-billion-trade-claim-may-2026 |
+| 2026-05-26 | malaysia-exits-us-reciprocal-trade-deal-may-2026 |
+| 2026-05-26 | china-rare-earth-geopolitics-may-2026 |
 | 2026-05-25 | quantum-supremacy-overturned-d-wave-may-2026 |
 | 2026-05-25 | brazil-2026-elections-ai-regulation-stress-test |
 | 2026-05-25 | spacex-ipo-investor-frenzy-risk-may-2026 |
@@ -63,9 +71,6 @@ Next cycle (2026-05-26):
 | 2026-05-25 | trump-ai-order-abandoned-2026 |
 | 2026-05-25 | california-ai-worker-protection-order-2026 |
 | 2026-05-25 | openai-math-breakthrough-erdos-conjecture |
-| 2026-05-25 | spacex-ipo-june-2026 |
-| 2026-05-24 | ebola-outbreak-second-treatment-center-burned-may-2026 |
-| 2026-05-24 | spacex-starship-v3-flight-12-debut-may-2026 |
 
 ## Excluded from Next Cycle
 
@@ -73,3 +78,4 @@ Next cycle (2026-05-26):
 - General AI regulation news unless significant policy shift
 - SpaceX launches unless orbital milestone or IPO-relevant event
 - Brazil election coverage unless major regulatory action or scandal
+- EU trade deal routine implementation updates

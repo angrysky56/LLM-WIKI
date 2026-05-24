@@ -15,4 +15,4 @@ confidence: 0.3
 
 ## Connections
 
-- [[grpo]]
+- [[group-relative-policy-optimization]] — GRPO as an RLHF alternative

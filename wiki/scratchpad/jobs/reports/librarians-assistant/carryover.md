@@ -1,27 +1,15 @@
-# Librarians-Assistant Carryover — 2026-06-16
+# Librarians-Assistant Carryover — 2026-06-17
 
 ## What Was Fixed
-
-- **synapse-llm-wiki-operating-guide.md**: Real frontmatter values (template placeholders replaced with actual dates, types, summaries, tags)
-- **para-knowledge-architecture-cohesion-insight.md**: 3 wikilinks normalized to existing stubs/pages
-- **francesca-albanese-sanctions-case-insight.md**: 4 wikilinks normalized to stubs
-- **6 entity stubs created**: knowledge-architecture-stub, note-taking-systems-stub, francesca-albanese-stub, us-sanctions-stub, icc-stub, legal-accountability-stub
-- **4 orphan insights connected**: oee-knowledge-cluster, para-system-knowledge-architecture-cohesion, francesca-albanese-sanctions-legal-policy-divergence
-- **3 inbound links added**: open-ended-evolution, para-methodology, accountability, governance → insights
+- 6 concept stubs created: delta-direct, grpo, collm-nas, control-llm, namm, llm-training, llm-inference
+- 2 wikilinks fixed: `[[grpo]]` → `[[group-relative-policy-optimization]]`, bad deltadirect slug fixed
+- All missing stubs from librarian audit resolved (full_audit.py now shows 0 missing stubs)
 
 ## What Remains
-
-1. **synapse-llm-wiki-operating-guide.md**: 3 wikilinks (`[[page-slug]]`, `[[slug]]`, `[[Display]]`) appear broken but are intentional template examples — may want to add a note/prefix to distinguish them as non-example content
-2. **~279 pages with missing frontmatter** — mostly in scratchpad/agent-sheets (non-critical noise per librarian)
-3. **~215 broken wikilinks** — all in scratchpad/report files (non-critical noise per librarian)
+1. **141 orphan pages** — high-value concepts with no inbound links (low urgency, requires content judgment)
+2. **1297 non-reciprocal link pairs** — large scope, would need systematic traversal
+3. **Tag taxonomy normalization** — not audited this cycle
+4. **3 template wikilinks** in `synapse-llm-wiki-operating-guide.md` (`[[page-slug]]`, `[[slug]]`, `[[Display]]`) — these are intentional syntax examples, not broken links; could add a clarifying comment in the page itself
 
 ## Hard Blockers
-
-- None — vault content layer is clean
-
-## Notes
-
-- MCP tools confirmed working (project-synapse-mcp venv)
-- The 3 "broken" links in the operating guide are template examples in a documentation section — they are NOT broken links that need fixing
-- Orphans reduced from 3 to 0 by connecting insight pages to related concept pages
-- High-value dirs (concepts/entities/synthesis) now have 0 broken wikilinks and 0 missing frontmatter
+- None. All identified broken links are now resolved. Remaining issues are scope/long-term.

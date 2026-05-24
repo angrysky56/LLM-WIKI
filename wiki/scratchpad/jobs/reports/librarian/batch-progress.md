@@ -1,42 +1,34 @@
-# Batch Progress — 2026-06-16 08:50
+# Batch Progress — 2026-06-17 08:50
 
 ## Fixes Applied This Batch
 
-### Broken Wikilinks Fixed (9 links resolved)
-- **synapse-llm-wiki-operating-guide.md** frontmatter: replaced template placeholders with real values (`<ISO timestamp>` → actual dates, `entity | concept | source | synthesis` → `synthesis`, etc.)
-- **para-knowledge-architecture-cohesion-insight.md**: `[[para]]` → `[[para-methodology]]`, `[[knowledge-architecture]]` → `[[knowledge-architecture-stub]]`, `[[note-taking-systems]]` → `[[note-taking-systems-stub]]`
-- **francesca-albanese-sanctions-case-insight.md**: `[[francesca-albanese]]` → `[[francesca-albanese-stub]]`, `[[us-sanctions]]` → `[[us-sanctions-stub]]`, `[[icc]]` → `[[icc-stub]]`, `[[legal-accountability]]` → `[[legal-accountability-stub]]`
+### Stubs Created (6 concept stubs)
+- `wiki/concepts/delta-direct.md` — DeltaDirect directional motion blindness (from deltadirect paper)
+- `wiki/concepts/grpo.md` — alias stub for group-relative-policy-optimization
+- `wiki/concepts/collm-nas.md` — CoLLM-NAS dual-LLM NAS architecture
+- `wiki/concepts/control-llm.md` — Control LLM for catastrophic forgetting mitigation
+- `wiki/concepts/namm.md` — Neural Attention Memory Models
+- `wiki/concepts/llm-training.md` — LLM training stub
+- `wiki/concepts/llm-inference.md` — LLM inference stub
 
-### Stubs Created (6 entity stubs)
-- `wiki/entities/knowledge-architecture-stub.md` — stub for knowledge-architecture
-- `wiki/entities/note-taking-systems-stub.md` — stub for note-taking-systems
-- `wiki/entities/francesca-albanese-stub.md` — Francesca Albanese UN special rapporteur
-- `wiki/entities/us-sanctions-stub.md` — US SDN sanctions framework
-- `wiki/entities/icc-stub.md` — International Criminal Court
-- `wiki/entities/legal-accountability-stub.md` — judicial constraints on executive power
-
-### Orphans Resolved (2 insight pages connected)
-- **open-ended-evolution.md** → added `[[oee-knowledge-cluster-tierra-lenia-evosphere-insight]]` to connections
-- **para-methodology.md** → added `[[para-system-knowledge-architecture-cohesion-insight]]` to connections
-- **accountability.md** → added `[[francesca-albanese-sanctions-legal-policy-divergence-insight]]` to connections
-- **governance.md** → added `[[francesca-albanese-sanctions-legal-policy-divergence-insight]]` to connections
-
-### Remaining 3 Broken Links (synapse-llm-wiki-operating-guide.md)
-The remaining 3 broken links (`[[page-slug]]`, `[[slug]]`, `[[Display]]`) are **intentional example syntax** in the operating guide's wikilink demonstration section — NOT real broken links. They are template examples showing the correct format for display-text wikilinks. No fix needed.
+### Wikilinks Fixed (3)
+- `wiki/concepts/reinforcement-learning-from-human-feedback.md`: `[[grpo]]` → `[[group-relative-policy-optimization]]`
+- `wiki/concepts/delta-direct.md`: `[[deltadirect-directional-motion-blindness-video-llms]]` → `[[deltadirect-directional-motion-blindness-video-llms-2026]]`
 
 ## Audit Snapshot
 
-- **High-value dirs (concepts/entities/synthesis): CLEAN**
-  - concepts: 245 pages, 0 broken wikilinks, 0 missing frontmatter
-  - entities: 51 pages, 0 broken wikilinks, 0 missing frontmatter  
-  - synthesis: 33 pages, 3 "broken" (template examples), 0 missing frontmatter
-- **Orphans: 0** — all resolved by connecting insights to related concept pages
-- **Total wiki pages: 574**
+- **High-value dirs (concepts/entities/synthesis):** CLEAN
+  - concepts: 245+ pages, 0 broken wikilinks (except 3 template examples in operating guide)
+  - entities: 51 pages, 0 broken wikilinks
+  - synthesis: 33 pages, 0 broken wikilinks
+- **Missing stubs:** 0 (all resolved this session)
+- **Remaining "broken":** 3 template examples in `synapse-llm-wiki-operating-guide.md` (`[[page-slug]]`, `[[slug]]`, `[[Display]]`) — intentional syntax examples, not real links
 
 ## Open Items
-1. `synapse-llm-wiki-operating-guide.md` has 3 wikilinks that appear as broken but are intentional template examples — document this in the page itself to prevent future confusion
-2. The 279 pages with missing frontmatter are mostly in scratchpad — librarian noted these are non-critical noise
+1. 141 orphan pages — high-value concepts with no inbound links (noted since 2026-06-16, low urgency, requires content judgment)
+2. 1297 non-reciprocal link pairs — large scope, consider dedicated sprint
+3. Tag taxonomy normalization — not audited this cycle
 
 ## MCP Status
-- MCP: OK (project-synapse-mcp venv confirmed)
+- MCP: OK (package import succeeds, using filesystem fallback)
 - `generate_insights()`: skipped (300s timeout, unreliable in cron)

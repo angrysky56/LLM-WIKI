@@ -11,10 +11,14 @@
             "id": "8a3172c0890b8998",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "raw/Profiles Running Multiple Agents.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Profiles Running Multiple Agents"
             }
           }
         ]
@@ -190,8 +194,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2ab9c987c297f7a1",
+  "active": "8a3172c0890b8998",
   "lastOpenFiles": [
+    "raw/Profiles Running Multiple Agents.md",
+    "wiki/scratchpad/jobs/reports/news/headlines-2026-05-26.md",
+    "wiki/sources/articles/china-rare-earth-geopolitics-may-2026.md",
+    "wiki/sources/articles/malaysia-exits-us-reciprocal-trade-deal-may-2026.md",
+    "wiki/sources/articles/rubio-india-500-billion-trade-claim-may-2026.md",
+    "wiki/concepts/grpo.md",
+    "wiki/concepts/llm-inference.md",
+    "wiki/concepts/llm-training.md",
+    "wiki/concepts/control-llm.md",
+    "wiki/concepts/collm-nas.md",
+    "wiki/concepts/namm.md",
+    "wiki/concepts/delta-direct.md",
     "wiki/scratchpad/jobs/reports/researcher/discovery-2026-06-25.md",
     "wiki/scratchpad/__pycache__/fix_double_fm.cpython-311.pyc",
     "wiki/scratchpad/__pycache__",
@@ -210,18 +226,6 @@
     "wiki/concepts/xgboost.md",
     "wiki/synthesis/non-obvious-insight.md",
     "wiki/concepts/cobra.md",
-    "wiki/entities/projects/huggingface.md",
-    "wiki/synthesis/iran-war.md",
-    "wiki/concepts/sqlite.md",
-    "wiki/synthesis/asteroid-2026-jh2.md",
-    "wiki/concepts/protein-aggregation.md",
-    "wiki/synthesis/us-2026-midterms.md",
-    "wiki/synthesis/trump-endorsement-primary-dominance.md",
-    "wiki/concepts/ai-diagnostics.md",
-    "wiki/concepts/alzheimers-research.md",
-    "wiki/synthesis/trump-republican-party.md",
-    "wiki/synthesis/2026-republican-primaries.md",
-    "wiki/synthesis/russia-sanctions-regime.md",
     "wiki/agents/skills/insights-agent/references",
     "wiki/agents/skills/insights-agent",
     "wiki/agents/skills/orcaid",

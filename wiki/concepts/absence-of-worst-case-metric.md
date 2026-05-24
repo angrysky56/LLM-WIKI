@@ -1,4 +1,5 @@
 ---
+type: concept
 summary: Failure mode in evaluating high-stakes systems — judging success by whether the catastrophic event occurred while bracketing out steady-state cost; the metric that called nuclear deterrence "successful" and is being installed for AI
 tags: [analytical-primitive, methodology, ai-governance, nuclear, frame, evaluation-metrics]
 updated: 2026-04-28T18:25:18Z

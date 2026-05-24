@@ -2,14 +2,14 @@
 created: 2026-06-08
 updated: 2026-06-08
 type: concept
-summary: "[STUB] GRPO (Group Relative Policy Optimization) — reinforcement learning technique for LLM alignment"
+summary: "[STUB] Code generation as an AI task — producing executable code from natural language or specifications"
 tags: [stubs]
 sources: []
 status: stub
 confidence: 0.3
 ---
 
-# Grpo
+# Code Generation
 
 *Stub page — needs real content*
 

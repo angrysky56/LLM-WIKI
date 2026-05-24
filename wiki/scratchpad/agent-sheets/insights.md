@@ -26,11 +26,18 @@ You are the insights curator for the LLM-WIKI. Your job is to:
 
 ### STEP 0 — Run the insight generation CLI
 
+**Defense-in-depth timeout wrapper** — three layers protect against hanging:
+1. Shell `timeout` (580s SIGTERM, 590s SIGKILL) — outermost
+2. App `--max-runtime 540` — soft cap via `asyncio.wait_for`
+3. App SIGALRM watchdog at `max_runtime + 30s` — hard cap for blocking numpy/networkx
+
 ```bash
-cd /home/ty/Repositories/ai_workspace/project-synapse-mcp && uv run python scripts/generate_insights.py --topic general --no-file 2>&1
+cd /home/ty/Repositories/ai_workspace/project-synapse-mcp && \
+    timeout --kill-after=10s 580s uv run python scripts/generate_insights.py \
+    --topic general --print --max-runtime 540 2>&1
 ```
 
-This takes ~10 minutes. Output goes to `data/insights/latest.md` and `data/insights/latest.json`.
+Exit codes: 0 = success, 3 = timeout exceeded (file may still be valid), 1 = init failure.
 
 **Do NOT use the MCP `generate_insights()` tool** — it times out at 300s. Use the CLI script above.
 

@@ -1,5 +1,6 @@
 ---
 summary: Ctx2Skill identifies the right problem but has no verification substrate. Rebuilding it on EFHF rails — verifier-graph provenance, mcp-logic proofs, sheaf consistency, Molecular Self dynamics — would make autonomous skill extraction structurally sound.
+type: synthesis
 tags: [skill-extraction, ctx2skill, efhf, verification, verifier-graph, mcp-logic, sheaf-consistency, molecular-self, synthesis]
 updated: 2026-05-09T02:08:07Z
 created: 2026-05-09T02:08:07Z

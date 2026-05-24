@@ -1,13 +1,12 @@
 ---
-
+created: 2026-05-22T06:59:53Z
+updated: 2026-05-22T06:59:53Z
+type: synthesis
 summary: Training framework for Essan symbols as internal representation markers in LLMs, enabling hallucination detection via activation geometry.
 tags: [essan, internal-representations, symbol-grounding, evolutionary-computation, arc, hallucination-detection]
-updated: 2026-05-22T06:59:53Z
-created: 2026-05-22T06:59:53Z
 sources: []
 status: active
 confidence: 0.8
-type: synthesis
 ---
 
 # Essan: Internal Representation Training Framework

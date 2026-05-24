@@ -1,4 +1,5 @@
 ---
+type: paper
 summary: Odrzywołek (2026) — discovery of the EML operator eml(x,y)=exp(x)−ln(y), a single binary primitive generating all elementary functions from constant 1, with applications to symbolic regression via gradient-trainable binary trees
 tags: [mathematics, operator-theory, symbolic-regression, sheffer-stroke, neuro-symbolic, analog-computing]
 updated: 2026-04-14T08:15:09Z

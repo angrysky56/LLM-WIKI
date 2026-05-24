@@ -1,13 +1,12 @@
 ---
-
+created: 2026-04-11T04:47:47Z
+updated: 2026-04-11T04:47:47Z
+type: synthesis
 summary: IR and indexing theory applied to LLM-WIKI: TOC vs conceptual index, controlled vocabulary, thesaurus relationships, HITS on wikilinks, mere mentions, and GAAC clustering for wiki health
 tags: [indexing, information-retrieval, controlled-vocabulary, thesaurus, HITS, PageRank, clustering, GAAC, wiki-organization, synthesis]
-updated: 2026-04-11T04:47:47Z
-created: 2026-04-11T04:47:47Z
 sources: []
 status: active
 confidence: 0.8
-type: synthesis
 ---
 
 # Wiki Indexing Theory — Implications for LLM-WIKI

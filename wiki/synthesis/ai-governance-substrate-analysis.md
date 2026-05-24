@@ -1,5 +1,6 @@
 ---
 summary: Five interlocking cognitive primitives for evaluating AI governance discourse at the substrate level — spin-vs-substrate, absence-of-worst-case metric, institutional capture vs species framing, cryptographic vs semantic alignment, frame transmission; ASEKE-compatible diagnostic toolkit
+type: synthesis
 tags: [synthesis, ai-governance, analytical-primitive, aseke, methodology, frame, institutional-analysis]
 updated: 2026-04-28T18:29:40Z
 ---

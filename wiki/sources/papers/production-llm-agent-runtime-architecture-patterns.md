@@ -1,4 +1,5 @@
 ---
+type: paper
 summary: A methodology for composing production LLM agent runtime architectures — treating the LLM/software boundary as a first-class design concern
 tags: [paper, arxiv, llm-agents, agent-architecture, production-systems]
 sources: https://arxiv.org/abs/2605.20173

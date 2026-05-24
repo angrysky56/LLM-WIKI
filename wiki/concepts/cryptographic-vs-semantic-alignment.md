@@ -1,4 +1,5 @@
 ---
+type: concept
 summary: Distinction between what cryptographic protocols can prove (integrity, provenance, state validity) and what they cannot (semantic alignment of outputs to consequences in a world the protocol does not see); decentralized consensus is necessary but not sufficient for AI governance
 tags: [analytical-primitive, ai-governance, cryptography, alignment, decentralization, frame]
 updated: 2026-04-28T18:26:30Z

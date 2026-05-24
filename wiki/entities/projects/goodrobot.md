@@ -1,4 +1,5 @@
 ---
+created: 2026-06-08
 summary: GoodRobot — SHUT DOWN status added
 tags: [company, zero-human, shut-down]
 updated: 2026-05-18T06:48:03Z

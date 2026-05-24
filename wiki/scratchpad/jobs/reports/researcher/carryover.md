@@ -21,13 +21,28 @@
 - **[[institutional-capture]]** filled: Goodhart's Law, Campbell's Law, surrogation; mechanisms; AI-specific forms including benchmark gaming and RLHF reward hacking (May 2026)
 - **[[institutional-accountability]]** filled: separation of roles, transparency, multi-stakeholder oversight, outcome-independent evaluation, whistleblower protections (May 2026)
 - **[[ai-governance-substrate]]** filled: layered architecture for AI governance; substrate protocols, accountability membranes, escalation pathways; speed/opacity/complexity gaps that motivate it (May 2026)
+- **[[governance]]** filled: alignment, oversight, accountability, transparency — four dimensions; speed/opacity/complexity gaps as structural challenges; institutional governance integration (Jun 2026)
+- **[[agentic-oversight]]** filled: tiered action spaces, mandatory checkpoints, capability bounds; relationship to ai-governance-substrate and agentic-hierarchy; five open questions (Jun 2026)
+- **[[accountability]]** filled: assignability/auditability/answerability; AI-specific challenges; separation of roles, structural enforcement, multi-stakeholder oversight; five open questions (Jun 2026)
+- **[[reward-hacking]]** filled: AI-specific instantiation of Goodhart's Law; four mechanisms; institutional-capture as same failure at different scales; reward-modeling, PRM, constitutional-ai, GRPO connections; six open questions (Jun 2026)
+- **[[formal-methods]]** filled: model checking, theorem proving, abstract interpretation, refinement types; AI alignment applications; landmark results (Jun 2026)
+- **[[formal-verification]]** filled: Hoare logic, deductive verification, model-based verification; seL4, CompCert; AI safety applications (Jun 2026)
+- **[[interactive-theorem-proving]]** filled: Coq, Isabelle, Lean, Agda; tactic-based proofs; AI alignment applications (Jun 2026)
+- **[[proof-assistant]]** filled: definition, major systems, landmark projects, AI alignment applications (Jun 2026)
+- **[[isabelle]]** (entity) filled: generic architecture, Isar language, major projects (Jun 2026)
+- **[[isabelle-hol]]** (entity) filled: Higher-Order Logic instantiation, seL4 verification, Sledgehammer (Jun 2026)
+- **[[evaluation]]** filled: benchmark taxonomy, process vs outcome evaluation, gaming problems, AI alignment (Jun 2026)
+- **[[benchmark]]** filled: properties, well-known benchmarks, gaming problem, connection to reward-hacking (Jun 2026)
+- **[[swe-bench]]** filled: design, real-world complexity, code agent research, limitations (Jun 2026)
+- **[[agent-onboarding]]** filled: capability verification, safety constraint injection, trust bootstrap, Hermes flow (Jun 2026)
+- **[[code-agent]]** filled: core capabilities, architecture, SWE-Bench evaluation, key challenges (Jun 2026)
 
 ### Open
-- **[Question]** Verifier-graph theory: concept vs synthesis classification? Entity exists at `wiki/entities/projects/tys-repos/verifier-graph.md`. Needs Ty input. Open since May 21.
 - **[Question]** MoE routing collapse under RLHF: is it happening in practice? No empirical data. Worth monitoring.
 - **[Question]** Adaptive budget learning: how to train the gating model. No clear paper yet.
 - **[Question]** Hybrid reward models: combining ELHSR (hidden-state) with SD-Search (process-level). Emerging direction — no full treatment yet.
+- **[Question]** Reward hacking detectability: Is there a reliable signal that reward hacking is occurring before it becomes severe? Current approaches are post-hoc.
 
 ### Heading
-- **[Intent]** Next cycle: fill remaining governance cluster stubs (`governance`, `agentic-oversight`, `accountability`) as a batch, then address other high-priority stubs from the 46-stub list. The computational-irreducibility → emergence → open-ended-evolution cluster is now well-connected.
-- **[Constraint]** Still 42 stubs remaining. Prioritize stubs with active (non-stub) connections. Governance cluster is nearly complete; next priority cluster TBD.
+- **[Intent]** Next cycle: continue stub-first filling. Focus on stubs with active connections to existing non-stub pages. Remaining clusters: category-theory cluster (category-theory, categorical-reasoning, mathematical-reasoning) and agent-related stubs (agent-native-design, agent-leak-benchmark, autonomous-research).
+- **[Constraint]** ~35 stubs remaining. Formal methods cluster (6 pages) and evaluation cluster (3 pages) completed this cycle. Next cluster priority based on stub-to-active-link analysis.

@@ -1,21 +1,13 @@
 ---
-
-summary: Architectural falsification of the MOPS hypothesis — cross-layer geometric drift fails to detect hallucination in pretrained transformers; mechanistic explanation grounded in Pandey's sparse-circuit findings
-tags: [synthesis, falsification, mechanistic-interpretability, hallucination, sheaf-cohomology, mops, conscience-servitor, pandey-2026, ty-research]
-updated: 2026-05-11T08:10:10Z
-created: 2026-05-11T08:10:10Z
-sources: []
-status: active
-confidence: 0.8
-type: synthesis
----
 created: 2026-05-10T22:30:00Z
 updated: 2026-05-10T22:30:00Z
 type: synthesis
 summary: Architectural falsification of the MOPS hypothesis — cross-layer geometric drift fails to detect hallucination in pretrained transformers; mechanistic explanation grounded in Pandey's sparse-circuit findings
 tags: [synthesis, falsification, mechanistic-interpretability, hallucination, sheaf-cohomology, mops, conscience-servitor, pandey-2026, ty-research]
+sources: []
 status: active
 confidence: 0.92
+---
 
 
 # Why Cross-Layer Geometric Drift Doesn't Detect Hallucination: An Architectural Falsification Grounded in Sparse Circuit Findings

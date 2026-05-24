@@ -1,4 +1,5 @@
 ---
+type: paper
 summary: Post-training VLMs with decoupled perception and reasoning modules improves visual task performance — challenging the long-CoT assumption
 tags: [paper, arxiv, vlm, computer-vision, post-training, chain-of-thought]
 sources: https://arxiv.org/abs/2605.20177

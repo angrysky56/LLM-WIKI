@@ -1,4 +1,5 @@
 ---
+created: 2026-06-08
 summary: Added [[meta-harness]] return link to AGEM
 tags: [projects, ty-repo, angrysky56, multi-agent-systems, sheaf-theory, context-management, agem]
 updated: 2026-05-21T23:12:27Z

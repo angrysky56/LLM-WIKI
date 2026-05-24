@@ -1,4 +1,5 @@
 ---
+type: concept
 summary: Concept page for Feedback Activity
 tags: [neuroscience, biology, brain-activity]
 updated: 2026-04-28T18:55:46Z

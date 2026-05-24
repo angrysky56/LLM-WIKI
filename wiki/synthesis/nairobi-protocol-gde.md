@@ -1,5 +1,6 @@
 ---
 summary: O(1) deterministic knowledge retrieval via DCT-II geometric hashing + mmap — 345x faster than RAG, zero collisions
+type: synthesis
 tags: [geometric-hashing, deterministic-retrieval, mojo, mmap, Nairobi_Protocol, GDE, O(1), knowledge-store, content-addressed-storage, DCT-II]
 updated: 2026-05-22T19:44:50Z
 ---

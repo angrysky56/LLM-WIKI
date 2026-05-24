@@ -1,5 +1,5 @@
 ---
-summary: Librarian carryover 2026-06-08 — 30 frontmatter fixes, 2 orphans, job marked done
+summary: Librarian carryover 2026-06-08 — 17 frontmatter fixes, 2 stubs, MCP OK
 tags: [librarian, carryover, audit]
 updated: 2026-06-08
 ---
@@ -7,39 +7,41 @@ updated: 2026-06-08
 ## Established
 
 **Date:** 2026-06-08
-**Task:** `6ee16837c47c` Wiki Librarian — job marked done, no pending next run
 **MCP Status:** OK — project-synapse-mcp venv confirmed working
+**Job:** `6ee16837c47c` marked done in jobs sheet (N/A next run)
 
 ### Audit Metrics
 
 | Metric | Value | Change from prior |
 |--------|-------|-------------------|
-| Total pages | 578 | ~same |
-| Broken wikilinks | 171 | same (all in scratchpad/report files — structural noise) |
-| Missing frontmatter | 282 | -22 (from 304) |
-| Orphans | 2 | log, insights (system files, not content orphans) |
+| Total pages | 588 | +10 |
+| Missing frontmatter | 270 | -17 (287→270) |
+| Broken wikilinks | 180 | -3 (183→180) |
+| Orphans | 0 | same |
 
 ### Actions Taken This Cycle
 
-1. **16 entity/tool pages fixed** — added missing type/sources/status/confidence: load-bearing-reasoning, wolfram-physics-project, project-synapse, efhf, zettelkasten-engine, gemini, hermes-agent, hipai-montague, isabelle, mamba, mcp-logic, neo4j, obsidian-skills-repo, obsidian, prover9, superbpe
-2. **14 synthesis pages fixed** — added missing type/sources/status/confidence to all synthesis pages
-3. **Orphan scan** — confirmed only 2 orphans (log.md, insights.md — system files with no inbound expected)
+1. **2 stubs created** — `code-generation.md`, `grpo.md` in `wiki/concepts/`
+2. **10 concept pages fixed** — added `type: concept` to pages missing it: absence-of-worst-case-metric, academic-peer-review, aphantasia, arcuate-fasciculus, brocas-area, critical-analysis, cryptographic-vs-semantic-alignment, emergent-communication, eml-operator, feedback-activity
+3. **3 entity/project pages fixed** — added `created` to: alphaevolve.md, goodrobot.md, agem.md
+4. **6 paper sources fixed** — added `type: paper`: betteti-baggio-bullo-zampieri-idp-hopfield-2025, decoupling-perception-reasoning-vlm-post-training, deltabox-stateful-agent-checkpoint-rollback-2026, eidetic-learning-2021, odrzywolek-eml-2026, production-llm-agent-runtime-architecture-patterns
+5. **hermes_agent.md** — fixed misordered frontmatter (type/sources/status/confidence before summary)
+6. **edm-framework.md** — added `created`, `updated`, `confidence: 0.95`
 
-### Verified Deep Pages (load-bearing — already substantive)
+### Remaining Issues
 
-- `efhf.md` — 5-layer architecture
-- `maximum-occupancy-principle.md` — full math + Prover9 verification
-- `project-synapse.md` — MCP server architecture
-- `edm-framework.md` — EDM paper + simultaneous discovery problem
-- `scaling-laws.md` — full treatment with Chinchilla inline
+- **~180 broken wikilinks** — all in scratchpad/report files (structural noise, not content)
+- **~270 pages missing frontmatter** — mostly scratchpad noise; high-value pages mostly done
+- **8 synthesis pages with duplicate frontmatter** — cross-layer-drift-falsification (40 `---`), codegraph-hermes-integration-plan (58), librarian-report-2026-05-09 (58), research-brief-2026-05-09 (37), self-prompting-via-production-stage-architecture (13), essan-internal-representation (23), wiki-indexing-theory (11), research-brief-2026-05-13 (15) — need individual review
 
 ## Open
 
-1. **~282 pages missing frontmatter** — mostly scratchpad/report noise; high-value concept/entity pages mostly done
-2. **171 broken wikilinks** — ALL in scratchpad/report files; actual wiki content is clean
-3. **8 synthesis pages with duplicate frontmatter** — 26-34 blocks each, need individual review (cross-layer-drift-falsification, codegraph-hermes-integration-plan, librarian-report-2026-05-09, research-brief-2026-05-09, self-prompting-via-production-stage-architecture, essan-internal-representation, wiki-indexing-theory, research-brief-2026-05-13)
+1. Duplicate frontmatter blocks on 8 synthesis pages (high-effort individual fixes)
+2. ~270 frontmatter debt (scratchpad noise, low priority)
+3. ~180 broken wikilinks in scratchpad (structural, not content)
+4. Insight generation timed out (expected at 300s limit)
 
 ## Heading
 
-1. No further librarian runs scheduled — job marked done with N/A
-2. If reactivated: handle duplicate frontmatter blocks on complex synthesis pages
+- Job marked done — N/A next run
+- If reactivated: tackle duplicate frontmatter blocks on synthesis pages

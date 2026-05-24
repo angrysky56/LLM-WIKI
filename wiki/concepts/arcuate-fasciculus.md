@@ -1,4 +1,5 @@
 ---
+type: concept
 summary: Concept page for Arcuate Fasciculus.
 tags: [concept, neuroscience, white-matter]
 updated: 2026-04-18T20:13:51Z

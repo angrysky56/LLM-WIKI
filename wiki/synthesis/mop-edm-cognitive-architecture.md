@@ -1,5 +1,6 @@
 ---
 summary: Synthesis: MOP as EFHF Layer 0 + EDM disruption measurement — formally verified structural mapping (Prover9), three implementation levels, KL regularization critique, hallucination as lumpability failure, coherent complexity growth
+type: synthesis
 tags: [MOP, EDM, EFHF, cognitive-architecture, entropy, hallucination-detection, epistemic-energy, absorbing-states, RLHF, attention, synthesis, intrinsic-motivation, ethics, KL-divergence, mcp-logic, computational-mechanics, lumpability, Kernel-1, Kernel-2]
 updated: 2026-04-14T04:11:54Z
 ---

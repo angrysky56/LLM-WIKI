@@ -1,5 +1,6 @@
 ---
 summary: Cross-domain synthesis: NAND, EML, MOP, and OpenPraparat share a structural pattern — minimal primitives + recursion + boundary constraints = unbounded complexity; OpenPraparat validates MOP predictions empirically; EML provides the computational substrate; extends EFHF with L-1 computational primitive layer
+type: synthesis
 tags: [synthesis, MOP, EML, open-ended-evolution, sheffer-stroke, EFHF, computational-mechanics, artificial-life, minimal-computation, emergence, symbolic-regression, absorbing-states]
 updated: 2026-04-14T19:21:38Z
 created: 2026-04-14T19:21:38Z

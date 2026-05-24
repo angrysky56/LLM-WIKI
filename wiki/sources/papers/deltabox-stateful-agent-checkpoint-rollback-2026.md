@@ -1,4 +1,5 @@
 ---
+type: paper
 summary: Dong et al. (2026) — DeltaBox: millisecond-level checkpoint/rollback for stateful AI agents via change-based state management (DeltaFS + DeltaCR); 14ms ckpt, 5ms restore; enables practical MCTS and RL training at scale
 tags: [ai-agents, checkpoint-restore, sandbox, overlayfs, CRIU, MCTS, RL-training, copy-on-write, OS-level, state-management]
 updated: 2026-05-22T00:00:00Z

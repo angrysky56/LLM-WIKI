@@ -1,4 +1,5 @@
 ---
+type: concept
 summary: Single binary operator eml(x,y)=exp(x)−ln(y) that generates all elementary functions from constant 1 — the continuous NAND gate, with applications to symbolic regression, neuro-symbolic AI, automated reasoning, and single-instruction hardware
 tags: [mathematics, operator-theory, sheffer-stroke, neuro-symbolic, symbolic-regression, analog-computing, computational-minimalism]
 updated: 2026-04-14T08:15:44Z

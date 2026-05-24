@@ -1,4 +1,5 @@
 ---
+type: paper
 summary: IDP Hopfield model for input-driven, noise-robust memory retrieval in recurrent networks
 tags: [hopfield-networks, associative-memory, input-driven-plasticity, saliency-decomposition, transformer-attention, noise-robustness, continual-learning, dynamical-systems]
 sources: [file:///home/ty/Documents/LLM-WIKI/Clippings/papers/2025/betteti-idp-hopfield-sciadv-2025.pdf]

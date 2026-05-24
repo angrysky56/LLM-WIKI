@@ -1,4 +1,5 @@
 ---
+type: concept
 summary: Spontaneous development of shared protocols and languages between agents without explicit design
 tags: [emergent-systems, language, multi-agent, communication-protocols, linguistics]
 updated: 2026-05-23T21:26:32Z

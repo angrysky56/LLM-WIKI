@@ -1,20 +1,13 @@
 ---
-
+created: 2026-05-17T21:15:00Z
+updated: 2026-05-17T21:15:00Z
+type: synthesis
 summary: Self-prompting (LLMs directing their own behavior mid-generation) is a production-stage phenomenon — operating entirely in the instruction-sensitive, behavior-driving half of the production/processing asymmetry. Waldis 2026 + Chen molecular CoT 2026 + entropic-machinery synthesis predict a specific architecture: self-generated directives work through the three-bond topology (Deep-Reasoning backbone + Self-Reflection fold-back + Self-Exploration basin escape), maintained as a non-equilibrium steady state against entropy, using single-event signal cascades to flip reasoning state. Supertoken analysis distinguishes scaffolding from load-bearing tokens in self-generated text; MoR's dynamic recursion router maps to self-directed compute allocation. Neuroanatomically, self-prompting is the arcuate fasciculus — language shaping language production — firing only into the Broca's side, not the Wernicke's side.
 tags: [synthesis, self-prompting, chain-of-thought, production-stage, instruction-sensitivity, inner-monologue, self-correction, arcuate-fasciculus, broca, wernicke, non-equilibrium-steady-state, entropic-machinery, MoR, supertokens, scaffolding, load-bearing-reasoning]
-updated: 2026-05-17T21:15:00Z
-created: 2026-05-17T21:15:00Z
-sources: []
-status: active
-confidence: 0.8
-type: synthesis
----
-created: 2026-05-17T21:15:00Z
-updated: 2026-05-17T21:15:00Z
-type: synthesis
 sources: [[waldis-2026-instructions-shape-production|Waldis et al. 2026]], [[chen-molecular-cot-2026|Chen et al. 2026 — Molecular Structure of Long CoT]], [[shorthand-for-thought|Shorthand for Thought (supertokens)]], [[bae-mor-2025|MoR dynamic recursion depth]], [[entropic-machinery-cot-and-flagellum|Entropic Machinery synthesis]], [[llm-biological-analogies|Biological Analogies in LLMs]]
 status: active
 confidence: 0.78 — derivation is solid from established sources; specific bond-energy parameters and cascade timescales are extrapolated from analogy, not measured
+---
 
 
 # Self-Prompting: Production-Stage Architecture and the Three-Bond Self-Direction Mechanism

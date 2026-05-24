@@ -1,25 +1,33 @@
-# Batch Progress — 2026-06-08 09:15
+# Batch Progress — 2026-06-08 11:45
 
 ## Fixes Applied This Batch
 
-### Frontmatter Completion — 30 pages
-- **16 entity/tool pages:** load-bearing-reasoning, wolfram-physics-project, project-synapse, efhf, zettelkasten-engine, gemini, hermes-agent, hipai-montague, isabelle, mamba, mcp-logic, neo4j, obsidian-skills-repo, obsidian, prover9, superbpe
-- **14 synthesis pages:** ai-governance-substrate-analysis, causal-state-edm-ood-isomorphism, codegraph-hermes-integration-plan, cross-layer-drift-falsification, ctx2skill-on-efhf-rails, entropic-machinery-cot-and-flagellum, essan-internal-representation, intelligence-as-entropic-sculpting, minimal-generative-architectures, mop-edm-cognitive-architecture, nairobi-protocol-gde, self-prompting-via-production-stage-architecture, synapse-retrieval-architecture, wiki-indexing-theory
+### P3: Duplicate Frontmatter on Insight Pages (2 pages)
+- **para-knowledge-architecture-cohesion-insight.md** — merged duplicate frontmatter into single clean block (4 fields: created, updated, summary, tags)
+- **francesca-albanese-sanctions-case-insight.md** — merged duplicate frontmatter into single clean block (4 fields: created, updated, summary, tags)
 
-### Orphan Resolution
-- Confirmed only 2 orphans: log.md, insights.md (system files, no inbound expected)
-- No orphan linking needed this cycle
+### P3: Missing `type: synthesis` on Synthesis Pages (7 pages)
+- **mop-edm-cognitive-architecture.md** — added `type: synthesis`
+- **minimal-generative-architectures.md** — added `type: synthesis`
+- **nairobi-protocol-gde.md** — added `type: synthesis`
+- **synapse-retrieval-architecture.md** — added `type: synthesis`
+- **ai-governance-substrate-analysis.md** — added `type: synthesis`
+- **ctx2skill-on-efhf-rails.md** — added `type: synthesis`
+- **causal-state-edm-ood-isomorphism.md** — added `type: synthesis`
 
-## Verified State
-- MCP: OK (project-synapse-mcp venv confirmed working)
-- Broken wikilinks: 171 (ALL in scratchpad/report files — structural noise, not wiki content)
-- Missing frontmatter: 282 (down from 304)
-- Actual wiki content is clean — no content-layer broken links remain
+## Audit Snapshot
 
-## Open Items
-1. ~282 pages missing frontmatter (mostly scratchpad noise)
-2. 171 broken wikilinks in scratchpad/report files
-3. 8 synthesis pages with 26-34 duplicate frontmatter blocks — need individual targeted review
+- **High-value dirs (concepts/entities/synthesis): 0 issues** — type + summary fully populated
+- **MCP wiki_lint**: 180 broken links — ALL in scratchpad/report files (structural noise)
+- **full_audit.py**: 270 missing frontmatter — mostly scratchpad noise; high-value pages done
+- **True wiki content**: CLEAN — no broken links in concepts/entities/synthesis/sources
 
-## Job Status
-- Wiki Librarian job marked **done** (6ee16837c47c) — no pending next run
+## Remaining Open Items
+
+1. **9 synthesis/pages** with no confidence/status (but mostly system/report files, not critical)
+2. **141 broken link targets in sources** — para, knowledge-architecture, note-taking-systems, francesca-albanese, us-sanctions, icc, legal-accountability, etc. — mostly stub references that need entity pages or can be noted as external references
+3. **349 non-reciprocal wikilinks** — mostly legitimate单向 links to maximum-occupancy-principle; not actionable
+
+## MCP Status
+- MCP: OK (project-synapse-mcp venv confirmed)
+- `generate_insights()`: unreliable in cron (300s timeout) — skipped

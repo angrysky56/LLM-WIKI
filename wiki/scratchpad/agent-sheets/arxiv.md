@@ -65,11 +65,15 @@ For each selected paper, write a **research brief**:
 
 ```bash
 # Download 3 papers in parallel — curl is NOT rate-limited like MCP
-curl -s -L "https://arxiv.org/pdf/{id}" -o /home/ty/Documents/paper-research/{id}.pdf \
+# ALWAYS use absolute paths — workdir changes break relative paths
+curl -s -L "https://arxiv.org/pdf/{id}" \
+  -o /home/ty/Documents/paper-research/{id}.pdf \
   --max-time 60 -w "%{http_code}" &
-curl -s -L "https://arxiv.org/pdf/{id}" -o /home/ty/Documents/paper-research/{id}.pdf \
+curl -s -L "https://arxiv.org/pdf/{id}" \
+  -o /home/ty/Documents/paper-research/{id}.pdf \
   --max-time 60 -w "%{http_code}" &
-curl -s -L "https://arxiv.org/pdf/{id}" -o /home/ty/Documents/paper-research/{id}.pdf \
+curl -s -L "https://arxiv.org/pdf/{id}" \
+  -o /home/ty/Documents/paper-research/{id}.pdf \
   --max-time 60 -w "%{http_code}" &
 wait
 # Expected: "200" for each = success

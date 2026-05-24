@@ -6,6 +6,7 @@ summary: Alias stub redirecting to load-bearing-reasoning — reasoning as a loa
 tags: [concept]
 status: reference
 confidence: 1.0
+sources: []
 ---
 
 # Reasoning

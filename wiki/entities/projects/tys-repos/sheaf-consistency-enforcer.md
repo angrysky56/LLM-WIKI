@@ -3,6 +3,10 @@ summary: Project page for sheaf-consistency-enforcer.
 tags: [projects, ty-repo, sheaf-theory]
 updated: 2026-05-01T07:06:17Z
 created: 2026-05-01T07:06:17Z
+sources: []
+status: active
+confidence: 0.8
+type: entity
 ---
 
 ---

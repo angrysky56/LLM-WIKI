@@ -3,6 +3,9 @@ summary: Distinction between what cryptographic protocols can prove (integrity, 
 tags: [analytical-primitive, ai-governance, cryptography, alignment, decentralization, frame]
 updated: 2026-04-28T18:26:30Z
 created: 2026-04-28T18:26:30Z
+sources: []
+status: active
+confidence: 0.8
 ---
 
 # Cryptographic vs Semantic Alignment

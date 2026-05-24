@@ -17,6 +17,10 @@
 - **[[scaling-laws]]** filled: Kaplan/Chinchilla/Hoffmann findings; power-law form; emergent capability thresholds; compute-optimal training vs inference-time scaling (May 2026)
 - **[[emergence]]** filled: sudden capability appearance at scale; real-vs-metric-artifact debate; known thresholds; connection to scaling-laws tension (May 2026)
 - **[[delegation]]** filled: definition, what gets delegated vs retained; Hermes delegate_task patterns; delegation vs planning; open questions (May 2026)
+- **[[computational-irreducibility]]** filled: Wolfram's concept; why it matters in science/ML/emergence; connection to emergence and OEE; complexity class connections (May 2026)
+- **[[institutional-capture]]** filled: Goodhart's Law, Campbell's Law, surrogation; mechanisms; AI-specific forms including benchmark gaming and RLHF reward hacking (May 2026)
+- **[[institutional-accountability]]** filled: separation of roles, transparency, multi-stakeholder oversight, outcome-independent evaluation, whistleblower protections (May 2026)
+- **[[ai-governance-substrate]]** filled: layered architecture for AI governance; substrate protocols, accountability membranes, escalation pathways; speed/opacity/complexity gaps that motivate it (May 2026)
 
 ### Open
 - **[Question]** Verifier-graph theory: concept vs synthesis classification? Entity exists at `wiki/entities/projects/tys-repos/verifier-graph.md`. Needs Ty input. Open since May 21.
@@ -25,5 +29,5 @@
 - **[Question]** Hybrid reward models: combining ELHSR (hidden-state) with SD-Search (process-level). Emerging direction — no full treatment yet.
 
 ### Heading
-- **[Intent]** Next cycle: If Ty resolves verifier-graph decision, treat as top priority. Otherwise stub-fill the `governance` cluster: `institutional-capture`, `computational-irreducibility`, `open-ended-evolution`. The `computational-irreducibility` → `emergence` → `open-ended-evolution` cluster is interconnected and could benefit from a joint treatment.
-- **[Constraint]** Schedule: check jobs sheet for next researcher run.
+- **[Intent]** Next cycle: fill remaining governance cluster stubs (`governance`, `agentic-oversight`, `accountability`) as a batch, then address other high-priority stubs from the 46-stub list. The computational-irreducibility → emergence → open-ended-evolution cluster is now well-connected.
+- **[Constraint]** Still 42 stubs remaining. Prioritize stubs with active (non-stub) connections. Governance cluster is nearly complete; next priority cluster TBD.

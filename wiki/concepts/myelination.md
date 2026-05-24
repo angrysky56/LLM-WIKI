@@ -3,6 +3,10 @@ summary: Concept page for Myelination.
 tags: [concept, neuroscience, development]
 updated: 2026-04-18T20:13:56Z
 created: 2026-04-18T20:13:56Z
+sources: []
+status: active
+confidence: 0.8
+type: concept
 ---
 
 ---

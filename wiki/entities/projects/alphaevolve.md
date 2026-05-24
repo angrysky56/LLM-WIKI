@@ -2,6 +2,10 @@
 summary: Google DeepMind's evolutionary coding agent — LLM ensemble + diff-based mutation + real hardware eval; 23% GEMM speedup; Gemini self-improvement; instantiates MGA pattern; open-sourced as OpenEvolve
 tags: [google-deepmind, AI, evolutionary-search, algorithm-discovery, coding-agent, gpu-optimization, tensor-decomposition, MGA]
 updated: 2026-04-14T19:27:50Z
+sources: []
+status: active
+confidence: 0.8
+type: entity
 ---
 
 # AlphaEvolve

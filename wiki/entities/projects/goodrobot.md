@@ -2,6 +2,9 @@
 summary: GoodRobot — SHUT DOWN status added
 tags: [company, zero-human, shut-down]
 updated: 2026-05-18T06:48:03Z
+sources: []
+confidence: 0.8
+type: entity
 ---
 
 ---

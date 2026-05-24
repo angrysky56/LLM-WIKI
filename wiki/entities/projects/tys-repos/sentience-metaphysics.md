@@ -3,6 +3,10 @@ summary: Project page for Sentience Metaphysics (SEG).
 tags: [projects, ty-repo, ai-character]
 updated: 2026-05-01T07:19:09Z
 created: 2026-05-01T07:19:09Z
+sources: []
+status: active
+confidence: 0.8
+type: entity
 ---
 
 ---

@@ -1,6 +1,6 @@
 ---
 summary: The DR Congo Ebola outbreak is worrying due to urban spread of the rare Bundibugyo strain near porous borders.
-tags: [[world-news, ebola, dr-congo, bundibugyo, public-health]]
+tags: [world-news, ebola, dr-congo, bundibugyo, public-health]
 updated: 2026-05-17T18:17:05Z
 created: 2026-05-17T18:17:05Z
 ---

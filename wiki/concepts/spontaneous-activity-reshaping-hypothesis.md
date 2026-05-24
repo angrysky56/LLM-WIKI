@@ -3,6 +3,10 @@ summary: Concept page for Spontaneous Activity Reshaping Hypothesis
 tags: [neuroscience, theory, imagination, brain-activity]
 updated: 2026-04-28T18:54:48Z
 created: 2026-04-28T18:54:48Z
+sources: []
+status: active
+confidence: 0.8
+type: concept
 ---
 
 ---

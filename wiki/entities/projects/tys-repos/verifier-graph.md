@@ -3,6 +3,10 @@ summary: Project page for verifier-graph.
 tags: [projects, ty-repo, provenance]
 updated: 2026-05-01T07:06:30Z
 created: 2026-05-01T07:06:30Z
+sources: []
+status: active
+confidence: 0.8
+type: entity
 ---
 
 ---

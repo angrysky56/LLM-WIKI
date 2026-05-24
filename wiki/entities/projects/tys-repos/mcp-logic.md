@@ -3,6 +3,10 @@ summary: Project page for mcp-logic.
 tags: [projects, ty-repo, logic]
 updated: 2026-05-01T07:05:59Z
 created: 2026-05-01T07:05:59Z
+sources: []
+status: active
+confidence: 0.8
+type: entity
 ---
 
 ---

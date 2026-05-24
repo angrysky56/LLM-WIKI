@@ -1,8 +1,13 @@
 ---
+
 summary: IR and indexing theory applied to LLM-WIKI: TOC vs conceptual index, controlled vocabulary, thesaurus relationships, HITS on wikilinks, mere mentions, and GAAC clustering for wiki health
 tags: [indexing, information-retrieval, controlled-vocabulary, thesaurus, HITS, PageRank, clustering, GAAC, wiki-organization, synthesis]
 updated: 2026-04-11T04:47:47Z
 created: 2026-04-11T04:47:47Z
+sources: []
+status: active
+confidence: 0.8
+type: synthesis
 ---
 
 # Wiki Indexing Theory — Implications for LLM-WIKI
@@ -11,7 +16,7 @@ created: 2026-04-11T04:47:47Z
 **Source:** NotebookLM notebook `information-retrieval-indexing-toc` (17 sources on IR and indexing theory)  
 **Confidence:** 0.92 — established IR theory applied to our specific system  
 
----
+
 
 ## The Central Distinction: TOC vs. Index
 
@@ -26,7 +31,7 @@ Professional information science draws a hard line between two navigation paradi
 
 **Our `wiki/index.md` is a TOC in disguise.** It lists pages in creation/alphabetical order with one-line summaries. It answers "what pages exist" but not "where is the concept of X discussed across pages." A genuine conceptual index would be a separate structure.
 
----
+
 
 ## The Open Indexing Problem
 
@@ -36,7 +41,7 @@ The canonical solution is a **controlled vocabulary**: a structured list where e
 
 **Our current tag system is an informal, uncontrolled vocabulary.** Tags like `embeddings`, `embedding`, `vector-embedding`, and `vector-search` are all in use with no declared relationship between them. This is the open indexing consistency failure.
 
----
+
 
 ## Thesaurus Relationships Mapped to Wiki Structures
 
@@ -61,7 +66,7 @@ The three thesaurus relationship types map onto structures we already partially 
 
 We have no explicit Action-type pages. Processes like "how ingestion works" or "how retrieval works" are scattered across entity and concept pages rather than being first-class citizens.
 
----
+
 
 ## PageRank and HITS on the Wikilink Graph
 
@@ -76,7 +81,7 @@ The notebook covers both PageRank (random surfer steady-state) and HITS (hub/aut
 
 **Practical implication:** run HITS on the wikilink adjacency matrix periodically. Pages scoring high on authority signal that their content is load-bearing — high value to maintain and deepen. Pages scoring high on hub signal they're navigation layers — their job is comprehensive linking, not deep content.
 
----
+
 
 ## The "Mere Mentions" Problem
 
@@ -90,7 +95,7 @@ Professional indexers filter out *mere mentions* — passing references that pro
 
 **Implication for us:** wikilinks in `## Connections` sections are deliberate associative pointers — high weight. Wikilinks embedded in body prose are often mere mentions — lower retrieval weight. The wiki_adapter's `get_wikilink_neighbors` could be enhanced to weight by section context.
 
----
+
 
 ## Clustering for Wiki Health
 
@@ -106,7 +111,7 @@ At 27 pages, N² = 729 operations — trivially fast. **GAAC on our page embeddi
 
 This is a natural addition to the `generate_insights` pipeline in the Zettelkasten engine.
 
----
+
 
 ## Concrete Improvements for LLM-WIKI
 
@@ -130,7 +135,7 @@ Links found in `## Connections` sections score higher than links in body prose. 
 **6. GAAC clustering in `generate_insights`**  
 Run GAAC on page embeddings to find natural topic clusters. Flag similar pages as merge candidates; flag same-cluster pairs with no link as missing connections.
 
----
+
 
 ## Connections
 

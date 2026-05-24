@@ -3,6 +3,10 @@ summary: The specific procedures or techniques used to identify, select, process
 tags: [research, science, logic]
 updated: 2026-04-18T03:46:45Z
 created: 2026-04-18T03:46:45Z
+sources: []
+status: active
+confidence: 0.8
+type: concept
 ---
 
 ---

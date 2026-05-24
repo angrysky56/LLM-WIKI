@@ -3,6 +3,10 @@ summary: Tool page for SuperBPE tokenization.
 tags: [tokenization, nlp, superbpe]
 updated: 2026-05-06T20:09:47Z
 created: 2026-05-06T20:09:47Z
+type: entity
+sources: []
+status: active
+confidence: 0.8
 ---
 
 ---

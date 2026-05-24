@@ -4,6 +4,9 @@ type: concept
 tags: [design-thinking, methodology, innovation, process, human-centered]
 updated: 2026-04-10T23:18:43Z
 created: 2026-04-10T23:18:43Z
+sources: []
+status: active
+confidence: 0.8
 ---
 
 

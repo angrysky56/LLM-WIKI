@@ -3,6 +3,10 @@ summary: A single primitive operator from which an entire computational domain i
 tags: [logic, operator-theory, computational-minimalism, universality, sheffer-stroke]
 updated: 2026-04-14T08:16:23Z
 created: 2026-04-14T08:16:23Z
+sources: []
+status: active
+confidence: 0.8
+type: concept
 ---
 
 # Sheffer Stroke

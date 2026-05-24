@@ -3,6 +3,9 @@ summary: A* heuristic search applied to market pivot graphs with forward-project
 tags: [trading, indicators, graph-theory, a-star, isotropic-coordinate-system, pine-script, square-root-system]
 updated: 2026-05-09T02:11:26Z
 created: 2026-05-09T02:11:26Z
+status: active
+confidence: 0.8
+type: concept
 ---
 
 # A-Star Structural Pathfinding

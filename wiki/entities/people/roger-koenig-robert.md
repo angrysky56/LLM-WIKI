@@ -3,6 +3,10 @@ summary: Entity page for neuroscientist Roger Koenig-Robert
 tags: [neuroscience, researcher]
 updated: 2026-04-28T18:54:42Z
 created: 2026-04-28T18:54:42Z
+sources: []
+status: active
+confidence: 0.8
+type: entity
 ---
 
 ---

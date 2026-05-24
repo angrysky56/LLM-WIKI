@@ -1,6 +1,6 @@
 ---
 summary: Hezbollah's FPV drone videos reveal a qualitative leap in precision — commercial drones repurposed as guided munitions against Israel.
-tags: [[world-news, hezbollah, fpv-drone, drone-warfare, israel, lebanon, iran]]
+tags: [world-news, hezbollah, fpv-drone, drone-warfare, israel, lebanon, iran]
 updated: 2026-05-17T18:17:09Z
 created: 2026-05-17T18:17:09Z
 ---

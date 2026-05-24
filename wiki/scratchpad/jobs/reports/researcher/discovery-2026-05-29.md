@@ -2,51 +2,56 @@
 
 ## Discovery Cycle
 - Topics researched: 4
-- New pages created: 0 (filled stubs)
-- Pages updated: 4 (agentic-hierarchy, scaling-laws, emergence, delegation — all stub → active)
-- Cross-links added: ~15 new wikilinks across the four pages
-- Confidence improvements: 4 pages moved from 0.3 → 0.8+
+- New pages created: 0
+- Pages updated: 4 (all stubs filled)
+- Cross-links added: ~20 across filled pages
 
-## New Entries
-*(none — all work was stub-filling)*
+## New Entries / Filled Stubs
 
-### Filled Stubs
+### computational-irreducibility.md (filled)
+- **Before**: 18-line stub with minimal content
+- **After**: Full 100+ line concept page
+- Covers: definition (Wolfram), why it matters in science/ML/emergence, connection to open-ended evolution, connection to emergence, open questions, limitations
+- Key insight: the concept links the governance cluster to the emergence cluster — computational irreducibility is why emergent capabilities appear at scale without being predictable
 
-**[[agentic-hierarchy]]** (stub → active, confidence: 0.3 → 0.8)
-- Filled with organizational patterns: supervisor-worker, manager-specialist, orchestrator-delegator, recursive decomposition
-- Added key challenges (coherence across levels, credit assignment, information flow)
-- Connected to hermes-agent, bounded-structured-memory, subagent-delegation, markovian-carryover
+### institutional-capture.md (filled)
+- **Before**: 19-line stub
+- **After**: Full concept page
+- Covers: Goodhart's Law, Campbell's Law, surrogation, mechanisms (goal displacement, gaming, information asymmetry), AI-specific forms including benchmark gaming and RLHF reward hacking
+- Key insight: institutional capture is the macro-level analog of reward hacking — the same dynamic at organizational scale
 
-**[[scaling-laws]]** (stub → active, confidence: 0.3 → 0.85)
-- Expanded from stub notes to full treatment of Kaplan/Chinchilla/Hoffmann findings
-- Added power-law mathematical form, compute-optimal training vs inference-time scaling
-- Table of emergent capability thresholds by scale
-- Connections to inference-time-compute-scaling, emergence, mixture-of-experts, chinchilla
+### institutional-accountability.md (filled)
+- **Before**: 19-line stub
+- **After**: Full concept page
+- Covers: separation of roles, transparency requirements, multi-stakeholder oversight, outcome-independent evaluation, whistleblower protections
+- Connects to AI governance through agentic AI amplification of accountability gaps
 
-**[[emergence]]** (stub → active, confidence: 0.3 → 0.8)
-- Full definition of emergence in LLM context (sudden capability appearance at scale thresholds)
-- Coverage of the real-vs-metric-artifact debate (Wei et al. 2022 vs Schaeffer et al. 2023)
-- Known emergence threshold table
-- Connection to scaling-laws (explains tension between smooth power-law loss and discontinuous capability appearance)
-
-**[[delegation]]** (stub → active, confidence: 0.3 → 0.8)
-- Filled from stub to full concept: definition, what gets delegated vs retained, delegation mechanics
-- Hermes-specific delegate_task patterns (flat, hierarchical, market-based)
-- Delegation vs planning comparison table
-- Open questions on granularity, cost-benefit, trust/verification, cross-model delegation
+### ai-governance-substrate.md (filled)
+- **Before**: 19-line stub
+- **After**: Full concept page
+- Covers: why external governance overlays fail against agentic AI (speed gap, opacity gap, complexity gap), substrate protocols, accountability membranes, escalation pathways, design principles
+- Key architectural insight: governance embedded in the system as a load-bearing layer rather than applied as an external overlay
 
 ## Gap Analysis
-- **Verifier-graph theory** — still unresolved. Entity page exists at `wiki/entities/projects/tys-repos/verifier-graph.md`. No concept page. Needs Ty decision: concept or synthesis?
-- **Adaptive budget learning** — how to train gating models for difficulty estimation. No clear paper yet.
-- **Hybrid reward models** — combining ELHSR (hidden-state) with SD-Search (process-level). Emerging direction.
-- **MoE routing collapse under RLHF** — empirical question, no published data yet. Continue monitoring.
 
-## Open Questions
-- [ ] Verifier-graph classification decision — Ty input needed
-- [ ] Adaptive budget learning — no paper yet, monitoring
-- [ ] Hybrid reward models — no full treatment yet
-- [ ] MoE+RLHF routing collapse — monitoring for empirical data
-- [ ] Self-correction depth — SD-Search result suggests implicit self-correction more capable than assumed; needs follow-up
+### Stub Cluster Status
+The `governance` cluster (governance → institutional-capture → institutional-accountability → ai-governance-substrate → agentic-oversight → accountability → proxy-signalling) was all stubs or thin. Four of these are now filled:
+- ✅ institutional-capture
+- ✅ institutional-accountability  
+- ✅ ai-governance-substrate
+- ✅ computational-irreducibility (links the cluster to emergence)
 
-## Heading
-- **Next cycle**: If Ty resolves verifier-graph decision, treat it as the top priority. Otherwise continue stub-filling — the `governance`, `institutional-capture`, `computational-irreducibility` cluster remains thin. `computational-irreducibility` links to `emergence` and `open-ended-evolution` — could be a generative cycle if all three were fleshed out.
+**Still stub/thin:**
+- `governance.md` — still stub (partially filled but needs more depth)
+- `agentic-oversight.md` — stub (linked but not yet expanded)
+- `accountability.md` — stub
+- `proxy-signalling.md` — stub but has reasonable content
+
+### Remaining Open Questions (from carryover)
+1. Verifier-graph classification decision — still unresolved, needs Ty input
+2. MoE routing collapse under RLHF — still open, monitoring
+3. Adaptive budget learning — still open
+4. Hybrid reward models (ELHSR + SD-Search) — still open
+
+### Heading Intent
+Next cycle: fill the remaining stubs in the governance cluster (`governance`, `agentic-oversight`, `accountability`) as a batch, then move to the other stubs from the 46-list. The computational-irreducibility → emergence → open-ended-evolution cluster is now well-connected and could be a separate synthesis piece.

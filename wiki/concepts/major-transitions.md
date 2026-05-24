@@ -1,0 +1,18 @@
+---
+created: 2026-06-03
+updated: 2026-06-03
+type: concept
+summary: "[STUB] Evolutionary major transitions in individuality, from cells to multicellular organisms"
+tags: [stubs]
+sources: []
+status: stub
+confidence: 0.3
+---
+
+# Major Transitions
+
+*Stub page — needs real content*
+
+## Connections
+
+- [[maximum-occupancy-principle]]

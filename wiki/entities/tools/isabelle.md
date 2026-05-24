@@ -3,6 +3,10 @@ summary: Reference page for the Isabelle proof assistant.
 tags: [isabelle, tool, formal-methods]
 updated: 2026-05-06T20:06:26Z
 created: 2026-05-06T20:06:26Z
+type: entity
+sources: []
+status: active
+confidence: 0.8
 ---
 
 ---

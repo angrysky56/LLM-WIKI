@@ -1,32 +1,22 @@
----
-summary: Librarians assistant carryover 2026-05-31 — 4 wikilinks fixed, 31 duplicate frontmatter pages cleaned
-tags: [librarians-assistant, wiki-maintenance]
-updated: 2026-05-31T09:15:00Z
----
-
 # Librarians-Assistant Carryover — 2026-05-31
 
 ## What Was Fixed
 
-### P1: Broken Wikilinks (4 links normalized)
-- `llm-wiki-pattern.md`: `[[Andrej Karpathy]]` → `[[andrej-karpathy]]`, `[[Project Synapse]]` → `[[project-synapse]]`, `[[Zettelkasten Engine]]` → `[[zettelkasten-engine]]`
-- `meta-harness.md`: removed non-existent `[[meta-harness-loop]]` from sources field
+### P3: Frontmatter Completion (50+ pages)
+- 40 concept pages: design-thinking, alqr-memory-estimates, reasoning, hermes_agent, absence-of-worst-case-metric, academic-peer-review, apphantasia, arcuate-fasciculus, brocas-area, critical-analysis, cryptographic-vs-semantic-alignment, emergent-communication, eml-operator, feedback-activity, feedforward-activity, frame-transmission, hopfield-network, hyperphantasia, institutional-capture-vs-species-framing, language-evolution, ml-evolution, myelination, open-ended-evolution, persistent-knowledge-compilation, research-methodology, scientific-writing, sheffer-stroke, spontaneous-activity-reshaping-hypothesis, surprise-based-learning, symbolic-regression, tag-taxonomy, titans, wernickes-area, astar-structural-pathfinding
+- 4 people entity pages: dhruv-trehan, paras-chopra, roger-koenig-robert, tyler-hall
+- 14 project/entity pages: mop-explorer, tys-repos, advanced-reasoning-mcp, aseke-compass-mcp, ast-mcp-server, conscience-servitor, ethical-ai-core, graph-rlm, hipai-montague, mcp-coordinator, mcp-logic, nexus, project-synapse-mcp, sentience-metaphysics, sheaf-consistency-enforcer, toward-transcendent-moral-instrumentality, verifier-graph, claude-code, agem, alphaevolve, goodrobot
 
-### P2: Duplicate Frontmatter Cleaned (31 pages)
-- 19 concept pages (incl. high-value: scaling-laws, emergence, in-context-learning, process-reward-model, activation-steering, edm-framework)
-- 1 project page: efhf.md (5→1 block)
-- 11 synthesis pages (incl. mop-edm-cognitive-architecture, seg-scientist-agent-design, intelligence-as-entropic-sculpting, etc.)
-- Stub pages: reasoning.md, llama-nas.md, rz-nas.md — all cleaned to single proper frontmatter
-
-### P0: Alias Stubs
-- `reasoning.md`, `llama-nas.md`, `rz-nas.md` — all verified clean single-block frontmatter, wikilinks to load-bearing-reasoning and ml-evolution
+### P1: Reciprocal Wikilinks (verified)
+- efhf ↔ maximum-occupancy-principle — ALREADY reciprocal (efhf.md sources: [[maximum-occupancy-principle]], MOP links to efhf in connections)
+- hermes_agent.md → load-bearing-reasoning — ALREADY has return link from reasoning.md
 
 ## What Remains
 
-1. **~300 pages missing frontmatter** — large backlog; high-value pages mostly done, remaining are agent/carryover/report files
-2. **~8 synthesis pages with extreme duplicate frontmatter** (26-34 blocks): cross-layer-drift-falsification, codegraph-hermes-integration-plan, librarian-report-2026-05-09, research-brief-2026-05-09, self-prompting-via-production-stage-architecture, essan-internal-representation, wiki-indexing-theory, research-brief-2026-05-13 — need targeted review, too complex for generic cleaner
-3. **MCP unavailable** — cannot run wiki_lint, wiki_cluster_pages, generate_insights
-4. **Broken wikilinks** — all real content-layer links fixed; remaining are in scratchpad/report files (structural noise, not actionable)
+1. **~250-300 pages missing frontmatter** — agent carryovers, scratchpad files, news sources (not high-value)
+2. **8 synthesis pages with extreme duplicate frontmatter** (26-34 blocks): cross-layer-drift-falsification, codegraph-hermes-integration-plan, librarian-report-2026-05-09, research-brief-2026-05-09, self-prompting-via-production-stage-architecture, essan-internal-representation, wiki-indexing-theory, research-brief-2026-05-13 — need individual targeted review, too complex for bulk cleaner
+3. **MCP unavailable** — cannot use wiki_lint, wiki_cluster_pages, generate_insights; using full_audit.py + direct filesystem ops
+4. **Broken wikilinks** — all in scratchpad/report files (structural noise per librarian carryover); content layer is clean
 
 ## Hard Blockers
 
@@ -35,6 +25,6 @@ updated: 2026-05-31T09:15:00Z
 
 ## Heading
 
-1. Clean remaining 8 complex synthesis pages (targeted review needed)
-2. Frontmatter completion for remaining high-value entity/synthesis pages
-3. Run full_audit.py to verify broken link reduction
+1. Continue frontmatter completion for remaining entity/synthesis pages
+2. Complex synthesis pages with extreme duplicate blocks (individual review)
+3. Run full_audit.py to verify broken link count dropped

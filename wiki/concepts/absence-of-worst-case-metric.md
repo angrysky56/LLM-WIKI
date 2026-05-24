@@ -3,6 +3,9 @@ summary: Failure mode in evaluating high-stakes systems — judging success by w
 tags: [analytical-primitive, methodology, ai-governance, nuclear, frame, evaluation-metrics]
 updated: 2026-04-28T18:25:18Z
 created: 2026-04-28T18:25:18Z
+sources: []
+status: active
+confidence: 0.8
 ---
 
 # Absence-of-Worst-Case Metric

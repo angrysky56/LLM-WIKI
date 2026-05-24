@@ -3,6 +3,9 @@ summary: Concept page for Broca's Area.
 tags: [concept, neuroscience, linguistics]
 updated: 2026-04-18T20:13:42Z
 created: 2026-04-18T20:13:42Z
+sources: []
+status: active
+confidence: 0.8
 ---
 
 ---

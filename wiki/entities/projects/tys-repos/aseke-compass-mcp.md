@@ -3,6 +3,10 @@ summary: Project page for aseke-compass-mcp.
 tags: [projects, ty-repo, psychology]
 updated: 2026-05-01T07:06:28Z
 created: 2026-05-01T07:06:28Z
+sources: []
+status: active
+confidence: 0.8
+type: entity
 ---
 
 ---

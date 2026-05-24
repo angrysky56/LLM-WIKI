@@ -1,8 +1,13 @@
 ---
+
 summary: Training framework for Essan symbols as internal representation markers in LLMs, enabling hallucination detection via activation geometry.
 tags: [essan, internal-representations, symbol-grounding, evolutionary-computation, arc, hallucination-detection]
 updated: 2026-05-22T06:59:53Z
 created: 2026-05-22T06:59:53Z
+sources: []
+status: active
+confidence: 0.8
+type: synthesis
 ---
 
 # Essan: Internal Representation Training Framework
@@ -22,7 +27,7 @@ The three validated findings from prior investigation:
 
 This page documents the proposed training methodology and experimental program.
 
----
+
 
 ## The Core Hypothesis
 
@@ -42,7 +47,7 @@ The resulting activation structure:
 ⩘ → commits (activations cluster around "done, output this")
 ```
 
----
+
 
 ## Why Not Use Formal Semantics?
 
@@ -62,7 +67,7 @@ The internal representation approach sidesteps this by not requiring the symbols
 
 The key is that during training, the symbol token appears in positions where the model's internal state is already reasoning about specific things (comparing outputs, checking constraints, retrying). The symbol becomes an **auxiliary training signal** that pulls together activations from many different reasoning contexts under one token — creating a structured subspace.
 
----
+
 
 ## The 7-Token ARC Subset
 
@@ -83,7 +88,7 @@ Full ARC sequence: `⧿⧬⦿⫰◬⧉⩘`
 
 Contextual modifiers: 🌐 (external), 🌍 (global), ⬊ (social), 💬 (relational), 🌍⬊💬 = nested context hierarchy
 
----
+
 
 ## Training Methodology
 
@@ -176,7 +181,7 @@ Symbol tokens are introduced gradually:
 - **Baseline B:** No symbols, standard CoT fine-tuning — establishes whether Essan adds anything over standard chain-of-thought
 - **Baseline C:** Formal Essan (each symbol has explicit definition in system prompt) — tests whether formal semantics outperforms internal representation
 
----
+
 
 ## Hallucination Detection via Activation Geometry
 
@@ -238,7 +243,7 @@ Generate synthetic "correct" traces (ground truth reasoning chains) and "halluci
 
 Also run on held-out reasoning tasks with human-labeled hallucination markers.
 
----
+
 
 ## Experimental Program
 
@@ -293,7 +298,7 @@ Also run on held-out reasoning tasks with human-labeled hallucination markers.
 
 **Success criterion:** Internal representation model achieves highest AUC-ROC on hallucination detection and/or highest accuracy on reasoning tasks.
 
----
+
 
 ## Connection to VGCP
 
@@ -308,7 +313,7 @@ The Essan training program has structural parallels to VGCP's constraint enforce
 
 The `verify_commutativity` tool from MCP logic could verify that Essan's trained activation space respects the same structural constraints as VGCP's DAG — a future validation experiment.
 
----
+
 
 ## Risks and Open Questions
 
@@ -324,7 +329,7 @@ You don't place symbols in the output unless you want to. The symbol tokens are 
 ### What about the 300+ multi-symbol sequences in the dictionary?
 Start with the 7 ARC tokens. The multi-symbol sequences (like `⧬⦿⧈⧉⧿⧬⩘`) are compositional — they can be treated as sequences of the 7 base tokens rather than distinct vocabulary items. If the model needs to learn hierarchical composition (sub-sequence patterns), add training examples with longer sequences and verify that sub-cluster geometry respects composition.
 
----
+
 
 ## Existing Files
 
@@ -335,7 +340,7 @@ Start with the 7 ARC tokens. The multi-symbol sequences (like `⧬⦿⧈⧉⧿�
 - `/home/ty/essan-vector-results.md` — Vector space encoding experiment (87.5% hallucination detection)
 - `/home/ty/essan_vector_test.py` — Python test suite for vector encoding
 
----
+
 
 ## Status History
 

@@ -3,6 +3,10 @@ summary: Project page for advanced-reasoning-mcp.
 tags: [projects, ty-repo, reasoning]
 updated: 2026-05-01T07:06:00Z
 created: 2026-05-01T07:06:00Z
+sources: []
+status: active
+confidence: 0.8
+type: entity
 ---
 
 ---

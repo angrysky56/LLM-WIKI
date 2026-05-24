@@ -1,6 +1,6 @@
 ---
 summary: Trump-backed challenger defeats Bill Cassidy in Republican primary — the seventh Republican to lose a primary after voting to convict Trump.
-tags: [[world-news, us-politics, republican-party, donald-trump, senate, primary-election]]
+tags: [world-news, us-politics, republican-party, donald-trump, senate, primary-election]
 updated: 2026-05-17T18:17:11Z
 created: 2026-05-17T18:17:11Z
 ---

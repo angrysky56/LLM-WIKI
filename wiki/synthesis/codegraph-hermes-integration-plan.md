@@ -1,8 +1,13 @@
 ---
+
 summary: CodeGraph-driven integration plan: GeNNAiS memory architecture + AGEM EventBus/StateManager for Hermes
 tags: [hermes, integration, plan, memory, state-machine, codegraph, agem, gennaiis]
 updated: 2026-05-22T20:57:14Z
 created: 2026-05-22T20:57:14Z
+sources: []
+status: active
+confidence: 0.8
+type: synthesis
 ---
 
 # CodeGraph Hermes Integration Plan
@@ -10,7 +15,7 @@ created: 2026-05-22T20:57:14Z
 **Created:** 2026-05-22
 **Sources:** CodeGraph analysis of 62K-file / 1M-node / 1.67M-edge workspace index
 
----
+
 
 ## Executive Summary
 
@@ -21,7 +26,7 @@ CodeGraph scan of the user's 62K-file personal workspace revealed two mature sys
 
 Both systems are production-quality code (not sketches), with significant test coverage. Neither can run standalone — each requires its full deployment environment. Integration must be architectural porting, not import-and-run.
 
----
+
 
 ## System 1: GeNNAiS Memory Architecture
 
@@ -88,7 +93,7 @@ The 3-layer taxonomy (semantic + temporal + hierarchical) is exactly what Hermes
 4. **Drop the N+1**: Add proper vector indexing (SQLite FTS5 can handle this) or use a simpler hash-based similarity
 5. **Keep predict_next_memory()**: This is the most novel feature — worth preserving
 
----
+
 
 ## System 2: AGEM Orchestrator
 
@@ -150,7 +155,7 @@ EventBus and OrchestratorStateManager are clean, extractable, AGEM-independent. 
 4. **Drop ObstructionHandler + VdWAgentSpawner** — these are too AGEM-specific (sheaf theory, gap detection)
 5. **Replace with Hermes-native handlers**: Tie state transitions to Hermes metrics (iteration budget, error rates, task completion)
 
----
+
 
 ## Hermes Current State (Baseline)
 
@@ -163,7 +168,7 @@ EventBus and OrchestratorStateManager are clean, extractable, AGEM-independent. 
 | Self-Healing | **NONE** — no `闭环` (closed-loop verification). No post-verification loops. |
 | Context Management | `ContextCompressor` pluggable via plugin system. LCM can replace default. |
 
----
+
 
 ## Integration Plan
 
@@ -236,7 +241,7 @@ task_submitted → delegate executes → verify_output →
 - **AGEM VdWAgentSpawner**: Regime-gating is interesting but too coupled to AGEM's agent model.
 - **AGEM ObstructionHandler**: Too AGEM-specific (gap detection in TNA graphs). Hermes needs different self-healing logic.
 
----
+
 
 ## Verification闭环
 
@@ -261,7 +266,7 @@ delegate_task(task) → execute → verify(output) →
 - On failure: feed back to `ErrorClassifier`, apply recovery strategy, retry
 - Max retries bounded by iteration budget
 
----
+
 
 ## Risks
 
@@ -273,7 +278,7 @@ delegate_task(task) → execute → verify(output) →
 | Self-healing闭环 becomes infinite retry loop | Medium | High | Budget-bounded retries with explicit abort conditions |
 | External embedding service required | High (for GeNNAiS-style) | High | Skip embeddings for MVP, use keyword/pattern matching instead |
 
----
+
 
 ## Dependencies
 
@@ -281,7 +286,7 @@ delegate_task(task) → execute → verify(output) →
 - Memory taxonomy: Zero new dependencies (SQLite already in use)
 - Self-healing闭环: Zero new dependencies (uses existing ErrorClassifier)
 
----
+
 
 ## Success Criteria
 
@@ -291,7 +296,7 @@ delegate_task(task) → execute → verify(output) →
 4. Failed delegation triggers recovery flow, not immediate failure
 5. No new external services required (no Neo4j, no embedding HTTP service)
 
----
+
 
 ## Related Pages
 

@@ -2,6 +2,11 @@
 summary: Markdown knowledge app — the human-readable frontend for the wiki
 tags: [tool, knowledge-management, frontend, obsidian]
 updated: 2026-04-10T23:18:23Z
+created: 2026-05-28
+type: entity
+sources: []
+status: active
+confidence: 0.8
 ---
 
 # Obsidian

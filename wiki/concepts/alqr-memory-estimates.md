@@ -4,6 +4,9 @@ type: concept
 tags: [a-lqr, memory-estimates, jacobian-caching, implementation, closed-loop]
 updated: 2026-05-21T08:28:21Z
 created: 2026-05-21T08:28:21Z
+sources: []
+status: active
+confidence: 0.8
 ---
 
 

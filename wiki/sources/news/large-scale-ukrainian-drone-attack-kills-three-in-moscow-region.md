@@ -1,6 +1,6 @@
 ---
 summary: Ukraine's largest drone attack on Moscow kills 3, breaching Russia's capital air defenses at scale.
-tags: [[world-news, ukraine, russia, drone-warfare, moscow, conflict]]
+tags: [world-news, ukraine, russia, drone-warfare, moscow, conflict]
 updated: 2026-05-17T18:17:06Z
 created: 2026-05-17T18:17:06Z
 ---

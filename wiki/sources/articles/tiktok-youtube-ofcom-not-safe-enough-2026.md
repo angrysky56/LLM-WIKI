@@ -26,7 +26,7 @@ This is part of a global pattern of children-focused social media regulation acc
 The UK Online Safety Act represents one of the world's most comprehensive attempts to regulate platforms' duty of care to children. Ofcom's findings — and the platforms' pushback — will set precedent for how that law is interpreted and enforced.
 
 ## Connections
-- [[meta-social-media-addiction-settlement]] — same underlying issue: platforms design for engagement, children pay the price
+- [[meta-social-media-addiction-settlement-2026]] — same underlying issue: platforms design for engagement, children pay the price
 - [[ai-governance-substrate]] — algorithmic recommendation systems are a form of AI; this is AI governance in practice
 - [[institutional-capture-vs-species-framing]] — regulatory institutions attempting to constrain tech platform power
 

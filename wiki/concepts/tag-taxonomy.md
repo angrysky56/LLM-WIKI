@@ -3,6 +3,10 @@ summary: Controlled vocabulary for wiki tags — preferred terms with USE/UF equ
 tags: [meta, controlled-vocabulary, indexing, tag-taxonomy, reference]
 updated: 2026-04-11T04:48:34Z
 created: 2026-04-11T04:48:34Z
+sources: []
+status: active
+confidence: 0.8
+type: concept
 ---
 
 # Tag Taxonomy — Controlled Vocabulary

@@ -29,7 +29,7 @@ Traditional reward models are often as large as the generator models they evalua
 
 ## Connections
 
-- **[[reasoning]]**: Reward models are critical for identifying correct reasoning paths in complex math and logic tasks.
+- **[[load-bearing-reasoning]]**: Reward models are critical for identifying correct reasoning paths in complex math and logic tasks.
 - **[[hidden-states]]**: New approaches derive rewards directly from the generator's internal representations.
 - **[[critical-analysis]]**: Evaluating the reliability and bias of reward models is a key area of scientific review in LLM research.
 - **[[opendeepthink-parallel-reasoning]]**: Bradley-Terry pairwise aggregation as a reward-free selection mechanism for parallel reasoning.

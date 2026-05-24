@@ -3,6 +3,10 @@ summary: Graph-backed MCP server providing semantic search, knowledge synthesis,
 tags: [project, MCP, Neo4j, architecture, core]
 updated: 2026-04-07T20:01:48Z
 created: 2026-04-07T20:01:48Z
+type: entity
+sources: []
+status: active
+confidence: 0.8
 ---
 
 # Project Synapse

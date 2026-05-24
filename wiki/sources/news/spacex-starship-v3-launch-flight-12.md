@@ -1,6 +1,6 @@
 ---
 summary: SpaceX schedules first Starship V3 (Flight 12) launch — largest rocket ever built, with self-documentation capability and major hardware upgrades over V2.
-tags: [[news, science, space, spacex, starship, space-exploration, rocket-launch]]
+tags: [news, science, space, spacex, starship, space-exploration, rocket-launch]
 updated: 2026-05-17T19:08:21Z
 created: 2026-05-17T19:08:21Z
 ---

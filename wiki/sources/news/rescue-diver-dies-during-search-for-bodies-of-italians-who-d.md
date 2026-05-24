@@ -1,6 +1,6 @@
 ---
 summary: Rescue diver killed in Maldives cave recovery operation — a notoriously lethal environment for even expert divers.
-tags: [[world-news, maldives, cave-diving, italy, rescue, diving-accident]]
+tags: [world-news, maldives, cave-diving, italy, rescue, diving-accident]
 updated: 2026-05-17T18:17:13Z
 created: 2026-05-17T18:17:13Z
 ---

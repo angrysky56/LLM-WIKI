@@ -3,6 +3,10 @@ summary: Entity page for Gemini.
 tags: [tools, llm]
 updated: 2026-05-01T06:25:52Z
 created: 2026-05-01T06:25:52Z
+type: entity
+sources: []
+status: active
+confidence: 0.8
 ---
 
 ---

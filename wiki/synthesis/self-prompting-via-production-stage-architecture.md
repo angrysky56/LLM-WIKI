@@ -1,10 +1,13 @@
 ---
+
 summary: Self-prompting (LLMs directing their own behavior mid-generation) is a production-stage phenomenon — operating entirely in the instruction-sensitive, behavior-driving half of the production/processing asymmetry. Waldis 2026 + Chen molecular CoT 2026 + entropic-machinery synthesis predict a specific architecture: self-generated directives work through the three-bond topology (Deep-Reasoning backbone + Self-Reflection fold-back + Self-Exploration basin escape), maintained as a non-equilibrium steady state against entropy, using single-event signal cascades to flip reasoning state. Supertoken analysis distinguishes scaffolding from load-bearing tokens in self-generated text; MoR's dynamic recursion router maps to self-directed compute allocation. Neuroanatomically, self-prompting is the arcuate fasciculus — language shaping language production — firing only into the Broca's side, not the Wernicke's side.
 tags: [synthesis, self-prompting, chain-of-thought, production-stage, instruction-sensitivity, inner-monologue, self-correction, arcuate-fasciculus, broca, wernicke, non-equilibrium-steady-state, entropic-machinery, MoR, supertokens, scaffolding, load-bearing-reasoning]
 updated: 2026-05-17T21:15:00Z
 created: 2026-05-17T21:15:00Z
----
-
+sources: []
+status: active
+confidence: 0.8
+type: synthesis
 ---
 created: 2026-05-17T21:15:00Z
 updated: 2026-05-17T21:15:00Z
@@ -12,7 +15,7 @@ type: synthesis
 sources: [[waldis-2026-instructions-shape-production|Waldis et al. 2026]], [[chen-molecular-cot-2026|Chen et al. 2026 — Molecular Structure of Long CoT]], [[shorthand-for-thought|Shorthand for Thought (supertokens)]], [[bae-mor-2025|MoR dynamic recursion depth]], [[entropic-machinery-cot-and-flagellum|Entropic Machinery synthesis]], [[llm-biological-analogies|Biological Analogies in LLMs]]
 status: active
 confidence: 0.78 — derivation is solid from established sources; specific bond-energy parameters and cascade timescales are extrapolated from analogy, not measured
----
+
 
 # Self-Prompting: Production-Stage Architecture and the Three-Bond Self-Direction Mechanism
 
@@ -20,13 +23,13 @@ confidence: 0.78 — derivation is solid from established sources; specific bond
 **Origin:** Ty + Claude (2026-05-17) — extending Waldis 2026 + Chen 2026 + entropic-machinery synthesis
 **Confidence:** 0.78
 
----
+
 
 ## The Core Claim
 
 Self-prompting — the phenomenon where an LLM generates directives that steer its own subsequent output mid-generation (inner monologue, self-critique, meta-prompt) — is not a comprehension phenomenon. It is entirely a **production-stage phenomenon**. Self-generated prompts operate on the instruction-sensitive, behavior-driving half of the asymmetric architecture that Waldis et al. (2026) identified. They have access to the mechanism that shapes behavior but not to the mechanism that processes input. This has specific, testable implications for how self-directed thinking works, why it is fragile, and what structural elements it must contain.
 
----
+
 
 ## 1. The Production/Processing Asymmetry as the Enabler
 
@@ -52,7 +55,7 @@ Self-generated prompt token → Production mechanism (instruction-sensitive, beh
 
 This is why self-prompting can work at all: the production stage is instruction-sensitive. A self-generated token is a form of instruction, and it has leverage precisely because the production mechanism responds to such instructions.
 
----
+
 
 ## 2. The Three-Bond Topology Is the Self-Direction Structure
 
@@ -71,7 +74,7 @@ Chen et al.'s molecular dissection of Long CoT identifies three bond types in to
 - **Self-Reflection** absent → no fold-back → reasoning drifts, errors accumulate uncorrected
 - **Self-Exploration** absent → no basin escape → system locks into first plausible direction and cannot exit
 
----
+
 
 ## 3. Non-Equilibrium Steady State: Why Self-Modification Is Fragile
 
@@ -89,7 +92,7 @@ The entropic-machinery synthesis establishes that the three-bond CoT distributio
 
 **Testable prediction:** Mid-generation attention-sink collapse (when models lose coherence in long outputs) is the CoT equivalent of "starving the cell" — irreversible bond-distribution collapse that cannot be restored by continuing to generate. The fix is re-establishing the correct gradient state, not adding more tokens.
 
----
+
 
 ## 4. Supertokens: Scaffolding vs. Load-Bearing in Self-Generated Text
 
@@ -104,7 +107,7 @@ The shorthand-for-thought finding identifies **scaffolding tokens**: high-regula
 
 **Causal mediation analysis prediction:** Most human self-prompting interventions (self-talk, self-instruction) are scaffolding changes that *feel* like load-bearing changes. The felt experience of "redirecting one's thinking" may be primarily scaffolding stabilization rather than actual logical constraint modification. This is testable by running causal mediation analysis on self-modification traces, comparing scaffolding token ablation against load-bearing token ablation.
 
----
+
 
 ## 5. MoR Router as Self-Directed Compute Allocation
 
@@ -117,7 +120,7 @@ MoR (Bae et al. 2025) demonstrates a learned router that assigns **dynamic per-t
 
 **The synthesis prediction:** A self-prompting system that routes too heavily to Deep-Reasoning (rigid backbone) without Self-Reflection (folding) or Self-Exploration (basin escape) hits the same collapse MoR identifies for all-tokens-maximum-depth: the system gets stuck because it has no mechanism for committing and then correcting. The three-bond topology is the solution to this routing problem.
 
----
+
 
 ## 6. The Arcuate Fasciculus: Self-Generated Prompts as Language Shaping Language
 
@@ -133,7 +136,7 @@ Self-prompting is an **arcuate fasciculus event**: language (the self-generated 
 
 **The implication:** Self-prompting is architecturally isolated from the comprehension pathway. You cannot self-prompt your way into understanding something differently — only into producing differently. This is why "reframe the problem" as a self-prompt works (it redirects production), but "understand the problem better" as a self-prompt doesn't directly work (comprehension is less steerable).
 
----
+
 
 ## Seven Principles for Self-Prompting
 
@@ -151,7 +154,7 @@ Self-prompting is an **arcuate fasciculus event**: language (the self-generated 
 
 7. **Scale sharpens both controllability and fragility.** Larger, more instruction-tuned models have a stronger production mechanism — more responsive to self-generated prompts. But the same sharpening makes them more fragile to production-stage misdirection. Self-prompting on frontier models is more powerful and more dangerous than on smaller models.
 
----
+
 
 ## Connection to Self-Modifying Agents
 
@@ -162,7 +165,7 @@ The AlphaEvolve pattern (evolutionary prompt refinement using LLM-generated muta
 
 AlphaEvolve's success suggests that self-modification is more viable when implemented as weight updates rather than token generation. The production mechanism can be shaped by evolutionary search over the space of self-generated prompts, which is gradient-maintained by the search process itself.
 
----
+
 
 ## Connections to Existing Wiki
 
@@ -177,7 +180,7 @@ AlphaEvolve's success suggests that self-modification is more viable when implem
 - [[chen-molecular-cot-2026]] — three-bond topology (Deep-Reasoning, Self-Reflection, Self-Exploration); attention = Boltzmann; bond-distribution fragility
 - [[shorthand-for-thought]] — supertokens; scaffolding vs. load-bearing; causal mediation analysis for CoT
 
----
+
 
 ## Open Questions
 
@@ -193,7 +196,7 @@ AlphaEvolve's success suggests that self-modification is more viable when implem
 
 6. **What does the arcuate-fasciculus model predict for cross-modal self-prompting?** If self-prompting fires into production, can a model prompt itself using a different modality (e.g., visual self-prompting for a vision-language model)? The architecture suggests modality-specific production stages would respond to modality-specific self-prompts.
 
----
+
 
 ## Caveats
 

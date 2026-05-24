@@ -3,6 +3,10 @@ summary: Concept page for the statistical study of language evolution.
 tags: [linguistics, evolution, statistics]
 updated: 2026-05-06T20:06:54Z
 created: 2026-05-06T20:06:54Z
+sources: []
+status: active
+confidence: 0.8
+type: concept
 ---
 
 ---

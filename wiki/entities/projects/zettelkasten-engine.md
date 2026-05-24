@@ -3,6 +3,10 @@ summary: Autonomous pattern detection and insight synthesis engine within Projec
 tags: [component, AI, pattern-detection, insight-generation]
 updated: 2026-04-07T20:36:21Z
 created: 2026-04-07T20:36:21Z
+type: entity
+sources: []
+status: active
+confidence: 0.8
 ---
 
 # Zettelkasten Engine

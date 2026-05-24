@@ -1,6 +1,6 @@
 ---
 summary: Boko Haram kidnaps 50+ schoolchildren including toddlers in dawn raid on Mussa town, Borno State, Nigeria — recurring mass abduction pattern in NE Nigeria.
-tags: [[news, political-balance-shifts, nigeria, boko-haram, kidnapping, borno, humanitarian-crisis, africa]]
+tags: [news, political-balance-shifts, nigeria, boko-haram, kidnapping, borno, humanitarian-crisis, africa]
 updated: 2026-05-17T19:06:35Z
 created: 2026-05-17T19:06:35Z
 ---

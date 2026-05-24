@@ -1,6 +1,6 @@
 ---
 summary: Hantavirus case on a previously affected cruise ship highlights enclosed-environment transmission risk.
-tags: [[world-news, hantavirus, cruise-ship, public-health, infectious-disease, canada]]
+tags: [world-news, hantavirus, cruise-ship, public-health, infectious-disease, canada]
 updated: 2026-05-17T18:17:12Z
 created: 2026-05-17T18:17:12Z
 ---

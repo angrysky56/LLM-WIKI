@@ -3,6 +3,10 @@ summary: kepano's agent skill definitions for Obsidian — markdown, bases, canv
 tags: [obsidian, skills, kepano, agent, bases, defuddle, tooling]
 updated: 2026-04-11T00:58:29Z
 created: 2026-04-11T00:58:29Z
+type: entity
+sources: []
+status: active
+confidence: 0.8
 ---
 
 # obsidian-skills (kepano)

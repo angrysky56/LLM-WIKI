@@ -29,7 +29,8 @@ updated: 2026-05-22T01:30:00Z
 | `297092f3b347` | orcaid-verification-indexer | orcaid | pending | 2026-05-18 | 2026-05-19 9AM | [[agent-sheets/orcaid]] |
 | `72599f850df2` | arxiv-top3-weekly | arxiv | **done** | 2026-05-23 | 2026-05-26 8:20AM | [[agent-sheets/arxiv]] |
 | `c838e81a1496` | llm-wiki-raw-ingest | ingest | **done** | 2026-05-23 | | [[agent-sheets/ingest]] |
-| `6ee16837c47c` | Wiki Librarian | librarian | **done** | 2026-05-29 | N/A | [[agent-sheets/librarian]] |
+| `6ee16837c47c` | Wiki Librarian | librarian | **done** | 2026-06-03 | N/A | [[agent-sheets/librarian]] |
+| `723e76246970` | Wiki Insights Generator | insights | pending | — | 2026-05-24 6AM | [[agent-sheets/insights]] |
 
 ## Task Delegation
 
@@ -54,6 +55,7 @@ updated: 2026-05-22T01:30:00Z
 | arxiv | `jobs/reports/arxiv/` | — |
 | news | `jobs/reports/news/` | [[news-2026-05-22-headlines]] |
 | ingest | `jobs/reports/ingest/` | — |
+| insights | `jobs/reports/insights/` | — |
 
 ## Instructions Per Agent
 
@@ -67,6 +69,7 @@ Each agent reads its own sheet on every run. These sheets are the source of trut
 | arxiv | [[agent-sheets/arxiv]] | Top 3 paper discovery and ingestion |
 | news | [[agent-sheets/news]] | Global news curation and wiki ingestion |
 | ingest | [[agent-sheets/ingest]] | raw→wiki pipeline, file processing |
+| insights | [[agent-sheets/insights]] | Zettelkasten insight generation and wiki integration |
 
 **Each agent sheet contains:**
 1. Read the agent sheet (STEP 0)

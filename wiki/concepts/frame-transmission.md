@@ -3,6 +3,10 @@ summary: The historical mechanism by which captured institutional forms are actu
 tags: [analytical-primitive, ai-governance, institutional-change, frame, aseke, methodology]
 updated: 2026-04-28T18:27:07Z
 created: 2026-04-28T18:27:07Z
+sources: []
+status: active
+confidence: 0.8
+type: concept
 ---
 
 # Frame Transmission

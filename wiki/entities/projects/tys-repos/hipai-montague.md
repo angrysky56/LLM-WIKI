@@ -3,6 +3,10 @@ summary: Project page for HiPAI-Montague.
 tags: [projects, ty-repo, ethics]
 updated: 2026-05-01T07:05:37Z
 created: 2026-05-01T07:05:37Z
+sources: []
+status: active
+confidence: 0.8
+type: entity
 ---
 
 ---

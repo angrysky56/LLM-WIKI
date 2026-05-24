@@ -1,6 +1,6 @@
 ---
 summary: Drone strike near UAE's Barakah nuclear plant — the Arab world's first civilian reactor — exposes nuclear site vulnerability.
-tags: [[world-news, uae, nuclear-security, drone-warfare, barakah, middle-east]]
+tags: [world-news, uae, nuclear-security, drone-warfare, barakah, middle-east]
 updated: 2026-05-17T18:17:07Z
 created: 2026-05-17T18:17:07Z
 ---

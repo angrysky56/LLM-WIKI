@@ -3,6 +3,10 @@ summary: Project page for EFHF.
 tags: [projects, ty-repo, emergence]
 updated: 2026-05-01T07:05:40Z
 created: 2026-05-01T07:05:40Z
+type: entity
+sources: []
+status: active
+confidence: 0.8
 ---
 
 ---

@@ -3,6 +3,10 @@ summary: The study of conditions enabling evolution to continually produce novel
 tags: [artificial-life, open-ended-evolution, emergence, complexity, natural-selection]
 updated: 2026-04-14T19:14:46Z
 created: 2026-04-14T19:14:46Z
+sources: []
+status: active
+confidence: 0.8
+type: concept
 ---
 
 # Open-Ended Evolution

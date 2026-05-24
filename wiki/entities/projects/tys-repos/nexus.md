@@ -3,6 +3,10 @@ summary: Project page for NEXUS.
 tags: [projects, ty-repo, cognitive-architecture]
 updated: 2026-05-01T07:06:52Z
 created: 2026-05-01T07:06:52Z
+sources: []
+status: active
+confidence: 0.8
+type: entity
 ---
 
 ---

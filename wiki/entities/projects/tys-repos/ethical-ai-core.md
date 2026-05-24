@@ -3,6 +3,10 @@ summary: Project page for ethical-ai-core.
 tags: [projects, ty-repo, fine-tuning]
 updated: 2026-05-01T07:06:32Z
 created: 2026-05-01T07:06:32Z
+sources: []
+status: active
+confidence: 0.8
+type: entity
 ---
 
 ---

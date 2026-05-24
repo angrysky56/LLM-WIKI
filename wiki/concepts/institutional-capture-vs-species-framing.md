@@ -3,6 +3,10 @@ summary: Reframe of "human nature" / "civilization" arguments — the unit makin
 tags: [analytical-primitive, methodology, ai-governance, great-filter, institutional-analysis, frame]
 updated: 2026-04-28T18:25:50Z
 created: 2026-04-28T18:25:50Z
+sources: []
+status: active
+confidence: 0.8
+type: concept
 ---
 
 # Institutional Capture vs Species Framing

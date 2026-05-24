@@ -3,6 +3,10 @@ summary: Entity page for Tyler Blaine Hall.
 tags: [people, developers]
 updated: 2026-05-01T07:11:40Z
 created: 2026-05-01T07:11:40Z
+sources: []
+status: active
+confidence: 0.8
+type: entity
 ---
 
 ---

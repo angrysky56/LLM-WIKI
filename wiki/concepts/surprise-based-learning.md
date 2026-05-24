@@ -3,6 +3,10 @@ summary: Concept page for surprise-based learning.
 tags: [machine-learning, learning-theory]
 updated: 2026-05-06T20:09:39Z
 created: 2026-05-06T20:09:39Z
+sources: []
+status: active
+confidence: 0.8
+type: concept
 ---
 
 ---

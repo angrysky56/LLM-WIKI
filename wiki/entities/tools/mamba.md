@@ -3,6 +3,10 @@ summary: Tool page for Mamba (SSM).
 tags: [llm, ssm, architecture]
 updated: 2026-05-06T20:09:35Z
 created: 2026-05-06T20:09:35Z
+type: entity
+sources: []
+status: active
+confidence: 0.8
 ---
 
 ---

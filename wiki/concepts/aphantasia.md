@@ -3,6 +3,9 @@ summary: Concept page for Aphantasia
 tags: [neuroscience, condition, imagination, aphantasia]
 updated: 2026-04-28T18:54:51Z
 created: 2026-04-28T18:54:51Z
+sources: []
+status: active
+confidence: 0.8
 ---
 
 ---

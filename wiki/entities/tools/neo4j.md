@@ -2,6 +2,11 @@
 summary: Graph database providing vector search, fulltext indexing, and relationship traversal — running 2026.04.0 with Qwen 4B embeddings
 tags: [database, graph, vector-search, infrastructure, neo4j]
 updated: 2026-05-07T16:47:14Z
+created: 2026-05-28
+type: entity
+sources: []
+status: active
+confidence: 0.8
 ---
 
 # Neo4j

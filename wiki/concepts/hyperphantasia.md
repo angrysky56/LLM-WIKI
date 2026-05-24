@@ -3,6 +3,10 @@ summary: Concept page for Hyperphantasia
 tags: [neuroscience, condition, imagination, hyperphantasia]
 updated: 2026-04-28T18:54:55Z
 created: 2026-04-28T18:54:55Z
+sources: []
+status: active
+confidence: 0.8
+type: concept
 ---
 
 ---

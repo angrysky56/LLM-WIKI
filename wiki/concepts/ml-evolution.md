@@ -3,6 +3,10 @@ summary: Concept page for autonomous machine learning model evolution.
 tags: [ml-evolution, nas, ai-engineering]
 updated: 2026-05-06T20:07:22Z
 created: 2026-05-06T20:07:22Z
+sources: []
+status: active
+confidence: 0.8
+type: concept
 ---
 
 ---

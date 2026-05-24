@@ -3,6 +3,10 @@ summary: Paradigm of LLM pre-compiling knowledge into persistent structured base
 tags: [knowledge-management, RAG, architecture, core-concept]
 updated: 2026-04-07T20:01:08Z
 created: 2026-04-07T20:01:08Z
+sources: []
+status: active
+confidence: 0.8
+type: concept
 ---
 
 # Persistent Knowledge Compilation

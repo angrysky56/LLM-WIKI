@@ -3,6 +3,10 @@ summary: Recurrent neural network with associative memory, energy-based stable s
 tags: [neural-networks, associative-memory, dynamical-systems, hopfield]
 updated: 2026-05-23T21:26:33Z
 created: 2026-05-23T21:26:33Z
+sources: []
+status: active
+confidence: 0.8
+type: concept
 ---
 
 # Hopfield Network

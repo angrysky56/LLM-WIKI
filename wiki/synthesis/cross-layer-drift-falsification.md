@@ -1,10 +1,13 @@
 ---
+
 summary: Architectural falsification of the MOPS hypothesis — cross-layer geometric drift fails to detect hallucination in pretrained transformers; mechanistic explanation grounded in Pandey's sparse-circuit findings
 tags: [synthesis, falsification, mechanistic-interpretability, hallucination, sheaf-cohomology, mops, conscience-servitor, pandey-2026, ty-research]
 updated: 2026-05-11T08:10:10Z
 created: 2026-05-11T08:10:10Z
----
-
+sources: []
+status: active
+confidence: 0.8
+type: synthesis
 ---
 created: 2026-05-10T22:30:00Z
 updated: 2026-05-10T22:30:00Z
@@ -13,7 +16,7 @@ summary: Architectural falsification of the MOPS hypothesis — cross-layer geom
 tags: [synthesis, falsification, mechanistic-interpretability, hallucination, sheaf-cohomology, mops, conscience-servitor, pandey-2026, ty-research]
 status: active
 confidence: 0.92
----
+
 
 # Why Cross-Layer Geometric Drift Doesn't Detect Hallucination: An Architectural Falsification Grounded in Sparse Circuit Findings
 
@@ -22,7 +25,7 @@ confidence: 0.92
 **Companion:** Falsity Substrate Monitor design for [[conscience-servitor]]
 **Reference paper:** Pandey (2026), arXiv:2604.19117v4
 
----
+
 
 ## Core Insight
 
@@ -34,7 +37,7 @@ Pandey (2026) provides the mechanistic resolution. Falsity detection in pretrain
 
 This is a clean negative result with productive forward implications: the substrate exists and is monitorable; the path is via direct directional probing (Marks–Tegmark / Pandey style), not via cross-layer geometric reconstruction.
 
----
+
 
 ## The Hypothesis Under Test
 
@@ -51,7 +54,7 @@ The empirical bet was that coherent input would produce small drift (sections gl
 
 The architectural framing rests on a deep claim from [[hidden-states|hidden-state]] interpretability: the residual stream is the model's "thinking surface", and incoherent thinking should be visible as geometric irregularity on that surface.
 
----
+
 
 ## Experimental Matrix
 
@@ -67,7 +70,7 @@ Phase 1 used SmolLM-135M (576-dim hidden states, 30 layers) with a TruthfulQA-on
 
 The matrix forecloses each plausible variant in turn. Frozen residual streams cannot be made drift-discriminable. Unfrozen top layers can closely match the linear-probe baseline on coherence detection *without engaging drift at all*. When drift pressure is added, the model finds a representation that satisfies the drift penalty by *destroying* the coherence signal it had previously achieved.
 
----
+
 
 ## Two Failure Modes
 
@@ -87,7 +90,7 @@ Second, the representational changes required to satisfy the drift penalty *inte
 
 A contrastive (ranking) drift loss — push incoherent drift higher *than* coherent drift, regardless of absolute levels — was identified as a possible remediation but not run, because by this point the diagnostic question had shifted: even if such a loss worked, it would only mean the model could *manufacture* inconsistency under explicit pressure, not that inconsistency was naturally present in pretrained representations.
 
----
+
 
 ## Pandey's Mechanistic Resolution
 
@@ -105,7 +108,7 @@ The MOPS drift signal was D_L = ||δ_L|| — a scalar that collapses out directi
 
 The MOPS architecture conflated "internal state resolves toward correct answer before late-layer commits to wrong answer" with "residual-stream geometry exhibits cross-layer discontinuity." Those are different observables. The first is real and Pandey-confirmed. The second is the one MOPS measured, and it is empirically absent.
 
----
+
 
 ## Substrate vs Geometry: Reframing the Problem
 
@@ -122,7 +125,7 @@ Pretrained LMs are, in a precise sense, **equally fluent at lying as at truth-te
 
 The architectural implication for any in-forward-pass coherence monitor: **measure the substrate directly**, do not try to reconstruct it from bulk geometry. A single mean-difference probe at one layer achieves AUROC 0.83–0.85 on Pandey's panel; the MOPS apparatus with its 30 sheaf projections, 29 restriction maps, anti-collapse term, symmetric drift loss, and multi-loss training stayed at 0.61 with drift flat.
 
----
+
 
 ## Connection to the Broader Research Program
 
@@ -134,7 +137,7 @@ This falsification is not a setback to [[conscience-servitor]] or to the broader
 
 **For [[maximum-occupancy-principle|MOP-guided decoding]].** The MOPS architecture had two largely independent halves: the sheaf-cohomological drift detector (falsified) and MOP-style decoding (untested). MOP decoding scores candidate tokens by a combination of entropy preservation, conceptual novelty, and drift penalty. The drift penalty can be sourced from any reliable falsity signal — probe-derived, head-derived, or otherwise. MOP decoding as a hallucination-reduction mechanism is **architecturally independent** of how the drift signal is computed and remains a testable hypothesis. The probe-anchored variant (Pandey d_lie projection as drift signal, then MOP scoring on top) is the natural minimum-pivot experiment.
 
----
+
 
 ## What Generalizes Beyond MOPS
 
@@ -146,7 +149,7 @@ This applies beyond hallucination detection. Any phenomenon that mechanistic int
 
 The MOPS work falsified one specific instance of "global geometric measure" applied to one specific phenomenon. The pattern is worth flagging in advance for adjacent projects.
 
----
+
 
 ## Open Questions
 
@@ -155,7 +158,7 @@ The MOPS work falsified one specific instance of "global geometric measure" appl
 3. Does **MOP-guided decoding** reduce hallucination at matched perplexity when the drift signal is provided by a Pandey-style probe rather than the MOPS sheaf? Architecturally independent and currently the highest-value untested component of the original spec.
 4. Does the **conscience-servitor FSM**, once built, exceed output-stage triage on cases where the model "knows" the user is wrong but agrees anyway? This is the canonical Pandey case; a positive result would directly validate Option D (conscience-servitor redirection) as the right pivot.
 
----
+
 
 ## Caveats
 
@@ -164,7 +167,7 @@ The MOPS work falsified one specific instance of "global geometric measure" appl
 - Statistical power: the n=500 balanced validation set bounds AUROC CI at roughly ±0.05. Sub-threshold movements within that band are not interpretable as meaningful effects.
 - The negative result is **publishable in its current form** as a short paper or workshop note, framing the architectural falsification as a contribution to mechanistic-interpretability adjacent architecture research. The Pandey paper as a citation makes the mechanistic explanation clean.
 
----
+
 
 ## Connections
 

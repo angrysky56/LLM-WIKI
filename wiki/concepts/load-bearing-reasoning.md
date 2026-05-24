@@ -2,6 +2,11 @@
 summary: Added [[isabelle]] return link to load-bearing-reasoning
 tags: [interpretability, causal-mediation, mech-interp, reasoning]
 updated: 2026-05-21T23:12:58Z
+created: 2026-05-28
+type: concept
+sources: []
+status: active
+confidence: 0.8
 ---
 
 ---

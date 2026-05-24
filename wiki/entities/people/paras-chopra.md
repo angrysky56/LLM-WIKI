@@ -3,6 +3,10 @@ summary: Entity page for Paras Chopra.
 tags: [people, researcher]
 updated: 2026-05-01T06:25:37Z
 created: 2026-05-01T06:25:37Z
+sources: []
+status: active
+confidence: 0.8
+type: entity
 ---
 
 ---

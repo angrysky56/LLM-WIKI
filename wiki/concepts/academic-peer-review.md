@@ -3,6 +3,9 @@ summary: The process by which scholarly work is checked by experts in the same f
 tags: [science, publishing, quality-control]
 updated: 2026-04-18T03:46:40Z
 created: 2026-04-18T03:46:40Z
+sources: []
+status: active
+confidence: 0.8
 ---
 
 ---

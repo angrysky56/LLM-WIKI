@@ -1,6 +1,6 @@
 ---
 summary: Car-ramming + stabbing attack in Italy injures 8, echoing a well-established European terrorist template.
-tags: [[world-news, italy, terrorism, vehicle-ramming, hybrid-attack, security]]
+tags: [world-news, italy, terrorism, vehicle-ramming, hybrid-attack, security]
 updated: 2026-05-17T18:17:08Z
 created: 2026-05-17T18:17:08Z
 ---

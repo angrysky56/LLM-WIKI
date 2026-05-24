@@ -3,6 +3,10 @@ summary: Discovering closed-form mathematical expressions from data — approach
 tags: [machine-learning, mathematics, symbolic-regression, formula-discovery, neuro-symbolic]
 updated: 2026-04-14T08:16:05Z
 created: 2026-04-14T08:16:05Z
+sources: []
+status: active
+confidence: 0.8
+type: concept
 ---
 
 # Symbolic Regression

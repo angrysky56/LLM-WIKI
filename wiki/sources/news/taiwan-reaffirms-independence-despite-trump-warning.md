@@ -1,6 +1,6 @@
 ---
 summary: Taiwan publicly reasserts sovereignty after Trump's warning, exposing divergence between US ambiguity and Taipei's own messaging.
-tags: [[world-news, taiwan, us-china-relations, sovereignty, trump-administration, geopolitics]]
+tags: [world-news, taiwan, us-china-relations, sovereignty, trump-administration, geopolitics]
 updated: 2026-05-17T18:17:10Z
 created: 2026-05-17T18:17:10Z
 ---

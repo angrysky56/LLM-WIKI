@@ -26,21 +26,7 @@ Read `wiki/scratchpad/jobs/sheet.md` to check if Ty has flagged any specific reg
 
 ### STEP 2 — Discover news via RSS (NOT wiki search)
 
-**Use RSS as primary discovery.** Do NOT use web search to search the wiki or re-read existing wiki content as a news discovery mechanism.
-
-## STRICT TOKEN BUDGET — Do Not Exceed
-
-Target: **~15,000 input tokens per cycle** (30k max).
-
-**Token-saving rules:**
-1. **Do NOT read the Established section of carryover unless you need a specific detail.** It's historical context — the Article Index and Heading are what you need.
-2. **Do NOT cross-reference existing wiki content during news selection.** RSS gives you the story; write the summary directly. Only use `wiki_search`/`query_knowledge` if a story explicitly requires it.
-3. **Limit carryover reads to the Article Index and Heading sections.**
-4. **Skip wiki lint.** `wiki_lint()` is informational only — don't call it.
-5. **3-5 stories max.** Stop after 5 new stories. Do not hunt for more.
-6. **Do NOT re-ingest established stories.** They are already tracked. Skip them entirely.
-
-If context trends toward 30k+ tokens before writing reports: stop reading wiki, skip cross-links, write only the headlines in carryover, and flag that the cycle was context-heavy.
+Use RSS as primary discovery. Do NOT use web search to search the wiki or re-read existing wiki content as a news discovery mechanism.
 
 ```bash
 curl -s "https://news.google.com/rss/search?q={query}&hl=en-US&gl=US&ceid=US%3Aen"

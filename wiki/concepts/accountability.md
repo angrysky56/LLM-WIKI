@@ -89,6 +89,8 @@ The [[institutional-capture]] failure mode — where institutions drift from the
 - [[governance]] — the broader framework; accountability is one dimension of governance
 - [[agentic-oversight]] — accountability as applied to agentic systems specifically; the structural mechanisms
 
+- [[francesca-albanese-sanctions-legal-policy-divergence-insight]] — legal accountability mechanisms constraining executive sanctions power
+
 ## Open Questions
 
 1. **Accountability for emergent behavior**: When a system behaves in ways that were not anticipated by its creators — emergent capabilities, novel failure modes — who is responsible? The training data? The architecture? The deployment context?

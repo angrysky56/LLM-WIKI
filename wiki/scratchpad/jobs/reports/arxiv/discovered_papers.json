@@ -1,0 +1,595 @@
+[
+  {
+    "id": "2605.22816v1",
+    "title": "AwareVLN: Reasoning with Self-awareness for Vision-Language Navigation",
+    "authors": [
+      "Wenxuan Guo",
+      "Xiuwei Xu",
+      "Yichen Liu"
+    ],
+    "published": "2026-05-21",
+    "summary": "Vision-and-Language Navigation (VLN) requires an agent to ground language instructions to its own movement within a visual environment. While state-of-the-art methods leverage the reasoning capabilities of Vision-Language Models (VLMs) for end-to-end action prediction, they often lack an explicit an",
+    "categories": [
+      "cs.RO",
+      "cs.CV"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2605.22816v1"
+  },
+  {
+    "id": "2605.22814v1",
+    "title": "Remember to be Curious: Episodic Context and Persistent Worlds for 3D Exploration",
+    "authors": [
+      "Lily Goli",
+      "Justin Kerr",
+      "Daniele Reda"
+    ],
+    "published": "2026-05-21",
+    "summary": "Exploration is a prerequisite for learning useful behaviors in sparse-reward, long-horizon tasks, particularly within 3D environments. Curiosity-driven reinforcement learning addresses this via intrinsic rewards derived from the mismatch between the agent's predictive model of the world and reality.",
+    "categories": [
+      "cs.LG"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2605.22814v1"
+  },
+  {
+    "id": "2605.22809v1",
+    "title": "Sensor2Sensor: Cross-Embodiment Sensor Conversion for Autonomous Driving",
+    "authors": [
+      "Jiahao Wang",
+      "Bo Sun",
+      "Yijing Bai"
+    ],
+    "published": "2026-05-21",
+    "summary": "Robust training and validation of Autonomous Driving Systems (ADS) require massive, diverse datasets. Proprietary data collected by Autonomous Vehicle (AV) fleets, while high-fidelity, are limited in scale, diversity of sensor configurations, as well as geographic and long-tail-behavioral coverage. ",
+    "categories": [
+      "cs.CV"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2605.22809v1"
+  },
+  {
+    "id": "2605.22794v1",
+    "title": "MOSS: Self-Evolution through Source-Level Rewriting in Autonomous Agent Systems",
+    "authors": [
+      "Qianshu Cai",
+      "Yonggang Zhang",
+      "Xianzhang Jia"
+    ],
+    "published": "2026-05-21",
+    "summary": "Autonomous agentic systems are largely static after deployment: they do not learn from user interactions, and recurring failures persist until the next human-driven update ships a fix. Self-evolving agents have emerged in response, but all confine evolution to text-mutable artifacts -- skill files, ",
+    "categories": [
+      "cs.AI",
+      "cs.LG"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2605.22794v1"
+  },
+  {
+    "id": "2605.22786v1",
+    "title": "LCGuard: Latent Communication Guard for Safe KV Sharing in Multi-Agent Systems",
+    "authors": [
+      "Sadia Asif",
+      "Mohammad Mohammadi Amiri",
+      "Momin Abbas"
+    ],
+    "published": "2026-05-21",
+    "summary": "Large language model (LLM)-based multi-agent systems increasingly rely on intermediate communication to coordinate complex tasks. While most existing systems communicate through natural language, recent work shows that latent communication, particularly through transformer key-value (KV) caches, can",
+    "categories": [
+      "cs.AI",
+      "cs.ET",
+      "cs.LG",
+      "cs.MA"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2605.22786v1"
+  },
+  {
+    "id": "2605.22781v1",
+    "title": "DeltaBox: Scaling Stateful AI Agents with Millisecond-Level Sandbox Checkpoint/Rollback",
+    "authors": [
+      "Yunpeng Dong",
+      "Jingkai He",
+      "Yuze Hou"
+    ],
+    "published": "2026-05-21",
+    "summary": "LLM-powered AI agents require high-frequency state exploration (e.g., test-time tree search and reinforcement learning), relying on rapid checkpoint and rollback (C/R) of the complete sandbox state, including files and process state (e.g., memory, contexts, etc.). Existing mechanisms duplicate the e",
+    "categories": [
+      "cs.OS",
+      "cs.AI"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2605.22781v1"
+  },
+  {
+    "id": "2605.22773v1",
+    "title": "Deep Reinforcement Learning for Flexible Job Shop Scheduling with Random Job Arrivals",
+    "authors": [
+      "Yu Tang",
+      "Muhammad Zakwan",
+      "Efe Balta"
+    ],
+    "published": "2026-05-21",
+    "summary": "The Flexible Job Shop Scheduling Problem (FJSP) is the optimal allocation of a set of jobs to machines. Two primary challenges persist in FJSP: the unpredictable arrival of future jobs and the combinatorial complexity of the problem, rendering it intractable for conventional mixed-integer linear pro",
+    "categories": [
+      "cs.AI",
+      "math.OC"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2605.22773v1"
+  },
+  {
+    "id": "2605.22764v1",
+    "title": "Spin Glass Mapping of the Parallel Minority Game",
+    "authors": [
+      "Aryan Tyagi",
+      "Soumyaditya Das",
+      "Soumyajyoti Biswas"
+    ],
+    "published": "2026-05-21",
+    "summary": "The parallel minority game (PMG) extends the classical minority game to many choices, with each agent restricted to two predetermined alternatives. In this condition, minimizing the population variance across all choices is a complex combinatorial optimization problem. We show that this minimization",
+    "categories": [
+      "cond-mat.dis-nn",
+      "cond-mat.stat-mech"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2605.22764v1"
+  },
+  {
+    "id": "2605.22763v1",
+    "title": "Advancing Mathematics Research with AI-Driven Formal Proof Search",
+    "authors": [
+      "George Tsoukalas",
+      "Anton Kovsharov",
+      "Sergey Shirobokov"
+    ],
+    "published": "2026-05-21",
+    "summary": "Large language models (LLMs) increasingly excel at mathematical reasoning, but their unreliability limits their utility in mathematics research. A mitigation is using LLMs to generate formal proofs in languages like Lean. We perform the first large-scale evaluation of this method's ability to solve ",
+    "categories": [
+      "cs.AI"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2605.22763v1"
+  },
+  {
+    "id": "2605.22759v1",
+    "title": "Towards a General Intelligence and Interface for Wearable Health Data",
+    "authors": [
+      "Girish Narayanswamy",
+      "Maxwell A. Xu",
+      "A. Ali Heydari"
+    ],
+    "published": "2026-05-21",
+    "summary": "While ubiquitous wearable sensors capture a wealth of behavioral and physiological information, effectively transforming these signals into personalized health insights is challenging. Specifically, converting low-level sensor data into representations capable of characterizing higher-level states i",
+    "categories": [
+      "cs.AI"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2605.22759v1"
+  },
+  {
+    "id": "2605.22748v1",
+    "title": "Superhuman Safe and Agile Racing through Multi-Agent Reinforcement Learning",
+    "authors": [
+      "Ismail Geles",
+      "Leonard Bauersfeld",
+      "Markus Wulfmeier"
+    ],
+    "published": "2026-05-21",
+    "summary": "Autonomous systems have achieved superhuman performance in isolation or simulation, yet they remain brittle in shared, dynamic real-world spaces. This failure stems from the dominant single-agent paradigm for physical applications, where other actors are ignored or treated as environmental noise, pr",
+    "categories": [
+      "cs.RO",
+      "cs.AI",
+      "cs.LG",
+      "cs.MA"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2605.22748v1"
+  },
+  {
+    "id": "2605.22734v1",
+    "title": "ChronoMedKG: A Temporally-Grounded Biomedical Knowledge Graph and Benchmark for Clinical Reasoning",
+    "authors": [
+      "Md Shamim Ahmed",
+      "Farzaneh Firoozbakht",
+      "Lukas Galke Poech"
+    ],
+    "published": "2026-05-21",
+    "summary": "Biomedical knowledge graphs (KGs) treat disease associations as static facts, but temporal information is crucial for clinical reasoning, e.g., a symptom diagnostic of one disease at age 3 may imply a different disease at age 13. Existing KGs such as PrimeKG, Hetionet, and iKraph do not encode when ",
+    "categories": [
+      "cs.CL"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2605.22734v1"
+  },
+  {
+    "id": "2605.22733v1",
+    "title": "HarnessAPI: A Skill-First Framework for Unified Streaming APIs and MCP Tools",
+    "authors": [
+      "Edwin Jose"
+    ],
+    "published": "2026-05-21",
+    "summary": "Every Python function deployed as an LLM tool must today exist in two forms: an HTTP endpoint for human-facing clients and CI pipelines, and an MCP tool registration for agent runtimes such as Claude and Cursor. These representations share business logic yet diverge in all the surrounding machinery ",
+    "categories": [
+      "cs.AI",
+      "cs.SE"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2605.22733v1"
+  },
+  {
+    "id": "2605.22732v1",
+    "title": "Beyond Acoustic Emotion Recognition: Multimodal Pathos Analysis in Political Speech Using LLM-Based and Acoustic Emotion Models",
+    "authors": [
+      "Juergen Dietrich"
+    ],
+    "published": "2026-05-21",
+    "summary": "We investigate whether acoustic emotion recognition models can serve as proxies for the Pathos dimension in political speech analysis, as operationalised by the TRUST multi-agent large language model (LLM) pipeline. Using a Bundestag plenary speech by Felix Banaszak (51 segments, 245 s) as a case st",
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.HC",
+      "cs.SD",
+      "eess.AS"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2605.22732v1"
+  },
+  {
+    "id": "2605.22724v1",
+    "title": "Multiple Neural Operators Achieve Near-Optimal Rates for Multi-Task Learning",
+    "authors": [
+      "Adrien Weihs",
+      "Hayden Schaeffer"
+    ],
+    "published": "2026-05-21",
+    "summary": "We study the approximation and statistical complexity of learning collections of operators in a shared multi-task setting, with a focus on the Multiple Neural Operators (MNO) architecture. For broad classes of Lipschitz multiple operator maps, we derive near-optimal upper bounds for approximation an",
+    "categories": [
+      "cs.LG",
+      "math.NA",
+      "stat.ML"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2605.22724v1"
+  },
+  {
+    "id": "2605.22821v1",
+    "title": "Tokenisation via Convex Relaxations",
+    "authors": [
+      "Jan Tempus",
+      "Philip Whittington",
+      "Craig W. Schmidt"
+    ],
+    "published": "2026-05-21",
+    "summary": "Tokenisation is an integral part of the current NLP pipeline. Current tokenisation algorithms such as BPE and Unigram are greedy algorithms -- they make locally optimal decisions without considering the resulting vocabulary as a whole. We instead formulate tokeniser construction as a linear program ",
+    "categories": [
+      "cs.CL",
+      "cs.LG"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2605.22821v1"
+  },
+  {
+    "id": "2605.22819v1",
+    "title": "Cambrian-P: Pose-Grounded Video Understanding",
+    "authors": [
+      "Jihan Yang",
+      "Zifan Zhao",
+      "Xichen Pan"
+    ],
+    "published": "2026-05-21",
+    "summary": "Camera pose matters. The position and orientation of each viewpoint define a shared spatial coordinate frame that relates observations across video frames. Yet this signal is largely absent from multimodal LLMs (MLLMs) for video understanding, which process frames as isolated 2D snapshots, instead o",
+    "categories": [
+      "cs.CV"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2605.22819v1"
+  },
+  {
+    "id": "2605.22818v1",
+    "title": "MotiMotion: Motion-Controlled Video Generation with Visual Reasoning",
+    "authors": [
+      "Lee Hsin-Ying",
+      "Hanwen Jiang",
+      "Yiqun Mei"
+    ],
+    "published": "2026-05-21",
+    "summary": "Current motion-controlled image-to-video generation models rigidly follow user-provided trajectories that are often sparse, imprecise, and causally incomplete. Such reliance often yields unnatural or implausible outcomes, especially by missing secondary causal consequences. To address this, we intro",
+    "categories": [
+      "cs.CV"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2605.22818v1"
+  },
+  {
+    "id": "2605.22815v1",
+    "title": "New constraints on physics within and beyond the standard model from the latest CONUS datasets",
+    "authors": [
+      "N. Ackermann",
+      "H. Bonet",
+      "A. Bonhomme"
+    ],
+    "published": "2026-05-21",
+    "summary": "Its detections with pion-decay-at-rest, solar and recently with reactor antineutrinos by the CONUS collaboration render coherent elastic neutrino-nucleus scattering (CE$\u03bd$NS) an established tool for investigations within and beyond the Standard Model (SM). The CONUS experiment located at the nuclear",
+    "categories": [
+      "hep-ex",
+      "hep-ph"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2605.22815v1"
+  },
+  {
+    "id": "2605.22813v1",
+    "title": "Optimal Testing of Reed-Muller Codes with an Online Adversary",
+    "authors": [
+      "Esty Kelman",
+      "Uri Meir",
+      "Kai Zhe Zheng"
+    ],
+    "published": "2026-05-21",
+    "summary": "Motivated by applications to property testing in the online-erasure model of Kalemaj, Raskhodnikova, and Varma (ITCS 2022 and Theory of Computing 2023), we define and analyze {\\em semi-sample-based testers} for Reed-Muller codes. The task in Reed-Muller testing is to determine whether an input funct",
+    "categories": [
+      "cs.DS"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2605.22813v1"
+  },
+  {
+    "id": "2605.22812v1",
+    "title": "GesVLA: Gesture-Aware Vision-Language-Action Model Embedded Representations",
+    "authors": [
+      "Wenxuan Guo",
+      "Ziyuan Li",
+      "Meng Zhang"
+    ],
+    "published": "2026-05-21",
+    "summary": "Vision-Language-Action (VLA) models have shown strong potential for general-purpose robot manipulation by unifying perception and action. However, existing VLA systems primarily rely on textual instructions and struggle to resolve spatial ambiguity in complex scenes with multiple similar objects. To",
+    "categories": [
+      "cs.RO",
+      "cs.CV"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2605.22812v1"
+  },
+  {
+    "id": "2605.22811v1",
+    "title": "GS-QA: A Benchmark for Geospatial Question Answering",
+    "authors": [
+      "Majid Saeedan",
+      "Muhammad Shihab Rashid",
+      "Ahmed Eldawy"
+    ],
+    "published": "2026-05-21",
+    "summary": "Recent advances in Large Language Models (LLMs) have led to dramatic improvements in question answering (QA). To address the challenge of evaluating QA systems, standardized benchmarks have been introduced. This work focuses on the problem of geospatial QA, where a large collection of geospatial dat",
+    "categories": [
+      "cs.DB"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2605.22811v1"
+  },
+  {
+    "id": "2605.22810v1",
+    "title": "Signatures of the Quantum Geometric Dipole of Interlayer Excitons in Counterflow Conductivity",
+    "authors": [
+      "Fanuel I. Mendez",
+      "Luis Brey",
+      "H. A. Fertig"
+    ],
+    "published": "2026-05-21",
+    "summary": "Collective excitations of many-body electron systems can carry internal structure, supporting novel quantum geometric and topological properties. Among these are a quantum geometric dipole (QGD), which for excitons have direct significance as an internal polarization. For interlayer excitons of a bi",
+    "categories": [
+      "cond-mat.mes-hall"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2605.22810v1"
+  },
+  {
+    "id": "2605.22808v1",
+    "title": "Betti Numbers of Cut Complexes of Squared Paths and a Recurrence Conjecture",
+    "authors": [
+      "Yutong Zhang",
+      "Yaoran Yang"
+    ],
+    "published": "2026-05-21",
+    "summary": "For a graph $G$ on $[n]$, the $k$-cut complex $\u0394_k(G)$ has facets $[n]\\setminus T$, where $T$ ranges over the disconnected $k$-vertex induced subgraphs of $G$. Bayer, Denker, Jeli\u0107 Milutinovi\u0107, Sundaram, and Xue proved that the $k$-cut complex of the squared path $P_n^2$ is shellable for $n\\ge k+3$ ",
+    "categories": [
+      "math.CO"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2605.22808v1"
+  },
+  {
+    "id": "2605.22806v1",
+    "title": "From protogalaxy through thick and thin: Why did the Milky Way evolve in three kinematic phases?",
+    "authors": [
+      "Olti Myrtaj",
+      "James S. Bullock",
+      "Michael Boylan-Kolchin"
+    ],
+    "published": "2026-05-21",
+    "summary": "APOGEE and Gaia data have revealed that the Milky Way's structure appears to have evolved through three distinct kinematic phases. First, at early cosmic times, the Milky Way was a disordered protogalaxy, which subsequently \"spun up\" to a second kinematic phase marked by star formation occurring in ",
+    "categories": [
+      "astro-ph.GA",
+      "astro-ph.CO"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2605.22806v1"
+  },
+  {
+    "id": "2605.22802v1",
+    "title": "A very rapidly rotating white dwarf in nova YZ Reticuli",
+    "authors": [
+      "G. J. M. Luna",
+      "N. Rawat",
+      "R. Angeloni"
+    ],
+    "published": "2026-05-21",
+    "summary": "YZ Ret (Nova Reticuli 2020) is the first VY Scl-type nova-like variable observed to undergo a classical nova eruption. Following the outburst, timing analysis of 20-s cadence TESS data revealed a periodicity at approximately 42 s, suggesting a possible classification as a fast-spinning Intermediate ",
+    "categories": [
+      "astro-ph.SR"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2605.22802v1"
+  },
+  {
+    "id": "2605.22801v1",
+    "title": "Another Look at the Weak-Field Limit of Generalized Hybrid Metric-Palatini Gravity",
+    "authors": [
+      "Gustavo Melgarejo",
+      "Santiago Esteban Perez Bergliaffa"
+    ],
+    "published": "2026-05-21",
+    "summary": "We investigate the weak-field regime of generalized hybrid metric-Palatini theories, described by a generic function \\(f(R,\\mathcal{R})\\), where \\(R\\) is the metric Ricci scalar and \\(\\mathcal{R}\\) is constructed from an independent torsionless connection. Linearizing the field equations about Minko",
+    "categories": [
+      "gr-qc"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2605.22801v1"
+  },
+  {
+    "id": "2605.22797v1",
+    "title": "One-photon communication in atomic media",
+    "authors": [
+      "Zixiang Hong",
+      "John C. Schotland"
+    ],
+    "published": "2026-05-21",
+    "summary": "We consider the problem of single-photon transmission through an atomic medium, using quantum channel fidelity to describe the resulting information loss. We find that the normalized fidelity decreases monotonically with coupling strength, establishing a performance bound for quantum communication t",
+    "categories": [
+      "quant-ph"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2605.22797v1"
+  },
+  {
+    "id": "2605.22817v1",
+    "title": "Vector Policy Optimization: Training for Diversity Improves Test-Time Search",
+    "authors": [
+      "Ryan Bahlous-Boldi",
+      "Isha Puri",
+      "Idan Shenfeld"
+    ],
+    "published": "2026-05-21",
+    "summary": "Language models must now generalize out of the box to novel environments and work inside inference-scaling search procedures, such as AlphaEvolve, that select rollouts with a variety of task-specific reward functions. Unfortunately, the standard paradigm of LLM post-training optimizes a pre-specifie",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CL",
+      "cs.NE"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2605.22817v1"
+  },
+  {
+    "id": "2605.22800v1",
+    "title": "The Matching Principle: A Geometric Theory of Loss Functions for Nuisance-Robust Representation Learning",
+    "authors": [
+      "Vishal Rajput"
+    ],
+    "published": "2026-05-21",
+    "summary": "Robustness, domain adaptation, photometric and occlusion invariance, compositional generalisation, temporal robustness, alignment safety, and classical anisotropic regularisation are usually treated as separate problems with separate method families. This paper argues that much of their shared struc",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "stat.ML"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2605.22800v1"
+  },
+  {
+    "id": "2605.22731v1",
+    "title": "Post-Training is About States, Not Tokens: A State Distribution View of SFT, RL, and On-Policy Distillation",
+    "authors": [
+      "Dong Nie"
+    ],
+    "published": "2026-05-21",
+    "summary": "Large language model post-training methods such as supervised fine-tuning (SFT), reinforcement learning (RL), and distillation are often analyzed through their loss functions: maximum likelihood, policy gradients, forward KL, reverse KL, or related objective-level variants. We study a complementary ",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2605.22731v1"
+  },
+  {
+    "id": "2605.22722v1",
+    "title": "N3P: Accelerated Automated Parking via a Learning-Based Naturalistic Three-Stage Scheme",
+    "authors": [
+      "Yifan Xue",
+      "Toktam Mohammadnejad",
+      "Faizan M Tariq"
+    ],
+    "published": "2026-05-21",
+    "summary": "Autonomous parking requires efficient path planning that ensures kinematic feasibility and collision avoidance in constrained environments. Hybrid A* is widely used but computationally expensive, while reinforcement learning (RL) methods lack reliability and often struggle with long-horizon geometri",
+    "categories": [
+      "cs.RO",
+      "eess.SY"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2605.22722v1"
+  },
+  {
+    "id": "2605.22721v1",
+    "title": "Self-Evolving Multi-Agent Systems via Decentralized Memory",
+    "authors": [
+      "Guangya Hao",
+      "Yunbo Long",
+      "Zhuokai Zhao"
+    ],
+    "published": "2026-05-21",
+    "summary": "Self-evolving multi-agent systems (MAS) have emerged as a promising route to LLM agents that continually improve from experience, with persistent memory at their foundation. However, existing designs almost exclusively adopt a centralized repository shared across agents, incurring communication and ",
+    "categories": [
+      "cs.MA"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2605.22721v1"
+  },
+  {
+    "id": "2605.22720v1",
+    "title": "Can AI Make Conflicts Worse? An Alignment Failure in LLM Deployment Across Conflict Contexts",
+    "authors": [
+      "Andrii Kryshtal"
+    ],
+    "published": "2026-05-21",
+    "summary": "AI models are already deployed in societies affected by armed conflict, and journalists, humanitarian workers, governments and ordinary citizens rely on them for information or for their work processes. No established practice exists for checking whether their outputs can make those conflicts worse.",
+    "categories": [
+      "cs.AI",
+      "cs.HC"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2605.22720v1"
+  },
+  {
+    "id": "2605.22717v1",
+    "title": "Live Music Diffusion Models: Efficient Fine-Tuning and Post-Training of Interactive Diffusion Music Generators",
+    "authors": [
+      "Zachary Novack",
+      "Stephen Brade",
+      "Haven Kim"
+    ],
+    "published": "2026-05-21",
+    "summary": "Interactive streaming music generation promises the use of generative models for live performance and co-creation that is impossible with offline models. However, SOTA models exist in the discrete-AR regime, requiring industrial levels of compute for both training and inference. In this work, we inv",
+    "categories": [
+      "cs.SD",
+      "cs.AI",
+      "cs.LG",
+      "cs.MM"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2605.22717v1"
+  },
+  {
+    "id": "2605.22715v1",
+    "title": "AnyMo: Geometry-Aware Setup-Agnostic Modeling of Human Motion in the Wild",
+    "authors": [
+      "Baiyu Chen",
+      "Zechen Li",
+      "Wilson Wongso"
+    ],
+    "published": "2026-05-21",
+    "summary": "As wearable and mobile devices become increasingly embedded in daily life, they offer a practical way to continuously sense human motion in the wild. But inertial signals are highly dependent on the sensing setup, including body location, mounting position, sensor orientation, device hardware, and s",
+    "categories": [
+      "cs.CV",
+      "cs.AI",
+      "cs.CL",
+      "cs.HC"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2605.22715v1"
+  },
+  {
+    "id": "2605.22711v1",
+    "title": "Abstraction for Offline Goal-Conditioned Reinforcement Learning",
+    "authors": [
+      "Clarisse Wibault",
+      "Alexander Goldie",
+      "Antonio Villares"
+    ],
+    "published": "2026-05-21",
+    "summary": "Markov Decision Processes (MDPs) often exhibit significant redundancy due to symmetries and shared structure across state-goal pairs in real-world Goal-Conditioned Reinforcement Learning (GCRL). While hierarchical policies have been motivated for horizon reduction via temporal abstraction in offline",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2605.22711v1"
+  },
+  {
+    "id": "2605.22703v1",
+    "title": "Clipping Bottleneck: Stabilizing RLVR via Stochastic Recovery of Near-Boundary Signals",
+    "authors": [
+      "Shuo Yang",
+      "Jinda Lu",
+      "Chiyu Ma"
+    ],
+    "published": "2026-05-21",
+    "summary": "Reinforcement Learning with Verifiable Rewards (RLVR) has emerged as a central paradigm for scaling LLM reasoning, yet its optimization often suffers from training instability and suboptimal convergence. Through a systematic dissection of clipping-based GRPO-style objectives, we identify the rigid c",
+    "categories": [
+      "cs.LG"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2605.22703v1"
+  }
+]

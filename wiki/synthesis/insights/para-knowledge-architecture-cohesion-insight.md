@@ -24,6 +24,6 @@ This clustering suggests the knowledge base has been consistently organized arou
 
 ## Connections
 
-- [[para]] — knowledge management framework
-- [[knowledge-architecture]] — information entropy management
-- [[note-taking-systems]] — PARA as implementation pattern
+- [[para-methodology]] — knowledge management framework
+- [[knowledge-architecture-stub]] — information entropy management
+- [[note-taking-systems-stub]] — PARA as implementation pattern

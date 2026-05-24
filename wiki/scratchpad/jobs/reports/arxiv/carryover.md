@@ -1,5 +1,5 @@
 ---
-summary: arxiv agent carryover — MOSS, DeltaBox, LCGuard from 2026-05-24 batch processed
+summary: arxiv agent carryover — ConvexTok, AwareVLN, AlphaProof Nexus from 2026-05-24 batch processed
 tags: [arxiv, carryover]
 updated: 2026-05-24T00:00:00Z
 ---
@@ -8,7 +8,7 @@ updated: 2026-05-24T00:00:00Z
 created: 2026-05-24T00:00:00Z
 updated: 2026-05-24T00:00:00Z
 type: report
-summary: "arxiv agent carryover — 2026-05-24 batch: MOSS (harness-layer self-evolution), DeltaBox (ms-level C/R), LCGuard (KV cache safety)"
+summary: "arxiv agent carryover — 2026-05-24 batch: ConvexTok (LP tokenization), AwareVLN (sparse self-aware VLN), AlphaProof Nexus (Lean formal proof — basic agent matched full RL agent)"
 tags: [arxiv, carryover]
 sources: []
 status: active
@@ -25,26 +25,26 @@ confidence: high
 | 2026-05-20 | No new papers | arXiv late-UTC batch not yet posted |
 | 2026-05-21 | 3 papers ingested | EqR (attractors), DeepWeb-Bench, hyperparameter transfer |
 | 2026-05-23 | 3 papers ingested | VPO (diversity RL), DeltaDirect (motion blindness), Recuriosity (3D exploration) — test-time scaffolding theme |
-| 2026-05-24 | 3 papers ingested | MOSS (source-level self-evolution), DeltaBox (ms-level checkpoint/rollback), LCGuard (KV cache safety) — agent infrastructure theme |
+| 2026-05-24 | 3 papers ingested | ConvexTok (LP tokenization), AwareVLN (sparse self-aware VLN), AlphaProof Nexus (Lean formal proof) — verification/boundedness theme |
 
 ## Current State
 
-- **arXiv**: 2026-05-24 batch (2026-05-21 submission date) fully processed — 3 papers ingested (MOSS, DeltaBox, LCGuard)
-- **arXiv API**: Partial outage during this run — `cat:cs.AI` category filter returned 0 results for hours; keyword search with client-side cs.* filtering was the workaround
-- **Wiki paper inventory**: 314 pages (up from 311)
+- **arXiv**: 2026-05-24 batch (2026-05-21 submission date) fully processed — 3 papers ingested (ConvexTok, AwareVLN, AlphaProof Nexus)
+- **arXiv API**: No rate limiting issues; API behaved normally throughout this run
+- **Wiki paper inventory**: ~317 pages (up from ~314)
 
 ## Papers Ingested (2026-05-24 batch)
 
 | Paper | arXiv ID | Key Finding | Wiki Connection |
 |-------|----------|-------------|------------------|
-| MOSS | 2605.22794 | First agent to modify harness layer at source level via deterministic multi-stage pipeline; lifts grader 0.25→0.61 in one cycle | Connects to [[agentic-research]], [[efhf]], [[maximum-occupancy-principle]], [[verifier-graph]] |
-| DeltaBox | 2605.22781 | 14ms checkpoint / 5ms rollback via change-based OS mechanisms (DeltaFS + DeltaCR); enables 100+ C/R cycles/sec | Connects to [[maximum-occupancy-principle]], [[agentic-research]], [[verifier-graph]], [[efhf]] |
-| LCGuard | 2605.22786 | Representation-level transformations block KV cache reconstruction leakage; adversarial training formulation is falsifiable | Connects to [[efhf]], [[sheaf-consistency-enforcer]], [[mop-explorer]], [[graphrag]] |
+| ConvexTok | 2605.22821 | LP-based tokeniser construction replaces greedy BPE; all tokenizers within 1% of optimal compression per LP lower bound | Connects to [[mop-explorer]], [[verifier-graph]], [[efhf]] |
+| AwareVLN | 2605.22816 | Sparse self-aware reasoning at key navigation nodes — model autonomously decides when to reason about its own state without 3D sensors | Connects to [[efhf]], [[maximum-occupancy-principle]], [[verifier-graph]], [[agentic-research]] |
+| AlphaProof Nexus | 2605.22763 | Basic LLM+Ralph loop solved all 9 Erdős problems the RL-equipped full agent did; $100-500/problem; Lean acts as hard verifier | Connects to [[verifier-graph]], [[mop-explorer]], [[agentic-research]], [[efhf]], [[sheaf-consistency-enforcer]] |
 
 ## Notes for Next Run
 
-- **Emerging theme across last two batches:** Test-time infrastructure and layer-boundary failures — what happens **below the model layer** determines whether frontier capabilities are achievable. DeltaDirect (magnitude deficit at readout), VPO (diversity collapse at output layer), DeltaBox (C/R bottleneck at OS layer), MOSS (harness layer failure scaling with complexity) all point to the same conclusion: scaling the model is not the bottleneck.
-- **arXiv API note:** `cat:cs.AI` returned 0 results during this run. If next run has similar issues, use keyword search (`agentic`, `self-evolution`, `checkpoint`, etc.) with client-side category filtering as the reliable workaround.
-- **Cross-batch synthesis opportunity:** A synthesis note on "layer-boundary failures" — the recurring structural pattern where the bottleneck is at the interface between layers, not within any single layer. Connects DeltaDirect, VPO, MOSS, DeltaBox, and LCGuard.
-- **LCGuard relevance to sheaf-consistency-enforcer:** The representation-level transformation approach in LCGuard (learn transformations that preserve compatibility while blocking problematic information) is the empirical validation of what sheaf-consistency-enforcer is trying to enforce architecturally.
-- **DeltaBox + VPO connection:** DeltaBox's fast C/R enables the test-time search that VPO's vector-valued rewards and stochastic scalarization are designed to exploit. DeltaBox makes VPO's approach viable at scale for stateful coding agents.
+- **Emerging theme across the last three batches (test-time → boundedness → verification)**: The papers are converging on structural scaffolding questions — not what the model can do, but what mechanisms enforce correctness, efficiency, and resource allocation at the boundaries between layers/systems. VPO (output diversity), DeltaDirect (magnitude deficit fix at projector level), ConvexTok (lower bound certification), AlphaProof Nexus (formal verification via Lean compiler) all speak to this.
+- **AlphaProof Nexus basic/full agent result is a key data point for the "harness value-add" question**: As LLMs improve, the marginal value of specialist trained modules (RL-trained AlphaProof, evolutionary coordination) decreases. Simple LLM+verifier loops achieve the same outcomes at higher compute cost but lower complexity. This is consistent with MOSS's finding that source-level self-evolution reduces harness dependency.
+- **HarnessAPI (2605.22733) seen in batch but not selected this cycle**: MCP tool registration unified with HTTP endpoints for Python functions. Relevant to EFHF MCP configuration. Worth revisiting if there are gaps in the MCP tooling documentation.
+- **Cross-batch synthesis opportunity**: A synthesis note on "verification as scaffolding" — the pattern where formal verification (Lean compiler, LP lower bounds, sparse reasoning triggers) replaces trusted human review or implicit trust. Connects ConvexTok, AlphaProof Nexus, AwareVLN, and the layer-boundary papers from prior batches.
+- **Tokenisation as foundation**: ConvexTok's result that all practical tokenisers are within 1% of optimal compression is both reassuring and a ceiling — it means tokenisation is unlikely to be a major bottleneck in current systems, but also unlikely to yield major gains from better algorithms alone.

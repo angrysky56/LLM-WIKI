@@ -1,12 +1,12 @@
 ---
-created: <ISO timestamp>
-updated: <ISO timestamp>
-type: entity | concept | source | synthesis
-summary: One-line description (used in index)
-tags: [tag1, tag2]
-sources: <original URL>
-status: active | reference | archived
-confidence: 0.0–1.0
+created: 2026-04-11T00:00:00Z
+updated: 2026-05-24T09:43:58Z
+type: synthesis
+summary: Operating guide for LLM-WIKI — schema conventions, workflows, and agent architecture
+tags: [meta, schema, conventions, workflow, agent-architecture, wiki-management]
+sources:
+status: active
+confidence: 0.95
 ---
 
 

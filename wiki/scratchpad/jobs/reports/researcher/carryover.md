@@ -1,7 +1,15 @@
 ## CarryoverState
 
 ### Established
-- **[[inference-time-compute-scaling]]** updated: economics section with four-variable trade-off framework (May 2026)
+- **[[attention-mechanism]]** filled: scaled dot-product attention, multi-head, Flash Attention, GQA/MQA; O(1) path length advantage; transformer architecture foundation (Jun 2026)
+- **[[transformer-architecture]]** filled: encoder-decoder vs decoder-only (GPT-style); scaling as primary strategy; RoPE/ALiBi/GQA extensions; connection to scaling-laws (Jun 2026)
+- **[[kv-cache]]** filled: inference optimization; PagedAttention; MQA/GQA memory reduction; prefix caching; connects to inference-time-compute-scaling (Jun 2026)
+- **[[autonomous-research]]** filled: six-stage pipeline; six failure modes; SEG Scientist architecture addressing them; connection to agentic-research (Jun 2026)
+- **[[agent-leak-benchmark]]** filled: reconstruction attack benchmark; ASR up to 0.900 on vanilla KV sharing; LCGuard source; connects to multi-agent security (Jun 2026)
+- **[[causal-reasoning]]** filled: SCM framework, do-calculus, counterfactuals, causal discovery; ELHSR hidden-state signals; LLM integration; world-model connection (Jun 2026)
+- **[[MCTS]]** filled: UCB1, selection/expansion/simulation/backpropagation; AlphaZero architecture; game-playing impact; SD-Search/process-reward-model connection (Jun 2026)
+- **[[evolutionary-strategies]]** filled: CMA-ES, NES; black-box optimization; ML evolution applications; GRPO as simplified group-relative ES (Jun 2026)
+- **[[adversarial-training]]** filled: PGD/BIM attacks; robust training methodology; LLM applications (jailbreaks, prompt injection, LCGuard adversarial training) (Jun 2026)
 - **[[category-theory]]** filled: objects/morphisms/functors/natural transformations; Yoneda, adjunctions, monoidal categories; categorical semantics for formal verification and neural network compositionality; three open questions (Jun 2026)
 - **[[categorical-reasoning]]** filled: applying category theory to composition and abstraction; compositional verification as functorial; multi-agent coordination as adjunctions; categorical interpretability; categorical analysis of load-bearing vs scaffolding (Jun 2026)
 - **[[mathematical-reasoning]]** filled: deductive reasoning, proof techniques, abstraction, formalization; theorem proving as AI task; MOP connection to proof search; mathematical reasoning for AI alignment (Jun 2026)
@@ -54,5 +62,5 @@
 - **[Question]** MOP training for transformers: Can path entropy maximization be applied to next-token prediction training from scratch?
 
 ### Heading
-- **[Intent]** Next cycle: continue stub-first filling. Focus on stubs with active connections. Remaining clusters: agent-related stubs (agent-leak-benchmark, autonomous-research), transformer infrastructure stubs (kv-cache, attention-mechanism), and domain-specific stubs (taylors-law, esa, qes, etc.)
-- **[Constraint]** ~43 stubs remaining. Category theory cluster (3 pages) completed this cycle. Next cluster priority based on stub-to-active-link analysis.
+- **[Intent]** Next cycle: continue stub-first filling. Remaining high-value clusters: llm-agent-architecture (very thin, connects to agent-native-design/MOP), code-generation (connects to swe-bench/code-agent chain), video-llm (thin but connects to vision-language-alignment). Also domain-specific stubs: taylors-law, esa, qes (all very thin, need evaluation before filling).
+- **[Constraint]** ~134 stubs total (includes entities). This cycle completed 9 stub→active conversions across transformer infrastructure, agent architecture, reasoning/search, and security clusters.

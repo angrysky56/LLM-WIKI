@@ -76,6 +76,8 @@ AI governance does not exist in a vacuum. AI systems are developed, deployed, an
 - [[agentic-oversight]] — oversight mechanisms specific to agentic systems
 - [[accountability]] — the specific norm of answerability for actions and outcomes
 
+- [[francesca-albanese-sanctions-legal-policy-divergence-insight]] — legal accountability mechanisms constraining executive sanctions power
+
 ## Open Questions
 
 1. **Jurisdictional fragmentation**: AI systems operate globally. Governance frameworks that stop at national borders are structurally incomplete. What are minimum viable international governance standards that are interoperable?

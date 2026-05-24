@@ -1,32 +1,27 @@
-# Librarians-Assistant Carryover — 2026-06-08
+# Librarians-Assistant Carryover — 2026-06-16
 
 ## What Was Fixed
 
-### P3: Duplicate Frontmatter on Insight Pages (2 pages)
-- `wiki/synthesis/insights/para-knowledge-architecture-cohesion-insight.md` — merged duplicate frontmatter blocks into single clean block
-- `wiki/synthesis/insights/francesca-albanese-sanctions-case-insight.md` — merged duplicate frontmatter blocks into single clean block
-
-### P3: Missing `type: synthesis` on Synthesis Pages (7 pages)
-- `mop-edm-cognitive-architecture.md`
-- `minimal-generative-architectures.md`
-- `nairobi-protocol-gde.md`
-- `synapse-retrieval-architecture.md`
-- `ai-governance-substrate-analysis.md`
-- `ctx2skill-on-efhf-rails.md`
-- `causal-state-edm-ood-isomorphism.md`
+- **synapse-llm-wiki-operating-guide.md**: Real frontmatter values (template placeholders replaced with actual dates, types, summaries, tags)
+- **para-knowledge-architecture-cohesion-insight.md**: 3 wikilinks normalized to existing stubs/pages
+- **francesca-albanese-sanctions-case-insight.md**: 4 wikilinks normalized to stubs
+- **6 entity stubs created**: knowledge-architecture-stub, note-taking-systems-stub, francesca-albanese-stub, us-sanctions-stub, icc-stub, legal-accountability-stub
+- **4 orphan insights connected**: oee-knowledge-cluster, para-system-knowledge-architecture-cohesion, francesca-albanese-sanctions-legal-policy-divergence
+- **3 inbound links added**: open-ended-evolution, para-methodology, accountability, governance → insights
 
 ## What Remains
 
-1. **141 broken link targets in sources** (wiki/sources/) — para, knowledge-architecture, note-taking-systems, francesca-albanese, us-sanctions, icc, legal-accountability — these are mostly knowledge graph entity references that should map to entity pages or remain as external references
-2. **349 non-reciprocal wikilinks** — mostly legitimate单向 links to maximum-occupancy-principle; not actionable
-3. **9 synthesis/pages with no confidence/status** (system files, not critical)
+1. **synapse-llm-wiki-operating-guide.md**: 3 wikilinks (`[[page-slug]]`, `[[slug]]`, `[[Display]]`) appear broken but are intentional template examples — may want to add a note/prefix to distinguish them as non-example content
+2. **~279 pages with missing frontmatter** — mostly in scratchpad/agent-sheets (non-critical noise per librarian)
+3. **~215 broken wikilinks** — all in scratchpad/report files (non-critical noise per librarian)
 
 ## Hard Blockers
 
-- **141 broken links in sources**: These are primarily entity references (para, knowledge-architecture, etc.) embedded in insight pages from the Zettelkasten engine. Creating entity pages for all of these is beyond scope — they represent the system's own terminology rather than missing external references.
+- None — vault content layer is clean
 
-## Heading
+## Notes
 
-1. High-value wiki content (concepts/entities/synthesis) is now CLEAN — 0 broken links, 0 missing type/summary
-2. This cycle: 9 fixes applied
-3. If reactivated: audit the 141 source-level broken links for actual content gaps (vs. internal terminology)
+- MCP tools confirmed working (project-synapse-mcp venv)
+- The 3 "broken" links in the operating guide are template examples in a documentation section — they are NOT broken links that need fixing
+- Orphans reduced from 3 to 0 by connecting insight pages to related concept pages
+- High-value dirs (concepts/entities/synthesis) now have 0 broken wikilinks and 0 missing frontmatter

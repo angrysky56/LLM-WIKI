@@ -25,7 +25,7 @@ This clustering reveals that 'challenges' in the knowledge graph isn't generic f
 
 ## Connections
 
-- [[francesca-albanese]] — UN special rapporteur
-- [[us-sanctions]] — SDN framework
-- [[icc]] — International Criminal Court
-- [[legal-accountability]] — judicial constraints on executive power
+- [[francesca-albanese-stub]] — UN special rapporteur
+- [[us-sanctions-stub]] — SDN framework
+- [[icc-stub]] — International Criminal Court
+- [[legal-accountability-stub]] — judicial constraints on executive power

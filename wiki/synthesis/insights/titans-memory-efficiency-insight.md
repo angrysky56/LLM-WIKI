@@ -1,10 +1,10 @@
 ---
-created: 2026-05-23T15:54:51Z
-updated: 2026-05-23T15:54:51Z
+created: 2026-05-24T06:00:00Z
+updated: 2026-05-24T06:00:00Z
 type: synthesis
-summary: Titans memory architecture and speculative decoding both address inference efficiency through complementary mechanisms
+summary: Titans three-tier memory architecture shares structural efficiency themes with speculative decoding via complementary test-time learning versus runtime speculation
 tags: [insights, zettelkasten, efficient inference memory architecture]
-sources: [derived from evidence]
+sources: [derived from evidence: Titans Learning to Memorize at Test Time, DFlash Block Diffusion for Flash Speculative Decoding, All elementary functions from a single operator]
 status: active
 confidence: 0.85
 ---
@@ -15,11 +15,10 @@ This cluster reveals that Titans Learning to Memorize at Test Time shares struct
 
 ## Evidence
 
-- EML representations go further: as demonstrated in Subsect. (source: *All elementary functions from a single operator*)
-- In contrast, PARD trains small autoregressive models to mimic diffusion-style parallel generation, and then perform speculative decoding for target LLMs. (source: *DFlash Block Diffusion for Flash Speculative Decoding*)
-- Memory Types in Titans Figure 1: Visualization of different memory types in the Titans architecture. (source: *Titans Learning to Memorize at Test Time*)
-- The key innovation of Titans lies in its three distinct memory components, inspired by human cognition: short-term memory (attention), a neural long-term memory, and persistent memory (learnable parameters). (source: *Titans Learning to Memorize at Test Time*)
-- By effectively combining these components, Titans achieves remarkable performance on long-context tasks while maintaining computational efficiency. (source: *Titans Learning to Memorize at Test Time*)
-- What distinguishes Titans is its ability to learn to memorize information at test time through its neural long-term memory module. (source: *Titans Learning to Memorize at Test Time*)
-- The Titans architecture draws inspiration from how human memory works, incorporating three distinct types of memory. (source: *Titans Learning to Memorize at Test Time*)
-- The integration of these memory components allows Titans to maintain information over very long contexts more effectively than traditional models. (source: *Titans Learning to Memorize at Test Time*)
+- **Titans Memory Architecture**: Three distinct memory components inspired by human cognition — short-term (attention), neural long-term, and persistent learnable parameters — enabling effective combination for remarkable performance on long-context tasks while maintaining computational efficiency.
+- **Speculative Decoding (PARD)**: Trains small autoregressive models to mimic diffusion-style parallel generation, then performs speculative decoding for target LLMs — runtime efficiency via prediction.
+- **EML representations**: Extend further as demonstrated in "All elementary functions from a single operator" — foundational representational work.
+- **Test-time learning**: Titans uniquely learns to memorize information at test time through its neural long-term memory module.
+
+**Pattern**: community_detection (community_115, 254 entities, 179 in cluster)
+**Insight ID**: insight_46161a03

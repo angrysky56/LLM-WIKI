@@ -1,0 +1,19 @@
+---
+created: 2026-06-14
+updated: 2026-06-14
+type: concept
+summary: "Self-organization in biological and artificial neural networks near the criticality boundary"
+tags: [criticality, neural-networks, dynamical-systems, self-organization]
+sources: []
+status: stub
+confidence: 0.3
+---
+
+# Criticality
+
+*Stub page — needs real content*
+
+## Connections
+
+- [[critical-initialization-biological-neural-networks]]
+- [[hopfield-network]]

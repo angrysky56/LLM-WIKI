@@ -65,7 +65,7 @@ This creates a potential **routing-as-OOD-signal**: tokens that consistently dem
 
 Conversely, the causal state isomorphism suggests a principled criterion for router training: rather than arbitrary top-$k$ load balancing, routers could be guided to assign deeper recursion to tokens that maximally increase the statistical complexity of the model's predictive distribution — directly optimizing for causal state coverage.
 
-### → [[i-built-a-tiny-computer-inside-a-transformer]] (Clippings/articles/2026)
+### → [[transformer-vm-moran-2026]] (Clippings/articles/2026)
 
 The compiled-transformer article treats the residual stream as working memory and each layer as a deterministic state-transition step — a fixed program compiled into weights. MoR operates on the same substrate but inverts the design philosophy: rather than hard-coding how many state transitions each computation requires, MoR *learns* that allocation from data.
 

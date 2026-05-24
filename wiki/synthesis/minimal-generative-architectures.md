@@ -4,6 +4,10 @@ type: synthesis
 tags: [synthesis, MOP, EML, open-ended-evolution, sheffer-stroke, EFHF, computational-mechanics, artificial-life, minimal-computation, emergence, symbolic-regression, absorbing-states]
 updated: 2026-04-14T19:21:38Z
 created: 2026-04-14T19:21:38Z
+sources: []
+status: active
+confidence: 0.6
+
 ---
 
 

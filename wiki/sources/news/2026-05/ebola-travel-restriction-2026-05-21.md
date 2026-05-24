@@ -32,7 +32,7 @@ The broader implication: Ebola is no longer just a health story. It's becoming a
 ## Connections
 - [[ebola-outbreak-drc-2026-05-20]] — WHO declared PHEIC
 - [[who-declares-ebola-outbreak-in-dr-congo-an-international-eme]] — WHO emergency declaration
-- [[carryover]] — carryover notes Ebola as emerging pattern
+- [[ebola-outbreak-2026]] — carryover notes Ebola as emerging pattern
 
 ## Timeline
 - 2026-05-21: Air France flight to US diverted to Montreal after DRC passenger boarded "in error"

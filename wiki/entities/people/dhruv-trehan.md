@@ -1,15 +1,4 @@
 ---
-summary: Entity page for Dhruv Trehan.
-tags: [people, researcher]
-updated: 2026-05-01T06:25:34Z
-created: 2026-05-01T06:25:34Z
-sources: []
-status: active
-confidence: 0.8
-type: entity
----
-
----
 created: 2026-05-01T06:25:32Z
 updated: 2026-05-01T06:25:32Z
 type: entity

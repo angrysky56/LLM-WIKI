@@ -6,6 +6,8 @@ summary: Unified MCP configuration for the EFHF (Emergent Functional Hierarchies
 tags: [mcp, infrastructure, configuration, efhf]
 status: active
 confidence: 1.0
+sources: []
+
 ---
 
 

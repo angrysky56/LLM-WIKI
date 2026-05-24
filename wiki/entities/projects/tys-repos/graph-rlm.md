@@ -1,15 +1,4 @@
 ---
-summary: Project page for Graph-RLM.
-tags: [projects, ty-repo, recursive-reasoning]
-updated: 2026-05-01T07:06:52Z
-created: 2026-05-01T07:06:52Z
-sources: []
-status: active
-confidence: 0.8
-type: entity
----
-
----
 created: 2026-05-01T07:06:42Z
 updated: 2026-05-01T07:06:42Z
 type: entity

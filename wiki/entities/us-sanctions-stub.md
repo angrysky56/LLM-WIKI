@@ -6,6 +6,8 @@ summary: US Sanctions — Specially Designated Nationals (SDN) framework
 tags: [geopolitics, sanctions, US-policy, financial-regulation]
 status: stub
 confidence: 0.3
+sources: []
+
 ---
 
 # US Sanctions / SDN Framework (stub)

@@ -7,7 +7,7 @@ created: 2026-05-10T03:41:50Z
 
 # CLI Printing Press
 
-> **Source:** [mvanhorn/cli-printing-press](https://github.com/mvanhorn/cli-printing-press) — archived to [[Clippings/repositories/2026/cli-printing-press]]
+> **Source:** [mvanhorn/cli-printing-press](https://github.com/mvanhorn/cli-printing-press) — archived to [[cli-printing-press]]
 
 ## What It Is
 

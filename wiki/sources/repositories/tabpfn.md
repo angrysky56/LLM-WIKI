@@ -7,7 +7,7 @@ created: 2026-05-10T03:42:05Z
 
 # TabPFN
 
-> **Source:** [PriorLabs/TabPFN](https://github.com/PriorLabs/TabPFN) — archived to [[Clippings/repositories/2026/PriorLabsTabPFN ⚡ TabPFN Foundation Model for Tabular Data ⚡]]
+> **Source:** [PriorLabs/TabPFN](https://github.com/PriorLabs/TabPFN) — archived to [[PriorLabsTabPFN]]
 
 ## What It Is
 

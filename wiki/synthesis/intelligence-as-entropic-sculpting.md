@@ -6,6 +6,8 @@ summary: Synthesis of SARH and MOP proposing that intelligence is the dynamic ba
 tags: [neuroscience, ai-architecture, entropy, mop, sarh, intelligence]
 status: active
 confidence: 0.8
+sources: []
+
 ---
 
 

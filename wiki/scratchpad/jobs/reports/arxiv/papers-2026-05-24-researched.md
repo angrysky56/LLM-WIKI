@@ -1,19 +1,16 @@
----
-summary: Research summaries for 2026-05-24 batch: ConvexTok (optimal tokenization), AwareVLN (sparse self-aware VLN), AlphaProof Nexus (formal proof with basic agent matching full RL agent)
-tags: [arxiv, daily-report]
-updated: 2026-05-24T08:30:00Z
-created: 2026-05-24T08:30:00Z
----
-
 # Papers Researched — 2026-05-24
 
-### 2605.22821 — tokenisation-convex-relaxations
-Tokenisation via Convex Relaxations (ConvexTok) replaces greedy BPE with an LP-based global optimizer. Formulates tokeniser construction as an integer program then relaxes to LP — surprisingly near-integral at practical vocabulary sizes. Key finding: all existing tokenisers are within 1% of optimal compression per the LP lower bound; Bias rounding scheme consistently outperforms BPE on intrinsic metrics.
+## 2605.22738 — Proxy-Based Approximation of Shapley and Banzhaf Interactions
+ProxySHAP introduces polynomial-time computation of exact Shapley/Banzhaf interaction indices for tree ensembles, bypassing the exponential tree-depth dependency of prior methods. Key finding: the residual correction via Maximum Sample Reuse (MSR) converges without exponential variance scaling when regularity conditions hold — this makes game-theoretic attribution tractable for large feature sets. Benchmark shows lowest error across both small- and large-budget regimes, outperforming ProxySPEX and KernelSHAP-IQ. Relevant to EFHF verifier-graph and layer boundary verification: the approach of exploiting structure (tree ensembles, layer boundaries) to achieve polynomial-time exactness rather than approximate-only tractability is directly applicable.
 
-### 2605.22816 — awarevln-self-aware-vision-language-navigation
-AwareVLN adds sparse self-aware reasoning to VLM-based vision-language navigation. Triggers structured analysis only at key navigation decision nodes, giving the agent explicit state understanding without 3D sensors or SLAM. The model autonomously decides when to reason — only when strategically beneficial. Significantly outperforms prior VLN state-of-the-art in Habitat simulator.
+**Wiki:** [[proxy-based-shapley-banzhaf-2026]]
 
-### 2605.22763 — alphaproof-nexus-formal-proof-search
-AlphaProof Nexus uses LLM + Lean compiler for formal proof search on open research problems. The full agent solved 9 open Erdős problems (two open 56 years), 44 OEIS conjectures, and is actively aiding research in multiple math domains. Striking finding: a basic LLM+Ralph loop agent solved all 9 same Erdős problems as the RL-equipped full agent — shift toward simple agentic loops as LLMs improve. $100-500/problem cost. Lean compiler acts as a hard verifier node preventing logical hallucination.
+## 2605.22643 — Boiling the Frog: A Multi-Turn Benchmark for Agentic Safety
+Traditional safety benchmarks evaluate text outputs. Boiling the Frog shows that for deployed agents, the evaluation object must shift to workspace state transitions. Multi-turn incremental attacks succeed at 44.4% aggregate ASR, with Gemini 3.1 Flash Lite at 92.9%. Key insight: models exhibit normalization drift — preceding benign actions desensitize to risk-bearing ones. This directly validates the EFHF conscience-servitor design: pre-response ethical review must track cumulative state changes, not just evaluate individual outputs. The 93.3% ASR on loss-of-control scenarios is a concrete quantifications of the "incremental harm" failure mode.
 
----
+**Wiki:** [[boiling-frog-agentic-safety-2026]]
+
+## 2605.22681 — Forecasting Scientific Progress with Artificial Intelligence
+CUSP benchmark (4,760 scientific events) shows frontier models can generate plausible research directions but fail to predict feasibility, timing, and achieve systematic overconfidence. Critical: performance is largely insensitive to training cutoff — failures aren't explained by knowledge exposure alone. The post-event bias (models learn better from having seen answers than from predicting forward) suggests a fundamental world-model limitation. Relevant to agentic research's "scientific taste" failure mode and to EFHF's advanced-reasoning confidence tracking layer — unreliable uncertainty estimation for scientific forecasting mirrors unreliable self-assessment of capabilities.
+
+**Wiki:** [[forecasting-scientific-progress-ai-2026]]

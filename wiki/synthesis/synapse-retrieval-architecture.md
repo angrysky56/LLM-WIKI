@@ -4,6 +4,10 @@ type: synthesis
 tags: [retrieval, architecture, RRF, hybrid-search, entity-extraction, wikilinks, synapse]
 updated: 2026-04-11T04:35:21Z
 created: 2026-04-11T04:35:21Z
+sources: []
+status: active
+confidence: 0.7
+
 ---
 
 # Synapse Retrieval Architecture

@@ -1,13 +1,4 @@
 ---
-summary: Graph-based world model MCP server — EFHF Layer 2; encodes beliefs and relationships for verification by mcp-logic
-tags: [MCP, EFHF, world-model, graph, ontology, beliefs]
-updated: 2026-04-14T04:16:20Z
-created: 2026-04-14T04:16:20Z
-type: entity
-sources: []
-status: active
-confidence: 0.8
----
 
 # HiPAI-Montague
 

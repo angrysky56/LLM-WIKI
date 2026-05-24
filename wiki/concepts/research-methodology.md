@@ -1,15 +1,4 @@
 ---
-summary: The specific procedures or techniques used to identify, select, process, and analyze information about a topic.
-tags: [research, science, logic]
-updated: 2026-04-18T03:46:45Z
-created: 2026-04-18T03:46:45Z
-sources: []
-status: active
-confidence: 0.8
-type: concept
----
-
----
 created: 2026-04-18T03:46:42Z
 updated: 2026-04-18T03:46:42Z
 type: concept

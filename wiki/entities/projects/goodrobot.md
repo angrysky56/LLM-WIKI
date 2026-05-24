@@ -1,20 +1,12 @@
 ---
-created: 2026-06-08
-summary: GoodRobot — SHUT DOWN status added
-tags: [company, zero-human, shut-down]
-updated: 2026-05-18T06:48:03Z
-sources: []
-confidence: 0.8
-type: entity
----
-
----
 created: 2026-05-12
 updated: 2026-05-18
 type: entity
 summary: GoodRobot — SHUT DOWN — zero-human AI agent company was simulating corporate governance with ethics board
 tags: [company, zero-human, agent-society, paperclip, shut-down]
 status: shut_down
+sources: []
+confidence: 0.8
 ---
 
 # GoodRobot — SHUT DOWN

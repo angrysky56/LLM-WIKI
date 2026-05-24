@@ -1,15 +1,4 @@
 ---
-type: concept
-summary: The process by which scholarly work is checked by experts in the same field to ensure quality and validity before publication.
-tags: [science, publishing, quality-control]
-updated: 2026-04-18T03:46:40Z
-created: 2026-04-18T03:46:40Z
-sources: []
-status: active
-confidence: 0.8
----
-
----
 created: 2026-04-18T03:46:37Z
 updated: 2026-04-18T03:46:37Z
 type: concept

@@ -1,13 +1,4 @@
 ---
-created: 2026-05-13
-type: concept
-summary: How to write bounded forward-state carryover at agent/session boundaries using structured templates
-tags: [markovian, carryover, session-management, bounded-memory, skill]
-status: draft
-confidence: 0.8
-sources:
-  - https://arxiv.org/abs/2510.06557 (Markovian Thinker)
----
 
 # Markovian Carryover: Structured Forward-State for Agent Sessions
 

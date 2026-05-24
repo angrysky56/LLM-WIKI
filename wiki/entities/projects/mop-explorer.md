@@ -1,13 +1,4 @@
 ---
-summary: MOP-guided research agent using EFHF as verification backbone — autonomously explores concept spaces, generates hypotheses, verifies via L2-L5 pipeline, commits validated insights
-tags: [MOP, EFHF, exploration, agent, knowledge-graph, research, synthesis, project]
-updated: 2026-04-14T04:14:28Z
-created: 2026-04-14T04:14:28Z
-sources: []
-status: active
-confidence: 0.8
-type: entity
----
 
 # MOP Explorer
 

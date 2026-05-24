@@ -1,15 +1,4 @@
 ---
-summary: Concept page for Feedforward Activity
-tags: [neuroscience, biology, brain-activity]
-updated: 2026-04-28T18:55:42Z
-created: 2026-04-28T18:55:42Z
-sources: []
-status: active
-confidence: 0.8
-type: concept
----
-
----
 created: 2026-04-28T18:55:40Z
 updated: 2026-04-28T18:55:40Z
 type: concept

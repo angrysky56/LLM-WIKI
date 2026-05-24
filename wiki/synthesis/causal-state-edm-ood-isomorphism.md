@@ -3,6 +3,11 @@ summary: Epsilon machine causal states ↔ EDM citation vectors — disruptive p
 type: synthesis
 tags: [computational-mechanics, epsilon-machine, EDM, OOD, citation-networks, disruption, hallucination-detection, synthesis, lumpability, simultaneous-discovery, MOP, EFHF]
 updated: 2026-04-14T04:13:57Z
+created: 2026-05-13
+sources: []
+status: draft
+confidence: 0.6
+
 ---
 
 

@@ -2,11 +2,12 @@
 summary: Tiago Forte's PARA framework — actionability-based universal information organization (Projects, Areas, Resources, Archives)
 type: concept
 tags: [para, pkm, knowledge-management, organization, tiago-forte, methodology]
-updated: 2026-04-10T23:08:01Z
-created: 2026-04-10T23:08:01Z
+updated: 2024-04-10T23:08:01Z
+created: 2024-04-10T23:08:01Z
+status: active
+confidence: 0.7
+sources: []
 ---
-
-
 
 # PARA Methodology
 

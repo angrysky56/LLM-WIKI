@@ -1,15 +1,4 @@
 ---
-summary: Entity page for Claude Code.
-tags: [tools, ai-agent]
-updated: 2026-05-01T06:25:49Z
-created: 2026-05-01T06:25:49Z
-sources: []
-status: active
-confidence: 0.8
-type: entity
----
-
----
 created: 2026-05-01T06:25:46Z
 updated: 2026-05-01T06:25:46Z
 type: entity

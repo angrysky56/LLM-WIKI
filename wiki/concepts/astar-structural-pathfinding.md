@@ -6,6 +6,7 @@ created: 2026-05-09T02:11:26Z
 status: active
 confidence: 0.8
 type: concept
+sources: []
 ---
 
 # A-Star Structural Pathfinding

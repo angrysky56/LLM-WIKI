@@ -4,6 +4,10 @@ type: synthesis
 tags: [skill-extraction, ctx2skill, efhf, verification, verifier-graph, mcp-logic, sheaf-consistency, molecular-self, synthesis]
 updated: 2026-05-09T02:08:07Z
 created: 2026-05-09T02:08:07Z
+sources: []
+status: active
+confidence: 0.7
+
 ---
 
 ## The Gap

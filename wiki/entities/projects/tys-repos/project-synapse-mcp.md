@@ -1,15 +1,4 @@
 ---
-summary: Project page for Project Synapse MCP.
-tags: [projects, ty-repo, knowledge-management]
-updated: 2026-05-01T07:19:08Z
-created: 2026-05-01T07:19:08Z
-sources: []
-status: active
-confidence: 0.8
-type: entity
----
-
----
 created: 2026-05-01T07:19:02Z
 updated: 2026-05-01T07:19:02Z
 type: entity

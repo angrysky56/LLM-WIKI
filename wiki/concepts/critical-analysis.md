@@ -1,15 +1,4 @@
 ---
-type: concept
-summary: The systematic evaluation of research to understand its methodology, context, validity, and significance.
-tags: [epistemology, research, evaluation]
-updated: 2026-04-18T03:46:22Z
-created: 2026-04-18T03:46:22Z
-sources: []
-status: active
-confidence: 0.8
----
-
----
 created: 2026-04-18T03:46:18Z
 updated: 2026-04-18T03:46:18Z
 type: concept

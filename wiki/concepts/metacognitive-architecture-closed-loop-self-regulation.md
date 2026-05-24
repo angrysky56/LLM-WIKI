@@ -4,6 +4,10 @@ type: concept
 tags: [metacognition, llm, closed-loop, activation-steering, pid-control, biofeedback, representation-engineering]
 updated: 2026-05-21T07:05:06Z
 created: 2026-05-21T07:05:06Z
+sources: []
+status: active
+confidence: 0.7
+
 ---
 
 

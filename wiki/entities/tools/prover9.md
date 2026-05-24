@@ -1,15 +1,4 @@
 ---
-summary: Entity page for Prover9.
-tags: [logic, theorem-proving]
-updated: 2026-05-06T20:09:43Z
-created: 2026-05-06T20:09:43Z
-type: entity
-sources: []
-status: active
-confidence: 0.8
----
-
----
 created: 2026-05-06T20:09:39Z
 updated: 2026-05-06T20:09:39Z
 type: entity

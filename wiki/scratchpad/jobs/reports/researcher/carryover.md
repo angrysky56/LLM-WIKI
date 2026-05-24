@@ -1,6 +1,12 @@
 ## CarryoverState
 
 ### Established
+- **[[llm-agent-architecture]]** filled: runtime architecture patterns, LLM/software boundary as design concern, guardrail layers, state machines, production failure modes (Jun 2025)
+- **[[code-generation]]** filled: narrow task vs code agents, HumanEval/SWE-Bench/MBPP benchmarks, context window/multi-file/test reliability challenges, MOP search-space framing (Jun 2025)
+- **[[video-llm]]** filled: pipeline architecture, DeltaDirect findings on directional motion blindness and direction binding gap, magnitude deficit, projector-level fix (Jun 2025)
+- **[[vision-language-alignment]]** filled: cross-modal grounding problem, alignment ≠ accessibility, DeltaDirect case study, projector-level intervention, magnitude deficit (Jun 2025)
+- **[[motion-understanding]]** filled: elementary motion primitives, signed direction as fundamental case, probing evidence, magnitude deficit, DeltaDirect fix (Jun 2025)
+- **[[grpo.md]]** deleted: redundant stub, `group-relative-policy-optimization.md` already has full content (Jun 2025)
 - **[[attention-mechanism]]** filled: scaled dot-product attention, multi-head, Flash Attention, GQA/MQA; O(1) path length advantage; transformer architecture foundation (Jun 2026)
 - **[[transformer-architecture]]** filled: encoder-decoder vs decoder-only (GPT-style); scaling as primary strategy; RoPE/ALiBi/GQA extensions; connection to scaling-laws (Jun 2026)
 - **[[kv-cache]]** filled: inference optimization; PagedAttention; MQA/GQA memory reduction; prefix caching; connects to inference-time-compute-scaling (Jun 2026)
@@ -62,5 +68,5 @@
 - **[Question]** MOP training for transformers: Can path entropy maximization be applied to next-token prediction training from scratch?
 
 ### Heading
-- **[Intent]** Next cycle: continue stub-first filling. Remaining high-value clusters: llm-agent-architecture (very thin, connects to agent-native-design/MOP), code-generation (connects to swe-bench/code-agent chain), video-llm (thin but connects to vision-language-alignment). Also domain-specific stubs: taylors-law, esa, qes (all very thin, need evaluation before filling).
-- **[Constraint]** ~134 stubs total (includes entities). This cycle completed 9 stub→active conversions across transformer infrastructure, agent architecture, reasoning/search, and security clusters.
+- **[Intent]** Next cycle: continue stub-first filling. Remaining high-value clusters: epistemic-energy (stub, connects to agent-native-design/EFHF), scale (connects to scaling-laws), probing-analysis (thin but strong connections). Domain-specific stubs to evaluate: taylors-law, esa, qes, directed-preferential-placement.
+- **[Constraint]** 180 concept stubs remain (corrected from ~125). This cycle completed 5 stub→active conversions + 1 redundant deletion (video/vision cluster). Next priority: epistemic-energy, scale-related stubs, then domain-specific batch.

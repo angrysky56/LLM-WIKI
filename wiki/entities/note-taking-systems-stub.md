@@ -6,6 +6,8 @@ summary: Note-taking systems — tools and methods for personal knowledge manage
 tags: [knowledge-management, pkm, tools]
 status: stub
 confidence: 0.3
+sources: []
+
 ---
 
 # Note-Taking Systems (stub)

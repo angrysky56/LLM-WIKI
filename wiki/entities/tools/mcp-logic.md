@@ -1,13 +1,4 @@
 ---
-summary: First-order logic MCP server (Prover9/Mace4) — EFHF Layer 3; structural verification, absorbing state detection, hypothesis validation for MOP agents
-tags: [MCP, EFHF, logic, Prover9, Mace4, verification, FOL, absorbing-states]
-updated: 2026-04-14T04:17:05Z
-created: 2026-04-14T04:17:05Z
-type: entity
-sources: []
-status: active
-confidence: 0.8
----
 
 # mcp-logic
 

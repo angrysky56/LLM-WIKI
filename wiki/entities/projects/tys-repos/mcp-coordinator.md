@@ -1,15 +1,4 @@
 ---
-summary: Project page for mcp-coordinator.
-tags: [projects, ty-repo, orchestration]
-updated: 2026-05-01T07:06:12Z
-created: 2026-05-01T07:06:12Z
-sources: []
-status: active
-confidence: 0.8
-type: entity
----
-
----
 created: 2026-05-01T07:06:06Z
 updated: 2026-05-01T07:06:06Z
 type: entity

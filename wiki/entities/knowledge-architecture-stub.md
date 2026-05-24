@@ -6,6 +6,8 @@ summary: Knowledge architecture — structural organization of information syste
 tags: [knowledge-management, architecture, information-theory]
 status: stub
 confidence: 0.3
+sources: []
+
 ---
 
 # Knowledge Architecture (stub)

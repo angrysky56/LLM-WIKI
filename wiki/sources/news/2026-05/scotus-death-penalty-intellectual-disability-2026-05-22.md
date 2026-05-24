@@ -19,7 +19,7 @@ This is the first Supreme Court case involving intellectual disability and capit
 The decision also signals that even in a politically polarized environment, some Eighth Amendment protections retain cross-ideological support. The Barrett-Kavanaugh alignment with the liberal wing on this specific issue is notable.
 
 ## Connections
-- [[supreme-court]] — Issuing body
+- [[us-supreme-court]] — Issuing body
 - [[death-penalty]] — Subject matter
 - [[8th-amendment]] — Constitutional basis
 - [[civil-rights]] — Broader framework

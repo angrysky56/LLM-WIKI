@@ -22,7 +22,7 @@ A rescue diver died while attempting to recover the bodies of Italian tourists w
 
 - [[maldives]] — location
 - [[cave-diving]] — the activity
-- [[italians]] — the deceased tourists
+- Italians — the deceased tourists
 - [[diving-accident]] — the incident type
 
 ## Open Questions

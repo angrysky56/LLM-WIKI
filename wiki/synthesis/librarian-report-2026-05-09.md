@@ -5,6 +5,9 @@ type: synthesis
 summary: Week 1 quality audit — Orphans and Misclassifications in the LLM-WIKI knowledge graph
 tags: [librarian-report, quality-audit, orphans, misclassifications, week-1]
 confidence: 0.95
+sources: []
+status: archived
+
 ---
 
 # Librarian Report — 2026-05-09 (Week 1: Orphans + Misclassifications)

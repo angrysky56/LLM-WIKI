@@ -1,0 +1,18 @@
+---
+created: 2026-06-16
+updated: 2026-06-16
+type: synthesis
+summary: "[STUB] Middle East geopolitics — conflicts, alliances, energy"
+tags: [middle-east-geopolitics, stubs, geopolitics]
+sources: []
+status: stub
+confidence: 0.3
+---
+
+# Middle East Geopolitics
+
+*Stub page — needs real content*
+
+## Connections
+
+- [[geopolitics]]

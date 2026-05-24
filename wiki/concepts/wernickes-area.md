@@ -1,15 +1,4 @@
 ---
-summary: Concept page for Wernicke's Area.
-tags: [concept, neuroscience, linguistics]
-updated: 2026-04-18T20:13:47Z
-created: 2026-04-18T20:13:47Z
-sources: []
-status: active
-confidence: 0.8
-type: concept
----
-
----
 created: 2026-04-18T20:13:00Z
 updated: 2026-04-18T20:13:00Z
 type: concept

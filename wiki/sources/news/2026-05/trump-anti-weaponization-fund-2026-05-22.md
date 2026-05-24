@@ -24,7 +24,7 @@ The fund represents a structural corruption mechanism that repurposes DOJ as a p
 
 ## Connections
 - [[doj]] — Operating agency
-- [[trump]] — Principal
+- [[trump-administration]] — Principal
 - [[institutional-capture-vs-species-framing]] — Institutional capture analysis thread
 - [[ai-governance-substrate]] — Broader governance concern
 

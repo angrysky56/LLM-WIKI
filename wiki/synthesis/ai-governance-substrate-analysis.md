@@ -3,6 +3,11 @@ summary: Five interlocking cognitive primitives for evaluating AI governance dis
 type: synthesis
 tags: [synthesis, ai-governance, analytical-primitive, aseke, methodology, frame, institutional-analysis]
 updated: 2026-04-28T18:29:40Z
+created: 2026-05-13
+sources: []
+status: draft
+confidence: 0.6
+
 ---
 
 # AI Governance Substrate Analysis

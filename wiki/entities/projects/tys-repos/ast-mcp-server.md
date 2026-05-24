@@ -1,15 +1,4 @@
 ---
-summary: Project page for ast-mcp-server.
-tags: [projects, ty-repo, code-analysis]
-updated: 2026-05-01T07:06:14Z
-created: 2026-05-01T07:06:14Z
-sources: []
-status: active
-confidence: 0.8
-type: entity
----
-
----
 created: 2026-05-01T07:06:08Z
 updated: 2026-05-01T07:06:08Z
 type: entity

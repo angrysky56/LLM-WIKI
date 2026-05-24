@@ -1,0 +1,19 @@
+---
+created: 2026-06-16
+updated: 2026-06-16
+type: synthesis
+summary: "[STUB] Asteroid 2026 JH2 — near-Earth object"
+tags: [asteroid-2026-jh2, stubs, planetary-defense]
+sources: []
+status: stub
+confidence: 0.3
+---
+
+# Asteroid 2026 JH2
+
+*Stub page — needs real content*
+
+## Connections
+
+- [[near-earth-objects]]
+- [[planetary-defense]]

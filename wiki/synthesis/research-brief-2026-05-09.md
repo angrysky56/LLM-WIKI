@@ -1,12 +1,4 @@
 ---
-created: 2026-05-09T00:00:00Z
-updated: 2026-05-13T00:00:00Z
-type: synthesis
-summary: Researcher agent output
-tags: [research, researcher-agent]
-status: archived
-confidence: 0.8
----
 
 # Research Brief — 2026-05-09 (Run 1 — Baseline Survey)
 

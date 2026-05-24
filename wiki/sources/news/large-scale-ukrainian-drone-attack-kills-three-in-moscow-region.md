@@ -23,7 +23,7 @@ Ukraine executed its largest drone attack on Moscow to date, killing three peopl
 - [[ukraine-russia-war]] — the ongoing conflict
 - [[drone-warfare]] — the weapon system
 - [[moscow]] — target
-- [[drone-attack]] — the act
+- [[drone-warfare]] — the act
 
 ## Open Questions
 

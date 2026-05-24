@@ -6,6 +6,8 @@ summary: Legal accountability — judicial constraints on executive/political po
 tags: [law, governance, accountability, judicial-review]
 status: stub
 confidence: 0.3
+sources: []
+
 ---
 
 # Legal Accountability (stub)

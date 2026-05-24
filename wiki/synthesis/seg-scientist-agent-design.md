@@ -6,6 +6,8 @@ summary: Integrated design for an autonomous AI scientist combining the SEG coun
 tags: [synthesis, ai-scientist, agentic-research, seg, efhf, verification]
 status: implementation-ready
 confidence: 0.94
+sources: []
+
 ---
 
 

@@ -1,15 +1,4 @@
 ---
-summary: Added [[markovian-dev-agency]] return link to hermes-agent
-tags: [hermes, agent-framework, nous-research, delegation, goals, cron, multi-agent]
-updated: 2026-05-21T23:13:01Z
-created: 2026-05-28
-type: entity
-sources: []
-status: active
-confidence: 0.8
----
-
----
 created: 2026-05-11
 updated: 2026-05-23T08:55:00Z
 type: entity

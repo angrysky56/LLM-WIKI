@@ -18,7 +18,7 @@ confidence: 0.85
 
 # CodeGraph
 
-[[colbymchenry/codegraph]] is a **local code knowledge graph** that supercharges AI coding tools (Claude Code, Codex, Cursor, OpenCode, Hermes Agent) with semantic code intelligence.
+[[codegraph]] is a **local code knowledge graph** that supercharges AI coding tools (Claude Code, Codex, Cursor, OpenCode, Hermes Agent) with semantic code intelligence.
 
 ## Key Claims
 

@@ -1,15 +1,4 @@
 ---
-summary: The practice of communicating scientific information to other scientists, characterized by precision, clarity, and adherence to established formats like IMRaD.
-tags: [writing, science, academic-standards]
-updated: 2026-04-18T03:46:26Z
-created: 2026-04-18T03:46:26Z
-sources: []
-status: active
-confidence: 0.8
-type: concept
----
-
----
 created: 2026-04-18T03:46:24Z
 updated: 2026-04-18T03:46:24Z
 type: concept

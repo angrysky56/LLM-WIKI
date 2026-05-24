@@ -1,15 +1,4 @@
 ---
-summary: Titans neural memory architecture — concept page resolving [[titans]] alias
-tags: [llm, memory, architecture, titans]
-updated: 2026-05-21T22:20:24Z
-created: 2026-05-21T22:20:24Z
-sources: []
-status: active
-confidence: 0.8
-type: concept
----
-
----
 created: 2026-05-21T08:00:00Z
 updated: 2026-05-21T08:00:00Z
 type: concept

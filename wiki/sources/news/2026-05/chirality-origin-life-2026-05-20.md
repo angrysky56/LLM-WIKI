@@ -36,7 +36,7 @@ The fact that the solution involves an "elusive electronic effect" suggests this
 - [[wolchover-life-force-2026]] — flagellar motor + proton motive force + entropic machinery
 - [[open-ended-evolution]] — symmetry-breaking as enabling condition
 - [[entropic-machinery-cot-and-flagellum]] — flagellar motor as entropic boundary
-- [[wiki/sources/papers/chen-molecular-cot-2026]] — molecular bonds and structural chirality
+- [[chen-molecular-cot-2026]] — molecular bonds and structural chirality
 
 ## Timeline
 - 2026-05: Research published on electronic effect explaining homochirality origin

@@ -8,87 +8,94 @@
 
 ## Top Stories This Cycle
 
-### 1. WHO Emergency Committee Issues Ebola Recommendations (Highest Priority)
-**PHEIC declared May 17 — formal coordination now active**
+### 1. Ebola Suspected Cases Climb to 900+ Amid Ongoing Conflict (Highest Priority)
+**PHEIC active — containment increasingly compromised**
 
-The WHO Director-General convened the IHR Emergency Committee on May 22, issuing temporary recommendations for the Ebola Bundibugyo outbreak in DRC and Uganda. Key developments:
+Ebola continues to escalate in DRC and Uganda with suspected cases now exceeding 900 in eastern DRC alone. Key developments:
 
-- **Case count**: 395+ confirmed cases, 106+ deaths (~27% CFR)
-- **DRC risk upgraded to "Very High"** at provincial level
+- **Two ETCs burned in one week** (May 20 and May 23) — 18 patients fled into active conflict zone, now unmonitored
+- **Rebel-held eastern DRC cases** confirmed — these will NOT appear in official counts; silent transmission ongoing
+- **US CDC restricts entry** for green card holders recently in affected countries
 - **India-Africa Forum Summit postponed** — first diplomatic casualty of the outbreak
-- **India travel advisory** issued for DRC, Uganda, South Sudan
-- **Barrick gold mine** (Kibali, DRC) intensified screening — corporate risk signal
+- **WHO DG held three high-level briefings** in one week (May 19, 20, 22)
+- CFR published "A New Ebola Outbreak Spreads Through Conflict and a Weak U.S. Response" (May 22)
+- US funding cuts have hampered aid response; WHO and UNICEF scaling up
 
-The Emergency Committee's temporary recommendations establish the IHR coordination framework for how nations must respond — affecting travel, trade, and health resource allocation globally.
+The second ETC burn is catastrophic for containment — patients re-entering communities without monitoring creates exponential transmission risk. The conflict zone problem is qualitatively different from prior outbreaks: health workers cannot access these areas.
 
-**Wiki**: [[who-ihr-emergency-committee-ebola-may-2026]]
-
----
-
-### 2. Trump Administration Abandons Proposed AI Executive Order
-**Federal AI oversight effectively off the table**
-
-The Trump administration called off a proposed executive order that would have required pre-release government vetting of AI models, after industry objections that it would "weaken US tech edge" relative to China (reported May 22).
-
-This abandonment creates a regulatory vacuum. California's AI worker protection executive order (signed May 21) now fills that vacuum — California is effectively the de facto AI regulator for the United States through state-level action and purchasing power.
-
-**Wiki**: [[trump-ai-executive-order-abandoned-may-2026]]
+**Wiki**: [[ebola-outbreak-second-treatment-center-burned-may-2026]], [[who-ihr-emergency-committee-ebola-may-2026]]
 
 ---
 
-### 3. California Governor Newsom Signs AI Worker Protection Order
-**First-in-nation proactive AI disruption preparation**
+### 2. SpaceX IPO Investor Frenzy vs. Governance Warnings
+**June 12 listing — Barron's and Seeking Alpha flag risk**
 
-California signed its first-in-its-kind executive order specifically to prepare workers and businesses for AI-driven disruption — a week after Meta layoffs demonstrated AI's workforce impact. Key provisions:
+As SpaceX's historic June 12 IPO approaches, analysts are raising concerns that retail investor enthusiasm is overwhelming fundamental governance and loss concerns:
 
-- **60-day state review** of AI impact on workers/businesses
-- **Vendor safeguards required** for state AI contracts (procurement lever)
-- **Subsidies for companies that don't replace workers with AI** — novel policy design
-- **Worker safety net expansions** for AI-displaced workers
+- **Musk retains ~78% voting control** through dual-class shares
+- **Loss-making history**: IPO filing reveals ongoing losses alongside blockbuster spending on rockets and AI
+- **Limited public disclosure**: Governance structure far less transparent than typical public companies
+- **BlackRock considering $10B investment** — institutional backing but doesn't resolve governance questions
+- **AI bet**: SpaceX filing reveals AI as core future business bet — raising questions about Musk's portfolio coordination (xAI vs. SpaceX AI services)
 
-Direct trigger: Meta layoffs. California's action comes as 22 other states have active AI legislation — California's template is spreading.
+Barron's: "SpaceX IPO Is a Game You Should Play at Your Own Risk"
+Seeking Alpha: "Investor frenzy for SpaceX IPO may overwhelm concerns about losses, governance"
 
-**Wiki**: [[california-ai-worker-protection-order-2026]]
+**Wiki**: [[spacex-ipo-spcx-2026]], [[spacex-ipo-june-2026]]
 
 ---
 
-### 4. OpenAI o3 Solves 80-Year-Old Erdős Geometry Conjecture
-**Most significant AI mathematical discovery to date**
+### 3. Flatiron Institute Overturns D-Wave "Quantum Supremacy" Claim
+**Classical tensor network algorithm matches quantum benchmark**
 
-An OpenAI o-series model (o3) autonomously disproved a central conjecture in discrete geometry — an Erdős problem approximately 80 years old. The breakthrough was announced May 20 and covered extensively by Guardian, Scientific American, and New Scientist (May 21).
+A Flatiron Institute research team published results (May 21) demonstrating that a tensor network algorithm running on classical hardware can solve the same computational problem D-Wave used to claim "quantum supremacy" in 2019 — at comparable or better performance.
 
-Key details:
-- Model generated proof **autonomously** — no human collaborative prompting
-- Proof uses **deep number theory** techniques described as "ingenious"
-- Multiple independent mathematical reviewers examining the proof
-- Gary Marcus (Substack) urges cautious verification — both OpenAI and Anthropic have required significant claim revisions in the past
-- IPO timing noted as contextual (OpenAI targeting September IPO)
+Key facts:
+- D-Wave's 2019 claim was widely cited as proof quantum computers could outperform classical systems
+- The Flatiron result complicates that narrative — it does not invalidate quantum computing broadly, but refines understanding of where quantum advantage actually holds
+- Opens new research directions for understanding the classical/quantum boundary
 
-If peer review confirms, this is the strongest evidence that frontier AI can generate genuinely novel mathematical knowledge — not just solve benchmarks but produce previously unknown proofs for long-standing open problems.
+For AI: quantum computing has been proposed as a substrate for next-generation AI. If classical algorithms can match certain quantum approaches on relevant tasks, the quantum advantage timeline for AI extends further than claimed.
 
-**Wiki**: [[openai-o3-erdos-conjecture-breakthrough-2026]]
+**Wiki**: [[quantum-supremacy-overturned-d-wave-may-2026]]
+
+---
+
+### 4. Brazil 2026 Elections: First Real Stress Test for AI Regulation
+**October election — 40+ countries watching implementation**
+
+Brazil's October 2026 elections represent the first major democratic exercise in a large economy where AI regulation frameworks are being actively debated and partially implemented.
+
+Key issues:
+- **Deepfake disclosure requirements**: AI-generated content must be labeled as synthetic — enforcement unclear
+- **Algorithmic content amplification**: platform liability for AI-amplified misinformation
+- **AI-generated personalized campaign content** at scale
+- **40+ countries holding elections 2026-2027** watching Brazil's implementation
+
+If the framework holds, it provides a model for democratic AI governance. If it fails through deepfake scandals or algorithmic manipulation, it becomes a cautionary tale.
+
+**Wiki**: [[brazil-2026-elections-ai-regulation-stress-test]]
 
 ---
 
 ## Stories Monitored (No Significant Update This Cycle)
 
-- **SpaceX IPO**: Targeting June 12 listing. Starship V3 test successful May 23. No new developments — continuing to monitor pre-IPO SEC filings and investor sentiment.
-- **US-China talks / Trump-Xi summit**: No update this cycle.
-- **Trump trade court ruling** (May 7): No appeal updates.
+- **OpenAI math proof**: o3 solved 80-year-old Erdős geometry conjecture — peer review ongoing, no verdict yet
+- **California AI worker protection order**: 60-day review ongoing — next action likely from state agencies
+- **EU-US Trade Deal**: Implementation details pending — Council/Parliament agreement on tariff elements reached May 20
 
 ---
 
 ## Wiki Pages Updated This Cycle
 
-1. `wiki/sources/articles/who-ihr-emergency-committee-ebola-may-2026.md` — NEW
-2. `wiki/sources/articles/trump-ai-executive-order-abandoned-may-2026.md` — NEW
-3. `wiki/sources/articles/california-ai-worker-protection-order-2026.md` — NEW
-4. `wiki/sources/articles/openai-o3-erdos-conjecture-breakthrough-2026.md` — NEW
+1. `wiki/sources/articles/quantum-supremacy-overturned-d-wave-may-2026.md` — NEW
+2. `wiki/sources/articles/brazil-2026-elections-ai-regulation-stress-test.md` — NEW
+3. `wiki/sources/articles/spacex-ipo-investor-frenzy-risk-may-2026.md` — NEW
 
 ---
 
 ## Carryover Updated
 
-`jobs/reports/news/carryover.md` — Updated with new findings, next cycle priorities, Brazil elections AI regulation test flagged for next run.
+`jobs/reports/news/carryover.md` — Updated with new findings (D-Wave quantum, Brazil elections, SpaceX governance warnings), Article Index pruned to last 10 entries, next cycle priorities set.
 
 **Next run**: 2026-05-26 8AM

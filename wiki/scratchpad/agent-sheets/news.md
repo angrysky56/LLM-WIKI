@@ -24,9 +24,9 @@ Read this file first.
 ### STEP 1 — Read the central jobs sheet
 Read `wiki/scratchpad/jobs/sheet.md` to check if Ty has flagged any specific regions, topics, or events to watch.
 
-### STEP 2 — Scan global news
+### STEP 2 — Web search global news
 
-Use the `project-synapse` skill with the LLM-WIKI operating guide. Default scan:
+Default scan:
 - Major geopolitical events
 - AI/tech policy and regulation
 - Scientific breakthroughs
@@ -44,6 +44,7 @@ Criteria for ingestion:
 Aim for 3-5 stories per cycle.
 
 ### STEP 4 — Ingest to wiki
+Use the `project-synapse` skill with the LLM-WIKI operating guide. 
 
 For each significant story:
 1. Write summary to `wiki/sources/articles/[slug].md`

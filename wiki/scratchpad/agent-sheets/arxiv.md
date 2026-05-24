@@ -6,10 +6,8 @@
 
 ---
 
-## What Changed (2026-05-20)
 
-The old agent used MCP's `download_paper` directly — it hit rate limits and timed out.
-The new agent uses:
+The agent uses:
 1. **curl fallback** for PDF download (bypasses MCP 429s)
 2. **delegate_task subagents** for parallel paper research (one per paper)
 3. **PyMuPDF** for PDF text extraction (MCP `read_paper` only works for server-downloaded files)

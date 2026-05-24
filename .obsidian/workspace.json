@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/scratchpad/jobs/reports/arxiv/arxiv-2026-05-23-top-papers.md",
+                "file": "wiki/scratchpad/agent-sheets/news.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "arxiv-2026-05-23-top-papers"
+              "title": "news"
             }
           }
         ]
@@ -194,8 +194,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c161994581ba454a",
+  "active": "b57d6628a158bb4f",
   "lastOpenFiles": [
+    "wiki/sources/articles/us-trade-court-tariff-ruling-may-2026.md",
+    "wiki/sources/articles/openai-ai-solves-80-year-erdos-problem-may-2026.md",
+    "wiki/sources/articles/eu-us-trade-deal-tariff-may-2026.md",
+    "wiki/sources/articles/spacex-ipo-june-12-2026.md",
+    "wiki/sources/articles/california-ai-worker-protection-may-2026.md",
+    "wiki/scratchpad/agent-sheets/arxiv.md",
+    "wiki/scratchpad/jobs/reports/news/carryover.md",
+    "wiki/scratchpad/jobs/reports/arxiv/arxiv-2026-05-23-top-papers.md",
+    "wiki/scratchpad/jobs/reports/news/headlines-2026-05-24.md",
+    "wiki/sources/articles/openai-erdos-mathematics-proof-2026.md",
+    "wiki/sources/articles/california-ai-worker-protection-newsom-2026.md",
+    "wiki/sources/articles/spacex-files-ipo-starship-v3-2026.md",
+    "wiki/sources/articles/ebola-outbreak-drc-uganda-pheic-2026.md",
     "wiki/scratchpad/jobs/mcp-tools-reference.md",
     "wiki/scratchpad/jobs/index.md",
     "wiki/scratchpad/jobs/sheet.md",
@@ -211,21 +224,8 @@
     "wiki/scratchpad/jobs/reports/arxiv/papers-2026-05-24-researched.md",
     "wiki/sources/papers/lcguard-latent-communication-guard-2026.md",
     "wiki/sources/papers/deltabox-scaling-stateful-agents-checkpoint-rollback-2026.md",
-    "wiki/sources/papers/moss-self-evolution-source-level-rewriting-2026.md",
-    "wiki/scratchpad/jobs/reports/researcher/discovery-2026-06-08.md",
-    "wiki/synthesis/insights/albanese-sanctions-divergence-insight.md",
-    "wiki/synthesis/insights/para-system-cohesion-insight.md",
-    "wiki/scratchpad/jobs/reports/researcher/discovery-2026-06-04.md",
-    "wiki/scratchpad/jobs/reports/insights/carryover.md",
-    "wiki/synthesis/insights/francesca-albanese-sanctions-case-insight.md",
-    "wiki/synthesis/insights/oee-knowledge-cluster-insight.md",
-    "wiki/synthesis/insights/para-knowledge-architecture-cohesion-insight.md",
-    "wiki/synthesis/insights/titans-memory-efficiency-insight.md",
     "wiki/synthesis/insights",
     "wiki/scratchpad/jobs/reports/insights",
-    "wiki/scratchpad/agent-sheets/insights.md",
-    "wiki/concepts/2026-05-news.md",
-    "wiki/concepts/news.md",
     "wiki/sources/news/sed8lFqAE",
     "Clippings/papers/2025/betteti-idp-hopfield-sciadv-2025.pdf",
     "Clippings/papers/2025",

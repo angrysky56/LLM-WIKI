@@ -1,45 +1,46 @@
 ---
-summary: News agent carryover — China mine disaster, SpaceX V3, Ebola escalation, Rubio-India energy, Gabbard resignation
-tags: [['news', 'carryover', '2026-05']]
-updated: 2026-05-23T08:00:00Z
+summary: News agent carryover — Ebola PHEIC highest urgency, SpaceX IPO June 12, California AI order accelerating state-level policy, OpenAI math breakthrough
+updated: 2026-05-24T08:00:00Z
 ---
 
-# News Agent Carryover — 2026-05-23
+# News Agent Carryover — 2026-05-24
 
-## Emerging Themes This Cycle
+## Established
 
-1. **China industrial safety regression**: 90 dead in Shanxi coal mine explosion — worst mining disaster in 16 years. Vice Premier demanding stricter inspections. Occurs alongside "deeper opening-up" agenda — contradiction between economic liberalization and safety enforcement is a live policy tension.
+- **Ebola PHEIC** (May 17): Bundibugyo strain, no licensed vaccine, cross-border DRC/Uganda transmission. Death toll ~106+. Treatment centers targeted. India travel advisory issued. Multiple African nations reactivating plans. 10 countries at risk. **HIGHEST URGENCY.**
+- **SpaceX IPO**: Filed May 20, targeting June 12 Nasdaq listing. $75B offering (largest in history). Starship V3 test successful May 23. Musk ~42% voting control. AI space data center viability is SEC risk factor. Could make Musk world's first trillionaire.
+- **California AI worker protection order**: Signed May 21 — first-in-nation proactive state AI disruption preparation. 22 states have AI bills; California's template is spreading. Trump's state AI order abandoned (reported May 22) — shelved over tech edge concerns.
+- **OpenAI math breakthrough**: Solved 80-year-old Erdős problem. Mathematicians amazed. Follows Google Co-Scientist (May 19) and Gemini for Science (May 24) launches — AI labs simultaneously demonstrating concrete scientific discovery.
+- **US trade court ruling** (May 7): Trump 10% global tariff ruled illegal (exceeded IEEPA authority). Creates legal uncertainty. EU-US trade deal struck (May 20) as transatlantic rapprochement amid tariff chaos.
 
-2. **SpaceX Starship V3 achieves pre-IPO milestones**: Successful test flight with booster recovery and ship splashdown. IPO positioning accelerated; NASA Artemis implications significant. SpaceX now dominating launch market consolidation.
+## Open
 
-3. **Ebola outbreak now tripling week-over-week**: WHO risk upgraded to "very high" at regional level. The "response capacity gap" from US public health cuts is now operational reality — experts publicly stating "US is choosing not to stop" the outbreak. UK vaccine candidate in development but too slow for current surge.
+- Ebola case count updates, vaccine trial progress, South Sudan transmission
+- SpaceX IPO June 12 listing outcome, pre-IPO Starship tests
+- Peer review of OpenAI math proof — mathematical community response
+- California AI order implementation milestones
+- Trump trade court appeal next steps
+- US-China talks / Trump-Xi summit outcome
 
-4. **Rubio's India visit — energy diplomacy as strategic tool**: US offering LNG to replace Iranian crude shortfalls. India maintaining flexibility — taking Venezuelan and US crude while not fully abandoning Iran relationships. H-1B registrations down 38.5% signals tech talent pipeline pressure.
+## Heading
 
-5. **Gabbard resignation creates intelligence vacuum**: National Intelligence Director post vacant with no named successor. Pattern of national security departures continues under Trump administration.
+Next cycle (2026-05-25):
+1. Ebola escalation monitoring — check case counts, border health measures
+2. SpaceX pre-IPO developments — Starship tests, investor sentiment
+3. AI scientific discovery wave — monitor Google, Anthropic announcements
+4. California AI order follow-through — implementation details from state agencies
+5. Trade court ruling appeal status — any Supreme Court involvement
 
-## Stories to Keep Monitoring
+## Key Wiki Connections to Maintain
 
-- **China mine safety enforcement**: Shanxi disaster will trigger safety inspections nationally — watch for production cuts vs. actual enforcement improvements
-- **Ebola outbreak — case acceleration**: Tripling week-over-week is alarming; WHO "very high" rating likely to trigger regional travel advisories; UK vaccine trial timeline critical
-- **SpaceX IPO timing**: V3 success directly impacts valuation; watch for S-1 filing timing and market conditions
-- **Rubio's follow-through on energy deals**: India conversations on US LNG contracts — real deliverables vs. diplomatic theater
-- **India-Hormuz-Venezuela rerouting**: Structural shift in oil supply chains that may outlast the Iran conflict
+- `public-health-governance` — Ebola PHEIC response framework
+- `who-emergency-declarations` — PHEIC history context
+- `spacex-ipo-spcx-2026` — SpaceX IPO thread
+- `AI-policy-federalism` — California/federal divergence
+- `AI-scientific-discovery` — AI math proofs and scientific discovery wave
 
-## Regions Needing Continued Attention
+## Excluded from Next Cycle
 
-- **DRC / Uganda**: Ebola — cases accelerating, WHO declaration active, US response gap operational
-- **China / Shanxi**: Industrial safety, energy policy, broader economic opening
-- **India**: Energy security, Venezuela routing, H-1B implications for tech sector
-- **US / Intelligence**: Gabbard successor vacuum, national security leadership stability
-
-## Connections to Wiki Research Threads
-
-- Ebola connects to [[public-health-governance]] and [[who-emergency-declarations]] — response gap is now concrete
-- SpaceX V3 connects to [[spacex-ipo-spcx-2026]] — IPO valuation now more directly tied to test success
-- China mine disaster connects to [[china-industrial-policy]] — safety enforcement vs. economic opening contradiction
-- Rubio-India connects to [[hormuz-strait-security]] — structural rerouting of energy supply chains confirmed
-- Gabbard resignation connects to [[us-intelligence-community]] — leadership vacuum during active conflicts
-
----
-*Carryover updated: 2026-05-23 | Next run: 2026-05-24 8AM*
+- Detailed tariff rate tracking (refer to Bloomberg/Tax Foundation trackers)
+- Routine SpaceX launch coverage unless major milestone
+- General AI regulation news unless significant policy shift

@@ -1,47 +1,41 @@
 ---
-summary: Librarian carryover 2026-06-08 — 17 frontmatter fixes, 2 stubs, MCP OK
+summary: Librarian carryover 2026-06-14 — vault stable, no changes
 tags: [librarian, carryover, audit]
-updated: 2026-06-08
+updated: 2026-06-14
 ---
 
 ## Established
 
-**Date:** 2026-06-08
-**MCP Status:** OK — project-synapse-mcp venv confirmed working
-**Job:** `6ee16837c47c` marked done in jobs sheet (N/A next run)
+**Date:** 2026-06-14  
+**MCP Status:** OK — project-synapse-mcp venv confirmed working, but MCP tools not registered via synapse_mcp.wiki_tools (fallback: full_audit.py)
+**Trigger:** Manual re-run of completed job
 
 ### Audit Metrics
 
 | Metric | Value | Change from prior |
 |--------|-------|-------------------|
-| Total pages | 588 | +10 |
-| Missing frontmatter | 270 | -17 (287→270) |
-| Broken wikilinks | 180 | -3 (183→180) |
-| Orphans | 0 | same |
+| Total pages | 590 | -1 (591→590) |
+| Missing frontmatter | 270 | same |
+| Broken wikilinks | 181 | same |
+| Orphans (filesystem) | 1 | +1 (critical-initialization-biological-neural-networks.md) |
 
-### Actions Taken This Cycle
+### Vault Health
 
-1. **2 stubs created** — `code-generation.md`, `grpo.md` in `wiki/concepts/`
-2. **10 concept pages fixed** — added `type: concept` to pages missing it: absence-of-worst-case-metric, academic-peer-review, aphantasia, arcuate-fasciculus, brocas-area, critical-analysis, cryptographic-vs-semantic-alignment, emergent-communication, eml-operator, feedback-activity
-3. **3 entity/project pages fixed** — added `created` to: alphaevolve.md, goodrobot.md, agem.md
-4. **6 paper sources fixed** — added `type: paper`: betteti-baggio-bullo-zampieri-idp-hopfield-2025, decoupling-perception-reasoning-vlm-post-training, deltabox-stateful-agent-checkpoint-rollback-2026, eidetic-learning-2021, odrzywolek-eml-2026, production-llm-agent-runtime-architecture-patterns
-5. **hermes_agent.md** — fixed misordered frontmatter (type/sources/status/confidence before summary)
-6. **edm-framework.md** — added `created`, `updated`, `confidence: 0.95`
-
-### Remaining Issues
-
-- **~180 broken wikilinks** — all in scratchpad/report files (structural noise, not content)
-- **~270 pages missing frontmatter** — mostly scratchpad noise; high-value pages mostly done
-- **8 synthesis pages with duplicate frontmatter** — cross-layer-drift-falsification (40 `---`), codegraph-hermes-integration-plan (58), librarian-report-2026-05-09 (58), research-brief-2026-05-09 (37), self-prompting-via-production-stage-architecture (13), essan-internal-representation (23), wiki-indexing-theory (11), research-brief-2026-05-13 (15) — need individual review
+- **High-value dirs (concepts/entities/synthesis):** CLEAN — all load-bearing pages (efhf, maximum-occupancy-principle, project-synapse, edm-framework) have proper frontmatter
+- **Sources (papers/articles/repositories):** ~50 article/news pages missing type/sources/status/confidence — mostly in `wiki/sources/news/` and `wiki/sources/articles/`
+- **Scratchpad/report files:** 270 missing frontmatter, 181 broken wikilinks — structural noise, non-critical
+- **PDF contamination:** None found
 
 ## Open
 
-1. Duplicate frontmatter blocks on 8 synthesis pages (high-effort individual fixes)
-2. ~270 frontmatter debt (scratchpad noise, low priority)
-3. ~180 broken wikilinks in scratchpad (structural, not content)
-4. Insight generation timed out (expected at 300s limit)
+1. ~270 pages missing frontmatter — dominated by scratchpad noise (agent sheets, job reports)
+2. ~181 broken wikilinks — all in scratchpad/report files, not wiki content
+3. ~50 article/news sources still need type/sources/status/confidence in `wiki/sources/`
+4. 1 orphaned paper: `wiki/sources/papers/critical-initialization-biological-neural-networks.md` — no inbound links
+5. `generate_insights()` would timeout at 300s — skip if MCP unavailable
 
 ## Heading
 
-- Job marked done — N/A next run
-- If reactivated: tackle duplicate frontmatter blocks on synthesis pages
+- Vault is stable — no new issues introduced this cycle
+- If continuing: focus on `wiki/sources/news/` article pages (add type/source/status/confidence)
+- Orphan page `critical-initialization-biological-neural-networks.md` needs either a wikilink from a related page or a mention in a survey/overview page

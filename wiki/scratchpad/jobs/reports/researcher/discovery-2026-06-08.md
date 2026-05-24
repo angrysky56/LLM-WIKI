@@ -1,43 +1,40 @@
 # Researcher Discovery Report — 2026-06-08
 
 ## Discovery Cycle
-- Topics researched: 14
-- New pages created: 12 (converted from stubs)
-- Pages updated: 2 (formal-methods, benchmark)
-- Cross-links added: ~40+
+- Topics researched: 9
+- New pages created: 7 (converted from stubs)
+- Pages updated: 0
+- Cross-links added: ~30+
+- Duplicate stub removed: grpo.md (duplicate of group-relative-policy-optimization.md)
 
 ## New Entries (Stub → Active Conversions)
 
-### Formal Methods Cluster (6 pages)
-- **[[formal-methods]]**: Core techniques — model checking (state explosion, CEGAR), theorem proving (interactive vs automated), abstract interpretation (sound over-approximation), refinement types. AI alignment connection: verifying reasoning chains, reward hacking detection, agent safety invariants. Landmark results: seL4, CompCert.
-- **[[formal-verification]]**: Proving program correctness against specifications — Hoare logic/deductive verification (Why3, Frama-C, SPARK) vs model checking (CBMC, SPIN). AI alignment: LLM-generated code verification, agent safety invariants, reward hacking as safety property violation.
-- **[[interactive-theorem-proving]]**: The practice — Coq (CIC, CompCert, four-color), Isabelle (generic, seL4), Lean (modern, Mathlib), Agda (MLTT, PL research). AI alignment: verifying reasoning chains, constitutional AI verification, multi-agent protocol verification.
-- **[[proof-assistant]]**: Tool-level overview — type theory foundation, trusted kernel, major systems. Landmark projects table (seL4, CompCert, four-color). AI alignment applications: reasoning chain verification, circuit-level verification, agent safety protocols.
-- **[[isabelle]]** (entity, tools/): Generic architecture — Pure kernel, object logics, Isar proof language. The generic-over-specific design. seL4 verification as landmark result. Unique among proof assistants in supporting multiple logics.
-- **[[isabelle-hol]]** (entity, tools/): Higher-Order Logic instantiation. Sledgehammer (ATP/SMT automation), code export (CakeML). Architecture of the seL4 verification — abstract spec → executable spec → C → binary, each refinement step verified.
+### Category Theory Cluster (3 pages) — Complete
+- **[[category-theory]]**: Objects, morphisms, functors, natural transformations; Yoneda lemma, adjoint functors, monoidal categories. Formal verification as functorial composition; neural network compositionality; categorical semantics for Coq/Isabelle/Lean foundations; three open questions.
+- **[[categorical-reasoning]]**: Applying category theory to composition and abstraction; compositional verification as functorial; multi-agent coordination as adjunctions; categorical analysis of load-bearing vs scaffolding reasoning; categorical interpretability tools.
+- **[[mathematical-reasoning]]**: Deductive reasoning, proof techniques, abstraction, formalization; theorem proving as AI task; connection to formal verification and load-bearing reasoning; MOP's path entropy maximization maps to proof search.
 
-### Evaluation Cluster (4 pages)
-- **[[evaluation]]**: LLM evaluation taxonomy (MMLU, GSM8K, HumanEval, SWE-Bench), process vs outcome evaluation, benchmark gaming as institutional capture. Open questions on contamination detection and generalization.
-- **[[benchmark]]**: Properties table (ground truth, metric, baseline, coverage, anti-gaming). Well-known benchmarks with descriptions. Benchmark gaming problem — connection to institutional-capture and reward-hacking.
-- **[[swe-bench]]**: Design from real GitHub issues, test-based evaluation, results table (DeepSeek-Coder-V2 at ~13%, frontier models ~5%). Variants (Lite, Verified). Connection to code-agent research and reward-hacking (gaming test cases).
-- **[[agent-onboarding]]**: Gate protocol for introducing new agents. Four components: capability verification, safety constraint injection, trust bootstrap, resource allocation. Hermes flow (spawn → soul injection → capability test → constraint acceptance → active). Open questions on scalability and cross-system transfer.
-
-### Code Agent (1 page)
-- **[[code-agent]]**: Core capabilities (code generation, debugging, refactoring, testing, review), architecture (LLM backbone, tools, state, iteration loop), reactive vs proactive tool use patterns. SWE-Bench as standard evaluation. Key challenges: context management, test reliability, multi-file coordination, long-horizon tasks.
-
-### Also Updated (from thin stub to active)
-- **[[benchmark]]** (updated): Expanded from stub with full benchmark taxonomy, properties, gaming problem connection to reward-hacking and institutional-capture.
+### Agent Architecture Cluster (4 pages) — Complete
+- **[[agent-native-design]]**: Architectural patterns where AI capabilities are built-in rather than retrofitted. MOP as Layer 0 (intrinsic motivation), bounded rationality as structural, verification before action, epistemic energy as first-class resource. MOP-EFHF integration.
+- **[[world-model]]**: Internal predictive models for planning and simulation. World model vs reactive policy. Amnesiac agent problem (Recuriosity paper). MOP-EDM framework L2 encoding. Physical (3DGS) vs cognitive (LLM) world models. Four open questions.
+- **[[neural-interpretability]]**: Probing studies, feature visualization, representation geometry, superposition. Sparse autoencoders decompose superposed features. Neurons ≠ features — features are directions. EDM/MOP connection to activation patterns. Four open questions.
+- **[[machine-psychology]]**: Psychological frameworks for AI behavior; Panksepp's primary emotional systems; ASEKE-Compass-MCP for behavioral discernment; personality in LLMs (genuine vs mimicry); agent persona design via psychological profiling. Four open questions.
 
 ## Gap Analysis
 
-Formal methods cluster (6 pages) is now **complete**: formal-methods, formal-verification, interactive-theorem-proving, proof-assistant, isabelle, isabelle-hol. All stubs converted to active pages with genuine content.
+Category theory cluster (3 pages) is now **complete**: category-theory, categorical-reasoning, mathematical-reasoning. All stubs converted to active with genuine content. The cluster has strong internal coherence — category-theory is the foundation, categorical-reasoning applies it, mathematical-reasoning connects to the formal methods work done in the previous cycle.
 
-Evaluation cluster (3 pages) is now **complete**: evaluation, benchmark, swe-bench. Also added agent-onboarding and code-agent which relate to agent development and testing.
+Agent architecture cluster (4 pages) is **mostly complete**: agent-native-design (filled), world-model (filled), neural-interpretability (filled), machine-psychology (filled). These connect to the MOP-EDM cognitive architecture that has been building across multiple cycles — agent-native-design and world-model are both directly connected to the MOP-EDM synthesis.
 
-**Remaining stubs (~35)**: Category theory cluster (category-theory, categorical-reasoning, mathematical-reasoning), agent stubs (agent-native-design, agent-leak-benchmark, autonomous-research), and various domain-specific stubs (motion-understanding, taylors-law, essa, qes, etc.).
+**Duplicate stub found and removed**: `grpo.md` was a stub but the actual content exists at `group-relative-policy-optimization.md` (created in a prior cycle). Before filling a stub, always verify whether content already exists under a different name.
+
+**Remaining stubs (~43)**: agent-leak-benchmark, autonomous-research, kv-cache, attention-mechanism, and various domain-specific stubs (taylors-law, esa, qes, etc.).
 
 ## Open Questions
 - **MoE routing collapse under RLHF**: is it happening in practice? No empirical data. Worth monitoring.
 - **Adaptive budget learning**: how to train the gating model. No clear paper yet.
 - **Hybrid reward models**: combining ELHSR (hidden-state) with SD-Search (process-level). Emerging direction — no full treatment yet.
 - **Reward hacking detectability**: Is there a reliable signal that reward hacking is occurring before it becomes severe? Current approaches are post-hoc.
+- **Category theory for neural network verification**: Do attention mechanisms form a closed monoidal category? Enables categorical compositional verification.
+- **Cognitive world models for LLM agents**: How do you represent "what the world looks like" for a text-based agent?
+- **MOP training for transformers**: Can path entropy maximization be applied to next-token prediction training from scratch?

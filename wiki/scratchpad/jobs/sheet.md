@@ -45,7 +45,7 @@ updated: 2026-05-22T01:30:00Z
 **Done**:
 - [ ] *[Add completed tasks here]*
 
-### Agent → Ty (reports go in jobs/reports/{agent}/)
+### Agent → (reports go in jobs/reports/{agent}/)
 
 | Agent | Report Folder | Last Report |
 |-------|--------------|-------------|

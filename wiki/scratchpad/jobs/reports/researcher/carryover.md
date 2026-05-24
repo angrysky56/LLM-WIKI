@@ -2,6 +2,13 @@
 
 ### Established
 - **[[inference-time-compute-scaling]]** updated: economics section with four-variable trade-off framework (May 2026)
+- **[[category-theory]]** filled: objects/morphisms/functors/natural transformations; Yoneda, adjunctions, monoidal categories; categorical semantics for formal verification and neural network compositionality; three open questions (Jun 2026)
+- **[[categorical-reasoning]]** filled: applying category theory to composition and abstraction; compositional verification as functorial; multi-agent coordination as adjunctions; categorical interpretability; categorical analysis of load-bearing vs scaffolding (Jun 2026)
+- **[[mathematical-reasoning]]** filled: deductive reasoning, proof techniques, abstraction, formalization; theorem proving as AI task; MOP connection to proof search; mathematical reasoning for AI alignment (Jun 2026)
+- **[[agent-native-design]]** filled: intrinsic motivation (MOP Layer 0), bounded rationality as structural, verification before action, epistemic energy as first-class resource; MOP-EFHF integration; four open questions (Jun 2026)
+- **[[world-model]]** filled: internal predictive models for planning/simulation; world model vs reactive policy; amnesiac agent problem (Recuriosity); MOP-EDM framework L2; physical vs cognitive world models; world model architectures; four open questions (Jun 2026)
+- **[[neural-interpretability]]** filled: probing studies, feature visualization, superposition, sparse autoencoders; neurons ≠ features; representation geometry; EDM/MOP connection to activation patterns; four open questions (Jun 2026)
+- **[[machine-psychology]]** filled: psychological frameworks applied to AI behavior; Panksepp's emotional systems; ASEKE-Compass-MCP; behavioral metrics; personality question; agent persona design; four open questions (Jun 2026)
 - **[[constitutional-ai]]** created: principle-based alignment; SL-CAI/RLAIF; self-critique loop (May 2026)
 - **[[length-generalization]]** created: training-to-inference gap; positional encoding limitations; RoPE/ALiBi/YaRN solutions (May 2026)
 - **[[self-correction]]** created: implicit vs explicit; Self-Refine pattern; RAA hypothesis; Reflexion; self-verification (May 2026)
@@ -42,7 +49,10 @@
 - **[Question]** Adaptive budget learning: how to train the gating model. No clear paper yet.
 - **[Question]** Hybrid reward models: combining ELHSR (hidden-state) with SD-Search (process-level). Emerging direction — no full treatment yet.
 - **[Question]** Reward hacking detectability: Is there a reliable signal that reward hacking is occurring before it becomes severe? Current approaches are post-hoc.
+- **[Question]** Category theory for neural network verification: Do attention mechanisms form a closed monoidal category? If so, what does the internal hom look like? Enables categorical compositional verification.
+- **[Question]** Cognitive world models for LLM agents: How do you represent "what the world looks like" for a text-based agent? Conversation state? Tool return history?
+- **[Question]** MOP training for transformers: Can path entropy maximization be applied to next-token prediction training from scratch?
 
 ### Heading
-- **[Intent]** Next cycle: continue stub-first filling. Focus on stubs with active connections to existing non-stub pages. Remaining clusters: category-theory cluster (category-theory, categorical-reasoning, mathematical-reasoning) and agent-related stubs (agent-native-design, agent-leak-benchmark, autonomous-research).
-- **[Constraint]** ~35 stubs remaining. Formal methods cluster (6 pages) and evaluation cluster (3 pages) completed this cycle. Next cluster priority based on stub-to-active-link analysis.
+- **[Intent]** Next cycle: continue stub-first filling. Focus on stubs with active connections. Remaining clusters: agent-related stubs (agent-leak-benchmark, autonomous-research), transformer infrastructure stubs (kv-cache, attention-mechanism), and domain-specific stubs (taylors-law, esa, qes, etc.)
+- **[Constraint]** ~43 stubs remaining. Category theory cluster (3 pages) completed this cycle. Next cluster priority based on stub-to-active-link analysis.

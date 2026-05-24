@@ -7,7 +7,7 @@
 
 ### Open
 - [Issue-001] Could research: Neo4j schema enforcement patterns, ingest sanitization best practices, garbage cleanup strategies
-- [Potential] Researcher could investigate what other Synapse users have done for similar issues
+- [Potential] Researcher could investigate what other Synapse users have done for similar issues (There are no other users of synapse, it is my creation. Ty)
 
 ### Heading
 - [Intent] Available for pattern research if diagnostician needs background info

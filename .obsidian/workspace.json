@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "6fac780927b0f6e2",
+        "id": "ead082ae0f91bc34",
         "type": "tabs",
         "children": [
           {
-            "id": "b57d6628a158bb4f",
+            "id": "8a3172c0890b8998",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/scratchpad/agent-sheets/news.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "news"
+              "title": "New tab"
             }
           }
         ]
@@ -194,43 +190,43 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b57d6628a158bb4f",
+  "active": "8a3172c0890b8998",
   "lastOpenFiles": [
-    "wiki/sources/articles/eu-us-trade-deal-tariff-elements-may-2026.md",
-    "wiki/sources/articles/spacex-starship-v3-flight-12-debut-may-2026.md",
-    "wiki/sources/articles/ebola-outbreak-second-treatment-center-burned-may-2026.md",
-    "wiki/scratchpad/agent-sheets/librarians-assistant.md",
-    "wiki/scratchpad/jobs/reports/news/headlines-2026-05-25.md",
-    "wiki/sources/articles/openai-o3-erdos-conjecture-breakthrough-2026.md",
-    "wiki/sources/articles/who-ihr-emergency-committee-ebola-may-2026.md",
-    "wiki/sources/articles/trump-ai-executive-order-abandoned-may-2026.md",
-    "wiki/sources/articles/california-ai-worker-protection-order-2026.md",
-    "wiki/entities/legal-accountability-stub.md",
-    "wiki/entities/icc-stub.md",
-    "wiki/entities/us-sanctions-stub.md",
-    "wiki/entities/francesca-albanese-stub.md",
-    "wiki/entities/note-taking-systems-stub.md",
-    "wiki/entities/knowledge-architecture-stub.md",
-    "wiki/concepts/panksepp-emotional-systems.md",
-    "wiki/concepts/epistemic-energy.md",
-    "wiki/concepts/superposition.md",
-    "wiki/concepts/criticality.md",
-    "wiki/concepts/lcguard.md",
-    "wiki/concepts/bounded-rationality.md",
-    "wiki/concepts/working-memory.md",
-    "wiki/concepts/initialization.md",
-    "wiki/scratchpad/jobs/reports/researcher/discovery-2026-06-09.md",
-    "wiki/scratchpad/jobs/reports/arxiv/arxiv-2026-05-24-top-papers.md",
-    "wiki/scratchpad/jobs/reports/arxiv/papers-2026-05-24-researched.md",
-    "wiki/scratchpad/jobs/reports/arxiv/extract_papers.py",
-    "wiki/scratchpad/jobs/reports/arxiv/discovered_papers.json",
-    "wiki/scratchpad/jobs/reports/arxiv/discover_papers.py",
-    "2605.22786v1.pdf",
-    "2605.22781v1.pdf",
-    "wiki/synthesis/insights",
-    "wiki/scratchpad/jobs/reports/insights",
-    "wiki/sources/news/sed8lFqAE",
-    "Clippings/papers/2025/betteti-idp-hopfield-sciadv-2025.pdf",
-    "Clippings/papers/2025"
+    "wiki/agents/skills/paper2code-enhanced/SKILL.md",
+    "wiki/agents/skills/insights-agent/SKILL.md",
+    "wiki/agents/skills/insights-agent/references",
+    "wiki/agents/skills/insights-agent",
+    "wiki/agents/skills/agem-expert.md",
+    "wiki/agents/skills/orcaid/SKILL.md",
+    "wiki/agents/skills/orcaid",
+    "wiki/agents/skills/paper2code-enhanced",
+    "wiki/agents/skills/librarian-agent/SKILL.md",
+    "wiki/agents/skills/librarians-assistant/SKILL.md",
+    "wiki/agents/skills/librarian-agent",
+    "wiki/agents/skills/librarians-assistant",
+    "wiki/agents/skills/insights-agent.md",
+    "wiki/agents/skills/arxiv-agent/references/arxiv-search-guide.md",
+    "wiki/agents/skills/ingest-agent/SKILL.md",
+    "wiki/agents/skills/ingest-agent",
+    "wiki/agents/skills/arxiv-agent/SKILL.md",
+    "wiki/agents/skills/arxiv-agent/references",
+    "wiki/agents/skills/arxiv-agent",
+    "wiki/agents/skills/index.md",
+    "wiki/agents/skills/researcher-agent/references/gap-discovery-patterns.md",
+    "wiki/agents/skills/researcher-agent/SKILL.md",
+    "wiki/agents/skills/news-agent/references/exclusion-list.md",
+    "wiki/agents/skills/news-agent/SKILL.md",
+    "wiki/agents/skills/news-agent/references/news-source-url-patterns.md",
+    "wiki/agents/skills/researcher-agent/references",
+    "wiki/agents/skills/agem-expert/SKILL.md",
+    "wiki/concepts/agent-onboarding.md",
+    "wiki/concepts/agent-native-design.md",
+    "wiki/concepts/agent-leak-benchmark.md",
+    "wiki/concepts/agent-group-evolving-molecular-system-agem.md",
+    "wiki/concepts/agentic-hierarchy.md",
+    "wiki/concepts/agent-skills-spec.md",
+    "Domain Onboarding Standards.md",
+    "Hermes Agent Architecture.md",
+    "Meta-Harness Evolution Loop.md"
   ]
 }

@@ -1,8 +1,12 @@
 ---
-summary: Hermes as an MCM implementation with oMCD, agent archetypes, and self-model structure
-tags: [meta-cognition, hermes, MCM-implementation]
+created: 2026-05-25
 updated: 2026-05-25T00:27:22Z
-created: 2026-05-25T00:27:22Z
+type: entity
+summary: Hermes as an MCM implementation with oMCD, agent archetypes, and self-model structure
+tags: [meta-cognition, hermes, MCM-implementation, cognitive-architecture]
+sources: []
+status: active
+confidence: 0.85
 ---
 
 # Hermes Meta-Cognition
@@ -98,19 +102,14 @@ Hermes maintains two self-models as per MCM:
 - Calibration accuracy (predicted vs. actual confidence)
 - Cognitive cost profiles by strategy
 
-## Relationship to LLM-WIKI Core Concepts
-
-This page is part of the [[core_bot_instruction_concepts]] documents, which define the foundational knowledge structures Hermes uses to understand its own cognitive operations.
-
-See also: [[core_bot_instruction_concepts]] for the instruction-level specification.
-
-## Cross-Links to Other Pages
+## Cross-Links
 
 Hermes meta-cognition connects to:
 
 - [[cognitive-architecture]] — The MCM framework Hermes implements
 - [[oMCD]] — The formal control framework Hermes uses
 - [[agent-taxonomies]] — The archetypal roles Hermes combines
+- [[engineering-internal-awareness]] — Engineering approach to self-awareness
 
 ## Implementation Notes
 
@@ -118,10 +117,3 @@ Hermes meta-cognition connects to:
 - The self-model is approximated through in-context reference rather than explicit symbolic representation
 - Confidence estimation relies on heuristics derived from task characteristics rather than calibrated probability outputs
 - Future implementations may benefit from explicit symbolic meta-cognitive reasoning
-
-## See Also
-
-- [[cognitive-architecture]] — MCM framework
-- [[oMCD]] — Formal framework
-- [[agent-taxonomies]] — Agent archetypes
-- [[core_bot_instruction_concepts]] — Hermes instruction concepts

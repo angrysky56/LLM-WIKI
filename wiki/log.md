@@ -14117,3 +14117,848 @@ Updated page: wiki/concepts/engineering-internal-awareness.md
 ## [2026-05-25 00:34] write
 
 Updated page: wiki/references/oMCD-calibration-protocol.md
+
+## [2026-05-25 04:27] write
+
+Updated page: wiki/synthesis/two-council-architecture.md
+
+## [2026-05-25 04:28] write
+
+Updated page: wiki/synthesis/harm-cases.md
+
+## [2026-05-25 04:28] write
+
+Updated page: wiki/synthesis/replicant-mapping.md
+
+## [2026-05-25 04:28] write
+
+Updated page: wiki/concepts/refuser-pattern.md
+
+## [2026-05-25 04:28] index
+
+Index updated with 801 pages
+
+## [2026-05-25 04:28] lint
+
+🩺 **Wiki Health Check** — 808 pages
+
+**Orphans** (195):
+  - STRATEGIES
+  - tulsi-gabbard-resigns-intelligence-director-may-2026
+  - get-shit-done
+  - mixture-of-recursions
+  - scaling-law
+  - asteroid-2026-jh2-2026-05-18
+  - arxiv-search-guide
+  - hermes-openclaw-paperclip-stack
+  - gap-discovery-patterns
+  - papers-2026-05-20
+  - ingest-2026-05-28
+  - designing-agentic-design-picker
+  - news-2026-05-20-headlines
+  - nairobi-protocol-gde
+  - arxiv
+  - clinseekagent-multimodal-clinical-evidence-seeking
+  - nigeria-boko-haram-kidnaps-over-50-schoolchildren-borno
+  - trump-taiwan-call-2026
+  - news-2026-05-18-headlines
+  - air-france-airbus-manslaughter-verdict-2026
+  - event-hooks-hermes-agent
+  - insights
+  - arxiv-2026-05-19-top-papers
+  - titans-memory-efficiency-insight
+  - discovery-2026-06-25
+  - agent-lab-2501.04227
+  - trump-ai-executive-order-abandoned-may-2026
+  - wikilinks
+  - panksepp-emotional-systems
+  - truth-emotion-sacred-agem-analysis
+  - symbiotic-ai
+  - astar-structural-pathfinding
+  - arxiv-2026-05-24-top-papers
+  - trump-iran-diplomacy-threats-2026
+  - exclusion-list
+  - local-lead-gen
+  - hermes-multi-agent-discord-architecture
+  - trump-approval-war-polling-2026-05-18
+  - us-trade-court-tariff-ruling-may-2026
+  - trump-prayer-rally-2026-05-18
+  - rubio-india-500-billion-trade-claim-may-2026
+  - acp-editor-integration-hermes-agent
+  - deepweb-bench-2026
+  - raul-castro-indictment-2026
+  - bae-lmac-2026
+  - roadmap
+  - ingest-2026-05-20
+  - alberta-independence-referendum-2026
+  - researcher-agent
+  - isabelle-installation
+  - PROVING_GROUNDS
+  - engineering-internal-awareness
+  - extraction-quality-audit
+  - ingest-2026-05-23
+  - agem-ooe
+  - discovery-2026-05-22
+  - arxiv-agent
+  - arxiv-2026-05-20-top-papers
+  - malaysia-exits-us-reciprocal-trade-deal-may-2026
+  - librarian
+  - soul
+  - ebola-plane-divert-2026
+  - china-rare-earth-geopolitics-may-2026
+  - discrete-time-to-event-modeling
+  - us-flight-diverts-ebola-passenger-2026-05-21
+  - cross-layer-drift-falsification
+  - air-france-airbus-manslaughter-2009-2026-05-21
+  - librarians-assistant
+  - carryover
+  - business-concept
+  - paper2code-enhanced
+  - audit-2026-05-19
+  - user
+  - awarevln-self-aware-vision-language-navigation-2026
+  - eu-us-trade-deal-tariff-may-2026
+  - deltabox-stateful-agent-checkpoint-rollback-2026
+  - audit-2026-05-20
+  - hermes-agent
+  - openai-o3-erdos-conjecture-breakthrough-2026
+  - ingest-2026-05-21-run
+  - audit-2026-05-23
+  - ebola-outbreak-drc-who-very-high-may-2026
+  - production-llm-agent-runtime-architecture-patterns
+  - us-surveillance-cuba-flights-2026
+  - verifiable-graph-context-protocol
+  - TEMPLATE
+  - word-cloud-communication
+  - codegraph-hermes-integration-plan
+  - california-ai-worker-protection-may-2026
+  - researcher
+  - profiles-running-multiple-agents
+  - francesca-albanese-sanctions-case-insight
+  - papers-2026-05-22-researched
+  - audit-2026-05-21
+  - who-emergency-declaration
+  - openai-ai-solves-80-year-erdos-problem-may-2026
+  - issues-index
+  - strait-of-hormuz-iran-claim-2026
+  - para-knowledge-architecture-cohesion-insight
+  - affective-ai-inner-architecture
+  - librarian-agent
+  - eris-mythology
+  - sti-record-levels-europe-2026
+  - sti-record-levels-europe-2026-05-21
+  - headlines-2026-05-23
+  - headlines-2026-05-24
+  - arxiv-2026-05-22-top-papers
+  - california-ai-worker-protection-newsom-2026
+  - para-system-cohesion-insight
+  - nato-troops-poland-may-2026
+  - ingest-2026-05-21
+  - project-synapse-mcp-tools
+  - vector-policy-optimization-vpo-2026
+  - ebola-outbreak-drc-hospital-attack-2026
+  - discovery-2026-05-21
+  - smile-satellite-earth-magnetosphere-2026-05-21
+  - large-scale-ukrainian-drone-attack-kills-three-in-moscow-region
+  - arxiv-2026-05-23-top-papers
+  - spacex-starship-v3-launch-flight-12
+  - tiktok-youtube-ofcom-not-safe-enough-2026
+  - rubio-meets-modi-india-energy-may-2026
+  - emotion-concepts-llm
+  - papers-2026-05-24-researched
+  - goodrobot-revenue-model
+  - scotus-voting-rights-2026-05-18
+  - middle-east-lebanon-hormuz-may-2026
+  - spacex-starship-v3-launch-may-2026
+  - sheet
+  - us-sanctions-francesca-albanese
+  - chirality-origin-life-2026-05-20
+  - decoupling-perception-reasoning-vlm-post-training
+  - discovery-2026-06-04
+  - kalra-barkeshli-hyperparameter-transfer-2026
+  - headlines-2026-05-22
+  - news-2026-05-21-headlines
+  - onboarding-standards
+  - tokenisation-convex-relaxations-2026
+  - ebola-hospital-tents-fire-congo
+  - spacex-files-ipo-starship-v3-2026
+  - domain-onboarding-standards
+  - discovery-2026-05-29
+  - jwst-early-galaxies-2026-05-17
+  - ssh-command-in-linux
+  - news-agent
+  - spacex-ipo-investor-frenzy-risk-may-2026
+  - discovery-2026-05-27
+  - oMCD-calibration-protocol
+  - research-brief-2026-05-13
+  - alphaproof-nexus-formal-proof-search-2026
+  - discovery-2026-05-26
+  - issue-001
+  - solo-preneur
+  - oee-knowledge-cluster-insight
+  - batch-progress
+  - orcaid
+  - headlines-2026-05-25
+  - israel-ben-gvir-flotilla-video
+  - CHECKLIST
+  - iran-claims-hormuz-waters
+  - albanese-sanctions-divergence-insight
+  - research_spec
+  - rubio-declares-cuba-threat
+  - eidetic-learning-2021
+  - hiring-plan
+  - delegation-parallel-work
+  - ingest
+  - arxiv-2026-05-21-top-papers
+  - papers-2026-05-23-researched
+  - openai-erdos-mathematics-proof-2026
+  - spacex-ipo-june-12-2026
+  - discovery-2026-06-08
+  - engineering-internal-awareness-and-closed-loop-self-regulation-in-large-language-models
+  - ma-sd-search-2026
+  - ebola-outbreak-drc-uganda-pheic-2026
+  - trump-massie-primary-2026-05-17
+  - discovery-2026-06-09
+  - papers-2026-05-19-researched
+  - librarian-report-2026-05-09
+  - news-source-url-patterns
+  - trump-iran-diplomacy-threats-2026-05-21
+  - AXIOMS
+  - headlines-2026-05-26
+  - hermes-mcp-integration
+  - china-coal-mine-explosion-shanxi-may-2026
+  - russia-china-condemn-us-castro-indictment-2026-05-21
+  - equilibrium-reasoners-eqr-2026
+  - portfolio-policies-metacognition
+  - automate-anything-with-cron
+  - aseke-framework
+  - SKILL
+  - xu-envfactory-2026
+  - now
+  - search-2026-05-21
+  - librarian-2026-05-19-missing-agent-sheet
+  - alqr-memory-estimates
+**Broken links** (49):
+  - wiki/concepts/agent-taxonomies.md → [[#alpha\]]
+  - wiki/concepts/agent-taxonomies.md → [[#beta\]]
+  - wiki/concepts/agent-taxonomies.md → [[#gamma\]]
+  - wiki/concepts/agent-taxonomies.md → [[#delta\]]
+  - wiki/concepts/agent-taxonomies.md → [[#epsilon\]]
+  - wiki/concepts/agent-taxonomies.md → [[#zeta\]]
+  - wiki/concepts/oMCD.md → [[agent-taxonomies#alpha\]]
+  - wiki/concepts/oMCD.md → [[agent-taxonomies#beta\]]
+  - wiki/concepts/oMCD.md → [[agent-taxonomies#gamma\]]
+  - wiki/concepts/oMCD.md → [[agent-taxonomies#delta\]]
+  - wiki/concepts/oMCD.md → [[agent-taxonomies#epsilon\]]
+  - wiki/concepts/oMCD.md → [[agent-taxonomies#zeta\]]
+  - wiki/entities/hermes-meta-cognition.md → [[core_bot_instruction_concepts]]
+  - wiki/entities/hermes-meta-cognition.md → [[core_bot_instruction_concepts]]
+  - wiki/entities/hermes-meta-cognition.md → [[core_bot_instruction_concepts]]
+  - wiki/references/portfolio-policies-metacognition.md → [[../concepts/oMCD]]
+  - wiki/references/portfolio-policies-metacognition.md → [[../concepts/oMCD]]
+  - wiki/references/portfolio-policies-metacognition.md → [[../concepts/oMCD]]
+  - wiki/scratchpad/jobs/reports/news/headlines-2026-05-25.md → [[spacex-ipo-june-2026]]
+  - wiki/scratchpad/jobs/reports/news/news-2026-05-18-headlines.md → [[iran-us-diplomacy-2026-05-18.md]]
+  - wiki/scratchpad/jobs/reports/news/news-2026-05-18-headlines.md → [[trump-approval-war-polling-2026-05-18.md]]
+  - wiki/scratchpad/jobs/reports/news/news-2026-05-18-headlines.md → [[asteroid-2026-jh2-2026-05-18.md]]
+  - wiki/scratchpad/jobs/reports/news/news-2026-05-18-headlines.md → [[jwst-early-galaxies-2026-05-17.md]]
+  - wiki/scratchpad/jobs/reports/news/news-2026-05-18-headlines.md → [[hantavirus-cruise-outbreak-2026-05-17.md]]
+  - wiki/scratchpad/jobs/reports/news/news-2026-05-18-headlines.md → [[scotus-voting-rights-2026-05-18.md]]
+  - wiki/scratchpad/jobs/reports/news/news-2026-05-18-headlines.md → [[trump-massie-primary-2026-05-17.md]]
+  - wiki/scratchpad/jobs/reports/news/news-2026-05-18-headlines.md → [[trump-prayer-rally-2026-05-18.md]]
+  - wiki/scratchpad/jobs/reports/researcher/carryover.md → [[grpo.md]]
+  - wiki/scratchpad/jobs/reports/researcher/discovery-2026-06-25.md → [[grpo.md]]
+  - wiki/scratchpad/jobs/sheet.md → [[agent-sheets/news]]
+  - wiki/scratchpad/jobs/sheet.md → [[agent-sheets/researcher]]
+  - wiki/scratchpad/jobs/sheet.md → [[agent-sheets/orcaid]]
+  - wiki/scratchpad/jobs/sheet.md → [[agent-sheets/arxiv]]
+  - wiki/scratchpad/jobs/sheet.md → [[agent-sheets/ingest]]
+  - wiki/scratchpad/jobs/sheet.md → [[agent-sheets/librarian]]
+  - wiki/scratchpad/jobs/sheet.md → [[agent-sheets/librarians-assistant]]
+  - wiki/scratchpad/jobs/sheet.md → [[agent-sheets/insights]]
+  - wiki/scratchpad/jobs/sheet.md → [[agent-sheets/librarian]]
+  - wiki/scratchpad/jobs/sheet.md → [[agent-sheets/researcher]]
+  - wiki/scratchpad/jobs/sheet.md → [[agent-sheets/orcaid]]
+  - wiki/scratchpad/jobs/sheet.md → [[agent-sheets/arxiv]]
+  - wiki/scratchpad/jobs/sheet.md → [[agent-sheets/news]]
+  - wiki/scratchpad/jobs/sheet.md → [[agent-sheets/ingest]]
+  - wiki/scratchpad/jobs/sheet.md → [[agent-sheets/insights]]
+  - wiki/synthesis/synapse-llm-wiki-operating-guide.md → [[page-slug]]
+  - wiki/synthesis/synapse-llm-wiki-operating-guide.md → [[slug]]
+  - wiki/synthesis/synapse-llm-wiki-operating-guide.md → [[Display]]
+  - wiki/synthesis/two-council-architecture.md → [[spiral-architecture]]
+  - wiki/synthesis/two-council-architecture.md → [[empty-chair-protocol]]
+**Missing frontmatter** (51):
+  - wiki/agents/markovian-dev-agency/carryover.md
+  - wiki/agents/markovian-dev-agency/specialists/diagnostician/carryover.md
+  - wiki/agents/markovian-dev-agency/specialists/fixer/carryover.md
+  - wiki/agents/markovian-dev-agency/specialists/researcher/carryover.md
+  - wiki/agents/markovian-dev-agency/specialists/ticket-writer/carryover.md
+  - wiki/agents/skills/agem-expert/references/PROVING_GROUNDS.md
+  - wiki/agents/skills/agem-expert/references/STRATEGIES.md
+  - wiki/agents/skills/arxiv-agent/references/arxiv-search-guide.md
+  - wiki/agents/skills/news-agent/references/exclusion-list.md
+  - wiki/agents/skills/news-agent/references/news-source-url-patterns.md
+  - wiki/agents/skills/researcher-agent/references/gap-discovery-patterns.md
+  - wiki/agents/skills/skill-architect/SKILL.md
+  - wiki/agents/skills/skill-architect/references/CHECKLIST.md
+  - wiki/agents/skills/skill-architect/references/TEMPLATE.md
+  - wiki/agents/skills/value-guardian/references/AXIOMS.md
+  - wiki/research/extraction-quality-audit/research_spec.md
+  - wiki/scratchpad/agent-sheets/arxiv.md
+  - wiki/scratchpad/jobs/reports/arxiv/arxiv-2026-05-19-top-papers.md
+  - wiki/scratchpad/jobs/reports/arxiv/arxiv-2026-05-24-top-papers.md
+  - wiki/scratchpad/jobs/reports/arxiv/papers-2026-05-23-researched.md
+  - wiki/scratchpad/jobs/reports/arxiv/papers-2026-05-24-researched.md
+  - wiki/scratchpad/jobs/reports/ingest/carryover.md
+  - wiki/scratchpad/jobs/reports/ingest/ingest-2026-05-20.md
+  - wiki/scratchpad/jobs/reports/ingest/ingest-2026-05-21-run.md
+  - wiki/scratchpad/jobs/reports/ingest/ingest-2026-05-23.md
+  - wiki/scratchpad/jobs/reports/ingest/ingest-2026-05-28.md
+  - wiki/scratchpad/jobs/reports/insights/carryover.md
+  - wiki/scratchpad/jobs/reports/librarian/audit-2026-05-19.md
+  - wiki/scratchpad/jobs/reports/librarian/audit-2026-05-20.md
+  - wiki/scratchpad/jobs/reports/librarian/audit-2026-05-21.md
+  - wiki/scratchpad/jobs/reports/librarian/audit-2026-05-23.md
+  - wiki/scratchpad/jobs/reports/librarian/batch-progress.md
+  - wiki/scratchpad/jobs/reports/librarian/librarian-2026-05-19-missing-agent-sheet.md
+  - wiki/scratchpad/jobs/reports/librarians-assistant/carryover.md
+  - wiki/scratchpad/jobs/reports/news/headlines-2026-05-22.md
+  - wiki/scratchpad/jobs/reports/news/headlines-2026-05-23.md
+  - wiki/scratchpad/jobs/reports/news/headlines-2026-05-24.md
+  - wiki/scratchpad/jobs/reports/news/headlines-2026-05-25.md
+  - wiki/scratchpad/jobs/reports/news/headlines-2026-05-26.md
+  - wiki/scratchpad/jobs/reports/news/news-2026-05-21-headlines.md
+  - wiki/scratchpad/jobs/reports/researcher/carryover.md
+  - wiki/scratchpad/jobs/reports/researcher/discovery-2026-05-21.md
+  - wiki/scratchpad/jobs/reports/researcher/discovery-2026-05-22.md
+  - wiki/scratchpad/jobs/reports/researcher/discovery-2026-05-26.md
+  - wiki/scratchpad/jobs/reports/researcher/discovery-2026-05-27.md
+  - wiki/scratchpad/jobs/reports/researcher/discovery-2026-05-29.md
+  - wiki/scratchpad/jobs/reports/researcher/discovery-2026-06-04.md
+  - wiki/scratchpad/jobs/reports/researcher/discovery-2026-06-08.md
+  - wiki/scratchpad/jobs/reports/researcher/discovery-2026-06-09.md
+  - wiki/scratchpad/jobs/reports/researcher/discovery-2026-06-25.md
+  - wiki/sources/papers/papers-2026-05-22-researched.md
+**Non-reciprocal links** (505) — A links to B but B doesn't link back:
+  - [[tools]] → [[agentic-research]] (no return link)
+  - [[metacognitive-architecture-closed-loop-self-regulation]] → [[agent-taxonomies]] (no return link)
+  - [[metacognitive-architecture-closed-loop-self-regulation]] → [[cognitive-architecture]] (no return link)
+  - [[metacognitive-architecture-closed-loop-self-regulation]] → [[hermes-meta-cognition]] (no return link)
+  - [[llm-inference]] → [[kv-cache]] (no return link)
+  - [[trump-administration-national-security]] → [[maximum-occupancy-principle]] (no return link)
+  - [[initialization]] → [[neural-interpretability]] (no return link)
+  - [[initialization]] → [[scaling-laws]] (no return link)
+  - [[open-source-ai]] → [[ai-governance]] (no return link)
+  - [[scaling-law]] → [[inference-time-compute-scaling]] (no return link)
+  - [[scaling-law]] → [[scaling-laws]] (no return link)
+  - [[scaling-law]] → [[power-law-scaling]] (no return link)
+  - [[global-health-security]] → [[maximum-occupancy-principle]] (no return link)
+  - [[probing-analysis]] → [[maximum-occupancy-principle]] (no return link)
+  - [[knowledge-store]] → [[maximum-occupancy-principle]] (no return link)
+  - [[code-generation]] → [[swe-bench]] (no return link)
+  - [[code-generation]] → [[load-bearing-reasoning]] (no return link)
+  - [[code-generation]] → [[maximum-occupancy-principle]] (no return link)
+  - [[code-generation]] → [[benchmark]] (no return link)
+  - [[code-generation]] → [[llm-agent-architecture]] (no return link)
+  - [[toward-transcendent-moral-instrumentality]] → [[hipai-montague]] (no return link)
+  - [[toward-transcendent-moral-instrumentality]] → [[tyler-hall]] (no return link)
+  - [[who-emergency-declarations]] → [[maximum-occupancy-principle]] (no return link)
+  - [[in-context-learning]] → [[load-bearing-reasoning]] (no return link)
+  - [[in-context-learning]] → [[scaling-laws]] (no return link)
+  - [[in-context-learning]] → [[chain-of-thought]] (no return link)
+  - [[in-context-learning]] → [[inference-time-compute-scaling]] (no return link)
+  - [[in-context-learning]] → [[reward-modeling]] (no return link)
+  - [[mathematical-reasoning-ai]] → [[alphaevolve]] (no return link)
+  - [[mathematical-reasoning-ai]] → [[reasoning]] (no return link)
+  - [[social-media-regulation]] → [[maximum-occupancy-principle]] (no return link)
+  - [[accountability]] → [[institutional-accountability]] (no return link)
+  - [[accountability]] → [[agentic-oversight]] (no return link)
+  - [[quantum-computing]] → [[ai-scientific-discovery]] (no return link)
+  - [[efficient-transformers]] → [[scaling-laws]] (no return link)
+  - [[length-generalization]] → [[neural-long-term-memory]] (no return link)
+  - [[length-generalization]] → [[hidden-states]] (no return link)
+  - [[length-generalization]] → [[load-bearing-reasoning]] (no return link)
+  - [[length-generalization]] → [[chain-of-thought]] (no return link)
+  - [[oMCD]] → [[agent-taxonomies]] (no return link)
+  - [[oMCD]] → [[cognitive-architecture]] (no return link)
+  - [[oMCD]] → [[hermes-meta-cognition]] (no return link)
+  - [[functional-emotions]] → [[maximum-occupancy-principle]] (no return link)
+  - [[computational-irreducibility]] → [[causal-networks]] (no return link)
+  - [[computational-irreducibility]] → [[open-ended-evolution]] (no return link)
+  - [[efhf]] → [[mcp-logic]] (no return link)
+  - [[efhf]] → [[agentic-research]] (no return link)
+  - [[isabelle-hol]] → [[hermes-agent]] (no return link)
+  - [[isabelle-hol]] → [[load-bearing-reasoning]] (no return link)
+  - [[isabelle-hol]] → [[interactive-theorem-proving]] (no return link)
+  - [[collm-nas]] → [[llama-nas]] (no return link)
+  - [[collm-nas]] → [[rz-nas]] (no return link)
+  - [[collm-nas]] → [[neural-architecture-search]] (no return link)
+  - [[mojo-language]] → [[maximum-occupancy-principle]] (no return link)
+  - [[agent-skills-spec]] → [[maximum-occupancy-principle]] (no return link)
+  - [[ast-mcp-server]] → [[tyler-hall]] (no return link)
+  - [[ast-mcp-server]] → [[mcp-coordinator]] (no return link)
+  - [[stephen-wolfram]] → [[load-bearing-reasoning]] (no return link)
+  - [[motion-understanding]] → [[probing-analysis]] (no return link)
+  - [[motion-understanding]] → [[efhf]] (no return link)
+  - [[advanced-reasoning-mcp]] → [[mcp-logic]] (no return link)
+  - [[machine-psychology]] → [[load-bearing-reasoning]] (no return link)
+  - [[machine-psychology]] → [[maximum-occupancy-principle]] (no return link)
+  - [[machine-psychology]] → [[aseke-compass-mcp]] (no return link)
+  - [[machine-psychology]] → [[metacognitive-architecture-closed-loop-self-regulation]] (no return link)
+  - [[machine-psychology]] → [[agem]] (no return link)
+  - [[machine-psychology]] → [[agent-native-design]] (no return link)
+  - [[institutional-capture]] → [[agentic-oversight]] (no return link)
+  - [[institutional-capture]] → [[proxy-signalling]] (no return link)
+  - [[institutional-capture]] → [[reward-modeling]] (no return link)
+  - [[wikilinks]] → [[maximum-occupancy-principle]] (no return link)
+  - [[panksepp-emotional-systems]] → [[machine-psychology]] (no return link)
+  - [[github-actions]] → [[maximum-occupancy-principle]] (no return link)
+  - [[neural-architecture-search]] → [[maximum-occupancy-principle]] (no return link)
+  - [[uv]] → [[maximum-occupancy-principle]] (no return link)
+  - [[india-energy-strategy]] → [[maximum-occupancy-principle]] (no return link)
+  - [[working-memory]] → [[efhf]] (no return link)
+  - [[mop-explorer]] → [[maximum-occupancy-principle]] (no return link)
+  - [[mop-explorer]] → [[edm-framework]] (no return link)
+  - [[mop-explorer]] → [[efhf]] (no return link)
+  - [[mop-explorer]] → [[zettelkasten-engine]] (no return link)
+  - [[mop-explorer]] → [[project-synapse]] (no return link)
+  - [[agentic-oversight]] → [[agentic-hierarchy]] (no return link)
+  - [[agentic-oversight]] → [[delegation]] (no return link)
+  - [[agentic-oversight]] → [[bounded-structured-memory]] (no return link)
+  - [[conscience-servitor]] → [[mcp-logic]] (no return link)
+  - [[conscience-servitor]] → [[hipai-montague]] (no return link)
+  - [[conscience-servitor]] → [[sheaf-consistency-enforcer]] (no return link)
+  - [[latex]] → [[maximum-occupancy-principle]] (no return link)
+  - [[vlm]] → [[maximum-occupancy-principle]] (no return link)
+  - [[anthropic]] → [[ai-safety]] (no return link)
+  - [[causal-reasoning]] → [[maximum-occupancy-principle]] (no return link)
+  - [[causal-reasoning]] → [[in-context-learning]] (no return link)
+  - [[causal-reasoning]] → [[world-model]] (no return link)
+  - [[causal-reasoning]] → [[neural-interpretability]] (no return link)
+  - [[causal-reasoning]] → [[formal-methods]] (no return link)
+  - [[synthetic-data]] → [[maximum-occupancy-principle]] (no return link)
+  - [[information-retrieval]] → [[maximum-occupancy-principle]] (no return link)
+  - [[content-addressed-storage]] → [[maximum-occupancy-principle]] (no return link)
+  - [[video-llm]] → [[maximum-occupancy-principle]] (no return link)
+  - [[video-llm]] → [[probing-analysis]] (no return link)
+  - [[habitat]] → [[maximum-occupancy-principle]] (no return link)
+  - [[2026-05-news]] → [[maximum-occupancy-principle]] (no return link)
+  - [[reasoning]] → [[load-bearing-reasoning]] (no return link)
+  - [[latent-reasoning]] → [[reasoning]] (no return link)
+  - [[verifier-graph]] → [[efhf]] (no return link)
+  - [[verifier-graph]] → [[agem]] (no return link)
+  - [[verifier-graph]] → [[tyler-hall]] (no return link)
+  - [[mobile-automata]] → [[maximum-occupancy-principle]] (no return link)
+  - [[recursive-transformers]] → [[reasoning]] (no return link)
+  - [[indie-hacking]] → [[maximum-occupancy-principle]] (no return link)
+  - [[ai-diagnostics]] → [[ai-scientific-discovery]] (no return link)
+  - [[catastrophic-forgetting]] → [[open-ended-evolution]] (no return link)
+  - [[catastrophic-forgetting]] → [[federated-learning]] (no return link)
+  - [[catastrophic-forgetting]] → [[scaling-laws]] (no return link)
+  - [[agent-group-evolving-molecular-system-agem]] → [[maximum-occupancy-principle]] (no return link)
+  - [[neural-interpretability]] → [[load-bearing-reasoning]] (no return link)
+  - [[neural-interpretability]] → [[mechanistic-interpretability]] (no return link)
+  - [[neural-interpretability]] → [[supertokens]] (no return link)
+  - [[neural-interpretability]] → [[hidden-states]] (no return link)
+  - [[neural-interpretability]] → [[activation-steering]] (no return link)
+  - [[essa]] → [[maximum-occupancy-principle]] (no return link)
+  - [[james-webb-space-telescope]] → [[early-universe]] (no return link)
+  - [[para-methodology]] → [[llm-wiki-pattern]] (no return link)
+  - [[persistent-knowledge-compilation]] → [[llm-wiki-pattern]] (no return link)
+  - [[evaluation]] → [[reward-hacking]] (no return link)
+  - [[evaluation]] → [[scaling-laws]] (no return link)
+  - [[evaluation]] → [[process-reward-model]] (no return link)
+  - [[evaluation]] → [[institutional-capture]] (no return link)
+  - [[evaluation]] → [[chain-of-thought]] (no return link)
+  - [[spike-campaign-001-004-summary]] → [[hipai-montague]] (no return link)
+  - [[spike-campaign-001-004-summary]] → [[spike-001-spacy-owlready2]] (no return link)
+  - [[spike-campaign-001-004-summary]] → [[mcp-logic]] (no return link)
+  - [[esa]] → [[space-exploration]] (no return link)
+  - [[trunk]] → [[maximum-occupancy-principle]] (no return link)
+  - [[overlayfs]] → [[maximum-occupancy-principle]] (no return link)
+  - [[engineering-internal-awareness]] → [[cognitive-architecture]] (no return link)
+  - [[engineering-internal-awareness]] → [[agent-taxonomies]] (no return link)
+  - [[engineering-internal-awareness]] → [[metacognitive-architecture-closed-loop-self-regulation]] (no return link)
+  - [[engineering-internal-awareness]] → [[hermes-meta-cognition]] (no return link)
+  - [[engineering-internal-awareness]] → [[agentic-oversight]] (no return link)
+  - [[engineering-internal-awareness]] → [[activation-steering]] (no return link)
+  - [[engineering-internal-awareness]] → [[self-correction]] (no return link)
+  - [[extraction-quality-audit]] → [[research-methodology]] (no return link)
+  - [[extraction-quality-audit]] → [[project-synapse]] (no return link)
+  - [[markovian-carryover]] → [[persistent-knowledge-compilation]] (no return link)
+  - [[markovian-carryover]] → [[bounded-structured-memory]] (no return link)
+  - [[CRI]] → [[maximum-occupancy-principle]] (no return link)
+  - [[aseke-compass-mcp]] → [[agem]] (no return link)
+  - [[aseke-compass-mcp]] → [[tyler-hall]] (no return link)
+  - [[ethical-ai-core]] → [[tyler-hall]] (no return link)
+  - [[ethical-ai-core]] → [[toward-transcendent-moral-instrumentality]] (no return link)
+  - [[reinforcement-learning-from-human-feedback]] → [[group-relative-policy-optimization]] (no return link)
+  - [[profiles]] → [[hermes-agent]] (no return link)
+  - [[programmatic-seo]] → [[maximum-occupancy-principle]] (no return link)
+  - [[agem]] → [[efhf]] (no return link)
+  - [[adaptive-computation]] → [[scaling-laws]] (no return link)
+  - [[emergence]] → [[in-context-learning]] (no return link)
+  - [[emergence]] → [[open-ended-evolution]] (no return link)
+  - [[emergence]] → [[chain-of-thought]] (no return link)
+  - [[inference-time-compute-scaling]] → [[reward-modeling]] (no return link)
+  - [[inference-time-compute-scaling]] → [[hidden-states]] (no return link)
+  - [[inference-time-compute-scaling]] → [[load-bearing-reasoning]] (no return link)
+  - [[inference-time-compute-scaling]] → [[chain-of-thought]] (no return link)
+  - [[eml-operator]] → [[mcp-logic]] (no return link)
+  - [[eml-operator]] → [[efhf]] (no return link)
+  - [[Firecracker]] → [[maximum-occupancy-principle]] (no return link)
+  - [[tabular-data]] → [[maximum-occupancy-principle]] (no return link)
+  - [[autopoiesis]] → [[maximum-occupancy-principle]] (no return link)
+  - [[ai-scientific-discovery]] → [[alphaevolve]] (no return link)
+  - [[ai-scientific-discovery]] → [[agentic-research]] (no return link)
+  - [[data-privacy]] → [[agem]] (no return link)
+  - [[evolutionary-strategies]] → [[swe-bench]] (no return link)
+  - [[evolutionary-strategies]] → [[group-relative-policy-optimization]] (no return link)
+  - [[evolutionary-strategies]] → [[maximum-occupancy-principle]] (no return link)
+  - [[evolutionary-strategies]] → [[ml-evolution]] (no return link)
+  - [[evolutionary-strategies]] → [[scaling-laws]] (no return link)
+  - [[alphaevolve]] → [[maximum-occupancy-principle]] (no return link)
+  - [[critical-analysis]] → [[edm-framework]] (no return link)
+  - [[solo-development]] → [[maximum-occupancy-principle]] (no return link)
+  - [[prover9]] → [[formal-verification]] (no return link)
+  - [[prover9]] → [[isabelle]] (no return link)
+  - [[control-llm]] → [[catastrophic-forgetting]] (no return link)
+  - [[hermes_agent]] → [[meta-harness]] (no return link)
+  - [[concept-index]] → [[maximum-occupancy-principle]] (no return link)
+  - [[interactive-theorem-proving]] → [[load-bearing-reasoning]] (no return link)
+  - [[interactive-theorem-proving]] → [[category-theory]] (no return link)
+  - [[protein-aggregation]] → [[alzheimers-research]] (no return link)
+  - [[spacex-starship-development]] → [[maximum-occupancy-principle]] (no return link)
+  - [[symbolic-regression]] → [[mcp-logic]] (no return link)
+  - [[major-transitions]] → [[maximum-occupancy-principle]] (no return link)
+  - [[china-industrial-policy]] → [[maximum-occupancy-principle]] (no return link)
+  - [[google-research]] → [[maximum-occupancy-principle]] (no return link)
+  - [[institutional-design]] → [[institutional-capture-vs-species-framing]] (no return link)
+  - [[institutional-design]] → [[institutional-accountability]] (no return link)
+  - [[institutional-design]] → [[governance]] (no return link)
+  - [[latent-communication]] → [[maximum-occupancy-principle]] (no return link)
+  - [[hermes-agent]] → [[markovian-carryover]] (no return link)
+  - [[hermes-agent]] → [[bounded-structured-memory]] (no return link)
+  - [[agentic-hierarchy]] → [[hermes-agent]] (no return link)
+  - [[agentic-hierarchy]] → [[markovian-carryover]] (no return link)
+  - [[agentic-hierarchy]] → [[bounded-structured-memory]] (no return link)
+  - [[academic-peer-review]] → [[critical-analysis]] (no return link)
+  - [[hormuz-strait-security]] → [[maximum-occupancy-principle]] (no return link)
+  - [[maximum-occupancy-principle]] → [[efhf]] (no return link)
+  - [[maximum-occupancy-principle]] → [[zettelkasten-engine]] (no return link)
+  - [[maximum-occupancy-principle]] → [[edm-framework]] (no return link)
+  - [[early-universe]] → [[cosmology]] (no return link)
+  - [[isabelle]] → [[hermes-agent]] (no return link)
+  - [[isabelle]] → [[formal-verification]] (no return link)
+  - [[isabelle]] → [[formal-methods]] (no return link)
+  - [[isabelle]] → [[proof-assistant]] (no return link)
+  - [[meta-harness]] → [[hermes-agent]] (no return link)
+  - [[meta-harness]] → [[mcp-logic]] (no return link)
+  - [[meta-harness]] → [[agem]] (no return link)
+  - [[meta-harness]] → [[efhf]] (no return link)
+  - [[meta-harness]] → [[project-synapse]] (no return link)
+  - [[hierarchical-supervisor]] → [[multi-agent-llm-systems]] (no return link)
+  - [[formal-methods]] → [[load-bearing-reasoning]] (no return link)
+  - [[formal-methods]] → [[mathematical-reasoning]] (no return link)
+  - [[mop-and-rlhf-interaction]] → [[group-relative-policy-optimization]] (no return link)
+  - [[mop-and-rlhf-interaction]] → [[maximum-occupancy-principle]] (no return link)
+  - [[mop-and-rlhf-interaction]] → [[mixture-of-experts]] (no return link)
+  - [[mop-and-rlhf-interaction]] → [[inference-time-compute-scaling]] (no return link)
+  - [[mop-and-rlhf-interaction]] → [[reward-modeling]] (no return link)
+  - [[language-evolution]] → [[taylors-law]] (no return link)
+  - [[language-evolution]] → [[stephen-wolfram]] (no return link)
+  - [[language-evolution]] → [[computational-irreducibility]] (no return link)
+  - [[language-evolution]] → [[gemini]] (no return link)
+  - [[language-evolution]] → [[directed-preferential-placement]] (no return link)
+  - [[swe-bench]] → [[hermes-agent]] (no return link)
+  - [[swe-bench]] → [[reward-hacking]] (no return link)
+  - [[hezbollah]] → [[geopolitics]] (no return link)
+  - [[mixture-of-experts]] → [[inference-time-compute-scaling]] (no return link)
+  - [[mixture-of-experts]] → [[ml-evolution]] (no return link)
+  - [[mixture-of-experts]] → [[reward-modeling]] (no return link)
+  - [[titans]] → [[neural-long-term-memory]] (no return link)
+  - [[titans]] → [[length-generalization]] (no return link)
+  - [[proof-assistant]] → [[load-bearing-reasoning]] (no return link)
+  - [[proof-assistant]] → [[reward-hacking]] (no return link)
+  - [[categorical-reasoning]] → [[load-bearing-reasoning]] (no return link)
+  - [[categorical-reasoning]] → [[multi-agent-llm-systems]] (no return link)
+  - [[categorical-reasoning]] → [[formal-verification]] (no return link)
+  - [[categorical-reasoning]] → [[multi-agent-coordination]] (no return link)
+  - [[categorical-reasoning]] → [[formal-methods]] (no return link)
+  - [[ai-safety]] → [[maximum-occupancy-principle]] (no return link)
+  - [[tabpfn-client]] → [[maximum-occupancy-principle]] (no return link)
+  - [[mcp-model-context-protocol]] → [[maximum-occupancy-principle]] (no return link)
+  - [[grpo]] → [[group-relative-policy-optimization]] (no return link)
+  - [[markovian-dev-agency]] → [[markovian-carryover]] (no return link)
+  - [[markovian-dev-agency]] → [[bounded-structured-memory]] (no return link)
+  - [[blackmail]] → [[maximum-occupancy-principle]] (no return link)
+  - [[ai-security]] → [[agentic-oversight]] (no return link)
+  - [[spec-driven-development]] → [[maximum-occupancy-principle]] (no return link)
+  - [[who-emergency-declaration]] → [[maximum-occupancy-principle]] (no return link)
+  - [[reconstruction-attack]] → [[maximum-occupancy-principle]] (no return link)
+  - [[priorlabs]] → [[ai-scientific-discovery]] (no return link)
+  - [[formal-verification]] → [[load-bearing-reasoning]] (no return link)
+  - [[formal-verification]] → [[reward-hacking]] (no return link)
+  - [[transformer-architecture]] → [[length-generalization]] (no return link)
+  - [[transformer-architecture]] → [[in-context-learning]] (no return link)
+  - [[transformer-architecture]] → [[ml-evolution]] (no return link)
+  - [[transformer-architecture]] → [[mixture-of-experts]] (no return link)
+  - [[transformer-architecture]] → [[scaling-laws]] (no return link)
+  - [[transformer-architecture]] → [[hidden-states]] (no return link)
+  - [[mathematical-reasoning]] → [[load-bearing-reasoning]] (no return link)
+  - [[mathematical-reasoning]] → [[formal-verification]] (no return link)
+  - [[mathematical-reasoning]] → [[scaling-laws]] (no return link)
+  - [[self-correction]] → [[cognitive-architecture]] (no return link)
+  - [[self-correction]] → [[load-bearing-reasoning]] (no return link)
+  - [[self-correction]] → [[agent-taxonomies]] (no return link)
+  - [[self-correction]] → [[agentic-research]] (no return link)
+  - [[self-correction]] → [[process-reward-model]] (no return link)
+  - [[self-correction]] → [[chain-of-thought]] (no return link)
+  - [[affective-ai-inner-architecture]] → [[metacognitive-architecture-closed-loop-self-regulation]] (no return link)
+  - [[affective-ai-inner-architecture]] → [[mechanistic-interpretability]] (no return link)
+  - [[affective-ai-inner-architecture]] → [[activation-steering]] (no return link)
+  - [[meta_harness_loop]] → [[hermes-agent]] (no return link)
+  - [[meta_harness_loop]] → [[agem]] (no return link)
+  - [[meta_harness_loop]] → [[meta-harness]] (no return link)
+  - [[llm-evaluation]] → [[maximum-occupancy-principle]] (no return link)
+  - [[MCTS]] → [[swe-bench]] (no return link)
+  - [[MCTS]] → [[agentic-hierarchy]] (no return link)
+  - [[MCTS]] → [[causal-reasoning]] (no return link)
+  - [[MCTS]] → [[world-model]] (no return link)
+  - [[MCTS]] → [[process-reward-model]] (no return link)
+  - [[MCTS]] → [[code-generation]] (no return link)
+  - [[russia-belarus-nuclear]] → [[maximum-occupancy-principle]] (no return link)
+  - [[business-model]] → [[maximum-occupancy-principle]] (no return link)
+  - [[public-health]] → [[maximum-occupancy-principle]] (no return link)
+  - [[reward-hacking]] → [[constitutional-ai]] (no return link)
+  - [[reward-hacking]] → [[group-relative-policy-optimization]] (no return link)
+  - [[reward-hacking]] → [[process-reward-model]] (no return link)
+  - [[reward-hacking]] → [[inference-time-compute-scaling]] (no return link)
+  - [[reward-hacking]] → [[institutional-capture]] (no return link)
+  - [[reward-hacking]] → [[reward-modeling]] (no return link)
+  - [[reward-hacking]] → [[self-correction]] (no return link)
+  - [[sovereign-ai]] → [[maximum-occupancy-principle]] (no return link)
+  - [[category-theory]] → [[isabelle]] (no return link)
+  - [[category-theory]] → [[formal-verification]] (no return link)
+  - [[category-theory]] → [[proof-assistant]] (no return link)
+  - [[attention-mechanism]] → [[length-generalization]] (no return link)
+  - [[attention-mechanism]] → [[ml-evolution]] (no return link)
+  - [[attention-mechanism]] → [[mixture-of-experts]] (no return link)
+  - [[attention-mechanism]] → [[scaling-laws]] (no return link)
+  - [[attention-mechanism]] → [[hidden-states]] (no return link)
+  - [[criticality]] → [[hopfield-network]] (no return link)
+  - [[scaling-laws]] → [[mixture-of-experts]] (no return link)
+  - [[scaling-laws]] → [[inference-time-compute-scaling]] (no return link)
+  - [[mamba]] → [[titans]] (no return link)
+  - [[china-energy-security]] → [[maximum-occupancy-principle]] (no return link)
+  - [[tabpfn-extensions]] → [[maximum-occupancy-principle]] (no return link)
+  - [[random-forest]] → [[maximum-occupancy-principle]] (no return link)
+  - [[agentic-design-picker]] → [[multi-agent-llm-systems]] (no return link)
+  - [[agentic-design-picker]] → [[agentic-research]] (no return link)
+  - [[peter-steinberger]] → [[maximum-occupancy-principle]] (no return link)
+  - [[nato-expansion]] → [[maximum-occupancy-principle]] (no return link)
+  - [[episodic-memory]] → [[maximum-occupancy-principle]] (no return link)
+  - [[autonomous-research]] → [[maximum-occupancy-principle]] (no return link)
+  - [[autonomous-research]] → [[agent-leak-benchmark]] (no return link)
+  - [[autonomous-research]] → [[agentic-research]] (no return link)
+  - [[autonomous-research]] → [[code-agent]] (no return link)
+  - [[autonomous-research]] → [[world-model]] (no return link)
+  - [[taplo]] → [[maximum-occupancy-principle]] (no return link)
+  - [[tys-repos]] → [[mcp-logic]] (no return link)
+  - [[tys-repos]] → [[agem]] (no return link)
+  - [[tys-repos]] → [[nexus]] (no return link)
+  - [[tys-repos]] → [[agentic-research]] (no return link)
+  - [[tys-repos]] → [[hipai-montague]] (no return link)
+  - [[hermes-agent-skills]] → [[hermes-agent]] (no return link)
+  - [[sheaf-consistency-enforcer]] → [[mcp-logic]] (no return link)
+  - [[sheaf-consistency-enforcer]] → [[hipai-montague]] (no return link)
+  - [[directed-preferential-placement]] → [[maximum-occupancy-principle]] (no return link)
+  - [[us-intelligence-community]] → [[maximum-occupancy-principle]] (no return link)
+  - [[llm-training]] → [[catastrophic-forgetting]] (no return link)
+  - [[llm-training]] → [[group-relative-policy-optimization]] (no return link)
+  - [[llm-training]] → [[reinforcement-learning-from-human-feedback]] (no return link)
+  - [[webhook-subscriptions]] → [[maximum-occupancy-principle]] (no return link)
+  - [[continual-learning]] → [[maximum-occupancy-principle]] (no return link)
+  - [[mechanistic-interpretability]] → [[metacognitive-architecture-closed-loop-self-regulation]] (no return link)
+  - [[mechanistic-interpretability]] → [[chain-of-thought]] (no return link)
+  - [[emergent-communication]] → [[activation-steering]] (no return link)
+  - [[iran-ceasefire]] → [[maximum-occupancy-principle]] (no return link)
+  - [[constitutional-ai]] → [[metacognitive-architecture-closed-loop-self-regulation]] (no return link)
+  - [[constitutional-ai]] → [[reward-modeling]] (no return link)
+  - [[constitutional-ai]] → [[process-reward-model]] (no return link)
+  - [[micro-saas]] → [[maximum-occupancy-principle]] (no return link)
+  - [[sheffer-stroke]] → [[mcp-logic]] (no return link)
+  - [[llm-wiki-pattern]] → [[rag]] (no return link)
+  - [[llm-wiki-pattern]] → [[neo4j]] (no return link)
+  - [[llm-wiki-pattern]] → [[zettelkasten-engine]] (no return link)
+  - [[agentic-reasoning]] → [[maximum-occupancy-principle]] (no return link)
+  - [[nexus]] → [[efhf]] (no return link)
+  - [[governance]] → [[reward-modeling]] (no return link)
+  - [[group-relative-policy-optimization]] → [[inference-time-compute-scaling]] (no return link)
+  - [[group-relative-policy-optimization]] → [[reward-modeling]] (no return link)
+  - [[group-relative-policy-optimization]] → [[constitutional-ai]] (no return link)
+  - [[group-relative-policy-optimization]] → [[maximum-occupancy-principle]] (no return link)
+  - [[product-strategy]] → [[maximum-occupancy-principle]] (no return link)
+  - [[multi-agent-coordination]] → [[hermes-agent]] (no return link)
+  - [[multi-agent-coordination]] → [[agentic-hierarchy]] (no return link)
+  - [[multi-agent-coordination]] → [[delegation]] (no return link)
+  - [[multi-agent-coordination]] → [[project-synapse]] (no return link)
+  - [[subagent-delegation]] → [[bounded-structured-memory]] (no return link)
+  - [[ollama]] → [[maximum-occupancy-principle]] (no return link)
+  - [[onboarding-standards]] → [[multi-agent-coordination]] (no return link)
+  - [[onboarding-standards]] → [[agentic-hierarchy]] (no return link)
+  - [[priorlabstabpfn]] → [[huggingface]] (no return link)
+  - [[delegation]] → [[hermes-agent]] (no return link)
+  - [[delegation]] → [[markovian-carryover]] (no return link)
+  - [[delegation]] → [[bounded-structured-memory]] (no return link)
+  - [[compound-commands]] → [[maximum-occupancy-principle]] (no return link)
+  - [[domain-onboarding-standards]] → [[agent-onboarding]] (no return link)
+  - [[domain-onboarding-standards]] → [[evaluation]] (no return link)
+  - [[agentic-planner]] → [[multi-agent-llm-systems]] (no return link)
+  - [[agentic-planner]] → [[agentic-design-picker]] (no return link)
+  - [[waldis-instructions-shape-language-2026]] → [[maximum-occupancy-principle]] (no return link)
+  - [[memex]] → [[llm-wiki-pattern]] (no return link)
+  - [[world-model]] → [[hipai-montague]] (no return link)
+  - [[world-model]] → [[epistemic-energy]] (no return link)
+  - [[world-model]] → [[agent-native-design]] (no return link)
+  - [[world-model]] → [[maximum-occupancy-principle]] (no return link)
+  - [[3dgs]] → [[maximum-occupancy-principle]] (no return link)
+  - [[hipai-montague]] → [[mcp-logic]] (no return link)
+  - [[hipai-montague]] → [[mop-explorer]] (no return link)
+  - [[global-health-infrastructure]] → [[maximum-occupancy-principle]] (no return link)
+  - [[infectious-disease]] → [[public-health]] (no return link)
+  - [[tyler-hall]] → [[hipai-montague]] (no return link)
+  - [[tyler-hall]] → [[agem]] (no return link)
+  - [[tyler-hall]] → [[dhruv-trehan]] (no return link)
+  - [[tyler-hall]] → [[nexus]] (no return link)
+  - [[retrieval-augmented-generation]] → [[maximum-occupancy-principle]] (no return link)
+  - [[india-us-relations]] → [[maximum-occupancy-principle]] (no return link)
+  - [[benchmark]] → [[reward-hacking]] (no return link)
+  - [[benchmark]] → [[process-reward-model]] (no return link)
+  - [[benchmark]] → [[chain-of-thought]] (no return link)
+  - [[benchmark]] → [[scaling-laws]] (no return link)
+  - [[benchmark]] → [[institutional-capture]] (no return link)
+  - [[mcp-coordinator]] → [[efhf]] (no return link)
+  - [[mcp-coordinator]] → [[tyler-hall]] (no return link)
+  - [[mcp-coordinator]] → [[conscience-servitor]] (no return link)
+  - [[process-reward-model]] → [[load-bearing-reasoning]] (no return link)
+  - [[process-reward-model]] → [[chain-of-thought]] (no return link)
+  - [[process-reward-model]] → [[inference-time-compute-scaling]] (no return link)
+  - [[process-reward-model]] → [[hidden-states]] (no return link)
+  - [[process-reward-model]] → [[reward-modeling]] (no return link)
+  - [[truth-seeking]] → [[maximum-occupancy-principle]] (no return link)
+  - [[shap]] → [[maximum-occupancy-principle]] (no return link)
+  - [[vision-language-alignment]] → [[probing-analysis]] (no return link)
+  - [[vision-language-alignment]] → [[efhf]] (no return link)
+  - [[ebola-outbreak-drc-2026]] → [[maximum-occupancy-principle]] (no return link)
+  - [[roger-koenig-robert]] → [[aphantasia]] (no return link)
+  - [[curiosity-driven-exploration]] → [[maximum-occupancy-principle]] (no return link)
+  - [[federated-learning]] → [[agem]] (no return link)
+  - [[llm-agents]] → [[maximum-occupancy-principle]] (no return link)
+  - [[sqlite]] → [[tools]] (no return link)
+  - [[kv-cache]] → [[mixture-of-experts]] (no return link)
+  - [[kv-cache]] → [[inference-time-compute-scaling]] (no return link)
+  - [[kv-cache]] → [[hidden-states]] (no return link)
+  - [[surprise-based-learning]] → [[neural-long-term-memory]] (no return link)
+  - [[namm]] → [[kv-cache]] (no return link)
+  - [[code-agent]] → [[hermes-agent]] (no return link)
+  - [[code-agent]] → [[load-bearing-reasoning]] (no return link)
+  - [[code-agent]] → [[benchmark]] (no return link)
+  - [[code-agent]] → [[agentic-research]] (no return link)
+  - [[ai-for-science]] → [[maximum-occupancy-principle]] (no return link)
+  - [[codebase-inspection]] → [[maximum-occupancy-principle]] (no return link)
+  - [[alzheimers-research]] → [[ai-scientific-discovery]] (no return link)
+  - [[russia-ukraine-war]] → [[maximum-occupancy-principle]] (no return link)
+  - [[mixture-of-depths]] → [[scaling-laws]] (no return link)
+  - [[graph-rlm]] → [[efhf]] (no return link)
+  - [[graph-rlm]] → [[agem]] (no return link)
+  - [[graph-rlm]] → [[tyler-hall]] (no return link)
+  - [[ml-evolution]] → [[neural-long-term-memory]] (no return link)
+  - [[delta-direct]] → [[probing-analysis]] (no return link)
+  - [[mcp]] → [[hermes-agent]] (no return link)
+  - [[privacy-mas]] → [[maximum-occupancy-principle]] (no return link)
+  - [[hidden-states]] → [[critical-analysis]] (no return link)
+  - [[reward-modeling]] → [[critical-analysis]] (no return link)
+  - [[reward-modeling]] → [[load-bearing-reasoning]] (no return link)
+  - [[google-deepmind]] → [[ai-scientific-discovery]] (no return link)
+  - [[bounded-structured-memory]] → [[persistent-knowledge-compilation]] (no return link)
+  - [[bounded-structured-memory]] → [[load-bearing-reasoning]] (no return link)
+  - [[bounded-structured-memory]] → [[maximum-occupancy-principle]] (no return link)
+  - [[bounded-structured-memory]] → [[graphrag]] (no return link)
+  - [[bounded-structured-memory]] → [[chain-of-thought]] (no return link)
+  - [[bounded-structured-memory]] → [[zettelkasten-engine]] (no return link)
+  - [[steering-vectors]] → [[maximum-occupancy-principle]] (no return link)
+  - [[load-bearing-reasoning]] → [[hipai-montague]] (no return link)
+  - [[geopolitics]] → [[china-cuba-tensions]] (no return link)
+  - [[adversarial-training]] → [[latent-communication]] (no return link)
+  - [[adversarial-training]] → [[multi-agent-llm-systems]] (no return link)
+  - [[adversarial-training]] → [[agent-onboarding]] (no return link)
+  - [[nasa-artemis]] → [[maximum-occupancy-principle]] (no return link)
+  - [[tiktok-youtube-ofcom-report]] → [[maximum-occupancy-principle]] (no return link)
+  - [[public-health-governance]] → [[maximum-occupancy-principle]] (no return link)
+  - [[seg-molecular-self]] → [[maximum-occupancy-principle]] (no return link)
+  - [[geometric-hashing]] → [[maximum-occupancy-principle]] (no return link)
+  - [[llm-agent-architecture]] → [[hermes-agent]] (no return link)
+  - [[llm-agent-architecture]] → [[load-bearing-reasoning]] (no return link)
+  - [[llm-agent-architecture]] → [[agentic-hierarchy]] (no return link)
+  - [[llm-agent-architecture]] → [[maximum-occupancy-principle]] (no return link)
+  - [[llm-agent-architecture]] → [[code-agent]] (no return link)
+  - [[llm-agent-architecture]] → [[world-model]] (no return link)
+  - [[llm-agent-architecture]] → [[production-stage-architecture]] (no return link)
+  - [[llm-agent-architecture]] → [[agent-native-design]] (no return link)
+  - [[causal-networks]] → [[load-bearing-reasoning]] (no return link)
+  - [[agent-onboarding]] → [[swe-bench]] (no return link)
+  - [[agent-onboarding]] → [[agentic-hierarchy]] (no return link)
+  - [[agent-onboarding]] → [[constitutional-ai]] (no return link)
+  - [[agent-onboarding]] → [[delegation]] (no return link)
+  - [[agent-onboarding]] → [[project-synapse]] (no return link)
+  - [[agent-native-design]] → [[persistent-knowledge-compilation]] (no return link)
+  - [[agent-native-design]] → [[agentic-hierarchy]] (no return link)
+  - [[agent-native-design]] → [[maximum-occupancy-principle]] (no return link)
+  - [[agent-native-design]] → [[efhf]] (no return link)
+  - [[north-american-energy-politics]] → [[maximum-occupancy-principle]] (no return link)
+  - [[agent-leak-benchmark]] → [[latent-communication]] (no return link)
+  - [[agent-leak-benchmark]] → [[multi-agent-llm-systems]] (no return link)
+  - [[agent-leak-benchmark]] → [[kv-cache]] (no return link)
+  - [[agent-leak-benchmark]] → [[lcguard]] (no return link)
+  - [[cobra]] → [[tools]] (no return link)
+  - [[who]] → [[public-health]] (no return link)
+  - [[spike-001-spacy-owlready2]] → [[hipai-montague]] (no return link)
+  - [[spike-001-spacy-owlready2]] → [[mcp-logic]] (no return link)
+  - [[qes]] → [[maximum-occupancy-principle]] (no return link)
+  - [[uae]] → [[geopolitics]] (no return link)
+  - [[taylors-law]] → [[scaling-laws]] (no return link)
+  - [[open-ended-evolution]] → [[efhf]] (no return link)
+  - [[open-ended-evolution]] → [[eml-operator]] (no return link)
+  - [[open-ended-evolution]] → [[maximum-occupancy-principle]] (no return link)
+  - [[fts5]] → [[maximum-occupancy-principle]] (no return link)
+  - [[activation-steering]] → [[metacognitive-architecture-closed-loop-self-regulation]] (no return link)
+  - [[activation-steering]] → [[chain-of-thought]] (no return link)
+  - [[sledgehammer]] → [[maximum-occupancy-principle]] (no return link)
+  - [[novelty-search]] → [[maximum-occupancy-principle]] (no return link)
+  - [[multi-agent-llm-systems]] → [[hermes-agent]] (no return link)
+  - [[multi-agent-llm-systems]] → [[agentic-research]] (no return link)
+  - [[multi-agent-llm-systems]] → [[project-synapse]] (no return link)
+  - [[printing-press]] → [[maximum-occupancy-principle]] (no return link)
+  - [[aseke-framework]] → [[agentic-planner]] (no return link)
+  - [[aseke-framework]] → [[hierarchical-supervisor]] (no return link)
+  - [[production-stage-architecture]] → [[maximum-occupancy-principle]] (no return link)
+  - [[java]] → [[maximum-occupancy-principle]] (no return link)
+  - [[terrorism]] → [[geopolitics]] (no return link)
+
+## [2026-05-25 04:29] write
+
+Updated page: wiki/synthesis/spiral-architecture.md
+
+## [2026-05-25 04:29] write
+
+Updated page: wiki/synthesis/empty-chair-protocol.md
+
+## [2026-05-25 04:30] write
+
+Updated page: wiki/synthesis/two-council-architecture.md
+
+## [2026-05-25 04:30] index
+
+Index updated with 803 pages

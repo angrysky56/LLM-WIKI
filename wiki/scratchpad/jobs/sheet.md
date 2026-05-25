@@ -28,7 +28,7 @@ updated: 2026-05-22T01:30:00Z
 | `8ea33cfa560a` | Wiki Researcher | researcher | **done** | 2026-06-26 | TBD | [[researcher]] |
 | `297092f3b347` | orcaid-verification-indexer | orcaid | **PAUSED** | 2026-05-18 | — | [[orcaid]] |
 | `72599f850df2` | arxiv-top3 | arxiv | **done** | 2026-05-26 | 2026-05-27 8:20AM | [[arxiv]] |
-| `c838e81a1496` | llm-wiki-raw-ingest | ingest | **done** | 2026-05-25 | — | [[ingest]] |
+| `c838e81a1496` | llm-wiki-raw-ingest | ingest | **done** | 2026-06-27 | — | [[ingest]] |
 | `48a3a009a820` | Wiki Librarian | librarian | **done** | 2026-06-17 | — | [[librarian]] |
 | `385aa0819a57` | Wiki Librarians-Assistant | librarians-assistant | **done** | 2026-06-17 | — | [[librarians-assistant]] |
 | `723e76246970` | Wiki Insights Generator | insights | **done** | 2026-05-24 | 2026-05-25 6AM | [[insights]] |

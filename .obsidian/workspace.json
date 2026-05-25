@@ -194,8 +194,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2fa1068fa80a4c8a",
+  "active": "2ab9c987c297f7a1",
   "lastOpenFiles": [
+    "wiki/scratchpad/jobs/reports/ingest/ingest-2026-06-27.md",
     "raw/hermes-path-forward.md",
     "Clippings/documentation/2026/hermes-path-forward.md",
     "Clippings/documentation/2026/codegraph-readme.md",
@@ -230,7 +231,6 @@
     "wiki/sources/moe-sieve-routing-guided-lora-for-efficient-moe-fine-tuning.md",
     "wiki/sources/defending-moe-llms-against-harmful-fine-tuning-via-safety-routing-alignment.md",
     "wiki/sources/on-the-representation-collapse-of-sparse-mixture-of-experts.md",
-    "wiki/concepts/mop-next-token-prediction.md",
-    "wiki/scratchpad/jobs/reports/researcher/discovery-2026-06-30.md"
+    "wiki/concepts/mop-next-token-prediction.md"
   ]
 }

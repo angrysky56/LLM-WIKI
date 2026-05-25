@@ -13,6 +13,7 @@ tags: [ingest, carryover]
 - **MCP unavailable**: synapse MCP server doesn't expose `wiki_ingest_raw` directly — running raw CLI instead
 - **Ingest approach**: Manual file processing (MCP not available for direct ingest), copy to Clippings then write summary page to wiki/sources/
 - **3 files ingested**: kanban-multi-agent-board, profiles-running-multiple-agents, scheduled-tasks-cron (all documentation type)
+- **3 more files ingested (this run, 2026-06-27)**: codegraph-hermes-phase1-implementation, codegraph-readme, hermes-path-forward (all documentation)
 
 ## Open
 - **292 broken wikilinks**: Pre-existing, needs librarian agent attention
@@ -29,6 +30,7 @@ tags: [ingest, carryover]
 - Three Hermes Agent docs ingested: Kanban board, Profiles, Scheduled Tasks (all documentation type, confidence 0.95)
 - Source files archived to `Clippings/documentation/2026/`
 - **2026-05-25 run**: 1 file processed (Kanban Wikipedia article), archived to Clippings/articles/2026/, summary written to wiki/sources/articles/kanban-development.md
+- **2026-06-27 run**: 3 files processed (codegraph-hermes-phase1-implementation, codegraph-readme, hermes-path-forward), archived to Clippings/documentation/2026/, summaries written to wiki/sources/documentation/
 
 ## Kanban Status
 - [x] Surfaced to hermes kanban: 2026-06-27

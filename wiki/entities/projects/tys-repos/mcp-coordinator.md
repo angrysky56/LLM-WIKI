@@ -5,6 +5,7 @@ type: entity
 summary: Self-optimizing MCP orchestrator that uses semantic tool discovery, Docker execution, and agent delegation.
 tags: [projects, ty-repo, angrysky56, orchestration, mcp, docker, sub-agents, autonomous-agents]
 status: active
+sources: []
 confidence: 1.0
 ---
 

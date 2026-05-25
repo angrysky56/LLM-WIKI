@@ -92,7 +92,7 @@ The sheaf-consistency-enforcer detects coboundary norm violations via differenti
 - [[load-bearing-reasoning]] — causal mediation analysis on which activations are load-bearing vs scaffolding
 - [[reward-inside-model-elhsr]] — linear probe on hidden states as reward signal
 - [[supertokens]] — structural patterns in reasoning that might be geometrically compressed in activation space
-- [[superposition]] — the phenomenon that motivates sparse autoencoders
+- Superposition — the phenomenon that motivates sparse autoencoders (see neural-interpretability.md lines 42–63 for full treatment)
 
 ## Open Questions
 

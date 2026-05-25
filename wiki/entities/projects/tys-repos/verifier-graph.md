@@ -3,7 +3,8 @@ created: 2026-05-01T07:06:23Z
 updated: 2026-05-01T07:06:23Z
 type: entity
 summary: DAG-structured reasoning provenance MCP server (Verifier Graph).
-tags: [projects, ty-repo, angrysky56, provenance, graph-theory, reasoning, mcp]
+tags: [verification, graph, evaluator]
+sources: []
 status: active
 confidence: 1.0
 ---

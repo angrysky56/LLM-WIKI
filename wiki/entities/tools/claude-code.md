@@ -4,6 +4,7 @@ updated: 2026-05-01T06:25:46Z
 type: entity
 summary: Agentic CLI tool by Anthropic for autonomous coding and research tasks.
 tags: [tools, ai-agent, coding-assistant]
+sources: []
 status: active
 confidence: 0.9
 ---

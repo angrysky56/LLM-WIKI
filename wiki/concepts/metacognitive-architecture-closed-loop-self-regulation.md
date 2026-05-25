@@ -1,15 +1,9 @@
 ---
-summary: Engineering internal awareness and closed-loop self-regulation with oMCD/MCM connections
-tags: [metacognition, llm, closed-loop, activation-steering, pid-control, biofeedback, representation-engineering]
-updated: 2026-05-25T00:28:07Z
----
-
----
-summary: Engineering internal awareness and closed-loop self-regulation in LLMs using biofeedback paradigms, PID control, and LQR — peer-reviewed whitepaper summary
-type: concept
-tags: ['metacognition', 'llm', 'closed-loop', 'activation-steering', 'pid-control', 'biofeedback', 'representation-engineering']
-updated: 2026-05-25T00:00:00Z
 created: 2026-05-21T07:05:06Z
+updated: 2026-05-25T00:00:00Z
+type: concept
+summary: Engineering internal awareness and closed-loop self-regulation in LLMs using biofeedback paradigms, PID control, and LQR — peer-reviewed whitepaper summary
+tags: [metacognition, llm, closed-loop, activation-steering, pid-control, biofeedback, representation-engineering]
 sources: []
 status: active
 confidence: 0.8
@@ -192,6 +186,3 @@ This is the implementation of the [[oMCD]] 9-step loop at the neural level.
 2. Activation Steering in LLMs - Emergent Mind
 3. [arXiv:2604.19018] Local Linearity of LLMs Enables Activation Steering via Model-Based Linear Optimal Control
 4.的人工智能 2026-04-22 - arXiv每日学术速递
-
-## Tags
-#metacognition #llm #closed-loop #activation-steering #pid-control #lqr #biofeedback #representation-engineering #transformer-lens #self-awareness

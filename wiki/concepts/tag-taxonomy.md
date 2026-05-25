@@ -1,4 +1,13 @@
 ---
+created: 2026-04-28
+updated: 2026-04-28
+type: concept
+summary: Controlled vocabulary reference — USE/UF/BT/NT/RT notation for tag consistency across the wiki
+tags: [taxonomy, controlled-vocabulary, tags, reference]
+sources: []
+status: active
+confidence: 1.0
+---
 
 # Tag Taxonomy — Controlled Vocabulary
 

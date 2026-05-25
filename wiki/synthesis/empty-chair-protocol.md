@@ -1,16 +1,11 @@
 ---
-summary: Inviting missing perspectives into council deliberation via empty chair
-tags: [research-council, empty-chair, protocol, deliberation]
-updated: 2026-05-25T04:29:37Z
 created: 2026-05-25T04:29:37Z
----
-
----
-created: 2026-05-25
-updated: 2026-05-25
+updated: 2026-05-25T04:29:37Z
 type: synthesis
 summary: Protocol for inviting missing perspectives into research council deliberation via empty chair
 tags: [research-council, empty-chair, protocol, deliberation]
+sources: []
+status: active
 confidence: 0.95
 ---
 

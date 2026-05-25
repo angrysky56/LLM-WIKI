@@ -4,6 +4,7 @@ updated: 2026-04-28T18:54:49Z
 type: concept
 summary: The inability to form mental images, potentially linked to high excitability in the early visual cortex.
 tags: [neuroscience, condition, imagination, aphantasia]
+sources: []
 status: active
 confidence: 0.8
 ---

@@ -1,0 +1,19 @@
+---
+created: 2026-05-25
+updated: 2026-05-25
+type: concept
+summary: "[STUB] Engineering — application of scientific and mathematical principles to practical problems"
+tags: [engineering, stubs]
+sources: []
+status: stub
+confidence: 0.3
+---
+
+# Engineering
+
+*Stub page — needs real content*
+
+## Connections
+
+- [[science]]
+- [[technology]]

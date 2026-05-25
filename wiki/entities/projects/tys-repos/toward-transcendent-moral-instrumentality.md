@@ -3,7 +3,8 @@ created: 2026-05-01T07:05:24Z
 updated: 2026-05-01T07:05:24Z
 type: entity
 summary: Universal moral architecture for AI systems based on the Paraclete Protocol v2.0.
-tags: [projects, ty-repo, angrysky56, ai-ethics, paraclete-protocol, deontology]
+tags: [ethics, moral, instrumentality]
+sources: []
 status: active
 confidence: 1.0
 ---

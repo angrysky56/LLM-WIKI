@@ -4,6 +4,7 @@ updated: 2026-04-18T03:46:42Z
 type: concept
 summary: The specific procedures or techniques used to identify, select, process, and analyze information about a topic.
 tags: [research, science, logic]
+sources: []
 status: active
 confidence: 1.0
 ---

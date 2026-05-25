@@ -3,7 +3,8 @@ created: 2026-05-01T07:06:12Z
 updated: 2026-05-01T07:06:12Z
 type: entity
 summary: EFHF Layer 5+ Meta-Orchestrator for pre-response ethical consistency enforcement using tripartite oversight.
-tags: [projects, ty-repo, angrysky56, ai-ethics, tripartite-oversight, llm2vec-gen, efhf]
+tags: [ethics, ai, conscience]
+sources: []
 status: active
 confidence: 1.0
 ---

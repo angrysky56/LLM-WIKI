@@ -3,7 +3,8 @@ created: 2026-04-18T03:46:18Z
 updated: 2026-04-18T03:46:18Z
 type: concept
 summary: The systematic evaluation of research to understand its methodology, context, validity, and significance.
-tags: [epistemology, research, evaluation]
+tags: [critical-thinking, analysis, reasoning]
+sources: []
 status: active
 confidence: 1.0
 ---

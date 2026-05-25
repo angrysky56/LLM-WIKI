@@ -1,9 +1,18 @@
 ---
+created: 2026-05-20
+updated: 2026-05-20
+type: entity
+summary: Graph-based world model and ontology server — encodes beliefs, facts, relationships; supports natural language belief input and Cypher queries
+tags: [knowledge-graph, world-model, ontology, mcp]
+sources: ['https://github.com/angrysky56/HiPAI-Montague-Semantic-Cognition']
+status: active
+confidence: 0.9
+---
 
 # HiPAI-Montague
 
-**Type:** Tool — MCP server
-**Repository:** [HiPAI-Montague-Semantic-Cognition](https://github.com/angrysky56/HiPAI-Montague-Semantic-Cognition)
+**Type:** Tool — MCP server  
+**Repository:** [HiPAI-Montague-Semantic-Cognition](https://github.com/angrysky56/HiPAI-Montague-Semantic-Cognition)  
 **EFHF Layer:** 2 — Distribution-independent world model
 
 ---

@@ -3,7 +3,8 @@ created: 2026-05-01T07:06:08Z
 updated: 2026-05-01T07:06:08Z
 type: entity
 summary: MCP server providing semantic graph and AST analysis of source code for AI assistants.
-tags: [projects, ty-repo, angrysky56, ast, static-analysis, mcp, semantic-graph]
+tags: [mcp, ast, parser]
+sources: []
 status: active
 confidence: 1.0
 ---

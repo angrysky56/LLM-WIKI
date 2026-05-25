@@ -5,6 +5,7 @@ type: entity
 summary: MCP server for automated first-order logic reasoning using Prover9 and Mace4.
 tags: [projects, ty-repo, angrysky56, logic, formal-verification, prover9, mace4, mcp]
 status: active
+sources: []
 confidence: 1.0
 ---
 

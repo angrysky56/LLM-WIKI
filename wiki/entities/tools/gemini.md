@@ -4,6 +4,7 @@ updated: 2026-05-01T06:25:50Z
 type: entity
 summary: Family of multimodal LLMs by Google DeepMind with significant long-context capabilities.
 tags: [tools, llm, google-deepmind]
+sources: []
 status: active
 confidence: 0.9
 ---

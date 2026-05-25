@@ -1,16 +1,11 @@
 ---
-summary: 7 historical engineering disasters grounding the technical working group personas
-tags: [harm-cases, engineering, safety, technical-working-group]
-updated: 2026-05-25T04:28:13Z
 created: 2026-05-25T04:28:13Z
----
-
----
-created: 2026-05-25
-updated: 2026-05-25
+updated: 2026-05-25T04:28:13Z
 type: synthesis
 summary: Historical engineering disasters grounding the technical-working-group personas in real-world harm
 tags: [harm-cases, engineering, safety, technical-working-group]
+sources: []
+status: active
 confidence: 1.0
 ---
 

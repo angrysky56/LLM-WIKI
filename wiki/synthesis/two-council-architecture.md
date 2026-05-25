@@ -1,15 +1,11 @@
 ---
-summary: Two-council architecture: philosophical research council + engineering technical working group with Refuser as bridge
-tags: [architecture, multi-agent, research-council, technical-working-group, seg]
+created: 2026-05-25T04:30:05Z
 updated: 2026-05-25T04:30:05Z
----
-
----
-created: 2026-05-25
-updated: 2026-05-25
 type: synthesis
 summary: Two-council architecture — philosophical research-council + engineering technical-working-group — with Refuser as the bridge between them
 tags: [architecture, multi-agent, research-council, technical-working-group, seg, refuse]
+sources: []
+status: active
 confidence: 0.95
 ---
 

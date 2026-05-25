@@ -1,16 +1,11 @@
 ---
-summary: Refuser holds deploy token, vetoes unnamed+plausible+non-reversible harms
-tags: [engineering, safety, veto, deployment, harm-prevention]
-updated: 2026-05-25T04:28:44Z
-created: 2026-05-25T04:28:44Z
----
-
----
 created: 2026-05-25
-updated: 2026-05-25
+updated: 2026-05-25T04:28:44Z
 type: concept
 summary: Engineering persona holding deploy token authority — withholds approval until named, plausible, non-reversible harms are addressed
 tags: [engineering, safety, veto, deployment, harm-prevention, technical-working-group]
+sources: []
+status: active
 confidence: 0.95
 ---
 

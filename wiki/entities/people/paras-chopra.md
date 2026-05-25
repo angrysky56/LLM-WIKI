@@ -3,7 +3,8 @@ created: 2026-05-01T06:25:36Z
 updated: 2026-05-01T06:25:36Z
 type: entity
 summary: Founder of Lossfunk and researcher focusing on AI autonomy and scientific discovery.
-tags: [people, ai-researcher, autonomous-research]
+tags: [people, founder]
+sources: []
 status: active
 confidence: 0.9
 ---

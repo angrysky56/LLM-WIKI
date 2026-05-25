@@ -20,3 +20,4 @@
 - MCP server test succeeds (`InsightEngine` loads OK) but tools aren't exposed via `wiki_ingest_raw` pattern — need to verify actual MCP tool names available
 - Three Hermes Agent docs ingested: Kanban board, Profiles, Scheduled Tasks (all documentation type, confidence 0.95)
 - Source files archived to `Clippings/documentation/2026/`
+- **2026-05-25 run**: 1 file processed (Kanban Wikipedia article), archived to Clippings/articles/2026/, summary written to wiki/sources/articles/kanban-development.md

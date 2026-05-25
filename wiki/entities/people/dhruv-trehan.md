@@ -3,7 +3,8 @@ created: 2026-05-01T06:25:32Z
 updated: 2026-05-01T06:25:32Z
 type: entity
 summary: Researcher at Lossfunk focusing on autonomous research systems.
-tags: [people, ai-researcher, autonomous-research]
+tags: [people, founder]
+sources: []
 status: active
 confidence: 0.9
 ---

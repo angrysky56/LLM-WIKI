@@ -1,8 +1,12 @@
 ---
+created: 2026-05-25T00:27:21Z
+updated: 2026-05-25T00:27:21Z
+type: concept
 summary: Six agent archetypes (Alpha-Zeta) with roles, instruction sets, and oMCD mappings
 tags: [meta-cognition, agent-taxonomies, AI-architectures]
-updated: 2026-05-25T00:27:21Z
-created: 2026-05-25T00:27:21Z
+sources: []
+status: active
+confidence: 0.9
 ---
 
 # Agent Taxonomies: Alpha through Zeta

@@ -1,0 +1,19 @@
+---
+created: 2026-05-25
+updated: 2026-05-25
+type: concept
+summary: "[STUB] Multimodal LLM — large language models that process multiple modalities (text, vision, audio)"
+tags: [multimodal-llm, stubs]
+sources: []
+status: stub
+confidence: 0.3
+---
+
+# Multimodal LLM
+
+*Stub page — needs real content*
+
+## Connections
+
+- [[large-language-models]]
+- [[multimodal-ai]]

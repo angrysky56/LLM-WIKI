@@ -1,21 +1,21 @@
 # Librarians-Assistant Carryover — 2026-06-19
 
 ## What Was Fixed
-- Verified broken wikilinks: 0 (clean state from prior session)
-- Verified double frontmatter on hermes-meta-cognition.md and spiral-architecture.md — both clean
-- Verified frontmatter gaps: 0 in concepts/entities/synthesis
-- Confirmed all 14 "broken link" references were actually links to sources/articles and sources/papers (legitimate wiki pages), not missing content
-- Confirmed template examples in synapse-llm-wiki-operating-guide.md are intentional syntax documentation, not real links
+- **openpraparat.md elevation**: Replaced stub with full concept content derived from `utimula-openpraparat-2025.md` source paper — added Architecture, Key Results, and Connections sections with real content
+- **artificial-life.md stub created**: New stub at `wiki/concepts/artificial-life.md` to resolve broken link from openpraparat.md — contains self-connections back to openpraparat and open-ended-evolution
+- **Verified broken wikilinks: 0** (concepts/entities/synthesis — clean)
+- **Verified orphan pages: 0** — openpraparat.md was the sole orphan; resolved
+- **Verified frontmatter gaps: 0** in concepts/entities/synthesis
 
 ## What Remains
-1. **196 orphans** (filesystem method; librarian's Neo4j showed 141) — high-value content pages (autonomous-research, agentic-hierarchy) are substantively rich; orphan count is a linking-cold-start metric, not a content quality issue
-2. **1297 non-reciprocal link pairs** — large scope, would need dedicated sprint
-3. **Tag taxonomy normalization** — not audited this cycle
+1. **Tag taxonomy normalization** — 1287 unique tags with inconsistent casing (UPPERCASE acronyms mixed with lowercase prefixes like `ai-`, `llm-`); large scope, needs dedicated sprint
+2. **Reciprocal link audit** — 795 non-reciprocal pairs; efficiency gate per carryover but worth revisiting if scope is bounded
+3. **Double frontmatter block pages** — 8 pages with multiple `---` delimiters (markovian-carryover, tag-taxonomy, agent-taxonomies, replicant-mapping, research-brief-2026-05-09, research-brief-2026-05-13, two-council-architecture, harm-cases) — these appear to be intentional section separators rather than duplicate blocks; investigation needed before fixing
 
 ## Hard Blockers
 - None at core layer. Vault integrity is excellent.
 
 ## Notes
 - MCP unavailable; using filesystem fallback
-- Key insight: earlier "broken link" reports were false positives — targets like `why-llms-arent-scientists-yet` exist at `wiki/sources/articles/why-llms-arent-scientists-yet.md`, not in the concepts dir. The scan was looking only in concepts/entities/synthesis, missing sources/ subdirectories.
-- The 196 orphan count includes synthesis pages (news events, geopolitical topics) which don't need heavy linking — context is event-specific
+- 8 pages with multiple `---` delimitors require investigation before cleaning — some may be intentional section boundaries (markovian-carryover uses `---` as markdown ruler between sections)
+- Reciprocal link audit: 795 non-reciprocal pairs identified; most are between closely related concept pages where return links would be noise (e.g., `metacognitive-architecture-closed-loop-self-regulation -> omcd` vs. vice versa — omcd links back to many other pages already)

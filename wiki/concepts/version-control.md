@@ -1,0 +1,19 @@
+---
+created: 2026-05-25
+updated: 2026-05-25
+type: concept
+summary: "[STUB] Version control — tracking changes to code and documents"
+tags: [version-control, stubs]
+sources: []
+status: stub
+confidence: 0.3
+---
+
+# Version Control
+
+*Stub page — needs real content*
+
+## Connections
+
+- [[git]]
+- [[devops]]

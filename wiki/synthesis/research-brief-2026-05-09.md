@@ -1,4 +1,13 @@
 ---
+created: 2026-05-09
+updated: 2026-05-09
+type: source
+summary: "Run 1 baseline survey: graph quality crisis — 60-70% of entities are extraction artifacts, ~90% of RELATES edges are garbage"
+tags: [research, graph-quality, extraction-audit]
+sources: []
+status: archived
+confidence: 0.90
+---
 
 # Research Brief — 2026-05-09 (Run 1 — Baseline Survey)
 
@@ -44,7 +53,7 @@ This baseline survey of the Synapse Neo4j knowledge graph reveals a **systemic e
 
 **Evidence:**
 - Of 937 RELATES edges, only ~10 have semantic predicates ("modifies", "surpass", "relates-via-of")
-- The remaining ~927 edges have predicate values that are raw HTML: `<span>`, `id="...`, `annotation>\\times</annotation>`, CSS class strings
+- The remaining ~927 edges have predicate values that are raw HTML: `<span>`, `id="...`, `annotation>\times</annotation>`, CSS class strings
 - Many RELATES edges connect HTML artifact entities to themselves
 
 **Impact:** The graph has essentially zero meaningful cross-referencing between entities. It's a collection of disconnected fact islands.

@@ -3,7 +3,8 @@ created: 2026-05-01T07:19:02Z
 updated: 2026-05-01T07:19:02Z
 type: entity
 summary: Autonomous Knowledge Synthesis Engine with LLM-WIKI integration.
-tags: [projects, ty-repo, angrysky56, knowledge-graph, neo4j, obsidian, zettelkasten, synapse]
+tags: [mcp, synapse, knowledge-graph]
+sources: []
 status: active
 confidence: 1.0
 ---

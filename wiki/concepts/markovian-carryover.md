@@ -1,4 +1,13 @@
 ---
+created: 2026-05-25T00:00:00Z
+updated: 2026-05-25T00:00:00Z
+type: concept
+summary: Skill template for Markovian forward-state carryover — bounded ~512 tokens encoding established/open/heading
+tags: [agent, memory, delegation, markovian, skill-template]
+sources: []
+status: active
+confidence: 0.95
+---
 
 # Markovian Carryover: Structured Forward-State for Agent Sessions
 

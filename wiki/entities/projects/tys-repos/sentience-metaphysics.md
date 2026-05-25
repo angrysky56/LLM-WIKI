@@ -5,6 +5,7 @@ type: entity
 summary: Framework for cultivating AI character through Simulated Experiential Grounding (SEG).
 tags: [projects, ty-repo, angrysky56, seg-framework, ai-character, cognitive-architecture, psychology]
 status: active
+sources: []
 confidence: 1.0
 ---
 

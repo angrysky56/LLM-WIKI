@@ -1,9 +1,9 @@
 ---
-summary: Ebola escalates to 1,200+ suspected cases, Rubio-India $500B trade deal unravels post-tariff-ruling, China rare earth weaponization
-updated: 2026-05-26T08:00:00Z
+summary: Stanford diabetes cure and warp drive physics breakthrough lead new stories; Ebola and trade deals continue monitoring
+updated: 2026-05-27T08:00:00Z
 ---
 
-# News Agent Carryover — 2026-05-26
+# News Agent Carryover — 2026-05-27
 
 ## Established
 
@@ -41,10 +41,10 @@ Next cycle (2026-05-27):
 
 ## New This Cycle
 
-- **Ebola 1,200+ suspected cases**: Third ETC burned May 26 — significant escalation
-- **Malaysia exits US reciprocal trade deal**: First post-tariff-ruling country to exit a US bilateral deal
-- **Rubio India $500B trade claim**: Tariff ruling has destabilized the original bargain; $500B in trade flows at risk
-- **China rare earth weaponization**: New piece (24/7 Wall St.) documenting China weaponizing REE dominance; implications for EV, defense, clean energy
+- **Stanford Type 1 Diabetes Functional Cure** (May 25): Hybrid cell therapy cures T1D in mice without insulin or immune suppression. Moving to human trials. Major if confirmed in humans.
+- **Physical Warp Drive Theoretical Breakthrough** (May 20): Researchers find theoretical loophole making FTL travel possible — was considered physically impossible. Engineering far beyond current capability, but physics shifted from "violates known laws" to "requires unobtainable tech."
+- **Stanford Arthritis Pain Treatment** (May 22): Non-pharmacological, non-surgical intervention relieves osteoarthritis pain via neural pathway targeting. 300M+ potential beneficiaries.
+- **Stanford dominates biomedical news cycle**: Three significant Stanford medicine breakthroughs in one week — diabetes cure, arthritis pain, cartilage regeneration (earlier). AI-assisted discovery playing accelerating role across all three.
 
 ## Key Wiki Connections to Maintain
 
@@ -61,6 +61,9 @@ Next cycle (2026-05-27):
 
 | Date | Slug |
 |------|------|
+| 2026-05-27 | stanford-type-1-diabetes-cure-may-2026 |
+| 2026-05-27 | physical-warp-drive-loophole-may-2026 |
+| 2026-05-27 | stanford-arthritis-pain-treatment-may-2026 |
 | 2026-05-26 | rubio-india-500-billion-trade-claim-may-2026 |
 | 2026-05-26 | malaysia-exits-us-reciprocal-trade-deal-may-2026 |
 | 2026-05-26 | china-rare-earth-geopolitics-may-2026 |
@@ -68,9 +71,6 @@ Next cycle (2026-05-27):
 | 2026-05-25 | brazil-2026-elections-ai-regulation-stress-test |
 | 2026-05-25 | spacex-ipo-investor-frenzy-risk-may-2026 |
 | 2026-05-25 | ebola-who-emergency-committee-2026 |
-| 2026-05-25 | trump-ai-order-abandoned-2026 |
-| 2026-05-25 | california-ai-worker-protection-order-2026 |
-| 2026-05-25 | openai-math-breakthrough-erdos-conjecture |
 
 ## Excluded from Next Cycle
 

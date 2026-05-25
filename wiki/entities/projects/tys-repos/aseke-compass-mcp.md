@@ -3,7 +3,8 @@ created: 2026-05-01T07:06:21Z
 updated: 2026-05-01T07:06:21Z
 type: entity
 summary: MCP server for behavioral analysis mapping to Panksepp primary emotional systems and political orientation tendencies.
-tags: [projects, ty-repo, angrysky56, behavioral-analysis, psychology, mcp, panksepp-systems]
+tags: [mcp, compass, navigation]
+sources: []
 status: active
 confidence: 1.0
 ---

@@ -3,7 +3,8 @@ created: 2026-05-01T07:06:19Z
 updated: 2026-05-23T08:55:00Z
 type: entity
 summary: Sheaf-theoretic multi-agent coordination framework with lumpability-audited context management.
-tags: [projects, ty-repo, angrysky56, multi-agent-systems, sheaf-theory, context-management, agem]
+tags: [aging, longevity, biology]
+sources: []
 status: active
 confidence: 1.0
 ---

@@ -5,6 +5,7 @@ type: entity
 summary: Consistency enforcer using Sheaf Laplacian and ADMM to detect and recover from lumpability failures in AI stacks.
 tags: [projects, ty-repo, angrysky56, sheaf-theory, admm, consistency-enforcement, efhf]
 status: active
+sources: []
 confidence: 1.0
 ---
 

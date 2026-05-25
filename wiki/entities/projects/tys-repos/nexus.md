@@ -3,7 +3,8 @@ created: 2026-05-01T07:06:40Z
 updated: 2026-05-01T07:06:40Z
 type: entity
 summary: Neuro-Epistemic eXploration and Unified Synthesis Engine — an operating system for cognition.
-tags: [projects, ty-repo, angrysky56, cognitive-architecture, neuroscience, bicameral-mind, pid-control]
+tags: [nexus, knowledge, graph]
+sources: []
 status: active
 confidence: 1.0
 ---

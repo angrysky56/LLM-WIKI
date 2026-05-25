@@ -5,6 +5,7 @@ type: entity
 summary: Self-healing Recursive Language Model with persistent graph memory and sheaf-theoretic monitoring.
 tags: [projects, ty-repo, angrysky56, rlm, sheaf-theory, recursive-reasoning, falkordb, self-healing]
 status: active
+sources: []
 confidence: 1.0
 ---
 

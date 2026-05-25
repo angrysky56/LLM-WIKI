@@ -4,6 +4,7 @@ updated: 2026-05-23T08:55:00Z
 type: concept
 summary: Stephen Wolfram's project applying A New Kind of Science (NKS) to fundamental physics — causal networks, multiway rewrite systems.
 tags: [wolfram-physics, nks, computation, physics, concept]
+sources: []
 status: reference
 confidence: 0.8
 ---

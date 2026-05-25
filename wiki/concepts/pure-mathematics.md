@@ -1,0 +1,19 @@
+---
+created: 2026-05-25
+updated: 2026-05-25
+type: concept
+summary: "[STUB] Pure mathematics — theoretical mathematics without practical applications"
+tags: [mathematics, pure-math, stubs]
+sources: []
+status: stub
+confidence: 0.3
+---
+
+# Pure Mathematics
+
+*Stub page — needs real content*
+
+## Connections
+
+- [[mathematics]]
+- [[abstract-algebra]]

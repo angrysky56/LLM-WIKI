@@ -1,10 +1,19 @@
 ---
+created: 2026-05-20
+updated: 2026-05-20
+type: entity
+summary: MOP-guided research agent and concept space explorer — uses maximum-occupancy principle as Layer 0 of EFHF architecture
+tags: [research, agent, mop, exploration, efhf]
+sources: []
+status: active
+confidence: 0.7
+---
 
 # MOP Explorer
 
-**Type:** Project — MOP-guided research agent + concept space explorer
-**Repository:** `/home/ty/Repositories/ai_workspace/mop-explorer`
-**Status:** PRD drafted (v0.2, EFHF-integrated); Phase 1 not yet started
+**Type:** Project — MOP-guided research agent + concept space explorer  
+**Repository:** `/home/ty/Repositories/ai_workspace/mop-explorer`  
+**Status:** PRD drafted (v0.2, EFHF-integrated); Phase 1 not yet started  
 **PRD:** `mop-explorer/PRD.md`
 
 ---

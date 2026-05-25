@@ -304,7 +304,6 @@ type: index
 - [[russia-belarus-nuclear]] — [STUB] Nuclear sharing arrangements between Russia and Belarus
 - [[russia-ukraine-war]] — [STUB] Ongoing conflict between Russia and Ukraine since 2022
 - [[rz-nas]] — RZ-NAS — a neural architecture search method referenced in ML evolution literature; stub pending full documentation
-- [[scaling-law]] — [STUB] Singular form of scaling-laws — law describing model performance vs compute/data
 - [[scaling-laws]] — Empirical power-law relationships between neural network performance and model/data/compute scale — Kaplan/Chinchilla laws, emergent capabilities, and modern inference-time compute scaling
 - [[scientific-writing]] — The practice of communicating scientific information to other scientists, characterized by precision, clarity, and adherence to established formats like IMRaD.
 - [[seg-molecular-self]] — [STUB] SEG molecular self-assembly system
@@ -328,7 +327,7 @@ type: index
 - [[sqlite]] — [STUB] SQLite — embedded relational database
 - [[steering-vectors]] — [STUB] Steering vectors: directly modifying LLM behavior via activation vectors
 - [[subagent-delegation]] — Subagent delegation — pattern of spawning child agents to handle subtasks
-- [[superposition]] — Superposition hypothesis in neural representations — many features encoded in few neurons (stub)
+- Superposition — treated in [[neural-interpretability.md]] lines 42–63; redundant stub deleted Jun 2026
 - [[supertokens]] — High-level vocabulary entries created by merging multi-token sequences (structural phrases) into single units, functioning as operators in a problem-space search.
 - [[surprise-based-learning]] — A learning paradigm where the model prioritizes information storage or weight updates based on the "surprise" value (prediction error or gradient magnitude).
 - [[swe-bench]] — SWE-Bench — benchmark for software engineering tasks from real GitHub issues; tests agent ability to resolve real-world code problems

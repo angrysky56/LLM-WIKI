@@ -3,7 +3,8 @@ created: 2026-04-28T18:54:40Z
 updated: 2026-04-28T18:54:40Z
 type: entity
 summary: Neuroscientist specializing in the mechanisms of visual imagination and spontaneous brain activity.
-tags: [neuroscience, researcher]
+tags: [people, researcher]
+sources: []
 status: active
 confidence: 0.8
 ---

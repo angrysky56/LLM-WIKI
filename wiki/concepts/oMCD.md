@@ -1,8 +1,12 @@
 ---
+created: 2026-05-25T00:27:19Z
+updated: 2026-05-25T00:27:19Z
+type: concept
 summary: Formal framework for online metacognitive control of decisions with mathematical formulations
 tags: [meta-cognition, cognitive-architecture, decision-theory]
-updated: 2026-05-25T00:27:19Z
-created: 2026-05-25T00:27:19Z
+sources: []
+status: active
+confidence: 0.9
 ---
 
 # oMCD: Online Metacognitive Control of Decisions

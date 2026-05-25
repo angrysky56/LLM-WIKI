@@ -1,16 +1,11 @@
 ---
-summary: Persona to SEG replicant mapping across both councils
-tags: [personas, seg, replicants, mapping, research-council, technical-working-group]
-updated: 2026-05-25T04:28:28Z
 created: 2026-05-25T04:28:28Z
----
-
----
-created: 2026-05-25
-updated: 2026-05-25
+updated: 2026-05-25T04:28:28Z
 type: synthesis
 summary: Mapping between hermes-ops personas, SEG replicants, and two-council architecture roles
 tags: [personas, seg, replicants, research-council, technical-working-group, mapping]
+sources: []
+status: active
 confidence: 0.95
 ---
 

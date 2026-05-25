@@ -1,4 +1,13 @@
 ---
+created: 2026-05-13
+updated: 2026-05-13
+type: source
+summary: "Run 2 extraction quality audit: significant improvement observed — Download typed as Concept, Claude Code removed, but 203 generic Entity nodes and 97 file path artifacts remain"
+tags: [research, graph-quality, extraction-audit]
+sources: []
+status: archived
+confidence: 0.95
+---
 
 # Research Brief — 2026-05-13 (Run 2 — Extraction Quality Audit: Phase 1 & 2 Findings)
 
@@ -100,5 +109,3 @@ The reduction in entities misclassified as `Person` (e.g., "Download") is a sign
     - How did the graph undergo some partial cleanup regarding "Download" and "Claude Code" between the previous brief and now?
     - What is the process for classifying the new generic `Entity` nodes?
 - **Falsifiability:** If subsequent audits show significant re-emergence of "Download" as `Person` or "Claude Code" as `Law`, or if the counts of generic entities or specific short-string entities increase, these conclusions are falsified.
-
----

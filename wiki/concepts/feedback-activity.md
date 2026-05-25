@@ -4,6 +4,7 @@ updated: 2026-04-28T18:55:43Z
 type: concept
 summary: Neural signals that travel from higher processing centers back toward lower, sensory-related regions.
 tags: [neuroscience, biology, brain-activity]
+sources: []
 status: active
 confidence: 0.9
 ---

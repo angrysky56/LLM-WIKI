@@ -5,6 +5,7 @@ type: synthesis
 summary: Index of projects and repositories developed by Ty (angrysky56), focusing on ethical AI, advanced reasoning, and multi-agent systems.
 tags: [projects, ty-repo, angrysky56, ai-ethics, mcp]
 status: active
+sources: []
 confidence: 1.0
 ---
 

@@ -5,6 +5,7 @@ type: entity
 summary: Computational mechanics framework for formalizing emergence and multi-agent AI coordination with consistency enforcement.
 tags: [projects, ty-repo, angrysky56, computational-mechanics, multi-agent-systems, consistency-enforcement]
 status: active
+sources: []
 confidence: 1.0
 ---
 

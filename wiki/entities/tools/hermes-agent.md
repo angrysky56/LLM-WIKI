@@ -4,6 +4,7 @@ updated: 2026-05-23T08:55:00Z
 type: entity
 summary: Nous Research's open-source AI agent framework — multi-platform, provider-agnostic, skill-powered, with delegation, goals, cron, and memory systems
 tags: ['hermes', 'agent-framework', 'nous-research', 'delegation', 'goals', 'cron', 'multi-agent']
+sources: []
 status: active
 confidence: 0.95
 ---

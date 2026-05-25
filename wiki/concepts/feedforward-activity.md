@@ -4,6 +4,7 @@ updated: 2026-04-28T18:55:40Z
 type: concept
 summary: Neural signals that travel from sensory organs toward higher processing centers in the brain.
 tags: [neuroscience, biology, brain-activity]
+sources: []
 status: active
 confidence: 0.9
 ---

@@ -4,6 +4,7 @@ updated: 2026-04-28T18:54:53Z
 type: concept
 summary: The condition of having extremely vivid mental imagery, potentially linked to high precision in sculpting internal brain states.
 tags: [neuroscience, condition, imagination, hyperphantasia]
+sources: []
 status: active
 confidence: 0.8
 ---

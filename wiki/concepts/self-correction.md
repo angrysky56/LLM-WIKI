@@ -1,15 +1,9 @@
 ---
-summary: LLM self-correction capability and architectures with oMCD relationship added
-tags: [self-correction, reflection, metacognition, agentic, self-refine, reasoning, LLM]
-updated: 2026-05-25T00:28:06Z
----
-
----
 created: 2026-05-21T08:33:00Z
 updated: 2026-05-25T00:00:00Z
 type: concept
 summary: The capability and architectures of LLMs to detect, critique, and revise their own outputs — distinct from explicit CoT or formal metacognitive control
-tags: ['self-correction', 'reflection', 'metacognition', 'agentic', 'self-refine', 'reasoning', 'LLM']
+tags: [self-correction, reflection, metacognition, agentic, self-refine, reasoning, LLM]
 sources: ['https://arxiv.org/abs/2303.11391', 'https://arxiv.org/abs/2212.07060']
 status: active
 confidence: 0.8

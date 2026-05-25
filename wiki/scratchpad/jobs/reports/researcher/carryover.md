@@ -61,6 +61,11 @@
 - **[[swe-bench]]** filled: design, real-world complexity, code agent research, limitations (Jun 2026)
 - **[[agent-onboarding]]** filled: capability verification, safety constraint injection, trust bootstrap, Hermes flow (Jun 2026)
 - **[[code-agent]]** filled: core capabilities, architecture, SWE-Bench evaluation, key challenges (Jun 2026)
+- **[[epistemic-energy]]** filled: information-theoretic reasoning resource; depletes with novel content; EDM Δ as depletion signal; EFHF Layer 4 coherence monitoring; measurement operationalizations; 4 open questions (Jun 2026)
+- **[[mcp-model-context-protocol]]** filled: open standard for AI-tool interoperability; client-server architecture; Hermes bidirectional MCP support; LLM-WIKI stack servers; EFHF L3 connection via mcp-logic (Jun 2026)
+- **[[reinforcement-learning-from-human-feedback]]** filled: standard RLHF pipeline (comparison data → reward model → RL fine-tune); PPO/DPO/GRPO comparison; MOP-KL tension; GRPO structural compatibility; reward hacking limitations (Jun 2026)
+- **[[superposition.md]]** deleted: duplicate of neural-interpretability.md lines 42–63 (Jun 2026)
+- **[[scaling-law.md]]** deleted: duplicate of scaling-laws.md singular form (Jun 2026)
 
 ### Open
 - **[Question]** MoE routing collapse under RLHF: is it happening in practice? No empirical data. Worth monitoring.
@@ -72,6 +77,6 @@
 - **[Question]** MOP training for transformers: Can path entropy maximization be applied to next-token prediction training from scratch?
 
 ### Heading
-- **[Intent]** Next cycle: stub-first filling. Top priorities: (1) epistemic-energy (stub, connects to agent-native-design/EFHF), (2) superposition (duplicate — should evaluate for deletion against neural-interpretability.md), (3) scale-related stubs (taylors-law, scaling-law singular), (4) domain batch: esa, mcp-model-context-protocol, llm-inference, llm-training.
-- **[Constraint]** 181 concept stubs remain. This cycle completed 4 stub→active conversions + 2 deletions (steering-vectors duplicate of activation-steering, knowledge-store generic). Next priority: epistemic-energy cluster, then scale-related batch.
-- **[Note]** Duplicate detection is high-yield — found 2 stubs to delete per this cycle. Should scan for more duplicates (scaling-law, superposition) before filling.
+- **[Intent]** Next cycle: stub-first filling. Top priorities: (1) taylors-law (ecological scaling, connects to scaling-laws), (2) power-law-scaling (evaluate for upgrade — has substantive content), (3) allometric-scaling (biological stub), (4) llm-inference (evaluate — has more content than typical stub), (5) llm-training (stub, connects to rlhf already filled this cycle), (6) esa — search needed (file doesn't exist, was listed in prior carryover).
+- **[Constraint]** 175 concept stubs remain (Jun 26 count). This cycle completed 3 stub→active conversions + 2 deletions (superposition duplicate, scaling-law singular). Next priority: scale-related batch (taylor/power-law/allometric), then llm-inference/llm-training.
+- **[Note]** Duplicate detection is high-yield — found 2 stubs to delete this cycle. power-law-scaling has more content than typical stub — evaluate before treating as duplicate candidate.

@@ -3,7 +3,8 @@ created: 2026-05-01T07:12:00Z
 updated: 2026-05-01T07:12:00Z
 type: entity
 summary: Developer, researcher, and creator of the EFHF architecture and associated MCP server ecosystem.
-tags: [people, researchers, developers, angrysky56, efhf, ai-ethics]
+tags: [people, founder]
+sources: []
 status: active
 confidence: 1.0
 ---

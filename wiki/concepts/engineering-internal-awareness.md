@@ -1,15 +1,9 @@
 ---
-summary: Engineering internal awareness in LLMs with MCM/oMCD framework connections
-tags: [LLM, metacognition, internal-awareness, self-regulation]
-updated: 2026-05-25T00:28:08Z
----
-
----
 created: 2026-05-30
 updated: 2026-05-25T00:00:00Z
 type: concept
 summary: Engineering internal awareness mechanisms in LLMs — closed-loop self-regulation via metacognition
-tags: ['LLM', 'metacognition', 'internal-awareness', 'self-regulation']
+tags: [LLM, metacognition, internal-awareness, self-regulation]
 sources: []
 status: active
 confidence: 0.5

@@ -5,6 +5,7 @@ type: entity
 summary: Cognitive reasoning MCP server adding meta-reasoning, hypothesis testing, and integrated memory libraries to LLMs.
 tags: [projects, ty-repo, angrysky56, cognitive-architecture, mcp, reasoning, memory-systems]
 status: active
+sources: []
 confidence: 1.0
 ---
 

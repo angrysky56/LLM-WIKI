@@ -1,10 +1,19 @@
 ---
+created: 2026-05-20
+updated: 2026-05-20
+type: entity
+summary: First-order logic verification server — Prover9, Mace4, HCC for theorem proving, model finding, and abductive reasoning
+tags: [logic, theorem-proving, mcp, verification]
+sources: ['https://github.com/angrysky56/MCP-Logic']
+status: active
+confidence: 0.9
+---
 
 # mcp-logic
 
-**Type:** Tool — MCP server
-**Repository:** [MCP-Logic](https://github.com/angrysky56/MCP-Logic)
-**EFHF Layer:** 3 — Structural verification
+**Type:** Tool — MCP server  
+**Repository:** [MCP-Logic](https://github.com/angrysky56/MCP-Logic)  
+**EFHF Layer:** 3 — Structural verification  
 **Backend:** Prover9 (theorem proving), Mace4 (model finding), HCC (propositional logic)
 
 ---

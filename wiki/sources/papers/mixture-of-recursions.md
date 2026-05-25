@@ -1,9 +1,9 @@
 ---
-created: 2026-06-16
-updated: 2026-06-16
+created: 2026-05-25
+updated: 2026-05-25
 type: source
-summary: "[STUB] Mixture of Recursions — transformer architecture with recursive depth"
-tags: [mixture-of-recursions, stubs, ml-architectures]
+summary: "[STUB] Mixture of Recursions paper — recursive processing in mixture of experts models"
+tags: [mixture-of-recursions, paper, stubs]
 sources: []
 status: stub
 confidence: 0.3
@@ -15,4 +15,5 @@ confidence: 0.3
 
 ## Connections
 
-- [[transformer-architecture]]
+- [[mixture-of-experts]]
+- [[reasoning]]

@@ -5,6 +5,7 @@ type: entity
 summary: Neuro-symbolic cognitive architecture blending Montague grammar, graph-based world modeling, and formally verified ethics.
 tags: [projects, ty-repo, angrysky56, ai-ethics, montague-grammar, formal-verification]
 status: active
+sources: []
 confidence: 1.0
 ---
 

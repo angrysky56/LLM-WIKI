@@ -1,3 +1,11 @@
+---
+created: 2026-06-27
+updated: 2026-06-27
+type: reference
+summary: AGEM expert reference strategies
+tags: [agem-expert, reference]
+---
+
 # AGEM Orchestration Strategies
 
 ## Strategy 1: Deep Analysis (single topic)

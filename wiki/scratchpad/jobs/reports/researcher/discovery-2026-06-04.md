@@ -1,3 +1,11 @@
+---
+created: 2026-06-04
+updated: 2026-06-27
+type: report
+summary: Researcher discovery report
+tags: [researcher, report]
+---
+
 # Researcher Discovery Report — 2026-06-04
 
 ## Discovery Cycle

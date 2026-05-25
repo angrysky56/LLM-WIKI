@@ -1,3 +1,11 @@
+---
+created: 2026-06-27
+updated: 2026-06-27
+type: reference
+summary: News agent reference exclusion list
+tags: [news-agent, reference]
+---
+
 # News Agent Exclusion List
 
 Stories and categories to exclude from ingestion unless they explicitly intersect active research threads.

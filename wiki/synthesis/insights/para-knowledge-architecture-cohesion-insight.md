@@ -1,13 +1,14 @@
 ---
-created: 2026-05-23T20:30:00Z
-updated: 2026-05-24T02:22:45Z
+created: 2026-05-23 20:30:00+00:00
+updated: 2026-05-24 02:22:45+00:00
 type: synthesis
 summary: PARA framework structural integrity confirmed in knowledge graph
-tags: [insights, zettelkasten, Knowledge Management]
-sources: [derived from insight evidence: byarbroughobsidian-para Template for using Obsidian for P.A.R.A.]
+tags: [insights, zettelkasten, knowledge-management]
+sources: [{'derived from insight evidence': 'byarbroughobsidian-para Template for using Obsidian for P.A.R.A.'}]
 status: active
 confidence: 0.85
 ---
+
 
 # PARA System Cluster Reveals Knowledge Architecture Cohesion
 

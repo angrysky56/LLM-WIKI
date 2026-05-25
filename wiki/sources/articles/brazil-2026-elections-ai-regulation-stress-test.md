@@ -1,13 +1,14 @@
 ---
-created: 2026-05-25T00:00:00Z
-updated: 2026-05-25T00:00:00Z
+created: 2026-05-25 00:00:00+00:00
+updated: 2026-05-25 00:00:00+00:00
 type: source
 summary: Brazil's 2026 elections serve as first real-world stress test for AI regulation frameworks as candidates navigate voter manipulation, deepfake disclosure, and algorithmic accountability
-tags: [AI-policy, Brazil, elections, democracy, deepfakes, AI-regulation]
+tags: [ai-policy, brazil, elections, democracy, deepfakes, ai-regulation]
 sources: https://techpolicy.press/brazils-2026-elections-are-its-first-real-stress-test-for-ai-regulation/
 status: active
 confidence: 0.85
 ---
+
 
 # Brazil's 2026 Elections: First Real Stress Test for AI Regulation
 

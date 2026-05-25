@@ -1,9 +1,10 @@
 ---
+created: 2026-05-22 14:07:55+00:00
+updated: 2026-05-22 14:07:55+00:00
 summary: WHO emergency declaration for Ebola Bundibugyo outbreak in DRC/Uganda; no proven vaccine, UK developing new one
-tags: [news, Ebola, DRC, Uganda, WHO, public-health, vaccines]
-updated: 2026-05-22T14:07:55Z
-created: 2026-05-22T14:07:55Z
+tags: [news, ebola, drc, uganda, who, public-health, vaccines]
 ---
+
 
 ---
 created: 2026-05-22T00:00:00Z

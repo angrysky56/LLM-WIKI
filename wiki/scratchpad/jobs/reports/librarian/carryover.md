@@ -1,3 +1,11 @@
+---
+created: 2026-06-27
+updated: 2026-06-27
+type: carryover
+summary: Librarian agent carryover — 813 pages audited, broken links resolved, double frontmatter fixed
+tags: [librarian, carryover]
+---
+
 ## Established
 - **MCP available:** project-synapse OK
 - **Total pages:** 813 (concepts: 467, entities: 69, synthesis: 116, sources: 206)
@@ -8,6 +16,9 @@
 ## Open
 - `generate_insights()` not run this cycle — skip if timeout risk
 - HITS authority scoring not run — MCP tools available but skipped for efficiency
+
+## Kanban Status
+- [ ] Surfaced to central board: 2026-06-26
 
 ## Heading
 - Next cycle: HITS authority analysis + orphan detection via MCP

@@ -1,13 +1,14 @@
 ---
-created: 2026-05-24T08:00:00Z
-updated: 2026-05-24T08:00:00Z
+created: 2026-05-24 08:00:00+00:00
+updated: 2026-05-24 08:00:00+00:00
 type: source
 summary: OpenAI AI solved an 80-year-old Erdős problem — mathematicians amazed; first AI to prove a major open problem in pure mathematics
-tags: [OpenAI, AI-breakthrough, mathematics, Erdős, AI-research, scientific-discovery]
+tags: [openai, ai-breakthrough, mathematics, Erdős, ai-research, scientific-discovery]
 sources: https://www.theguardian.com/science/2026/may/21/openai-makes-breakthrough-on-80-year-old-maths-problem
 status: active
 confidence: 0.85
 ---
+
 
 # OpenAI Solves 80-Year-Old Erdős Problem — Mathematicians Amazed
 

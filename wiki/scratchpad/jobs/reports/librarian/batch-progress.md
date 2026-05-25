@@ -1,3 +1,11 @@
+---
+created: 2026-06-19
+updated: 2026-06-27
+type: report
+summary: Librarian batch progress report — tag normalization and link fixes
+tags: [librarian, report]
+---
+
 # Batch Progress — 2026-06-19 08:50
 
 ## Fixes Applied This Batch

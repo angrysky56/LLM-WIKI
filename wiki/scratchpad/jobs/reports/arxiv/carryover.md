@@ -52,6 +52,9 @@ confidence: high
 
 **Design principle**: Every bounded adaptation step must be verification-gated with a capacity-constrained step size.
 
+## Kanban Status
+- [ ] Surfaced to central board: 2026-06-26
+
 ## Notes for Next Run
 
 - **World-model improvement as next theme continues**: Given the bounded representation theme, next cycle should search for papers on: model editing, knowledge unlearning, skill compaction/compression, uncertainty-aware planning, or adaptive world model improvement via environment interaction.

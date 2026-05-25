@@ -1,13 +1,14 @@
 ---
-created: 2026-05-24T00:00:00Z
-updated: 2026-05-24T00:00:00Z
+created: 2026-05-24 00:00:00+00:00
+updated: 2026-05-24 00:00:00+00:00
 type: source
 summary: Ebola outbreak escalates with two treatment centers burned, cases in rebel-held DRC areas, and American infected and evacuated
-tags: [ebola, outbreak, DRC, public-health, PHEIC, WHO]
+tags: [ebola, outbreak, drc, public-health, pheic, who]
 sources: https://apnews.com/article/ebola-treatment-center-congo-may-2026, https://www.cfr.org/blog/new-ebola-outbreak-spreads-through-conflict-and-weak-us-response
 status: active
 confidence: 0.92
 ---
+
 
 # Ebola Outbreak Escalates: Second Treatment Center Burned, Cases Reach Rebel-Held Areas
 

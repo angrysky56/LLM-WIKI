@@ -1,9 +1,10 @@
 ---
+created: 2026-05-22 14:16:33+00:00
+updated: 2026-05-22 14:16:33+00:00
 summary: Wiki source page for MOSS paper on source-level self-evolving agents
-tags: [paper, self-evolving-agents, source-level, OpenClaw]
-updated: 2026-05-22T14:16:33Z
-created: 2026-05-22T14:16:33Z
+tags: [paper, self-evolving-agents, source-level, openclaw]
 ---
+
 
 ---
 title: "MOSS: Self-Evolution through Source-Level Rewriting"

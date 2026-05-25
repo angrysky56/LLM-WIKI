@@ -1,10 +1,11 @@
 ---
 summary: OpenAI o3 model disproved a central conjecture in discrete geometry — 80-year Erdős problem — marking the most significant AI-assisted mathematical discovery to date
-tags: [news, AI, mathematics, OpenAI, scientific-discovery, o3, proof]
+tags: [news, ai, mathematics, openai, scientific-discovery, o3, proof]
 sources: https://openai.com/index/an-openai-model-has-disproved-a-central-conjecture-in-discrete-geometry/, https://www.theguardian.com/world/2026/may/21/openai-makes-breakthrough-on-80-year-old-maths-problem, https://www.scientificamerican.com/technology/ai-just-solved-an-80-year-old-erdos-problem-and-mathematicians-are-amazed/
-confidence: 0.9
 status: active
+confidence: 0.9
 ---
+
 
 # OpenAI o3 Solves 80-Year-Old Erdős Geometry Conjecture (May 20-21, 2026)
 

@@ -1,13 +1,14 @@
 ---
-created: 2026-05-27T08:30:00Z
-updated: 2026-05-27T08:30:00Z
+created: 2026-05-27 08:30:00+00:00
+updated: 2026-05-27 08:30:00+00:00
 type: concept
 summary: GRPO — a group-relative policy optimization algorithm for LLM training that uses within-group advantage estimation instead of a reference model
-tags: [reinforcement-learning, LLM-training, policy-gradient, group-relative, GRPO, RLHF-alternative]
-sources: [arXiv:2410.06906, arXiv:2605.18299]
+tags: [reinforcement-learning, llm-training, policy-gradient, group-relative, grpo, rlhf-alternative]
+sources: ['arXiv:2410.06906', 'arXiv:2605.18299']
 status: active
 confidence: 0.9
 ---
+
 
 
 

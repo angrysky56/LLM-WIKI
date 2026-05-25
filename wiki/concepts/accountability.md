@@ -3,11 +3,12 @@ created: 2026-05-29
 updated: 2026-06-04
 type: concept
 summary: Establishing clear responsibility for AI actions and outcomes — assignability, auditability, and answerability as the three pillars
-tags: [AI-governance, ethics, responsibility, accountability, oversight]
-sources: 
+tags: [ai-governance, ethics, responsibility, accountability, oversight]
+sources: None
 status: active
 confidence: 0.75
 ---
+
 
 # Accountability
 

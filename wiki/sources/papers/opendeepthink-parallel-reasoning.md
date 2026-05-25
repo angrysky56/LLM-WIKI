@@ -1,8 +1,9 @@
 ---
+updated: 2026-05-17 18:17:37+00:00
 summary: Pairwise Bradley-Terry ranking aggregates noisy LLM judgments for robust parallel reasoning; +405 Elo on Codeforces in 8 rounds, model-agnostic transfer.
-tags: [arxiv, cs.AI, reasoning, test-time compute, LLM evaluation, Bradley-Terry]
-updated: 2026-05-17T18:17:37Z
+tags: [arxiv, cs.AI, reasoning, test-time-compute, llm-evaluation, bradley-terry]
 ---
+
 
 # OpenDeepThink: Parallel Reasoning via Bradley--Terry Aggregation
 

@@ -1,10 +1,11 @@
 ---
 summary: California becomes first state with proactive AI disruption executive order — direct response to Meta layoffs and broader tech sector AI-driven workforce reductions
-tags: [news, AI, policy, California, workers, Newsom]
+tags: [news, ai, policy, california, workers, newsom]
 sources: https://www.gov.ca.gov/2026/05/21/governor-newsom-signs-first-of-its-kind-executive-order-to-prepare-workers-and-businesses-for-potential-ai-disruption
-confidence: 0.9
 status: active
+confidence: 0.9
 ---
+
 
 # California Governor Newsom Signs AI Worker Protection Executive Order (May 21, 2026)
 

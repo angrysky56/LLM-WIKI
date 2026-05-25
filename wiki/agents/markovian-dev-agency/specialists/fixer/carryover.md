@@ -1,3 +1,11 @@
+---
+created: 2026-06-27
+updated: 2026-06-27
+type: carryover
+summary: Fixer specialist carryover
+tags: [markovian-dev-agency/fixer, carryover]
+---
+
 ## CarryoverState
 
 ### Established

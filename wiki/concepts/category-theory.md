@@ -72,7 +72,7 @@ The connection to AI alignment:
 
 ## Open Questions
 
-1. **Neural network categories**: Do attention mechanisms, residual connections, and layer compositions form a closed monoidal category? If so, what does the internal hom look like? This would enable categorical compositional verification of network architectures.
+1. **Neural network categories**: See [[attention-monoidal-closure]] — the closed monoidal question for attention layers has been analyzed; key open issues: softmax non-linearity blocking exact internal hom, cross-attention adapter as candidate `[A,B]`, and scaling to full transformers with residual connections and LayerNorm.
 
 2. **Sheaf cohomology for multi-agent consistency**: The sheaf-consistency-enforcer uses coboundary norms to detect H¹ obstructions. The full categorical picture — how local consistency conditions glue into global consistency — is sheaf theory. Does this scale to heterogeneous agent populations?
 

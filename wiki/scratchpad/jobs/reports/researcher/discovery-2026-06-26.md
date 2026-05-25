@@ -1,56 +1,51 @@
+---
+created: 2026-06-26
+updated: 2026-06-27
+type: report
+summary: Researcher discovery report
+tags: [researcher, report]
+---
+
 # Researcher Discovery Report — 2026-06-26
 
 ## Discovery Cycle
-- Topics researched: 5 (epistemic-energy, mcp-model-context-protocol, rlhf, superposition duplicate, scaling-law duplicate)
-- New pages created: 3 (epistemic-energy, mcp-model-context-protocol, reinforcement-learning-from-human-feedback — all upgraded from stub)
-- Pages updated: 2 (neural-interpretability.md — removed broken link to deleted superposition stub; index.md — fixed duplicate entries)
-- Cross-links added: 10+
-- Stubs resolved: 5 (epistemic-energy, mcp-model-context-protocol, rlhf promoted; superposition, scaling-law singular deleted)
-- Net stub count: 182 → 175 (3 promoted, 2 deleted, 7 net reduction)
+- Topics researched: 1 (cognitive world models for LLM agents)
+- New pages created: 1
+- Pages updated: 1 (world-model.md — Open Question #1 answered)
+- Cross-links added: ~20 new wikilinks across 5 concepts
 
-## New Entries
+## New Entry
 
-### epistemic-energy.md (stub → active)
-Full concept page for epistemic energy as a first-class information-theoretic resource in agentic AI systems. Content: definition as reasoning energy analogous to metabolic energy, EDM disruption as depletion signal (high Δ = accelerated depletion), EFHF Layer 4 coherence monitoring implementation, candidate measurement approaches (attention entropy, context utilization, perplexity on known facts). Connects to agent-native-design (where it was first introduced), MOP/EFHF (Layer 0/4), and working-memory (active maintenance substrate). 4 open questions on measurement, refill mechanisms, cross-session transfer, and individual differences.
+### `wiki/concepts/cognitive-world-models-for-llm-agents.md`
+Answered the open question from `world-model.md` Open Question #1: *How do you represent "what the world looks like" for a text-based agent?*
 
-### mcp-model-context-protocol.md (stub → active)
-Full concept page for MCP as an open standard protocol for AI-tool interoperability. Covers: client-server architecture, tool discovery and invocation, Hermes Agent's bidirectional MCP support (client + server), the MCP servers in the LLM-WIKI stack (mcp-logic, project-synapse, verifier-graph, etc.), and mcp-logic's role as EFHF Layer 3. 85% confidence.
+Core contribution — the **four-layer cognitive world model** for text-based agents:
 
-### reinforcement-learning-from-human-feedback.md (stub → active)
-Full concept page for RLHF as the dominant alignment training methodology. Covers: the standard pipeline (comparison data → reward model → RL fine-tune), PPO vs DPO vs GRPO algorithm comparison, MOP tension with KL-regularization (PPO pushes deterministic, MOP requires stochastic), GRPO's structural compatibility with MOP, reward hacking and limitations. 85% confidence.
+1. **Conversation State (Layer 1)**: Belief graph derived from conversation history — user intent model, task state, constraint set, goal decomposition. Not a flat context string but a traversable structured belief state.
 
-## Deleted Entries
+2. **Tool History Graph (Layer 2)**: State-delta records for every tool call — pre-state, parameters, post-state, causality chains. Inspired by WALL-E 2.0's symbolic knowledge extraction (arXiv:2504.15785) and Agent World Model (arXiv:2602.10090).
 
-### superposition.md — DELETED (duplicate)
-Redundant stub. The `neural-interpretability.md` page has comprehensive superposition treatment in lines 42–63 (neurons ≠ features, sparse autoencoders, Anthropic's key insights). The stub added no value. Removed the broken `[[superposition]]` link from neural-interpretability.md Connections section (replaced with inline note pointing to the existing treatment). Index.md updated.
+3. **World Dynamics Model (Layer 3)**: Transition function learned from experience — which tool sequences achieve which outcomes, which plans succeed in which contexts. Task-specific (unlike physical dynamics which are universal), requiring [[persistent-knowledge-compilation]] for recurring patterns.
 
-### scaling-law.md — DELETED (duplicate of scaling-laws.md)
-Singular form of the already-covered `scaling-laws.md`. The stub's only outgoing links were to active pages (scaling-laws, power-law-scaling, inference-time-compute-scaling) so no broken links were introduced. Index.md updated to point to the canonical `scaling-laws.md` entry.
+4. **Uncertainty/Divergence Tracking (Layer 4)**: Stale beliefs, user intent drift, plan misprediction — tracked via [[epistemic-energy]] depletion.
+
+Architecture synthesis: **compilation vs. retrieval** — raw context as source of truth (RAG-style retrieval), but a compiled belief graph + tool history graph as the efficient queryable world model (PKC-style compilation).
+
+Maps onto the MOP-EFHF stack explicitly (L2 = hipai-montague = cognitive world model).
+
+## Updated Entry
+
+- `wiki/concepts/world-model.md`: Marked Open Question #1 as answered with link to new entry.
 
 ## Gap Analysis
 
-**~175 stubs remain** (net -7 from Jun 25's 182). Next priority clusters per carryover:
+- `hipai-montague.md` does not exist — referenced in world-model.md and the new page, but no dedicated entity page. Should this be its own entity or a subsection of another page?
+- `efhf.md` not found in concepts/ — referenced everywhere but no dedicated page. Likely needs its own entry.
+- `persistent-knowledge-compilation.md` not found — only mentioned in links but no dedicated page.
+- The new cognitive world models page introduces a **belief graph** concept (Layer 1) that doesn't exist elsewhere in the vault. No concept page for belief graphs or belief revision specifically.
 
-1. **epistemic-energy** ✓ filled this cycle
-2. **scale-related batch**: taylors-law (ecological scaling, connects to scaling-laws), power-law-scaling (needs evaluation — it actually has decent content), allometric-scaling (biological stub)
-3. **mcp-model-context-protocol** ✓ filled this cycle
-4. **llm-inference** (stub, NAMM + KV cache mentions — has more content than typical stub, should evaluate)
-5. **llm-training** (stub, mentions catastrophic-forgetting/control-llm/GRPO/RLHF connections)
-6. **reinforcement-learning-from-human-feedback** ✓ filled this cycle
-7. **esa** — file doesn't exist; carryover listed it but no stub found. Possibly ingested elsewhere.
-8. **hermes-agent-skills**, **agentic-design-picker** — system stubs, not AI/ML research
+## Open Questions
 
-**Remaining duplicate candidates**: power-law-scaling has more content than a typical stub (it already has the neural scaling law formula) — should evaluate for upgrade vs keep as-is rather than delete.
-
-## Open Questions (from carryover — verified against wiki before listing)
-
-1. **MoE routing collapse under RLHF** — No empirical data. Still unresolved. Monitor.
-2. **Adaptive budget learning** — No clear paper yet. Still unresolved.
-3. **Hybrid reward models (ELHSR + SD-Search)** — Emerging direction, no full treatment. Still unresolved.
-4. **Reward hacking detectability** — No reliable early-warning signal. Still unresolved.
-5. **Category theory for neural network verification** — Category theory filled; neural-interpretability filled; the specific question (attention = closed monoidal category) remains unresolved.
-6. **Cognitive world models for LLM agents** — world-model filled; the specific question of text-based agent representation remains open.
-7. **MOP training for transformers** — agent-native-design filled; the specific training question remains open.
-
-## Stub Count
-Accurate count as of this cycle: **175 concept stubs** (net -7 from Jun 25's 182). Counting method: `rg "status: stub" wiki/concepts/*.md -l | wc -l`.
+1. Should `hipai-montague`, `efhf`, and `persistent-knowledge-compilation` each get dedicated entity/concept pages, or are they sufficiently covered as components of other pages?
+2. The four-layer model is my synthesis — does Ty want to validate or challenge the framing before it becomes canonical?
+3. No empirical data found specifically on "cognitive world models for text-based agents" as a named research area — this is an emerging gap the vault is ahead of.

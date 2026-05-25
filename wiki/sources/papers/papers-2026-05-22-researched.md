@@ -1,3 +1,11 @@
+---
+created: 2026-05-22
+updated: 2026-06-27
+type: source
+summary: Papers researched — production LLM agent architecture, VLM reasoning decoupling, clinical evidence seeking
+tags: [papers, source]
+---
+
 # Papers Researched: 2026-05-22
 
 ## MOSS: Self-Evolution through Source-Level Rewriting

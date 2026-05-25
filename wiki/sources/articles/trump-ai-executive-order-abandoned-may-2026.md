@@ -1,10 +1,11 @@
 ---
 summary: Trump administration calls off proposed AI executive order after objections from tech industry over concerns it could weaken US AI competitiveness
-tags: [news, AI, policy, Trump, regulation, tech]
+tags: [news, ai, policy, trump, regulation, tech]
 sources: https://www.newindianexpress.com/world/trump-calls-off-ai-executive-order-over-concern-it-could-weaken-us-tech-edge-3766611/
-confidence: 0.85
 status: active
+confidence: 0.85
 ---
+
 
 # Trump Administration Abandons AI Executive Order (May 22, 2026)
 

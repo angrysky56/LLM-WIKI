@@ -3,11 +3,12 @@ created: 2026-05-29
 updated: 2026-06-04
 type: concept
 summary: Structures, rules, and processes for directing, monitoring, and controlling AI behavior — covering alignment, oversight, accountability, and transparency
-tags: [AI-governance, ethics, oversight, accountability, alignment]
-sources: 
+tags: [ai-governance, ethics, oversight, accountability, alignment]
+sources: None
 status: active
 confidence: 0.75
 ---
+
 
 # Governance
 

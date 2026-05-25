@@ -1,9 +1,10 @@
 ---
 summary: Three papers on delta-based AI agent checkpoint/rollback, RLHF memory optimization, and adaptive test-time reasoning
-tags: [arxiv, paper-discovery, ai-agents, checkpoint-restore, RLHF, test-time-scaling]
+tags: [arxiv, paper-discovery, ai-agents, checkpoint-restore, rlhf, test-time-scaling]
 sources: https://export.arxiv.org/api/query?search_query=cat:cs.AI+OR+cat:cs.LG+OR+cat:cs.CL
 confidence: 0.8
 ---
+
 
 # arxiv Report — 2026-05-22
 

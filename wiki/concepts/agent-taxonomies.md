@@ -1,13 +1,14 @@
 ---
-created: 2026-05-25T00:27:21Z
-updated: 2026-05-25T00:27:21Z
+created: 2026-05-25 00:27:21+00:00
+updated: 2026-05-25 00:27:21+00:00
 type: concept
 summary: Six agent archetypes (Alpha-Zeta) with roles, instruction sets, and oMCD mappings
-tags: [meta-cognition, agent-taxonomies, AI-architectures]
+tags: [meta-cognition, agent-taxonomies, ai-architectures]
 sources: []
 status: active
 confidence: 0.9
 ---
+
 
 # Agent Taxonomies: Alpha through Zeta
 
@@ -17,12 +18,12 @@ This page defines six archetypal agent types, ordered by increasing meta-cogniti
 
 | Archetype | Primary Function | Key oMCD Mechanism | Instruction Set Focus |
 |-----------|------------------|-------------------|----------------------|
-| [[#alpha\|Alpha]] | Complexity gating | threshold $\omega(t)$ | Meta-level control |
-| [[#beta\|Beta]] | Option optimization | ż (control signal) | Decision quality |
-| [[#gamma\|Gamma]] | Adaptive learning | $\beta$ calibration | Self-improvement |
-| [[#delta\|Delta]] | Evolutionary search | parallel MDP rollouts | Exploration |
-| [[#epsilon\|Epsilon]] | Assumption validation | stop criterion | Self-correction |
-| [[#zeta\|Zeta]] | Entropy regulation | dual to confidence | Uncertainty management |
+| [[Alpha|Alpha]] | Alpha | Complexity gating | threshold $\omega(t)$ | Meta-level control |
+| [[Beta|Beta]] | Beta | Option optimization | ż (control signal) | Decision quality |
+| [[Gamma|Gamma]] | Gamma | Adaptive learning | $\beta$ calibration | Self-improvement |
+| [[Delta|Delta]] | Delta | Evolutionary search | parallel MDP rollouts | Exploration |
+| [[Epsilon|Epsilon]] | Epsilon | Assumption validation | stop criterion | Self-correction |
+| [[Zeta|Zeta]] | Zeta | Entropy regulation | dual to confidence | Uncertainty management |
 
 ---
 

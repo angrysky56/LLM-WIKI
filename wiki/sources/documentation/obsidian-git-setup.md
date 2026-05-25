@@ -34,3 +34,9 @@ Mobile limitations: no SSH auth, repo size restricted, no rebase, no submodules.
 ## Relevance to This Wiki
 
 This vault uses the Obsidian Git plugin to sync to [GitHub](https://github.com/angrysky56/LLM-WIKI). All wiki pages, raw sources, and the CLAUDE.md schema are version-controlled. Destructive edits can be reverted via `git revert`.
+
+## Connections
+
+- [[llm-wiki-pattern]] — PATO PARA method used in this wiki's structure
+- [[obsidian-cli-skill]] — companion skill for Obsidian CLI operations
+- [[obsidian-para-byarbrough]] — PARA template variant (Tiago Forte's method)

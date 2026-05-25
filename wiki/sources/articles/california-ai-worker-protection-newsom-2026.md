@@ -1,13 +1,14 @@
 ---
-created: 2026-05-24T08:00:00Z
-updated: 2026-05-24T08:00:00Z
+created: 2026-05-24 08:00:00+00:00
+updated: 2026-05-24 08:00:00+00:00
 type: source
 summary: California Governor Newsom signs first-in-nation executive order to prepare workers and businesses for AI disruption — addresses automation displacement, retraining, economic transition
-tags: [California, AI-regulation, worker-protection, Newsom, executive-order, AI-policy, tech-regulation]
+tags: [california, ai-regulation, worker-protection, newsom, executive-order, ai-policy, tech-regulation]
 sources: https://www.gov.ca.gov/2026/05/21/governor-newsom-signs-first-of-its-kind-executive-order-to-prepare-workers-and-businesses-for-potential-ai-disruption
 status: active
 confidence: 0.9
 ---
+
 
 # California Governor Newsom Signs AI Worker Protection Executive Order (May 2026)
 

@@ -1,3 +1,11 @@
+---
+created: 2026-05-22
+updated: 2026-06-27
+type: report
+summary: News report — Stanford diabetes cure and warp drive physics breakthrough
+tags: [news, report]
+---
+
 # News Report — 2026-05-22
 
 ## Stories Ingested

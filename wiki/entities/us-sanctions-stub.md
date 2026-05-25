@@ -1,14 +1,14 @@
 ---
-created: 2026-06-16T08:50:00Z
-updated: 2026-06-16T08:50:00Z
+created: 2026-06-16 08:50:00+00:00
+updated: 2026-06-16 08:50:00+00:00
 type: entity
 summary: US Sanctions — Specially Designated Nationals (SDN) framework
-tags: [geopolitics, sanctions, US-policy, financial-regulation]
+tags: [geopolitics, sanctions, us-policy, financial-regulation]
+sources: []
 status: stub
 confidence: 0.3
-sources: []
-
 ---
+
 
 # US Sanctions / SDN Framework (stub)
 

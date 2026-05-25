@@ -1,14 +1,14 @@
 ---
-summary: Epsilon machine causal states ↔ EDM citation vectors — disruptive papers as OOD state-splitting events; connected to MOP (β = state-splitting appetite) and EFHF (hallucination = lumpability failure)
-type: synthesis
-tags: [computational-mechanics, epsilon-machine, EDM, OOD, citation-networks, disruption, hallucination-detection, synthesis, lumpability, simultaneous-discovery, MOP, EFHF]
-updated: 2026-04-14T04:13:57Z
 created: 2026-05-13
+updated: 2026-04-14 04:13:57+00:00
+type: synthesis
+summary: Epsilon machine causal states ↔ EDM citation vectors — disruptive papers as OOD state-splitting events; connected to MOP (β = state-splitting appetite) and EFHF (hallucination = lumpability failure)
+tags: [computational-mechanics, epsilon-machine, edm, ood, citation-networks, disruption, hallucination-detection, synthesis, lumpability, simultaneous-discovery, mop, efhf]
 sources: []
 status: draft
 confidence: 0.6
-
 ---
+
 
 
 

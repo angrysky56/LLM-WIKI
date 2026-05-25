@@ -1,13 +1,14 @@
 ---
-created: 2026-04-11T00:00:00Z
-updated: 2026-04-11T00:00:00Z
+created: 2026-04-11 00:00:00+00:00
+updated: 2026-04-11 00:00:00+00:00
 type: concept
 summary: Embedding Disruptiveness Measure — Kim, Kojaku & Ahn (2026) — directional skip-gram on citation networks yielding past/future vectors whose cosine distance quantifies scientific disruption
-tags: [EDM, citation-network, embeddings, science-of-science, disruption, skip-gram, node2vec, simultaneous-discovery]
+tags: [edm, citation-network, embeddings, science-of-science, disruption, skip-gram, node2vec, simultaneous-discovery]
 sources: https://doi.org/10.1126/sciadv.adx3420
 status: reference
 confidence: 0.95
 ---
+
 
 
 

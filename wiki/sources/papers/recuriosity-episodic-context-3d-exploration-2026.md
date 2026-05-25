@@ -1,9 +1,10 @@
 ---
+created: 2026-05-23 14:13:37+00:00
+updated: 2026-05-23 14:13:37+00:00
 summary: Wiki source page for Recuriosity (2605.22814v1) — curiosity-driven 3D exploration with persistent 3DGS world model and episodic RGB transformer policy
-tags: [source, paper, curiosity, 3DGS, exploration, RL, world-model]
-updated: 2026-05-23T14:13:37Z
-created: 2026-05-23T14:13:37Z
+tags: [source, paper, curiosity, 3dgs, exploration, rl, world-model]
 ---
+
 
 ---
 created: 2026-05-23

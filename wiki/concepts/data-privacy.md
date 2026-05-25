@@ -3,11 +3,12 @@ created: 2026-05-29
 updated: 2026-05-29
 type: concept
 summary: Data privacy — protection of personal information in AI systems
-tags: [privacy, data-protection, AI-ethics]
-sources: 
+tags: [privacy, data-protection, ai-ethics]
+sources: None
 status: stub
 confidence: 0.3
 ---
+
 
 # Data Privacy
 

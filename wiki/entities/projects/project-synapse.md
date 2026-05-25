@@ -1,13 +1,14 @@
 ---
-summary: Graph-backed MCP server providing semantic search, knowledge synthesis, and wiki bridge
-tags: [project, MCP, Neo4j, architecture, core]
-updated: 2026-04-07T20:01:48Z
-created: 2026-04-07T20:01:48Z
+created: 2026-04-07 20:01:48+00:00
+updated: 2026-04-07 20:01:48+00:00
 type: entity
+summary: Graph-backed MCP server providing semantic search, knowledge synthesis, and wiki bridge
+tags: [project, mcp, neo4j, architecture, core]
 sources: []
 status: active
 confidence: 0.8
 ---
+
 
 # Project Synapse
 

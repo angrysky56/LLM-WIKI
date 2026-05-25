@@ -101,7 +101,7 @@ Biological and some AI systems implement hierarchical predictive coding: each la
 
 ## Open Questions
 
-1. **Cognitive world models for LLM agents**: How do you represent "what the world looks like" for a text-based agent? Conversation state? Tool return history? Beliefs about user intent?
+1. ~~Cognitive world models for LLM agents~~ — **answered** → [[cognitive-world-models-for-llm-agents]]
 
 2. **World model uncertainty quantification**: When should the agent trust its world model's predictions vs. treat them as uncertain? Formal methods could verify uncertainty bounds.
 

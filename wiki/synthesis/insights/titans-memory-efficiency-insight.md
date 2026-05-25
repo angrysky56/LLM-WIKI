@@ -1,13 +1,14 @@
 ---
-created: 2026-05-25T06:01:00Z
-updated: 2026-05-25T06:01:00Z
+created: 2026-05-25 06:01:00+00:00
+updated: 2026-05-25 06:01:00+00:00
 type: synthesis
 summary: Titans memory architecture shares efficiency theme with speculative decoding via complementary test-time learning versus runtime speculation
-tags: [insights, zettelkasten, efficient inference memory architecture]
-sources: [derived from evidence]
+tags: [insights, zettelkasten, efficient-inference-memory-architecture]
+sources: ['derived from evidence']
 status: active
 confidence: 0.85
 ---
+
 
 ## Titans Memory Architecture Reveals Efficiency Theme Through Speculative Decoding Connections
 

@@ -1,3 +1,11 @@
+---
+created: 2026-06-27
+updated: 2026-06-27
+type: reference
+summary: Value guardian reference axioms
+tags: [value-guardian, reference]
+---
+
 # EFHF Ethical Axioms & Theorems
 
 ## Omega1 — Moral Status (7 axioms)

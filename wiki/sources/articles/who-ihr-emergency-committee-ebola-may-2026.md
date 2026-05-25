@@ -1,10 +1,11 @@
 ---
 summary: WHO Emergency Committee convenes as Ebola PHEIC reaches critical threshold with 395+ cases, temporary recommendations issued
-tags: [news, public-health, ebola, PHEIC, DRC, Uganda, Africa, WHO]
+tags: [news, public-health, ebola, pheic, drc, uganda, africa, who]
 sources: https://www.who.int/news-room/articles-detail/first-meeting-of-the-ihr-emergency-committee-regarding-the-ebola-outbreak-in-drc-and-uganda-2026
-confidence: 0.85
 status: active
+confidence: 0.85
 ---
+
 
 # WHO IHR Emergency Committee — First Meeting (May 22, 2026)
 

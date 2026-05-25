@@ -1,3 +1,11 @@
+---
+created: 2026-05-24
+updated: 2026-06-27
+type: report
+summary: arxiv daily report — Proxy-Based Approximation of Shapley and Banzhaf Interactions
+tags: [arxiv, report]
+---
+
 # arxiv Report — 2026-05-24
 
 ## Papers Processed

@@ -3,14 +3,12 @@ created: 2026-05-13
 updated: 2026-05-13
 type: synthesis
 summary: Unifying SSL schema + Markovian carryover + Memory Curse fixes into a bounded structured memory architecture for Synapse
-tags: [memory, architecture, SSL, markovian, memory-curse, entity-extraction, skill]
+tags: [memory, architecture, ssl, markovian, memory-curse, entity-extraction, skill]
+sources: ['https://arxiv.org/abs/2605.08060 (Memory Curse)', 'https://arxiv.org/abs/2604.24026 (SSL)', 'https://arxiv.org/abs/2510.06557 (Markovian Thinker)']
 status: active
 confidence: 0.85
-sources: 
-  - https://arxiv.org/abs/2605.08060 (Memory Curse)
-  - https://arxiv.org/abs/2604.24026 (SSL)
-  - https://arxiv.org/abs/2510.06557 (Markovian Thinker)
 ---
+
 
 
 

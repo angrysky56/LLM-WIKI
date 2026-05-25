@@ -1,10 +1,11 @@
 ---
 summary: US trade court rules Trump 10% global tariff illegal — may reshape trade war trajectory
-tags: [news, trade, tariffs, US, legal]
+tags: [news, trade, tariffs, us, legal]
 sources: https://www.nytimes.com/2026/05/07/us/trump-tariffs-court-ruling.html
-confidence: 0.85
 status: active
+confidence: 0.85
 ---
+
 
 # US Trade Court Rules Trump 10% Global Tariff Illegal
 

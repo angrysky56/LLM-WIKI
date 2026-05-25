@@ -1,3 +1,11 @@
+---
+created: 2026-05-24
+updated: 2026-06-27
+type: report
+summary: arxiv papers researched — ProxySHAP and Shapley/Banzhaf interaction indices
+tags: [arxiv, report]
+---
+
 # Papers Researched — 2026-05-24
 
 ## 2605.22738 — Proxy-Based Approximation of Shapley and Banzhaf Interactions

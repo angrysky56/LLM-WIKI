@@ -1,13 +1,14 @@
 ---
-created: 2026-05-24T08:00:00Z
-updated: 2026-05-24T08:00:00Z
+created: 2026-05-24 08:00:00+00:00
+updated: 2026-05-24 08:00:00+00:00
 type: source
 summary: WHO declares Ebola outbreak in DRC and Uganda a global health emergency — Bundibugyo strain, ~750 suspected cases, 177 deaths, case count tripling weekly
-tags: [ebola, public-health-emergency, DRC, Uganda, WHO, PHEIC, outbreak-2026]
+tags: [ebola, public-health-emergency, drc, uganda, who, pheic, outbreak-2026]
 sources: https://www.who.int/news/item/18-05-2026-who-declares-ebola-outbreak-in-congo-and-uganda-a-public-health-emergency-of-international-concern
 status: active
 confidence: 0.95
 ---
+
 
 # Ebola Outbreak in DRC and Uganda — PHEIC Declared (May 2026)
 

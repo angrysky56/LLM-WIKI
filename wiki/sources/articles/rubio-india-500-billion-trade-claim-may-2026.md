@@ -1,13 +1,14 @@
 ---
-created: 2026-05-26T08:00:00Z
-updated: 2026-05-26T08:00:00Z
+created: 2026-05-26 08:00:00+00:00
+updated: 2026-05-26 08:00:00+00:00
 type: source
 summary: $500B question as Rubio's India trade claim unravels after original tariff bargain loses footing
-tags: [news, trade, tariffs, India, US, diplomacy]
+tags: [news, trade, tariffs, india, us, diplomacy]
 sources: https://m.economictimes.com/news/india/a-500-billion-question-hangs-over-rubio-india-trade-claim-as-original-tariff-bargain-loses-its-footing
-confidence: 0.75
 status: active
+confidence: 0.75
 ---
+
 
 # $500 Billion Question Hangs Over Rubio's India Trade Claim
 

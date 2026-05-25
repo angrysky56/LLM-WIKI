@@ -1,13 +1,14 @@
 ---
 created: 2026-05-30
-updated: 2026-05-25T00:00:00Z
+updated: 2026-05-25 00:00:00+00:00
 type: concept
 summary: Engineering internal awareness mechanisms in LLMs — closed-loop self-regulation via metacognition
-tags: [LLM, metacognition, internal-awareness, self-regulation]
+tags: [llm, metacognition, internal-awareness, self-regulation]
 sources: []
 status: active
 confidence: 0.5
 ---
+
 
 # Engineering Internal Awareness
 

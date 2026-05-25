@@ -1,13 +1,14 @@
 ---
-created: 2026-05-26T08:00:00Z
-updated: 2026-05-26T08:00:00Z
+created: 2026-05-26 08:00:00+00:00
+updated: 2026-05-26 08:00:00+00:00
 type: source
 summary: China consolidates rare earth dominance as geopolitical weapon, restricting global access amid US-China tech war escalation
-tags: [news, geopolitics, China, rare-earth, supply-chain, trade]
+tags: [news, geopolitics, china, rare-earth, supply-chain, trade]
 sources: https://247wallst.com/news/geopolitics/china-against-everybody-the-new-geopolitics-of-rare-earth-elements/
-confidence: 0.7
 status: active
+confidence: 0.7
 ---
+
 
 # China Against Everybody: The New Geopolitics of Rare Earth Elements
 

@@ -1,13 +1,14 @@
 ---
-created: 2026-05-25T00:00:00Z
-updated: 2026-05-25T00:00:00Z
+created: 2026-05-25 00:00:00+00:00
+updated: 2026-05-25 00:00:00+00:00
 type: source
 summary: Flatiron Institute algorithm overturns D-Wave's 2019 quantum supremacy claim using tensor network methods, shifting understanding of quantum advantage timeline
-tags: [quantum-computing, AI-science, research-methodology, D-Wave, Flatiron-Institute]
+tags: [quantum-computing, ai-science, research-methodology, d-wave, flatiron-institute]
 sources: https://www.simonsfoundation.org/2026/05/21/quantum-dynamics-breakthrough-overturns-claim-of-quantum-supremacy/
 status: active
 confidence: 0.85
 ---
+
 
 # Quantum Dynamics Breakthrough Overturns D-Wave "Quantum Supremacy" Claim
 

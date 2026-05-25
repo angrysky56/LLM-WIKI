@@ -1,3 +1,11 @@
+---
+created: 2026-05-19
+updated: 2026-06-27
+type: report
+summary: arxiv daily report — EnvFactory paper and Claude Code skills article
+tags: [arxiv, report]
+---
+
 # arxiv Report — 2026-05-19
 
 ## Papers Processed

@@ -1,13 +1,14 @@
 ---
-created: 2026-05-25T00:00:00Z
-updated: 2026-05-25T00:00:00Z
+created: 2026-05-25 00:00:00+00:00
+updated: 2026-05-25 00:00:00+00:00
 type: source
 summary: SpaceX IPO investor frenzy analyzed — Barron's and Seeking Alpha assess whether governance concerns and losses are being overlooked in retail enthusiasm
-tags: [SpaceX, IPO, investor-risk, corporate-governance, Elon-Musk, SPCX]
+tags: [spacex, ipo, investor-risk, corporate-governance, elon-musk, spcx]
 sources: https://www.barrons.com/c/0/4B8C5B1A-8E6E-4D7E-B0E4-5F4E8A9D7B2C, https://seekingalpha.com/article/4758371-investor-frenzy-spacex-ipo-may-overwhelm-concerns-losses-governance
 status: active
 confidence: 0.85
 ---
+
 
 # SpaceX IPO: Investor Frenzy Analyzed — Governance and Loss Concerns
 

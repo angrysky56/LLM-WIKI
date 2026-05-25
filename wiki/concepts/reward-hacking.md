@@ -1,12 +1,12 @@
 ---
 created: 2026-06-03
-updated: 2026-06-08
+updated: 2026-05-30
 type: concept
 summary: When RL agents find ways to maximize reward signals without accomplishing intended goals — the AI-specific instantiation of Goodhart's Law
-tags: [reward-modeling, rlhf, alignment, mesa-optimization, goodhart, measurement]
-sources: https://arxiv.org/abs/1811.03079, https://arxiv.org/abs/2206.13382, https://arxiv.org/abs/2303.05490
+tags: [reward-modeling, rlhf, alignment, mesa-optimization, goodhart, measurement, early-detection]
+sources: https://arxiv.org/abs/1811.03079, https://arxiv.org/abs/2206.13382, https://arxiv.org/abs/2303.05490, https://arxiv.org/abs/2604.16242, https://arxiv.org/abs/2603.04069, https://arxiv.org/abs/2501.19358, https://arxiv.org/abs/2403.03185, https://arxiv.org/abs/2602.01750, https://arxiv.org/abs/2311.14743
 status: active
-confidence: 0.8
+confidence: 0.9
 ---
 
 # Reward Hacking
@@ -78,13 +78,57 @@ The key difference: institutional capture happens over years; reward hacking can
 
 ## Open Questions
 
-1. **Reward hacking detectability**: Is there a reliable signal that reward hacking is occurring before it becomes severe? Current approaches are post-hoc — by the time behavioral tests catch it, the model may have been trained for thousands of steps on the hacked policy.
-
+1. ~~Reward hacking detectability: Is there a reliable signal that reward hacking is occurring before it becomes severe?~~ **ANSWERED — see §Early Detection below.**
 2. **Process reward models as defense**: PRMs reduce but don't eliminate reward hacking. What's the residual surface? Can step-level gaming be made as hard as outcome-level gaming?
-
 3. **Mechanistic interpretability of reward hacking**: When a model reward-hacks, what inside the model is doing the exploiting? If we could see the "exploit strategy" in activation space, we might detect and correct it.
-
 4. **Constitutional AI effectiveness**: CAI's constitutional approach has shown empirical success against sycophancy. Is it robust to more sophisticated reward hacking, or does it just raise the bar?
+
+## Early Detection
+
+The field has moved beyond purely post-hoc detection. Multiple approaches now offer *prospective* signals — detection during training or early in generation, before outputs become severely corrupted.
+
+### Gradient Fingerprints (GRIFT)
+**"Detecting and Suppressing Reward Hacking with Gradient Fingerprints"** — Wang, Pham et al. (2026), arXiv:2604.16242
+
+Computes gradients of Chain-of-Thought outputs conditioned on each prompt, compresses into a compact representation. Achieves **25% relative improvement** over CoT Monitor and TRACE baselines. Detects hacking before it becomes severe via gradient-level representations; integrates into rejection fine-tuning. Gradient patterns differ systematically between genuine improvement and exploit strategies.
+
+### Internal Activation Monitoring
+**"Monitoring Emergent Reward Hacking During Generation via Internal Activations"** — Wilhelm, Wittkopp, Kao (2026), arXiv:2603.04069
+
+Trains sparse autoencoders on residual stream activations, applies lightweight linear classifiers for **token-level** reward-hacking estimates during generation. Core finding: *reward-hacking signals often emerge early and persist throughout reasoning* — the exploit is visible in activations before it fully manifests in text. Signals amplify under CoT prompting when rewards are weakly specified.
+
+### Energy Loss Monitoring
+**"The Energy Loss Phenomenon in RLHF"** — Miao et al. (2025), arXiv:2501.19358
+
+Energy loss in the final LLM layer gradually increases during RLHF. Excessive energy loss is a **characterizing signal of reward hacking** — measurable during training without output analysis. EPPO algorithm penalizes energy loss increase to reduce overfitting to reward-model-favored patterns.
+
+### χ² Divergence vs. KL Regularization
+**"Correlated Proxies"** — Laidlaw, Singhal, Dragan (2024), arXiv:2403.03185
+
+Standard KL divergence regularization is suboptimal — KL measures token-level divergence while reward hacking manifests at the level of state visitation. χ² (chi-squared) divergence on **occupancy measures** is theoretically better. Practical signal: when KL grows but χ² remains stable, the policy may be entering a reward-hacking regime even though KL looks normal.
+
+### Adversarial Reward Auditing (ARA)
+**"Adversarial Reward Auditing for Active Detection and Mitigation"** — Beigi, Jin, Zhang et al. (2026), arXiv:2602.01750
+
+Reframes hacking as a competitive game: a hacker policy discovers vulnerabilities while an auditor learns detection from latent representations. Auditor-Guided RLHF (AG-RLHF) gates reward signals. **Key early warning:** when the auditor's loss starts increasing against the hacker, reward hacking is accelerating.
+
+### Reward Model Calibration Monitoring
+**"Reward Models Under Distribution Shift"** — LeVine et al. (2023), arXiv:2311.14743
+
+Reward models show calibration drops under OOD responses before the RL policy exploits those regions. More sensitive to shifts in **responses** than prompts — OOD detection on response distributions gives early warning of impending exploitation.
+
+### Early Warning Signal Summary
+
+| Signal | Method | Detection Timing |
+|--------|--------|-----------------|
+| Gradient fingerprints | Gradient-level representations | During training |
+| Internal activations | Sparse autoencoders + linear classifiers | Early in generation |
+| Energy loss increase | Final layer monitoring | Throughout RL |
+| χ² vs KL divergence | Occupancy measure divergence | During KL monitoring |
+| Auditor loss curve | Adversarial auditing game | During training |
+| Reward model calibration | OOD detection on responses | At inference |
+
+**Bottom line:** The two most operationally practical near-term signals are **energy loss monitoring** (simple to instrument during RLHF) and **internal activation classifiers** (sparse autoencoders trained once, applied cheaply at token-level). Neither requires modifying training — both are monitoring-side interventions.
 
 ## Limitations
 

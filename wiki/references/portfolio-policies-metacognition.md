@@ -11,7 +11,7 @@ created: 2026-05-25T00:28:01Z
 
 The oMCD (online Metacognitive Control of Decisions) framework provides a rigorous single-action MDP formulation for cognitive resource allocation, but its single-threaded architecture limits its expressiveness for complex cognitive systems. This document explores two interconnected extensions: (1) lifting oMCD from a single-action stop/continue MDP to a **portfolio-of-policies MDP** supporting parallel policy threads, and (2) evaluating **control graph topologies** — strict hierarchy, small-world, and hybrid architectures — for implementing the entropy-confidence loop in metacognitive systems. Both extensions draw on and deepen the duality between Agent Zeta's entropy management and oMCD's confidence optimization, arguing they are both optimizing signal-to-noise ratio.
 
-**Cross-reference:** [[../concepts/oMCD]] (parallel task t_7f73e0f6)
+**Cross-reference:** [[oMCD]] (parallel task t_7f73e0f6)
 
 ---
 
@@ -321,11 +321,11 @@ The evaluation criteria are:
 
 ## References
 
-- [[../concepts/oMCD]] — Primary oMCD framework documentation
+- [[oMCD]] — Primary oMCD framework documentation
 - [AIgentsA.txt] — Multi-agent taxonomy (Alpha, Beta, Gamma, Delta, Epsilon, Zeta)
 - [pathfinder_meta_cognition_analysis.md] — Initial non-obvious connections analysis
 - oMCD_Model.txt — Core mathematical formalism
 
 ---
 
-*Document status: Research exploration. Assumes [[../concepts/oMCD]] will be created by parallel task t_7f73e0f6.*
+*Document status: Research exploration. Assumes [[oMCD]] will be created by parallel task t_7f73e0f6.*

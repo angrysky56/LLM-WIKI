@@ -1,3 +1,11 @@
+---
+created: 2026-05-26
+updated: 2026-06-27
+type: report
+summary: arxiv daily report — bounded representation capacity theme
+tags: [arxiv, report]
+---
+
 # arxiv Report — 2026-05-26
 
 ## Theme: Bounded Representation — Capacity, Skills, and Transfer

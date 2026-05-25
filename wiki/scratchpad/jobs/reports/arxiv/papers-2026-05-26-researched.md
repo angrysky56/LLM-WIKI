@@ -1,3 +1,11 @@
+---
+created: 2026-05-26
+updated: 2026-06-27
+type: report
+summary: arxiv papers researched — Shannon Scaling Law, SkillOpt, SkillLens, bounded representation capacity theme
+tags: [arxiv, report]
+---
+
 # arxiv Research Report — 2026-05-26
 
 ## Papers Processed

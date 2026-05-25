@@ -1,13 +1,14 @@
 ---
-created: 2026-05-21T08:33:00Z
-updated: 2026-05-21T08:33:00Z
+created: 2026-05-21 08:33:00+00:00
+updated: 2026-05-21 08:33:00+00:00
 type: concept
 summary: Alignment technique using AI-generated self-critique and principle-based revision instead of human-labeled preference data
-tags: [alignment, anthropic, RLHF, constitutional-ai, self-critique, preference-learning]
-sources: [https://arxiv.org/abs/2212.08073]
+tags: [alignment, anthropic, rlhf, constitutional-ai, self-critique, preference-learning]
+sources: ['https://arxiv.org/abs/2212.08073']
 status: active
 confidence: 0.85
 ---
+
 
 
 

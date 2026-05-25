@@ -1,10 +1,11 @@
 ---
 summary: WHO raises DRC risk to 'very high' as suspected cases triple in one week; US public health cuts limiting response capacity
-tags: [news, ebola, DRC, WHO, public-health]
+tags: [news, ebola, drc, who, public-health]
 sources: https://www.theguardian.com/world/2026/may/23/suspected-ebola-cases-triple-who-warns-rapid-spread-drc
-confidence: 0.85
 status: active
+confidence: 0.85
 ---
+
 
 # Ebola Outbreak Escalates — WHO Raises DRC Risk to 'Very High'
 

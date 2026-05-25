@@ -3,11 +3,12 @@ created: 2026-06-03
 updated: 2026-06-26
 type: concept
 summary: MCP — an open standard protocol for connecting AI assistants to external tools, data sources, and services via a structured client-server architecture
-tags: [MCP, tool-interfaces, protocol, AI-interoperability, mcp]
+tags: [mcp, tool-interfaces, protocol, ai-interoperability]
 sources: https://modelcontextprotocol.io, https://github.com/modelcontextprotocol
 status: active
 confidence: 0.85
 ---
+
 
 # MCP (Model Context Protocol)
 

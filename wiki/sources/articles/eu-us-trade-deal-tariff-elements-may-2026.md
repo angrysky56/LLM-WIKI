@@ -1,13 +1,14 @@
 ---
-created: 2026-05-24T00:00:00Z
-updated: 2026-05-24T00:00:00Z
+created: 2026-05-24 00:00:00+00:00
+updated: 2026-05-24 00:00:00+00:00
 type: source
 summary: EU and US Council/Parliament reach agreement on tariff elements of Joint Statement, implementing joint framework
-tags: [EU, US, trade, tariffs, joint-statement, deal]
+tags: [eu, us, trade, tariffs, joint-statement, deal]
 sources: https://www.consilium.europa.eu/en/press/press-releases/2026/eu-us-trade-council-parliament-strike-deal-tariff-elements-joint-statement/
 status: active
 confidence: 0.88
 ---
+
 
 # EU-US Trade Deal: Council and Parliament Strike Agreement on Tariff Elements
 

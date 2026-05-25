@@ -3,11 +3,12 @@ created: 2026-06-16
 updated: 2026-06-26
 type: concept
 summary: RLHF — training AI systems using human preference feedback via reward modeling and policy optimization (PPO/DPO); core tension with MOP's entropy maximization objective
-tags: [RLHF, reinforcement-learning, alignment, human-feedback, policy-optimization, training]
+tags: [rlhf, reinforcement-learning, alignment, human-feedback, policy-optimization, training]
 sources: https://arxiv.org/abs/1909.08593 (RLHF intro), https://arxiv.org/abs/2203.02155 (InstructGPT)
 status: active
 confidence: 0.85
 ---
+
 
 # Reinforcement Learning from Human Feedback
 

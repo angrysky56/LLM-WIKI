@@ -1,13 +1,14 @@
 ---
-created: 2026-05-24T06:00:00Z
-updated: 2026-05-24T06:00:00Z
+created: 2026-05-24 06:00:00+00:00
+updated: 2026-05-24 06:00:00+00:00
 type: synthesis
 summary: PARA knowledge management framework exhibits structural integrity in the knowledge graph with intentional dormancy as an entropy management strategy
-tags: [insights, zettelkasten, Knowledge Management]
-sources: [derived from evidence: byarbroughobsidian-para Template for using Obsidian for P.A.R.A., Discrete Time-To-Event Modeling, I Switched from OpenClaw to Hermes Agent]
+tags: [insights, zettelkasten, knowledge-management]
+sources: [{'derived from evidence': 'byarbroughobsidian-para Template for using Obsidian for P.A.R.A.'}, 'Discrete Time-To-Event Modeling', 'I Switched from OpenClaw to Hermes Agent']
 status: active
 confidence: 0.85
 ---
+
 
 # PARA System Cluster Reveals Knowledge Architecture Cohesion
 

@@ -1,3 +1,11 @@
+---
+created: 2026-06-27
+updated: 2026-06-27
+type: reference
+summary: Researcher agent reference gap discovery patterns
+tags: [researcher-agent, reference]
+---
+
 # Gap Discovery Patterns — Researcher Agent Reference
 
 ## Core Discovery Strategy

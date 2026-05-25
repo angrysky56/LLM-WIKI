@@ -1,8 +1,9 @@
 ---
+updated: 2026-05-17 18:17:45+00:00
 summary: FutureSim replays real-world news chronologically to evaluate agent world-modelling; best frontier agent achieves only 25% accuracy, exposing severe gaps in open-ended temporal adaptation.
-tags: [arxiv, cs.LG, AI agents, benchmarking, temporal reasoning, world models]
-updated: 2026-05-17T18:17:45Z
+tags: [arxiv, cs.LG, ai-agents, benchmarking, temporal-reasoning, world-models]
 ---
+
 
 # FutureSim: Replaying World Events to Evaluate Adaptive Agents
 

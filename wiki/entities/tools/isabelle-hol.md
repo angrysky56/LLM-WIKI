@@ -3,11 +3,12 @@ created: 2026-05-29
 updated: 2026-06-08
 type: entity
 summary: Isabelle/HOL — Higher-Order Logic instantiation of the generic Isabelle proof assistant; the foundation for the seL4 microkernel verification and major verification projects
-tags: [formal-methods, theorem-proving, tools, verification, HOL]
-sources: [https://isabelle.in.tum.de/]
+tags: [formal-methods, theorem-proving, tools, verification, hol]
+sources: ['https://isabelle.in.tum.de/']
 status: active
 confidence: 0.9
 ---
+
 
 # Isabelle/HOL
 

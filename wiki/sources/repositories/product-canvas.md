@@ -1,12 +1,13 @@
 ---
-summary: Google Labs multiplayer brainstorming canvas with AI voice agent and wiki knowledge editor
-tags: [collaboration, AI, brainstorming, Google, canvas]
+created: 2026-04-07 22:32:36+00:00
+updated: 2026-04-11 00:00:00+00:00
 type: source
+summary: Google Labs multiplayer brainstorming canvas with AI voice agent and wiki knowledge editor
+tags: [collaboration, ai, brainstorming, google, canvas]
 sources: https://github.com/romannurik/ProductCanvas-Experiment
 status: reference
-updated: 2026-04-11T00:00:00Z
-created: 2026-04-07T22:32:36Z
 ---
+
 
 # Product Canvas Experiment (Google Labs)
 

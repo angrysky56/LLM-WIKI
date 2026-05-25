@@ -1,9 +1,10 @@
 ---
+created: 2026-04-14 19:27:16+00:00
+updated: 2026-04-14 19:27:16+00:00
 summary: Technical deep-dive on AlphaEvolve/OpenEvolve for GPU kernel optimization — LLM ensemble + diff-based mutation + real hardware eval; 23% GEMM speedup; Gemini optimizing its own training; tensor decomposition as game-playing; connects to MGA framework as engineering instantiation
-tags: [gpu-optimization, alphaevolve, evolutionary-computation, kernel-optimization, tensor-decomposition, LLM, self-improvement]
-updated: 2026-04-14T19:27:16Z
-created: 2026-04-14T19:27:16Z
+tags: [gpu-optimization, alphaevolve, evolutionary-computation, kernel-optimization, tensor-decomposition, llm, self-improvement]
 ---
+
 
 # LLM-Guided Evolutionary Kernel Optimization
 

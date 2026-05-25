@@ -1,9 +1,10 @@
 ---
+created: 2026-05-25 00:34:24+00:00
+updated: 2026-05-25 00:34:24+00:00
 summary: Warm-start calibration procedure for oMCD parameters β and γ
-tags: [meta-cognition, implementation, cognitive-architecture, oMCD]
-updated: 2026-05-25T00:34:24Z
-created: 2026-05-25T00:34:24Z
+tags: [meta-cognition, implementation, cognitive-architecture, omcd]
 ---
+
 
 ---
 summary: "Warm-start calibration procedure for β and γ parameters in the oMCD metacognitive control framework, including variance estimation, test suite design, and architectural separation"

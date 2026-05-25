@@ -1,9 +1,10 @@
 ---
+created: 2026-04-07 22:32:15+00:00
+updated: 2026-04-07 22:32:15+00:00
 summary: Google Labs agentic research scientist using Mixture of Mixture of Agents
-tags: [AI, research, agents, Google, MoMoA]
-updated: 2026-04-07T22:32:15Z
-created: 2026-04-07T22:32:15Z
+tags: [ai, research, agents, google, momoa]
 ---
+
 
 # MoMoA Researcher (Google Labs)
 

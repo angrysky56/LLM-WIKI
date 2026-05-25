@@ -1,13 +1,14 @@
 ---
-created: 2026-05-25T00:27:20Z
-updated: 2026-05-25T00:27:20Z
+created: 2026-05-25 00:27:20+00:00
+updated: 2026-05-25 00:27:20+00:00
 type: concept
 summary: Hub page on cognitive architecture, MCM framework, and metacognitive self-models
-tags: [meta-cognition, cognitive-architecture, AI-frameworks]
+tags: [meta-cognition, cognitive-architecture, ai-frameworks]
 sources: []
 status: active
 confidence: 0.9
 ---
+
 
 # Cognitive Architecture
 

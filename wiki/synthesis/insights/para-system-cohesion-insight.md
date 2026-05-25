@@ -1,13 +1,14 @@
 ---
-created: 2026-05-23T15:54:51Z
-updated: 2026-05-23T15:54:51Z
+created: 2026-05-23 15:54:51+00:00
+updated: 2026-05-23 15:54:51+00:00
 type: synthesis
 summary: PARA knowledge management framework demonstrates information entropy managed through intentional dormancy
-tags: [insights, zettelkasten, Knowledge Management]
-sources: [derived from evidence]
+tags: [insights, zettelkasten, knowledge-management]
+sources: ['derived from evidence']
 status: active
 confidence: 0.85
 ---
+
 
 # PARA System Cluster Reveals Knowledge Architecture Cohesion
 

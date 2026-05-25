@@ -1,10 +1,11 @@
 ---
 summary: EU and US strike deal to implement tariff elements of Joint Statement — transatlantic trade rapprochement amid tariff chaos
-tags: [news, trade, EU, US, tariffs, transatlantic]
+tags: [news, trade, eu, us, tariffs, transatlantic]
 sources: https://www.consilium.europa.eu/2026/05/20/eu-us-trade-deal-tariff-elements
-confidence: 0.85
 status: active
+confidence: 0.85
 ---
+
 
 # EU-US Trade Deal: Tariff Elements of Joint Statement Agreed
 

@@ -1,13 +1,14 @@
 ---
-created: 2026-05-26T08:00:00Z
-updated: 2026-05-26T08:00:00Z
+created: 2026-05-26 08:00:00+00:00
+updated: 2026-05-26 08:00:00+00:00
 type: source
 summary: Malaysia exits US reciprocal trade deal following Supreme Court ruling that invalidated tariff authority
-tags: [news, trade, tariffs, Malaysia, US, Supreme-Court]
+tags: [news, trade, tariffs, malaysia, us, supreme-court]
 sources: https://www.newindianexpress.com/news/malaysia-exits-us-reciprocal-trade-deal-after-supreme-court-ruling
-confidence: 0.7
 status: active
+confidence: 0.7
 ---
+
 
 # Malaysia Exits US Reciprocal Trade Deal After Supreme Court Ruling
 

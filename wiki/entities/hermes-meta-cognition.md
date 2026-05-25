@@ -1,13 +1,14 @@
 ---
 created: 2026-05-25
-updated: 2026-05-25T00:27:22Z
+updated: 2026-05-25 00:27:22+00:00
 type: entity
 summary: Hermes as an MCM implementation with oMCD, agent archetypes, and self-model structure
-tags: [meta-cognition, hermes, MCM-implementation, cognitive-architecture]
+tags: [meta-cognition, hermes, mcm-implementation, cognitive-architecture]
 sources: []
 status: active
 confidence: 0.85
 ---
+
 
 # Hermes Meta-Cognition
 

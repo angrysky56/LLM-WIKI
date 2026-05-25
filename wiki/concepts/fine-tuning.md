@@ -1,19 +1,16 @@
 ---
-created: 2026-05-25
-updated: 2026-05-25
-type: concept
-summary: "[STUB] Fine-tuning — adapting a pre-trained model to a specific task or domain with targeted training"
-tags: [ml, training, stubs]
-sources: []
-status: stub
-confidence: 0.3
+description: "Fine-tuning strategies for large language models."
+tags: []
 ---
 
 # Fine-Tuning
 
-*Stub page — needs real content*
+> Stub — expand with full content.
 
-## Connections
+**Fine-tuning** adapts pretrained models to downstream tasks via additional training. Key strategies include full-parameter fine-tuning and parameter-efficient approaches.
 
-- [[transfer-learning]]
-- [[model-editing]]
+## See Also
+
+- [[parameter-efficient-fine-tuning]]
+- [[lora]]
+

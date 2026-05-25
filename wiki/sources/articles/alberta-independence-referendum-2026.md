@@ -1,9 +1,10 @@
 ---
+created: 2026-05-22 14:07:54+00:00
+updated: 2026-05-22 14:07:54+00:00
 summary: Alberta schedules October 2026 referendum on whether to hold binding independence vote
-tags: [news, Canada, Alberta, separatism, referendum]
-updated: 2026-05-22T14:07:54Z
-created: 2026-05-22T14:07:54Z
+tags: [news, canada, alberta, separatism, referendum]
 ---
+
 
 ---
 created: 2026-05-22T00:00:00Z

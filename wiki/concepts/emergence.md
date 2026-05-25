@@ -3,11 +3,12 @@ created: 2026-05-29
 updated: 2026-05-29
 type: concept
 summary: Sudden appearance ofCapabilities at scale thresholds — phase transitions in LLM capability landscapes, distinct from smooth power-law improvement
-tags: [emergence, scaling, capability, phase-transition, LLM]
+tags: [emergence, scaling, capability, phase-transition, llm]
 sources: https://arxiv.org/abs/2202.05006 (Wei et al. emergent capabilities)
 status: active
 confidence: 0.8
 ---
+
 
 
 

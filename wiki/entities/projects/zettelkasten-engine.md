@@ -1,13 +1,14 @@
 ---
-summary: Autonomous pattern detection and insight synthesis engine within Project Synapse
-tags: [component, AI, pattern-detection, insight-generation]
-updated: 2026-04-07T20:36:21Z
-created: 2026-04-07T20:36:21Z
+created: 2026-04-07 20:36:21+00:00
+updated: 2026-04-07 20:36:21+00:00
 type: entity
+summary: Autonomous pattern detection and insight synthesis engine within Project Synapse
+tags: [component, ai, pattern-detection, insight-generation]
 sources: []
 status: active
 confidence: 0.8
 ---
+
 
 # Zettelkasten Engine
 

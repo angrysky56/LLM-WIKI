@@ -1,13 +1,14 @@
 ---
-created: 2026-05-24T08:00:00Z
-updated: 2026-05-24T08:00:00Z
+created: 2026-05-24 08:00:00+00:00
+updated: 2026-05-24 08:00:00+00:00
 type: source
 summary: SpaceX filed for IPO in May 2026 — $1.75T-$2T valuation, Starship V3 successful pre-IPO test, $15B+ spent on Starship development, $75B IPO target
-tags: [SpaceX, IPO, Starship, V3, SpaceX-IPO-SPCX-2026, Elon-Musk, pre-IPO]
+tags: [spacex, ipo, starship, v3, spacex-ipo-spcx-2026, elon-musk, pre-ipo]
 sources: https://www.reuters.com/business/spacex-files-for-ipo-2026-05-20/, https://www.reuters.com/business/spacex-spending-starship-tops-15-billion-2026-05-01/
 status: active
 confidence: 0.95
 ---
+
 
 # SpaceX Files for IPO — Starship V3 Pre-IPO Test Success (May 2026)
 

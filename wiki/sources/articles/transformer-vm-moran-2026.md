@@ -1,9 +1,10 @@
 ---
+created: 2026-04-15 00:21:24+00:00
+updated: 2026-04-15 00:21:24+00:00
 summary: Moran (2026) — analytically compiling programs into transformer weights; residual stream as registers, attention as lookup, FFN as arithmetic, layers as machine steps; connects to EML as minimal instruction set for compiled transformers
-tags: [transformers, compilation, deterministic-computation, register-allocation, EML, neuro-symbolic, computed-weights]
-updated: 2026-04-15T00:21:24Z
-created: 2026-04-15T00:21:24Z
+tags: [transformers, compilation, deterministic-computation, register-allocation, eml, neuro-symbolic, computed-weights]
 ---
+
 
 # Compiled Computation Inside Transformers
 

@@ -1,10 +1,11 @@
 ---
 summary: California first state to sign executive order proactively preparing workers for AI disruption — signals state-led AI policy divergence from federal retreat
-tags: [news, AI, policy, California, workers, tech]
+tags: [news, ai, policy, california, workers, tech]
 sources: https://www.gov.ca.gov/2026/05/21/governor-newsom-ai-executive-order
-confidence: 0.9
 status: active
+confidence: 0.9
 ---
+
 
 # California Signs First-in-Nation AI Worker Protection Executive Order
 

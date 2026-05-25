@@ -1,13 +1,14 @@
 ---
+created: 2026-04-07 20:01:08+00:00
+updated: 2026-04-07 20:01:08+00:00
+type: concept
 summary: Paradigm of LLM pre-compiling knowledge into persistent structured bases vs stateless RAG
-tags: [knowledge-management, RAG, architecture, core-concept]
-updated: 2026-04-07T20:01:08Z
-created: 2026-04-07T20:01:08Z
+tags: [knowledge-management, rag, architecture, core-concept]
 sources: []
 status: active
 confidence: 0.8
-type: concept
 ---
+
 
 # Persistent Knowledge Compilation
 

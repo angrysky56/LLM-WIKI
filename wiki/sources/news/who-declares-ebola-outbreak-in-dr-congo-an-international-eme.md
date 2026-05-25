@@ -1,8 +1,9 @@
 ---
+updated: 2026-05-17 18:17:44+00:00
 summary: WHO declares DR Congo Ebola outbreak a global health emergency, its highest alert tier.
-tags: [world-news, ebola, dr-congo, who, public-health, PHEIC]
-updated: 2026-05-17T18:17:44Z
+tags: [world-news, ebola, dr-congo, who, public-health, pheic]
 ---
+
 
 ## Core Insight
 

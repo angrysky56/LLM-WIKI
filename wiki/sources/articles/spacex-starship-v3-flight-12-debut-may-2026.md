@@ -1,13 +1,14 @@
 ---
-created: 2026-05-24T00:00:00Z
-updated: 2026-05-24T00:00:00Z
+created: 2026-05-24 00:00:00+00:00
+updated: 2026-05-24 00:00:00+00:00
 type: source
 summary: SpaceX Starship V3 (Flight 12) successfully completes debut test with scaled-up booster, supports $1.5T valuation and June 12 IPO
-tags: [spacex, starship, V3, IPO, space, launch]
+tags: [spacex, starship, v3, ipo, space, launch]
 sources: https://www.nytimes.com/2026/05/23/science/spacex-starship-flight-12-launch.html, https://spacenews.com/spacex-launches-first-starship-v3/
 status: active
 confidence: 0.95
 ---
+
 
 # SpaceX Starship V3 Completes Debut Test Flight Ahead of June 12 IPO
 

@@ -1,3 +1,11 @@
+---
+created: 2026-06-27
+updated: 2026-06-27
+type: reference
+summary: AGEM expert reference proving grounds
+tags: [agem-expert, reference]
+---
+
 # Paraclete Proving Grounds — Ethical Scenario Testing
 
 ## Scenario Tools

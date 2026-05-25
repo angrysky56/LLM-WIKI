@@ -1,13 +1,14 @@
 ---
-created: 2026-04-07T20:36:31Z
-updated: 2026-04-07T20:36:31Z
+created: 2026-04-07 20:36:31+00:00
+updated: 2026-04-07 20:36:31+00:00
 type: concept
 summary: RAG enhanced with graph traversal for richer context beyond vector similarity
+tags: [rag, graph, vector-search, architecture]
 sources: https://www.microsoft.com/en-us/research/graphrag/
 status: reference
 confidence: 0.9
-tags: [RAG, graph, vector-search, architecture]
 ---
+
 
 # GraphRAG
 

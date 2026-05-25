@@ -1,13 +1,14 @@
 ---
-created: 2026-04-14T04:12:42Z
-updated: 2026-05-23T08:55:00Z
+created: 2026-04-14 04:12:42+00:00
+updated: 2026-05-23 08:55:00+00:00
 type: concept
 summary: Theory of behavior replacing reward maximization with action-state path entropy maximization — Layer 0 of EFHF architecture; absorbing states → Kernel 2 (Prover9-verified)
-tags: [MOP, entropy, intrinsic-motivation, behavioral-variability, reward-free, reinforcement-learning, absorbing-states, stochastic-policy, EFHF, Kernel-2, lumpability]
-sources: [[ramirez-ruiz-mop-2024]]
+tags: [mop, entropy, intrinsic-motivation, behavioral-variability, reward-free, reinforcement-learning, absorbing-states, stochastic-policy, efhf, kernel-2, lumpability]
+sources: [['ramirez-ruiz-mop-2024']]
 status: active
 confidence: 1.0
 ---
+
 
 
 

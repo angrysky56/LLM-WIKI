@@ -1,13 +1,14 @@
 ---
-created: 2026-05-21T08:33:00Z
-updated: 2026-05-25T00:00:00Z
+created: 2026-05-21 08:33:00+00:00
+updated: 2026-05-25 00:00:00+00:00
 type: concept
 summary: The capability and architectures of LLMs to detect, critique, and revise their own outputs — distinct from explicit CoT or formal metacognitive control
-tags: [self-correction, reflection, metacognition, agentic, self-refine, reasoning, LLM]
+tags: [self-correction, reflection, metacognition, agentic, self-refine, reasoning, llm]
 sources: ['https://arxiv.org/abs/2303.11391', 'https://arxiv.org/abs/2212.07060']
 status: active
 confidence: 0.8
 ---
+
 
 # Self-Correction in LLMs
 

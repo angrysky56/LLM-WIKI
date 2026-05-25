@@ -111,12 +111,12 @@ See: [[cognitive-architecture]] for the broader MCM context.
 
 | Agent Type | Primary oMCD Role | Key Parameter |
 |------------|-------------------|----------------|
-| [[agent-taxonomies#alpha\|Alpha]] | Complexity gating | threshold $\omega(t)$ |
-| [[agent-taxonomies#beta\|Beta]] | Optimization target | ż (control signal) |
-| [[agent-taxonomies#gamma\|Gamma]] | Learning rate | $\beta$ calibration |
-| [[agent-taxonomies#delta\|Delta]] | Parallel rollouts | MDP exploration |
-| [[agent-taxonomies#epsilon\|Epsilon]] | Assumption validation | stop criterion |
-| [[agent-taxonomies#zeta\|Zeta]] | Entropy regulation | dual to confidence |
+| [[Alpha|Alpha]] | Alpha | Complexity gating | threshold $\omega(t)$ |
+| [[Beta|Beta]] | Beta | Optimization target | ż (control signal) |
+| [[Gamma|Gamma]] | Gamma | Learning rate | $\beta$ calibration |
+| [[Delta|Delta]] | Delta | Parallel rollouts | MDP exploration |
+| [[Epsilon|Epsilon]] | Epsilon | Assumption validation | stop criterion |
+| [[Zeta|Zeta]] | Zeta | Entropy regulation | dual to confidence |
 
 ## See Also
 

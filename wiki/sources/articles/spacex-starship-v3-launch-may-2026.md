@@ -1,10 +1,11 @@
 ---
 summary: Starship V3 completes major test objectives ahead of SpaceX IPO; booster recovered, ship splashed down in Indian Ocean
-tags: [news, spacex, aerospace, IPO, technology]
+tags: [news, spacex, aerospace, ipo, technology]
 sources: https://www.japantimes.co.jp, https://spaceflightnow.com
-confidence: 0.9
 status: active
+confidence: 0.9
 ---
+
 
 # SpaceX Starship V3 — Pre-IPO Test Flight
 

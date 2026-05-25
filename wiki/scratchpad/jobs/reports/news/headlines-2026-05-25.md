@@ -41,7 +41,7 @@ As SpaceX's historic June 12 IPO approaches, analysts are raising concerns that 
 Barron's: "SpaceX IPO Is a Game You Should Play at Your Own Risk"
 Seeking Alpha: "Investor frenzy for SpaceX IPO may overwhelm concerns about losses, governance"
 
-**Wiki**: [[spacex-ipo-spcx-2026]], [[spacex-ipo-june-2026]]
+**Wiki**: [[spacex-ipo-spcx-2026]], [[spacex-ipo-june-12-2026]]
 
 ---
 

@@ -1,13 +1,14 @@
 ---
-created: 2026-05-25T06:01:00Z
-updated: 2026-05-25T06:01:00Z
+created: 2026-05-25 06:01:00+00:00
+updated: 2026-05-25 06:01:00+00:00
 type: synthesis
 summary: Francesca Albanese sanctions case reveals US foreign policy enforcement architecture decoupled from legal status through judicial constraints
-tags: [insights, zettelkasten, sanctions governance]
-sources: [derived from evidence]
+tags: [insights, zettelkasten, sanctions-governance]
+sources: ['derived from evidence']
 status: active
 confidence: 0.85
 ---
+
 
 ## Francesca Albanese sanctions case reveals legal-policy divergence
 

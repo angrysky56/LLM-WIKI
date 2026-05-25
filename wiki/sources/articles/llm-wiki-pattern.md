@@ -1,9 +1,10 @@
 ---
+created: 2026-04-07 20:00:55+00:00
+updated: 2026-04-07 20:00:55+00:00
 summary: Karpathy's pattern for LLM-maintained persistent Markdown knowledge bases
-tags: [knowledge-management, RAG, LLM, wiki, architecture]
-updated: 2026-04-07T20:00:55Z
-created: 2026-04-07T20:00:55Z
+tags: [knowledge-management, rag, llm, wiki, architecture]
 ---
+
 
 # LLM Wiki Pattern (Karpathy)
 

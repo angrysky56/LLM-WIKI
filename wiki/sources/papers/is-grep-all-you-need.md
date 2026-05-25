@@ -1,8 +1,9 @@
 ---
+updated: 2026-05-17 18:17:29+00:00
 summary: Grep often outperforms vector retrieval in agentic search; harness architecture and tool result presentation matter more than retrieval strategy.
-tags: [arxiv, cs.CL, retrieval, RAG, AI agents, benchmarking]
-updated: 2026-05-17T18:17:29Z
+tags: [arxiv, cs.CL, retrieval, rag, ai-agents, benchmarking]
 ---
+
 
 # Is Grep All You Need? How Agent Harnesses Reshape Agentic Search
 

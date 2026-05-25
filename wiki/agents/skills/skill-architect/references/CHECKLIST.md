@@ -1,3 +1,11 @@
+---
+created: 2026-06-27
+updated: 2026-06-27
+type: reference
+summary: Skill architect reference checklist
+tags: [skill-architect, reference]
+---
+
 # Skill Validation Checklist
 
 Run this checklist before finalizing a new skill.

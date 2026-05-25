@@ -1,10 +1,11 @@
 ---
 summary: SpaceX targets June 12 Nasdaq listing — $75B offering, Starship V3 test successful, IPO could make Musk world's first trillionaire
-tags: [news, spacex, IPO, space, tech, finance]
+tags: [news, spacex, ipo, space, tech, finance]
 sources: https://www.wsj.com/articles/spacex-ipo-june-12-nasdaq-2026
-confidence: 0.9
 status: active
+confidence: 0.9
 ---
+
 
 # SpaceX IPO: June 12 Nasdaq Listing Targets $75B Offering
 

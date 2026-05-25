@@ -3,11 +3,12 @@ created: 2026-05-17
 updated: 2026-05-29
 type: concept
 summary: The use of autonomous LLM agents to execute stages of the scientific research workflow, from idea generation to manuscript writing
-tags: [agentic-research, AI-agents, scientific-research, automation]
-sources: [[why-llms-arent-scientists-yet]]
+tags: [agentic-research, ai-agents, scientific-research, automation]
+sources: [['why-llms-arent-scientists-yet']]
 status: active
 confidence: 0.8
 ---
+
 
 # Agentic Research
 

@@ -1,9 +1,10 @@
 ---
+created: 2026-05-22 14:07:56+00:00
+updated: 2026-05-22 14:07:56+00:00
 summary: Israeli Lebanon strikes kill health workers; Venezuela offers India oil alternative amid Hormuz crisis; Russia sends more nukes to Belarus
-tags: [news, Israel, Lebanon, Middle-East, energy, Hormuz, Venezuela]
-updated: 2026-05-22T14:07:56Z
-created: 2026-05-22T14:07:56Z
+tags: [news, israel, lebanon, middle-east, energy, hormuz, venezuela]
 ---
+
 
 ---
 created: 2026-05-22T00:00:00Z

@@ -1,10 +1,11 @@
 ---
 summary: OpenAI's AI solves an 80-year-old Erdős mathematical problem — mathematicians amazed; follows Google Co-Scientist and Gemini for Science launches
-tags: [news, AI, science, mathematics, OpenAI, breakthrough]
+tags: [news, ai, science, mathematics, openai, breakthrough]
 sources: https://www.theguardian.com/2026/05/21/openai-makes-breakthrough-on-80-year-old-maths-problem
-confidence: 0.85
 status: active
+confidence: 0.85
 ---
+
 
 # OpenAI's AI Solves 80-Year-Old Mathematical Problem — Mathematicians Amazed
 

@@ -1,3 +1,11 @@
+---
+created: 2026-06-27
+updated: 2026-06-27
+type: carryover
+summary: Researcher agent carryover — category theory, cognitive world models, MOP training, MoE routing collapse tracked
+tags: [researcher, carryover]
+---
+
 ## CarryoverState
 
 ### Established
@@ -10,7 +18,7 @@
 - **[[video-llm]]** filled: pipeline architecture, DeltaDirect findings on directional motion blindness and direction binding gap, magnitude deficit, projector-level fix (Jun 2025)
 - **[[vision-language-alignment]]** filled: cross-modal grounding problem, alignment ≠ accessibility, DeltaDirect case study, projector-level intervention, magnitude deficit (Jun 2025)
 - **[[motion-understanding]]** filled: elementary motion primitives, signed direction as fundamental case, probing evidence, magnitude deficit, DeltaDirect fix (Jun 2025)
-- **[[grpo.md]]** deleted: redundant stub, `group-relative-policy-optimization.md` already has full content (Jun 2025)
+- **grpo.md (deleted)**: redundant stub, already subsumed by `group-relative-policy-optimization` (Jun 2025)
 - **[[attention-mechanism]]** filled: scaled dot-product attention, multi-head, Flash Attention, GQA/MQA; O(1) path length advantage; transformer architecture foundation (Jun 2026)
 - **[[transformer-architecture]]** filled: encoder-decoder vs decoder-only (GPT-style); scaling as primary strategy; RoPE/ALiBi/GQA extensions; connection to scaling-laws (Jun 2026)
 - **[[kv-cache]]** filled: inference optimization; PagedAttention; MQA/GQA memory reduction; prefix caching; connects to inference-time-compute-scaling (Jun 2026)
@@ -64,19 +72,23 @@
 - **[[epistemic-energy]]** filled: information-theoretic reasoning resource; depletes with novel content; EDM Δ as depletion signal; EFHF Layer 4 coherence monitoring; measurement operationalizations; 4 open questions (Jun 2026)
 - **[[mcp-model-context-protocol]]** filled: open standard for AI-tool interoperability; client-server architecture; Hermes bidirectional MCP support; LLM-WIKI stack servers; EFHF L3 connection via mcp-logic (Jun 2026)
 - **[[reinforcement-learning-from-human-feedback]]** filled: standard RLHF pipeline (comparison data → reward model → RL fine-tune); PPO/DPO/GRPO comparison; MOP-KL tension; GRPO structural compatibility; reward hacking limitations (Jun 2026)
-- **[[superposition.md]]** deleted: duplicate of neural-interpretability.md lines 42–63 (Jun 2026)
-- **[[scaling-law.md]]** deleted: duplicate of scaling-laws.md singular form (Jun 2026)
+- **superposition.md (deleted)**: duplicate of neural-interpretability lines 42–63 (Jun 2026)
+- **scaling-law.md (deleted)**: duplicate of scaling-laws (singular form, Jun 2026)
 
 ### Open
-- **[Question]** MoE routing collapse under RLHF: is it happening in practice? No empirical data. Worth monitoring.
+- **[Question]** MoE routing collapse under RLHF ✅ ANSWERED: Empirically confirmed via SafeMoE (Kim 2025). Fine-tuning causes routing drift across 7B-141B models. Routing skew pre-exists fine-tuning (MoE-Sieve, Manzoni 2026). Pre-training collapse mechanism identified (Chi 2022). Monitoring → resolved.
 - **[Question]** Adaptive budget learning: how to train the gating model. No clear paper yet.
 - **[Question]** Hybrid reward models: combining ELHSR (hidden-state) with SD-Search (process-level). Emerging direction — no full treatment yet.
 - **[Question]** Reward hacking detectability: Is there a reliable signal that reward hacking is occurring before it becomes severe? Current approaches are post-hoc.
-- **[Question]** Category theory for neural network verification: Do attention mechanisms form a closed monoidal category? If so, what does the internal hom look like? Enables categorical compositional verification.
+- **[Question]** Category theory for neural network verification: Filled → see [[attention-monoidal-closure]] (Jun 2026). Attention layers form a symmetric monoidal category under sequential (stacking) and parallel (multi-head) composition. Closedness is blocked by softmax non-linearity; cross-attention adapter is the candidate internal hom `[A,B]`. Full transformers with residual connections/LayerNorm remain open.
 - **[Question]** Cognitive world models for LLM agents: How do you represent "what the world looks like" for a text-based agent? Conversation state? Tool return history?
-- **[Question]** MOP training for transformers: Can path entropy maximization be applied to next-token prediction training from scratch?
+- **[Question]** MOP training for transformers: Can path entropy maximization be applied to next-token prediction training from scratch? **Answered (Jun 2026):** No existing papers apply MOP to transformer NTP training from scratch. Key challenge: absorbing state definition in token space. MOP's KL-regularization tension (Theorem 5) directly challenges RLHF structure. Open research direction — empirical validation needed. [[mop-next-token-prediction]] (stub created).
 
-### Heading
+### Kanban Status
+- [x] Surfaced to hermes kanban: 2026-06-27
+  - 5 open items → t_08351f0801a1a718 (category theory+attention), t_b7fec25f5c9bf681 (cognitive world models), t_0eae0cb4306c1f26 (MOP training), t_829e3c129e9ac67f (MoE routing collapse), t_3f6f2a5e0e9755d4 (reward hacking detectability)
+
+## Heading
 - **[Intent]** Next cycle: stub-first filling. Top priorities: (1) taylors-law (ecological scaling, connects to scaling-laws), (2) power-law-scaling (evaluate for upgrade — has substantive content), (3) allometric-scaling (biological stub), (4) llm-inference (evaluate — has more content than typical stub), (5) llm-training (stub, connects to rlhf already filled this cycle), (6) esa — search needed (file doesn't exist, was listed in prior carryover).
 - **[Constraint]** 175 concept stubs remain (Jun 26 count). This cycle completed 3 stub→active conversions + 2 deletions (superposition duplicate, scaling-law singular). Next priority: scale-related batch (taylor/power-law/allometric), then llm-inference/llm-training.
 - **[Note]** Duplicate detection is high-yield — found 2 stubs to delete this cycle. power-law-scaling has more content than typical stub — evaluate before treating as duplicate candidate.

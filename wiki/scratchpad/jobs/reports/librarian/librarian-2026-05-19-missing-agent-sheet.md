@@ -1,3 +1,11 @@
+---
+created: 2026-05-19
+updated: 2026-06-27
+type: report
+summary: Librarian missing agent sheet report
+tags: [librarian, report]
+---
+
 ## Executive Summary
 
 The Wiki Librarian agent (`6ee16837c47c`) was assigned to perform a quality audit but could not proceed due to a missing agent instruction sheet.

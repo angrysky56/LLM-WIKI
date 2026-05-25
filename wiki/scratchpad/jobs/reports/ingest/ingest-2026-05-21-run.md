@@ -1,3 +1,11 @@
+---
+created: 2026-05-21
+updated: 2026-06-27
+type: report
+summary: Ingest report — sources processed
+tags: [ingest, report]
+---
+
 # Ingest Report — 2026-05-21
 
 ## Sources Processed

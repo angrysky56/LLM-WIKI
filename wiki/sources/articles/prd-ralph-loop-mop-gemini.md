@@ -1,9 +1,10 @@
 ---
+created: 2026-04-14 00:37:29+00:00
+updated: 2026-04-14 00:37:29+00:00
 summary: Gemini conversation connecting PRD-driven Ralph Loops with MOP and Theory of Mind for autonomous scientific research — epistemic energy as the critical constraint
-tags: [ralph-loop, MOP, PRD, theory-of-mind, epistemic-energy, autonomous-research, gemini]
-updated: 2026-04-14T00:37:29Z
-created: 2026-04-14T00:37:29Z
+tags: [ralph-loop, mop, prd, theory-of-mind, epistemic-energy, autonomous-research, gemini]
 ---
+
 
 # PRD + Ralph Loop + MOP Cognitive Architecture (Gemini Conversation)
 

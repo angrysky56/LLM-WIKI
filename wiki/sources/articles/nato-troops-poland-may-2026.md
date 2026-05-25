@@ -1,9 +1,10 @@
 ---
+created: 2026-05-22 14:07:53+00:00
+updated: 2026-05-22 14:07:53+00:00
 summary: Trump announces 5,000 US troops to Poland — NATO allies confused but welcoming
-tags: [news, NATO, Europe, US-military, Poland]
-updated: 2026-05-22T14:07:53Z
-created: 2026-05-22T14:07:53Z
+tags: [news, nato, europe, us-military, poland]
 ---
+
 
 ---
 created: 2026-05-22T00:00:00Z

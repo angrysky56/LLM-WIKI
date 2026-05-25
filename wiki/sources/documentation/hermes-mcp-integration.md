@@ -65,3 +65,11 @@ mcp_servers:
 
 ## Relevance to LLM-WIKI
 Project Synapse, ast-asg, mcp-logic, advanced-reasoning, verifier-graph, and local-repl are all MCP servers configured under Hermes. The embedding dimension mismatch fix was directly informed by understanding how env vars flow through MCP config.
+
+## Connections
+
+- [[hermes-agent]] — parent system this MCP integration extends
+- [[project-synapse]] — hosts the `synapse_mcp` server that exposes these MCP tools
+- [[openclaw]] — alternative local agent launch pattern (`ollama launch`)
+- [[mcp-logic]] — formal logic tools (Mace4, Prover9) consumable via MCP
+- [[agentic-research]] — research workflows using Hermes MCP tools

@@ -1,8 +1,9 @@
 ---
+updated: 2026-05-17 18:16:55+00:00
 summary: Tool use pattern for agents requiring external world interaction. Foundation layer for most real-world agentic tasks.
-tags: [agentic, tools, RAG, retrieval]
-updated: 2026-05-17T18:16:55Z
+tags: [agentic, tools, rag, retrieval]
 ---
+
 
 # Agentic Tool Use Pattern
 

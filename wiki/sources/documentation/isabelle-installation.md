@@ -1,16 +1,8 @@
 ---
-summary: Official installation guide for Isabelle2025-2.
-tags: [isabelle, installation, formal-methods]
+tags: [isabelle, formal-methods, installation]
 updated: 2026-05-06T20:06:20Z
 created: 2026-05-06T20:06:20Z
----
-
----
-created: 2026-05-06T20:06:15Z
-updated: 2026-05-06T20:06:15Z
 type: source
-summary: Official installation guide for Isabelle2025-2 across Linux, Windows, and macOS.
-tags: [isabelle, formal-methods, installation]
 sources: https://isabelle.in.tum.de/installation.html
 status: reference
 confidence: 1.0

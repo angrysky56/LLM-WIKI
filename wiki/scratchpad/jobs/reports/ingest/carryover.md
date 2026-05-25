@@ -1,3 +1,11 @@
+---
+created: 2026-06-27
+updated: 2026-06-27
+type: carryover
+summary: Ingest agent carryover — pipeline healthy, MCP unavailable, 38 missing frontmatter flagged
+tags: [ingest, carryover]
+---
+
 # Ingest Agent Carryover
 
 ## Established
@@ -21,3 +29,7 @@
 - Three Hermes Agent docs ingested: Kanban board, Profiles, Scheduled Tasks (all documentation type, confidence 0.95)
 - Source files archived to `Clippings/documentation/2026/`
 - **2026-05-25 run**: 1 file processed (Kanban Wikipedia article), archived to Clippings/articles/2026/, summary written to wiki/sources/articles/kanban-development.md
+
+## Kanban Status
+- [x] Surfaced to hermes kanban: 2026-06-27
+  - 3 open items → t_0c7ec52de58b56b7 (broken wikilinks), t_c1d9d10d15cd07cc (orphans), t_1354d9bfe9598069 (frontmatter)

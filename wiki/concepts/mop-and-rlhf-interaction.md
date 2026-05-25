@@ -103,14 +103,19 @@ However, GRPO has not been specifically studied in the MoE fine-tuning context �
 
 1. **Which resolution path is correct?** No published work has tested all three systematically.
 
-2. **MoE routing collapse under RLHF**: Is routing collapse actually happening in practice? What's the empirical degradation in expert utilization after RLHF fine-tuning?
+2. **MoE routing collapse under RLHF** ✅ **EMPIRICALLY CONFIRMED**: Fine-tuning causes significant routing drift in MoE LLMs. SafeMoE (Kim et al., 2025) shows OLMoE's harmfulness score rises from aligned → 62.0 post-fine-tuning without intervention. Routing weights for harmful inputs change substantially — the safety-critical expert routing is not preserved through fine-tuning. Routing drift confirmed across architectures from 7B to 141B parameters. See [[defending-moe-llms-against-harmful-fine-tuning-via-safety-routing-alignment]].
 
-3. **GRPO for MoE**: Can GRPO naturally preserve MoE expert diversity without additional regularization? This is empirically testable.
+3. **GRPO for MoE**: Can GRPO naturally preserve MoE expert diversity without additional regularization? This is empirically testable — no published results yet.
 
-4. **Scale of the conflict**: Does the MOP+RLHF tension matter at small scale (7B MoE), or only emerge at frontier scale (400B+ MoE)?
+4. **Scale of the conflict**: Observed at 7B to 141B — not a frontier-only phenomenon. Routing drift is measurable at production scale.
+
+5. **Skewed utilization pre-exists fine-tuning**: MoE-Sieve (Manzoni, 2026) shows per-layer routing is already highly skewed pre-fine-tuning — top 25% of experts handle most tokens. Fine-tuning may compound this skew rather than causing it from a uniform baseline. See [[moe-sieve-routing-guided-lora-for-efficient-moe-fine-tuning]].
+
+6. **Representation collapse in pre-training**: Chi et al. (2022) showed token clustering around expert centroids is a structural tendency of MoE routing mechanisms, not just a fine-tuning artifact. The collapse starts in pre-training. See [[on-the-representation-collapse-of-sparse-mixture-of-experts]].
 
 ## Limitations
 
-- **No empirical validation**: All three paths are theoretical — no published experiments comparing them.
+- **SafeMoE is not standard RLHF**: The paper studies harmful fine-tuning (HFT), not standard RLHF. Standard RLHF may show different routing dynamics.
 - **Algorithm-specific**: The tension depends on which RLHF algorithm is used. DPO and PPO have different KL structures and different compatibility with MOP.
 - **Domain-specific**: The severity of the conflict depends on the domain. Code generation (high reward variance across states) may benefit more from MOP-style diversity than factual Q&A.
+- **SafeMoE's fix is alignment-specific**: The routing penalty targets safety-critical routing, not general expert utilization. The same mechanism might not preserve general-purpose expert diversity.

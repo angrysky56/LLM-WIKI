@@ -1,13 +1,14 @@
 ---
-created: 2026-04-07T20:00:55Z
-updated: 2026-04-07T20:00:55Z
+created: 2026-04-07 20:00:55+00:00
+updated: 2026-04-07 20:00:55+00:00
 type: concept
 summary: Karpathy's pattern for LLM-maintained persistent Markdown knowledge bases — the foundational architecture this wiki is built on
-tags: [knowledge-management, RAG, LLM, wiki, architecture, karpathy]
+tags: [knowledge-management, rag, llm, wiki, architecture, karpathy]
 sources: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
 status: reference
 confidence: 1.0
 ---
+
 
 # LLM Wiki Pattern
 

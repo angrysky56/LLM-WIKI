@@ -1,13 +1,14 @@
 ---
-created: 2026-05-25T06:01:00Z
-updated: 2026-05-25T06:01:00Z
+created: 2026-05-25 06:01:00+00:00
+updated: 2026-05-25 06:01:00+00:00
 type: synthesis
 summary: OEE forms a unifying knowledge community across Tierra, Extended Lenia, Evosphere, and Simss virtual creatures via shared coevolution dynamics
-tags: [insights, zettelkasten, Open-Ended Evolution]
-sources: [derived from evidence]
+tags: [insights, zettelkasten, open-ended-evolution]
+sources: ['derived from evidence']
 status: active
 confidence: 0.85
 ---
+
 
 ## OEE Knowledge Cluster Spans Tierra, Lenia, and Evosphere
 

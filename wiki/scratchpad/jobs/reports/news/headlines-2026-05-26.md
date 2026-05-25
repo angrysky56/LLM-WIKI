@@ -1,3 +1,11 @@
+---
+created: 2026-05-26
+updated: 2026-06-27
+type: report
+summary: News report — global news headlines
+tags: [news, report]
+---
+
 # News Report — 2026-05-26
 
 ## Stories Ingested

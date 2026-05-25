@@ -1,22 +1,63 @@
 ---
+summary: Engineering internal awareness in LLMs with MCM/oMCD framework connections
+tags: [LLM, metacognition, internal-awareness, self-regulation]
+updated: 2026-05-25T00:28:08Z
+---
+
+---
 created: 2026-05-30
-updated: 2026-05-30
+updated: 2026-05-25T00:00:00Z
 type: concept
-summary: "[STUB] Internal awareness mechanisms in LLMs — closed-loop self-regulation via metacognition"
-tags: [LLM, metacognition, stubs]
+summary: Engineering internal awareness mechanisms in LLMs — closed-loop self-regulation via metacognition
+tags: ['LLM', 'metacognition', 'internal-awareness', 'self-regulation']
 sources: []
-status: stub
-confidence: 0.3
+status: active
+confidence: 0.5
 ---
 
 # Engineering Internal Awareness
 
-*Stub page — needs real content*
-
 Engineering internal awareness refers to the design and implementation of closed-loop self-regulation mechanisms in large language models. The concept involves giving models the ability to monitor their own reasoning processes, detect anomalies or confidence drops, and trigger corrective behaviors — analogous to System 2 metacognitive oversight.
 
-## Connections
+## Core Concepts
 
-- [[metacognitive-architecture-closed-loop-self-regulation]] — related concept
-- [[activation-steering]] — related technique
-- [[agentic-oversight]] — related concept
+This page bridges the gap between the neural implementation layer ([[metacognitive-architecture-closed-loop-self-regulation]]) and the computational framework layer ([[cognitive-architecture]], [[oMCD]]).
+
+Key mechanisms:
+- **Latent state monitoring** — Observing internal activations as a proxy for cognitive state
+- **Confidence estimation** — Computing expected confidence $P_c(z)$ from the meta-cognitive self-model
+- **Control signal generation** — Computing the meta-cognitive action $\dot{z}$ via benefit-cost analysis
+- **Closed-loop adaptation** — Updating precision parameters and value modes based on prediction error
+
+## Relationship to MCM
+
+Internal awareness is the **monitoring component** of the Metacognitive Control Model (MCM). MCM proposes two self-models:
+- Knowledge self-model — what the agent knows
+- Meta-cognitive self-model — how the agent thinks
+
+Engineering internal awareness builds the machinery for the meta-cognitive self-model to observe and regulate the cognitive system.
+
+## Relationship to oMCD
+
+In the [[oMCD]] framework, internal awareness mechanisms implement:
+- Step 1 (Observe) — latent state monitoring
+- Step 3 (Compute confidence) — confidence estimation from meta-cognitive self-model
+- Step 9 (Adapt) — precision and value mode updates
+
+## Agent Archetypes
+
+The [[agent-taxonomies]] define how different agent types leverage internal awareness:
+- **Alpha** — Uses awareness to gate complexity
+- **Zeta** — Uses awareness to regulate entropy
+- **Epsilon** — Uses awareness to validate assumptions
+
+## See Also
+
+- [[metacognitive-architecture-closed-loop-self-regulation]] — Neural implementation details
+- [[cognitive-architecture]] — MCM framework
+- [[oMCD]] — Computational framework
+- [[agent-taxonomies]] — Agent archetypes
+- [[hermes-meta-cognition]] — Hermes as a concrete implementation
+- [[activation-steering]] — Related technique
+- [[agentic-oversight]] — Related concept
+- [[self-correction]] — Behavioral output of internal awareness

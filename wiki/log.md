@@ -14081,3 +14081,39 @@ Updated page: wiki/sources/papers/critical-initialization-biological-neural-netw
   - [[institutional-design]] → [[institutional-accountability]] (no return link)
   - [[institutional-design]] → [[institutional-capture-vs-species-framing]] (no return link)
   - [[institutional-design]] → [[governance]] (no return link)
+
+## [2026-05-25 00:27] write
+
+Updated page: wiki/concepts/oMCD.md
+
+## [2026-05-25 00:27] write
+
+Updated page: wiki/concepts/cognitive-architecture.md
+
+## [2026-05-25 00:27] write
+
+Updated page: wiki/concepts/agent-taxonomies.md
+
+## [2026-05-25 00:27] write
+
+Updated page: wiki/entities/hermes-meta-cognition.md
+
+## [2026-05-25 00:28] write
+
+Updated page: wiki/references/portfolio-policies-metacognition.md
+
+## [2026-05-25 00:28] write
+
+Updated page: wiki/concepts/self-correction.md
+
+## [2026-05-25 00:28] write
+
+Updated page: wiki/concepts/metacognitive-architecture-closed-loop-self-regulation.md
+
+## [2026-05-25 00:28] write
+
+Updated page: wiki/concepts/engineering-internal-awareness.md
+
+## [2026-05-25 00:34] write
+
+Updated page: wiki/references/oMCD-calibration-protocol.md

@@ -1,16 +1,19 @@
 ---
+summary: Engineering internal awareness and closed-loop self-regulation with oMCD/MCM connections
+tags: [metacognition, llm, closed-loop, activation-steering, pid-control, biofeedback, representation-engineering]
+updated: 2026-05-25T00:28:07Z
+---
+
+---
 summary: Engineering internal awareness and closed-loop self-regulation in LLMs using biofeedback paradigms, PID control, and LQR — peer-reviewed whitepaper summary
 type: concept
-tags: [metacognition, llm, closed-loop, activation-steering, pid-control, biofeedback, representation-engineering]
-updated: 2026-05-21T07:05:06Z
+tags: ['metacognition', 'llm', 'closed-loop', 'activation-steering', 'pid-control', 'biofeedback', 'representation-engineering']
+updated: 2026-05-25T00:00:00Z
 created: 2026-05-21T07:05:06Z
 sources: []
 status: active
-confidence: 0.7
-
+confidence: 0.8
 ---
-
-
 
 # Metacognitive Architecture: Closed-Loop Self-Regulation in LLMs
 
@@ -31,15 +34,23 @@ The claim that an "internal check loop" is technically infeasible misunderstands
 Human biofeedback demonstrates that "awareness" is not mystical — it is the mechanical translation of latent state data into usable feedback signals.
 
 | Biological | Artificial |
-|
-|
-|
+|-----------|------------|
 | HRV, EEG, EMG sensors | TransformerLens activation hooks |
 | Sympathetic hyperarousal | Cascading hallucination / attention collapse |
 | Vagal tone regulation | PID activation steering |
 | Homeostatic setpoint tracking | LQR semantic setpoint regulation |
 
 The LLM equivalent of "sympathetic hyperarousal" is a cascading hallucination or unanchored logical loop in its attention heads. The artificial biofeedback mechanism must: (1) monitor internal activations in real-time, (2) recognize computational instability onset, and (3) dynamically steer generation toward mathematical coherence.
+
+## Relationship to oMCD and MCM
+
+This page describes the *neural substrate* of metacognition (activation steering, PID control), while [[cognitive-architecture]] and [[oMCD]] describe the *computational framework*. The [[agent-taxonomies]] define how different agent archetypes map onto these mechanisms:
+
+- **Zeta** (entropy regulation) corresponds to monitoring system entropy and triggering corrective steering
+- **Epsilon** (assumption validation) maps to the failure probability prediction in DMC
+- The neuro-symbolic integration described here implements the 9-step [[oMCD]] operational loop at the implementation level
+
+See [[hermes-meta-cognition]] for a concrete system that combines these concepts.
 
 ## The DMC Framework: Quantifying Self-Awareness
 
@@ -79,10 +90,7 @@ By supplying semantically resonant and often contradictory tokens (e.g., `crucib
 ## Latent Behavioral Signatures as Control Objectives
 
 | Behavioral Objective | Control-Theoretic Term | Artificial Analog |
-|
-|
-|
--|
+|---------------------|----------------------|-------------------|
 | Exploratory Variance | Entropic Drive | Pure semantic exploration, maximizing action-entropy |
 | Convergence-Forcing | Constraint Resolution | Forceful collapse of ambiguity to resolve tensions |
 | Boundary-Constraint | Safety Alignment Avoidance | Triggered by ungrounded abstraction |
@@ -102,10 +110,7 @@ This is the exact computational analog of connecting EEG electrodes to a biofeed
 **RepE** operates on the hypothesis that high-level behaviors are encoded as linear directions within the representation space. Contrastive pairs extract difference vectors that can be added at runtime to steer behavior without parameter updates.
 
 | Method | Mechanism | Distinctive Feature |
-|
---|
---|
-|
+|-------|-----------|-------------------|
 | CAA | Fixed vector addition | Static behavioral shifts |
 | SADI | Binary masks + element-wise scaling | Per-input dynamic adaptation |
 | SHARP | Decomposed steering vectors | Mitigates visual hallucinations in LVLMs |
@@ -149,6 +154,8 @@ Full metacognitive maturity integrates latent control with explicit symbolic val
 3. Verifies symbolic logic via MCP tool use (Shredder agents scanning OSV.dev)
 4. Only emits explicit tokens once internal steady-state error is minimized to zero
 
+This is the implementation of the [[oMCD]] 9-step loop at the neural level.
+
 ## Key Equations
 
 **DMC Signal Detection Theory:**
@@ -163,12 +170,21 @@ Full metacognitive maturity integrates latent control with explicit symbolic val
 - δx_{l+1} ≈ A_l·δx_l + B_l·u_l
 - where A_l is the layer-wise Jacobian evaluated at the reference activation
 
+## Connections
+
+- [[oMCD]] — The formal computational framework this neural implementation supports
+- [[cognitive-architecture]] — The MCM framework connecting self-awareness to control
+- [[agent-taxonomies]] — Zeta (entropy regulation) and Epsilon (assumption validation) map to these mechanisms
+- [[hermes-meta-cognition]] — Concrete system combining these ideas
+- [[self-correction]] — The behavioral output of metacognitive control
+
 ## Open Questions
 
 1. **Dimensionality gap**: The metacognitive space is substantially smaller than total activation space — how do we systematically map its contours?
 2. **Scaling laws**: Self-awareness appears to scale with model size — is there a critical threshold where qualitatively new metacognitive capabilities emerge?
 3. **Cross-model portability**: Jacobians computed for one model family may not transfer — what is the generalization cost of cached A-LQR controllers?
 4. **Ground truth problem**: How does the model verify that its internal confidence calibration is accurate, rather than confidently wrong?
+5. **oMCD integration**: Can the computational framework of [[oMCD]] be directly implemented via activation steering?
 
 ## References
 

@@ -1,10 +1,16 @@
 ---
+summary: LLM self-correction capability and architectures with oMCD relationship added
+tags: [self-correction, reflection, metacognition, agentic, self-refine, reasoning, LLM]
+updated: 2026-05-25T00:28:06Z
+---
+
+---
 created: 2026-05-21T08:33:00Z
-updated: 2026-05-21T08:33:00Z
+updated: 2026-05-25T00:00:00Z
 type: concept
 summary: The capability and architectures of LLMs to detect, critique, and revise their own outputs — distinct from explicit CoT or formal metacognitive control
-tags: [self-correction, reflection, metacognition, agentic, self-refine, reasoning, LLM]
-sources: [https://arxiv.org/abs/2303.11391, https://arxiv.org/abs/2212.07060]
+tags: ['self-correction', 'reflection', 'metacognition', 'agentic', 'self-refine', 'reasoning', 'LLM']
+sources: ['https://arxiv.org/abs/2303.11391', 'https://arxiv.org/abs/2212.07060']
 status: active
 confidence: 0.8
 ---
@@ -56,6 +62,16 @@ CoT and self-correction interact in complex ways:
 - **Self-correction can restart CoT**: After detecting an error, the model may restart the reasoning trace
 - **Implicit CoT vs. explicit loops**: Some self-correction appears to happen within a single CoT trace (implicit), while explicit loops generate entirely new traces
 
+## Relationship to oMCD
+
+Self-correction is the *behavioral output* of the [[oMCD]] (online Metacognitive Control of Decisions) framework. In oMCD terms:
+
+- The **Epsilon** agent archetype (assumption validation) implements the detection phase of self-correction
+- The **Beta** agent archetype (option optimization) computes the revised action
+- The 9-step oMCD loop's "Adapt" step (step 9) corresponds to the self-correction update
+
+See [[cognitive-architecture]] for how self-correction fits into the broader MCM framework.
+
 ## Why It Matters
 
 Self-correction reduces the brittleness of LLM outputs. Without it, errors propagate unchecked. With it, the model can catch:
@@ -69,9 +85,12 @@ For agentic systems, self-correction at the action level prevents cascading fail
 ## Connections
 
 - [[metacognitive-architecture-closed-loop-self-regulation]] — The formal control-theory version; self-correction can be seen as the behavioral output of metacognitive monitoring
+- [[oMCD]] — The formal framework for metacognitive control; Epsilon and Beta archetypes implement self-correction
+- [[cognitive-architecture]] — MCM framework where self-correction is the control output
 - [[chain-of-thought]] — CoT provides the substrate for implicit self-correction; explicit CoT often includes self-correction as a step
 - [[process-reward-model]] — Both PRM and self-correction involve evaluating intermediate steps; PRM provides a learned reward signal, self-correction uses the model's own judgment
 - [[load-bearing-reasoning]] — Identifies which reasoning steps are essential vs. scaffolding; self-correction often removes or revises scaffolding steps
+- [[agent-taxonomies]] — The Epsilon archetype specifically implements assumption validation and self-correction triggers
 - [[agentic-research]] — Self-correction is essential for agentic research loops to handle implementation drift
 
 ## Limitations
@@ -86,3 +105,4 @@ For agentic systems, self-correction at the action level prevents cascading fail
 1. **When does implicit self-correction fail most?** Is there a pattern to the errors models catch vs. miss in single-pass generation?
 2. **Can self-correction be reliably elicited?** Prompting strategies (e.g., "Double-check your work") help but aren't reliable — what's the mechanism?
 3. **Self-correction vs. self-consistency**: Should we ensemble multiple generation paths rather than revise a single path?
+4. **oMCD integration**: Can explicit meta-cognitive control (via [[oMCD]]) improve self-correction reliability beyond prompt-based elicitation?

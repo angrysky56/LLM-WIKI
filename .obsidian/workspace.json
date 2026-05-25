@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "ead082ae0f91bc34",
+        "id": "20814deb2859503d",
         "type": "tabs",
         "children": [
           {
-            "id": "8a3172c0890b8998",
+            "id": "2fa1068fa80a4c8a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "raw/Profiles Running Multiple Agents.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Profiles Running Multiple Agents"
+              "title": "New tab"
             }
           }
         ]
@@ -194,8 +190,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8a3172c0890b8998",
+  "active": "c161994581ba454a",
   "lastOpenFiles": [
+    "wiki/references/oMCD-calibration-protocol.md",
+    "wiki/references/portfolio-policies-metacognition.md",
+    "wiki/references",
+    "wiki/entities/hermes-meta-cognition.md",
+    "wiki/concepts/agent-taxonomies.md",
+    "wiki/concepts/cognitive-architecture.md",
+    "wiki/concepts/oMCD.md",
     "raw/Profiles Running Multiple Agents.md",
     "wiki/scratchpad/jobs/reports/news/headlines-2026-05-26.md",
     "wiki/sources/articles/china-rare-earth-geopolitics-may-2026.md",
@@ -220,17 +223,10 @@
     "wiki/concepts/profiles.md",
     "wiki/concepts/tools.md",
     "wiki/concepts/hermes-agent-skills.md",
-    "wiki/entities/projects/priorlabs.md",
-    "wiki/entities/projects/anthropic.md",
-    "wiki/concepts/mcp.md",
-    "wiki/concepts/xgboost.md",
-    "wiki/synthesis/non-obvious-insight.md",
-    "wiki/concepts/cobra.md",
     "wiki/agents/skills/insights-agent/references",
     "wiki/agents/skills/insights-agent",
     "wiki/agents/skills/orcaid",
     "wiki/agents/skills/paper2code-enhanced",
-    "wiki/agents/skills/librarian-agent",
-    "wiki/agents/skills/librarians-assistant"
+    "wiki/agents/skills/librarian-agent"
   ]
 }

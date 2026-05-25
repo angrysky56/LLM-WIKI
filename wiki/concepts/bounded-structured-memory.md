@@ -5,8 +5,8 @@ type: concept
 summary: "[STUB] Bounded structured memory — layered memory architecture for agent continuity across sessions"
 tags: [memory, agentic, stubs]
 sources: []
-status: stub
-confidence: 0.3
+status: active
+confidence: 0.7
 ---
 
 # Bounded Structured Memory

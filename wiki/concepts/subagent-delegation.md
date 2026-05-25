@@ -5,8 +5,8 @@ type: concept
 summary: Subagent delegation — pattern of spawning child agents to handle subtasks
 tags: [delegation, multi-agent, hermes-agent]
 sources: 
-status: stub
-confidence: 0.3
+status: active
+confidence: 0.7
 ---
 
 # Subagent Delegation

@@ -2,8 +2,9 @@
 
 ## Established
 - **Pipeline healthy**: raw/ emptied after every run, all files archived to Clippings/
-- **Tufte-viz skill ingested**: 128 nodes, 64 edges — Edward Tufte analytical design principles for Claude Code
-- **Ingest tool**: wiki_ingest_raw auto-archives to Clippings/repositories/YYYY/
+- **MCP unavailable**: synapse MCP server doesn't expose `wiki_ingest_raw` directly — running raw CLI instead
+- **Ingest approach**: Manual file processing (MCP not available for direct ingest), copy to Clippings then write summary page to wiki/sources/
+- **3 files ingested**: kanban-multi-agent-board, profiles-running-multiple-agents, scheduled-tasks-cron (all documentation type)
 
 ## Open
 - **292 broken wikilinks**: Pre-existing, needs librarian agent attention
@@ -16,5 +17,6 @@
 - **Backlog**: Empty — raw/ is clean
 
 ## Notes
-- Tufte-viz skill covers: six principles of analytical design, sparklines, layering, chart critique
-- Potential Hermes Agent visualization skill integration candidate
+- MCP server test succeeds (`InsightEngine` loads OK) but tools aren't exposed via `wiki_ingest_raw` pattern — need to verify actual MCP tool names available
+- Three Hermes Agent docs ingested: Kanban board, Profiles, Scheduled Tasks (all documentation type, confidence 0.95)
+- Source files archived to `Clippings/documentation/2026/`

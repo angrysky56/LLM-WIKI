@@ -3,7 +3,7 @@ title: "Profiles: Running Multiple Agents"
 source: "https://hermes-agent.nousresearch.com/docs/user-guide/profiles"
 author:
 published:
-created: 2026-05-11
+created: 2026-05-24
 description: "Run multiple independent Hermes agents on the same machine — each with its own config, API keys, memory, sessions, skills, and gateway state."
 tags:
   - "clippings"
@@ -35,6 +35,14 @@ hermes profile create mybot
 ```
 
 Creates a fresh profile with bundled skills seeded. Run `mybot setup` to configure API keys, model, and gateway tokens.
+
+If you plan to use this profile as a kanban worker (or want the kanban orchestrator to route work to it), pass `--description "<role>"` at create time so the orchestrator knows what it's good at:
+
+```bash
+hermes profile create researcher --description "Reads source code and external docs, writes findings."
+```
+
+You can also set or auto-generate the description later with `hermes profile describe` — see the [Kanban guide](https://hermes-agent.nousresearch.com/docs/user-guide/features/kanban#auto-vs-manual-orchestration) for the full routing model.
 
 ### Clone config only (--clone)
 

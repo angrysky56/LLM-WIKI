@@ -1,6 +1,10 @@
 ## CarryoverState
 
 ### Established
+- **[[subagent-delegation]]** promoted: pattern of spawning child agents (isolation, parallelism, bounded context, non-durability); Hermes delegate_task (3 concurrent, configurable toolsets); connects to delegation, agentic-hierarchy, bounded-structured-memory (Jun 2026)
+- **[[bounded-structured-memory]]** promoted: layered memory architecture for agent continuity across sessions; markovian-carryover integration (Jun 2026)
+- **[[recursive-transformers]]** filled: shared layer block reuse across multiple forward passes per token; MoR architecture (Middle-Cycle, token/expert-choice routing, recursive KV sharing); per-token recursion depth as causal state complexity proxy; connects to reasoning, latent-reasoning, adaptive-computation (Jun 2026)
+- **[[working-memory]]** filled: Baddeley's multi-component model; amnesiac agent problem in LLMs (attention decay, activation interference, retrieval failure); MOP-EDM integration; connects to bounded-rationality, world-model, recursive-transformers, efhf (Jun 2026)
 - **[[llm-agent-architecture]]** filled: runtime architecture patterns, LLM/software boundary as design concern, guardrail layers, state machines, production failure modes (Jun 2025)
 - **[[code-generation]]** filled: narrow task vs code agents, HumanEval/SWE-Bench/MBPP benchmarks, context window/multi-file/test reliability challenges, MOP search-space framing (Jun 2025)
 - **[[video-llm]]** filled: pipeline architecture, DeltaDirect findings on directional motion blindness and direction binding gap, magnitude deficit, projector-level fix (Jun 2025)
@@ -68,5 +72,6 @@
 - **[Question]** MOP training for transformers: Can path entropy maximization be applied to next-token prediction training from scratch?
 
 ### Heading
-- **[Intent]** Next cycle: continue stub-first filling. Remaining high-value clusters: epistemic-energy (stub, connects to agent-native-design/EFHF), scale (connects to scaling-laws), probing-analysis (thin but strong connections). Domain-specific stubs to evaluate: taylors-law, esa, qes, directed-preferential-placement.
-- **[Constraint]** 180 concept stubs remain (corrected from ~125). This cycle completed 5 stub→active conversions + 1 redundant deletion (video/vision cluster). Next priority: epistemic-energy, scale-related stubs, then domain-specific batch.
+- **[Intent]** Next cycle: stub-first filling. Top priorities: (1) epistemic-energy (stub, connects to agent-native-design/EFHF), (2) superposition (duplicate — should evaluate for deletion against neural-interpretability.md), (3) scale-related stubs (taylors-law, scaling-law singular), (4) domain batch: esa, mcp-model-context-protocol, llm-inference, llm-training.
+- **[Constraint]** 181 concept stubs remain. This cycle completed 4 stub→active conversions + 2 deletions (steering-vectors duplicate of activation-steering, knowledge-store generic). Next priority: epistemic-energy cluster, then scale-related batch.
+- **[Note]** Duplicate detection is high-yield — found 2 stubs to delete per this cycle. Should scan for more duplicates (scaling-law, superposition) before filling.

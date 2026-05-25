@@ -25,10 +25,10 @@ updated: 2026-05-22T01:30:00Z
 | Job ID | Job Name | Agent | Status | Last Run | Next Run | Agent Sheet |
 |--------|----------|-------|--------|----------|----------|-------------|
 | `eaaa6bdc8503` | world-news-daily | news | **done** | 2026-05-26 | 2026-05-27 8AM | [[agent-sheets/news]] |
-| `8ea33cfa560a` | Wiki Researcher | researcher | **done** | 2026-06-09 | TBD | [[agent-sheets/researcher]] |
+| `8ea33cfa560a` | Wiki Researcher | researcher | **done** | 2026-06-25 | TBD | [[agent-sheets/researcher]] |
 | `297092f3b347` | orcaid-verification-indexer | orcaid | **PAUSED** | 2026-05-18 | — | [[agent-sheets/orcaid]] |
 | `72599f850df2` | arxiv-top3 | arxiv | **done** | 2026-05-24 | 2026-05-26 8:20AM | [[agent-sheets/arxiv]] |
-| `c838e81a1496` | llm-wiki-raw-ingest | ingest | **done** | 2026-05-23 | — | [[agent-sheets/ingest]] |
+| `c838e81a1496` | llm-wiki-raw-ingest | ingest | **done** | 2026-05-24 | — | [[agent-sheets/ingest]] |
 | `48a3a009a820` | Wiki Librarian | librarian | **done** | 2026-06-17 | — | [[agent-sheets/librarian]] |
 | `385aa0819a57` | Wiki Librarians-Assistant | librarians-assistant | **done** | 2026-06-17 | — | [[agent-sheets/librarians-assistant]] |
 | `723e76246970` | Wiki Insights Generator | insights | **done** | 2026-05-24 | 2026-05-25 6AM | [[agent-sheets/insights]] |

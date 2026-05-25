@@ -1,34 +1,60 @@
 ---
-updated: 2026-05-17T17:56:51Z
-created: 2026-05-17T17:56:51Z
----
-
----
-created: 2026-05-17T11:00:00Z
-updated: 2026-05-17T11:00:00Z
+created: 2026-05-24T00:00:00Z
+updated: 2026-05-24T00:00:00Z
 type: source
-summary: Hermes profiles — independent agent instances on the same machine, each with own config, API keys, memory, skills, and gateway. Created via hermes profile create, accessed via command aliases like `coder chat`.
+summary: Run multiple independent Hermes agents on the same machine — each with its own config, API keys, memory, sessions, skills, and gateway state
 tags: [hermes-agent, profiles, multi-agent, configuration]
 sources: https://hermes-agent.nousresearch.com/docs/user-guide/profiles
-status: reference
+status: active
 confidence: 0.95
 ---
 
-## Core Insight
+# Profiles: Running Multiple Agents
 
-Hermes profiles are completely isolated agent instances sharing the same binary but with separate ~/.hermes/profiles/<name>/ directories. Each gets its own config.yaml, .env, SOUL.md, memories, sessions, skills, cron jobs, and state. Create with `hermes profile create <name>` which auto-creates command aliases like `<name> chat`, `<name> setup`, `<name> gateway start`.
+## Core Concept
 
-## Key Claims
+A profile is a separate Hermes home directory. Each profile gets its own directory containing its own `config.yaml`, `.env`, `SOUL.md`, memories, sessions, skills, cron jobs, and state database.
 
-| Clone Option | What Gets Copied |
-|-------------|-----------------|
-| `--clone` (default) | config.yaml, .env, SOUL.md only (fresh sessions/memory) |
-| `--clone-all` | Everything — full snapshot including memories, sessions, cron jobs |
-| `--clone --clone-from <other>` | Clone config from specific profile |
+Profiles let you run separate agents for different purposes — a coding assistant, a personal bot, a research agent — without mixing up Hermes state.
 
-When Honcho is enabled, `--clone` also creates a dedicated AI peer for the new profile sharing the same user workspace.
+## Quick Start
+
+```bash
+hermes profile create coder       # creates profile + "coder" command alias
+coder setup                       # configure API keys and model
+coder chat                         # start chatting
+```
+
+That's it. `coder` is now its own Hermes profile with its own config, memory, and state.
+
+## Profile Structure
+
+Each profile lives in `~/.hermes/profiles/<name>/` and contains:
+- `config.yaml` — agent configuration
+- `.env` — API keys and secrets
+- `SOUL.md` — identity and principles
+- `memories/` — persistent memory files
+- `sessions/` — conversation history (SQLite)
+- `skills/` — available skills
+- `cron/` — scheduled jobs
+
+## Profile Commands
+
+- `hermes profile create <name>` — create new profile
+- `hermes profile list` — show all profiles
+- `hermes profile remove <name>` — delete a profile
+- `<name> chat` — start agent with that profile
+- `<name> setup` — configure the profile
+- `<name> gateway start` — start the gateway for this profile
+
+## Use Cases
+
+- **Separate work/personal contexts** — different models, different system prompts
+- **Specialized agents** — coding, research, inbox triage as distinct profiles
+- **Fleet management** — one dashboard for all profiles
 
 ## Connections
 
 - [[hermes-agent]] — parent system
-- [[delegation]] — profiles complement but differ from subagent delegation
+- [[kanban-multi-agent-board-hermes-agent]] — task coordination across profiles
+- [[scheduled-tasks-cron-hermes-agent]] — scheduling for profile-bound tasks

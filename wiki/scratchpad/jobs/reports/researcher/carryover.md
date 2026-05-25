@@ -85,10 +85,10 @@ tags: [researcher, carryover]
 - **[Question]** MOP training for transformers: Can path entropy maximization be applied to next-token prediction training from scratch? **Answered (Jun 2026):** No existing papers apply MOP to transformer NTP training from scratch. Key challenge: absorbing state definition in token space. MOP's KL-regularization tension (Theorem 5) directly challenges RLHF structure. Open research direction — empirical validation needed. [[mop-next-token-prediction]] (stub created).
 
 ### Kanban Status
-- [x] Surfaced to hermes kanban: 2026-06-27
-  - 5 open items → t_08351f0801a1a718 (category theory+attention), t_b7fec25f5c9bf681 (cognitive world models), t_0eae0cb4306c1f26 (MOP training), t_829e3c129e9ac67f (MoE routing collapse), t_3f6f2a5e0e9755d4 (reward hacking detectability)
+- [x] Surfaced to hermes kanban: 2026-06-28
+  - 5 open items (2 new this cycle) → t_08351f0801a1a718 (category theory+attention, done), t_b7fec25f5c9bf681 (cognitive world models, done), t_0eae0cb4306c1f26 (MOP training, done), t_829e3c129e9ac67f (MoE routing collapse, done), t_3f6f2a5e0e9755d4 (reward hacking detectability, done), t_a6f9e6e94d0dbb04 (adaptive budget learning, NEW), t_902a507aaf550a6e (hybrid reward models, NEW)
 
 ## Heading
-- **[Intent]** Next cycle: stub-first filling. Top priorities: (1) taylors-law (ecological scaling, connects to scaling-laws), (2) power-law-scaling (evaluate for upgrade — has substantive content), (3) allometric-scaling (biological stub), (4) llm-inference (evaluate — has more content than typical stub), (5) llm-training (stub, connects to rlhf already filled this cycle), (6) esa — search needed (file doesn't exist, was listed in prior carryover).
+- **[Intent]** Next cycle: stub-first. Remaining high-priority stubs from Heading (ecology/biology batch completed this cycle). Next: evaluate llm-reasoning, llm-training, model-serving for fill vs delete. 174 stubs remain (Jun 28 count: power-law-scaling, taylors-law, allometric-scaling upgraded → active). Check for duplicate stubs in remaining set before filling.
 - **[Constraint]** 175 concept stubs remain (Jun 26 count). This cycle completed 3 stub→active conversions + 2 deletions (superposition duplicate, scaling-law singular). Next priority: scale-related batch (taylor/power-law/allometric), then llm-inference/llm-training.
 - **[Note]** Duplicate detection is high-yield — found 2 stubs to delete this cycle. power-law-scaling has more content than typical stub — evaluate before treating as duplicate candidate.

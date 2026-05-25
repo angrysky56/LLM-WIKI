@@ -24529,3 +24529,7 @@ Updated page: wiki/sources/moe-sieve-routing-guided-lora-for-efficient-moe-fine-
   - [[evolutionary-strategies]] → [[group-relative-policy-optimization]] (no return link)
 **Non-preferred tags** (1) — use controlled vocabulary:
   - wiki/concepts/tag-taxonomy.md: `taxonomy` → use `controlled-vocabulary`
+
+## [2026-05-25 20:03] index
+
+Index updated with 1020 pages

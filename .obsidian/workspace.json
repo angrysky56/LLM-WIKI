@@ -196,6 +196,14 @@
   },
   "active": "2fa1068fa80a4c8a",
   "lastOpenFiles": [
+    "raw/hermes-path-forward.md",
+    "Clippings/documentation/2026/hermes-path-forward.md",
+    "Clippings/documentation/2026/codegraph-readme.md",
+    "Clippings/documentation/2026/codegraph-hermes-phase1-implementation.md",
+    "wiki/sources/documentation/hermes-path-forward.md",
+    "wiki/sources/documentation/codegraph-readme.md",
+    "wiki/sources/documentation/codegraph-hermes-phase1-implementation.md",
+    "wiki/scratchpad/agent-sheets/librarian.md",
     "wiki/concepts/zeta.md",
     "wiki/concepts/alpha.md",
     "wiki/concepts/epsilon.md",
@@ -205,7 +213,6 @@
     "raw/codegraph-readme.md",
     "wiki/concepts/functor-string-diagrams.md",
     "wiki/concepts/lora.md",
-    "raw/hermes-path-forward.md",
     "raw/codegraph-hermes-phase1-implementation.md",
     "wiki/concepts/parameter-efficient-fine-tuning.md",
     "wiki/synthesis/insights/para-system-cohesion-insight.md.bak",
@@ -224,13 +231,6 @@
     "wiki/sources/defending-moe-llms-against-harmful-fine-tuning-via-safety-routing-alignment.md",
     "wiki/sources/on-the-representation-collapse-of-sparse-mixture-of-experts.md",
     "wiki/concepts/mop-next-token-prediction.md",
-    "wiki/scratchpad/jobs/reports/researcher/discovery-2026-06-30.md",
-    "Clippings/papers/2026/moe-sieve-routing-guided-lora-for-efficient-moe-fine-tuning.md",
-    "raw/moe-sieve-routing-guided-lora-for-efficient-moe-fine-tuning.md",
-    "Clippings/papers/2026/defending-moe-llms-against-harmful-fine-tuning-via-safety-ro.md",
-    "wiki/scratchpad/jobs/reports/researcher/discovery-2026-06-27.md",
-    "raw/defending-moe-llms-against-harmful-fine-tuning-via-safety-ro.md",
-    "Clippings/papers/2026/on-the-representation-collapse-of-sparse-mixture-of-experts.md",
-    "wiki/concepts/attention-monoidal-closure.md"
+    "wiki/scratchpad/jobs/reports/researcher/discovery-2026-06-30.md"
   ]
 }

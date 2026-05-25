@@ -8,11 +8,11 @@ Hermes has no observable internal state and no recovery infrastructure for deleg
 
 ## The 3-Phase Roadmap
 
-| Phase | Focus | Status | Risk |
-|---|---|---|---|
-| **1** | EventBus + OperationalStateManager | PR #30634 open | Low |
-| **2** | Memory taxonomy: Semantic/Temporal/Hierarchical over SQLite | Not started | Medium |
-| **3** | Self-healing闭环: delegation verification + recoverable-failure retry | Not started | Medium |
+| Phase | Focus                                                             | Status         | Risk   |
+| ----- | ----------------------------------------------------------------- | -------------- | ------ |
+| **1** | EventBus + OperationalStateManager                                | PR #30634 open | Low    |
+| **2** | Memory taxonomy: Semantic/Temporal/Hierarchical over SQLite       | Not started    | Medium |
+| **3** | Self-healing: delegation verification + recoverable-failure retry | Not started    | Medium |
 
 ---
 

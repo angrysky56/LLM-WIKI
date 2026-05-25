@@ -75,3 +75,8 @@ Raw sources go into `raw/` → ingested via `synapse_mcp` → summary written to
 
 - Commit logical units: don't commit every news-batch individually
 - UseConventional commits: `feat:`, `fix:`, `docs:`, `chore:`, `refactor:`
+
+## Connections
+- [[synapse-retrieval-architecture]]
+- [[wiki-indexing-theory]]
+- [[bounded-structured-memory]]

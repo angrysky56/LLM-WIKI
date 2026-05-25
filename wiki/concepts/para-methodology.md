@@ -53,3 +53,4 @@ Organize by **when you'll need it**, not **what it is**. A note about nutrition 
 - [[design-thinking]] — design projects map naturally onto PARA's Projects/Areas split
 - [[llm-wiki-pattern]] — wiki pattern as alternative/complement to PARA for AI-persistent knowledge
 - [[para-system-knowledge-architecture-cohesion-insight]] — PARA cluster in LLM-WIKI knowledge graph
+- Concept: [[design-thinking-mit]]

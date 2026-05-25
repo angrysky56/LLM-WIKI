@@ -66,3 +66,8 @@ EML suggests FPGA or silicon designs using only one gate type (an EML evaluator)
 - [[mcp-logic]] — automated reasoning integration point
 - [[alphaevolve]] — evolutionary code discovery (related paradigm: searching for optimal mathematical representations)
 - [[efhf]] — neuro-symbolic architecture that could use EML as its continuous math primitive
+- Concept: [[llm-kernel-optimization]]
+- Concept: [[open-ended-evolution]]
+- Concept: [[transformer-vm-moran-2026]]
+- Concept: [[utimula-openpraparat-2025]]
+

@@ -191,3 +191,9 @@ Alpha gates which problems reach Beta. Gamma adapts the learning rate used by Be
 - These archetypes are not mutually exclusive — a sophisticated agent typically implements multiple archetypes simultaneously
 - The ordering (Alpha→Zeta) reflects increasing meta-cognitive depth, not necessarily capability
 - Any practical implementation must balance these roles against computational budget constraints
+
+
+## Connections
+- Concept: [[engineering-internal-awareness]]
+- Concept: [[metacognitive-architecture-closed-loop-self-regulation]]
+- Concept: [[self-correction]]

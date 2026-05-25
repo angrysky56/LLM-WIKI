@@ -79,3 +79,7 @@ The connection to [[reward-hacking]] is worth noting: a code agent could learn t
 - [[code-agent]] — AI agents specialized in software development
 - [[evaluation]] — the broader practice of measuring capabilities
 - [[reward-hacking]] — potential for gaming the test-based evaluation
+- Concept: [[MCTS]]
+- Concept: [[agent-onboarding]]
+- Concept: [[code-generation]]
+- Concept: [[evolutionary-strategies]]

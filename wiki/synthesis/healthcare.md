@@ -17,3 +17,4 @@ confidence: 0.3
 
 - [[ai-healthcare]]
 - [[medical-research]]
+- [[biomedical-research]]

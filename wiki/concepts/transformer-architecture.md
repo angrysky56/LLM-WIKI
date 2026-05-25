@@ -83,3 +83,6 @@ The relationship to [[scaling-laws]]: the transformer architecture is what made 
 - [[length-generalization]] — the key challenge: extending beyond training context
 - [[mixture-of-experts]] — sparse extension within transformer FFN layers
 - [[in-context-learning]] — emergent capability enabled by large transformer models
+- Concept: [[attention-monoidal-closure]]
+- Concept: [[betteti-baggio-bullo-zampieri-idp-hopfield-2025]]
+- Concept: [[llm-inference]]

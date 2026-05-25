@@ -33,6 +33,8 @@ The neural long-term memory uses gradient-based "surprise" (∇θL) to identify 
 - Concept: [[surprise-based-learning]] — the memorization mechanism
 - Concept: [[length-generalization]] — memory architectures as a solution to length generalization failures
 - Source: [[titans-test-time-memory]] — the original paper summary
+- Concept: [[mamba]]
+
 
 ## Note on Terminology
 

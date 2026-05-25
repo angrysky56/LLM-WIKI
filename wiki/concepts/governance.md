@@ -76,6 +76,8 @@ AI governance does not exist in a vacuum. AI systems are developed, deployed, an
 - [[reward-modeling]] — governance through outcome-based incentives
 - [[agentic-oversight]] — oversight mechanisms specific to agentic systems
 - [[accountability]] — the specific norm of answerability for actions and outcomes
+- Concept: [[institutional-design]]
+
 
 - [[francesca-albanese-sanctions-legal-policy-divergence-insight]] — legal accountability mechanisms constraining executive sanctions power
 

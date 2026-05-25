@@ -26,3 +26,8 @@ A sound methodology ensures that the findings are valid, reliable, and reproduci
 - [[critical-analysis]]
 - [[academic-peer-review]]
 - [[critical-review-scientific-article-guide]]
+- Concept: [[extraction-quality-audit]]
+- Concept: [[methodology]]
+- Concept: [[science]]
+- Concept: [[scientific-method]]
+

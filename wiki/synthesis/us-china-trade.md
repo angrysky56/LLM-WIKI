@@ -17,3 +17,5 @@ confidence: 0.3
 
 - [[trump-tariffs]]
 - [[geopolitics]]
+- [[china]]
+- [[us-china-relations]]

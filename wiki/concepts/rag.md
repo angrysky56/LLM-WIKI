@@ -48,3 +48,5 @@ A pattern where an LLM retrieves relevant document chunks from a vector store at
 - [[project-synapse]] — the system in this wiki that supersedes naive RAG
 - [[graphrag]] — the graph-augmented extension of RAG
 - [[persistent-knowledge-compilation]] — the paradigm that replaces RAG's interpret-on-every-run model
+- Concept: [[llm-wiki-pattern]]
+

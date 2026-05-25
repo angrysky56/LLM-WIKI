@@ -17,3 +17,4 @@ confidence: 0.3
 
 - [[us-china-trade]]
 - [[geopolitics]]
+- [[trump-tariffs-2026]]

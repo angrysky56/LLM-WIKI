@@ -77,3 +77,6 @@ The connection to [[proof-assistant]] and [[interactive-theorem-proving]] is dir
 - [[mathematical-reasoning]] — the broader practice of rigorous deduction
 - [[load-bearing-reasoning]] — causal mediation analysis as formal verification for reasoning traces
 - [[isabelle-hol]] — specific proof assistant used for major verification projects
+- Concept: [[categorical-reasoning]]
+- Concept: [[causal-reasoning]]
+- Concept: [[isabelle]]

@@ -17,3 +17,6 @@ confidence: 0.3
 
 - [[geopolitics]]
 - [[us-china-trade]]
+- [[china-cuba-us]]
+- [[south-china-sea]]
+- [[china-cuba-us-threats-2026-05-21]]

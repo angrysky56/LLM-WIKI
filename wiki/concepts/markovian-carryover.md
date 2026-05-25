@@ -166,3 +166,11 @@ LLM-WIKI/
 - [[bounded-structured-memory]] — the full architectural synthesis
 - [[synapse-retrieval-architecture]] — retrieval pipeline this integrates with
 - [[persistent-knowledge-compilation]] — why durable artifacts beat re-derivation
+
+
+## Connections
+- Concept: [[agentic-hierarchy]]
+- Concept: [[delegation]]
+- Concept: [[hermes-agent]]
+- Concept: [[markovian-dev-agency]]
+- Concept: [[persistent-goals-hermes-agent]]

@@ -16,3 +16,4 @@ confidence: 0.3
 ## Connections
 
 - [[geopolitics]]
+- [[eu-us-trade-relations]]

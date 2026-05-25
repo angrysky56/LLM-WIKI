@@ -73,6 +73,8 @@ The log-log linear form makes it easy to fit with linear regression, but the sam
 - [[allometric-scaling]] — related ecological power law; Kleiber's law (metabolic rate vs mass)
 - [[neural-interpretability]] — representation geometry; sparse autoencoder features exhibit heavy-tailed (power-law) distributions
 - [[inference-time-compute-scaling]] — variance-mean relationships in BoN sampling; success probability vs variance in rejection sampling
+- Concept: [[language-evolution]]
+
 
 ## Open Questions
 

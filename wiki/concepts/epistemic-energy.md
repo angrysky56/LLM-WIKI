@@ -85,6 +85,9 @@ None of these are fully validated. This is an active measurement problem.
 - [[bounded-rationality]] — epistemic energy is the quantitative form of bounded rationality
 - [[efhf]] — Layer 4 (coherence monitoring) implements epistemic energy tracking
 - [[mop-edm-cognitive-architecture]] — the synthesis document defining the L4 role
+- Concept: [[cognitive-world-models-for-llm-agents]]
+- Concept: [[world-model]]
+
 
 ## Open Questions
 

@@ -17,3 +17,4 @@ confidence: 0.3
 
 - [[iran]]
 - [[geopolitics]]
+- [[china-cuba-us-threats-2026-05-21]]

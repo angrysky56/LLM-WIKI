@@ -16,3 +16,5 @@ confidence: 0.3
 ## Connections
 
 - [[agentic-research]]
+- [[california-tech-regulation]]
+- [[brazil-ai-governance]]

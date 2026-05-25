@@ -33,3 +33,18 @@ Traditional reward models are often as large as the generator models they evalua
 - **[[hidden-states]]**: New approaches derive rewards directly from the generator's internal representations.
 - **[[critical-analysis]]**: Evaluating the reliability and bias of reward models is a key area of scientific review in LLM research.
 - **[[opendeepthink-parallel-reasoning]]**: Bradley-Terry pairwise aggregation as a reward-free selection mechanism for parallel reasoning.
+- Concept: [[constitutional-ai]]
+- Concept: [[elhsr]]
+- Concept: [[governance]]
+- Concept: [[group-relative-policy-optimization]]
+- Concept: [[in-context-learning]]
+- Concept: [[inference-time-compute-scaling]]
+- Concept: [[institutional-capture]]
+- Concept: [[mixture-of-experts]]
+- Concept: [[mop-and-rlhf-interaction]]
+- Concept: [[process-reward-model]]
+- Concept: [[reinforcement-learning]]
+- Concept: [[reinforcement-learning-from-human-feedback]]
+- Concept: [[reward-hacking]]
+- Concept: [[reward-inside-model-elhsr]]
+

@@ -129,3 +129,5 @@ Within [[project-synapse]]'s [[zettelkasten-engine]]:
 - [[persistent-knowledge-compilation]] — disruptive papers break pre-compiled knowledge bases
 - [[graphrag]] — citation graphs as directly applicable domain
 - [[rag]] — consolidating papers are ID w.r.t. RAG index; disruptive ones cause retrieval failure
+- [[minimal-generative-architectures]]
+- [[intelligence-as-entropic-sculpting]]

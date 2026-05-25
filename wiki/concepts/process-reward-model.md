@@ -115,3 +115,10 @@ The intelligence is in the pruning: a PRM with 85% accuracy on step-level correc
 - [[chain-of-thought]] — CoT traces are the "steps" that PRMs score
 - [[load-bearing-reasoning]] — Identifying which tokens in a trace are load-bearing is the goal PRMs serve
 - [[hidden-states]] — ELHSR's hidden-state reward approach could be extended to step-level signals
+- Concept: [[MCTS]]
+- Concept: [[benchmark]]
+- Concept: [[constitutional-ai]]
+- Concept: [[evaluation]]
+- Concept: [[reward-hacking]]
+- Concept: [[sd-search]]
+- Concept: [[self-correction]]

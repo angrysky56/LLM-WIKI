@@ -88,3 +88,4 @@ Process evaluation is harder but more robust to spec gaming — a model can get 
 - [[reward-hacking]] — evaluation gaming as a form of reward hacking
 - [[institutional-capture]] — benchmark gaming as institutional-level surrogation
 - [[swe-bench]] — the software engineering benchmark
+- Concept: [[benchmarking]]

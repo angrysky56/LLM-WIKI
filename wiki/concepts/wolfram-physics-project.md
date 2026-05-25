@@ -26,3 +26,7 @@ Stephen Wolfram's project applying the framework of **A New Kind of Science (NKS
 - [[stephen-wolfram]] — entity page for Stephen Wolfram
 - [[causal-networks]] — related NKS concept
 - [[causal-networks]] — related concept
+
+
+## Connections
+- Concept: [[wolfram-nks-causal-networks]]

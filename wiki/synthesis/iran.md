@@ -16,3 +16,5 @@ confidence: 0.3
 ## Connections
 
 - [[geopolitics]]
+- [[iran-war]]
+- [[us-iran-tensions]]

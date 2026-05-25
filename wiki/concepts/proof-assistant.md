@@ -69,3 +69,5 @@ Proof assistants are relevant to AI alignment:
 - [[mathematical-reasoning]] — the underlying mathematics
 - [[load-bearing-reasoning]] — identifying which reasoning steps need formal verification
 - [[reward-hacking]] — reward hacking as violation of formal behavioral specifications
+- Concept: [[category-theory]]
+- Concept: [[isabelle]]

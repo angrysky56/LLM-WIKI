@@ -86,6 +86,8 @@ updated: 2026-05-22T01:30:00Z
   - Source: news/carryover.md §Open | Blocked: yes
 
 **Done** (this session):
+- [x] **librarian**: Reciprocal link audit — 451 reciprocals added across 90 wiki/concepts pages
+  - Report: [[audit-2026-05-25]] | t_74b2f183
 
 **In Progress**:
 - [ ] *[Add tasks here]*

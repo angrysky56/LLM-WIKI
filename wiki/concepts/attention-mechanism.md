@@ -78,3 +78,4 @@ The practical impact: Enables attention over sequences of length 65K+ on a singl
 - [[scaling-laws]] — the transformer architecture enabled scaling as a primary research strategy
 - [[length-generalization]] — challenge of extending context beyond training distribution
 - [[mixture-of-experts]] — often applied inside the FFN layer of transformer blocks
+- Concept: [[attention-monoidal-closure]]

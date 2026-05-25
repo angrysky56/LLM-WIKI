@@ -127,6 +127,17 @@ Top-k selection picks the k highest-scoring experts. The routing weights are com
 - [[inference-time-compute-scaling]] — MoE provides architectural basis for efficient test-time compute; the two techniques are complementary
 - [[reward-modeling]] — reward models for BoN selection can exploit MoE structure
 - [[ml-evolution]] — MoE challenges the scaling law by separating parameter count from FLOPs per token
+- Concept: [[adaptive-computation]]
+- Concept: [[attention-mechanism]]
+- Concept: [[early-exit-networks]]
+- Concept: [[kv-cache]]
+- Concept: [[llm-inference]]
+- Concept: [[mop-and-rlhf-interaction]]
+- Concept: [[reinforcement-learning-from-human-feedback]]
+- Concept: [[route-collapse-rlhf]]
+- Concept: [[scaling-laws]]
+- Concept: [[transformer-architecture]]
+
 
 ## Related Papers
 

@@ -71,3 +71,5 @@ The [[hermes-agent]] framework provides infrastructure for building code agents:
 - [[hermes-agent]] — framework for building code agents
 - [[code-generation]] — generating code (the narrow task)
 - [[load-bearing-reasoning]] — identifying critical reasoning steps in code generation
+- Concept: [[autonomous-research]]
+- Concept: [[llm-agent-architecture]]

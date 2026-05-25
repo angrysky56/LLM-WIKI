@@ -43,3 +43,7 @@ From Neo4j's research: the most valuable context often comes not from the direct
 - [[neo4j]] — the graph database powering traversal
 - [[edm-framework]] — citation networks as a domain where GraphRAG is directly applicable
 - [[persistent-knowledge-compilation]] — complementary: GraphRAG retrieves; compilation pre-synthesises
+- Concept: [[bounded-structured-memory]]
+- Concept: [[hilbert-hotel-graph-architecture]]
+- Concept: [[knowledge-graph]]
+

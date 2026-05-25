@@ -86,3 +86,5 @@ Results tagged `in_vector: True` and/or `in_bm25: True` for debugging.
 - [[neo4j]] — vector + fulltext indexes powering Stages 1–2
 - [[zettelkasten-engine]] — Stage 4 insight nodes
 - [[synapse-llm-wiki-operating-guide]] — when to use which retrieval tool
+- [[wiki-indexing-theory]]
+- [[bounded-structured-memory]]

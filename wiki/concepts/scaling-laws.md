@@ -87,6 +87,22 @@ See [[inference-time-compute-scaling]] for the inference-time axis.
 - [[power-law]] — the underlying statistical distribution; why power laws govern these relationships
 - [[mixture-of-experts]] — conditional computation as a way to get more effective parameters without proportional compute
 - **Chinchilla** (Hoffmann et al. 2022) — the specific paper that reframed optimal compute allocation; see [[scaling-laws]] body for details
+- Concept: [[adaptive-budget-learning]]
+- Concept: [[adaptive-computation]]
+- Concept: [[allometric-scaling]]
+- Concept: [[attention-mechanism]]
+- Concept: [[benchmark]]
+- Concept: [[catastrophic-forgetting]]
+- Concept: [[efficient-transformers]]
+- Concept: [[evaluation]]
+- Concept: [[evolutionary-strategies]]
+- Concept: [[in-context-learning]]
+- Concept: [[initialization]]
+- Concept: [[mathematical-reasoning]]
+- Concept: [[mixture-of-depths]]
+- Concept: [[taylors-law]]
+- Concept: [[transformer-architecture]]
+
 
 ## Open Questions
 

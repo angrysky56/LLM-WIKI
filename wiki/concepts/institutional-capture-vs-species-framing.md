@@ -54,3 +54,7 @@ For any "humans/civilization will inevitably X" claim: *which humans, in which i
 - [[absence-of-worst-case-metric]]
 - [[cryptographic-vs-semantic-alignment]]
 - [[frame-transmission]]
+
+
+## Connections
+- Concept: [[institutional-design]]

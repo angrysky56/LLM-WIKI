@@ -69,3 +69,8 @@ Working memory in this framing is not just storage — it's the space where epis
 1. Can LLMs be trained to have a more human-like working memory with explicit consolidation mechanisms?
 2. Is there a principled way to measure "effective working memory capacity" for a given LLM at a given context position?
 3. How does working memory interact with in-context learning — does ICL essentially "upload" a task representation into working memory?
+
+
+## Connections
+- Concept: [[epistemic-energy]]
+- Concept: [[memory-mechanisms]]

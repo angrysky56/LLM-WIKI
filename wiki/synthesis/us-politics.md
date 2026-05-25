@@ -16,3 +16,9 @@ confidence: 0.3
 ## Connections
 
 - [[geopolitics]]
+- [[republican-party]]
+- [[dnc]]
+- [[us-2026-midterms]]
+- [[religion-american-politics]]
+- [[us-senate]]
+- [[us-supreme-court]]

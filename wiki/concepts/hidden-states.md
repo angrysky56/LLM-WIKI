@@ -31,3 +31,12 @@ Research has shown that LLM hidden states contain "inner knowledge"—a represen
 - **[[reward-modeling]]**: Hidden states provide the raw data for state-based reward signals.
 - **[[causal-state-edm-ood-isomorphism]]**: Explores the isomorphism between internal causal states and external observable behaviors.
 - **[[critical-analysis]]**: Scientific evaluation of LLMs increasingly relies on internal metrics (hidden states) rather than just external benchmark scores.
+- Concept: [[attention-mechanism]]
+- Concept: [[elhsr]]
+- Concept: [[inference-time-compute-scaling]]
+- Concept: [[kv-cache]]
+- Concept: [[length-generalization]]
+- Concept: [[neural-interpretability]]
+- Concept: [[process-reward-model]]
+- Concept: [[transformer-architecture]]
+

@@ -14,3 +14,8 @@ tags: []
 - [[parameter-efficient-fine-tuning]]
 - [[lora]]
 
+
+## Connections
+- Concept: [[instruction-tuning]]
+- Concept: [[model-editing]]
+- Concept: [[transfer-learning]]

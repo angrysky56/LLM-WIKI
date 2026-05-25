@@ -78,6 +78,8 @@ The nLab and the nLab's synthetic mathematics program show how category theory c
 - [[load-bearing-reasoning]] — categorical analysis of which reasoning steps are load-bearing vs scaffolding
 - [[multi-agent-llm-systems]] — multi-agent composition as categorical composition
 - [[multi-agent-coordination]] — adjunction structures in supervisor-worker relationships
+- Concept: [[attention-monoidal-closure]]
+
 
 ## Limitations
 

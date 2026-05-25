@@ -16,3 +16,4 @@ confidence: 0.3
 ## Connections
 
 - [[planetary-defense]]
+- [[asteroid-2026-jh2]]

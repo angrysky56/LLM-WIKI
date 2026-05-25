@@ -62,3 +62,5 @@ Design thinking projects map naturally onto [[para-methodology]]:
 - [[para-methodology]] — complementary organizational framework
 - [[persistent-knowledge-compilation]] — design research as a candidate for compilation vs re-derivation
 - [[memex]] — Bush's vision of associative design research trails
+- Concept: [[methodology]]
+

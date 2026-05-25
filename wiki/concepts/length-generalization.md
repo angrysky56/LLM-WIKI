@@ -76,6 +76,10 @@ Length generalization failures directly impact the reliability of long-horizon a
 - [[titans-test-time-memory|Titans]] — architecture designed with separate working and long-term memory
 - [[hidden-states]] — KV cache behavior during length generalization involves hidden state dynamics
 - [[load-bearing-reasoning]] — identifying which reasoning steps are robust to length and which collapse
+- Concept: [[attention-mechanism]]
+- Concept: [[titans]]
+- Concept: [[transformer-architecture]]
+
 
 ## Open Questions
 

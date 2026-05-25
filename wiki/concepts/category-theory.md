@@ -69,6 +69,9 @@ The connection to AI alignment:
 - [[categorical-reasoning]] — applying category theory to reasoning processes
 - [[mathematical-reasoning]] — category theory is one of the highest levels of mathematical abstraction
 - [[isabelle]] — generic architecture means Isabelle can be viewed as a category of logics
+- Concept: [[functor-string-diagrams]]
+- Concept: [[interactive-theorem-proving]]
+
 
 ## Open Questions
 

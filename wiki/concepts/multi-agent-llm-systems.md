@@ -117,6 +117,14 @@ Multi-agent systems introduce failure modes that don't exist in single-agent set
 - [[project-synapse]] — knowledge graph as shared state / coordination substrate
 - [[hermes-agent]] — framework supporting hierarchical agent patterns
 - [[delegation]] — how one agent assigns work to another
+- Concept: [[adversarial-training]]
+- Concept: [[agent-leak-benchmark]]
+- Concept: [[agentic-design-picker]]
+- Concept: [[agentic-planner]]
+- Concept: [[categorical-reasoning]]
+- Concept: [[cognitive-world-models-for-llm-agents]]
+- Concept: [[hierarchical-supervisor]]
+
 
 ## Open Questions
 

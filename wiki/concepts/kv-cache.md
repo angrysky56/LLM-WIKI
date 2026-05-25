@@ -58,6 +58,10 @@ These reduce memory proportionally, enabling longer contexts within the same mem
 - [[hidden-states]] — K/V are projections of hidden states
 - [[inference-time-compute-scaling]] — KV-cache is a prerequisite for many inference-time compute strategies (prefix caching, speculative decoding)
 - [[mixture-of-experts]] — MoE models benefit especially from KV-cache since active expert count is small per token but memory for all experts is still present
+- Concept: [[agent-leak-benchmark]]
+- Concept: [[llm-inference]]
+- Concept: [[namm]]
+
 
 ## Open Questions
 

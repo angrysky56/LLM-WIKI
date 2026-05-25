@@ -83,6 +83,9 @@ For MoE systems specifically, GRPO may naturally preserve expert diversity bette
 - [[maximum-occupancy-principle]] — MOP's incompatible entropy objective
 - [[reward-modeling]] — the reward model is the alignment bottleneck
 - [[mixture-of-experts]] — where RLHF causes routing collapse
+- Concept: [[llm-training]]
+- Concept: [[mop-next-token-prediction]]
+
 
 ## Limitations
 

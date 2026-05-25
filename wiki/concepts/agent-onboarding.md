@@ -78,3 +78,4 @@ In the Hermes framework (per `hermes-agent` architecture):
 - [[project-synapse]] — the underlying MCP framework
 - [[constitutional-ai]] — the constraint framework for agent behavior
 - [[agent-leak-benchmark]] — measuring information leakage during onboarding
+- Concept: [[adversarial-training]]

@@ -162,7 +162,7 @@ AlphaEvolve's success suggests that self-modification is more viable when implem
 
 ## Connections to Existing Wiki
 
-- [[entropic-machinery-cot-and-flagellum]] — parent synthesis; provides the five-part isomorphism (Boltzmann substrate, asymmetric multi-bond rectifier, conformational folding, continuously replenished gradient, single-event signal cascade); Self-Reflection as load-bearing bond is Prediction 5
+- [[intelligence-as-entropic-sculpting]] — parent synthesis; provides the five-part isomorphism (Boltzmann substrate, asymmetric multi-bond rectifier, conformational folding, continuously replenished gradient, single-event signal cascade); Self-Reflection as load-bearing bond is Prediction 5
 - [[llm-biological-analogies]] — provides the Broca's/Wernicke's/arcuate-fasciculus mapping; this page extends it with self-prompting as arcuate-fasciculus event
 - [[maximum-occupancy-principle]] — MoR router implements MOP α/β tradeoff; self-prompting is bounded by the same absorbing-state constraints
 - [[chain-of-thought]] — CoT is entirely production-stage; the three-bond topology applies to all CoT, including self-generated CoT

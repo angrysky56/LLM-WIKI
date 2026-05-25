@@ -125,6 +125,9 @@ Recent work applies these classical coordination patterns to LLM-based multi-age
 - [[project-synapse]] — specific knowledge graph used as shared state for coordination
 - [[hermes-agent]] — supports multi-agent coordination patterns
 - [[delegation]] — task assignment as a coordination primitive
+- Concept: [[categorical-reasoning]]
+- Concept: [[onboarding-standards]]
+
 
 ## Open Questions
 

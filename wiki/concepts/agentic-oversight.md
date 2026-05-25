@@ -74,6 +74,11 @@ Where agentic-hierarchy is about coordination structure, agentic-oversight is ab
 - [[agentic-hierarchy]] — the organizational patterns within which oversight operates
 - [[bounded-structured-memory]] — memory architecture that supports oversight through persistent logging
 - [[delegation]] — the mechanism by which tasks pass between oversight levels
+- Concept: [[accountability]]
+- Concept: [[ai-security]]
+- Concept: [[engineering-internal-awareness]]
+- Concept: [[institutional-capture]]
+
 
 ## Open Questions
 

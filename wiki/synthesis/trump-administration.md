@@ -16,3 +16,6 @@ confidence: 0.3
 ## Connections
 
 - [[geopolitics]]
+- [[republican-party]]
+- [[trump-republican-party]]
+- [[trump-endorsement-primary-dominance]]

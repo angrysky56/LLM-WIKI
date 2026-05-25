@@ -31,3 +31,7 @@ Most scientific papers follow the **IMRaD** structure:
 - [[research-methodology]]
 - [[academic-peer-review]]
 - [[critical-review-scientific-article-guide]]
+- Concept: [[academic-writing]]
+- Concept: [[research-paper]]
+- Concept: [[scientific-discovery]]
+

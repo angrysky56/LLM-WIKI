@@ -45,4 +45,9 @@ This synthesis suggests that **Layer 0** of the [[efhf]] architecture (MOP) prov
 
 - **Entities:** [[roger-koenig-robert]]
 - **Concepts:** [[spontaneous-activity-reshaping-hypothesis]], [[maximum-occupancy-principle]], [[efhf]], [[aphantasia]]
-- **Parallel:** [[entropic-machinery-cot-and-flagellum]] (rectifying entropic energy into torque/logic)
+- **Parallel:** [[intelligence-as-entropic-sculpting]] (rectifying entropic energy into torque/logic)
+- [[mop-edm-cognitive-architecture]]
+- [[minimal-generative-architectures]]
+- [[llm-biological-analogies]]
+- [[causal-state-edm-ood-isomorphism]]
+- [[self-prompting-via-production-stage-architecture]]

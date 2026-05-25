@@ -66,3 +66,4 @@ The connection to [[group-relative-policy-optimization]]: GRPO can be viewed as 
 - [[group-relative-policy-optimization]] — GRPO as group-relative ES variant
 - [[scaling-laws]] — ES has been used to study how architecture choices interact with model scale
 - [[swe-bench]] — ES for code agent task optimization (evolving prompts or tool-use strategies)
+- Concept: [[ml-evolution-benchmarking-protocol]]

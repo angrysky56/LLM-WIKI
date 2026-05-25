@@ -107,6 +107,8 @@ Code generation requires multiple reasoning modes:
 - [[llm-agent-architecture]] — runtime architecture for code generation systems
 - [[benchmark]] — evaluation methodology
 - [[load-bearing-reasoning]] — critical reasoning steps in generating correct code
+- Concept: [[MCTS]]
+
 
 ## Open Questions
 

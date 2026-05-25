@@ -61,3 +61,6 @@ See `wiki/sources/articles/llm-wiki-pattern.md` for the full source article.
 - [[RAG]] — the stateless baseline this supersedes
 - [[para-methodology]] — alternative knowledge organization; wiki pattern as complement
 - [[obsidian]] — the tool used as the human-facing wiki IDE
+- Concept: [[obsidian-cli-skill]]
+- Concept: [[obsidian-git-setup]]
+- Concept: [[obsidian-para-byarbrough]]

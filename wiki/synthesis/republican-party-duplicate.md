@@ -13,10 +13,5 @@ confidence: 0.3
 
 *Stub page — needs real content*
 
-## Connections
 
-- [[us-politics]]
-- [[trump-administration]]
-- [[2026-republican-primaries]]
-- [[trump-republican-party]]
-- [[republican-party-duplicate]] — duplicate stub, should be merged/deleted
+*See: [[republican-party]]*

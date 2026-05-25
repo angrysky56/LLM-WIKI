@@ -51,3 +51,8 @@ Rather than re-deriving answers from raw documents on every query (RAG), an LLM 
 - [[edm-framework]] — disruptive papers are OOD events that break pre-compiled knowledge bases; the disruption score signals when compilation needs updating
 - [[graphrag]] — complementary: GraphRAG retrieves from the graph; compilation pre-synthesises into it
 - [[design-thinking]] — front-end design research (steps 1–6) is a strong candidate for compilation rather than re-derivation per query
+- Concept: [[agent-native-design]]
+- Concept: [[bounded-structured-memory]]
+- Concept: [[cognitive-world-models-for-llm-agents]]
+- Concept: [[markovian-carryover]]
+

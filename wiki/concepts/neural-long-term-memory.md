@@ -29,3 +29,8 @@ In the Titans architecture, NLTM uses **surprise-based memorization**, where gra
 - Concept: [[mamba]]
 - Concept: 
 - Tool: [[mamba]]
+- Concept: [[length-generalization]]
+- Concept: [[ml-evolution]]
+- Concept: [[surprise-based-learning]]
+- Concept: [[titans]]
+

@@ -51,6 +51,9 @@ The [[ai-governance-substrate]] concept attempts to build accountability into AI
 - [[governance]] — the broader structure within which accountability operates
 - [[agentic-oversight]] — accountability as applied to agentic systems specifically
 - [[ai-governance-substrate]] — structural accountability for AI systems
+- Concept: [[accountability]]
+- Concept: [[institutional-design]]
+
 
 ## Open Questions
 

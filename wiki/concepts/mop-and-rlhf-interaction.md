@@ -98,6 +98,9 @@ However, GRPO has not been specifically studied in the MoE fine-tuning context �
 - [[mixture-of-experts]] — where this tension is most acute
 - [[reward-modeling]] — RLHF's reward model is what gets optimized
 - [[inference-time-compute-scaling]] — BoN search is a form of stochasticity exploitation
+- Concept: [[reinforcement-learning-from-human-feedback]]
+- Concept: [[route-collapse-rlhf]]
+
 
 ## Open Questions
 

@@ -16,3 +16,5 @@ confidence: 0.3
 ## Connections
 
 - [[public-health]]
+- [[ebola]]
+- [[bundibugyo]]

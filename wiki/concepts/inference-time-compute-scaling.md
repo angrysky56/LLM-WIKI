@@ -137,6 +137,18 @@ For a personal AI agent handling a mix of tasks:
 - [[hidden-states]] — ELHSR extracts reward signals from hidden states
 - [[chain-of-thought]] — reasoning traces are what get scored; longer chains benefit more from compute allocation
 - [[load-bearing-reasoning]] — identifying which tokens in a reasoning trace are load-bearing vs scaffolding
+- Concept: [[group-relative-policy-optimization]]
+- Concept: [[hybrid-reward-models]]
+- Concept: [[in-context-learning]]
+- Concept: [[kv-cache]]
+- Concept: [[llm-inference]]
+- Concept: [[mixture-of-experts]]
+- Concept: [[mop-and-rlhf-interaction]]
+- Concept: [[process-reward-model]]
+- Concept: [[reward-hacking]]
+- Concept: [[scaling-laws]]
+- Concept: [[taylors-law]]
+
 
 ## Open Questions
 

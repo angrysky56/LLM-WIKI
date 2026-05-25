@@ -35,3 +35,6 @@ Blind recovery success degrades with tree depth: 100% at depth 2, ~25% at depth 
 - [[odrzywolek-eml-2026]] — source paper with training experiments
 - [[alphaevolve]] — evolutionary approach to discovering mathematical structures
 - [[mcp-logic]] — verification of discovered formulas
+- Concept: [[llm-kernel-optimization]]
+- Concept: [[transformer-vm-moran-2026]]
+

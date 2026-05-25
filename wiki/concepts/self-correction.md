@@ -87,6 +87,9 @@ For agentic systems, self-correction at the action level prevents cascading fail
 - [[load-bearing-reasoning]] — Identifies which reasoning steps are essential vs. scaffolding; self-correction often removes or revises scaffolding steps
 - [[agent-taxonomies]] — The Epsilon archetype specifically implements assumption validation and self-correction triggers
 - [[agentic-research]] — Self-correction is essential for agentic research loops to handle implementation drift
+- Concept: [[engineering-internal-awareness]]
+- Concept: [[reward-hacking]]
+
 
 ## Limitations
 

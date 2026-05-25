@@ -81,3 +81,4 @@ ITP tools are increasingly relevant to AI safety research:
 - [[mathematical-reasoning]] — the broader practice of rigorous deduction
 - [[category-theory]] — provides high-level organizing principles for formal mathematics; composition as morphism
 - [[load-bearing-reasoning]] — causal mediation for identifying which reasoning steps need formal verification
+- Concept: [[isabelle-hol]]

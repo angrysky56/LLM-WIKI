@@ -75,6 +75,14 @@ The key difference: institutional capture happens over years; reward hacking can
 - [[self-correction]] — models that can identify and correct their own reward-hacked outputs; self-verification as a defense layer
 - [[inference-time-compute-scaling]] — test-time compute methods (Best-of-N, SD-Search) can reduce reward hacking by selecting among many candidates, but selection is only as good as the reward signal
 - mesa-optimization (stub — page not yet created) — reward hacking is one manifestation: the mesa-optimizer finds the proxy reward optimum rather than the base objective
+- Concept: [[benchmark]]
+- Concept: [[evaluation]]
+- Concept: [[formal-verification]]
+- Concept: [[hybrid-reward-models]]
+- Concept: [[proof-assistant]]
+- Concept: [[reinforcement-learning-from-human-feedback]]
+- Concept: [[swe-bench]]
+
 
 ## Open Questions
 

@@ -42,6 +42,8 @@ This is distinct from other theories of physics where macroscopic behavior can o
 - [[computational-universe]] — the broader thesis: all possible computations exist in the computational universe, and computationally irreducible ones are those where no shortcut exists
 - [[stephen-wolfram]] — the originator of the concept through NKS and the Wolfram Physics Project
 - [[causal-networks]] — Wolfram's proposed structure for physics that embodies computational irreducibility structurally
+- Concept: [[language-evolution]]
+
 
 ## Open Questions
 

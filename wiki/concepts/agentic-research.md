@@ -40,3 +40,14 @@ As documented in [[why-llms-arent-scientists-yet]], current agentic research sys
 - [[claude-code]] — Agentic tool used for autonomous implementation.
 - [[is-grep-all-you-need]] — Grep vs. vector retrieval in agentic search; harness choice dominates retrieval choice across Claude Code, Codex, Gemini CLI.
 - [[futuresim-adaptive-agents]] — Temporal world event simulation exposing severe agent adaptation gaps.
+- Concept: [[agentic-design-picker]]
+- Concept: [[ai-scientific-discovery]]
+- Concept: [[autonomous-research]]
+- Concept: [[code-agent]]
+- Concept: [[efhf]]
+- Concept: [[multi-agent-llm-systems]]
+- Concept: [[recuriosity-episodic-context-3d-exploration-2026]]
+- Concept: [[self-correction]]
+- Concept: [[tools]]
+- Concept: [[tys-repos]]
+

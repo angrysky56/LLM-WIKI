@@ -80,6 +80,8 @@ The connection to [[world-model]]: A world model is fundamentally causal if it r
 - [[neural-interpretability]] — hidden-state causal signals (ELHSR) use the same activation data that neural interpretability studies
 - [[formal-methods]] — causal models are a form of structural specification amenable to formal verification
 - [[in-context-learning]] — some argue in-context learning itself involves implicit causal inference
+- Concept: [[MCTS]]
+
 
 ## Open Questions
 

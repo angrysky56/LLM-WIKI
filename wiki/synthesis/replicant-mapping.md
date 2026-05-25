@@ -68,3 +68,6 @@ Technical Working Group (Engineering)
 - [[two-council-architecture]]
 - [[refuser-pattern]]
 - [[harm-cases]]
+
+## Connections
+- [[empty-chair-protocol]]

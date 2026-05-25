@@ -16,3 +16,5 @@ confidence: 0.3
 ## Connections
 
 - [[geopolitics]]
+- [[hybrid-attack]]
+- [[large-scale-ukrainian-drone-attack-kills-three-in-moscow-reg]]

@@ -68,3 +68,9 @@ The [[load-bearing-reasoning]] framework identifies critical inference steps; fo
 - [[isabelle-hol]] — specific proof assistant with major verification results
 - [[load-bearing-reasoning]] — causal mediation analysis for identifying verification targets
 - [[reward-hacking]] — reward hacking as a violation of formal behavioral specifications
+- Concept: [[attention-monoidal-closure]]
+- Concept: [[categorical-reasoning]]
+- Concept: [[category-theory]]
+- Concept: [[isabelle]]
+- Concept: [[mathematical-reasoning]]
+- Concept: [[prover9]]

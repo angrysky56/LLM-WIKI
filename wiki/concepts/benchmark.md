@@ -81,3 +81,5 @@ Process evaluation is more robust to spec gaming: wrong reasoning that happens t
 - [[reward-hacking]] — benchmark gaming as reward hacking
 - [[institutional-capture]] — benchmark gaming as institutional surrogation
 - [[scaling-laws]] — relationship between model scale and benchmark performance
+- Concept: [[code-agent]]
+- Concept: [[code-generation]]

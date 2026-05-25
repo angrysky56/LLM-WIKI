@@ -30,3 +30,5 @@ Instead of viewing transitions between supertokens as "Wolfram-style physics," t
 - Concept: [[load-bearing-reasoning]]
 - Concept: [[chain-of-thought]]
 - Tool: [[superbpe]]
+- Concept: [[neural-interpretability]]
+

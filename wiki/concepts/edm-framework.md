@@ -101,3 +101,9 @@ This means EDM's embedding space encodes enough conceptual structure to detect s
 - [[graphrag]] — citation graphs as retrieval and analysis substrate  
 - [[zettelkasten-engine]] — disruption score applicable as insight curation signal
 - [[persistent-knowledge-compilation]] — disruptive papers break compiled knowledge bases
+- Concept: [[critical-analysis]]
+- Concept: [[epistemic-energy]]
+- Concept: [[maximum-occupancy-principle]]
+- Concept: [[mop-explorer]]
+- Concept: [[ramirez-ruiz-mop-2024]]
+

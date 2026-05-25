@@ -171,6 +171,13 @@ This is the implementation of the [[oMCD]] 9-step loop at the neural level.
 - [[agent-taxonomies]] — Zeta (entropy regulation) and Epsilon (assumption validation) map to these mechanisms
 - [[hermes-meta-cognition]] — Concrete system combining these ideas
 - [[self-correction]] — The behavioral output of metacognitive control
+- Concept: [[activation-steering]]
+- Concept: [[affective-ai-inner-architecture]]
+- Concept: [[constitutional-ai]]
+- Concept: [[engineering-internal-awareness]]
+- Concept: [[machine-psychology]]
+- Concept: [[mechanistic-interpretability]]
+
 
 ## Open Questions
 

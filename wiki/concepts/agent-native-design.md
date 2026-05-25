@@ -92,6 +92,12 @@ Agent native design works naturally with [[agentic-hierarchy]]:
 - [[agentic-hierarchy]] — hierarchical agent organization as native pattern
 - [[epistemic-energy]] — the first-class resource for bounded rationality
 - [[bounded-rationality]] — structural bounds on reasoning, not just budgetary
+- Concept: [[cognitive-world-models-for-llm-agents]]
+- Concept: [[llm-agent-architecture]]
+- Concept: [[machine-psychology]]
+- Concept: [[working-memory]]
+- Concept: [[world-model]]
+
 
 ## Open Questions
 

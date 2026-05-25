@@ -58,3 +58,4 @@ Without protection, **ASR up to 0.900** on vanilla KV sharing across Qwen3-4B, G
 - [[latent-communication]] — the communication paradigm at risk
 - [[adversarial-training]] — the mitigation methodology
 - [[agent-onboarding]] — agent onboarding processes should address information leakage risks
+- Concept: [[autonomous-research]]

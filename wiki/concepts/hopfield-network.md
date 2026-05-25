@@ -24,3 +24,7 @@ A Hopfield network is a recurrent artificial neural network with associative (co
 ## Connection to Transformers
 
 Modern transformer attention mechanisms can be framed as generalizations of Hopfield network dynamics. See [[betteti-baggio-bullo-zampieri-idp-hopfield-2025]] for the IDP extension that connects to dynamic self-attention.
+
+
+## Connections
+- Concept: [[criticality]]

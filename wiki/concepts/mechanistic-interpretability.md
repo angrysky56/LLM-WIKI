@@ -41,3 +41,7 @@ See also: [[activation-steering]] for the complementary modulation half of the b
 - [[activation-steering]] — the modulation counterpart to interpretability's observation
 - [[metacognitive-architecture-closed-loop-self-regulation]] — complete biofeedback loop using interpretability as sensors
 - [[chain-of-thought]] — mechanistic understanding of how explicit reasoning emerges from circuit dynamics
+- Concept: [[activation-engineering]]
+- Concept: [[affective-ai-inner-architecture]]
+- Concept: [[neural-interpretability]]
+

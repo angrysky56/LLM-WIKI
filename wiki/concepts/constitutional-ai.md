@@ -77,6 +77,10 @@ Example principles:
 - [[reward-modeling]] — CAI is a specific alignment technique within the broader alignment research field
 - [[metacognitive-architecture-closed-loop-self-regulation]] — shares the self-critique loop idea with CAI; the metacognitive framework provides a more formal version
 - [[process-reward-model]] — both involve step-level evaluation; PRM evaluates reasoning steps, CAI evaluates principle adherence
+- Concept: [[agent-onboarding]]
+- Concept: [[group-relative-policy-optimization]]
+- Concept: [[reward-hacking]]
+
 
 ## Open Questions
 

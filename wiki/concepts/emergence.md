@@ -86,6 +86,11 @@ See [[scaling-laws]] for the power-law framework that governs the smooth aspects
 - [[open-ended-evolution]] — emergence in biological/computational systems; related but different domain
 - [[chain-of-thought]] — an emergent capability that appears at ~10B parameters; the reasoning trace is what emerges
 - [[in-context-learning]] — few-shot learning emerges at small scales (~1B); a well-studied emergence case
+- Concept: [[complexity]]
+- Concept: [[critical-initialization-biological-neural-networks]]
+- Concept: [[openpraparat]]
+- Concept: [[power-law-scaling]]
+
 
 ## Open Questions
 

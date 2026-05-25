@@ -16,3 +16,4 @@ confidence: 0.3
 ## Connections
 
 - [[ai-policy-federalism]]
+- [[california-tech-leadership]]

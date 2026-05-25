@@ -49,3 +49,9 @@ Most evolutionary simulations plateau. Fitness functions, once optimized, stop d
 - [[alphaevolve]] — evolutionary code search with LLM mutation, but guided (has fitness); OEE would be the unguided version
 - [[efhf]] — OEE systems could be analyzed through the epsilon machine lens: novel organisms as state-splitting events, complexity barriers as lumpability failures
 - [[oee-knowledge-cluster-tierra-lenia-evosphere-insight]] — OEE cluster in LLM-WIKI knowledge graph
+- Concept: [[artificial-life]]
+- Concept: [[catastrophic-forgetting]]
+- Concept: [[computational-irreducibility]]
+- Concept: [[emergence]]
+- Concept: [[llm-kernel-optimization]]
+- Concept: [[openpraparat]]

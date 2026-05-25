@@ -36,3 +36,8 @@ Evaluating the "so what?" of the research.
 - [[research-methodology]]
 - [[edm-framework]]
 - [[critical-review-scientific-article-guide]]
+- Concept: [[academic-peer-review]]
+- Concept: [[hidden-states]]
+- Concept: [[reward-inside-model-elhsr]]
+- Concept: [[reward-modeling]]
+

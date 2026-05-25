@@ -91,6 +91,8 @@ The [[load-bearing-reasoning]] framework identifies which inference steps are es
 - [[proof-assistant]] — tools for formal mathematical reasoning
 - [[load-bearing-reasoning]] — which reasoning steps are essential vs scaffolding (proof steps should all be load-bearing)
 - [[scaling-laws]] — mathematical forms governing neural network behavior
+- Concept: [[formal-methods]]
+
 
 ## Open Questions
 

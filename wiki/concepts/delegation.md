@@ -96,6 +96,10 @@ A system with delegation but no planning gets sub-tasks done but may produce inc
 - [[bounded-structured-memory]] — layered memory that preserves context across delegation boundaries
 - [[multi-agent-llm-systems]] — systems where delegation is the primary composition primitive
 - [[markovian-carryover]] — forward-state mechanism for maintaining continuity across delegation sessions
+- Concept: [[agent-onboarding]]
+- Concept: [[agentic-oversight]]
+- Concept: [[multi-agent-coordination]]
+
 
 ## Open Questions
 

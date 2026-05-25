@@ -98,6 +98,12 @@ Biological and some AI systems implement hierarchical predictive coding: each la
 - [[hipai-montague]] — the cognitive world model in the EFHF stack
 - [[agent-native-design]] — world model as a native architectural component, not a retrofit
 - [[epistemic-energy]] — world model divergence depletes epistemic energy; the Δ signal from EDM measures this
+- Concept: [[MCTS]]
+- Concept: [[autonomous-research]]
+- Concept: [[causal-reasoning]]
+- Concept: [[llm-agent-architecture]]
+- Concept: [[working-memory]]
+
 
 ## Open Questions
 

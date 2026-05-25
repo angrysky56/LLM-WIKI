@@ -73,3 +73,10 @@ Different agent architectures implement MCM in different ways:
 - The cognitive architecture concept originates in classical AI (Newell, Simon, SOAR, ACT-R)
 - Modern large language models implicitly implement aspects of cognitive architecture through in-context learning
 - Explicit meta-cognitive self-modeling remains an open research area
+
+
+## Connections
+- Concept: [[engineering-internal-awareness]]
+- Concept: [[metacognitive-architecture-closed-loop-self-regulation]]
+- Concept: [[mop-architecture]]
+- Concept: [[self-correction]]

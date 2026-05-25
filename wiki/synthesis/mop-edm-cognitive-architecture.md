@@ -203,3 +203,5 @@ MOP formally proves: when utility serves entropy (possibility), agents survive, 
 - [[project-synapse]] — MCP infrastructure for epistemic energy replenishment
 - [[persistent-knowledge-compilation]] — MOP predicts stochastic access patterns over deterministic retrieval
 - [[prd-ralph-loop-mop-gemini]] — Gemini conversation initiating the cognitive MOP framing
+- [[minimal-generative-architectures]]
+- [[intelligence-as-entropic-sculpting]]

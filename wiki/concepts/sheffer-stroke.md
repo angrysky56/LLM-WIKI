@@ -42,3 +42,6 @@ Whether a continuous binary Sheffer exists without a distinguished constant rema
 - [[eml-operator]] — the continuous-domain Sheffer
 - [[odrzywolek-eml-2026]] — discovery paper
 - [[mcp-logic]] — Prover9/Mace4 reasoning about logical primitives
+- Concept: [[transformer-vm-moran-2026]]
+- Concept: [[utimula-openpraparat-2025]]
+

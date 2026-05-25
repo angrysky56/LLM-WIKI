@@ -88,6 +88,8 @@ The production-llm-agent-runtime-architecture-patterns paper confirms this gap e
 - [[world-model]] — internal predictive model for planning
 - [[code-as-agent-harness]] — code as universal tool interface
 - [[load-bearing-reasoning]] — boundary reasoning as load-bearing
+- Concept: [[code-generation]]
+
 
 ## Open Questions
 

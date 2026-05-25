@@ -17,3 +17,10 @@ sources: []
 
 ## Connections
 - [[load-bearing-reasoning]] — primary documentation
+- Concept: [[code-execution]]
+- Concept: [[latent-reasoning]]
+- Concept: [[logic]]
+- Concept: [[mathematical-reasoning-ai]]
+- Concept: [[multi-agent-reasoning]]
+- Concept: [[reward-inside-model-elhsr]]
+- Concept: [[scientific-reasoning]]

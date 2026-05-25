@@ -16,3 +16,5 @@ confidence: 0.3
 ## Connections
 
 - [[us-politics]]
+- [[scotus]]
+- [[8th-amendment]]

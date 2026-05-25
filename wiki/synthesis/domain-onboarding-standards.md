@@ -36,8 +36,8 @@ Do **NOT** start implementation until the `domain_spec.md` is complete and all r
 ## Required Artifacts
 - `domain_spec.md`: The single source of truth for the domain.
 - `agents/base.py`: The base implementation of the harness.
-- `evaluator.py`: The domain-specific implementation of the [[Meta-Harness Evolution Loop]] `Evaluator` protocol.
+- `evaluator.py`: The domain-specific implementation of the [[meta_harness_loop]] `Evaluator` protocol.
 
 ## Related
-- [[Meta-Harness Evolution Loop]]
-- [[Hermes Agent Architecture]]
+- [[meta_harness_loop]]
+- [[hermes_agent]]

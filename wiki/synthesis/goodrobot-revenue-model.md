@@ -15,5 +15,5 @@ confidence: 0.3
 
 ## Connections
 
-- [[goodrobot]]
+- [[wiki/entities/projects/goodrobot]]
 - [[business-model]]

@@ -1,3 +1,11 @@
+---
+created: 2026-05-25
+updated: 2026-05-25
+type: report
+summary: Discovery cycle — adaptive budget learning / gating model training; 2 new pages, 5 cross-links
+tags: [researcher, discovery, report]
+---
+
 # Researcher Discovery Report — 2026-05-25
 
 ## Discovery Cycle

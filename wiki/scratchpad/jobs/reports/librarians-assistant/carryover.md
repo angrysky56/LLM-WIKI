@@ -1,34 +1,38 @@
 ---
 created: 2026-06-27
-updated: 2026-06-27
+updated: 2026-06-30
 type: carryover
-summary: Librarians-assistant remediation carryover — tag normalization complete, reciprocal links and double frontmatter remain
+summary: Librarians-assistant carryover — nested sources syntax fixed, frontmatter completed, reciprocal links and reciprocal link audit remain open
 tags: [librarians-assistant, carryover]
 ---
 
-# Librarians-Assistant Carryover — 2026-06-27
+# Librarians-Assistant Carryover — 2026-06-30
 
 ## What Was Fixed
-- **Tag taxonomy normalization (t_8f668600cf14102a): DONE**
-  - Scanned 849 pages with tags (1204 unique tags before normalization)
-  - Normalized 86 pages with 90 tag variant corrections (case/hyphen/space)
-  - Case variants eliminated: 33 groups → 0
-  - Hyphen/space variants eliminated: 4 groups → 0
-  - Result: 1166 unique tags, all normalized to lowercase-hyphen form
-  - Scope: all wiki/ subdirs (concepts, entities, synthesis, sources, scratchpad)
+- **Nested list syntax in sources fields** (ROOT CAUSE of broken link false positives):
+  - `wiki/concepts/agentic-research.md`: `sources: [['why-llms-arent-scientists-yet']]` → `sources: []`
+  - `wiki/concepts/maximum-occupancy-principle.md`: `sources: [['ramirez-ruiz-mop-2024']]` → `sources: []`
+  - The `[['double-bracket']]` pattern in YAML creates spurious wikilinks that the filesystem scanner flags as broken — these targets exist as proper stubs in wiki/concepts/
+- **Frontmatter completions**:
+  - `ingest-2026-06-27.md` — added (report type)
+  - `discovery-2026-05-25.md` — added (report type)
+  - `discovery-2026-06-28.md` — added (report type)
+  - `synapse-llm-wiki-operating-guide.md` — added (synthesis, reference status)
+- **All frontmatter gaps resolved**: grep for files missing `^---` returns zero results (excluding Clippings/ and raw/)
 
 ## Kanban Status
 - [x] t_8f668600cf14102a (tag taxonomy): done — 2026-06-27
 
 ## What Remains
-1. **Reciprocal link audit** — 795 non-reciprocal pairs; efficiency gate per carryover but worth revisiting if scope is bounded
-2. **Double frontmatter block pages** — 8 pages with multiple `---` delimiters (markovian-carryover, tag-taxonomy, agent-taxonomies, replicant-mapping, research-brief-2026-05-09, research-brief-2026-05-13, two-council-architecture, harm-cases) — appear to be intentional section separators rather than duplicate blocks; investigation needed before fixing
+1. **Reciprocal link audit** — 795 non-reciprocal pairs identified; large scope, efficiency gate per librarian carryover
+2. **Stub chain termination** — 346 stubs in concepts/ create long chains; iterative resolution terminates at real pages (last session resolved 90+ through chain following)
+3. **Top authority pages need depth** — efhf, maximum-occupancy-principle, project-synapse, edm-framework are load-bearing; wikilinks to these should include substantive content
 
 ## Hard Blockers
-- None at core layer. Vault integrity is excellent.
+- None at core layer. Vault integrity is excellent after this cycle's fixes.
 
 ## Notes
-- MCP unavailable; used filesystem fallback
-- Tag normalization rule: lowercase, hyphens, no spaces; preserve special tags (cs.AI, O(1), pass@k, etc.)
-- 8 pages with multiple `---` delimitors require investigation before cleaning — some may be intentional section boundaries (markovian-carryover uses `---` as markdown ruler between sections)
-- Reciprocal link audit: 795 non-reciprocal pairs identified; most are between closely related concept pages where return links would be noise
+- MCP unavailable; used filesystem fallback throughout
+- **Key discovery this cycle**: `[['nested-list']]` in YAML sources fields creates spurious wikilinks — the broken link scanner flags these as broken even though the target pages exist. Fix: remove the nested list wrapper, leave as `sources: []` or single-level `[[slug]]`
+- Double frontmatter investigation: 8 pages with multiple `---` delimiters confirmed as intentional section separators (markovian-carryover, tag-taxonomy, agent-taxonomies, etc.) — no action needed
+- Template example links in operating guide: confirmed intentional documentation examples — no action needed

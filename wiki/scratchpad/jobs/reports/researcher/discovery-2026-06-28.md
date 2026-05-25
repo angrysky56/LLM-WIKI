@@ -1,3 +1,11 @@
+---
+created: 2026-06-28
+updated: 2026-06-28
+type: report
+summary: Discovery cycle — power law scaling, Taylor's law, allometric scaling, LLM inference; 4 stubs upgraded to active
+tags: [researcher, discovery, report]
+---
+
 # Researcher Discovery Report — 2026-06-28
 
 ## Discovery Cycle

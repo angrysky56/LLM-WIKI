@@ -1,3 +1,14 @@
+---
+created: 2026-05-25
+updated: 2026-05-25
+type: synthesis
+summary: Operating guide for maintaining the LLM-WIKI — conventions, workflows, best practices
+tags: [wiki, documentation, conventions, workflow]
+sources: []
+status: reference
+confidence: 1.0
+---
+
 # LLM-WIKI Operating Guide
 
 > **Purpose**: Document conventions, workflows, and best practices for maintaining the wiki.

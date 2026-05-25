@@ -4,7 +4,7 @@ updated: 2026-06-26
 type: concept
 summary: How text-based LLM agents represent "what the world looks like" — the abstraction layers between raw conversation history and a predictive world model; covers belief state, tool-history graphs, conversation structure, and the gap between retrieval and compilation
 tags: [agent-design, world-model, cognitive-architecture, representation, EFHF, memory, tool-use]
-sources: [[2602.10090]], [[2504.15785]], [[world-model]], [[agent-native-design]], [[hipai-montague]], [[persistent-knowledge-compilation]], [[bounded-rationality]]
+sources: [https://arxiv.org/abs/2602.10090, https://arxiv.org/abs/2504.15785, [[world-model]], [[agent-native-design]], [[hipai-montague]], [[persistent-knowledge-compilation]], [[bounded-rationality]]
 status: active
 confidence: 0.75
 ---

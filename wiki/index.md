@@ -569,7 +569,7 @@ type: index
 - [[anthropic]] — [STUB] Anthropic — AI safety company behind Claude
 - [[efhf]] — Five-layer AI architecture implementing computational mechanics (epsilon machines, lumpability, causal closure) as a live multi-agent system — MOP proposed as Layer 0 for proactive exploration
 - [[esa]] — [STUB] ESA — European Space Agency
-- [[goodrobot]] — GoodRobot — SHUT DOWN — zero-human AI agent company was simulating corporate governance with ethics board
+- [[wiki/entities/projects/goodrobot]] — GoodRobot — SHUT DOWN — zero-human AI agent company was simulating corporate governance with ethics board
 - [[google-deepmind]] — [STUB] Google DeepMind — AI research division of Google
 - [[huggingface]] — [STUB] Hugging Face — AI model hub and community
 - [[james-webb-space-telescope]] — [STUB] James Webb Space Telescope — JWST observatory

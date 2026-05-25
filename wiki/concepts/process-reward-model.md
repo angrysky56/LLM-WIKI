@@ -105,7 +105,8 @@ The intelligence is in the pruning: a PRM with 85% accuracy on step-level correc
 
 4. **Combining with BoN**: If we have a reliable PRM, do we still need Best-of-N at the outcome level? PRM-guided search + final ORM scoring may be more efficient than uniform BoN.
 
-5. **Alignment tax**: PRMs require additional training compute and introduce a new failure mode (bad PRM → wrong search path). Is the accuracy gain worth the complexity?
+- [[hidden-states]] — ELHSR's hidden-state reward approach could be extended to step-level signals
+- [[hybrid-reward-models]] — Combining ELHSR outcome-level scoring with SD-Search step-level signals for unified BoN guidance
 
 ## Connections
 

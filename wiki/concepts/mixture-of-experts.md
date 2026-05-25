@@ -123,6 +123,7 @@ Top-k selection picks the k highest-scoring experts. The routing weights are com
 
 ## Connections
 
+- [[adaptive-budget-learning]] — training gating models for adaptive compute allocation; gradient blocking problem and RL approaches
 - [[inference-time-compute-scaling]] — MoE provides architectural basis for efficient test-time compute; the two techniques are complementary
 - [[reward-modeling]] — reward models for BoN selection can exploit MoE structure
 - [[ml-evolution]] — MoE challenges the scaling law by separating parameter count from FLOPs per token

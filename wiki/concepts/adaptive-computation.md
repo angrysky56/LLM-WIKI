@@ -16,3 +16,6 @@ confidence: 0.3
 ## Connections
 
 - [[scaling-laws]]
+- [[adaptive-budget-learning]] — substantially fills this stub
+- [[mixture-of-experts]] — gating is the router in MoE
+- [[early-exit-networks]] — gating decides when to exit

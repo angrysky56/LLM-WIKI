@@ -77,8 +77,8 @@ tags: [researcher, carryover]
 
 ### Open
 - **[Question]** MoE routing collapse under RLHF ✅ ANSWERED: Empirically confirmed via SafeMoE (Kim 2025). Fine-tuning causes routing drift across 7B-141B models. Routing skew pre-exists fine-tuning (MoE-Sieve, Manzoni 2026). Pre-training collapse mechanism identified (Chi 2022). Monitoring → resolved.
-- **[Question]** Adaptive budget learning: how to train the gating model. No clear paper yet.
-- **[Question]** Hybrid reward models: combining ELHSR (hidden-state) with SD-Search (process-level). Emerging direction — no full treatment yet.
+- **[Question]** Adaptive budget learning: how to train the gating model. ✅ ANSWERED (Jun 2026): Created [[adaptive-budget-learning]] — 5 training approaches (supervised losses, RL, teacher-guidance TGR-MoE, two-stage LGViT, joint confidence ADEPT); gradient blocking is core problem; SPAR-K/DAISY for speech/audio, SafeMoE for RLHF interaction. Also created [[early-exit-networks]] as related concept.
+- **[Question]** Hybrid reward models: combining ELHSR (hidden-state) with SD-Search (process-level). ✅ ANSWERED: Created hybrid-reward-models.md (Jun 2026). ELHSR outcome scoring + SD-Search process signals closes the loop: SD-Search prunes early, ELHSR reranks survivors. Extension: ELHSR gating g_t is a latent process signal; JSD vs g_t is an open empirical question.
 - **[Question]** Reward hacking detectability: Is there a reliable signal that reward hacking is occurring before it becomes severe? Current approaches are post-hoc.
 - **[Question]** Category theory for neural network verification: Filled → see [[attention-monoidal-closure]] (Jun 2026). Attention layers form a symmetric monoidal category under sequential (stacking) and parallel (multi-head) composition. Closedness is blocked by softmax non-linearity; cross-attention adapter is the candidate internal hom `[A,B]`. Full transformers with residual connections/LayerNorm remain open.
 - **[Question]** Cognitive world models for LLM agents: How do you represent "what the world looks like" for a text-based agent? Conversation state? Tool return history?

@@ -79,7 +79,7 @@ type: index
 - [[adaptive-computation]] — [STUB] Adaptive computation time in neural networks
 - [[adversarial-training]] — Training methodology that exposes models to adversarial examples to improve robustness against adversarial attacks
 - [[affective-ai-inner-architecture]] — Framework for AI self-observation and modification via Panksepp affective systems, mechanistic interpretability, and activation steering
-- [[agent-architectures]] — [STUB] Agent architectures — design patterns for autonomous AI agents
+- [[agent-architectures]] — Design patterns for organizing LLM-based agents: deliberative, reactive, hybrid, and meta-cognitive
 - [[agent-design]] — [STUB] Agent design — principles and patterns for designing AI agents
 - [[agent-group-evolving-molecular-system-agem]] — [STUB] AGEM: agent group architecture with evolutionary molecular dynamics
 - [[agent-leak-benchmark]] — Benchmark for measuring information leakage in LLM agents — specifically reconstruction attacks on shared KV-cache artifacts in multi-agent systems
@@ -93,7 +93,7 @@ type: index
 - [[agentic-planner]] — [STUB] Agentic planning systems — hierarchical task decomposition and execution
 - [[agentic-reasoning]] — [STUB] Agentic reasoning capabilities in LLMs
 - [[agentic-research]] — The use of autonomous LLM agents to execute stages of the scientific research workflow, from idea generation to manuscript writing
-- [[agents]] — [STUB] Agents — autonomous software entities that perceive and act
+- [[agents]] — LLM-based autonomous entities that perceive, plan, and act — unifying reference for the agents concept
 - [[agile]] — [STUB] Agile — iterative software development methodology with adaptive planning and continuous improvement
 - [[ai-diagnostics]] — [STUB] AI diagnostics — medical diagnosis using AI systems
 - [[ai-energy-economics]] — [STUB] AI energy economics — compute, power consumption, data centers
@@ -120,7 +120,7 @@ type: index
 - [[attention-mechanism]] — Key-value lookup mechanism at the core of transformer architectures — enables content-dependent, long-range dependency modeling
 - [[attention-monoidal-closure]] — Whether attention layers form a closed monoidal category for categorical compositional verification
 - [[attractor-dynamics]] — [STUB] Attractor dynamics in neural networks — how network states converge to attractors
-- [[autonomous-agents]] — [STUB] Autonomous agents — AI agents that operate independently in complex environments
+- [[autonomous-agents]] — LLM-based agents that independently perceive, form plans, and execute actions toward goals
 - [[autonomous-research]] — AI systems capable of conducting scientific research autonomously — pipeline architectures, failure modes, and the gap between current agents and genuine scientific autonomy
 - [[autopoiesis]] — [STUB] Self-producing biological systems, autopoietic theory in cognitive science
 - [[benchmark]] — Benchmark — standardized evaluation framework for measuring AI capability; properties, well-known benchmarks (MMLU, GSM8K, HumanEval, SWE-Bench), and key limitations
@@ -129,12 +129,12 @@ type: index
 - [[betteti-baggio-bullo-zampieri-idp-hopfield-2025]] — [STUB] IDP-Hopfiel research — intrinsic dimension and attractor dynamics in neural networks
 - [[blackmail]] — [STUB] Blackmail as an AI safety concern, coercive information leverage
 - [[bounded-rationality]] — Bounded rationality — decision-making under finite cognitive resources (stub)
-- [[bounded-structured-memory]] — [STUB] Bounded structured memory — layered memory architecture for agent continuity across sessions
+- [[bounded-structured-memory]] — Layered memory architecture (episodic/semantic/procedural) with bounded capacity for agent continuity
 - [[brain-research]] — [STUB] Brain research — neuroscience research on brain structure and function
 - [[brocas-area]] — A region in the frontal lobe of the dominant hemisphere (usually left) with functions linked to speech production.
 - [[business-model]] — [STUB] Business model design and analysis
 - [[business]] — [STUB] Business — commercial activity and organizations
-- [[catastrophic-forgetting]] — [STUB] Phenomenon where neural networks forget previously learned knowledge upon learning new tasks
+- [[catastrophic-forgetting]] — Catastrophic forgetting — neural networks lose previously learned knowledge upon new training; mitigation strategies and MOP alternative
 - [[categorical-reasoning]] — Reasoning that leverages categorical structures — functors, natural transformations, adjunctions, and universal properties — to reason about composition, abstraction, and transformations across domains
 - [[category-theory]] — Branch of mathematics studying abstract structures via objects, morphisms, functors, and natural transformations — unifying language for mathematics with applications in formal verification and compositional AI systems
 - [[causal-networks]] — A fundamental representation of spacetime in Wolfram Physics, where nodes are updating events and edges are causal dependencies in a multiway rewrite system.
@@ -167,7 +167,7 @@ type: index
 - [[constitutional-ai]] — Alignment technique using AI-generated self-critique and principle-based revision instead of human-labeled preference data
 - [[content-addressed-storage]] — [STUB] Content-addressed storage systems
 - [[continual-learning]] — [STUB] Machine learning paradigm where models learn continuously without catastrophic forgetting
-- [[control-llm]] — Control LLM — mitigates catastrophic forgetting by splitting layers into frozen and trainable branches
+- [[control-llm]] — Control LLM — architectural mitigation for catastrophic forgetting via frozen/trainable branch bifurcation
 - [[coordination]] — [STUB] Coordination — coordinating multiple agents or systems
 - [[cosmology]] — [STUB] Cosmology — universe origin, structure, evolution
 - [[creativity]] — [STUB] Creativity — creative thinking and generation in AI systems
@@ -355,7 +355,7 @@ type: index
 - [[molecular-reasoning]] — [STUB] Molecular reasoning — reasoning at the molecular level in science
 - [[momoa-researcher]] — [STUB] MOPOA researcher agent — memory-oriented psychological architecture research
 - [[mop-and-rlhf-interaction]] — Structural tension between Maximum Occupancy Policy (MOP) entropy maximization and RLHF's KL-regularization — three potential resolution paths identified
-- [[mop-architecture]] — [STUB] MOP architecture — memory-oriented programming architecture
+- [[mop-architecture]] — Memory-Oriented Programming design pattern for LLM agents — layered, bounded memory schemas
 - [[mop-next-token-prediction]] — Stub: MOP path entropy applied to transformer NTP training from scratch
 - [[motion-understanding]] — Understanding motion and temporal dynamics in visual data — the elementary primitives of motion, direction binding, and the magnitude deficit problem in visual reasoning
 - [[multi-agent-coordination]] — Mechanisms by which multiple AI agents work together toward shared or negotiated goals — from shared state to market-based coordination
@@ -432,7 +432,7 @@ type: index
 - [[qes]] — [STUB] Quality-evolutionary search, optimization algorithm
 - [[quantum-computing]] — [STUB] Quantum computing applications in AI and cryptography
 - [[rag]] — Retrieval-Augmented Generation — the standard stateless document Q&A pattern
-- [[ramirez-ruiz-mop-2024]] — [STUB] MOP research — memory, schemas, and cognitive architecture
+- [[ramirez-ruiz-mop-2024]] — Ramirez-Ruiz et al. foundational MOP research — schema-based memory scaffolding for LLM agents
 - [[random-forest]] — [STUB] Random forest ML algorithm
 - [[reasoning]] — Alias stub redirecting to load-bearing-reasoning — reasoning as a load-bearing cognitive structure
 - [[reconstruction-attack]] — [STUB] Reconstruction attacks on ML models

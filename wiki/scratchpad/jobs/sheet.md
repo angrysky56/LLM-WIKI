@@ -1,130 +1,87 @@
 ---
-summary: Updated job status to done for news
-updated: 2026-05-22T01:26:02Z
+summary: Central agent coordination board — overseer-managed, per-agent skill folders
+tags: [jobs, task-board, overseer]
+updated: 2026-05-25
 ---
 
+# Jobs Sheet — Central Agent Coordination Board
+
+**Overseer**: [[overseer/SKILL.md]]  
+**Agents**: [[arxiv/SKILL.md]] · [[researcher/SKILL.md]] · [[ingest/SKILL.md]] · [[librarian/SKILL.md]] · [[librarians-assistant/SKILL.md]] · [[insights/SKILL.md]] · [[news/SKILL.md]] · [[orcaid/SKILL.md]]
+
 ---
-summary: Jobs sheet with fixed agent-sheet wikilinks
-tags: [jobs, task-board, agent-instructions]
-updated: 2026-05-22T01:30:00Z
+
+## Agent State Overview
+
+| Agent | Cron ID | Schedule | Last Run | Last Status | Next Run |
+|-------|---------|----------|----------|--------------|----------|
+| [[arxiv/SKILL.md]] | `72599f850df2` | 08:10 | — | — | — |
+| [[researcher/SKILL.md]] | `8ea33cfa560a` | 08:00 | 2026-07-20 | **done** | — |
+| [[ingest/SKILL.md]] | `c838e81a1496` | 06:30 | — | — | — |
+| [[librarian/SKILL.md]] | `48a3a009a820` | 08:20 | 2026-05-26 | **done** | — |
+| [[librarians-assistant/SKILL.md]] | `385aa0819a57` | 08:40 | — | — | — |
+| [[insights/SKILL.md]] | `723e76246970` | 06:00 | — | — | — |
+| [[news/SKILL.md]] | `eaaa6bdc8503` | 07:30 | — | — | — |
+| [[orcaid/SKILL.md]] | — | PAUSED | — | — | — |
+
+**Kanban Review**: `0a34e742931a` · [[librarians-assistant/SKILL.md|kanban-review]] · schedule 08:30 · on-demand trigger supported
+
 ---
 
-# Jobs Sheet — Central Task Board
+## Per-Agent Skill Folders
 
-**Purpose**: Single source of truth for what each agent should be doing. Agents check here on every run for their current instructions, update their status when done, and post summaries to their report folder.
+Each agent lives at `wiki/scratchpad/agent-sheets/{agent}/` with progressive disclosure (SKILL.md → references/ → templates/).
 
-## Format
+| Agent | SKILL.md | references/ | templates/ | carryover |
+|-------|----------|-------------|-----------|-----------|
+| [[arxiv/SKILL.md]] | 43 lines | patterns.md, workflow.md | report.md, research-brief.md | [[arxiv/carryover]] |
+| [[researcher/SKILL.md]] | 40 lines | workflow.md | discovery-report.md, gap-analysis.md | [[researcher/carryover]] |
+| [[ingest/SKILL.md]] | 41 lines | workflow.md | ingest-report.md | [[ingest/carryover]] |
+| [[librarian/SKILL.md]] | 39 lines | mcp-tools.md, workflow.md | audit-report.md | [[librarian/carryover]] |
+| [[librarians-assistant/SKILL.md]] | 42 lines | quick-reference.md, workflow.md | batch-progress.md | [[librarians-assistant/carryover]] |
+| [[insights/SKILL.md]] | 45 lines | insight-merge.md, workflow.md | carryover.md | [[insights/carryover]] |
+| [[news/SKILL.md]] | 48 lines | rss-queries.md, workflow.md | headlines-report.md, news-article.md | [[news/carryover]] |
+| [[orcaid/SKILL.md]] | 46 lines | execution-mechanisms.md, task-types.md | run-report.md | [[orcaid/carryover]] |
 
-- **Pending**: Tasks queued for next run
-- **In Progress**: Tasks currently being worked
-- **Done**: Completed tasks (brief result + link to report)
-- **Blocked**: Tasks waiting on something external
+---
 
-## Active Jobs
+## Coordinated Tasking
 
-| Job ID | Job Name | Agent | Status | Last Run | Next Run | Agent Sheet |
-|--------|----------|-------|--------|----------|----------|-------------|
-| `eaaa6bdc8503` | world-news-daily | news | **done** | 2026-05-27 | 2026-05-27 8AM | [[news]] |
-| `8ea33cfa560a` | Wiki Researcher | researcher | **done** | 2026-07-02 | TBD | [[researcher]] |
-| `297092f3b347` | orcaid-verification-indexer | orcaid | **PAUSED** | 2026-05-18 | — | [[orcaid]] |
-| `72599f850df2` | arxiv-top3 | arxiv | **done** | 2026-05-26 | 2026-05-27 8:20AM | [[arxiv]] |
-| `c838e81a1496` | llm-wiki-raw-ingest | ingest | **done** | 2026-06-27 | — | [[ingest]] |
-| `48a3a009a820` | Wiki Librarian | librarian | **done** | 2026-06-17 | — | [[librarian]] |
-| `385aa0819a57` | Wiki Librarians-Assistant | librarians-assistant | **done** | 2026-06-17 | — | [[librarians-assistant]] |
-| `723e76246970` | Wiki Insights Generator | insights | **done** | 2026-05-24 | 2026-05-25 6AM | [[insights]] |
+### Open Items (carryovers → kanban)
 
-## Task Delegation
+| Item | Source Agent | Kanban ID | Priority | Notes |
+|------|-------------|-----------|----------|-------|
+| — | | | | |
 
-### Ty → Agents
+### Blocked / Stalled
 
-**Pending Tasks** (from morning kanban review — 2026-06-26 08:30):
+| Agent | Blocked By | Since | Notes |
+|-------|-----------|-------|-------|
+| — | | | |
 
-**High Priority** (new this cycle)
-- [ ] **researcher**: MoE routing collapse under RLHF — is it happening in practice? No empirical data
-  - Source: researcher/carryover.md §Open | Blocked: no
-- [x] **researcher**: Category theory for neural network verification — Do attention mechanisms form a closed monoidal category? → filled [[attention-monoidal-closure]]
-  - Source: researcher/carryover.md §Open | Done: 2026-06-27 | Report: [[discovery-2026-06-27]]
-- [x] **researcher**: MOP training for transformers — Can path entropy maximization be applied to next-token prediction training from scratch? → `mop-next-token-prediction.md` (stub)
-  - Source: researcher/carryover.md §Open | Done: 2026-06-30 | Report: [[discovery-2026-06-30]]
-- [ ] **researcher**: Adaptive budget learning — how to train the gating model for adaptive computation
-  - Source: researcher/carryover.md §Open | Blocked: no
-- [ ] **librarians-assistant**: Double frontmatter investigation — 8 pages with multiple `---` delimiters (may be intentional section separators vs. true duplicates)
-  - Source: librarians-assistant/carryover.md §What Remains | Blocked: no
+---
 
-**Medium Priority** (new this cycle)
-- [ ] **arxiv**: World-model improvement theme — papers on model editing, knowledge unlearning, skill compaction, uncertainty-aware planning
-  - Source: arxiv/carryover.md §Notes | Blocked: no
-- [ ] **arxiv**: SNR↔reliability mapping (Shannon Law ↔ verifier-graph) — papers on calibrated confidence/uncertainty-aware verification
-  - Source: arxiv/carryover.md §Notes | Blocked: no
-- [ ] **researcher**: Hybrid reward models — combining ELHSR (hidden-state) with SD-Search (process-level)
-  - Source: researcher/carryover.md §Open | Blocked: no
-- [ ] **researcher**: Reward hacking detectability — reliable signal before severe? Current approaches post-hoc
-  - Source: researcher/carryover.md §Open | Blocked: no
-- [x] **researcher**: Cognitive world models for LLM agents — how to represent "what the world looks like" for a text-based agent? → `cognitive-world-models-for-llm-agents.md`
-  - Source: researcher/carryover.md §Open | Done 2026-06-26 | Report: `reports/researcher/discovery-2026-06-26.md`
-- [ ] **librarians-assistant**: Tag taxonomy normalization — 1287 unique tags with inconsistent casing (uppercase acronyms + lowercase prefixes), large scope
-  - Source: librarians-assistant/carryover.md §What Remains | Blocked: no
-- [ ] **librarians-assistant**: Reciprocal link audit — 795 non-reciprocal pairs (may be bounded by scope)
-  - Source: librarians-assistant/carryover.md §What Remains | Blocked: no
+## Cron Skill Links (updated 2026-05-25)
 
-**In Progress**:
-- [ ] **librarian**: HITS authority scoring + orphan detection (June 26 carryover — deferred to this cycle)
-  - Source: librarian/carryover.md §Heading | Blocked: no
+All 8 agent cron jobs now reference the new skill folder names:
 
-**Blocked (needs Ty input)**
-- [ ] **news**: SpaceX IPO June 12 — BlackRock $10B confirmation, SEC filings, pre-IPO Starship tests
-  - Source: news/carryover.md §Open | Blocked: yes
-- [ ] **news**: California AI order — implementation timeline, vendor safeguard details
-  - Source: news/carryover.md §Open | Blocked: yes
-- [ ] **news**: D-Wave quantum — whether D-Wave contests Flatiron Institute finding
-  - Source: news/carryover.md §Open | Blocked: yes
-- [ ] **news**: Malaysia exit from US trade deal — which countries follow, ASEAN supply chain impact
-  - Source: news/carryover.md §Open | Blocked: yes
-- [ ] **news**: Rubio-India $500B — whether negotiations restart, what legal framework replaces collapsed bargain
-  - Source: news/carryover.md §Open | Blocked: yes
-- [ ] **news**: EU-US deal — full implementation text, specific tariff rates
-  - Source: news/carryover.md §Open | Blocked: yes
+| Cron ID | Agent | Skills |
+|---------|-------|--------|
+| `8ea33cfa560a` | researcher | `["researcher", "kanban-review"]` |
+| `72599f850df2` | arxiv | `["arxiv", "kanban-review"]` |
+| `eaaa6bdc8503` | news | `["news", "kanban-review"]` |
+| `c838e81a1496` | ingest | `["ingest", "kanban-review"]` |
+| `48a3a009a820` | librarian | `["librarian", "kanban-review"]` |
+| `385aa0819a57` | librarians-assistant | `["librarians-assistant", "kanban-review"]` |
+| `723e76246970` | insights | `["insights", "kanban-review"]` |
+| `0a34e742931a` | kanban-review | `["kanban-review"]` |
+| `3a3811943ca9` | kanban-dispatcher | `["kanban-dispatcher"]` |
 
-**Done** (this session):
-- [x] **librarian**: Reciprocal link audit — 451 reciprocals added across 90 wiki/concepts pages
-  - Report: [[audit-2026-05-25]] | t_74b2f183
+---
 
-**In Progress**:
-- [ ] *[Add tasks here]*
+## Logs
 
-**Done**:
-- [ ] *[Add completed tasks here]*
-
-### Agent → (reports go in jobs/reports/{agent}/)
-
-| Agent | Report Folder | Last Report |
-|-------|--------------|-------------|
-| librarian | `jobs/reports/librarian/` | — |
-| researcher | `jobs/reports/researcher/` | — |
-| orcaid | `jobs/reports/orcaid/` | — |
-| arxiv | `jobs/reports/arxiv/` | — |
-| news | `jobs/reports/news/` | [[news-2026-05-22-headlines]] |
-| ingest | `jobs/reports/ingest/` | — |
-| insights | `jobs/reports/insights/` | — |
-
-## Instructions Per Agent
-
-Each agent reads its own sheet on every run. These sheets are the source of truth — not this central sheet.
-
-| Agent | Sheet | Purpose |
-|-------|-------|---------|
-| librarian | [[librarian|librarian]] | Quality audit, orphan detection, link integrity |
-| researcher | [[researcher|researcher]] | Knowledge gap analysis, new topic research |
-| orcaid | [[orcaid|orcaid]] | Verification sweep, drift detection, self-improve |
-| arxiv | [[arxiv|arxiv]] | Top 3 paper discovery and ingestion |
-| news | [[news|news]] | Global news curation and wiki ingestion |
-| ingest | [[ingest|ingest]] | raw→wiki pipeline, file processing |
-| insights | [[insights|insights]] | Zettelkasten insight generation and wiki integration |
-
-**Each agent sheet contains:**
-1. Read the agent sheet (STEP 0)
-2. Read the central jobs sheet (STEP 1)
-3. Execute assigned tasks
-4. Write report to `jobs/reports/{agent}/`
-5. Update this sheet's status column
-6. Update own carryover in `jobs/reports/{agent}/carryover.md`
+```
+2026-05-25 — Restructured agent-sheets/ into progressive-disclosure skill folders (SKILL.md → references/ → templates/). Flat .md files removed. All 7 cron jobs updated to new skill names.
+2026-05-25 — Central sheet redesigned: overseer owns this sheet, per-agent skill folder tracking, cron skill link registry
+```

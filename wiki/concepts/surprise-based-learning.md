@@ -4,7 +4,7 @@ updated: 2026-05-06T20:09:35Z
 type: concept
 summary: A learning paradigm where the model prioritizes information storage or weight updates based on the "surprise" value (prediction error or gradient magnitude).
 tags: [machine-learning, learning-theory, titans]
-sources: [[titans-test-time-memory]]
+sources: []
 status: active
 confidence: 1.0
 ---

@@ -1,11 +1,4 @@
 ---
-summary: Stub: MOP path entropy applied to transformer NTP training from scratch
-tags: [MOP, entropy, path-entropy, next-token-prediction, transformer, training]
-updated: 2026-05-25T17:38:41Z
-created: 2026-05-25T17:38:41Z
----
-
----
 created: 2026-06-30T00:00:00Z
 updated: 2026-06-30T00:00:00Z
 type: concept
@@ -33,7 +26,7 @@ Can [[maximum-occupancy-principle|MOP's]] path entropy maximization be applied t
 ## Connections
 
 - [[maximum-occupancy-principle]] — source theory
-- [[entropic-machinery-cot-and-flagellum]] — Boltzmann substrate connection
+- [[wolchover-life-force-2026]] — Boltzmann substrate connection
 - [[group-relative-policy-optimization]] — alternative training approach
 - [[reinforcement-learning-from-human-feedback]] — KL tension
 

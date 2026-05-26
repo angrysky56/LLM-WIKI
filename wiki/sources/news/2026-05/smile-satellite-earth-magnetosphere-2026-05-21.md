@@ -1,16 +1,12 @@
 ---
-summary: European-Chinese SMILE satellite launched to image Earth's magnetosphere — the protective magnetic shield that defends life against solar wind
-tags: [news, science, space, earth-science, china, europe]
-updated: 2026-05-21T16:44:38Z
 created: 2026-05-21T16:44:38Z
----
-
----
+updated: 2026-05-21T16:44:38Z
+type: source
 summary: Joint European-Chinese SMILE satellite launched to study Earth's magnetosphere — first direct imaging of the protective magnetic shield against solar wind
 tags: [news, science, space, earth-science, china, europe]
 sources: [https://spacedaily.com, https://www.esa.int, https://www.sciencealert.com]
-confidence: 0.9
 status: active
+confidence: 0.9
 ---
 
 # SMILE Mission — Imaging Earth's Invisible Shield 🛰️
@@ -35,7 +31,6 @@ The European-Chinese collaboration is also notable: despite geopolitical tension
 ## Connections
 - [[wolchover-life-force-2026]] — flagellar motor + entropic machinery
 - [[open-ended-evolution]] — non-equilibrium maintenance
-- [[entropic-machinery-cot-and-flagellum]] — flagellar motor as case study in entropy management
 
 ## Timeline
 - 2026-05-21: SMILE satellite launched on Vega-C from European spaceport

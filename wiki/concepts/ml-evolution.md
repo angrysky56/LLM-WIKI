@@ -4,7 +4,7 @@ updated: 2026-05-06T20:07:17Z
 type: concept
 summary: The application of evolutionary computation and neural architecture search to autonomously optimize machine learning models.
 tags: [ml-evolution, nas, optimization, ai-engineering]
-sources: [[ml-evolution-benchmarking-protocol]]
+sources: []
 status: active
 confidence: 0.9
 ---

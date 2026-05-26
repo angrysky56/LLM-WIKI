@@ -4,7 +4,7 @@ updated: 2026-06-19
 type: concept
 summary: "Guideless artificial life model combining Tierra gene mechanics with 3D virtual creatures; no fitness function; emergent reproduction via mutation + natural selection"
 tags: [artificial-life, open-ended-evolution, emergence, neural-networks, self-replication, natural-selection, research]
-sources: [[utimula-openpraparat-2025]]
+sources: []
 status: reference
 confidence: 0.9
 ---

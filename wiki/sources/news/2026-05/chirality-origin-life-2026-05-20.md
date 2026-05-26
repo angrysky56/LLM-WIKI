@@ -1,16 +1,12 @@
 ---
+created: 2026-05-21T16:45:13Z
+updated: 2026-05-21T16:45:13Z
+type: source
 summary: Scientists may have solved why biological molecules are "right-handed" — 150-year-old homochirality mystery points to elusive electronic effect
 tags: [news, science, chemistry, origin-of-life, chirality]
-updated: 2026-05-21T16:45:13Z
-created: 2026-05-21T16:45:13Z
----
-
----
-summary: Scientists may have solved the 150-year-old mystery of why biological molecules are "right-handed" — an elusive electronic effect explains homochirality's origin
-tags: [news, science, chemistry, origin-of-life, chirality]
 sources: [https://phys.org, https://popularmechanics.com, https://chemistryworld.com]
-confidence: 0.8
 status: active
+confidence: 0.8
 ---
 
 # Chirality Origin Mystery — Why Life's Molecules Are "Right-Handed" ⚛️
@@ -35,7 +31,6 @@ The fact that the solution involves an "elusive electronic effect" suggests this
 ## Connections
 - [[wolchover-life-force-2026]] — flagellar motor + proton motive force + entropic machinery
 - [[open-ended-evolution]] — symmetry-breaking as enabling condition
-- [[entropic-machinery-cot-and-flagellum]] — flagellar motor as entropic boundary
 - [[chen-molecular-cot-2026]] — molecular bonds and structural chirality
 
 ## Timeline

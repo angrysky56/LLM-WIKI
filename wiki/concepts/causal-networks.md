@@ -4,7 +4,7 @@ updated: 2026-05-06T21:51:04Z
 type: concept
 summary: A fundamental representation of spacetime in Wolfram Physics, where nodes are updating events and edges are causal dependencies in a multiway rewrite system.
 tags: [wolfram-physics, spacetime, nks, computation]
-sources: [[wolfram-nks-causal-networks]]
+sources: []
 status: reference
 confidence: 1.0
 ---

@@ -6,7 +6,7 @@ summary: Five-layer AI architecture implementing computational mechanics (epsilo
 tags: [EFHF, lumpability, epsilon-machine, causal-closure, Kernel-1, Kernel-2, MOP, multi-agent, sheaf-consistency, conscience-servitor, computational-mechanics]
 status: active
 confidence: 1.0
-sources: [[edm-framework]], [[maximum-occupancy-principle]]
+sources: [], [[maximum-occupancy-principle]]
 ---
 
 # Emergent Functional Hierarchies Framework

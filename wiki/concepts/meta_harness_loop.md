@@ -3,7 +3,7 @@ created: 2026-05-07T23:21:32Z
 updated: 2026-05-29
 type: concept
 summary: The meta-harness architecture — an agent framework where the harness evaluates and directs specialized sub-agents
-sources: [[meta-harness]]
+sources: []
 status: active
 confidence: 0.7
 tags: [evolution, architecture, meta-harness]

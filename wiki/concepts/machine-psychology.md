@@ -4,7 +4,7 @@ updated: 2026-06-08
 type: concept
 summary: Study of AI behavior through psychological frameworks — applying biological psychology concepts (emotional systems, behavioral metrics, cognitive architectures) to understand and shape AI behavior
 tags: [AI-behavior, psychology, cognitive-architecture, emotional-systems, agent-design, behavioral-metrics]
-sources: [[aseke-compass-mcp]], [[agem]], [[panksepp-emotional-systems]]
+sources: [], [[agem]], [[panksepp-emotional-systems]]
 status: active
 confidence: 0.75
 ---

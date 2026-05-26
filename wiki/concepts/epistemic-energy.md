@@ -4,7 +4,7 @@ updated: 2026-06-26
 type: concept
 summary: First-class information-theoretic resource tracking reasoning coherence and energy depletion in agentic AI systems — maps to EFHF Layer 4 coherence monitoring and MOP's energy reservoir
 tags: [MOP, EFHF, information-theory, bounded-rationality, coherence, agent-design, epistemic-energy]
-sources: [[mop-edm-cognitive-architecture]], [[maximum-occupancy-principle]], [[ramirez-ruiz-mop-2024]]
+sources: [], [[maximum-occupancy-principle]], [[ramirez-ruiz-mop-2024]]
 status: active
 confidence: 0.8
 ---

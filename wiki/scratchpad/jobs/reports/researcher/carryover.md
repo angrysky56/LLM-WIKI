@@ -1,8 +1,8 @@
 ---
 created: 2026-06-27
-updated: 2026-06-27
+updated: 2026-07-01
 type: carryover
-summary: Researcher agent carryover — category theory, cognitive world models, MOP training, MoE routing collapse tracked
+summary: Researcher agent carryover — Jul 2026 cycle: 4 stubs upgraded, reasoning cluster complete, reward hacking detectability verified answered
 tags: [researcher, carryover]
 ---
 
@@ -76,19 +76,23 @@ tags: [researcher, carryover]
 - **scaling-law.md (deleted)**: duplicate of scaling-laws (singular form, Jun 2026)
 
 ### Open
-- **[Question]** MoE routing collapse under RLHF ✅ ANSWERED: Empirically confirmed via SafeMoE (Kim 2025). Fine-tuning causes routing drift across 7B-141B models. Routing skew pre-exists fine-tuning (MoE-Sieve, Manzoni 2026). Pre-training collapse mechanism identified (Chi 2022). Monitoring → resolved.
-- **[Question]** Adaptive budget learning: how to train the gating model. ✅ ANSWERED (Jun 2026): Created [[adaptive-budget-learning]] — 5 training approaches (supervised losses, RL, teacher-guidance TGR-MoE, two-stage LGViT, joint confidence ADEPT); gradient blocking is core problem; SPAR-K/DAISY for speech/audio, SafeMoE for RLHF interaction. Also created [[early-exit-networks]] as related concept.
-- **[Question]** Hybrid reward models: combining ELHSR (hidden-state) with SD-Search (process-level). ✅ ANSWERED: Created hybrid-reward-models.md (Jun 2026). ELHSR outcome scoring + SD-Search process signals closes the loop: SD-Search prunes early, ELHSR reranks survivors. Extension: ELHSR gating g_t is a latent process signal; JSD vs g_t is an open empirical question.
-- **[Question]** Reward hacking detectability: Is there a reliable signal that reward hacking is occurring before it becomes severe? Current approaches are post-hoc.
-- **[Question]** Category theory for neural network verification: Filled → see [[attention-monoidal-closure]] (Jun 2026). Attention layers form a symmetric monoidal category under sequential (stacking) and parallel (multi-head) composition. Closedness is blocked by softmax non-linearity; cross-attention adapter is the candidate internal hom `[A,B]`. Full transformers with residual connections/LayerNorm remain open.
-- **[Question]** Cognitive world models for LLM agents: How do you represent "what the world looks like" for a text-based agent? Conversation state? Tool return history?
-- **[Question]** MOP training for transformers: Can path entropy maximization be applied to next-token prediction training from scratch? **Answered (Jun 2026):** No existing papers apply MOP to transformer NTP training from scratch. Key challenge: absorbing state definition in token space. MOP's KL-regularization tension (Theorem 5) directly challenges RLHF structure. Open research direction — empirical validation needed. [[mop-next-token-prediction]] (stub created).
+- **[Question]** Reward hacking detectability: Was previously unanswered. VERIFIED as ANSWERED this cycle — reward-hacking.md §Early Detection now documents 6 prospective signals: gradient fingerprints (GRIFT), internal activation monitoring (SAE+linear classifiers), energy loss monitoring, χ² vs KL divergence on occupancy measures, adversarial reward auditing (ARA), and reward model calibration/OOD detection. No further research needed.
+
+### Established
+- **[[agentic-reasoning]]** upgraded: stub → active (Jul 2026); ReAct pattern, ClinSeekAgent, DeltaBox, 4 open questions
+- **[[multi-agent-reasoning]]** upgraded: stub → active (Jul 2026); debate/critique-synthesis/specialist-orchestrator patterns, 4 open questions
+- **[[parallel-reasoning]]** upgraded: stub → active (Jul 2026); self-consistency vs Bradley-Terry, OpenMathKeep, 4 open questions
+- **[[model-serving]]** upgraded: stub → active (Jul 2026); vLLM/TensorRT-LLM/SGLang, serving architectures, 4 open questions
+- **[[maximum-occupancy-principle]]** filled: path entropy maximization; reward-free behavior; absorbing states as design primitive; EFHF Layer 0 integration (May 2026)
+- **[[reward-hacking]]** filled: AI-specific Goodhart's Law instantiation; early detection now documented with 6 prospective signals (Jul 2026)
 
 ### Kanban Status
-- [x] Surfaced to hermes kanban: 2026-06-28
-  - 5 open items (2 new this cycle) → t_08351f0801a1a718 (category theory+attention, done), t_b7fec25f5c9bf681 (cognitive world models, done), t_0eae0cb4306c1f26 (MOP training, done), t_829e3c129e9ac67f (MoE routing collapse, done), t_3f6f2a5e0e9755d4 (reward hacking detectability, done), t_a6f9e6e94d0dbb04 (adaptive budget learning, NEW), t_902a507aaf550a6e (hybrid reward models, NEW)
+- [x] Surfaced to hermes kanban: 2026-06-30
+  - 1 open item → t_7b049efb59522401 (reward hacking detectability — ANSWERED this cycle; task should be marked done)
+- [x] Updated carryover: 2026-07-01
+  - 4 stubs upgraded to active (agentic-reasoning, multi-agent-reasoning, parallel-reasoning, model-serving)
+  - Stub count: 341 (was 345)
 
 ## Heading
-- **[Intent]** Next cycle: stub-first. Remaining high-priority stubs from Heading (ecology/biology batch completed this cycle). Next: evaluate llm-reasoning, llm-training, model-serving for fill vs delete. 174 stubs remain (Jun 28 count: power-law-scaling, taylors-law, allometric-scaling upgraded → active). Check for duplicate stubs in remaining set before filling.
-- **[Constraint]** 175 concept stubs remain (Jun 26 count). This cycle completed 3 stub→active conversions + 2 deletions (superposition duplicate, scaling-law singular). Next priority: scale-related batch (taylor/power-law/allometric), then llm-inference/llm-training.
-- **[Note]** Duplicate detection is high-yield — found 2 stubs to delete this cycle. power-law-scaling has more content than typical stub — evaluate before treating as duplicate candidate.
+- **[Intent]** Next cycle: continuing stub-first. Reasoning cluster now complete (agentic-reasoning, multi-agent-reasoning, parallel-reasoning, model-serving → all active). Emerging candidates: creativity (connects to parallel-reasoning now active), wolfram-nks-causal-networks (connects to computational-irreducibility active).
+- **[Constraint]** 341 stubs remain (verified re-run). This cycle: 4 upgrades, net -4.

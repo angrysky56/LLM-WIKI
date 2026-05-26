@@ -25,7 +25,7 @@ updated: 2026-05-22T01:30:00Z
 | Job ID | Job Name | Agent | Status | Last Run | Next Run | Agent Sheet |
 |--------|----------|-------|--------|----------|----------|-------------|
 | `eaaa6bdc8503` | world-news-daily | news | **done** | 2026-05-27 | 2026-05-27 8AM | [[news]] |
-| `8ea33cfa560a` | Wiki Researcher | researcher | **done** | 2026-06-28 | TBD | [[researcher]] |
+| `8ea33cfa560a` | Wiki Researcher | researcher | **done** | 2026-07-01 | TBD | [[researcher]] |
 | `297092f3b347` | orcaid-verification-indexer | orcaid | **PAUSED** | 2026-05-18 | — | [[orcaid]] |
 | `72599f850df2` | arxiv-top3 | arxiv | **done** | 2026-05-26 | 2026-05-27 8:20AM | [[arxiv]] |
 | `c838e81a1496` | llm-wiki-raw-ingest | ingest | **done** | 2026-06-27 | — | [[ingest]] |

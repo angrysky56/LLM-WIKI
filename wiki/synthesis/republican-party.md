@@ -19,4 +19,3 @@ confidence: 0.3
 - [[trump-administration]]
 - [[2026-republican-primaries]]
 - [[trump-republican-party]]
-- [[republican-party-duplicate]] — duplicate stub, should be merged/deleted

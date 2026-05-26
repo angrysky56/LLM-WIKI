@@ -1,22 +1,16 @@
----
-created: 2026-06-27
-updated: 2026-06-27
-type: carryover
-summary: Researcher agent carryover
-tags: [researcher-agent, carryover]
----
-
 ## CarryoverState
 
 ### Established
-- **Reward hacking early detection: ANSWERED.** The question "is there a reliable signal before it becomes severe?" has a substantive answer — multiple prospective signals exist. Key papers: GRIFT (gradient fingerprints, arXiv:2604.16242), Internal Activation Monitoring via sparse autoencoders (arXiv:2603.04069), Energy Loss monitoring (arXiv:2501.19358), χ² divergence (arXiv:2403.03185), Adversarial Reward Auditing (arXiv:2602.01750).
-- **`reward-hacking.md` updated:** Open Question #1 resolved, confidence bumped 0.8→0.9, 6 new sources added, `early-detection` tag added.
-- **Two most practical signals:** Energy loss monitoring (instrument during RLHF) + Internal activation classifiers (SAE + linear probes at token-level). Neither requires modifying training.
+- **Reward hacking early detection: ANSWERED.** Multiple prospective signals exist. Key papers: GRIFT (gradient fingerprints, arXiv:2604.16242), Internal Activation Monitoring via sparse autoencoders (arXiv:2603.04069), Energy Loss monitoring (arXiv:2501.19358), χ² divergence (arXiv:2403.03185), Adversarial Reward Auditing (arXiv:2602.01750). Two most practical: energy loss monitoring + internal activation classifiers (SAE + linear probes at token-level). reward-hacking.md §Early Detection complete, Open Question #1 struck through.
+- **MoE routing collapse under RLHF:** Confirmed via SafeMoE (Kim 2025) across 7B–141B models. Monitoring is mitigation only.
+- **Hybrid reward models:** ELHSR + SD-Search combining hidden-state outcome scoring with process-level self-distillation. hybrid-reward-models.md created.
+- **Adaptive budget learning:** 5 training approaches documented (supervised losses, RL, teacher-guidance/TGR-MoE, two-stage). adaptive-budget-learning.md created.
 
 ### Open
-- **`mesa-optimization` stub** in `reward-hacking.md` — page doesn't exist yet, referenced as a related concept. Should be created in next cycle.
-- **`goal-misgeneralization`** — related but distinct from reward hacking; no wiki page exists. Different mechanism (goal drift vs. proxy gaming).
-- **Energy loss as standalone concept** — might warrant its own entry given specificity.
+- **`mesa-optimization` stub** in reward-hacking.md — page doesn't exist yet, referenced as related concept. Should be created.
+- **`goal-misgeneralization`** — related but distinct from reward hacking (goal drift vs. proxy gaming). No wiki page.
+- **Energy loss as standalone concept** — may warrant its own entry given specificity.
+- **Process reward models residual surface** — PRMs reduce but don't eliminate hacking. What's the residual surface?
 
 ### Heading
-- **Next cycle priority:** Research `process-reward-model` residual surface and `mesa-optimization` creation. The reward-hacking cluster now has one answered open question but two remaining.
+- **Next cycle priority:** Research `process-reward-model` residual surface and create `mesa-optimization.md`. The reward-hacking cluster has one answered open question but two remaining stubs.

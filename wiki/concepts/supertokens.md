@@ -4,7 +4,7 @@ updated: 2026-05-06T21:50:50Z
 type: concept
 summary: High-level vocabulary entries created by merging multi-token sequences (structural phrases) into single units, functioning as operators in a problem-space search.
 tags: [llm, cognitive-architecture, process-modeling, superbpe]
-sources: [[shorthand-for-thought]]
+sources: []
 status: active
 confidence: 1.0
 ---

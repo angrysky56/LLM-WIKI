@@ -4,7 +4,7 @@ updated: 2026-06-08
 type: concept
 summary: System design patterns where AI capabilities are architecturally native rather than retrofitted — designing agents with intrinsic motivation, bounded rationality, and epistemic energy management from the ground up
 tags: [agent-design, architecture, MOP, intrinsic-motivation, bounded-rationality, epistemic-energy, EFHF]
-sources: [[ramirez-ruiz-mop-2024]], [[mop-edm-cognitive-architecture]]
+sources: [], [[mop-edm-cognitive-architecture]]
 status: active
 confidence: 0.8
 ---

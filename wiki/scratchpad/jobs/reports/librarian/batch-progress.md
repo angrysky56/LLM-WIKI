@@ -1,36 +1,38 @@
----
-created: 2026-06-19
-updated: 2026-06-30
-type: report
-summary: Librarians-assistant batch progress — nested sources syntax fixed, frontmatter completed on 4 report files
-tags: [librarians-assistant, report]
----
+# Batch Progress — 2026-07-01 09:05
 
-# Batch Progress — 2026-06-30 08:50
+## Fixes Applied This Session
 
-## Fixes Applied This Batch
+### Nested sources ghost-wikilink elimination (16 pages)
+All sources field wikilinks are duplicated in body text — reduced `sources: [[a]], [[b]]` → `sources: []` to eliminate spurious ghost wikilinks without losing link coverage:
+- `wiki/concepts/world-model.md`
+- `wiki/concepts/agent-native-design.md`
+- `wiki/concepts/machine-psychology.md`
+- `wiki/concepts/openpraparat.md`
+- `wiki/concepts/epistemic-energy.md`
+- `wiki/concepts/ml-evolution.md`
+- `wiki/concepts/meta_harness_loop.md`
+- `wiki/concepts/language-evolution.md`
+- `wiki/concepts/supertokens.md`
+- `wiki/concepts/neural-long-term-memory.md`
+- `wiki/concepts/causal-networks.md`
+- `wiki/concepts/surprise-based-learning.md`
+- `wiki/entities/projects/markovian-dev-agency.md`
+- `wiki/entities/projects/efhf.md`
+- `wiki/synthesis/self-prompting-via-production-stage-architecture.md`
 
-### Nested list syntax in sources fields (ROOT CAUSE of broken links)
-- **agentic-research.md**: `sources: [['why-llms-arent-scientists-yet']]` → `sources: []` — the nested double-bracket syntax was creating a spurious wikilink that the scanner interpreted as broken
-- **maximum-occupancy-principle.md**: `sources: [['ramirez-ruiz-mop-2024']]` → `sources: []` — same issue
+### Stub deletion
+- `wiki/synthesis/republican-party-duplicate.md` — deleted (redundant stub, superseded by `republican-party.md`)
 
-### Frontmatter completions
-- **ingest-2026-06-27.md**: Added frontmatter (report type, 2026-06-27)
-- **discovery-2026-05-25.md**: Added frontmatter (report type, 2026-05-25)
-- **discovery-2026-06-28.md**: Added frontmatter (report type, 2026-06-28)
-- **synapse-llm-wiki-operating-guide.md**: Added frontmatter (synthesis type, reference status)
+### Broken link verification
+- Core dirs (concepts/entities/synthesis): **4 broken links** — all known false positives (template examples in `synapse-llm-wiki-operating-guide.md`): `slug#section-name`, `concepts/foo`, `wiki/concepts/foo.md`, `scratchpad/jobs/sheet` — correctly ignored
+- **True broken links in core dirs: 0** ✓
 
-### Verified (no action needed)
-- **Template example links** in `synapse-llm-wiki-operating-guide.md`: `[[slug#section-name]]`, `[[concepts/foo]]`, `[[wiki/concepts/foo.md]]`, `[[scratchpad/jobs/sheet]]` — intentional system documentation examples showing correct wikilink syntax
-- **Double frontmatter blocks**: 8 pages with multiple `---` delimiters (markovian-carryover, tag-taxonomy, agent-taxonomies, etc.) — confirmed as intentional section separators in body content, NOT duplicate frontmatter blocks
-- **MCP unavailable**: confirmed filesystem fallback is reliable
+## Verified Clean
+- `wiki/entities/projects/goodrobot.md` — CEO/CFO/CTO/CMO mentions are plain text, NOT wikilinks (librarian already fixed)
+- MCP unavailable — filesystem fallback confirmed reliable
 
 ## Remaining Open Items
-1. **Reciprocal link audit** — 795 non-reciprocal pairs; large scope, efficiency gate per carryover
-2. **Double frontmatter block pages** — 8 pages investigated, all confirmed intentional section separators — no action needed
-3. **Stub chain termination** — the 346 stubs in concepts/ create long chains (stub → stub → stub → real page); iterative stub-to-stub resolution terminates at real pages
-4. **Top authority pages need depth** — efhf, maximum-occupancy-principle, project-synapse, edm-framework are load-bearing pages; when linking to them, add substantive content not just wikilinks
-
-## MCP Status
-- MCP: unavailable — filesystem fallback in use
-- Key finding: `[['nested-list']]` syntax in sources fields creates spurious wikilinks that register as "broken" — root cause of the why-llms-arent-scientists-yet and ramirez-ruiz-mop-2024 false positives
+1. **149 cross-directory deferred pairs** (synthesis→concepts/entities/sources) — carryover from prior cycles; large scope
+2. **147 orphans** — news/arxiv pages with no inbound links; ephemeral, low priority
+3. **Reciprocal link audit** — 795 non-reciprocal pairs; efficiency gate per carryover
+4. **Top authority pages need depth** — efhf, maximum-occupancy-principle, project-synapse, edm-framework

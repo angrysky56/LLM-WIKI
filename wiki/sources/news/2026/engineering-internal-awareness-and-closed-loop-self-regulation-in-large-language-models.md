@@ -1,13 +1,6 @@
 ---
-summary: Engineering internal check loop for LLMs via biofeedback paradigm, PID activation steering, and metacognitive quantization
-tags: [llm, metacognition, self-awareness, activation-steering, control-theory, pid-controller]
-updated: 2026-05-21T16:34:12Z
 created: 2026-05-21T16:34:12Z
----
-
----
-created: 2026-05-21T00:00:00Z
-updated: 2026-05-21T00:00:00Z
+updated: 2026-05-21T16:34:12Z
 type: source
 summary: Engineering internal awareness and closed-loop self-regulation in LLMs via biofeedback paradigm, PID control theory, and activation steering.
 tags: [llm, metacognition, self-awareness, activation-steering, control-theory, pid-controller, representation-engineering, mechanistic-interpretability, dmc-framework, semantic-sonar]
@@ -88,7 +81,7 @@ Exploits empirical discovery: layer-wise Jacobians at different reachable activa
 - [[activation-steering]] — RepE paradigm, steering vectors, CAA, ITI
 - [[chain-of-thought]] — explicit reasoning as epistemological anchoring (negative alignment tax)
 - [[self-prompting-via-production-stage-architecture]] — self-direction as non-equilibrium steady state
-- [[entropic-machinery-cot-and-flagellum]] — similar biofeedback-as-control-theory pattern in biological systems
+- [[wolchover-life-force-2026]] — similar biofeedback-as-control-theory pattern in biological systems
 
 ## Open Questions
 

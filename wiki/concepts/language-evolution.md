@@ -4,7 +4,7 @@ updated: 2026-05-06T20:06:50Z
 type: concept
 summary: The study of the statistical structure and temporal dynamics of language change over time.
 tags: [linguistics, evolution, statistics, nlp]
-sources: [[language-evolution]]
+sources: []
 status: active
 confidence: 0.8
 ---

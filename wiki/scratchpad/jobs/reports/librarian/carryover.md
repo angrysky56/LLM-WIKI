@@ -27,9 +27,17 @@
 ## Open
 
 - **149 cross-directory deferred pairs** (synthesis→concepts/entities/sources) — carryover from prior cycle, still needs cross-directory pass
-- **147 orphans** — news/arxiv pages with no inbound links; ephemeral by nature, not actionable
+- **250 orphans** — news/arxiv pages with no inbound links; ephemeral by nature, not actionable (up from 147 due to index rebuild)
 - **republican-party-duplicate.md** — redundant stub flagged for deletion in prior cycle, not yet deleted
-- **goodrobot.md** (projects/projects 1/) — links to `[[CEO]]`, `[[CFO Agent]]`, `[[CTO Agent]]`, `[[CMO Agent]]` — these are role references, not real wiki pages; the `projects/goodrobot/` directory has actual entity pages for these
+
+## Resolved This Cycle
+
+- **goodrobot.md (projects/projects 1/)** → Converted to redirect pointing to `wiki/projects/goodrobot/active-business-plan.md`
+- **goodrobot-gtm-strategy.md (projects/projects 1/)** → Redirect to `go-to-market-strategy.md`
+- **goodrobot-research-pipeline.md (projects/projects 1/)** → Redirect to `research-pipeline.md`
+- **goodrobot-technical-architecture.md (projects/projects 1/)** → Redirect to `technical-architecture.md`
+- **entities/projects/goodrobot.md** → Redirect to `shut-down-entity.md`
+- **wiki/index.md** duplicate stale `[[goodrobot]]` (line 639) → Removed
 
 ## Heading
 

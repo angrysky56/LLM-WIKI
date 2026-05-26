@@ -1,5 +1,5 @@
 ---
-updated: 2026-05-26T20:22:39Z
+updated: 2026-05-26T20:24:58Z
 type: index
 ---
 
@@ -573,7 +573,7 @@ type: index
 - [[anthropic]] — [STUB] Anthropic — AI safety company behind Claude
 - [[efhf]] — Five-layer AI architecture implementing computational mechanics (epsilon machines, lumpability, causal closure) as a live multi-agent system — MOP proposed as Layer 0 for proactive exploration
 - [[esa]] — [STUB] ESA — European Space Agency
-- [[goodrobot]] — GoodRobot — SHUT DOWN — zero-human AI agent company was simulating corporate governance with ethics board (consolidated to wiki/projects/goodrobot/)
+- [[goodrobot]] — Redirect to wiki/projects/goodrobot/shut-down-entity.md
 - [[google-deepmind]] — [STUB] Google DeepMind — AI research division of Google
 - [[huggingface]] — [STUB] Hugging Face — AI model hub and community
 - [[james-webb-space-telescope]] — [STUB] James Webb Space Telescope — JWST observatory
@@ -633,10 +633,10 @@ type: index
 - [[roadmap]] — 
 - [[shut-down-entity]] — GoodRobot SHUT DOWN — zero-human AI agent company, ethics board simulation
 - [[technical-architecture]] — GoodRobot technical architecture — agent runtime, task routing, memory system, API design
-- [[goodrobot-gtm-strategy]] — 
-- [[goodrobot-research-pipeline]] — 
-- [[goodrobot-technical-architecture]] — 
-- [[goodrobot]] — GoodRobot — plug-and-play AI agent teams for SMBs
+- [[goodrobot-gtm-strategy]] — Redirect to wiki/projects/goodrobot/go-to-market-strategy.md
+- [[goodrobot-research-pipeline]] — Redirect to wiki/projects/goodrobot/research-pipeline.md
+- [[goodrobot-technical-architecture]] — Redirect to wiki/projects/goodrobot/technical-architecture.md
+- [[goodrobot]] — Redirect to wiki/projects/goodrobot/active-business-plan.md
 - [[oMCD-calibration-protocol]] — Warm-start calibration procedure for oMCD parameters β and γ
 - [[portfolio-policies-metacognition]] — Research exploration of portfolio-of-policies MDP extension and control graph topologies for metacognition, covering entropy-confidence duality, portfolio allocation formalism, and topology evaluation.
 - [[research_spec]] — 

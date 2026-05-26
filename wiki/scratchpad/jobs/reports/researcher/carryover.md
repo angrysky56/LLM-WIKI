@@ -1,8 +1,8 @@
 ---
 created: 2026-06-27
-updated: 2026-07-01
+updated: 2026-07-02
 type: carryover
-summary: Researcher agent carryover — Jul 2026 cycle: 4 stubs upgraded, reasoning cluster complete, reward hacking detectability verified answered
+summary: Researcher agent carryover — Jul 2 cycle: 2 stubs upgraded (shorthand-for-thought, opendeepthink-parallel-reasoning), stub count 339
 tags: [researcher, carryover]
 ---
 
@@ -18,12 +18,11 @@ tags: [researcher, carryover]
 - **[[video-llm]]** filled: pipeline architecture, DeltaDirect findings on directional motion blindness and direction binding gap, magnitude deficit, projector-level fix (Jun 2025)
 - **[[vision-language-alignment]]** filled: cross-modal grounding problem, alignment ≠ accessibility, DeltaDirect case study, projector-level intervention, magnitude deficit (Jun 2025)
 - **[[motion-understanding]]** filled: elementary motion primitives, signed direction as fundamental case, probing evidence, magnitude deficit, DeltaDirect fix (Jun 2025)
-- **grpo.md (deleted)**: redundant stub, already subsumed by `group-relative-policy-optimization` (Jun 2025)
 - **[[attention-mechanism]]** filled: scaled dot-product attention, multi-head, Flash Attention, GQA/MQA; O(1) path length advantage; transformer architecture foundation (Jun 2026)
 - **[[transformer-architecture]]** filled: encoder-decoder vs decoder-only (GPT-style); scaling as primary strategy; RoPE/ALiBi/GQA extensions; connection to scaling-laws (Jun 2026)
 - **[[kv-cache]]** filled: inference optimization; PagedAttention; MQA/GQA memory reduction; prefix caching; connects to inference-time-compute-scaling (Jun 2026)
 - **[[autonomous-research]]** filled: six-stage pipeline; six failure modes; SEG Scientist architecture addressing them; connection to agentic-research (Jun 2026)
-- **[[agent-leak-benchmark]]** filled: reconstruction attack benchmark; ASR up to 0.900 on vanilla KV sharing; LCGuard source; connects to multi-agent security (Jun 2026)
+- **[[agent-leak-benchmark]]** filled: reconstruction attack benchmark; ASR up to 0.900 on vanilla KV sharing; LCGuard source; connects to multi-agent-security (Jun 2026)
 - **[[causal-reasoning]]** filled: SCM framework, do-calculus, counterfactuals, causal discovery; ELHSR hidden-state signals; LLM integration; world-model connection (Jun 2026)
 - **[[MCTS]]** filled: UCB1, selection/expansion/simulation/backpropagation; AlphaZero architecture; game-playing impact; SD-Search/process-reward-model connection (Jun 2026)
 - **[[evolutionary-strategies]]** filled: CMA-ES, NES; black-box optimization; ML evolution applications; GRPO as simplified group-relative ES (Jun 2026)
@@ -74,25 +73,24 @@ tags: [researcher, carryover]
 - **[[reinforcement-learning-from-human-feedback]]** filled: standard RLHF pipeline (comparison data → reward model → RL fine-tune); PPO/DPO/GRPO comparison; MOP-KL tension; GRPO structural compatibility; reward hacking limitations (Jun 2026)
 - **superposition.md (deleted)**: duplicate of neural-interpretability lines 42–63 (Jun 2026)
 - **scaling-law.md (deleted)**: duplicate of scaling-laws (singular form, Jun 2026)
+- **[[shorthand-for-thought]]** upgraded: stub → active (Jul 2026); compressed internal reasoning representations; CoT emergence explanation; load-bearing vs scaffolding; Grokked Reasoning connection; 3 open questions
+- **[[opendeepthink-parallel-reasoning]]** upgraded: stub → active (Jul 2026); Bradley-Terry pairwise ranking; +405 Elo on Codeforces; model-agnostic transfer; selection bottleneck addressed; 4 open questions
 
 ### Open
-- **[Question]** Reward hacking detectability: Was previously unanswered. VERIFIED as ANSWERED this cycle — reward-hacking.md §Early Detection now documents 6 prospective signals: gradient fingerprints (GRIFT), internal activation monitoring (SAE+linear classifiers), energy loss monitoring, χ² vs KL divergence on occupancy measures, adversarial reward auditing (ARA), and reward model calibration/OOD detection. No further research needed.
+- **[Scaffolding identification]**: Can we systematically distinguish scaffolding (calibration tokens) from load-bearing tokens in CoT traces? No current method exists — needs probing study development.
+- **[Shorthand measurement]**: Can probing studies detect compressed internal representations vs explicit reasoning? Open empirical question.
+- **[Agentic planner vs agentic-hierarchy]**: These two stubs may be redundant or may represent distinct concepts. Needs clarification or merger decision.
 
-### Established
-- **[[agentic-reasoning]]** upgraded: stub → active (Jul 2026); ReAct pattern, ClinSeekAgent, DeltaBox, 4 open questions
-- **[[multi-agent-reasoning]]** upgraded: stub → active (Jul 2026); debate/critique-synthesis/specialist-orchestrator patterns, 4 open questions
-- **[[parallel-reasoning]]** upgraded: stub → active (Jul 2026); self-consistency vs Bradley-Terry, OpenMathKeep, 4 open questions
-- **[[model-serving]]** upgraded: stub → active (Jul 2026); vLLM/TensorRT-LLM/SGLang, serving architectures, 4 open questions
-- **[[maximum-occupancy-principle]]** filled: path entropy maximization; reward-free behavior; absorbing states as design primitive; EFHF Layer 0 integration (May 2026)
-- **[[reward-hacking]]** filled: AI-specific Goodhart's Law instantiation; early detection now documented with 6 prospective signals (Jul 2026)
+### Heading
+- **[Intent]** Next cycle: stub-first continues. Next priority cluster is `creativity` → `imagination` → `generative-ai` (all stubs, `creativity` now connects to `parallel-reasoning` via OpenDeepThink results). Also `wolfram-nks-causal-networks` (connects to `computational-irreducibility` active). `llm-training.md` has substantive content despite stub status — upgrade candidate.
+- **[Constraint]** 339 stubs remain (verified re-run). This cycle: 2 upgrades, net -2.
 
-### Kanban Status
+## Kanban Status
 - [x] Surfaced to hermes kanban: 2026-06-30
   - 1 open item → t_7b049efb59522401 (reward hacking detectability — ANSWERED this cycle; task should be marked done)
 - [x] Updated carryover: 2026-07-01
   - 4 stubs upgraded to active (agentic-reasoning, multi-agent-reasoning, parallel-reasoning, model-serving)
-  - Stub count: 341 (was 345)
-
-## Heading
-- **[Intent]** Next cycle: continuing stub-first. Reasoning cluster now complete (agentic-reasoning, multi-agent-reasoning, parallel-reasoning, model-serving → all active). Emerging candidates: creativity (connects to parallel-reasoning now active), wolfram-nks-causal-networks (connects to computational-irreducibility active).
-- **[Constraint]** 341 stubs remain (verified re-run). This cycle: 4 upgrades, net -4.
+- [x] Discovery report: 2026-07-02
+  - 2 stubs upgraded (shorthand-for-thought, opendeepthink-parallel-reasoning)
+  - Stub count: 339 (was 341, net -2)
+- [ ] No new kanban tasks created this cycle (open items are researcher self-research; discovery report to #research is delivery mechanism per agent sheet; kanban-morning-review for trailing 10:30 AM aggregator cron)

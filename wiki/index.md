@@ -155,7 +155,7 @@ type: index
 - [[cognitive-architecture]] — Hub page on cognitive architecture, MCM framework, and metacognitive self-models
 - [[cognitive-science]] — [STUB] Cognitive science — interdisciplinary study of mind and cognition
 - [[cognitive-world-models-for-llm-agents]] — How text-based LLM agents represent "what the world looks like" — the abstraction layers between raw conversation history and a predictive world model; covers belief state, tool-history graphs, conversation structure, and the gap between retrieval and compilation
-- [[collm-nas]] — CoLLM-NAS — dual-LLM Navigator/Generator architecture for NAS (from ML Evolution Benchmarking Protocol)
+- [[collm-nas]] — CoLLM-NAS: dual-LLM Navigator/Generator architecture for neural architecture search
 - [[communication-theory]] — [STUB] Communication theory — theory of information transmission and communication
 - [[complexity]] — [STUB] Complexity — complex systems, emergent behavior, and complexity science
 - [[compound-commands]] — [STUB] Compound commands in CLI: chaining multiple operations
@@ -212,7 +212,7 @@ type: index
 - [[episodic-memory]] — [STUB] Episodic memory systems for AI agents
 - [[epistemic-energy]] — First-class information-theoretic resource tracking reasoning coherence and energy depletion in agentic AI systems — maps to EFHF Layer 4 coherence monitoring and MOP's energy reservoir
 - [[epsilon]] — Epsilon archetype — the Assumption Validation Agent in the oMCD framework
-- [[essa]] — [STUB] ESSA: evolutionary score-based algorithm for optimization
+- [[essa]] — ESSA: evolutionary score-based singular-value alignment for gradient-free LLM alignment; 6x faster scaling on 128 GPUs
 - [[evaluation]] — Evaluation methodology and benchmarks for measuring LLM capabilities — MMLU, GSM8K, HumanEval, SWE-Bench; evaluation properties and limitations
 - [[evolutionary-strategies]] — Evolutionary optimization algorithms using covariance matrix adaptation — black-box optimization for neural network training and architecture search
 - [[exploitation]] — [STUB] Exploitation in RL — leveraging known strategies vs exploring new ones
@@ -375,7 +375,7 @@ type: index
 - [[nato-expansion]] — [STUB] NATO expansion into Eastern Europe and its geopolitical implications
 - [[natural-language-processing]] — [STUB] Natural language processing — computational analysis and generation of human language
 - [[network-theory]] — [STUB] Network theory — study of graphs and networks
-- [[neural-architecture-search]] — [STUB] Automated neural network architecture search and design
+- [[neural-architecture-search]] — Automated neural network architecture search — covers CoLLM-NAS, RZ-NAS, LLaMA-NAS, and CMA-ES-driven search
 - [[neural-interpretability]] — Techniques for understanding what neural networks represent internally — probing, feature visualization, representation geometry, superposition, and the relationship between activation patterns and model behavior
 - [[neural-long-term-memory]] — Neural network architectures that explicitly separate working memory from long-term memory stores, enabling persistent information across very long contexts
 - [[neural-networks]] — [STUB] Neural networks — computational models composed of interconnected nodes that process information
@@ -404,7 +404,7 @@ type: index
 - [[para-methodology]] — Tiago Forte's PARA framework — actionability-based universal information organization (Projects, Areas, Resources, Archives)
 - [[para]] — [STUB] PARA — Personal Accountability and Responsibility Analysis or PARA method for PKM
 - [[parallel-reasoning]] — Reasoning architectures that execute multiple candidate reasoning traces concurrently and aggregate them — contrasting beam search, self-consistency, and OpenDeepThink's Bradley-Terry approach
-- [[parameter-efficient-fine-tuning]] — 
+- [[parameter-efficient-fine-tuning]] — PEFT methods: LoRA, QLoRA, AdaLoRA, DoRA for adapting large models by updating only a small fraction of parameters 
 - [[pattern-matching]] — [STUB] Pattern matching — finding patterns in text and data
 - [[pattern-recognition]] — [STUB] Pattern recognition — identifying patterns in data and signals
 - [[persistent-goals-hermes-agent]] — [STUB] Persistent goals in Hermes Agent — goal maintenance across sessions
@@ -433,7 +433,7 @@ type: index
 - [[public-health-governance]] — [STUB] Institutional structures for managing public health crises and disease outbreaks
 - [[public-health]] — [STUB] Public health systems and governance
 - [[pure-mathematics]] — [STUB] Pure mathematics — theoretical mathematics without practical applications
-- [[qes]] — [STUB] Quality-evolutionary search, optimization algorithm
+- [[qes]] — QES: Quality-Evolutionary Search — accumulated error feedback for high-precision fine-tuning of quantized models at inference-level memory
 - [[quantum-computing]] — [STUB] Quantum computing applications in AI and cryptography
 - [[rag]] — Retrieval-Augmented Generation — the standard stateless document Q&A pattern
 - [[ramirez-ruiz-mop-2024]] — Ramirez-Ruiz MOP research — foundational work on Memory-Oriented Programming for LLM agents, schema-based memory scaffolding
@@ -460,7 +460,7 @@ type: index
 - [[route-collapse-rlhf]] — RLHF fine-tuning causes routing instability in MoE models — experts that were safety-critical pre-fine-tuning route incorrectly post-fine-tuning, confirmed across 7B–141B parameter scales
 - [[russia-belarus-nuclear]] — [STUB] Nuclear sharing arrangements between Russia and Belarus
 - [[russia-ukraine-war]] — [STUB] Ongoing conflict between Russia and Ukraine since 2022
-- [[rz-nas]] — RZ-NAS — a neural architecture search method referenced in ML evolution literature; stub pending full documentation
+- [[rz-nas]] — RZ-NAS: zero-cost proxy neural architecture search with reflection module — evaluates architecture quality without training
 - [[scaling-laws]] — Empirical power-law relationships between neural network performance and model/data/compute scale — Kaplan/Chinchilla laws, emergent capabilities, and modern inference-time compute scaling
 - [[science]] — [STUB] Science — systematic study of the natural world through observation and experimentation
 - [[scientific-computing]] — [STUB] Scientific computing — computational methods for scientific research

@@ -16,7 +16,7 @@ updated: 2026-05-25
 | Agent | Cron ID | Schedule | Last Run | Last Status | Next Run |
 |-------|---------|----------|----------|--------------|----------|
 | [[arxiv/SKILL.md]] | `72599f850df2` | 08:20 | 2026-05-26 | **in_progress** | — |
-| [[researcher/SKILL.md]] | `8ea33cfa560a` | 08:00 | 2026-05-26 | **done** | — |
+| [[researcher/SKILL.md]] | `8ea33cfa560a` | 08:00 | 2026-07-15 | **done** | — |
 | [[ingest/SKILL.md]] | `c838e81a1496` | 06:30 | — | — | — |
 | [[librarian/SKILL.md]] | `48a3a009a820` | 08:20 | 2026-05-26 | **done** | — |
 | [[librarians-assistant/SKILL.md]] | `385aa0819a57` | 08:40 | — | — | — |

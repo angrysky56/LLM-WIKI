@@ -51,7 +51,7 @@ For each significant story:
 
 ## STEP 5 — Write Your Report
 
-Save to: `wiki/scratchpad/jobs/reports/news/headlines-YYYY-MM-DD.md`
+Save to: `/home/ty/Documents/LLM-WIKI/wiki/synthesis/news/2026-May/headlines-YYYY-MM-DD.md`
 
 ## STEP 6 — Update Jobs Sheet
 

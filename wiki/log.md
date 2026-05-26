@@ -28960,3 +28960,905 @@ Updated page: wiki/concepts/early-exit-networks.md
   - [[tyler-hall]] → [[nexus]] (no return link)
 **Non-preferred tags** (1) — use controlled vocabulary:
   - wiki/concepts/tag-taxonomy.md: `taxonomy` → use `controlled-vocabulary`
+
+## [2026-05-26 18:55] lint
+
+🩺 **Wiki Health Check** — 1102 pages
+
+**Orphans** (252):
+  - malaysia-exits-us-reciprocal-trade-deal-may-2026
+  - ingest-report
+  - cua-gym
+  - batch-progress
+  - para-system-cluster-insight
+  - discovery-2026-06-08
+  - eu-us-trade-deal-2029-expiry-may-2026
+  - word-cloud-communication
+  - china-coal-mine-explosion-shanxi-may-2026
+  - arxiv-2026-05-24-top-papers
+  - discovery-2026-06-09
+  - acp-editor-integration-hermes-agent
+  - cross-layer-drift-falsification
+  - execution-mechanisms
+  - news-2026-05-22-headlines
+  - TEMPLATE
+  - papers-2026-05-23-researched
+  - ingest-2026-05-26
+  - news-2026-05-21-headlines
+  - audit-2026-05-19
+  - task-types
+  - audit-2026-05-26
+  - sheet
+  - nigeria-boko-haram-kidnaps-over-50-schoolchildren-borno
+  - ingest-2026-05-21-run
+  - mixture-of-recursions
+  - papers-2026-05-22-researched
+  - raul-castro-indictment-2026
+  - headlines-report
+  - project-synapse-mcp-tools
+  - iran-claims-hormuz-waters
+  - isabelle-installation
+  - tiktok-youtube-ofcom-not-safe-enough-2026
+  - nairobi-protocol-gde
+  - ebola-hospital-tents-fire-congo
+  - alqr-memory-estimates
+  - wiki-overseer
+  - Q2_SALES_TARGET_LIST
+  - engineering-internal-awareness-and-closed-loop-self-regulation-in-large-language-models
+  - event-hooks-hermes-agent
+  - rubio-meets-modi-india-energy-may-2026
+  - news-2026-05-20-headlines
+  - discrete-time-to-event-modeling
+  - francesca-albanese-sanctions-insight
+  - business-concept
+  - discovery-2026-05-25
+  - chirality-origin-life-2026-05-20
+  - soul
+  - audit-2026-07-10
+  - headlines-2026-05-28
+  - kalra-barkeshli-hyperparameter-transfer-2026
+  - us-sanctions-francesca-albanese
+  - roadmap
+  - audit-2026-05-20
+  - gap-analysis
+  - us-surveillance-cuba-flights-2026
+  - rubio-india-500-billion-trade-claim-may-2026
+  - ebola-outbreak-drc-who-very-high-may-2026
+  - vector-policy-optimization-vpo-2026
+  - search-2026-05-21
+  - spacex-ipo-investor-frenzy-risk-may-2026
+  - discovery-2026-07-14
+  - ebola-outbreak-drc-hospital-attack-2026
+  - bae-lmac-2026
+  - gap-discovery-patterns
+  - arxiv-2026-05-23-top-papers
+  - para-knowledge-architecture-cohesion-insight
+  - headlines-2026-05-27
+  - CHECKLIST
+  - meta-advancement
+  - delegation-parallel-work
+  - oMCD-calibration-protocol
+  - librarian-2026-05-19-missing-agent-sheet
+  - israel-ben-gvir-flotilla-video
+  - quick-reference
+  - hermes-agent
+  - middle-east-lebanon-hormuz-may-2026
+  - physical-warp-drive-loophole-may-2026
+  - solo-preneur
+  - patterns
+  - headlines-2026-05-25
+  - STRATEGIC_BRIEF
+  - SKILL
+  - aseke-framework
+  - para-system-knowledge-architecture-insight
+  - discovery-2026-06-25
+  - discovery-2026-05-29
+  - hermes-path-forward
+  - googlecolab-colab-mcp
+  - kanban-development
+  - spacex-starship-v3-launch-flight-12
+  - paper2code-enhanced
+  - albanese-sanctions-divergence-insight
+  - insights
+  - arxiv-2026-05-26-top-papers
+  - china-rare-earth-geopolitics-may-2026
+  - arxiv-search-guide
+  - spacex-files-ipo-starship-v3-2026
+  - arxiv-2026-05-19-top-papers
+  - skill-consumption-2026
+  - deltabox-stateful-agent-checkpoint-rollback-2026
+  - exclusion-list
+  - large-scale-ukrainian-drone-attack-kills-three-in-moscow-region
+  - designing-agentic-design-picker
+  - news-source-url-patterns
+  - skillopt-self-evolving-2026
+  - codegraph-hermes-integration-plan
+  - hermes-openclaw-paperclip-stack
+  - deltadirect-directional-motion-blindness-video-llms-2026
+  - hermes-multi-agent-discord-architecture
+  - us-flight-diverts-ebola-passenger-2026-05-21
+  - rss-queries
+  - now
+  - insight-merge
+  - local-lead-gen
+  - discovery-2026-05-26
+  - sti-record-levels-europe-2026
+  - openai-o3-erdos-conjecture-breakthrough-2026
+  - stanford-arthritis-pain-treatment-may-2026
+  - air-france-airbus-manslaughter-2009-2026-05-21
+  - arxiv
+  - rubio-declares-cuba-threat
+  - stanford-type-1-diabetes-cure-may-2026
+  - user
+  - agent-lab-2501.04227
+  - spacex-starship-v3-launch-may-2026
+  - librarian-agent
+  - trump-ai-executive-order-abandoned-may-2026
+  - california-ai-worker-protection-may-2026
+  - discovery-2026-07-02
+  - discovery-2026-06-30
+  - research_spec
+  - discovery-2026-05-21
+  - titans-memory-efficiency-insight
+  - ingest-2026-05-23
+  - smile-satellite-earth-magnetosphere-2026-05-21
+  - discovery-2026-05-30
+  - eu-us-trade-deal-tariff-may-2026
+  - AXIOMS
+  - headlines-2026-05-26
+  - menin-d-serine-hypothalamus-anti-aging
+  - tulsi-gabbard-resigns-intelligence-director-may-2026
+  - librarian
+  - news-article
+  - ebola-plane-divert-2026
+  - mcp-tools
+  - headlines-2026-05-23
+  - truth-emotion-sacred-agem-analysis
+  - production-llm-agent-runtime-architecture-patterns
+  - ingest-2026-05-24
+  - decoupling-perception-reasoning-vlm-post-training
+  - gemini-for-science-google-deepmind-may-2026
+  - clinseekagent-multimodal-clinical-evidence-seeking
+  - arxiv-2026-05-27-top-papers
+  - discovery-report
+  - goodrobot-revenue-model
+  - research-brief-2026-05-13
+  - titans-memory-architecture-insight
+  - ingest-2026-05-25
+  - ingest-2026-05-21
+  - discovery-2026-05-27
+  - audit-2026-07-21
+  - arxiv-2026-05-20-top-papers
+  - ingest-2026-06-27
+  - workflow
+  - papers-2026-05-24-researched
+  - para-system-cohesion-insight
+  - eris-mythology
+  - run-report
+  - discovery-2026-06-04
+  - news-2026-05-18-headlines
+  - researcher
+  - papers-2026-05-20
+  - discovery-2026-05-22
+  - portfolio-policies-metacognition
+  - issues-index
+  - overseer-2026-05-26
+  - carryover
+  - arxiv-2026-05-21-top-papers
+  - symbiotic-ai
+  - verifiable-graph-context-protocol
+  - russia-china-condemn-us-castro-indictment-2026-05-21
+  - trump-iran-diplomacy-threats-2026-05-21
+  - ingest-2026-05-20
+  - eidetic-learning-2021
+  - headlines-2026-05-24
+  - california-ai-worker-protection-newsom-2026
+  - strait-of-hormuz-iran-claim-2026
+  - ingest
+  - orcaid
+  - panksepp-emotional-systems
+  - audit-report
+  - report
+  - librarians-assistant
+  - ingest-2026-05-28
+  - researcher-agent
+  - tokenisation-convex-relaxations-2026
+  - spacex-ipo-governance-questions-may-2026
+  - discovery-2026-06-26
+  - air-france-airbus-manslaughter-verdict-2026
+  - deepweb-bench-2026
+  - trump-iran-diplomacy-threats-2026
+  - agem-ooe
+  - hermes-mcp-integration
+  - librarian-report-2026-05-09
+  - news-agent
+  - headlines-2026-05-22
+  - hiring-plan
+  - arxiv-2026-05-22-top-papers
+  - codegraph-readme
+  - audit-2026-05-21
+  - domain-onboarding-standards
+  - ebola-outbreak-drc-uganda-pheic-2026
+  - automate-anything-with-cron
+  - issue-001
+  - research-brief
+  - trump-taiwan-call-2026
+  - sti-record-levels-europe-2026-05-21
+  - discovery-2026-06-28
+  - xu-envfactory-2026
+  - nato-troops-poland-may-2026
+  - ssh-command-in-linux
+  - orthogonal-bottlenecks-rl
+  - goodrobot-gtm-strategy
+  - papers-2026-05-26-researched
+  - discovery-2026-07-01
+  - astar-structural-pathfinding
+  - audit-2026-05-26-path-verification
+  - PROVING_GROUNDS
+  - alberta-independence-referendum-2026
+  - shannon-scaling-law-2026
+  - discovery-2026-06-27
+  - francesca-albanese-sanctions-case-insight
+  - papers-2026-05-19-researched
+  - audit-2026-05-25
+  - awarevln-self-aware-vision-language-navigation-2026
+  - arxiv-agent
+  - openai-erdos-mathematics-proof-2026
+  - STRATEGIES
+  - equilibrium-reasoners-eqr-2026
+  - get-shit-done
+  - emotion-concepts-llm
+  - openai-ai-solves-80-year-erdos-problem-may-2026
+  - alphaproof-nexus-formal-proof-search-2026
+  - oee-knowledge-cluster-insight
+  - audit-2026-05-23
+  - goodrobot-technical-architecture
+  - safectrl-rl
+  - discovery-2026-07-20
+  - discovery-2026-07-03
+  - goodrobot-research-pipeline
+  - us-trade-court-tariff-ruling-may-2026
+**Broken links** (85):
+  - wiki/concepts/agents.md → [[deliberative-agents]]
+  - wiki/concepts/agents.md → [[reactive-agents]]
+  - wiki/concepts/agents.md → [[hybrid-agents]]
+  - wiki/concepts/agents.md → [[meta-cognitive-agents]]
+  - wiki/concepts/autonomous-agents.md → [[tool-use]]
+  - wiki/concepts/generative-ai.md → [[diffusion-models]]
+  - wiki/concepts/imagination.md → [[Planning-stub]]
+  - wiki/concepts/imagination.md → [[counterfactual-reasoning]]
+  - wiki/concepts/lora.md → [[qora]]
+  - wiki/concepts/opendeepthink-parallel-reasoning.md → [[bradley-terry]]
+  - wiki/concepts/parallel-reasoning.md → [[test-time-compute-scaling]]
+  - wiki/projects/projects 1/goodrobot.md → [[CEO]]
+  - wiki/projects/projects 1/goodrobot.md → [[CFO Agent]]
+  - wiki/projects/projects 1/goodrobot.md → [[CTO Agent]]
+  - wiki/projects/projects 1/goodrobot.md → [[CMO Agent]]
+  - wiki/projects/projects 1/goodrobot.md → [[ai-agents]]
+  - wiki/projects/projects 1/goodrobot.md → [[saas-pricing]]
+  - wiki/scratchpad/agent-sheets/news/templates/news-article.md → [[related-concept]]
+  - wiki/scratchpad/agent-sheets/news/templates/news-article.md → [[related-project]]
+  - wiki/scratchpad/agent-sheets/overseer/SKILL.md → [[arxiv/carryover]]
+  - wiki/scratchpad/agent-sheets/overseer/SKILL.md → [[arxiv/meta-advancement]]
+  - wiki/scratchpad/agent-sheets/overseer/SKILL.md → [[researcher/carryover]]
+  - wiki/scratchpad/agent-sheets/overseer/SKILL.md → [[researcher/meta-advancement]]
+  - wiki/scratchpad/agent-sheets/overseer/SKILL.md → [[ingest/carryover]]
+  - wiki/scratchpad/agent-sheets/overseer/SKILL.md → [[ingest/meta-advancement]]
+  - wiki/scratchpad/agent-sheets/overseer/SKILL.md → [[librarian/carryover]]
+  - wiki/scratchpad/agent-sheets/overseer/SKILL.md → [[librarian/meta-advancement]]
+  - wiki/scratchpad/agent-sheets/overseer/SKILL.md → [[librarians-assistant/carryover]]
+  - wiki/scratchpad/agent-sheets/overseer/SKILL.md → [[librarians-assistant/meta-advancement]]
+  - wiki/scratchpad/agent-sheets/overseer/SKILL.md → [[insights/carryover]]
+  - wiki/scratchpad/agent-sheets/overseer/SKILL.md → [[insights/meta-advancement]]
+  - wiki/scratchpad/agent-sheets/overseer/SKILL.md → [[news/carryover]]
+  - wiki/scratchpad/agent-sheets/overseer/SKILL.md → [[news/meta-advancement]]
+  - wiki/scratchpad/agent-sheets/overseer/SKILL.md → [[orcaid/carryover]]
+  - wiki/scratchpad/agent-sheets/overseer/SKILL.md → [[orcaid/meta-advancement]]
+  - wiki/scratchpad/agent-sheets/researcher/carryover.md → [[qora]]
+  - wiki/scratchpad/jobs/reports/arxiv/carryover.md → [[bounded-representation-capacity]]
+  - wiki/scratchpad/jobs/reports/arxiv/carryover.md → [[bounded-representation-capacity]]
+  - wiki/scratchpad/jobs/reports/arxiv/carryover.md → [[bounded-representation-capacity]]
+  - wiki/scratchpad/jobs/sheet.md → [[overseer/SKILL.md]]
+  - wiki/scratchpad/jobs/sheet.md → [[arxiv/SKILL.md]]
+  - wiki/scratchpad/jobs/sheet.md → [[researcher/SKILL.md]]
+  - wiki/scratchpad/jobs/sheet.md → [[ingest/SKILL.md]]
+  - wiki/scratchpad/jobs/sheet.md → [[librarian/SKILL.md]]
+  - wiki/scratchpad/jobs/sheet.md → [[librarians-assistant/SKILL.md]]
+  - wiki/scratchpad/jobs/sheet.md → [[insights/SKILL.md]]
+  - wiki/scratchpad/jobs/sheet.md → [[news/SKILL.md]]
+  - wiki/scratchpad/jobs/sheet.md → [[orcaid/SKILL.md]]
+  - wiki/scratchpad/jobs/sheet.md → [[arxiv/SKILL.md]]
+  - wiki/scratchpad/jobs/sheet.md → [[researcher/SKILL.md]]
+  - wiki/scratchpad/jobs/sheet.md → [[ingest/SKILL.md]]
+  - wiki/scratchpad/jobs/sheet.md → [[librarian/SKILL.md]]
+  - wiki/scratchpad/jobs/sheet.md → [[librarians-assistant/SKILL.md]]
+  - wiki/scratchpad/jobs/sheet.md → [[insights/SKILL.md]]
+  - wiki/scratchpad/jobs/sheet.md → [[news/SKILL.md]]
+  - wiki/scratchpad/jobs/sheet.md → [[orcaid/SKILL.md]]
+  - wiki/scratchpad/jobs/sheet.md → [[librarians-assistant/SKILL.md]]
+  - wiki/scratchpad/jobs/sheet.md → [[arxiv/SKILL.md]]
+  - wiki/scratchpad/jobs/sheet.md → [[arxiv/carryover]]
+  - wiki/scratchpad/jobs/sheet.md → [[researcher/SKILL.md]]
+  - wiki/scratchpad/jobs/sheet.md → [[researcher/carryover]]
+  - wiki/scratchpad/jobs/sheet.md → [[ingest/SKILL.md]]
+  - wiki/scratchpad/jobs/sheet.md → [[ingest/carryover]]
+  - wiki/scratchpad/jobs/sheet.md → [[librarian/SKILL.md]]
+  - wiki/scratchpad/jobs/sheet.md → [[librarian/carryover]]
+  - wiki/scratchpad/jobs/sheet.md → [[librarians-assistant/SKILL.md]]
+  - wiki/scratchpad/jobs/sheet.md → [[librarians-assistant/carryover]]
+  - wiki/scratchpad/jobs/sheet.md → [[insights/SKILL.md]]
+  - wiki/scratchpad/jobs/sheet.md → [[insights/carryover]]
+  - wiki/scratchpad/jobs/sheet.md → [[news/SKILL.md]]
+  - wiki/scratchpad/jobs/sheet.md → [[news/carryover]]
+  - wiki/scratchpad/jobs/sheet.md → [[orcaid/SKILL.md]]
+  - wiki/scratchpad/jobs/sheet.md → [[orcaid/carryover]]
+  - wiki/sources/articles/ebola-bundibugyo-who-emergency-committee-may-2026.md → [[ebola-who-emergency-committee-2026]]
+  - wiki/sources/articles/eu-us-trade-deal-2029-expiry-may-2026.md → [[EU-US-deal]]
+  - wiki/sources/articles/eu-us-trade-deal-2029-expiry-may-2026.md → [[china-rare-earth-geopolitics]]
+  - wiki/sources/articles/menin-d-serine-hypothalamus-anti-aging.md → [[neuroinflammation]]
+  - wiki/sources/articles/menin-d-serine-hypothalamus-anti-aging.md → [[cognitive-decline]]
+  - wiki/sources/articles/menin-d-serine-hypothalamus-anti-aging.md → [[hypothalamus]]
+  - wiki/sources/articles/menin-d-serine-hypothalamus-anti-aging.md → [[longevity-research]]
+  - wiki/sources/articles/pope-leo-ai-encyclical-magnifica-humanitas-may-2026.md → [[AI-policy-global-governance]]
+  - wiki/sources/papers/cua-gym.md → [[bounded-representation-capacity]]
+  - wiki/sources/papers/orthogonal-bottlenecks-rl.md → [[bounded-representation-capacity]]
+  - wiki/sources/papers/safectrl-rl.md → [[bounded-representation-capacity]]
+  - wiki/sources/repositories/googlecolab-colab-mcp.md → [[google-colab]]
+**Missing frontmatter** (63):
+  - wiki/agents/researcher-agent/carryover.md
+  - wiki/agents/skills/arxiv-agent/references/arxiv-search-guide.md
+  - wiki/agents/skills/news-agent/references/news-source-url-patterns.md
+  - wiki/agents/skills/skill-architect/SKILL.md
+  - wiki/agents/skills/skill-architect/references/TEMPLATE.md
+  - wiki/projects/goodrobot/Q2_SALES_TARGET_LIST.md
+  - wiki/projects/goodrobot/STRATEGIC_BRIEF.md
+  - wiki/projects/projects 1/goodrobot-gtm-strategy.md
+  - wiki/projects/projects 1/goodrobot-research-pipeline.md
+  - wiki/projects/projects 1/goodrobot-technical-architecture.md
+  - wiki/research/extraction-quality-audit/research_spec.md
+  - wiki/scratchpad/agent-sheets/arxiv/references/patterns.md
+  - wiki/scratchpad/agent-sheets/arxiv/references/workflow.md
+  - wiki/scratchpad/agent-sheets/arxiv/templates/report.md
+  - wiki/scratchpad/agent-sheets/arxiv/templates/research-brief.md
+  - wiki/scratchpad/agent-sheets/ingest/references/workflow.md
+  - wiki/scratchpad/agent-sheets/ingest/templates/ingest-report.md
+  - wiki/scratchpad/agent-sheets/insights/carryover.md
+  - wiki/scratchpad/agent-sheets/insights/references/insight-merge.md
+  - wiki/scratchpad/agent-sheets/insights/references/workflow.md
+  - wiki/scratchpad/agent-sheets/insights/templates/carryover.md
+  - wiki/scratchpad/agent-sheets/librarian/carryover.md
+  - wiki/scratchpad/agent-sheets/librarian/references/mcp-tools.md
+  - wiki/scratchpad/agent-sheets/librarian/references/workflow.md
+  - wiki/scratchpad/agent-sheets/librarian/templates/audit-report.md
+  - wiki/scratchpad/agent-sheets/librarians-assistant/references/quick-reference.md
+  - wiki/scratchpad/agent-sheets/librarians-assistant/references/workflow.md
+  - wiki/scratchpad/agent-sheets/librarians-assistant/templates/batch-progress.md
+  - wiki/scratchpad/agent-sheets/news/references/rss-queries.md
+  - wiki/scratchpad/agent-sheets/news/references/workflow.md
+  - wiki/scratchpad/agent-sheets/news/templates/headlines-report.md
+  - wiki/scratchpad/agent-sheets/orcaid/references/execution-mechanisms.md
+  - wiki/scratchpad/agent-sheets/orcaid/references/task-types.md
+  - wiki/scratchpad/agent-sheets/orcaid/templates/run-report.md
+  - wiki/scratchpad/agent-sheets/researcher/references/workflow.md
+  - wiki/scratchpad/agent-sheets/researcher/templates/discovery-report.md
+  - wiki/scratchpad/agent-sheets/researcher/templates/gap-analysis.md
+  - wiki/scratchpad/jobs/reports/arxiv/papers-2026-05-23-researched.md
+  - wiki/scratchpad/jobs/reports/ingest/ingest-2026-05-26.md
+  - wiki/scratchpad/jobs/reports/insights/carryover.md
+  - wiki/scratchpad/jobs/reports/librarian/audit-2026-05-21.md
+  - wiki/scratchpad/jobs/reports/librarian/audit-2026-05-25.md
+  - wiki/scratchpad/jobs/reports/librarian/audit-2026-05-26-path-verification.md
+  - wiki/scratchpad/jobs/reports/librarian/audit-2026-05-26.md
+  - wiki/scratchpad/jobs/reports/librarian/audit-2026-07-10.md
+  - wiki/scratchpad/jobs/reports/librarian/audit-2026-07-21.md
+  - wiki/scratchpad/jobs/reports/librarian/batch-progress.md
+  - wiki/scratchpad/jobs/reports/librarian/carryover.md
+  - wiki/scratchpad/jobs/reports/researcher/discovery-2026-05-21.md
+  - wiki/scratchpad/jobs/reports/researcher/discovery-2026-05-22.md
+  - wiki/scratchpad/jobs/reports/researcher/discovery-2026-05-25.md
+  - wiki/scratchpad/jobs/reports/researcher/discovery-2026-05-26.md
+  - wiki/scratchpad/jobs/reports/researcher/discovery-2026-05-27.md
+  - wiki/scratchpad/jobs/reports/researcher/discovery-2026-06-30.md
+  - wiki/scratchpad/jobs/reports/researcher/discovery-2026-07-01.md
+  - wiki/scratchpad/jobs/reports/researcher/discovery-2026-07-02.md
+  - wiki/scratchpad/jobs/reports/researcher/discovery-2026-07-03.md
+  - wiki/scratchpad/jobs/reports/researcher/discovery-2026-07-14.md
+  - wiki/synthesis/news/2026-May/headlines-2026-05-23.md
+  - wiki/synthesis/news/2026-May/headlines-2026-05-24.md
+  - wiki/synthesis/news/2026-May/headlines-2026-05-25.md
+  - wiki/synthesis/news/2026-May/headlines-2026-05-28.md
+  - wiki/synthesis/news/2026-May/news-2026-05-21-headlines.md
+**Non-reciprocal links** (491) — A links to B but B doesn't link back:
+  - [[large-language-models]] → [[natural-language-processing]] (no return link)
+  - [[catastrophic-forgetting]] → [[mixture-of-experts]] (no return link)
+  - [[catastrophic-forgetting]] → [[ramirez-ruiz-mop-2024]] (no return link)
+  - [[catastrophic-forgetting]] → [[bounded-structured-memory]] (no return link)
+  - [[catastrophic-forgetting]] → [[reinforcement-learning-from-human-feedback]] (no return link)
+  - [[parallel-reasoning]] → [[llm-reasoning]] (no return link)
+  - [[parallel-reasoning]] → [[opendeepthink-parallel-reasoning]] (no return link)
+  - [[parallel-reasoning]] → [[inference-time-compute-scaling]] (no return link)
+  - [[parallel-reasoning]] → [[process-reward-model]] (no return link)
+  - [[parallel-reasoning]] → [[self-correction]] (no return link)
+  - [[llm-kernel-optimization]] → [[utimula-openpraparat-2025]] (no return link)
+  - [[text-analysis]] → [[natural-language-processing]] (no return link)
+  - [[text-analysis]] → [[information-retrieval]] (no return link)
+  - [[artificial-intelligence]] → [[neural-networks]] (no return link)
+  - [[exploration]] → [[reinforcement-learning]] (no return link)
+  - [[neural-interpretability]] → [[reward-inside-model-elhsr]] (no return link)
+  - [[scrum]] → [[project-management]] (no return link)
+  - [[transformers]] → [[deep-learning]] (no return link)
+  - [[multi-agent-coordination]] → [[hermes-agent]] (no return link)
+  - [[multi-agent-coordination]] → [[project-synapse]] (no return link)
+  - [[video-understanding]] → [[vision-language-models]] (no return link)
+  - [[video-understanding]] → [[multimodal-llm]] (no return link)
+  - [[early-exit-networks]] → [[adaptive-computation]] (no return link)
+  - [[how-does-imagination-really-work-in-the-brain-new-theory-upends-what-we-knew]] → [[mop-explorer]] (no return link)
+  - [[natural-language-processing]] → [[machine-learning]] (no return link)
+  - [[persistent-goals-hermes-agent]] → [[bounded-structured-memory]] (no return link)
+  - [[meta_harness_loop]] → [[agem]] (no return link)
+  - [[meta_harness_loop]] → [[meta-harness]] (no return link)
+  - [[meta_harness_loop]] → [[hermes-agent]] (no return link)
+  - [[representation-learning]] → [[deep-learning]] (no return link)
+  - [[visual-recognition]] → [[computer-vision]] (no return link)
+  - [[visual-recognition]] → [[pattern-recognition]] (no return link)
+  - [[hezbollah]] → [[geopolitics]] (no return link)
+  - [[goal-management]] → [[agent-architectures]] (no return link)
+  - [[world-model]] → [[futuresim-adaptive-agents]] (no return link)
+  - [[world-model]] → [[hipai-montague]] (no return link)
+  - [[ai-scientific-discovery]] → [[alphaevolve]] (no return link)
+  - [[data-privacy]] → [[agem]] (no return link)
+  - [[load-bearing-reasoning]] → [[hipai-montague]] (no return link)
+  - [[delta-direct]] → [[video-understanding]] (no return link)
+  - [[delta-direct]] → [[llm-vision]] (no return link)
+  - [[delegation]] → [[bounded-structured-memory]] (no return link)
+  - [[delegation]] → [[hermes-agent]] (no return link)
+  - [[memory-mechanisms]] → [[neural-networks]] (no return link)
+  - [[tyler-hall]] → [[nexus]] (no return link)
+  - [[tyler-hall]] → [[hipai-montague]] (no return link)
+  - [[tyler-hall]] → [[dhruv-trehan]] (no return link)
+  - [[tyler-hall]] → [[agem]] (no return link)
+  - [[research-tooling]] → [[ai-research]] (no return link)
+  - [[research-tooling]] → [[tooling]] (no return link)
+  - [[weil-gate]] → [[agentic-oversight]] (no return link)
+  - [[weil-gate]] → [[refuser-pattern]] (no return link)
+  - [[ai-diagnostics]] → [[ai-scientific-discovery]] (no return link)
+  - [[set-theory]] → [[mathematics]] (no return link)
+  - [[set-theory]] → [[logic]] (no return link)
+  - [[distributed-systems]] → [[systems-theory]] (no return link)
+  - [[language-evolution]] → [[directed-preferential-placement]] (no return link)
+  - [[language-evolution]] → [[gemini]] (no return link)
+  - [[language-evolution]] → [[stephen-wolfram]] (no return link)
+  - [[sheffer-stroke]] → [[mcp-logic]] (no return link)
+  - [[prd-ralph-loop-mop-gemini]] → [[project-synapse]] (no return link)
+  - [[agentic-hierarchy]] → [[hermes-agent]] (no return link)
+  - [[agentic-hierarchy]] → [[bounded-structured-memory]] (no return link)
+  - [[para]] → [[knowledge-management]] (no return link)
+  - [[metacognitive-architecture-closed-loop-self-regulation]] → [[hermes-meta-cognition]] (no return link)
+  - [[neural-networks]] → [[machine-learning]] (no return link)
+  - [[inference-efficiency]] → [[llm-optimization]] (no return link)
+  - [[transformer-vm-moran-2026]] → [[utimula-openpraparat-2025]] (no return link)
+  - [[transformer-vm-moran-2026]] → [[llm-kernel-optimization]] (no return link)
+  - [[transformer-vm-moran-2026]] → [[alphaevolve]] (no return link)
+  - [[working-memory]] → [[efhf]] (no return link)
+  - [[working-memory]] → [[recursive-transformers]] (no return link)
+  - [[working-memory]] → [[bounded-rationality]] (no return link)
+  - [[digital-systems]] → [[signal-processing]] (no return link)
+  - [[ml-evolution-benchmarking-protocol]] → [[namm]] (no return link)
+  - [[ml-evolution-benchmarking-protocol]] → [[neural-architecture-search]] (no return link)
+  - [[ml-evolution-benchmarking-protocol]] → [[control-llm]] (no return link)
+  - [[ml-evolution-benchmarking-protocol]] → [[collm-nas]] (no return link)
+  - [[ml-evolution-benchmarking-protocol]] → [[qes]] (no return link)
+  - [[ml-evolution-benchmarking-protocol]] → [[essa]] (no return link)
+  - [[ml-evolution-benchmarking-protocol]] → [[catastrophic-forgetting]] (no return link)
+  - [[latent-reasoning]] → [[neural-interpretability]] (no return link)
+  - [[latent-reasoning]] → [[epistemic-energy]] (no return link)
+  - [[latent-reasoning]] → [[process-reward-model]] (no return link)
+  - [[latent-reasoning]] → [[chain-of-thought]] (no return link)
+  - [[markovian-carryover]] → [[bounded-structured-memory]] (no return link)
+  - [[nlp]] → [[text-analysis]] (no return link)
+  - [[nlp]] → [[natural-language-processing]] (no return link)
+  - [[signal-processing]] → [[information-theory]] (no return link)
+  - [[agem]] → [[efhf]] (no return link)
+  - [[model-optimization]] → [[inference-efficiency]] (no return link)
+  - [[agentic-planner]] → [[agentic-hierarchy]] (no return link)
+  - [[agentic-planner]] → [[imagination]] (no return link)
+  - [[agentic-planner]] → [[world-model]] (no return link)
+  - [[elhsr]] → [[reward-inside-model-elhsr]] (no return link)
+  - [[machine-psychology]] → [[aseke-compass-mcp]] (no return link)
+  - [[machine-psychology]] → [[agem]] (no return link)
+  - [[agent-onboarding]] → [[project-synapse]] (no return link)
+  - [[institutional-capture]] → [[proxy-signalling]] (no return link)
+  - [[agent-leak-benchmark]] → [[lcguard]] (no return link)
+  - [[agent-leak-benchmark]] → [[latent-communication]] (no return link)
+  - [[sheaf-consistency-enforcer]] → [[hipai-montague]] (no return link)
+  - [[sheaf-consistency-enforcer]] → [[mcp-logic]] (no return link)
+  - [[model-behavior]] → [[llm]] (no return link)
+  - [[model-behavior]] → [[model-properties]] (no return link)
+  - [[planning]] → [[agent-architectures]] (no return link)
+  - [[tys-repos]] → [[agem]] (no return link)
+  - [[tys-repos]] → [[hipai-montague]] (no return link)
+  - [[tys-repos]] → [[mcp-logic]] (no return link)
+  - [[tys-repos]] → [[nexus]] (no return link)
+  - [[cobra]] → [[tools]] (no return link)
+  - [[recursive-transformers]] → [[transformers]] (no return link)
+  - [[code-execution]] → [[agent-architectures]] (no return link)
+  - [[digital-signal-processing]] → [[digital-systems]] (no return link)
+  - [[autonomous-agents]] → [[agentic-oversight]] (no return link)
+  - [[autonomous-agents]] → [[markovian-carryover]] (no return link)
+  - [[autonomous-agents]] → [[agentic-planner]] (no return link)
+  - [[autonomous-agents]] → [[bounded-structured-memory]] (no return link)
+  - [[autonomous-agents]] → [[llm-agents]] (no return link)
+  - [[autonomous-agents]] → [[mcp]] (no return link)
+  - [[autonomous-agents]] → [[reinforcement-learning]] (no return link)
+  - [[advanced-reasoning-mcp]] → [[mcp-logic]] (no return link)
+  - [[efhf]] → [[mcp-logic]] (no return link)
+  - [[attractor-dynamics]] → [[hopfield-network]] (no return link)
+  - [[attractor-dynamics]] → [[neural-interpretability]] (no return link)
+  - [[attractor-dynamics]] → [[critical-initialization-biological-neural-networks]] (no return link)
+  - [[attractor-dynamics]] → [[betteti-baggio-bullo-zampieri-idp-hopfield-2025]] (no return link)
+  - [[attractor-dynamics]] → [[emergence]] (no return link)
+  - [[attractor-dynamics]] → [[shorthand-for-thought]] (no return link)
+  - [[attractor-dynamics]] → [[computational-irreducibility]] (no return link)
+  - [[attractor-dynamics]] → [[criticality]] (no return link)
+  - [[llm-agent-architecture]] → [[production-stage-architecture]] (no return link)
+  - [[llm-agent-architecture]] → [[code-as-agent-harness]] (no return link)
+  - [[llm-agent-architecture]] → [[hermes-agent]] (no return link)
+  - [[llm-vision]] → [[large-language-models]] (no return link)
+  - [[llm-vision]] → [[computer-vision]] (no return link)
+  - [[hermes_agent]] → [[meta-harness]] (no return link)
+  - [[multimodal-llm]] → [[large-language-models]] (no return link)
+  - [[adversarial-training]] → [[latent-communication]] (no return link)
+  - [[emergent-communication]] → [[betteti-baggio-bullo-zampieri-idp-hopfield-2025]] (no return link)
+  - [[eml-operator]] → [[efhf]] (no return link)
+  - [[eml-operator]] → [[mcp-logic]] (no return link)
+  - [[infectious-disease]] → [[public-health]] (no return link)
+  - [[code-generation]] → [[code-as-agent-harness]] (no return link)
+  - [[mcp-model-context-protocol]] → [[hermes-agent]] (no return link)
+  - [[mcp-model-context-protocol]] → [[mcp-logic]] (no return link)
+  - [[mcp-model-context-protocol]] → [[efhf]] (no return link)
+  - [[mcp]] → [[hermes-agent]] (no return link)
+  - [[openpraparat]] → [[utimula-openpraparat-2025]] (no return link)
+  - [[openpraparat]] → [[alphaevolve]] (no return link)
+  - [[pattern-recognition]] → [[signal-processing]] (no return link)
+  - [[pattern-recognition]] → [[machine-learning]] (no return link)
+  - [[benchmarking]] → [[mlops]] (no return link)
+  - [[google-deepmind]] → [[ai-scientific-discovery]] (no return link)
+  - [[hermes-agent]] → [[bounded-structured-memory]] (no return link)
+  - [[continual-learning]] → [[namm]] (no return link)
+  - [[continual-learning]] → [[parameter-efficient-fine-tuning]] (no return link)
+  - [[continual-learning]] → [[mixture-of-experts]] (no return link)
+  - [[continual-learning]] → [[ramirez-ruiz-mop-2024]] (no return link)
+  - [[continual-learning]] → [[bounded-structured-memory]] (no return link)
+  - [[continual-learning]] → [[llm-training]] (no return link)
+  - [[continual-learning]] → [[mop-architecture]] (no return link)
+  - [[continual-learning]] → [[catastrophic-forgetting]] (no return link)
+  - [[obsidian-skills-repo]] → [[obsidian-cli-skill]] (no return link)
+  - [[vision-language-alignment]] → [[efhf]] (no return link)
+  - [[vision-language-alignment]] → [[delta-direct]] (no return link)
+  - [[vision-language-alignment]] → [[probing-analysis]] (no return link)
+  - [[molecular-reasoning]] → [[scientific-reasoning]] (no return link)
+  - [[why-llms-arent-scientists-yet]] → [[tyler-hall]] (no return link)
+  - [[why-llms-arent-scientists-yet]] → [[efhf]] (no return link)
+  - [[control-llm]] → [[mixture-of-experts]] (no return link)
+  - [[control-llm]] → [[ramirez-ruiz-mop-2024]] (no return link)
+  - [[control-llm]] → [[mop-architecture]] (no return link)
+  - [[llm-optimization]] → [[large-language-models]] (no return link)
+  - [[llm-optimization]] → [[model-optimization]] (no return link)
+  - [[utimula-openpraparat-2025]] → [[efhf]] (no return link)
+  - [[para-methodology]] → [[llm-wiki-pattern]] (no return link)
+  - [[para-methodology]] → [[obsidian-para-byarbrough]] (no return link)
+  - [[aseke-framework]] → [[agentic-planner]] (no return link)
+  - [[aseke-framework]] → [[hierarchical-supervisor]] (no return link)
+  - [[paper-analysis]] → [[paperclip]] (no return link)
+  - [[paper-analysis]] → [[research-tooling]] (no return link)
+  - [[mop-architecture]] → [[markovian-carryover]] (no return link)
+  - [[mop-architecture]] → [[ramirez-ruiz-mop-2024]] (no return link)
+  - [[mop-architecture]] → [[bounded-structured-memory]] (no return link)
+  - [[mop-architecture]] → [[memory-mechanisms]] (no return link)
+  - [[momoa-researcher]] → [[project-synapse]] (no return link)
+  - [[length-generalization]] → [[titans-test-time-memory]] (no return link)
+  - [[social-science]] → [[psychology]] (no return link)
+  - [[mental-imagery]] → [[neuroscience]] (no return link)
+  - [[mental-imagery]] → [[shorthand-for-thought]] (no return link)
+  - [[mental-imagery]] → [[world-model]] (no return link)
+  - [[mental-imagery]] → [[aphantasia]] (no return link)
+  - [[obsidian-cli-skill]] → [[llm-wiki-pattern]] (no return link)
+  - [[obsidian-cli-skill]] → [[project-synapse]] (no return link)
+  - [[obsidian-cli-skill]] → [[obsidian-para-byarbrough]] (no return link)
+  - [[algebra]] → [[mathematics]] (no return link)
+  - [[ci-cd]] → [[github-actions]] (no return link)
+  - [[high-performance-computing]] → [[distributed-systems]] (no return link)
+  - [[subagent-delegation]] → [[bounded-structured-memory]] (no return link)
+  - [[tooling]] → [[mlops]] (no return link)
+  - [[surprise-based-learning]] → [[shorthand-for-thought]] (no return link)
+  - [[signals]] → [[information-theory]] (no return link)
+  - [[sqlite]] → [[tools]] (no return link)
+  - [[exploitation]] → [[reinforcement-learning]] (no return link)
+  - [[imagination]] → [[llm-reasoning]] (no return link)
+  - [[imagination]] → [[parallel-reasoning]] (no return link)
+  - [[imagination]] → [[emergence]] (no return link)
+  - [[imagination]] → [[shorthand-for-thought]] (no return link)
+  - [[imagination]] → [[self-correction]] (no return link)
+  - [[imagination]] → [[world-model]] (no return link)
+  - [[odrzywolek-eml-2026]] → [[neo4j]] (no return link)
+  - [[odrzywolek-eml-2026]] → [[mcp-logic]] (no return link)
+  - [[pattern-matching]] → [[nlp]] (no return link)
+  - [[pattern-matching]] → [[information-retrieval]] (no return link)
+  - [[memex]] → [[llm-wiki-pattern]] (no return link)
+  - [[route-collapse-rlhf]] → [[reward-hacking]] (no return link)
+  - [[logic]] → [[mathematics]] (no return link)
+  - [[chain-of-thought]] → [[llm-reasoning]] (no return link)
+  - [[chain-of-thought]] → [[titans-test-time-memory]] (no return link)
+  - [[spike-001-spacy-owlready2]] → [[hipai-montague]] (no return link)
+  - [[spike-001-spacy-owlready2]] → [[mcp-logic]] (no return link)
+  - [[extraction-quality-audit]] → [[project-synapse]] (no return link)
+  - [[knowledge-graph]] → [[neo4j]] (no return link)
+  - [[llm-nlp]] → [[large-language-models]] (no return link)
+  - [[llm-nlp]] → [[natural-language-processing]] (no return link)
+  - [[prover9]] → [[isabelle]] (no return link)
+  - [[titans-test-time-memory]] → [[google-research]] (no return link)
+  - [[code-agent]] → [[hermes-agent]] (no return link)
+  - [[toward-transcendent-moral-instrumentality]] → [[hipai-montague]] (no return link)
+  - [[toward-transcendent-moral-instrumentality]] → [[tyler-hall]] (no return link)
+  - [[research-agent]] → [[ai-research]] (no return link)
+  - [[research-agent]] → [[autonomous-agents]] (no return link)
+  - [[psychology]] → [[neuroscience]] (no return link)
+  - [[ml-research]] → [[machine-learning]] (no return link)
+  - [[ast-mcp-server]] → [[tyler-hall]] (no return link)
+  - [[ast-mcp-server]] → [[mcp-coordinator]] (no return link)
+  - [[paras-chopra]] → [[why-llms-arent-scientists-yet]] (no return link)
+  - [[transfer-learning]] → [[machine-learning]] (no return link)
+  - [[instruction-tuning]] → [[llm-training]] (no return link)
+  - [[opendeepthink-parallel-reasoning]] → [[llm-evaluation]] (no return link)
+  - [[betteti-baggio-bullo-zampieri-idp-hopfield-2025]] → [[bounded-structured-memory]] (no return link)
+  - [[betteti-baggio-bullo-zampieri-idp-hopfield-2025]] → [[continual-learning]] (no return link)
+  - [[generative-ai]] → [[llm-reasoning]] (no return link)
+  - [[generative-ai]] → [[parallel-reasoning]] (no return link)
+  - [[generative-ai]] → [[shorthand-for-thought]] (no return link)
+  - [[generative-ai]] → [[process-reward-model]] (no return link)
+  - [[generative-ai]] → [[self-correction]] (no return link)
+  - [[generative-ai]] → [[in-context-learning]] (no return link)
+  - [[generative-ai]] → [[chain-of-thought]] (no return link)
+  - [[zettelkasten]] → [[knowledge-management]] (no return link)
+  - [[esa]] → [[space-exploration]] (no return link)
+  - [[obsidian-para-byarbrough]] → [[llm-wiki-pattern]] (no return link)
+  - [[obsidian-para-byarbrough]] → [[obsidian]] (no return link)
+  - [[obsidian-para-byarbrough]] → [[design-thinking-mit]] (no return link)
+  - [[graph-database]] → [[neo4j]] (no return link)
+  - [[graph-database]] → [[knowledge-graph]] (no return link)
+  - [[spike-campaign-001-004-summary]] → [[spike-001-spacy-owlready2]] (no return link)
+  - [[spike-campaign-001-004-summary]] → [[hipai-montague]] (no return link)
+  - [[spike-campaign-001-004-summary]] → [[mcp-logic]] (no return link)
+  - [[james-webb-space-telescope]] → [[early-universe]] (no return link)
+  - [[collm-nas]] → [[neural-architecture-search]] (no return link)
+  - [[titans]] → [[titans-test-time-memory]] (no return link)
+  - [[llm-wiki-pattern]] → [[zettelkasten-engine]] (no return link)
+  - [[llm-wiki-pattern]] → [[neo4j]] (no return link)
+  - [[dynamical-systems]] → [[neural-interpretability]] (no return link)
+  - [[dynamical-systems]] → [[complexity]] (no return link)
+  - [[dynamical-systems]] → [[emergence]] (no return link)
+  - [[dynamical-systems]] → [[shorthand-for-thought]] (no return link)
+  - [[hilbert-hotel-graph-architecture]] → [[project-synapse]] (no return link)
+  - [[multi-agent-llm-systems]] → [[hermes-agent]] (no return link)
+  - [[multi-agent-llm-systems]] → [[project-synapse]] (no return link)
+  - [[neo4j]] → [[neo4j-2026-04-0-release]] (no return link)
+  - [[federated-learning]] → [[agem]] (no return link)
+  - [[model-serving]] → [[inference-time-compute-scaling]] (no return link)
+  - [[model-serving]] → [[kv-cache]] (no return link)
+  - [[model-serving]] → [[mixture-of-experts]] (no return link)
+  - [[model-serving]] → [[mlops]] (no return link)
+  - [[hybrid-reward-models]] → [[elhsr]] (no return link)
+  - [[hybrid-reward-models]] → [[sd-search]] (no return link)
+  - [[mcp-coordinator]] → [[conscience-servitor]] (no return link)
+  - [[mcp-coordinator]] → [[tyler-hall]] (no return link)
+  - [[mcp-coordinator]] → [[efhf]] (no return link)
+  - [[model-properties]] → [[machine-learning]] (no return link)
+  - [[early-universe]] → [[cosmology]] (no return link)
+  - [[Firecracker]] → [[maximum-occupancy-principle]] (no return link)
+  - [[nexus]] → [[efhf]] (no return link)
+  - [[version-control]] → [[devops]] (no return link)
+  - [[multimodal-ai]] → [[artificial-intelligence]] (no return link)
+  - [[oMCD]] → [[delta]] (no return link)
+  - [[oMCD]] → [[cognitive-architecture]] (no return link)
+  - [[oMCD]] → [[agent-taxonomies]] (no return link)
+  - [[oMCD]] → [[zeta]] (no return link)
+  - [[oMCD]] → [[gamma]] (no return link)
+  - [[oMCD]] → [[beta]] (no return link)
+  - [[oMCD]] → [[epsilon]] (no return link)
+  - [[oMCD]] → [[alpha]] (no return link)
+  - [[oMCD]] → [[hermes-meta-cognition]] (no return link)
+  - [[priorlabs]] → [[ai-scientific-discovery]] (no return link)
+  - [[isabelle]] → [[hermes-agent]] (no return link)
+  - [[futuresim-adaptive-agents]] → [[llm-evaluation]] (no return link)
+  - [[image-understanding]] → [[visual-recognition]] (no return link)
+  - [[ethical-ai-core]] → [[toward-transcendent-moral-instrumentality]] (no return link)
+  - [[ethical-ai-core]] → [[tyler-hall]] (no return link)
+  - [[github]] → [[version-control]] (no return link)
+  - [[recuriosity-episodic-context-3d-exploration-2026]] → [[verifier-graph]] (no return link)
+  - [[recuriosity-episodic-context-3d-exploration-2026]] → [[mop-explorer]] (no return link)
+  - [[recuriosity-episodic-context-3d-exploration-2026]] → [[3dgs]] (no return link)
+  - [[recuriosity-episodic-context-3d-exploration-2026]] → [[episodic-memory]] (no return link)
+  - [[recuriosity-episodic-context-3d-exploration-2026]] → [[habitat]] (no return link)
+  - [[recuriosity-episodic-context-3d-exploration-2026]] → [[curiosity-driven-exploration]] (no return link)
+  - [[bounded-structured-memory]] → [[zettelkasten-engine]] (no return link)
+  - [[interaction-design]] → [[ux-design]] (no return link)
+  - [[mathematical-reasoning-ai]] → [[alphaevolve]] (no return link)
+  - [[agentic-oversight]] → [[bounded-structured-memory]] (no return link)
+  - [[creativity]] → [[llm-reasoning]] (no return link)
+  - [[creativity]] → [[opendeepthink-parallel-reasoning]] (no return link)
+  - [[creativity]] → [[parallel-reasoning]] (no return link)
+  - [[creativity]] → [[multi-agent-llm-systems]] (no return link)
+  - [[creativity]] → [[emergence]] (no return link)
+  - [[creativity]] → [[shorthand-for-thought]] (no return link)
+  - [[creativity]] → [[in-context-learning]] (no return link)
+  - [[ml-optimization]] → [[machine-learning]] (no return link)
+  - [[isabelle-hol]] → [[hermes-agent]] (no return link)
+  - [[reinforcement-learning]] → [[machine-learning]] (no return link)
+  - [[vision-language-models]] → [[llm-vision]] (no return link)
+  - [[vision-language-models]] → [[multimodal-llm]] (no return link)
+  - [[symbolic-regression]] → [[mcp-logic]] (no return link)
+  - [[llm-training]] → [[mixture-of-experts]] (no return link)
+  - [[llm-training]] → [[agent-onboarding]] (no return link)
+  - [[graph-rlm]] → [[agem]] (no return link)
+  - [[graph-rlm]] → [[efhf]] (no return link)
+  - [[graph-rlm]] → [[tyler-hall]] (no return link)
+  - [[markovian-dev-agency]] → [[bounded-structured-memory]] (no return link)
+  - [[markovian-dev-agency]] → [[paperclip]] (no return link)
+  - [[github-actions-troubleshooting]] → [[uv]] (no return link)
+  - [[github-actions-troubleshooting]] → [[trunk]] (no return link)
+  - [[github-actions-troubleshooting]] → [[taplo]] (no return link)
+  - [[github-actions-troubleshooting]] → [[github-actions]] (no return link)
+  - [[multi-agent-reasoning]] → [[llm-reasoning]] (no return link)
+  - [[multi-agent-reasoning]] → [[agentic-reasoning]] (no return link)
+  - [[multi-agent-reasoning]] → [[multi-agent-llm-systems]] (no return link)
+  - [[multi-agent-reasoning]] → [[multi-agent-coordination]] (no return link)
+  - [[multi-agent-reasoning]] → [[process-reward-model]] (no return link)
+  - [[multi-agent-reasoning]] → [[self-correction]] (no return link)
+  - [[multi-agent-reasoning]] → [[chain-of-thought]] (no return link)
+  - [[language-models]] → [[large-language-models]] (no return link)
+  - [[ai-governance]] → [[public-health-governance]] (no return link)
+  - [[ai-governance]] → [[ai-scientific-discovery]] (no return link)
+  - [[electrical-engineering]] → [[engineering]] (no return link)
+  - [[cognitive-world-models-for-llm-agents]] → [[futuresim-adaptive-agents]] (no return link)
+  - [[cognitive-world-models-for-llm-agents]] → [[agent-architectures]] (no return link)
+  - [[cognitive-world-models-for-llm-agents]] → [[hipai-montague]] (no return link)
+  - [[cognitive-world-models-for-llm-agents]] → [[bounded-rationality]] (no return link)
+  - [[motion-understanding]] → [[efhf]] (no return link)
+  - [[motion-understanding]] → [[delta-direct]] (no return link)
+  - [[motion-understanding]] → [[probing-analysis]] (no return link)
+  - [[video-llm]] → [[delta-direct]] (no return link)
+  - [[video-llm]] → [[probing-analysis]] (no return link)
+  - [[persistent-knowledge-compilation]] → [[llm-wiki-pattern]] (no return link)
+  - [[llm]] → [[large-language-models]] (no return link)
+  - [[llm]] → [[nlp]] (no return link)
+  - [[information-theory]] → [[information-retrieval]] (no return link)
+  - [[conscience-servitor]] → [[sheaf-consistency-enforcer]] (no return link)
+  - [[conscience-servitor]] → [[hipai-montague]] (no return link)
+  - [[conscience-servitor]] → [[mcp-logic]] (no return link)
+  - [[computer-vision]] → [[machine-learning]] (no return link)
+  - [[category-theory]] → [[isabelle]] (no return link)
+  - [[aseke-compass-mcp]] → [[agem]] (no return link)
+  - [[aseke-compass-mcp]] → [[tyler-hall]] (no return link)
+  - [[open-ended-evolution]] → [[efhf]] (no return link)
+  - [[open-ended-evolution]] → [[utimula-openpraparat-2025]] (no return link)
+  - [[hipai-montague]] → [[mop-explorer]] (no return link)
+  - [[hipai-montague]] → [[mcp-logic]] (no return link)
+  - [[wolfram-nks-causal-networks]] → [[mobile-automata]] (no return link)
+  - [[wolfram-nks-causal-networks]] → [[computational-universe]] (no return link)
+  - [[compression]] → [[representation-learning]] (no return link)
+  - [[compression]] → [[information-theory]] (no return link)
+  - [[panksepp-emotional-systems]] → [[machine-psychology]] (no return link)
+  - [[agentic-research]] → [[momoa-researcher]] (no return link)
+  - [[agentic-research]] → [[why-llms-arent-scientists-yet]] (no return link)
+  - [[agentic-research]] → [[is-grep-all-you-need]] (no return link)
+  - [[agentic-reasoning]] → [[llm-reasoning]] (no return link)
+  - [[agentic-reasoning]] → [[adaptive-computation]] (no return link)
+  - [[agentic-reasoning]] → [[latent-reasoning]] (no return link)
+  - [[agentic-reasoning]] → [[mcp-model-context-protocol]] (no return link)
+  - [[agentic-reasoning]] → [[multi-agent-coordination]] (no return link)
+  - [[agentic-reasoning]] → [[autonomous-research]] (no return link)
+  - [[agentic-reasoning]] → [[self-correction]] (no return link)
+  - [[agentic-reasoning]] → [[code-agent]] (no return link)
+  - [[agentic-reasoning]] → [[chain-of-thought]] (no return link)
+  - [[namm]] → [[bounded-structured-memory]] (no return link)
+  - [[namm]] → [[maximum-occupancy-principle]] (no return link)
+  - [[priorlabstabpfn]] → [[huggingface]] (no return link)
+  - [[network-theory]] → [[complexity]] (no return link)
+  - [[agent-architectures]] → [[multi-agent-llm-systems]] (no return link)
+  - [[agent-architectures]] → [[agentic-planner]] (no return link)
+  - [[agent-architectures]] → [[bounded-structured-memory]] (no return link)
+  - [[agent-architectures]] → [[hierarchical-supervisor]] (no return link)
+  - [[agent-architectures]] → [[cognitive-architecture]] (no return link)
+  - [[recursive-neural-networks]] → [[neural-networks]] (no return link)
+  - [[MCTS]] → [[code-generation]] (no return link)
+  - [[MCTS]] → [[causal-reasoning]] (no return link)
+  - [[MCTS]] → [[process-reward-model]] (no return link)
+  - [[MCTS]] → [[swe-bench]] (no return link)
+  - [[MCTS]] → [[agentic-hierarchy]] (no return link)
+  - [[MCTS]] → [[world-model]] (no return link)
+  - [[project-management]] → [[agile]] (no return link)
+  - [[epistemic-energy]] → [[efhf]] (no return link)
+  - [[epistemic-energy]] → [[bounded-rationality]] (no return link)
+  - [[hermes-agent-skills]] → [[hermes-agent]] (no return link)
+  - [[protein-aggregation]] → [[alzheimers-research]] (no return link)
+  - [[domain-onboarding-standards]] → [[hermes-agent]] (no return link)
+  - [[profiles]] → [[hermes-agent]] (no return link)
+  - [[agents]] → [[autonomous-agents]] (no return link)
+  - [[agents]] → [[markovian-carryover]] (no return link)
+  - [[agents]] → [[agentic-planner]] (no return link)
+  - [[agents]] → [[multi-agent-llm-systems]] (no return link)
+  - [[agents]] → [[agent-taxonomies]] (no return link)
+  - [[agents]] → [[agent-architectures]] (no return link)
+  - [[agents]] → [[cognitive-world-models-for-llm-agents]] (no return link)
+  - [[agents]] → [[bounded-structured-memory]] (no return link)
+  - [[agents]] → [[llm-agents]] (no return link)
+  - [[agents]] → [[agent-design]] (no return link)
+  - [[agents]] → [[hermes-agent]] (no return link)
+  - [[infinite]] → [[mathematics]] (no return link)
+  - [[CRI]] → [[maximum-occupancy-principle]] (no return link)
+  - [[multi-agent-systems]] → [[agents]] (no return link)
+  - [[reasoning]] → [[latent-reasoning]] (no return link)
+  - [[reasoning]] → [[multi-agent-reasoning]] (no return link)
+  - [[agent-native-design]] → [[efhf]] (no return link)
+  - [[llm-reasoning]] → [[scaling-laws]] (no return link)
+  - [[llm-reasoning]] → [[mixture-of-experts]] (no return link)
+  - [[llm-reasoning]] → [[reinforcement-learning-from-human-feedback]] (no return link)
+  - [[llm-reasoning]] → [[process-reward-model]] (no return link)
+  - [[llm-reasoning]] → [[self-correction]] (no return link)
+  - [[llm-reasoning]] → [[in-context-learning]] (no return link)
+  - [[llm-reasoning]] → [[world-model]] (no return link)
+  - [[lora]] → [[control-llm]] (no return link)
+  - [[lora]] → [[mixture-of-experts]] (no return link)
+  - [[lora]] → [[llm-training]] (no return link)
+  - [[lora]] → [[continual-learning]] (no return link)
+  - [[lora]] → [[catastrophic-forgetting]] (no return link)
+  - [[claude-code]] → [[why-llms-arent-scientists-yet]] (no return link)
+  - [[anthropic]] → [[ai-safety]] (no return link)
+  - [[adaptive-computation]] → [[epistemic-energy]] (no return link)
+  - [[adaptive-computation]] → [[bounded-rationality]] (no return link)
+  - [[adaptive-computation]] → [[mixture-of-depths]] (no return link)
+  - [[open-source-ai]] → [[ai-governance]] (no return link)
+  - [[is-grep-all-you-need]] → [[retrieval-augmented-generation]] (no return link)
+  - [[is-grep-all-you-need]] → [[information-retrieval]] (no return link)
+  - [[swe-bench]] → [[hermes-agent]] (no return link)
+  - [[dhruv-trehan]] → [[why-llms-arent-scientists-yet]] (no return link)
+  - [[obsidian]] → [[obsidian-git-setup]] (no return link)
+  - [[obsidian]] → [[obsidian-cli-skill]] (no return link)
+  - [[feature-learning]] → [[deep-learning]] (no return link)
+  - [[uae]] → [[geopolitics]] (no return link)
+  - [[who]] → [[public-health]] (no return link)
+  - [[terrorism]] → [[geopolitics]] (no return link)
+  - [[model-evaluation]] → [[benchmarking]] (no return link)
+  - [[hilbert-hotel]] → [[set-theory]] (no return link)
+  - [[maximum-occupancy-principle]] → [[efhf]] (no return link)
+  - [[maximum-occupancy-principle]] → [[zettelkasten-engine]] (no return link)
+  - [[maximum-occupancy-principle]] → [[continual-learning]] (no return link)
+  - [[maximum-occupancy-principle]] → [[ebola-outbreak-drc-2026]] (no return link)
+  - [[ebola-outbreak-drc-2026]] → [[public-health-governance]] (no return link)
+  - [[ebola-outbreak-drc-2026]] → [[infectious-disease]] (no return link)
+  - [[ebola-outbreak-drc-2026]] → [[who-emergency-declarations]] (no return link)
+  - [[ebola-outbreak-drc-2026]] → [[global-health-security]] (no return link)
+  - [[graph-theory]] → [[knowledge-graph]] (no return link)
+  - [[brain-research]] → [[cognitive-science]] (no return link)
+  - [[gemini]] → [[why-llms-arent-scientists-yet]] (no return link)
+  - [[alzheimers-research]] → [[ai-scientific-discovery]] (no return link)
+  - [[verifier-graph]] → [[agem]] (no return link)
+  - [[verifier-graph]] → [[efhf]] (no return link)
+  - [[verifier-graph]] → [[tyler-hall]] (no return link)
+  - [[ramirez-ruiz-mop-2024]] → [[zettelkasten-engine]] (no return link)
+  - [[lean-manufacturing]] → [[process-management]] (no return link)
+  - [[obsidian-git-setup]] → [[llm-wiki-pattern]] (no return link)
+  - [[obsidian-git-setup]] → [[obsidian-cli-skill]] (no return link)
+  - [[obsidian-git-setup]] → [[obsidian-para-byarbrough]] (no return link)
+  - [[mop-explorer]] → [[zettelkasten-engine]] (no return link)
+  - [[mop-explorer]] → [[efhf]] (no return link)
+  - [[mop-explorer]] → [[project-synapse]] (no return link)
+  - [[geopolitics]] → [[china-cuba-tensions]] (no return link)
+  - [[quantum-computing]] → [[ai-scientific-discovery]] (no return link)
+  - [[meta-harness]] → [[efhf]] (no return link)
+  - [[meta-harness]] → [[mcp-logic]] (no return link)
+  - [[meta-harness]] → [[hermes-agent]] (no return link)
+  - [[meta-harness]] → [[agem]] (no return link)
+  - [[meta-harness]] → [[project-synapse]] (no return link)
+**Non-preferred tags** (1) — use controlled vocabulary:
+  - wiki/concepts/tag-taxonomy.md: `taxonomy` → use `controlled-vocabulary`

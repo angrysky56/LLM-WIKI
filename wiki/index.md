@@ -166,7 +166,7 @@ type: index
 - [[concept-index]] — [STUB] Concept index for wiki navigation
 - [[constitutional-ai]] — Alignment technique using AI-generated self-critique and principle-based revision instead of human-labeled preference data
 - [[content-addressed-storage]] — [STUB] Content-addressed storage systems
-- [[continual-learning]] — [STUB] Machine learning paradigm where models learn continuously without catastrophic forgetting
+- [[continual-learning]] — ML paradigm where models learn continuously without catastrophic forgetting — regularization, architectural, and memory-based approaches
 - [[control-llm]] — Control LLM — architectural mitigation for catastrophic forgetting via frozen/trainable branch bifurcation
 - [[coordination]] — [STUB] Coordination — coordinating multiple agents or systems
 - [[cosmology]] — [STUB] Cosmology — universe origin, structure, evolution
@@ -316,7 +316,7 @@ type: index
 - [[llm]] — [STUB] LLM — large language model — general reference
 - [[load-bearing-reasoning]] — A framework for interpretability that distinguishes between tokens necessary for a conclusion (load-bearing) and those that serve as statistical noise reduction (scaffolding).
 - [[logic]] — [STUB] Logic — formal systems of reasoning and inference
-- [[lora]] — 
+- [[lora]] — LoRA — Low-Rank Adaptation — parameter-efficient fine-tuning using rank-decomposition matrices 
 - [[machine-learning]] — [STUB] Machine learning — systems that learn patterns from data without explicit programming
 - [[machine-psychology]] — Study of AI behavior through psychological frameworks — applying biological psychology concepts (emotional systems, behavioral metrics, cognitive architectures) to understand and shape AI behavior
 - [[magnetosphere]] — [STUB] Magnetosphere — Earth's magnetic field and solar wind interaction
@@ -366,7 +366,7 @@ type: index
 - [[multimodal-llm]] — [STUB] Multimodal LLM — large language models that process multiple modalities (text, vision, audio)
 - [[musk-velocity]] — [STUB] Elon Musk's velocity of execution and impact on AI/space industries
 - [[myelination]] — The process of forming a myelin sheath around a nerve fiber to increase signal speed.
-- [[namm]] — NAMM — Neural Attention Memory Models replacing heuristic KV cache rules with learned retention strategies
+- [[namm]] — NAMM — Neural Attention Memory Models — learned KV cache retention vs Control LLM's architectural bifurcation
 - [[nasa-artemis]] — [STUB] NASA Artemis program for lunar exploration
 - [[nato-expansion]] — [STUB] NATO expansion into Eastern Europe and its geopolitical implications
 - [[natural-language-processing]] — [STUB] Natural language processing — computational analysis and generation of human language

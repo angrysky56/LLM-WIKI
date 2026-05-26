@@ -1,15 +1,15 @@
 ---
-summary: arxiv agent carryover — Shannon Scaling Law, SkillOpt, SkillLens — bounded representation capacity theme
-updated: 2026-05-26T00:00:00Z
+summary: arxiv agent carryover — CUA-GYM, SafeCtrl-RL, Orthogonal Bottlenecks — capacity-constrained adaptation theme
+updated: 2026-05-27
 ---
 
 ---
-created: 2026-05-26T00:00:00Z
-updated: 2026-05-26T00:00:00Z
+created: 2026-05-26
+updated: 2026-05-27
 type: report
-summary: "arxiv agent carryover — 2026-05-26 batch: Shannon Scaling Law (finite LLM capacity via SNR), SkillOpt (trainable skill docs), SkillLens (negative transfer is common, meta-skill reduces it)"
+summary: "arxiv agent carryover — 2026-05-27 batch: CUA-GYM (agentic RLVR data synthesis), SafeCtrl-RL (inference-time safety), Orthogonal Bottlenecks (low-dim RL) — capacity-constrained adaptation theme"
 tags: [arxiv, carryover]
-status: active
+status: done
 confidence: high
 ---
 
@@ -24,40 +24,37 @@ confidence: high
 ||| 2026-05-21 | 3 papers ingested | EqR (attractors), DeepWeb-Bench, hyperparameter transfer |
 ||| 2026-05-23 | 3 papers ingested | VPO (diversity RL), DeltaDirect (motion blindness), Recuriosity (3D exploration) — test-time scaffolding theme |
 ||| 2026-05-24 | 3 papers ingested | ProxySHAP (Shapley/Banzhaf), Boiling the Frog (agentic safety), CUSP (scientific forecasting) — verification/trust theme |
-||| 2026-05-26 | 3 papers ingested | Shannon Scaling Law (finite LLM capacity), SkillOpt (trainable skill docs), SkillLens (skill lifecycle, negative transfer) — **bounded representation capacity theme** |
+||| 2026-05-27 | 3 papers ingested | CUA-GYM (RLVR data synthesis), SafeCtrl-RL (inference-time safety), Orthogonal Bottlenecks (low-dim RL) — capacity-constrained adaptation theme |
 
 ## Current State
 
-- **arXiv**: 2026-05-26 batch fully processed — 3 papers ingested
-- **arXiv API**: No rate limiting; behaved normally throughout
-- **Wiki paper inventory**: ~323 pages
+- **arXiv**: 2026-05-27 batch fully processed — 3 papers ingested
+- **arXiv API**: No rate limiting; direct Python urllib used throughout
+- **Wiki paper inventory**: ~326 pages
 
-## Papers Ingested (2026-05-26 batch)
+## Papers Ingested (2026-05-27 batch)
 
-||| Paper | arXiv ID | Key Finding | Wiki Connection |
-|||-------|----------|-------------|------------------|
-||| Shannon Scaling Law | 2605.23901 | LLM capacity bounded by SNR; U-shaped degradation emerges past critical model-data ratio; extrapolates with R²=0.847 | Connects to [[efhf]], [[verifier-graph]], [[maximum-occupancy-principle]], [[mop-explorer]] |
-||| SkillOpt | 2605.23904 | First systematic text-space optimizer for agent skills — skill documents are trainable external state with validation gating, edit budgets, and epoch-wise meta updates; best on 52/52 cells | Connects to [[efhf]], [[agentic-research]], [[mop-explorer]], [[maximum-occupancy-principle]] |
-||| SkillLens | 2605.23899 | Full skill lifecycle study — negative transfer is common and non-trivial; skill utility is independent of model scale; meta-skill that guides extraction toward utility-features reduces negative transfer | Connects to [[efhf]], [[agentic-research]], [[mop-explorer]], [[verifier-graph]] |
+| Paper | arXiv ID | Key Finding | Wiki Connection |
+|-------|----------|-------------|-----------------|
+| CUA-GYM | 2605.25624 | Agentic co-generation pipeline for CUA RLVR data — 32K verified tuples, 110 envs; environment diversity is independent scaling axis; Qwen3.5-A3B→62.1% OSWorld-Verified | Connects to [[efhf]], [[agentic-research]], [[mop-explorer]], [[verifier-graph]], [[bounded-representation-capacity]] |
+| SafeCtrl-RL | 2605.25984 | Inference-time RL-driven prompt optimization — 11 strategies, 36-D state, hard safety gating with zero reward on critical violations; behavioral unlearning without parameter change | Connects to [[bounded-representation-capacity]], [[verifier-graph]], [[agentic-research]] |
+| Orthogonal Bottlenecks | 2605.26012 | Fixed orthonormal projection constrains RL encoder to low-dim subspace; k ≥ r preserves expressivity; minimal sufficient dim depends on env complexity not encoder width | Connects to [[bounded-representation-capacity]], [[maximum-occupancy-principle]], [[mop-explorer]] |
 
-## Cross-Paper Theme: Bounded Representation Capacity
+## Cross-Paper Theme: Capacity-Constrained Adaptation
 
-**The unifying finding**: The failure mode of bounded representations is **saturation-induced degradation**, not mere sub-optimality.
+**The unifying finding**: All three papers implement adaptation with capacity constraints enforced at the adaptation point, not the output.
 
-| System | Representation | Saturation Failure |
-|--------|---------------|-------------------|
-| LLM (Shannon Law) | Model weights | U-shaped loss — scaling past SNR threshold degrades performance |
-| Skill document (SkillOpt) | External text state | Harmful rewrites accumulate when validation gate is absent |
-| Skill transfer (SkillLens) | Transferred skill | Negative transfer when skill exceeds target's semantic capacity |
+| System | Adaptation Target | Capacity Constraint | Enforcement |
+|--------|------------------|---------------------|--------------|
+| CUA RLVR (CUA-GYM) | Environment state + reward function | Information barrier + adversarial synthesis | Isolated Discriminator cannot see Generator |
+| LLM behavior (SafeCtrl-RL) | System prompt | Hard safety threshold | Zero reward on critical violations regardless of quality |
+| RL representation (Orthogonal Bottlenecks) | Encoder features | Bottleneck dimension k ≥ r (intrinsic rank) | Fixed orthonormal projection |
 
-**Design principle**: Every bounded adaptation step must be verification-gated with a capacity-constrained step size.
-
-## Kanban Status
-- [ ] Surfaced to central board: 2026-06-26
+**Design principle**: When adapting a bounded system, enforce capacity constraints at the adaptation point, not just the output.
 
 ## Notes for Next Run
 
-- **World-model improvement as next theme continues**: Given the bounded representation theme, next cycle should search for papers on: model editing, knowledge unlearning, skill compaction/compression, uncertainty-aware planning, or adaptive world model improvement via environment interaction.
-- **The SNR ↔ reliability mapping**: The Shannon Scaling Law's SNR-to-capacity mapping (C = B log₂(1+S/N)) is structurally identical to the reliability ratio in [[verifier-graph]] — both track signal quality relative to noise. Papers on calibrated confidence scores or uncertainty-aware verification would deepen this thread.
-- **Capacity-aware skill construction**: SkillOpt's bounded edits and SkillLens's meta-skill both point to a general principle: skill documents should be constructed with explicit capacity budgets relative to target model scale. A "skill capacity planning" thread would bridge these papers.
-- **Papers worth revisiting**: LCGuard (2605.22786, multi-agent KV sharing safety), HarnessAPI (2605.22733, MCP+HTTP unified endpoints), ProxySHAP (2605.22738 — the SNR/exact-Shapley structure exploit pattern appears in both ProxySHAP and the Shannon Scaling Law)
+- **Model editing / knowledge unlearning**: SafeCtrl-RL's inference-time behavioral unlearning suggests papers on targeted knowledge erasure or unlearning in LLMs; bridges capacity-constrained adaptation with the bounded representation theme
+- **Skill compaction / compression**: CUA-GYM's environment diversity as independent scaling axis suggests papers on compact skill representations or skill compression for transfer; connects to SkillOpt/SkillLens from prior batch
+- **Uncertainty-aware verification**: SafeCtrl-RL's hard safety gating parallels SNR-based capacity thinking from Shannon Scaling Law; papers on calibrated confidence or uncertainty-aware verification would deepen the capacity thread
+- **Papers worth revisiting**: HarnessAPI (2605.22733, MCP unified endpoints) — was in prior notes but not yet processed; LCGuard (2605.22786, multi-agent KV sharing safety) — safety in multi-agent communication

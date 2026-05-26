@@ -1,5 +1,5 @@
 ---
-updated: 2026-05-26T19:11:11Z
+updated: 2026-05-26T20:22:39Z
 type: index
 ---
 
@@ -573,7 +573,7 @@ type: index
 - [[anthropic]] — [STUB] Anthropic — AI safety company behind Claude
 - [[efhf]] — Five-layer AI architecture implementing computational mechanics (epsilon machines, lumpability, causal closure) as a live multi-agent system — MOP proposed as Layer 0 for proactive exploration
 - [[esa]] — [STUB] ESA — European Space Agency
-- [[goodrobot]] — GoodRobot — SHUT DOWN — zero-human AI agent company was simulating corporate governance with ethics board
+- [[goodrobot]] — GoodRobot — SHUT DOWN — zero-human AI agent company was simulating corporate governance with ethics board (consolidated to wiki/projects/goodrobot/)
 - [[google-deepmind]] — [STUB] Google DeepMind — AI research division of Google
 - [[huggingface]] — [STUB] Hugging Face — AI model hub and community
 - [[james-webb-space-telescope]] — [STUB] James Webb Space Telescope — JWST observatory
@@ -622,12 +622,17 @@ type: index
 - [[us-sanctions-stub]] — US Sanctions — Specially Designated Nationals (SDN) framework
 - [[Q2_SALES_TARGET_LIST]] — 
 - [[STRATEGIC_BRIEF]] — 
+- [[active-business-plan]] — GoodRobot — plug-and-play AI agent teams for SMBs (archived trial)
 - [[business-concept]] — 
+- [[go-to-market-strategy]] — GoodRobot GTM strategy — target customer profiles, 30/60/90 day launch plan, sales motion
 - [[hiring-plan]] — 
 - [[issues-index]] — 
 - [[local-lead-gen]] — 
+- [[research-pipeline]] — GoodRobot research pipeline MVP — 3-stage (Research → Gap Analysis → Pitch Prep), JSON schemas
 - [[revenue-model]] — 
 - [[roadmap]] — 
+- [[shut-down-entity]] — GoodRobot SHUT DOWN — zero-human AI agent company, ethics board simulation
+- [[technical-architecture]] — GoodRobot technical architecture — agent runtime, task routing, memory system, API design
 - [[goodrobot-gtm-strategy]] — 
 - [[goodrobot-research-pipeline]] — 
 - [[goodrobot-technical-architecture]] — 
@@ -656,7 +661,7 @@ type: index
 - [[workflow]] — 
 - [[audit-report]] — 
 - [[librarians-assistant]] — 
-- [[carryover]] — Misclassification already resolved; GoodRobot duality and .bak accumulation need Ty decisions
+- [[carryover]] — Vault structurally healthy — 0 broken links, 0 missing frontmatter; GoodRobot and .bak still need Ty
 - [[quick-reference]] — 
 - [[workflow]] — 
 - [[batch-progress]] — 
@@ -1038,7 +1043,7 @@ type: index
 - [[ebola]] — [STUB] Ebola disease — viral hemorrhagic fever
 - [[eu-us-trade-relations]] — [STUB] EU-US trade relations and economic policy
 - [[gaza-humanitarian-crisis]] — [STUB] Ongoing humanitarian crisis in Gaza 2024-2026
-- [[goodrobot-revenue-model]] — [STUB] GoodRobot revenue model — subscription tiers, unit economics, financial projections
+- [[goodrobot-revenue-model]] — [REDIRECT] Consolidated to wiki/projects/goodrobot/revenue-model.md
 - [[great-power-competition]] — [STUB] Great power competition — US-China-Russia strategic rivalry
 - [[hantavirus]] — [STUB] Hantavirus outbreak and public health response
 - [[healthcare]] — [STUB] Healthcare — medical systems, treatment delivery, patient care, health policy

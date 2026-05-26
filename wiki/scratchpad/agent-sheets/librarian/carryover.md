@@ -5,7 +5,7 @@
 - [x] MCP tools: REACHABLE this cycle ✓
 - [x] Kanban tasks created for open items (per kanban-review skill):
   - t_029ba0b1e28a199f: GoodRobot multi-location consolidation — blocked, needs Ty
-  - t_2dc7aaf9d398a4c8: 44 .bak files — blocked, needs Ty
+  - [x] t_2dc7aaf9d398a4c8: 44 .bak files — RESOLVED: bulk deleted per dashboard directive
   - t_0adf1f46e814ee2f: 8 stub concepts — ready (delegate)
   - t_8d4282a9420e6d6e: 85 broken links — ready (delegate)
 
@@ -17,7 +17,7 @@
 - Stub concepts (≤15 lines): 6 (was 8 — grpo.md deleted [alias redirect], word-cloud-communication.md deleted [zero incoming links])
   - beta, delta, epsilon, gamma, zeta, legal-accountability-stub
   - Greek stubs (5): kept, frontmatter upgraded to full schema (were missing created/updated/type/summary/status/confidence)
-- .bak files: 44 (unchanged — 45+ days accumulated)
+- .bak files: 0 (was 44 — bulk deleted 2026-05-26 per dashboard directive)
 - No new broken links detected (0 broken-ref patterns)
 - 852 pages have ## Connections sections (strong linking culture)
 
@@ -41,9 +41,9 @@ Minimal content (≤15 lines each). Not critical issues but low informational va
 ## Open
 
 1. **GoodRobot multi-location** — 5 files across 3 vault locations (entities/, projects/projects 1/, synthesis/) for same entity — needs Ty consolidation decision
-2. **44 .bak files** — archival strategy needed (selective restore or bulk delete)
+2. ~~44 .bak files~~ — RESOLVED: bulk deleted per dashboard directive
 3. **8 stub concepts** — low-value minimal pages — needs expand/merge/delete decision
-4. **85 broken links** — teaching examples in operating docs ([[deliberative-agents]], [[reactive-agents]], [[hybrid-agents]], [[meta-cognitive-agents]] etc.) + genuine missing refs from sheet.md → [[overseer/SKILL.md]], [[arxiv/carryover]] etc.
+4. **85 broken links** — teaching examples in operating docs + genuine missing refs — needs Ty decision
 5. **252 orphans** — high count expected given operational files (agent-sheets) and daily reports; genuine orphans are mostly news/headlines reports and discovery reports (time-stamped, not linked after creation)
 
 ## Heading

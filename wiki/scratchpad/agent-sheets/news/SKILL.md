@@ -1,11 +1,11 @@
 ---
 name: news
-description: "Daily global news curator — RSS discovery, significance filtering, wiki article ingestion, deliver headlines report. Schedule: 08:00 AM."
+description: "Daily global news curator — RSS discovery, significance filtering, clippings archive + synthesis wiki delivery, deliver headlines report. Schedule: 08:00 AM. Clippings: Clippings/news/YYYY/. Synthesis: wiki/synthesis/news/."
 tags: [news, global-news, rss, daily]
 triggers:
   - cron: "0 8 * * *"
   - manual: delegate_task
-updated: 2026-05-25
+updated: 2026-05-26
 created_by: agent
 ---
 
@@ -27,8 +27,9 @@ Scan global news via RSS, identify 3-5 significant stories, ingest to wiki, deli
 3. Query RSS feeds (NOT wiki search) — 5-7 topic queries
 4. Check article index for duplicates (carryover + recent headlines)
 5. Select 3-5 globally significant stories
-6. Ingest to wiki as `wiki/sources/articles/{slug}.md`
-7. Deliver headlines report
+6. Write raw clipping to `Clippings/news/YYYY/[slug].md`
+7. Write synthesis to `wiki/synthesis/news/[slug].md`
+8. Deliver headlines report
 
 ## RSS Topic Queries
 

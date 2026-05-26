@@ -1,6 +1,11 @@
 ---
-description: "Zeta archetype — the Entropy Regulation Agent in the oMCD framework."
+created: 2026-05-25
+updated: 2026-05-25
+type: concept
+summary: Zeta archetype — the Entropy Regulation Agent in the oMCD framework
 tags: [oMCD, agent-taxonomies]
+status: reference
+confidence: 0.9
 ---
 
 # Zeta

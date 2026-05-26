@@ -1,6 +1,11 @@
 ---
-description: "Beta archetype — the Option Optimization Agent in the oMCD framework."
+created: 2026-05-25
+updated: 2026-05-25
+type: concept
+summary: Beta archetype — the Option Optimization Agent in the oMCD framework
 tags: [oMCD, agent-taxonomies]
+status: reference
+confidence: 0.9
 ---
 
 # Beta

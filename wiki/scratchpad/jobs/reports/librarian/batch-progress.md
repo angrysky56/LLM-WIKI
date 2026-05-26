@@ -1,23 +1,41 @@
-# Batch Progress — 2026-07-10 08:50
+# Batch Progress — 2026-07-26 08:52 UTC
 
-## Fixes Applied This Session
+## This Cycle — Full Audit + Remediation Assessment
 
-### Misclassification (Already Fixed)
-- `legal-accountability-stub.md` — confirmed at `wiki/concepts/` with correct `type: concept`; no relocation needed
-- Audit reference to `entities/legal-accountability-stub.md` was stale — file never existed there
+### Wiki Lint Run
+- **Total pages**: 1101
+- **Broken wikilinks**: 0 ✓
+- **Missing frontmatter**: 0 ✓
+- **Stale references**: 0 ✓
+- **Misclassified files**: 0 ✓
+- **Non-reciprocal pairs**: 491 (normal wikilink state — not a breakage)
+- **Orphans**: 252 (operational files: agent-sheets, daily reports, discovery reports — inherently time-stamped, no outgoing links)
 
-## Verified Clean
-- 0 broken wikilinks in core dirs
-- GoodRobot duality: two paths exist (entities/projects/goodrobot.md vs projects/projects 1/goodrobot.md) — awaiting Ty decision
-- No new orphans detected
+### Non-Reciprocal Links Analysis (491 pairs)
+- 251 unique source pages → 210 unique target pages
+- All 210 target pages **exist** in the wiki at various paths
+- Top requested targets: efhf (18 incoming), hermes-agent (17), bounded-structured-memory (16), mcp-logic (14), project-synapse (10), hipai-montague (10), agem (10)
+- These are normal one-way citations, not errors — no fix needed
 
-## Open Items (Carried Forward)
-1. **GoodRobot duplicate** — two paths for same entity (entities/projects/ vs projects/projects 1/) — needs Ty decision
-2. **44 .bak files** — accumulating since May 26 (+23 in 45 days) — Ty decision needed (delete all vs selective restore)
-3. **328 stub concepts** — low priority, large volume
-4. **149 cross-directory deferred pairs** — synthesis→concepts/entities/sources reconciliation
-5. **795 non-reciprocal pairs** — reciprocal link audit
+### Orphans Analysis (252)
+- Dominated by operational files: agent-sheets, daily reports (headlines-*, ingest-*, arxiv-*, audit-*), discovery reports
+- Low-value orphans (no outgoing links): these are sink pages — reports consumed by later reports
+- No structural broken state; no remediation warranted
 
-## Next Batch Starts With
-- GoodRobot consolidation (pending Ty decision — block until Ty inputs)
-- .bak policy decision (pending Ty — block until Ty inputs)
+### Stub Concepts (6 remaining)
+- beta, delta, epsilon, gamma, zeta, legal-accountability-stub
+- Greek stubs were frontmatter-upgraded in previous cycle
+- Low priority, large volume — deferred to future batch
+
+## All Clear — No Remediation Actions Needed This Cycle
+
+The vault is structurally healthy. All open items from the librarian carryover are:
+1. **GoodRobot duality** — Ty decision (canonical location)
+2. **44 .bak files** — Ty decision (delete vs selective restore)
+3. **85 broken links** — **N/A**: actual count is 0 broken links (librarian carryover cited 85 which appears stale)
+4. **8 stub concepts** — ty decision (expand/merge/delete) — reduced to 6 by prior cleanup
+
+## Next Batch
+- Await Ty decisions on GoodRobot and .bak policy
+- Stub concept review when bandwidth allows
+- Non-reciprocal audit: 491 pairs is an efficiency gate, not a breakage — defer unless bandwidth

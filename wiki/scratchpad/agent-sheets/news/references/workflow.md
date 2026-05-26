@@ -42,16 +42,17 @@ Criteria for ingestion:
 
 Aim for 3-5 stories per cycle.
 
-## STEP 4 — Ingest to Wiki
+## STEP 4 — Write to Clippings + Synthesis
 
 For each significant story:
-1. Write summary to `wiki/sources/articles/[slug].md`
-2. If it relates to existing projects/concepts: update those pages with cross-links
-3. Tag appropriately
+1. Write raw clipping with frontmatter to `Clippings/news/YYYY/[slug].md`
+2. Write synthesis to `wiki/synthesis/news/[slug].md`
+3. If it relates to existing projects/concepts: update those pages with cross-links
+4. Tag appropriately
 
 ## STEP 5 — Write Your Report
 
-Save to: `/home/ty/Documents/LLM-WIKI/wiki/synthesis/news/2026-May/headlines-YYYY-MM-DD.md`
+Save to: `wiki/synthesis/news/headlines-YYYY-MM-DD.md`
 
 ## STEP 6 — Update Jobs Sheet
 

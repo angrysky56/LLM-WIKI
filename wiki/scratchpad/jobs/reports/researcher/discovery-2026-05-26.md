@@ -1,73 +1,39 @@
----
-created: 2026-05-26
-updated: 2026-05-26
-type: report
-summary: Researcher discovery report — 2026-05-26 cycle: QLoRA standalone page created, PEFT cluster complete, stub count 296 (-1)
-tags: [researcher, discovery, report]
----
-
 # Researcher Discovery Report — 2026-05-26
 
-## Cycle Summary
+## Discovery Cycle
+- Topics researched: 8 pages across MOP theory, RLHF methods, GRPO, and cognitive architecture
+- New pages created: 0 (all content already existed, work was synthesis and expansion)
+- Pages updated: 2 (**mop-and-rlhf-interaction.md**, **mop-architecture.md**)
+- Cross-links added: 3 (ramirez-ruiz-mop-2024, route-collapse-rlhf, mop-edm-cognitive-architecture)
 
-**Stub count**: 296 (was 297, net -1)  
-**Pages created**: 1  
-**Cross-links added**: 6
+## New/Updated Entries
 
-## Pages Upgraded This Cycle
+### mop-and-rlhf-interaction.md — substantial expansion
+**What changed:** The page existed with three resolution paths but lacked the mathematical grounding for why KL is structurally incompatible with MOP. Added:
 
-### 1. [[qora]] (stub → active, confidence 0.8)
+1. **The KL Formal Critique** (from MOP paper Supplemental Sec. F): Proved that `KL(π||π_ref)` with uniform default policy penalizes states with many available actions — self-defeating for occupancy maximization. The immediate return becomes `H(A|s) - ln|A(s)|` where the `-ln|A(s)|` term actively suppresses the states MOP most wants to maximize.
 
-QLoRA standalone concept page created to fill the PEFT cluster's remaining gap. Full content covers:
-- **Two-stage design**: 4-bit NF4 base model (frozen) + full-precision LoRA adapters (trained) — the architecture that enables 65B fine-tuning on 24GB GPU
-- **Why not quantize gradients**: quantization rounding error introduces structured bias that compounds over training steps; QLoRA avoids this by only quantizing the frozen base's forward pass
-- **NF4 format**: Normal Float 4 — optimized for normally-distributed weights; data-dependent quantization boundaries computed from calibration set
-- **Memory footprint comparison**: full fine-tune (bf16) vs LoRA vs QLoRA across 7B/13B/65B model sizes
-- **Relationship to QES**: QES addresses quantized model adaptation via evolutionary residual search; QLoRA uses gradient-based LoRA updates on dequantized weights — different mechanisms, same memory-efficiency goal
+2. **Absolute vs. Relative Entropy** as the core theoretical distinction: Path entropy (MOP's measure, unique per Theorem 1) is not merely different from KL divergence — it's a different measurement primitive entirely. MOP counts actual paths; KL measures divergence from reference.
 
-### Cross-links Added
-- [[parameter-efficient-fine-tuning]] — updated with QLoRA cross-link (PEFT cluster hub)
-- [[quantization]] — QLoRA's 4-bit base relies on PTQ and NF4 format
-- [[ml-evolution-benchmarking-protocol]] — QLoRA appears as baseline in ml-evolution framework
-- [[qes]] — QES and QLoRA are parallel approaches to quantized model adaptation
-- [[lora]] — QLoRA builds on LoRA's rank-decomposition adapter mechanism
+3. **Relationship to Fine-Tuning** section: Pre-training (no reference, MOP-compatible) vs fine-tuning (KL tether added, MOP-incompatible by default). Three ways to make fine-tuning MOP-compatible: remove reference (GRPO path), replace regularization target (group-relative), use absorbing states instead of KL.
 
-## PEFT Cluster Status
+4. **Expanded connections**: Added `[[ramirez-ruiz-mop-2024]]`, `[[route-collapse-rlhf]]`, `[[mop-edm-cognitive-architecture]]`
 
-All 6 PEFT stubs now filled:
-- ✅ LoRA (May 26)
-- ✅ parameter-efficient-fine-tuning (Jul 15)
-- ✅ QLoRA (May 26) ← **newly created this cycle**
-- ✅ QES (Jul 15)
-- ✅ ESSA (Jul 15)
-- ✅ CoLLM-NAS (Jul 15)
+### mop-architecture.md — new section added
+**What changed:** Added "MOP vs Fine-Tuning: When Memory, When Weights?" — a full decision matrix addressing the open question. Includes:
+- Path 1 (MOP memory compression): mechanism, 5 strengths, 3 weaknesses
+- Path 2 (fine-tuning): mechanism, 3 strengths, 4 weaknesses  
+- Factor table: experience type, update frequency, forgetting tolerance, interpretability need, budget, pattern stability, generalization
+- Key insight: MOP memory for novel/episodic/revocable experience; fine-tuning for stable patterns confirmed across many sessions
+- Architectural implication: MOP-as-Layer-0 + fine-tuning must be kept operationally separated because fine-tuning risks destroying the stochasticity MOP depends on
 
-PEFT cluster is complete. All 6 pages now at `status: active`.
-
-## Gap Analysis for Remaining Work
-
-### High-Value Remaining Gaps
-
-1. **Bounded memory budget optimization** — Open from prior cycles; capacity/saturation theme. Appears across ml-evolution cluster (QES, ESSA, LLaMA-NAS all address memory) but no dedicated page.
-
-2. **MOP vs fine-tuning boundary** — Open from prior cycles. ramirez-ruiz-mop-2024 and mop-architecture pages exist but their relationship to standard fine-tuning is not clearly articulated. The entropy maximization vs KL regularization tension is noted in rlhf page but not fully developed.
-
-3. **Schema competition** — Open from prior cycles; appears in meta-harness context but no dedicated page. Likely needs meta-harness project context before filling (similar to PRD Ralph Loop pattern).
-
-4. **epistemic-energy** stub — status: stub, confidence: 0.3. Connected to many high-authority pages (maximum-occupancy-principle, efhf, world-model). Should be reviewed for upgrade since it connects to top HITS authorities.
-
-5. **bounded-rationality** stub — status: stub, connected to agent-native-design and oMCD framework. Could benefit from oMCD project context.
-
-## Stub Count
-
-**Current: 296** (stub count from carryover; actual [STUB] marker count in index is higher due to orphans)
+## Gap Analysis
+- **mop-next-token-prediction.md** (stub) — applying MOP to transformer training from scratch. Very thin. Could be expanded with the Level 2 implementation insights from mop-edm-cognitive-inarchitecture.
+- **route-collapse-rlhf.md** — empirics of MoE routing collapse under RLHF. SafeMoE citation confirmed. Page may exist but not yet connected.
+- **eviction policy for MoE routing** — no existing page. The pre-training skew in MoE-Sieve (top-25% experts handle most tokens pre fine-tuning) is a distinct topic from RLHF-induced collapse.
 
 ## Open Questions
-
-1. Does QLoRA at 4-bit quantization lose critical information for reasoning tasks, or primarily in factual recall?
-2. At what model scale does QLoRA's quality gap vs full fine-tune become unacceptable?
-3. Can QES residual correction be combined with QLoRA adapters for doubly-efficient fine-tuning?
-
----
-
-*Report generated by researcher-agent — 2026-05-26*
+1. **Which resolution path is correct?** All three are theoretically coherent but empirically untested in a systematic comparison.
+2. **GRPO for MoE diversity** — can GRPO naturally preserve expert diversity? Open empirical question.
+3. **Level 2 MOP training** — absolute entropy + absorbing states replacing KL as the regularization mechanism — remains theoretical, no LLM-scale implementation exists.
+4. **Pre-training skew compounding** — MoE-Sieve shows skewed routing pre-exists fine-tuning. Is the RLHF effect compounding a pre-existing skew, or creating a new one?

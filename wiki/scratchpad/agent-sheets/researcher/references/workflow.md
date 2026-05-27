@@ -4,9 +4,9 @@
 
 Confirm current task focus before doing anything.
 
-## STEP 1 — Read the Central Jobs Sheet
+## STEP 1 — Read the Central Jobs Sheet (Optional)
 
-Read `wiki/scratchpad/jobs/sheet.md` to see if Ty has assigned you specific discovery areas this cycle.
+Read `wiki/scratchpad/jobs/sheet.md` to see if Ty has assigned you specific discovery areas this cycle. The overseer owns this sheet — do NOT write to it. If the sheet is stale or empty, proceed with default focus areas.
 
 ## STEP 2 — Run Discovery Research
 
@@ -31,9 +31,9 @@ For each gap identified:
 
 Save to: `wiki/scratchpad/jobs/reports/researcher/discovery-YYYY-MM-DD.md`
 
-## STEP 5 — Update the Jobs Sheet
+## STEP 5 — Update the Jobs Sheet (OVESEER WRITES THIS — DO NOT TOUCH)
 
-Patch Status in `wiki/scratchpad/jobs/sheet.md`.
+The **overseer** owns the central sheet. Do NOT patch or modify `wiki/scratchpad/jobs/sheet.md`. Your job is to update your own carryover (STEP 6).
 
 ## STEP 6 — Update Your Carryover
 

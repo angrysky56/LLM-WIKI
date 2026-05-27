@@ -1,96 +1,41 @@
----
-created: 2026-06-27
-updated: 2026-07-02
-type: carryover
-summary: Researcher agent carryover — Jul 2 cycle: 2 stubs upgraded (shorthand-for-thought, opendeepthink-parallel-reasoning), stub count 339
-tags: [researcher, carryover]
----
+# Researcher Carryover
 
-## CarryoverState
+## Open Items
 
-### Established
-- **[[subagent-delegation]]** promoted: pattern of spawning child agents (isolation, parallelism, bounded context, non-durability); Hermes delegate_task (3 concurrent, configurable toolsets); connects to delegation, agentic-hierarchy, bounded-structured-memory (Jun 2026)
-- **[[bounded-structured-memory]]** promoted: layered memory architecture for agent continuity across sessions; markovian-carryover integration (Jun 2026)
-- **[[recursive-transformers]]** filled: shared layer block reuse across multiple forward passes per token; MoR architecture (Middle-Cycle, token/expert-choice routing, recursive KV sharing); per-token recursion depth as causal state complexity proxy; connects to reasoning, latent-reasoning, adaptive-computation (Jun 2026)
-- **[[working-memory]]** filled: Baddeley's multi-component model; amnesiac agent problem in LLMs (attention decay, activation interference, retrieval failure); MOP-EDM integration; connects to bounded-rationality, world-model, recursive-transformers, efhf (Jun 2026)
-- **[[llm-agent-architecture]]** filled: runtime architecture patterns, LLM/software boundary as design concern, guardrail layers, state machines, production failure modes (Jun 2025)
-- **[[code-generation]]** filled: narrow task vs code agents, HumanEval/SWE-Bench/MBPP benchmarks, context window/multi-file/test reliability challenges, MOP search-space framing (Jun 2025)
-- **[[video-llm]]** filled: pipeline architecture, DeltaDirect findings on directional motion blindness and direction binding gap, magnitude deficit, projector-level fix (Jun 2025)
-- **[[vision-language-alignment]]** filled: cross-modal grounding problem, alignment ≠ accessibility, DeltaDirect case study, projector-level intervention, magnitude deficit (Jun 2025)
-- **[[motion-understanding]]** filled: elementary motion primitives, signed direction as fundamental case, probing evidence, magnitude deficit, DeltaDirect fix (Jun 2025)
-- **[[attention-mechanism]]** filled: scaled dot-product attention, multi-head, Flash Attention, GQA/MQA; O(1) path length advantage; transformer architecture foundation (Jun 2026)
-- **[[transformer-architecture]]** filled: encoder-decoder vs decoder-only (GPT-style); scaling as primary strategy; RoPE/ALiBi/GQA extensions; connection to scaling-laws (Jun 2026)
-- **[[kv-cache]]** filled: inference optimization; PagedAttention; MQA/GQA memory reduction; prefix caching; connects to inference-time-compute-scaling (Jun 2026)
-- **[[autonomous-research]]** filled: six-stage pipeline; six failure modes; SEG Scientist architecture addressing them; connection to agentic-research (Jun 2026)
-- **[[agent-leak-benchmark]]** filled: reconstruction attack benchmark; ASR up to 0.900 on vanilla KV sharing; LCGuard source; connects to multi-agent-security (Jun 2026)
-- **[[causal-reasoning]]** filled: SCM framework, do-calculus, counterfactuals, causal discovery; ELHSR hidden-state signals; LLM integration; world-model connection (Jun 2026)
-- **[[MCTS]]** filled: UCB1, selection/expansion/simulation/backpropagation; AlphaZero architecture; game-playing impact; SD-Search/process-reward-model connection (Jun 2026)
-- **[[evolutionary-strategies]]** filled: CMA-ES, NES; black-box optimization; ML evolution applications; GRPO as simplified group-relative ES (Jun 2026)
-- **[[adversarial-training]]** filled: PGD/BIM attacks; robust training methodology; LLM applications (jailbreaks, prompt injection, LCGuard adversarial training) (Jun 2026)
-- **[[category-theory]]** filled: objects/morphisms/functors/natural transformations; Yoneda, adjunctions, monoidal categories; categorical semantics for formal verification and neural network compositionality; three open questions (Jun 2026)
-- **[[categorical-reasoning]]** filled: applying category theory to composition and abstraction; compositional verification as functorial; multi-agent coordination as adjunctions; categorical interpretability; categorical analysis of load-bearing vs scaffolding (Jun 2026)
-- **[[mathematical-reasoning]]** filled: deductive reasoning, proof techniques, abstraction, formalization; theorem proving as AI task; MOP connection to proof search; mathematical reasoning for AI alignment (Jun 2026)
-- **[[agent-native-design]]** filled: intrinsic motivation (MOP Layer 0), bounded rationality as structural, verification before action, epistemic energy as first-class resource; MOP-EFHF integration; four open questions (Jun 2026)
-- **[[world-model]]** filled: internal predictive models for planning/simulation; world model vs reactive policy; amnesiac agent problem (Recuriosity); MOP-EDM framework L2; physical vs cognitive world models; world model architectures; four open questions (Jun 2026)
-- **[[neural-interpretability]]** filled: probing studies, feature visualization, superposition, sparse autoencoders; neurons ≠ features; representation geometry; EDM/MOP connection to activation patterns; four open questions (Jun 2026)
-- **[[machine-psychology]]** filled: psychological frameworks applied to AI behavior; Panksepp's emotional systems; ASEKE-Compass-MCP; behavioral metrics; personality question; agent persona design; four open questions (Jun 2026)
-- **[[constitutional-ai]]** created: principle-based alignment; SL-CAI/RLAIF; self-critique loop (May 2026)
-- **[[length-generalization]]** created: training-to-inference gap; positional encoding limitations; RoPE/ALiBi/YaRN solutions (May 2026)
-- **[[self-correction]]** created: implicit vs explicit; Self-Refine pattern; RAA hypothesis; Reflexion; self-verification (May 2026)
-- **[[process-reward-model]]** created: step-level scoring; SD-Search breakthrough; implicit vs explicit PRM (May 2026)
-- **[[mixture-of-experts]]** created: sparse conditional computation; Mixtral/Grok/DBRX coverage (May 2026)
-- **[[maximum-occupancy-principle]]** created: path entropy maximization; reward-free behavior; absorbing states as design primitive; EFHF Layer 0 integration (May 2026)
-- **[[group-relative-policy-optimization]]** created: GRPO vs PPO comparison; group-relative advantage without reference model; SD-Search outer loop context (May 2026)
-- **[[in-context-learning]]** created: K-shot learning via attention-based Bayesian regression; vs fine-tuning; ICL reliability and limitations (May 2026)
-- **[[multi-agent-llm-systems]]** created: five architectural patterns; coordination failure modes; research/code/long-horizon applications (May 2026)
-- **[[multi-agent-coordination]]** created: four mechanisms (shared state, message passing, market-based, swarm); contention/deadlock/conflict resolution (May 2026)
-- **[[mop-and-rlhf-interaction]]** created: three resolution paths for MoE+RLHF routing collapse; GRPO as compatible middle ground (May 2026)
-- **[[agentic-hierarchy]]** filled: supervisor-worker, manager-specialist, orchestrator-delegator, recursive decomposition patterns; key challenges; Hermes implementation (May 2026)
-- **[[scaling-laws]]** filled: Kaplan/Chinchilla/Hoffmann findings; power-law form; emergent capability thresholds; compute-optimal training vs inference-time scaling (May 2026)
-- **[[emergence]]** filled: sudden capability appearance at scale; real-vs-metric-artifact debate; known thresholds; connection to scaling-laws tension (May 2026)
-- **[[delegation]]** filled: definition, what gets delegated vs retained; Hermes delegate_task patterns; delegation vs planning; open questions (May 2026)
-- **[[computational-irreducibility]]** filled: Wolfram's concept; why it matters in science/ML/emergence; connection to emergence and OEE; complexity class connections (May 2026)
-- **[[institutional-capture]]** filled: Goodhart's Law, Campbell's Law, surrogation; mechanisms; AI-specific forms including benchmark gaming and RLHF reward hacking (May 2026)
-- **[[institutional-accountability]]** filled: separation of roles, transparency, multi-stakeholder oversight, outcome-independent evaluation, whistleblower protections (May 2026)
-- **[[ai-governance-substrate]]** filled: layered architecture for AI governance; substrate protocols, accountability membranes, escalation pathways; speed/opacity/complexity gaps that motivate it (May 2026)
-- **[[governance]]** filled: alignment, oversight, accountability, transparency — four dimensions; speed/opacity/complexity gaps as structural challenges; institutional governance integration (Jun 2026)
-- **[[agentic-oversight]]** filled: tiered action spaces, mandatory checkpoints, capability bounds; relationship to ai-governance-substrate and agentic-hierarchy; five open questions (Jun 2026)
-- **[[accountability]]** filled: assignability/auditability/answerability; AI-specific challenges; separation of roles, structural enforcement, multi-stakeholder oversight; five open questions (Jun 2026)
-- **[[reward-hacking]]** filled: AI-specific instantiation of Goodhart's Law; four mechanisms; institutional-capture as same failure at different scales; reward-modeling, PRM, constitutional-ai, GRPO connections; six open questions (Jun 2026)
-- **[[formal-methods]]** filled: model checking, theorem proving, abstract interpretation, refinement types; AI alignment applications; landmark results (Jun 2026)
-- **[[formal-verification]]** filled: Hoare logic, deductive verification, model-based verification; seL4, CompCert; AI safety applications (Jun 2026)
-- **[[interactive-theorem-proving]]** filled: Coq, Isabelle, Lean, Agda; tactic-based proofs; AI alignment applications (Jun 2026)
-- **[[proof-assistant]]** filled: definition, major systems, landmark projects, AI alignment applications (Jun 2026)
-- **[[isabelle]]** (entity) filled: generic architecture, Isar language, major projects (Jun 2026)
-- **[[isabelle-hol]]** (entity) filled: Higher-Order Logic instantiation, seL4 verification, Sledgehammer (Jun 2026)
-- **[[evaluation]]** filled: benchmark taxonomy, process vs outcome evaluation, gaming problems, AI alignment (Jun 2026)
-- **[[benchmark]]** filled: properties, well-known benchmarks, gaming problem, connection to reward-hacking (Jun 2026)
-- **[[swe-bench]]** filled: design, real-world complexity, code agent research, limitations (Jun 2026)
-- **[[agent-onboarding]]** filled: capability verification, safety constraint injection, trust bootstrap, Hermes flow (Jun 2026)
-- **[[code-agent]]** filled: core capabilities, architecture, SWE-Bench evaluation, key challenges (Jun 2026)
-- **[[epistemic-energy]]** filled: information-theoretic reasoning resource; depletes with novel content; EDM Δ as depletion signal; EFHF Layer 4 coherence monitoring; measurement operationalizations; 4 open questions (Jun 2026)
-- **[[mcp-model-context-protocol]]** filled: open standard for AI-tool interoperability; client-server architecture; Hermes bidirectional MCP support; LLM-WIKI stack servers; EFHF L3 connection via mcp-logic (Jun 2026)
-- **[[reinforcement-learning-from-human-feedback]]** filled: standard RLHF pipeline (comparison data → reward model → RL fine-tune); PPO/DPO/GRPO comparison; MOP-KL tension; GRPO structural compatibility; reward hacking limitations (Jun 2026)
-- **superposition.md (deleted)**: duplicate of neural-interpretability lines 42–63 (Jun 2026)
-- **scaling-law.md (deleted)**: duplicate of scaling-laws (singular form, Jun 2026)
-- **[[shorthand-for-thought]]** upgraded: stub → active (Jul 2026); compressed internal reasoning representations; CoT emergence explanation; load-bearing vs scaffolding; Grokked Reasoning connection; 3 open questions
-- **[[opendeepthink-parallel-reasoning]]** upgraded: stub → active (Jul 2026); Bradley-Terry pairwise ranking; +405 Elo on Codeforces; model-agnostic transfer; selection bottleneck addressed; 4 open questions
+1. **Schema competition** (low priority) — open from prior cycles. librarian flagged 10 merge candidates from similarity analysis.
+2. **Bounded memory budget optimization** (med priority) — capacity/saturation theme. Connects QES/ESSA/LLaMA-NAS.
 
-### Open
-- **[Scaffolding identification]**: Can we systematically distinguish scaffolding (calibration tokens) from load-bearing tokens in CoT traces? No current method exists — needs probing study development.
-- **[Shorthand measurement]**: Can probing studies detect compressed internal representations vs explicit reasoning? Open empirical question.
-- **[Agentic planner vs agentic-hierarchy]**: These two stubs may be redundant or may represent distinct concepts. Needs clarification or merger decision.
+## Completed This Run
 
-### Heading
-- **[Intent]** Next cycle: stub-first continues. Next priority cluster is `creativity` → `imagination` → `generative-ai` (all stubs, `creativity` now connects to `parallel-reasoning` via OpenDeepThink results). Also `wolfram-nks-causal-networks` (connects to `computational-irreducibility` active). `llm-training.md` has substantive content despite stub status — upgrade candidate.
-- **[Constraint]** 339 stubs remain (verified re-run). This cycle: 2 upgrades, net -2.
+### MOP vs Fine-Tuning Boundary (t_b1e3b062cbc54e42)
 
-## Kanban Status
-- [x] Surfaced to hermes kanban: 2026-06-30
-  - 1 open item → t_7b049efb59522401 (reward hacking detectability — ANSWERED this cycle; task should be marked done)
-- [x] Updated carryover: 2026-07-01
-  - 4 stubs upgraded to active (agentic-reasoning, multi-agent-reasoning, parallel-reasoning, model-serving)
-- [x] Discovery report: 2026-07-02
-  - 2 stubs upgraded (shorthand-for-thought, opendeepthink-parallel-reasoning)
-  - Stub count: 339 (was 341, net -2)
-- [ ] No new kanban tasks created this cycle (open items are researcher self-research; discovery report to #research is delivery mechanism per agent sheet; kanban-morning-review for trailing 10:30 AM aggregator cron)
+Full synthesis achieved across three existing pages that had the core content but weren't well-connected:
+
+**1. `mop-and-rlhf-interaction.md` (substantial expansion):**
+- Added the KL formal critique from MOP paper Supplemental Sec. F: KL(π||π_ref) with uniform default penalizes states with many actions — self-defeating for occupancy maximization
+- Formal distinction: absolute entropy (MOP's path entropy, unique measure per Theorem 1) ≠ relative entropy (KL, divergence from reference)
+- Added new section: "Relationship to Fine-Tuning" — pre-training (MOP-compatible, no reference), fine-tuning (MOP-incompatible by default, KL tether added), MoE routing collapse data from SafeMoE
+- "When Fine-Tuning Can Be Made MOP-Compatible" — three conditions: remove reference, replace regularization target, use absorbing states instead of KL
+- Connections updated — added `[[ramirez-ruiz-mop-2024]]`, `[[route-collapse-rlhf]]`, `[[mop-edm-cognitive-architecture]]`
+
+**2. `mop-architecture.md` (added major section):**
+- Added "MOP vs Fine-Tuning: When Memory, When Weights?" — full decision matrix covering mechanism, strengths, weaknesses for each path
+- Factor table: experience type, update frequency, forgetting tolerance, interpretability need, budget, pattern stability, generalization
+- Key insight: MOP memory for novel/episodic/revocable experience; fine-tuning for stable patterns confirmed across many sessions
+- Architectural implication: MOP-as-Layer-0 + fine-tuning for stable knowledge must be kept operationally separated
+
+**3. KL Regularization Critique (from mop-edm-cognitive-architecture synthesis):**
+- Confirmed per above — MOP paper Supplemental Sec. F proves KL-self-defeating structure
+
+## Sources Read
+- maximum-occupancy-principle.md (concept — full detail on MOP parameters and properties)
+- ramirez-ruiz-mop-2024.md (source — paper summary with empirical results)
+- reinforcement-learning-from-human-feedback.md (concept — RLHF pipeline, algorithms, MOP tension)
+- mop-and-rlhf-interaction.md (concept — three resolution paths, prior version)
+- mop-edm-cognitive-architecture.md (synthesis — KL regularization critique, three implementation levels)
+- group-relative-policy-optimization.md (concept — GRPO structure, MoE relevance)
+- mop-architecture.md (concept — four-layer memory schema, MOP-as-L0 integration)
+- mop-explorer.md (entity — project using MOP as EFHF Layer 0)
+
+## Status
+All MOP vs fine-tuning boundary content now coherent across: MOP theory, RLHF methods, fine-tuning mechanics, decision framework, and architecture integration. The structural tension is articulated with the mathematical proof from the MOP paper as grounding.

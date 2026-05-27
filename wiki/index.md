@@ -129,7 +129,7 @@ type: index
 - [[beta]] — Beta archetype — the Option Optimization Agent in the oMCD framework
 - [[betteti-baggio-bullo-zampieri-idp-hopfield-2025]] — [STUB] IDP-Hopfiel research — intrinsic dimension and attractor dynamics in neural networks
 - [[blackmail]] — [STUB] Blackmail as an AI safety concern, coercive information leverage
-- [[bounded-rationality]] — Bounded rationality — decision-making under finite cognitive resources (stub)
+- [[bounded-rationality]] — Decision-making under finite cognitive resources — Herbert Simon's foundational concept now driving architectural design in LLM agents where bounded rationality is first-class, not retrofitted
 - [[bounded-structured-memory]] — Bounded structured memory — layered memory architecture for agent continuity across sessions, implementing episodic/semantic/procedural separation
 - [[brain-research]] — [STUB] Brain research — neuroscience research on brain structure and function
 - [[brocas-area]] — A region in the frontal lobe of the dominant hemisphere (usually left) with functions linked to speech production.
@@ -331,7 +331,6 @@ type: index
 - [[mathematics]] — [STUB] Mathematics — the study of numbers, structures, and quantities
 - [[maximum-occupancy-principle]] — Theory of behavior replacing reward maximization with action-state path entropy maximization — Layer 0 of EFHF architecture; absorbing states → Kernel 2 (Prover9-verified)
 - [[mcp-model-context-protocol]] — MCP — an open standard protocol for connecting AI assistants to external tools, data sources, and services via a structured client-server architecture
-- [[mcp]] — [STUB] MCP — Model Context Protocol for AI tool use
 - [[mechanism-design]] — [STUB] Mechanism design — game theory of designing incentive-compatible systems
 - [[mechanistic-interpretability]] — Reverse-engineering transformer internals — activation caching, circuit analysis, and the EEG of artificial minds
 - [[memex]] — Vannevar Bush's 1945 vision of a personal associative knowledge device — the intellectual ancestor of the LLM wiki pattern
@@ -574,7 +573,7 @@ type: index
 - [[anthropic]] — [STUB] Anthropic — AI safety company behind Claude
 - [[efhf]] — Five-layer AI architecture implementing computational mechanics (epsilon machines, lumpability, causal closure) as a live multi-agent system — MOP proposed as Layer 0 for proactive exploration
 - [[esa]] — [STUB] ESA — European Space Agency
-- [[goodrobot]] — Redirect to wiki/projects/goodrobot/shut-down-entity.md
+- [[wiki/entities/projects/goodrobot]] — Redirect to wiki/projects/goodrobot/shut-down-entity.md
 - [[google-deepmind]] — [STUB] Google DeepMind — AI research division of Google
 - [[huggingface]] — [STUB] Hugging Face — AI model hub and community
 - [[james-webb-space-telescope]] — [STUB] James Webb Space Telescope — JWST observatory
@@ -637,7 +636,7 @@ type: index
 - [[goodrobot-gtm-strategy]] — Redirect to wiki/projects/goodrobot/go-to-market-strategy.md
 - [[goodrobot-research-pipeline]] — Redirect to wiki/projects/goodrobot/research-pipeline.md
 - [[goodrobot-technical-architecture]] — Redirect to wiki/projects/goodrobot/technical-architecture.md
-- [[goodrobot]] — Redirect to wiki/projects/goodrobot/active-business-plan.md
+- [[wiki/entities/projects/goodrobot]] — Redirect to wiki/projects/goodrobot/active-business-plan.md
 - [[oMCD-calibration-protocol]] — Warm-start calibration procedure for oMCD parameters β and γ
 - [[portfolio-policies-metacognition]] — Research exploration of portfolio-of-policies MDP extension and control graph topologies for metacognition, covering entropy-confidence duality, portfolio allocation formalism, and topology evaluation.
 - [[research_spec]] — 

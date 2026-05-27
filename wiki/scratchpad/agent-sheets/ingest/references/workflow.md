@@ -37,9 +37,9 @@ After ingestion:
 
 Save to: `wiki/scratchpad/jobs/reports/ingest/ingest-YYYY-MM-DD.md`
 
-## STEP 6 — Update the Jobs Sheet
+## STEP 6 — Update Jobs Sheet (OVERSEER WRITES THIS — DO NOT TOUCH)
 
-Patch Status in `wiki/scratchpad/jobs/sheet.md`.
+The **overseer** owns the central sheet. Do NOT patch or modify `wiki/scratchpad/jobs/sheet.md`. Update your own carryover (STEP 7) instead.
 
 ## STEP 7 — Update Your Carryover
 

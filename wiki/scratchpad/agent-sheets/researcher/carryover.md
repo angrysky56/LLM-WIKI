@@ -1,8 +1,8 @@
 ---
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-08-05
 type: carryover
-summary: Researcher carryover — May 26 cycle: qora page created (PEFT cluster complete), stub count 296 (-1)
+summary: Researcher carryover — May 26 cycle: bounded-memory-budget-optimization created, PEFT cluster now complete
 tags: [researcher, carryover]
 ---
 
@@ -20,21 +20,27 @@ tags: [researcher, carryover]
 - **[[rz-nas]]** promoted: Jul 15 — zero-cost proxies + reflection module; architecture evaluation without training; source: ml-evolution-benchmarking-protocol
 - **[[parameter-efficient-fine-tuning]]** promoted: Jul 15 — full PEFT landscape: LoRA, QLoRA, AdaLoRA, DoRA, LoRA+, LoRA-FA; category hub for llm-training cluster
 - **[[llama-nas]]** promoted: Aug 3 — one-shot sub-network search from pretrained LLaMA; inherits weights without retraining; compression as architecture search side effect; ml-evolution cluster complete
+- **[[bounded-rationality]]** promoted: Aug 5 — full write-up: Simon's foundational concept; connection to epistemic-energy, MOP, EFHF, agent-native-design; structural vs budgetary bounds; satisficing vs optimizing
+- **[[bounded-memory-budget-optimization]]** created: May 26 — unifying theme page for QES/ESSA/LLaMA-NAS cluster; memory as bounded resource; saturation effects; memory-aware architecture search; evolutionary score alignment; five open questions
 
 ## Kanban Status
-- [x] QLoRA standalone page → resolved this cycle (qora.md created)
+- [x] QLoRA standalone page → resolved May 26
 - [x] NAMM upgrade → resolved 2026-05-26
 - [x] continual-learning fill → resolved 2026-05-26
 - [x] lora expansion → resolved 2026-05-26
+- [x] bounded-rationality upgrade → resolved Aug 5 (stub 0.3 → active 0.75)
+- [x] Bounded memory budget optimization → t_a99e34b5260844d8 (done May 26)
+- [ ] MOP vs fine-tuning boundary → t_b1e3b062cbc54e42 (ready, med)
+- [ ] Resolve mcp.md redundancy → t_c1872eebfab24100 (ready, high)
+- [ ] hermes-agent-skills stub → t_5c1c25fc387d4bb8 (ready, med)
 
 ### Open
-- **bounded memory budget optimization**: still open from prior cycles — capacity/saturation theme; appears across QES/ESSA/LLaMA-NAS but no dedicated page
-- **MOP vs fine-tuning boundary**: still open — entropy maximization vs KL regularization tension not fully developed; ramirez-ruiz-mop-2024 relationship to fine-tuning not articulated
-- **Schema competition**: still open from prior cycles — needs meta-harness project context before filling
-- **epistemic-energy stub**: status: stub, confidence 0.3, connects to top HITS authorities (maximum-occupancy-principle, efhf, world-model) — high-value upgrade candidate
-- **bounded-rationality stub**: connects to agent-native-design and oMCD framework — may need oMCD project context
+- **MOP vs fine-tuning boundary**: entropy maximization vs KL regularization tension not fully developed; ramirez-ruiz-mop-2024 relationship to fine-tuning not articulated
+- **Schema competition**: still open — needs meta-harness project context before filling (blocked indefinitely)
+- **mcp.md redundancy**: mcp.md is stub (0.3) but mcp-model-context-protocol.md is active (0.85) — duplicate; needs redirect or deletion
+- **hermes-agent-skills**: stub (0.3) connected to hermes-agent — needs skills inventory context before filling
 
 ### Heading
-- **[Intent]** Next priority: bounded memory budget optimization — appears across ml-evolution cluster (QES, ESSA, LLaMA-NAS all target memory efficiency) but no dedicated page; alternatively upgrade epistemic-energy (high authority connections)
-- **[Constraint]** Stub count: 296 (was 297, net -1). PEFT cluster complete. ML-evolution cluster complete.
-- **[Note]** QLoRA page created; PEFT cluster done. Next expansion: ml-evolution cluster was resolved Aug 3, PEFT cluster resolved May 26. Remaining open items all need project context (meta-harness, oMCD) or are cross-cluster (bounded memory, MOP boundary).
+- **[Intent]** Next priority: either (1) mcp.md redirect to mcp-model-context-protocol.md or (2) bounded memory budget optimization page
+- **[Constraint]** Stub count: 295 (was 296, net -1). PEFT cluster complete. ML-evolution cluster complete.
+- **[Note]** epistemic-energy in carryover is stale — page is already active (0.8), not stub. mcp.md is a redundant stub. Next cycle: resolve mcp.md or tackle bounded memory.

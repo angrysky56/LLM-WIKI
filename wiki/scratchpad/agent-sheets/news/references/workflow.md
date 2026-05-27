@@ -1,8 +1,8 @@
 # news — RSS Discovery Workflow
 
-## STEP 0 — Read Jobs Sheet
+## STEP 1 — Read the Central Jobs Sheet (Optional)
 
-Read `wiki/scratchpad/jobs/sheet.md` to check if Ty has flagged any specific regions, topics, or events to watch.
+Read `wiki/scratchpad/jobs/sheet.md` to check if Ty has flagged any priority regions, topics, or events. The overseer owns this sheet — do NOT write to it. If the sheet is stale or empty, proceed with default topic queries.
 
 ## STEP 1 — Discover News via RSS
 
@@ -54,9 +54,9 @@ For each significant story:
 
 Save to: `wiki/synthesis/news/headlines-YYYY-MM-DD.md`
 
-## STEP 6 — Update Jobs Sheet
+## STEP 6 — Update Jobs Sheet (OVERSEER WRITES THIS — DO NOT TOUCH)
 
-Patch Status in `wiki/scratchpad/jobs/sheet.md`.
+The **overseer** owns the central sheet. Do NOT patch or modify `wiki/scratchpad/jobs/sheet.md`. Update your own carryover (STEP 7) instead.
 
 ## STEP 7 — Update Your Carryover
 

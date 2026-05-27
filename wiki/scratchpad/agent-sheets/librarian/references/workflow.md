@@ -5,9 +5,9 @@
 Read `wiki/synthesis/wiki-indexing-theory.md` first — this is your decision framework.
 Then read `wiki/concepts/tag-taxonomy.md` for controlled vocabulary reference.
 
-## STEP 1 — Read the Central Jobs Sheet
+## STEP 1 — Read the Central Jobs Sheet (Optional)
 
-Read `wiki/scratchpad/jobs/sheet.md` to see if Ty has assigned any specific focus areas.
+Read `wiki/scratchpad/jobs/sheet.md` to see if Ty has assigned any specific focus areas. The overseer owns this sheet — do NOT write to it. If the sheet is stale or empty, proceed with your default audit cycle.
 
 ## STEP 2 — Run the 6 Improvements (from indexing theory)
 
@@ -68,9 +68,9 @@ Include:
 - Orphan list (with cluster affinity where detected)
 - Actions taken vs flagged for human judgment
 
-## STEP 5 — Update the Jobs Sheet
+## STEP 5 — Update the Jobs Sheet (OVERSEER WRITES THIS — DO NOT TOUCH)
 
-Patch Status column in `wiki/scratchpad/jobs/sheet.md` for items worked.
+The **overseer** owns the central sheet. Do NOT patch or modify `wiki/scratchpad/jobs/sheet.md`. Your job is to update your own carryover (STEP 6).
 
 ## STEP 6 — Update Your Carryover
 

@@ -1,15 +1,19 @@
 ---
+summary: Structural tension between Maximum Occupancy Policy (MOP) entropy maximization and RLHF's KL-regularization — three potential resolution paths identified
+tags: [reinforcement-learning, policy-optimization, llm-training, mixture-of-experts, open-research]
+updated: 2026-05-27T05:45:10Z
+---
+
+---
 created: 2026-05-28
 updated: 2026-05-28
 type: concept
 summary: Structural tension between Maximum Occupancy Policy (MOP) entropy maximization and RLHF's KL-regularization — three potential resolution paths identified
-tags: [reinforcement-learning, policy-optimization, llm-training, mixture-of-experts, open-research]
+tags: ['reinforcement-learning', 'policy-optimization', 'llm-training', 'mixture-of-experts', 'open-research']
 sources: https://arxiv.org/abs/2410.10700, https://arxiv.org/abs/2409.16140, https://arxiv.org/abs/2310.02793
 status: active
 confidence: 0.75
 ---
-
-
 
 # MOP and RLHF Interaction
 
@@ -20,10 +24,7 @@ The structural tension between the **Maximum Occupancy Principle (MOP)** and **R
 MOP (Maximum Occupancy Principle) and RLHF optimize for different things:
 
 | Property | MOP | RLHF (PPO/DPO) |
-|
--|
---|
--|
+|----------|-----|---------------|
 | **Objective** | Path entropy maximization — visiting all high-reward states | Maximize trajectory-level reward against reference |
 | **Policy** | Always stochastic | Tends toward deterministic via KL penalty |
 | **Reference** | None — no reference model | KL penalty against reference model |
@@ -40,6 +41,50 @@ This is most acute in **mixture-of-experts (MoE)** architectures, where:
 In MoE-based LLMs (Mixtral, Grok, DBRX), the routing policy determines which expert handles each token. If RLHF causes routing collapse — tokens consistently routing to the same 1-2 experts in an N-expert system — then the MoE architecture degrades toward a dense model.
 
 The compute efficiency of MoE (sparse conditional computation) depends on high expert diversity. If RLHF destroys that diversity, you lose the architectural advantage you paid for.
+
+## The KL Regularization Problem (Key Theoretical Result)
+
+The MOP paper proves in Supplemental Section F that **KL-regularization with a uniform default policy is self-defeating for occupancy maximization**. The immediate return under KL regularization becomes:
+
+```
+H(A|s) - ln|A(s)|
+```
+
+The negative logarithm term **penalizes states with many available actions**. This means the KL regularizer actively suppresses the states that MOP most wants to occupy. The standard RLHF objective:
+
+```
+max_π E[R(x)] - β_KL D_KL(π || π_ref)
+```
+
+partially suppresses behavioral diversity because the KL regularizer penalizes occupying states where many response strategies are available — the precise states MOP wants to maximize.
+
+**Practical implication for LLM fine-tuning:** RLHF-trained models collapse toward deterministic responses partly because the KL regularizer structurally penalizes diversity in high-action-count states (rich response strategy spaces). This is not a bug in the KL coefficient tuning — it's built into the KL structure itself when the reference is uniform or near-uniform.
+
+### The Absolute vs. Relative Entropy Distinction
+
+MOP Theorem 1 establishes that path entropy (absolute entropy of action-state trajectories) is the *only* occupancy measure satisfying additivity, monotonicity, and smoothness. KL-regularization is a *relative* entropy measure — it measures divergence from a reference policy, not the absolute occupancy of states.
+
+These are not merely different objectives — they are **different measurement primitives**:
+- **Absolute entropy (MOP):** Numbers of distinct paths, weighted by rareness. Maximizes the variety of action-state trajectories actually taken.
+- **Relative entropy (KL):** Divergence from reference. Maximizes agreement with a reference policy, which is self-defeating for states with many actions because maximizing agreement on a uniform reference converges to picking the mode.
+
+## Relationship to Fine-Tuning
+
+Fine-tuning an LLM with RLHF (PPO/DPO) applies KL regularization against the pre-fine-tuning reference model. The fine-tuned model is Optimized against a reward model while conservatively staying close to the original model. The tension with MOP is structural:
+
+1. **Pre-training (MOP-compatible):** Pre-training via next-token prediction has no reference model — the model learns from data distribution matching, not reward maximization. MOP's entropy drive can operate during pre-training without KL suppression.
+
+2. **Fine-tuning (MOP-incompatible by default):** RLHF adds the KL tether — a reference model that anchors the policy toward a fixed target. The KL penalty directly suppresses the absolute path entropy that MOP requires.
+
+3. **The MoE routing collapse problem:** SafeMoE (Kim 2025) shows RLHF fine-tuning causes significant routing drift in MoE LLMs — safety-critical experts post-fine-tuning route incorrectly for harmful inputs. This is empirically confirmed across 7B–141B parameter scales. Routing drift means the fine-tuned policy is no longer visiting the same state-action spaces the pre-trained policy visited.
+
+### When Fine-Tuning Can Be Made MOP-Compatible
+
+The KL tether is the only thing preventing MOP compatibility. Options:
+
+- **Remove the reference model entirely**: Like GRPO, which compares within-group rather than against a fixed reference
+- **Replace the regularization target**: Instead of KL(π || π_ref), use KL(π(·|s) || π_group(·|s)) — regularize toward group-averaged stochasticity rather than a fixed policy
+- **Use absorbing states instead of KL**: MOP replaces the reference constraint with designed absorbing states (deontological boundaries). Within the non-absorbing space, pure entropy maximization applies.
 
 ## Three Resolution Paths
 
@@ -66,6 +111,8 @@ This approach:
 - Preserves the alignment properties of RLHF
 - Adds exploration incentives via the entropy bonus
 - Has been tested in toy settings but not at scale in MoE systems
+
+**Note**: This doesn't fix the KL problem directly — it adds an entropy bonus to the reward. The KL penalty still pulls toward deterministic behavior, so the entropy bonus must be large enough to overcome it, which introduces instability.
 
 **Challenge**: Entropy bonuses are notoriously unstable — they can cause the policy to wander if not carefully tuned. The entropy scale `β` is critical and task-dependent.
 
@@ -94,19 +141,20 @@ However, GRPO has not been specifically studied in the MoE fine-tuning context �
 ## Connections
 
 - [[maximum-occupancy-principle]] — MOP's entropy maximization principle
+- [[ramirez-ruiz-mop-2024]] — source paper; Supplemental Sec. F contains the KL formal critique
 - [[group-relative-policy-optimization]] — GRPO, the most compatible existing algorithm
-- [[mixture-of-experts]] — where this tension is most acute
+- [[mixture-of-experts]] — where this tension is most acute; routing collapse under RLHF confirmed
 - [[reward-modeling]] — RLHF's reward model is what gets optimized
 - [[inference-time-compute-scaling]] — BoN search is a form of stochasticity exploitation
-- Concept: [[reinforcement-learning-from-human-feedback]]
-- Concept: [[route-collapse-rlhf]]
-
+- [[reinforcement-learning-from-human-feedback]] — the alignment method structurally conflicting with MOP
+- [[route-collapse-rlhf]] — empirical confirmation of MoE routing collapse under fine-tuning
+- [[mop-edm-cognitive-architecture]] — full synthesis; includes Level 2 MOP training-time alternative
 
 ## Open Questions
 
 1. **Which resolution path is correct?** No published work has tested all three systematically.
 
-2. **MoE routing collapse under RLHF** ✅ **EMPIRICALLY CONFIRMED**: Fine-tuning causes significant routing drift in MoE LLMs. SafeMoE (Kim et al., 2025) shows OLMoE's harmfulness score rises from aligned → 62.0 post-fine-tuning without intervention. Routing weights for harmful inputs change substantially — the safety-critical expert routing is not preserved through fine-tuning. Routing drift confirmed across architectures from 7B to 141B parameters. See [[defending-moe-llms-against-harmful-fine-tuning-via-safety-routing-alignment]].
+2. **MoE routing collapse under RLHF** — **EMPIRICALLY CONFIRMED**: Fine-tuning causes significant routing drift in MoE LLMs. SafeMoE (Kim et al., 2025) shows OLMoE's harmfulness score rises from aligned → 62.0 post-fine-tuning without intervention. Routing weights for harmful inputs change substantially — the safety-critical expert routing is not preserved through fine-tuning. Routing drift confirmed across architectures from 7B to 141B parameters. See [[defending-moe-llms-against-harmful-fine-tuning-via-safety-routing-alignment]].
 
 3. **GRPO for MoE**: Can GRPO naturally preserve MoE expert diversity without additional regularization? This is empirically testable — no published results yet.
 

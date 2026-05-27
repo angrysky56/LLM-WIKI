@@ -80,12 +80,57 @@ The identity/self-model layer (Layer 4) is where MCM lives architecturally:
 - [[ramirez-ruiz-mop-2024]]: original MOP research by Ramirez-Ruiz
 - [[catastrophic-forgetting]]: the problem MOP mitigates via layered memory architecture
 
-## Open Questions
+## MOP vs Fine-Tuning: When Memory, When Weights?
 
-1. **Compression fidelity**: How much episodic detail must survive compression to Layer 2 to be useful? Is there a minimum fidelity threshold below which compression destroys the signal?
+This is the core architectural trade-off the task asks to develop. The two paths for incorporating session experience into the agent's capabilities are fundamentally different:
 
-2. **Layer priority under budget pressure**: When memory is constrained, which layer should be protected? Is it task-dependent?
+### Path 1: MOP Memory Compression (this architecture)
+Session experience is compressed into the layered memory schema (L1→L2). The weights stay fixed; only the external memory (Retriever-Augmented Generation) is updated.
 
-3. **Cross-session schema drift**: As the agent's knowledge evolves, do Layer 2 schemas need to be periodically reorganized? Is there a "schema consolidation" process analogous to memory consolidation in sleep?
+**Mechanism:** Episodic records → selective compression → Layer 2 semantic summaries. Access via retrieval at inference time.
 
-4. **MOP vs fine-tuning**: When should the agent compress session experience into memory (MOP) vs incorporate it into weights (fine-tuning)? What determines which path is appropriate?
+**Strengths:**
+- No catastrophic forgetting risk — weights independent of experience
+- Rapid incorporation — memory updated in minutes, doesn't require retraining
+- Precise, queryable access — can retrieve specific past decisions
+- Interpretable — memory layer is inspectable
+- Supports session-bound context (episodes, carryover state) naturally
+
+**Weaknesses:**
+- Retrieval-dependent — the agent's capability is bounded by what memory is retrieved, not by what's encoded in weights
+- Finite memory budget — eventually oldest experiences compressed/truncated
+- No weights-level generalization — can't transfer memory content into improved inference patterns automatically
+
+### Path 2: Fine-Tuning (weight modification)
+Session experience is incorporated via continued pre-training or fine-tuning. The weights are updated to reflect patterns from new experience.
+
+**Mechanism:** SGD update on training data derived from session experience. Weights change.
+
+**Strengths:**
+- Generates implicit inference patterns — the model "just knows" without retrieval
+- Compresses experience into faster, more space-efficient representations
+- Enables cross-domain generalization from the learned patterns
+
+**Weaknesses:**
+- Catastrophic forgetting risk — new patterns overwrite old patterns
+- Expensive — requires GPU hours, can't do per-session
+- Opaque — what the model learned is not inspectable at the level of specific decisions
+- Can destroy MOP's stochasticity — fine-tuning typically uses KL regularization against a reference, which pushes toward deterministic policies
+
+### The Boundary Determiner
+
+Whether to use MOP memory or fine-tuning depends on:
+
+| Factor | Use MOP Memory | Use Fine-Tuning |
+|--------|---------------|-----------------|
+| **Experience type** | Episodic (session-specific), contextual | Repeated (same pattern across many sessions) |
+| **Update frequency** | Per-session (fast cycles) | Accumulated over many sessions |
+| **Forgetting tolerance** | Low — old experience must be preserved | High — patterns can be overwritten |
+| **Interpretability need** | High — need to inspect specific decisions | Low — implicit behavior preferred |
+| **Budget** | Small compute budget | GPU time available |
+| **Pattern stability** | Novel, exploratory, likely to change | Stable, confirmed across multiple sessions |
+| **Generalization** | Session-local retrieval | Cross-domain weight-level internalization |
+
+**The key insight:** MOP memory accumulation is the right tool when experience is novel, episodic, or potentially revocable. Fine-tuning is the right tool when patterns have been confirmed as stable across many sessions and the cost of retrieval exceeds the cost of weight-update.
+
+**The architectural implication:** MOP-as-Layer-0 for exploration (where you want high stochasticity and memory flexibility) + fine-tuning for confirmed stable knowledge — but these must be kept operationally separated, because fine-tuning risks destroying the stochasticity MOP depends on.

@@ -17,9 +17,9 @@ Single authoritative system for agent coordination and tasking via meta-advancem
 The overseer is the **only agent that writes to the central sheet**. It:
 1. Reads all agent carryovers and meta-advancement tracking files
 2. Computes advancement scores per agent
-3. Updates the central sheet with current state
-4. Creates kanban cards for open items
-5. Assigns tasks to agent carryovers
+3. Updates the central sheet with open items for kanban routing
+4. Creates kanban triage cards for new open items
+5. Logs cycle completion to `reports/overseer/`
 
 ## Tool Protocol
 
@@ -58,7 +58,7 @@ read_file(path="...")
 ## Monitoring Cycle
 
 ```
-# Overseer's own carryover (at wiki/scratchpad/agent-sheets/overseer/carryover.md)
+# Overseer's own carryover
 terminal(cat overseer/carryover.md) → update own state and advancement score
 
 FOR each agent in registry:
@@ -66,24 +66,49 @@ FOR each agent in registry:
   b. COMPUTE advancement score from carryover state
   c. UPDATE {agent}/carryover.md with new state and score
 UPDATE overseer/carryover.md with own state and advancement score
-REFRESH central sheet with all agent states
+REFRESH central sheet with open items from carryovers
 
 FOR each open item in carryovers:
   a. CHECK if item already has a kanban ID in sheet.md
   b. IF no kanban ID → CREATE kanban card using terminal(hermes kanban create):
      hermes kanban create "<title>" --triage --priority P<1|2|5> --body "<description>"
   c. The triage system handles decomposition and routing automatically
-LOG cycle completion with timestamp
+LOG cycle completion to reports/overseer/overseer-YYYY-MM-DD.md
 ```
 
 ## Creating Triage Cards
 
-Use `hermes kanban create` via terminal(). Example:
+When an open item is found in an agent's carryover, the overseer must:
+
+1. **Check the agent's reports folder** (`reports/{agent}/`) for relevant context on the open item
+2. **Read the detailed findings** to understand the full problem space
+3. **Write a complete triage card** with full context — not just the carryover snippet
+
 ```bash
-hermes kanban create "Fill [[continual-learning]] stub" --triage --priority P2 --body "Connect to catastrophic-forgetting/MoE/MOP/llm-training. Researcher agent owns this."
+# Step 1: List agent reports for relevant files
+ls /home/ty/Documents/LLM-WIKI/wiki/scratchpad/jobs/reports/{agent}/
+
+# Step 2: Read relevant report(s) for context
+cat /home/ty/Documents/LLM-WIKI/wiki/scratchpad/jobs/reports/{agent}/<relevant-report.md>
+
+# Step 3: Write triage card with full context via terminal(hermes kanban create)
+hermes kanban create "<specific title>" --triage --priority P<1|2|5> --body "<full description from reports + what needs to be decided>"
 ```
 
-Priority mapping: high=P1, med=P2, low=P5 (hermes uses P1-P5, higher = more urgent).
+**Example triage formulation:**
+
+```
+Carryover snippet: "NAMM upgrade — needs Ty decision"
+Report context: "NAMM adds KV cache retention vs Control LLM — complementary? Dettmers et al. 2023"
+
+→ Triage card body: "NAMM (Neural Additive Memory Module) adds learned KV cache retention 
+as an inductive bias. Control LLM uses separate routing. The question is whether these 
+are complementary or redundant. Dettmers et al. 2023 is the primary source. 
+Decision needed: should NAMM and Control LLM be separate wiki pages, merged, or 
+one as a subsection of the other? Researcher agent owns this."
+```
+
+**Priority mapping:** high=P1, med=P2, low=P5 (hermes uses P1-P5, higher = more urgent).
 
 **Only create ONE card per open item.** If the item already has a Kanban ID in sheet.md (format: `t_<hex>`), skip it — it's already tracked.
 

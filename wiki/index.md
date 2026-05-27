@@ -5,16 +5,16 @@ type: index
 
 # Wiki Index
 
-- [[carryover]] — Markovian Dev Agency carryover — specialist delegation and task routing
+- [[wiki/agents/researcher-agent/carryover]] — Markovian Dev Agency carryover — specialist delegation and task routing
 - [[now]] — Master state for Markovian Dev Agency — active issues and specialist coordination
 - [[soul]] — Multi-specialty dev agency with persistent Markovian state across activations
-- [[carryover]] — Diagnostician specialist carryover
-- [[carryover]] — Fixer specialist carryover
-- [[carryover]] — Researcher specialist carryover
-- [[carryover]] — Ticket-writer specialist carryover
+- [[wiki/agents/researcher-agent/carryover]] — Diagnostician specialist carryover
+- [[wiki/agents/researcher-agent/carryover]] — Fixer specialist carryover
+- [[wiki/agents/researcher-agent/carryover]] — Researcher specialist carryover
+- [[wiki/agents/researcher-agent/carryover]] — Ticket-writer specialist carryover
 - [[user]] — User preferences and project context for the Markovian Dev Agency
 - [[issue-001]] — 
-- [[carryover]] — 
+- [[wiki/agents/researcher-agent/carryover]] — 
 - [[agem-expert]] — 
 - [[PROVING_GROUNDS]] — AGEM expert reference proving grounds
 - [[STRATEGIES]] — AGEM expert reference strategies
@@ -31,13 +31,13 @@ type: index
 - [[agentic-reflection]] — Agent skill — Agentic Reflection
 - [[agentic-sequential]] — 
 - [[agentic-sequential]] — Agent skill — Agentic Sequential
-- [[SKILL]] — Tool use pattern for agents requiring external world interaction. Foundation layer for most real-world agentic tasks.
+- [[wiki/agents/skills/orcaid/SKILL]] — Tool use pattern for agents requiring external world interaction. Foundation layer for most real-world agentic tasks.
 - [[arxiv-agent]] — 
 - [[arxiv-search-guide]] — 
 - [[hierarchical-supervisor]] — 
 - [[hierarchical-supervisor]] — Hierarchical Supervisor pattern — nested supervisors for complex domains with multiple abstraction layers
-- [[SKILL]] — Ingest pipeline operator — processes raw/ inbox into wiki knowledge, handles arXiv papers, enforces quality standards
-- [[SKILL]] — Agent skill — Wiki Insights Generator via Zettelkasten, runs daily at 06:00 AM
+- [[wiki/agents/skills/orcaid/SKILL]] — Ingest pipeline operator — processes raw/ inbox into wiki knowledge, handles arXiv papers, enforces quality standards
+- [[wiki/agents/skills/orcaid/SKILL]] — Agent skill — Wiki Insights Generator via Zettelkasten, runs daily at 06:00 AM
 - [[librarian-agent]] — 
 - [[librarians-assistant]] — 
 - [[news-agent]] — 
@@ -51,7 +51,7 @@ type: index
 - [[gap-discovery-patterns]] — Researcher agent reference gap discovery patterns
 - [[single-agent]] — 
 - [[single-agent]] — Single-agent execution pattern — one agent, one task, no delegation
-- [[SKILL]] — 
+- [[wiki/agents/skills/orcaid/SKILL]] — 
 - [[CHECKLIST]] — Skill architect reference checklist
 - [[TEMPLATE]] — 
 - [[supervisor-delegation]] — 
@@ -305,7 +305,7 @@ type: index
 - [[lean-manufacturing]] — [STUB] Lean manufacturing — waste elimination, continuous improvement, just-in-time production
 - [[legal-accountability-stub]] — Legal accountability — judicial constraints on executive/political power
 - [[length-generalization]] — The failure of LLMs to generalize from short training sequences to longer inference sequences — a fundamental limitation of autoregressive transformers
-- [[llama-nas]] — LLaMA NAS — neural architecture search approach applied to LLaMA model family; stub pending full documentation
+- [[llama-nas]] — LLaMA-NAS — one-shot NAS for task-specific sub-networks within the LLaMA family; achieves compression via inherited pretrained weights without full retraining
 - [[llm-agent-architecture]] — System architecture patterns for LLM-based autonomous agents — runtime composition, failure modes, and the LLM/software boundary as first-class design concern
 - [[llm-agents]] — [STUB] Large language model based autonomous agents
 - [[llm-evaluation]] — [STUB] Benchmarks and evaluation methodologies for large language model capability assessment
@@ -434,6 +434,7 @@ type: index
 - [[public-health]] — [STUB] Public health systems and governance
 - [[pure-mathematics]] — [STUB] Pure mathematics — theoretical mathematics without practical applications
 - [[qes]] — QES: Quality-Evolutionary Search — accumulated error feedback for high-precision fine-tuning of quantized models at inference-level memory
+- [[qora]] — QLoRA — Quantized LoRA — fine-tuning large models in 4-bit with LoRA adapters; enables frontier model training on consumer GPUs
 - [[quantum-computing]] — [STUB] Quantum computing applications in AI and cryptography
 - [[rag]] — Retrieval-Augmented Generation — the standard stateless document Q&A pattern
 - [[ramirez-ruiz-mop-2024]] — Ramirez-Ruiz MOP research — foundational work on Memory-Oriented Programming for LLM agents, schema-based memory scaffolding
@@ -641,45 +642,45 @@ type: index
 - [[portfolio-policies-metacognition]] — Research exploration of portfolio-of-policies MDP extension and control graph topologies for metacognition, covering entropy-confidence duality, portfolio allocation formalism, and topology evaluation.
 - [[research_spec]] — 
 - [[arxiv]] — 
-- [[carryover]] — arxiv agent carryover — Shannon Scaling Law, SkillOpt, SkillLens — bounded representation capacity theme
+- [[wiki/agents/researcher-agent/carryover]] — arxiv agent carryover — Shannon Scaling Law, SkillOpt, SkillLens — bounded representation capacity theme
 - [[patterns]] — 
 - [[workflow]] — 
 - [[report]] — 
 - [[research-brief]] — 
 - [[ingest]] — 
-- [[carryover]] — Ingest pipeline healthy — 2 files processed, raw/ empty, no issues
+- [[wiki/agents/researcher-agent/carryover]] — Ingest pipeline healthy — 2 files processed, raw/ empty, no issues
 - [[workflow]] — 
 - [[ingest-report]] — 
 - [[insights]] — 
-- [[carryover]] — 
+- [[wiki/agents/researcher-agent/carryover]] — 
 - [[insight-merge]] — 
 - [[workflow]] — 
-- [[carryover]] — 
+- [[wiki/agents/researcher-agent/carryover]] — 
 - [[librarian]] — 
-- [[carryover]] — 
+- [[wiki/agents/researcher-agent/carryover]] — 
 - [[mcp-tools]] — 
 - [[workflow]] — 
 - [[audit-report]] — 
 - [[librarians-assistant]] — 
-- [[carryover]] — Vault structurally healthy — 0 broken links, 0 missing frontmatter; GoodRobot and .bak still need Ty
+- [[wiki/agents/researcher-agent/carryover]] — Vault structurally healthy — 0 broken links, 0 missing frontmatter; GoodRobot and .bak still need Ty
 - [[quick-reference]] — 
 - [[workflow]] — 
 - [[batch-progress]] — 
 - [[meta-advancement]] — 
 - [[news]] — 
-- [[carryover]] — 3 new: WHO Ebola EC recommendations issued May 22, SpaceX IPO governance questions surface at 16 days, Pope Leo XIV first AI encyclical demands global disarmament treaties
+- [[wiki/agents/researcher-agent/carryover]] — 3 new: WHO Ebola EC recommendations issued May 22, SpaceX IPO governance questions surface at 16 days, Pope Leo XIV first AI encyclical demands global disarmament treaties
 - [[rss-queries]] — 
 - [[workflow]] — 
 - [[headlines-report]] — 
 - [[news-article]] — One-line description
 - [[orcaid]] — 
-- [[carryover]] — 
+- [[wiki/agents/researcher-agent/carryover]] — 
 - [[execution-mechanisms]] — 
 - [[task-types]] — 
 - [[run-report]] — 
 - [[wiki-overseer]] — 
 - [[researcher]] — 
-- [[carryover]] — Researcher carryover — May 26 cycle: 3 pages upgraded (namm, continual-learning, lora), stub count 304
+- [[wiki/agents/researcher-agent/carryover]] — Researcher carryover — May 26 cycle: 3 pages upgraded (namm, continual-learning, lora), stub count 304
 - [[workflow]] — 
 - [[discovery-report]] — 
 - [[gap-analysis]] — 
@@ -692,14 +693,14 @@ type: index
 - [[arxiv-2026-05-24-top-papers]] — arxiv daily report — Proxy-Based Approximation of Shapley and Banzhaf Interactions
 - [[arxiv-2026-05-26-top-papers]] — arxiv daily report — bounded representation capacity theme
 - [[arxiv-2026-05-27-top-papers]] — arxiv papers researched — CUA-GYM (RLVR data synthesis), SafeCtrl-RL (inference-time safety control), Orthogonal Bottlenecks (low-dimensional RL representations) — capacity-constrained adaptation theme
-- [[carryover]] — arxiv agent carryover — CUA-GYM, SafeCtrl-RL, Orthogonal Bottlenecks — capacity-constrained adaptation theme
+- [[wiki/agents/researcher-agent/carryover]] — arxiv agent carryover — CUA-GYM, SafeCtrl-RL, Orthogonal Bottlenecks — capacity-constrained adaptation theme
 - [[papers-2026-05-19-researched]] — Three papers on production LLM agent architecture, VLM reasoning decoupling, and agentic clinical evidence seeking
 - [[papers-2026-05-20]] — Three papers on production LLM agent architecture, VLM reasoning decoupling, and agentic clinical evidence seeking
 - [[papers-2026-05-22-researched]] — Three papers on delta-based AI agent checkpoint/rollback, RLHF memory optimization, and adaptive test-time reasoning
 - [[papers-2026-05-23-researched]] — 
 - [[papers-2026-05-24-researched]] — arxiv papers researched — ProxySHAP and Shapley/Banzhaf interaction indices
 - [[papers-2026-05-26-researched]] — arxiv papers researched — Shannon Scaling Law, SkillOpt, SkillLens, bounded representation capacity theme
-- [[carryover]] — Ingest agent carryover — pipeline healthy, MCP unavailable, 38 missing frontmatter flagged
+- [[wiki/agents/researcher-agent/carryover]] — Ingest agent carryover — pipeline healthy, MCP unavailable, 38 missing frontmatter flagged
 - [[ingest-2026-05-20]] — Ingest report — 7 files processed
 - [[ingest-2026-05-21-run]] — Ingest report — sources processed
 - [[ingest-2026-05-21]] — Ingest run report — 5 sources processed (2026-05-21)
@@ -709,7 +710,7 @@ type: index
 - [[ingest-2026-05-26]] — 
 - [[ingest-2026-05-28]] — Ingest report — 1 file processed
 - [[ingest-2026-06-27]] — Ingest cycle — 3 documentation files processed (codegraph, hermes-path-forward)
-- [[carryover]] — 
+- [[wiki/agents/researcher-agent/carryover]] — 
 - [[audit-2026-05-19]] — Librarian audit report — broken links and frontmatter fixes
 - [[audit-2026-05-20]] — Librarian audit report
 - [[audit-2026-05-21]] — 
@@ -721,13 +722,13 @@ type: index
 - [[audit-2026-07-21]] — 
 - [[audit-2026-07-26]] — 
 - [[batch-progress]] — 
-- [[carryover]] — 
+- [[wiki/agents/researcher-agent/carryover]] — 
 - [[librarian-2026-05-19-missing-agent-sheet]] — Librarian missing agent sheet report
-- [[carryover]] — Librarians-assistant carryover — 15 nested sources fixed, republican-party-duplicate deleted, 0 true broken links in core dirs
-- [[carryover]] — Three new stories: EU-US trade deal ratified with 2029 expiry, Trump walks back AI model vetting, Google DeepMind Gemini for Science launches
-- [[carryover]] — 
+- [[wiki/agents/researcher-agent/carryover]] — Librarians-assistant carryover — 15 nested sources fixed, republican-party-duplicate deleted, 0 true broken links in core dirs
+- [[wiki/agents/researcher-agent/carryover]] — Three new stories: EU-US trade deal ratified with 2029 expiry, Trump walks back AI model vetting, Google DeepMind Gemini for Science launches
+- [[wiki/agents/researcher-agent/carryover]] — 
 - [[overseer-2026-05-26]] — 
-- [[carryover]] — Researcher agent carryover — Jul 2 cycle: 2 stubs upgraded (shorthand-for-thought, opendeepthink-parallel-reasoning), stub count 339
+- [[wiki/agents/researcher-agent/carryover]] — Researcher agent carryover — Jul 2 cycle: 2 stubs upgraded (shorthand-for-thought, opendeepthink-parallel-reasoning), stub count 339
 - [[discovery-2026-05-21]] — 
 - [[discovery-2026-05-22]] — 
 - [[discovery-2026-05-25]] — 

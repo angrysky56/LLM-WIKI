@@ -28,6 +28,15 @@ Run the Zettelkasten insight generation engine and integrate high-confidence ins
 6. Record to episodic memory via `synapse_remember`
 7. Deliver (silent if no new pages created)
 
+## FINAL STEP — Update Carryover (REQUIRED)
+
+After delivering, write updated carryover to `wiki/scratchpad/agent-sheets/insights/carryover.md`. Include:
+- Insights generated this cycle (title + confidence + slug)
+- Wiki pages created from insights (confidence ≥ 0.7)
+- Lower-confidence insights noted (no page created)
+- Open items for next cycle
+- Last run timestamp
+
 ## Wiki Operations
 - **Tools:** `synapse_remember` (record insights to episodic memory), `wiki_write_page` (create synthesis pages for confidence ≥ 0.7), `wiki_update_index` (after new page)
 - **Constraint:** Only create wiki pages for confidence ≥ 0.7. Lower confidence → note only, no page.

@@ -45,6 +45,14 @@ AI+science+math+breakthrough+2026
 - **Tools:** `query_knowledge` (dedup check only), `wiki_write_page`
 - **Constraint:** Wiki is for dedup only. RSS handles discovery — never search wiki for news content.
 
+## FINAL STEP — Update Carryover (REQUIRED)
+
+After deliver, write updated carryover to `wiki/scratchpad/agent-sheets/news/carryover.md`. Include:
+- Stories covered this cycle (title + slug + significance rationale)
+- Article IDs already indexed (for dedup)
+- Open items for next cycle
+- Last run timestamp
+
 ## Quality Standards
 
 - Ingest for significance, not volume

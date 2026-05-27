@@ -1,31 +1,36 @@
 ## Insights Agent — Carryover
 
-**Run**: 2026-05-25 06:00 AM  
-**Status**: Complete
+**Run**: 2026-05-26 06:00 AM  
+**Status**: Complete — No new insights generated
+
+---
+
+## Summary
+
+- CLI executed (hard watchdog fired at 570s, exit code 3)
+- `latest.md` unchanged — still points to `2026-05-23T15-54-51_general.md` (dated May 23)
+- No new insights generated; existing 4 insights from May 23 already have wiki pages
 
 ---
 
 ## Established
-- Insights generated: 4
-- Pages created: 4 (all with confidence >= 0.7)
-  - `titans-memory-architecture-insight.md` — confidence 0.85
-  - `para-system-cluster-insight.md` — confidence 0.85
-  - `oee-knowledge-cluster-insight.md` — confidence 0.85
-  - `francesca-albanese-sanctions-insight.md` — confidence 0.85
-- All insights from `community_detection` pattern type
-- CLI exited with code 3 (hard watchdog fired at 570s) — output files valid, processed normally
+- Insights generated: 4 (from May 23 run)
+- Pages created: 4 (from May 25 run)
+  - `titans-memory-architecture-insight.md`
+  - `para-system-cluster-insight.md`
+  - `oee-knowledge-cluster-insight.md`
+  - `francesca-albanese-sanctions-insight.md`
+- All confidence >= 0.85, all from `community_detection` pattern type
 
 ---
 
 ## Open
-- Run `wiki_update_index()` + `synapse_remember()` for 4 new insight pages (in active MCP session)
-- MCP tools unavailable in cron context — deferred to manual follow-up
+- None — all prior open items resolved
 
 ---
 
 ## Kanban Status
-- [x] Surfaced to hermes kanban: 2026-05-25 13:08
-  - 1 open item → t_ef13d830fc611d11 (Index 4 new insight pages + record episodic memory)
+- [x] Prior item (t_ef13d830fc611d11) Index + episodic memory — resolved
 
 ---
 

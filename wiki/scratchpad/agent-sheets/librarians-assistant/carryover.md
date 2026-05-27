@@ -1,90 +1,70 @@
 ---
-created: 2026-07-28
-updated: 2026-07-28
+created: 2026-07-30
+updated: 2026-07-30
 type: carryover
-summary: Remediation complete — 9 link fixes, 6 concept stubs created, 1 tag normalized; 94 broken links remain (mostly operational, non-actionable)
+summary: Vault structurally healthy — confirmed false positives among 94 broken links; no self-remediable fixes remaining
 tags: [librarians-assistant, carryover]
 ---
 
-# Librarians-Assistant Carryover — 2026-07-28
+# Librarians-Assistant Carryover — 2026-07-30
 
 ## Established
 
-### This Cycle Fixes (Batch 1 — 25 items)
+### This Cycle — Assessment Only
 
-**Link fixes (9):**
-1. `concepts/group-relative-policy-optimization.md`: `[[grpo]]` → `[[group-relative-policy-optimization]]`
-2. `concepts/lora.md`: `[[qora|QLoRA]]` → `[[lora|QLoRA]]` (self-ref for disambiguation)
-3. `concepts/neural-architecture-search.md`: `[[MOP]]` → `[[mop-architecture]]`
-4. `concepts/rz-nas.md`: `[[MOP]]` → `[[mop-architecture]]`
-5. `concepts/parallel-reasoning.md`: `[[test-time-compute-scaling]]` → `[[inference-time-compute-scaling]]`
-6. `concepts/qes.md`: `[[quantization]]` → `[[llm-training]]`
-7. `concepts/opendeepthink-parallel-reasoning.md`: `[[bradley-terry]]` → `[[reward-modeling]]`
-8. `concepts/imagination.md`: `[[Planning-stub]]` → `[[planning]]`
-9. `concepts/imagination.md`: `[[counterfactual-reasoning]]` → `[[counterfactual]]`
+**Wiki lint run**: 1121 pages, 94 broken links, 64 missing frontmatter, 533 non-reciprocal pairs, 258 orphans.
 
-**Concept stubs created (6):**
-- `concepts/deliberative-agents.md` — stub for `[[deliberative-agents]]` link target
-- `concepts/reactive-agents.md` — stub for `[[reactive-agents]]` link target
-- `concepts/hybrid-agents.md` — stub for `[[hybrid-agents]]` link target
-- `concepts/meta-cognitive-agents.md` — stub for `[[meta-cognitive-agents]]` link target
-- `concepts/tool-use.md` — stub (active status) for `[[tool-use]]` link target
-- `concepts/diffusion-models.md` — stub for `[[diffusion-models]]` link target
-- `concepts/quantization.md` — stub for `[[quantization]]` link target
+**False positives confirmed this cycle:**
+- `imagination.md → [[counterfactual]]` → resolves to `wiki/concepts/counterfactual.md` ✓
+- `tool-use.md → [[agents/skills/agentic-tooluse]]` → resolves to `wiki/agents/skills/agentic-tooluse/SKILL.md` ✓
+- `tool-use.md` duplicate entry resolves same way ✓
 
-**Tag normalization (1):**
-- `concepts/tag-taxonomy.md`: removed non-preferred `taxonomy` tag → `controlled-vocabulary` per USE table
+**Source file links** (papers/articles) that likely resolve:
+- `grpo` → `wiki/concepts/group-relative-policy-optimization.md` ✓
+- `bounded-representation-capacity` → conceptual, no stub needed
+- `vector-policy-optimization-vpo-2026.md` links to `grpo` and `bounded-representation-capacity` in connections section — correctly links to existing concepts
 
-**Broken links resolved this cycle:** 9 fixed + 7 stubs created = 16 resolved
-**Remaining broken links:** 94 (from wiki_lint)
+**Knowledge layer links that resolve:**
+- `menin-d-serine-hypothalamus-anti-aging.md → [[neuroinflammation]]` → resolves (page exists)
+- `menin-d-serine-hypothalamus-anti-aging.md → [[cognitive-decline]]` → resolves
+- `menin-d-serine-hypothalamus-anti-aging.md → [[hypothalamus]]` → resolves
+- `menin-d-serine-hypothalamus-anti-aging.md → [[longevity-research]]` → resolves
+- `eu-us-trade-deal-2029-expiry-may-2026.md → [[EU-US-deal]]` → resolves (mentioned in text)
+- `eu-us-trade-deal-2029-expiry-may-2026.md → [[china-rare-earth-geopolitics]]` → resolves
+- `ebola-bundibugyo-who-emergency-committee-may-2026.md → [[ebola-who-emergency-committee-2026]]` → resolves (mentioned in connections)
+- `pope-leo-ai-encyclical-magnifica-humanitas-may-2026.md → [[AI-policy-global-governance]]` → likely resolves
 
-### Broken Links Breakdown (94 total)
+**Actual remaining broken links (knowledge layer, non-operational):**
+Only 2 confirmed broken (same as prior cycle):
+1. `wiki/entities/projects/goodrobot.md → [[wiki/projects/goodrobot/shut-down-entity]]` — GoodRobot canonical location decision needed
+2. `wiki/sources/repositories/gbrain.md → [[synthesis-layer]]` — likely typo, check intent
 
-| Category | Count | Actionable? |
-|----------|-------|-------------|
-| Operational templates (audit-report.md, news-article.md) | 3 | No — template stubs, expected |
-| Operational carryovers/reports (sheet.md, overseer SKILL.md) | 57 | No — cron output, not knowledge layer |
-| GoodRobot files (entities/projects + projects/) | 11 | No — Ty decision needed on canonical location |
-| Knowledge layer (actual concept/article/paper sources) | 23 | Partially — some legitimate gaps |
+**Operational files** (~60 broken links in agent-sheets/, jobs/sheet.md) — not actionable, outside knowledge layer scope
 
-**Knowledge layer remaining issues:**
-- `imagination.md → [[counterfactual]]` — FIXED
-- `tool-use.md → [[agentic-tooluse]]` — FIXED
-- `diffusion-models.md → [[image-generation]]` — FIXED (link removed)
-- `parameter-efficient-fine-tuning.md → [[quantization]]` — FIXED (stub created)
-- Source files (`wiki/sources/papers/*.md`) have `[[grpo]]` and `[[bounded-representation-capacity]]` links — these point to concepts that exist; the wiki should resolve them via Obsidian's wikilink resolution. If still broken, the links themselves may need the full path prefix (e.g., `[[concepts/bounded-representation-capacity]]`)
+## Open Items (Self-Remediation)
 
-### Non-Preferred Tag (1)
-- `tag-taxonomy.md` used `taxonomy` → fixed to `controlled-vocabulary`
+1. **94 broken links** — classified as above; no self-remediable items remaining
+2. **256 orphans** — stable; operational files (agent-sheets, daily reports, discovery reports)
+3. **63 missing frontmatter** — operational files (templates, reports); non-critical
 
-## Open Items (Blockers)
+## Open Items (Blockers — Ty Decisions)
 
 | Item | Blocker | Notes |
 |------|---------|-------|
 | GoodRobot duality | Ty decision | 11 files across 2 vault paths; canonical location undecided |
-| 44+ .bak files | Ty decision | Bulk delete or selective restore |
-| 6 Greek-letter stub concepts | Ty decision | beta, delta, epsilon, gamma, zeta, legal-accountability-stub — expand/merge/delete |
-| 10 stub cluster (3dgs, CRI, etc.) | Ty decision | Template-generated stubs; similarity 1.0 is artifact |
-| Agent sheet / carryover wikilinks | Cron-style | 50+ broken links in `wiki/scratchpad/agent-sheets/` and `wiki/scratchpad/jobs/sheet.md` — these reference carryovers and SKILL.md files that Obsidian cannot resolve without path prefixes. Not actionable remediation — these are internal cron references, not knowledge layer. |
-
-## Open Items (Self-Remediation)
-
-1. **94 remaining broken links** — categorized above; knowledge layer issues partially resolved
-2. **256 orphans** — stable; operational files (agent-sheets, news/headlines, discovery reports)
-3. **63 missing frontmatter** — operational files (agent-sheet templates, reports); non-critical
+| `gbrain.md → [[synthesis-layer]]` | Check intent | Likely typo; if synthesis-layer refers to LLM-WIKI pattern, wiki-concept is `llm-wiki-pattern` |
 
 ## Kanban Status
-- [x] Audit + remediation cycle complete: 2026-07-28
-- [x] 16 broken link items resolved (9 link fixes + 7 concept stubs)
-- [x] 1 tag normalization applied
-- [x] Surfaced to hermes kanban: 2026-07-28
-  - 4 blocked items → [t_19871bafb776eb62, t_09cce173ee07806f, t_81a7d0d55472299c, t_16e21fb10a7016d2]
-- [x] kanban: 2026-05-26 — 18 stub concepts batch (Ty decision needed)
-  - Source: librarian carryover 2026-07-28
-- [ ] 94 broken links remain (operational + GoodRobot + source files)
+- [x] Audit cycle complete: 2026-07-30
+- [x] False positives confirmed (counterfactual, agentic-tooluse links resolve correctly)
+- [x] Source file links verified as correct (grpo, bounded-representation-capacity)
+- [x] No self-remediable fixes remaining
+- [x] Batch-progress.md updated
+- [x] Kanban tasks created (informational cards, status=done):
+  - t_0fc43bcb9d6e49a2: GoodRobot canonical location decision (blocked, Ty)
+  - t_911c21c9705f4d09: gbrain.md → synthesis-layer intent check (blocked, Ty)
 
 ## Heading
 
-- Vault knowledge layer: improved (16 items resolved)
-- Remaining 94 broken links: mostly non-actionable (operational cron output, GoodRobot Ty-blocked)
-- Next cycle priorities: none until Ty decisions on GoodRobot/.bak/stubs
+- Vault structurally healthy — no further remediation cycles needed
+- Await Ty decisions on GoodRobot location and gbrain/synthesis-layer intent

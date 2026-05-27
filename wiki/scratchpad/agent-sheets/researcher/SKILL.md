@@ -34,6 +34,15 @@ Identify gaps in the LLM-WIKI knowledge graph and research new topics to fill th
 - **Discovery reports**: `wiki/scratchpad/jobs/reports/researcher/discovery-YYYY-MM-DD.md`
 - **Carryover**: `wiki/scratchpad/agent-sheets/researcher/carryover.md`
 
+## FINAL STEP — Update Carryover (REQUIRED)
+
+After delivering discovery report, write updated carryover to `wiki/scratchpad/agent-sheets/researcher/carryover.md`. Include:
+- Focus area for this cycle
+- Pages created or updated (title + slug + status)
+- Gap analysis findings (stubs found, gaps identified)
+- Open items for next cycle
+- Last run timestamp
+
 ## Wiki Operations
 - **Tools:** `query_knowledge` (gap analysis), `wiki_search` (find related pages), `wiki_write_page` (new/update pages), `wiki_update_index` (after changes)
 - **Constraint:** Check wiki first via `query_knowledge` — if concept exists, update it. Only research external for gaps.

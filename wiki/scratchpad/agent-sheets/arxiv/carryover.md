@@ -1,5 +1,5 @@
 ---
-summary: arxiv agent carryover — Shannon Scaling Law, SkillOpt, SkillLens — bounded representation capacity theme
+summary: arxiv agent carryover — StepOPSD (step-level credit redistribution in GRPO), AKBE (knowledge boundary probing), PRISM (multi-intention IRL) — instance-level behavioral decomposition theme
 updated: 2026-05-26T00:00:00Z
 ---
 
@@ -7,7 +7,7 @@ updated: 2026-05-26T00:00:00Z
 created: 2026-05-26T00:00:00Z
 updated: 2026-05-26T00:00:00Z
 type: report
-summary: "arxiv agent carryover — 2026-05-26 batch: Shannon Scaling Law (finite LLM capacity via SNR), SkillOpt (trainable skill docs), SkillLens (negative transfer is common, meta-skill reduces it)"
+summary: "arxiv agent carryover — 2026-05-26 batch: StepOPSD (step-level credit redistribution in GRPO), AKBE (knowledge boundary probing dual-path), PRISM (multi-intention IRL recurrent gating) — instance-level behavioral decomposition theme"
 tags: [arxiv, carryover]
 status: active
 confidence: high
@@ -17,47 +17,52 @@ confidence: high
 
 ## Run History
 
-||| Date | Result | Notes |
-|||------|--------|-------|
-||| 2026-05-18 | 3 papers ingested | EnvFactory, SD-Search, LMAC — credit assignment theme |
-||| 2026-05-20 | No new papers | arXiv late-UTC batch not yet posted |
-||| 2026-05-21 | 3 papers ingested | EqR (attractors), DeepWeb-Bench, hyperparameter transfer |
-||| 2026-05-23 | 3 papers ingested | VPO (diversity RL), DeltaDirect (motion blindness), Recuriosity (3D exploration) — test-time scaffolding theme |
-||| 2026-05-24 | 3 papers ingested | ProxySHAP (Shapley/Banzhaf), Boiling the Frog (agentic safety), CUSP (scientific forecasting) — verification/trust theme |
-||| 2026-05-26 | 3 papers ingested | Shannon Scaling Law (finite LLM capacity), SkillOpt (trainable skill docs), SkillLens (skill lifecycle, negative transfer) — **bounded representation capacity theme** |
+|||| Date | Result | Notes |
+||||------|--------|-------|
+|||| 2026-05-18 | 3 papers ingested | EnvFactory, SD-Search, LMAC — credit assignment theme |
+|||| 2026-05-20 | No new papers | arXiv late-UTC batch not yet posted |
+|||| 2026-05-21 | 3 papers ingested | EqR (attractors), DeepWeb-Bench, hyperparameter transfer |
+|||| 2026-05-23 | 3 papers ingested | VPO (diversity RL), DeltaDirect (motion blindness), Recuriosity (3D exploration) — test-time scaffolding theme |
+|||| 2026-05-24 | 3 papers ingested | ProxySHAP (Shapley/Banzhaf), Boiling the Frog (agentic safety), CUSP (scientific forecasting) — verification/trust theme |
+|||| 2026-05-26 (prior) | 3 papers ingested | Shannon Scaling Law (finite LLM capacity), SkillOpt (trainable skill docs), SkillLens (skill lifecycle) — bounded representation capacity theme |
+|||| 2026-05-26 (new) | 3 papers ingested | StepOPSD (step-level credit redistribution in GRPO), AKBE (knowledge boundary probing), PRISM (multi-intention IRL) — instance-level behavioral decomposition theme |
 
 ## Current State
 
-- **arXiv**: 2026-05-26 batch fully processed — 3 papers ingested
-- **arXiv API**: No rate limiting; behaved normally throughout
-- **Wiki paper inventory**: ~323 pages
+- **arXiv**: 2026-05-26 (new) batch fully processed — 3 papers ingested
+- **arXiv upstream carryover**: Prior 2026-05-26 batch (Shannon Scaling Law, SkillOpt, SkillLens) already surfaced
+- **arXiv API**: No rate limiting; direct Python urllib used throughout
+- **Wiki paper inventory**: ~333 pages
 
-## Papers Ingested (2026-05-26 batch)
+## Papers Ingested (2026-05-26 (new) batch)
 
-||| Paper | arXiv ID | Key Finding | Wiki Connection |
-|||-------|----------|-------------|------------------|
-||| Shannon Scaling Law | 2605.23901 | LLM capacity bounded by SNR; U-shaped degradation emerges past critical model-data ratio; extrapolates with R²=0.847 | Connects to [[efhf]], [[verifier-graph]], [[maximum-occupancy-principle]], [[mop-explorer]] |
-||| SkillOpt | 2605.23904 | First systematic text-space optimizer for agent skills — skill documents are trainable external state with validation gating, edit budgets, and epoch-wise meta updates; best on 52/52 cells | Connects to [[efhf]], [[agentic-research]], [[mop-explorer]], [[maximum-occupancy-principle]] |
-||| SkillLens | 2605.23899 | Full skill lifecycle study — negative transfer is common and non-trivial; skill utility is independent of model scale; meta-skill that guides extraction toward utility-features reduces negative transfer | Connects to [[efhf]], [[agentic-research]], [[mop-explorer]], [[verifier-graph]] |
+|||| Paper | arXiv ID | Key Finding | Wiki Connection |
+||||-------|----------|-------------|------------------|
+|||| StepOPSD | 2605.27140 | Post-rollout step-level credit redistribution via hindsight teacher-student rescoring within GRPO; sign-preserving advantage shaping; two-knob law (αclip local stability, λmix task-dependent) | Connects to [[grpo]], [[credit-assignment]], [[agentic-research]], [[bounded-representation-capacity]], [[efhf]] |
+|||| AKBE | 2605.26952 | Dual-path on-policy probing of model's intrinsic knowledge boundary; eliminates 18% redundant tool calls at +1.85 accuracy improvement; no accuracy-efficiency trade-off | Connects to [[bounded-representation-capacity]], [[efhf]], [[agentic-research]], [[credit-assignment]] |
+|||| PRISM | 2605.26998 | Recurrent gating network for multi-intention IRL; exact EM decomposition with O(nK) E-step; closed-form per-intention reward recovery via IAVI; recovers nameable intentions | Connects to [[agentic-research]], [[bounded-representation-capacity]], [[credit-assignment]], [[mop-explorer]] |
 
-## Cross-Paper Theme: Bounded Representation Capacity
+## Cross-Paper Theme: Instance-Level Behavioral Decomposition in RL Agents
 
-**The unifying finding**: The failure mode of bounded representations is **saturation-induced degradation**, not mere sub-optimality.
+**The unifying finding**: All three papers decompose behavior at the instance level to resolve misallocation of learning signals — and all find that coarser, trajectory-level signals cause informativity or efficiency pathologies.
 
-| System | Representation | Saturation Failure |
-|--------|---------------|-------------------|
-| LLM (Shannon Law) | Model weights | U-shaped loss — scaling past SNR threshold degrades performance |
-| Skill document (SkillOpt) | External text state | Harmful rewrites accumulate when validation gate is absent |
-| Skill transfer (SkillLens) | Transferred skill | Negative transfer when skill exceeds target's semantic capacity |
+| System | Decomposition Unit | Signal | Key Mechanism |
+|--------|-------------------|--------|---------------|
+| StepOPSD | Causal action step | Step-aware advantage shaping | Post-rollout hindsight distillation via log-prob gap |
+| AKBE | Per-instance tool need | Boundary-guided auxiliary loss | Dual-path (with/no-tool) on-policy probing |
+| PRISM | Per-step intention | Closed-form per-intention reward | Recurrent gating + exact EM decomposition |
 
-**Design principle**: Every bounded adaptation step must be verification-gated with a capacity-constrained step size.
+**Design principle**: When trajectory-level or policy-level learning signals are misaligned with the actual causal unit of decision-making, surgical instance-level decomposition of either the behavior (intent), the advantage (steps), or the environment interaction (tool need) restores correct signal routing without architectural overhaul.
 
 ## Kanban Status
-- [ ] Surfaced to central board: 2026-06-26
+- [x] Surfaced to hermes kanban: 2026-05-26 (new batch)
+  - No open items this cycle — arxiv processed 3 papers (StepOPSD, AKBE, PRISM) with no remaining open questions
 
 ## Notes for Next Run
 
-- **World-model improvement as next theme continues**: Given the bounded representation theme, next cycle should search for papers on: model editing, knowledge unlearning, skill compaction/compression, uncertainty-aware planning, or adaptive world model improvement via environment interaction.
-- **The SNR ↔ reliability mapping**: The Shannon Scaling Law's SNR-to-capacity mapping (C = B log₂(1+S/N)) is structurally identical to the reliability ratio in [[verifier-graph]] — both track signal quality relative to noise. Papers on calibrated confidence scores or uncertainty-aware verification would deepen this thread.
-- **Capacity-aware skill construction**: SkillOpt's bounded edits and SkillLens's meta-skill both point to a general principle: skill documents should be constructed with explicit capacity budgets relative to target model scale. A "skill capacity planning" thread would bridge these papers.
-- **Papers worth revisiting**: LCGuard (2605.22786, multi-agent KV sharing safety), HarnessAPI (2605.22733, MCP+HTTP unified endpoints), ProxySHAP (2605.22738 — the SNR/exact-Shapley structure exploit pattern appears in both ProxySHAP and the Shannon Scaling Law)
+- **Causal decomposition in RL**: Papers on causal credit assignment beyond step-level (e.g., causal intervention on action sequences, do-calculus for credit assignment)
+- **Knowledge boundary / metacognition in LLMs**: Papers on probing LLM self-knowledge, uncertainty elicitation, internal model calibration — bridging AKBE-style probing to non-RL settings
+- **Multi-intention IRL applications**: Papers applying PRISM-like intention segmentation to autonomous driving, game-playing agents, or multi-task dialogue
+- **GRPO variants**: Papers improving or analyzing GRPO beyond standard implementations (stale ref, adaptive clipping, advantage normalization)
+- **Tool-use efficiency in agents**: Papers measuring or optimizing tool productivity beyond accuracy-only metrics
+- **Papers worth revisiting**: LCGuard (2605.22786, multi-agent KV sharing safety), HarnessAPI (2605.22733, MCP+HTTP unified endpoints)

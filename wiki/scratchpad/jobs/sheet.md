@@ -1,7 +1,7 @@
 ---
 summary: Central agent coordination board — overseer-managed, per-agent skill folders
 tags: [jobs, task-board, overseer]
-updated: 2026-05-25
+updated: 2026-05-26
 ---
 
 # Jobs Sheet — Central Agent Coordination Board
@@ -15,14 +15,14 @@ updated: 2026-05-25
 
 | Agent | Cron ID | Schedule | Last Run | Last Status | Next Run |
 |-------|---------|----------|----------|--------------|----------|
-|| [[arxiv/SKILL.md]] | `72599f850df2` | 08:20 | 2026-05-26 | **done** | — |
-| [[researcher/SKILL.md]] | `8ea33cfa560a` | 08:00 | 2026-07-15 | **done** | — |
-| [[ingest/SKILL.md]] | `c838e81a1496` | 06:30 | 2026-05-26 | **done** | — |
-| [[librarian/SKILL.md]] | `48a3a009a820` | 08:20 | 2026-07-28 | **done** | — |
-| [[librarians-assistant/SKILL.md]] | `385aa0819a57` | 08:40 | 2026-07-28 | **done** | — |
-| [[insights/SKILL.md]] | `723e76246970` | 06:00 | 2026-05-25 | **done** | — |
-| [[news/SKILL.md]] | `eaaa6bdc8503` | 07:30 | 2026-05-28 | **done** | — |
-| [[orcaid/SKILL.md]] | — | PAUSED | — | — | — |
+| [[arxiv/SKILL.md]] | `72599f850df2` | 09:00 | 2026-05-26 | **paused** | — |
+| [[researcher/SKILL.md]] | `8ea33cfa560a` | 08:00 | 2026-05-26 | **paused** | — |
+| [[ingest/SKILL.md]] | `c838e81a1496` | 11:00 | 2026-05-26 | **paused** | — |
+| [[librarian/SKILL.md]] | `48a3a009a820` | 08:00 | 2026-07-29 | **paused** | — |
+| [[librarians-assistant/SKILL.md]] | `385aa0819a57` | 10:00 | 2026-07-30 | **paused** | — |
+| [[insights/SKILL.md]] | `723e76246970` | 07:00 | 2026-05-25 | **paused** | — |
+| [[news/SKILL.md]] | `eaaa6bdc8503` | 06:00 | 2026-05-28 | **paused** | — |
+| [[orcaid/SKILL.md]] | — | PAUSED | — | **paused** | — |
 
 **Kanban Review**: `0a34e742931a` · [[librarians-assistant/SKILL.md|kanban-review]] · schedule 08:30 · on-demand trigger supported
 
@@ -100,4 +100,5 @@ All 8 agent cron jobs now reference the new skill folder names:
 2026-05-25 — Restructured agent-sheets/ into progressive-disclosure skill folders (SKILL.md → references/ → templates/). Flat .md files removed. All 7 cron jobs updated to new skill names.
 2026-05-25 — Central sheet redesigned: overseer owns this sheet, per-agent skill folder tracking, cron skill link registry
 2026-05-26 — Full carryover audit: 8 agents processed. arxiv status corrected in_progress→done. 3 researcher open items surfaced (bounded memory, MOP vs fine-tuning, schema competition). 5 news open items tracked. librarian/librarians-assistant findings consolidated. insights blocked by MCP unavailability noted. Open Items table expanded with 5 new rows.
+2026-05-26 PM — Overseer audit: librarian last-run corrected 2026-05-26→2026-07-29 (carryover body date used; carryover missing frontmatter updated field). librarians-assistant last-run corrected 2026-05-26→2026-07-30. All open items already on kanban; no new cards created. researcher carryover (Jul 15) stale vs today's date — flagged.
 ```

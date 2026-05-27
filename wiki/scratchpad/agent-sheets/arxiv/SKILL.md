@@ -44,6 +44,14 @@ Discover, select, and research the top 3 arXiv papers or others if the same pape
 - **Daily reports**: `wiki/scratchpad/jobs/reports/arxiv/arxiv-YYYY-MM-DD-top-papers.md`
 - **Carryover**: `wiki/scratchpad/agent-sheets/arxiv/carryover.md`
 
+## FINAL STEP — Update Carryover (REQUIRED)
+
+After completing paper ingestion, write updated carryover to `wiki/scratchpad/agent-sheets/arxiv/carryover.md`. Include:
+- Papers processed this cycle (arxiv_id + title + key finding)
+- Pages created in wiki/sources/papers/ (slug)
+- Open items for next cycle
+- Last run timestamp
+
 ## Quality Standards
 
 - Select for **significance**, not recency

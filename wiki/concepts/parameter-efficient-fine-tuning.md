@@ -128,6 +128,7 @@ Beyond the core methods, several research directions extend LoRA:
 - [[catastrophic-forgetting]] — frozen backbone preserves prior weights
 - [[ml-evolution]] — ESSA and QES are alternative adaptation paradigms for the ml-evolution framework
 - [[quantization]] — QLoRA combines 4-bit quantization with LoRA fine-tuning
+- [[qora]] — dedicated QLoRA concept page: NF4 format, two-stage design, memory footprint comparison
 
 ## Open Questions
 

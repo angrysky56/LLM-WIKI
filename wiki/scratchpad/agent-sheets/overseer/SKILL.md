@@ -29,7 +29,6 @@ The overseer is the **only agent that writes to the central sheet**. It:
 # Correct (in terminal() calls):
 cat /home/ty/Documents/LLM-WIKI/wiki/scratchpad/jobs/sheet.md
 cat /home/ty/Documents/LLM-WIKI/wiki/scratchpad/agent-sheets/{agent}/carryover.md
-cat /home/ty/Documents/LLM-WIKI/wiki/scratchpad/agent-sheets/{agent}/meta-advancement.md
 
 # Wrong — will fail in cron:
 read_file(path="...")
@@ -37,38 +36,62 @@ read_file(path="...")
 
 ## Agent Registry
 
-|| Agent | Job ID | Schedule | Carryover | Tracking |
-|-------|--------|----------|-----------|----------|
-| `arxiv` | `72599f850df2` | `10 8 * * *` | [[arxiv/carryover]] | [[arxiv/meta-advancement]] |
-| `researcher` | `8ea33cfa560a` | `0 8 * * *` | [[researcher/carryover]] | [[researcher/meta-advancement]] |
-| `ingest` | `c838e81a1496` | `30 6 * * *` | [[ingest/carryover]] | [[ingest/meta-advancement]] |
-| `librarian` | `48a3a009a820` | `20 8 * * *` | [[librarian/carryover]] | [[librarian/meta-advancement]] |
-| `librarians-assistant` | `385aa0819a57` | `40 8 * * *` | [[librarians-assistant/carryover]] | [[librarians-assistant/meta-advancement]] |
-| `insights` | `723e76246970` | `0 6 * * *` | [[insights/carryover]] | [[insights/meta-advancement]] |
-| `news` | `eaaa6bdc8503` | `30 7 * * *` | [[news/carryover]] | [[news/meta-advancement]] |
-| `orcaid` | `297092f3b347` | PAUSED | [[orcaid/carryover]] | [[orcaid/meta-advancement]] |
+|| Agent | Job ID | Schedule | Carryover | Notes ||
+|-------|--------|----------|-----------|--------||
+|| `arxiv` | `72599f850df2` | `10 8 * * *` | [[arxiv/carryover]] | ||
+|| `researcher` | `8ea33cfa560a` | `0 8 * * *` | [[researcher/carryover]] | ||
+|| `ingest` | `c838e81a1496` | `30 6 * * *` | [[ingest/carryover]] | ||
+|| `librarian` | `48a3a009a820` | `20 8 * * *` | [[librarian/carryover]] | ||
+|| `librarians-assistant` | `385aa0819a57` | `40 8 * * *` | [[librarians-assistant/carryover]] | ||
+|| `insights` | `723e76246970` | `0 6 * * *` | [[insights/carryover]] | ||
+|| `news` | `eaaa6bdc8503` | `30 7 * * *` | [[news/carryover]] | ||
+|| `orcaid` | `297092f3b347` | PAUSED | [[orcaid/carryover]] | ||
+
+## Overseer Own Files
+
+|| File | Path | Purpose ||
+|------|------|--------||
+| Carryover | `overseer/carryover.md` | Overseer's own open items, state, last run ||
+| Meta-Advancement Framework | `overseer/meta-advancement/SKILL.md` | Advancement formula and tracking structure ||
+| References | `overseer/references/Meta-Meta Process for Structured Exploration.md` | Conceptual grounding for meta-meta process ||
 
 ## Monitoring Cycle
 
 ```
+# Overseer's own carryover (at wiki/scratchpad/agent-sheets/overseer/carryover.md)
+terminal(cat overseer/carryover.md) → update own state and advancement score
+
 FOR each agent in registry:
-  a. terminal(cat carryover.md)       → extract open items, last run, state
-  b. terminal(cat meta-advancement.md) → extract truth/scrutiny/improvement
-  c. COMPUTE advancement score
-  d. UPDATE meta-advancement.md with new state and score
+  a. terminal(cat {agent}/carryover.md) → extract open items, last run, state
+  b. COMPUTE advancement score from carryover state
+  c. UPDATE {agent}/carryover.md with new state and score
+UPDATE overseer/carryover.md with own state and advancement score
 REFRESH central sheet with all agent states
+
 FOR each open item in carryovers:
-  a. IF not in kanban → CREATE kanban card (status=done, informational only)
-  b. IF kanban card exists → UPDATE kanban status
-ASSIGN new tasks to agent carryovers where applicable
+  a. CHECK if item already has a kanban ID in sheet.md
+  b. IF no kanban ID → CREATE kanban card using terminal(hermes kanban create):
+     hermes kanban create "<title>" --triage --priority P<1|2|5> --body "<description>"
+  c. The triage system handles decomposition and routing automatically
 LOG cycle completion with timestamp
 ```
 
-## Kanban Card Pattern (Informational Only)
+## Creating Triage Cards
 
-**Wiki-agent open items are informational cards, NOT executable tasks.** Set `status=done` immediately on creation — the dispatcher does NOT pick these up. The card exists so Ty has a unified view of all agent open questions without reading individual reports.
+Use `hermes kanban create` via terminal(). Example:
+```bash
+hermes kanban create "Fill [[continual-learning]] stub" --triage --priority P2 --body "Connect to catastrophic-forgetting/MoE/MOP/llm-training. Researcher agent owns this."
+```
 
-For items needing Ty input: set `status=blocked` instead.
+Priority mapping: high=P1, med=P2, low=P5 (hermes uses P1-P5, higher = more urgent).
+
+**Only create ONE card per open item.** If the item already has a Kanban ID in sheet.md (format: `t_<hex>`), skip it — it's already tracked.
+
+## Kanban Card Pattern (Actionable via Triage)
+
+**Wiki-agent open items are actionable tasks routed through the triage system.** Create cards with `status=triage` — the triage skill handles decomposition, state transitions, and routing to the appropriate agent or human. Do NOT set `status=done`; informational done-cards were a mistake.
+
+For items needing Ty input: set `status=blocked` and note what input is needed in the card body.
 
 ## Advancement Formula
 
@@ -98,9 +121,7 @@ Concept → Represent → Facts → Scrutinize → Derive → Rule-Based → Mod
 
 ## See Also
 
-- `references/agent-registry.md` — full agent table with Job ID, schedule, carryover path, toolsets
-- `references/central-sheet-format.md` — template for sheet.md format
-- `references/meta-advancement-format.md` — per-agent tracking file format
+The central sheet is at `wiki/scratchpad/jobs/sheet.md`. Per-agent carryovers are at `wiki/scratchpad/agent-sheets/{agent}/carryover.md`.
 
 ## Logs
 

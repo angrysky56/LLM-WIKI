@@ -1,57 +1,64 @@
----
-created: 2026-05-26
-updated: 2026-06-27
-type: report
-summary: arxiv daily report — bounded representation capacity theme
-tags: [arxiv, report]
----
-
-# arxiv Report — 2026-05-26
-
-## Theme: Bounded Representation — Capacity, Skills, and Transfer
-
-This batch coheres around a single deeper theme: **bounded representation and the failure modes of unbounded adaptation**. The Shannon Scaling Law shows that LLM capacity itself is bounded by SNR — beyond which scaling degrades. SkillOpt and SkillLens show that agent skill documents are also bounded representations — beyond which (wrong scale, wrong target, wrong compression) they degrade rather than improve. Together these papers reveal that the central challenge for agentic systems is not building bigger representations, but building representations that stay within their capacity bounds while remaining transferable.
+# ArXiv Daily Report — 2026-05-26
 
 ## Papers Processed
 
-### 1. *Shannon Scaling Law* (arxiv:2605.23901)
-- **Why selected**: Directly addresses the carryover's "world-model improvement" theme. CUSP/Futuresim found temporal reasoning limitations; this paper provides a theoretical framework (finite Shannon capacity, SNR collapse) for understanding why world models fail at scale. Also follows the 3-batch "verification/trust" theme by showing that capacity itself is bounded and must be tracked.
-- **Status**: ingested → wiki/sources/papers/shannon-scaling-law-2026.md
-- **Wiki connections**: efhf (bounded representation layer), verifier-graph (SNR → reliability ratio), maximum-occupancy-principle (capacity saturation), mop-explorer (bounded exploration)
+### 2605.27140v1 — StepOPSD: Step-Aware Online Preference Distillation for Agent Reinforcement Learning
 
-### 2. *SkillOpt* (arxiv:2605.23904)
-- **Why selected**: Connects to both the skill-lifecycle thread and the bounded representation theme. The skill document as external bounded state is a concrete instantiation of EFHF's representation layer principle. The optimizer-model/actor-model separation mirrors the verifier-agent architecture.
-- **Status**: ingested → wiki/sources/papers/skillopt-self-evolving-2026.md
-- **Wiki connections**: efhf (external bounded state), agentic-research (trainable procedural memory), mop-explorer (bounded edits), maximum-occupancy-principle (skill capacity)
+**Finding**: StepOPSD solves the credit-assignment mismatch in multi-turn agentic RL by decomposing trajectories into causal action-centered step segments and using post-rollout hindsight self-distillation to redistribute credit before the GRPO update. Unlike methods that broadcast trajectory-level reward signals blindly or train a dense value model (unstable/hallucination-prone), it uses stale teacher-student log-probability gaps as a surgical credit reshaper. The two-knob law emerges: tighter αclip provides local stability while λmix governs task-dependent mixing strength. Best/first-place results on ALFWorld Heat (79.1%) and PickTwo (95.0%).
 
-### 3. *SkillLens* (arxiv:2605.23899)
-- **Why selected**: Provides the missing empirical grounding for the skill lifecycle that SkillOpt lacks (SkillOpt shows it works; SkillLens shows when and why). Directly addresses the carryover's interest in world-model improvement — negative transfer is the primary failure mode when skill documents saturate target capacity.
-- **Status**: ingested → wiki/sources/papers/skill-consumption-2026.md
-- **Wiki connections**: efhf (bounded representation transfer), agentic-research (skill lifecycle), mop-explorer (negative transfer = capacity saturation), verifier-graph (meta-verification of skill extraction)
+**Wiki path**: `wiki/sources/papers/stepopsd.md`
 
-## Wiki Updates
+---
 
-- **New pages**: 3
-  - `wiki/sources/papers/shannon-scaling-law-2026.md`
-  - `wiki/sources/papers/skillopt-self-evolving-2026.md`
-  - `wiki/sources/papers/skill-consumption-2026.md`
-- **Tags added**: paper, scaling-laws, information-theory, agent-skills, skill-optimization, text-space-optimization, skill-lifecycle, negative-transfer, shannon, efhf, verifier-graph, maximum-occupancy-principle, mop-explorer
+### 2605.26952v1 — Efficient Agentic Reinforcement Learning with On-Policy Intrinsic Knowledge Boundary Enhancement
 
-## Cross-Paper Theme: Bounded Representation Capacity
+**Finding**: AKBE discovers that agentic RL training causes cognitive offloading — the model increasingly calls tools unnecessarily due to reward shaping targeting overall tool count. It introduces dual-path on-policy probing (with-tool vs. no-tool rollouts) that per-instance determines whether external tools are genuinely needed, categorizes trajectories into Tool-dependent/Efficiency/Hallucination/Both-wrong, and constructs targeted auxiliary signals. Eliminates 18% of redundant tool calls while improving accuracy by +1.85 on average — no accuracy-efficiency trade-off.
 
-Three papers, one structural insight: **the failure mode of bounded representations is saturation-induced degradation, not mere sub-optimality**.
+**Wiki path**: `wiki/sources/papers/akbe.md`
 
-| System | Representation | Saturation Failure |
-|--------|---------------|-------------------|
-| LLM (Shannon Law) | Model weights | U-shaped loss — adding more params/tokens past the SNR threshold degrades performance |
-| Skill document (SkillOpt) | External text state | Harmful rewrites accumulate when validation gate is absent |
-| Skill transfer (SkillLens) | Transferred skill | Negative transfer when skill exceeds target's semantic capacity |
+---
 
-This suggests a unified design principle: **verification-gated bounded adaptation**. Every adaptation step (weight update, skill edit, skill transfer) must pass through a validation gate before committing, and the step size must remain within the representation's capacity budget.
+### 2605.26998v1 — Probabilistic Recurrent Intention Switching Model
 
-## Notes
+**Finding**: PRISM addresses the standard IRL assumption of a single stationary reward by using a recurrent gating network to model per-step intention switching. Proves that the resulting EM objective decomposes exactly into independent per-intention reward subproblems, each solvable in closed form via IAVI (no variational approximation). The O(nK) E-step (vs. O(nK²) for forward-backward alternatives) and ~50K parameter RNN enable training in minutes on a laptop GPU. Recovers nameable intentions (water-seeking/homing/exploration in mouse labyrinth; approach/grasp/carry/idle in robotic manipulation) from unlabeled demonstrations.
 
-- **arXiv API**: Normal operation, no rate limiting
-- **MCP usage**: MCP hit rate limits on discovery → used curl fallback for all PDF downloads
-- **Download approach**: curl -s -L to absolute paths in paper-research/; all 4 papers verified
-- **Carryover topic for next cycle**: Continuing the world-model theme — specifically papers on uncertainty-aware planning, world model improvement via environment interaction, or self-calibration in multi-step reasoning. The "bounded representation capacity" thread suggests looking for papers on: model editing, knowledge unlearning, or skill compaction/compression.
+**Wiki path**: `wiki/sources/papers/prism.md`
+
+---
+
+## Cross-Paper Theme: Instance-Level Behavioral Decomposition in RL Agents
+
+**The unifying finding**: All three papers decompose behavior at the instance level to resolve misallocation of learning signals — and all find that coarser, trajectory-level signals cause informativity or efficiency pathologies.
+
+|| System | Decomposition Unit | Signal | Key Mechanism |
+|--------|--------|-------------------|--------|---------------|
+| StepOPSD | Causal action step | Step-aware advantage shaping | Post-rollout hindsight distillation via log-prob gap |
+| AKBE | Per-instance tool need | Boundary-guided auxiliary loss | Dual-path (with/no-tool) on-policy probing |
+| PRISM | Per-step intention | Closed-form per-intention reward | Recurrent gating + exact EM decomposition |
+
+**Design principle**: When trajectory-level or policy-level learning signals are misaligned with the actual causal unit of decision-making, surgical instance-level decomposition of either the behavior (intent), the advantage (steps), or the environment interaction (tool need) restores correct signal routing without architectural overhaul.
+
+**Meta-pattern**: StepOPSD and AKBE both run as plug-in auxiliary modules alongside GRPO — they don't replace the base RL algorithm, they reshape what signal it receives. PRISM runs offline on demonstrations — its decomposition improves reward function interpretability rather than online policy quality.
+
+---
+
+## Next Cycle Search Direction
+
+- **Causal decomposition in RL**: Papers on causal credit assignment beyond step-level (e.g., causal intervention on action sequences, do-calculus for credit assignment)
+- **Knowledge boundary / metacognition in LLMs**: Papers on probing LLM self-knowledge, uncertainty elicitation, internal model calibration — bridging AKBE-style probing to non-RL settings
+- **Multi-intention IRL applications**: Papers applying PRISM-like intention segmentation to autonomous driving, game-playing agents, or multi-task dialogue
+- **GRPO variants**: Papers improving or analyzing GRPO beyond standard implementations (stale ref, adaptive clipping, advantage normalization)
+- **Tool-use efficiency in agents**: Papers measuring or optimizing tool productivity beyond accuracy-only metrics
+
+---
+
+## Deliverables
+
+| Deliverable | Path |
+|-------------|------|
+| StepOPSD source page | `wiki/sources/papers/stepopsd.md` |
+| AKBE source page | `wiki/sources/papers/akbe.md` |
+| PRISM source page | `wiki/sources/papers/prism.md` |
+| Text extracts (15k chars each) | `/home/ty/Documents/paper-research/2605.27140v1.txt`, `2605.26952v1.txt`, `2605.26998v1.txt` |
+| PDFs | `/home/ty/Documents/paper-research/2605.27140v1.pdf`, `2605.26952v1.pdf`, `2605.26998v1.pdf` |
+| This report | `wiki/scratchpad/jobs/reports/arxiv/arxiv-2026-05-26-top-papers.md` |

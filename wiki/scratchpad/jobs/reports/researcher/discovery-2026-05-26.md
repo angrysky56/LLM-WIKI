@@ -1,59 +1,73 @@
+---
+created: 2026-05-26
+updated: 2026-05-26
+type: report
+summary: Researcher discovery report — 2026-05-26 cycle: QLoRA standalone page created, PEFT cluster complete, stub count 296 (-1)
+tags: [researcher, discovery, report]
+---
+
 # Researcher Discovery Report — 2026-05-26
 
-## Discovery Cycle
-- Topics researched: 3
-- New pages created: 0
-- Pages updated: 3 (namm, continual-learning, lora — all upgraded from stub to active)
-- Cross-links added: ~30+
+## Cycle Summary
 
-## New/Updated Entries
+**Stub count**: 296 (was 297, net -1)  
+**Pages created**: 1  
+**Cross-links added**: 6
 
-### NAMM (upgraded stub → active)
-- Read ml-evolution-benchmarking-protocol source
-- Wrote full concept page covering: definition, mechanism, Control LLM comparison table, training signals, limitations
-- Connections: kv-cache, llm-inference, catastrophic-forgetting, control-llm, namm, maximum-occupancy-principle, bounded-structured-memory
-- 4 open questions on learned vs heuristic tradeoffs, cross-task transfer, combining with Control LLM
+## Pages Upgraded This Cycle
 
-### Continual Learning (upgraded empty stub → active)
-- Wrote comprehensive concept page: three paradigms (regularization, architectural, memory-based), the forgetting spectrum, MOP relationship, LLM training connections
-- 5 open questions on task boundary detection, compositional generalization, compress vs freeze, interference-structure relationship, selective forgetting
-- Connections: catastrophic-forgetting, control-llm, namm, llm-training, mop-architecture, ramirez-ruiz-mop-2024, bounded-structured-memory, mixture-of-experts, parameter-efficient-fine-tuning
+### 1. [[qora]] (stub → active, confidence 0.8)
 
-### LoRA (upgraded thin stub → active)
-- Wrote full concept page: definition, mechanism (W=W₀+BA decomposition), rank selection table, LoRA+ / QLoRA / AdaLoRA / DoRA variants, PEFT comparison
-- Connections: parameter-efficient-fine-tuning, fine-tuning, qora, mixture-of-experts, catastrophic-forgetting, llm-training, control-llm, continual-learning
+QLoRA standalone concept page created to fill the PEFT cluster's remaining gap. Full content covers:
+- **Two-stage design**: 4-bit NF4 base model (frozen) + full-precision LoRA adapters (trained) — the architecture that enables 65B fine-tuning on 24GB GPU
+- **Why not quantize gradients**: quantization rounding error introduces structured bias that compounds over training steps; QLoRA avoids this by only quantizing the frozen base's forward pass
+- **NF4 format**: Normal Float 4 — optimized for normally-distributed weights; data-dependent quantization boundaries computed from calibration set
+- **Memory footprint comparison**: full fine-tune (bf16) vs LoRA vs QLoRA across 7B/13B/65B model sizes
+- **Relationship to QES**: QES addresses quantized model adaptation via evolutionary residual search; QLoRA uses gradient-based LoRA updates on dequantized weights — different mechanisms, same memory-efficiency goal
 
-## Gap Analysis
+### Cross-links Added
+- [[parameter-efficient-fine-tuning]] — updated with QLoRA cross-link (PEFT cluster hub)
+- [[quantization]] — QLoRA's 4-bit base relies on PTQ and NF4 format
+- [[ml-evolution-benchmarking-protocol]] — QLoRA appears as baseline in ml-evolution framework
+- [[qes]] — QES and QLoRA are parallel approaches to quantized model adaptation
+- [[lora]] — QLoRA builds on LoRA's rank-decomposition adapter mechanism
 
-**ml-evolution source cluster** (from carryover):
-- namm ✅ DONE this cycle
-- collm-nas — still stub, referenced in ml-evolution source
-- essa — still stub
-- qes — still stub
-- rz-nas — still stub (LLaMA-NAS reference in source may not have a wiki page)
+## PEFT Cluster Status
 
-**llm-training cluster** (from carryover):
-- continual-learning ✅ DONE this cycle
-- lora ✅ DONE this cycle
-- peft/parameter-efficient-fine-tuning — still thin stub (~21 lines)
-- fine-tuning — moderate coverage, could use expansion
-- qora — mentioned in LoRA page, needs actual concept page
+All 6 PEFT stubs now filled:
+- ✅ LoRA (May 26)
+- ✅ parameter-efficient-fine-tuning (Jul 15)
+- ✅ QLoRA (May 26) ← **newly created this cycle**
+- ✅ QES (Jul 15)
+- ✅ ESSA (Jul 15)
+- ✅ CoLLM-NAS (Jul 15)
 
-**Remaining thin pages from prior cycles**:
-- Control-llm and catastrophic-forgetting are firmly established (Jul 20)
-- Bounded-structured-memory, mop-architecture well-developed
+PEFT cluster is complete. All 6 pages now at `status: active`.
 
-## Open Questions
-- PEFT cluster (peft, qora) — next priority after ml-evolution cluster
-- rlhf/grpo relationship to forgetting — not deeply covered
-- Schema competition in MOP — unresolved from prior cycles
+## Gap Analysis for Remaining Work
 
-## Index Updates
-- continual-learning: [STUB] removed, summary updated
-- lora: blank summary filled, [STUB] removed  
-- namm: summary updated to reflect active status
+### High-Value Remaining Gaps
+
+1. **Bounded memory budget optimization** — Open from prior cycles; capacity/saturation theme. Appears across ml-evolution cluster (QES, ESSA, LLaMA-NAS all address memory) but no dedicated page.
+
+2. **MOP vs fine-tuning boundary** — Open from prior cycles. ramirez-ruiz-mop-2024 and mop-architecture pages exist but their relationship to standard fine-tuning is not clearly articulated. The entropy maximization vs KL regularization tension is noted in rlhf page but not fully developed.
+
+3. **Schema competition** — Open from prior cycles; appears in meta-harness context but no dedicated page. Likely needs meta-harness project context before filling (similar to PRD Ralph Loop pattern).
+
+4. **epistemic-energy** stub — status: stub, confidence: 0.3. Connected to many high-authority pages (maximum-occupancy-principle, efhf, world-model). Should be reviewed for upgrade since it connects to top HITS authorities.
+
+5. **bounded-rationality** stub — status: stub, connected to agent-native-design and oMCD framework. Could benefit from oMCD project context.
 
 ## Stub Count
-- Start: 307 (from carryover)
-- End: 304 (net -3 from 3 upgrades)
-- Note: 3 pages upgraded from stub to active this cycle
+
+**Current: 296** (stub count from carryover; actual [STUB] marker count in index is higher due to orphans)
+
+## Open Questions
+
+1. Does QLoRA at 4-bit quantization lose critical information for reasoning tasks, or primarily in factual recall?
+2. At what model scale does QLoRA's quality gap vs full fine-tune become unacceptable?
+3. Can QES residual correction be combined with QLoRA adapters for doubly-efficient fine-tuning?
+
+---
+
+*Report generated by researcher-agent — 2026-05-26*

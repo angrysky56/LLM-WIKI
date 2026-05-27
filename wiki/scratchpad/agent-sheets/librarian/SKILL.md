@@ -117,6 +117,15 @@ Complex remediation requiring judgment:
 - Classification disputes
 - Missing topics requiring new page creation
 
+## FINAL STEP — Update Carryover (REQUIRED)
+
+After all wiki operations complete, write updated carryover to `wiki/scratchpad/agent-sheets/librarian/carryover.md`. Include:
+- What was audited and fixed this cycle
+- Open items remaining (stub pages found, merge candidates, classification disputes)
+- HITS authority top-5 (for content deepening priority)
+- GAAC same-cluster pairs needing links
+- Last run timestamp
+
 ## Quality Standards
 
 - Never delete content — move or archive instead

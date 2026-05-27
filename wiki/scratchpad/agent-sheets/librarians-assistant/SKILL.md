@@ -107,6 +107,14 @@ Use ONLY these `mcp-project-synapse` tools (NOT terminal file manipulation):
 - `wiki_update_index` — refresh search index after changes
 - `synapse_remember` — record fix decisions to episodic memory
 
+## FINAL STEP — Update Carryover (REQUIRED)
+
+After all remediation fixes complete, write updated carryover to `wiki/scratchpad/agent-sheets/librarians-assistant/carryover.md`. Include:
+- Fixes applied this cycle (page + action taken)
+- Open items remaining (needs-librarian-judgment items from Hard Blockers)
+- Batch progress resume point
+- Last run timestamp
+
 ## Quality Standards
 
 - Never delete content — move or archive instead

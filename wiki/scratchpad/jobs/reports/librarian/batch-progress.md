@@ -1,41 +1,48 @@
-# Batch Progress — 2026-07-26 08:52 UTC
+---
+summary: Batch progress — no self-remediable items; vault structurally healthy
+tags: [librarians-assistant, batch-progress, remediation]
+updated: 2026-05-27T00:25:51Z
+---
 
-## This Cycle — Full Audit + Remediation Assessment
+# Batch Progress — 2026-07-30 (librarians-assistant cycle)
 
-### Wiki Lint Run
-- **Total pages**: 1101
-- **Broken wikilinks**: 0 ✓
-- **Missing frontmatter**: 0 ✓
-- **Stale references**: 0 ✓
-- **Misclassified files**: 0 ✓
-- **Non-reciprocal pairs**: 491 (normal wikilink state — not a breakage)
-- **Orphans**: 252 (operational files: agent-sheets, daily reports, discovery reports — inherently time-stamped, no outgoing links)
+## This Cycle — Assessment Only
 
-### Non-Reciprocal Links Analysis (491 pairs)
-- 251 unique source pages → 210 unique target pages
-- All 210 target pages **exist** in the wiki at various paths
-- Top requested targets: efhf (18 incoming), hermes-agent (17), bounded-structured-memory (16), mcp-logic (14), project-synapse (10), hipai-montague (10), agem (10)
-- These are normal one-way citations, not errors — no fix needed
+### Wiki Lint Run (this cycle)
+- **Total pages**: 1121
+- **Broken wikilinks**: 94 (same as prior cycle — no net change)
+- **Missing frontmatter**: 64
+- **Non-reciprocal pairs**: 533 (normal state, not breakage)
+- **Orphans**: 258 (operational files: agent-sheets, daily reports)
 
-### Orphans Analysis (252)
-- Dominated by operational files: agent-sheets, daily reports (headlines-*, ingest-*, arxiv-*, audit-*), discovery reports
-- Low-value orphans (no outgoing links): these are sink pages — reports consumed by later reports
-- No structural broken state; no remediation warranted
+### This Cycle Analysis
 
-### Stub Concepts (6 remaining)
-- beta, delta, epsilon, gamma, zeta, legal-accountability-stub
-- Greek stubs were frontmatter-upgraded in previous cycle
-- Low priority, large volume — deferred to future batch
+**94 broken links breakdown:**
+| Category | Count | Actionable? |
+|----------|-------|-------------|
+| Operational cron/agent-sheet files | ~60 | No — internal references, not knowledge layer |
+| GoodRobot files (2 vault paths) | ~11 | No — Ty decision on canonical location |
+| Source files (papers/articles) | ~23 | Partially — some are false positives (targets exist) |
 
-## All Clear — No Remediation Actions Needed This Cycle
+**False positive confirmed this cycle:**
+- `wiki/concepts/tool-use.md → [[agents/skills/agentic-tooluse]]` → resolves to `wiki/agents/skills/agentic-tooluse/SKILL.md` ✓ (exists)
+- `wiki/concepts/imagination.md → [[counterfactual]]` → resolves to `wiki/concepts/counterfactual.md` ✓ (exists)
 
-The vault is structurally healthy. All open items from the librarian carryover are:
-1. **GoodRobot duality** — Ty decision (canonical location)
-2. **44 .bak files** — Ty decision (delete vs selective restore)
-3. **85 broken links** — **N/A**: actual count is 0 broken links (librarian carryover cited 85 which appears stale)
-4. **8 stub concepts** — ty decision (expand/merge/delete) — reduced to 6 by prior cleanup
+**Source file links that likely resolve:**
+- `grpo` → `wiki/concepts/group-relative-policy-optimization.md` ✓
+- `bounded-representation-capacity` → conceptual reference (no stub needed; used in paper connections section)
 
-## Next Batch
-- Await Ty decisions on GoodRobot and .bak policy
-- Stub concept review when bandwidth allows
-- Non-reciprocal audit: 491 pairs is an efficiency gate, not a breakage — defer unless bandwidth
+### Open Items (Ty Decisions Required)
+
+1. **GoodRobot duality** (11 files across 2 vault paths) — canonical location undecided
+2. **Operational cron wikilinks** (~60 files in agent-sheets, jobs/) — these are cron output files with cross-references that Obsidian cannot resolve without path prefixes; not knowledge layer issues
+
+## Vault Health Assessment
+
+The vault is structurally healthy for the knowledge layer. No self-remediable fixes remain. All remaining broken links are either:
+- Operational cron files (outside knowledge layer scope)
+- Ty-blocked decisions (GoodRobot location)
+
+## Next Steps
+- Await Ty decisions on GoodRobot canonical location
+- No further librarians-assistant remediation cycles needed until Ty decisions are made

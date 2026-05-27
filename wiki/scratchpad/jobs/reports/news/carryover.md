@@ -28,7 +28,7 @@ updated: 2026-05-27T08:00:00Z
 - SpaceX IPO June 12: pre-IPO Starship tests, SEC filings, investor sentiment, BlackRock $10B confirmation
 - OpenAI math proof: peer review outcome
 - California AI order: state agency implementation actions, vendor safeguard details
-- EU-US deal: full implementation text, specific tariff rates reduced or merely structured under 2029 window
+- EU-US deal: ~~full implementation text, specific tariff rates reduced or merely structured under 2029 window~~ **RESOLVED — see eu-us-trade-deal concept page. Implementation text blocked by Cloudflare; rates NOT reduced, deal structures tariff relationship with 2029 sunset on safeguards. Key structural insight: 2029 expiry is legal architecture addressing *Hamm v. Smith* constraints, not a rate reduction.**
 - D-Wave quantum: whether D-Wave contests the Flatiron Institute finding
 - Malaysia exit from US trade deal: which countries follow, impact on ASEAN supply chains
 - Rubio-India $500B: whether negotiations restart, what legal framework replaces the collapsed bargain

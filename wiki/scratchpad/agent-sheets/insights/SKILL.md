@@ -5,7 +5,7 @@ tags: [insights, zettelkasten, synthesis, daily]
 triggers:
   - cron: "0 6 * * *"
   - manual: delegate_task
-updated: 2026-05-25
+updated: 2026-05-27
 created_by: agent
 ---
 
@@ -13,35 +13,24 @@ created_by: agent
 
 Run the Zettelkasten insight generation engine and integrate high-confidence insights (≥0.7) into the wiki as synthesis pages.
 
-## See Also
+## Tool Protocol
 
-- `references/workflow.md` — 6-step insight generation workflow
-- `references/insight-merge.md` — how to create wiki pages from insights
+**Use `terminal()` with `cat` for ALL file reads in cron context.** Use MCP tools for wiki operations.
 
 ## Quick Start
 
-1. Load the `insights` skill
-2. Run insight generation CLI (defense-in-depth: 580s shell timeout → 540s app → SIGALRM)
-3. Read generated insights from `data/insights/latest.md` and `latest.json`
-4. Create wiki page for each insight with confidence ≥ 0.7
-5. Rebuild wiki index
-6. Record to episodic memory via `synapse_remember`
-7. Deliver (silent if no new pages created)
+1. Read carryover: `cat wiki/scratchpad/agent-sheets/insights/carryover.md`
+2. Run insight generation CLI (Step 1)
+3. Read and evaluate generated insights (Step 2)
+4. Create wiki pages for confidence ≥ 0.7 (Step 3)
+5. Deliver (silent if no new pages created)
+6. **Update carryover** (REQUIRED — Final Step)
 
-## FINAL STEP — Update Carryover (REQUIRED)
+## Workflow
 
-After delivering, write updated carryover to `wiki/scratchpad/agent-sheets/insights/carryover.md`. Include:
-- Insights generated this cycle (title + confidence + slug)
-- Wiki pages created from insights (confidence ≥ 0.7)
-- Lower-confidence insights noted (no page created)
-- Open items for next cycle
-- Last run timestamp
+### Step 1 — Run Insight Generation
 
-## Wiki Operations
-- **Tools:** `synapse_remember` (record insights to episodic memory), `wiki_write_page` (create synthesis pages for confidence ≥ 0.7), `wiki_update_index` (after new page)
-- **Constraint:** Only create wiki pages for confidence ≥ 0.7. Lower confidence → note only, no page.
-
-## Defense-in-Depth Timeout
+**Defense-in-depth timeout** — the CLI can hang. Use triple timeout:
 
 ```bash
 cd /home/ty/Repositories/ai_workspace/project-synapse-mcp && \
@@ -49,11 +38,120 @@ cd /home/ty/Repositories/ai_workspace/project-synapse-mcp && \
     --topic general --print --max-runtime 540 2>&1
 ```
 
-**Do NOT use MCP `generate_insights()`** — it times out at 300s.
+**Do NOT use MCP `generate_insights()`** — it times out at 300s (the CLI has a much higher limit).
+
+**If the CLI times out** (exit code 124 from `timeout`):
+- This is normal and expected — note in carryover as "CLI watchdog timeout"
+- Check if partial output was produced: `cat data/insights/latest.json 2>/dev/null`
+- If no output, write carryover noting timeout and respond `[SILENT]`
+
+### Step 2 — Evaluate Generated Insights
+
+```bash
+cat /home/ty/Repositories/ai_workspace/project-synapse-mcp/data/insights/latest.json
+```
+
+For each insight in the output:
+- **Confidence ≥ 0.7**: Create a wiki page (Step 3)
+- **Confidence < 0.7**: Note in carryover only — no page created
+- **Duplicate check**: `synapse_recall(query="{insight title}")` — skip if already exists
+
+### Step 3 — Create Wiki Pages
+
+For each high-confidence insight:
+
+```
+1. Map title to slug:
+   "Titans Memory Architecture" → "titans-memory-efficiency-insight"
+
+2. wiki_write_page(path="wiki/synthesis/{slug}.md", content=...)
+   Frontmatter:
+   ---
+   created: {today}
+   updated: {today}
+   type: synthesis
+   summary: "{insight title}"
+   tags: [insights, zettelkasten, {topic}]
+   status: active
+   confidence: {from insight}
+   ---
+
+3. Cross-link:
+   wiki_search(query="{insight topic}")
+   → Add [[wikilinks]] to related concepts/entities
+
+4. Record to episodic memory:
+   synapse_remember(content="Insight: {title} (confidence {score}) → wiki/synthesis/{slug}.md")
+
+5. wiki_update_index()
+```
+
+### Step 4 — Deliver
+
+If new pages were created, deliver a summary:
+
+```
+**Insights — {YYYY-MM-DD}**
+
+{N} insights generated | {N} pages created (confidence ≥ 0.7)
+
+**New Pages:**
+- [[slug]] — {title} (confidence: {score})
+
+**Below Threshold:**
+- {title} (confidence: {score}) — noted, no page
+```
+
+If no new pages created (timeout or all below threshold), respond `[SILENT]`.
+
+### Final Step — Update Carryover (REQUIRED)
+
+Write to `wiki/scratchpad/agent-sheets/insights/carryover.md`:
+
+```yaml
+---
+created: {original date}
+updated: {today's date}
+type: carryover
+summary: "{N} insights generated, {N} wiki pages created"
+tags: [insights, carryover]
+---
+```
+
+Include:
+- **What Was Done**: Insights generated, pages created (title + confidence + slug)
+- **What Remains**: `- [ ]` checklist (below-threshold insights worth revisiting, CLI issues)
+- **Kanban Status**: Items already surfaced
+
+## Critical Paths
+
+- **CLI script**: `/home/ty/Repositories/ai_workspace/project-synapse-mcp/scripts/generate_insights.py`
+- **Output**: `/home/ty/Repositories/ai_workspace/project-synapse-mcp/data/insights/latest.json`
+- **Wiki pages**: `wiki/synthesis/{slug}.md`
+- **Reports**: `wiki/scratchpad/jobs/reports/insights/`
+- **Carryover**: `wiki/scratchpad/agent-sheets/insights/carryover.md`
+
+## MCP Tools
+
+| Tool | Purpose |
+|------|---------|
+| `synapse_remember` | Record insights to episodic memory |
+| `synapse_recall` | Check for duplicate insights |
+| `wiki_write_page` | Create synthesis pages (confidence ≥ 0.7) |
+| `wiki_search` | Find related pages for cross-linking |
+| `wiki_update_index` | Refresh index after new pages |
+
+## Fallback Patterns
+
+- **CLI timeout (exit 124)**: Normal. Check for partial output, note in carryover, `[SILENT]`
+- **CLI crashes (other exit code)**: Note error in carryover, `[SILENT]`
+- **MCP unavailable**: Note in carryover, skip wiki page creation, deliver insights as text report
+- **All insights below threshold**: Note in carryover, `[SILENT]`
 
 ## Quality Standards
 
 - Only create pages for confidence ≥ 0.7
-- Use slug mapping (e.g., `Titans Memory Architecture` → `titans-memory-efficiency-insight`)
-- Frontmatter: type=synthesis, status=active, confidence from insight
-- Tag with: insights, zettelkasten, {topic}
+- Use proper slug mapping (descriptive, hyphen-separated)
+- Tag with: `insights`, `zettelkasten`, `{topic}`
+- Every new page must cross-link to at least 2 existing pages
+- Record every insight to episodic memory (even below-threshold ones)

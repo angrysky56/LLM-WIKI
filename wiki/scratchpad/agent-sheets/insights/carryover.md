@@ -1,7 +1,7 @@
 ## Insights Agent — Carryover
 
-**Run**: 2026-05-26 06:00 AM  
-**Status**: Complete — No new insights generated
+**Run**: 2026-05-27 06:00 AM
+**Status**: Complete — CLI watchdog timeout, no new insights generated
 
 ---
 
@@ -14,6 +14,7 @@
 ---
 
 ## Established
+
 - Insights generated: 4 (from May 23 run)
 - Pages created: 4 (from May 25 run)
   - `titans-memory-architecture-insight.md`
@@ -25,14 +26,17 @@
 ---
 
 ## Open
+
 - None — all prior open items resolved
 
 ---
 
 ## Kanban Status
+
 - [x] Prior item (t_ef13d830fc611d11) Index + episodic memory — resolved
 
 ---
 
 ## Next Run Priority
+
 - Normal priority — daily cron

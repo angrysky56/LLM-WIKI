@@ -52,3 +52,8 @@ Menin is a protein in the **hypothalamus** that suppresses neuroinflammation. As
 - Related: [[cognitive-decline]] (the symptom being treated)
 - Related: [[hypothalamus]] (the anatomical locus)
 - Related: [[longevity-research]] (the broader anti-aging context)
+
+## Entity Stubs Created This Cycle
+- [[neuroinflammation]] → `wiki/entities/neuroinflammation.md` ✓
+- [[cognitive-decline]] → `wiki/entities/cognitive-decline.md` ✓
+- [[hypothalamus]] → `wiki/entities/hypothalamus.md` ✓

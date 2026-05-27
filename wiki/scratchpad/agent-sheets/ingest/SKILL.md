@@ -1,11 +1,11 @@
 ---
 name: ingest
-description: "Daily raw file ingestion pipeline — process files from raw/ into structured wiki knowledge, verify frontmatter and links, archive to Clippings/. Schedule: 08:30 AM."
+description: "Daily raw file ingestion pipeline — process files from raw/ into structured wiki knowledge, verify frontmatter and links, archive to Clippings/. Schedule: 06:30 AM."
 tags: [ingest, pipeline, wiki-operations, daily]
 triggers:
-  - cron: "30 8 * * *"
+  - cron: "30 6 * * *"
   - manual: delegate_task
-updated: 2026-05-25
+updated: 2026-05-27
 created_by: agent
 ---
 
@@ -13,42 +13,146 @@ created_by: agent
 
 Process raw files from the `raw/` inbox into structured wiki knowledge. Every file should either be ingested and archived, or skipped with explicit reason.
 
-## See Also
+## Tool Protocol
 
-- `references/workflow.md` — 7-step ingest pipeline
-- `templates/ingest-report.md` — daily report format
+**Use `terminal()` with `cat` / `ls` for ALL file reads in cron context.** `read_file` is not available for background/cron execution. Use MCP tools (`mcp-project-synapse`) for wiki operations.
 
 ## Quick Start
 
-1. Load the `ingest` skill
-2. Read jobs sheet for priority files
-3. List `raw/` — prioritize flagged → new → backlog
-4. Process each file via `wiki_ingest_raw`
-5. Verify frontmatter and wikilinks
-6. Archive to Clippings/ subfolder
-7. Deliver ingest report (silent if nothing to process)
+1. Read carryover: `cat wiki/scratchpad/agent-sheets/ingest/carryover.md`
+2. Check for Ty-assigned priority files in sheet.md
+3. List raw inbox: `ls -la raw/`
+4. Process each file (Steps 1-4 below)
+5. **Update carryover** (REQUIRED — Final Step)
 
-## FINAL STEP — Update Carryover (REQUIRED)
+## Workflow
 
-After all ingest operations complete, write updated carryover to `wiki/scratchpad/agent-sheets/ingest/carryover.md`. Include:
-- Files ingested this cycle (source + count)
-- Ingest errors or stalled items
-- Open items for next cycle
-- Last run timestamp
+### Step 1 — Check Inbox
 
-## Wiki Operations
-- **Tools:** `synapse_recall` (check for existing content before ingesting), `wiki_write_page` (create/update pages), `wiki_update_index` (after changes)
-- **Constraint:** Verify no duplicate before writing — `synapse_recall` first, then `wiki_write_page`.
+```bash
+ls -la /home/ty/Documents/LLM-WIKI/raw/
+```
+
+If `raw/` is empty → write carryover noting "inbox empty, pipeline healthy" and exit silently with `[SILENT]`.
+
+### Step 2 — Process Each File
+
+For each file in `raw/`, in priority order (Ty-flagged → new → backlog):
+
+```
+1. CHECK for duplicates first:
+   synapse_recall(query="{filename or title}")
+   → If content already exists in wiki, skip and note in report
+
+2. INGEST the file:
+   wiki_ingest_raw(filename="{filename}")
+   → This routes to Clippings/<type>/<year>/ automatically
+   → Creates a Neo4j node for the content
+
+3. WRITE source summary:
+   wiki_write_page(path="wiki/sources/<type>/<slug>.md", content="{summary}")
+   → Type: papers/ articles/ documentation/ repositories/
+   → Frontmatter: type=source, status=active, sources={original url}
+
+4. VERIFY:
+   wiki_read_page(path="wiki/sources/<type>/<slug>.md")
+   → Confirm frontmatter is complete
+   → Confirm wikilinks resolve
+```
+
+### Step 3 — Cross-Link New Pages
+
+After ingesting all files:
+
+```
+1. wiki_search(query="{topic from ingested file}")
+   → Find related existing pages
+
+2. Add wikilinks to the source summary connecting to related concepts/entities
+
+3. wiki_update_index()
+   → Refresh search index after all changes
+```
+
+### Step 4 — Deliver Report
+
+Write report to: `wiki/scratchpad/jobs/reports/ingest/ingest-{YYYY-MM-DD}.md`
+
+```markdown
+# Ingest Report — {YYYY-MM-DD}
+
+## Files Processed
+| File | Action | Archived To | Wiki Page |
+|------|--------|-------------|-----------|
+| {filename} | ingested | Clippings/{type}/{year}/ | [[slug]] |
+
+## Errors
+| File | Error | Action Taken |
+|------|-------|--------------|
+| {filename} | {error} | skipped / retried |
+
+## Inbox Status
+- Files processed: {N}
+- Files skipped: {N} (with reasons)
+- raw/ is now: EMPTY / {N} remaining
+```
+
+If nothing was processed (empty inbox), respond with `[SILENT]`.
+
+### Final Step — Update Carryover (REQUIRED)
+
+Write updated carryover to `wiki/scratchpad/agent-sheets/ingest/carryover.md`:
+
+```yaml
+---
+created: {original date}
+updated: {today's date}
+type: carryover
+summary: "{N} files processed, raw/ {empty|N remaining}"
+tags: [ingest, carryover]
+---
+```
+
+Include:
+- **What Was Done**: Files ingested, pages created
+- **What Remains**: `- [ ]` checklist (stalled files, errors, pending retries)
 
 ## Critical Rule
 
 **`raw/` must be EMPTY after every run.** Every file either:
-- Ingested → archived in Clippings/
-- Skipped → explicit reason in report
+- Ingested → archived in `Clippings/<type>/<year>/`
+- Skipped → explicit reason in report and carryover
+
+## Critical Paths
+
+- **Raw inbox**: `/home/ty/Documents/LLM-WIKI/raw/`
+- **Clippings archive**: `/home/ty/Documents/LLM-WIKI/Clippings/<type>/<year>/`
+- **Source summaries**: `wiki/sources/<type>/<slug>.md`
+- **Reports**: `wiki/scratchpad/jobs/reports/ingest/ingest-YYYY-MM-DD.md`
+- **Carryover**: `wiki/scratchpad/agent-sheets/ingest/carryover.md`
+
+## MCP Tools
+
+| Tool | Purpose |
+|------|---------|
+| `wiki_ingest_raw` | Process raw file → Neo4j + auto-route to Clippings |
+| `synapse_recall` | Check for duplicate content before ingesting |
+| `wiki_write_page` | Create source summary page |
+| `wiki_read_page` | Verify page after creation |
+| `wiki_search` | Find related pages for cross-linking |
+| `wiki_update_index` | Refresh index after changes |
+
+## Fallback Patterns
+
+- **MCP unavailable**: Note in carryover, DO NOT process files without MCP (risk of lost data)
+- **wiki_ingest_raw fails**: Try `wiki_fetch_url` if the file is a URL/link, otherwise note in report
+- **Clippings routing wrong**: Manually move file and note the correction in report
+- **Empty inbox**: Write "pipeline healthy" to carryover and respond `[SILENT]`
 
 ## Quality Standards
 
 - Ingest completely — no half-processed files
-- Verify frontmatter on every page
+- Verify frontmatter on every page created
 - Check wikilink integrity on every new page
 - Archive source immediately after successful ingest
+- Never leave raw/ in an inconsistent state

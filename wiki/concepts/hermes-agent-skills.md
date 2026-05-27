@@ -101,8 +101,8 @@ updated: 2026-05-27T05:45:09Z
 ## Connections
 
 - [[hermes-agent]] — parent concept
-- [[kanban-worker]] — kanban ops skill with lifecycle documentation
-- [[autonomous-ai-agents]] — multi-agent orchestration parent skill
+- [[autonomous-ai-agents]] — autonomous AI agents skill; multi-agent orchestration parent
+- [[kanban]] — kanban workflow skill with lifecycle documentation
 
 ## Notes
 

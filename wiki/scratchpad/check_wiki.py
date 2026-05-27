@@ -13,12 +13,12 @@ for md_file in wiki_root.rglob("*.md"):
         content = md_file.read_text()
     except:
         continue
-    
+
     links = set()
     # Find [[wikilinks]]
     for match in re.findall(r'\[\[([^\]|]+)(?:\|[^\]]+)?\]\]', content):
         links.add(match.strip().lower())
-    
+
     all_pages[str(md_file)] = links
 
 # Find pages that reference non-existent pages

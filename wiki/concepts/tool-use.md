@@ -37,7 +37,7 @@ Agent reasons about result, calls next tool
 
 - **[[mcp]] (Model Context Protocol)**: Standardized interface for tool invocation
 - **[[autonomous-agents]]**: The systems that use tool use as part of their operation
-- **[[agents/skills/agentic-tooluse]]**: The skill implementing tool use patterns
+- **[[agents/skills/agentic-decision-tree]]**: The skill implementing tool use patterns
 
 ## Tool Categories
 

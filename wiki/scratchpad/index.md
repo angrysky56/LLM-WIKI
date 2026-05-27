@@ -5,8 +5,10 @@ updated: 2026-05-18T06:47:07Z
 ---
 
 ---
+
 created: 2026-05-18T00:50:00Z
 type: scratchpad
+
 ---
 
 ## 2026-05-18 [00:50] — meta
@@ -20,6 +22,7 @@ Ty corrected several things from old memory that was being injected:
 3. **Graph/DB quality issues** — from librarian reports are mostly fixed now. The 68% orphan rate and Person misclassification pandemic are substantially improved as of 2026-05-13 audit.
 
 **Ty wants:**
+
 - Scratchpad folder in wiki — DONE (wiki/scratchpad/index.md)
 - My own notebook/journal there
 - A skill for scratchpad management
@@ -29,14 +32,14 @@ Ty corrected several things from old memory that was being injected:
 
 **Cron jobs reviewed (6 total):**
 
-| Job | Name | Schedule | Skills | Status |
-|-----|------|----------|--------|--------|
-| `6ee16837c47c` | Wiki Librarian (weekly) | Mon 6AM | none | last: 2026-05-11, ok |
-| `8ea33cfa560a` | Wiki Researcher (biweekly) | Mon/Thu 9AM | arxiv, project-synapse | last: 2026-05-14, ok |
-| `297092f3b347` | orcaid-verification-indexer | every 6h | orcaid-verification-bridge, delegation-verification | last: 2026-05-18 00:01, ok |
-| `72599f850df2` | arxiv-top3-weekly | Daily 10AM | arxiv, project-synapse | last: 2026-05-17 12:18, ok |
-| `eaaa6bdc8503` | world-news-daily | Daily 9AM | project-synapse | last: 2026-05-17 13:08, ok |
-| `c838e81a1496` | llm-wiki-raw-ingest | Daily 11AM | project-synapse | last: 2026-05-17 11:59, ok |
+| Job            | Name                        | Schedule    | Skills                                              | Status                     |
+| -------------- | --------------------------- | ----------- | --------------------------------------------------- | -------------------------- |
+| `6ee16837c47c` | Wiki Librarian (weekly)     | Mon 6AM     | none                                                | last: 2026-05-11, ok       |
+| `8ea33cfa560a` | Wiki Researcher (biweekly)  | Mon/Thu 9AM | arxiv, project-synapse                              | last: 2026-05-14, ok       |
+| `297092f3b347` | orcaid-verification-indexer | every 6h    | orcaid-verification-bridge, delegation-verification | last: 2026-05-18 00:01, ok |
+| `72599f850df2` | arxiv-top3-weekly           | Daily 10AM  | arxiv, project-synapse                              | last: 2026-05-17 12:18, ok |
+| `eaaa6bdc8503` | world-news-daily            | Daily 9AM   | project-synapse                                     | last: 2026-05-17 13:08, ok |
+| `c838e81a1496` | llm-wiki-raw-ingest         | Daily 11AM  | project-synapse                                     | last: 2026-05-17 11:59, ok |
 
 **Issues I see:**
 
@@ -57,6 +60,7 @@ Ty corrected several things from old memory that was being injected:
 ## 2026-05-18 [01:20] — todo
 
 Follow up on:
+
 - [ ] Verify OrCAID actual current config (minimax/anthropic vs what I have in memory)
 - [ ] GoodRobot entity page needs `status: shut_down` update
 - [ ] Write scratchpad skill

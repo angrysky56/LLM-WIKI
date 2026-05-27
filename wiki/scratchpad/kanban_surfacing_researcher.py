@@ -22,7 +22,7 @@ def upsert(title, body, priority=1, blocked=False, assignee=AGENT):
     if key in existing:
         print(f"  SKIP (exists): {key}")
         return existing[key], "skipped"
-    
+
     ik = hashlib.sha256(key.encode()).hexdigest()[:16]
     tid = f"t_{ik}"
     status = "blocked" if blocked else "done"  # informational card = done immediately
@@ -45,7 +45,7 @@ tid1, _ = upsert(
     blocked=False
 )
 
-# Open item 2: AI imagery signatures  
+# Open item 2: AI imagery signatures
 tid2, _ = upsert(
     title="AI imagery signatures: detection in LLMs?",
     body="Can we detect latent-space imagery analogs in LLMs? What would be the behavioral or activation signatures? mental-imagery.md discusses human imagery but AI connection is underdeveloped. Needs research into what probing studies could detect imagination-like internal simulation.",

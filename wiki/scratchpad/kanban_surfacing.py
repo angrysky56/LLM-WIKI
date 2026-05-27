@@ -5,8 +5,8 @@ cur = DB.execute("SELECT id, title, status FROM tasks WHERE status != 'done'", (
 existing = {str(row[1]).strip(): row[0] for row in cur.fetchall()}
 
 open_items = [
-    ("researcher", "Adaptive budget learning: train gating model for adaptive computation", 
-     "No clear paper yet. How to train the gating model that decides compute allocation? Needs empirical research.", 
+    ("researcher", "Adaptive budget learning: train gating model for adaptive computation",
+     "No clear paper yet. How to train the gating model that decides compute allocation? Needs empirical research.",
      1, False),
     ("researcher", "Hybrid reward models: combining ELHSR hidden-state with SD-Search process-level signals",
      "Emerging direction — no full treatment. Can ELHSR's lightweight hidden-state scoring be combined with SD-Search's process-level signals for better BoN guidance?",

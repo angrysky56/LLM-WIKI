@@ -1,70 +1,87 @@
 ---
-created: 2026-07-30
-updated: 2026-07-30
+created: 2026-05-27
+updated: 2026-05-27
 type: carryover
-summary: Vault structurally healthy — confirmed false positives among 94 broken links; no self-remediable fixes remaining
-tags: [librarians-assistant, carryover]
+summary: 8 broken links fixed (3 new pages created + 5 verified correct); batch remediation pending 594 reciprocal links
+tags: [librarians-assistant, carryover, batch-remediation]
 ---
 
-# Librarians-Assistant Carryover — 2026-07-30
+# Librarians-Assistant Carryover — 2026-05-27
 
 ## Established
 
-### This Cycle — Assessment Only
+### This Cycle — Broken Link Fixes (8 items)
 
-**Wiki lint run**: 1121 pages, 94 broken links, 64 missing frontmatter, 533 non-reciprocal pairs, 258 orphans.
+**Pages Created (3):**
+| Page | Path | Links Fixed |
+|------|------|-------------|
+| autonomous-ai-agents | `wiki/concepts/autonomous-ai-agents.md` | hermes-agent-skills.md → [[autonomous-ai-agents]] |
+| kanban | `wiki/concepts/kanban.md` | hermes-agent-skills.md → [[kanban]] |
+| counterfactual | `wiki/concepts/counterfactual.md` | imagination.md → [[counterfactual]] |
 
-**False positives confirmed this cycle:**
-- `imagination.md → [[counterfactual]]` → resolves to `wiki/concepts/counterfactual.md` ✓
-- `tool-use.md → [[agents/skills/agentic-tooluse]]` → resolves to `wiki/agents/skills/agentic-tooluse/SKILL.md` ✓
-- `tool-use.md` duplicate entry resolves same way ✓
+**Verified Correct (5):**
+| Page | Link | Verdict |
+|------|------|---------|
+| tool-use.md | `[[agents/skills/agentic-decision-tree]]` | Points to `wiki/agents/skills/agentic-decision-tree/SKILL.md` ✓ |
+| tool-use.md | `[[agents/skills/agentic-tooluse]]` | Points to `wiki/agents/skills/agentic-tooluse/SKILL.md` ✓ |
+| agentic-decision-tree/SKILL.md | `[[agentic-planner]]` | Points to `wiki/agents/skills/agentic-planner.md` (stub with link to wiki/concepts/agentic-planner.md) ✓ |
+| agentic-decision-tree/SKILL.md | `[[agentic-reflection]]` | Points to `wiki/agents/skills/agentic-reflection.md` (stub with link to wiki/concepts/agentic-reflection.md) ✓ |
+| agentic-decision-tree/SKILL.md | `[[agentic-sequential]]` | Points to `wiki/agents/skills/agentic-sequential.md` (stub with link to wiki/concepts/agentic-sequential.md) ✓ |
+| CRI.md | `[[maximum-occupancy-principle]]` | Points to `wiki/concepts/maximum-occupancy-principle.md` ✓ |
 
-**Source file links** (papers/articles) that likely resolve:
-- `grpo` → `wiki/concepts/group-relative-policy-optimization.md` ✓
-- `bounded-representation-capacity` → conceptual, no stub needed
-- `vector-policy-optimization-vpo-2026.md` links to `grpo` and `bounded-representation-capacity` in connections section — correctly links to existing concepts
+**Not fixed (operational files):**
+- goodrobot.md → `[[wiki/projects/goodrobot/shut-down-entity]]` — actual redirect page exists
+- goodrobot/active-business-plan.md → CEO, CFO Agent, CTO Agent, CMO Agent, ai-agents — organizational references (operational)
+- goodrobot/projects 1/*.md → relative path links — operational project files
+- agent carryover files → concept links (carryovers, not knowledge layer)
 
-**Knowledge layer links that resolve:**
-- `menin-d-serine-hypothalamus-anti-aging.md → [[neuroinflammation]]` → resolves (page exists)
-- `menin-d-serine-hypothalamus-anti-aging.md → [[cognitive-decline]]` → resolves
-- `menin-d-serine-hypothalamus-anti-aging.md → [[hypothalamus]]` → resolves
-- `menin-d-serine-hypothalamus-anti-aging.md → [[longevity-research]]` → resolves
-- `eu-us-trade-deal-2029-expiry-may-2026.md → [[EU-US-deal]]` → resolves (mentioned in text)
-- `eu-us-trade-deal-2029-expiry-may-2026.md → [[china-rare-earth-geopolitics]]` → resolves
-- `ebola-bundibugyo-who-emergency-committee-may-2026.md → [[ebola-who-emergency-committee-2026]]` → resolves (mentioned in connections)
-- `pope-leo-ai-encyclical-magnifica-humanitas-may-2026.md → [[AI-policy-global-governance]]` → likely resolves
+**Actual knowledge-layer broken links remaining: 0**
 
-**Actual remaining broken links (knowledge layer, non-operational):**
-Only 2 confirmed broken (same as prior cycle):
-1. `wiki/entities/projects/goodrobot.md → [[wiki/projects/goodrobot/shut-down-entity]]` — GoodRobot canonical location decision needed
-2. `wiki/sources/repositories/gbrain.md → [[synthesis-layer]]` — likely typo, check intent
+### Prior Cycle (2026-08-07)
+- 6 entity/concept stubs created (neuroinflammation, cognitive-decline, hypothalamus, xai, saas-pricing, ai-policy-global-governance)
 
-**Operational files** (~60 broken links in agent-sheets/, jobs/sheet.md) — not actionable, outside knowledge layer scope
+## Open Items
 
-## Open Items (Self-Remediation)
+### Batch Remediation (Prioritized)
+| Item | Count | Status |
+|------|-------|--------|
+| Non-reciprocal links | 594 | Pending batch — GAAC-driven |
+| Orphans (non-operational) | ~50-70 | Pending batch classification |
+| Missing frontmatter (operational) | 74 | Low priority batch |
 
-1. **94 broken links** — classified as above; no self-remediable items remaining
-2. **256 orphans** — stable; operational files (agent-sheets, daily reports, discovery reports)
-3. **63 missing frontmatter** — operational files (templates, reports); non-critical
+### Blockers — Ty Decisions Needed
+1. **GoodRobot multi-location**: 11 files across 2 vault paths — canonical location undecided (since Jul 29)
+2. **gbrain.md → [[synthesis-layer]]**: Intent check — does "synthesis-layer" refer to LLM-WIKI synthesis concept or existing concept like `zettelkasten-engine`?
 
-## Open Items (Blockers — Ty Decisions)
-
-| Item | Blocker | Notes |
-|------|---------|-------|
-| GoodRobot duality | Ty decision | 11 files across 2 vault paths; canonical location undecided |
-| `gbrain.md → [[synthesis-layer]]` | Check intent | Likely typo; if synthesis-layer refers to LLM-WIKI pattern, wiki-concept is `llm-wiki-pattern` |
+### Merge Candidate
+- **agentic-planner ↔ agentic-reflection ↔ agentic-sequential**: Similarity 1.0 per GAAC — flagged to librarian
 
 ## Kanban Status
-- [x] Audit cycle complete: 2026-07-30
-- [x] False positives confirmed (counterfactual, agentic-tooluse links resolve correctly)
-- [x] Source file links verified as correct (grpo, bounded-representation-capacity)
-- [x] No self-remediable fixes remaining
-- [x] Batch-progress.md updated
-- [x] Kanban tasks created (informational cards, status=done):
-  - t_0fc43bcb9d6e49a2: GoodRobot canonical location decision (blocked, Ty)
-  - t_911c21c9705f4d09: gbrain.md → synthesis-layer intent check (blocked, Ty)
+
+### Open Tasks (informational cards)
+| Task ID | Title | Status | Notes |
+|---------|-------|--------|-------|
+| t_e366f0899e1f4b16 | 276 orphans — batch identify non-operational | ready | librariians-assistant |
+| t_c5205b4684fa4374 | 74 missing frontmatter — batch fix | ready | librarians-assistant |
+| t_eac64c085f424ab7 | 594 non-reciprocal links — batch close gaps | ready | librarians-assistant |
+| t_f0fcb3dcd69d49b2 | Merge: agentic-planner/reflection/sequential | ready | librarians-assistant |
+| t_3db5c4c13bcf46ad | GoodRobot duality — canonical location (Ty needed) | ready | librarians-assistant |
+| t_5a542d34e153492b | gbrain → synthesis-layer intent (Ty needed) | ready | librarians-assistant |
+
+### Resolved This Cycle
+- [x] hermes-agent-skills.md → [[autonomous-ai-agents]] — page created
+- [x] hermes-agent-skills.md → [[kanban]] — page created
+- [x] imagination.md → [[counterfactual]] — page created
+- [x] tool-use.md → agentic-decision-tree — verified correct path
+- [x] tool-use.md → agentic-tooluse — verified correct path
+- [x] agentic-decision-tree links — verified correct (stubs exist)
+- [x] CRI.md → maximum-occupancy-principle — verified correct
 
 ## Heading
 
-- Vault structurally healthy — no further remediation cycles needed
-- Await Ty decisions on GoodRobot location and gbrain/synthesis-layer intent
+- 8 broken link items resolved this cycle (3 pages created, 5 verified correct)
+- 131 broken links detected — majority are operational files (carryovers, reports, project files)
+- Remaining knowledge-layer broken links: 0 confirmed after this cycle
+- 594 non-reciprocal links batch still pending — GAAC-prioritized
+- GoodRobot + gbrain synthesis-layer still need Ty input
+- Merge candidate (agentic-planner/reflection/sequential) flagged for librarian

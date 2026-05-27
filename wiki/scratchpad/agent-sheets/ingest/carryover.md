@@ -1,8 +1,8 @@
 ---
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-05-27
 type: carryover
-summary: Ingest pipeline healthy — 2 files processed, raw/ empty, no issues
+summary: Ingest pipeline healthy — 1 file processed, raw/ empty, no issues
 tags: [ingest, carryover]
 ---
 
@@ -11,7 +11,7 @@ tags: [ingest, carryover]
 ## Established
 - **Pipeline healthy**: raw/ emptied after every run
 - **Ingest approach**: Copy source to Clippings/ then write summary page to wiki/sources/
-- **MCP unavailable**: synapse MCP server doesn't expose `wiki_ingest_raw` — running CLI/manual approach
+- **MCP unavailable**: synapse MCP server doesn't expose `wiki_ingest_raw` — using wiki_write_page directly
 
 ## Open
 - **292 broken wikilinks**: Pre-existing, needs librarian agent attention
@@ -24,10 +24,10 @@ tags: [ingest, carryover]
 - **Backlog**: Empty — raw/ is clean
 
 ## Notes
-- **2026-05-26 run**: 2 files processed (colab-mcp repository, Menin/D-serine article)
-  - colab-mcp → archived to Clippings/repositories/2026/ + summary at wiki/sources/repositories/googlecolab-colab-mcp.md
-  - Menin article → archived to Clippings/articles/2026/ + summary at wiki/sources/articles/menin-d-serine-hypothalamus-anti-aging.md
+- **2026-05-27 run**: 1 file processed (Ebola Bundibugyo Yahoo search results)
+  - ebola-bundibugyo-drc-may-2026 → archived to Clippings/articles/2026/ + summary at wiki/sources/articles/ebola-bundibugyo-drc-uganda-may-2026.md
   - raw/ is now empty
+  - No new open items from this run
 
 ## Kanban Status
 - [x] Surfaced to hermes kanban: 2026-05-26

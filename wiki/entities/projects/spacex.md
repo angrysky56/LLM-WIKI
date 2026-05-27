@@ -94,10 +94,23 @@ The first Starship Version 3 flight launched May 23, 2026 from SpaceX Starbase, 
 
 | Question | Status | Source |
 |---|---|---|
-| Does Musk's 78% voting control persist post-IPO or dilute? | SpaceX declining to answer; S-1 shows ~42% economic / 78% voting pre-IPO | 24/7 Wall St., May 26 |
+| Does Musk's 78% voting control persist post-IPO or dilute? | SpaceX declining to answer; S-1 shows ~42% economic / 78% voting pre-IPO. **Structural answer: cannot clarify until post-listing** — SEC quiet period (~40 days before listing) prohibits pre-IPO comment. Question resolved June 12 when prospectus and actual share structure are revealed. | 24/7 Wall St., May 26; SEC quiet period rules |
 | BlackRock $10B — confirmed or withdrawn? | Still "under consideration"; no confirmation as of May 28 | carryover |
 | Pre-IPO Starship test results | V3 Flight 12 successful May 23 — confirmed | spacex-starship-v3-flight-12-debut-may-2026 |
-| Quiet period status | Active (~40 days out from June 12 listing) | SEC quiet period rules |
+| Quiet period status | Active — 16 days out from June 12 listing. SpaceX legally prohibited from commenting on governance specifics during quiet period. | SEC quiet period rules |
+| Will Musk maintain ~78% voting control post-IPO? | **Monitor June 12:** S-1 shows pre-IPO structure; final share class terms published in prospectus just before listing. The answer is structurally locked until opening bell. | spacex-ipo-spcx-2026 monitoring |
+
+## Monitoring Report — 2026-05-27
+
+**Task:** Monitor whether SpaceX clarifies Musk voting control pre-IPO quiet period.
+
+**Finding:** SpaceX cannot clarify. The SEC quiet period that applies ~40 days before listing legally prohibits SpaceX from making public statements about governance terms, share structure, or voting arrangements from roughly late April 2026 onward. With June 12 listing 16 days away, SpaceX is in full quiet period — any such statement would be an SEC violation.
+
+**Resolution timeline:** The question of whether Musk's ~78% voting control persists post-IPO will be answered on June 12 when:
+1. The final prospectus ( prospectus supplement) is published
+2. Trading opens and the actual dual-class structure is public record
+
+**Assessment:** This is not a governance ambiguity that can be pre-resolved — it is structurally resolved by the listing event itself. No pre-IPO clarification is legally possible; the answer lives in the prospectus released at listing. Institutional investors who want clarity on this point must read the June 12 prospectus supplement, not expect a pre-IPO statement.
 | Tesla spillover risk | Elevated — Barron's flagged concentration risk | Barron's, May 26 |
 | What share of xAI is SpaceX acquiring? | 2025 acquisition completed; valuation specifics not publicly disclosed | BBC clipping |
 

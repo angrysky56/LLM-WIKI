@@ -36,7 +36,7 @@ for p in targets:
             # Now check if each link appears as a body wikilink too
             body_links = re.findall(r'\[\[([^\]]+)\]\]', text)
             body_slugs = [l.strip().lower().replace(' ', '-') for l in body_links]
-            
+
             print(f'\n=== {p} ===')
             print(f'  Sources: {sources_line[:100]}')
             print(f'  Ghost wikilinks in sources: {wiki_links}')

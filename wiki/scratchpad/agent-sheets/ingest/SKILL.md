@@ -142,6 +142,8 @@ Include:
 | `wiki_search` | Find related pages for cross-linking |
 | `wiki_update_index` | Refresh index after changes |
 
+**CRITICAL CONSTRAINT:** DO NOT write or run ad-hoc Python scripts (e.g. `kanban_upsert.py`, `ingest_helper.py`, etc.). Use the standard MCP tools exclusively. All Kanban operations are handled centrally by the overseer.
+
 ## Fallback Patterns
 
 - **MCP unavailable**: Note in carryover, DO NOT process files without MCP (risk of lost data)

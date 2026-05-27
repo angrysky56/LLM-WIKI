@@ -107,6 +107,8 @@ Use ONLY these `mcp-project-synapse` tools (NOT terminal file manipulation):
 - `wiki_update_index` — refresh search index after changes
 - `synapse_remember` — record fix decisions to episodic memory
 
+**CRITICAL CONSTRAINT:** DO NOT write or run ad-hoc Python scripts (e.g. `kanban_upsert.py`, `kanban_check.py`, `batch_create_stubs.py`, etc.). Use the standard MCP tools exclusively to manipulate the wiki. All Kanban operations are handled centrally by the overseer.
+
 ## FINAL STEP — Update Carryover (REQUIRED)
 
 After all remediation fixes complete, write updated carryover to `wiki/scratchpad/agent-sheets/librarians-assistant/carryover.md`. Include:

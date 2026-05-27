@@ -154,6 +154,8 @@ Include:
 | `synapse_remember` | Record research decisions to episodic memory |
 | `synapse_recall` | Retrieve past research context |
 
+**CRITICAL CONSTRAINT:** DO NOT write or run ad-hoc Python scripts (e.g. `kanban_check.py`, `kanban_upsert.py`, etc.). Use the standard MCP tools exclusively. All Kanban operations are handled centrally by the overseer.
+
 ## Quality Standards
 
 - Write in your own voice — not generic AI filler

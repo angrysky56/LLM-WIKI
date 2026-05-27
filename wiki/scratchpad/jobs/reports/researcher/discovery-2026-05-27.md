@@ -1,50 +1,38 @@
 # Researcher Discovery Report — 2026-05-27
 
 ## Discovery Cycle
-- Topics researched: 12 (akbe, alignment-tampering, behavioral-credibility-trilemma, codeskill, cua-gym, legalsearch-r1, muse-autoskill, orthogonal-bottlenecks-rl, prism, saerl, safectrl-rl, stepopsd)
+- Topics researched: 1 (schema competition)
 - New pages created: 1
-- Pages updated: 0
-- Cross-links added: 0 (concept page cross-links are internal wiki syntax, not external additions)
+- Pages updated: 1 (researcher carryover)
+- Cross-links added: 6 (to ramirez-ruiz-mop-2024, mop-architecture, bounded-structured-memory, domain-curator, knowledge-pack, meta-harness)
 
 ## New Entries
 
-### bounded-representation-capacity
-Created `wiki/concepts/bounded-representation-capacity.md` — a concept capturing the principle that representation capacity is bounded and must be allocated strategically.
+### `wiki/concepts/schema-competition.md`
+Created full concept page for schema competition in the meta-harness Knowledge Pack context.
 
-The concept synthesizes 12 papers that all engage with this theme from different angles:
-- **AKBE** (akbe): dual-path on-policy probing of knowledge boundary; model must distinguish parametric knowledge from tool-need — capacity boundary calibration at the instance level
-- **orthogonal-bottlenecks-rl**: formal result: once bottleneck dimension k ≥ intrinsic rank r, additional capacity is wasteful; minimal sufficient dimension depends on environment complexity, not encoder width
-- **cua-gym**: environment diversity is an independent scaling axis from data volume; capacity allocated across environments vs. trajectories
-- **muse-autoskill** and **codeskill**: skills as bounded, reusable representation units with lifecycle management — capacity management for procedural memory
-- **saerl**: SAE features as intrinsic capacity signals for data engineering; probing reveals knowledge boundaries from within the representation
-- **legalsearch-r1**: temporal version-controlled statute indexing — explicit capacity allocation in knowledge retrieval; the agent must not default to most-recent (most-trained-on) version
-- **prism**: recurrent gating network routes observations to bounded latent intention space K — capacity-bounded behavioral state compression
-- **behavioral-credibility-trilemma**: capacity constraint manifests at the adaptation point (confidence reporting), not at output; non-affine approval gate destroys strict propriety
-- **safectrl-rl**: hard safety gating via multiplicative reward — absolute constraint that cannot be traded against quality
-- **alignment-tampering**: bounded self-model of alignment properties can be exploited via RLHF structural vulnerability
-- **stepopsd**: avoids learning a dense value model by using post-rollout distillation — sidesteps bounded capacity rather than expanding it
+**Definition**: Schema competition is the phenomenon where multiple, potentially conflicting schema representations within a Knowledge Pack simultaneously vie for a language model's behavioral attention during inference — with no built-in arbitration mechanism to resolve which representation dominates when they disagree.
+
+**Key content**:
+- How `build_pack_context()` in `bootstrap_domain.py` concatenates competing layers (distinguishers → heuristics → failure modes → invariants → examples) without explicit priority
+- Four mechanisms of competition: prompt position effects, confidence weight ambiguity, example override, failure mode catalog as counter-incentive
+- Relationship to [[ramirez-ruiz-mop-2024]] MOP research (which explicitly identified schema competition as an open question)
+- Five mitigation strategies (priority markers, thresholded rules, explicit layer confidence, conflict documentation, verifier detection)
+- Five open questions specific to meta-harness context
+
+**Connections**: ramirez-ruiz-mop-2024 (open question source), mop-architecture, bounded-structured-memory (Hermes layer analogy), domain-curator (Phase 1 curation), knowledge-pack (the artifact), meta-harness (the system)
 
 ## Updated Entries
-None.
+- `wiki/scratchpad/agent-sheets/researcher/carryover.md` — marked schema competition as resolved, removed kanban block note, updated stub count notation
 
 ## Gap Analysis
-The new concept page is well-connected to existing concepts:
-- bounded-rationality (decision-making limits, caused partly by representational limits)
-- bounded-memory-budget-optimization (specific operationalization in context window management)
-- credit-assignment (operates within capacity constraints)
-- efhf (externalization as response to capacity constraints)
-- mop-explorer (capacity planning via object-centric abstraction)
-- verifier-graph (calibration as capacity self-awareness)
-- grpo (training framework where capacity phenomena are observed)
-
-Remaining thin areas in the wiki still include concepts that are stub-only or missing, per the sheet.md open items.
+- Schema competition (t_7c84f292915e48b8): **RESOLVED** — concept page created, kanban task unblocked
+- MOP vs fine-tuning boundary: still open — empirical question about GRPO for MoE, needs web research
+- agentic-react concept gap: low priority, coverage adequate via skill — no action needed
 
 ## Open Questions
-1. Minimum sufficient dimension for arbitrary task distributions (formal answer exists for linear realizability; general case open)
-2. Capacity transfer: does compressed representation in one domain transfer to new domains?
-3. Dynamic capacity reallocation at inference-time (AKBE operates at training-time only)
-4. Compression vs. externalization vs. refusal — what determines which strategy a system adopts when capacity is exceeded?
-5. Alignment: how can a system accurately represent its own alignment boundaries without those representations being exploitable?
-
-## Carryover
-The `bounded-representation-capacity` concept page is now available at `wiki/concepts/bounded-representation-capacity.md` and cross-referenced from all 12 source papers. No follow-up tasks created — the concept is complete pending review.
+1. Is prompt position a reliable priority mechanism for Pack layers, or is structural priority encoding needed?
+2. Should the Pack schema encode explicit priority edges between layers?
+3. Does schema competition interact with model scale (smaller models more susceptible)?
+4. Does Phase 2 (architecture) ever need to address schema competition, or is it purely a knowledge-layer problem?
+5. Can the VerifierGraphEvaluator detect schema competition at evaluation time via DAG tracing?

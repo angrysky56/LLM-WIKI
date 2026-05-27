@@ -1,6 +1,6 @@
 ---
 summary: "3 new: OpenAI o1 solves 80-year Erdős geometry conjecture (Gemini also solved parallel problem 9-to-1 faster), Pope Leo XIV "Magnifica humanitas" encyclical presented (Anthropic co-presented), South Sudan violence humanitarian crisis (MSF, hunger as weapon)"
-updated: 2026-05-28T08:00:00Z
+updated: 2026-05-27T07:37:14Z
 ---
 
 # News Agent Carryover — 2026-05-28

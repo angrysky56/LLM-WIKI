@@ -47548,3 +47548,7 @@ Updated page: wiki/concepts/kanban.md
 ## [2026-05-27 14:45] write
 
 Updated page: wiki/concepts/counterfactual.md
+
+## [2026-05-27 18:07] write
+
+Updated page: wiki/concepts/schema-competition.md

@@ -141,6 +141,8 @@ Include:
 | `wiki_search` | Find related pages for cross-linking |
 | `wiki_update_index` | Refresh index after new pages |
 
+**CRITICAL CONSTRAINT:** DO NOT write or run ad-hoc Python scripts (e.g. `kanban_upsert.py`, `parse.py`, etc.). You may run the official `generate_insights.py` engine as explicitly documented above, but do not author your own scripts. Use standard MCP tools exclusively for wiki operations. All Kanban operations are handled centrally by the overseer.
+
 ## Fallback Patterns
 
 - **CLI timeout (exit 124)**: Normal. Check for partial output, note in carryover, `[SILENT]`

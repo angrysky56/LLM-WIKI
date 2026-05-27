@@ -146,3 +146,5 @@ Use ONLY these `mcp-project-synapse` tools (NOT terminal file manipulation):
 - `synapse_remember` — record audit decisions to episodic memory
 - `synapse_recall` — retrieve past audit decisions for context
 - `query_knowledge` — structured queries against the knowledge graph
+
+**CRITICAL CONSTRAINT:** DO NOT write or run ad-hoc Python scripts (e.g. `check_wiki.py`, `kanban_upsert.py`, etc.). The standard MCP tools handle all graph operations natively. All Kanban updates are handled by the overseer, not individual agents.

@@ -36,6 +36,7 @@ Discover, select, and research the top 3 arXiv papers or others if the same pape
 ## Wiki Operations
 - **Tools:** `query_knowledge` (check existing coverage), `wiki_write_page` (paper summaries), `wiki_update_index` (after ingest)
 - **Constraint:** Check wiki with `query_knowledge` before ingesting — if topic covered, link to existing page instead of duplicating.
+- **CRITICAL CONSTRAINT:** DO NOT write or run ad-hoc Python scripts (e.g. `kanban_upsert.py`, `fetch.py`, etc.). Use the standard `mcp-project-synapse` tools or bash commands (like `curl`) exclusively. All Kanban updates are handled by the overseer, not individual agents.
 
 ## Critical Paths
 

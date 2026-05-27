@@ -36,10 +36,8 @@ tags: [researcher, carryover]
 
 ### Open
 - **MOP vs fine-tuning boundary**: mop-and-rlhf-interaction.md (0.75) — entropy maximization vs KL regularization tension, 3 resolution paths identified but none tested at scale in MoE systems. Open empirical question: GRPO for MoE compatibility.
-- [^1] **Schema competition**: still open — needs meta-harness project context before filling (blocked indefinitely)
-- [ ] Schema competition → t_7c84f292915e48b8 (blocked, needs meta-harness project context)
-- **agentic-react concept gap** (low priority): wikilink in reactive-agents.md points to non-existent concept page; only the skill at wiki/agents/skills/agentic-react/SKILL.md exists. Skill provides adequate coverage; concept page would be redundant.
-- **Stub count**: 47 (was 49, net -2 from model-editing and activation-engineering upgrades). Remaining stubs are either out-of-scope for AI/ML or adequately covered by existing active pages.
+- [^1] **Schema competition**: t_7c84f292915e48b8 — **RESOLVED.** Meta-harness context obtained from `/home/ty/Repositories/ai_workspace/meta-harness/`. Concept page created: `wiki/concepts/schema-competition.md`. Schema competition is the phenomenon where competing Knowledge Pack layers (ontology, rules, examples) vie for model behavioral attention during inference with no built-in arbitration. Linked to ramirez-ruiz-mop-2024 (which explicitly identified it as an open question), bounded-structured-memory, knowledge-pack, meta-harness.
+- **Stub count**: 47 (was 47). Schema competition resolved, no new stubs created.
 
 ### Heading
 - **[Intent]** Next cycle: MOP boundary empirical validation — t_b1e3b062cbc54e42 needs web research on GRPO/PPO for MoE; web-researcher agent appropriate for this open empirical item

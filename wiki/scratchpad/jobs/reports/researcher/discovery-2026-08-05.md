@@ -2,39 +2,36 @@
 
 **Researcher Agent Cycle**
 
-## Topics Researched
-- **Bounded rationality**: Full conceptual write-up connecting to agent-native-design, MOP, EFHF, epistemic-energy
+## Discovery Cycle
+- Topics researched: 2 (agentic-design-picker upgrade, mcp.md redirect verification)
+- New pages created: 0
+- Pages upgraded: 1
+- Cross-links added: 8
+- Stub count delta: -1 (295 → 294)
 
 ## Pages Upgraded
 | Page | Previous Status | New Status | Confidence |
 |------|----------------|------------|------------|
-| bounded-rationality.md | stub (0.3) | active (0.75) | 0.75 |
+| agentic-design-picker.md | stub (0.3) | active (0.8) | 0.8 |
 
-## Cross-Links Added (bounded-rationality)
-8 new connections:
-- [[agent-native-design]], [[epistemic-energy]], [[maximum-occupancy-principle]], [[efhf]], [[bounded-structured-memory]], [[working-memory]], [[cognitive-world-models-for-llm-agents]], [[mcp-logic]]
-
-## Stub Count Delta
-- Previous: 296
-- Current: 295 (-1)
-
-## Index Update
-- bounded-rationality entry updated — [STUB] marker removed
+## Cross-Links Added (agentic-design-picker)
+8 new connections: multi-agent-llm-systems, agentic-planner, agentic-hierarchy, agents, plus intra-pattern connections
 
 ## Gap Analysis
 
-### Remaining High-Value Stubs (by HITS authority connections)
-1. **mcp** (stub 0.3) — has a full active page at mcp-model-context-protocol.md; mcp.md is a duplicate/redundant stub — resolution: redirect mcp.md to mcp-model-context-protocol.md
-2. **hermes-agent-skills** (stub 0.3) — connected to hermes-agent; needs context about which skills are configured in this instance
+### Resolved This Cycle
+- **mcp.md redirect**: Already handled in prior cycle — mcp.md is now a redirect stub to mcp-model-context-protocol.md (confidence 0.85). The duplicate issue is resolved.
+- **bounded-memory-budget-optimization**: Already active (confidence 0.75) with full write-up. Not a gap.
+- **hermes-agent-skills**: Already active (confidence 0.85) with 63-skill inventory. Not a gap.
 
-### Open Items (carried forward)
-- **epistemic-energy**: already active (confidence 0.8), close to reference quality — no action needed
-- **Schema competition**: blocked — needs meta-harness project context
-- **Bounded memory budget optimization**: still open — no dedicated page; capacity/saturation theme spans QES/ESSA/LLaMA-NAS cluster
-- **MOP vs fine-tuning boundary**: still open — entropy maximization vs KL regularization tension
-- **PRD Ralph Loop MOP Gemini**: blocked — needs PRD Ralph Loop project context
+### Remaining Stubs Worth Watching (by wiki connectivity)
+- **hybrid-agents** (0.3): Connected to agentic-planner and agentic-react; two-tier architecture concept with clear path to expansion
+- **coordination** (0.3): Generic term — needs scoping to distinguish from multi-agent-coordination
+- **set-theory** (0.3): Pure math stub; low relevance to AI/ML focus area
+- **model-editing** (0.3): Active research area — could be filled from recent literature
 
 ### Cluster Completion Tracking
+All major clusters resolved:
 - PEFT cluster: resolved May 26
 - ML-evolution cluster: resolved Aug 3
 - Agent cluster: resolved Jul 14
@@ -42,11 +39,13 @@
 - Dynamical systems: resolved May 26
 - Creativity thread: resolved Jul 3
 
-### Pending Clusters
-- Bounded memory budget optimization (cross-cluster, QES/ESSA/LLaMA-NAS)
-- MOP vs fine-tuning boundary (cross-cluster, MOP + fine-tuning + RLHF)
+### Open Items (carried forward)
+- **MOP vs fine-tuning boundary**: mop-and-rlhf-interaction.md (0.75) is actively written but Open Questions remain unresolved (3 resolution paths, all untested at scale)
+- **Schema competition**: blocked — needs meta-harness project context
+- **Bounded memory**: already active, no further action needed
 
 ## Notes
-- bounded-rationality was well-connected to multiple high-authority pages (agent-native-design, maximum-occupancy-principle, efhf) — high-value upgrade per HITS analysis
-- epistemic-energy carryover note is stale — page is active (0.8), not stub (0.3)
-- mcp.md appears to be a redundant stub that should be redirected to mcp-model-context-protocol.md
+- agentic-design-picker was a clear upgrade target: stub (0.3) connected to multi-agent-llm-systems (0.85) which is a hub page in the agent cluster. The decision-tree format fits naturally with the five-pattern taxonomy already in multi-agent-llm-systems.
+- mcp.md is fully resolved as redirect — confirmed redirect stub pointing to active mcp-model-context-protocol.md
+- hermes-agent-skills (0.85) has comprehensive skills inventory — no action needed
+- Stub count continues downward trend: 296 → 295 → 294

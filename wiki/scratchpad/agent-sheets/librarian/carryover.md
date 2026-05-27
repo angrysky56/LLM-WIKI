@@ -56,24 +56,23 @@ All top authorities have rich content. No low-content high-authority flags.
    - `wiki/projects/goodrobot/` — Active business entity
    - Priority: MEDIUM — blocked, needs Ty decision
 
-2. **94 broken links** (↑ from 85)
-   - Genuine missing refs (need content creation):
-     - `[[deliberative-agents]]`, `[[reactive-agents]]`, `[[hybrid-agents]]`, `[[meta-cognitive-agents]]` → from agents.md
-     - `[[tool-use]]` → from autonomous-agents.md
-     - `[[diffusion-models]]` → from generative-ai.md
-     - `[[grpo]]` → from group-relative-policy-optimization.md
-     - `[[qora]]` → from lora.md
-     - `[[MOP]]` → from neural-architecture-search.md, rz-nas.md
-     - `[[bradley-terry]]` → from opendeepthink-parallel-reasoning.md
-     - `[[test-time-compute-scaling]]` → from parallel-reasoning.md
-   - Template refs in operating docs: `[[Planning-stub]]`, `[[counterfactual-reasoning]]`, etc.
-   - GoodRobot cross-refs: `[[wiki/projects/goodrobot/shut-down-entity]]` etc.
-   - Agent-sheet template refs: `[[A]]`, `[[related-concept]]`, `[[related-project]]`
-   - Action: Delegate full 94-link fix list to librarians-assistant
+2. **94 broken links** (↓ from ~20 as of Aug 2026 audit)
+   - Genuine missing refs: most addressed by Jul 28 librarian batch + fix_broken_links.py script
+   - Still unresolved (~7):
+     - `[[test-time-compute-scaling]]` → parallel-reasoning.md → fix_broken_links.py redirects to inference-time-compute-scaling
+     - `[[bradley-terry]]` → opendeepthink-parallel-reasoning.md → a real concept page (statistical ranking model) but no dedicated file yet
+     - `[[bounded-representation-capacity]]` → 10 paper sources → genuine content gap; needs researcher-created page
+     - `[[cognitive-decline]], [[neuroinflammation]], [[hypothalamus]]` → menin-d-serine article → health/biology entity stubs needed
+     - `[[AI-policy-global-governance]]` → pope-leo-encyclical article → entity stub or link strip
+     - `[[MOP]]` → fix_broken_links.py redirects to mop-architecture (already exists, 97 lines)
+   - Template refs: `[[Planning-stub]]`, `[[counterfactual-reasoning]]`, `[[A]]`, `[[related-concept]]` → operational artifacts
+   - GoodRobot cross-refs: handled separately per t_fb744436c61148a9
+   - Action: Research delegation for ~7 genuine concept pages; librarians-assistant completes remaining link-fix script runs
 
-3. **11 stub concepts** — batch for librarians-assistant:
+3. **11 stub concepts** — batch for librarians-assistant: COMPLETED in Jul 28
    - True stub: legal-accountability-stub (15 lines)
    - Template cluster (10): 3dgs, CRI, Firecracker, autopoiesis, blackmail, codebase-inspection, compound-commands, directed-preferential-placement, fts5, functional-emotions
+   - All now created as proper stubs (18 lines each, link to maximum-occupancy-principle)
    - Note: Greek letters (beta/delta/epsilon/gamma/zeta) are NOT stubs (19 lines each)
 
 4. **258 orphans** — stable; operational files (agent-sheets, news/headlines, discovery reports)

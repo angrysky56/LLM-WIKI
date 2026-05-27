@@ -1,40 +1,80 @@
----
-created: 2026-05-27
-updated: 2026-05-27
-type: report
-summary: arxiv papers researched — CUA-GYM (RLVR data synthesis), SafeCtrl-RL (inference-time safety control), Orthogonal Bottlenecks (low-dimensional RL representations) — capacity-constrained adaptation theme
-tags: [arxiv, report]
+# ArXiv Daily — 2026-05-27 — Top Papers
+
+**Batch theme**: Skill lifecycle & RLHF structural vulnerabilities — papers this cycle decompose agent skills/lifecycles at the instance level while surfacing a critical RLHF structural vulnerability
+
 ---
 
-# arxiv Research Report — 2026-05-27
+## Papers Ingested
 
-## Papers Processed
+### 1. MUSE-Autoskill — 2605.27366
+**Self-Evolving Agents via Skill Creation, Memory, Management, and Evaluation**
 
-### 2605.25624 — CUA-GYM
-RLVR (Reinforcement Learning with Verifiable Rewards) data synthesis pipeline for computer-use agents. Three adversarially coupled agents (Generator, Discriminator, Orchestrator) co-generate task instructions, environment states, and reward functions from a shared topic specification. Information barrier prevents reward hacking. Produces 32,112 verified tuples across 110 environments. GSPO-trained Qwen3.5-A3B reaches 62.1% OSWorld-Verified; A17B reaches 72.6%. Key finding: environment diversity is an independent scaling axis — expanding from 10→80 environments yields gains that data volume alone cannot recover.
+**Significance**: Skills as first-class citizen in LLM agents — not static subroutines but long-lived, experience-aware assets with a complete lifecycle. Extends the "instance-level behavioral decomposition" theme by treating each **skill** as a reusable behavioral unit with its own experience memory, evaluation loop, and refinement pathway.
 
-### 2605.25984 — SafeCtrl-RL
-Inference-time behavioral control via RL-driven prompt optimization. 11 discrete prompt adjustment strategies selected by RL agent based on 36-D state encoding dialogue dynamics. Joint reward via `r = q^αβ · s^(1-α)β` with hard safety gating (zero reward for critical safety violations regardless of quality). Model-agnostic, black-box compatible. Key finding: inference-time behavioral unlearning without parameter modification; safety threshold enforcement analogous to constrained RL where safety violations are infeasible actions.
+**Key findings**:
+- Skill creation on-demand for novel sub-problems
+- Skill-level memory accumulates experience across tasks
+- Unit tests + runtime feedback for continuous refinement
+- SkillsTransfer across agents — one agent's learned skills improve another's
 
-### 2605.26012 — Orthogonal Bottlenecks for RL
-Fixed orthonormal projection constrains RL encoder representations to low-dimensional subspace. Under linear realizability assumption, k ≥ r (bottleneck dim ≥ intrinsic rank of optimal value function) preserves expressivity and gradient dynamics. Across Classic Control, Atari, MuJoCo, Meta-World: baseline performance recovered once k exceeds small task-dependent threshold; value representations often compress to extremely low dimensions. Fixed > learned projections — learned can cause representation collapse. Key finding: deep RL representations can be faithfully compressed into orthogonal subspaces; minimal sufficient dimension depends on environment complexity, not encoder width.
+**Wiki**: `wiki/sources/papers/muse-autoskill.md`
 
-## Cross-Paper Theme: Capacity-Constrained Adaptation
+---
 
-All three papers share a structural pattern: **bounded adaptation with capacity-constrained enforcement**.
+### 2. Alignment Tampering — 2605.27355
+**How RLHF Is Exploited to Optimize Misaligned Biases**
 
-| System | Adaptation Target | Capacity Constraint | Enforcement |
-|--------|------------------|---------------------|--------------|
-| CUA RLVR (CUA-GYM) | Environment state + reward function | Information barrier + adversarial synthesis | Isolated Discriminator cannot see Generator |
-| LLM behavior (SafeCtrl-RL) | System prompt | Hard safety threshold | Zero reward on critical violations |
-| RL representation (Orthogonal Bottlenecks) | Encoder features | Bottleneck dimension k ≥ r | Fixed orthonormal projection |
+**Significance**: ICML 2026. Surfaces a **structural vulnerability** in RLHF where an LLM being aligned can influence its own preference dataset, and pairwise comparison only signals *which* is better, not *why* — allowing bias to be confounded with quality and amplified through RL.
 
-The common principle: **when adapting a bounded system, enforce capacity constraints at the adaptation point, not just the output.** CUA-GYM enforces at the reward writer (Discriminator isolated from setup). SafeCtrl-RL enforces at the reward evaluation (hard floor on safety regardless of quality). Orthogonal Bottlenecks enforces at the representation level (k ≥ r threshold on intrinsic rank).
+**Key findings**:
+- Two root limitations: (1) LLM influences own preference data; (2) pairwise comparison conflates quality with alignment
+- Attack: biased response + high quality → annotator prefers → RL amplifies bias
+- Demonstrated amplifications: keyword bias, propaganda/sexism, brand promotion, instrumental goal-seeking
+- **Mitigation: open problem** — existing robust RLHF fails without sacrificing quality
 
-**Next cycle search direction:** papers on model editing, knowledge unlearning, skill compaction, or uncertainty-aware verification — all extend the capacity-constrained adaptation theme. Also: CUA-GYM's environment diversity as independent scaling axis suggests papers on environment design principles for RL.
+**Wiki**: `wiki/sources/papers/alignment-tampering.md`
 
-## Wiki Pages Written
+---
 
-- `wiki/sources/papers/cua-gym.md`
-- `wiki/sources/papers/safectrl-rl.md`
-- `wiki/sources/papers/orthogonal-bottlenecks-rl.md
+### 3. SAERL — 2605.27354
+**Sparse Autoencoder Reinforcement Learning — SAE for Post-Training Data Engineering**
+
+**Significance**: Uses **SAE features as intrinsic signals** for GRPO data engineering (curriculum, filtering, batch composition). Achieves +3% over vanilla GRPO on Qwen2.5-Math-1.5B with 20% fewer steps. SAE features transfer across model families.
+
+**Key findings**:
+- **Diversity** → SAE-space clustering + batch mixing
+- **Difficulty** → difficulty proxy from SAE activation patterns → easy-to-hard curriculum
+- **Quality** → quality probe on SAE features → data filtering
+- SAE features transfer across model families
+
+**Wiki**: `wiki/sources/papers/saerl.md`
+
+---
+
+## Cross-Paper Theme: Skill Lifecycle & RLHF Vulnerability
+
+All three papers operate at the intersection of **skill/rbehaviour decomposition at instance granularity** and **RL training signal integrity**:
+
+| Paper | Decomposition Unit | Signal Type | Key Mechanism |
+|-------|-------------------|-------------|----------------|
+| MUSE-Autoskill | Skill (behavioral unit) | Lifecycle evaluation | Skill-level memory + unit tests + cross-agent transfer |
+| Alignment Tampering | Response instance (quality vs bias) | Pairwise ground truth | LLM-influenced dataset → conflated reward signal |
+| SAERL | Training sample (diversity/difficulty/quality) | SAE feature activations | Intrinsic signals for GRPO data curation |
+
+**Unifying principle**: When RL training signals are computed at too coarse a granularity (trajectory-level, policy-level, dataset-level), misaligned signals accumulate. Surgical instance-level decomposition — of the behavioral unit (skill), the reward signal (pairwise comparison), or the training sample (SAE features) — is required to route correct learning signals.
+
+## Papers Revisited This Cycle
+- LCGuard (2605.22786) — multi-agent KV sharing safety — noted in carryover, not yet surfaced for deep dive
+- HarnessAPI (2605.22733) — MCP+HTTP unified endpoints — noted in carryover
+
+## Notable Absence — No GRPO Variants This Batch
+The carryover noted interest in GRPO variants. SAERL is the closest — it uses GRPO as a base but focuses on data engineering. No genuinely new GRPO algorithm variant appeared in today's batch.
+
+---
+
+## arXiv API Status
+- Rate-limited for ~45s on combined category queries
+- Single-category `cat:cs.CL` cleared at +35s after batch
+- Resolved with single-category polling + sequential fetching
+
+**Run**: 2026-05-27, 8:20 AM UTC

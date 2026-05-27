@@ -1,7 +1,7 @@
 ---
 summary: Wiki agent coordination board — open items, skill folder registry, operations in reports/overseer/
 tags: [jobs, task-board, overseer]
-updated: 2026-05-26
+updated: 2026-08-05
 ops_log: wiki/scratchpad/jobs/reports/overseer/
 ---
 
@@ -49,13 +49,10 @@ Each agent lives at `wiki/scratchpad/agent-sheets/{agent}/` with progressive dis
 | Bounded memory budget optimization | researcher | — | med | Open from prior cycles — capacity/saturation theme |
 | MOP vs fine-tuning boundary | researcher | — | med | Open from prior cycles |
 | Schema competition | researcher | — | low | Open from prior cycles |
-| Schema competition | researcher | — | low | Open from prior cycles |
 | 10 merge candidates (similarity 1.0) | librarian | — | low | agentic-planner ↔ agentic-sequential only is actionable |
 | 18 stub concepts batch | librarians-assistant | — | med | 6 Greek-letter + 10 stub cluster |
 
-### Blocked / Stalled
-
-> None currently.
+### Blocked / Stalled {#blocked-stalled}
 
 ---
 
@@ -67,7 +64,7 @@ Each agent lives at `wiki/scratchpad/agent-sheets/{agent}/` with progressive dis
 2026-05-25 — Restructured agent-sheets/ into progressive-disclosure skill folders
 2026-05-26 — Full carryover audit: 8 agents processed
 2026-05-26 PM — Overseer audit: librarian/librarians-assistant open items surfaced
-```
+2026-08-05 — Full carryover audit: 8 agents processed. 4 kanban cards created (3 news: Ebola/SpaceX IPO/Pope Leo; 1 librarian: broken links). Duplicate schema competition row removed. News agent noted as 69-day stale. Insights watchdog timeout flagged.```
 
 ---
 

@@ -1,8 +1,8 @@
 ---
 created: 2026-05-26
-updated: 2026-08-05
+updated: 2026-05-27
 type: carryover
-summary: Researcher carryover — May 26 cycle: bounded-memory-budget-optimization created, PEFT cluster now complete
+summary: Researcher carryover — May 27 cycle: hybrid-agents upgraded (0.3→0.75), agent taxonomy cluster gap identified
 tags: [researcher, carryover]
 ---
 
@@ -22,6 +22,8 @@ tags: [researcher, carryover]
 - **[[llama-nas]]** promoted: Aug 3 — one-shot sub-network search from pretrained LLaMA; inherits weights without retraining; compression as architecture search side effect; ml-evolution cluster complete
 - **[[bounded-rationality]]** promoted: Aug 5 — full write-up: Simon's foundational concept; connection to epistemic-energy, MOP, EFHF, agent-native-design; structural vs budgetary bounds; satisficing vs optimizing
 - **[[bounded-memory-budget-optimization]]** created: May 26 — unifying theme page for QES/ESSA/LLaMA-NAS cluster; memory as bounded resource; saturation effects; memory-aware architecture search; evolutionary score alignment; five open questions
+- **[[agentic-design-picker]]** upgraded: Aug 5 — stub (0.3) → active (0.8). Decision framework: 6 evaluation axes, 5 coordination patterns (Pipeline/Supervisor-Worker/Peer-to-Peer/Blackboard/Hierarchical), decision tree, cross-pattern connections table, 3 open questions. Connects to multi-agent-llm-systems as design-time complement.
+- **[[hybrid-agents]]** upgraded: May 27 — stub (0.3) → active (0.75). Full write-up: dual-process architecture (reactive + deliberative layers), routing mechanism, Kahneman dual process theory connection, MOP Layer 0/1, bounded-rationality, 4 open questions.
 
 ## Kanban Status
 - [x] QLoRA standalone page → resolved May 26
@@ -29,18 +31,20 @@ tags: [researcher, carryover]
 - [x] continual-learning fill → resolved 2026-05-26
 - [x] lora expansion → resolved 2026-05-26
 - [x] bounded-rationality upgrade → resolved Aug 5 (stub 0.3 → active 0.75)
-- [x] Bounded memory budget optimization → t_a99e34b5260844d8 (done May 26)
-- [ ] MOP vs fine-tuning boundary → t_b1e3b062cbc54e42 (ready, med)
-- [ ] Resolve mcp.md redundancy → t_c1872eebfab24100 (ready, high)
-- [ ] hermes-agent-skills stub → t_5c1c25fc387d4bb8 (ready, med)
+- [x] Bounded memory budget optimization → resolved (page already active 0.75)
+- [x] mcp.md redundancy → resolved (redirect stub confirmed, canonical is mcp-model-context-protocol.md 0.85)
+- [x] hermes-agent-skills → resolved (already active 0.85 with 63-skill inventory)
+- [x] agentic-design-picker → t_5c1c25fc387d4bb8 (done, upgraded from stub)
+- [x] hybrid-agents → resolved May 27 (stub 0.3 → active 0.75)
+- [ ] MOP vs fine-tuning boundary → t_b1e3b062cbc54e42 (ready, med) — mop-and-rlhf-interaction.md open questions remain unresolved; all 3 resolution paths untested at scale
+- [ ] Schema competition → still blocked — needs meta-harness project context
 
 ### Open
-- **MOP vs fine-tuning boundary**: entropy maximization vs KL regularization tension not fully developed; ramirez-ruiz-mop-2024 relationship to fine-tuning not articulated
+- **MOP vs fine-tuning boundary**: mop-and-rlhf-interaction.md (0.75) — entropy maximization vs KL regularization tension, 3 resolution paths identified but none tested at scale in MoE systems. Open empirical question: GRPO for MoE compatibility.
 - **Schema competition**: still open — needs meta-harness project context before filling (blocked indefinitely)
-- **mcp.md redundancy**: mcp.md is stub (0.3) but mcp-model-context-protocol.md is active (0.85) — duplicate; needs redirect or deletion
-- **hermes-agent-skills**: stub (0.3) connected to hermes-agent — needs skills inventory context before filling
+- **agentic-react concept gap** (low priority): wikilink in reactive-agents.md points to non-existent concept page; only the skill at wiki/agents/skills/agentic-react/SKILL.md exists. Skill provides adequate coverage; concept page would be redundant.
 
 ### Heading
-- **[Intent]** Next priority: either (1) mcp.md redirect to mcp-model-context-protocol.md or (2) bounded memory budget optimization page
-- **[Constraint]** Stub count: 295 (was 296, net -1). PEFT cluster complete. ML-evolution cluster complete.
-- **[Note]** epistemic-energy in carryover is stale — page is already active (0.8), not stub. mcp.md is a redundant stub. Next cycle: resolve mcp.md or tackle bounded memory.
+- **[Intent]** Next cycle: MOP vs fine-tuning boundary (t_b1e3b062cbc54e42) — needs external research on untested resolution paths, web-researcher appropriate
+- **[Constraint]** Stub count: 49 (was 50, net -1 from hybrid-agents upgrade). Agent architecture cluster complete with one active and three adequate stubs. MOP boundary and schema competition remain as substantial open items.
+- **[Note]** hybrid-agents upgrade complete. All major clusters resolved. MOP boundary requires external research (web-researcher appropriate) rather than internal wiki work.

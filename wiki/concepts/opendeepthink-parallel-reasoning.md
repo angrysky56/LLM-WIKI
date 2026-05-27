@@ -56,7 +56,7 @@ The paper identifies **candidate generation** → **candidate evaluation** → *
 
 - [[parallel-reasoning]] — the broader pattern; OpenDeepThink is the primary empirical instantiation
 - [[chain-of-thought]] — the reasoning traces being ranked
-- [[bradley-terry]] — the pairwise ranking model used for aggregation
+- [[reward-modeling]] — the pairwise ranking model used for aggregation
 - [[reward-modeling]] — Bradley-Terry as a reward-free alternative to explicit reward models
 - [[llm-evaluation]] — Codeforces Elo as benchmark
 

@@ -28,6 +28,10 @@ Run the Zettelkasten insight generation engine and integrate high-confidence ins
 6. Record to episodic memory via `synapse_remember`
 7. Deliver (silent if no new pages created)
 
+## Wiki Operations
+- **Tools:** `synapse_remember` (record insights to episodic memory), `wiki_write_page` (create synthesis pages for confidence ≥ 0.7), `wiki_update_index` (after new page)
+- **Constraint:** Only create wiki pages for confidence ≥ 0.7. Lower confidence → note only, no page.
+
 ## Defense-in-Depth Timeout
 
 ```bash

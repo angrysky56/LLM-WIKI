@@ -33,6 +33,10 @@ Discover, select, and research the top 3 arXiv papers or others if the same pape
 5. Delegate research to subagents (Phase 4)
 6. Assemble and deliver report (Phase 5)
 
+## Wiki Operations
+- **Tools:** `query_knowledge` (check existing coverage), `wiki_write_page` (paper summaries), `wiki_update_index` (after ingest)
+- **Constraint:** Check wiki with `query_knowledge` before ingesting — if topic covered, link to existing page instead of duplicating.
+
 ## Critical Paths
 
 - **PDF storage**: `/home/ty/Documents/paper-research/{arxiv_id}v{version}.pdf`

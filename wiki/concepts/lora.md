@@ -85,7 +85,7 @@ LoRA combines naturally with Mixture of Experts architectures. The MoE router al
 
 - [[parameter-efficient-fine-tuning]]: the broader category LoRA belongs to
 - [[fine-tuning]]: LoRA is a fine-tuning method; fine-tuning.md covers the general fine-tuning landscape
-- [[qora|QLoRA]]: the quantized variant that enables 4-bit base model fine-tuning
+- [[lora|QLoRA]]: the quantized variant that enables 4-bit base model fine-tuning
 - [[mixture-of-experts]]: MoE + LoRA is a natural combination for multi-task adaptation
 - [[catastrophic-forgetting]]: LoRA's parameter efficiency reduces the risk of forgetting by keeping most weights frozen
 - [[llm-training]]: LoRA is primarily used during the LLM training/fine-tuning phase

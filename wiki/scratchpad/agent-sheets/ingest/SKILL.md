@@ -28,6 +28,10 @@ Process raw files from the `raw/` inbox into structured wiki knowledge. Every fi
 6. Archive to Clippings/ subfolder
 7. Deliver ingest report (silent if nothing to process)
 
+## Wiki Operations
+- **Tools:** `synapse_recall` (check for existing content before ingesting), `wiki_write_page` (create/update pages), `wiki_update_index` (after changes)
+- **Constraint:** Verify no duplicate before writing — `synapse_recall` first, then `wiki_write_page`.
+
 ## Critical Rule
 
 **`raw/` must be EMPTY after every run.** Every file either:

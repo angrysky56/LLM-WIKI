@@ -34,6 +34,10 @@ Identify gaps in the LLM-WIKI knowledge graph and research new topics to fill th
 - **Discovery reports**: `wiki/scratchpad/jobs/reports/researcher/discovery-YYYY-MM-DD.md`
 - **Carryover**: `wiki/scratchpad/agent-sheets/researcher/carryover.md`
 
+## Wiki Operations
+- **Tools:** `query_knowledge` (gap analysis), `wiki_search` (find related pages), `wiki_write_page` (new/update pages), `wiki_update_index` (after changes)
+- **Constraint:** Check wiki first via `query_knowledge` — if concept exists, update it. Only research external for gaps.
+
 ## Quality Standards
 
 - Write in your own voice — not generic AI filler

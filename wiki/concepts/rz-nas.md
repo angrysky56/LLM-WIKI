@@ -40,7 +40,7 @@ The reflection module is the key innovation in RZ-NAS. Rather than averaging all
 2. **Meta-learn weights**: Given a new architecture family (e.g., transformers with Flash Attention), learn which proxy types are most predictive
 3. **Dynamic weighting**: Apply different proxy weightings for different architecture subspaces
 
-This is analogous to [[MOP]]'s approach to exploration: the reflection module maintains a model (of proxy reliability, just as MOP maintains a model of state visitation distribution) and uses it to weight future decisions.
+This is analogous to [[mop-architecture]]'s approach to exploration: the reflection module maintains a model (of proxy reliability, just as MOP maintains a model of state visitation distribution) and uses it to weight future decisions.
 
 ## The Algorithm
 

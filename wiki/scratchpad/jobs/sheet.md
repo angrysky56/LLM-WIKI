@@ -15,13 +15,13 @@ updated: 2026-05-25
 
 | Agent | Cron ID | Schedule | Last Run | Last Status | Next Run |
 |-------|---------|----------|----------|--------------|----------|
-| [[arxiv/SKILL.md]] | `72599f850df2` | 08:20 | 2026-05-26 | **in_progress** | — |
+|| [[arxiv/SKILL.md]] | `72599f850df2` | 08:20 | 2026-05-26 | **done** | — |
 | [[researcher/SKILL.md]] | `8ea33cfa560a` | 08:00 | 2026-07-15 | **done** | — |
-| [[ingest/SKILL.md]] | `c838e81a1496` | 06:30 | — | — | — |
-| [[librarian/SKILL.md]] | `48a3a009a820` | 08:20 | 2026-05-26 | **done** | — |
-| [[librarians-assistant/SKILL.md]] | `385aa0819a57` | 08:40 | — | — | — |
-| [[insights/SKILL.md]] | `723e76246970` | 06:00 | — | — | — |
-| [[news/SKILL.md]] | `eaaa6bdc8503` | 07:30 | — | — | — |
+| [[ingest/SKILL.md]] | `c838e81a1496` | 06:30 | 2026-05-26 | **done** | — |
+| [[librarian/SKILL.md]] | `48a3a009a820` | 08:20 | 2026-07-28 | **done** | — |
+| [[librarians-assistant/SKILL.md]] | `385aa0819a57` | 08:40 | 2026-07-28 | **done** | — |
+| [[insights/SKILL.md]] | `723e76246970` | 06:00 | 2026-05-25 | **done** | — |
+| [[news/SKILL.md]] | `eaaa6bdc8503` | 07:30 | 2026-05-28 | **done** | — |
 | [[orcaid/SKILL.md]] | — | PAUSED | — | — | — |
 
 **Kanban Review**: `0a34e742931a` · [[librarians-assistant/SKILL.md|kanban-review]] · schedule 08:30 · on-demand trigger supported
@@ -49,7 +49,7 @@ Each agent lives at `wiki/scratchpad/agent-sheets/{agent}/` with progressive dis
 
 ### Open Items (carryovers → kanban)
 
-| Item | Source Agent | Kanban ID | Priority | Notes |
+|| Item | Source Agent | Kanban ID | Priority | Notes |
 |------|-------------|-----------|----------|-------|
 | [[namm]] upgrade (ml-evolution source) | researcher | `t_5605291da30d417b` | high | NAMM learned KV cache retention vs Control LLM — complementary? |
 | [[continual-learning]] fill (empty stub) | researcher | `t_10d4fed7e6cbb9df` | high | Connects catastrophic-forgetting/MoE/MOP/llm-training |
@@ -60,12 +60,19 @@ Each agent lives at `wiki/scratchpad/agent-sheets/{agent}/` with progressive dis
 | Ebola case count updates | news | `t_a0cd9cc56d2a0d21` | med | 750 suspected cases, South Sudan transmission, thermostable vaccine |
 | SpaceX IPO governance clarification | news | `t_bd5eb78392b6ce9c` | med | June 12 listing, Musk voting control, BlackRock $10B |
 | Pope Leo XIV encyclical follow-through | news | `t_05c65d368cfa4b1e` | med | 'Magnifica humanitas' — Vatican diplomatic follow-through |
+| Bounded memory budget optimization | researcher | — | med | Open from prior cycles — capacity/saturation theme |
+| MOP vs fine-tuning boundary | researcher | — | med | Open from prior cycles |
+| Schema competition | researcher | — | low | Open from prior cycles |
+| 10 merge candidates (similarity 1.0) | librarian | — | low | agentic-planner ↔ agentic-sequential only is actionable; stub cluster is artifact |
+| 18 stub concepts batch | librarians-assistant | — | med | 6 Greek-letter + 10 stub cluster — Ty decision needed for expansion/merge/delete |
 
 ### Blocked / Stalled
 
 | Agent | Blocked By | Since | Notes |
 |-------|-----------|-------|-------|
-| — | | | |
+| librarian | GoodRobot duality — Ty decision | 2026-07-28 | 11 files across 2 vault locations; canonical consolidation pending |
+| librarians-assistant | 6 Greek-letter + 10 stub cluster decisions | 2026-07-28 | Ty needs to decide: expand, merge, or delete |
+| insights | MCP unavailable in cron | 2026-05-25 | 4 insight pages need wiki_index + synapse_remember |
 
 ---
 
@@ -92,4 +99,5 @@ All 8 agent cron jobs now reference the new skill folder names:
 ```
 2026-05-25 — Restructured agent-sheets/ into progressive-disclosure skill folders (SKILL.md → references/ → templates/). Flat .md files removed. All 7 cron jobs updated to new skill names.
 2026-05-25 — Central sheet redesigned: overseer owns this sheet, per-agent skill folder tracking, cron skill link registry
+2026-05-26 — Full carryover audit: 8 agents processed. arxiv status corrected in_progress→done. 3 researcher open items surfaced (bounded memory, MOP vs fine-tuning, schema competition). 5 news open items tracked. librarian/librarians-assistant findings consolidated. insights blocked by MCP unavailability noted. Open Items table expanded with 5 new rows.
 ```

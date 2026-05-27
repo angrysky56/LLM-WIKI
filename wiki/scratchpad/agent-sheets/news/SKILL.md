@@ -41,6 +41,10 @@ economy+trade+tariff+may+2026
 AI+science+math+breakthrough+2026
 ```
 
+## Wiki Operations
+- **Tools:** `query_knowledge` (dedup check only), `wiki_write_page`
+- **Constraint:** Wiki is for dedup only. RSS handles discovery — never search wiki for news content.
+
 ## Quality Standards
 
 - Ingest for significance, not volume

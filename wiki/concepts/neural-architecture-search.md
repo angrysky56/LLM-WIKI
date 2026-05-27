@@ -92,4 +92,4 @@ NAS is a natural application of [[evolutionary-strategies]] — CMA-ES and its v
 1. CoLLM-NAS's dual-LLM approach requires two capable LLMs — does Navigator/Geneerator specialization improve over single-LLM proposals?
 2. RZ-NAS's reflection module: is it learned once and reused, or fine-tuned per architecture family?
 3. LLaMA-NAS compression gains: do they hold at frontier model scale, or only for already-compressed models?
-4. Can zero-cost proxies be combined with [[MOP]]'s exploration objective for curiosity-driven architecture search?
+4. Can zero-cost proxies be combined with [[mop-architecture]]'s exploration objective for curiosity-driven architecture search?

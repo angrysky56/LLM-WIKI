@@ -74,7 +74,7 @@ The key insight from SD-Search: GRPO's trajectory-level advantage averages over 
 - [[maximum-occupancy-principle]] — MOP's stochastic optimal policy principle has structural parallels to GRPO's group-relative advantage computation
 - [[constitutional-ai]] — CAI uses RLHF (PPO/DPO) while GRPO is an alternative approach to policy optimization
 - Concept: [[evolutionary-strategies]]
-- Concept: [[grpo]]
+- Concept: [[group-relative-policy-optimization]]
 - Concept: [[llm-training]]
 - Concept: [[mop-and-rlhf-interaction]]
 - Concept: [[mop-next-token-prediction]]

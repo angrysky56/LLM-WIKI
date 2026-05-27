@@ -55,7 +55,7 @@ For multi-step reasoning, the pairwise comparison must happen at the step level 
 
 - [[llm-reasoning]] — Base reasoning capability; parallel reasoning is test-time scaling applied to base reasoning
 - [[chain-of-thought]] — CoT generates the single trace that parallel reasoning then parallelizes; CoT is the atomic unit of parallel reasoning
-- [[test-time-compute-scaling]] — Parallel reasoning is the primary instantiation of test-time compute scaling — spending inference FLOPs to improve output quality
+- [[inference-time-compute-scaling]] — Parallel reasoning is the primary instantiation of test-time compute scaling — spending inference FLOPs to improve output quality
 - [[process-reward-model]] — PRM step-level scoring could serve as the Bradley-Terry comparator for intermediate step ranking in multi-step problems
 - [[self-correction]] — Self-correction can be applied to each candidate trace after selection, refining the top-ranked answer
 - [[multi-agent-reasoning]] — Shares the "multiple reasoning traces" intuition; difference: multi-agent uses distinct agents with distinct views while parallel reasoning uses the same model with sampling diversity

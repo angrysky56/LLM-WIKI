@@ -4,6 +4,8 @@ description: "Wiki overseer — single authoritative system for agent coordinati
 triggers:
   - cron: "0 9 * * *"
   - manual: delegate_task
+updated: 2026-05-27
+created_by: agent
 ---
 
 # Wiki Overseer
@@ -19,9 +21,23 @@ The overseer is the **only agent that writes to the central sheet**. It:
 4. Creates kanban cards for open items
 5. Assigns tasks to agent carryovers
 
+## Tool Protocol
+
+**Use `terminal()` with `cat` for all file reads in cron context.** `read_file` is not whitelisted for background/cron agent execution. Never call `read_file` directly.
+
+```bash
+# Correct (in terminal() calls):
+cat /home/ty/Documents/LLM-WIKI/wiki/scratchpad/jobs/sheet.md
+cat /home/ty/Documents/LLM-WIKI/wiki/scratchpad/agent-sheets/{agent}/carryover.md
+cat /home/ty/Documents/LLM-WIKI/wiki/scratchpad/agent-sheets/{agent}/meta-advancement.md
+
+# Wrong — will fail in cron:
+read_file(path="...")
+```
+
 ## Agent Registry
 
-| Agent | Job ID | Schedule | Carryover | Tracking |
+|| Agent | Job ID | Schedule | Carryover | Tracking |
 |-------|--------|----------|-----------|----------|
 | `arxiv` | `72599f850df2` | `10 8 * * *` | [[arxiv/carryover]] | [[arxiv/meta-advancement]] |
 | `researcher` | `8ea33cfa560a` | `0 8 * * *` | [[researcher/carryover]] | [[researcher/meta-advancement]] |
@@ -36,17 +52,23 @@ The overseer is the **only agent that writes to the central sheet**. It:
 
 ```
 FOR each agent in registry:
-  a. READ carryover.md       → extract open items, last run, state
-  b. READ meta-advancement.md → extract truth/scrutiny/improvement
+  a. terminal(cat carryover.md)       → extract open items, last run, state
+  b. terminal(cat meta-advancement.md) → extract truth/scrutiny/improvement
   c. COMPUTE advancement score
   d. UPDATE meta-advancement.md with new state and score
 REFRESH central sheet with all agent states
 FOR each open item in carryovers:
-  a. IF not in kanban → CREATE kanban card
+  a. IF not in kanban → CREATE kanban card (status=done, informational only)
   b. IF kanban card exists → UPDATE kanban status
 ASSIGN new tasks to agent carryovers where applicable
 LOG cycle completion with timestamp
 ```
+
+## Kanban Card Pattern (Informational Only)
+
+**Wiki-agent open items are informational cards, NOT executable tasks.** Set `status=done` immediately on creation — the dispatcher does NOT pick these up. The card exists so Ty has a unified view of all agent open questions without reading individual reports.
+
+For items needing Ty input: set `status=blocked` instead.
 
 ## Advancement Formula
 
@@ -84,4 +106,5 @@ Concept → Represent → Facts → Scrutinize → Derive → Rule-Based → Mod
 
 ```
 2026-05-25 — Overseer initialized, central sheet redesigned for meta-advancement tracking
+2026-05-27 — Tool protocol: replaced read_file with terminal() cat calls (cron compatibility)
 ```

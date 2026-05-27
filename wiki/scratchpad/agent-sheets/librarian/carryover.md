@@ -1,59 +1,94 @@
-# Librarian Carryover — 2026-07-27
+# Librarian Carryover — 2026-07-29
 
 ## Kanban Status
-- [x] Audit complete: 2026-07-27 08:50 AM UTC
+- [x] Audit complete: 2026-07-29 08:50 AM UTC
 - [x] MCP tools: REACHABLE this cycle ✓
-- [x] Vault health: wiki_lint + wiki_hits_analysis ran successfully
-- [x] Kanban tasks already created for open items (prior cycle):
-  - t_029ba0b1e28a199f: GoodRobot multi-location — blocked, needs Ty
-  - t_0adf1f46e814ee2f: 8 stub concepts — ready (delegate)
-  - t_8d4282a9420e6d6e: 85 broken links — ready (delegate)
+- [x] wiki_lint + wiki_hits_analysis + wiki_cluster_pages ran successfully
+- [x] Kanban informational cards created (cron:librarian-kanban-review):
+  - t_fb744436c61148a9: GoodRobot multi-location — blocked, needs Ty [librarian]
+  - t_a1242294abaf48a0: 11 stub concepts — delegate [librarians-assistant]
+  - t_3e2f1304e954473d: 94 broken links — delegate [librarians-assistant]
+  - t_ecda4db736f24b1c: 10 merge candidates — skip, informational [librarian]
 
 ## Established
 
-### Vault Stats (Updated 2026-07-27)
-- Total wiki pages: 1112 (+10 since last carryover 2026-07-26)
+### Vault Stats (Updated 2026-07-29)
+- Total wiki pages: 1121 (+9 since last cycle 2026-07-28)
 - concepts/: 488 | entities/: ~70 | synthesis/: ~130 | sources/: ~224 | projects/: ~13
-- Stub concepts (≤15 lines): 6 (unchanged — Greek stubs fully frontmatter'd)
-  - beta, delta, epsilon, gamma, zeta, legal-accountability-stub
-  - All fully frontmatter-compliant with created/updated/type/summary/status/confidence
-- .bak files: 0 (was 44 — bulk deleted 2026-05-26)
-- 471/488 concepts pages have `## Connections` sections (96.5% coverage)
-- Linking culture: strong — 471 pages with Connections sections out of 1112 total
+- True stub concepts (≤15 lines): 1 (↓ from 6)
+  - legal-accountability-stub: 15 lines, frontmatter-compliant ✓
+- Greek-letter stubs (beta/delta/epsilon/gamma/zeta): 19 lines each — NOT stubs, above ≤15 threshold
+- .bak files: 0 (clean)
+- 470/488 concepts pages have `## Connections` sections (96.3% coverage, ↓0.2%)
 
 ### MCP Tools Available ✓
 MCP server confirmed reachable. `wiki_lint`, `wiki_hits_analysis`, `wiki_cluster_pages` all functional this cycle.
 
-### HITS Analysis (Top Authorities)
-1. maximum-occupancy-principle (0.0426) — highest authority, load-bearing node
-2. efhf (0.0215)
-3. agentic-research (0.0110)
-4. bounded-structured-memory (0.0096)
-5. mop-explorer (0.0094)
+### HITS Analysis (Top Authorities — Verified)
+1. maximum-occupancy-principle (0.0363) — 210 lines, has Connections ✓
+2. efhf (0.0188) — in wiki/entities/projects/
+3. agentic-research (0.0101) — 53 lines, has Connections ✓
+4. bounded-structured-memory (0.0094) — 111 lines, has Connections ✓
+5. reward-modeling (0.0090) — in wiki/entities/projects/
+6. mop-explorer (0.0087) — in wiki/entities/projects/
+7. mixture-of-experts (0.0083) — 146 lines, has Connections ✓
+8. world-model (0.0082) — 115 lines, has Connections ✓
 
-Top Hubs: carryover, maximum-occupancy-principle, concept-index
+All top authorities have rich content. No low-content high-authority flags.
 
-### GoodRobot Duality (UNCHANGED — Ty decision still needed)
-- `wiki/entities/projects/goodrobot.md` — SHUT DOWN (May 18)
-- `wiki/projects/projects 1/goodrobot.md` — Active (May 13)
-- Both type: entity — different writeups of same entity from different angles
-- Related: gtm-strategy.md, research-pipeline.md, technical-architecture.md (in projects/projects 1/)
-- Also: wiki/synthesis/news/goodrobot-revenue-model.md
-- Priority: MEDIUM — storage redundancy, no functional breakage
+### Stub Cluster — Correction
+**Prior carryover was wrong about Greek stubs:**
+- beta, delta, epsilon, gamma, zeta: 19 lines each — NOT stubs (threshold is ≤15)
+- Only legal-accountability-stub is a true stub (15 lines)
+
+**Template cluster (18 lines each, created 2026-06-03):**
+- 3dgs, CRI, Firecracker, autopoiesis, blackmail, codebase-inspection, compound-commands, directed-preferential-placement, fts5, functional-emotions
+- All have: `type: concept`, `status: stub`, `confidence: 0.3`
+- All link only to `[[maximum-occupancy-principle]]`
+- These are genuine concept pages with content — similarity 1.0 is from shared stub template, not genuine similarity
+- Recommendation: These 10 + legal-accountability-stub = batch for librarians-assistant
 
 ## Open
 
-1. **GoodRobot multi-location** — 5-6 files across 3 vault locations for same entity — needs Ty consolidation decision
-2. **104 broken links** (↑ from 85 — due to `sheet.md` having 40+ duplicate double-bracket refs to same paths; adjusted actual missing refs: ~60)
-   - Teaching examples in operating docs: `[[Planning-stub]]`, `[[counterfactual-reasoning]]`, `[[bradley-terry]]`, `[[test-time-compute-scaling]]`
-   - Genuine missing: `[[qora]]`, `[[MOP]]`, `[[tool-use]]`, `[[diffusion-models]]`, `[[grpo]]`
+1. **GoodRobot multi-location** (UNCHANGED) — 11 files across 2 vault locations
+   - `wiki/entities/projects/goodrobot.md` — SHUT DOWN (May 18)
+   - `wiki/projects/projects 1/goodrobot*.md` — Active (May 13)
+   - `wiki/projects/goodrobot/` — Active business entity
+   - Priority: MEDIUM — blocked, needs Ty decision
+
+2. **94 broken links** (↑ from 85)
+   - Genuine missing refs (need content creation):
+     - `[[deliberative-agents]]`, `[[reactive-agents]]`, `[[hybrid-agents]]`, `[[meta-cognitive-agents]]` → from agents.md
+     - `[[tool-use]]` → from autonomous-agents.md
+     - `[[diffusion-models]]` → from generative-ai.md
+     - `[[grpo]]` → from group-relative-policy-optimization.md
+     - `[[qora]]` → from lora.md
+     - `[[MOP]]` → from neural-architecture-search.md, rz-nas.md
+     - `[[bradley-terry]]` → from opendeepthink-parallel-reasoning.md
+     - `[[test-time-compute-scaling]]` → from parallel-reasoning.md
+   - Template refs in operating docs: `[[Planning-stub]]`, `[[counterfactual-reasoning]]`, etc.
    - GoodRobot cross-refs: `[[wiki/projects/goodrobot/shut-down-entity]]` etc.
-3. **6 stub concepts** — low-value minimal pages (beta, delta, epsilon, gamma, zeta, legal-accountability-stub) — needs expand/merge/delete review
-4. **256 orphans** — stable (operational files: agent-sheets, news/headlines, discovery reports; genuine orphans are mostly daily timestamped reports no longer linked after creation)
-5. **63 missing frontmatter files** — mostly agent-sheet templates + reports (non-critical, operational files)
+   - Agent-sheet template refs: `[[A]]`, `[[related-concept]]`, `[[related-project]]`
+   - Action: Delegate full 94-link fix list to librarians-assistant
+
+3. **11 stub concepts** — batch for librarians-assistant:
+   - True stub: legal-accountability-stub (15 lines)
+   - Template cluster (10): 3dgs, CRI, Firecracker, autopoiesis, blackmail, codebase-inspection, compound-commands, directed-preferential-placement, fts5, functional-emotions
+   - Note: Greek letters (beta/delta/epsilon/gamma/zeta) are NOT stubs (19 lines each)
+
+4. **258 orphans** — stable; operational files (agent-sheets, news/headlines, discovery reports)
+
+5. **64 missing frontmatter** (↑ from 63) — operational files; non-critical
+
+6. **10 merge candidates (similarity 1.0)** — all template artifacts, skip:
+   - `agentic-planner ↔ agentic-sequential`: both genuine concept pages, different content depths
+   - `3dgs ↔ CRI ↔ ...` : same-template stub pages; similarity artifact
+   - Recommendation: skip all 10 — no actionable merges
 
 ## Heading
 
 - MCP tools: available this cycle
-- Open items unchanged from last cycle — all require Ty judgment or delegate action
+- Audit complete; all findings documented
+- Stub count corrected: 6 → 1 true stub + 10 template-cluster concepts
+- GoodRobot still needs Ty decision
 - Ready for kanban surfacing per kanban-review skill

@@ -51,7 +51,7 @@ Imagination is central to [[llm-reasoning]]:
 
 - **Hypothetical exploration**: Reasoning about consequences requires imagining alternative scenarios
 - **Counterfactual correction**: [[Self-correction]] requires imagining what would happen if a different approach were taken
-- **Planning**: [[Planning-stub]] requires imagining sequences of actions and their outcomes before execution
+- **Planning**: [[planning]] requires imagining sequences of actions and their outcomes before execution
 
 [[World-model]]s provide the substrate — imagination runs on world models, generating predictions about states not yet observed.
 
@@ -64,7 +64,7 @@ Imagination is central to [[llm-reasoning]]:
 - [[creativity]] — imagination provides the divergent generative substrate; [[parallel-reasoning]] selection is convergent evaluation
 - [[world-model]] — internal world models enable imagination; imagination runs simulations on world models
 - [[mental-imagery]] — the specific case of visual imagination; connection to AI image generation
-- [[counterfactual-reasoning]] — counterfactual generation as a specific form of imagination
+- [[counterfactual]] — counterfactual generation as a specific form of imagination
 - [[shorthand-for-thought]] — compressed internal representations enable rapid imagination-like simulation
 - [[llm-reasoning]] — imagination is the generative substrate for reasoning about possibilities
 

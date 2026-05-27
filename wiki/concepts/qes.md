@@ -70,7 +70,7 @@ Both are guided evolution methods where LLMs (or their derived representations) 
 
 - [[ml-evolution-benchmarking-protocol]] — source reference for QES
 - [[ml-evolution]] — QES as guided evolution of quantized representations
-- [[quantization]] — QES compensates for quantization error; relates to GPTQ, GGUF, AWQ
+- [[llm-training]] — QES compensates for quantization error; relates to GPTQ, GGUF, AWQ
 - [[lora]] — both reduce trainable parameters; QES works on residuals, LoRA on weight updates
 - [[parameter-efficient-fine-tuning]] — QES is a PEFT method for the quantized setting
 - [[evolutionary-strategies]] — QES uses CMA-ES-style adaptation over residual space

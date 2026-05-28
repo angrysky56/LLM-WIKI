@@ -155,3 +155,4 @@ The [[bounded-structured-memory]] architecture formalizes this with per-agent va
 - **Coordination overhead**: Every level transition adds latency and potential information loss. For simple tasks, flat is faster.
 - **Single points of failure**: If the top level fails, the whole system fails. Redundancy at each level adds complexity.
 - **Debugging difficulty**: When something goes wrong across multiple levels, diagnosing which level is responsible is non-trivial.
+- [[agentic-planner]]

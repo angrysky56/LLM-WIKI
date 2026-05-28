@@ -175,3 +175,6 @@ LLM-WIKI/
 - Concept: [[hermes-agent]]
 - Concept: [[markovian-dev-agency]]
 - Concept: [[persistent-goals-hermes-agent]]
+- [[agents]]
+- [[kanban]]
+- [[mop-architecture]]

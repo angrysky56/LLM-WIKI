@@ -91,3 +91,4 @@ Imagination is central to [[llm-reasoning]]:
 - Imagination in AI is difficult to measure — we have access to outputs but not the internal simulation process
 - The relationship between latent space geometry and imaginative capability is not well-understood
 - AI imagination is bounded by training distribution — it cannot imagine what it has never encountered in some form
+- [[agentic-planner]]

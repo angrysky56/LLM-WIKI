@@ -104,3 +104,4 @@ The [[mcp-logic]] server is particularly central: it implements EFHF Layer 3 ver
 - MCP servers are trusted components — no sandboxing by default. A malicious or buggy MCP server can compromise the AI system.
 - Server availability and latency affect AI system reliability.
 - Tool result interpretation is model-side; MCP specifies the wire format but not the semantics of tool results.
+- [[mcp]]

@@ -1,5 +1,5 @@
 ---
-updated: 2026-05-28T00:45:23Z
+updated: 2026-05-28T02:00:15Z
 type: index
 ---
 
@@ -417,7 +417,7 @@ type: index
 - [[paper-analysis]] — [STUB] Paper analysis — automated analysis of academic papers
 - [[paperclip]] — [STUB] Paperclip — AI paper analysis and reading tool (Paperclip AI)
 - [[para-methodology]] — Tiago Forte's PARA framework — actionability-based universal information organization (Projects, Areas, Resources, Archives)
-- [[para]] — [STUB] PARA — Personal Accountability and Responsibility Analysis or PARA method for PKM
+- [[para]] — PARA — actionability-based information organization framework (Projects, Areas, Resources, Archives)
 - [[parallel-reasoning]] — Reasoning architectures that execute multiple candidate reasoning traces concurrently and aggregate them — contrasting beam search, self-consistency, and OpenDeepThink's Bradley-Terry approach
 - [[parameter-efficient-fine-tuning]] — Parameter-Efficient Fine-Tuning (PEFT) — methods for adapting large models by updating only a small fraction of parameters; LoRA, QLoRA, AdaLoRA, DoRA, and related techniques
 - [[pattern-matching]] — [STUB] Pattern matching — finding patterns in text and data
@@ -464,7 +464,7 @@ type: index
 - [[redistricting]] — [STUB] Redrawing electoral district boundaries
 - [[refuser-pattern]] — Engineering persona holding deploy token authority — withholds approval until named, plausible, non-reversible harms are addressed
 - [[reinforcement-learning-from-human-feedback]] — RLHF — training AI systems using human preference feedback via reward modeling and policy optimization (PPO/DPO); core tension with MOP's entropy maximization objective
-- [[reinforcement-learning]] — [STUB] Reinforcement learning — training agents via reward signals
+- [[reinforcement-learning]] — Reinforcement learning — training agents via reward signals through environment interaction
 - [[representation-learning]] — [STUB] Representation learning — learning data representations for ML
 - [[research-agent]] — [STUB] Research agent — autonomous agent focused on conducting research
 - [[research-methodology]] — The specific procedures or techniques used to identify, select, process, and analyze information about a topic.
@@ -711,7 +711,7 @@ type: index
 - [[Meta-Meta Process for Structured Exploration]] — 
 - [[carryover-template]] — 
 - [[researcher]] — 
-- [[carryover]] — Aug 10 cycle: upgraded sovereign-ai (0.3→0.75), knowledge-management (0.3→0.75), knowledge-architecture (0.3→0.7); stub count 325→323, active 213→216
+- [[carryover]] — Aug 18 cycle: para (0.3→0.75), reinforcement-learning (0.3→0.7) promoted. Stub count 323→321.
 - [[workflow]] — 
 - [[discovery-report]] — 
 - [[gap-analysis]] — 
@@ -755,6 +755,7 @@ type: index
 - [[audit-2026-07-15]] — 
 - [[audit-2026-07-21]] — 
 - [[audit-2026-07-26]] — 
+- [[audit-2026-08-12]] — 
 - [[batch-progress]] — Batch progress — no self-remediable items; vault structurally healthy
 - [[carryover]] — 
 - [[librarian-2026-05-19-missing-agent-sheet]] — Librarian missing agent sheet report
@@ -795,10 +796,12 @@ type: index
 - [[discovery-2026-08-05]] — 
 - [[discovery-2026-08-08]] — Discovery report — Aug 8 cycle: upgraded model-editing and activation-engineering stubs to active status
 - [[discovery-2026-08-10]] — Discovery report — Aug 10 cycle: upgraded sovereign-ai (0.3→0.75), knowledge-management (0.3→0.75), knowledge-architecture (0.3→0.7); stub count 325, active 213
+- [[discovery-2026-08-18]] — 
 - [[google-deepmind-vatican-encyclical-response-may-2026]] — No Google DeepMind response to Magnifica humanitas encyclical found; compiled monitoring report
 - [[microsoft-vatican-encyclical-response-may-2026]] — No Microsoft response to Magnifica humanitas encyclical found; compiled monitoring report
 - [[sheet]] — t_ff1740de complete: no Microsoft response found to Magnifica humanitas encyclical
 - [[agem-ooe]] — 
+- [[anthropic-chris-olah-magnifica-humanitas-may-2026]] — Chris Olah (Anthropic co-founder) remarks on Magnifica Humanitas encyclical
 - [[brocas-area-gemini-chat]] — Source summary for Gemini chat on Broca's area and LLM analogies.
 - [[choosing-right-agentic-design-pattern]] — 
 - [[critical-review-scientific-article-guide]] — A structured guide for analyzing and critically reviewing scientific journal articles, focusing on research methods, context, and significance.
@@ -821,9 +824,15 @@ type: index
 - [[language-evolution]] — Review of language evolution statistics and AI communication frontiers.
 - [[llm-kernel-optimization]] — Technical deep-dive on AlphaEvolve/OpenEvolve for GPU kernel optimization — LLM ensemble + diff-based mutation + real hardware eval; 23% GEMM speedup; Gemini optimizing its own training; tensor decomposition as game-playing; connects to MGA framework as engineering instantiation
 - [[llm-wiki-pattern]] — Karpathy's pattern for LLM-maintained persistent Markdown knowledge bases
+- [[magnifica-humanitas-wikipedia-may-2026]] — Wikipedia: Magnifica Humanitas encyclical by Pope Leo XIV, AI ethics
 - [[menin-d-serine-hypothalamus-anti-aging]] — Menin protein decline in hypothalamus drives aging; D-serine supplementation reverses cognitive decline but not physical aging
+- [[microsoft-ai-blog-may-2026]] — Microsoft AI blog: accessibility, aged care, dairy, manufacturing, motorsport AI cases
+- [[microsoft-search-magnifica-humanitas-may-2026]] — Microsoft.com search for Magnifica humanitas via Bing Copilot
 - [[ml-evolution-benchmarking-protocol]] — Systematic review of guided vs unconstrained LLM architecture evolution.
 - [[momoa-researcher]] — Google Labs agentic research scientist using Mixture of Mixture of Agents
+- [[news-google-microsoft-pope-leo-ai-encyclical-may-2026]] — News.google.com: Microsoft response to Pope Leo XIV AI encyclical
+- [[news-microsoft-com-may-2026]] — News.microsoft.com: AI impact, OpenAI partnership, sovereign cloud, frontier firms
+- [[openai-pope-leo-magnifica-humanitas-may-2026]] — Bing search: OpenAI response to Magnifica Humanitas encyclical
 - [[pope-leo-ai-encyclical-magnifica-humanitas-may-2026]] — First papal AI encyclical demands global AI disarmament treaties — tracked for government/company responses and Vatican diplomatic follow-through
 - [[prd-ralph-loop-mop-gemini]] — Gemini conversation connecting PRD-driven Ralph Loops with MOP and Theory of Mind for autonomous scientific research — epistemic energy as the critical constraint
 - [[shorthand-for-thought]] — Research on compressing LLM Chain-of-Thought (CoT) reasoning by merging low-entropy structural phrases into "supertokens.
@@ -843,10 +852,13 @@ type: index
 - [[delegation-parallel-work]] — 
 - [[event-hooks-hermes-agent]] — 
 - [[github-actions-troubleshooting]] — GitHub Actions CI Troubleshooting guide summary.
+- [[hermes-agent-documentation]] — Hermes Agent docs: install, skills, MCP, profiles, cron, delegation, kanban
+- [[hermes-agent-faq-troubleshooting]] — Hermes Agent FAQ: providers, WSL2, Termux, OAuth, troubleshooting
 - [[hermes-mcp-integration]] — Hermes Agent MCP integration: consuming external tools, acting as an MCP server for messaging, per-server filtering, sampling, dynamic discovery
 - [[hermes-path-forward]] — 3-phase roadmap for Hermes Agent observability: EventBus + StateManager, Memory Taxonomy, Self-Healing
 - [[isabelle-installation]] — 
 - [[kanban-multi-agent-board-hermes-agent]] — Durable SQLite-backed task board for coordinating multiple Hermes profiles — dispatchers spawn workers with kanban_* tools, CLI for humans/automation
+- [[mcp-model-context-protocol-hermes]] — MCP docs: stdio/HTTP servers, tool discovery, per-server filtering
 - [[obsidian-cli-skill]] — kepano's Obsidian CLI agent skill — command reference for reading, writing, searching, and managing Obsidian vaults from the terminal
 - [[obsidian-git-setup]] — Setup guide for the Obsidian Git community plugin (desktop and mobile)
 - [[obsidian-para-byarbrough]] — byarbrough's Obsidian PARA template — Tiago Forte's 4-category knowledge organization system implemented in Obsidian
@@ -1024,8 +1036,10 @@ type: index
 - [[codegraph]] — Local code knowledge graph for Claude Code/Codex/Cursor — 35% cheaper, 70% fewer tool calls, 100% local
 - [[gbrain]] — GBrain — personal/company knowledge brain with graph-extracted entity edges, synthesis layer, and 24/7 dream cycle. 146K+ pages, P@5 49.1%, R@5 97.9%. Bun/PGLite, MCP server for agent integration.
 - [[get-shit-done]] — 
+- [[github-hermes-agent-lcm-slash-commands-search]] — GitHub search: Hermes Agent LCM plugin slash commands
 - [[googlecolab-colab-mcp]] — MCP server bridging local AI agents to Google Colab browser sessions via uvx
 - [[graphify-ai-coding-assistant-skill]] — 
+- [[hermes-agent-github-labels]] — NousResearch/hermes-agent GitHub labels system — 70+ labels
 - [[mcp-logic]] — Source summary for mcp-logic.
 - [[nexus]] — Source summary for NEXUS.
 - [[openclaw]] — 

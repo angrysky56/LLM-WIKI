@@ -142,3 +142,4 @@ Biological and some AI systems implement hierarchical predictive coding: each la
 3. **World model updating vs. hallucination**: When the world model diverges from reality, how do you distinguish "the model needs updating" from "the agent is hallucinating"? EDM's Δ spike detects divergence but doesn't diagnose the cause.
 
 4. **Composable world models**: Can agents share world models? If two agents have different world models of the same environment, what's the categorical structure for composing their predictions?
+- [[agentic-planner]]

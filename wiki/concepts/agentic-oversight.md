@@ -79,8 +79,7 @@ Where agentic-hierarchy is about coordination structure, agentic-oversight is ab
 - Concept: [[ai-security]]
 - Concept: [[engineering-internal-awareness]]
 - Concept: [[institutional-capture]]
-
-
+- [[weil-gate]]
 ## Open Questions
 
 1. **Checkpoint frequency vs. disruption**: More frequent checkpoints provide better oversight but disrupt agentic workflow. How do you find the right balance? Is there a principled way to set checkpoint frequency based on risk?

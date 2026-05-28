@@ -16,34 +16,34 @@ confidence: 0.3
 ## Connections
 
 - [[maximum-occupancy-principle]]- [[concepts/absence-of-worst-case-metric]]- [[concepts/academic-peer-review]]- [[entities/projects/alphaevolve]]- [[entities/people/andrej-karpathy]]- [[concepts/aphantasia]]- [[concepts/arcuate-fasciculus]]- [[concepts/brocas-area]]- [[concepts/critical-analysis]]- [[concepts/cryptographic-vs-semantic-alignment]]- [[concepts/design-thinking]]- [[concepts/edm-framework]]- [[concepts/frame-transmission]]- [[concepts/graphrag]]- [[concepts/hidden-states]]- [[concepts/hyperphantasia]]- [[concepts/institutional-capture-vs-species-framing]]- [[concepts/memex]]- [[concepts/myelination]]- [[entities/tools/neo4j]]- [[entities/tools/obsidian]]- [[entities/tools/obsidian-skills-repo]]- [[concepts/para-methodology]]- [[concepts/persistent-knowledge-compilation]]- [[entities/projects/project-synapse]]- [[concepts/rag]]- [[concepts/reward-modeling]]- [[concepts/scientific-writing]]- [[concepts/spin-vs-substrate]]- [[concepts/spontaneous-activity-reshaping-hypothesis]]- [[concepts/wernickes-area]]- [[entities/projects/zettelkasten-engine]]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+- [[frame-transmission]]
+- [[spontaneous-activity-reshaping-hypothesis]]
+- [[neo4j]]
+- [[alphaevolve]]
+- [[rag]]
+- [[scientific-writing]]
+- [[institutional-capture-vs-species-framing]]
+- [[spin-vs-substrate]]
+- [[brocas-area]]
+- [[design-thinking]]
+- [[persistent-knowledge-compilation]]
+- [[para-methodology]]
+- [[arcuate-fasciculus]]
+- [[critical-analysis]]
+- [[hidden-states]]
+- [[cryptographic-vs-semantic-alignment]]
+- [[wernickes-area]]
+- [[hyperphantasia]]
+- [[memex]]
+- [[obsidian]]
+- [[aphantasia]]
+- [[edm-framework]]
+- [[graphrag]]
+- [[absence-of-worst-case-metric]]
+- [[obsidian-skills-repo]]
+- [[reward-modeling]]
+- [[andrej-karpathy]]
+- [[project-synapse]]
+- [[academic-peer-review]]
+- [[zettelkasten-engine]]
+- [[myelination]]

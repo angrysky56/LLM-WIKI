@@ -82,7 +82,13 @@ This connects agentic planning to [[world-model]] and [[imagination]] (latent sp
 - [[multi-agent-llm-systems]]: distributed planning across agents
 - [[imagination]]: internal simulation for plan outcome prediction
 - [[autonomous-agents]]: agentic planning is the core cognitive function that enables autonomous agents to decompose goals and execute multi-step plans
-
+- [[agent-architectures]]
+- [[hybrid-agents]]
+- [[agentic-design-picker]]
+- [[aseke-framework]]
+- [[autonomous-ai-agents]]
+- [[deliberative-agents]]
+- [[counterfactual]]
 ## Open Questions
 
 1. **Planning depth vs reliability**: How does planning depth (number of decomposition levels) affect plan reliability? Is there a sweet spot where deep decomposition produces more reliable execution without excessive planning overhead?
@@ -90,3 +96,4 @@ This connects agentic planning to [[world-model]] and [[imagination]] (latent sp
 2. **Planning vs reactivity**: When is explicit planning better than reactive response? Is there a clear threshold (task complexity, time budget, stakes) that determines which approach wins?
 
 3. **Planning failure signatures**: Can we detect planning failures before they cascade? Are there early warning signals (repeated replanning, growing plan uncertainty) that predict plan failure?
+- [[agents]]

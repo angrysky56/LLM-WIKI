@@ -100,7 +100,23 @@ The three-layer model here maps directly to MOP:
 - [[hermes-agent]]: the agent using this memory architecture
 - [[cognitive-architecture]]: the cognitive science foundation (episodic/semantic/procedural memory division is well-established in psychology)
 - [[autonomous-agents]]: autonomous agents depend on bounded structured memory for session-level continuity and cross-session persistence
-
+- [[subagent-delegation]]
+- [[agent-architectures]]
+- [[markovian-dev-agency]]
+- [[kanban]]
+- [[continual-learning]]
+- [[knowledge-management]]
+- [[namm]]
+- [[agentic-oversight]]
+- [[knowledge-architecture-stub]]
+- [[persistent-goals-hermes-agent]]
+- [[betteti-baggio-bullo-zampieri-idp-hopfield-2025]]
+- [[autonomous-ai-agents]]
+- [[meta-cognitive-agents]]
+- [[catastrophic-forgetting]]
+- [[schema-competition]]
+- [[agentic-hierarchy]]
+- [[bounded-rationality]]
 ## Open Questions
 
 1. **Optimal budget allocation**: How should total memory budget be distributed across layers? Is there a principled method for determining Layer 2 budget size?
@@ -110,3 +126,5 @@ The three-layer model here maps directly to MOP:
 3. **Cross-layer consistency**: When Layer 1 is evicted to Layer 2, how do we ensure Layer 2 remains consistent? Can stale Layer 2 entries cause downstream errors?
 
 4. **Procedural memory updates**: When should Layer 3 (procedural) be updated? Currently it's append-only for skills — but skills can become obsolete. Is there a skill depreciation mechanism?
+- [[agents]]
+- [[delegation]]

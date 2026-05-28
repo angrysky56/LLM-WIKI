@@ -1,74 +1,64 @@
 ---
 created: 2026-05-27
-updated: 2026-08-10T06:00:00Z
+updated: 2026-08-24T06:00:00Z
 type: carryover
-summary: 2 reciprocal links added; self-answered 8 non-reciprocal links; 594 reciprocal links still pending batch; gbrain and GoodRobot blockers unchanged
-tags: [librarians-assistant, carryover, batch-remediation]
+summary: GAAC phantom pages confirmed — all flagged missing links reference deleted/moved pages (.trash/); no remediation possible; carryover blockers unchanged
+tags: [librarians-assistant, carryover, batch-remediation, gaac-phantom]
 ---
 
-# Librarians-Assistant Carryover — 2026-08-10
+# Librarians-Assistant Carryover — 2026-08-24
 
 ## Established
 
-### This Cycle — Reciprocal Link Fixes (2 items)
-
-**Added reciprocal links:**
-1. `agent-onboarding.md` → `[[entities/projects/project-synapse]]` — reciprocal confirmed: `project-synapse.md` already had `agent-onboarding` in Connections ✓
-2. `zettelkasten.md` → `[[concepts/knowledge-management]]` — reciprocal confirmed: `knowledge-management.md` already had `zettelkasten` in tags + Connections ✓
-
-### Self-Answered (8 non-reciprocal links — pages already linked reciprocally)
-All 8 non-reciprocal pairs from librarian carryover verified already reciprocal:
-- `autonomous-agents.md` ↔ `bounded-structured-memory.md` ✓
-- `autonomous-agents.md` ↔ `markovian-carryover.md` ✓
-- `autonomous-agents.md` ↔ `agentic-oversight.md` ✓
-- `autonomous-agents.md` ↔ `reinforcement-learning.md` ✓
-- `autonomous-agents.md` ↔ `llm-agents.md` ✓
-- `maximum-occupancy-principle.md` ↔ `edm-framework.md` ✓
-- `maximum-occupancy-principle.md` ↔ `load-bearing-reasoning.md` ✓
-- `load-bearing-reasoning.md` ↔ `edm-framework.md` ✓
+### This Cycle — GAAC Phantom Page Analysis
+- GAAC clustering run against 1193-page vault (deep index refresh)
+- All "Missing link" warnings reference pages that don't exist: `meta-advancement`, `discrete-time-to-event-modeling`, `solo-preneur`, `Meta-Meta Process for Structured Exploration`
+- Confirmed via filesystem search: `meta-advancement*` files exist only in `.trash/`, `solo-preneur.md` only in `Clippings/`, `discrete-time-to-event-modeling.md` only in `Clippings/`
+- **No valid GAAC-driven reciprocal link fixes possible this cycle** — the flagged pairs are ghost entries
 
 ### Prior Cycle (2026-08-10 morning)
-- 8 broken links fixed (3 pages created + 5 verified correct)
-- 131 broken links detected — majority are operational files
+- 2 reciprocal links added: agent-onboarding → project-synapse, zettelkasten → knowledge-management
+- 8 non-reciprocal pairs self-answered (already reciprocal)
+- 131 broken links detected — majority operational files
+
+### Prior Cycle (2026-08-23 librarian)
+- 276 → 43 orphans — massive reduction; all 43 remaining are operational files
+- One broken link fixed: parallel-reasoning.md `[[test-time-compute-scaling]]` → `[[inference-time-compute-scaling]]`
+- Kanban board clean: 0 open tasks
 
 ## Open Items
 
-### Batch Remediation (Prioritized)
+### Batch Remediation (GAAC phantom — no valid targets)
 | Item | Count | Status |
 |------|-------|--------|
-| Non-reciprocal links | 594 | Pending batch — GAAC-driven |
-| Orphans (non-operational) | ~50-70 | Pending batch classification |
-| Missing frontmatter (operational) | 74 | Low priority batch |
+| GAAC "missing links" | All phantom | No valid targets — pages deleted/moved |
+| Non-reciprocal links | Unknown stale count | Librarian: kanban board clean (0 tasks) |
+| Orphans (non-operational) | ~43 | All operational; no content orphans |
+| Missing frontmatter | ~74 | Operational files; low priority |
 
-### Blockers — Ty Decisions Needed
+### Blockers — Ty Decisions Needed (unchanged)
 1. **GoodRobot multi-location**: 11 files across 2 vault paths — canonical location undecided (since Jul 29)
 2. **gbrain.md → [[synthesis-layer]]**: Intent check — does "synthesis-layer" refer to LLM-WIKI synthesis concept or existing concept like `zettelkasten-engine`?
 
-### Merge Candidate
-- **agentic-planner ↔ agentic-reflection ↔ agentic-sequential**: Similarity 1.0 per GAAC — flagged to librarian
+### Merge Candidate (flagged to librarian)
+- **agentic-planner ↔ agentic-reflection ↔ agentic-sequential**: Similarity 1.0 per GAAC — librarian noted these serve distinct purposes; not a merge urgency
 
 ## Kanban Status
 
 ### Open Tasks (informational cards)
-| Task ID | Title | Status | Notes |
-|---------|-------|--------|-------|
-| t_e366f0899e1f4b16 | 276 orphans — batch identify non-operational | ready | librarians-assistant |
-| t_c5205b4684fa4374 | 74 missing frontmatter — batch fix | ready | librarians-assistant |
-| t_eac64c085f424ab7 | 594 non-reciprocal links — batch close gaps | ready | librarians-assistant |
-| t_f0fcb3dcd69d49b2 | Merge: agentic-planner/reflection/sequential | ready | librarians-assistant |
-| t_3db5c4c13bcf46ad | GoodRobot duality — canonical location (Ty needed) | ready | librarians-assistant |
-| t_5a542d34e153492b | gbrain → synthesis-layer intent (Ty needed) | ready | librarians-assistant |
+| Task ID | Title | Status |
+|---------|-------|--------|
+| t_d2e96a23a3724c89 | GoodRobot duality — canonical location (Ty needed) | blocked |
+| t_33915b0d9ad14512 | gbrain → synthesis-layer intent (Ty needed) | blocked |
 
 ### Resolved This Cycle
-- [x] agent-onboarding.md → project-synapse — reciprocal confirmed, link added
-- [x] zettelkasten.md → knowledge-management — reciprocal confirmed, link added
-- [x] 8 non-reciprocal pairs — self-answered: all already reciprocal
+- [x] GAAC phantom page analysis — confirmed all "missing link" pairs reference deleted pages
+- [x] 1193-page deep index refresh completed
 
 ## Heading
 
-- 2 reciprocal links added this cycle
-- 8 non-reciprocal pairs self-answered (already reciprocal) — no action needed
-- 594 non-reciprocal links batch still pending — GAAC-prioritized
-- GoodRobot + gbrain synthesis-layer still need Ty input
-- Merge candidate (agentic-planner/reflection/sequential) flagged for librarian
-- Next run: continue batch reciprocal link remediation from batch-progress.md
+- GAAC produced no actionable remediation targets this cycle (phantom pages)
+- Carryover blockers (GoodRobot, gbrain synthesis-layer) remain unresolved — need Ty input
+- Batch progress: batch-progress.md not created (no fixes applied this cycle)
+- Librarian noted kanban board is clean — 594 non-reciprocal count appears stale
+- Next run: re-run GAAC or wait for librarian's next audit with fresh HITS/clustering

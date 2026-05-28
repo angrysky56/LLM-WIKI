@@ -1,37 +1,28 @@
 ---
+summary: [ARCHIVED] Duplicate — use transformers.md (0.78). No substantive content.
+tags: [llm, nlp, stubs, archived]
+updated: 2026-05-28T14:05:15Z
+---
+
+---
 created: 2026-05-25
-updated: 2026-05-25
+updated: 2026-08-19
 type: concept
-summary: "[STUB] Large language models — GPT, BERT, and similar transformer-based language models"
-tags: [llm, nlp, stubs]
+summary: "[ARCHIVED] Duplicate — use transformers.md. Central concept page is [[transformers]] (0.78). This stub had no substantive content."
+tags: [llm, nlp, stubs, archived]
 sources: []
-status: stub
+status: archived
 confidence: 0.3
 ---
 
 # Large Language Models
 
-*Stub page — needs real content*
+*Archived — duplicate. Use [[transformers]].*
+
+## Status
+
+This stub was a bare placeholder with no substantive content. The transformer architecture page (`[[transformers]]`, confidence 0.78) is the canonical reference for LLMs. Specific LLM types (GPT, BERT, T5) are best referenced via their respective pages or the `mixture-of-experts` page for sparse models.
 
 ## Connections
-- [[concepts/transformers]]
-- [[concepts/multimodal-llm]]
-- [[concepts/llm-nlp]]
-- [[concepts/llm-vision]]
-- [[concepts/llm]]
-- [[concepts/language-models]]
-- [[concepts/llm-optimization]]
-- [[index]]
-- [[concepts/large-language-models]]
-- [[log]]
-- [[sources/papers/deltadirect-directional-motion-blindness-video-llms-2026]]
-- [[large-language-models]]
 
 - [[transformers]]
-- [[natural-language-processing]]
-- [[llm-vision]]
-- [[llm]]
-- [[llm-optimization]]
-- [[multimodal-llm]]
-- [[llm-nlp]]
-- [[language-models]]

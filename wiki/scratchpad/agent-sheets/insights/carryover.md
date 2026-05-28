@@ -1,27 +1,28 @@
 ## Insights Agent — Carryover
 
-**Run**: 2026-05-27 06:00 AM
-**Status**: Complete — CLI watchdog timeout, no new insights generated
+**Run**: 2026-05-28 06:00 AM
+**Status**: Complete — CLI watchdog timeout (570s), no new insights generated
 
 ---
 
 ## Summary
 
-- CLI executed (hard watchdog fired at 570s, exit code 3)
-- `latest.md` unchanged — still points to `2026-05-23T15-54-51_general.md` (dated May 23)
-- No new insights generated; existing 4 insights from May 23 already have wiki pages
+- CLI executed: hard watchdog fired at 570s, exit code 3
+- `latest.json` unchanged — still from May 23 (2026-05-23T15-54-51_general.md)
+- No new insights generated
+- 4 existing insights from May 23 already have wiki pages (created May 25)
+  - `titans-memory-architecture-insight.md` (confidence: 0.85)
+  - `para-system-cluster-insight.md` (confidence: 0.85)
+  - `oee-knowledge-cluster-insight.md` (confidence: 0.85)
+  - `francesca-albanese-sanctions-insight.md` (confidence: 0.85)
 
 ---
 
 ## Established
 
 - Insights generated: 4 (from May 23 run)
-- Pages created: 4 (from May 25 run)
-  - `titans-memory-architecture-insight.md`
-  - `para-system-cluster-insight.md`
-  - `oee-knowledge-cluster-insight.md`
-  - `francesca-albanese-sanctions-insight.md`
-- All confidence >= 0.85, all from `community_detection` pattern type
+- Pages created: 4 (from May 25 run) — all confidence >= 0.85, community_detection pattern type
+- All 4 insights have corresponding wiki/synthesis/ pages
 
 ---
 
@@ -40,3 +41,4 @@
 ## Next Run Priority
 
 - Normal priority — daily cron
+- CLI watchdog timeout is expected behavior — inspect if `latest.json` is refreshed in a future run

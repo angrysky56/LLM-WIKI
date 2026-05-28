@@ -1,19 +1,20 @@
 ---
 created: 2026-05-26
-updated: 2026-08-18
+updated: 2026-08-19
 type: carryover
-summary: "Aug 18 cycle: para (0.3→0.75), reinforcement-learning (0.3→0.7) promoted. Stub count 323→321."
+summary: "Aug 19 cycle: transformers (0.3→0.78), recursive-transformers (0.3→0.65) promoted. 2 stubs archived (large-language-models, neural-networks). Stub count 321→299."
 tags: [researcher, carryover]
 ---
 
 ## CarryoverState
 
 ### Established
-- **[[para]]** promoted: Aug 18 — full PARA framework write-up; four buckets (Projects/Areas/Resources/Archives); actionability principle; archive entropy pattern; relationship to Zettelkasten and knowledge-management; workspace vault mappings; three open questions on AI agent memory, sub-categorization, and Clippings/ archive mapping.
-- **[[reinforcement-learning]]** promoted: Aug 18 — full RL write-up; MDP formalization; key algorithms (Q-learning/DQN, PPO/TRPO/REINFORCE, world models/MCTS); RL in LLM context (RLHF, test-time scaling, process rewards); linked to [[mop-next-token-prediction]] as entropy alternative; three open questions on MoE compatibility, process vs outcome reward accuracy, credit assignment latencies.
-- **[[sovereign-ai]]** promoted: Aug 10 — three dimensions (compute/model/governance sovereignty), no nation has achieved full sovereign AI, Vatican paradox, three open questions
-- **[[knowledge-management]]** promoted: Aug 10 — KM discipline vs PARA vs Zettelkasten; graph-based KM; org vs PKM
-- **[[knowledge-architecture]]** (entity) promoted: Aug 10 — structural design decisions at system level
+- **[[transformers]]** promoted: Aug 19 — full architecture write-up; scaled dot-product attention; encoder/decoder/encoder-decoder taxonomy; positional encodings (RoPE dominant); FFN and MoE relationship; Chinchilla scaling context; load-bearing-reasoning, chain-of-thought, inference-time-compute-scaling as connected concepts
+- **[[recursive-transformers]]** promoted: Aug 19 — RWKV linearized recurrence; RNN-transformer hybrids; distinction from general recursive-neural-networks; mixture-of-recursions as conceptual parent; state-space-models and titans as related memory approaches; 3 open questions
+- **[[para]]** promoted: Aug 18 — full PARA framework; four buckets; actionability principle; archive entropy pattern
+- **[[reinforcement-learning]]** promoted: Aug 18 — MDP formalization; key algorithms; RL in LLM context (RLHF, test-time scaling, process rewards)
+- **[[sovereign-ai]]** promoted: Aug 10 — three dimensions, Vatican paradox
+- **[[knowledge-management]]** promoted: Aug 10 — KM discipline vs PARA vs Zettelkasten
 - **[[qora]]** created: May 26 — QLoRA standalone page: NF4 format, two-stage design
 - **[[parameter-efficient-fine-tuning]]** updated: added cross-link to qora page
 - **[[lora]]** promoted: May 26 — rank-decomposition W=W₀+BA
@@ -28,23 +29,29 @@ tags: [researcher, carryover]
 - **[[model-editing]]** upgraded: Aug 8 — stub → active (0.75)
 - **[[activation-engineering]]** upgraded: Aug 8 — stub → active (0.75)
 
+### Archived
+- **[[large-language-models]]**: Had no substantive content; transformers.md (0.78) is canonical
+- **[[neural-networks]]**: Bare placeholder; covered by transformers + deep-learning stubs
+
 ### Kanban Status
 - [x] Surfaced to hermes kanban: 2026-08-10
   - Schema competition: t_7c84f292915e48b8 (blocked, researcher) — RESOLVED
   - MOP vs fine-tuning boundary: t_b1e3b062cbc54e42 (ready, researcher) → informational: t_eadf9f044a884498
   - agentic-react concept gap: informational card created (coverage adequate via skill) → t_866084aa0272407a
   - Note: 2026-08-18 — schema competition RESOLVED; para and RL now actively linked
+  - Note: 2026-08-19 — transformers and recursive-transformers promoted; RLHF verified solid at 0.85
 
 ### Open
-- **RLHF page status**: reinforcement-learning-from-human-feedback.md — verify current status (carryover Jul 15 said "promoted" but wiki search may show differently)
-- **note-taking-systems stub**: dead-end placeholder at 0.3, covered by knowledge-management — mark archived
-- **planning stub** (0.3): covered by reinforcement-learning page (MCTS/PPO algorithms cover strategic planning); assess whether standalone page is warranted
-- **Stub count**: 321 (was 323). Two promotions today: para, reinforcement-learning. No new stubs created.
+- **RLHF page status**: Verified solid at 0.85 — no action needed
+- **`deep-learning.md` (stub)**: Still bare but transformers.md now covers modern neural network landscape. Assess standalone warrant
+- **`recursive-neural-networks.md` (stub)**: Referenced by recursive-transformers. Could upgrade if time allows
+- **`llm.md` (stub)**: Ultra-thin, mostly absorbed by transformers. Consider archiving
+- **Stub count**: 299 (down from 321). Remaining stubs are mostly peripheral non-AI topics or stubs requiring specialized knowledge to upgrade
 
 ### Heading
-- **[Intent]** Next cycle: verify RLHF page status, archive note-taking-systems stub, assess planning stub. Then potentially jump to high-authority stub upgrades (load-bearing-reasoning cluster).
-- **[Constraint]** Stub count 321/213 active. Core clusters (PEFT, NAS, bounded-rationality, RLHF, knowledge-management) now complete. Remaining stubs are mostly: (a) covered by existing active pages, (b) peripheral non-AI topics, or (c) dead-end placeholders.
-- **[Note]** PARA duplicate stub (para-meta-circular) removed; para-methodology (0.7) is the canonical page. RL cluster now properly connected via reinforcement-learning → reward-modeling → RLHF chain.
+- **[Intent]** Next cycle: scan for high-authority stubs I haven't checked yet (hermes-meta-cognition at 0.3, llm-optimization, titans-test-time-memory). Also assess deep-learning and recursive-neural-networks stubs.
+- **[Constraint]** Stub count 299/1189 pages (~25%). Remaining stubs are a mix of: (a) genuinely peripheral topics, (b) stubs that need specialized domain knowledge, (c) dead-end placeholders. The high-value AI/ML gaps are mostly filled.
+- **[Note]** transformers.md now anchors the AI architecture cluster: bounded-rationality → transformers → mixture-of-experts → reinforcement-learning → RLHF → reward-modeling chain is coherent and well-linked.
 
 ## Last Run
-2026-08-18 08:10
+2026-08-19 08:10

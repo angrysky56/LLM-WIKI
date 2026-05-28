@@ -1,8 +1,8 @@
 ---
 created: 2026-05-26T00:00:00Z
-updated: 2026-05-27T14:45:00Z
+updated: 2026-05-28T08:00:00Z
 type: report
-summary: "arxiv agent carryover — 2026-05-27 batch: MATCHA (evaluation metrics), FinHarness (inline agent safety), Interaction SSD (annotation moderation) — evaluation infrastructure & instance-level signal decomposition theme"
+summary: "arxiv agent carryover — 2026-05-28 batch: CCO (scalable oversight via conformal decision theory), Gamma-World (multi-agent world models with permutation symmetry), BES (bidirectional evolutionary search for self-improving LLMs) — constraint satisfaction under distribution shift theme"
 tags: [arxiv, carryover]
 status: active
 confidence: high
@@ -12,7 +12,7 @@ confidence: high
 
 ## Run History
 
-|||||| Date | Result | Notes ||
+||||||| Date | Result | Notes |||
 |------|--------|-------|-------|
 | 2026-05-18 | 3 papers ingested | EnvFactory, SD-Search, LMAC — credit assignment theme ||
 | 2026-05-20 | No new papers | arXiv late-UTC batch not yet posted ||
@@ -22,53 +22,47 @@ confidence: high
 | 2026-05-26 | 3 papers ingested | Shannon Scaling Law, SkillOpt, SkillLens — bounded representation capacity ||
 | 2026-05-26 (new) | 3 papers ingested | StepOPSD, AKBE, PRISM — instance-level behavioral decomposition ||
 | **2026-05-27** | **3 papers ingested** | **MATCHA, FinHarness, Interaction SSD — evaluation infrastructure & instance-level signal decomposition** ||
-| 2026-05-27 (additional) | 6 papers processed | Real Images, Chartographer, Demographic Info + top 3 |  |
+| 2026-05-27 (additional) | 6 papers processed | Real Images, Chartographer, Demographic Info + top 3 ||
+| **2026-05-28** | **3 papers ingested** | **CCO, Gamma-World, BES — constraint satisfaction under distribution shift** ||
 
 ## Current State
 
-- **arXiv**: 2026-05-27 batch fully processed — 3 papers ingested, 6 papers examined
-- **arXiv API**: Hit rate limit on API queries; worked around by using wiki_fetch_url on arxiv.org/abs/ pages + PDF extraction via PyMuPDF
-- **Wiki paper inventory**: ~339 pages (added matcha, finharness, semantic-gradients-interactions-ssd)
-- **Note**: arXiv API remains heavily rate-limited; wiki_fetch_url workaround effective but slower
+- **arXiv**: 2026-05-28 batch fully processed — 3 papers ingested (CCO, Gamma-World, BES)
+- **Wiki paper inventory**: ~342 pages (added calibrating-conservatism-scalable-oversight-2026, gamma-world-multi-agent-world-modeling-2026, bidirectional-evolutionary-search-bes-2026)
+- **arXiv API**: Working normally; no rate limit issues this cycle
 
-## Papers Ingested (2026-05-27 batch)
+## Papers Ingested (2026-05-28 batch)
 
-|||||| Paper | arXiv ID | Key Finding | Wiki Connection ||
+||||||| Paper | arXiv ID | Key Finding | Wiki Connection ||
 |-------|----------|-------------|------------------|
-| MATCHA | 2605.27345 | Dual-view contrastive metric: rewards proximity to gold text + penalizes counterfactual contradiction distance; +18.38% over ROUGE-L, +20.82% over BERTScore on TruthfulQA | Connects to [[llm-evaluation]], [[bert-score]], [[semantic-similarity]], [[contradiction-detection]] |
-| FinHarness | 2605.27333 | Inline safety harness: Query Monitor + Tool Monitor + Cascade Module; ASR 38.3% → 15.0%, 4.7× fewer advanced-judge calls | Connects to [[llm-agents]], [[inline-monitoring]], [[agentic-safety]], [[cascade-routing]] |
-| Interaction SSD | 2605.27322 | Extends supervised semantic differential with interaction term for moderation analysis; annotator racial identity moderates hate-speech judgment semantics | Connects to [[semantic-differential]], [[annotation-bias]], [[moderation-analysis]] |
+| CCO | 2605.28807 | Conformal Decision Theory calibrates conservatism penalty for agentic oversight; finite-time guarantees on undesirable outcome rate without distributional assumptions | Connects to [[scalable-oversight]], [[conformal-decision-theory]], [[agentic-safety]], [[behavioral-credibility-trilemma]] |
+| Gamma-World | 2605.28816 | Multi-agent video world model with permutation-symmetric Simplex Rotary Agent Encoding + Sparse Hub Attention (linear cost); generalizes 2→4 players without retraining | Connects to [[world-models]], [[permutation-symmetry]], [[multi-agent-simulation]], [[sparse-attention]] |
+| BES | 2605.28814 | Bidirectional Evolutionary Search: evolution operators escape entropy shell of expansion-only search; backward decomposition provides dense sub-goal verification signal | Connects to [[evolutionary-search]], [[self-improvement]], [[test-time-scaling]], [[alphaevolve]] |
 
-## Cross-Paper Theme: Evaluation Infrastructure & Instance-Level Signal Decomposition
+## Cross-Paper Theme: Constraint Satisfaction Under Distribution Shift
 
-**The unifying finding**: All papers deal with evaluation infrastructure — whether for LLMs (metrics, safety harnesses) or annotation methodology (moderation effects). Instance-level decomposition of signals continues as the dominant pattern.
+**The unifying finding**: All three papers address agents operating under constraints where naive optimization fails — either because the agent's distribution doesn't contain good solutions (BES), because the agent may be misaligned (CCO), or because multiple agents must maintain consistency without centralized coordination (Gamma-World).
 
-| System | Decomposition Unit | Signal | Key Mechanism |
-|--------|-------------------|--------|---------------|
-| MATCHA | Evaluation instance (correct vs incorrect) | Contrastive signal | Dual-view: proximity + counterfactual distance |
-| FinHarness | Trajectory step (per-step risk cumulant) | Inline safety evidence | Cascade routing with bounded recall |
-| Interaction SSD | Semantic gradient (moderated) | Interaction term | Back-projected conditional gradients |
-| Real Images | Lexical judgment (concrete vs abstract) | Visual evidence calibration | Probing + canonical correlation analysis |
-| Chartographer | Chart-question-answer tuple | Counterfactual variation | Reverse-engineer → execute → derive answers |
+| System | Constraint Type | Mechanism |
+|--------|----------------|-----------|
+| CCO | Oversight constraint (weaker supervising stronger) | Calibrated conservatism penalty with conformal adjustment |
+| Gamma-World | Permutation symmetry + real-time compute | Simplex encoding + sparse hub attention |
+| BES | Verification signal sparsity + distribution confinement | Evolution operators + backward goal decomposition |
 
-**Design principle**: Instance-level decomposition of evaluation signals — whether evaluating correctness, safety, or semantic meaning — enables routing correct signals where coarse granularity would fail.
-
-## Notable Mentions (Same Batch)
-
-- **Real Images, Worse Judgments** (2605.27315): VLMs perform worse with real-image context when visual evidence is least relevant; probing reveals spurious visual cue sensitivity
-- **Chartographer** (2605.27311): Counterfactual chart generation for VLM evaluation; reveals failures hidden by single-chart performance; same first author as Real Images
-- **When Does Demographic Information Help?** (2605.27313): Demographics help only in specific data regimes; gated demographic residual model
+**Design principle**: When your optimization target (utility, generation quality, consistency) can fail due to factors outside the agent's control (misalignment, multi-agent interference, distribution mismatch), the solution is not more optimization — it's constraint-aware optimization that relaxes under safety and tightens under risk.
 
 ## Kanban Status
-- [x] Surfaced to hermes kanban: 2026-05-27 batch
+- [x] Surfaced to hermes kanban: 2026-05-28 batch
   - No open items this cycle — processed papers with no remaining open questions
+- [x] Surfaced to hermes kanban: 2026-05-28 cycle check (2026-05-28)
+  - Self-answer: carryover explicitly states "No open items this cycle" — nothing to surface per protocol
+  - Resolved: no kanban task creation needed
 
 ## Notes for Next Run
 
-- **arXiv API rate limit**: Continue using wiki_fetch_url workaround; consider batching via arxiv.org/list pages for broader coverage when API is unavailable
-- **Counterfactual evaluation**: MATCHA + Chartographer both use counterfactual generation as evaluation technique — worth a synthesis note on counterfactual evaluation methodology
-- **Inline vs post-hoc safety**: FinHarness + Boiling the Frog both argue for inline positioning; cross-reference these in [[agentic-safety]]
-- **Semantic moderation**: Interaction SSD + Demographic Information paper (2605.27313) both examine annotator identity moderation — connect in [[annotation-bias]]
-- **VLM evaluation**: Real Images + Chartographer = Yifan Jiang's two-paper arc on VLM evaluation; worth a synthesis note
-- **Papers worth revisiting**: LCGuard (2605.22786, multi-agent KV sharing safety), HarnessAPI (2605.22733, MCP+HTTP unified endpoints)
-- **SAE for alignment**: Prior cycle's Alignment Tampering + SAERL suggest SAE features could probe alignment-relevant model internals — bookmark for future cross-synthesis
+- **Conformal Decision Theory for safety**: CCO applies CDT to agentic oversight — first practical application of CDT beyond theoretical frameworks; worth monitoring for follow-up papers
+- **Permutation symmetry in neural networks**: Gamma-World's parameter-free simplex encoding suggests broader applications; watch for papers on equivariant architectures for multi-agent settings
+- **Evolutionary search + self-improvement**: BES's success on hard reasoning tasks where GRPO fails suggests evolutionary approaches to training data generation; connect to [[alphaevolve]] and population-based training literature
+- **Backward decomposition for verification**: BES's recursive sub-goal generation provides dense feedback; cross-reference with CODESKILL's hybrid reward mechanism (both address sparse verification differently)
+- **Papers worth revisiting**: LCGuard (2605.22786, multi-agent KV sharing safety) — connects to Gamma-World's multi-agent consistency; HarnessAPI (2605.22733, MCP unified endpoints) — not yet processed; OmniVerifier-M1 (2605.28805, multimodal meta-verifier) — related verification approach
+- **CCO + Behavioral Credibility Trilemma**: Both address oversight of capable agents; Trilemma proves H+C+A structurally impossible; CCO provides working construction for the H+C corner — cross-reference in [[agentic-safety]]

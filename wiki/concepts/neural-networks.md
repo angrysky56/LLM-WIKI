@@ -1,33 +1,29 @@
 ---
+summary: [ARCHIVED] Duplicate — covered by transformers (0.78) and deep-learning (stub). No substantive content.
+tags: [ml, neural-networks, stubs, archived]
+updated: 2026-05-28T14:05:23Z
+---
+
+---
 created: 2026-05-25
-updated: 2026-05-25
+updated: 2026-08-19
 type: concept
-summary: "[STUB] Neural networks — computational models composed of interconnected nodes that process information"
-tags: [ml, deep-learning, stubs]
+summary: "[ARCHIVED] Duplicate — foundational concept covered by [[deep-learning]] (stub) and [[transformers]] (0.78). No substantive content here."
+tags: [ml, neural-networks, stubs, archived]
 sources: []
-status: stub
+status: archived
 confidence: 0.3
 ---
 
 # Neural Networks
 
-*Stub page — needs real content*
+*Archived — duplicate. Use [[transformers]] and [[deep-learning]].*
+
+## Status
+
+This stub was a bare placeholder with no substantive content. The transformer architecture page (`[[transformers]]`, confidence 0.78) is the canonical reference for modern neural networks. The `[[mixture-of-experts]]` page covers the dominant LLM architecture variant. `[[deep-learning]]` exists as a stub — both it and this archived page acknowledge the gap.
 
 ## Connections
-- [[concepts/betteti-baggio-bullo-zampieri-idp-hopfield-2025]]
-- [[concepts/memory-mechanisms]]
-- [[concepts/artificial-intelligence]]
-- [[concepts/recursive-neural-networks]]
-- [[log]]
-- [[scratchpad/agent-sheets/librarian/carryover]]
-- [[concepts/neural-networks]]
-- [[concepts/deep-learning]]
-- [[concepts/critical-initialization-biological-neural-networks]]
-- [[index]]
-- [[neural-networks]]
 
+- [[transformers]]
 - [[deep-learning]]
-- [[machine-learning]]
-- [[memory-mechanisms]]
-- [[artificial-intelligence]]
-- [[recursive-neural-networks]]

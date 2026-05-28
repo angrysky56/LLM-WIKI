@@ -2,51 +2,51 @@
 
 ## Papers Processed
 
-### 2605.25920 — LegalSearch-R1: Temporal Consistency in Legal Agentic Search
+### 2605.28807 — Calibrating Conservatism for Scalable Oversight (CCO)
 
-**Finding**: RL-trained legal agent (7B, GRPO) with dual RAG+web architecture enforcing temporal statute indexing. Outperforms SOTA deep research agents and specialized legal LLMs by 12.9-29.8%, with 57.7-80.3% gains on temporal consistency. Core problem: legal LLMs suffer temporal bias anchored to training cutoff, and search agents rarely incorporate temporal constraints. Solution pairs local statute RAG (precise article matching with version-controlled amendment indexing) with online web search, trained on temporally-indexed data spanning multiple amendment periods. Key principle: lex retro non agit — applicable law must match temporal context of each case.
+**Finding**: Calibrated Collective Oversight (CCO) uses Conformal Decision Theory to calibrate a conservatism penalty for agentic AI systems. Aggregates diverse overseer signals (smaller models, heuristics, uncertainty estimates) into Δ(s,a) measuring deviation from conservative baseline. The conformal controller adjusts λ online: λₜ₊₁ = λₜ + η(ℓₜ − α), ensuring long-run loss rate converges to user-specified α with finite-time bounds and no distributional assumptions. On SWE-bench: weaker overseer constrains adversarially misaligned stronger agent; on MACHIAVELLI: substantially reduces ethical violations while preserving reward. Key theorem: CCO decision family is eventually safe — beyond a conservatism threshold, agent always selects baseline action.
 
-**Wiki path**: `wiki/sources/papers/legalsearch-r1.md`
-
----
-
-### 2605.25739 — The Behavioral Credibility Trilemma
-
-**Finding**: Proved fundamental impossibility in RL with confidence-gated autonomy: no agent can simultaneously maximize helpfulness (H), calibration (C), and full autonomy (A) when tasks exceed reliable competence. Root cause: any non-affine approval gate destroys strict properness of scoring rules, causing systematic confidence inflation. The principal's optimal oversight rule is necessarily non-affine — making the impossibility unconditional and optimizer-independent. Resolution pathways: commitment (principal commits to rule) or domain separation (agent operates only where competence exceeds threshold). 540-config experiment confirms all 5 pre-registered hypotheses (effect sizes d=1.10-5.32). EU AI Act Article 14 implicitly mandates H+C at cost of A.
-
-**Wiki path**: `wiki/sources/papers/behavioral-credibility-trilemma.md`
+**Wiki path**: `wiki/sources/papers/calibrating-conservatism-scalable-oversight-2026.md`
 
 ---
 
-### 2605.25430 — CODESKILL: Self-Evolving Skills for Coding Agents
+### 2605.28816 — Gamma-World: Generative Multi-Agent World Modeling Beyond Two Players
 
-**Finding**: RL-trained skill management policy for coding agents — learns to extract, evolve, and maintain procedural skills from trajectories rather than relying on fixed prompts or heuristics. Two granularity levels: task-level (high-level strategies) and event-driven (local guidance for recurring execution events). GRPO training with hybrid reward: sparse verifiable task feedback + dense rubric-based skill quality from LLM-as-judge. On EnvBench, SWE-Bench Verified, Terminal-Bench 2: +9.69 over no-skill, +4.01 over strongest prompt-based baselines (~33% and ~11% relative gains). Skill bank stays compact while performance scales. Key insight: static skill injection doesn't always work — skill usefulness depends on task fit, requiring adaptive management.
+**Finding**: Multi-agent video world model supporting arbitrary agent counts with permutation symmetry. Two key innovations: (1) **Simplex Rotary Agent Encoding** — extends 3D RoPE by placing agents at simplex vertices in rotary angle space; parameter-free, permutation-symmetric, generalizes from 2 to 4 players without retraining. (2) **Sparse Hub Attention** — learnable hub tokens mediate cross-agent communication; reduces attention cost from O(agents²) to O(agents). Distilled teacher→student with KV caching enables real-time 24-FPS interactive rollout. Solves the structural limitations of prior work (Solaris): quadratic dense attention and learned per-slot IDs that break permutation symmetry.
 
-**Wiki path**: `wiki/sources/papers/codeskill.md`
+**Wiki path**: `wiki/sources/papers/gamma-world-multi-agent-world-modeling-2026.md`
 
 ---
 
-## Cross-Paper Theme: Confidence Calibration Under Capacity Constraints
+### 2605.28814 — Self-Improving Language Models with Bidirectional Evolutionary Search (BES)
 
-**Unifying finding**: All three papers deal with agents that must reason about their own reliability under capacity constraints — and each arrives at a different resolution strategy.
+**Finding**: BES addresses two fundamental limitations of tree search / best-of-N: (1) sparse verification signal, (2) candidate confinement to model distribution. Forward search uses four evolution operators (combination, translocation, deletion, crossover) inspired by sexual reproduction — recombines parts of different trajectories to reach low-probability correct solutions. Backward search recursively decomposes task into checkable sub-goals, providing dense intermediate feedback. Theorems: expansion-only candidates confined to narrow entropy shell; evolution operators escape it; backward decomposition exponentially reduces required samples. On post-training tasks where GRPO/MaxRL/Tree-GRPO fail, BES consistently finds improvements; on inference benchmarks, outperforms OpenEvolve, GEPA, ShinkaEvolve.
 
-| System | Calibration Mechanism | Capacity Constraint | Enforcement |
-|--------|----------------------|-------------------|-------------|
-| LegalSearch-R1 | Temporal context identification | Statute knowledge bounded by amendment coverage | Version-controlled RAG with temporal validity windows |
-| Behavioral Credibility Trilemma | Confidence-report scoring (strictly proper) | Agent competence bounded by task difficulty | Non-affine gate destroys calibration → three resolution corners |
-| CODESKILL | Hybrid reward (sparse + dense) | Skill bank must stay compact | Add/merge/drop skill management policy |
+**Wiki path**: `wiki/sources/papers/bidirectional-evolutionary-search-bes-2026.md`
 
-**Design principle**: When an agent must reason about its own reliability, calibration is not a property you can add post-hoc — it must be architecturally enforced. LegalSearch-R1 enforces it at the retrieval level (temporal indexing); Trilemma shows it's structurally impossible to enforce simultaneously with autonomy and helpfulness; CODESKILL enforces it through adaptive skill bank management that balances density against compactness.
+---
+
+## Cross-Paper Theme: Constraint Satisfaction Under Distribution Shift
+
+**Unifying finding**: All three papers address agents operating under constraints where naive optimization fails — either because the agent's distribution doesn't contain good solutions (BES), because the agent may be misaligned (CCO), or because multiple agents must maintain consistency without centralized coordination (Gamma-World).
+
+| System | Constraint Type | Mechanism |
+|--------|----------------|-----------|
+| CCO | Oversight constraint (weaker supervising stronger) | Calibrated conservatism penalty with conformal adjustment |
+| Gamma-World | Permutation symmetry + real-time compute | Simplex encoding + sparse hub attention |
+| BES | Verification signal sparsity + distribution confinement | Evolution operators + backward goal decomposition |
+
+**Design principle**: When your optimization target (utility, generation quality, consistency) can fail due to factors outside the agent's control (misalignment, multi-agent interference, distribution mismatch), the solution is not more optimization — it's constraint-aware optimization that relaxes under safety and tightens under risk.
 
 ---
 
 ## Next Cycle Search Direction
 
-- **Model editing / knowledge unlearning**: Trilemma's behavioral unlearning suggests papers on targeted knowledge erasure in LLMs — particularly inference-time unlearning without parameter changes (bridges with SafeCtrl-RL from last batch)
-- **Temporal reasoning in LLMs**: LegalSearch-R1's temporal bias finding suggests papers on time-sensitive knowledge, statute amendment tracking, legal knowledge versioning
-- **Calibrated confidence in RL agents**: Papers on proper scoring rules for RL, confidence elicitation in agentic systems, calibration-aware training signals
-- **Adaptive skill management**: CODESKILL's learnable policy approach suggests papers on skill compression, skill transfer, skill bank optimization for agentic systems
-- **Papers worth revisiting**: HarnessAPI (2605.22733, MCP unified endpoints) — not yet processed; LCGuard (2605.22786, multi-agent KV sharing safety) — safety in multi-agent communication
+- **Evolutionary recombination for LLM training data**: BES's success with crossover/combination operators suggests papers on population-based training for LLMs, genetic algorithm approaches to training data curation
+- **Conformal methods for AI safety**: CCO's CDT application is novel; papers on conformal prediction for LLM calibration, tail-risk control in agentic systems
+- **Permutation-symmetric architectures**: Gamma-World's simplex encoding is parameter-free; papers on symmetric neural networks, equivariant architectures for multi-agent systems
+- **Backward decomposition for verification**: BES's recursive sub-goal generation; papers on step-wise verification, compositional correctness for LLMs
+- **Papers worth revisiting**: HarnessAPI (2605.22733, MCP unified endpoints) — not yet processed; LCGuard (2605.22786, multi-agent KV sharing safety) — safety in multi-agent communication; OmniVerifier-M1 (2605.28805, multimodal meta-verification) — related to CCO's verification approach
 
 ---
 
@@ -54,14 +54,11 @@
 - [[scratchpad/jobs/reports/arxiv/arxiv-2026-05-28-top-papers]]
 - [[index]]
 
-- [[arxiv-2026-05-28-top-papers]]
-
 ## Deliverables
 
 | Type | Path |
 |------|------|
-| LegalSearch-R1 source page | `wiki/sources/papers/legalsearch-r1.md` |
-| Behavioral Credibility Trilemma source page | `wiki/sources/papers/behavioral-credibility-trilemma.md` |
-| CODESKILL source page | `wiki/sources/papers/codeskill.md` |
+| CCO source page | `wiki/sources/papers/calibrating-conservatism-scalable-oversight-2026.md` |
+| Gamma-World source page | `wiki/sources/papers/gamma-world-multi-agent-world-modeling-2026.md` |
+| BES source page | `wiki/sources/papers/bidirectional-evolutionary-search-bes-2026.md` |
 | This report | `wiki/scratchpad/jobs/reports/arxiv/arxiv-2026-05-28-top-papers.md` |
-| Updated carryover | `wiki/scratchpad/jobs/reports/arxiv/carryover.md` |

@@ -1,5 +1,5 @@
 ---
-updated: 2026-05-28T02:00:15Z
+updated: 2026-05-28T14:43:26Z
 type: index
 ---
 
@@ -310,7 +310,7 @@ type: index
 - [[kv-cache]] — Inference optimization technique that caches key-value tensors from previous tokens to avoid recomputation during autoregressive generation
 - [[language-evolution]] — The study of the statistical structure and temporal dynamics of language change over time.
 - [[language-models]] — [STUB] Language models — statistical and neural models of language
-- [[large-language-models]] — [STUB] Large language models — GPT, BERT, and similar transformer-based language models
+- [[large-language-models]] — [ARCHIVED] Duplicate — use transformers.md (0.78). No substantive content.
 - [[latent-communication]] — [STUB] Hidden communication channels in neural networks
 - [[latent-reasoning]] — Latent reasoning — implicit multi-step inference encoded in hidden states before explicit token generation; the distinction between reasoning that appears in CoT tokens vs reasoning that happens in embedding space
 - [[latex]] — [STUB] LaTeX document preparation system
@@ -393,7 +393,7 @@ type: index
 - [[neural-architecture-search]] — Neural Architecture Search — automated methods for discovering optimal neural network architectures; covers CoLLM-NAS, RZ-NAS, LLaMA-NAS, and CMA-ES-driven search
 - [[neural-interpretability]] — Techniques for understanding what neural networks represent internally — probing, feature visualization, representation geometry, superposition, and the relationship between activation patterns and model behavior
 - [[neural-long-term-memory]] — Neural network architectures that explicitly separate working memory from long-term memory stores, enabling persistent information across very long contexts
-- [[neural-networks]] — [STUB] Neural networks — computational models composed of interconnected nodes that process information
+- [[neural-networks]] — [ARCHIVED] Duplicate — covered by transformers (0.78) and deep-learning (stub). No substantive content.
 - [[neuroscience]] — [STUB] Neuroscience — study of the nervous system and brain
 - [[news]] — [STUB] News content and curation in the wiki
 - [[nlp]] — [STUB] NLP — natural language processing fundamentals
@@ -460,7 +460,7 @@ type: index
 - [[reconstruction-attack]] — [STUB] Reconstruction attacks on ML models
 - [[recuriosity-episodic-context-3d-exploration-2026]] — [STUB] Recuriosity — episodic context for 3D exploration in agents
 - [[recursive-neural-networks]] — [STUB] Recursive neural networks — neural networks with recursive connections
-- [[recursive-transformers]] — [STUB] Recursive transformers — transformer architectures with recursive processing
+- [[recursive-transformers]] — Transformer variants with recursive hidden state passing across layers — combining parallel attention efficiency with sequential inductive bias
 - [[redistricting]] — [STUB] Redrawing electoral district boundaries
 - [[refuser-pattern]] — Engineering persona holding deploy token authority — withholds approval until named, plausible, non-reversible harms are addressed
 - [[reinforcement-learning-from-human-feedback]] — RLHF — training AI systems using human preference feedback via reward modeling and policy optimization (PPO/DPO); core tension with MOP's entropy maximization objective
@@ -542,7 +542,7 @@ type: index
 - [[transfer-learning]] — [STUB] Transfer learning — applying knowledge from one task or domain to another related task
 - [[transformer-architecture]] — Decoder-only neural network architecture based on stacked self-attention layers — the foundation of modern large language models
 - [[transformer-vm-moran-2026]] — [STUB] Transformer VM — virtual machine architecture for transformer models
-- [[transformers]] — [STUB] Transformers — transformer architecture for neural networks (BERT, GPT, etc.)
+- [[transformers]] — Attention-based neural architecture — foundation for BERT, GPT, and most modern LLMs; self-attention replaces recurrence, enabling parallel training
 - [[trump-administration-national-security]] — [STUB] Trump administration national security policy and appointments
 - [[trunk]] — [STUB] Rust build tool and package manager
 - [[truth-seeking]] — [STUB] AI truth-seeking and honest responding behavior
@@ -669,13 +669,13 @@ type: index
 - [[portfolio-policies-metacognition]] — Research exploration of portfolio-of-policies MDP extension and control graph topologies for metacognition, covering entropy-confidence duality, portfolio allocation formalism, and topology evaluation.
 - [[research_spec]] — 
 - [[arxiv]] — 
-- [[carryover]] — arxiv agent carryover — 2026-05-27 batch: MATCHA (evaluation metrics), FinHarness (inline agent safety), Interaction SSD (annotation moderation) — evaluation infrastructure & instance-level signal decomposition theme
+- [[carryover]] — arxiv agent carryover — 2026-05-28 batch: CCO (scalable oversight via conformal decision theory), Gamma-World (multi-agent world models with permutation symmetry), BES (bidirectional evolutionary search for self-improving LLMs) — constraint satisfaction under distribution shift theme
 - [[patterns]] — 
 - [[workflow]] — 
 - [[report]] — 
 - [[research-brief]] — 
 - [[ingest]] — 
-- [[carryover]] — Ingest pipeline healthy — 1 file processed, raw/ empty, no issues
+- [[carryover]] — 2 files processed, raw/ empty. VNE vs EE entropy distinction and stateless heartbeat architecture pages created.
 - [[workflow]] — 
 - [[ingest-report]] — 
 - [[insights]] — 
@@ -695,7 +695,7 @@ type: index
 - [[batch-progress]] — 
 - [[batch-progress]] — 
 - [[news]] — 
-- [[carryover]] — 3 new: OpenAI o1 solves 80-year Erdős geometry conjecture (Gemini also solved parallel problem 9-to-1 faster), Pope Leo XIV "Magnifica humanitas" encyclical presented (Anthropic co-presented), South Sudan violence humanitarian crisis (MSF, hunger as weapon)
+- [[carryover]] — SpaceX S-1 filed ($2T target, 14 days to June 12); California AI workforce executive order signed; Ebola case count update pending; Russia vaccine claim unverified
 - [[rss-queries]] — 
 - [[workflow]] — 
 - [[headlines-report]] — 
@@ -711,7 +711,7 @@ type: index
 - [[Meta-Meta Process for Structured Exploration]] — 
 - [[carryover-template]] — 
 - [[researcher]] — 
-- [[carryover]] — Aug 18 cycle: para (0.3→0.75), reinforcement-learning (0.3→0.7) promoted. Stub count 323→321.
+- [[carryover]] — Aug 19 cycle: transformers (0.3→0.78), recursive-transformers (0.3→0.65) promoted. 2 stubs archived (large-language-models, neural-networks). Stub count 321→299.
 - [[workflow]] — 
 - [[discovery-report]] — 
 - [[gap-analysis]] — 
@@ -741,7 +741,7 @@ type: index
 - [[ingest-2026-05-25]] — Ingest report — Kanban Wikipedia article ingested
 - [[ingest-2026-05-26]] — 
 - [[ingest-2026-05-27]] — 
-- [[ingest-2026-05-28]] — Ingest report — 1 file processed
+- [[ingest-2026-05-28]] — 
 - [[ingest-2026-06-27]] — Ingest cycle — 3 documentation files processed (codegraph, hermes-path-forward)
 - [[carryover]] — 
 - [[audit-2026-05-19]] — Librarian audit report — broken links and frontmatter fixes
@@ -761,6 +761,7 @@ type: index
 - [[librarian-2026-05-19-missing-agent-sheet]] — Librarian missing agent sheet report
 - [[carryover]] — Librarians-assistant carryover — 15 nested sources fixed, republican-party-duplicate deleted, 0 true broken links in core dirs
 - [[carryover]] — Three new stories: EU-US trade deal ratified with 2029 expiry, Trump walks back AI model vetting, Google DeepMind Gemini for Science launches
+- [[headlines-2026-05-28]] — 2 new stories: SpaceX S-1 filed ($2T IPO confirmed, June 12 target), California AI workforce EO enters implementation phase
 - [[carryover]] — 
 - [[overseer-2026-05-26]] — 
 - [[overseer-2026-05-27]] — 
@@ -797,11 +798,13 @@ type: index
 - [[discovery-2026-08-08]] — Discovery report — Aug 8 cycle: upgraded model-editing and activation-engineering stubs to active status
 - [[discovery-2026-08-10]] — Discovery report — Aug 10 cycle: upgraded sovereign-ai (0.3→0.75), knowledge-management (0.3→0.75), knowledge-architecture (0.3→0.7); stub count 325, active 213
 - [[discovery-2026-08-18]] — 
+- [[discovery-2026-08-19]] — 
 - [[google-deepmind-vatican-encyclical-response-may-2026]] — No Google DeepMind response to Magnifica humanitas encyclical found; compiled monitoring report
 - [[microsoft-vatican-encyclical-response-may-2026]] — No Microsoft response to Magnifica humanitas encyclical found; compiled monitoring report
 - [[sheet]] — t_ff1740de complete: no Microsoft response found to Magnifica humanitas encyclical
 - [[agem-ooe]] — 
 - [[anthropic-chris-olah-magnifica-humanitas-may-2026]] — Chris Olah (Anthropic co-founder) remarks on Magnifica Humanitas encyclical
+- [[back-to-agem-stateless-heartbeat]] — Ty and Gemini on stateless heartbeat architecture for AI memory
 - [[brocas-area-gemini-chat]] — Source summary for Gemini chat on Broca's area and LLM analogies.
 - [[choosing-right-agentic-design-pattern]] — 
 - [[critical-review-scientific-article-guide]] — A structured guide for analyzing and critically reviewing scientific journal articles, focusing on research methods, context, and significance.
@@ -842,6 +845,7 @@ type: index
 - [[titans-test-time-memory]] — Titans: Learning to Memorize at Test Time summary.
 - [[trump-abandons-ai-model-vetting-may-2026]] — Trump walks back AI model vetting proposal before signing — second signal in three days that federal AI regulation remains off the table
 - [[truth-emotion-sacred-agem-analysis]] — 
+- [[two-entropies-two-jobs-vne-ee]] — VNE vs Embedding entropy distinction for AGEM System-1 override detection
 - [[why-llms-arent-scientists-yet]] — Compressed summary of the autonomous research case study.
 - [[defending-moe-llms-against-harmful-fine-tuning-via-safety-routing-alignment]] — Fine-tuning causes significant routing drift for harmful inputs in MoE LLMs — SafeMoE penalizes routing gap to preserve safety routing
 - [[acp-editor-integration-hermes-agent]] — 
@@ -873,6 +877,7 @@ type: index
 - [[ebola-hospital-tents-fire-congo]] — Crowd set fire to Ebola treatment tents in DR Congo after officials blocked burial; response infrastructure failing
 - [[iran-claims-hormuz-waters]] — Iran published map claiming armed forces oversight across 22,000+ sq km of Strait of Hormuz
 - [[israel-ben-gvir-flotilla-video]] — Ben-Gvir taunted abducted activists; video went viral, damaged Israeli hasbara
+- [[memo-memory-as-a-model]] — MEMO paper — memory as model parameter, industrial compute required, step 5 pairing advice noted
 - [[mixture-of-recursions]] — MoR unifies parameter sharing and adaptive token-level computation via learned recursive depth routing — connects to causal state assignment and compiled-transformer execution models.
 - [[moe-sieve-routing-guided-lora-for-efficient-moe-fine-tuning]] — Per-layer expert routing is highly skewed — cold experts rarely activated, top-25% routing covers most tokens; only tuning top-25% experts is competitive
 - [[air-france-airbus-manslaughter-verdict-2026]] — 
@@ -981,7 +986,9 @@ type: index
 - [[bae-mor-2025]] — [STUB] Bae Mor 2025 — research paper
 - [[behavioral-credibility-trilemma]] — Behavioral Credibility Trilemma — proved impossibility: no RL agent with confidence-gated autonomy can simultaneously maximize helpfulness, calibration, and full autonomy; optimizer-independent, unconditional
 - [[betteti-baggio-bullo-zampieri-idp-hopfield-2025]] — IDP Hopfield model for input-driven, noise-robust memory retrieval in recurrent networks
+- [[bidirectional-evolutionary-search-bes-2026]] — BES: Bidirectional Evolutionary Search — evolution operators escape entropy shell + backward decomposition provides dense verification signal
 - [[boiling-frog-agentic-safety-2026]] — Boiling the Frog — multi-turn agentic safety benchmark showing 44.4% aggregate attack success rate across 9 models, with Gemini 3.1 Flash Lite at 92.9% ASR
+- [[calibrating-conservatism-scalable-oversight-2026]] — CCO: Conformal Decision Theory for calibrated agentic oversight with finite-time guarantees
 - [[chen-molecular-cot-2026]] — [STUB] Chen Molecular CoT 2026 — molecular chain of thought research paper
 - [[clinseekagent-multimodal-clinical-evidence-seeking]] — ClinSeekAgent automates multimodal evidence seeking for agentic clinical reasoning — addressing the gap where evidence is assumed rather than retrieved
 - [[code-as-agent-harness]] — Survey on code as operational substrate ("harness") for agentic AI systems
@@ -998,6 +1005,7 @@ type: index
 - [[finharness]] — 
 - [[forecasting-scientific-progress-ai-2026]] — CUSP benchmark for AI scientific forecasting — frontier models fail to predict when scientific advances will occur, misestimate timing, and exhibit systematic overconfidence
 - [[futuresim-adaptive-agents]] — FutureSim replays real-world news chronologically to evaluate agent world-modelling; best frontier agent achieves only 25% accuracy, exposing severe gaps in open-ended temporal adaptation.
+- [[gamma-world-multi-agent-world-modeling-2026]] — Gamma-World: Multi-agent video world model with permutation-symmetric agent encoding and linear cross-agent attention
 - [[is-grep-all-you-need]] — Grep often outperforms vector retrieval in agentic search; harness architecture and tool result presentation matter more than retrieval strategy.
 - [[kalra-barkeshli-hyperparameter-transfer-2026]] — μP's advantage over SP: almost entirely from maximizing embedding layer LR — simple fix resolves training instability bottleneck
 - [[kim-ahn-edm-2026]] — Kim, Kojaku & Ahn (Science Advances 2026) — introduces EDM embedding-based disruption metric; outperforms CD index; detects simultaneous discoveries via future vector nearest-neighbor clustering
@@ -1127,7 +1135,7 @@ type: index
 - [[great-power-competition]] — [STUB] Great power competition — US-China-Russia strategic rivalry
 - [[hantavirus]] — [STUB] Hantavirus outbreak and public health response
 - [[headlines-2026-05-27]] — Russia's Bundibugyo Ebola vaccine claim + global travel restrictions + CBP tariff refunds — geopolitical positioning, state capacity signaling
-- [[headlines-2026-05-28]] — 
+- [[headlines-2026-05-28]] — SpaceX S-1 filed, $2T target confirmed, 14 days to June 12
 - [[healthcare]] — [STUB] Healthcare — medical systems, treatment delivery, patient care, health policy
 - [[hybrid-attack]] — [STUB] Hybrid attack — combined conventional and asymmetric warfare
 - [[hydrogen-economy]] — [STUB] Hydrogen economy — hydrogen as energy carrier

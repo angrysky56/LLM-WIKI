@@ -7,18 +7,18 @@ created_by: agent
 
 # Wiki Overseer — Context Document
 
-> **Operational instructions are in the hermes-level `wiki-overseer` skill.**
-> This file describes the overseer's role and owned resources. It is NOT a skill to execute.
 
 ## Role
 
-The overseer is the **only agent that coordinates across all wiki agents**. It:
+The overseer is the **primary coordinator across all wiki agents**. It:
 
 1. Runs `scripts/preflight.py` to gather ground truth from the scheduler and carryovers
 2. Reads all agent carryovers to find open items
-3. Surfaces new open items to the Hermes kanban board
+3. Surfaces new open items to the Hermes kanban board (cross-agent items, overflow from individual agents)
 4. Writes a daily report to `reports/overseer/`
 5. Delivers a summary to Discord
+
+**Note**: Individual agents also surface their own open items directly to kanban via the `kanban-review` skill (loaded alongside every agent cron job). The "overseer creates kanban cards" is not exclusive — agents *should* also create tickets for their own open items. The overseer coordinates and manages the board, but individual agents are active kanban participants.
 
 ## Owned Files
 
@@ -35,7 +35,7 @@ The overseer is the **only agent that coordinates across all wiki agents**. It:
 2. **Overseer reads all carryovers** — parses open items from `## What Remains` or `## Open` sections
 3. **Overseer creates kanban cards** — one card per open item, checked for duplicates
 4. **Overseer writes report** — summarizes agent state and new kanban cards
-5. **Individual agents do NOT create kanban cards** — only the overseer does this
+5. **All agents also use `kanban-review`** (loaded alongside their agent skill in every cron job) to surface their open items directly to kanban after each run. This is the correct pattern — both the overseer AND individual agents create kanban cards. The "only overseer" rule means the overseer is the *coordinator* who also surfaces cross-agent items and manages the board; it does NOT mean agents are banned from creating their own kanban tickets.
 
 ## Related
 - [[index]]

@@ -14,6 +14,13 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[synthesis/news/eu-us-trade-relations]]
+- [[index]]
+- [[sources/news/2026/us-trade-court-tariff-ruling-may-2026]]
+- [[synthesis/news/transatlantic-trade]]
+- [[concepts/eu-us-trade-deal]]
+- [[sources/news/2026/eu-us-trade-deal-tariff-may-2026]]
+- [[transatlantic-trade]]
 
 - [[geopolitics]]
 - [[eu-us-trade-relations]]

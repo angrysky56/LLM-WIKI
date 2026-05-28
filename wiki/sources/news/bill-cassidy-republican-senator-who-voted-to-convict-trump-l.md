@@ -19,6 +19,8 @@ Senator Bill Cassidy — one of seven Republicans who voted to convict Trump in 
 | Result reflects continued Trump dominance over Republican Party | [[trump-endorsement-primary-dominance]] |
 
 ## Connections
+- [[sources/news/bill-cassidy-republican-senator-who-voted-to-convict-trump-l]]
+- [[index]]
 
 - [[donald-trump]] — the party figurehead
 - [[us-senate]] — institutional body

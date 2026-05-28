@@ -9,6 +9,11 @@ status: reference
 confidence: 0.5
 ---
 
+## Related
+
+- [[index]]
+- [[agents/skills/unnamed-skill]]
+
 # Unnamed Skill
 
 Stub page for [[unnamed-skill]] agent skill.

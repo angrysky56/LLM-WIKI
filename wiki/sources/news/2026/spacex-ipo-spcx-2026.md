@@ -26,6 +26,17 @@ SpaceX is the dominant commercial launch provider globally, with a fleet that in
 The IPO will make SpaceX's financials more transparent and will likely trigger a re-evaluation of Musk's overall net worth. Given his ownership stake in SpaceX, Tesla options, and other holdings, analysts have projected he could become the world's first trillion-dollar net worth individual when SPCX begins trading.
 
 ## Connections
+- [[sources/articles/spacex-ipo-governance-questions-may-2026]]
+- [[entities/projects/spacex]]
+- [[sources/news/2026/spacex-starship-v3-flight-12-debut-may-2026]]
+- [[index]]
+- [[sources/news/2026/spacex-starship-v3-launch-may-2026]]
+- [[synthesis/news/2026-may/headlines-2026-05-25]]
+- [[sources/news/2026/spacex-ipo-spcx-2026]]
+- [[sources/news/2026/spacex-files-ipo-starship-v3-2026]]
+- [[sources/news/2026/spacex-ipo-investor-frenzy-risk-may-2026]]
+- [[sources/news/2026/spacex-ipo-june-12-2026]]
+- [[spacex-ipo-spcx-2026]]
 - [[ai-governance-substrate]] — Starlink's global coverage has implications for AI compute distribution and data sovereignty
 - [[institutional-capture-vs-species-framing]] — Musk's overlapping roles in government (DOGE), tech companies, and now public markets create novel governance questions
 

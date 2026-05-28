@@ -14,5 +14,12 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/maximum-occupancy-principle]]
+- [[sources/articles/gemma4]]
+- [[index]]
+- [[concepts/ollama]]
+- [[log]]
+- [[sources/repositories/openclaw]]
+- [[ollama]]
 
 - [[maximum-occupancy-principle]]

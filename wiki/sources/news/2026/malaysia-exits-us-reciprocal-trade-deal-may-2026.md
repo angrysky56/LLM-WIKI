@@ -29,6 +29,9 @@ The Malaysia-US trade deal had been negotiated as part of the administration's b
 4. **Signals judicial constraints on executive trade authority** — Courts are now an active constraint on executive branch trade policy in a way that hadn't been visible before the May 2026 ruling.
 
 ## Connections
+- [[index]]
+- [[sources/news/2026/malaysia-exits-us-reciprocal-trade-deal-may-2026]]
+- [[malaysia-exits-us-reciprocal-trade-deal-may-2026]]
 - [[trump-tariffs]] — Supreme Court ruling on tariff authority, impact on bilateral negotiations
 
 ## Timeline

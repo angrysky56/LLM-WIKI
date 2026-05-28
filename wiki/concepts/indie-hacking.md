@@ -14,5 +14,11 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/maximum-occupancy-principle]]
+- [[concepts/indie-hacking]]
+- [[log]]
+- [[index]]
+- [[sources/articles/solo-preneur]]
+- [[indie-hacking]]
 
 - [[maximum-occupancy-principle]]

@@ -14,5 +14,13 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[sources/articles/language-evolution]]
+- [[index]]
+- [[concepts/maximum-occupancy-principle]]
+- [[concepts/directed-preferential-placement]]
+- [[log]]
+- [[directed-preferential-placement]]
 
 - [[maximum-occupancy-principle]]
+
+- [[language-evolution]]

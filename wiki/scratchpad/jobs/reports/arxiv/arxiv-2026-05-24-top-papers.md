@@ -39,6 +39,12 @@ tags: [arxiv, report]
 - **PDF storage**: 3 PDFs downloaded to /home/ty/Documents/paper-research/
 - **Carryover theme update**: The scaffolding→verification thread is now three batches deep. The convergence point is that verification mechanisms (formal, statistical, state-based) are increasingly tractable, but world-model limitations (temporal reasoning, cumulative state tracking, overconfidence) remain fundamental gaps. Next batch should explore papers on world-model improvement or self-calibration.
 
+## Related
+- [[scratchpad/jobs/reports/arxiv/arxiv-2026-05-24-top-papers]]
+- [[index]]
+
+- [[arxiv-2026-05-24-top-papers]]
+
 ## Papers Worth Revisiting
 - HarnessAPI (2605.22733): MCP tool registration unified with HTTP endpoints — relevant to EFHF MCP configuration. Not selected this cycle due to lower novelty vs. the verification theme but still worth a quick pass.
 - LCGuard (2605.22786): Latent Communication Guard for Safe KV Sharing in Multi-Agent — relevant to verifier-graph and multi-agent EFHF communication. Could connect to Boiling the Frog's multi-agent safety findings.

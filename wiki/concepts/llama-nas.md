@@ -52,12 +52,30 @@ LLaMA-NAS is one of three NAS methods documented in the ml-evolution benchmarkin
 - [[essa]] — analogous philosophy: gradient-free evaluation (ESSA uses singular values; LLaMA-NAS uses one-shot inheritance)
 - [[qes]] — analogous philosophy: avoiding full training cost via specialized approximation
 
+- [[bounded-memory-budget-optimization]]
+- [[ml-evolution]]
+- [[bounded-memory-budget-optimization]]
 ## Connections Beyond ML Evolution
 
 - [[compression]] — LLaMA-NAS achieves compression as a side effect of architecture search
 - [[scaling-laws]] — discovered architectures must be evaluated relative to compute budget; one-shot search respects scaling constraints
 - [[catastrophic-forgetting]] — sub-network search can implicitly preserve prior capabilities by selecting architecture paths that retain important representations
 - [[lora]] — LoRA and LLaMA-NAS are complementary: LLaMA-NAS finds the right architecture; LoRA adapts the remaining parameters efficiently
+
+## Related
+- [[concepts/ml-evolution]]
+- [[scratchpad/agent-sheets/researcher/carryover]]
+- [[index]]
+- [[concepts/llama-nas]]
+- [[concepts/collm-nas]]
+- [[log]]
+- [[scratchpad/jobs/reports/researcher/discovery-2026-08-03]]
+- [[concepts/neural-architecture-search]]
+- [[scratchpad/jobs/reports/researcher/discovery-2026-07-15]]
+- [[concepts/bounded-memory-budget-optimization]]
+- [[sources/articles/ml-evolution-benchmarking-protocol]]
+
+- [[llama-nas]]
 
 ## Open Questions
 

@@ -119,6 +119,12 @@ The carryover.md is the ground truth for gaps. The discovery report's Gap Analys
 | Orphan stubs (only link to stubs) | For each stub, check if all link targets are also stubs |
 | Check for duplicate stubs | `rg "\[\[stubname\]\]" wiki/` (search full vault for links to the stub) |
 
+## Related
+- [[agents/skills/researcher-agent/references/gap-discovery-patterns]]
+- [[index]]
+
+- [[gap-discovery-patterns]]
+
 ## Open Questions to Watch
 
 These questions from carryover have been open multiple cycles. Before re-listing as "no data", ALWAYS search the wiki first — content may already exist:

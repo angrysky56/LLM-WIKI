@@ -33,6 +33,17 @@ The **Spontaneous Activity Reshaping Hypothesis** (SARH) is a neurological theor
 - **[[aphantasia]]:** Suggests that high excitability (over-active noise) makes the system harder to "shape," leading to an inability to form mental images.
 
 ## Connections
+- [[index]]
+- [[concepts/hyperphantasia]]
+- [[entities/people/roger-koenig-robert]]
+- [[concept-index]]
+- [[sources/articles/how-does-imagination-really-work-in-the-brain-new-theory-upends-what-we-knew]]
+- [[concepts/spontaneous-activity-reshaping-hypothesis]]
+- [[concepts/feedforward-activity]]
+- [[synthesis/intelligence-as-entropic-sculpting]]
+- [[concepts/aphantasia]]
+- [[concepts/feedback-activity]]
+- [[spontaneous-activity-reshaping-hypothesis]]
 
 - **Sources:** [[how-does-imagination-really-work-in-the-brain-new-theory-upends-what-we-knew]]
 - **People:** [[roger-koenig-robert]]

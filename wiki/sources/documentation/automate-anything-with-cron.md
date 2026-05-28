@@ -32,6 +32,9 @@ Cron jobs in Hermes run in fresh, self-contained sessions with no memory of prev
 | **Delivery targets** | `origin`, `local`, `telegram`, `discord`, `slack`, or specific chat/thread |
 
 ## Connections
+- [[index]]
+- [[sources/documentation/automate-anything-with-cron]]
+- [[automate-anything-with-cron]]
 
 - [[hermes-agent]] — parent system with cron feature
 - [[hermes-agent-skills]] — skills like arxiv, obsidian can be chained in cron workflows

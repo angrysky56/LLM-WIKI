@@ -57,6 +57,12 @@ Key coverage:
 2. **Constitutional AI scope**: Should it be a standalone alignment concept or folded into a broader alignment page? The principles-based approach is meaningfully different from RLHF.
 3. **Test-time compute economics**: Missing from inference-time-compute-scaling. Critical for real-time deployment decisions.
 
+## Related
+- [[index]]
+- [[scratchpad/jobs/reports/researcher/discovery-2026-05-22]]
+
+- [[discovery-2026-05-22]]
+
 ## Cross-Links Added
 
 New pages connect to existing concepts:

@@ -32,6 +32,10 @@ Subagents are specialized AI assistants defined as Markdown files with YAML fron
 | **Background agents** | For parallel independent sessions monitored from one place |
 
 ## Connections
+- [[sources/documentation/delegation-parallel-work]]
+- [[sources/documentation/create-custom-subagents]]
+- [[index]]
+- [[create-custom-subagents]]
 
 - [[delegation]] — subagents are a form of delegation
 - [[hermes-agent]] — Hermes has similar subagent delegation capabilities

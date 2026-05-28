@@ -102,6 +102,16 @@ The decision of how much inference compute to spend depends on the error cost vs
 | Low (chat, creative) | Single-pass generation |
 
 ## Connections
+- [[concepts/llm-inference]]
+- [[index]]
+- [[concepts/namm]]
+- [[concepts/model-serving]]
+- [[log]]
+- [[concepts/inference-time-compute-scaling]]
+- [[concepts/mixture-of-experts]]
+- [[concepts/transformer-architecture]]
+- [[concepts/kv-cache]]
+- [[llm-inference]]
 
 - [[kv-cache]] — the dominant memory optimization; prerequisite for efficient long-context generation
 - [[namm]] — learned KV cache management; replacing heuristic rules with trained models

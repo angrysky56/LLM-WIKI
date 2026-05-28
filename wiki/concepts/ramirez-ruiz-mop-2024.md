@@ -73,6 +73,33 @@ Specific MOP architecture decisions (layer count, update policies, retention bud
 - [[catastrophic-forgetting]]: the problem memory scaffolding addresses
 - [[prd-ralph-loop-mop-gemini]]: experimental extension using Gemini
 
+- [[mop-and-rlhf-interaction]]
+- [[continual-learning]]
+- [[schema-competition]]
+- [[control-llm]]
+- [[mop-and-rlhf-interaction]]
+- [[continual-learning]]
+- [[mop-architecture]]
+- [[control-llm]]
+- [[catastrophic-forgetting]]
+- [[schema-competition]]
 ## See Also
+- [[concepts/ramirez-ruiz-mop-2024]]
+- [[scratchpad/jobs/reports/researcher/discovery-2026-05-26]]
+- [[concepts/epistemic-energy]]
+- [[concepts/control-llm]]
+- [[sources/papers/bae-lmac-2026]]
+- [[index]]
+- [[concepts/catastrophic-forgetting]]
+- [[concepts/maximum-occupancy-principle]]
+- [[concepts/mop-architecture]]
+- [[concepts/edm-framework]]
+- [[scratchpad/jobs/reports/researcher/discovery-2026-05-27]]
+- [[synthesis/mop-edm-cognitive-architecture]]
+- [[log]]
+- [[concepts/continual-learning]]
+- [[concepts/mop-and-rlhf-interaction]]
+- [[concepts/schema-competition]]
+- [[ramirez-ruiz-mop-2024]]
 
 - The [[PRD Ralph Loop MOP Gemini]] page for experimental implementation work

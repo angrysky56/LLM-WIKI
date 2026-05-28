@@ -54,6 +54,12 @@ OOD generalization: holds across both in-domain and OOD software engineering tas
 - [[grpo]] — GRPO training with hybrid reward (from prior batch papers)
 - [[verifier-graph]] — hybrid reward (sparse + dense) parallels verifier-graph multi-signal approach
 
+## Related
+- [[sources/papers/codeskill]]
+- [[index]]
+
+- [[codeskill]]
+
 ## Key Quotes
 
 > "CODESKILL reformulates skill management as a learnable management policy rather than relying on fixed prompts and heuristic criteria."

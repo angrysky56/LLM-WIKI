@@ -52,6 +52,17 @@ Graves (2016) introduced ACT: a scalar halting unit at each step decides whether
 Limitations: ACT introduces significant overhead (the halting unit must be evaluated at each step) and the halting decisions are not fully differentiable.
 
 ## Connections
+- [[sources/mixture-of-recursions]]
+- [[concepts/agentic-reasoning]]
+- [[concepts/adaptive-budget-learning]]
+- [[log]]
+- [[concepts/mixture-of-experts]]
+- [[index]]
+- [[concepts/scaling-laws]]
+- [[concepts/llm-reasoning]]
+- [[concepts/adaptive-computation]]
+- [[concepts/early-exit-networks]]
+- [[adaptive-computation]]
 
 - [[mixture-of-experts]] — gating is the router in MoE; both MoE and adaptive computation address conditional computation
 - [[adaptive-budget-learning]] — the specific problem of training gating models; includes early exit and RL approaches
@@ -61,6 +72,8 @@ Limitations: ACT introduces significant overhead (the halting unit must be evalu
 - [[epistemic-energy]] — adaptive computation is the architectural substrate; epistemic energy depletion is the principled stopping criterion
 - [[bounded-rationality]] — the theoretical motivation: don't spend more reasoning resources than the problem requires
 
+- [[agentic-reasoning]]
+- [[early-exit-networks]]
 ## Limitations
 
 - **Confidence calibration**: Early exit requires calibrated confidence estimates. Neural networks are notoriously overconfident on incorrect predictions.

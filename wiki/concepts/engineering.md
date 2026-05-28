@@ -14,6 +14,14 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[index]]
+- [[concepts/electrical-engineering]]
+- [[concepts/technology]]
+- [[log]]
+- [[concepts/engineering]]
+- [[concepts/science]]
+- [[engineering]]
 
 - [[science]]
 - [[technology]]
+- [[electrical-engineering]]

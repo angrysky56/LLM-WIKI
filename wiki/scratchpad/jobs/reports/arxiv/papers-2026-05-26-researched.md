@@ -8,6 +8,12 @@ tags: [arxiv, report]
 
 # arxiv Research Report — 2026-05-26
 
+## Related
+- [[index]]
+- [[scratchpad/jobs/reports/arxiv/papers-2026-05-26-researched]]
+
+- [[papers-2026-05-26-researched]]
+
 ## Papers Processed
 
 ### 2605.23901 — Shannon Scaling Law

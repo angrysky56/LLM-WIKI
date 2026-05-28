@@ -24,6 +24,31 @@ Tyler's work focuses on moving AI beyond statistical next-token prediction into 
 His research involves **SIP-Net** (Synergistic Information Primitive Network), **Cognitive Phasing** theory, and the implementation of structural ethics via **Toward-Transcendent-Moral-Instrumentality (TMI)**.
 
 ## Connections
+- [[entities/projects/tys-repos/nexus]]
+- [[sources/papers/why-llms-arent-scientists-yet]]
+- [[entities/projects/tys-repos/mcp-logic]]
+- [[entities/projects/tys-repos/toward-transcendent-moral-instrumentality]]
+- [[entities/projects/tys-repos/aseke-compass-mcp]]
+- [[entities/projects/tys-repos/mcp-coordinator]]
+- [[scratchpad/jobs/reports/librarian/audit-2026-05-21]]
+- [[sources/repositories/mcp-logic]]
+- [[entities/projects/tys-repos/conscience-servitor]]
+- [[entities/projects/tys-repos/advanced-reasoning-mcp]]
+- [[entities/projects/tys-repos/agem]]
+- [[entities/projects/tys-repos/project-synapse-mcp]]
+- [[entities/projects/tys-repos/ast-mcp-server]]
+- [[entities/projects/tys-repos/hipai-montague]]
+- [[entities/projects/tys-repos/sentience-metaphysics]]
+- [[entities/projects/tys-repos/sheaf-consistency-enforcer]]
+- [[entities/projects/tys-repos/graph-rlm]]
+- [[entities/projects/tys-repos/efhf]]
+- [[entities/people/tyler-hall]]
+- [[index]]
+- [[entities/projects/tys-repos]]
+- [[entities/projects/tys-repos/verifier-graph]]
+- [[entities/projects/tys-repos/ethical-ai-core]]
+- [[log]]
+- [[tyler-hall]]
 - [[efhf]] — Creator and architect.
 - [[tys-repos]] — Portfolio of projects.
 - [[dhruv-trehan]] — Research collaborator/connection (via scientific interest).

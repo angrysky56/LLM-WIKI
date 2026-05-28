@@ -14,5 +14,14 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[log]]
+- [[concepts/production-stage-architecture]]
+- [[sources/papers/production-llm-agent-runtime-architecture-patterns]]
+- [[concepts/llm-agent-architecture]]
+- [[index]]
+- [[concepts/maximum-occupancy-principle]]
+- [[production-stage-architecture]]
 
 - [[maximum-occupancy-principle]]
+
+- [[llm-agent-architecture]]

@@ -44,6 +44,12 @@ The 2026-05-20 batch introduced three strong threads worth tracking:
 
 No changes to wiki/sources/papers/ today — yesterday's 3 new pages remain the current state.
 
+## Related
+- [[scratchpad/jobs/reports/arxiv/arxiv-2026-05-21-top-papers]]
+- [[index]]
+
+- [[arxiv-2026-05-21-top-papers]]
+
 ## Next Run
 
 - arXiv typically posts new batches on weekdays (Mon–Fri) in the late afternoon UTC

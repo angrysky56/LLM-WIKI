@@ -57,6 +57,12 @@ tags: [agency-state, active-issues]
 2. **Then:** Based on diagnostic findings, assign fixer to implement solution OR ticket-writer to draft support ticket for Hermes/Synapse team
 3. **Longer term:** Design ingest sanitization layer to prevent future garbage entities
 
+## Related
+- [[agents/markovian-dev-agency/now]]
+- [[index]]
+
+- [[now]]
+
 ## Connection to Prior Work
 
 - Research brief: `wiki/synthesis/research-brief-2026-05-13.md` — audit results

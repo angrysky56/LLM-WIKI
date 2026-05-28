@@ -10,6 +10,13 @@ sources: []
 
 ---
 
+## Related
+- [[synthesis/insights/francesca-albanese-sanctions-case-insight]]
+- [[index]]
+- [[concepts/legal-accountability-stub]]
+
+- [[legal-accountability-stub]]
+
 # Legal Accountability (stub)
 
 Concept representing judicial mechanisms that constrain executive or political power — such as court rulings that reverse executive decisions (e.g., sanctions removal).

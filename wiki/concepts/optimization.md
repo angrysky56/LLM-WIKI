@@ -14,6 +14,11 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/applied-mathematics]]
+- [[concepts/optimization]]
+- [[concepts/numerical-methods]]
+- [[index]]
+- [[optimization]]
 
 - [[applied-mathematics]]
 - [[numerical-methods]]

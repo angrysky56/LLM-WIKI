@@ -38,6 +38,12 @@ Zone 3 (catastrophic) ↔ Tier 1 Deontological
 Overrides(T1,T2), Overrides(T2,T3), Transitivity, Asymmetry, Irreflexivity, Totality.
 O9 (Totality) is REQUIRED: without it, a Utilitarian Override (T3 defeating T2) is possible.
 
+## Related
+- [[agents/skills/value-guardian/references/axioms]]
+- [[index]]
+
+- [[axioms]]
+
 ## Omega4 — Epistemic-Ethical Bridge (5 axioms)
 
 E1: RationalAgent → HasEpistemicObligations

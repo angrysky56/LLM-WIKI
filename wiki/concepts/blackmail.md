@@ -14,5 +14,11 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[sources/articles/emotion-concepts-llm]]
+- [[concepts/maximum-occupancy-principle]]
+- [[index]]
+- [[log]]
+- [[concepts/blackmail]]
+- [[blackmail]]
 
 - [[maximum-occupancy-principle]]

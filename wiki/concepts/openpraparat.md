@@ -46,6 +46,13 @@ The model combines:
 - Maintains 3D morphological/behavioral freedom throughout
 
 ## Connections
+- [[log]]
+- [[concepts/openpraparat]]
+- [[concepts/artificial-life]]
+- [[concepts/emergence]]
+- [[index]]
+- [[concepts/open-ended-evolution]]
+- [[openpraparat]]
 
 ### Related Concepts
 - [[open-ended-evolution]] — the broader property OpenPRAPARAT demonstrates

@@ -53,6 +53,23 @@ This wiki (LLM-WIKI) follows the LLM Wiki Pattern and extends it with [[project-
 See `wiki/sources/articles/llm-wiki-pattern.md` for the full source article.
 
 ## Connections
+- [[log]]
+- [[sources/documentation/obsidian-git-setup]]
+- [[entities/people/andrej-karpathy]]
+- [[entities/tools/obsidian]]
+- [[concepts/llm-wiki-pattern]]
+- [[concepts/rag]]
+- [[concepts/para-methodology]]
+- [[entities/projects/project-synapse]]
+- [[sources/documentation/obsidian-cli-skill]]
+- [[concepts/memex]]
+- [[index]]
+- [[synthesis/wiki-indexing-theory]]
+- [[sources/documentation/obsidian-para-byarbrough]]
+- [[concept-index]]
+- [[concepts/persistent-knowledge-compilation]]
+- [[sources/repositories/product-canvas]]
+- [[llm-wiki-pattern]]
 
 - [[andrej-karpathy]] — origin: authored the pattern
 - [[persistent-knowledge-compilation]] — the paradigm this instantiates
@@ -64,3 +81,10 @@ See `wiki/sources/articles/llm-wiki-pattern.md` for the full source article.
 - Concept: [[obsidian-cli-skill]]
 - Concept: [[obsidian-git-setup]]
 - Concept: [[obsidian-para-byarbrough]]
+
+- [[obsidian-para-byarbrough]]
+- [[obsidian-git-setup]]
+- [[obsidian-cli-skill]]
+- [[memex]]
+- [[para-methodology]]
+- [[persistent-knowledge-compilation]]

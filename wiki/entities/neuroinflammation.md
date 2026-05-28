@@ -35,6 +35,14 @@ Emerging 2026 research (Menin-D-serine-hypothalamus-anti-aging study) shows Meni
 | Multiple sclerosis | Autoimmune demyelination with strong neuroinflammatory component |
 
 ## Connections
+- [[index]]
+- [[entities/longevity-research]]
+- [[log]]
+- [[entities/neuroinflammation]]
+- [[entities/cognitive-decline]]
+- [[entities/hypothalamus]]
+- [[sources/articles/menin-d-serine-hypothalamus-anti-aging]]
+- [[neuroinflammation]]
 
 - [[cognitive-decline]] — downstream symptom of chronic neuroinflammation
 - [[hypothalamus]] — produces Menin which suppresses neuroinflammation; anatomical control center

@@ -29,6 +29,13 @@ confidence: 1.0
 - **Attachment Theory**: Secure base behavior for persona development.
 
 ## Connections
+- [[entities/projects/tys-repos/sentience-metaphysics]]
+- [[index]]
+- [[sources/repositories/sentience-metaphysics]]
+- [[entities/projects/tys-repos]]
+- [[synthesis/efhf-mcp-configuration]]
+- [[synthesis/seg-scientist-agent-design]]
+- [[sentience-metaphysics]]
 - [[agem]] — SEG provides the high-fidelity personas that AGEM orchestrates.
 - [[nexus]] — Integrates with the Emotional Control Plane of NEXUS.
 - [[tys-repos]] — Part of Ty's repository collection.

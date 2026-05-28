@@ -47,6 +47,19 @@ The [[agent-taxonomies]] define how different agent types leverage internal awar
 - **Epsilon** — Uses awareness to validate assumptions
 
 ## See Also
+- [[concepts/cognitive-architecture]]
+- [[concepts/hermes-meta-cognition]]
+- [[scratchpad/jobs/reports/ingest/ingest-2026-05-21-run]]
+- [[concepts/engineering-internal-awareness]]
+- [[entities/hermes-meta-cognition]]
+- [[concepts/activation-steering]]
+- [[concepts/metacognitive-architecture-closed-loop-self-regulation]]
+- [[concepts/self-correction]]
+- [[log]]
+- [[concepts/agentic-oversight]]
+- [[index]]
+- [[concepts/agent-taxonomies]]
+- [[engineering-internal-awareness]]
 
 - [[metacognitive-architecture-closed-loop-self-regulation]] — Neural implementation details
 - [[cognitive-architecture]] — MCM framework

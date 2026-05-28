@@ -14,6 +14,11 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[index]]
+- [[concepts/graph-theory]]
+- [[log]]
+- [[concepts/network-theory]]
+- [[network-theory]]
 
 - [[graph-theory]]
 - [[complexity]]

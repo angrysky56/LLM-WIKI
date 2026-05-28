@@ -214,6 +214,10 @@ SD-Search trades these multi-stage external pipelines for a single in-loop overh
 - **GiGPO** [Feng et al. 2025]: Exploits repeated environment states for step-level advantage groups; structural rather than self-distillation based
 
 ## Connections
+- [[concepts/sd-search]]
+- [[index]]
+- [[sources/papers/ma-sd-search-2026]]
+- [[ma-sd-search-2026]]
 
 - Concept: [[reward-modeling]] — step-level vs trajectory-level reward
 - Concept: [[rag]] — search-augmented reasoning context

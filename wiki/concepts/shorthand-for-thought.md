@@ -48,9 +48,32 @@ The "Grokked Reasoning Hypothesis" (from [[llm-reasoning]]) states that at suffi
 3. **Training implications**: If reasoning is compressed internally, can we train models to use more efficient shorthands rather than relying on explicit CoT?
 
 ## Connections
+- [[concepts/dynamical-systems]]
+- [[concepts/shorthand-for-thought]]
+- [[index]]
+- [[entities/tools/superbpe]]
+- [[concepts/imagination]]
+- [[synthesis/self-prompting-via-production-stage-architecture]]
+- [[concepts/supertokens]]
+- [[log]]
+- [[concepts/surprise-based-learning]]
+- [[concepts/creativity]]
+- [[concepts/generative-ai]]
+- [[concepts/mental-imagery]]
+- [[concepts/chain-of-thought]]
+- [[concepts/attractor-dynamics]]
+- [[concepts/load-bearing-reasoning]]
+- [[shorthand-for-thought]]
 
 - [[llm-reasoning]] — the broader capability this describes
 - [[load-bearing-reasoning]] — the interpretability framework for distinguishing reasoning types
 - [[chain-of-thought]] — explicit form of reasoning; shorthand is the internal compressed version
 - [[compression]] — reasoning shorthand as a special case of neural representation compression
 - [[supertokens]] — compressing CoT traces by merging structural phrases; related to shorthand encoding
+- [[mental-imagery]]
+- [[imagination]]
+- [[generative-ai]]
+- [[creativity]]
+- [[surprise-based-learning]]
+- [[dynamical-systems]]
+- [[attractor-dynamics]]

@@ -28,6 +28,12 @@ This connects to the ongoing OpenAI o3 math breakthrough story (Erdős conjectur
 - [[ai-scientific-discovery]] — links to existing thread on AI math proofs and autonomous research
 - **Stanford biomedical cluster** (related by theme): Stanford's three breakthroughs this week (T1D cure, arthritis pain treatment, warp drive loophole) all involve AI-assisted discovery — Gemini for Science represents Google's equivalent infrastructure investment
 
+## Related
+- [[index]]
+- [[sources/articles/gemini-for-science-google-deepmind-may-2026]]
+
+- [[gemini-for-science-google-deepmind-may-2026]]
+
 ## Caveats
 
 Gemini for Science is a platform announcement; the actual research outputs from its use will be what matters for evaluating whether AI is genuinely accelerating scientific discovery or merely accelerating hypothesis generation without commensurate improvement in experimental validation.

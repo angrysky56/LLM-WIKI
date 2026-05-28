@@ -14,5 +14,15 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/ci-cd]]
+- [[index]]
+- [[concepts/github-actions]]
+- [[sources/documentation/github-actions-troubleshooting]]
+- [[concepts/maximum-occupancy-principle]]
+- [[log]]
+- [[github-actions]]
 
 - [[maximum-occupancy-principle]]
+
+- [[ci-cd]]
+- [[github-actions-troubleshooting]]

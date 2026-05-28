@@ -29,6 +29,9 @@ This connects to several wiki threads:
 The fact that the solution involves an "elusive electronic effect" suggests this is a quantum-level phenomenon — which would make it one of the deepest layers of explanation in the entropic machinery thread.
 
 ## Connections
+- [[index]]
+- [[sources/news/2026-05/chirality-origin-life-2026-05-20]]
+- [[chirality-origin-life-2026-05-20]]
 - [[wolchover-life-force-2026]] — flagellar motor + proton motive force + entropic machinery
 - [[open-ended-evolution]] — symmetry-breaking as enabling condition
 - [[chen-molecular-cot-2026]] — molecular bonds and structural chirality

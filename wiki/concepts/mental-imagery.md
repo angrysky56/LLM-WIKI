@@ -63,6 +63,12 @@ The connection to human imagery is analogical — both involve generating intern
 Shorthand-for-thought (internal reasoning compression) may involve something analogous to imagery: compressed internal representations that preserve analog structure while reducing token-level detail.
 
 ## Connections
+- [[index]]
+- [[concepts/imagination]]
+- [[concepts/mental-imagery]]
+- [[log]]
+- [[concepts/how-does-imagination-really-work-in-the-brain-new-theory-upends-what-we-knew]]
+- [[mental-imagery]]
 
 - [[imagination]]: broader capacity that encompasses mental imagery
 - [[neuroscience]]: neural basis of imagery in frontoparietal networks

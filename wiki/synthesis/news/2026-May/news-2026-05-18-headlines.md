@@ -66,6 +66,12 @@ sources: Google News RSS (2026-05-18)
 
 ---
 
+## Related
+- [[index]]
+- [[synthesis/news/2026-may/news-2026-05-18-headlines]]
+
+- [[news-2026-05-18-headlines]]
+
 ## Synapse Timeline Entries Recorded
 
 | Entity | Fact | Date |

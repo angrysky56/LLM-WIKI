@@ -51,8 +51,21 @@ The project is currently in the **stabilization phase**.
 - Unit testing suite is established for all major components.
 
 ## Connections
+- [[entities/projects/tys-repos/agem]]
+- [[concepts/meta_harness_loop]]
+- [[concepts/schema-competition]]
+- [[index]]
+- [[concepts/hermes_agent]]
+- [[entities/projects/tys-repos]]
+- [[log]]
+- [[entities/projects/meta-harness]]
+- [[meta-harness]]
 - [[tys-repos]] — Part of Ty's core repository suite.
 - [[project-synapse]] — Integrated with Synapse for knowledge synthesis.
 - [[hermes-agent]] — Utilizes Hermes for autonomous evolution.
 - [[agem]] — Shares concepts with the Agent-Group Evolving Molecular system.
 - [[efhf]] — Architecture that provides the formal verification substrate (via [[mcp-logic]]).
+
+- [[meta_harness_loop]]
+- [[hermes_agent]]
+- [[schema-competition]]

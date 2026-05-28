@@ -16,6 +16,18 @@ sources: []
 **Reasoning** is referenced in the wiki as a general topic, but the specific treatment of reasoning as a load-bearing cognitive structure is documented at [[load-bearing-reasoning]].
 
 ## Connections
+- [[log]]
+- [[concepts/load-bearing-reasoning]]
+- [[concepts/logic]]
+- [[concepts/reasoning]]
+- [[sources/papers/mixture-of-recursions]]
+- [[concepts/scientific-reasoning]]
+- [[sources/papers/reward-inside-model-elhsr]]
+- [[index]]
+- [[concepts/mathematical-reasoning-ai]]
+- [[agents/skills/librarian-agent/skill]]
+- [[concepts/code-execution]]
+- [[reasoning]]
 - [[load-bearing-reasoning]] — primary documentation
 - Concept: [[code-execution]]
 - Concept: [[latent-reasoning]]

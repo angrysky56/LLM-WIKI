@@ -9,6 +9,12 @@ status: reference
 confidence: 0.5
 ---
 
+## Related
+
+- [[index]]
+- [[agents/skills/parallel-execution]]
+- [[agents/skills/agentic-decision-tree]]
+
 # Parallel Execution
 
 Stub page for [[parallel-execution]] agent skill.

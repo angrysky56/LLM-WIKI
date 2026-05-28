@@ -52,6 +52,23 @@ MQA and GQA significantly reduce KV cache size:
 These reduce memory proportionally, enabling longer contexts within the same memory budget.
 
 ## Connections
+- [[log]]
+- [[sources/papers/lcguard-kv-communication-guard-2026]]
+- [[concepts/kv-cache]]
+- [[concepts/inference-time-compute-scaling]]
+- [[concepts/mixture-of-experts]]
+- [[concepts/agent-leak-benchmark]]
+- [[scratchpad/jobs/reports/arxiv/arxiv-2026-05-22-top-papers]]
+- [[concepts/transformer-architecture]]
+- [[scratchpad/jobs/reports/researcher/discovery-2026-06-09]]
+- [[concepts/hidden-states]]
+- [[sources/mixture-of-recursions]]
+- [[concepts/llm-inference]]
+- [[index]]
+- [[concepts/attention-mechanism]]
+- [[concepts/namm]]
+- [[concepts/model-serving]]
+- [[kv-cache]]
 
 - [[transformer-architecture]] — applies to decoder-only transformers
 - [[attention-mechanism]] — the mechanism being optimized
@@ -63,6 +80,7 @@ These reduce memory proportionally, enabling longer contexts within the same mem
 - Concept: [[namm]]
 
 
+- [[model-serving]]
 ## Open Questions
 
 - **Prefix caching:** When multiple requests share a common prefix (system prompt), can the KV-cache be shared across requests? State-of-the-art serving systems handle this but it's not yet standardized.

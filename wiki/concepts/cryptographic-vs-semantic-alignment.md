@@ -56,6 +56,14 @@ Decentralized cryptographic infrastructure is necessary but not sufficient for s
 Where the moral weight actually has to live, if anywhere: see [[frame-transmission]].
 
 ## Related
+- [[concepts/institutional-capture-vs-species-framing]]
+- [[concepts/spin-vs-substrate]]
+- [[concepts/cryptographic-vs-semantic-alignment]]
+- [[concepts/frame-transmission]]
+- [[synthesis/ai-governance-substrate-analysis]]
+- [[index]]
+- [[concept-index]]
+- [[cryptographic-vs-semantic-alignment]]
 
 - [[institutional-capture-vs-species-framing]] — why central authority fails as the alternative
 - [[frame-transmission]] — what actually carries the moral work

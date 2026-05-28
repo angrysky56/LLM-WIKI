@@ -66,6 +66,11 @@ The compression achieved is a side effect of architecture search constrained by 
 All three share the core insight: when memory is fixed, the search over model variants (residual corrections, spectral perturbations, sub-network architectures) can outperform continued training of a single model. The bounded budget transforms from limitation to inductive bias — it forces the method to discover what actually matters for the task, rather than just training longer on everything.
 
 ## Connections
+- [[concepts/bounded-memory-budget-optimization]]
+- [[scratchpad/agent-sheets/researcher/carryover]]
+- [[index]]
+- [[log]]
+- [[bounded-memory-budget-optimization]]
 
 - [[qes]] — quantized fine-tuning with error feedback; saturation at extreme bit-widths
 - [[essa]] — gradient-free alignment via spectral mutations; memory-efficient search

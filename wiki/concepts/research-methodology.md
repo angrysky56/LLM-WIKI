@@ -22,6 +22,18 @@ Research methodology refers to the systematic, theoretical analysis of the metho
 A sound methodology ensures that the findings are valid, reliable, and reproducible. In [[critical-analysis]], evaluating the methodology is the most critical step in determining the strength of the research.
 
 ## Connections
+- [[concepts/scientific-writing]]
+- [[concepts/academic-peer-review]]
+- [[concepts/research-methodology]]
+- [[concepts/extraction-quality-audit]]
+- [[concepts/science]]
+- [[sources/articles/critical-review-scientific-article-guide]]
+- [[concepts/methodology]]
+- [[index]]
+- [[concepts/critical-analysis]]
+- [[concepts/scientific-method]]
+- [[log]]
+- [[research-methodology]]
 - [[scientific-writing]]
 - [[critical-analysis]]
 - [[academic-peer-review]]

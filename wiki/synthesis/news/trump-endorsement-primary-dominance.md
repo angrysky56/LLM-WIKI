@@ -14,6 +14,13 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[index]]
+- [[synthesis/news/trump-administration]]
+- [[log]]
+- [[synthesis/news/2026-republican-primaries]]
+- [[synthesis/news/trump-endorsement-primary-dominance]]
+- [[sources/news/bill-cassidy-republican-senator-who-voted-to-convict-trump-l]]
+- [[trump-endorsement-primary-dominance]]
 
 - [[trump-administration]]
 - [[2026-republican-primaries]]

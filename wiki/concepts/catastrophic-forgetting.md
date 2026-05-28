@@ -83,6 +83,28 @@ This makes MOP fundamentally different from all weight-level approaches: instead
 4. **Forgetting as feature, not bug**: In some cases, selective forgetting may be desirable — removing harmful or outdated knowledge. How do we make forgetting targeted rather than catastrophic?
 
 ## Connections
+- [[concepts/open-ended-evolution]]
+- [[concepts/catastrophic-forgetting]]
+- [[scratchpad/jobs/reports/librarian/audit-2026-05-23]]
+- [[concepts/scaling-laws]]
+- [[sources/articles/ml-evolution-benchmarking-protocol]]
+- [[concepts/control-llm]]
+- [[concepts/essa]]
+- [[concepts/continual-learning]]
+- [[concepts/model-editing]]
+- [[index]]
+- [[concepts/ramirez-ruiz-mop-2024]]
+- [[concepts/mop-architecture]]
+- [[concepts/llm-training]]
+- [[concepts/namm]]
+- [[scratchpad/jobs/reports/researcher/discovery-2026-07-20]]
+- [[concepts/parameter-efficient-fine-tuning]]
+- [[concepts/llama-nas]]
+- [[log]]
+- [[scratchpad/jobs/reports/researcher/discovery-2026-08-03]]
+- [[concepts/neural-architecture-search]]
+- [[concepts/lora]]
+- [[catastrophic-forgetting]]
 
 - [[llm-training]]: the primary context where catastrophic forgetting manifests in modern systems
 - [[control-llm]]: architectural mitigation from ML Evolution Benchmarking Protocol
@@ -94,3 +116,12 @@ This makes MOP fundamentally different from all weight-level approaches: instead
 - [[reinforcement-learning-from-human-feedback]]: RLHF/GRPO as an alignment technique that must manage its own forgetting risks
 - [[scaling-laws]]: the scale-dependent nature of emergent capabilities and their fragility to fine-tuning
 - [[open-ended-evolution]]: the connection to evolutionary algorithms where forgetting (death) is necessary for selection
+
+- [[llama-nas]]
+- [[model-editing]]
+- [[ml-evolution-benchmarking-protocol]]
+- [[continual-learning]]
+- [[parameter-efficient-fine-tuning]]
+- [[essa]]
+- [[lora]]
+- [[neural-architecture-search]]

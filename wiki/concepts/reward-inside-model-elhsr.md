@@ -14,6 +14,19 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[log]]
+- [[concepts/elhsr]]
+- [[concepts/reward-inside-model-elhsr]]
+- [[concepts/reasoning]]
+- [[concepts/reward-modeling]]
+- [[concepts/neural-interpretability]]
+- [[concepts/hidden-states]]
+- [[index]]
+- [[concepts/critical-analysis]]
+- [[concept-index]]
+- [[reward-inside-model-elhsr]]
 
 - [[reinforcement-learning]]
 - [[reward-modeling]]
+- [[elhsr]]
+- [[neural-interpretability]]

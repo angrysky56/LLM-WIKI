@@ -14,5 +14,11 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[index]]
+- [[concepts/maximum-occupancy-principle]]
+- [[log]]
+- [[concepts/java]]
+- [[sources/documentation/isabelle-installation]]
+- [[java]]
 
 - [[maximum-occupancy-principle]]

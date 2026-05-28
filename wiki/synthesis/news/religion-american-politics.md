@@ -14,6 +14,13 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[index]]
+- [[log]]
+- [[synthesis/news/christian-nationalism]]
+- [[synthesis/news/us-politics]]
+- [[sources/news/2026-05/trump-prayer-rally-2026-05-18]]
+- [[synthesis/news/religion-american-politics]]
+- [[religion-american-politics]]
 
 - [[us-politics]]
 - [[christian-nationalism]]

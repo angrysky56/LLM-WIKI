@@ -82,6 +82,12 @@ The gradient blocking problem also applies: when a token exits early, the early 
 3. **Generalization of exit thresholds**: A threshold tuned on one distribution may not transfer to another. Harder test sets may have more tokens requiring full depth.
 
 ## Connections
+- [[log]]
+- [[concepts/mixture-of-experts]]
+- [[concepts/early-exit-networks]]
+- [[index]]
+- [[concepts/adaptive-budget-learning]]
+- [[early-exit-networks]]
 
 - [[adaptive-budget-learning]] — gating model training; the early exit decision is a specific gating problem
 - [[mixture-of-experts]] — related via shared theme of conditional computation; MoE routes across experts, early exit routes across depth

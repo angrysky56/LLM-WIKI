@@ -14,6 +14,11 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/paperclip]]
+- [[log]]
+- [[concepts/paper-analysis]]
+- [[index]]
+- [[paper-analysis]]
 
 - [[research-tooling]]
 - [[paperclip]]

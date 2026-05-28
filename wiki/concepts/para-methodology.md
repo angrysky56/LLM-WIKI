@@ -47,6 +47,16 @@ Organize by **when you'll need it**, not **what it is**. A note about nutrition 
 | LLM-WIKI | `/home/ty/Documents/LLM-WIKI` | Karpathy-style wiki (complementary approach) |
 
 ## Connections
+- [[index]]
+- [[entities/tools/obsidian]]
+- [[concepts/design-thinking]]
+- [[synthesis/insights/para-knowledge-architecture-cohesion-insight]]
+- [[concepts/llm-wiki-pattern]]
+- [[concept-index]]
+- [[sources/articles/design-thinking-mit]]
+- [[log]]
+- [[concepts/para-methodology]]
+- [[para-methodology]]
 
 - [[obsidian-para-byarbrough]] — source template
 - [[obsidian]] — the tool this is implemented in for this vault

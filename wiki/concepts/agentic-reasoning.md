@@ -65,6 +65,14 @@ Sequential workflows (DAG-based) assume all steps are known upfront. ReAct is us
 **Agentic Research Pipeline limitations** — CUSP (2026) found that AI agents can generate plausible research directions but fail at temporal forecasting and feasibility prediction. The synthesis and evaluation stages of agentic pipelines have fundamental limitations — "scientific taste" is partly a temporal reasoning failure.
 
 ## Connections
+- [[sources/papers/clinseekagent-multimodal-clinical-evidence-seeking]]
+- [[concepts/maximum-occupancy-principle]]
+- [[concepts/multi-agent-reasoning]]
+- [[log]]
+- [[index]]
+- [[concepts/agentic-reasoning]]
+- [[concepts/hybrid-agents]]
+- [[agentic-reasoning]]
 
 - [[maximum-occupancy-principle]] — Layer 0 intrinsic motivation framework that drives goal formation and exploration bias in agentic reasoning; MOP Layer 0 generates objectives before reasoning begins
 - [[llm-reasoning]] — The foundational reasoning substrate; agentic reasoning layers ReAct on top of base reasoning capabilities
@@ -77,6 +85,8 @@ Sequential workflows (DAG-based) assume all steps are known upfront. ReAct is us
 - [[mcp-model-context-protocol]] — The tool ecosystem for agentic reasoning; MCP is what makes action execution tractable
 - [[code-agent]] — Code agents are the canonical agentic reasoning application; they execute code as the primary action
 
+- [[multi-agent-reasoning]]
+- [[hybrid-agents]]
 ## Open Questions
 
 1. **When does ReAct loop become pathological?** Excessive ReAct looping (infinite tool calls) is a known failure mode. What are the principled stopping signals — and can they be detected before the loop becomes costly?

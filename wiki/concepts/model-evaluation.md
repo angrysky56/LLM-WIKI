@@ -14,6 +14,11 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/model-properties]]
+- [[index]]
+- [[log]]
+- [[concepts/model-evaluation]]
+- [[model-evaluation]]
 
 - [[model-properties]]
 - [[benchmarking]]

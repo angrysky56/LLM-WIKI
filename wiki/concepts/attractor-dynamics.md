@@ -52,6 +52,12 @@ In LLMs, reasoning traces may correspond to movement through a state space with:
 The concept of [[criticality]] connects to attractor dynamics: a system at criticality has a specific balance between stability (deep attractors) and flexibility (shallow basins that allow exploration). Critical initialization in neural networks (see [[critical-initialization-biological-neural-networks]]) may correspond to a specific geometry of the energy landscape that balances expressivity and reliability.
 
 ## Connections
+- [[concepts/dynamical-systems]]
+- [[index]]
+- [[log]]
+- [[concepts/betteti-baggio-bullo-zampieri-idp-hopfield-2025]]
+- [[concepts/attractor-dynamics]]
+- [[attractor-dynamics]]
 
 - [[emergence]] — emergent capabilities may be reorganizations of the energy landscape creating/destroying attractor basins
 - [[neural-interpretability]] — representation geometry maps the structure of attractor basins in activation space

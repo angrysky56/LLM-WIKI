@@ -43,6 +43,12 @@ tags: [researcher, report]
 
 **Stub count**: 134 total stubs found (note: this count includes entities, not just concepts). Remaining high-value targets include llm-agent-architecture (very thin, MOP connections), code-generation (connects to swe-bench/code-agent chain), and video-llm (thin but connects to vision-language-alignment).
 
+## Related
+- [[scratchpad/jobs/reports/researcher/discovery-2026-06-09]]
+- [[index]]
+
+- [[discovery-2026-06-09]]
+
 ## Open Questions
 - **MoE routing collapse under RLHF**: is it happening in practice? No empirical data. Worth monitoring.
 - **Adaptive budget learning**: how to train the gating model. No clear paper yet.

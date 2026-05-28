@@ -20,5 +20,11 @@
 ## Excluded (monitor only)
 - [stories reviewed but not ingested, with brief justification]
 
+## Related
+- [[scratchpad/agent-sheets/news/templates/headlines-report]]
+- [[index]]
+
+- [[headlines-report]]
+
 ## Notable Patterns
 [trends observed in this cycle's news]

@@ -14,6 +14,11 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/signal-processing]]
+- [[index]]
+- [[log]]
+- [[concepts/digital-signal-processing]]
+- [[digital-signal-processing]]
 
 - [[signal-processing]]
 - [[digital-systems]]

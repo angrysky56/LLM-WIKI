@@ -69,6 +69,12 @@ but not urgent.
 
 ---
 
+## Related
+- [[scratchpad/jobs/reports/librarian/audit-2026-05-26-path-verification]]
+- [[index]]
+
+- [[audit-2026-05-26-path-verification]]
+
 ## Vault Health Score
 **9/10** — Instruction layer is fully consistent. One-off point deducted for
 un-migrated legacy headlines files (7 legacy files, low urgency, can be handled in a

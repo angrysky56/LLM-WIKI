@@ -14,6 +14,13 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[synthesis/news/ukraine-russia-war]]
+- [[synthesis/news/drone-warfare]]
+- [[index]]
+- [[log]]
+- [[sources/news/large-scale-ukrainian-drone-attack-kills-three-in-moscow-region]]
+- [[synthesis/news/large-scale-ukrainian-drone-attack-kills-three-in-moscow-reg]]
+- [[large-scale-ukrainian-drone-attack-kills-three-in-moscow-reg]]
 
 - [[ukraine-russia-war]]
 - [[drone-warfare]]

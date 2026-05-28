@@ -115,6 +115,12 @@ The first Starship Version 3 flight launched May 23, 2026 from SpaceX Starbase, 
 | What share of xAI is SpaceX acquiring? | 2025 acquisition completed; valuation specifics not publicly disclosed | BBC clipping |
 
 ## Connections
+- [[entities/projects/spacex]]
+- [[index]]
+- [[log]]
+- [[entities/xai]]
+- [[concepts/musk-velocity]]
+- [[spacex]]
 
 - [[spacex-ipo-spcx-2026]] — IPO tracking page (main thread)
 - [[spacex-ipo-governance-questions-may-2026]] — governance gap and Tesla spillover coverage

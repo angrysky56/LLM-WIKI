@@ -45,6 +45,12 @@ By issuing an encyclical on AI, the Vatican is doing what it did on nuclear weap
 - Other Trump officials were split — reflecting the broader internal division on AI policy
 - No response yet from State Department on what Vatican AI diplomacy means for US foreign policy
 
+## Related
+- [[index]]
+- [[synthesis/news/pope-leo-ai-encyclical-magnifica-humanitas-may-27-2026]]
+
+- [[pope-leo-ai-encyclical-magnifica-humanitas-may-27-2026]]
+
 ## Open Questions
 
 1. Will other AI companies begin engaging with the Vatican as a governance actor?

@@ -14,5 +14,15 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[index]]
+- [[concepts/business-model]]
+- [[concepts/saas-pricing]]
+- [[log]]
+- [[concepts/saas]]
+- [[concepts/maximum-occupancy-principle]]
+- [[business-model]]
 
 - [[maximum-occupancy-principle]]
+
+- [[saas-pricing]]
+- [[saas]]

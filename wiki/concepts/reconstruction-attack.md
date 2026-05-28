@@ -14,5 +14,11 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/reconstruction-attack]]
+- [[index]]
+- [[concepts/maximum-occupancy-principle]]
+- [[log]]
+- [[sources/papers/lcguard-kv-communication-guard-2026]]
+- [[reconstruction-attack]]
 
 - [[maximum-occupancy-principle]]

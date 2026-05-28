@@ -45,6 +45,13 @@ Agent skill definitions (SKILL.md files) teaching AI agents how to work with Obs
 - Reference `obsidian-markdown` for correct callout and embed syntax when writing wiki pages
 
 ## Connections
+- [[entities/tools/obsidian-skills-repo]]
+- [[index]]
+- [[entities/tools/obsidian]]
+- [[entities/projects/project-synapse]]
+- [[concept-index]]
+- [[log]]
+- [[obsidian-skills-repo]]
 
 - [[obsidian]] — the tool these skills extend
 - [[obsidian-cli-skill]] — the CLI skill (also from this repo)

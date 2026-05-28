@@ -26,6 +26,16 @@ Author of the [[llm-wiki-pattern]] — the foundational architecture this knowle
 - Connected the pattern to Vannevar Bush's Memex (1945)
 
 ## Connections
+- [[entities/people/andrej-karpathy]]
+- [[concepts/memex]]
+- [[index]]
+- [[entities/tools/obsidian]]
+- [[concepts/persistent-knowledge-compilation]]
+- [[sources/articles/llm-wiki-pattern]]
+- [[concepts/llm-wiki-pattern]]
+- [[concept-index]]
+- [[concepts/rag]]
+- [[andrej-karpathy]]
 
 - [[llm-wiki-pattern]] — his primary contribution to this system's design
 - [[rag]] — the stateless baseline his wiki pattern is explicitly an improvement on

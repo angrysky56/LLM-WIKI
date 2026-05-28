@@ -48,6 +48,9 @@ Human researchers provide feedback at each stage boundary, guiding the direction
 The paper demonstrates that LLM agents can go from research idea to published-quality paper with minimal human input, primarily for cost reduction and acceleration. The 84% cost decrease is the most cited result — suggesting autonomous research could become economically viable at scale.
 
 ## Connections
+- [[sources/papers/agent-lab-2501.04227]]
+- [[index]]
+- [[agent-lab-2501.04227]]
 
 - [[llm-agents]] — core capability
 - [[autonomous-research]] — related research direction

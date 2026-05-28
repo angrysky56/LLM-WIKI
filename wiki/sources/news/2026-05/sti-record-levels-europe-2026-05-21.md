@@ -36,6 +36,12 @@ European Centre for Disease Prevention and Control (ECDC) data reveals record le
 
 - ECDC, gonorrhoea, syphilis, Europe, STI epidemic, congenital syphilis, antibiotic resistance, public health, 303% increase, sexual health
 
+## Related
+- [[sources/news/2026-05/sti-record-levels-europe-2026-05-21]]
+- [[index]]
+
+- [[sti-record-levels-europe-2026-05-21]]
+
 ## Tags
 
 #health #europe #sti #epidemic #public-health

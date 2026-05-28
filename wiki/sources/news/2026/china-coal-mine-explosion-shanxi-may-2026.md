@@ -26,5 +26,8 @@ Vice Premier Liu has called for stricter safety inspections across China's minin
 - 2026-05-23: Six national rescue teams deployed; Vice Premier calls for safety inspections
 
 ## Connections
+- [[index]]
+- [[sources/news/2026/china-coal-mine-explosion-shanxi-may-2026]]
+- [[china-coal-mine-explosion-shanxi-may-2026]]
 - [[china-industrial-policy]] — industrial safety enforcement gaps
 - [[china-energy-security]] — Shanxi as major coal production base

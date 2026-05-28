@@ -32,6 +32,9 @@ Open-ended evolution (OEE) splits into two tiers: **weak OEE** (unbounded novelt
 | **AGEM Result** | 104 nodes, 7 communities, modularity 0.558, H¹=0 (no obstructions), entropy slope +0.69 |
 
 ## Connections
+- [[sources/articles/agem-ooe]]
+- [[index]]
+- [[agem-ooe]]
 
 - [[open-ended-evolution]] — related concept already in wiki
 - [[novelty-search]] — algorithmic approach to weak OEE

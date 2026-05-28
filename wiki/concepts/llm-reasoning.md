@@ -127,6 +127,21 @@ These are tasks humans handle routinely. The failure mode is not inability to pe
 Most current reasoning models do not monitor their own confidence at the step level. They generate reasoning chains as if all steps have equal epistemic weight, rather than flagging uncertainty. ProcessBench and similar work is beginning to address this.
 
 ## Connections
+- [[log]]
+- [[concepts/parallel-reasoning]]
+- [[concepts/why-llms-arent-scientists-yet]]
+- [[concepts/creativity]]
+- [[concepts/llm-reasoning]]
+- [[concepts/adaptive-computation]]
+- [[concepts/chain-of-thought]]
+- [[concepts/agentic-reasoning]]
+- [[concepts/multi-agent-reasoning]]
+- [[concepts/latent-reasoning]]
+- [[concepts/shorthand-for-thought]]
+- [[index]]
+- [[concepts/generative-ai]]
+- [[concepts/imagination]]
+- [[llm-reasoning]]
 
 - [[mixture-of-experts]] — architectural substrate for scaling parameter count; route collapse under RLHF affects reasoning model fine-tuning
 - [[process-reward-model]] — the reward mechanism needed for coherent reasoning chain learning
@@ -138,6 +153,13 @@ Most current reasoning models do not monitor their own confidence at the step le
 - [[latent-reasoning]] — the distinction between explicit CoT and implicit reasoning encoded in hidden states
 - [[world-model]] — reasoning requires a world model to avoid generating logically inconsistent chains
 
+- [[parallel-reasoning]]
+- [[imagination]]
+- [[multi-agent-reasoning]]
+- [[generative-ai]]
+- [[creativity]]
+- [[chain-of-thought]]
+- [[agentic-reasoning]]
 ## Open Questions
 
 1. **Abstraction**: Can reasoning be disentangled from surface pattern matching, or is it always entangled? Current evidence suggests partial disentanglement at scale.

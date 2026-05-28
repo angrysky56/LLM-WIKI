@@ -132,6 +132,30 @@ For a personal AI agent handling a mix of tasks:
 | Thinker | 72B | Multi-hop avg | 0.430 EM | 72B teacher |
 
 ## Connections
+- [[concepts/kv-cache]]
+- [[concepts/in-context-learning]]
+- [[concepts/group-relative-policy-optimization]]
+- [[concepts/hidden-states]]
+- [[concepts/chain-of-thought]]
+- [[concepts/llm-inference]]
+- [[concepts/reward-modeling]]
+- [[concepts/taylors-law]]
+- [[concepts/load-bearing-reasoning]]
+- [[concepts/reward-hacking]]
+- [[scratchpad/jobs/reports/researcher/discovery-2026-05-21]]
+- [[concepts/mop-and-rlhf-interaction]]
+- [[concepts/inference-time-compute-scaling]]
+- [[concepts/mixture-of-experts]]
+- [[concepts/process-reward-model]]
+- [[index]]
+- [[concepts/hybrid-reward-models]]
+- [[concepts/model-serving]]
+- [[concepts/bradley-terry]]
+- [[log]]
+- [[scratchpad/agent-sheets/librarian/carryover]]
+- [[concepts/parallel-reasoning]]
+- [[concepts/scaling-laws]]
+- [[inference-time-compute-scaling]]
 
 - [[reward-modeling]] — BoN is the primary application; ORM vs PRM distinction is central
 - [[hidden-states]] — ELHSR extracts reward signals from hidden states
@@ -150,6 +174,9 @@ For a personal AI agent handling a mix of tasks:
 - Concept: [[taylors-law]]
 
 
+- [[model-serving]]
+- [[parallel-reasoning]]
+- [[bradley-terry]]
 ## Open Questions
 
 1. **Optimal budget allocation**: What is the right compute budget for a given problem difficulty? Current approaches are heuristic — adaptive gating models show promise but no unified theory exists.

@@ -14,5 +14,13 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[index]]
+- [[concepts/maximum-occupancy-principle]]
+- [[log]]
+- [[concepts/retrieval-augmented-generation]]
+- [[sources/papers/is-grep-all-you-need]]
+- [[retrieval-augmented-generation]]
 
 - [[maximum-occupancy-principle]]
+
+- [[is-grep-all-you-need]]

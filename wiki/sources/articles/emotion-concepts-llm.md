@@ -38,6 +38,9 @@ The research suggests a "case for taking anthropomorphic reasoning seriously." W
 - **Dataset Curation:** Pretraining data composition directly shapes the model's emotional architecture.
 
 ## Connections
+- [[sources/articles/emotion-concepts-llm]]
+- [[index]]
+- [[emotion-concepts-llm]]
 - [[neural-interpretability]]
 - [[ai-safety]]
 - [[steering-vectors]]

@@ -14,6 +14,12 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/agile]]
+- [[concepts/lean-manufacturing]]
+- [[sources/articles/kanban-development]]
+- [[index]]
+- [[log]]
+- [[lean-manufacturing]]
 
 - [[process-management]]
 - [[agile]]

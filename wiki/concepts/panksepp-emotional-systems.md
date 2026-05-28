@@ -14,5 +14,10 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[index]]
+- [[log]]
+- [[concepts/machine-psychology]]
+- [[concepts/panksepp-emotional-systems]]
+- [[panksepp-emotional-systems]]
 
 - [[machine-psychology]]

@@ -14,6 +14,16 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/bounded-memory-budget-optimization]]
+- [[concepts/shorthand-for-thought]]
+- [[concepts/compression]]
+- [[index]]
+- [[concepts/llama-nas]]
+- [[log]]
+- [[scratchpad/jobs/reports/researcher/discovery-2026-08-03]]
+- [[compression]]
 
 - [[information-theory]]
 - [[representation-learning]]
+- [[llama-nas]]
+- [[bounded-memory-budget-optimization]]

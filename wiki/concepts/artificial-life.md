@@ -14,6 +14,12 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[index]]
+- [[concepts/artificial-life]]
+- [[log]]
+- [[concepts/openpraparat]]
+- [[concepts/open-ended-evolution]]
+- [[artificial-life]]
 
 - [[openpraparat]]
 - [[open-ended-evolution]]

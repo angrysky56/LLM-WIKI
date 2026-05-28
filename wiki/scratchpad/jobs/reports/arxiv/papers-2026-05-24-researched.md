@@ -18,6 +18,12 @@ Traditional safety benchmarks evaluate text outputs. Boiling the Frog shows that
 
 **Wiki:** [[boiling-frog-agentic-safety-2026]]
 
+## Related
+- [[scratchpad/jobs/reports/arxiv/papers-2026-05-24-researched]]
+- [[index]]
+
+- [[papers-2026-05-24-researched]]
+
 ## 2605.22681 — Forecasting Scientific Progress with Artificial Intelligence
 CUSP benchmark (4,760 scientific events) shows frontier models can generate plausible research directions but fail to predict feasibility, timing, and achieve systematic overconfidence. Critical: performance is largely insensitive to training cutoff — failures aren't explained by knowledge exposure alone. The post-event bias (models learn better from having seen answers than from predicting forward) suggests a fundamental world-model limitation. Relevant to agentic research's "scientific taste" failure mode and to EFHF's advanced-reasoning confidence tracking layer — unreliable uncertainty estimation for scientific forecasting mirrors unreliable self-assessment of capabilities.
 

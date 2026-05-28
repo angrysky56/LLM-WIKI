@@ -14,5 +14,11 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[index]]
+- [[sources/papers/lcguard-kv-communication-guard-2026]]
+- [[concepts/maximum-occupancy-principle]]
+- [[concepts/privacy-mas]]
+- [[log]]
+- [[privacy-mas]]
 
 - [[maximum-occupancy-principle]]

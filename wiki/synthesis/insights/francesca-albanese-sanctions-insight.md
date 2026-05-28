@@ -25,6 +25,12 @@ The following facts formed the evidence chain for this insight:
 - Albanese, a human rights expert, has been outspoken in her criticism of Israeli policies towards Palestinians, and she has issued reports documenting Israel's ongoing genocide in Gaza. (source: `raw/us-says-it-has-not-changed-its-stance-on-sanctioning-frances.md`)
 - While Albanese is Italian, her daughter is a US citizen, and she has assets in the country. (source: `raw/us-says-it-has-not-changed-its-stance-on-sanctioning-frances.md`)
 
+## Related
+- [[index]]
+- [[synthesis/insights/francesca-albanese-sanctions-insight]]
+
+- [[francesca-albanese-sanctions-insight]]
+
 ## Metadata
 
 - **Zettel ID**: insight_6cbcc9b4

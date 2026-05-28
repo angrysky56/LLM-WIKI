@@ -14,6 +14,11 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[index]]
+- [[concepts/electronics]]
+- [[concepts/digital-systems]]
+- [[concepts/digital-electronics]]
+- [[digital-electronics]]
 
 - [[digital-systems]]
 - [[electronics]]

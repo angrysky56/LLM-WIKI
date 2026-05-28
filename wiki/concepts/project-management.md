@@ -14,6 +14,13 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/process-management]]
+- [[log]]
+- [[concepts/project-management]]
+- [[index]]
+- [[concepts/scrum]]
+- [[project-management]]
 
 - [[agile]]
 - [[process-management]]
+- [[scrum]]

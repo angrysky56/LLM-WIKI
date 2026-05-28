@@ -10,6 +10,13 @@ sources: []
 
 ---
 
+## Related
+- [[entities/note-taking-systems-stub]]
+- [[index]]
+- [[synthesis/insights/para-knowledge-architecture-cohesion-insight]]
+
+- [[note-taking-systems-stub]]
+
 # Note-Taking Systems (stub)
 
 Placeholder — page not yet created with substantive content.

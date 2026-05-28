@@ -9,6 +9,11 @@ status: reference
 confidence: 0.5
 ---
 
+## Related
+
+- [[index]]
+- [[agents/skills/value-guardian]]
+
 # Value Guardian
 
 Stub page for [[value-guardian]] agent skill.

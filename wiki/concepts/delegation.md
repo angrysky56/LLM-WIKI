@@ -89,6 +89,20 @@ The key distinction:
 A system with delegation but no planning gets sub-tasks done but may produce incoherent results. A system with planning but no delegation can adapt but is bounded by single-agent context limits. The combination — delegation with a coordinator that plans — enables scalable complex task execution.
 
 ## Connections
+- [[concepts/agentic-oversight]]
+- [[concepts/subagent-delegation]]
+- [[sources/articles/choosing-right-agentic-design-pattern]]
+- [[index]]
+- [[concepts/delegation]]
+- [[log]]
+- [[sources/documentation/create-custom-subagents]]
+- [[concepts/multi-agent-coordination]]
+- [[concepts/agentic-hierarchy]]
+- [[concepts/agent-onboarding]]
+- [[sources/documentation/subagent-delegation-hermes-agent]]
+- [[concepts/markovian-carryover]]
+- [[concepts/multi-agent-llm-systems]]
+- [[delegation]]
 
 - [[agentic-hierarchy]] — organizational structures that make delegation structured and systematic; delegation is the mechanism that moves work down hierarchy levels
 - [[hermes-agent]] — framework with native `delegate_task` support for delegation primitives

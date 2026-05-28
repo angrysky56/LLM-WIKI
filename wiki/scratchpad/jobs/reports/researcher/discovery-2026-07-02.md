@@ -62,6 +62,12 @@ Confidence: 0.75 (hypothetical framework, empirical support still developing)
 - Before: 341 stubs (verified re-run)
 - After: 339 stubs (net -2 from 2 upgrades this cycle)
 
+## Related
+- [[index]]
+- [[scratchpad/jobs/reports/researcher/discovery-2026-07-02]]
+
+- [[discovery-2026-07-02]]
+
 ## Kanban Status
 - Reward hacking detectability: ANSWERED (Jun 30 carryover confirmed). Task `t_7b049efb59522401` should be marked done.
 - No new open items created this cycle.

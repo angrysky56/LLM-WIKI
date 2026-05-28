@@ -14,5 +14,9 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/mechanism-design]]
+- [[concepts/shapley-values]]
+- [[index]]
+- [[mechanism-design]]
 
 - [[shapley-values]]

@@ -14,5 +14,11 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[log]]
+- [[synthesis/nairobi-protocol-gde]]
+- [[concepts/content-addressed-storage]]
+- [[index]]
+- [[concepts/maximum-occupancy-principle]]
+- [[content-addressed-storage]]
 
 - [[maximum-occupancy-principle]]

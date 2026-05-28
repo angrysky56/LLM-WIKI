@@ -73,6 +73,7 @@ Where agentic-hierarchy is about coordination structure, agentic-oversight is ab
 - [[institutional-accountability]] — the organizational analogue of oversight for institutions rather than AI systems
 - [[agentic-hierarchy]] — the organizational patterns within which oversight operates
 - [[bounded-structured-memory]] — memory architecture that supports oversight through persistent logging
+- [[autonomous-agents]] — the primary subject of agentic oversight; oversight mechanisms are designed to supervise autonomous agent behavior
 - [[delegation]] — the mechanism by which tasks pass between oversight levels
 - Concept: [[accountability]]
 - Concept: [[ai-security]]

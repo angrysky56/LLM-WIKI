@@ -49,6 +49,9 @@ SAE features are:
 - **Dense in information** — a single SAE feature encodes rich causal information about how the model processes a given training sample
 
 ## Connections
+- [[sources/papers/saerl]]
+- [[index]]
+- [[saerl]]
 
 - [[sae]] — direct use of Sparse Autoencoders as feature extractors
 - [[mechanistic-interpretability]] — SAE features as "model internals" used for data decisions

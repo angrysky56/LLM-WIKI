@@ -14,5 +14,12 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/cri]]
+- [[concepts/maximum-occupancy-principle]]
+- [[log]]
+- [[scratchpad/agent-sheets/librarian/carryover]]
+- [[sources/papers/deltabox-stateful-agent-checkpoint-rollback-2026]]
+- [[index]]
+- [[cri]]
 
 - [[maximum-occupancy-principle]]

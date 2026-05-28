@@ -74,6 +74,18 @@ ITP tools are increasingly relevant to AI safety research:
 - **Scalability**: Full verification of complex systems (OS kernels, compilers) requires person-years
 
 ## Connections
+- [[entities/tools/isabelle-hol]]
+- [[concepts/formal-methods]]
+- [[concepts/load-bearing-reasoning]]
+- [[concepts/formal-verification]]
+- [[concepts/mathematical-reasoning]]
+- [[index]]
+- [[concepts/category-theory]]
+- [[concepts/proof-assistant]]
+- [[log]]
+- [[concepts/interactive-theorem-proving]]
+- [[concepts/isabelle-hol]]
+- [[interactive-theorem-proving]]
 
 - [[formal-methods]] — the broader field
 - [[formal-verification]] — applying ITP to verify software/hardware systems

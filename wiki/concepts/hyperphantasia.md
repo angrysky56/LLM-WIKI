@@ -18,6 +18,14 @@ confidence: 0.8
 Under the [[spontaneous-activity-reshaping-hypothesis]], hyperphantasia represents the highly efficient end of the "sculpting" spectrum. These individuals are able to precisely suppress background neural noise to let complex, stable signals emerge.
 
 ## Connections
+- [[concepts/aphantasia]]
+- [[concept-index]]
+- [[sources/articles/how-does-imagination-really-work-in-the-brain-new-theory-upends-what-we-knew]]
+- [[concepts/hyperphantasia]]
+- [[concepts/spontaneous-activity-reshaping-hypothesis]]
+- [[log]]
+- [[index]]
+- [[hyperphantasia]]
 
 - **Concepts:** [[aphantasia]], [[spontaneous-activity-reshaping-hypothesis]]
 - Concept: [[how-does-imagination-really-work-in-the-brain-new-theory-upends-what-we-knew]]

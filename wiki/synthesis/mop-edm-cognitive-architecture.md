@@ -193,6 +193,26 @@ MOP formally proves: when utility serves entropy (possibility), agents survive, 
 
 
 ## Connections
+- [[concepts/epistemic-energy]]
+- [[concepts/working-memory]]
+- [[concepts/mop-and-rlhf-interaction]]
+- [[index]]
+- [[synthesis/causal-state-edm-ood-isomorphism]]
+- [[concepts/world-model]]
+- [[synthesis/minimal-generative-architectures]]
+- [[sources/articles/prd-ralph-loop-mop-gemini]]
+- [[entities/tools/mcp-logic]]
+- [[entities/projects/mop-explorer]]
+- [[sources/papers/ramirez-ruiz-mop-2024]]
+- [[entities/projects/efhf]]
+- [[concepts/neural-interpretability]]
+- [[concepts/agent-native-design]]
+- [[concepts/maximum-occupancy-principle]]
+- [[entities/tools/hipai-montague]]
+- [[scratchpad/jobs/reports/researcher/discovery-2026-05-26]]
+- [[synthesis/intelligence-as-entropic-sculpting]]
+- [[synthesis/mop-edm-cognitive-architecture]]
+- [[mop-edm-cognitive-architecture]]
 
 - [[maximum-occupancy-principle]] — foundational theory
 - [[ramirez-ruiz-mop-2024]] — source paper

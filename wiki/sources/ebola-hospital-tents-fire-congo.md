@@ -31,6 +31,9 @@ Grieving relatives and friends of a suspected Ebola victim attempted to retrieve
 3. **WHO emergency declaration at risk**: With 600+ suspected cases and 139+ deaths as of May 20, the outbreak is already at a scale that warrants WHO emergency committee review. Community violence against treatment centers will likely push the declaration decision sooner.
 
 ## Connections
+- [[index]]
+- [[sources/ebola-hospital-tents-fire-congo]]
+- [[ebola-hospital-tents-fire-congo]]
 - [[ebola-outbreak-2026]] — direct continuation
 - [[institutional-accountability]] — failed state infrastructure and community trust collapse
 - [[public-health-governance]] — international response struggling to contain outbreak

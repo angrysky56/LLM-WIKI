@@ -39,6 +39,12 @@
 | 21 | `analyze_semantic_structure` | Montague Grammar parsing | `text`, `include_logical_form` |
 | 22 | `ingest_text` | Process text into knowledge graph | `text`, `source`, `metadata` |
 
+## Related
+- [[index]]
+- [[scratchpad/agent-sheets/librarian/references/mcp-tools]]
+
+- [[mcp-tools]]
+
 ## Quick Lookup
 
 | Task | Tool(s) |

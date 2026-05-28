@@ -83,6 +83,19 @@ Formal verification of reasoning chains requires mathematical reasoning:
 The [[load-bearing-reasoning]] framework identifies which inference steps are essential (load-bearing) vs scaffolding. Mathematical reasoning is the paradigm case where every step should be load-bearing — if a proof step isn't essential to the conclusion, the proof is wrong.
 
 ## Connections
+- [[scratchpad/jobs/reports/researcher/discovery-2026-06-08]]
+- [[concepts/interactive-theorem-proving]]
+- [[concepts/formal-methods]]
+- [[concepts/scaling-laws]]
+- [[concepts/load-bearing-reasoning]]
+- [[concepts/formal-verification]]
+- [[concepts/mathematical-reasoning]]
+- [[index]]
+- [[concepts/categorical-reasoning]]
+- [[concepts/category-theory]]
+- [[concepts/proof-assistant]]
+- [[log]]
+- [[mathematical-reasoning]]
 
 - [[category-theory]] — the highest level of mathematical abstraction
 - [[categorical-reasoning]] — reasoning using category-theoretic structures

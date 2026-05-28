@@ -14,5 +14,12 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[scratchpad/agent-sheets/insights/skill]]
+- [[synthesis/synapse-retrieval-architecture]]
+- [[concepts/maximum-occupancy-principle]]
+- [[log]]
+- [[concepts/wikilinks]]
+- [[index]]
+- [[wikilinks]]
 
 - [[maximum-occupancy-principle]]

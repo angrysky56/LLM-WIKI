@@ -26,6 +26,9 @@ From carryover: China's great-power signalling (Cuba, Taiwan, South China Sea) w
 The China-Cuba axis is particularly sensitive because it represents a potential vector for Chinese military logistics or intelligence sharing in the Western Hemisphere — something the US has historically regarded as an unacceptable security threat. The Raúl Castro indictment adds another layer, as it signals the US is willing to use law enforcement tools as geopolitical pressure.
 
 ## Connections
+- [[index]]
+- [[sources/news/2026/us-surveillance-cuba-flights-2026]]
+- [[us-surveillance-cuba-flights-2026]]
 - [[china-cuba-tensions]] — direct continuation of monitoring China-Cuba escalation signals
 - [[institutional-capture-vs-species-framing]] — US using law enforcement as geopolitical tools parallels institutional capture concerns
 

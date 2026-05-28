@@ -105,6 +105,12 @@ A natural synthesis: MoR-style routing could identify *which tokens need determi
 
 ---
 
+## Related
+- [[sources/mixture-of-recursions]]
+- [[index]]
+
+- [[mixture-of-recursions]]
+
 ## Related Pages
 
 - [[causal-state-edm-ood-isomorphism]] — token routing depth as causal state complexity proxy; disruption signal connection

@@ -14,5 +14,11 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/iran-ceasefire]]
+- [[index]]
+- [[concepts/maximum-occupancy-principle]]
+- [[log]]
+- [[sources/news/2026/strait-of-hormuz-iran-claim-2026]]
+- [[iran-ceasefire]]
 
 - [[maximum-occupancy-principle]]

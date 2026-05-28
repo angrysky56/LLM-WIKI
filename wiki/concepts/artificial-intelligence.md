@@ -14,6 +14,14 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/multimodal-ai]]
+- [[concepts/artificial-intelligence]]
+- [[concepts/machine-learning]]
+- [[index]]
+- [[log]]
+- [[synthesis/news/ai-healthcare]]
+- [[artificial-intelligence]]
 
 - [[machine-learning]]
 - [[neural-networks]]
+- [[multimodal-ai]]

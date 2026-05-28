@@ -64,9 +64,23 @@ The architecture treats verification as a first-class concern, not a post-hoc ch
 - **Human escalation criteria**: When should the agent escalate to human review? The threshold determines practical usefulness vs. safety tradeoff.
 
 ## Connections
+- [[concepts/code-agent]]
+- [[concepts/agent-leak-benchmark]]
+- [[concepts/world-model]]
+- [[concepts/agentic-reasoning]]
+- [[sources/papers/agent-lab-2501.04227]]
+- [[concepts/autonomous-research]]
+- [[scratchpad/jobs/reports/researcher/discovery-2026-06-09]]
+- [[concepts/agentic-research]]
+- [[index]]
+- [[concepts/maximum-occupancy-principle]]
+- [[log]]
+- [[scratchpad/agent-sheets/librarian/carryover]]
+- [[autonomous-research]]
 
 - [[agentic-research]] — related concept (same underlying idea, different naming)
 - [[world-model]] — the cognitive representation an autonomous agent maintains about its experimental environment
 - [[maximum-occupancy-principle]] — MOP as Layer 0 intrinsic motivation may help prevent the "novelty bias" failure mode (exploring new configurations vs. defaulting to standard ones)
 - [[code-agent]] — code agents are often the execution arm of autonomous research pipelines
 - [[agent-leak-benchmark]] — related: benchmark for agent information leakage
+- [[agentic-reasoning]]

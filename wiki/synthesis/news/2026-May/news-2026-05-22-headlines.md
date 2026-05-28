@@ -63,6 +63,12 @@ updated: 2026-05-22
 - Iran ceasefire/strait situation (fragile hold; no major escalation or breakthrough today)
 - No celebrity, sports, or entertainment stories
 
+## Related
+- [[synthesis/news/2026-may/news-2026-05-22-headlines]]
+- [[index]]
+
+- [[news-2026-05-22-headlines]]
+
 ## Sources
 
 - ESA / Space Daily (SMILE)

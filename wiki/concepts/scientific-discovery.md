@@ -14,6 +14,13 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/why-llms-arent-scientists-yet]]
+- [[concepts/scientific-writing]]
+- [[index]]
+- [[concepts/scientific-discovery]]
+- [[concepts/ai-research]]
+- [[log]]
+- [[scientific-discovery]]
 
 - [[ai-research]]
 - [[scientific-writing]]

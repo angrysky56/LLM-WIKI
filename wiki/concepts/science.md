@@ -14,6 +14,12 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/research-methodology]]
+- [[concepts/science]]
+- [[index]]
+- [[log]]
+- [[concepts/engineering]]
+- [[science]]
 
 - [[engineering]]
 - [[research-methodology]]

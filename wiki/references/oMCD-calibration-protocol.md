@@ -223,6 +223,12 @@ Before deploying β, γ to production:
 - γ calibration is particularly sensitive to the perturbation distribution assumption. If empirical `δ_i` shows heavy tails (kurtosis > 3), consider switching from Gaussian to Student-t perturbation with estimated degrees of freedom.
 - The separation between `ValueRepresentationLayer` and `DeliberationLayer` should be enforced at the type level, not just by convention — use private attributes (`_μ`, `_σ`) with no public setters.
 
+## Related
+- [[index]]
+- [[references/omcd-calibration-protocol]]
+
+- [[omcd-calibration-protocol]]
+
 ## References
 
 - oMCD model specification: `wiki/concepts/oMCD.md`

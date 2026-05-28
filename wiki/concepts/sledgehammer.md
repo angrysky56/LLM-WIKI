@@ -14,5 +14,11 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[log]]
+- [[sources/documentation/isabelle-installation]]
+- [[concepts/sledgehammer]]
+- [[index]]
+- [[concepts/maximum-occupancy-principle]]
+- [[sledgehammer]]
 
 - [[maximum-occupancy-principle]]

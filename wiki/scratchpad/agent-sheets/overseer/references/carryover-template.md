@@ -51,6 +51,12 @@ tags: [{agent-name}, carryover]
 | `## What Remains` | Yes | Checklist `- [ ]` format for open items |
 | `## Kanban Status` | Optional | Tracks which items are already on kanban |
 
+## Related
+- [[index]]
+- [[scratchpad/agent-sheets/overseer/references/carryover-template]]
+
+- [[carryover-template]]
+
 ## Rules
 
 1. **`updated` must be today's date** — not a future date, not yesterday. This is the

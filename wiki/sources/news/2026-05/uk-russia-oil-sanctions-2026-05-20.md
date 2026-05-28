@@ -38,6 +38,10 @@ This decision could have far-reaching implications:
 - **Implication**: Potential weakening of broader Russia sanctions regime
 
 ## Connections
+- [[index]]
+- [[synthesis/news/2026-may/news-2026-05-20-headlines]]
+- [[sources/news/2026-05/uk-russia-oil-sanctions-2026-05-20]]
+- [[uk-russia-oil-sanctions-2026-05-20]]
 
 - [[russia-sanctions-regime]] — UK move could signal regime fragility
 - [[ai-energy-economics]] — Energy prices affect AI infrastructure costs

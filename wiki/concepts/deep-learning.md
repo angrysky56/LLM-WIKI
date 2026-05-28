@@ -14,6 +14,18 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[log]]
+- [[concepts/neural-networks]]
+- [[concepts/deep-learning]]
+- [[concepts/transformers]]
+- [[concepts/representation-learning]]
+- [[concepts/machine-learning]]
+- [[concepts/feature-learning]]
+- [[index]]
+- [[deep-learning]]
 
 - [[neural-networks]]
 - [[machine-learning]]
+- [[feature-learning]]
+- [[transformers]]
+- [[representation-learning]]

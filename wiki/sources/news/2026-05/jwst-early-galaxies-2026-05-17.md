@@ -26,6 +26,15 @@ The James Webb Space Telescope is currently observing galaxies that formed appro
 - Sky & Telescope: "Webb Telescope Reveals Brown Dwarfs Masquerading as Early Galaxies"
 - SciTechDaily: "Astronomers Stunned by Ancient Galaxy With No Spin"
 
+## Related
+- [[index]]
+- [[sources/news/2026-05/jwst-early-galaxies-2026-05-17]]
+- [[synthesis/news/2026-may/news-2026-05-18-headlines]]
+- [[jwst-early-galaxies-2026-05-17]]
+- [[jwst-early-galaxies-2026-05-17.md]]
+
+- [[wiki/sources/news/2026-05/jwst-early-galaxies-2026-05-17.md]]
+
 ## Wiki Connections
 - [[james-webb-space-telescope]]
 - [[early-universe]]

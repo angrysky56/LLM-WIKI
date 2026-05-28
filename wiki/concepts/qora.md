@@ -97,6 +97,14 @@ QLoRA sits at the intersection of two major wiki clusters:
 4. Does the NF4 calibration set matter significantly? Does a task-specific calibration set improve downstream performance?
 
 ## See Also
+- [[concepts/qora]]
+- [[scratchpad/jobs/reports/researcher/discovery-2026-07-15]]
+- [[scratchpad/agent-sheets/researcher/carryover]]
+- [[index]]
+- [[scratchpad/jobs/reports/overseer/overseer-2026-08-05]]
+- [[concepts/parameter-efficient-fine-tuning]]
+- [[log]]
+- [[qora]]
 
 - [[parameter-efficient-fine-tuning]] — QLoRA as a PEFT method
 - [[lora]] — the rank-decomposition base that QLoRA builds on

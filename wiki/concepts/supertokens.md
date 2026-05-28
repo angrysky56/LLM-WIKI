@@ -26,6 +26,17 @@ In this framework, supertokens represent discrete cognitive steps:
 Instead of viewing transitions between supertokens as "Wolfram-style physics," they are better analyzed as a **Causal Network of Intent**. By measuring which supertoken transitions are **load-bearing** (affecting the final conclusion) vs. **scaffolding** (statistical noise reduction), we can perform **Causal Mediation Analysis** (Pearl-flavored) on the model's internal "monologue."
 
 ## Connections
+- [[concepts/neural-interpretability]]
+- [[concepts/shorthand-for-thought]]
+- [[index]]
+- [[synthesis/self-prompting-via-production-stage-architecture]]
+- [[concepts/supertokens]]
+- [[log]]
+- [[concepts/load-bearing-reasoning]]
+- [[concepts/chain-of-thought]]
+- [[entities/tools/superbpe]]
+- [[sources/articles/shorthand-for-thought]]
+- [[supertokens]]
 - Source: [[shorthand-for-thought|Shorthand for Thought]]
 - Concept: [[load-bearing-reasoning]]
 - Concept: [[chain-of-thought]]

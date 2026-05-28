@@ -14,5 +14,11 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/programmatic-seo]]
+- [[index]]
+- [[sources/articles/solo-preneur]]
+- [[concepts/maximum-occupancy-principle]]
+- [[log]]
+- [[programmatic-seo]]
 
 - [[maximum-occupancy-principle]]

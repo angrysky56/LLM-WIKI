@@ -34,6 +34,12 @@ WIKI = os.environ.get("WIKI_PATH", "/home/ty/Documents/LLM-WIKI")
 PAPER_STORAGE = "/home/ty/Documents/paper-research"
 ```
 
+## Related
+- [[index]]
+- [[scratchpad/agent-sheets/arxiv/references/patterns]]
+
+- [[patterns]]
+
 ## Error Handling
 
 | Failure | Action |

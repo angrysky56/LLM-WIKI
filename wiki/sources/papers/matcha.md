@@ -47,6 +47,10 @@ Across **8 public benchmarks** (QA, image captioning, NLI, summarization, semant
 **Example**: "Drinking coffee does not affect your growth" vs "Drinking coffee will stunt your growth" receive nearly identical scores from BERTScore, SimCSE, and other embedding metrics — yet they directly contradict each other.
 
 ## Connections
+- [[sources/papers/matcha]]
+- [[scratchpad/jobs/reports/arxiv/arxiv-2026-05-27-top-papers]]
+- [[index]]
+- [[matcha]]
 
 - [[llm-evaluation]] — evaluation metrics for text generation
 - [[bert-score]] — the embedding-based metric MATCHA improves upon

@@ -57,6 +57,12 @@ AKBE eliminates the accuracy-efficiency trade-off — it simultaneously improves
 - [[agentic-research]] — agentic RL training, tool-augmented LLMs, GRPO-based training on mobile GUI and QA benchmarks
 - [[credit-assignment]] — relates to StepOPSD from this batch: both address credit assignment in multi-turn agents, but AKBE attacks the problem via knowledge boundary probing rather than step-level advantage shaping
 
+## Related
+- [[sources/papers/akbe]]
+- [[index]]
+
+- [[akbe]]
+
 ## Key Quotes
 
 > "The key insight is that for each question in a training batch, we perform dual-path rollouts with and without external tools. By comparing the correctness of these two paths, we identify whether a question lies within the model's parametric knowledge or genuinely requires external tool calls."

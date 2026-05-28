@@ -1,5 +1,11 @@
 # Paper Selection Brief
 
+## Related
+- [[index]]
+- [[scratchpad/agent-sheets/arxiv/templates/research-brief]]
+
+- [[research-brief]]
+
 ## Selection {N}: {arxiv_id}
 
 - **Title**: {title}

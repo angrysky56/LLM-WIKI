@@ -30,6 +30,10 @@ The phrase "in error" is doing a lot of work here — it suggests either a ticke
 The broader implication: Ebola is no longer just a health story. It's becoming a travel, trade, and economic story — which is exactly how global health crises become geopolitical events.
 
 ## Connections
+- [[sources/news/2026-05/ebola-travel-restriction-2026-05-21]]
+- [[index]]
+- [[sources/news/2026-05/air-france-airbus-manslaughter-2009-2026-05-21]]
+- [[ebola-travel-restriction-2026-05-21]]
 - [[ebola-outbreak-drc-2026-05-20]] — WHO declared PHEIC
 - [[who-declares-ebola-outbreak-in-dr-congo-an-international-eme]] — WHO emergency declaration
 - [[ebola-outbreak-2026]] — carryover notes Ebola as emerging pattern

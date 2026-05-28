@@ -14,5 +14,17 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[sources/news/2026-05/ebola-outbreak-drc-2026-05-20]]
+- [[concepts/ebola-outbreak-drc-2026]]
+- [[concepts/global-health-security]]
+- [[concepts/maximum-occupancy-principle]]
+- [[sources/news/2026/ebola-plane-divert-2026]]
+- [[index]]
+- [[log]]
+- [[sources/news/2026/ebola-bundibugyo-who-ec-recommendations-follow-up-may-2026]]
+- [[sources/news/2026/sti-record-levels-europe-2026]]
+- [[global-health-security]]
 
 - [[maximum-occupancy-principle]]
+
+- [[ebola-outbreak-drc-2026]]

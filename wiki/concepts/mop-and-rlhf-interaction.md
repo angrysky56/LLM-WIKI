@@ -139,6 +139,20 @@ For MoE systems, GRPO's group-relative structure is potentially more compatible 
 However, GRPO has not been specifically studied in the MoE fine-tuning context — this is an open empirical question.
 
 ## Connections
+- [[concepts/reinforcement-learning-from-human-feedback]]
+- [[concepts/mop-and-rlhf-interaction]]
+- [[index]]
+- [[sources/moe-sieve-routing-guided-lora-for-efficient-moe-fine-tuning]]
+- [[concepts/route-collapse-rlhf]]
+- [[sources/defending-moe-llms-against-harmful-fine-tuning-via-safety-routing-alignment]]
+- [[concepts/maximum-occupancy-principle]]
+- [[log]]
+- [[concepts/inference-time-compute-scaling]]
+- [[concepts/mixture-of-experts]]
+- [[concepts/group-relative-policy-optimization]]
+- [[concepts/reward-modeling]]
+- [[sources/on-the-representation-collapse-of-sparse-mixture-of-experts]]
+- [[mop-and-rlhf-interaction]]
 
 - [[maximum-occupancy-principle]] — MOP's entropy maximization principle
 - [[ramirez-ruiz-mop-2024]] — source paper; Supplemental Sec. F contains the KL formal critique

@@ -52,6 +52,15 @@ The species has the capacity. The civilization, in its current institutional for
 ASEKE's ambition — letting humans and AI see the levers in a situation by decomposing substrate, emotional system, and named pattern — is a frame-transmission tool by construction. Each ASEKE analysis hands the recipient a portable lens for the underlying structure of the situation, not a verdict on it. This is why the framework's value is not in the specific verdicts it produces but in the cognitive equipment it leaves behind in whoever uses it.
 
 ## Related
+- [[concepts/cryptographic-vs-semantic-alignment]]
+- [[concepts/frame-transmission]]
+- [[concept-index]]
+- [[synthesis/ai-governance-substrate-analysis]]
+- [[concepts/absence-of-worst-case-metric]]
+- [[concepts/institutional-capture-vs-species-framing]]
+- [[index]]
+- [[concepts/spin-vs-substrate]]
+- [[frame-transmission]]
 
 - [[institutional-capture-vs-species-framing]]
 - [[spin-vs-substrate]]

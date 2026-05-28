@@ -40,6 +40,12 @@ tags: [researcher, report]
 - Covers: why external governance overlays fail against agentic AI (speed gap, opacity gap, complexity gap), substrate protocols, accountability membranes, escalation pathways, design principles
 - Key architectural insight: governance embedded in the system as a load-bearing layer rather than applied as an external overlay
 
+## Related
+- [[index]]
+- [[scratchpad/jobs/reports/researcher/discovery-2026-05-29]]
+
+- [[discovery-2026-05-29]]
+
 ## Gap Analysis
 
 ### Stub Cluster Status

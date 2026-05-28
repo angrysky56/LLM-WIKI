@@ -66,6 +66,14 @@ The burning of ETCs is a direct symptom of community distrust — fueled by misi
 - [[public-health-governance]] — international coordination mechanisms
 - [[who-emergency-declarations]] — PHEIC history and precedents
 
+## Related
+- [[sources/news/2026/ebola-outbreak-second-treatment-center-burned-may-2026]]
+- [[index]]
+- [[synthesis/news/2026-may/headlines-2026-05-24]]
+- [[synthesis/news/2026-may/headlines-2026-05-25]]
+
+- [[ebola-outbreak-second-treatment-center-burned-may-2026]]
+
 ## Monitoring Priority
 
 **HIGH** — The combination of ETC attacks, rebel-held area spread, and American infection marks a qualitative escalation. Case counts may not reflect true spread. Watching for: South Sudan transmission, WHO Emergency Committee additional recommendations, vaccine trial progress, India-Africa Forum Summit rescheduling.

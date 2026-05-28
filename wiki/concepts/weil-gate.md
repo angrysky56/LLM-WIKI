@@ -57,6 +57,12 @@ When the [[empty-chair-protocol]] is activated to bring in a missing perspective
 [[harm-cases]] are the documented instances of harm that the council has witnessed and analyzed. Each harm-case is a record of a pass through the Weil-gate — a specific situation where "who does this hurt?" was asked and answered. The harm-cases form the council's empirical foundation for future deliberation.
 
 ## Connections
+- [[index]]
+- [[log]]
+- [[synthesis/spiral-architecture]]
+- [[concepts/weil-gate]]
+- [[concepts/spiral-architecture]]
+- [[weil-gate]]
 
 - [[spiral-architecture]]: the pattern the Weil-gate implements
 - [[two-council-architecture]]: the architectural context for Weil-gate operation

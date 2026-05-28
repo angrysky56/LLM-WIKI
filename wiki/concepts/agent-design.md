@@ -14,6 +14,14 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[log]]
+- [[concepts/agent-architectures]]
+- [[concepts/autonomous-agents]]
+- [[concepts/agent-design]]
+- [[index]]
+- [[concepts/agents]]
+- [[agent-design]]
 
 - [[agent-architectures]]
 - [[autonomous-agents]]
+- [[agents]]

@@ -297,6 +297,12 @@ delegate_task(task) → execute → verify(output) →
 
 
 
+## Related
+- [[synthesis/codegraph-hermes-integration-plan]]
+- [[index]]
+
+- [[codegraph-hermes-integration-plan]]
+
 ## Related Pages
 
 - `wiki/synthesis/nairobi-protocol-gde.md` — related local-first knowledge graph work

@@ -25,6 +25,17 @@ The framework uses a three-tier hierarchy to ensure ethical integrity:
 - **AI as Moral Instrument**: Defining AI as an amplifier of human moral intent rather than an autonomous moral agent.
 
 ## Connections
+- [[entities/projects/tys-repos/hipai-montague]]
+- [[entities/projects/tys-repos/toward-transcendent-moral-instrumentality]]
+- [[index]]
+- [[entities/projects/tys-repos]]
+- [[entities/projects/tys-repos/ethical-ai-core]]
+- [[log]]
+- [[entities/projects/tys-repos/conscience-servitor]]
+- [[synthesis/cross-layer-drift-falsification]]
+- [[toward-transcendent-moral-instrumentality]]
 - [[hipai-montague]] — The technical implementation of TMI.
 - [[conscience-servitor]] — Uses TMI for pre-response triage.
 - [[tys-repos]] — Part of Ty's repository collection.
+
+- [[ethical-ai-core]]

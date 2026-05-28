@@ -14,6 +14,14 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[index]]
+- [[log]]
+- [[concepts/obsidian-git-setup]]
+- [[concepts/github]]
+- [[concepts/git]]
+- [[concepts/version-control]]
+- [[version-control]]
 
 - [[git]]
 - [[devops]]
+- [[github]]

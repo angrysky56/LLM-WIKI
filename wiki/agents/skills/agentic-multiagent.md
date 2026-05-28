@@ -73,6 +73,13 @@ Use for: Large projects with multiple workstreams at different granularities.
 Rule of thumb: if the task can be expressed as a single well-scoped objective with a clear stopping condition, use single-agent with ReAct.
 
 ## Connections
+- [[agents/skills/agentic-decision-tree]]
+- [[index]]
+- [[agents/skills/agentic-multiagent]]
+- [[agents/skills/supervisor-orchestrator]]
+- [[agents/skills/hierarchical-supervisor]]
+- [[agents/skills/supervisor-delegation]]
+- [[agentic-multiagent]]
 
 - [[supervisor-delegation]] — supervisor → delegate pattern
 - [[supervisor-orchestrator]] — orchestrator pattern

@@ -26,6 +26,11 @@ confidence: 1.0
 - **Metacognition**: online Metacognitive Control of Decisions (oMCD) for resource optimization.
 
 ## Connections
+- [[entities/projects/tys-repos/graph-rlm]]
+- [[index]]
+- [[entities/projects/tys-repos]]
+- [[log]]
+- [[graph-rlm]]
 - [[efhf]] — Implements the "Sheaf Consistency" and "Verification" layers.
 - [[agem]] — Provides the underlying recursive reasoning engine for multi-agent groups.
 - [[tys-repos]] — Part of Ty's repository collection.

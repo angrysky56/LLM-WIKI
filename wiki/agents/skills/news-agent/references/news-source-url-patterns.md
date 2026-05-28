@@ -68,6 +68,12 @@ This works because Google News indexes the actual publisher canonical URLs, not 
 
 ---
 
+## Related
+- [[index]]
+- [[agents/skills/news-agent/references/news-source-url-patterns]]
+
+- [[news-source-url-patterns]]
+
 ## Quick Reference: Which Method to Use
 
 | Source | Browser section page | Google News search | Direct URL | Notes |

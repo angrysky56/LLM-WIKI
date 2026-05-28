@@ -14,6 +14,14 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/delta-direct]]
+- [[index]]
+- [[log]]
+- [[concepts/llm-vision]]
+- [[concepts/vision-language-models]]
+- [[llm-vision]]
 
 - [[large-language-models]]
 - [[computer-vision]]
+- [[vision-language-models]]
+- [[delta-direct]]

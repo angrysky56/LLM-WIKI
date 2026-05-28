@@ -10,6 +10,12 @@ confidence: 0.85
 ---
 
 
+## Related
+- [[synthesis/insights/titans-memory-efficiency-insight]]
+- [[index]]
+
+- [[titans-memory-efficiency-insight]]
+
 ## Titans Memory Architecture Reveals Efficiency Theme Through Speculative Decoding Connections
 
 This cluster reveals that Titans Learning to Memorize at Test Time shares structural connections with speculative decoding literature (DFlash Block Diffusion), both addressing inference efficiency through complementary mechanisms—test-time learning versus runtime speculation. The cluster groups Titans' three-tier memory architecture (attention-based short-term, neural long-term, and persistent learnable parameters) with small autoregressive models trained to mimic diffusion-style generation, suggesting a unified theme around balancing computational cost with model capability. The presence of the 'primary reference' entity as central indicates these papers likely cite common foundational work on attention mechanisms or memory optimization. While the Podcast Launch Checklist appears tangentially related, its inclusion suggests shared metadata or citation patterns linking technical papers with practical application notes.

@@ -24,6 +24,12 @@ Key domains of rivalry:
 - Ideological soft power
 
 ## Connections
+- [[concepts/proxy-signalling]]
+- [[concepts/great-power-rivalry]]
+- [[index]]
+- [[concepts/china-cuba-tensions]]
+- [[concepts/geopolitics]]
+- [[great-power-rivalry]]
 
 - [[china-cuba-tensions]] — specific regional manifestation
 - [[proxy-signalling]] — competitive signaling in third parties

@@ -14,5 +14,11 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/ai-for-science]]
+- [[concepts/maximum-occupancy-principle]]
+- [[sources/papers/agent-lab-2501.04227]]
+- [[index]]
+- [[log]]
+- [[ai-for-science]]
 
 - [[maximum-occupancy-principle]]

@@ -120,6 +120,9 @@ On SWE-bench Verified with MCTS search:
 - **Checkpointing:** CRIU, DMTCP, Firecracker, Btrfs/ZFS snapshots — provide building blocks but lack coupled fine-grained rollback for stateful agents
 
 ## Connections
+- [[index]]
+- [[sources/papers/deltabox-stateful-agent-checkpoint-rollback-2026]]
+- [[deltabox-stateful-agent-checkpoint-rollback-2026]]
 
 - [[MCTS]] — tree search strategy DeltaBox enables at scale
 - [[CRI]] — checkpoint/restore in userspace, extended by DeltaCR

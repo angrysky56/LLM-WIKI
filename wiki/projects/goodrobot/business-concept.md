@@ -41,6 +41,15 @@ See: [[revenue-model]]
 | Enterprise (Voiceflow, Kore.ai) | Feature-rich | Expensive, complex |
 | Freelancer-built agents | Custom | No continuity, quality variance |
 
+## Related
+- [[projects/goodrobot/shut-down-entity]]
+- [[projects/goodrobot/business-concept]]
+- [[projects/goodrobot/active-business-plan]]
+- [[index]]
+- [[projects/goodrobot/index]]
+
+- [[business-concept]]
+
 ## Strategic Focus
 
 GoodRobot wins by being the **"Shopify for AI agents"** — opinionated defaults, fast time-to-value, predictable pricing. Not "build anything" but "build what most SMBs need, fast."

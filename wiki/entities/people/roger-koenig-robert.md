@@ -19,6 +19,14 @@ Roger Koenig-Robert is a neuroscientist known for his research on the neural sub
 - **Experimental Work:** Conducted experiments showing that mental imagery footprints on behavior match neural suppression rather than active firing.
 
 ## Connections
+- [[entities/people/roger-koenig-robert]]
+- [[sources/articles/how-does-imagination-really-work-in-the-brain-new-theory-upends-what-we-knew]]
+- [[concepts/spontaneous-activity-reshaping-hypothesis]]
+- [[synthesis/intelligence-as-entropic-sculpting]]
+- [[concepts/aphantasia]]
+- [[index]]
+- [[log]]
+- [[roger-koenig-robert]]
 
 - **Sources:** [[how-does-imagination-really-work-in-the-brain-new-theory-upends-what-we-knew]]
 - **Concepts:** [[spontaneous-activity-reshaping-hypothesis]], [[aphantasia]]

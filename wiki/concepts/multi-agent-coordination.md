@@ -119,6 +119,17 @@ Recent work applies these classical coordination patterns to LLM-based multi-age
 | Swarm | Generative emergence from many simple LLM agents |
 
 ## Connections
+- [[concepts/agentic-hierarchy]]
+- [[concepts/agentic-reasoning]]
+- [[concepts/multi-agent-llm-systems]]
+- [[concepts/multi-agent-coordination]]
+- [[index]]
+- [[concepts/categorical-reasoning]]
+- [[concepts/delegation]]
+- [[concepts/multi-agent-reasoning]]
+- [[concepts/onboarding-standards]]
+- [[log]]
+- [[multi-agent-coordination]]
 
 - [[multi-agent-llm-systems]] — LLM-based systems that use these coordination mechanisms
 - [[agentic-hierarchy]] — hierarchical structure that shapes coordination relationships
@@ -129,6 +140,8 @@ Recent work applies these classical coordination patterns to LLM-based multi-age
 - Concept: [[onboarding-standards]]
 
 
+- [[multi-agent-reasoning]]
+- [[agentic-reasoning]]
 ## Open Questions
 
 1. **Coordination overhead at scale**: At what N does multi-agent coordination overhead exceed the gains from specialization?

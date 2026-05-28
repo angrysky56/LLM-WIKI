@@ -21,8 +21,18 @@ confidence: 0.7
 Multi-agent systems where AI agents operate with varying degrees of independence to accomplish complex goals. See [[hermes-agent]] and the autonomous-ai-agents skill for the implementation framework.
 
 ## Connections
+- [[scratchpad/agent-sheets/librarians-assistant/carryover]]
+- [[index]]
+- [[concepts/hermes-agent-skills]]
+- [[log]]
+- [[scratchpad/agent-sheets/librarian/carryover]]
+- [[concepts/autonomous-ai-agents]]
+- [[scratchpad/agent-sheets/librarians-assistant/workspace/batch-progress]]
+- [[autonomous-ai-agents]]
 
 - [[hermes-agent]] — the agent framework implementing these patterns
 - [[multi-agent-llm-systems]] — multi-agent collaboration architecture
 - [[agentic-planner]] — planning capability within agents
 - [[bounded-structured-memory]] — memory layer for agent continuity
+
+- [[hermes-agent-skills]]

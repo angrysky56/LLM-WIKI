@@ -24,6 +24,12 @@ The following facts formed the evidence chain for this insight:
 - Remember, you do not want to sort all your current notes and files and put them in the new folder, put them all in the Archive as is, and then move them out as you use them. (source: `byarbroughobsidian-para Template for using Obsidian for P.A.R.A.`)
 - If you're building a personal AI that handles research, analysis, repetitive workflows, and knowledge accumulation over months, it's a strong candidate. (source: `I Switched from OpenClaw to Hermes Agent`)
 
+## Related
+- [[synthesis/insights/para-system-cluster-insight]]
+- [[index]]
+
+- [[para-system-cluster-insight]]
+
 ## Metadata
 
 - **Zettel ID**: insight_950412cb

@@ -15,6 +15,21 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[index]]
+- [[entities/tools/mamba]]
+- [[concepts/titans-test-time-memory]]
+- [[log]]
+- [[concepts/surprise-based-learning]]
+- [[concepts/neural-long-term-memory]]
+- [[concepts/in-context-learning]]
+- [[sources/papers/decoupling-perception-reasoning-vlm-post-training]]
+- [[concepts/chain-of-thought]]
+- [[concepts/length-generalization]]
+- [[concepts/titans]]
+- [[titans-test-time-memory]]
 
 - [[titans]]
 - [[memory-mechanisms]]
+- [[length-generalization]]
+- [[titans]]
+- [[chain-of-thought]]

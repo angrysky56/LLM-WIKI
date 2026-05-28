@@ -156,6 +156,11 @@ The refactor is now a focused engineering task. Estimated 1-2 days of work; sequ
 5. **AGEM as MCP server.** Still deferred; v0.5 doesn't need new orchestration.
 
 ## Connections
+- [[synthesis/seg-scientist-agent-design]]
+- [[spikes/spike-001-spacy-owlready2]]
+- [[spikes/spike-campaign-001-004-summary]]
+- [[index]]
+- [[seg-scientist-agent-design]]
 
 - [[efhf]] — verification substrate
 - [[sentience-metaphysics]] — Layer 1 council substrate

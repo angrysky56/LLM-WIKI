@@ -10,6 +10,12 @@ tags: []
 **Functor-string diagrams** (Abbott & Zardini, 2024) bridge modal operators and string diagrams in monoidal categories, providing a graphical calculus for functorial semantics.
 
 ## See Also
+- [[concepts/functor-string-diagrams]]
+- [[log]]
+- [[index]]
+- [[concepts/attention-monoidal-closure]]
+- [[concepts/category-theory]]
+- [[functor-string-diagrams]]
 
 - [[category-theory]]
 - [[attention-monoidal-closure]]

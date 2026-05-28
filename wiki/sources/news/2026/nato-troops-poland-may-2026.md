@@ -32,6 +32,9 @@ The reversal pattern is significant. Multiple NATO officials and allied governme
 The troop presence in Poland also has direct implications for the Russia-Ukraine war, as it represents a significant reinforcement of NATO's eastern capability at a time when ceasefire negotiations between Russia and Ukraine are ongoing but fragile.
 
 ## Connections
+- [[index]]
+- [[sources/news/2026/nato-troops-poland-may-2026]]
+- [[nato-troops-poland-may-2026]]
 - [[institutional-accountability]] — NATO alliance coherence being tested by contradictory US signaling
 - [[nato-expansion]] — troop deployments as forward defense posture
 - [[russia-ukraine-war]] — ceasefire negotiations ongoing, NATO posture directly relevant

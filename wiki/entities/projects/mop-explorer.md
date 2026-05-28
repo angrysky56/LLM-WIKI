@@ -38,6 +38,30 @@ Seven cognitive actions: TRIAGE, QUERY, EXPLORE, HYPOTHESIZE, VERIFY, SYNTHESIZE
 4. **Multi-Agent MOP** — Cooperative exploration with β-weighted altruism
 
 ## Connections
+- [[log]]
+- [[sources/papers/prism]]
+- [[index]]
+- [[sources/papers/orthogonal-bottlenecks-rl]]
+- [[sources/papers/recuriosity-episodic-context-3d-exploration-2026]]
+- [[sources/papers/cua-gym]]
+- [[entities/tools/mcp-logic]]
+- [[sources/papers/tokenisation-convex-relaxations-2026]]
+- [[sources/papers/behavioral-credibility-trilemma]]
+- [[scratchpad/jobs/reports/arxiv/carryover]]
+- [[scratchpad/agent-sheets/arxiv/templates/research-brief]]
+- [[entities/projects/mop-explorer]]
+- [[sources/papers/shannon-scaling-law-2026]]
+- [[sources/papers/skillopt-self-evolving-2026]]
+- [[scratchpad/jobs/reports/arxiv/arxiv-2026-05-23-top-papers]]
+- [[sources/papers/codeskill]]
+- [[concepts/maximum-occupancy-principle]]
+- [[sources/papers/alphaproof-nexus-formal-proof-search-2026]]
+- [[sources/papers/skill-consumption-2026]]
+- [[sources/articles/how-does-imagination-really-work-in-the-brain-new-theory-upends-what-we-knew]]
+- [[entities/tools/hipai-montague]]
+- [[concepts/edm-framework]]
+- [[sources/papers/proxy-based-shapley-banzhaf-2026]]
+- [[mop-explorer]]
 
 - [[maximum-occupancy-principle]] — the behavioral theory
 - [[efhf]] — the verification and consistency architecture
@@ -45,3 +69,6 @@ Seven cognitive actions: TRIAGE, QUERY, EXPLORE, HYPOTHESIZE, VERIFY, SYNTHESIZE
 - [[edm-framework]] — disruption measurement
 - [[project-synapse]] — knowledge graph infrastructure
 - [[zettelkasten-engine]] — insight generation seeding
+- [[hipai-montague]]
+- [[how-does-imagination-really-work-in-the-brain-new-theory-upends-what-we-knew]]
+- [[recuriosity-episodic-context-3d-exploration-2026]]

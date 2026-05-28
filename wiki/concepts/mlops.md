@@ -14,6 +14,19 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[entities/projects/huggingface]]
+- [[concepts/tooling]]
+- [[concepts/xgboost]]
+- [[concepts/odrzywolek-eml-2026]]
+- [[concepts/model-serving]]
+- [[log]]
+- [[concepts/mlops]]
+- [[index]]
+- [[concepts/benchmarking]]
+- [[mlops]]
 
 - [[huggingface]]
 - [[xgboost]]
+- [[model-serving]]
+- [[tooling]]
+- [[benchmarking]]

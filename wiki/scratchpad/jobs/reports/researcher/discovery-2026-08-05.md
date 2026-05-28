@@ -44,6 +44,12 @@ All major clusters resolved:
 - **Schema competition**: blocked — needs meta-harness project context
 - **Bounded memory**: already active, no further action needed
 
+## Related
+- [[scratchpad/jobs/reports/researcher/discovery-2026-08-05]]
+- [[index]]
+
+- [[discovery-2026-08-05]]
+
 ## Notes
 - agentic-design-picker was a clear upgrade target: stub (0.3) connected to multi-agent-llm-systems (0.85) which is a hub page in the agent cluster. The decision-tree format fits naturally with the five-pattern taxonomy already in multi-agent-llm-systems.
 - mcp.md is fully resolved as redirect — confirmed redirect stub pointing to active mcp-model-context-protocol.md

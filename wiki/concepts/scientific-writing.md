@@ -27,6 +27,20 @@ Most scientific papers follow the **IMRaD** structure:
 - **Economy of Expression**: Removing redundant or vague language.
 
 ## Connections
+- [[concepts/scientific-writing]]
+- [[concepts/research-paper]]
+- [[concepts/critical-review-scientific-article-guide]]
+- [[concepts/critical-analysis]]
+- [[concept-index]]
+- [[concepts/academic-peer-review]]
+- [[concepts/research-methodology]]
+- [[sources/articles/critical-review-scientific-article-guide]]
+- [[index]]
+- [[sources/articles/why-llms-arent-scientists-yet]]
+- [[concepts/academic-writing]]
+- [[concepts/scientific-discovery]]
+- [[log]]
+- [[scientific-writing]]
 - [[critical-analysis]]
 - [[research-methodology]]
 - [[academic-peer-review]]

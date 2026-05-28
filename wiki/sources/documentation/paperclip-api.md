@@ -30,6 +30,10 @@ Paperclip API is a company-scoped REST API with JSON payloads, Bearer token auth
 | **Validation** | Server-side Zod schemas → `400` on malformed payloads |
 
 ## Connections
+- [[sources/repositories/paperclip]]
+- [[index]]
+- [[sources/documentation/paperclip-api]]
+- [[paperclip-api]]
 
 - [[paperclip]] — parent system
 - [[paperclip-hermes-adapter]] — Hermes integration

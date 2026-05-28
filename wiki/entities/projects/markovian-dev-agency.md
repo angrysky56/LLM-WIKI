@@ -61,6 +61,13 @@ markovian-dev-agency/
 - **Issue-002/003:** Blocked on Issue-001 root cause
 
 ## Connections
+- [[concepts/markovian-carryover]]
+- [[synthesis/verifiable-graph-context-protocol]]
+- [[index]]
+- [[log]]
+- [[entities/projects/markovian-dev-agency]]
+- [[entities/tools/hermes-agent]]
+- [[markovian-dev-agency]]
 
 - [[markovian-carryover]] — protocol
 - [[bounded-structured-memory]] — architecture

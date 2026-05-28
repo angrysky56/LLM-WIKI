@@ -46,6 +46,14 @@ The Menin-D-serine research has established the hypothalamus as a central regula
 Gene therapy restoring Menin in aged mouse hypothalamus reversed aging signs. D-serine supplementation improved cognition but not physical aging markers — demonstrating the hypothalamus controls both but D-serine only addresses the cognitive arm.
 
 ## Connections
+- [[entities/hypothalamus]]
+- [[sources/articles/menin-d-serine-hypothalamus-anti-aging]]
+- [[index]]
+- [[entities/longevity-research]]
+- [[log]]
+- [[entities/neuroinflammation]]
+- [[entities/cognitive-decline]]
+- [[hypothalamus]]
 
 - [[neuroinflammation]] — Menin suppresses this; Menin decline releases neuroinflammation
 - [[cognitive-decline]] — downstream effect of hypothalamic Menin decline

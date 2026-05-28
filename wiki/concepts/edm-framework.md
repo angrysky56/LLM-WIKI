@@ -96,6 +96,27 @@ This means EDM's embedding space encodes enough conceptual structure to detect s
 5. Grounded in citation behavior — reflects sociological processes, not pure conceptual contribution
 
 ## Connections
+- [[entities/projects/mop-explorer]]
+- [[sources/papers/ramirez-ruiz-mop-2024]]
+- [[entities/projects/efhf]]
+- [[entities/projects/zettelkasten-engine]]
+- [[sources/papers/bae-lmac-2026]]
+- [[concepts/critical-analysis]]
+- [[concepts/maximum-occupancy-principle]]
+- [[concepts/graphrag]]
+- [[sources/papers/kim-ahn-edm-2026]]
+- [[concept-index]]
+- [[concepts/edm-framework]]
+- [[concepts/persistent-knowledge-compilation]]
+- [[synthesis/mop-edm-cognitive-architecture]]
+- [[log]]
+- [[concepts/epistemic-energy]]
+- [[index]]
+- [[synthesis/causal-state-edm-ood-isomorphism]]
+- [[synthesis/wiki-indexing-theory]]
+- [[scratchpad/jobs/reports/librarian/audit-2026-05-21]]
+- [[synthesis/minimal-generative-architectures]]
+- [[edm-framework]]
 
 - [[causal-state-edm-ood-isomorphism]] — theoretical grounding via epsilon machines and lumpability
 - [[graphrag]] — citation graphs as retrieval and analysis substrate  

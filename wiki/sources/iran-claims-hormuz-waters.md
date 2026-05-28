@@ -31,6 +31,9 @@ Iran's armed forces published a map claiming formal "oversight" across more than
 3. **Ceasefire status unclear**: BBC Verify is carrying this as a breaking story today, meaning the ceasefire that was reportedly holding is now under direct challenge from the Iranian side with an explicit territorial claim.
 
 ## Connections
+- [[sources/iran-claims-hormuz-waters]]
+- [[index]]
+- [[iran-claims-hormuz-waters]]
 - [[iran-ceasefire-tensions]] — continuing escalation on Hormuz
 - [[china-cuba-tensions]] — US simultaneously facing pressure in two theaters
 - [[taiwan-strait-dynamics]] — US stretched across multiple simultaneous pressure points

@@ -19,6 +19,8 @@ Hezbollah's released footage of FPV (first-person-view) drone strikes against Is
 | Israeli air defenses less effective against small drones | FPV footprint challenges existing systems |
 
 ## Connections
+- [[sources/news/fpv-drone-strikes-show-hezbollahs-changing-tactics-against-i]]
+- [[index]]
 
 - [[hezbollah]] — actor
 - [[fpv-drone]] — the weapon system

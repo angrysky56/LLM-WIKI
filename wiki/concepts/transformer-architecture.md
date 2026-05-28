@@ -74,6 +74,22 @@ The relationship to [[scaling-laws]]: the transformer architecture is what made 
 | **Mixture of Experts** | Sparse FFN layers | Scale parameters without scaling compute per token |
 
 ## Connections
+- [[log]]
+- [[scratchpad/jobs/reports/researcher/discovery-2026-06-09]]
+- [[concepts/ml-evolution]]
+- [[sources/papers/betteti-baggio-bullo-zampieri-idp-hopfield-2025]]
+- [[concepts/mixture-of-experts]]
+- [[index]]
+- [[concepts/attention-monoidal-closure]]
+- [[concepts/scaling-laws]]
+- [[concepts/kv-cache]]
+- [[concepts/in-context-learning]]
+- [[concepts/hidden-states]]
+- [[concepts/llm-inference]]
+- [[concepts/length-generalization]]
+- [[concepts/transformer-architecture]]
+- [[concepts/attention-mechanism]]
+- [[transformer-architecture]]
 
 - [[attention-mechanism]] — the core computational unit
 - [[kv-cache]] — inference optimization for decoder-only models

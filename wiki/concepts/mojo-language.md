@@ -14,5 +14,11 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/mojo-language]]
+- [[concepts/maximum-occupancy-principle]]
+- [[log]]
+- [[synthesis/nairobi-protocol-gde]]
+- [[index]]
+- [[mojo-language]]
 
 - [[maximum-occupancy-principle]]

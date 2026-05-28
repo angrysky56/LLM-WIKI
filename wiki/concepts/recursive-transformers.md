@@ -14,6 +14,14 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/recursive-transformers]]
+- [[log]]
+- [[concepts/working-memory]]
+- [[sources/mixture-of-recursions]]
+- [[index]]
+- [[concepts/recursive-neural-networks]]
+- [[recursive-transformers]]
 
 - [[transformers]]
 - [[recursive-neural-networks]]
+- [[working-memory]]

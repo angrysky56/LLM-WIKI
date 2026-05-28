@@ -41,6 +41,13 @@ The EU-US 2029 sunset format appears designed to address these concerns:
 - **Renegotiation clause**: Explicit 2029 expiry allows either side to renegotiate rather than lock in permanently
 
 ## Connections
+- [[concepts/hamm-v-smith]]
+- [[concepts/malaysia-us-trade-deal]]
+- [[index]]
+- [[concepts/eu-us-trade-deal]]
+- [[log]]
+- [[scratchpad/agent-sheets/librarian/carryover]]
+- [[malaysia-us-trade-deal]]
 
 - [[eu-us-trade-deal]] — the deal format that emerged post-ruling; uses 2029 sunset to address constitutional constraints
 - [[hamm-v-smith]] — Supreme Court ruling that triggered Malaysia's exit

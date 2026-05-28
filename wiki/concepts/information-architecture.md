@@ -14,6 +14,13 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/knowledge-management]]
+- [[concepts/ux-design]]
+- [[concepts/information-architecture]]
+- [[index]]
+- [[information-architecture]]
 
 - [[knowledge-management]]
-- [[ux-design]]
+- [[ux-design]]- [[entities/knowledge-architecture-stub.md]]
+
+- [[knowledge-architecture-stub]]

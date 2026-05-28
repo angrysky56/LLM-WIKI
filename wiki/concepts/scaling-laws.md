@@ -80,6 +80,33 @@ The interaction between axes matters: a smaller model trained on more compute-ef
 See [[inference-time-compute-scaling]] for the inference-time axis.
 
 ## Connections
+- [[concepts/evolutionary-strategies]]
+- [[concepts/transformer-architecture]]
+- [[concepts/catastrophic-forgetting]]
+- [[concepts/adaptive-budget-learning]]
+- [[concepts/power-law]]
+- [[concepts/initialization]]
+- [[concepts/scaling-laws]]
+- [[concepts/llm-reasoning]]
+- [[concepts/allometric-scaling]]
+- [[concepts/evaluation]]
+- [[concepts/emergence]]
+- [[concepts/mathematical-reasoning]]
+- [[index]]
+- [[concepts/taylors-law]]
+- [[concepts/attention-mechanism]]
+- [[concepts/efficient-transformers]]
+- [[concepts/llama-nas]]
+- [[log]]
+- [[scratchpad/jobs/reports/researcher/discovery-2026-08-03]]
+- [[concepts/neural-architecture-search]]
+- [[concepts/mixture-of-depths]]
+- [[concepts/in-context-learning]]
+- [[concepts/inference-time-compute-scaling]]
+- [[concepts/power-law-scaling]]
+- [[concepts/mixture-of-experts]]
+- [[concepts/adaptive-computation]]
+- [[concepts/benchmark]]
 
 - [[inference-time-compute-scaling]] — the second axis of scaling beyond training compute
 - [[emergence]] — emergent capabilities at scale thresholds; phase transitions in capability landscapes
@@ -104,6 +131,9 @@ See [[inference-time-compute-scaling]] for the inference-time axis.
 - Concept: [[transformer-architecture]]
 
 
+- [[llm-reasoning]]
+- [[llama-nas]]
+- [[neural-architecture-search]]
 ## Open Questions
 
 1. **Predicting emergence**: Can we predict which capabilities will emerge at which scale thresholds, before running the experiments? Currently empirical — no theory.

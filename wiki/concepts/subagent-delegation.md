@@ -24,6 +24,13 @@ In Hermes Agent, delegation is via `delegate_task` which supports:
 - Isolated terminal session per subagent
 
 ## Connections
+- [[entities/tools/hermes-agent]]
+- [[concepts/agentic-hierarchy]]
+- [[concepts/subagent-delegation]]
+- [[index]]
+- [[concepts/delegation]]
+- [[log]]
+- [[subagent-delegation]]
 
 - [[delegation]] — the broader concept
 - [[agentic-hierarchy]] — hierarchical organization of delegated tasks

@@ -14,5 +14,11 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[log]]
+- [[concepts/xgboost]]
+- [[sources/repositories/tabpfn]]
+- [[concepts/mlops]]
+- [[index]]
+- [[xgboost]]
 
 - [[mlops]]

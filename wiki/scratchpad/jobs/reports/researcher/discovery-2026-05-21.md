@@ -64,6 +64,12 @@
 
 4. **Test-time compute economics**: The concept page is technically correct but doesn't address the deployment economics. Ty's use case (Hermes Agent) involves real-time inference — worth adding a section on "when inference-time scaling is and isn't worth it."
 
+## Related
+- [[scratchpad/jobs/reports/researcher/discovery-2026-05-21]]
+- [[index]]
+
+- [[discovery-2026-05-21]]
+
 ## Cross-Links Added (Conceptual)
 
 The new pages link to existing concepts:

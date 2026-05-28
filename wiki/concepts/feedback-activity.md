@@ -18,6 +18,13 @@ confidence: 0.9
 In traditional models, feedback activity was thought to "drive" neurons in the same way as light. However, the [[spontaneous-activity-reshaping-hypothesis]] suggests that feedback primarily *modulates* (increases or decreases) existing background activity rather than building it from scratch.
 
 ## Connections
+- [[log]]
+- [[sources/articles/how-does-imagination-really-work-in-the-brain-new-theory-upends-what-we-knew]]
+- [[concepts/spontaneous-activity-reshaping-hypothesis]]
+- [[concepts/feedforward-activity]]
+- [[concepts/feedback-activity]]
+- [[index]]
+- [[feedback-activity]]
 
 - **Related:** [[feedforward-activity]], [[spontaneous-activity-reshaping-hypothesis]]
 - Concept: [[how-does-imagination-really-work-in-the-brain-new-theory-upends-what-we-knew]]

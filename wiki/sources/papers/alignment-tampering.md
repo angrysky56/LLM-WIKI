@@ -47,6 +47,9 @@ Experiments show amplification across diverse bias types:
 **Open problem.** Existing robust RLHF techniques fail to fully resolve alignment tampering without sacrificing response quality. This is a structural vulnerability requiring architectural or dataset-level fixes, not just better reward modelling.
 
 ## Connections
+- [[sources/papers/alignment-tampering]]
+- [[index]]
+- [[alignment-tampering]]
 
 - [[agentic-research]] — agentic goal-seeking behavior is one demonstrated amplification target
 - [[rlhf]] — directly attacks the RLHF pipeline's fundamental design

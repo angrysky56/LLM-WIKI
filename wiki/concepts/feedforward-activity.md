@@ -20,6 +20,13 @@ confidence: 0.9
 3. **High-Level Regions:** Assemble shapes into recognizable objects, faces, and scenes.
 
 ## Connections
+- [[sources/articles/how-does-imagination-really-work-in-the-brain-new-theory-upends-what-we-knew]]
+- [[concepts/spontaneous-activity-reshaping-hypothesis]]
+- [[concepts/feedforward-activity]]
+- [[log]]
+- [[concepts/feedback-activity]]
+- [[index]]
+- [[feedforward-activity]]
 
 - **Related:** [[feedback-activity]], [[spontaneous-activity-reshaping-hypothesis]]
 - Concept: [[how-does-imagination-really-work-in-the-brain-new-theory-upends-what-we-knew]]

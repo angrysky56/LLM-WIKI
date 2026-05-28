@@ -14,6 +14,12 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[log]]
+- [[index]]
+- [[synthesis/news/china]]
+- [[synthesis/news/china-cuba-us]]
+- [[sources/news/2026/raul-castro-indictment-2026]]
+- [[china-cuba-us]]
 
 - [[china]]
 - [[geopolitics]]

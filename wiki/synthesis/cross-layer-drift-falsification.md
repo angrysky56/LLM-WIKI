@@ -162,6 +162,9 @@ The MOPS work falsified one specific instance of "global geometric measure" appl
 
 
 ## Connections
+- [[index]]
+- [[synthesis/cross-layer-drift-falsification]]
+- [[cross-layer-drift-falsification]]
 
 - [[conscience-servitor]] — the deployment vehicle for the substrate monitor that this falsification motivates
 - [[efhf]] — the theoretical framework in which MOPS was proposed as one possible Layer 0 implementation

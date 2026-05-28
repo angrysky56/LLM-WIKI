@@ -14,5 +14,11 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/firecracker]]
+- [[index]]
+- [[concepts/maximum-occupancy-principle]]
+- [[log]]
+- [[sources/papers/deltabox-stateful-agent-checkpoint-rollback-2026]]
+- [[firecracker]]
 
 - [[maximum-occupancy-principle]]

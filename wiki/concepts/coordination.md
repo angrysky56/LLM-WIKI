@@ -14,6 +14,11 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[index]]
+- [[concepts/coordination]]
+- [[concepts/distributed-systems]]
+- [[concepts/multi-agent-systems]]
+- [[coordination]]
 
 - [[multi-agent-systems]]
 - [[distributed-systems]]

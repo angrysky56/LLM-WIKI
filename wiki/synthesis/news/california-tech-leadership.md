@@ -14,5 +14,10 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[index]]
+- [[synthesis/news/california-tech-leadership]]
+- [[sources/news/2026/california-ai-worker-protection-may-2026]]
+- [[synthesis/news/california-tech-regulation]]
+- [[california-tech-leadership]]
 
 - [[california-tech-regulation]]

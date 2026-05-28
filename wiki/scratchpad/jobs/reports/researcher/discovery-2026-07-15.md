@@ -83,6 +83,12 @@ The **PEFT cluster** is now healthy:
 5. **[[neural-architecture-search]]**: Can zero-cost proxies combine with MOP exploration for curiosity-driven NAS?
 6. **[[parameter-efficient-fine-tuning]]**: Does LoRA's low-rank constraint limit frontier-scale adaptation? Optimal rank selection theory?
 
+## Related
+- [[scratchpad/jobs/reports/researcher/discovery-2026-07-15]]
+- [[index]]
+
+- [[discovery-2026-07-15]]
+
 ## Next Cycle Priority
 
 1. **llama-nas** stub filling (needs source read from ml-evolution source)

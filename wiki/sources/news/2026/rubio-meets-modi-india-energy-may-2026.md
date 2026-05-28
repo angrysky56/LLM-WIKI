@@ -27,6 +27,9 @@ Simultaneously, data shows H-1B visa registrations have fallen by 38.5% for FY20
 - 2026-05-23: India announces it will take more Venezuelan and US crude
 
 ## Connections
+- [[index]]
+- [[sources/news/2026/rubio-meets-modi-india-energy-may-2026]]
+- [[rubio-meets-modi-india-energy-may-2026]]
 - [[hormuz-strait-security]] — ongoing energy supply disruption shaping alliances
 - [[india-energy-strategy]] — diversification from Iranian crude
 - [[venezuela-oil-india-routing]] — structural rerouting of energy supply chains

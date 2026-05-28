@@ -14,6 +14,13 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/representation-learning]]
+- [[concepts/feature-learning]]
+- [[log]]
+- [[concepts/compression]]
+- [[index]]
+- [[representation-learning]]
 
 - [[deep-learning]]
 - [[feature-learning]]
+- [[compression]]

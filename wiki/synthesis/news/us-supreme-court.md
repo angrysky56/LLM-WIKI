@@ -14,6 +14,16 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[index]]
+- [[synthesis/news/us-supreme-court]]
+- [[sources/news/2026-05/scotus-death-penalty-intellectual-disability-2026-05-22]]
+- [[concepts/death-penalty]]
+- [[synthesis/news/us-politics]]
+- [[sources/news/2026-05/scotus-voting-rights-2026-05-18]]
+- [[synthesis/news/8th-amendment]]
+- [[log]]
+- [[synthesis/news/scotus]]
+- [[us-supreme-court]]
 
 - [[us-politics]]
 - [[scotus]]

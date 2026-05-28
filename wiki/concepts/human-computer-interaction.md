@@ -14,6 +14,11 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/human-computer-interaction]]
+- [[index]]
+- [[concepts/ux-design]]
+- [[concepts/interaction-design]]
+- [[human-computer-interaction]]
 
 - [[ux-design]]
 - [[interaction-design]]

@@ -14,5 +14,11 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/maximum-occupancy-principle]]
+- [[index]]
+- [[log]]
+- [[sources/papers/deltabox-stateful-agent-checkpoint-rollback-2026]]
+- [[concepts/overlayfs]]
+- [[overlayfs]]
 
 - [[maximum-occupancy-principle]]

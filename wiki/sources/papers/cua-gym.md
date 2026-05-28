@@ -59,6 +59,12 @@ CUA-GYM solves the RLVR data bottleneck for computer-use agents (CUAs) through a
 - [[verifier-graph]] — Discriminator as isolated reward writer parallels verifier as independent checking authority
 - [[bounded-representation-capacity]] — CUA RLVR data has finite verifiable capacity; environment diversity is a capacity axis distinct from data volume
 
+## Related
+- [[index]]
+- [[sources/papers/cua-gym]]
+
+- [[cua-gym]]
+
 ## Key Quotes
 
 > "Performance scales smoothly with both data volume and environment pool size, and expanding the environment pool from 10 to 80 environments yields gains that trajectory volume alone cannot recover, identifying environment diversity as a scaling axis complementary to data volume."

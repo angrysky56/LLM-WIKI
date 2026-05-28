@@ -65,6 +65,19 @@ AlphaZero used MCTS with deep neural networks:
 This is the foundation for the RL + MCTS combination used in modern reasoning systems (SD-Search, Process Reward Models).
 
 ## Connections
+- [[concepts/mcts]]
+- [[scratchpad/jobs/reports/researcher/discovery-2026-06-09]]
+- [[concepts/causal-reasoning]]
+- [[index]]
+- [[concepts/collm-nas]]
+- [[log]]
+- [[sources/papers/deltabox-stateful-agent-checkpoint-rollback-2026]]
+- [[concepts/code-generation]]
+- [[concepts/swe-bench]]
+- [[concepts/process-reward-model]]
+- [[concepts/world-model]]
+- [[concepts/agentic-hierarchy]]
+- [[mcts]]
 
 - [[process-reward-model]] — SD-Search uses MCTS-like search over reasoning steps, guided by a process reward model
 - [[swe-bench]] — MCTS-like search has been explored for code agent task decomposition

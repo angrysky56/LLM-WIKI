@@ -14,5 +14,10 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[sources/news/2026-05/trump-massie-primary-2026-05-17]]
+- [[entities/people/thomas-massie]]
+- [[index]]
+- [[log]]
+- [[thomas-massie]]
 
 - [[us-senate]]

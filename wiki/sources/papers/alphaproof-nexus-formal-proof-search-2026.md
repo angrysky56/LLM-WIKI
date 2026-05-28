@@ -59,4 +59,7 @@ AlphaProof Nexus is a concrete demonstration of the agentic loop pattern: genera
 > "Because LLM-generated natural language proofs can contain subtle logical errors, or 'hallucinations,' they require expensive expert review. Mistakes in unreviewed intermediate steps can cascade through a proof, limiting the complexity of tasks that can be delegated to AI."
 
 ## Connections
+- [[index]]
+- [[sources/papers/alphaproof-nexus-formal-proof-search-2026]]
+- [[alphaproof-nexus-formal-proof-search-2026]]
 - [[verifier-graph]], [[mop-explorer]], [[agentic-research]], [[efhf]], [[sheaf-consistency-enforcer]]

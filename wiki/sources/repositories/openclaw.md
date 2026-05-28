@@ -32,6 +32,14 @@ OpenClaw is a personal AI assistant you run on your own devices — answers on c
 OpenClaw as the execution layer in a stack: Hermes (memory) + OpenClaw (execution) + Paperclip (management).
 
 ## Connections
+- [[sources/repositories/gbrain]]
+- [[sources/articles/hermes-openclaw-paperclip-stack]]
+- [[sources/repositories/openclaw]]
+- [[sources/repositories/paperclip]]
+- [[index]]
+- [[sources/documentation/hermes-mcp-integration]]
+- [[sources/documentation/acp-editor-integration-hermes-agent]]
+- [[openclaw]]
 
 - [[ollama]] — supports Ollama launched models
 - [[paperclip]] — orchestration layer

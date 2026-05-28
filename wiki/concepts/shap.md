@@ -14,5 +14,11 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[log]]
+- [[sources/repositories/tabpfn]]
+- [[concepts/shap]]
+- [[index]]
+- [[concepts/maximum-occupancy-principle]]
+- [[shap]]
 
 - [[maximum-occupancy-principle]]

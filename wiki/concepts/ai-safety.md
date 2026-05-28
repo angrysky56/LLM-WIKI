@@ -14,5 +14,16 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[entities/projects/anthropic]]
+- [[index]]
+- [[concepts/maximum-occupancy-principle]]
+- [[log]]
+- [[concepts/ai-safety]]
+- [[concepts/ai-policy-arms-control-treaty]]
+- [[sources/articles/emotion-concepts-llm]]
+- [[ai-safety]]
 
 - [[maximum-occupancy-principle]]
+
+- [[anthropic]]
+- [[ai-policy-arms-control-treaty]]

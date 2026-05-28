@@ -27,6 +27,15 @@ confidence: 1.0
 - `find_tools` / `call_tool`: Semantic discovery and execution of any MCP tool.
 
 ## Connections
+- [[index]]
+- [[entities/projects/tys-repos]]
+- [[log]]
+- [[entities/projects/tys-repos/mcp-coordinator]]
+- [[entities/projects/tys-repos/agem]]
+- [[entities/projects/tys-repos/ast-mcp-server]]
+- [[mcp-coordinator]]
 - [[efhf]] — The overarching architectural framework.
 - [[conscience-servitor]] — Provides ethical triage for coordinator tasks.
 - [[tys-repos]] — Part of Ty's repository collection.
+
+- [[ast-mcp-server]]

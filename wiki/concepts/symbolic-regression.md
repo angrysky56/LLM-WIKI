@@ -30,6 +30,16 @@ Traditional SR searches over heterogeneous grammars ($+, -, \times, /, \sin, \co
 Blind recovery success degrades with tree depth: 100% at depth 2, ~25% at depth 3–4, <1% at depth 5. Finding the correct basin of attraction from random initialization remains the core challenge. However, when the correct basin is reached (e.g., via perturbation from true weights), convergence is 100% even at depths 5–6.
 
 ## Connections
+- [[entities/projects/alphaevolve]]
+- [[synthesis/minimal-generative-architectures]]
+- [[concepts/symbolic-regression]]
+- [[sources/news/2026/transformer-vm-moran-2026]]
+- [[index]]
+- [[concepts/eml-operator]]
+- [[sources/papers/odrzywolek-eml-2026]]
+- [[sources/articles/llm-kernel-optimization]]
+- [[log]]
+- [[symbolic-regression]]
 
 - [[eml-operator]] — the single-operator basis enabling gradient-based SR
 - [[odrzywolek-eml-2026]] — source paper with training experiments

@@ -28,6 +28,9 @@ California is now the de facto national AI policy leader as federal oversight re
 5. **National implications**: With 22 states advancing AI legislation, California's framework may become the de facto national standard
 
 ## Connections
+- [[sources/news/2026/california-ai-worker-protection-may-2026]]
+- [[index]]
+- [[california-ai-worker-protection-may-2026]]
 - [[AI-policy-federalism]] — state-federal divergence accelerating
 - [[California-tech-leadership]] — California as AI policy leader
 - [[AI-disruption-work]] — broader theme of AI impact on employment

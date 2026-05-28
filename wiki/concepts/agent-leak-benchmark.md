@@ -51,6 +51,17 @@ The benchmark assumes:
 Without protection, **ASR up to 0.900** on vanilla KV sharing across Qwen3-4B, Gemma-9B, and LLaMA-8B agent configurations.
 
 ## Connections
+- [[concepts/agent-leak-benchmark]]
+- [[concepts/autonomous-research]]
+- [[scratchpad/jobs/reports/researcher/discovery-2026-06-09]]
+- [[concepts/adversarial-training]]
+- [[concepts/agent-onboarding]]
+- [[log]]
+- [[sources/papers/lcguard-kv-communication-guard-2026]]
+- [[concepts/multi-agent-llm-systems]]
+- [[index]]
+- [[concepts/kv-cache]]
+- [[agent-leak-benchmark]]
 
 - [[multi-agent-llm-systems]] — the target domain where this leakage occurs
 - [[kv-cache]] — the specific artifact being exploited

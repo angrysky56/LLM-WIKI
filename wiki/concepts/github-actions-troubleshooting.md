@@ -14,6 +14,11 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/github-actions-troubleshooting]]
+- [[log]]
+- [[entities/tools/prover9]]
+- [[index]]
+- [[github-actions-troubleshooting]]
 
 - [[devops]]
 - [[ci-cd]]

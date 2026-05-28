@@ -21,5 +21,11 @@ SuperBPE is the core algorithm used to derive **[[supertokens]]** from LLM reaso
 - **Context Preservation**: Merging related words into a single token helps the model maintain longer-range dependencies within its context window.
 
 ## Connections
+- [[sources/articles/shorthand-for-thought]]
+- [[sources/papers/kalra-barkeshli-hyperparameter-transfer-2026]]
+- [[index]]
+- [[concepts/supertokens]]
+- [[entities/tools/superbpe]]
+- [[superbpe]]
 - Source: [[shorthand-for-thought]]
 - Concept: [[supertokens]]

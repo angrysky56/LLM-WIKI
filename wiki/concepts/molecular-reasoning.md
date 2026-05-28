@@ -14,6 +14,12 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[log]]
+- [[concepts/chain-of-thought]]
+- [[sources/papers/chen-molecular-cot-2026]]
+- [[index]]
+- [[concepts/molecular-reasoning]]
+- [[molecular-reasoning]]
 
 - [[scientific-reasoning]]
 - [[chain-of-thought]]

@@ -78,6 +78,10 @@ A danger that arrives gradually may be normalized before recognized as dangerous
 3. **Conscienceservitor as a pre-response checkpoint**: The conscience-servitor in EFHF acts as a pre-response ethical review layer. Boiling the Frog provides a concrete failure mode (normalization drift through cumulative state) that such a layer must be designed to catch.
 
 ## Connections
+- [[scratchpad/jobs/reports/arxiv/papers-2026-05-24-researched]]
+- [[sources/papers/boiling-frog-agentic-safety-2026]]
+- [[index]]
+- [[boiling-frog-agentic-safety-2026]]
 
 - [[agentic-research]] — implementation drift, multi-turn failure modes
 - [[efhf]] — conscience-servitor layer requirement

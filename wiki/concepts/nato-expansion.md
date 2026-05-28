@@ -14,5 +14,11 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/maximum-occupancy-principle]]
+- [[log]]
+- [[sources/news/2026/nato-troops-poland-may-2026]]
+- [[concepts/nato-expansion]]
+- [[index]]
+- [[nato-expansion]]
 
 - [[maximum-occupancy-principle]]

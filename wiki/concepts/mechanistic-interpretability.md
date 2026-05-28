@@ -37,6 +37,18 @@ In the [[metacognitive-architecture-closed-loop-self-regulation]] framework, mec
 See also: [[activation-steering]] for the complementary modulation half of the biofeedback loop.
 
 ## Connections
+- [[concepts/chain-of-thought]]
+- [[sources/news/2026/engineering-internal-awareness-and-closed-loop-self-regulation-in-large-language-models]]
+- [[concepts/mechanistic-interpretability]]
+- [[concepts/neural-interpretability]]
+- [[concepts/activation-steering]]
+- [[sources/papers/saerl]]
+- [[index]]
+- [[concepts/metacognitive-architecture-closed-loop-self-regulation]]
+- [[concepts/activation-engineering]]
+- [[log]]
+- [[concepts/affective-ai-inner-architecture]]
+- [[mechanistic-interpretability]]
 
 - [[activation-steering]] — the modulation counterpart to interpretability's observation
 - [[metacognitive-architecture-closed-loop-self-regulation]] — complete biofeedback loop using interpretability as sensors

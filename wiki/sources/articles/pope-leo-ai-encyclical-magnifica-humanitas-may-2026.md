@@ -79,6 +79,14 @@ With the US federal AI regulatory path definitively closed (Trump abandoned AI m
 - [ ] Will Catholic bishops' conferences in US, EU, Asia begin implementing guidance on AI governance?
 
 ## Connections
+- [[concepts/ai-policy-global-governance]]
+- [[concepts/ai-policy-arms-control-treaty]]
+- [[synthesis/news/russia-bundibugyo-ebola-vaccine-may-2026]]
+- [[index]]
+- [[sources/articles/pope-leo-ai-encyclical-magnifica-humanitas-may-2026]]
+- [[synthesis/news/anthropic-vatican-alignment-may-2026]]
+- [[concepts/ai-governance]]
+- [[pope-leo-ai-encyclical-magnifica-humanitas-may-2026]]
 
 - [[AI-policy-federalism]] — US federal retreat makes papal voice more consequential; California as de facto US regulator
 - [[trump-abandons-ai-model-vetting-may-2026]] — federal AI regulation definitively off table, May 22

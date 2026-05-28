@@ -34,6 +34,9 @@ The implications extend beyond Canada. Alberta is a major oil and gas producer, 
 The referendum also intersects with broader trends in Western democratic fracturing — the UK, Spain (Catalonia), and now Canada all dealing with subnational independence movements at a moment when national governments are facing declining trust.
 
 ## Connections
+- [[index]]
+- [[sources/news/2026/alberta-independence-referendum-2026]]
+- [[alberta-independence-referendum-2026]]
 - [[institutional-accountability]] — democratic legitimacy of separation referendums vs. constitutional frameworks
 - [[north-american-energy-politics]] — Alberta as major oil/gas producer, implications for US energy security
 

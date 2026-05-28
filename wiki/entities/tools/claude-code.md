@@ -19,4 +19,12 @@ In the context of [[agentic-research]], Claude Code is often used as the "execut
 - [[why-llms-arent-scientists-yet]] — Used Claude Code for experimental implementation and paper writing.
 
 ## Connections
+- [[entities/tools/claude-code]]
+- [[concepts/agentic-research]]
+- [[index]]
+- [[sources/articles/why-llms-arent-scientists-yet]]
+- [[log]]
+- [[sources/repositories/codegraph]]
+- [[sources/documentation/create-custom-subagents]]
+- [[claude-code]]
 - [[agentic-research]] — Primary tool for autonomous execution.

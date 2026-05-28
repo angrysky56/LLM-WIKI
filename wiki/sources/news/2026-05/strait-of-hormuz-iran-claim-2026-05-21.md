@@ -41,6 +41,13 @@ Iran announced the creation of a "Persian Gulf Strait Authority" claiming milita
 - [[uae-reports-drone-strike-near-abu-dhabi-nuclear-power-plant]] — regional vulnerability
 - [[xi-putin-summit-2026-05-20]] — great power context
 
+## Related
+- [[sources/news/2026-05/trump-iran-diplomacy-threats-2026-05-21]]
+- [[index]]
+- [[sources/news/2026-05/strait-of-hormuz-iran-claim-2026-05-21]]
+
+- [[strait-of-hormuz-iran-claim-2026-05-21]]
+
 ## Tags
 
 #iran #geopolitics #maritime #oil #strait-of-hormuz

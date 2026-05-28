@@ -82,6 +82,18 @@ LoRA combines naturally with Mixture of Experts architectures. The MoE router al
 4. **Combining multiple LoRA adapters**: How should multiple task-specific LoRA adapters be composed at inference time? Weighting schemes, routing, or merging strategies?
 
 ## Connections
+- [[concepts/qora]]
+- [[scratchpad/jobs/reports/researcher/discovery-2026-07-20]]
+- [[concepts/bounded-memory-budget-optimization]]
+- [[log]]
+- [[concepts/fine-tuning]]
+- [[concepts/qes]]
+- [[scratchpad/agent-sheets/researcher/carryover]]
+- [[concepts/lora]]
+- [[index]]
+- [[concepts/parameter-efficient-fine-tuning]]
+- [[concepts/llama-nas]]
+- [[scratchpad/jobs/reports/researcher/discovery-2026-08-03]]
 
 - [[parameter-efficient-fine-tuning]]: the broader category LoRA belongs to
 - [[fine-tuning]]: LoRA is a fine-tuning method; fine-tuning.md covers the general fine-tuning landscape
@@ -91,3 +103,7 @@ LoRA combines naturally with Mixture of Experts architectures. The MoE router al
 - [[llm-training]]: LoRA is primarily used during the LLM training/fine-tuning phase
 - [[control-llm]]: architectural alternative to LoRA for task adaptation — Control LLM uses structural separation vs LoRA's low-rank decomposition
 - [[continual-learning]]: LoRA can be used as a continual learning tool — one LoRA adapter per task, combined via meta-learning or routing
+- [[qes]]
+- [[llama-nas]]
+- [[bounded-memory-budget-optimization]]
+- [[qora]]

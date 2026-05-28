@@ -14,5 +14,11 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/agentic-oversight]]
+- [[index]]
+- [[concepts/ai-security]]
+- [[log]]
+- [[sources/news/2026-05/github-data-breach-2026-05-20]]
+- [[ai-security]]
 
 - [[agentic-oversight]]

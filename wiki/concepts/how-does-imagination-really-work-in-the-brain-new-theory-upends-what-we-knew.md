@@ -14,6 +14,18 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[index]]
+- [[concepts/hyperphantasia]]
+- [[concepts/feedforward-activity]]
+- [[log]]
+- [[concepts/how-does-imagination-really-work-in-the-brain-new-theory-upends-what-we-knew]]
+- [[entities/people/roger-koenig-robert]]
+- [[concept-index]]
+- [[concepts/spontaneous-activity-reshaping-hypothesis]]
+- [[synthesis/intelligence-as-entropic-sculpting]]
+- [[concepts/aphantasia]]
+- [[concepts/feedback-activity]]
+- [[how-does-imagination-really-work-in-the-brain-new-theory-upends-what-we-knew]]
 
 - [[neuroscience]]
 - [[mental-imagery]]

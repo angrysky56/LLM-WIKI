@@ -68,6 +68,17 @@ The LCGuard framework (see [[lcguard]]) uses adversarial training to simultaneou
 - Iterate until equilibrium (minimax optimization)
 
 ## Connections
+- [[concepts/multi-agent-llm-systems]]
+- [[scratchpad/jobs/reports/researcher/discovery-2026-06-09]]
+- [[concepts/adversarial-training]]
+- [[index]]
+- [[sources/defending-moe-llms-against-harmful-fine-tuning-via-safety-routing-alignment]]
+- [[log]]
+- [[sources/papers/lcguard-kv-communication-guard-2026]]
+- [[concepts/agent-leak-benchmark]]
+- [[concepts/lcguard]]
+- [[concepts/agent-onboarding]]
+- [[adversarial-training]]
 
 - [[agent-leak-benchmark]] — the benchmark for measuring adversarial reconstruction attacks
 - [[latent-communication]] — the communication paradigm being protected

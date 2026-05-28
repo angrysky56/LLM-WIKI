@@ -40,6 +40,9 @@ The White House has effectively signaled it will not pursue federal AI safety or
 - **May 22, 2026**: Trump administration abandons proposed AI executive order
 
 ## Connections
+- [[index]]
+- [[sources/news/2026/trump-ai-executive-order-abandoned-may-2026]]
+- [[trump-ai-executive-order-abandoned-may-2026]]
 
 - [[AI-policy-federalism]] — Federal vs. state AI regulation divergence
 - [[california-ai-worker-protection-order-2026]] — State-level AI policy leadership

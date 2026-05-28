@@ -21,6 +21,12 @@ Prover9 is an automated theorem prover (ATP) for first-order logic and equationa
 Legacy Makefiles for Prover9 may require specific linker flag ordering (e.g., placing `-lm` at the end) to avoid "undefined reference" errors in modern CI environments.
 
 ## Connections
+- [[sources/documentation/github-actions-troubleshooting]]
+- [[concepts/formal-verification]]
+- [[entities/tools/prover9]]
+- [[index]]
+- [[log]]
+- [[prover9]]
 - Entity: [[isabelle]]
 - Source: [[github-actions-troubleshooting]]
 - Concept: [[formal-verification]]

@@ -14,5 +14,10 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[entities/projects/priorlabs]]
+- [[index]]
+- [[log]]
+- [[sources/repositories/tabpfn]]
+- [[priorlabs]]
 
 - [[ai-scientific-discovery]]

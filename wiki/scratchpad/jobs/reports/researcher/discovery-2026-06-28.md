@@ -71,6 +71,12 @@ N/A — all 4 were upgrades from existing stubs
 
 **Stub count: 174** (down from 175 after this cycle's 3 upgrades + 0 deletions)
 
+## Related
+- [[index]]
+- [[scratchpad/jobs/reports/researcher/discovery-2026-06-28]]
+
+- [[discovery-2026-06-28]]
+
 ## Open Questions
 - **MoE routing collapse under RLHF**: Resolved — Empirically confirmed via SafeMoE (Kim 2025)
 - **Adaptive budget learning**: No clear paper yet — open

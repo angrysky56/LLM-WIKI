@@ -97,6 +97,12 @@ The "thin but connected" criterion was satisfied — both pages were referenced 
 
 ---
 
+## Related
+- [[scratchpad/jobs/reports/researcher/discovery-2026-07-20]]
+- [[index]]
+
+- [[discovery-2026-07-20]]
+
 ## Deliverables
 
 - [x] control-llm.md upgraded (stub → active)

@@ -26,6 +26,9 @@ This is a significant escalation in US-China tensions over Taiwan. China has con
 The timing is notable: while the China-Cuba tensions (from carryover) represent one axis of pressure, the Taiwan call represents another. The US appears to be testing Chinese response capacity on multiple fronts simultaneously.
 
 ## Connections
+- [[sources/news/2026/trump-taiwan-call-2026]]
+- [[index]]
+- [[trump-taiwan-call-2026]]
 - [[china-cuba-tensions]] — both represent challenges to Chinese sphere-of-influence claims
 - [[institutional-capture-vs-species-framing]] — Trump as figure operating outside institutional norms creates novel governance scenarios
 - [[ai-governance-substrate]] — Taiwan Strait is critical to global semiconductor supply chains; disruption would affect AI chip production

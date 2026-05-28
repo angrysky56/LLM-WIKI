@@ -78,6 +78,12 @@ These papers collectively say: **frontier capabilities depend on internal scaffo
 - Tags added: `vpo`, `grpo-drop-in`, `reward-diversity`, `test-time-search`, `inference-scaling`, `multi-objective-rl`, `alphaevolve`, `pass@k`, `directional-motion-blindness`, `video-llm`, `direction-binding-gap`, `projector-training`, `curiosity-driven-exploration`, `3DGS`, `world-model`, `episodic-memory`, `habitat`, `zero-shot-generalization`
 - Total wiki pages: 311 (up from 308)
 
+## Related
+- [[index]]
+- [[scratchpad/jobs/reports/arxiv/arxiv-2026-05-23-top-papers]]
+
+- [[arxiv-2026-05-23-top-papers]]
+
 ## Jobs Sheet
 
 - **Status**: complete

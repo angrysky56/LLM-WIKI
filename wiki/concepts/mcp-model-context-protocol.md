@@ -82,12 +82,23 @@ Several MCP servers are operational in the LLM-WIKI ecosystem:
 The [[mcp-logic]] server is particularly central: it implements EFHF Layer 3 verification, proving theorems and finding counterexamples using Prover9 and Mace4.
 
 ## Connections
+- [[concepts/agentic-reasoning]]
+- [[concepts/maximum-occupancy-principle]]
+- [[index]]
+- [[concepts/mcp]]
+- [[sources/repositories/gbrain]]
+- [[log]]
+- [[sources/papers/xu-envfactory-2026]]
+- [[concepts/mcp-model-context-protocol]]
+- [[mcp-model-context-protocol]]
 
 - [[mcp-logic]] — MCP server for first-order logic verification
 - [[efhf]] — MCP servers implement the EFHF layers (L3: mcp-logic)
 - [[maximum-occupancy-principle]] — MCP enables agents to discover and use external tools for exploration
 - [[hermes-agent]] — implements full MCP client + server capability
+- [[autonomous-agents]] — autonomous agents rely on MCP as the standard tool interface protocol
 
+- [[agentic-reasoning]]
 ## Limitations
 
 - MCP servers are trusted components — no sandboxing by default. A malicious or buggy MCP server can compromise the AI system.

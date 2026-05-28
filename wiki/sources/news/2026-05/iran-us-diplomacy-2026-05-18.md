@@ -26,6 +26,18 @@ Iran submitted a revised proposal to end the ongoing war to the United States th
 - Axios: "Trump warns Iran 'clock is ticking' until US launches harder strikes"
 - Haaretz: "Tehran Submits to U.S. New Proposal to End War, Iranian Media Says"
 
+## Related
+- [[sources/news/2026-05/iran-us-diplomacy-2026-05-18]]
+- [[sources/news/2026-05/china-cuba-us-threats-2026-05-21]]
+- [[index]]
+- [[synthesis/news/2026-may/news-2026-05-18-headlines]]
+- [[sources/news/2026-05/strait-of-hormuz-iran-claim-2026-05-21]]
+- [[sources/news/2026-05/trump-iran-diplomacy-threats-2026-05-21]]
+- [[iran-us-diplomacy-2026-05-18]]
+- [[wiki/sources/news/2026-05/iran-us-diplomacy-2026-05-18.md]]
+
+- [[iran-us-diplomacy-2026-05-18.md]]
+
 ## Wiki Connections
 - [[iran]]
 - [[us-iran-tensions]]

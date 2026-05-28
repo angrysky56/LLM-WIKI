@@ -69,6 +69,20 @@ The connection to [[proof-assistant]] and [[interactive-theorem-proving]] is dir
 - **Model vs implementation gap**: Verifying a model of a system doesn't verify the actual implementation matches the model
 
 ## Connections
+- [[concepts/category-theory]]
+- [[entities/tools/isabelle]]
+- [[concepts/proof-assistant]]
+- [[entities/tools/isabelle-hol]]
+- [[concepts/formal-verification]]
+- [[concepts/mathematical-reasoning]]
+- [[concepts/causal-reasoning]]
+- [[index]]
+- [[concepts/categorical-reasoning]]
+- [[concepts/formal-methods]]
+- [[log]]
+- [[concepts/load-bearing-reasoning]]
+- [[concepts/interactive-theorem-proving]]
+- [[formal-methods]]
 
 - [[formal-verification]] — applying formal methods to verify correctness against specifications
 - [[interactive-theorem-proving]] — human-guided proof construction in proof assistants

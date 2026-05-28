@@ -14,5 +14,11 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[log]]
+- [[concepts/knowledge-management]]
+- [[synthesis/nairobi-protocol-gde]]
+- [[concepts/knowledge-store]]
+- [[index]]
+- [[knowledge-store]]
 
 - [[knowledge-management]]

@@ -14,6 +14,11 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/model-optimization]]
+- [[index]]
+- [[log]]
+- [[concepts/ml-optimization]]
+- [[ml-optimization]]
 
 - [[machine-learning]]
 - [[model-optimization]]

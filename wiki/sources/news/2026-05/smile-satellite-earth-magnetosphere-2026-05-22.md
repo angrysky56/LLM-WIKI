@@ -22,6 +22,10 @@ Earth's magnetosphere is the reason life on Earth has been protected from solar 
 - **Geopolitical science cooperation** — the ESA-CAS partnership signals that space science remains an area where great-power competitors can cooperate, despite broader tensions
 
 ## Connections
+- [[synthesis/news/2026-may/news-2026-05-22-headlines]]
+- [[index]]
+- [[sources/news/2026-05/smile-satellite-earth-magnetosphere-2026-05-22]]
+- [[smile-satellite-earth-magnetosphere-2026-05-22]]
 - [[china]] — Joint mission with Chinese Academy of Sciences
 - [[esa]] — European Space Agency co-lead
 - [[space-weather]] — Primary research domain

@@ -14,6 +14,14 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[sources/news/large-scale-ukrainian-drone-attack-kills-three-in-moscow-region]]
+- [[synthesis/news/large-scale-ukrainian-drone-attack-kills-three-in-moscow-reg]]
+- [[log]]
+- [[synthesis/news/ukraine-russia-war]]
+- [[synthesis/news/moscow]]
+- [[index]]
+- [[synthesis/news/russia-sanctions-regime]]
+- [[ukraine-russia-war]]
 
 - [[geopolitics]]
 - [[russia-sanctions-regime]]

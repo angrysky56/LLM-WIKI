@@ -14,6 +14,16 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[log]]
+- [[concepts/video-llm]]
+- [[concepts/motion-understanding]]
+- [[concepts/delta-direct]]
+- [[index]]
+- [[concepts/vision-language-alignment]]
+- [[delta-direct]]
 
 - [[video-understanding]]
 - [[llm-vision]]
+- [[motion-understanding]]
+- [[vision-language-alignment]]
+- [[video-llm]]

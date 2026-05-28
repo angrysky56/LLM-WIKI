@@ -68,6 +68,20 @@ The goal of continual learning is to update a model with new information without
 A key tension in continual learning: do we learn by adding new weights (scaffolding), or by compressing existing representations? The brain appears to use both — adding new neurons over the lifespan while also forming new synaptic connections. LLMs lack this biological flexibility, making catastrophic forgetting a more severe problem.
 
 ## Connections
+- [[concepts/continual-learning]]
+- [[concepts/lora]]
+- [[concepts/quantization]]
+- [[concepts/instruction-tuning]]
+- [[concepts/reinforcement-learning-from-human-feedback]]
+- [[concepts/group-relative-policy-optimization]]
+- [[concepts/qes]]
+- [[concepts/control-llm]]
+- [[index]]
+- [[concepts/catastrophic-forgetting]]
+- [[concepts/llm-training]]
+- [[concepts/parameter-efficient-fine-tuning]]
+- [[log]]
+- [[llm-training]]
 
 - [[catastrophic-forgetting]]: the core problem of continual learning
 - [[control-llm]]: controlling LLM behavior during and after training
@@ -76,6 +90,12 @@ A key tension in continual learning: do we learn by adding new weights (scaffold
 - [[mixture-of-experts]]: architectural approach to mitigating interference
 - [[agent-onboarding]]: the applied problem of integrating new capabilities into an agent
 
+- [[continual-learning]]
+- [[parameter-efficient-fine-tuning]]
+- [[quantization]]
+- [[lora]]
+- [[instruction-tuning]]
+- [[qes]]
 ## Open Questions
 
 1. **Catastrophic forgetting mechanisms**: Is the degradation in old tasks due to weight interference, or due to the optimization objective not valuing those tasks? Can we selectively protect task-critical representations?

@@ -32,6 +32,12 @@
 - **route-collapse-rlhf.md** — empirics of MoE routing collapse under RLHF. SafeMoE citation confirmed. Page may exist but not yet connected.
 - **eviction policy for MoE routing** — no existing page. The pre-training skew in MoE-Sieve (top-25% experts handle most tokens pre fine-tuning) is a distinct topic from RLHF-induced collapse.
 
+## Related
+- [[scratchpad/jobs/reports/researcher/discovery-2026-05-26]]
+- [[index]]
+
+- [[discovery-2026-05-26]]
+
 ## Open Questions
 1. **Which resolution path is correct?** All three are theoretically coherent but empirically untested in a systematic comparison.
 2. **GRPO for MoE diversity** — can GRPO naturally preserve expert diversity? Open empirical question.

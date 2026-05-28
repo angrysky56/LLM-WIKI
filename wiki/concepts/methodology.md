@@ -14,6 +14,13 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/design-thinking]]
+- [[concepts/design-thinking-mit]]
+- [[log]]
+- [[concepts/research-methodology]]
+- [[concepts/methodology]]
+- [[index]]
+- [[methodology]]
 
 - [[research-methodology]]
 - [[design-thinking]]

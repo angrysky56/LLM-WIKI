@@ -14,5 +14,11 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/geometric-hashing]]
+- [[synthesis/nairobi-protocol-gde]]
+- [[index]]
+- [[concepts/maximum-occupancy-principle]]
+- [[log]]
+- [[geometric-hashing]]
 
 - [[maximum-occupancy-principle]]

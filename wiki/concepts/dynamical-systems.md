@@ -65,6 +65,12 @@ Chain-of-thought reasoning can be modeled as a trajectory through state space, w
 The open question: Is the attractor landscape of transformer reasoning constructed during training (making it substrate-dependent), or does it reflect general dynamical properties of high-dimensional nonlinear systems (suggesting substrate-independence)?
 
 ## Connections
+- [[log]]
+- [[concepts/attractor-dynamics]]
+- [[concepts/dynamical-systems]]
+- [[index]]
+- [[concepts/systems-theory]]
+- [[dynamical-systems]]
 
 - [[attractor-dynamics]]: the neural network instantiation of dynamical systems theory
 - [[systems-theory]]: broader framing of interconnected components

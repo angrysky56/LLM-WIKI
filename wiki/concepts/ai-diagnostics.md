@@ -14,5 +14,10 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[log]]
+- [[concepts/ai-diagnostics]]
+- [[sources/news/2026-05/ebola-outbreak-drc-2026-05-20]]
+- [[index]]
+- [[ai-diagnostics]]
 
 - [[ai-scientific-discovery]]

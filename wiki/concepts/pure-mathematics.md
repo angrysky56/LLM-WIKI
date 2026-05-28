@@ -14,6 +14,11 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/mathematics]]
+- [[index]]
+- [[concepts/abstract-algebra]]
+- [[concepts/pure-mathematics]]
+- [[pure-mathematics]]
 
 - [[mathematics]]
 - [[abstract-algebra]]

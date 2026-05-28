@@ -14,5 +14,10 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[index]]
+- [[entities/people/harris]]
+- [[log]]
+- [[sources/news/2026-05/dnc-2024-autopsy-2026-05-22]]
+- [[harris]]
 
 - [[us-politics]]

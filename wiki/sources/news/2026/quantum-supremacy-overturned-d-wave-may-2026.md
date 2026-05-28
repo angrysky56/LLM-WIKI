@@ -29,6 +29,13 @@ For AI implications: quantum computing has been proposed as a potential substrat
 
 **Wiki connections:** [[AI-scientific-discovery]], [[quantum-computing]]
 
+## Related
+- [[synthesis/news/2026-may/headlines-2026-05-25]]
+- [[index]]
+- [[sources/news/2026/quantum-supremacy-overturned-d-wave-may-2026]]
+
+- [[quantum-supremacy-overturned-d-wave-may-2026]]
+
 ## Sources
 
 - Simons Foundation (May 21, 2026): "Quantum dynamics breakthrough overturns claim of 'quantum supremacy,' opens new research directions"

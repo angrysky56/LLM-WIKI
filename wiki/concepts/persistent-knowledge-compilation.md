@@ -43,6 +43,27 @@ Rather than re-deriving answers from raw documents on every query (RAG), an LLM 
 - Can compilation be made incremental enough to be real-time?
 
 ## Connections
+- [[entities/people/andrej-karpathy]]
+- [[index]]
+- [[synthesis/causal-state-edm-ood-isomorphism]]
+- [[concepts/design-thinking]]
+- [[synthesis/bounded-structured-memory]]
+- [[synthesis/mop-edm-cognitive-architecture]]
+- [[log]]
+- [[entities/projects/project-synapse]]
+- [[concepts/agent-native-design]]
+- [[concepts/llm-wiki-pattern]]
+- [[concepts/memex]]
+- [[scratchpad/jobs/reports/researcher/discovery-2026-06-26]]
+- [[concepts/cognitive-world-models-for-llm-agents]]
+- [[concepts/graphrag]]
+- [[concept-index]]
+- [[concepts/edm-framework]]
+- [[concepts/persistent-knowledge-compilation]]
+- [[sources/repositories/product-canvas]]
+- [[concepts/rag]]
+- [[concepts/markovian-carryover]]
+- [[persistent-knowledge-compilation]]
 
 - [[rag]] — the stateless alternative this paradigm replaces
 - [[project-synapse]] — the primary implementation in this system

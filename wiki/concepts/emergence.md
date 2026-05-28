@@ -80,6 +80,26 @@ This apparent contradiction resolves when you consider that:
 See [[scaling-laws]] for the power-law framework that governs the smooth aspects of scale-dependent performance.
 
 ## Connections
+- [[concepts/in-context-learning]]
+- [[concepts/wolfram-nks-causal-networks]]
+- [[concepts/dynamical-systems]]
+- [[concepts/chain-of-thought]]
+- [[concepts/computational-irreducibility]]
+- [[agents/skills/researcher-agent/references/gap-discovery-patterns]]
+- [[concepts/attractor-dynamics]]
+- [[agents/skills/researcher-agent/skill]]
+- [[log]]
+- [[concepts/emergence]]
+- [[concepts/complexity]]
+- [[concepts/power-law-scaling]]
+- [[index]]
+- [[concepts/imagination]]
+- [[concepts/open-ended-evolution]]
+- [[sources/papers/critical-initialization-biological-neural-networks]]
+- [[concepts/scaling-laws]]
+- [[concepts/openpraparat]]
+- [[concepts/creativity]]
+- [[emergence]]
 
 - [[scaling-laws]] — the power-law framework; smooth scale-performance relationships that underlie emergent capability thresholds
 - [[computational-irreducibility]] — why some systems can't be predicted without explicit simulation; related to why emergence surprises us
@@ -92,6 +112,10 @@ See [[scaling-laws]] for the power-law framework that governs the smooth aspects
 - Concept: [[power-law-scaling]]
 
 
+- [[imagination]]
+- [[dynamical-systems]]
+- [[attractor-dynamics]]
+- [[creativity]]
 ## Open Questions
 
 1. **Which emergence is real?**: Distinguishing genuine phase transitions from metric artifacts requires continuous-metric evaluations across scale — expensive and rarely done systematically.

@@ -37,6 +37,12 @@ The Guardian (May 24) and multiple NGOs report that food is being weaponized in 
 
 The African Commission on Human and Peoples' Rights and the UN Independent International Fact-Finding Mission for the Sudan adopted a joint declaration on the human rights situation. This signals the international community is increasing attention on Sudan — but declarations have limited effect on the ground when violence is deliberate and systematic.
 
+## Related
+- [[synthesis/news/south-sudan-humanitarian-crisis-may-2026]]
+- [[index]]
+
+- [[south-sudan-humanitarian-crisis-may-2026]]
+
 ## Open Questions
 
 1. South Sudan Ebola status — any cases detected at border crossings?

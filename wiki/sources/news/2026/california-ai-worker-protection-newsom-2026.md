@@ -32,6 +32,9 @@ The order addresses:
 - States broadly plowing ahead with AI regulation despite White House resistance (NYT, March 2026)
 
 ## Connections
+- [[index]]
+- [[sources/news/2026/california-ai-worker-protection-newsom-2026]]
+- [[california-ai-worker-protection-newsom-2026]]
 
 - [[AI-policy-federalism]]: State-level AI regulation accelerating as federal oversight retreats
 - [[California-tech-regulation]]: California positioning as de facto AI policy leader nationally

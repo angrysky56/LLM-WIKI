@@ -14,6 +14,20 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/applied-mathematics]]
+- [[concepts/set-theory]]
+- [[concepts/mathematics]]
+- [[concepts/logic]]
+- [[concepts/infinite]]
+- [[concepts/pure-mathematics]]
+- [[index]]
+- [[concepts/algebra]]
+- [[log]]
+- [[mathematics]]
 
 - [[pure-mathematics]]
 - [[applied-mathematics]]
+- [[algebra]]
+- [[infinite]]
+- [[set-theory]]
+- [[logic]]

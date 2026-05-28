@@ -34,6 +34,9 @@ Vance vs. other Trump officials on the encyclical signals the administration's A
 - Whether Vance is positioning himself as a more multilateral voice within the administration
 
 ## Connections
+- [[index]]
+- [[synthesis/news/anthropic-vatican-alignment-may-2026]]
+- [[anthropic-vatican-alignment-may-2026]]
 
 [[pope-leo-ai-encyclical-magnifica-humanitas-may-2026]]: Full encyclical context
 [[trump-abandons-ai-model-vetting-may-2026]]: Federal AI regulation off table — California vacuum

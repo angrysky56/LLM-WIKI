@@ -34,9 +34,35 @@ Running Neo4j 2026.04.0 (community edition). Qwen 4B via Ollama for embeddings (
 See [[neo4j-2026-04-0-release]] for full release notes.
 
 ## Connections
+- [[index]]
+- [[synthesis/wiki-indexing-theory]]
+- [[entities/tools/obsidian]]
+- [[concepts/graph-database]]
+- [[sources/articles/hilbert-hotel-graph-architecture]]
+- [[sources/articles/llm-wiki-pattern]]
+- [[sources/repositories/graphify-ai-coding-assistant-skill]]
+- [[log]]
+- [[concepts/knowledge-graph]]
+- [[concepts/llm-wiki-pattern]]
+- [[entities/projects/zettelkasten-engine]]
+- [[synthesis/synapse-retrieval-architecture]]
+- [[concepts/graphrag]]
+- [[concept-index]]
+- [[sources/papers/odrzywolek-eml-2026]]
+- [[synthesis/synapse-llm-wiki-operating-guide]]
+- [[entities/projects/efhf]]
+- [[entities/projects/project-synapse]]
+- [[entities/tools/neo4j]]
+- [[entities/tools/neo4j-2026-04-0-release]]
+- [[neo4j]]
 
 - [[project-synapse]] — the MCP server using this as its graph backend
 - [[obsidian]] — the human-readable layer sitting above this graph layer
 - [[zettelkasten-engine]] — runs pattern detection directly over this graph
 - [[graphrag]] — the retrieval paradigm implemented using this database
 - [[hilbert-hotel-graph-architecture]] — thought experiment: immutable nodes + lazy offset protocols for infinite graph operations
+
+- [[knowledge-graph]]
+- [[llm-wiki-pattern]]
+- [[odrzywolek-eml-2026]]
+- [[graph-database]]

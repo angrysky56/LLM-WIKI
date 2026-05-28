@@ -15,6 +15,14 @@ confidence: 0.9
 **Zeta** is the Entropy Regulation Agent in the [[oMCD]] framework. It maintains the dual to confidence — overall uncertainty balance.
 
 ## See Also
+- [[concepts/omcd]]
+- [[concepts/agent-taxonomies]]
+- [[concepts/alpha]]
+- [[index]]
+- [[concepts/zeta]]
+- [[log]]
+- [[zeta]]
 
 - [[agent-taxonomies]]
 - [[Alpha]]
+- [[oMCD]]

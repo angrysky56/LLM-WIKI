@@ -14,5 +14,13 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[log]]
+- [[synthesis/news/ebola-outbreak-2026]]
+- [[index]]
+- [[sources/articles/ebola-bundibugyo-drc-uganda-may-2026]]
+- [[sources/news/how-worrying-is-the-ebola-outbreak-in-dr-congo]]
+- [[sources/news/who-declares-ebola-outbreak-in-dr-congo-an-international-eme]]
+- [[synthesis/news/ebola]]
+- [[ebola]]
 
 - [[ebola-outbreak-2026]]

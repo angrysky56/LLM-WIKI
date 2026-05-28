@@ -123,6 +123,12 @@ After each phase:
 - Synapse wiki_ingest_raw for wiki re-ingestion
 - Librarian agent for wiki page identification
 
+## Related
+- [[index]]
+- [[research/extraction-quality-audit/research_spec]]
+
+- [[research_spec]]
+
 ## Risks
 
 - **Fact integrity**: Deleting garbage entities may affect Fact counts if those Facts only link to garbage entities — those Facts should also be reviewed

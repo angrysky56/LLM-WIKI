@@ -115,6 +115,12 @@ Confidence: 0.70 (solid cognitive science basis; AI application is more speculat
 - Discovery report to #research is delivery mechanism per agent sheet
 - kanban-morning-review for trailing 10:30 AM aggregator cron handles task surfacing
 
+## Related
+- [[index]]
+- [[scratchpad/jobs/reports/researcher/discovery-2026-07-03]]
+
+- [[discovery-2026-07-03]]
+
 ## Connections Added (18)
 
 - creativity: parallel-reasoning, generative-ai, imagination, in-context-learning, shorthand-for-thought, llm-reasoning, multi-agent-llm-systems, emergence

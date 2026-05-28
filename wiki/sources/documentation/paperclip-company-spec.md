@@ -32,6 +32,11 @@ Agent Company (agentcompanies/v1-draft) is a vendor-neutral filesystem and GitHu
 Reserved files: `COMPANY.md`, `TEAM.md`, `AGENTS.md`, `PROJECT.md`, `TASK.md`, `SKILL.md`, `.paperclip.yaml`, `HEARTBEAT.md`, `SOUL.md`, `TOOLS.md`.
 
 ## Connections
+- [[sources/documentation/paperclip-api]]
+- [[sources/documentation/paperclip-company-spec]]
+- [[sources/repositories/paperclip]]
+- [[index]]
+- [[paperclip-company-spec]]
 
 - [[paperclip]] — Paperclip is the runtime for Agent Companies
 - [[agent-skills-spec]] — Agent Skills spec that this extends

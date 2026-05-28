@@ -14,6 +14,16 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/research-tooling]]
+- [[concepts/research-agent]]
+- [[concepts/ml-research]]
+- [[index]]
+- [[concepts/scientific-discovery]]
+- [[concepts/ai-research]]
+- [[log]]
+- [[ai-research]]
 
 - [[scientific-discovery]]
 - [[ml-research]]
+- [[research-agent]]
+- [[research-tooling]]

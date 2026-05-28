@@ -90,6 +90,28 @@ The [[hipai-montague]] entity is the cognitive world model in the EFHF architect
 Biological and some AI systems implement hierarchical predictive coding: each layer predicts the input from the layer below, with prediction errors propagated upward. This is a form of world model where the environment model is distributed across layers.
 
 ## Connections
+- [[concepts/agentic-planner]]
+- [[concepts/epistemic-energy]]
+- [[concepts/working-memory]]
+- [[index]]
+- [[concepts/world-model]]
+- [[concepts/imagination]]
+- [[sources/papers/recuriosity-episodic-context-3d-exploration-2026]]
+- [[concepts/mcts]]
+- [[log]]
+- [[scratchpad/jobs/reports/researcher/discovery-2026-06-08]]
+- [[concepts/counterfactual]]
+- [[concepts/llm-reasoning]]
+- [[concepts/llm-agent-architecture]]
+- [[concepts/autonomous-research]]
+- [[concepts/agent-native-design]]
+- [[concepts/mental-imagery]]
+- [[concepts/deliberative-agents]]
+- [[concepts/causal-reasoning]]
+- [[concepts/maximum-occupancy-principle]]
+- [[concepts/cognitive-world-models-for-llm-agents]]
+- [[scratchpad/jobs/reports/researcher/discovery-2026-07-03]]
+- [[world-model]]
 
 - [[mop-edm-cognitive-architecture]] — L2 world model encoding in the MOP-EDM framework
 - [[maximum-occupancy-principle]] — MOP generates the exploration targets the world model is tested against
@@ -105,6 +127,12 @@ Biological and some AI systems implement hierarchical predictive coding: each la
 - Concept: [[working-memory]]
 
 
+- [[MCTS]]
+- [[counterfactual]]
+- [[mental-imagery]]
+- [[llm-reasoning]]
+- [[imagination]]
+- [[deliberative-agents]]
 ## Open Questions
 
 1. ~~Cognitive world models for LLM agents~~ — **answered** → [[cognitive-world-models-for-llm-agents]]

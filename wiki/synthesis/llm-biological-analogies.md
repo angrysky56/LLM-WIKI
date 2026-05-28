@@ -36,6 +36,18 @@ In Wernicke's aphasia, damage to the comprehension center creates a broken feedb
 The brain's delayed myelination allows for a prolonged learning window. In AI, this is mirrored by the heavy compute and plasticity required during the pre-training phase. Once weights are "frozen" for deployment, they gain inference speed and efficiency but lose the ability to integrate new foundational knowledge without fine-tuning (LoRA) or in-context learning, which can be seen as an analogy to the high plasticity remaining in the human prefrontal cortex.
 
 ## Connections
+- [[synthesis/llm-biological-analogies]]
+- [[sources/news/2026/wolchover-life-force-2026]]
+- [[concepts/myelination]]
+- [[concepts/arcuate-fasciculus]]
+- [[index]]
+- [[sources/articles/brocas-area-gemini-chat]]
+- [[concepts/brocas-area]]
+- [[synthesis/self-prompting-via-production-stage-architecture]]
+- [[concepts/wernickes-area]]
+- [[concept-index]]
+- [[synthesis/intelligence-as-entropic-sculpting]]
+- [[llm-biological-analogies]]
 - [[brocas-area]]
 - [[wernickes-area]]
 - [[arcuate-fasciculus]]

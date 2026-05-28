@@ -96,6 +96,13 @@ If all three land, we have a replicable machine: research → discovery → clos
 
 ---
 
+## Related
+- [[index]]
+- [[projects/goodrobot/index]]
+- [[projects/goodrobot/strategic_brief]]
+
+- [[strategic_brief]]
+
 ## Success Criteria — End of Q2
 
 | Metric | Current | Q2 Target |

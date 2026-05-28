@@ -14,6 +14,13 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[index]]
+- [[concepts/distributed-systems]]
+- [[concepts/coordination]]
+- [[log]]
+- [[concepts/high-performance-computing]]
+- [[distributed-systems]]
 
 - [[systems-theory]]
 - [[coordination]]
+- [[high-performance-computing]]

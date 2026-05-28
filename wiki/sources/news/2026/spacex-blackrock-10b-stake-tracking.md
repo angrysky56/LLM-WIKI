@@ -77,6 +77,13 @@ All current sources use pre-confirmation language.
 - **June 7–10**: Watch for any pre-IPO media confirmation from BlackRock or SpaceX
 - **June 11**: Last chance for confirmation before June 12 listing
 
+## Related
+- [[sources/news/2026/spacex-blackrock-10b-stake-tracking]]
+- [[sources/news/2026/spacex-ipo-june-12-2026]]
+- [[index]]
+
+- [[spacex-blackrock-10b-stake-tracking]]
+
 ## Related Pages
 - [[spacex-ipo-june-12-2026]] — main IPO tracking page
 - [[spacex-ipo-governance-questions-may-2026]] — governance concerns including Musk voting control

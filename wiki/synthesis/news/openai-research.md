@@ -14,6 +14,11 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[sources/news/2026/openai-erdos-mathematics-proof-2026]]
+- [[synthesis/news/openai-research]]
+- [[synthesis/news/openai-developments]]
+- [[index]]
+- [[openai-research]]
 
 - [[alphaevolve]]
 - [[openai-developments]]

@@ -14,5 +14,14 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[index]]
+- [[concepts/tools]]
+- [[concepts/sqlite]]
+- [[concepts/cobra]]
+- [[log]]
+- [[concepts/agentic-research]]
+- [[tools]]
 
 - [[agentic-research]]
+- [[cobra]]
+- [[sqlite]]

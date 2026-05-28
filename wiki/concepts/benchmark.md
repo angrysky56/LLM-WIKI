@@ -73,6 +73,19 @@ Model fine-tuned on benchmark training split, evaluated on held-out test. More a
 Process evaluation is more robust to spec gaming: wrong reasoning that happens to produce right answers is detectable.
 
 ## Connections
+- [[concepts/reward-hacking]]
+- [[concepts/evaluation]]
+- [[index]]
+- [[concepts/institutional-capture]]
+- [[log]]
+- [[concepts/code-agent]]
+- [[concepts/code-generation]]
+- [[concepts/swe-bench]]
+- [[concepts/process-reward-model]]
+- [[concepts/benchmark]]
+- [[concepts/chain-of-thought]]
+- [[concepts/scaling-laws]]
+- [[benchmark]]
 
 - [[evaluation]] — the broader practice of systematic capability measurement
 - [[swe-bench]] — software engineering benchmark

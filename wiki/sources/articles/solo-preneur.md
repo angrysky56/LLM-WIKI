@@ -84,6 +84,9 @@ Dedicated trackers for specific expiration types. "Set it and forget it" — cro
 > Would a professional pay to save 30 minutes a week? If yes, it's a viable solo-dev product.
 
 ## Connections
+- [[sources/articles/solo-preneur]]
+- [[index]]
+- [[solo-preneur]]
 
 - [[micro-saas]] — broader concept of single-developer SaaS products
 - [[solo-development]] — constraints and patterns for solo builders

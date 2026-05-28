@@ -31,6 +31,12 @@ tags: [arxiv, report]
 - **Updated pages**: 0
 - **Tags added**: paper, arxiv, agentic-rl, tool-use, search-augmented-rag, multi-agent-rl, communication-protocols, cooperative-learning
 
+## Related
+- [[index]]
+- [[scratchpad/jobs/reports/arxiv/arxiv-2026-05-19-top-papers]]
+
+- [[arxiv-2026-05-19-top-papers]]
+
 ## Notes
 
 - Semantic Scholar returned 429 (rate limited) for all 5 papers checked — skipped citation enrichment this cycle

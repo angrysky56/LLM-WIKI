@@ -14,6 +14,19 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[index]]
+- [[log]]
+- [[concepts/language-models]]
+- [[concepts/large-language-models]]
+- [[concepts/text-analysis]]
+- [[concepts/llm-nlp]]
+- [[concepts/natural-language-processing]]
+- [[concepts/nlp]]
+- [[natural-language-processing]]
 
 - [[machine-learning]]
 - [[language-models]]
+- [[nlp]]
+- [[llm-nlp]]
+- [[large-language-models]]
+- [[text-analysis]]

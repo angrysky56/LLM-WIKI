@@ -120,6 +120,22 @@ Within [[project-synapse]]'s [[zettelkasten-engine]]:
 
 
 ## Connections
+- [[synthesis/causal-state-edm-ood-isomorphism]]
+- [[synthesis/minimal-generative-architectures]]
+- [[sources/articles/hilbert-hotel-graph-architecture]]
+- [[sources/papers/kim-ahn-edm-2026]]
+- [[synthesis/intelligence-as-entropic-sculpting]]
+- [[entities/projects/alphaevolve]]
+- [[sources/papers/ramirez-ruiz-mop-2024]]
+- [[entities/projects/efhf]]
+- [[concepts/hidden-states]]
+- [[sources/mixture-of-recursions]]
+- [[index]]
+- [[concepts/maximum-occupancy-principle]]
+- [[concept-index]]
+- [[concepts/edm-framework]]
+- [[synthesis/mop-edm-cognitive-architecture]]
+- [[causal-state-edm-ood-isomorphism]]
 
 - [[edm-framework]] — source paper; formal math and empirical results
 - [[maximum-occupancy-principle]] — MOP's β = state-splitting appetite; absorbing states = Kernel 2

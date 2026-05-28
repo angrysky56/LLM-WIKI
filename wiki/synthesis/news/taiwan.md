@@ -14,6 +14,12 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[synthesis/news/taiwan-strait-dynamics]]
+- [[synthesis/news/taiwan]]
+- [[index]]
+- [[log]]
+- [[sources/news/taiwan-reaffirms-independence-despite-trump-warning]]
+- [[taiwan]]
 
 - [[taiwan-strait-dynamics]]
 - [[geopolitics]]

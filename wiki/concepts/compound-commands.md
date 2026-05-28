@@ -14,5 +14,11 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[index]]
+- [[concepts/maximum-occupancy-principle]]
+- [[concepts/compound-commands]]
+- [[log]]
+- [[sources/repositories/cli-printing-press]]
+- [[compound-commands]]
 
 - [[maximum-occupancy-principle]]

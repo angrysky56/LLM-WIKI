@@ -48,6 +48,10 @@ Paperclip: d8634ba3-4e46-468e-ba26-d07f4d90f85b
 This record is kept as a trial-run reference — useful for reviewing if GoodRobot / Paperclip is restarted.
 
 ## Connections
+- [[projects/goodrobot/shut-down-entity]]
+- [[projects/goodrobot/active-business-plan]]
+- [[projects/goodrobot/index]]
+- [[shut-down-entity]]
 
 - [[index]] — operational project hub (current)
 - [[active-business-plan]] — full business plan (May 13)

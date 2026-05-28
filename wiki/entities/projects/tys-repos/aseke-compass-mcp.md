@@ -24,5 +24,14 @@ confidence: 1.0
 - `bridge_to_political`: Assess political orientation tendencies.
 
 ## Connections
+- [[log]]
+- [[synthesis/seg-scientist-agent-design]]
+- [[concepts/machine-psychology]]
+- [[entities/projects/tys-repos/aseke-compass-mcp]]
+- [[index]]
+- [[entities/projects/tys-repos]]
+- [[aseke-compass-mcp]]
 - [[agem]] — Used for psychological profiling of agent personas.
 - [[tys-repos]] — Part of Ty's repository collection.
+
+- [[machine-psychology]]

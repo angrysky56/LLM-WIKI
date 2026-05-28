@@ -14,5 +14,13 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[log]]
+- [[concepts/taplo]]
+- [[sources/documentation/github-actions-troubleshooting]]
+- [[index]]
+- [[concepts/maximum-occupancy-principle]]
+- [[taplo]]
 
 - [[maximum-occupancy-principle]]
+
+- [[github-actions-troubleshooting]]

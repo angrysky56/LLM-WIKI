@@ -14,6 +14,13 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[index]]
+- [[concepts/odrzywolek-eml-2026]]
+- [[concepts/eml-operator]]
+- [[log]]
+- [[concepts/sheffer-stroke]]
+- [[concepts/symbolic-regression]]
+- [[odrzywolek-eml-2026]]
 
 - [[machine-learning]]
 - [[mlops]]

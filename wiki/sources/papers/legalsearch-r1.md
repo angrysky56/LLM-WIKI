@@ -46,6 +46,12 @@ LegalSearch-R1 addresses a fundamental failure mode in legal LLMs: **temporal in
 - [[bounded-representation-capacity]] — temporal indexing as explicit capacity constraint on legal knowledge retrieval
 - [[grpo]] — GRPO training for reasoning agents (was in prior batch)
 
+## Related
+- [[index]]
+- [[sources/papers/legalsearch-r1]]
+
+- [[legalsearch-r1]]
+
 ## Key Quotes
 
 > "A retroactive law is truly a monstrosity. (Lex retro non agit)" — Lon L. Fuller, The Morality of Law (1969)

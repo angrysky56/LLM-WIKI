@@ -81,6 +81,12 @@ This batch forms a coherent triplet around the question "what do agents need to 
 
 The three papers are individually strong and collectively more interesting — they address orthogonal but interacting concerns for production agentic systems.
 
+## Related
+- [[index]]
+- [[scratchpad/jobs/reports/arxiv/arxiv-2026-05-22-top-papers]]
+
+- [[arxiv-2026-05-22-top-papers]]
+
 ## Jobs Sheet Update
 
 - **Status**: complete

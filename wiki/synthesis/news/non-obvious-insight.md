@@ -14,5 +14,10 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[sources/repositories/cli-printing-press]]
+- [[log]]
+- [[synthesis/news/non-obvious-insight]]
+- [[index]]
+- [[non-obvious-insight]]
 
 - [[zettelkasten-engine]]

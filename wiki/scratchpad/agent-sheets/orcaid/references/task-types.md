@@ -82,6 +82,12 @@ uv run python -m orcaid.cli \
 
 ---
 
+## Related
+- [[index]]
+- [[scratchpad/agent-sheets/orcaid/references/task-types]]
+
+- [[task-types]]
+
 ## Common Pitfalls
 
 | Pitfall | Cause | Fix |

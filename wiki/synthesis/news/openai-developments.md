@@ -14,5 +14,11 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[synthesis/news/openai-developments]]
+- [[sources/news/2026/openai-ai-solves-80-year-erdos-problem-may-2026]]
+- [[index]]
+- [[entities/projects/openai-o-series]]
+- [[synthesis/news/openai-research]]
+- [[openai-developments]]
 
 - [[openai-research]]

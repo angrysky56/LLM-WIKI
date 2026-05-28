@@ -24,6 +24,9 @@ This clustering suggests the knowledge base has been consistently organized arou
 - **Workflow** — sort all current notes/files into Archive as-is, then move items out as used.
 
 ## Connections
+- [[synthesis/insights/para-knowledge-architecture-cohesion-insight]]
+- [[index]]
+- [[para-knowledge-architecture-cohesion-insight]]
 
 - [[para-methodology]] — knowledge management framework
 - [[knowledge-architecture-stub]] — information entropy management

@@ -1,5 +1,5 @@
 ---
-updated: 2026-05-27T14:31:39Z
+updated: 2026-05-28T00:45:23Z
 type: index
 ---
 
@@ -85,7 +85,7 @@ type: index
 - [[agent-group-evolving-molecular-system-agem]] — [STUB] AGEM: agent group architecture with evolutionary molecular dynamics
 - [[agent-leak-benchmark]] — Benchmark for measuring information leakage in LLM agents — specifically reconstruction attacks on shared KV-cache artifacts in multi-agent systems
 - [[agent-native-design]] — System design patterns where AI capabilities are architecturally native rather than retrofitted — designing agents with intrinsic motivation, bounded rationality, and epistemic energy management from the ground up
-- [[agent-onboarding]] — Gate protocol for onboarding new agents into a system — capability verification, safety constraints, and trust bootstrapping
+- [[agent-onboarding]] — Gate protocol for onboarding new agents into a system
 - [[agent-skills-spec]] — [STUB] Agent skills specification for Hermes agent system
 - [[agent-taxonomies]] — Six agent archetypes (Alpha-Zeta) with roles, instruction sets, and oMCD mappings
 - [[agentic-design-picker]] — Decision framework for matching task profiles to multi-agent coordination patterns
@@ -124,6 +124,7 @@ type: index
 - [[attention-monoidal-closure]] — Whether attention layers form a closed monoidal category for categorical compositional verification
 - [[attractor-dynamics]] — How dynamical systems settle into stable states — attractor basins, state convergence in neural networks, energy landscapes, and connection to emergence and neural interpretability
 - [[autonomous-agents]] — Autonomous agents — LLM-based agents that independently perceive environment, form plans, and execute actions toward goals
+- [[autonomous-ai-agents]] — Spawning and orchestrating autonomous AI coding agents and multi-agent workflows
 - [[autonomous-research]] — AI systems capable of conducting scientific research autonomously — pipeline architectures, failure modes, and the gap between current agents and genuine scientific autonomy
 - [[autopoiesis]] — [STUB] Self-producing biological systems, autopoietic theory in cognitive science
 - [[benchmark]] — Benchmark — standardized evaluation framework for measuring AI capability; properties, well-known benchmarks (MMLU, GSM8K, HumanEval, SWE-Bench), and key limitations
@@ -176,6 +177,7 @@ type: index
 - [[control-llm]] — Control LLM — mitigation approach for catastrophic forgetting that splits model layers into frozen (prior knowledge) and trainable (new knowledge) branches
 - [[coordination]] — [STUB] Coordination — coordinating multiple agents or systems
 - [[cosmology]] — [STUB] Cosmology — universe origin, structure, evolution
+- [[counterfactual]] — Counterfactual reasoning — what would have happened if circumstances differed
 - [[creativity]] — Novel, useful output generation — creative thinking in AI systems, divergent/convergent phases, evaluation challenges, and connection to parallel reasoning as candidate evaluation
 - [[critical-analysis]] — The systematic evaluation of research to understand its methodology, context, validity, and significance.
 - [[critical-initialization-biological-neural-networks]] — [STUB] Critical initialization in biological neural networks
@@ -301,8 +303,9 @@ type: index
 - [[is-grep-all-you-need]] — [STUB] Is GREP all you need — explores the limits of pattern matching vs semantic understanding
 - [[isabelle-hol]] — [STUB] Formal verification system based on higher-order logic
 - [[java]] — [STUB] Java programming language
+- [[kanban]] — Kanban workflow skill for task management and agent orchestration
 - [[knowledge-graph]] — [STUB] Knowledge graph — graph-structured knowledge representation
-- [[knowledge-management]] — [STUB] Knowledge management — capturing, organizing, and sharing institutional knowledge and information assets
+- [[knowledge-management]] — Knowledge management — systematic approaches to capturing, organizing, and retrieving knowledge across personal and organizational contexts
 - [[knowledge-store]] — [STUB] Knowledge store — centralized repository for facts, documents, and structured data
 - [[kv-cache]] — Inference optimization technique that caches key-value tensors from previous tokens to avoid recomputation during autoregressive generation
 - [[language-evolution]] — The study of the statistical structure and temporal dynamics of language change over time.
@@ -479,6 +482,7 @@ type: index
 - [[saas-pricing]] — SaaS pricing — software subscription pricing models (per-user, tiered, usage-based); key frameworks for AI agent SaaS products
 - [[saas]] — SaaS — cloud-hosted subscription software delivery model
 - [[scaling-laws]] — Empirical power-law relationships between neural network performance and model/data/compute scale — Kaplan/Chinchilla laws, emergent capabilities, and modern inference-time compute scaling
+- [[schema-competition]] — Schema competition: how competing Knowledge Pack layers vie for model attention during inference
 - [[science]] — [STUB] Science — systematic study of the natural world through observation and experimentation
 - [[scientific-computing]] — [STUB] Scientific computing — computational methods for scientific research
 - [[scientific-discovery]] — [STUB] Scientific discovery — AI systems contributing to scientific knowledge
@@ -501,7 +505,7 @@ type: index
 - [[social-media-regulation]] — [STUB] Governmental regulation of social media platforms and content
 - [[social-science]] — [STUB] Social science — study of human society and social relationships
 - [[solo-development]] — [STUB] Solo developer workflows and toolchain
-- [[sovereign-ai]] — [STUB] Sovereign AI: national AI independence and capabilities
+- [[sovereign-ai]] — National AI sovereignty — self-sufficiency in AI development, infrastructure, and governance
 - [[space-exploration]] — [STUB] Space exploration — missions, technology, policy
 - [[space-weather]] — [STUB] Space weather — solar activity effects on Earth and satellites
 - [[spacex-starship-development]] — [STUB] SpaceX Starship development and launch campaign
@@ -569,13 +573,13 @@ type: index
 - [[world-model]] — Internal predictive models used by agents for planning, simulation, and grounding — enabling agents to predict the consequences of actions before executing them; connected to MOP's epistemic energy management and EFHF's world model encoding
 - [[xgboost]] — [STUB] XGBoost — gradient boosting library for tabular data
 - [[zeta]] — Zeta archetype — the Entropy Regulation Agent in the oMCD framework
-- [[zettelkasten]] — [STUB] Zettelkasten — note-taking method using interconnected atomic notes
+- [[zettelkasten]] — Zettelkasten — note-taking method using interconnected atomic notes
 - [[cognitive-decline]] — Cognitive decline — age-related memory and reasoning impairment; driven by neuroinflammation, Menin decline in hypothalamus, and D-serine depletion
 - [[francesca-albanese-stub]] — Francesca Albanese — UN Special Rapporteur on Palestinian human rights
 - [[hermes-meta-cognition]] — Hermes as an MCM implementation with oMCD, agent archetypes, and self-model structure
 - [[hypothalamus]] — Hypothalamus — brain region controlling homeostasis, hormone release, aging; Menin production site that suppresses neuroinflammation
 - [[icc-stub]] — International Criminal Court — permanent tribunal for war crimes, genocide, crimes against humanity
-- [[knowledge-architecture-stub]] — Knowledge architecture — structural organization of information systems
+- [[knowledge-architecture-stub]] — Knowledge architecture — structural design principles for information systems
 - [[longevity-research]] — Longevity research — scientific efforts to understand and reverse biological aging
 - [[neuroinflammation]] — Neuroinflammation — brain inflammation driven by microglial activation; linked to Menin decline in hypothalamus, cognitive decline, and aging
 - [[note-taking-systems-stub]] — Note-taking systems — tools and methods for personal knowledge management
@@ -643,6 +647,7 @@ type: index
 - [[superbpe]] — A tokenization algorithm that extends standard Byte Pair Encoding (BPE) by allowing merges across whitespace boundaries.
 - [[us-sanctions-stub]] — US Sanctions — Specially Designated Nationals (SDN) framework
 - [[xai]] — xAI — Elon Musk's AI company; Grok chatbot developer; acquired by SpaceX 2025; integrated with Starlink for AI compute distribution
+- [[hermes-agent-lcm-plugin-slash-commands-research]] — Research on Hermes Agent LCM plugin slash commands not working after restart - no specific bugs found
 - [[Q2_SALES_TARGET_LIST]] — 
 - [[STRATEGIC_BRIEF]] — 
 - [[active-business-plan]] — GoodRobot — plug-and-play AI agent teams for SMBs (archived trial)
@@ -684,9 +689,10 @@ type: index
 - [[workflow]] — 
 - [[audit-report]] — 
 - [[librarians-assistant]] — 
-- [[carryover]] — 6 entity/concept stubs created — neuroinflammation, cognitive-decline, hypothalamus, xai, saas-pricing, ai-policy-global-governance; kanban tasks closed
+- [[carryover]] — 2 reciprocal links added; self-answered 8 non-reciprocal links; 594 reciprocal links still pending batch; gbrain and GoodRobot blockers unchanged
 - [[quick-reference]] — 
 - [[workflow]] — 
+- [[batch-progress]] — 
 - [[batch-progress]] — 
 - [[news]] — 
 - [[carryover]] — 3 new: OpenAI o1 solves 80-year Erdős geometry conjecture (Gemini also solved parallel problem 9-to-1 faster), Pope Leo XIV "Magnifica humanitas" encyclical presented (Anthropic co-presented), South Sudan violence humanitarian crisis (MSF, hunger as weapon)
@@ -700,11 +706,12 @@ type: index
 - [[task-types]] — 
 - [[run-report]] — 
 - [[wiki-overseer]] — 
-- [[carryover]] — 
+- [[carryover]] — Overseer carryover — May 27 cycle: news agent is ACTIVE (last ran May 28), not STALE
 - [[meta-advancement]] — 
 - [[Meta-Meta Process for Structured Exploration]] — 
+- [[carryover-template]] — 
 - [[researcher]] — 
-- [[carryover]] — Researcher carryover — Aug 8 cycle: upgraded model-editing (0.3→0.75) and activation-engineering (0.3→0.75), stub count 49→47, MOP boundary and schema competition remain open
+- [[carryover]] — Aug 10 cycle: upgraded sovereign-ai (0.3→0.75), knowledge-management (0.3→0.75), knowledge-architecture (0.3→0.7); stub count 325→323, active 213→216
 - [[workflow]] — 
 - [[discovery-report]] — 
 - [[gap-analysis]] — 
@@ -755,11 +762,13 @@ type: index
 - [[carryover]] — Three new stories: EU-US trade deal ratified with 2029 expiry, Trump walks back AI model vetting, Google DeepMind Gemini for Science launches
 - [[carryover]] — 
 - [[overseer-2026-05-26]] — 
+- [[overseer-2026-05-27]] — 
 - [[overseer-2026-07-28]] — 
 - [[overseer-2026-08-03]] — 
 - [[overseer-2026-08-05]] — Overseer monitoring cycle 2026-08-05 — 8 agents audited, 3 news cards surfaced, librarian card updated, sheet.md synced
 - [[overseer-2026-08-07]] — 
-- [[carryover]] — Pope Leo encyclical follow-through complete — created ai-policy-arms-control-treaty concept, updated encyclical source page, documented Trump admin split. ai-policy-federalism stub still open.
+- [[overseer-2026-08-10]] — 
+- [[carryover]] — Monitoring tasks and discovery gaps carryover
 - [[discovery-2026-05-21]] — 
 - [[discovery-2026-05-22]] — 
 - [[discovery-2026-05-25]] — 
@@ -785,7 +794,10 @@ type: index
 - [[discovery-2026-08-03]] — Researcher discovery report — 2026-08-03 cycle: 1 page upgraded (llama-nas), stub count 297 (-1)
 - [[discovery-2026-08-05]] — 
 - [[discovery-2026-08-08]] — Discovery report — Aug 8 cycle: upgraded model-editing and activation-engineering stubs to active status
-- [[sheet]] — Wiki agent coordination board — open items, skill folder registry, operations in reports/overseer/
+- [[discovery-2026-08-10]] — Discovery report — Aug 10 cycle: upgraded sovereign-ai (0.3→0.75), knowledge-management (0.3→0.75), knowledge-architecture (0.3→0.7); stub count 325, active 213
+- [[google-deepmind-vatican-encyclical-response-may-2026]] — No Google DeepMind response to Magnifica humanitas encyclical found; compiled monitoring report
+- [[microsoft-vatican-encyclical-response-may-2026]] — No Microsoft response to Magnifica humanitas encyclical found; compiled monitoring report
+- [[sheet]] — t_ff1740de complete: no Microsoft response found to Magnifica humanitas encyclical
 - [[agem-ooe]] — 
 - [[brocas-area-gemini-chat]] — Source summary for Gemini chat on Broca's area and LLM analogies.
 - [[choosing-right-agentic-design-pattern]] — 

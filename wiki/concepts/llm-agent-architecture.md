@@ -79,6 +79,18 @@ Production agents fail in characteristic ways that are architectural, not model-
 The production-llm-agent-runtime-architecture-patterns paper confirms this gap empirically: boundary failures dominate model failures.
 
 ## Connections
+- [[concepts/maximum-occupancy-principle]]
+- [[log]]
+- [[concepts/load-bearing-reasoning]]
+- [[concepts/code-agent]]
+- [[concepts/llm-agent-architecture]]
+- [[concepts/world-model]]
+- [[concepts/agent-native-design]]
+- [[concepts/agentic-hierarchy]]
+- [[sources/papers/production-llm-agent-runtime-architecture-patterns]]
+- [[concepts/code-generation]]
+- [[index]]
+- [[llm-agent-architecture]]
 
 - [[agent-native-design]] — architectural ideal that LLM agent architecture approximates
 - [[maximum-occupancy-principle]] — path entropy maximization as intrinsic motivation

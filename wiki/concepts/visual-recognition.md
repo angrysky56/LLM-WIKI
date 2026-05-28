@@ -14,6 +14,12 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/visual-recognition]]
+- [[log]]
+- [[index]]
+- [[concepts/image-understanding]]
+- [[visual-recognition]]
 
 - [[computer-vision]]
 - [[pattern-recognition]]
+- [[image-understanding]]

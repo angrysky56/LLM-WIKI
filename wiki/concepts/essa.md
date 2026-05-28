@@ -64,6 +64,21 @@ The evolutionary pressure favors mutations to the singular values that most affe
 ESSA occupies a unique position: gradient-free like ES but with structural inductive bias from SVD. This makes it applicable to the `ml-evolution` paradigm where LLMs are used as mutators/evaluators in an evolutionary loop.
 
 ## Connections
+- [[log]]
+- [[concepts/rz-nas]]
+- [[scratchpad/jobs/reports/researcher/discovery-2026-08-03]]
+- [[concepts/neural-architecture-search]]
+- [[scratchpad/jobs/reports/researcher/discovery-2026-07-15]]
+- [[concepts/maximum-occupancy-principle]]
+- [[concepts/bounded-memory-budget-optimization]]
+- [[concepts/collm-nas]]
+- [[sources/articles/ml-evolution-benchmarking-protocol]]
+- [[concepts/essa]]
+- [[scratchpad/agent-sheets/researcher/carryover]]
+- [[index]]
+- [[concepts/parameter-efficient-fine-tuning]]
+- [[concepts/llama-nas]]
+- [[essa]]
 
 - [[ml-evolution]] — ESSA is one of the "Guided ML Evolution" frameworks in the benchmarking protocol
 - [[ml-evolution-benchmarking-protocol]] — source reference for ESSA's 6x scaling claim
@@ -73,6 +88,12 @@ ESSA occupies a unique position: gradient-free like ES but with structural induc
 - [[constitutional-ai]] — both aim to align without gradient-based RLHF
 - [[group-relative-policy-optimization]] — GRPO as the gradient-based counterpart to ESSA's gradient-free approach
 
+- [[llama-nas]]
+- [[parameter-efficient-fine-tuning]]
+- [[collm-nas]]
+- [[rz-nas]]
+- [[bounded-memory-budget-optimization]]
+- [[maximum-occupancy-principle]]
 ## Open Questions
 
 1. What singular value spectral properties actually correlate with alignment? Has ESSA reverse-engineered interpretable factors?

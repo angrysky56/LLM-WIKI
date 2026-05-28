@@ -57,6 +57,12 @@ Ingested the "Engineering Internal Awareness and Closed-Loop Self-Regulation in 
 | Total edges | ~323 (cumulative after this ingest) |
 | New entities | ~60+ concept nodes from this paper |
 
+## Related
+- [[scratchpad/jobs/reports/ingest/ingest-2026-05-21-run]]
+- [[index]]
+
+- [[ingest-2026-05-21-run]]
+
 ## Connections to Existing Wiki
 
 This paper connects strongly to:

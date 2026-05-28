@@ -14,6 +14,12 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[index]]
+- [[log]]
+- [[sources/news/rescue-diver-dies-during-search-for-bodies-of-italians-who-d]]
+- [[synthesis/news/cave-diving]]
+- [[synthesis/news/diving-accident]]
+- [[diving-accident]]
 
 - [[public-health]]
 - [[cave-diving]]

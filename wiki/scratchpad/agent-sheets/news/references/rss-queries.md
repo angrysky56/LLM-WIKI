@@ -36,6 +36,12 @@ def fetch_rss(query):
     return items
 ```
 
+## Related
+- [[scratchpad/agent-sheets/news/references/rss-queries]]
+- [[index]]
+
+- [[rss-queries]]
+
 ## Significance Criteria
 
 Will this story matter in 6 months?

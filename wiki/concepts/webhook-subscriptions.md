@@ -14,5 +14,11 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/maximum-occupancy-principle]]
+- [[concepts/webhook-subscriptions]]
+- [[log]]
+- [[sources/documentation/event-hooks-hermes-agent]]
+- [[index]]
+- [[webhook-subscriptions]]
 
 - [[maximum-occupancy-principle]]

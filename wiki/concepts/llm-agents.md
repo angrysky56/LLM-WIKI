@@ -16,3 +16,4 @@ confidence: 0.3
 ## Connections
 
 - [[maximum-occupancy-principle]]
+- [[autonomous-agents]] — LLM agents are a subclass of autonomous agents focused on large language model-based planning and reasoning

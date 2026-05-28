@@ -14,5 +14,11 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[synthesis/news/gaza-humanitarian-crisis]]
+- [[log]]
+- [[sources/israel-ben-gvir-flotilla-video]]
+- [[index]]
+- [[sources/us-sanctions-francesca-albanese]]
+- [[gaza-humanitarian-crisis]]
 
 - [[geopolitics]]

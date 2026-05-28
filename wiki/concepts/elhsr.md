@@ -14,5 +14,14 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/elhsr]]
+- [[concepts/hybrid-reward-models]]
+- [[concepts/reward-modeling]]
+- [[concepts/hidden-states]]
+- [[index]]
+- [[log]]
+- [[elhsr]]
 
 - [[reward-inside-model-elhsr]], [[hidden-states]], [[reward-modeling]]
+
+- [[hybrid-reward-models]]

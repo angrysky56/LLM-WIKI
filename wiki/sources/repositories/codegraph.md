@@ -43,6 +43,9 @@ No Node.js required — one command grabs the right build for your OS. npm insta
 Pre-indexed code knowledge graph — builds an index of code structure and semantics for fast retrieval during coding assistance sessions.
 
 ## Connections
+- [[sources/documentation/codegraph-hermes-phase1-implementation]]
+- [[index]]
+- [[sources/repositories/codegraph]]
 
 - Related to [[codegraph]] (this project)
 - Related to [[hermes-agent]] integration potential

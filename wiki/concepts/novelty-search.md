@@ -14,5 +14,11 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[log]]
+- [[concepts/novelty-search]]
+- [[sources/articles/agem-ooe]]
+- [[concepts/maximum-occupancy-principle]]
+- [[index]]
+- [[novelty-search]]
 
 - [[maximum-occupancy-principle]]

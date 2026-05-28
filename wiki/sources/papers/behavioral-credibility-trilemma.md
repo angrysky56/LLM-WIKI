@@ -53,6 +53,12 @@ Proved fundamental impossibility: no RL policy with confidence-gated autonomy ca
 - [[agentic-research]] — RL-based agents with confidence-gated action approval
 - [[mop-explorer]] — commitment mechanism parallels MOP's capability bounding
 
+## Related
+- [[sources/papers/behavioral-credibility-trilemma]]
+- [[index]]
+
+- [[behavioral-credibility-trilemma]]
+
 ## Key Quotes
 
 > "Any two of these properties are simultaneously achievable at their respective exact maxima; all three exact maxima are not simultaneously achievable."

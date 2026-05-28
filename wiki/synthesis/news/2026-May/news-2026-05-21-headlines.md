@@ -53,6 +53,12 @@
 - **Air France crash verdict**: Ingested despite being historical (17-year case concluded today) — precedent value for institutional accountability analysis.
 - **Trump anti-weaponization fund GOP revolt**: Continuing story from yesterday carryover — Senate GOP delay. Monitor for institutional capture vector.
 
+## Related
+- [[index]]
+- [[synthesis/news/2026-may/news-2026-05-21-headlines]]
+
+- [[news-2026-05-21-headlines]]
+
 ## Notable Patterns
 
 1. **US-China pressure on multiple fronts simultaneously**: Taiwan call + Cuba surveillance + Raúl Castro indictment. Beijing being tested on multiple spheres-of-influence simultaneously. Pattern likely intentional signaling.

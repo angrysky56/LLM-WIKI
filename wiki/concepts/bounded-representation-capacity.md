@@ -93,6 +93,31 @@ The fundamental engineering question is not *how much* capacity to add, but *how
 
 5. **Capacity and alignment**: Alignment-tampering reveals that a bounded self-model of alignment properties can be exploited. How can a system represent its own alignment boundaries accurately without those representations being manipulable?
 
+## Related
+- [[sources/papers/akbe]]
+- [[sources/papers/saerl]]
+- [[index]]
+- [[sources/papers/codeskill]]
+- [[sources/papers/legalsearch-r1]]
+- [[concepts/activation-engineering]]
+- [[sources/papers/cua-gym]]
+- [[sources/papers/stepopsd]]
+- [[log]]
+- [[sources/papers/behavioral-credibility-trilemma]]
+- [[scratchpad/jobs/reports/arxiv/carryover]]
+- [[sources/papers/prism]]
+- [[sources/papers/orthogonal-bottlenecks-rl]]
+- [[concepts/bounded-representation-capacity]]
+- [[sources/papers/safectrl-rl]]
+- [[scratchpad/jobs/reports/researcher/discovery-2026-08-08]]
+- [[sources/papers/muse-autoskill]]
+- [[sources/papers/alignment-tampering]]
+- [[concepts/model-editing]]
+
+- [[bounded-representation-capacity]]
+
+- [[activation-engineering]]
+- [[model-editing]]
 ## Sources
 
 - [AKBE](wiki/sources/papers/akbe.md) — arXiv:2605.26952

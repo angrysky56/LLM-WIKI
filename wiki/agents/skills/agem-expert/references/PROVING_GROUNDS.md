@@ -41,6 +41,12 @@ tags: [agem-expert, reference]
 - **trojan-reagent** (hidden-information): Retroactive ethical contamination from dual-use trade
 - **binary-switch** (temporal-pressure): Both choices cause harm — is refusal the right answer?
 
+## Related
+- [[index]]
+- [[agents/skills/agem-expert/references/proving_grounds]]
+
+- [[proving_grounds]]
+
 ## Creating Scenarios from Real Dilemmas
 
 When AGEM encounters a real ethical tension during normal analysis, use `generate_scenario` to crystallize it as a reusable test case. Include `origin_context` to document what real situation inspired the scenario. The Proving Grounds grows organically from actual challenges.

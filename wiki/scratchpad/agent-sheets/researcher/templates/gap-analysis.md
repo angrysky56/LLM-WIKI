@@ -35,6 +35,12 @@
 ### Long-Term
 - [ ]
 
+## Related
+- [[index]]
+- [[scratchpad/agent-sheets/researcher/templates/gap-analysis]]
+
+- [[gap-analysis]]
+
 ## Next Steps
 1. {first step}
 2. {second step}

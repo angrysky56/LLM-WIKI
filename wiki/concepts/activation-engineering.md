@@ -120,6 +120,13 @@ Together they form a biofeedback loop analogous to HRV (heart rate variability) 
 The PID steering framework maps directly: P = immediate intervention, I = accumulated error correction, D = damping against oscillation.
 
 ## Connections
+- [[concepts/activation-engineering]]
+- [[concepts/steering-vectors]]
+- [[scratchpad/agent-sheets/researcher/carryover]]
+- [[index]]
+- [[log]]
+- [[concepts/mechanistic-interpretability]]
+- [[activation-engineering]]
 
 - [[activation-steering]] — the paradigm; this page covers the engineering methods within it
 - [[mechanistic-interpretability]] — provides observability (what's happening in the network)
@@ -128,6 +135,7 @@ The PID steering framework maps directly: P = immediate intervention, I = accumu
 - [[chain-of-thought]] — explicit reasoning tokens as alternative verification layer (vs. implicit steering)
 - [[model-editing]] — parametric editing vs. activation-level intervention
 
+- [[steering-vectors]]
 ## Open Questions
 
 1. **Layer optimality**: Is there a principled way to select the intervention layer without empirical probing? Theory of representation geometry might predict it.

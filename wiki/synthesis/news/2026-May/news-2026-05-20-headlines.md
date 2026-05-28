@@ -80,6 +80,12 @@ type: summary
 - Iran threat rhetoric (covered in Xi-Putin context; too early to assess strategic intent)
 - No celebrity, sports, or entertainment stories
 
+## Related
+- [[index]]
+- [[synthesis/news/2026-may/news-2026-05-20-headlines]]
+
+- [[news-2026-05-20-headlines]]
+
 ## Sources
 
 - BBC (Xi-Putin summit)

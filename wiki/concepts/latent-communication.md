@@ -14,5 +14,16 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/adversarial-training]]
+- [[concepts/latent-communication]]
+- [[index]]
+- [[concepts/maximum-occupancy-principle]]
+- [[log]]
+- [[sources/papers/lcguard-kv-communication-guard-2026]]
+- [[concepts/agent-leak-benchmark]]
+- [[latent-communication]]
 
 - [[maximum-occupancy-principle]]
+
+- [[adversarial-training]]
+- [[agent-leak-benchmark]]

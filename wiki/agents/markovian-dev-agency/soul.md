@@ -54,6 +54,9 @@ confidence: 0.9
 - **Rollback:** Git-backed source changes; issue files track what was tried and failed
 
 ## Connections
+- [[agents/markovian-dev-agency/soul]]
+- [[index]]
+- [[soul]]
 
 - [[markovian-carryover]] — carryover template and protocol
 - [[bounded-structured-memory]] — memory architecture this agency operates within

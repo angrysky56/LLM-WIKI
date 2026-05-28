@@ -14,6 +14,19 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/activation-steering]]
+- [[concepts/transformer-architecture]]
+- [[concepts/maximum-occupancy-principle]]
+- [[concepts/attractor-dynamics]]
+- [[concepts/load-bearing-reasoning]]
+- [[concepts/emergent-communication]]
+- [[index]]
+- [[log]]
+- [[concepts/hopfield-network]]
+- [[concepts/betteti-baggio-bullo-zampieri-idp-hopfield-2025]]
+- [[betteti-baggio-bullo-zampieri-idp-hopfield-2025]]
 
 - [[neural-networks]]
+- [[attractor-dynamics]]
+- [[emergent-communication]]
 - [[attractor-dynamics]]

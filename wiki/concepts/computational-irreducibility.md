@@ -36,6 +36,19 @@ In Wolfram's physics program, computational irreducibility is not just an observ
 This is distinct from other theories of physics where macroscopic behavior can often be predicted from averaged equations (e.g., thermodynamics from statistical mechanics). In Wolfram's framework, the underlying rules are local and simple, but their long-term consequences cannot be shortcuts.
 
 ## Connections
+- [[concepts/emergence]]
+- [[index]]
+- [[concepts/computational-irreducibility]]
+- [[concepts/causal-networks]]
+- [[scratchpad/jobs/reports/researcher/discovery-2026-07-03]]
+- [[entities/people/stephen-wolfram]]
+- [[concepts/attractor-dynamics]]
+- [[log]]
+- [[concepts/computational-universe]]
+- [[sources/articles/language-evolution]]
+- [[concepts/open-ended-evolution]]
+- [[concepts/wolfram-nks-causal-networks]]
+- [[computational-irreducibility]]
 
 - [[emergence]] — emergence is one manifestation of computational irreducibility: capability appears discontinuously at scale thresholds in a way that cannot be predicted without running the system at scale
 - [[open-ended-evolution]] — OEE systems are paradigmatically computationally irreducible; you cannot predict what evolutionary novelty will arise without simulating evolution
@@ -45,6 +58,7 @@ This is distinct from other theories of physics where macroscopic behavior can o
 - Concept: [[language-evolution]]
 
 
+- [[attractor-dynamics]]
 ## Open Questions
 
 1. **Degrees of irreducibility**: Is irreducibility binary or a spectrum? Some systems have "partially reducible" approximations. What determines how much a given system can be shortcut?

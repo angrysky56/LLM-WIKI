@@ -70,6 +70,20 @@ Standard attention has O(n²) memory in sequence length — the attention matrix
 The practical impact: Enables attention over sequences of length 65K+ on a single GPU, where standard attention would OOM at 4K-8K.
 
 ## Connections
+- [[concepts/hidden-states]]
+- [[concepts/length-generalization]]
+- [[concepts/transformer-architecture]]
+- [[concepts/attention-mechanism]]
+- [[scratchpad/jobs/reports/researcher/discovery-2026-06-09]]
+- [[concepts/ml-evolution]]
+- [[concepts/mixture-of-experts]]
+- [[index]]
+- [[concepts/attention-monoidal-closure]]
+- [[log]]
+- [[scratchpad/agent-sheets/librarian/carryover]]
+- [[concepts/scaling-laws]]
+- [[concepts/kv-cache]]
+- [[attention-mechanism]]
 
 - [[transformer-architecture]] — built on attention mechanisms as the core component
 - [[kv-cache]] — inference optimization for autoregressive attention

@@ -26,5 +26,11 @@
 ## Backlog
 - [files still pending processing]
 
+## Related
+- [[index]]
+- [[scratchpad/agent-sheets/ingest/templates/ingest-report]]
+
+- [[ingest-report]]
+
 ## Notes
 [anything notable about this cycle's ingestion]

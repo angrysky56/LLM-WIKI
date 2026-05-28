@@ -14,6 +14,11 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/coordination]]
+- [[log]]
+- [[concepts/multi-agent-systems]]
+- [[index]]
+- [[multi-agent-systems]]
 
 - [[agents]]
 - [[coordination]]

@@ -40,6 +40,12 @@
 - Japan-China diplomatic talks: Minor thaw, no concrete deliverables
 - Alberta referendum: Already tracked from previous cycle; PM statement reported but no new developments
 
+## Related
+- [[synthesis/news/2026-may/headlines-2026-05-23]]
+- [[index]]
+
+- [[headlines-2026-05-23]]
+
 ## Notable Patterns
 
 1. **Industrial safety enforcement gap in China**: Multiple Beijing-linked economic priorities (energy security, domestic production, opening-up) appear to be competing with safety enforcement. Shanxi disaster is a data point in an ongoing structural tension.

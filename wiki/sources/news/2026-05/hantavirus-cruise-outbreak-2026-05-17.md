@@ -27,6 +27,16 @@ A hantavirus outbreak originating on a cruise ship has spread to North America, 
 - The Daily Beast: "Rat Virus Cruise Outbreak Spreads to Another Country"
 - STAT News: "The hantavirus outbreak is prompting Covid flashbacks — including the conspiracies"
 
+## Related
+- [[index]]
+- [[sources/news/2026-05/hantavirus-cruise-outbreak-2026-05-17]]
+- [[sources/news/2026-05/us-flight-diverts-ebola-passenger-2026-05-21]]
+- [[synthesis/news/2026-may/news-2026-05-18-headlines]]
+- [[hantavirus-cruise-outbreak-2026-05-17]]
+- [[wiki/sources/news/2026-05/hantavirus-cruise-outbreak-2026-05-17.md]]
+
+- [[hantavirus-cruise-outbreak-2026-05-17.md]]
+
 ## Wiki Connections
 - [[hantavirus]]
 - [[public-health]]

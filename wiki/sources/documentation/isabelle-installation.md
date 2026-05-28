@@ -23,6 +23,9 @@ Isabelle supports Linux, Windows, and macOS, providing platform-specific bundles
 - **macOS**: Requires MacTeX. Installation involves manual security bypass in "Security & Privacy" as the app is not notarized.
 
 ## Connections
+- [[sources/documentation/isabelle-installation]]
+- [[index]]
+- [[isabelle-installation]]
 - Tool: [[isabelle]]
 - Concept: [[formal-verification]]
 - Dependency: [[java]]

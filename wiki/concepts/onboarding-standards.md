@@ -14,6 +14,14 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/agentic-hierarchy]]
+- [[agents/skills/librarian-agent/skill]]
+- [[concepts/onboarding-standards]]
+- [[scratchpad/jobs/reports/librarian/audit-2026-05-23]]
+- [[concepts/multi-agent-coordination]]
+- [[index]]
+- [[log]]
+- [[onboarding-standards]]
 
 - [[multi-agent-coordination]]
 - [[agentic-hierarchy]]

@@ -37,6 +37,25 @@ From Neo4j's research: the most valuable context often comes not from the direct
 - `query_hybrid` combines vector + fulltext BM25 for step 2
 
 ## Connections
+- [[synthesis/bounded-structured-memory]]
+- [[log]]
+- [[sources/papers/vector-policy-optimization-vpo-2026]]
+- [[concepts/knowledge-graph]]
+- [[synthesis/synapse-retrieval-architecture]]
+- [[concepts/graphrag]]
+- [[concept-index]]
+- [[concepts/edm-framework]]
+- [[sources/papers/ma-sd-search-2026]]
+- [[concepts/rag]]
+- [[sources/papers/deepweb-bench-2026]]
+- [[entities/projects/project-synapse]]
+- [[entities/tools/neo4j]]
+- [[index]]
+- [[synthesis/causal-state-edm-ood-isomorphism]]
+- [[synthesis/wiki-indexing-theory]]
+- [[sources/articles/hilbert-hotel-graph-architecture]]
+- [[concepts/persistent-knowledge-compilation]]
+- [[graphrag]]
 
 - [[rag]] — the baseline this extends
 - [[project-synapse]] — implements this pattern with Neo4j

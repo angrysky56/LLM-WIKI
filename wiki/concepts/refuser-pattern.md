@@ -36,7 +36,16 @@ The Refuser carries rotating historical disasters: Challenger (1986), Therac-25,
 The Refuser is not a philosopher or an engineer — an **engineer who learned to ask "who does this hurt?" before pressing deploy**. This question is the hinge between the philosophical research council and the engineering technical working group.
 
 ## Related
+- [[synthesis/replicant-mapping]]
+- [[concepts/refuser-pattern]]
+- [[index]]
+- [[concepts/weil-gate]]
+- [[synthesis/two-council-architecture]]
+- [[log]]
+- [[synthesis/harm-cases]]
+- [[refuser-pattern]]
 
 - [[two-council-architecture]]
 - [[harm-cases]]
 - [[replicant-mapping]]
+- [[weil-gate]]

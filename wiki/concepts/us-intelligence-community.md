@@ -14,5 +14,12 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[sources/news/2026/tulsi-gabbard-resigns-intelligence-director-may-2026]]
+- [[index]]
+- [[concepts/maximum-occupancy-principle]]
+- [[concepts/us-intelligence-community]]
+- [[sources/news/2026/ebola-outbreak-drc-uganda-pheic-2026]]
+- [[log]]
+- [[us-intelligence-community]]
 
 - [[maximum-occupancy-principle]]

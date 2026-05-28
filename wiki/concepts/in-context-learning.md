@@ -90,6 +90,24 @@ The field has also explored *in-context fine-tuning* (ICT) — updating the weig
 | In-context learning of algorithms | Garg et al. (2022) | Transformers can learn simple algorithms (sorting, DFS) from examples |
 
 ## Connections
+- [[concepts/emergence]]
+- [[concepts/causal-reasoning]]
+- [[index]]
+- [[sources/articles/titans-test-time-memory]]
+- [[log]]
+- [[concepts/load-bearing-reasoning]]
+- [[concepts/creativity]]
+- [[concepts/in-context-learning]]
+- [[concepts/inference-time-compute-scaling]]
+- [[concepts/generative-ai]]
+- [[sources/repositories/tabpfn]]
+- [[concepts/chain-of-thought]]
+- [[concepts/reward-modeling]]
+- [[concepts/transformer-architecture]]
+- [[scratchpad/jobs/reports/librarian/audit-2026-05-23]]
+- [[concepts/scaling-laws]]
+- [[concepts/llm-reasoning]]
+- [[in-context-learning]]
 
 - [[scaling-laws]] — ICL ability scales with model parameters; a power-law relationship between scale and ICL performance
 - [[inference-time-compute-scaling]] — ICL examples are part of the input; longer context means more compute per token
@@ -102,6 +120,9 @@ The field has also explored *in-context fine-tuning* (ICT) — updating the weig
 - Concept: [[transformer-architecture]]
 
 
+- [[llm-reasoning]]
+- [[generative-ai]]
+- [[creativity]]
 ## Open Questions
 
 1. **Theoretical foundation**: Why does next-token prediction pre-training give rise to in-context learning? The connection is empirical, not theoretical.

@@ -14,6 +14,14 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/nlp]]
+- [[index]]
+- [[log]]
+- [[concepts/pattern-matching]]
+- [[concepts/llm]]
+- [[nlp]]
 
 - [[natural-language-processing]]
 - [[text-analysis]]
+- [[llm]]
+- [[pattern-matching]]

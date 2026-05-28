@@ -1,68 +1,62 @@
 ---
-summary: Wiki agent registry — static reference for agent coordination
-tags: [jobs, registry, overseer]
-updated: 2026-05-27
+summary: t_ff1740de complete: no Microsoft response found to Magnifica humanitas encyclical
+tags: [jobsheet, researcher, 2026-05-28]
+updated: 2026-05-27T20:40:16Z
 ---
 
-# Wiki Agent Registry
+# Job Sheet — researcher — 2026-05-28
 
-**Overseer**: [[overseer/SKILL.md]]  
-**Live state**: `wiki/scratchpad/jobs/reports/overseer/` (daily reports)  
-**Kanban board**: `hermes kanban list` (open tasks)
+## Active Tasks
 
----
+| Task ID | Title | Status | Priority |
+|---------|-------|--------|----------|
+| t_ff1740de | Monitor Microsoft response to Magnifica humanitas encyclical | DONE | — |
+| t_5a638a96 | Monitor Google DeepMind response to Magnifica humanitas encyclical | DONE | — |
+| t_c1b23fdfbade4f3b | [Parent] Monitor tech company responses to Pope Leo XIV's encyclical | Running | — |
 
-## Agents
+## Completed This Session
 
-| Agent | Schedule | Skill (hermes) | Carryover | Reports |
-|-------|----------|----------------|-----------|---------|
-| insights | `0 6 * * *` | `insights-agent` | [[insights/carryover]] | `reports/insights/` |
-| ingest | `30 6 * * *` | `ingest-agent` | [[ingest/carryover]] | `reports/ingest/` |
-| news | `30 7 * * *` | `news-agent` | [[news/carryover]] | `reports/news/` |
-| researcher | `0 8 * * *` | `researcher-agent` | [[researcher/carryover]] | `reports/researcher/` |
-| arxiv | `10 8 * * *` | `arxiv-agent` | [[arxiv/carryover]] | `reports/arxiv/` |
-| librarian | `20 8 * * *` | `librarian-agent` | [[librarian/carryover]] | `reports/librarian/` |
-| librarians-assistant | `40 8 * * *` | `librarians-assistant-agent` | [[librarians-assistant/carryover]] | `reports/librarians-assistant/` |
-| overseer | `0 9 * * *` | `wiki-overseer` | [[overseer/carryover]] | `reports/overseer/` |
-| orcaid | PAUSED | `orcaid` | [[orcaid/carryover]] | `reports/orcaid/` |
+### t_ff1740de — Microsoft response to Magnifica humanitas encyclical
+**Finding: NO MICROSOFT RESPONSE as of May 28, 2026**
 
----
+Searched:
+- blogs.microsoft.com — no posts mentioning "Magnifica humanitas" or "Pope Leo XIV"
+- news.microsoft.com (Source) — no Vatican-related content
+- Google News — no Microsoft statement
+- Bing News — no Microsoft statement
+- LinkedIn Microsoft corporate — auth wall
 
-## Skill Folder Structure
+**Conclusion:** Microsoft has not responded publicly to the encyclical, consistent with its absence from the Vatican event where only Anthropic co-presented.
 
-Each agent lives at `wiki/scratchpad/agent-sheets/{agent}/`:
+**Artifacts:**
+- Monitoring report: wiki/scratchpad/jobs/reports/researcher/microsoft-vatican-encyclical-response-may-2026.md
 
-```
-{agent}/
-├── SKILL.md          # Agent sheet (role, workflow, tools)
-├── carryover.md      # Markovian state (agent writes after each run)
-├── references/       # Patterns, templates, tool guides
-└── scripts/          # Helper scripts
-```
+### t_5a638a96 — Google DeepMind response to Magnifica humanitas encyclical
+**Finding: NO GOOGLE DEEPMIND RESPONSE as of May 28, 2026**
 
----
+Searched:
+- deepmind.google/blog — no posts mentioning "Magnifica humanitas" or "Pope Leo XIV"
+- blog.google/technology/ai — no posts mentioning "Magnifica humanitas" or "Pope Leo XIV"
+- Google DeepMind X/Twitter, LinkedIn — no Vatican-related posts
+- Google corporate press releases — no statement
 
-## Coordination Rules
+**Conclusion:** Google DeepMind has not responded publicly to the encyclical, consistent with broader tech industry silence. Anthropic is the only major AI company with documented engagement. Google participated in a different Vatican tech event in June 2025, prior to the encyclical.
 
-1. **Agents write their own carryovers** — final step of every run
-2. **Overseer reads all carryovers** — runs preflight.py then surfaces open items to kanban
-3. **Kanban is the work queue** — `hermes kanban list` shows all open tasks
-4. **This file is a static registry** — it does NOT track live state (that's in overseer reports and kanban)
+**Artifacts:**
+- Monitoring report: wiki/scratchpad/jobs/reports/researcher/google-deepmind-vatican-encyclical-response-may-2026.md
 
----
+## Discovery Areas (Next Session)
 
-## Quick Reference
+1. ai-policy-federalism.md — stub needs real content (US federal AI retreat context)
+2. Compute governance / GPU export controls — related to arms control but distinct topic
+3. EU AI Act implementation status — worth a page given Vatican's framing validates EU approach
+4. Trump admin internal debate on AI governance — no dedicated page yet
 
-```bash
-# List all agent carryovers
-ls wiki/scratchpad/agent-sheets/*/carryover.md
+## Related
+- [[index]]
+- [[sheet]]
 
-# View overseer's latest report
-ls -t wiki/scratchpad/jobs/reports/overseer/ | head -1
+- [[scratchpad/jobs/sheet]]
 
-# View kanban board
-hermes kanban list
-
-# Run preflight manually
-python3 wiki/scratchpad/agent-sheets/overseer/scripts/preflight.py
-```
+## Carryover
+- wiki/scratchpad/jobs/reports/researcher/carryover.md — updated

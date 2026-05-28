@@ -14,6 +14,14 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[log]]
+- [[concepts/research-tooling]]
+- [[concepts/paperclip]]
+- [[concepts/utimula-openpraparat-2025]]
+- [[concepts/paper-analysis]]
+- [[index]]
+- [[research-tooling]]
 
 - [[ai-research]]
 - [[tooling]]
+- [[paper-analysis]]

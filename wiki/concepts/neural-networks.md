@@ -14,6 +14,20 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/betteti-baggio-bullo-zampieri-idp-hopfield-2025]]
+- [[concepts/memory-mechanisms]]
+- [[concepts/artificial-intelligence]]
+- [[concepts/recursive-neural-networks]]
+- [[log]]
+- [[scratchpad/agent-sheets/librarian/carryover]]
+- [[concepts/neural-networks]]
+- [[concepts/deep-learning]]
+- [[concepts/critical-initialization-biological-neural-networks]]
+- [[index]]
+- [[neural-networks]]
 
 - [[deep-learning]]
 - [[machine-learning]]
+- [[memory-mechanisms]]
+- [[artificial-intelligence]]
+- [[recursive-neural-networks]]

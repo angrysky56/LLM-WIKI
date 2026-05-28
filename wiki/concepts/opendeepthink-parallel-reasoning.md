@@ -53,6 +53,14 @@ where σ is the logistic sigmoid. With pairwise comparison data, maximum likelih
 The paper identifies **candidate generation** → **candidate evaluation** → **selection** as the three stages of parallel reasoning. Most prior work focuses on generating more/better candidates; OpenDeepThink addresses the evaluation bottleneck with pairwise comparison.
 
 ## Connections
+- [[concepts/opendeepthink-parallel-reasoning]]
+- [[concepts/reward-modeling]]
+- [[concepts/parallel-reasoning]]
+- [[concepts/creativity]]
+- [[index]]
+- [[concepts/bradley-terry]]
+- [[log]]
+- [[opendeepthink-parallel-reasoning]]
 
 - [[parallel-reasoning]] — the broader pattern; OpenDeepThink is the primary empirical instantiation
 - [[chain-of-thought]] — the reasoning traces being ranked
@@ -60,6 +68,9 @@ The paper identifies **candidate generation** → **candidate evaluation** → *
 - [[reward-modeling]] — Bradley-Terry as a reward-free alternative to explicit reward models
 - [[llm-evaluation]] — Codeforces Elo as benchmark
 
+- [[parallel-reasoning]]
+- [[bradley-terry]]
+- [[creativity]]
 ## Open Questions
 
 1. **Sequential reasoning degradation**: Does the approach fail on problems requiring deep sequential reasoning (where each step depends on the previous) vs. independent sub-problems?

@@ -54,6 +54,11 @@ Each profile lives in `~/.hermes/profiles/<name>/` and contains:
 - **Fleet management** — one dashboard for all profiles
 
 ## Connections
+- [[sources/documentation/scheduled-tasks-cron-hermes-agent]]
+- [[sources/documentation/kanban-multi-agent-board-hermes-agent]]
+- [[sources/documentation/profiles-running-multiple-agents]]
+- [[index]]
+- [[profiles-running-multiple-agents]]
 
 - [[hermes-agent]] — parent system
 - [[kanban-multi-agent-board-hermes-agent]] — task coordination across profiles

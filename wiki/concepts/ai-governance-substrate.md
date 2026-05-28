@@ -61,12 +61,33 @@ It connects to [[agentic-oversight]] as the specific structural mechanism for ov
 [[governance]] is the broader concern; the substrate is the specific implementation.
 
 ## Connections
+- [[concepts/institutional-accountability]]
+- [[sources/news/2026-05/trump-anti-weaponization-fund-2026-05-22]]
+- [[concepts/ai-governance-substrate]]
+- [[entities/projects/spacex]]
+- [[concepts/governance]]
+- [[sources/news/2026/tiktok-youtube-ofcom-not-safe-enough-2026]]
+- [[concepts/institutional-design]]
+- [[concepts/agentic-oversight]]
+- [[index]]
+- [[sources/news/2026/meta-social-media-addiction-settlement-2026]]
+- [[entities/longevity-research]]
+- [[sources/news/2026/trump-taiwan-call-2026]]
+- [[log]]
+- [[concepts/accountability]]
+- [[sources/news/2026/strait-of-hormuz-iran-claim-2026]]
+- [[sources/news/2026/spacex-ipo-spcx-2026]]
+- [[entities/xai]]
+- [[ai-governance-substrate]]
 
 - [[governance]] — the overarching concern that the substrate addresses
 - [[institutional-accountability]] — principles of accountability that the substrate architecturalizes
 - [[agentic-oversight]] — the specific application to agentic AI systems
 - [[accountability]] — the general norm
 
+- [[longevity-research]]
+- [[spacex]]
+- [[xai]]
 ## Open Questions
 
 1. **Verifiability**: How do you verify that a governance substrate actually constrains the system as specified? Substrate verification requires the same interpretability tools that make governance difficult in the first place.

@@ -38,6 +38,12 @@ These are tracked conceptually but not individually ingested:
 | Political polling without election proximity | Noise, not signal |
 | Social media trends | Ephemeral unless broader implications |
 
+## Related
+- [[agents/skills/news-agent/references/exclusion-list]]
+- [[index]]
+
+- [[exclusion-list]]
+
 ## Token Budget Protection
 
 Exclusion is enforced to protect the **3-5 stories per cycle / ~15,000 token budget**. When in doubt, exclude and note in the excluded section of the report rather than ingest and over-run budget.

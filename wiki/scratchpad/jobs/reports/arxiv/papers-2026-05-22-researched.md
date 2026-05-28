@@ -37,6 +37,12 @@ confidence: 0.8
 - The 14ms checkpoint / 5ms restore performance enables practical MCTS and RL training at scale
 - Key insight: subsequent checkpoints in AI agents are highly similar, so only duplicate changes (deltas) rather than full state
 
+## Related
+- [[index]]
+- [[scratchpad/jobs/reports/arxiv/papers-2026-05-22-researched]]
+
+- [[papers-2026-05-22-researched]]
+
 ## Selection Rationale
 
 | Paper | Novelty | Relevance | Technical Depth |

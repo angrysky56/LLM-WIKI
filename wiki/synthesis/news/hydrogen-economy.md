@@ -14,5 +14,11 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[synthesis/news/clean-energy-transition]]
+- [[synthesis/news/hydrogen-economy]]
+- [[index]]
+- [[log]]
+- [[sources/news/2026-05/natural-hydrogen-discovery-2026-05-20]]
+- [[hydrogen-economy]]
 
 - [[clean-energy-transition]]

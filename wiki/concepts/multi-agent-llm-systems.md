@@ -110,6 +110,28 @@ Multi-agent systems introduce failure modes that don't exist in single-agent set
 | **Semantic conflicts** | Agents interpret shared data differently | Structured communication protocols; schema for shared state |
 
 ## Connections
+- [[sources/papers/lcguard-kv-communication-guard-2026]]
+- [[concepts/autonomous-ai-agents]]
+- [[concepts/creativity]]
+- [[concepts/agent-leak-benchmark]]
+- [[scratchpad/jobs/reports/arxiv/arxiv-2026-05-22-top-papers]]
+- [[concepts/agentic-hierarchy]]
+- [[concepts/agentic-design-picker]]
+- [[concepts/multi-agent-llm-systems]]
+- [[concepts/agent-architectures]]
+- [[concepts/multi-agent-coordination]]
+- [[concepts/hierarchical-supervisor]]
+- [[concepts/adversarial-training]]
+- [[concepts/agentic-research]]
+- [[index]]
+- [[concepts/categorical-reasoning]]
+- [[concepts/cognitive-world-models-for-llm-agents]]
+- [[concepts/delegation]]
+- [[concepts/agents]]
+- [[concepts/agentic-planner]]
+- [[concepts/multi-agent-reasoning]]
+- [[log]]
+- [[multi-agent-llm-systems]]
 
 - [[multi-agent-coordination]] — the sub-field concerned with coordination mechanisms (blackboard, message passing, market-based, swarm)
 - [[agentic-hierarchy]] — hierarchical organizational structure for multi-agent systems
@@ -126,6 +148,11 @@ Multi-agent systems introduce failure modes that don't exist in single-agent set
 - Concept: [[hierarchical-supervisor]]
 
 
+- [[autonomous-ai-agents]]
+- [[agent-architectures]]
+- [[multi-agent-reasoning]]
+- [[agents]]
+- [[creativity]]
 ## Open Questions
 
 1. **Scalable coordination**: How do you coordinate 100+ agents without the communication overhead destroying the efficiency gain?

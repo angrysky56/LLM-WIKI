@@ -74,6 +74,20 @@ Recent work explores whether LLMs can reason causally:
 The connection to [[world-model]]: A world model is fundamentally causal if it represents how actions change state, not just what states co-occur. Causal reasoning enables the counterfactual planning that distinguishes world models from simple state observation.
 
 ## Connections
+- [[concepts/formal-methods]]
+- [[log]]
+- [[scratchpad/jobs/reports/researcher/discovery-2026-06-09]]
+- [[index]]
+- [[concepts/world-model]]
+- [[concepts/mcts]]
+- [[concepts/counterfactual]]
+- [[concepts/in-context-learning]]
+- [[concepts/wolfram-nks-causal-networks]]
+- [[concepts/neural-interpretability]]
+- [[synthesis/verifiable-graph-context-protocol]]
+- [[concepts/causal-reasoning]]
+- [[concepts/maximum-occupancy-principle]]
+- [[causal-reasoning]]
 
 - [[world-model]] — causal structure is a key component of internal world representations
 - [[maximum-occupancy-principle]] — MOP's path entropy maximization can be viewed as a causal hypothesis about what drives exploration behavior
@@ -83,6 +97,8 @@ The connection to [[world-model]]: A world model is fundamentally causal if it r
 - Concept: [[MCTS]]
 
 
+- [[counterfactual]]
+- [[MCTS]]
 ## Open Questions
 
 - **Do transformers implicitly learn causal structure?** The PC algorithm run on attention patterns produces graphs that resemble true causal structure in some cases — but whether this is genuine causal representation or just statistical association is debated

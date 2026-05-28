@@ -14,5 +14,12 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[log]]
+- [[concepts/agent-leak-benchmark]]
+- [[concepts/lcguard]]
+- [[concepts/adversarial-training]]
+- [[index]]
+- [[lcguard]]
 
 - [[adversarial-training]]
+- [[agent-leak-benchmark]]

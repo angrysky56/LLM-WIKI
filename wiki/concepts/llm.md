@@ -14,6 +14,12 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/llm]]
+- [[concepts/model-behavior]]
+- [[log]]
+- [[index]]
+- [[llm]]
 
 - [[large-language-models]]
 - [[nlp]]
+- [[model-behavior]]

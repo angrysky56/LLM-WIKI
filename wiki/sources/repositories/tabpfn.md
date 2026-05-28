@@ -57,6 +57,8 @@ predictions = clf.predict(X_test)
 - **Post-hoc ensembles:** Boost performance by combining multiple TabPFN fits
 
 ## Connections
+- [[sources/repositories/tabpfn]]
+- [[index]]
 
 - [[priorlabs]] — the company behind TabPFN
 - [[huggingface]] — model hosting and checkpoints

@@ -33,6 +33,10 @@ The article outlines how China's rare earth leverage has been deployed asymmetri
 5. **US responses inadequate** — The US has attempted to build stockpiles, fund allied mining projects, and accelerate processing facility construction, but none has reached scale as of May 2026.
 
 ## Connections
+- [[synthesis/news/russia-bundibugyo-ebola-vaccine-may-2026]]
+- [[sources/news/2026/china-rare-earth-geopolitics-may-2026]]
+- [[index]]
+- [[china-rare-earth-geopolitics-may-2026]]
 - [[trump-tariffs]] — US-China trade war escalation context
 - [[public-health-governance]] — Supply chain resilience lessons (applicable framework)
 

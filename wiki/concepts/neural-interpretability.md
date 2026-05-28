@@ -85,6 +85,28 @@ In the [[mop-edm-cognitive-architecture]], neural interpretability provides the 
 The sheaf-consistency-enforcer detects coboundary norm violations via differential activation patterns across layers — if layer L and layer L+1 have inconsistent activations, the closure status degrades.
 
 ## Connections
+- [[concepts/wolfram-nks-causal-networks]]
+- [[concepts/neural-interpretability]]
+- [[concepts/hidden-states]]
+- [[concepts/dynamical-systems]]
+- [[concepts/model-editing]]
+- [[concepts/activation-steering]]
+- [[concepts/causal-reasoning]]
+- [[index]]
+- [[concepts/taylors-law]]
+- [[concepts/attractor-dynamics]]
+- [[concepts/latent-reasoning]]
+- [[concepts/supertokens]]
+- [[log]]
+- [[concepts/load-bearing-reasoning]]
+- [[scratchpad/jobs/reports/researcher/discovery-2026-06-08]]
+- [[concepts/allometric-scaling]]
+- [[concepts/power-law-scaling]]
+- [[sources/articles/emotion-concepts-llm]]
+- [[concepts/initialization]]
+- [[scratchpad/jobs/reports/researcher/discovery-2026-08-08]]
+- [[concepts/mechanistic-interpretability]]
+- [[neural-interpretability]]
 
 - [[mechanistic-interpretability]] — circuit-level analysis and reverse-engineering; neural interpretability is the broader field
 - [[hidden-states]] — the raw material for neural interpretability
@@ -100,6 +122,10 @@ The sheaf-consistency-enforcer detects coboundary norm violations via differenti
 - Concept: [[taylors-law]]
 
 
+- [[dynamical-systems]]
+- [[attractor-dynamics]]
+- [[latent-reasoning]]
+- [[model-editing]]
 ## Open Questions
 
 1. **Scale of features**: How many features does a frontier model (GPT-4, Claude) have? Current SAEs have found millions of features in small models — frontier models likely have billions. Can we find them efficiently?

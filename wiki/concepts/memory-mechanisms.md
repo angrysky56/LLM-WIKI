@@ -14,6 +14,14 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/working-memory]]
+- [[index]]
+- [[concepts/mop-architecture]]
+- [[concepts/titans-test-time-memory]]
+- [[log]]
+- [[concepts/memory-mechanisms]]
+- [[memory-mechanisms]]
 
 - [[neural-networks]]
 - [[working-memory]]
+- [[mop-architecture]]

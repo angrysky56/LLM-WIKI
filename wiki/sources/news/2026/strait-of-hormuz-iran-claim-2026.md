@@ -25,6 +25,9 @@ The Strait of Hormuz is the single most important petroleum shipping lane in the
 From the carryover context: the Iran ceasefire has been holding but remains fragile. This claim represents a potential test of the ceasefire's durability and the international community's ability to enforce de-escalation commitments.
 
 ## Connections
+- [[index]]
+- [[sources/news/2026/strait-of-hormuz-iran-claim-2026]]
+- [[strait-of-hormuz-iran-claim-2026]]
 - [[iran-ceasefire]] — ceasefire still holding, but this claim tests its boundaries
 - [[china-cuba-tensions]] — both representchallenges to US strategic positioning in rival nations' backyards
 - [[ai-governance-substrate]] — energy transit disruptions affect economic conditions for AI development

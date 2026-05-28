@@ -14,6 +14,12 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/text-analysis]]
+- [[concepts/nlp]]
+- [[log]]
+- [[index]]
+- [[text-analysis]]
 
 - [[natural-language-processing]]
 - [[information-retrieval]]
+- [[nlp]]

@@ -52,6 +52,42 @@ Raw Source → Semantic Pipeline → Neo4j (entities, facts, embeddings)
 - `wiki_lint` — health check for orphans, broken links, missing frontmatter
 
 ## Connections
+- [[entities/projects/mop-explorer]]
+- [[synthesis/causal-state-edm-ood-isomorphism]]
+- [[scratchpad/jobs/reports/librarian/audit-2026-05-21]]
+- [[entities/tools/obsidian]]
+- [[sources/articles/prd-ralph-loop-mop-gemini]]
+- [[concepts/llm-wiki-pattern]]
+- [[concepts/agent-onboarding]]
+- [[sources/articles/hilbert-hotel-graph-architecture]]
+- [[sources/articles/momoa-researcher]]
+- [[concepts/graphrag]]
+- [[concepts/rag]]
+- [[concepts/multi-agent-llm-systems]]
+- [[entities/projects/efhf]]
+- [[entities/projects/project-synapse]]
+- [[concepts/multi-agent-coordination]]
+- [[sources/documentation/obsidian-cli-skill]]
+- [[synthesis/verifiable-graph-context-protocol]]
+- [[concepts/extraction-quality-audit]]
+- [[entities/projects/zettelkasten-engine]]
+- [[sources/papers/bae-lmac-2026]]
+- [[entities/tools/obsidian-skills-repo]]
+- [[index]]
+- [[synthesis/synapse-retrieval-architecture]]
+- [[synthesis/wiki-indexing-theory]]
+- [[sources/documentation/hermes-mcp-integration]]
+- [[concept-index]]
+- [[concepts/persistent-knowledge-compilation]]
+- [[sources/articles/llm-wiki-pattern]]
+- [[synthesis/mop-edm-cognitive-architecture]]
+- [[log]]
+- [[scratchpad/agent-sheets/librarian/carryover]]
+- [[synthesis/efhf-mcp-configuration]]
+- [[entities/projects/meta-harness]]
+- [[sources/papers/xu-envfactory-2026]]
+- [[entities/tools/neo4j]]
+- [[project-synapse]]
 
 - [[neo4j]] — the graph/vector storage layer
 - [[obsidian]] — the human-readable wiki output layer
@@ -61,3 +97,14 @@ Raw Source → Semantic Pipeline → Neo4j (entities, facts, embeddings)
 - [[persistent-knowledge-compilation]] — the core architectural philosophy
 - [[llm-wiki-pattern]] — the Karpathy pattern this extends
 - [[obsidian-skills-repo]] — agent skill definitions including defuddle for web content cleaning
+
+- [[hilbert-hotel-graph-architecture]]
+- [[prd-ralph-loop-mop-gemini]]
+- [[extraction-quality-audit]]
+- [[multi-agent-coordination]]
+- [[momoa-researcher]]
+- [[meta-harness]]
+- [[agent-onboarding]]
+- [[multi-agent-llm-systems]]
+- [[obsidian-cli-skill]]
+- [[mop-explorer]]

@@ -53,6 +53,12 @@ Use judgment — not all hub pages need more links
 - **Stop at 50+ fixes** per run
 - **Update batch-progress.md** every 15-20 fixes
 
+## Related
+- [[scratchpad/agent-sheets/librarians-assistant/references/quick-reference]]
+- [[index]]
+
+- [[quick-reference]]
+
 ## Hard Blockers (stop and report to librarian)
 - Merge decision (similarity > 0.7)
 - New page creation required

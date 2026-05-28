@@ -1,9 +1,15 @@
 ---
-created: 2026-05-29
-updated: 2026-06-08
+summary: Gate protocol for onboarding new agents into a system
+tags: [agentic-ai, onboarding, multi-agent, safety]
+updated: 2026-05-28T00:25:05Z
+---
+
+---
+created: 2026-05-27
+updated: 2026-08-10T06:00:00Z
 type: concept
 summary: Gate protocol for onboarding new agents into a system — capability verification, safety constraints, and trust bootstrapping
-tags: [agentic-ai, onboarding, multi-agent, safety]
+tags: ['agentic-ai', 'onboarding', 'multi-agent', 'safety']
 sources: 
 status: active
 confidence: 0.7
@@ -72,6 +78,22 @@ In the Hermes framework (per `hermes-agent` architecture):
 - **Cross-system onboarding**: When agents move between systems, does prior onboarding transfer?
 
 ## Connections
+- [[concepts/swe-bench]]
+- [[concepts/agent-leak-benchmark]]
+- [[concepts/delegation]]
+- [[research/index]]
+- [[concepts/agentic-hierarchy]]
+- [[concepts/agent-onboarding]]
+- [[concepts/domain-onboarding-standards]]
+- [[concepts/adversarial-training]]
+- [[concepts/constitutional-ai]]
+- [[index]]
+- [[concepts/llm-training]]
+- [[agents/skills/librarian-agent/skill]]
+- [[log]]
+- [[scratchpad/agent-sheets/librarian/carryover]]
+- [[agent-onboarding]]
+- [[entities/projects/project-synapse]] — the underlying MCP framework for agent onboarding infrastructure
 
 - [[delegation]] — the mechanism for assigning tasks to agents
 - [[agentic-hierarchy]] — the structure of agent relationships
@@ -79,3 +101,5 @@ In the Hermes framework (per `hermes-agent` architecture):
 - [[constitutional-ai]] — the constraint framework for agent behavior
 - [[agent-leak-benchmark]] — measuring information leakage during onboarding
 - Concept: [[adversarial-training]]
+
+- [[llm-training]]

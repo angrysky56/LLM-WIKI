@@ -62,6 +62,11 @@ The paper also observes a non-monotonic relationship between expert count and se
 - Seed-to-seed variance has a non-monotonic relationship with expert count
 
 ## Connections
+- [[concepts/parameter-efficient-fine-tuning]]
+- [[sources/moe-sieve-routing-guided-lora-for-efficient-moe-fine-tuning]]
+- [[concepts/mop-and-rlhf-interaction]]
+- [[index]]
+- [[moe-sieve-routing-guided-lora-for-efficient-moe-fine-tuning]]
 - [[mixture-of-experts]] — the architecture studied
 - [[mop-and-rlhf-interaction]] — confirms skewed utilization is real, not just theory
 - [[parameter-efficient-fine-tuning]] — LoRA is the PEFT method used

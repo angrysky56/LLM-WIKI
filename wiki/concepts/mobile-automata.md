@@ -14,5 +14,13 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[index]]
+- [[concepts/maximum-occupancy-principle]]
+- [[log]]
+- [[sources/documentation/wolfram-nks-causal-networks]]
+- [[concepts/mobile-automata]]
+- [[mobile-automata]]
 
 - [[maximum-occupancy-principle]]
+
+- [[wolfram-nks-causal-networks]]

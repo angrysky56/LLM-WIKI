@@ -14,6 +14,15 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/digital-systems]]
+- [[concepts/pattern-recognition]]
+- [[index]]
+- [[concepts/digital-signal-processing]]
+- [[log]]
+- [[concepts/signal-processing]]
+- [[signal-processing]]
 
 - [[information-theory]]
 - [[digital-signal-processing]]
+- [[pattern-recognition]]
+- [[digital-systems]]

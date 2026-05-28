@@ -98,6 +98,15 @@ The WBE theory explains Kleiber's law through **fractal branching networks**:
 This is a powerful example of how physical constraints (geometry of space, optimization of flow) produce specific mathematical relationships that hold across vast scales — from mice to whales.
 
 ## Connections
+- [[concepts/power-law]]
+- [[concepts/scaling-laws]]
+- [[concepts/allometric-scaling]]
+- [[concepts/neural-interpretability]]
+- [[index]]
+- [[concepts/taylors-law]]
+- [[log]]
+- [[concepts/power-law-scaling]]
+- [[allometric-scaling]]
 
 - [[power-law]] — the mathematical form shared by all allometric relationships
 - [[power-law-scaling]] — neural scaling laws as the AI analog; similar exponent-driven relationships

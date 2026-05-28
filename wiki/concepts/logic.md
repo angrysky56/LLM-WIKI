@@ -14,6 +14,13 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[index]]
+- [[log]]
+- [[concepts/set-theory]]
+- [[concepts/logic]]
+- [[concepts/reasoning]]
+- [[logic]]
 
 - [[mathematics]]
 - [[reasoning]]
+- [[set-theory]]

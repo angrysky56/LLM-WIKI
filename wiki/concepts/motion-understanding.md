@@ -82,6 +82,12 @@ The **interface is the bottleneck**, not the underlying representations. This is
 The readout token acts as a bottleneck for directional motion signals — analogous to **maximum occupancy** for information bandwidth. DeltaDirect effectively increases the effective bandwidth of motion-direction information through the projector interface.
 
 ## Connections
+- [[concepts/video-llm]]
+- [[concepts/motion-understanding]]
+- [[index]]
+- [[concepts/vision-language-alignment]]
+- [[log]]
+- [[motion-understanding]]
 
 - [[video-llm]] — Video-LLMs as the system for motion understanding
 - [[vision-language-alignment]] — the alignment problem that motion understanding exposes

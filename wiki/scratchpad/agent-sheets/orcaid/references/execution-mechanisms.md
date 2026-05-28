@@ -41,6 +41,12 @@ uv run python run_evolution.py --domain paper2code [--iterations N]
 
 ---
 
+## Related
+- [[scratchpad/agent-sheets/orcaid/references/execution-mechanisms]]
+- [[index]]
+
+- [[execution-mechanisms]]
+
 ## Key Distinction
 
 | Mechanism | New Outcomes? | Memory Side Effects? |

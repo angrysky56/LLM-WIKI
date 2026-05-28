@@ -62,5 +62,12 @@ Multi-agent code-centric systems — roles, shared state, workflow topology.
 }
 ```
 
+## Related
+- [[index]]
+- [[sources/papers/clinseekagent-multimodal-clinical-evidence-seeking]]
+- [[sources/papers/awesome-code-as-agent-harness]]
+
+- [[awesome-code-as-agent-harness]]
+
 ## Tags
 #paper #survey #code-as-agent-harness #literature #agent-architecture #multi-agent #verification #memory #planning

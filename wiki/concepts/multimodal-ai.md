@@ -14,6 +14,11 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/multimodal-ai]]
+- [[index]]
+- [[concepts/multimodal-llm]]
+- [[log]]
+- [[multimodal-ai]]
 
 - [[artificial-intelligence]]
 - [[multimodal-llm]]

@@ -14,6 +14,14 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/dynamical-systems]]
+- [[index]]
+- [[concepts/distributed-systems]]
+- [[log]]
+- [[concepts/complexity]]
+- [[concepts/systems-theory]]
+- [[systems-theory]]
 
 - [[complexity]]
 - [[dynamical-systems]]
+- [[distributed-systems]]

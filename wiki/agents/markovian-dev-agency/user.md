@@ -27,6 +27,12 @@ tags: [user-preferences]
 
 Fix Synapse issues. The research-brief notes persistent problems with garbage entities (115 found), generic untyped nodes (203), and ~70% type correctness. We've worked on it a long time and recent fixes didn't address everything.
 
+## Related
+- [[index]]
+- [[agents/markovian-dev-agency/user]]
+
+- [[user]]
+
 ## Expectations
 
 1. Agency activations should make visible progress on active issues

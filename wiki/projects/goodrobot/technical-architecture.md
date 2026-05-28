@@ -324,6 +324,14 @@ This allows any agent worker to handle any task of its role type — enabling tr
 
 ---
 
+## Related
+- [[projects/goodrobot/technical-architecture]]
+- [[projects/goodrobot/active-business-plan]]
+- [[index]]
+- [[projects/goodrobot/index]]
+
+- [[technical-architecture]]
+
 ## 10. Key Architecture Decisions
 
 | Decision | Choice | Rationale |

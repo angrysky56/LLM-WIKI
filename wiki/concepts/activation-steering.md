@@ -49,6 +49,23 @@ Activation steering is the "modulation" half of the biofeedback loop:
 - Together they form the complete internal check loop analog to HRV biofeedback
 
 ## Connections
+- [[sources/news/2026/engineering-internal-awareness-and-closed-loop-self-regulation-in-large-language-models]]
+- [[concepts/metacognitive-architecture-closed-loop-self-regulation]]
+- [[concepts/activation-engineering]]
+- [[scratchpad/jobs/reports/researcher/discovery-2026-08-08]]
+- [[concepts/neural-interpretability]]
+- [[concepts/emergent-communication]]
+- [[sources/papers/betteti-baggio-bullo-zampieri-idp-hopfield-2025]]
+- [[index]]
+- [[log]]
+- [[sources/papers/critical-initialization-biological-neural-networks]]
+- [[concepts/affective-ai-inner-architecture]]
+- [[concepts/engineering-internal-awareness]]
+- [[concepts/mechanistic-interpretability]]
+- [[concepts/model-editing]]
+- [[concepts/chain-of-thought]]
+- [[concepts/activation-steering]]
+- [[activation-steering]]
 
 - [[mechanistic-interpretability]] — provides the observability layer
 - [[metacognitive-architecture-closed-loop-self-regulation]] — full closed-loop self-regulation via PID/LQR steering
@@ -60,3 +77,6 @@ Activation steering is the "modulation" half of the biofeedback loop:
 - Concept: [[engineering-internal-awareness]]
 - Concept: [[neural-interpretability]]
 
+
+- [[activation-engineering]]
+- [[model-editing]]

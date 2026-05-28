@@ -32,6 +32,12 @@ Run this checklist before finalizing a new skill.
 - [ ] All file links use absolute paths (or relative paths correctly).
 - [ ] No generic names (e.g., `utility`, `helper`). Use descriptive gerunds or nouns.
 
+## Related
+- [[index]]
+- [[agents/skills/skill-architect/references/checklist]]
+
+- [[checklist]]
+
 ## 4. Integration
 
 - [ ] Skill is discoverable (description contains relevant keywords).

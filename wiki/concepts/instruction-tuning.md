@@ -14,6 +14,12 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[index]]
+- [[log]]
+- [[concepts/fine-tuning]]
+- [[concepts/instruction-tuning]]
+- [[sources/papers/waldis-2026-instructions-shape-production]]
+- [[instruction-tuning]]
 
 - [[fine-tuning]]
 - [[llm-training]]

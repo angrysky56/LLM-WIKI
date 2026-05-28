@@ -14,5 +14,11 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/maximum-occupancy-principle]]
+- [[log]]
+- [[concepts/waldis-instructions-shape-language-2026]]
+- [[index]]
+- [[sources/papers/production-llm-agent-runtime-architecture-patterns]]
+- [[waldis-instructions-shape-language-2026]]
 
 - [[maximum-occupancy-principle]]

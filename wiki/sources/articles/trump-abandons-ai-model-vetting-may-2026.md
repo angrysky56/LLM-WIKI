@@ -36,6 +36,16 @@ This creates a governance vacuum that California is actively filling — the sta
 
 The NY Times article should be read carefully for what exactly was being proposed vs. what was in the original executive order framework. The administration may still pursue sector-specific AI guidance through existing agencies (FDA for medical AI, FTC for consumer AI) without a centralized pre-release vetting regime.
 
+## Related
+- [[index]]
+- [[sources/articles/pope-leo-ai-encyclical-magnifica-humanitas-may-2026]]
+- [[synthesis/news/anthropic-vatican-alignment-may-2026]]
+- [[concepts/ai-governance]]
+- [[sources/articles/trump-abandons-ai-model-vetting-may-2026]]
+- [[concepts/ai-policy-global-governance]]
+
+- [[trump-abandons-ai-model-vetting-may-2026]]
+
 ## Status
 
 **Resolved this cycle.** The pattern from carryover — "Trump AI executive order abandoned (May 22)" — is confirmed and extended with the additional vetting cancellation signal.

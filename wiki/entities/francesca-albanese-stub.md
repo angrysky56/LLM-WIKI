@@ -10,6 +10,13 @@ confidence: 0.3
 ---
 
 
+## Related
+- [[synthesis/insights/francesca-albanese-sanctions-case-insight]]
+- [[entities/francesca-albanese-stub]]
+- [[index]]
+
+- [[francesca-albanese-stub]]
+
 # Francesca Albanese (stub)
 
 UN Special Rapporteur on the situation of human rights in the Palestinian territories. Targeted by US sanctions in 2025 after recommending ICC arrest warrants against Israeli officials.

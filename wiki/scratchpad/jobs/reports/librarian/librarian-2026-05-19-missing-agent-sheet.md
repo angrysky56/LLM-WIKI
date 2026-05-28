@@ -19,6 +19,12 @@ The Wiki Librarian agent (`6ee16837c47c`) was assigned to perform a quality audi
 
 - Create or restore the `agent-sheets/librarian.md` file with detailed instructions for the Wiki Librarian's quality audit tasks.
 
+## Related
+- [[scratchpad/jobs/reports/librarian/librarian-2026-05-19-missing-agent-sheet]]
+- [[index]]
+
+- [[librarian-2026-05-19-missing-agent-sheet]]
+
 ## Handoff to next cycle
 
 - Task `6ee16837c47c` (Wiki Librarian) is currently blocked pending the availability of its instruction sheet. Once the sheet is present, the agent can proceed with the audit.

@@ -93,6 +93,17 @@ All of these face the same fundamental tension: optimizing for new behavior whil
 5. **Selective forgetting as feature**: In some cases, removing harmful or outdated knowledge is desirable. How do we make forgetting targeted rather than catastrophic?
 
 ## Connections
+- [[concepts/control-llm]]
+- [[concepts/continual-learning]]
+- [[scratchpad/agent-sheets/researcher/carryover]]
+- [[index]]
+- [[concepts/maximum-occupancy-principle]]
+- [[scratchpad/jobs/reports/researcher/discovery-2026-07-20]]
+- [[concepts/parameter-efficient-fine-tuning]]
+- [[log]]
+- [[sources/papers/betteti-baggio-bullo-zampieri-idp-hopfield-2025]]
+- [[concepts/lora]]
+- [[continual-learning]]
 
 - [[catastrophic-forgetting]]: the central problem continual learning tries to solve
 - [[control-llm]]: architectural mitigation for forgetting during weight updates
@@ -103,3 +114,6 @@ All of these face the same fundamental tension: optimizing for new behavior whil
 - [[bounded-structured-memory]]: bounded memory design that avoids overwrite through capacity management
 - [[mixture-of-experts]]: modular architecture that naturally reduces interference between knowledge domains
 - [[parameter-efficient-fine-tuning]]: parameter-efficient methods as a practical approach to task-specific adaptation without full model fine-tuning
+- [[betteti-baggio-bullo-zampieri-idp-hopfield-2025]]
+- [[maximum-occupancy-principle]]
+- [[lora]]

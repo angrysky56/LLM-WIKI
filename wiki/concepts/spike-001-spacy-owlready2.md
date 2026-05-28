@@ -14,5 +14,13 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[log]]
+- [[synthesis/seg-scientist-agent-design]]
+- [[spikes/spike-campaign-001-004-summary]]
+- [[index]]
+- [[concepts/spike-001-spacy-owlready2]]
+- [[spike-001-spacy-owlready2]]
 
 - [[maximum-occupancy-principle]]
+
+- [[spike-campaign-001-004-summary]]

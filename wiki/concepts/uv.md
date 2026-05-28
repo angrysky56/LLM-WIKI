@@ -14,5 +14,13 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[log]]
+- [[concepts/uv]]
+- [[index]]
+- [[sources/documentation/github-actions-troubleshooting]]
+- [[concepts/maximum-occupancy-principle]]
+- [[uv]]
 
 - [[maximum-occupancy-principle]]
+
+- [[github-actions-troubleshooting]]

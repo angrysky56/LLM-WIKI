@@ -74,6 +74,20 @@ The connection to [[reward-hacking]] is worth noting: a code agent could learn t
 - **Scoring ambiguity**: A patch can make tests pass without actually resolving the issue (overfitting to test cases)
 
 ## Connections
+- [[concepts/reward-hacking]]
+- [[concepts/evaluation]]
+- [[scratchpad/jobs/reports/arxiv/arxiv-2026-05-22-top-papers]]
+- [[concepts/evolutionary-strategies]]
+- [[concepts/agent-onboarding]]
+- [[concepts/code-agent]]
+- [[concepts/code-generation]]
+- [[index]]
+- [[concepts/benchmark]]
+- [[concepts/mcts]]
+- [[log]]
+- [[sources/papers/deltabox-stateful-agent-checkpoint-rollback-2026]]
+- [[concepts/swe-bench]]
+- [[swe-bench]]
 
 - [[benchmark]] — the general concept
 - [[code-agent]] — AI agents specialized in software development
@@ -83,3 +97,5 @@ The connection to [[reward-hacking]] is worth noting: a code agent could learn t
 - Concept: [[agent-onboarding]]
 - Concept: [[code-generation]]
 - Concept: [[evolutionary-strategies]]
+
+- [[MCTS]]

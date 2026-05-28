@@ -19,5 +19,10 @@ confidence: 1.0
 - **Unified Chat**: Interact with the trained model within the same application.
 
 ## Connections
+- [[index]]
+- [[entities/projects/tys-repos]]
+- [[entities/projects/tys-repos/ethical-ai-core]]
+- [[log]]
+- [[ethical-ai-core]]
 - [[toward-transcendent-moral-instrumentality]] — Provides the ethical framework for the synthetic data.
 - [[tys-repos]] — Part of Ty's repository collection.

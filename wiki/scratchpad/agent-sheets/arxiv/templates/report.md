@@ -21,6 +21,12 @@
 - New pages: 3 ({slug1}.md, {slug2}.md, {slug3}.md)
 - Tags added: paper, arxiv, {thematic tags}
 
+## Related
+- [[scratchpad/agent-sheets/arxiv/templates/report]]
+- [[index]]
+
+- [[report]]
+
 ## Notes
 - All 3 papers share theme: {common thread if any}
 - MCP download hit rate limit → used curl fallback

@@ -30,5 +30,8 @@ CodeGraph builds a semantic knowledge graph of codebases for faster, smarter cod
 - **Hermes integration**: index at `~/.codegraph/` covers 61,909 files, 1,019,424 nodes; agents should spawn Explore subagent for large context retrieval
 
 ## Connections
+- [[sources/documentation/codegraph-readme]]
+- [[index]]
+- [[codegraph-readme]]
 
 - [[codegraph-hermes-phase1-implementation]] — Hermes Phase 1 EventBus implementation uses CodeGraph for codebase indexing

@@ -56,6 +56,14 @@ This is a strong claim about reduction:
 The flagellar motor is the canonical case study for "irreducible complexity" arguments. The 2020–2026 work shows the structure arose stepwise: gene duplication of the proton-channel protein gave the 5:2 asymmetry; the C ring evolved from earlier cytoplasmic protein scaffolds; the chemotactic signaling cascade is shared with simpler bacterial sensing systems. The motor is *evolved* irreducible-looking complexity — exactly what stepwise selection on a continuously-replenished energy gradient is expected to produce.
 
 ## Connections
+- [[sources/news/2026/wolchover-life-force-2026]]
+- [[index]]
+- [[scratchpad/jobs/reports/librarian/carryover]]
+- [[sources/news/2026-05/smile-satellite-earth-magnetosphere-2026-05-21]]
+- [[concepts/mop-next-token-prediction]]
+- [[sources/news/2026/engineering-internal-awareness-and-closed-loop-self-regulation-in-large-language-models]]
+- [[sources/news/2026-05/chirality-origin-life-2026-05-20]]
+- [[concept-index]]
 
 - [[wolchover-life-force-2026]] — synthesis: the same Boltzmann-bond rectifier architecture appears in Long CoT reasoning
 - [[maximum-occupancy-principle]] — proton-driven motility is literal action-state path-entropy maximization at the cellular scale

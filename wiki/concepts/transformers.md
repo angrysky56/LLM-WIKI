@@ -14,6 +14,14 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/large-language-models]]
+- [[concepts/recursive-transformers]]
+- [[concepts/transformers]]
+- [[log]]
+- [[concepts/transformer-vm-moran-2026]]
+- [[index]]
+- [[transformers]]
 
 - [[deep-learning]]
 - [[large-language-models]]
+- [[recursive-transformers]]

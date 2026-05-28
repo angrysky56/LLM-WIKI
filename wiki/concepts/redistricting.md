@@ -14,6 +14,11 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[sources/news/2026-05/scotus-voting-rights-2026-05-18]]
+- [[index]]
+- [[concepts/redistricting]]
+- [[log]]
+- [[redistricting]]
 
 - [[us-politics]]
 - [[voting-rights-act]]

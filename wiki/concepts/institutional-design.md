@@ -19,6 +19,14 @@ The study and practice of designing organizations and structures that produce de
 - **Exit and voice** — how participants can challenge or leave institutions
 
 ## Connections
+- [[concepts/institutional-accountability]]
+- [[concepts/ai-governance-substrate]]
+- [[concepts/governance]]
+- [[concepts/institutional-design]]
+- [[concepts/institutional-capture-vs-species-framing]]
+- [[index]]
+- [[log]]
+- [[institutional-design]]
 
 - [[governance]] — overarching framework
 - [[institutional-accountability]] — accountability as institutional design

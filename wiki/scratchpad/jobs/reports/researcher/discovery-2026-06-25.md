@@ -70,6 +70,12 @@ Generic stub with no clear scope. The concept of "knowledge storage and retrieva
 6. **Cognitive world models for LLM agents** — world-model filled; the specific question of text-based agent representation remains open but not actively researched.
 7. **MOP training for transformers** — agent-native-design filled; the specific training question remains open.
 
+## Related
+- [[scratchpad/jobs/reports/researcher/discovery-2026-06-25]]
+- [[index]]
+
+- [[discovery-2026-06-25]]
+
 ## Stub Count Note
 
 Accurate count as of this cycle: **182 concept stubs** (down from 186). Counting method: `rg "status: stub" wiki/concepts/*.md -l | wc -l`. Entity stubs (in wiki/entities/) are distinct and not included in this count.

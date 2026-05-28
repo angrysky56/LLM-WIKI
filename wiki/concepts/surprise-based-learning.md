@@ -21,6 +21,13 @@ The Titans architecture uses surprise to determine which parts of an input seque
 - **Predictive Coding**: The brain updates its internal models primarily when sensory input deviates from expectations.
 
 ## Connections
+- [[concepts/neural-long-term-memory]]
+- [[index]]
+- [[sources/articles/titans-test-time-memory]]
+- [[log]]
+- [[concepts/surprise-based-learning]]
+- [[concepts/titans]]
+- [[surprise-based-learning]]
 - Concept: [[neural-long-term-memory]]
 - Source: [[titans-test-time-memory]]
 - Source: [[shorthand-for-thought]] (Entropy-guided)

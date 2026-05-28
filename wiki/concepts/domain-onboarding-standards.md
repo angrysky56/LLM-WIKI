@@ -16,6 +16,11 @@ confidence: 0.3
 Domain onboarding standards refer to the entry protocols and competency requirements that agent systems must satisfy when engaging with new knowledge domains. The concept was flagged in audit files as a missing referenced target.
 
 ## Connections
+- [[concepts/domain-onboarding-standards]]
+- [[scratchpad/jobs/reports/librarian/audit-2026-05-23]]
+- [[index]]
+- [[log]]
+- [[domain-onboarding-standards]]
 
 - [[agent-onboarding]] — related concept
 - [[evaluation]] — related concept

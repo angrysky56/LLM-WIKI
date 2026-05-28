@@ -72,6 +72,21 @@ The identity/self-model layer (Layer 4) is where MCM lives architecturally:
 - The **meta-cognitive self-model** lives in Layer 4 (how the agent reasons)
 
 ## Connections
+- [[log]]
+- [[concepts/prd-ralph-loop-mop-gemini]]
+- [[concepts/neural-architecture-search]]
+- [[concepts/schema-competition]]
+- [[concepts/cognitive-architecture]]
+- [[concepts/momoa-researcher]]
+- [[concepts/rz-nas]]
+- [[concepts/control-llm]]
+- [[concepts/continual-learning]]
+- [[concepts/bounded-structured-memory]]
+- [[index]]
+- [[concepts/catastrophic-forgetting]]
+- [[concepts/ramirez-ruiz-mop-2024]]
+- [[concepts/mop-architecture]]
+- [[mop-architecture]]
 
 - [[cognitive-architecture]]: MOP implements the memory layer of a cognitive architecture
 - [[memory-mechanisms]]: broader category; MOP is a specific design pattern within it
@@ -80,6 +95,11 @@ The identity/self-model layer (Layer 4) is where MCM lives architecturally:
 - [[ramirez-ruiz-mop-2024]]: original MOP research by Ramirez-Ruiz
 - [[catastrophic-forgetting]]: the problem MOP mitigates via layered memory architecture
 
+- [[continual-learning]]
+- [[control-llm]]
+- [[rz-nas]]
+- [[neural-architecture-search]]
+- [[schema-competition]]
 ## MOP vs Fine-Tuning: When Memory, When Weights?
 
 This is the core architectural trade-off the task asks to develop. The two paths for incorporating session experience into the agent's capabilities are fundamentally different:

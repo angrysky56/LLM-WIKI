@@ -14,6 +14,17 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/mental-imagery]]
+- [[index]]
+- [[concepts/brain-research]]
+- [[concepts/cognitive-science]]
+- [[log]]
+- [[concepts/how-does-imagination-really-work-in-the-brain-new-theory-upends-what-we-knew]]
+- [[concepts/psychology]]
+- [[concepts/neuroscience]]
+- [[neuroscience]]
 
 - [[cognitive-science]]
 - [[brain-research]]
+- [[mental-imagery]]
+- [[psychology]]

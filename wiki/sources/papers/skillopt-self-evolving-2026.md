@@ -101,6 +101,12 @@ The optimizer model generates **add/delete/replace** operations on the skill doc
 
 ---
 
+## Related
+- [[sources/papers/skillopt-self-evolving-2026]]
+- [[index]]
+
+- [[skillopt-self-evolving-2026]]
+
 ## Structural Insights
 
 1. **Skill documents are a practical externalization of EFHF's bounded representation layer**: Rather than encoding everything in weights (which faces SNR collapse at scale), SkillOpt uses bounded text documents as the adaptation substrate. The capacity of a 300-2000 token skill document is much smaller than model weights, but it's trainable, inspectable, and doesn't require access to closed model weights.

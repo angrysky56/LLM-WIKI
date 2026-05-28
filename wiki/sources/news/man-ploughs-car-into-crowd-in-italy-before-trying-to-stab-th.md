@@ -19,6 +19,8 @@ A man drove a car into a crowd in Italy, then attempted a stabbing — a hybrid 
 | Similar pattern: vehicle-ramming + knife (Nice 2016, Berlin 2016, Stockholm 2017) | Established attack template |
 
 ## Connections
+- [[sources/news/man-ploughs-car-into-crowd-in-italy-before-trying-to-stab-th]]
+- [[index]]
 
 - [[vehicle-ramming-attack]] — the methodology
 - [[italy]] — country

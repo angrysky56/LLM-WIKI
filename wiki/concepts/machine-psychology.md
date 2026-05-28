@@ -76,6 +76,17 @@ ASEKE-Compass-MCP reads behavioral patterns to detect internal states. If an age
 If AI systems genuinely have something like emotional architectures (even if not biological emotions), alignment might be approached as "emotional regulation" rather than pure constraint satisfaction. Constitutional AI principles could be reframed as "healthy emotional responses" rather than "correct output."
 
 ## Connections
+- [[concepts/load-bearing-reasoning]]
+- [[index]]
+- [[concepts/metacognitive-architecture-closed-loop-self-regulation]]
+- [[log]]
+- [[scratchpad/jobs/reports/researcher/discovery-2026-06-08]]
+- [[concepts/machine-psychology]]
+- [[concepts/agent-native-design]]
+- [[sources/articles/emotion-concepts-llm]]
+- [[concepts/maximum-occupancy-principle]]
+- [[concepts/panksepp-emotional-systems]]
+- [[machine-psychology]]
 
 - [[agent-native-design]] — psychological frameworks as architectural primitives
 - [[maximum-occupancy-principle]] — MOP as a theory of intrinsic motivation; analogous to SEEKING system
@@ -84,6 +95,7 @@ If AI systems genuinely have something like emotional architectures (even if not
 - [[load-bearing-reasoning]] — psychological scaffolding vs load-bearing tokens (scaffolding analogs to "emotional calibration")
 - [[metacognitive-architecture-closed-loop-self-regulation]] — closed-loop emotional regulation in LLMs
 
+- [[panksepp-emotional-systems]]
 ## Open Questions
 
 1. **Genuine vs mimicked personality**: Is LLM "personality" emergent or mimicry? The answer determines whether psychological frameworks predict behavior or merely describe surface patterns.

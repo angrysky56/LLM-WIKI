@@ -40,6 +40,10 @@ The timing is particularly significant given the ongoing AI chip shortage and th
 - **Risk**: Major disruption to global chip supply chain
 
 ## Connections
+- [[sources/news/2026-05/samsung-strike-2026-05-20]]
+- [[index]]
+- [[synthesis/news/2026-may/news-2026-05-20-headlines]]
+- [[samsung-strike-2026-05-20]]
 
 - [[ai-hardware-supply-chain]] — Samsung as critical HBM supplier
 - [[semiconductor-geopolitics]] — Labor actions intersect with chip nationalism

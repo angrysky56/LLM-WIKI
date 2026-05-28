@@ -14,5 +14,11 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[sources/news/2026/eu-us-trade-deal-tariff-may-2026]]
+- [[synthesis/news/trump-tariffs]]
+- [[synthesis/news/trump-tariffs-2026]]
+- [[index]]
+- [[sources/news/2026/us-trade-court-tariff-ruling-may-2026]]
+- [[trump-tariffs-2026]]
 
 - [[trump-tariffs]]

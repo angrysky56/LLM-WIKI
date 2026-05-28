@@ -25,8 +25,21 @@ Recent research, particularly associated with the [[spontaneous-activity-reshapi
 - **Hyperphantasia:** Extremely vivid, near-perceptual mental imagery (1 in 30).
 
 ## Connections
+- [[concepts/spontaneous-activity-reshaping-hypothesis]]
+- [[synthesis/intelligence-as-entropic-sculpting]]
+- [[concepts/aphantasia]]
+- [[index]]
+- [[concepts/hyperphantasia]]
+- [[log]]
+- [[entities/people/roger-koenig-robert]]
+- [[concepts/mental-imagery]]
+- [[concept-index]]
+- [[sources/articles/how-does-imagination-really-work-in-the-brain-new-theory-upends-what-we-knew]]
+- [[aphantasia]]
 
 - **Sources:** [[how-does-imagination-really-work-in-the-brain-new-theory-upends-what-we-knew]]
 - **Concepts:** [[spontaneous-activity-reshaping-hypothesis]], [[hyperphantasia]]
 - Concept: [[roger-koenig-robert]]
 
+
+- [[mental-imagery]]

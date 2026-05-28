@@ -14,6 +14,14 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/agentic-research]]
+- [[index]]
+- [[concepts/momoa-researcher]]
+- [[log]]
+- [[entities/projects/alphaevolve]]
+- [[concept-index]]
+- [[momoa-researcher]]
 
 - [[mop-architecture]]
 - [[research-agent]]
+- [[agentic-research]]

@@ -99,6 +99,11 @@ updated: 2026-05-27T05:45:09Z
 `autonomous-ai-agents`, `apple`, `creative`, `data-science`, `devops`, `diagramming`, `domain`, `email`, `engineering`, `gaming`, `gifs`, `gsd`, `inference-sh`, `in-progress`, `kanban`, `knowledge-management`, `mcp`, `media`, `misc`, `mlops`, `note-taking`, `personal`, `productivity`, `red-teaming`, `research`, `smart-home`, `social-media`, `software-development`
 
 ## Connections
+- [[index]]
+- [[concepts/hermes-agent-skills]]
+- [[sources/documentation/automate-anything-with-cron]]
+- [[log]]
+- [[hermes-agent-skills]]
 
 - [[hermes-agent]] — parent concept
 - [[autonomous-ai-agents]] — autonomous AI agents skill; multi-agent orchestration parent

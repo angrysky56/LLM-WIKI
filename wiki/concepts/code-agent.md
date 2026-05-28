@@ -64,6 +64,18 @@ The [[hermes-agent]] framework provides infrastructure for building code agents:
 - Safety constraints via soul configuration
 
 ## Connections
+- [[log]]
+- [[concepts/swe-bench]]
+- [[concepts/llm-agent-architecture]]
+- [[concepts/autonomous-research]]
+- [[concepts/agentic-reasoning]]
+- [[concepts/load-bearing-reasoning]]
+- [[concepts/code-agent]]
+- [[concepts/code-generation]]
+- [[concepts/agentic-research]]
+- [[index]]
+- [[concepts/benchmark]]
+- [[code-agent]]
 
 - [[swe-bench]] — benchmark for code agents
 - [[benchmark]] — evaluation frameworks
@@ -73,3 +85,5 @@ The [[hermes-agent]] framework provides infrastructure for building code agents:
 - [[load-bearing-reasoning]] — identifying critical reasoning steps in code generation
 - Concept: [[autonomous-research]]
 - Concept: [[llm-agent-architecture]]
+
+- [[agentic-reasoning]]

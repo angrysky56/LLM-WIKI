@@ -32,6 +32,12 @@ Boko Haram carried out a mass kidnapping of over 50 schoolchildren, including to
 
 `political-balance-shifts` — internal armed conflict with regional destabilization implications; mass child abductions are a well-documented insurgent tactic for leverage and recruitment.
 
+## Related
+- [[sources/news/nigeria-boko-haram-kidnaps-over-50-schoolchildren-borno]]
+- [[index]]
+
+- [[nigeria-boko-haram-kidnaps-over-50-schoolchildren-borno]]
+
 ## Original Outlet + Date
 
 BBC News, published 2026-05-17

@@ -38,6 +38,13 @@ The deal signals that EU-US trade relations are stabilizing on the tariff front,
 - [[trump-tariffs]] — tariff policy framework (inherited from prior wiki threads)
 - [[EU-US-trade-relations]] — relationship tracking page
 
+## Related
+- [[index]]
+- [[sources/news/2026/eu-us-trade-deal-tariff-elements-may-2026]]
+- [[synthesis/news/2026-may/headlines-2026-05-24]]
+
+- [[eu-us-trade-deal-tariff-elements-may-2026]]
+
 ## Monitoring
 
 **Monitor**: Full deal text, implementation timeline, whether specific tariff rates are reduced or merely structured. Also watch for any US Congressional reaction — the trade court ruling (May 7) has set up a confrontation between Trump and the judiciary that may affect whether this deal holds.

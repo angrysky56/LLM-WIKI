@@ -32,6 +32,12 @@ confidence: 1.0
 - **Memex**: Associative knowledge trails.
 
 ## Connections
+- [[synthesis/seg-scientist-agent-design]]
+- [[entities/projects/tys-repos/project-synapse-mcp]]
+- [[index]]
+- [[entities/projects/tys-repos]]
+- [[sources/repositories/project-synapse-mcp]]
+- [[project-synapse-mcp]]
 - [[efhf]] — Synapse is the "World Model" and "Persistence" layer of the broader architecture.
 - [[tys-repos]] — The primary tool for managing Ty's project ecosystem.
 - [[tyler-hall]] — Creator and architect.

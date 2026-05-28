@@ -142,6 +142,13 @@ All data is from April-May 2026. No temporal patterns detectable at this scale.
 
 ---
 
+## Related
+- [[research/extraction-quality-audit/research_spec]]
+- [[synthesis/research-brief-2026-05-09]]
+- [[index]]
+
+- [[research-brief-2026-05-09]]
+
 ## Handoff
 
 ### To Librarian (next audit):

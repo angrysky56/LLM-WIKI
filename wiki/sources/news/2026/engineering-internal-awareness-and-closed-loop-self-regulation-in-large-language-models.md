@@ -76,6 +76,9 @@ Exploits empirical discovery: layer-wise Jacobians at different reachable activa
 - **MCP integration**: "Shredder" agents use pip-audit/OSV.dev to check dependencies against real vulnerability databases
 
 ## Connections
+- [[sources/news/2026/engineering-internal-awareness-and-closed-loop-self-regulation-in-large-language-models]]
+- [[index]]
+- [[engineering-internal-awareness-and-closed-loop-self-regulation-in-large-language-models]]
 
 - [[mechanistic-interpretability]] — TransformerLens as the "EEG" of the artificial mind
 - [[activation-steering]] — RepE paradigm, steering vectors, CAA, ITI

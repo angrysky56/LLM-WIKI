@@ -112,6 +112,16 @@ These are related but not identical. No published paper yet compares them direct
 3. Is there a training regime that jointly optimizes the hybrid, rather than training components separately?
 4. Does the hybrid reduce the "distillation ceiling" problem that affects explicit PRM approaches?
 
+## Related
+- [[concepts/process-reward-model]]
+- [[index]]
+- [[concepts/hybrid-reward-models]]
+- [[concepts/reward-hacking]]
+- [[log]]
+- [[concepts/inference-time-compute-scaling]]
+
+- [[hybrid-reward-models]]
+
 ## Sources
 
 - ELHSR: arXiv:2505.12225v1 — Efficient Linear Hidden State Reward

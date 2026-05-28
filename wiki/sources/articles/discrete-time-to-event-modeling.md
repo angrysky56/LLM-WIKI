@@ -35,6 +35,12 @@ Introduction to discrete time-to-event modeling (survival analysis) — the bran
 - Survival probability = product of conditional survival probabilities across intervals
 - Life tables themselves are underfit for prediction but their data structure is foundational for all discrete-time methods
 
+## Related
+- [[sources/articles/discrete-time-to-event-modeling]]
+- [[index]]
+
+- [[discrete-time-to-event-modeling]]
+
 ## Relevance
 
 Time-to-event modeling is directly adjacent to time series forecasting but addresses a complementary question. While TimesFM predicts *future values*, survival analysis predicts *event timing*. The two frameworks could be hybridized.

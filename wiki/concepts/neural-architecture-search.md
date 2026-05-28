@@ -75,6 +75,20 @@ RZ-NAS's innovation is combining multiple proxies with a reflection module that 
 NAS is a natural application of [[evolutionary-strategies]] — CMA-ES and its variants search efficiently over continuous architecture subspaces. The population of architecture variants is evaluated in parallel, mutations are CMA-adapted based on fitness correlations, and selection pressure converges to high-performing architectures.
 
 ## Connections
+- [[concepts/maximum-occupancy-principle]]
+- [[concepts/collm-nas]]
+- [[log]]
+- [[sources/articles/ml-evolution-benchmarking-protocol]]
+- [[scratchpad/agent-sheets/researcher/carryover]]
+- [[index]]
+- [[concepts/llama-nas]]
+- [[concepts/rz-nas]]
+- [[scratchpad/jobs/reports/researcher/discovery-2026-08-03]]
+- [[concepts/neural-architecture-search]]
+- [[concepts/bounded-memory-budget-optimization]]
+- [[scratchpad/jobs/reports/researcher/discovery-2026-07-15]]
+- [[concepts/essa]]
+- [[neural-architecture-search]]
 
 - [[ml-evolution-benchmarking-protocol]] — source for CoLLM-NAS, RZ-NAS, LLaMA-NAS
 - [[ml-evolution]] — NAS is the primary application of guided ML evolution
@@ -87,6 +101,8 @@ NAS is a natural application of [[evolutionary-strategies]] — CMA-ES and its v
 - [[scaling-laws]] — architecture search interacts with scaling laws; discovered architectures must be evaluated relative to their compute budget
 - [[catastrophic-forgetting]] — architectural changes can cause forgetting; search must preserve capability
 
+- [[maximum-occupancy-principle]]
+- [[bounded-memory-budget-optimization]]
 ## Open Questions
 
 1. CoLLM-NAS's dual-LLM approach requires two capable LLMs — does Navigator/Geneerator specialization improve over single-LLM proposals?

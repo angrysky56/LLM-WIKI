@@ -61,6 +61,24 @@ The [[load-bearing-reasoning]] framework identifies critical inference steps; fo
 - **Model vs implementation**: Verifying a model of a system doesn't verify the implementation matches the model
 
 ## Connections
+- [[concepts/attention-monoidal-closure]]
+- [[concepts/category-theory]]
+- [[entities/tools/isabelle]]
+- [[concepts/proof-assistant]]
+- [[log]]
+- [[concepts/interactive-theorem-proving]]
+- [[concepts/isabelle-hol]]
+- [[concepts/reward-hacking]]
+- [[entities/tools/isabelle-hol]]
+- [[concepts/categorical-reasoning]]
+- [[sources/documentation/isabelle-installation]]
+- [[concepts/formal-methods]]
+- [[concepts/load-bearing-reasoning]]
+- [[concepts/formal-verification]]
+- [[concepts/mathematical-reasoning]]
+- [[entities/tools/prover9]]
+- [[index]]
+- [[formal-verification]]
 
 - [[formal-methods]] — the broader field
 - [[proof-assistant]] — tools like Coq, Isabelle, Lean for interactive verification

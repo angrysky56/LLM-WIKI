@@ -15,6 +15,14 @@ confidence: 0.9
 **Delta** is the Evolutionary Search Agent in the [[oMCD]] framework. It maintains parallel MDP rollouts for exploration-exploitation balance.
 
 ## See Also
+- [[log]]
+- [[concepts/omcd]]
+- [[concepts/agent-taxonomies]]
+- [[concepts/alpha]]
+- [[concepts/delta]]
+- [[index]]
+- [[delta]]
 
 - [[agent-taxonomies]]
 - [[Alpha]]
+- [[oMCD]]

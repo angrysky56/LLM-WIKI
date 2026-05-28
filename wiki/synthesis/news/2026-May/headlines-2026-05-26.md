@@ -36,6 +36,12 @@ tags: [news, report]
 - **Geopolitical Tensions and Infrastructure Crises Reshape Global Shipping** — May 16, still relevant but not significant new developments to add
 - **Top European tech CEOs call for easier AI rules** — May 5, routine lobbying, not new policy
 
+## Related
+- [[index]]
+- [[synthesis/news/2026-may/headlines-2026-05-26]]
+
+- [[headlines-2026-05-26]]
+
 ## Notable Patterns
 
 **Tariff court ruling cascade continues**: Two significant developments this cycle trace directly to the May 2026 Supreme Court ruling that invalidated the 10% global tariff. Malaysia's exit from its bilateral deal and the destabilization of the Rubio-India $500B bargain show the ruling is actively reshaping US trade relationships — partners now have legal cover to wait rather than negotiate under duress.

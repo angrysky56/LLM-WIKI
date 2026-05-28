@@ -14,6 +14,11 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/is-grep-all-you-need]]
+- [[index]]
+- [[concepts/llm-nlp]]
+- [[log]]
+- [[llm-nlp]]
 
 - [[large-language-models]]
 - [[natural-language-processing]]

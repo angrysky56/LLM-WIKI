@@ -43,9 +43,48 @@ Layer 3 — checks whether the macro-level world model (Layer 2, [[hipai-montagu
 - SubjectiveIntegration(x) ∧ CoherenceTimeout(x) → ⊥ — proved (logically incompatible)
 
 ## Connections
+- [[sources/repositories/mcp-logic]]
+- [[entities/projects/tys-repos/conscience-servitor]]
+- [[entities/tools/mcp-logic]]
+- [[entities/projects/tys-repos/advanced-reasoning-mcp]]
+- [[synthesis/seg-scientist-agent-design]]
+- [[concepts/mcp-model-context-protocol]]
+- [[spikes/spike-campaign-001-004-summary]]
+- [[entities/projects/efhf]]
+- [[entities/projects/tys-repos/sheaf-consistency-enforcer]]
+- [[entities/projects/tys-repos/efhf]]
+- [[entities/people/tyler-hall]]
+- [[sources/papers/bae-lmac-2026]]
+- [[concepts/symbolic-regression]]
+- [[index]]
+- [[spikes/spike-001-spacy-owlready2]]
+- [[sources/documentation/hermes-mcp-integration]]
+- [[entities/tools/hipai-montague]]
+- [[concepts/eml-operator]]
+- [[sources/papers/odrzywolek-eml-2026]]
+- [[entities/projects/tys-repos]]
+- [[log]]
+- [[sources/papers/vector-policy-optimization-vpo-2026]]
+- [[entities/projects/meta-harness]]
+- [[concepts/sheffer-stroke]]
+- [[mcp-logic]]
 
 - [[efhf]] — Layer 3 of the five-layer architecture
 - [[hipai-montague]] — Layer 2; beliefs verified here
 - [[mop-explorer]] — VERIFY action uses prove/find_counterexample
 - [[maximum-occupancy-principle]] — absorbing state detection via find_model
 - [[mop-edm-cognitive-architecture]] — formal verification backbone
+- [[advanced-reasoning-mcp]]
+- [[mcp-model-context-protocol]]
+- [[symbolic-regression]]
+- [[efhf]]
+- [[spike-campaign-001-004-summary]]
+- [[meta-harness]]
+- [[eml-operator]]
+- [[spike-001-spacy-owlready2]]
+- [[conscience-servitor]]
+- [[hipai-montague]]
+- [[sheaf-consistency-enforcer]]
+- [[odrzywolek-eml-2026]]
+- [[tys-repos]]
+- [[sheffer-stroke]]

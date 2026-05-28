@@ -72,6 +72,23 @@ The tension in autonomous agent design: **more autonomy creates more capability 
 [[agentic-oversight]] addresses this: mechanisms for monitoring agent behavior without defeating the purpose of autonomy.
 
 ## Connections
+- [[concepts/autonomous-agents]]
+- [[concepts/agent-design]]
+- [[concepts/tool-use]]
+- [[concepts/mcp-model-context-protocol]]
+- [[concepts/markovian-carryover]]
+- [[concepts/reinforcement-learning]]
+- [[concepts/agent-architectures]]
+- [[concepts/research-agent]]
+- [[concepts/agentic-oversight]]
+- [[concepts/llm-agents]]
+- [[concepts/bounded-structured-memory]]
+- [[index]]
+- [[concepts/agents]]
+- [[concepts/agentic-planner]]
+- [[log]]
+- [[scratchpad/agent-sheets/librarian/carryover]]
+- [[autonomous-agents]]
 
 - [[agent-architectures]]: the architectural patterns that enable autonomy
 - [[agent-design]]: principles for designing autonomous agents
@@ -81,6 +98,9 @@ The tension in autonomous agent design: **more autonomy creates more capability 
 - [[agentic-oversight]]: oversight mechanisms for autonomous agents
 - [[reinforcement-learning]]: training paradigm for developing autonomous behaviors
 
+- [[research-agent]]
+- [[agents]]
+- [[mcp-model-context-protocol]]
 ## Open Questions
 
 1. **Autonomy calibration**: How autonomous should an agent be for a given task? What's the right level, and how do we determine it automatically?

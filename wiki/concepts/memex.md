@@ -31,6 +31,15 @@ The part Bush couldn't solve was **who does the maintenance**. The LLM handles t
 Bush envisioned something closer to a personal wiki than a public search engine. The web became public and link-driven; the Memex was private and trail-driven. This wiki system is closer to Bush's original idea.
 
 ## Connections
+- [[concepts/persistent-knowledge-compilation]]
+- [[concepts/design-thinking]]
+- [[log]]
+- [[concepts/llm-wiki-pattern]]
+- [[concepts/memex]]
+- [[concept-index]]
+- [[entities/people/andrej-karpathy]]
+- [[index]]
+- [[memex]]
 
 - [[llm-wiki-pattern]] — the direct contemporary implementation of Bush's idea
 - [[persistent-knowledge-compilation]] — the paradigm that finally solves Bush's maintenance problem

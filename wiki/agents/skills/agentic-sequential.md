@@ -9,6 +9,15 @@ status: reference
 confidence: 0.5
 ---
 
+## Related
+
+- [[scratchpad/agent-sheets/librarians-assistant/workspace/batch-progress]]
+- [[agents/skills/agentic-decision-tree]]
+- [[scratchpad/agent-sheets/librarian/carryover]]
+- [[scratchpad/agent-sheets/librarians-assistant/carryover]]
+- [[index]]
+- [[agents/skills/agentic-sequential]]
+
 # Agentic Sequential
 
 Stub page for [[agentic-sequential]] agent skill.

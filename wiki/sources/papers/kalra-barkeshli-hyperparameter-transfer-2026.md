@@ -41,6 +41,9 @@ The paper develops a **framework to quantify hyperparameter transfer** through t
 4. **Connection to scaling laws** — weight decay effects on scaling law fits suggest that regularization regime matters for extrapolation quality, not just in-sample performance
 
 ## Connections
+- [[sources/papers/kalra-barkeshli-hyperparameter-transfer-2026]]
+- [[index]]
+- [[kalra-barkeshli-hyperparameter-transfer-2026]]
 
 - [[ml-evolution]] — hyperparameter transfer is foundational to autonomous model evolution (e.g. AlphaEvolve); understanding what's actually being transferred matters for MGA design
 - [[superbpe]] — tokenization choices affect embedding layer dynamics; subword vs character vs other schemes may interact with embedding LR behavior

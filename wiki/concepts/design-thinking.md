@@ -57,6 +57,18 @@ Design thinking projects map naturally onto [[para-methodology]]:
 - Methodology references, analogs, research live in **Resources**
 
 ## Connections
+- [[concepts/methodology]]
+- [[concepts/memex]]
+- [[index]]
+- [[concept-index]]
+- [[concepts/persistent-knowledge-compilation]]
+- [[concepts/design-thinking-mit]]
+- [[log]]
+- [[concepts/design-thinking]]
+- [[sources/articles/design-thinking-mit]]
+- [[synthesis/synapse-llm-wiki-operating-guide]]
+- [[concepts/para-methodology]]
+- [[design-thinking]]
 
 - [[design-thinking-mit]] — source: MIT/Kotelly 10-step breakdown
 - [[para-methodology]] — complementary organizational framework

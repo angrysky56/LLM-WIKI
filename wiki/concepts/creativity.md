@@ -64,6 +64,12 @@ The **evaluation problem** is the central unsolved challenge:
 The discovery that **model-agnostic transfer** works for parallel reasoning evaluation (OpenDeepThink's Bradley-Terry ranking transfers across models) suggests that creative evaluation frameworks might similarly transfer, but this remains untested.
 
 ## Connections
+- [[index]]
+- [[log]]
+- [[concepts/creativity]]
+- [[concepts/generative-ai]]
+- [[concepts/imagination]]
+- [[creativity]]
 
 - [[parallel-reasoning]] — convergent phase of creative generation is analogous to selection in parallel reasoning; Bradley-Terry as ranking mechanism
 - [[generative-ai]] — the broader category; generative AI provides the output medium (text, image, code) while creativity is the property of the process

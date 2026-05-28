@@ -62,6 +62,12 @@
 3. Cognitive world models for LLM agents: filled in prior cycle (cognitive-world-models-for-llm-agents.md exists as active)
 4. MOP training: answered in prior cycle (mop-next-token-prediction stub created)
 
+## Related
+- [[scratchpad/jobs/reports/researcher/discovery-2026-06-30]]
+- [[index]]
+
+- [[discovery-2026-06-30]]
+
 ## Kanban Status
 - 4 stub→active conversions this cycle
 - Stub count now 345 (349 - 4)

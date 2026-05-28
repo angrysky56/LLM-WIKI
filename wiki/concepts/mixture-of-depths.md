@@ -14,5 +14,13 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/adaptive-computation]]
+- [[sources/mixture-of-recursions]]
+- [[log]]
+- [[index]]
+- [[concepts/scaling-laws]]
+- [[concepts/mixture-of-depths]]
+- [[mixture-of-depths]]
 
 - [[scaling-laws]]
+- [[adaptive-computation]]

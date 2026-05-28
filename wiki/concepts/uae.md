@@ -14,5 +14,11 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/uae]]
+- [[index]]
+- [[log]]
+- [[synthesis/news/barakah-nuclear-plant]]
+- [[sources/news/uae-reports-drone-strike-near-abu-dhabi-nuclear-power-plant]]
+- [[uae]]
 
 - [[geopolitics]]

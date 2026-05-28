@@ -22,5 +22,12 @@ While myelin increases the speed of transmission, it also physically "cements" t
 Humans are an **altricial species**, meaning we are born helpless with many brain regions (like the prefrontal cortex and [[arcuate-fasciculus]]) largely unmyelinated. This delayed myelination allows for a prolonged "critical period" of high plasticity, enabling children to soak up language, culture, and complex behaviors from their environment before the pathways are finalized.
 
 ## Connections
+- [[concepts/arcuate-fasciculus]]
+- [[concept-index]]
+- [[synthesis/llm-biological-analogies]]
+- [[concepts/myelination]]
+- [[index]]
+- [[sources/articles/brocas-area-gemini-chat]]
+- [[myelination]]
 - [[arcuate-fasciculus]]: Its myelination triggers the language explosion.
 - [[llm-biological-analogies]]: Analogy to the transition from pre-training (plastic) to frozen weights (efficient/rigid).

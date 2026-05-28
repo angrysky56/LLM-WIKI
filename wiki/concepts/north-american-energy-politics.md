@@ -14,5 +14,11 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[index]]
+- [[concepts/maximum-occupancy-principle]]
+- [[concepts/north-american-energy-politics]]
+- [[log]]
+- [[sources/news/2026/alberta-independence-referendum-2026]]
+- [[north-american-energy-politics]]
 
 - [[maximum-occupancy-principle]]

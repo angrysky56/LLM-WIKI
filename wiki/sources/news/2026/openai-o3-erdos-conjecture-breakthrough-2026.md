@@ -76,6 +76,9 @@ Incrypted (May 21) notes the announcement has generated significant media attent
 - **May 24, 2026**: This cycle — no peer review completion reported yet
 
 ## Connections
+- [[sources/news/2026/openai-o3-erdos-conjecture-breakthrough-2026]]
+- [[index]]
+- [[openai-o3-erdos-conjecture-breakthrough-2026]]
 
 - [[AI-scientific-discovery]] — This is the most significant proof-of-concept for AI as genuine mathematical co-discoverer
 - [[openai-o-series]] — o3's specific capabilities and architecture

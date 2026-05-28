@@ -14,5 +14,11 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[log]]
+- [[sources/repositories/get-shit-done]]
+- [[concepts/spec-driven-development]]
+- [[index]]
+- [[concepts/maximum-occupancy-principle]]
+- [[spec-driven-development]]
 
 - [[maximum-occupancy-principle]]

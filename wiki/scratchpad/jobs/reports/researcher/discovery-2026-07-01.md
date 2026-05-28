@@ -50,6 +50,12 @@ Filled from stub with connections only to mlops and inference-efficiency → now
 - **Reward hacking detectability**: Previously in carryover. Wiki search confirms reward-hacking.md now has a fully documented §Early Detection with 6 prospective signals (gradient fingerprints, internal activations, energy loss, χ² vs KL divergence, adversarial auditing, calibration monitoring). This question is ANSWERED in the existing wiki — no further research needed beyond whatTy posted in CLINMEET.
 - **Next cycle intent**: Continue stub-first. Emerging cluster candidates: creativity (thin, links to parallel-reasoning), wolfram-nks-causal-networks (thin, connects to computational-irreducibility), creativity (links to parallel-reasoning now active).
 
+## Related
+- [[index]]
+- [[scratchpad/jobs/reports/researcher/discovery-2026-07-01]]
+
+- [[discovery-2026-07-01]]
+
 ## Notes
 - Verified before research: The "reward hacking detectability" open question was confirmed answered in existing reward-hacking.md §Early Detection — no duplication of effort
 - OpenDeepThink source paper already ingested (wiki/sources/papers/opendeepthink-parallel-reasoning.md) — used as primary source for parallel-reasoning.md

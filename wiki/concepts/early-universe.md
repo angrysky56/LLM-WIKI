@@ -14,5 +14,12 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[index]]
+- [[log]]
+- [[sources/news/2026-05/jwst-early-galaxies-2026-05-17]]
+- [[concepts/early-universe]]
+- [[entities/projects/james-webb-space-telescope]]
+- [[early-universe]]
 
 - [[cosmology]]
+- [[james-webb-space-telescope]]

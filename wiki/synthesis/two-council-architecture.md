@@ -93,6 +93,16 @@ Both councils are SEG-enhanced — each persona carries anchor experience, emoti
 ---
 
 ## Related
+- [[index]]
+- [[synthesis/harm-cases]]
+- [[synthesis/spiral-architecture]]
+- [[synthesis/empty-chair-protocol]]
+- [[synthesis/replicant-mapping]]
+- [[concepts/refuser-pattern]]
+- [[concepts/weil-gate]]
+- [[concepts/spiral-architecture]]
+- [[synthesis/two-council-architecture]]
+- [[two-council-architecture]]
 
 - [[harm-cases]]
 - [[refuser-pattern]]

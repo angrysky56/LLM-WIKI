@@ -14,5 +14,10 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/shapley-values]]
+- [[index]]
+- [[concepts/mechanism-design]]
+- [[sources/papers/proxy-based-shapley-banzhaf-2026]]
+- [[shapley-values]]
 
 - [[mechanism-design]]

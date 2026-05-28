@@ -32,6 +32,10 @@ Bad: `delegate_task(goal="Fix the error")` — child doesn't know what error.
 Good: `delegate_task(goal="Fix TypeError in api/handlers.py", context="Line 47: 'NoneType' has no attribute 'get'. parse_body() returns None when Content-Type is missing.")` — fully self-contained.
 
 ## Connections
+- [[sources/documentation/subagent-delegation-hermes-agent]]
+- [[index]]
+- [[sources/documentation/persistent-goals-hermes-agent]]
+- [[subagent-delegation-hermes-agent]]
 
 - [[hermes-agent]] — parent system
 - [[delegation]] — broader delegation patterns guide

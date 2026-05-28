@@ -125,6 +125,17 @@ In physical agents, death is terminal. In text agents, the absorbing state is **
 In [[multi-agent-llm-systems]], each agent has a private cognitive world model. Shared state (via blackboard or message passing) must be translated into each agent's belief representation. Two agents with different world models of the same environment is the multi-agent analogue of the composable world models question in [[world-model]].
 
 ## Connections
+- [[concepts/agent-native-design]]
+- [[concepts/cognitive-world-models-for-llm-agents]]
+- [[concepts/persistent-knowledge-compilation]]
+- [[concepts/epistemic-energy]]
+- [[concepts/multi-agent-llm-systems]]
+- [[index]]
+- [[concepts/world-model]]
+- [[concepts/agents]]
+- [[concepts/bounded-rationality]]
+- [[log]]
+- [[cognitive-world-models-for-llm-agents]]
 
 - [[world-model]] — parent concept; this page answers Open Question #1
 - [[agent-native-design]] — cognitive world model as a native architectural component
@@ -136,6 +147,7 @@ In [[multi-agent-llm-systems]], each agent has a private cognitive world model. 
 - [[futuresim-adaptive-agents]] — empirical evidence that frontier agents have severe world modeling gaps (25% accuracy on temporal event forecasting)
 - [[agent-architectures]] — broader context for agent system design
 
+- [[agents]]
 ## Open Questions
 
 1. **Structured belief representation vs. implicit LLM belief**: Is an explicit belief graph necessary, or does a sufficiently powerful LLM maintain an implicit world model in its activations? The practical difference: an explicit graph can be queried, inspected, and corrected; an implicit model cannot.

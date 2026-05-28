@@ -36,6 +36,12 @@ As LLMs are trained at scale, they develop implicit communication patterns that:
 - Can be steered via activation patterns (cf. [[activation-steering]])
 
 ## Connections
+- [[concepts/activation-steering]]
+- [[concepts/emergent-communication]]
+- [[sources/articles/language-evolution]]
+- [[index]]
+- [[log]]
+- [[emergent-communication]]
 
 - Concept: [[language-evolution]]
 - Concept: [[activation-steering]]

@@ -107,6 +107,23 @@ The bounded-structured-memory pattern addresses this via layered memory — each
 The [[bounded-structured-memory]] architecture formalizes this with per-agent vaults under `LLM-WIKI/wiki/agents/`, where each agent maintains its own working context.
 
 ## Connections
+- [[log]]
+- [[concepts/agentic-design-picker]]
+- [[concepts/llm-agent-architecture]]
+- [[concepts/multi-agent-coordination]]
+- [[concepts/agent-native-design]]
+- [[concepts/agentic-hierarchy]]
+- [[concepts/agent-onboarding]]
+- [[concepts/agentic-planner]]
+- [[concepts/markovian-carryover]]
+- [[concepts/multi-agent-llm-systems]]
+- [[concepts/agentic-oversight]]
+- [[concepts/subagent-delegation]]
+- [[index]]
+- [[concepts/delegation]]
+- [[concepts/mcts]]
+- [[concepts/onboarding-standards]]
+- [[agentic-hierarchy]]
 
 - [[multi-agent-llm-systems]] — systems built with agentic hierarchies; five architectural patterns include hierarchical ones
 - [[delegation]] — the mechanism for assigning tasks down the hierarchy; act of moving authority across levels
@@ -123,6 +140,8 @@ The [[bounded-structured-memory]] architecture formalizes this with per-agent va
 - Concept: [[onboarding-standards]]
 
 
+- [[MCTS]]
+- [[agentic-design-picker]]
 ## Open Questions
 
 1. **Optimal depth**: How many levels of hierarchy are useful? Does the answer depend on task complexity or model capacity at each level?

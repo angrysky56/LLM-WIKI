@@ -28,6 +28,10 @@ Graphify transforms codebases into queryable knowledge graphs using AST analysis
 | **Integration** | MCP server for Hermes Agent |
 
 ## Connections
+- [[sources/repositories/graphify-ai-coding-assistant-skill]]
+- [[sources/papers/code-as-agent-harness]]
+- [[index]]
+- [[graphify-ai-coding-assistant-skill]]
 
 - [[neo4j]] — graph backend for code knowledge
 - [[hermes-agent]] — Graphify runs as a skill within Hermes

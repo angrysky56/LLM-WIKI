@@ -14,6 +14,14 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/para]]
+- [[index]]
+- [[concepts/obsidian-para-byarbrough]]
+- [[log]]
+- [[concepts/zettelkasten]]
+- [[para]]
 
 - [[knowledge-management]]
-- [[zettelkasten]]
+- [[zettelkasten]]- [[entities/knowledge-architecture-stub.md]]
+
+- [[knowledge-architecture-stub]]

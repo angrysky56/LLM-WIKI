@@ -14,5 +14,18 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[log]]
+- [[concepts/multi-agent-llm-systems]]
+- [[agents/skills/supervisor-orchestrator]]
+- [[index]]
+- [[agents/skills/agentic-multiagent]]
+- [[agents/skills/supervisor-delegation]]
+- [[concepts/agent-architectures]]
+- [[concepts/hierarchical-supervisor]]
+- [[agents/skills/agentic-decision-tree]]
+- [[concepts/aseke-framework]]
+- [[hierarchical-supervisor]]
 
 - [[multi-agent-llm-systems]]
+- [[agent-architectures]]
+- [[aseke-framework]]

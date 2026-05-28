@@ -61,6 +61,19 @@ Proof assistants are relevant to AI alignment:
 | Bedrock | Coq | Verified low-level programs with machine-checked proofs |
 
 ## Connections
+- [[concepts/reward-hacking]]
+- [[concepts/formal-verification]]
+- [[concepts/mathematical-reasoning]]
+- [[index]]
+- [[concepts/proof-assistant]]
+- [[log]]
+- [[concepts/load-bearing-reasoning]]
+- [[concepts/interactive-theorem-proving]]
+- [[entities/tools/isabelle-hol]]
+- [[concepts/category-theory]]
+- [[entities/tools/isabelle]]
+- [[concepts/formal-methods]]
+- [[proof-assistant]]
 
 - [[formal-methods]] — the broader field
 - [[interactive-theorem-proving]] — the practice of using proof assistants

@@ -14,6 +14,12 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[index]]
+- [[sources/news/2026-05/trump-approval-war-polling-2026-05-18]]
+- [[log]]
+- [[synthesis/news/iran-war]]
+- [[synthesis/news/iran]]
+- [[iran-war]]
 
 - [[iran]]
 - [[geopolitics]]

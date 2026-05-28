@@ -170,6 +170,9 @@ VPO's training dynamics (preserving a population of competent alternatives long 
 ---
 
 ## Connections
+- [[index]]
+- [[sources/papers/vector-policy-optimization-vpo-2026]]
+- [[vector-policy-optimization-vpo-2026]]
 
 - [[grpo]] — VPO is a drop-in replacement for the GRPO advantage estimator
 - [[alphaevolve]] — evolutionary test-time search; VPO unlocks problems GRPO cannot solve in this setting

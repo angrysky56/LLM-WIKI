@@ -188,6 +188,12 @@ If found: skip re-ingesting — update jobs sheet and carryover only.
 
 ---
 
+## Related
+- [[agents/skills/arxiv-agent/references/arxiv-search-guide]]
+- [[index]]
+
+- [[arxiv-search-guide]]
+
 ## Key URLs
 
 | Purpose | URL |

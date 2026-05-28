@@ -14,5 +14,10 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[synthesis/news/venezuela-oil-india-routing]]
+- [[log]]
+- [[sources/news/2026/rubio-meets-modi-india-energy-may-2026]]
+- [[index]]
+- [[venezuela-oil-india-routing]]
 
 - [[geopolitics]]

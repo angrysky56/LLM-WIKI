@@ -42,6 +42,13 @@ The EU-US Trade Deal's 2029 expiry mechanism was specifically designed to naviga
 3. **Constitutional compliance**: Acknowledges US can no longer credibly commit to indefinite tariff arrangements
 
 ## Connections
+- [[concepts/eu-us-trade-deal]]
+- [[scratchpad/agent-sheets/librarian/carryover]]
+- [[concepts/hamm-v-smith]]
+- [[concepts/malaysia-us-trade-deal]]
+- [[log]]
+- [[index]]
+- [[hamm-v-smith]]
 
 - [[eu-us-trade-deal]] — the bilateral deal that uses 2029 sunset format in response to this ruling
 - [[malaysia-us-trade-deal]] — first bilateral deal to exit post-ruling

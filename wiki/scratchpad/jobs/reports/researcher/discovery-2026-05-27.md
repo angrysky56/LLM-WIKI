@@ -30,6 +30,12 @@ Created full concept page for schema competition in the meta-harness Knowledge P
 - MOP vs fine-tuning boundary: still open — empirical question about GRPO for MoE, needs web research
 - agentic-react concept gap: low priority, coverage adequate via skill — no action needed
 
+## Related
+- [[index]]
+- [[scratchpad/jobs/reports/researcher/discovery-2026-05-27]]
+
+- [[discovery-2026-05-27]]
+
 ## Open Questions
 1. Is prompt position a reliable priority mechanism for Pack layers, or is structural priority encoding needed?
 2. Should the Pack schema encode explicit priority edges between layers?

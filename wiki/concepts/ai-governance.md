@@ -24,9 +24,20 @@ Trump administration abandoned pre-release vetting of AI models from major labs 
 Pope Leo XIV released *Magnifica humanitas* — first papal encyclical on AI as primary subject. Frames AI as arms-control/disarmament problem requiring binding international treaties. 1.4 billion Catholics, Vatican diplomatic network (183 countries, UN observer status) makes this a qualitatively new global governance voice.
 
 ## Connections
+- [[index]]
+- [[concepts/open-source-ai]]
+- [[log]]
+- [[concepts/ai-governance]]
+- [[concepts/ai-policy-arms-control-treaty]]
+- [[sources/news/2026-05/xi-putin-summit-2026-05-20]]
+- [[ai-governance]]
 
 - [[ai-policy-federalism]] — US federal/California divergence
 - [[public-health-governance]] — governance frameworks and PHEIC parallels
 - [[pope-leo-ai-encyclical-magnifica-humanitas-may-2026]] — source
 - [[trump-abandons-ai-model-vetting-may-2026]] — source
-- [[AI-scientific-discovery]] — downstream implications of governance gaps
+- [[AI-scientific-discovery]] — downstream implications of governance gaps- [[concepts/sovereign-ai.md]]
+
+- [[sovereign-ai]]
+- [[open-source-ai]]
+- [[ai-policy-arms-control-treaty]]

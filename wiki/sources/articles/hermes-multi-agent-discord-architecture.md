@@ -43,6 +43,12 @@ Using Discord as a visual UI for a hierarchical Multi-Agent System (MAS) built o
 - **Anthropic Multiagent Sessions** (released May 7, 2026 — same day as this conversation): Claude API now supports Coordinator → Sub-agent fanout with isolated session threads. Same architectural pattern.
 - **GitHub issue #50806**: Developer running 7 Hermes instances with mention-based Discord routing. Real friction: bot-ignore config.
 
+## Related
+- [[index]]
+- [[sources/articles/hermes-multi-agent-discord-architecture]]
+
+- [[hermes-multi-agent-discord-architecture]]
+
 ## Relevance to LLM-WIKI
 
 This architecture is the execution layer for domain knowledge workflows. The Synapse/Neo4j pipeline provides the knowledge substrate; the Discord agent swarm provides the execution and interaction surface. Together they form a complete agentic knowledge-work platform.

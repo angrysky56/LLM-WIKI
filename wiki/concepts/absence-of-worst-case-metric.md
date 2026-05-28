@@ -54,6 +54,15 @@ The same metric is being installed for AI: as long as no superintelligent extinc
 For any claim that a high-stakes system is "working": *what is the steady-state cost being bracketed out of this evaluation, and who pays it?* If the answer is "populations and futures with no voice in the metric," the metric is rhetorical, not analytical.
 
 ## Related
+- [[concepts/spin-vs-substrate]]
+- [[concepts/frame-transmission]]
+- [[concept-index]]
+- [[synthesis/ai-governance-substrate-analysis]]
+- [[index]]
+- [[concepts/absence-of-worst-case-metric]]
+- [[sources/papers/deepweb-bench-2026]]
+- [[concepts/institutional-capture-vs-species-framing]]
+- [[absence-of-worst-case-metric]]
 
 - [[spin-vs-substrate]]
 - [[institutional-capture-vs-species-framing]]

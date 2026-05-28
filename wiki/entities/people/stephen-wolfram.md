@@ -24,6 +24,20 @@ Stephen Wolfram is a British-American computer scientist, physicist, and entrepr
 - [[causal-networks]] (NKS/Physics context)
 
 ## Connections
+- [[entities/people/stephen-wolfram]]
+- [[log]]
+- [[concepts/load-bearing-reasoning]]
+- [[concepts/computational-universe]]
+- [[sources/articles/language-evolution]]
+- [[index]]
+- [[concepts/wolfram-physics-project]]
+- [[sources/documentation/wolfram-nks-causal-networks]]
+- [[concepts/wolfram-nks-causal-networks]]
+- [[concepts/computational-irreducibility]]
+- [[concepts/causal-networks]]
+- [[stephen-wolfram]]
 - Project: [[wolfram-physics-project]]
 - Source: [[wolfram-nks-causal-networks]]
 - Concept: [[load-bearing-reasoning]] (distinction from NKS causal graphs)
+
+- [[language-evolution]]

@@ -40,6 +40,9 @@ Russia's claim therefore fills a specific vacuum: the absence of any Western pha
 - However, the conflict zone geography (eastern DRC, rebel-held areas) may limit any actor's access, Russian or otherwise
 
 ## Connections
+- [[index]]
+- [[synthesis/news/russia-bundibugyo-ebola-vaccine-may-2026]]
+- [[russia-bundibugyo-ebola-vaccine-may-2026]]
 
 - [[ebola-bundibugyo-who-emergency-committee-may-2026]]: WHO PHEIC context
 - [[china-rare-earth-geopolitics-may-2026]]: Russia using similar state-driven narrative tactics

@@ -148,6 +148,11 @@ To use this configuration with **Claude Desktop**, add the following JSON to you
 3. **Database Connectivity**: Ensure Neo4j is running for `project-synapse`.
 
 ## Connections
+- [[index]]
+- [[synthesis/efhf-mcp-configuration]]
+- [[sources/papers/code-as-agent-harness]]
+- [[entities/projects/tys-repos/efhf]]
+- [[efhf-mcp-configuration]]
 
 - [[efhf]]
 - [[project-synapse]]

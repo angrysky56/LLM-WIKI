@@ -22,6 +22,16 @@ In the context of the **[[wolfram-physics-project|Wolfram Physics Project]]** an
 While "causal network" is sometimes used metaphorically to describe LLM reasoning traces, the NKS definition is strictly defined by rewrite system semantics. For analysis of LLM intent and logical dependencies, see **[[load-bearing-reasoning]]**.
 
 ## Connections
+- [[concepts/wolfram-nks-causal-networks]]
+- [[index]]
+- [[concepts/causal-networks]]
+- [[entities/people/stephen-wolfram]]
+- [[log]]
+- [[concepts/load-bearing-reasoning]]
+- [[concepts/wolfram-physics-project]]
+- [[sources/documentation/wolfram-nks-causal-networks]]
+- [[concepts/computational-irreducibility]]
+- [[causal-networks]]
 - Entity: [[stephen-wolfram]]
 - Project: [[wolfram-physics-project]]
 - Source: [[wolfram-nks-causal-networks]]

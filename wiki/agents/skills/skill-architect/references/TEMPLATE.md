@@ -51,6 +51,12 @@ Briefly describe the domain and capability.
 
 [Data tables, schemas, complex logic]
 
+## Related
+- [[agents/skills/skill-architect/references/template]]
+- [[index]]
+
+- [[template]]
+
 ## Edge Cases
 
 [List of common failures and fixes]

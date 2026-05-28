@@ -14,6 +14,12 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[synthesis/news/california-tech-regulation]]
+- [[sources/news/2026/california-ai-worker-protection-newsom-2026]]
+- [[synthesis/news/ai-policy-federalism]]
+- [[index]]
+- [[synthesis/news/california-tech-leadership]]
+- [[california-tech-regulation]]
 
 - [[ai-policy-federalism]]
 - [[california-tech-leadership]]

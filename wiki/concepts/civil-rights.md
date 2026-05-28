@@ -14,5 +14,11 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[index]]
+- [[log]]
+- [[sources/news/2026-05/scotus-death-penalty-intellectual-disability-2026-05-22]]
+- [[concepts/civil-rights]]
+- [[synthesis/news/voting-rights-act]]
+- [[civil-rights]]
 
 - [[us-politics]]

@@ -109,6 +109,30 @@ The intelligence is in the pruning: a PRM with 85% accuracy on step-level correc
 - [[hybrid-reward-models]] — Combining ELHSR outcome-level scoring with SD-Search step-level signals for unified BoN guidance
 
 ## Connections
+- [[concepts/inference-time-compute-scaling]]
+- [[concepts/process-reward-model]]
+- [[concepts/generative-ai]]
+- [[concepts/benchmark]]
+- [[concepts/chain-of-thought]]
+- [[concepts/reward-modeling]]
+- [[concepts/sd-search]]
+- [[concepts/llm-reasoning]]
+- [[concepts/reward-hacking]]
+- [[concepts/hidden-states]]
+- [[concepts/evaluation]]
+- [[scratchpad/jobs/reports/researcher/discovery-2026-05-21]]
+- [[concepts/constitutional-ai]]
+- [[index]]
+- [[concepts/hybrid-reward-models]]
+- [[concepts/bradley-terry]]
+- [[concepts/multi-agent-reasoning]]
+- [[concepts/latent-reasoning]]
+- [[concepts/self-correction]]
+- [[concepts/mcts]]
+- [[log]]
+- [[concepts/load-bearing-reasoning]]
+- [[concepts/parallel-reasoning]]
+- [[process-reward-model]]
 
 - [[reward-modeling]] — PRM is a subclass of reward modeling with step-level granularity
 - [[inference-time-compute-scaling]] — PRMs enable intelligent path pruning, the key to efficient test-time compute
@@ -122,3 +146,11 @@ The intelligence is in the pruning: a PRM with 85% accuracy on step-level correc
 - Concept: [[reward-hacking]]
 - Concept: [[sd-search]]
 - Concept: [[self-correction]]
+
+- [[parallel-reasoning]]
+- [[MCTS]]
+- [[bradley-terry]]
+- [[llm-reasoning]]
+- [[multi-agent-reasoning]]
+- [[generative-ai]]
+- [[latent-reasoning]]

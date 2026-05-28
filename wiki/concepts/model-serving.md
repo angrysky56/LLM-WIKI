@@ -81,6 +81,12 @@ A model serving setup where a small draft model generates candidates that a larg
 The optimal operating point depends on the application. A code autocomplete tool prioritizes latency. An async document processing job prioritizes throughput. A customer service chatbot needs a balance.
 
 ## Connections
+- [[concepts/inference-efficiency]]
+- [[concepts/llm-inference]]
+- [[index]]
+- [[concepts/model-serving]]
+- [[log]]
+- [[model-serving]]
 
 - [[llm-inference]] — The technical layer below serving; KV cache, batching strategies, and inference optimization
 - [[inference-efficiency]] — Broader treatment of efficiency mechanisms; model serving is the systems engineering instantiation

@@ -37,6 +37,22 @@ The overseer is the **only agent that coordinates across all wiki agents**. It:
 4. **Overseer writes report** — summarizes agent state and new kanban cards
 5. **Individual agents do NOT create kanban cards** — only the overseer does this
 
+## Related
+- [[index]]
+- [[scratchpad/agent-sheets/overseer/skill]]
+- [[skill]]
+- [[librarian/skill.md]]
+- [[agent-sheets/overseer/skill.md]]
+- [[orcaid/skill.md]]
+- [[ingest/skill.md]]
+- [[librarians-assistant/skill.md]]
+- [[insights/skill.md]]
+- [[news/skill.md]]
+- [[researcher/skill.md]]
+- [[arxiv/skill.md]]
+
+- [[overseer/skill.md]]
+
 ## Agent Registry
 
 | Agent | Schedule | Carryover Path |

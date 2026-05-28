@@ -73,6 +73,10 @@ ProxySHAP connects to several active EFHF research threads:
 3. **Residual correction as a general schema**: MSR's approach — train a proxy, correct its bias with residual adjustment — is a general pattern applicable beyond Shapley estimation to any system where an approximate model is corrected against ground truth.
 
 ## Connections
+- [[sources/papers/proxy-based-shapley-banzhaf-2026]]
+- [[index]]
+- [[scratchpad/jobs/reports/arxiv/papers-2026-05-24-researched]]
+- [[proxy-based-shapley-banzhaf-2026]]
 
 - [[shapley-values]] — core concept
 - [[verifier-graph]] — verification mechanism parallels

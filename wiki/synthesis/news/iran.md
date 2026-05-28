@@ -14,6 +14,13 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[log]]
+- [[sources/news/2026-05/iran-us-diplomacy-2026-05-18]]
+- [[index]]
+- [[synthesis/news/iran-war]]
+- [[synthesis/news/iran]]
+- [[synthesis/news/us-iran-tensions]]
+- [[iran]]
 
 - [[geopolitics]]
 - [[iran-war]]

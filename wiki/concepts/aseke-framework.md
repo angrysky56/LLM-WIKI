@@ -14,6 +14,12 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/aseke-framework]]
+- [[index]]
+- [[log]]
+- [[scratchpad/jobs/reports/librarian/audit-2026-05-21]]
+- [[scratchpad/jobs/reports/librarian/audit-2026-05-23]]
+- [[aseke-framework]]
 
 - [[agentic-planner]]
 - [[hierarchical-supervisor]]

@@ -19,6 +19,9 @@ The DR Congo Ebola outbreak is concerning not because of raw case numbers but be
 | Case fatality rate for Bundibugyo ~50% | Lower than Zaire (~70%) but still extremely dangerous |
 
 ## Connections
+- [[sources/news/how-worrying-is-the-ebola-outbreak-in-dr-congo]]
+- [[index]]
+- [[sources/news/who-declares-ebola-outbreak-in-dr-congo-an-international-eme]]
 
 - [[ebola]] — the disease
 - [[bundibugyo]] — the specific strain

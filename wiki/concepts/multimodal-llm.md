@@ -14,6 +14,15 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/vision-language-models]]
+- [[index]]
+- [[concepts/multimodal-llm]]
+- [[concepts/video-understanding]]
+- [[concepts/multimodal-ai]]
+- [[log]]
+- [[multimodal-llm]]
 
 - [[large-language-models]]
 - [[multimodal-ai]]
+- [[video-understanding]]
+- [[vision-language-models]]

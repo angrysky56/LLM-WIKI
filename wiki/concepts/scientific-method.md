@@ -14,6 +14,12 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[log]]
+- [[concepts/scientific-method]]
+- [[concepts/research-methodology]]
+- [[concepts/scientific-reasoning]]
+- [[index]]
+- [[scientific-method]]
 
 - [[research-methodology]]
 - [[scientific-reasoning]]

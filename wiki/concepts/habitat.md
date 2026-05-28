@@ -14,5 +14,13 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/maximum-occupancy-principle]]
+- [[log]]
+- [[index]]
+- [[sources/papers/recuriosity-episodic-context-3d-exploration-2026]]
+- [[concepts/habitat]]
+- [[habitat]]
 
 - [[maximum-occupancy-principle]]
+
+- [[recuriosity-episodic-context-3d-exploration-2026]]

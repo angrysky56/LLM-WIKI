@@ -80,6 +80,19 @@ Process evaluation is harder but more robust to spec gaming — a model can get 
 - **Continuous evaluation**: How do we evaluate capability growth continuously rather than on static benchmarks?
 
 ## Connections
+- [[log]]
+- [[concepts/swe-bench]]
+- [[concepts/domain-onboarding-standards]]
+- [[concepts/chain-of-thought]]
+- [[concepts/scaling-laws]]
+- [[concepts/reward-hacking]]
+- [[concepts/evaluation]]
+- [[concepts/process-reward-model]]
+- [[index]]
+- [[concepts/benchmarking]]
+- [[concepts/benchmark]]
+- [[concepts/institutional-capture]]
+- [[evaluation]]
 
 - [[benchmark]] — the general concept of standardized evaluation frameworks
 - [[scaling-laws]] — the relationship between model scale and benchmark performance

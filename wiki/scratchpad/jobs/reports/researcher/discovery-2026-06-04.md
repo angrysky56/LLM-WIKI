@@ -29,6 +29,12 @@ tags: [researcher, report]
 - `reward-hacking` is a stub with active connections to `institutional-capture` and `reward-modeling` — high priority for next cycle
 - `accountability.md` links to `institutional-capture-vs-species-framing` (synthesis page) — this is a valid cross-layer link
 
+## Related
+- [[scratchpad/jobs/reports/researcher/discovery-2026-06-04]]
+- [[index]]
+
+- [[discovery-2026-06-04]]
+
 ## Open Questions
 - **Verifier-graph theory**: concept vs synthesis classification? Entity exists at `wiki/entities/projects/tys-repos/verifier-graph.md`. Needs Ty input. Open since May 21.
 - **MoE routing collapse under RLHF**: is it happening in practice? No empirical data. Worth monitoring.

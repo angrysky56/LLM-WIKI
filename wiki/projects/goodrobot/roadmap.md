@@ -54,6 +54,14 @@ GoodRobot becomes the definitive platform for SMB AI agent teams — where any n
 
 ---
 
+## Related
+- [[projects/goodrobot/roadmap]]
+- [[index]]
+- [[projects/goodrobot/index]]
+- [[projects/goodrobot/active-business-plan]]
+
+- [[roadmap]]
+
 ## 2–3 Year Vision
 
 - International expansion (EMEA, APAC)

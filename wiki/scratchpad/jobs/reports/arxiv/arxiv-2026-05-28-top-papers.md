@@ -50,6 +50,12 @@
 
 ---
 
+## Related
+- [[scratchpad/jobs/reports/arxiv/arxiv-2026-05-28-top-papers]]
+- [[index]]
+
+- [[arxiv-2026-05-28-top-papers]]
+
 ## Deliverables
 
 | Type | Path |

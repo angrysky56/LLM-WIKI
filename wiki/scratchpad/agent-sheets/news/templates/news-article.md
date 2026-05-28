@@ -15,6 +15,9 @@ status: active
 [significance and implications]
 
 ## Connections
+- [[scratchpad/agent-sheets/news/templates/news-article]]
+- [[index]]
+- [[news-article]]
 - [[related-concept]]
 - [[related-project]]
 

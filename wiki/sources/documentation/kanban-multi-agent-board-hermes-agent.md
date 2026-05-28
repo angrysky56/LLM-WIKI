@@ -55,6 +55,12 @@ Workers interact through tool calls (not CLI). Key operations:
 Workers that fail to heartbeat within the configured timeout are assumed dead. The circuit breaker unblocks their tasks and makes them available for retry by other workers.
 
 ## Connections
+- [[sources/documentation/profiles-running-multiple-agents]]
+- [[index]]
+- [[scratchpad/agent-sheets/librarian/carryover]]
+- [[sources/documentation/scheduled-tasks-cron-hermes-agent]]
+- [[sources/documentation/kanban-multi-agent-board-hermes-agent]]
+- [[kanban-multi-agent-board-hermes-agent]]
 
 - [[hermes-agent]] — parent system
 - [[scheduled-tasks-cron-hermes-agent]] — related cron feature

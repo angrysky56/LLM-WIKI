@@ -165,6 +165,23 @@ This is the implementation of the [[oMCD]] 9-step loop at the neural level.
 - where A_l is the layer-wise Jacobian evaluated at the reference activation
 
 ## Connections
+- [[concepts/activation-engineering]]
+- [[scratchpad/jobs/reports/researcher/discovery-2026-08-08]]
+- [[concepts/self-correction]]
+- [[log]]
+- [[concepts/engineering-internal-awareness]]
+- [[index]]
+- [[concepts/agent-taxonomies]]
+- [[concepts/cognitive-architecture]]
+- [[concepts/hermes-meta-cognition]]
+- [[scratchpad/jobs/reports/ingest/ingest-2026-05-21-run]]
+- [[concepts/affective-ai-inner-architecture]]
+- [[concepts/machine-psychology]]
+- [[concepts/mechanistic-interpretability]]
+- [[concepts/activation-steering]]
+- [[concepts/constitutional-ai]]
+- [[concepts/metacognitive-architecture-closed-loop-self-regulation]]
+- [[metacognitive-architecture-closed-loop-self-regulation]]
 
 - [[oMCD]] — The formal computational framework this neural implementation supports
 - [[cognitive-architecture]] — The MCM framework connecting self-awareness to control
@@ -179,6 +196,7 @@ This is the implementation of the [[oMCD]] 9-step loop at the neural level.
 - Concept: [[mechanistic-interpretability]]
 
 
+- [[activation-engineering]]
 ## Open Questions
 
 1. **Dimensionality gap**: The metacognitive space is substantially smaller than total activation space — how do we systematically map its contours?

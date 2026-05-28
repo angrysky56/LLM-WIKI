@@ -25,6 +25,13 @@ Power laws appear throughout AI and natural systems:
 - **Neural network loss landscapes** — power-law scaling of generalization
 
 ## Connections
+- [[concepts/power-law-scaling]]
+- [[concepts/power-law]]
+- [[concepts/scaling-laws]]
+- [[concepts/allometric-scaling]]
+- [[index]]
+- [[concepts/taylors-law]]
+- [[power-law]]
 
 - [[power-law-scaling]] — scaling laws in neural networks
 - [[scaling-laws]] — relationship between model scale and capability

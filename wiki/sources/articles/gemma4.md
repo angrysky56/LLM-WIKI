@@ -31,6 +31,12 @@ Gemma 4 delivers frontier-level performance at each size tier, designed for reas
 Tool support: vision, thinking, audio, cloud, e2b, e4b, 26b, 31b variants.
 
 ## Connections
+- [[sources/articles/truth-emotion-sacred-agem-analysis]]
+- [[index]]
+- [[sources/articles/frank-einstein-gemma-truth-emotion-sacred]]
+- [[sources/documentation/acp-editor-integration-hermes-agent]]
+- [[sources/articles/gemma4]]
+- [[gemma4]]
 
 - [[ollama]] — the runtime used for Gemma 4
 - [[hermes-agent]] — Hermes can run Gemma 4 via `ollama launch hermes --model gemma4`

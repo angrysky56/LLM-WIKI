@@ -46,6 +46,10 @@ Higgs mechanism, J/ψ meson (November Revolution 1974), asymptotic freedom in QC
 - Isolated scholarly communities produce undetectable simultaneous discoveries (e.g. Cook-Levin theorem)
 
 ## Connections
+- [[concept-index]]
+- [[index]]
+- [[sources/papers/kim-ahn-edm-2026]]
+- [[kim-ahn-edm-2026]]
 
 - [[edm-framework]] — full technical entity page with formal math
 - [[causal-state-edm-ood-isomorphism]] — theoretical synthesis connecting EDM to epsilon machines and LLM OOD detection

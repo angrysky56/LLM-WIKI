@@ -14,6 +14,16 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[log]]
+- [[concepts/emergence]]
+- [[concepts/complexity]]
+- [[concepts/systems-theory]]
+- [[concepts/network-theory]]
+- [[concepts/dynamical-systems]]
+- [[index]]
+- [[complexity]]
 
 - [[systems-theory]]
 - [[emergence]]
+- [[dynamical-systems]]
+- [[network-theory]]

@@ -44,6 +44,13 @@ Agent → Reason → Act → Observe → Reason → Act → ...
 Use when the solution path is not known upfront. The agent iteratively tries approaches until a stopping condition is met. See [[agentic-react]].
 
 ## Connections
+- [[agents/skills/supervisor-delegation]]
+- [[agents/skills/single-agent]]
+- [[agents/skills/agentic-decision-tree]]
+- [[index]]
+- [[agents/skills/agentic-multiagent]]
+- [[agents/skills/supervisor-orchestrator]]
+- [[single-agent]]
 
 - [[agentic-react]] — iterative variant
 - [[agentic-decision-tree]] — routing to single vs multi

@@ -343,6 +343,14 @@ DiscoveryCallScript: see Stage 3
 
 ---
 
+## Related
+- [[projects/goodrobot/active-business-plan]]
+- [[projects/goodrobot/index]]
+- [[projects/goodrobot/research-pipeline]]
+- [[index]]
+
+- [[research-pipeline]]
+
 ## C(R(F(S(D(RB(M(SF)))))) Applied to Research Pipeline
 
 ### C — Conceptualization

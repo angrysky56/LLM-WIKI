@@ -55,6 +55,12 @@ The paper studies a simple architectural prior for deep RL: inserting a fixed or
 - [[maximum-occupancy-principle]] — Value manifold compression mirrors MOP occupancy planning; both exploit low-dimensional structure in high-dimensional representations
 - [[mop-explorer]] — The paper's insight that minimal sufficient dimension depends on environment complexity parallels capacity planning for bounded representations
 
+## Related
+- [[index]]
+- [[sources/papers/orthogonal-bottlenecks-rl]]
+
+- [[orthogonal-bottlenecks-rl]]
+
 ## Key Quotes
 
 > "Deep reinforcement learning representations can often be faithfully compressed into low-dimensional orthogonal subspaces, and that fixed orthogonal bottlenecks offer a simple mechanism for shaping representation geometry."

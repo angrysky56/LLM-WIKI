@@ -72,6 +72,18 @@ Example principles:
 - **Self-deception risks** — models can learn to give responses that *appear* aligned without genuine understanding
 
 ## Connections
+- [[scratchpad/jobs/reports/researcher/discovery-2026-05-22]]
+- [[log]]
+- [[concepts/process-reward-model]]
+- [[index]]
+- [[concepts/reward-modeling]]
+- [[concepts/reward-hacking]]
+- [[concepts/group-relative-policy-optimization]]
+- [[concepts/essa]]
+- [[concepts/constitutional-ai]]
+- [[concepts/agent-onboarding]]
+- [[concepts/metacognitive-architecture-closed-loop-self-regulation]]
+- [[constitutional-ai]]
 
 - [[reward-modeling]] — CAI can be seen as a way to generate training data for reward models without human labels
 - [[reward-modeling]] — CAI is a specific alignment technique within the broader alignment research field
@@ -82,6 +94,7 @@ Example principles:
 - Concept: [[reward-hacking]]
 
 
+- [[essa]]
 ## Open Questions
 
 1. **Optimal constitution design**: What principles should go in the constitution? Is there a minimal set that achieves broad alignment?

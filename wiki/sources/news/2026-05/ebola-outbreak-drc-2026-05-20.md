@@ -39,6 +39,12 @@ The DRC outbreak timing is notable given ongoing global health security discussi
 - **Authority reporting**: World Health Organization
 
 ## Connections
+- [[sources/news/2026-05/ebola-outbreak-drc-2026-05-20]]
+- [[synthesis/news/2026-may/news-2026-05-20-headlines]]
+- [[index]]
+- [[sources/news/2026-05/ebola-travel-restriction-2026-05-21]]
+- [[sources/news/2026-05/us-flight-diverts-ebola-passenger-2026-05-21]]
+- [[ebola-outbreak-drc-2026-05-20]]
 
 - [[global-health-security]] — Outbreak as test of pandemic preparedness systems
 - [[ai-diagnostics]] — AI tools for disease surveillance in resource-limited settings

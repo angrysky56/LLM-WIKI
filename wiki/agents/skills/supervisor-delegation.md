@@ -61,6 +61,14 @@ Supervisor Agent
 - Content-type unknown until you see it (use orchestrator)
 
 ## Connections
+- [[agents/skills/supervisor-orchestrator]]
+- [[agents/skills/agentic-multiagent]]
+- [[agents/skills/hierarchical-supervisor]]
+- [[agents/skills/supervisor-delegation]]
+- [[agents/skills/single-agent]]
+- [[agents/skills/agentic-decision-tree]]
+- [[index]]
+- [[supervisor-delegation]]
 
 - [[supervisor-orchestrator]] — dynamic routing variant
 - [[hierarchical-supervisor]] — nested supervisors for complex domains

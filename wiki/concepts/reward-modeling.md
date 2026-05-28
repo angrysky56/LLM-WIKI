@@ -28,6 +28,35 @@ Traditional reward models are often as large as the generator models they evalua
 - ****: Utilizes internal hidden states of the generator model to predict rewards with <0.005% of the parameters of traditional RMs.
 
 ## Connections
+- [[sources/papers/ma-sd-search-2026]]
+- [[concepts/reinforcement-learning-from-human-feedback]]
+- [[concepts/load-bearing-reasoning]]
+- [[concepts/reward-hacking]]
+- [[concepts/hidden-states]]
+- [[concepts/mop-and-rlhf-interaction]]
+- [[concepts/constitutional-ai]]
+- [[concepts/inference-time-compute-scaling]]
+- [[concepts/elhsr]]
+- [[concepts/process-reward-model]]
+- [[index]]
+- [[concepts/critical-analysis]]
+- [[concepts/institutional-capture]]
+- [[concepts/bradley-terry]]
+- [[log]]
+- [[sources/papers/opendeepthink-parallel-reasoning]]
+- [[sources/papers/vector-policy-optimization-vpo-2026]]
+- [[sources/papers/xu-envfactory-2026]]
+- [[concepts/opendeepthink-parallel-reasoning]]
+- [[concepts/in-context-learning]]
+- [[concepts/reinforcement-learning]]
+- [[concepts/mixture-of-experts]]
+- [[concepts/group-relative-policy-optimization]]
+- [[concepts/reward-inside-model-elhsr]]
+- [[sources/papers/reward-inside-model-elhsr]]
+- [[concepts/reward-modeling]]
+- [[concepts/governance]]
+- [[concept-index]]
+- [[reward-modeling]]
 
 - **[[load-bearing-reasoning]]**: Reward models are critical for identifying correct reasoning paths in complex math and logic tasks.
 - **[[hidden-states]]**: New approaches derive rewards directly from the generator's internal representations.
@@ -48,3 +77,5 @@ Traditional reward models are often as large as the generator models they evalua
 - Concept: [[reward-hacking]]
 - Concept: [[reward-inside-model-elhsr]]
 
+
+- [[bradley-terry]]

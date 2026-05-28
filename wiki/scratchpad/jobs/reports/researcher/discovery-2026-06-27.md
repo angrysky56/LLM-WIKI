@@ -53,6 +53,12 @@ This changes the resolution paths: it's not just about preventing fine-tuning co
 - GRPO for MoE remains empirically untested
 - The "MOP training for transformers" question still needs exploration
 
+## Related
+- [[scratchpad/jobs/reports/researcher/discovery-2026-06-27]]
+- [[index]]
+
+- [[discovery-2026-06-27]]
+
 ## Open Questions Remaining
 - Adaptive budget learning (how to train the gating model)
 - Hybrid reward models (ELHSR + SD-Search)

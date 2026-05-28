@@ -14,6 +14,22 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[synthesis/news/dnc]]
+- [[index]]
+- [[concepts/redistricting]]
+- [[entities/people/harris]]
+- [[log]]
+- [[synthesis/news/us-senate]]
+- [[synthesis/news/us-politics]]
+- [[synthesis/news/us-2026-midterms]]
+- [[entities/people/doj]]
+- [[entities/people/donald-trump]]
+- [[synthesis/news/republican-party]]
+- [[synthesis/news/us-supreme-court]]
+- [[concepts/civil-rights]]
+- [[sources/news/bill-cassidy-republican-senator-who-voted-to-convict-trump-l]]
+- [[synthesis/news/religion-american-politics]]
+- [[us-politics]]
 
 - [[geopolitics]]
 - [[republican-party]]

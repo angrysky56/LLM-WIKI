@@ -14,6 +14,11 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/pattern-matching]]
+- [[concepts/is-grep-all-you-need]]
+- [[index]]
+- [[log]]
+- [[pattern-matching]]
 
 - [[nlp]]
 - [[information-retrieval]]

@@ -14,5 +14,11 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/random-forest]]
+- [[sources/repositories/tabpfn]]
+- [[index]]
+- [[concepts/maximum-occupancy-principle]]
+- [[log]]
+- [[random-forest]]
 
 - [[maximum-occupancy-principle]]

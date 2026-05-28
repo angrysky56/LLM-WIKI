@@ -21,7 +21,17 @@ confidence: 0.7
 Visual workflow management method using boards, columns (Ready/In Progress/Done), and cards to track work items. In Hermes, kanban serves as both a task management tool and a dispatch mechanism for agent work. See the kanban skill for implementation details.
 
 ## Connections
+- [[log]]
+- [[scratchpad/agent-sheets/librarian/carryover]]
+- [[scratchpad/agent-sheets/librarians-assistant/workspace/batch-progress]]
+- [[scratchpad/agent-sheets/librarians-assistant/carryover]]
+- [[index]]
+- [[concepts/hermes-agent-skills]]
+- [[concepts/kanban]]
+- [[kanban]]
 
 - [[hermes-agent]] — the agent using kanban for task orchestration
 - [[bounded-structured-memory]] — carryover patterns used alongside kanban
 - [[markovian-carryover]] — forward-state memory mechanism
+
+- [[hermes-agent-skills]]

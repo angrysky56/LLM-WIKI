@@ -35,6 +35,11 @@ For the AI research community, GitHub is the dominant platform for hosting model
 - **Status**: Under investigation
 
 ## Connections
+- [[index]]
+- [[sources/news/2026-05/air-france-airbus-manslaughter-2009-2026-05-21]]
+- [[sources/news/2026-05/github-data-breach-2026-05-20]]
+- [[synthesis/news/2026-may/news-2026-05-20-headlines]]
+- [[github-data-breach-2026-05-20]]
 
 - [[ai-security]] — Supply chain vulnerabilities in AI development infrastructure
 - [[open-source-ai]] — Open-source ecosystems face increased security risks

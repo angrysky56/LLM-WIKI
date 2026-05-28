@@ -14,6 +14,15 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/para-methodology]]
+- [[index]]
+- [[sources/documentation/obsidian-para-byarbrough]]
+- [[concepts/design-thinking]]
+- [[concepts/design-thinking-mit]]
+- [[log]]
+- [[concept-index]]
+- [[design-thinking-mit]]
 
 - [[design-thinking]]
 - [[methodology]]
+- [[obsidian-para-byarbrough]]

@@ -14,9 +14,20 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/cognitive-architecture]]
+- [[concepts/hermes-meta-cognition]]
+- [[log]]
+- [[concepts/omcd]]
+- [[concepts/engineering-internal-awareness]]
+- [[concepts/metacognitive-architecture-closed-loop-self-regulation]]
+- [[index]]
+- [[concepts/agent-taxonomies]]
+- [[hermes-meta-cognition]]
 
 - [[metacognitive-architecture-closed-loop-self-regulation]]
 - [[oMCD]]
 - [[cognitive-architecture]]
 - [[agent-taxonomies]]
 - [[engineering-internal-awareness]]
+- [[oMCD]]
+- [[metacognitive-architecture-closed-loop-self-regulation]]

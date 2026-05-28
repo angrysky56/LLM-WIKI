@@ -14,6 +14,17 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/hezbollah]]
+- [[sources/news/uae-reports-drone-strike-near-abu-dhabi-nuclear-power-plant]]
+- [[log]]
+- [[sources/news/fpv-drone-strikes-show-hezbollahs-changing-tactics-against-i]]
+- [[concepts/fpv-drone]]
+- [[synthesis/news/drone-warfare]]
+- [[index]]
+- [[sources/news/large-scale-ukrainian-drone-attack-kills-three-in-moscow-region]]
+- [[synthesis/news/hybrid-attack]]
+- [[synthesis/news/large-scale-ukrainian-drone-attack-kills-three-in-moscow-reg]]
+- [[drone-warfare]]
 
 - [[geopolitics]]
 - [[hybrid-attack]]

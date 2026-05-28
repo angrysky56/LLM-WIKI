@@ -35,6 +35,10 @@ Alzheimer's disease affects over 50 million people worldwide and represents one 
 - **Demonstrated intervention**: Pathway inhibition halted disease progression in models
 
 ## Connections
+- [[synthesis/news/2026-may/news-2026-05-20-headlines]]
+- [[sources/news/2026-05/alzheimers-breakthrough-2026-05-20]]
+- [[index]]
+- [[alzheimers-breakthrough-2026-05-20]]
 
 - [[alzheimers-research]] — New mechanism for Alzheimer's pathology
 - [[protein-aggregation]] — Research connects to broader protein folding research

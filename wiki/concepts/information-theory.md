@@ -14,6 +14,17 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/communication-theory]]
+- [[concepts/signals]]
+- [[concepts/information-theory]]
+- [[index]]
+- [[log]]
+- [[concepts/signal-processing]]
+- [[concepts/compression]]
+- [[information-theory]]
 
 - [[information-retrieval]]
 - [[communication-theory]]
+- [[signal-processing]]
+- [[signals]]
+- [[compression]]

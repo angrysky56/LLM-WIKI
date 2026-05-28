@@ -14,5 +14,11 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[sources/articles/trump-abandons-ai-model-vetting-may-2026]]
+- [[synthesis/news/ai-policy-federalism]]
+- [[sources/news/2026/brazil-2026-elections-ai-regulation-stress-test]]
+- [[synthesis/news/brazil-ai-governance]]
+- [[index]]
+- [[brazil-ai-governance]]
 
 - [[ai-policy-federalism]]

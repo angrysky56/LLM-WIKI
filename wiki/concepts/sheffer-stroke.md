@@ -38,6 +38,15 @@ Sheffer elements share common properties:
 Whether a continuous binary Sheffer exists without a distinguished constant remains open. The NAND gate can generate both 0 and 1 from arbitrary input; the [[eml-operator]] requires the constant $1$ as a terminal symbol. A ternary candidate is under investigation.
 
 ## Connections
+- [[sources/news/2026/transformer-vm-moran-2026]]
+- [[index]]
+- [[concepts/eml-operator]]
+- [[sources/papers/odrzywolek-eml-2026]]
+- [[log]]
+- [[sources/papers/utimula-openpraparat-2025]]
+- [[concepts/sheffer-stroke]]
+- [[synthesis/minimal-generative-architectures]]
+- [[sheffer-stroke]]
 
 - [[eml-operator]] — the continuous-domain Sheffer
 - [[odrzywolek-eml-2026]] — discovery paper

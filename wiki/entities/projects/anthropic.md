@@ -14,5 +14,10 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[log]]
+- [[sources/repositories/cli-printing-press]]
+- [[entities/projects/anthropic]]
+- [[index]]
+- [[anthropic]]
 
 - [[ai-safety]]

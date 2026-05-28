@@ -27,6 +27,11 @@ Implementation plan for adding observable internal state and recovery infrastruc
 - **Phase 3** (Self-healing: delegation verification + recoverable-failure retry) deferred until Phase 2 merges.
 
 ## Connections
+- [[sources/documentation/codegraph-readme]]
+- [[index]]
+- [[sources/documentation/hermes-path-forward]]
+- [[sources/documentation/codegraph-hermes-phase1-implementation]]
+- [[codegraph-hermes-phase1-implementation]]
 
 - [[codegraph]] — CodeGraph tool used for Hermes codebase indexing
 - [[hermes-agent]] — Target project for this implementation

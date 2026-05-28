@@ -14,6 +14,15 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/llm-agent-architecture]]
+- [[index]]
+- [[sources/papers/clinseekagent-multimodal-clinical-evidence-seeking]]
+- [[log]]
+- [[concepts/code-generation]]
+- [[concepts/code-as-agent-harness]]
+- [[code-as-agent-harness]]
 
 - [[agent-architectures]]
 - [[code-execution]]
+- [[llm-agent-architecture]]
+- [[code-generation]]

@@ -14,5 +14,14 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[agents/skills/librarian-agent/skill]]
+- [[projects/goodrobot/shut-down-entity]]
+- [[synthesis/news/goodrobot-revenue-model]]
+- [[projects/goodrobot/active-business-plan]]
+- [[concepts/revenue-model]]
+- [[projects/goodrobot/index]]
+- [[projects/goodrobot/business-concept]]
+- [[index]]
+- [[revenue-model]]
 
 - [[maximum-occupancy-principle]]

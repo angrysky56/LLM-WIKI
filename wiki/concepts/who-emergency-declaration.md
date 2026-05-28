@@ -14,5 +14,10 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/who-emergency-declaration]]
+- [[index]]
+- [[concepts/maximum-occupancy-principle]]
+- [[log]]
+- [[who-emergency-declaration]]
 
 - [[maximum-occupancy-principle]]

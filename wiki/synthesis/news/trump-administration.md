@@ -14,6 +14,18 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[sources/news/2026-05/trump-anti-weaponization-fund-2026-05-22]]
+- [[synthesis/news/trump-administration]]
+- [[synthesis/news/trump-endorsement-primary-dominance]]
+- [[sources/news/2026-05/trump-prayer-rally-2026-05-18]]
+- [[synthesis/news/republican-party]]
+- [[index]]
+- [[sources/news/2026-05/trump-approval-war-polling-2026-05-18]]
+- [[log]]
+- [[synthesis/news/trump-republican-party]]
+- [[sources/news/taiwan-reaffirms-independence-despite-trump-warning]]
+- [[entities/people/donald-trump]]
+- [[trump-administration]]
 
 - [[geopolitics]]
 - [[republican-party]]

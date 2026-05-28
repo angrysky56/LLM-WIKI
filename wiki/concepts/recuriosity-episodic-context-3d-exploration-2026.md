@@ -14,6 +14,12 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/world-model]]
+- [[concepts/recuriosity-episodic-context-3d-exploration-2026]]
+- [[concepts/agentic-research]]
+- [[index]]
+- [[log]]
+- [[recuriosity-episodic-context-3d-exploration-2026]]
 
 - [[episodic-memory]]
 - [[exploration]]

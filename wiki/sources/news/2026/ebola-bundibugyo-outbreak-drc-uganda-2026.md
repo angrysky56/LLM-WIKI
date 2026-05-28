@@ -36,6 +36,10 @@ The lack of a proven vaccine for Bundibugyo is itself notable. Unlike the Zaire 
 The combination of: (1) no existing vaccine, (2) a growing case count, (3) response infrastructure under strain, and (4) community trust issues (based on carryover from prior cycle's hospital tent fire incident) creates compound risk.
 
 ## Connections
+- [[sources/news/2026/ebola-bundibugyo-outbreak-drc-uganda-2026]]
+- [[index]]
+- [[sources/news/2026/ebola-outbreak-drc-who-very-high-may-2026]]
+- [[ebola-bundibugyo-outbreak-drc-uganda-2026]]
 - [[public-health-governance]] — WHO emergency declarations and their limits when funding doesn't follow
 - [[who-emergency-declarations]] — precedent for how these declarations function
 - [[global-health-infrastructure]] — US cuts effect on international response capacity

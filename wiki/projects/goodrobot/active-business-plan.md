@@ -76,6 +76,10 @@ Plug-and-play AI agent teams that integrate with existing workflows in hours, no
 Build operational wiki foundation and assign first work to executive team.
 
 ## Connections
+- [[projects/goodrobot/active-business-plan]]
+- [[projects/goodrobot/index]]
+- [[projects/goodrobot/shut-down-entity]]
+- [[active-business-plan]]
 
 - [[ai-agents]] — core technology
 - [[saas-pricing]] — pricing strategy

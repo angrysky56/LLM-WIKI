@@ -15,6 +15,14 @@ confidence: 0.9
 **Beta** is the Option Optimization Agent in the [[oMCD]] framework. It maximizes $E[B(z) - C(z)]$ over candidate options.
 
 ## See Also
+- [[concepts/alpha]]
+- [[concepts/beta]]
+- [[index]]
+- [[log]]
+- [[concepts/omcd]]
+- [[concepts/agent-taxonomies]]
+- [[beta]]
 
 - [[agent-taxonomies]]
 - [[Alpha]]
+- [[oMCD]]

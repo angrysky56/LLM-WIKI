@@ -44,6 +44,13 @@ tags: [news, report]
 - **Honduras gang violence (25 dead)**: Tragic but localized; no emerging pattern connecting to research threads
 - **Everest deaths**: Recurring seasonal risk, not new pattern
 
+## Related
+- [[index]]
+- [[scratchpad/jobs/reports/librarian/audit-2026-05-26-path-verification]]
+- [[synthesis/news/2026-may/headlines-2026-05-22]]
+
+- [[headlines-2026-05-22]]
+
 ## Notable Patterns
 
 1. **The reversal cadence is now a structural feature, not a bug**: Trump NATO deployment being described by allies as "confusing indeed" alongside welcoming — allies have learned to publicly accept while privately discount. This is the new normal for alliance management.

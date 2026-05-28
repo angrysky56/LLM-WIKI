@@ -27,6 +27,18 @@ confidence: 1.0
 - **Dopamine Reward**: Implements Temporal Difference (TD) learning for prospective prediction rewards.
 
 ## Connections
+- [[entities/projects/tys-repos]]
+- [[log]]
+- [[entities/projects/tys-repos/sentience-metaphysics]]
+- [[entities/people/tyler-hall]]
+- [[entities/projects/tys-repos/nexus]]
+- [[sources/repositories/nexus]]
+- [[index]]
+- [[scratchpad/jobs/reports/librarian/audit-2026-05-21]]
+- [[nexus]]
 - [[efhf]] — NEXUS represents the realization of the "World Model" and "Meta-Cognitive" layers.
 - [[agem]] — Often used as the cognitive core for AGEM agents.
 - [[tys-repos]] — Part of Ty's repository collection.
+
+- [[tyler-hall]]
+- [[tys-repos]]

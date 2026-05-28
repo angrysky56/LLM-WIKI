@@ -39,6 +39,9 @@ confidence: 0.95
 - SpaceX spending on rockets and AI detailed in NPR investigation
 
 ## Connections
+- [[sources/news/2026/spacex-files-ipo-starship-v3-2026]]
+- [[index]]
+- [[spacex-files-ipo-starship-v3-2026]]
 
 - [[spacex-ipo-spcx-2026]]: IPO filing and V3 test — valuation directly tied to Starship success
 - [[spacex-ipo-spcx-2026]]: AI data center viability admission — connects to broader AI infrastructure economics

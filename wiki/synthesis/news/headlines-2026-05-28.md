@@ -28,6 +28,12 @@
 - **SpaceX IPO**: Reuters report confirms June 12 timeline; no major governance disclosure since carryover. No new article to ingest.
 - **Ebola case count updates**: ReliefWeb situation report confirmed but no new numbers beyond what carryover already tracked (750 suspected, 177+ deaths). ECDC report (May 27) covers same ground. No new ingestion needed.
 
+## Related
+- [[synthesis/news/headlines-2026-05-28]]
+- [[index]]
+
+- [[headlines-2026-05-28]]
+
 ## Notable Patterns
 
 1. **AI is now a mathematical collaborator, not just a tool**: Two independent 80-year-old math problems solved by two different frontier models in the same week. The question is no longer "can AI do math" — it's "can we verify what AI discovers fast enough to keep up."

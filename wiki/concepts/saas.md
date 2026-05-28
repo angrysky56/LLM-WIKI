@@ -52,6 +52,11 @@ For AI agent products, SaaS pricing must account for the variable cost of LLM in
 See [[saas-pricing]] for the detailed pricing model breakdown.
 
 ## Connections
+- [[index]]
+- [[log]]
+- [[concepts/saas]]
+- [[concepts/saas-pricing]]
+- [[saas]]
 
 - [[saas-pricing]] — detailed AI agent SaaS pricing models and frameworks
 - [[business-model]] — broader business model taxonomy

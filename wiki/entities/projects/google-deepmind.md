@@ -14,5 +14,10 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[sources/news/2026/openai-ai-solves-80-year-erdos-problem-may-2026]]
+- [[log]]
+- [[entities/projects/google-deepmind]]
+- [[index]]
+- [[google-deepmind]]
 
 - [[ai-scientific-discovery]]

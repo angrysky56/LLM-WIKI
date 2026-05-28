@@ -10,6 +10,13 @@ confidence: 0.85
 ---
 
 
+## Related
+- [[index]]
+- [[synthesis/insights/oee-knowledge-cluster-tierra-lenia-evosphere-insight]]
+- [[concepts/open-ended-evolution]]
+
+- [[oee-knowledge-cluster-tierra-lenia-evosphere-insight]]
+
 ## OEE Knowledge Cluster Spans Tierra, Lenia, and Evosphere
 
 The community_179 cluster reveals that Open-Ended Evolution (OEE) forms a coherent knowledge community across multiple Artificial Life models. Key systems like Tierra, Extended Lenia, and Evosphere are all connected through their shared goal of exploring OEE's endless creative productivity. The evidence shows these systems converge on defining OEE as a state where new fitness functions continuously emerge through coevolution, preventing equilibrium. This clustering indicates that research across these systems should be considered jointly when studying OEE mechanisms, as they share conceptual foundations even when implemented differently. The diversity of entities (Tierra, Lenia, Evosphere, Simss) within this cluster suggests OEE is a unifying theme in adaptive computation research.

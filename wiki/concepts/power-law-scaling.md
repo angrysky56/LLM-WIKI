@@ -83,6 +83,16 @@ Var(X) ∝ μ^k  where k ≈ 1–2 in natural populations
 This is distinct from Kleiber's law but shares the same mathematical structure. Taylor's law appears in neural network training dynamics — loss variance across random initializations scales as a power of mean loss, potentially useful for predicting generalization variance.
 
 ## Connections
+- [[concepts/taylors-law]]
+- [[log]]
+- [[concepts/power-law-scaling]]
+- [[concepts/power-law]]
+- [[concepts/scaling-laws]]
+- [[concepts/allometric-scaling]]
+- [[concepts/neural-interpretability]]
+- [[concepts/emergence]]
+- [[index]]
+- [[power-law-scaling]]
 
 - [[power-law]] — the underlying mathematical relationship; Zipf's law, Pareto distribution, scale-invariance
 - [[scaling-laws]] — neural scaling laws specifically; Kaplan/Chinchilla/Hoffmann findings; emergent capabilities at scale thresholds

@@ -35,5 +35,8 @@ Europe is experiencing a sustained STI epidemic that is getting worse, not bette
 | ECDC call | "Urgent action" on testing and prevention gaps |
 
 ## Connections
+- [[index]]
+- [[sources/news/2026/sti-record-levels-europe-2026]]
+- [[sti-record-levels-europe-2026]]
 
 Related to [[public-health]] infrastructure and [[global-health-security]] concerns.

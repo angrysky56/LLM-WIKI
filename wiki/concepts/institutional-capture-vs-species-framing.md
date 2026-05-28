@@ -49,6 +49,28 @@ The survivable path probably isn't centralization or pure decentralization but s
 For any "humans/civilization will inevitably X" claim: *which humans, in which institutions, with what alternatives, would have to make which decision for X to occur or not occur?* If the answer is "a few thousand people in a few hundred institutions," the species framing is doing rhetorical work, not analytical work, and the actual leverage points are at the institutional layer.
 
 ## Related
+- [[index]]
+- [[sources/news/2026-05/trump-anti-weaponization-fund-2026-05-22]]
+- [[sources/news/2026/trump-taiwan-call-2026]]
+- [[sources/news/2026-05/dnc-2024-autopsy-2026-05-22]]
+- [[log]]
+- [[sources/news/2026/us-surveillance-cuba-flights-2026]]
+- [[sources/news/2026/air-france-airbus-manslaughter-verdict-2026]]
+- [[sources/news/2026/ebola-outbreak-drc-hospital-attack-2026]]
+- [[sources/news/2026/spacex-ipo-spcx-2026]]
+- [[concepts/spin-vs-substrate]]
+- [[concepts/musk-velocity]]
+- [[concepts/cryptographic-vs-semantic-alignment]]
+- [[entities/projects/spacex]]
+- [[concepts/frame-transmission]]
+- [[concept-index]]
+- [[sources/news/2026/tiktok-youtube-ofcom-not-safe-enough-2026]]
+- [[concepts/institutional-design]]
+- [[synthesis/ai-governance-substrate-analysis]]
+- [[concepts/absence-of-worst-case-metric]]
+- [[concepts/institutional-capture-vs-species-framing]]
+- [[sources/news/2026-05/china-cuba-us-threats-2026-05-21]]
+- [[institutional-capture-vs-species-framing]]
 
 - [[spin-vs-substrate]]
 - [[absence-of-worst-case-metric]]
@@ -56,5 +78,7 @@ For any "humans/civilization will inevitably X" claim: *which humans, in which i
 - [[frame-transmission]]
 
 
+- [[musk-velocity]]
+- [[spacex]]
 ## Connections
 - Concept: [[institutional-design]]

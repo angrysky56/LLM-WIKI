@@ -36,6 +36,13 @@ created: 2026-05-13T00:19:14Z
 | Go-to-Market: Sales Playbook Systematization | CMO | 4bb36eb0 |
 | Financial Model: Local Lead-Gen Business at Scale | CFO | 8ef3d8d7 |
 
+## Related
+- [[projects/goodrobot/index]]
+- [[projects/goodrobot/issues-index]]
+- [[index]]
+
+- [[issues-index]]
+
 ## Board Issues (proposals)
 
 Board members have proposed capital projects ($1M+) — see GoodRobot board meeting records in Paperclip.

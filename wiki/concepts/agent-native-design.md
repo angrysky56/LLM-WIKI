@@ -85,6 +85,22 @@ Agent native design works naturally with [[agentic-hierarchy]]:
 - Absorbing states are shared across the hierarchy (global consistency)
 
 ## Connections
+- [[index]]
+- [[concepts/maximum-occupancy-principle]]
+- [[concepts/world-model]]
+- [[concepts/persistent-knowledge-compilation]]
+- [[concepts/bounded-rationality]]
+- [[log]]
+- [[scratchpad/jobs/reports/researcher/discovery-2026-06-08]]
+- [[concepts/machine-psychology]]
+- [[concepts/llm-agent-architecture]]
+- [[sources/repositories/cli-printing-press]]
+- [[concepts/agent-native-design]]
+- [[concepts/agentic-hierarchy]]
+- [[concepts/cognitive-world-models-for-llm-agents]]
+- [[concepts/epistemic-energy]]
+- [[concepts/working-memory]]
+- [[agent-native-design]]
 
 - [[maximum-occupancy-principle]] — the intrinsic motivation foundation
 - [[mop-edm-cognitive-architecture]] — the full architectural synthesis

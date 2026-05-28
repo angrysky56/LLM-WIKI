@@ -24,6 +24,14 @@ confidence: 1.0
 
 A stub page pointing to revenue model content. The actual revenue model — subscription tiers, unit economics, and financial projections — is now at [[revenue-model]].
 
+## Related
+- [[agents/skills/librarian-agent/skill]]
+- [[log]]
+- [[synthesis/news/goodrobot-revenue-model]]
+- [[index]]
+
+- [[goodrobot-revenue-model]]
+
 ## Why
 
 Per Ty's direction (2026-05-26): "Keep everything, just organize it all in wiki/projects/goodrobot." All GoodRobot content has been consolidated there.

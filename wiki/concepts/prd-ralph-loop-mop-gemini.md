@@ -14,6 +14,14 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[log]]
+- [[concepts/prd-ralph-loop-mop-gemini]]
+- [[concepts/maximum-occupancy-principle]]
+- [[scratchpad/jobs/reports/researcher/discovery-2026-07-20]]
+- [[index]]
+- [[concepts/ramirez-ruiz-mop-2024]]
+- [[synthesis/mop-edm-cognitive-architecture]]
+- [[prd-ralph-loop-mop-gemini]]
 
 - [[mop-architecture]]
 - [[gemini]]

@@ -14,5 +14,11 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/maximum-occupancy-principle]]
+- [[sources/documentation/isabelle-installation]]
+- [[index]]
+- [[log]]
+- [[concepts/latex]]
+- [[latex]]
 
 - [[maximum-occupancy-principle]]

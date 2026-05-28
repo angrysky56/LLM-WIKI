@@ -14,6 +14,13 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[synthesis/news/republican-party]]
+- [[synthesis/news/trump-republican-party]]
+- [[index]]
+- [[synthesis/news/trump-administration]]
+- [[log]]
+- [[sources/news/2026-05/trump-massie-primary-2026-05-17]]
+- [[trump-republican-party]]
 
 - [[trump-administration]]
 - [[republican-party]]

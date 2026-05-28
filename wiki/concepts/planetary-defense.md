@@ -14,5 +14,12 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[synthesis/news/near-earth-objects]]
+- [[index]]
+- [[log]]
+- [[sources/news/2026-05/asteroid-2026-jh2-2026-05-18]]
+- [[concepts/planetary-defense]]
+- [[synthesis/news/asteroid-2026-jh2]]
+- [[planetary-defense]]
 
 - [[near-earth-objects]]

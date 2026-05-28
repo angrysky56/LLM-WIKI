@@ -14,6 +14,12 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[synthesis/news/ai-healthcare]]
+- [[synthesis/news/healthcare]]
+- [[index]]
+- [[synthesis/news/biomedical-research]]
+- [[synthesis/news/medical-research]]
+- [[healthcare]]
 
 - [[ai-healthcare]]
 - [[medical-research]]

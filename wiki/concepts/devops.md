@@ -14,6 +14,15 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/tooling]]
+- [[concepts/ci-cd]]
+- [[index]]
+- [[concepts/github-actions-troubleshooting]]
+- [[log]]
+- [[concepts/version-control]]
+- [[concepts/devops]]
+- [[devops]]
 
 - [[tooling]]
 - [[ci-cd]]
+- [[version-control]]

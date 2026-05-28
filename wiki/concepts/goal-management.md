@@ -14,6 +14,12 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/goal-management]]
+- [[concepts/planning]]
+- [[index]]
+- [[log]]
+- [[concepts/persistent-goals-hermes-agent]]
+- [[goal-management]]
 
 - [[agent-architectures]]
 - [[planning]]

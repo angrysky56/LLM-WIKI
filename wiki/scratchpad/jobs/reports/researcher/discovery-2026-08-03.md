@@ -60,6 +60,12 @@ The ml-evolution cluster is now complete. Next expansion should target PEFT clus
 2. Can LLaMA-NAS sub-networks be further adapted with LoRA without conflict?
 3. What is the theoretical relationship between weight inheritance (LLaMA-NAS) and gradient-based adaptation (LoRA)? Are they complementary or substitutes?
 
+## Related
+- [[index]]
+- [[scratchpad/jobs/reports/researcher/discovery-2026-08-03]]
+
+- [[discovery-2026-08-03]]
+
 ## Stub Count
 
 **Current: 297** (396 [STUB] markers in index, but many concepts lack the marker — actual stub count is higher than active count)

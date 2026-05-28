@@ -96,6 +96,10 @@ PEFT methods are central to several clusters in this wiki:
 - [[evolutionary-strategies]] — ES applied to PEFT rank allocation (EVOLORA family)
 - [[essa]] — gradient-free alignment as alternative to PEFT's gradient-based adaptation
 
+- [[qes]]
+- [[bounded-memory-budget-optimization]]
+- [[bounded-memory-budget-optimization]]
+- [[qes]]
 ## LoRA Variants on the Frontier
 
 Beyond the core methods, several research directions extend LoRA:
@@ -119,6 +123,21 @@ Beyond the core methods, several research directions extend LoRA:
 - Not all tasks benefit equally from PEFT vs full fine-tuning
 
 ## Connections
+- [[scratchpad/jobs/reports/researcher/discovery-2026-07-15]]
+- [[concepts/quantization]]
+- [[concepts/bounded-memory-budget-optimization]]
+- [[concepts/qes]]
+- [[concepts/continual-learning]]
+- [[scratchpad/agent-sheets/researcher/carryover]]
+- [[index]]
+- [[sources/moe-sieve-routing-guided-lora-for-efficient-moe-fine-tuning]]
+- [[scratchpad/jobs/reports/researcher/discovery-2026-07-20]]
+- [[concepts/parameter-efficient-fine-tuning]]
+- [[log]]
+- [[concepts/fine-tuning]]
+- [[concepts/qora]]
+- [[concepts/lora]]
+- [[parameter-efficient-fine-tuning]]
 
 - [[lora]] — the foundational PEFT method
 - [[fine-tuning]] — PEFT is a subset of fine-tuning (parameter-efficient variant)

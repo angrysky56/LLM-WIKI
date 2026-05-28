@@ -46,6 +46,13 @@ Note: there is a separate use of "causal network" in the context of causal reaso
 The **distinction** matters: NKS causal networks represent the causal structure of a computational process (what computes what). Causal reasoning in LLMs infers causal relationships from observational data (what predicts what). The former is about actual causal dependence in a rewrite system; the latter is about statistical correlations that can be interpreted causally.
 
 ## Connections
+- [[concepts/causal-networks]]
+- [[entities/people/stephen-wolfram]]
+- [[log]]
+- [[concepts/wolfram-physics-project]]
+- [[concepts/wolfram-nks-causal-networks]]
+- [[index]]
+- [[wolfram-nks-causal-networks]]
 
 - [[wolfram-physics-project]] — the broader research program; causal networks are the representational framework
 - [[computational-irreducibility]] — causal networks are the empirical trace of computationally irreducible processes; the network must be simulated to know its structure

@@ -28,6 +28,13 @@ A multiplayer collaborative canvas for product brainstorming, combining real-tim
 - **Wiki-style knowledge editor** — Tiptap
 - **Video calls** — unobtrusive flingable participant bubbles
 
+## Related
+- [[sources/repositories/product-canvas]]
+- [[index]]
+- [[concept-index]]
+
+- [[product-canvas]]
+
 ## Relevance to This Wiki
 
 Demonstrates the convergence of real-time collaboration + AI + persistent knowledge (wiki editor). The "wiki-style project knowledge editor" component is exactly the pattern described in [[persistent-knowledge-compilation|Persistent Knowledge Compilation]] — a persistent artifact that accumulates project context.

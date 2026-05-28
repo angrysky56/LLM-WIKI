@@ -19,5 +19,10 @@ confidence: 1.0
 - **AI-Focused Analysis**: Optimized for providing context to LLM coding agents.
 
 ## Connections
+- [[log]]
+- [[index]]
+- [[entities/projects/tys-repos]]
+- [[entities/projects/tys-repos/ast-mcp-server]]
+- [[ast-mcp-server]]
 - [[mcp-coordinator]] — Used by the Coordinator for repository architecture analysis.
 - [[tys-repos]] — Part of Ty's repository collection.

@@ -14,6 +14,11 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/business]]
+- [[concepts/economics]]
+- [[index]]
+- [[concepts/entrepreneurship]]
+- [[business]]
 
 - [[entrepreneurship]]
 - [[economics]]

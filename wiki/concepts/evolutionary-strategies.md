@@ -60,6 +60,23 @@ ES has been explored as an alternative to RLHF for alignment:
 The connection to [[group-relative-policy-optimization]]: GRPO can be viewed as a simplified, group-relative variant of ES where the "population" is a group of samples from the same policy.
 
 ## Connections
+- [[concepts/neural-architecture-search]]
+- [[concepts/swe-bench]]
+- [[concepts/evolutionary-strategies]]
+- [[concepts/rz-nas]]
+- [[concepts/scaling-laws]]
+- [[sources/articles/ml-evolution-benchmarking-protocol]]
+- [[concepts/group-relative-policy-optimization]]
+- [[concepts/qes]]
+- [[scratchpad/jobs/reports/researcher/discovery-2026-06-09]]
+- [[concepts/essa]]
+- [[concepts/ml-evolution]]
+- [[index]]
+- [[concepts/maximum-occupancy-principle]]
+- [[concepts/parameter-efficient-fine-tuning]]
+- [[concepts/collm-nas]]
+- [[log]]
+- [[evolutionary-strategies]]
 
 - [[ml-evolution]] — ES is the optimization engine for neural architecture search
 - [[maximum-occupancy-principle]] — MOP's path entropy maximization can be expressed as an evolutionary objective: maximize diversity of visited states
@@ -67,3 +84,10 @@ The connection to [[group-relative-policy-optimization]]: GRPO can be viewed as 
 - [[scaling-laws]] — ES has been used to study how architecture choices interact with model scale
 - [[swe-bench]] — ES for code agent task optimization (evolving prompts or tool-use strategies)
 - Concept: [[ml-evolution-benchmarking-protocol]]
+
+- [[parameter-efficient-fine-tuning]]
+- [[essa]]
+- [[collm-nas]]
+- [[rz-nas]]
+- [[neural-architecture-search]]
+- [[qes]]

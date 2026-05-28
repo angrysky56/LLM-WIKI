@@ -54,6 +54,14 @@ Orchestrator (central state holder)
 - Single agent can handle it → use single-agent
 
 ## Connections
+- [[agents/skills/hierarchical-supervisor]]
+- [[agents/skills/supervisor-delegation]]
+- [[agents/skills/single-agent]]
+- [[agents/skills/agentic-decision-tree]]
+- [[index]]
+- [[agents/skills/agentic-multiagent]]
+- [[agents/skills/supervisor-orchestrator]]
+- [[supervisor-orchestrator]]
 
 - [[supervisor-delegation]] — fixed routing variant
 - [[hierarchical-supervisor]] — nested orchestrators

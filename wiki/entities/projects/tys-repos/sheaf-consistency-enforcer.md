@@ -26,7 +26,26 @@ confidence: 1.0
 - `trigger_recovery`: Executes strategies like "kernel_retreat" or "re_partition" on failure.
 
 ## Connections
+- [[entities/projects/tys-repos/efhf]]
+- [[scratchpad/jobs/reports/arxiv/arxiv-2026-05-23-top-papers]]
+- [[entities/people/tyler-hall]]
+- [[index]]
+- [[entities/projects/tys-repos]]
+- [[log]]
+- [[entities/projects/tys-repos/conscience-servitor]]
+- [[sources/papers/vector-policy-optimization-vpo-2026]]
+- [[sources/papers/tokenisation-convex-relaxations-2026]]
+- [[synthesis/seg-scientist-agent-design]]
+- [[synthesis/cross-layer-drift-falsification]]
+- [[entities/projects/tys-repos/sheaf-consistency-enforcer]]
+- [[scratchpad/jobs/reports/arxiv/arxiv-2026-05-22-top-papers]]
+- [[sources/papers/bae-lmac-2026]]
+- [[sources/papers/alphaproof-nexus-formal-proof-search-2026]]
+- [[sources/papers/boiling-frog-agentic-safety-2026]]
+- [[sheaf-consistency-enforcer]]
 - [[efhf]] — Layer 5 enforcer.
 - [[hipai-montague]] — Registered as an agent state.
 - [[mcp-logic]] — Registered as an agent state.
 - [[tys-repos]] — Part of Ty's repository collection.
+
+- [[conscience-servitor]]

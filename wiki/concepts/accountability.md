@@ -84,6 +84,15 @@ Even good accountability structures fail. Whistleblower protections provide a ba
 The [[institutional-capture]] failure mode — where institutions drift from their stated purposes toward self-interest — is directly relevant: accountability mechanisms for AI are only as strong as the institutions that enforce them. If oversight bodies are captured, accountability norms become formalities without force.
 
 ## Connections
+- [[concepts/institutional-capture]]
+- [[log]]
+- [[concepts/governance]]
+- [[concepts/accountability]]
+- [[concepts/institutional-accountability]]
+- [[concepts/agentic-oversight]]
+- [[concepts/ai-governance-substrate]]
+- [[index]]
+- [[accountability]]
 
 - [[ai-governance-substrate]] — the architectural realization of accountability for AI systems
 - [[institutional-accountability]] — organizational accountability structures; the analogue at institutional scale

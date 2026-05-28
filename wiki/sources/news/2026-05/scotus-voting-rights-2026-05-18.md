@@ -25,6 +25,15 @@ A Supreme Court ruling on voting rights is producing swift action at the local l
 - The New York Times: "The Supreme Court's Voting Rights Decision Spurred Swift Action in Louisiana and Alabama"
 - The Hill: "Black Democrats accuse Republicans of using redistricting to create 'Jim Crow 2.0'"
 
+## Related
+- [[sources/news/2026-05/scotus-voting-rights-2026-05-18]]
+- [[index]]
+- [[synthesis/news/2026-may/news-2026-05-18-headlines]]
+- [[scotus-voting-rights-2026-05-18]]
+- [[wiki/sources/news/2026-05/scotus-voting-rights-2026-05-18.md]]
+
+- [[scotus-voting-rights-2026-05-18.md]]
+
 ## Wiki Connections
 - [[scotus]]
 - [[voting-rights-act]]

@@ -42,6 +42,8 @@ Every API has a secret identity — the data it exposes is useful for something 
 5. **Phase 4:** Polish + publish to [printingpress.dev](https://printingpress.dev)
 
 ## Connections
+- [[sources/repositories/cli-printing-press]]
+- [[index]]
 
 - [[printing-press]] — the project itself
 - [[sqlite]] — local-first data layer

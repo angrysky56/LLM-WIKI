@@ -22,6 +22,12 @@ Reference guide for SSH (Secure Shell) command usage in Linux. Covers basic conn
 - `ssh -L 8080:localhost:80 user@host` — local port forwarding
 - `ssh -R 9090:localhost:3000 user@host` — remote port forwarding
 
+## Related
+- [[sources/articles/ssh-command-in-linux]]
+- [[index]]
+
+- [[ssh-command-in-linux]]
+
 ## Relevance
 
 Standard reference. SSH is the transport layer for remote development and server administration throughout this ecosystem.

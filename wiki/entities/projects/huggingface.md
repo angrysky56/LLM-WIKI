@@ -14,5 +14,13 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[log]]
+- [[entities/projects/priorlabstabpfn]]
+- [[concepts/mlops]]
+- [[index]]
+- [[entities/projects/huggingface]]
+- [[sources/repositories/tabpfn]]
+- [[huggingface]]
 
 - [[mlops]]
+- [[priorlabstabpfn]]

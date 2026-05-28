@@ -23,6 +23,15 @@ Damage to this pathway can lead to **Conduction Aphasia**, where a patient can u
 In children, the maturation (specifically [[myelination]]) of the arcuate fasciculus between ages 2 and 4 is a primary driver of the "language explosion," where speech becomes rapidly more complex and fluent.
 
 ## Connections
+- [[synthesis/llm-biological-analogies]]
+- [[index]]
+- [[sources/articles/brocas-area-gemini-chat]]
+- [[concepts/brocas-area]]
+- [[concepts/myelination]]
+- [[concepts/arcuate-fasciculus]]
+- [[concepts/wernickes-area]]
+- [[concept-index]]
+- [[arcuate-fasciculus]]
 - [[brocas-area]]
 - [[wernickes-area]]
 - [[myelination]]

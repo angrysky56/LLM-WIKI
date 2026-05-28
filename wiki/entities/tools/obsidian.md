@@ -34,6 +34,22 @@ Markdown-based knowledge management application used as the human-facing layer o
 From [[andrej-karpathy]]: "Obsidian is the IDE; the LLM is the programmer; the wiki is the codebase."
 
 ## Connections
+- [[entities/tools/obsidian]]
+- [[concepts/obsidian-cli-skill]]
+- [[concepts/llm-wiki-pattern]]
+- [[concepts/para-methodology]]
+- [[entities/projects/project-synapse]]
+- [[entities/tools/obsidian-skills-repo]]
+- [[concepts/obsidian-git-setup]]
+- [[index]]
+- [[sources/documentation/obsidian-para-byarbrough]]
+- [[concept-index]]
+- [[concepts/obsidian-para-byarbrough]]
+- [[sources/articles/llm-wiki-pattern]]
+- [[log]]
+- [[entities/people/andrej-karpathy]]
+- [[entities/tools/neo4j]]
+- [[obsidian]]
 
 - [[neo4j]] — graph backend; Obsidian is the human-readable complement
 - [[project-synapse]] — the MCP server bridging this vault to the graph
@@ -42,3 +58,5 @@ From [[andrej-karpathy]]: "Obsidian is the IDE; the LLM is the programmer; the w
 - [[obsidian-skills-repo]] — agent skill definitions for working with Obsidian formats
 - [[obsidian-cli-skill]] — programmatic access to a running Obsidian instance
 - [[obsidian-git-setup]] — setup guide for the Git community plugin syncing this vault
+
+- [[obsidian-para-byarbrough]]

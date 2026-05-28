@@ -14,5 +14,10 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[log]]
+- [[synthesis/news/maldives]]
+- [[index]]
+- [[sources/news/rescue-diver-dies-during-search-for-bodies-of-italians-who-d]]
+- [[maldives]]
 
 - [[geopolitics]]

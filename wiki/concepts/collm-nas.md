@@ -68,6 +68,18 @@ CoLLM-NAS is a core instance of the Guided ML Evolution paradigm from the [[ml-e
 The dual-LLM design also parallels [[agent-architectures]] where deliberative and reactive layers are separated.
 
 ## Connections
+- [[index]]
+- [[concepts/llama-nas]]
+- [[concepts/rz-nas]]
+- [[scratchpad/jobs/reports/researcher/discovery-2026-08-03]]
+- [[concepts/neural-architecture-search]]
+- [[scratchpad/jobs/reports/researcher/discovery-2026-07-15]]
+- [[scratchpad/agent-sheets/researcher/carryover]]
+- [[scratchpad/jobs/reports/researcher/discovery-2026-07-20]]
+- [[concepts/collm-nas]]
+- [[log]]
+- [[sources/articles/ml-evolution-benchmarking-protocol]]
+- [[collm-nas]]
 
 - [[neural-architecture-search]] — CoLLM-NAS is a specific NAS method within the broader architecture search field
 - [[ml-evolution-benchmarking-protocol]] — source reference for CoLLM-NAS

@@ -72,5 +72,15 @@ Working memory in this framing is not just storage — it's the space where epis
 
 
 ## Connections
+- [[log]]
+- [[sources/papers/critical-initialization-biological-neural-networks]]
+- [[concepts/memory-mechanisms]]
+- [[concepts/world-model]]
+- [[concepts/agent-native-design]]
+- [[concepts/bounded-rationality]]
+- [[concepts/epistemic-energy]]
+- [[concepts/working-memory]]
+- [[index]]
+- [[working-memory]]
 - Concept: [[epistemic-energy]]
 - Concept: [[memory-mechanisms]]

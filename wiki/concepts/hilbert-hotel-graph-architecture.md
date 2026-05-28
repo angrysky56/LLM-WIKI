@@ -14,6 +14,12 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[entities/tools/neo4j]]
+- [[index]]
+- [[concepts/hilbert-hotel-graph-architecture]]
+- [[log]]
+- [[concepts/graphrag]]
+- [[hilbert-hotel-graph-architecture]]
 
 - [[graph-theory]]
 - [[infinite]]

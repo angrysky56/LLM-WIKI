@@ -96,6 +96,12 @@ This reconciles the apparent contradiction: monotonic pretraining curves are a *
 
 ---
 
+## Related
+- [[sources/papers/shannon-scaling-law-2026]]
+- [[index]]
+
+- [[shannon-scaling-law-2026]]
+
 ## Structural Insights
 
 1. **The "structure → tractable exact solution" pattern is general**: ProxySHAP used tree structure to get polynomial-time exact Shapley values; this paper uses channel structure (bandwidth/signal/noise decomposition) to get a unified scaling law that subsumes both monotonic and U-shaped regimes. Both papers exploit structure that prior approaches ignored.

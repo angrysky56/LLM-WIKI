@@ -78,6 +78,21 @@ Candidate operationalizations:
 None of these are fully validated. This is an active measurement problem.
 
 ## Connections
+- [[concepts/meta-cognitive-agents]]
+- [[concepts/adaptive-computation]]
+- [[concepts/agent-native-design]]
+- [[scratchpad/jobs/reports/researcher/discovery-2026-06-26]]
+- [[concepts/maximum-occupancy-principle]]
+- [[concepts/cognitive-world-models-for-llm-agents]]
+- [[concepts/edm-framework]]
+- [[concepts/latent-reasoning]]
+- [[concepts/epistemic-energy]]
+- [[concepts/working-memory]]
+- [[index]]
+- [[concepts/world-model]]
+- [[concepts/bounded-rationality]]
+- [[log]]
+- [[epistemic-energy]]
 
 - [[agent-native-design]] — the architectural context where epistemic energy is first-class
 - [[maximum-occupancy-principle]] — the energy reservoir analogy; MOP agents maximize entropy subject to energy constraints (absorbing states)
@@ -89,6 +104,9 @@ None of these are fully validated. This is an active measurement problem.
 - Concept: [[world-model]]
 
 
+- [[meta-cognitive-agents]]
+- [[adaptive-computation]]
+- [[latent-reasoning]]
 ## Open Questions
 
 1. **Measurement**: What is the best operationalization of epistemic energy in a running transformer? Attention entropy? Context utilization? Perplexity on calibration questions?

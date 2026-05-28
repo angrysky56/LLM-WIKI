@@ -96,7 +96,20 @@ LLM agents differ from classical software agents (as in reinforcement learning o
 - [[cognitive-world-models-for-llm-agents]]: world-model integration for agents
 - [[agent-taxonomies]]: formal taxonomy of agent types
 
+- [[agentic-design-picker]]
+- [[multi-agent-systems]]
+- [[multi-agent-systems]]
+- [[agentic-design-picker]]
 ## See Also
+- [[concepts/agents]]
+- [[concepts/deliberative-agents]]
+- [[concepts/agentic-design-picker]]
+- [[concepts/reactive-agents]]
+- [[log]]
+- [[concepts/meta-cognitive-agents]]
+- [[concepts/multi-agent-systems]]
+- [[index]]
+- [[agents]]
 
 - [[agentic-planner]]: the planning capability within agents
 - [[bounded-structured-memory]]: the memory layer for agent continuity

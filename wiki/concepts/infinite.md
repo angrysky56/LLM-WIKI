@@ -14,6 +14,12 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/infinite]]
+- [[log]]
+- [[index]]
+- [[concepts/hilbert-hotel]]
+- [[concepts/hilbert-hotel-graph-architecture]]
+- [[infinite]]
 
 - [[mathematics]]
 - [[hilbert-hotel]]

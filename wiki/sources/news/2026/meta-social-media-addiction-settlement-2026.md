@@ -32,6 +32,10 @@ This settlement pattern matters for several reasons:
 4. **Industry-wide implications**: This settlement applies to Meta specifically, but the legal theory applies equally to TikTok, YouTube, Snapchat, and others. The entire industry faces similar claims.
 
 ## Connections
+- [[sources/news/2026/tiktok-youtube-ofcom-not-safe-enough-2026]]
+- [[index]]
+- [[sources/news/2026/meta-social-media-addiction-settlement-2026]]
+- [[meta-social-media-addiction-settlement-2026]]
 - [[tiktok-youtube-ofcom-report]] — UK regulator also finding platforms not safe enough for children; global regulatory convergence
 - [[ai-governance-substrate]] — social media as addictive technology connects to broader questions about AI systems and user manipulation
 

@@ -36,6 +36,12 @@ For reference, yesterday's run captured **3 papers published 2026-05-18**, all i
 
 All three share a **credit assignment in distributed/agentic systems** theme — worth tracking as a coherent research thread.
 
+## Related
+- [[scratchpad/jobs/reports/arxiv/arxiv-2026-05-20-top-papers]]
+- [[index]]
+
+- [[arxiv-2026-05-20-top-papers]]
+
 ## Jobs Sheet Update
 
 - **Status**: complete (no new papers found today)

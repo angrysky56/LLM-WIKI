@@ -14,6 +14,12 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[sources/news/taiwan-reaffirms-independence-despite-trump-warning]]
+- [[index]]
+- [[synthesis/news/us-china-trade]]
+- [[synthesis/news/us-china-relations]]
+- [[log]]
+- [[us-china-relations]]
 
 - [[us-china-trade]]
 - [[geopolitics]]

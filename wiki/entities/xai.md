@@ -50,6 +50,12 @@ xAI is part of Musk's overlapping governance structure:
 - xAI's compute strategy is integrated with Tesla's Dojo (per public statements)
 
 ## Connections
+- [[index]]
+- [[concepts/musk-velocity]]
+- [[entities/xai]]
+- [[entities/projects/spacex]]
+- [[log]]
+- [[xai]]
 
 - [[spacex]] — parent company post-2025 acquisition; SpaceX IPO filing
 - [[musk-velocity]] — xAI as expression of Musk's portfolio velocity

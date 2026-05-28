@@ -33,6 +33,9 @@ The incident is significant for three reasons:
 3. **Global signal**: The incident joins the Air France manslaughter verdict and Francesca Albanese sanctions as part of a pattern where Israeli officials face fewer accountability constraints than in previous cycles — increasing the risk of further incidents.
 
 ## Connections
+- [[sources/israel-ben-gvir-flotilla-video]]
+- [[index]]
+- [[israel-ben-gvir-flotilla-video]]
 - [[gaza-humanitarian-crisis]] — the flotilla was carrying aid; the blockade remains the underlying driver
 - [[institutional-accountability]] — pattern of officials acting without consequences
 - [[social-media-regulation]] — the video spread via social platforms before official responses could be mounted

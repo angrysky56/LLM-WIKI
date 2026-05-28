@@ -14,6 +14,18 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/knowledge-graph]]
+- [[index]]
+- [[concepts/graph-theory]]
+- [[log]]
+- [[concepts/graph-database]]
+- [[sources/repositories/gbrain]]
+- [[concepts/graphrag]]
+- [[knowledge-graph]]
 
 - [[neo4j]]
-- [[graphrag]]
+- [[graphrag]]- [[concepts/knowledge-management.md]]
+
+- [[knowledge-management]]
+- [[graph-theory]]
+- [[graph-database]]

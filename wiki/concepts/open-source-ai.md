@@ -14,5 +14,10 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/open-source-ai]]
+- [[log]]
+- [[sources/news/2026-05/github-data-breach-2026-05-20]]
+- [[index]]
+- [[open-source-ai]]
 
 - [[ai-governance]]

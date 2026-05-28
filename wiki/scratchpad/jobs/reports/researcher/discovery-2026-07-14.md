@@ -115,6 +115,12 @@ Reviewed but not upgraded this cycle:
 - MOP cluster: resolved (2 upgrades)
 - Agent cluster: resolved (3 upgrades)
 
+## Related
+- [[index]]
+- [[scratchpad/jobs/reports/researcher/discovery-2026-07-14]]
+
+- [[discovery-2026-07-14]]
+
 ## Open Questions
 
 1. **bounded-structured-memory budget optimization**: How should total memory budget be distributed across layers? Is there a principled method, or empirical tuning?

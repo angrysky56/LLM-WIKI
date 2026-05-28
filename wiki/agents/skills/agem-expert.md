@@ -9,6 +9,11 @@ status: reference
 confidence: 0.5
 ---
 
+## Related
+
+- [[agents/skills/agem-expert]]
+- [[index]]
+
 # Agem Expert
 
 Stub page for [[agem-expert]] agent skill.

@@ -65,6 +65,17 @@ This makes Control LLM complementary to regularization approaches — EWC could 
 4. **Interaction with RLHF/GRPO**: Does Control LLM interfere with policy optimization objectives? The frozen branch constrains what the trainable branch can express, which may limit alignment performance.
 
 ## Connections
+- [[sources/articles/ml-evolution-benchmarking-protocol]]
+- [[concepts/control-llm]]
+- [[index]]
+- [[concepts/catastrophic-forgetting]]
+- [[concepts/llm-training]]
+- [[concepts/namm]]
+- [[scratchpad/jobs/reports/researcher/discovery-2026-07-20]]
+- [[log]]
+- [[concepts/continual-learning]]
+- [[concepts/lora]]
+- [[control-llm]]
 
 - [[catastrophic-forgetting]]: the problem Control LLM addresses — both are from the same source article and are deeply coupled
 - [[llm-training]]: Control LLM is a training methodology for mitigating forgetting during fine-tuning
@@ -73,3 +84,6 @@ This makes Control LLM complementary to regularization approaches — EWC could 
 - [[mop-architecture]]: Memory-Oriented Programming addresses the same problem (forgetting in agents) but at the software/scaffolding level rather than the weight level
 - [[ramirez-ruiz-mop-2024]]: schema-based memory consolidation as an alternative to architectural forgetting mitigation
 - [[continual-learning]]: the broader ML paradigm that Control LLM operates within
+
+- [[lora]]
+- [[ml-evolution-benchmarking-protocol]]

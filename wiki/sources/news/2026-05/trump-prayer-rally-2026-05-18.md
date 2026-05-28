@@ -26,6 +26,15 @@ A Trump-backed prayer festival drew thousands to the National Mall on May 18, 20
 - The Guardian: "Thousands gather in Washington DC for daylong America-themed prayer rally"
 - NPR: "Trump and administration officials address Christian gathering on National Mall"
 
+## Related
+- [[sources/news/2026-05/trump-prayer-rally-2026-05-18]]
+- [[synthesis/news/2026-may/news-2026-05-18-headlines]]
+- [[index]]
+- [[trump-prayer-rally-2026-05-18]]
+- [[wiki/sources/news/2026-05/trump-prayer-rally-2026-05-18.md]]
+
+- [[trump-prayer-rally-2026-05-18.md]]
+
 ## Wiki Connections
 - [[trump-administration]]
 - [[religion-american-politics]]

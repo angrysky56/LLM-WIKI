@@ -77,6 +77,14 @@ Raw sources go into `raw/` → ingested via `synapse_mcp` → summary written to
 - UseConventional commits: `feat:`, `fix:`, `docs:`, `chore:`, `refactor:`
 
 ## Connections
+- [[synthesis/bounded-structured-memory]]
+- [[synthesis/synapse-llm-wiki-operating-guide]]
+- [[concepts/tag-taxonomy]]
+- [[index]]
+- [[synthesis/synapse-retrieval-architecture]]
+- [[synthesis/wiki-indexing-theory]]
+- [[concept-index]]
+- [[synapse-llm-wiki-operating-guide]]
 - [[synapse-retrieval-architecture]]
 - [[wiki-indexing-theory]]
 - [[bounded-structured-memory]]

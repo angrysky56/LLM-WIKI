@@ -12,5 +12,11 @@
 ## Issues
 - [errors, failures, unexpected behavior]
 
+## Related
+- [[scratchpad/agent-sheets/orcaid/templates/run-report]]
+- [[index]]
+
+- [[run-report]]
+
 ## Flagged for Human Review
 - [things needing Ty's attention]

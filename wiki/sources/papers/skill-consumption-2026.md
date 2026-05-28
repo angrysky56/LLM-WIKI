@@ -112,6 +112,12 @@ A meta-skill that **guides extraction toward utility-features** (rather than sim
 
 ---
 
+## Related
+- [[index]]
+- [[sources/papers/skill-consumption-2026]]
+
+- [[skill-consumption-2026]]
+
 ## Structural Insights
 
 1. **The three lifecycle stages are orthogonally optimizable**: This is a critical insight for agent architecture. EFHF's separation of verifier (skill evaluator) from agent (skill consumer) is validated by the finding that extraction quality and consumption quality are independent — they can be separately optimized without coupling.

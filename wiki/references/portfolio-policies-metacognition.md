@@ -319,6 +319,12 @@ The evaluation criteria are:
 
 ---
 
+## Related
+- [[references/portfolio-policies-metacognition]]
+- [[index]]
+
+- [[portfolio-policies-metacognition]]
+
 ## References
 
 - [[oMCD]] — Primary oMCD framework documentation

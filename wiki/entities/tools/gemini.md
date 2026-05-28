@@ -17,4 +17,14 @@ confidence: 0.9
 - [[why-llms-arent-scientists-yet]] — Gemini 2.5 Pro was used for context management across the entire research pipeline due to its long-context handling.
 
 ## Connections
+- [[sources/articles/language-evolution]]
+- [[concepts/agentic-research]]
+- [[index]]
+- [[sources/articles/why-llms-arent-scientists-yet]]
+- [[log]]
+- [[concepts/prd-ralph-loop-mop-gemini]]
+- [[entities/tools/gemini]]
+- [[gemini]]
 - [[agentic-research]] — Used as a context store and high-level orchestrator.
+
+- [[language-evolution]]

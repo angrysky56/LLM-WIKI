@@ -100,6 +100,17 @@ Code generation requires multiple reasoning modes:
 - **Spatial**: Navigating file structure and module boundaries
 
 ## Connections
+- [[concepts/swe-bench]]
+- [[concepts/llm-agent-architecture]]
+- [[concepts/maximum-occupancy-principle]]
+- [[log]]
+- [[concepts/load-bearing-reasoning]]
+- [[concepts/code-agent]]
+- [[concepts/code-generation]]
+- [[index]]
+- [[concepts/benchmark]]
+- [[concepts/mcts]]
+- [[code-generation]]
 
 - [[code-agent]] — full system that uses code generation as one capability
 - [[swe-bench]] — realistic evaluation benchmark for code generation
@@ -110,6 +121,7 @@ Code generation requires multiple reasoning modes:
 - Concept: [[MCTS]]
 
 
+- [[MCTS]]
 ## Open Questions
 
 1. **Long-context code generation**: How do you generate coherent multi-file code when the full context exceeds the context window?

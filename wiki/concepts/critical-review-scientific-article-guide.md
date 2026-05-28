@@ -14,6 +14,14 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/critical-analysis]]
+- [[concept-index]]
+- [[concepts/research-methodology]]
+- [[concepts/scientific-writing]]
+- [[concepts/academic-peer-review]]
+- [[concepts/critical-review-scientific-article-guide]]
+- [[index]]
+- [[critical-review-scientific-article-guide]]
 
 - [[academic-peer-review]]
 - [[scientific-writing]]

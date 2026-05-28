@@ -14,5 +14,11 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[log]]
+- [[index]]
+- [[concepts/autopoiesis]]
+- [[sources/articles/agem-ooe]]
+- [[concepts/maximum-occupancy-principle]]
+- [[autopoiesis]]
 
 - [[maximum-occupancy-principle]]

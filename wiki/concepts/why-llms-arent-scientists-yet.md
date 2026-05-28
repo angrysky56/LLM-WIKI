@@ -14,6 +14,21 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[entities/tools/claude-code]]
+- [[concepts/agentic-research]]
+- [[index]]
+- [[entities/people/dhruv-trehan]]
+- [[log]]
+- [[concepts/why-llms-arent-scientists-yet]]
+- [[entities/people/paras-chopra]]
+- [[synthesis/seg-scientist-agent-design]]
+- [[entities/tools/gemini]]
+- [[why-llms-arent-scientists-yet]]
 
 - [[llm-reasoning]]
 - [[scientific-discovery]]
+- [[agentic-research]]
+- [[paras-chopra]]
+- [[gemini]]
+- [[claude-code]]
+- [[dhruv-trehan]]

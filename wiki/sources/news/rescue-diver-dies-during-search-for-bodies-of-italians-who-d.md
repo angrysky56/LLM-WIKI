@@ -19,6 +19,8 @@ A rescue diver died while attempting to recover the bodies of Italian tourists w
 | Cave diving carries uniquely high mortality even for experts | Environmental hazards: zero visibility, strong currents, silting |
 
 ## Connections
+- [[sources/news/rescue-diver-dies-during-search-for-bodies-of-italians-who-d]]
+- [[index]]
 
 - [[maldives]] — location
 - [[cave-diving]] — the activity

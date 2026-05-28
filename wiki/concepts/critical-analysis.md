@@ -32,6 +32,19 @@ Evaluating the "so what?" of the research.
 - **Applicability**: Are there social, technological, or medical implications?
 
 ## Connections
+- [[log]]
+- [[concepts/reward-modeling]]
+- [[concepts/scientific-writing]]
+- [[concepts/hidden-states]]
+- [[sources/papers/reward-inside-model-elhsr]]
+- [[sources/articles/critical-review-scientific-article-guide]]
+- [[index]]
+- [[concepts/critical-analysis]]
+- [[concept-index]]
+- [[concepts/academic-peer-review]]
+- [[concepts/edm-framework]]
+- [[concepts/research-methodology]]
+- [[critical-analysis]]
 - [[scientific-writing]]
 - [[research-methodology]]
 - [[edm-framework]]

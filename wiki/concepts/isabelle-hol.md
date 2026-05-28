@@ -14,6 +14,16 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[entities/tools/isabelle]]
+- [[concepts/formal-methods]]
+- [[concepts/isabelle-hol]]
+- [[concepts/formal-verification]]
+- [[index]]
+- [[concepts/proof-assistant]]
+- [[log]]
+- [[concepts/load-bearing-reasoning]]
+- [[concepts/interactive-theorem-proving]]
+- [[isabelle-hol]]
 
 - [[formal-verification]]
 - [[interactive-theorem-proving]]

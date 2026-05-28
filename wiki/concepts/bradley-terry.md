@@ -47,6 +47,10 @@ Bradley-Terry is a **reward-free alternative** to explicit reward models (RMs) f
 Bradley-Terry avoids the overhead of training a separate RM (which can be as large as the generator itself), and the binary comparison signal is richer than a scalar score: "A beats B" encodes direction, not just magnitude. However, Bradley-Terry requires O(N²) comparisons for N candidates (vs. O(N) scoring for a reward model), making it expensive at scale unless rounds are used to reduce the comparison budget.
 
 ## Connections
+- [[index]]
+- [[concepts/bradley-terry]]
+- [[log]]
+- [[bradley-terry]]
 
 - [[opendeepthink-parallel-reasoning]] — Primary empirical source; +405 Elo via Bradley-Terry aggregation on Codeforces
 - [[reward-modeling]] — Bradley-Terry as a reward-free ranking alternative to scalar reward models for Best-of-N selection

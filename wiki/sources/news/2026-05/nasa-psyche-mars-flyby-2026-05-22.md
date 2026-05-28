@@ -22,6 +22,10 @@ NASA's Psyche spacecraft successfully completed a Mars flyby on May 21, 2026, ca
 The mission is humanity's first visit to a metal-rich world. Arrival at 16 Psyche is targeted for 2029.
 
 ## Connections
+- [[sources/news/2026-05/nasa-psyche-mars-flyby-2026-05-22]]
+- [[synthesis/news/2026-may/news-2026-05-22-headlines]]
+- [[index]]
+- [[nasa-psyche-mars-flyby-2026-05-22]]
 - [[nasa]] — Mission operator
 - [[mars]] — Flyby subject
 - [[16-psyche]] — Target asteroid

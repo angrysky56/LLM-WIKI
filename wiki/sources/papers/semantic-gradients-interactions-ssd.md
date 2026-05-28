@@ -47,6 +47,9 @@ Where:
 All coefficient vectors are back-projected from PCA space into original embedding space for interpretability.
 
 ## Connections
+- [[index]]
+- [[sources/papers/semantic-gradients-interactions-ssd]]
+- [[semantic-gradients-interactions-ssd]]
 
 - [[hate-speech-detection]] — annotation bias, demographic moderation in content moderation
 - [[semantic-differential]] — SSD methodology

@@ -93,6 +93,15 @@ ADEPT (2026) trains a token-level confidence predictor jointly with the model:
 5. **Sample-level vs token-level** — should the gate make per-token decisions (as in most MoE) or per-sample decisions (entire sequence exits early)? Task-conditioned routing signatures suggest sample-level may work for classification.
 
 ## Connections
+- [[log]]
+- [[concepts/scaling-laws]]
+- [[concepts/adaptive-computation]]
+- [[concepts/early-exit-networks]]
+- [[concepts/adaptive-budget-learning]]
+- [[concepts/mixture-of-experts]]
+- [[index]]
+- [[concepts/route-collapse-rlhf]]
+- [[adaptive-budget-learning]]
 
 - [[adaptive-computation]] — stub page; this entry substantially fills it
 - [[mixture-of-experts]] — gating is the router in MoE

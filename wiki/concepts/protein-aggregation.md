@@ -14,5 +14,10 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[sources/news/2026-05/alzheimers-breakthrough-2026-05-20]]
+- [[index]]
+- [[log]]
+- [[concepts/protein-aggregation]]
+- [[protein-aggregation]]
 
 - [[alzheimers-research]]

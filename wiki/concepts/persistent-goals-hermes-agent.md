@@ -14,6 +14,12 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[entities/tools/hermes-agent]]
+- [[concepts/markovian-carryover]]
+- [[index]]
+- [[log]]
+- [[concepts/persistent-goals-hermes-agent]]
+- [[persistent-goals-hermes-agent]]
 
 - [[hermes-agent]]
 - [[goal-management]]

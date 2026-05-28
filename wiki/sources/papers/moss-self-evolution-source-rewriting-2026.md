@@ -181,6 +181,14 @@ The paper argues source-level adaptation is superior to text-mutable evolution a
 | EvoAgentX | Application | Text-mutable (workflows) |
 | **MOSS** | **Application** | **Source-level (harness included)** |
 
+## Related
+- [[index]]
+- [[sources/papers/papers-2026-05-22-researched]]
+- [[sources/papers/moss-self-evolution-source-rewriting-2026]]
+- [[sources/papers/awarevln-self-aware-vision-language-navigation-2026]]
+
+- [[moss-self-evolution-source-rewriting-2026]]
+
 ## References
 
 - Original paper: [arXiv:2605.22794v1](https://arxiv.org/abs/2605.22794)

@@ -36,6 +36,10 @@ Kanban is a lean method for managing and improving work across human systems, or
 | 2020 | Coleman & Vacanti publish *The Kanban Guide* |
 
 ## Connections
+- [[sources/articles/kanban-development]]
+- [[index]]
+- [[scratchpad/agent-sheets/librarian/carryover]]
+- [[kanban-development]]
 
 - [[lean-manufacturing]] — Kanban originated from lean manufacturing / Toyota Production System
 - [[scrum]] — Often combined with Scrum (Scrumban); both are agile frameworks

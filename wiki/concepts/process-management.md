@@ -14,6 +14,14 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/lean-manufacturing]]
+- [[concepts/workflow-management]]
+- [[index]]
+- [[concepts/process-management]]
+- [[log]]
+- [[concepts/project-management]]
+- [[process-management]]
 
 - [[workflow-management]]
 - [[project-management]]
+- [[lean-manufacturing]]

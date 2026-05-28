@@ -137,6 +137,12 @@ Run GAAC on page embeddings to find natural topic clusters. Flag similar pages a
 
 
 ## Connections
+- [[synthesis/wiki-indexing-theory]]
+- [[synthesis/synapse-llm-wiki-operating-guide]]
+- [[concepts/tag-taxonomy]]
+- [[index]]
+- [[synthesis/synapse-retrieval-architecture]]
+- [[wiki-indexing-theory]]
 
 - [[synapse-retrieval-architecture]] — the retrieval pipeline these improvements feed into
 - [[graphrag]] — graph-based retrieval; HITS directly applicable

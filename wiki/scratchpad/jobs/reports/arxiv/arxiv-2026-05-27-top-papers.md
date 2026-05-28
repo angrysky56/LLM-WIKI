@@ -72,6 +72,12 @@ Extends Supervised Semantic Differential (SSD) with an interaction term that mod
 
 ---
 
+## Related
+- [[scratchpad/jobs/reports/arxiv/arxiv-2026-05-27-top-papers]]
+- [[index]]
+
+- [[arxiv-2026-05-27-top-papers]]
+
 ## Papers Ingested
 
 | arXiv ID | Slug | Key Finding |

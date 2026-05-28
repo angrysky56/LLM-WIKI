@@ -14,5 +14,11 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[sources/news/man-ploughs-car-into-crowd-in-italy-before-trying-to-stab-th]]
+- [[concepts/terrorism]]
+- [[synthesis/news/vehicle-ramming-attack]]
+- [[log]]
+- [[index]]
+- [[terrorism]]
 
 - [[geopolitics]]

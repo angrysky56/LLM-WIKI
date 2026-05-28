@@ -14,6 +14,12 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/reasoning]]
+- [[log]]
+- [[concepts/code-as-agent-harness]]
+- [[concepts/code-execution]]
+- [[index]]
+- [[code-execution]]
 
 - [[agent-architectures]]
 - [[reasoning]]

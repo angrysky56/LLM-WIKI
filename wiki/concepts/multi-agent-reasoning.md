@@ -51,6 +51,12 @@ A manager agent decomposes a complex goal into sub-goals, assigns each to a spec
 **Key failure mode**: The manager becomes the bottleneck and single point of failure. If the manager lacks the domain knowledge to decompose correctly, the specialists are solving the wrong problems.
 
 ## Connections
+- [[index]]
+- [[concepts/reasoning]]
+- [[concepts/multi-agent-reasoning]]
+- [[log]]
+- [[concepts/parallel-reasoning]]
+- [[multi-agent-reasoning]]
 
 - [[multi-agent-llm-systems]] — Structural taxonomy of multi-agent architectures; multi-agent reasoning is one application of multi-agent systems
 - [[multi-agent-coordination]] — The coordination mechanisms (shared state, message passing, market-based, swarm) that enable multi-agent reasoning
@@ -61,6 +67,7 @@ A manager agent decomposes a complex goal into sub-goals, assigns each to a spec
 - [[process-reward-model]] — PRM as step-level judge could serve as adjudicator in multi-agent debate, scoring each reasoning step rather than just the final answer
 - [[chain-of-thought]] — CoT is single-agent sequential reasoning; multi-agent reasoning can be seen as parallel CoT with interaction
 
+- [[reasoning]]
 ## Open Questions
 
 1. **Optimal team size**: At what number of agents does added diversity hit diminishing returns vs. coordination overhead? Current systems range from 2–10. Does the optimal team size scale with task complexity or domain breadth?

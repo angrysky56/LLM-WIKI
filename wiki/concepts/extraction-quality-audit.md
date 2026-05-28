@@ -14,6 +14,13 @@ confidence: 0.3
 *Stub page — research project*
 
 ## Connections
+- [[log]]
+- [[scratchpad/agent-sheets/librarian/carryover]]
+- [[research/index]]
+- [[concepts/extraction-quality-audit]]
+- [[index]]
+- [[concepts/research-methodology]]
+- [[extraction-quality-audit]]
 
 - [[project-synapse]]
 - [[research-methodology]]

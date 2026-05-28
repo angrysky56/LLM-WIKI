@@ -14,5 +14,11 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[sources/articles/emotion-concepts-llm]]
+- [[concepts/functional-emotions]]
+- [[index]]
+- [[concepts/maximum-occupancy-principle]]
+- [[log]]
+- [[functional-emotions]]
 
 - [[maximum-occupancy-principle]]

@@ -24,6 +24,16 @@ Academic peer review is the "gatekeeping" process of science. It involves the ev
 - **Open review**: All identities are known.
 
 ## Connections
+- [[concepts/critical-review-scientific-article-guide]]
+- [[sources/articles/critical-review-scientific-article-guide]]
+- [[index]]
+- [[concepts/critical-analysis]]
+- [[concept-index]]
+- [[concepts/research-methodology]]
+- [[log]]
+- [[concepts/scientific-writing]]
+- [[concepts/academic-peer-review]]
+- [[academic-peer-review]]
 - [[scientific-writing]]
 - [[critical-analysis]]
 - [[research-methodology]]

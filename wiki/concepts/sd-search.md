@@ -14,6 +14,14 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[log]]
+- [[concepts/sd-search]]
+- [[concepts/process-reward-model]]
+- [[index]]
+- [[concepts/hybrid-reward-models]]
+- [[sd-search]]
 
 - [[process-reward-model]]
 - [[ma-sd-search-2026]]
+
+- [[hybrid-reward-models]]

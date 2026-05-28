@@ -9,6 +9,13 @@ status: stub
 confidence: 0.3
 ---
 
+## Related
+- [[index]]
+- [[synthesis/insights/francesca-albanese-sanctions-case-insight]]
+- [[entities/icc-stub]]
+
+- [[icc-stub]]
+
 # International Criminal Court (stub)
 
 ICC — permanent international tribunal established by the Rome Statute. Has jurisdiction over genocide, war crimes, crimes against humanity, and crime of aggression.

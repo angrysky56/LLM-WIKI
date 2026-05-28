@@ -14,5 +14,10 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[sources/documentation/delegation-parallel-work]]
+- [[log]]
+- [[index]]
+- [[concepts/profiles]]
+- [[profiles]]
 
 - [[hermes-agent]]

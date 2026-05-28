@@ -14,5 +14,11 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[index]]
+- [[concepts/maximum-occupancy-principle]]
+- [[sources/news/2026/china-coal-mine-explosion-shanxi-may-2026]]
+- [[log]]
+- [[concepts/china-energy-security]]
+- [[china-energy-security]]
 
 - [[maximum-occupancy-principle]]

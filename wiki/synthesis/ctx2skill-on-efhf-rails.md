@@ -119,6 +119,13 @@ Output: DAG nodes for each rubric check, with provenance edges
 
 This would make skill evaluation structurally sound — not "the Judge agreed" but "here's the proof chain, here's the consistency report, here's the drift monitor."
 
+## Related
+- [[index]]
+- [[sources/papers/clinseekagent-multimodal-clinical-evidence-seeking]]
+- [[synthesis/ctx2skill-on-efhf-rails]]
+
+- [[ctx2skill-on-efhf-rails]]
+
 ## Why This Matters
 
 Ctx2Skill proves that autonomous skill extraction is possible at all. That's valuable. But its architecture won't generalize beyond the "strong model judges weak model" regime. When you need skills that are safety-critical, cross-domain, or maintained across long time horizons, you need the verification substrate.

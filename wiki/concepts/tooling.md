@@ -14,6 +14,13 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/research-tooling]]
+- [[concepts/tooling]]
+- [[index]]
+- [[log]]
+- [[concepts/devops]]
+- [[tooling]]
 
 - [[mlops]]
 - [[devops]]
+- [[research-tooling]]

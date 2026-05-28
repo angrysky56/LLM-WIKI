@@ -25,6 +25,9 @@ The US trade deficit grew in March 2026 as the tariff regime took effect, compou
 - **Appeal risk**: The administration will likely appeal, prolonging uncertainty and potentially reaching the Supreme Court.
 
 ## Connections
+- [[index]]
+- [[sources/news/2026/us-trade-court-tariff-ruling-may-2026]]
+- [[us-trade-court-tariff-ruling-may-2026]]
 - [[trump-tariffs-2026]] — tariff policy escalation and trade war timeline
 - [[US-China trade]] — impact on ongoing US-China trade negotiations
 - [[transatlantic-trade]] — EU-US deal reached as counterweight to tariff chaos

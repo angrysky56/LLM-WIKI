@@ -23,5 +23,8 @@ Tulsi Gabbard has announced her resignation as US National Intelligence Director
 - 2026-05-23: News widely reported; White House silent on successor
 
 ## Connections
+- [[sources/news/2026/tulsi-gabbard-resigns-intelligence-director-may-2026]]
+- [[index]]
+- [[tulsi-gabbard-resigns-intelligence-director-may-2026]]
 - [[us-intelligence-community]] — ODNI leadership and agency coordination
 - [[trump-administration-national-security]] — pattern of national security departures

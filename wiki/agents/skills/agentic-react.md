@@ -9,6 +9,15 @@ status: reference
 confidence: 0.5
 ---
 
+## Related
+
+- [[concepts/reactive-agents]]
+- [[agents/skills/single-agent]]
+- [[agents/skills/agentic-decision-tree]]
+- [[index]]
+- [[concepts/agentic-planner]]
+- [[agents/skills/agentic-react]]
+
 # Agentic React
 
 Stub page for [[agentic-react]] agent skill.

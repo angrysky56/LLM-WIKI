@@ -14,5 +14,13 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[index]]
+- [[log]]
+- [[concepts/semiconductor-geopolitics]]
+- [[sources/news/2026-05/samsung-strike-2026-05-20]]
+- [[concepts/ai-hardware-supply-chain]]
+- [[semiconductor-geopolitics]]
 
-- [[ai-hardware-supply-chain]]
+- [[ai-hardware-supply-chain]]- [[concepts/sovereign-ai.md]]
+
+- [[sovereign-ai]]

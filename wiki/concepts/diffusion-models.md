@@ -25,5 +25,10 @@ Diffusion models are a class of generative models that learn to generate data by
 See [[generative-ai]] for comparison with autoregressive transformers, VAEs, and GANs.
 
 ## See Also
+- [[concepts/diffusion-models]]
+- [[concepts/generative-ai]]
+- [[index]]
+- [[log]]
+- [[diffusion-models]]
 
 - [[generative-ai]]: parent concept covering all generative model types

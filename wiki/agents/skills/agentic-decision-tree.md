@@ -56,6 +56,13 @@ Is the task atomic — one clear objective, clear stopping condition?
 4. **Flat supervisor on complex domains** — nested layers beat one supervisor managing 10 sub-agents
 
 ## Connections
+- [[agents/skills/hierarchical-supervisor]]
+- [[agents/skills/supervisor-delegation]]
+- [[agents/skills/single-agent]]
+- [[index]]
+- [[agents/skills/agentic-multiagent]]
+- [[agentic-decision-tree]]
+- [[agents/skills/agentic-decision-tree]]
 
 - [[single-agent]] — atomic tasks
 - [[agentic-react]] — exploratory unknown-path tasks

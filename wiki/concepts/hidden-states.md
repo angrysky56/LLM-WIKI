@@ -27,6 +27,23 @@ Research has shown that LLM hidden states contain "inner knowledge"—a represen
 - **OOD Detection**: Hidden states can be used to detect Out-of-Distribution (OOD) inputs or "hallucinations" by identifying activations that deviate from the training distribution (see [[causal-state-edm-ood-isomorphism]]).
 
 ## Connections
+- [[concepts/neural-interpretability]]
+- [[concepts/hidden-states]]
+- [[concepts/inference-time-compute-scaling]]
+- [[concepts/elhsr]]
+- [[concepts/process-reward-model]]
+- [[index]]
+- [[concepts/critical-analysis]]
+- [[log]]
+- [[concepts/kv-cache]]
+- [[synthesis/cross-layer-drift-falsification]]
+- [[sources/papers/reward-inside-model-elhsr]]
+- [[concepts/reward-modeling]]
+- [[concepts/length-generalization]]
+- [[concepts/transformer-architecture]]
+- [[concept-index]]
+- [[concepts/attention-mechanism]]
+- [[hidden-states]]
 
 - **[[reward-modeling]]**: Hidden states provide the raw data for state-based reward signals.
 - **[[causal-state-edm-ood-isomorphism]]**: Explores the isomorphism between internal causal states and external observable behaviors.

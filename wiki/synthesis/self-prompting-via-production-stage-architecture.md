@@ -191,6 +191,19 @@ AlphaEvolve's success suggests that self-modification is more viable when implem
 
 
 
+## Related
+- [[index]]
+- [[synthesis/self-prompting-via-production-stage-architecture]]
+- [[log]]
+- [[scratchpad/jobs/reports/arxiv/arxiv-2026-05-22-top-papers]]
+- [[sources/news/2026/engineering-internal-awareness-and-closed-loop-self-regulation-in-large-language-models]]
+- [[sources/papers/code-as-agent-harness]]
+- [[synthesis/intelligence-as-entropic-sculpting]]
+- [[synthesis/llm-biological-analogies]]
+- [[sources/papers/equilibrium-reasoners-eqr-2026]]
+
+- [[self-prompting-via-production-stage-architecture]]
+
 ## Caveats
 
 - The three-bond topology (Deep-Reasoning, Self-Reflection, Self-Exploration) was operationalized on Long CoT trace data with labelled bonds — the labelling pipeline introduces noise that could overstate distributional stability

@@ -22,5 +22,12 @@ Mamba is a structured state-space model (SSM) designed to compete with Transform
 - **[[titans]]**: Titans builds on the efficiency of models like Mamba but adds a neural long-term memory module to improve performance on million-token contexts.
 
 ## Connections
+- [[concepts/neural-long-term-memory]]
+- [[concepts/titans]]
+- [[entities/tools/mamba]]
+- [[log]]
+- [[index]]
+- [[sources/articles/titans-test-time-memory]]
+- [[mamba]]
 - Concept: [[neural-long-term-memory]]
 - Source: [[titans-test-time-memory]]

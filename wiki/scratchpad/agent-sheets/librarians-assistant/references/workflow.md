@@ -31,6 +31,12 @@ After every 15-20 fixes, write a progress note to:
 
 Write state to: `wiki/scratchpad/agent-sheets/librarians-assistant/carryover.md`
 
+## Related
+- [[index]]
+- [[scratchpad/agent-sheets/librarians-assistant/references/workflow]]
+
+- [[workflow]]
+
 ## STEP 6 — Report
 
 Deliver to origin (Discord thread).

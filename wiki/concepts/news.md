@@ -14,5 +14,9 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[sources/news/2026/search-2026-05-21]]
+- [[index]]
+- [[concepts/news]]
+- [[news]]
 
 - [[maximum-occupancy-principle]]

@@ -81,6 +81,7 @@ This connects agentic planning to [[world-model]] and [[imagination]] (latent sp
 - [[agentic-react]]: reactive planning loop implementation
 - [[multi-agent-llm-systems]]: distributed planning across agents
 - [[imagination]]: internal simulation for plan outcome prediction
+- [[autonomous-agents]]: agentic planning is the core cognitive function that enables autonomous agents to decompose goals and execute multi-step plans
 
 ## Open Questions
 

@@ -66,6 +66,19 @@ Taylor's law is a **power law with a specific constraint**: the exponent `k` mus
 The log-log linear form makes it easy to fit with linear regression, but the same log-log plots make over-fitting easy to miss — always check the range of scales over which the relationship holds.
 
 ## Connections
+- [[log]]
+- [[scratchpad/jobs/reports/librarian/audit-2026-05-23]]
+- [[concepts/inference-time-compute-scaling]]
+- [[concepts/power-law-scaling]]
+- [[scratchpad/jobs/reports/librarian/audit-2026-05-21]]
+- [[concepts/power-law]]
+- [[concepts/scaling-laws]]
+- [[concepts/allometric-scaling]]
+- [[concepts/neural-interpretability]]
+- [[sources/articles/language-evolution]]
+- [[index]]
+- [[concepts/taylors-law]]
+- [[taylors-law]]
 
 - [[power-law]] — the mathematical form; power-law distributions vs scaling relationships
 - [[power-law-scaling]] — the broader category; neural scaling laws as a specific case

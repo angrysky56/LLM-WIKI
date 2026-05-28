@@ -14,6 +14,13 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concept-index]]
+- [[sources/papers/equilibrium-reasoners-eqr-2026]]
+- [[sources/papers/chen-molecular-cot-2026]]
+- [[index]]
+- [[synthesis/self-prompting-via-production-stage-architecture]]
+- [[sources/news/2026-05/chirality-origin-life-2026-05-20]]
+- [[chen-molecular-cot-2026]]
 
 - [[chain-of-thought]]
 - [[molecular-reasoning]]

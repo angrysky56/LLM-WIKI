@@ -14,6 +14,11 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/economics]]
+- [[index]]
+- [[concepts/social-science]]
+- [[log]]
+- [[social-science]]
 
 - [[economics]]
 - [[psychology]]

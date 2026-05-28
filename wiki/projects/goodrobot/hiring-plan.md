@@ -50,6 +50,14 @@ Board (NGO/Think Tank Advisory)
         └── Lead Engineer (Phase 2)
 ```
 
+## Related
+- [[index]]
+- [[projects/goodrobot/active-business-plan]]
+- [[projects/goodrobot/hiring-plan]]
+- [[projects/goodrobot/index]]
+
+- [[hiring-plan]]
+
 ## Board Composition
 
 GoodRobot's board is composed of NGOs and think tanks to ensure ethical oversight:

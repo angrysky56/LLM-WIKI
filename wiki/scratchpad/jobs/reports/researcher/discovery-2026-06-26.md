@@ -44,6 +44,12 @@ Maps onto the MOP-EFHF stack explicitly (L2 = hipai-montague = cognitive world m
 - `persistent-knowledge-compilation.md` not found — only mentioned in links but no dedicated page.
 - The new cognitive world models page introduces a **belief graph** concept (Layer 1) that doesn't exist elsewhere in the vault. No concept page for belief graphs or belief revision specifically.
 
+## Related
+- [[index]]
+- [[scratchpad/jobs/reports/researcher/discovery-2026-06-26]]
+
+- [[discovery-2026-06-26]]
+
 ## Open Questions
 
 1. Should `hipai-montague`, `efhf`, and `persistent-knowledge-compilation` each get dedicated entity/concept pages, or are they sufficiently covered as components of other pages?

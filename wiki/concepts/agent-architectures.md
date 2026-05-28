@@ -88,6 +88,24 @@ Meta-cognitive agents explicitly monitor and regulate their own cognition. They 
 - **Graceful degradation**: When one layer fails, the system should fail safely rather than catastrophically
 
 ## Connections
+- [[concepts/autonomous-agents]]
+- [[concepts/agent-design]]
+- [[index]]
+- [[concepts/futuresim-adaptive-agents]]
+- [[concepts/cognitive-world-models-for-llm-agents]]
+- [[concepts/agents]]
+- [[log]]
+- [[concepts/meta-cognitive-agents]]
+- [[concepts/code-as-agent-harness]]
+- [[concepts/deliberative-agents]]
+- [[concepts/goal-management]]
+- [[concepts/reactive-agents]]
+- [[concepts/code-execution]]
+- [[concepts/collm-nas]]
+- [[concepts/agent-architectures]]
+- [[concepts/planning]]
+- [[concepts/hybrid-agents]]
+- [[agent-architectures]]
 
 - [[agent-design]]: principles for designing agents using these architectures
 - [[autonomous-agents]]: the class of agents these architectures enable
@@ -96,6 +114,16 @@ Meta-cognitive agents explicitly monitor and regulate their own cognition. They 
 - [[cognitive-architecture]]: meta-cognitive layer design
 - [[multi-agent-llm-systems]]: architectures for systems of multiple agents
 
+- [[meta-cognitive-agents]]
+- [[code-execution]]
+- [[planning]]
+- [[hybrid-agents]]
+- [[collm-nas]]
+- [[reactive-agents]]
+- [[cognitive-world-models-for-llm-agents]]
+- [[agents]]
+- [[goal-management]]
+- [[deliberative-agents]]
 ## Open Questions
 
 1. **Architecture selection**: Given a new task, how do we determine which architecture is appropriate? Is there a decision framework, or must it be determined empirically?

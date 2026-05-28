@@ -50,6 +50,9 @@ Two scaling axes:
 4. **Interpretability angle** — attractor basins are empirically observable; the paper provides a framework for mechanistic study of what "thinking longer" actually does
 
 ## Connections
+- [[sources/papers/equilibrium-reasoners-eqr-2026]]
+- [[index]]
+- [[equilibrium-reasoners-eqr-2026]]
 
 - [[chen-molecular-cot-2026]] — molecular CoT three-bond structure maps onto attractor basin topology
 - [[self-prompting-via-production-stage-architecture]] — self-directed compute = attractor navigation

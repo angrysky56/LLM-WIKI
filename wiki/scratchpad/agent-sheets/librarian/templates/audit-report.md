@@ -93,5 +93,11 @@ HITS authority scores identify load-bearing nodes. GAAC clustering identifies mi
 ## Flagged Items (need human judgment)
 - [items requiring Ty decision]
 
+## Related
+- [[scratchpad/agent-sheets/librarian/templates/audit-report]]
+- [[index]]
+
+- [[audit-report]]
+
 ## Vault Health Score
 [1-10 rating with justification based on HITS authority coverage + link reciprocity + tag compliance]

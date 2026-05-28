@@ -14,6 +14,20 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/qora]]
+- [[index]]
+- [[concepts/evolutionary-strategies]]
+- [[concepts/llama-nas]]
+- [[concepts/rz-nas]]
+- [[scratchpad/jobs/reports/researcher/discovery-2026-08-03]]
+- [[concepts/neural-architecture-search]]
+- [[concepts/qes]]
+- [[concepts/essa]]
+- [[concepts/ml-evolution-benchmarking-protocol]]
+- [[concepts/collm-nas]]
+- [[log]]
+- [[ml-evolution-benchmarking-protocol]]
 
 - [[machine-learning]]
 - [[benchmarking]]
+- [[qora]]

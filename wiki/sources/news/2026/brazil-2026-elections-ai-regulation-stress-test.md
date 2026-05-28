@@ -30,6 +30,13 @@ The U.S., EU, and India are all watching Brazil's implementation closely as they
 
 **Wiki connections:** [[AI-policy-federalism]], [[Brazil-AI-governance]]
 
+## Related
+- [[synthesis/news/2026-may/headlines-2026-05-25]]
+- [[sources/news/2026/brazil-2026-elections-ai-regulation-stress-test]]
+- [[index]]
+
+- [[brazil-2026-elections-ai-regulation-stress-test]]
+
 ## Sources
 
 Tech Policy Press (May 14, 2026): "Brazil's 2026 Elections Are Its First Real Stress Test for AI Regulation"

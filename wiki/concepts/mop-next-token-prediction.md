@@ -24,6 +24,13 @@ Can [[maximum-occupancy-principle|MOP's]] path entropy maximization be applied t
 - **Empirical validation needed:** No papers apply MOP to autoregressive LM training from scratch
 
 ## Connections
+- [[log]]
+- [[index]]
+- [[concepts/reinforcement-learning-from-human-feedback]]
+- [[concepts/mop-next-token-prediction]]
+- [[concepts/group-relative-policy-optimization]]
+- [[concepts/maximum-occupancy-principle]]
+- [[mop-next-token-prediction]]
 
 - [[maximum-occupancy-principle]] — source theory
 - [[wolchover-life-force-2026]] — Boltzmann substrate connection

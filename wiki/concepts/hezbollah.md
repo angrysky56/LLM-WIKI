@@ -14,6 +14,12 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[log]]
+- [[synthesis/news/lebanon]]
+- [[concepts/hezbollah]]
+- [[sources/news/fpv-drone-strikes-show-hezbollahs-changing-tactics-against-i]]
+- [[index]]
+- [[hezbollah]]
 
 - [[drone-warfare]]
 - [[geopolitics]]

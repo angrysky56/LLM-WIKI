@@ -26,6 +26,12 @@ Privacy-preserving techniques in AI:
 - Homomorphic encryption
 
 ## Connections
+- [[concepts/data-privacy]]
+- [[log]]
+- [[index]]
+- [[concepts/federated-learning]]
+- [[concepts/privacy-utility-tradeoff]]
+- [[data-privacy]]
 
 - [[privacy-utility-tradeoff]] — the central tradeoff in privacy-preserving ML
 - [[federated-learning]] — a key privacy-preserving technique

@@ -14,5 +14,13 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/maximum-occupancy-principle]]
+- [[sources/news/2026/middle-east-lebanon-hormuz-may-2026]]
+- [[synthesis/news/2026-may/headlines-2026-05-22]]
+- [[log]]
+- [[concepts/russia-ukraine-war]]
+- [[index]]
+- [[sources/news/2026/nato-troops-poland-may-2026]]
+- [[russia-ukraine-war]]
 
 - [[maximum-occupancy-principle]]

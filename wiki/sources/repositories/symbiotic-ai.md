@@ -32,6 +32,9 @@ Key differentiator: It actively challenges you ("You have no money → Repeat. T
 Multi-agent hierarchy available: human → orchestrator → leads → specialists.
 
 ## Connections
+- [[sources/repositories/symbiotic-ai]]
+- [[index]]
+- [[symbiotic-ai]]
 
 - [[hermes-agent]] — Symbiotic AI runs on Hermes
 - [[sovereign-ai]] — related concept of AI as cognitive extension

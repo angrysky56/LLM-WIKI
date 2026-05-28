@@ -38,6 +38,12 @@ A separate but related development: Google's Gemini model solved a different 80-
 3. **Scientific method evolution**: AI is transitioning from tool to collaborator in mathematical research. The question is no longer "can AI do math" but "can we verify what AI discovers."
 4. **Competitive dynamics**: Gemini's 9-to-1 speed advantage in a parallel problem suggests optimization matter — both models could solve it, one was faster.
 
+## Related
+- [[synthesis/news/openai-erdos-math-breakthrough-may-2026]]
+- [[index]]
+
+- [[openai-erdos-math-breakthrough-may-2026]]
+
 ## Open Questions
 
 - Full peer review timeline for o1's proof

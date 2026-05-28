@@ -50,6 +50,9 @@ Verified compatible clients: **Gemini CLI**, **Claude Code**, **Windsurf**
 - Do not open issues directly — discussions are the entry point for all requests
 
 ## Connections
+- [[index]]
+- [[sources/repositories/googlecolab-colab-mcp]]
+- [[googlecolab-colab-mcp]]
 
 - Related: [[mcp]] (MCP protocol generally)
 - Related: [[google-colab]] (the target runtime)

@@ -14,5 +14,10 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[synthesis/news/us-cuba-tensions]]
+- [[index]]
+- [[log]]
+- [[sources/news/2026/raul-castro-indictment-2026]]
+- [[us-cuba-tensions]]
 
 - [[geopolitics]]

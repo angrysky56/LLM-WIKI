@@ -63,6 +63,11 @@ The evaluation problem differs fundamentally from discriminative tasks:
 - **Creative text**: No established metric — Bradley-Terry pairwise ranking in [[parallel-reasoning]] suggests possible approaches
 
 ## Connections
+- [[concepts/diffusion-models]]
+- [[log]]
+- [[index]]
+- [[concepts/generative-ai]]
+- [[concepts/creativity]]
 
 - [[creativity]] — the convergent evaluation phase of creative generation; CFG as divergent/convergent dial
 - [[parallel-reasoning]] — the selection mechanism problem is shared; OpenDeepThink's Bradley-Terry may inform creative selection

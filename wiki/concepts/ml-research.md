@@ -14,6 +14,11 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/ml-research]]
+- [[concepts/ai-research]]
+- [[index]]
+- [[log]]
+- [[ml-research]]
 
 - [[machine-learning]]
 - [[ai-research]]

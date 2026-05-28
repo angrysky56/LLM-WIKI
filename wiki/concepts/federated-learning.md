@@ -26,6 +26,12 @@ Variants include:
 - **Federated transfer learning** — transfer learning across domains
 
 ## Connections
+- [[index]]
+- [[concepts/federated-learning]]
+- [[concepts/privacy-utility-tradeoff]]
+- [[log]]
+- [[concepts/data-privacy]]
+- [[federated-learning]]
 
 - [[data-privacy]] — privacy as the motivation
 - [[privacy-utility-tradeoff]] — tradeoff in federated systems

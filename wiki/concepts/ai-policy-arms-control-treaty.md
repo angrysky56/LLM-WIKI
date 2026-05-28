@@ -83,6 +83,12 @@ The encyclical does not specify which interpretation — this is both a strength
 | Landmine Treaty (1997) | Significant norm change but major non-signatories (US, Russia, China) | Norm pressure matters even without universal participation |
 
 ## Connections
+- [[index]]
+- [[log]]
+- [[sources/articles/pope-leo-ai-encyclical-magnifica-humanitas-may-2026]]
+- [[concepts/ai-policy-global-governance]]
+- [[concepts/ai-policy-arms-control-treaty]]
+- [[ai-policy-arms-control-treaty]]
 
 - [[AI-governance]] — parent concept; arms control is one approach within AI governance
 - [[pope-leo-ai-encyclical-magnifica-humanitas-may-2026]] — the encyclical is the most prominent call for binding AI arms control
@@ -90,6 +96,7 @@ The encyclical does not specify which interpretation — this is both a strength
 - [[public-health-governance]] — parallels to PHEIC frameworks for international coordination on catastrophic risks
 - [[AI-safety]] — arms control is an institutional safety mechanism; overlaps with technical AI safety research but addresses coordination failures
 
+- [[ai-policy-global-governance]]
 ## Sources
 
 - Vatican News, May 28, 2026

@@ -69,6 +69,17 @@ AI governance does not exist in a vacuum. AI systems are developed, deployed, an
 [[institutional-accountability]] describes the organizational structures that keep institutions answerable to their stated purposes. [[institutional-capture]] describes the failure mode when those structures fail. AI governance is in part a matter of designing institutions that govern AI well — which means institutions that are themselves governable.
 
 ## Connections
+- [[concepts/institutional-capture]]
+- [[concepts/institutional-design]]
+- [[log]]
+- [[concepts/reward-modeling]]
+- [[concepts/governance]]
+- [[concepts/accountability]]
+- [[concepts/institutional-accountability]]
+- [[concepts/agentic-oversight]]
+- [[concepts/ai-governance-substrate]]
+- [[index]]
+- [[governance]]
 
 - [[ai-governance-substrate]] — architectural implementation of governance principles
 - [[institutional-accountability]] — organizational structures for accountability

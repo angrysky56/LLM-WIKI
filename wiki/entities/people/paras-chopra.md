@@ -19,5 +19,11 @@ Paras Chopra is the founder of Lossfunk and a researcher interested in how AI ca
 - Multi-agent orchestration
 
 ## Connections
+- [[log]]
+- [[entities/people/dhruv-trehan]]
+- [[entities/people/paras-chopra]]
+- [[index]]
+- [[sources/articles/why-llms-arent-scientists-yet]]
+- [[paras-chopra]]
 - [[dhruv-trehan]] — Research collaborator.
 - [[why-llms-arent-scientists-yet]] — Co-author.

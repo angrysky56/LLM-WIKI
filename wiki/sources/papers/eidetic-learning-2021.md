@@ -36,6 +36,12 @@ The method is shown to be compatible with:
 - **Permuted MNIST**: Achieves near-perfect preservation across 10 tasks.
 - **ResNet on Imagenette/CIFAR-100**: Successfully scales to modern architectures and complex datasets without performance degradation on early tasks.
 
+## Related
+- [[index]]
+- [[sources/papers/eidetic-learning-2021]]
+
+- [[eidetic-learning-2021]]
+
 ## Connections to Synapse Framework
 - **Knowledge Consolidation**: Provides a structural mechanism for how an agent can "remember" early foundational knowledge while learning new complex behaviors.
 - **Structural Isomorphism**: The concept of dedicated subnetworks maps well to the idea of "Knowledge Modules" or specific functional regions in the Synapse graph.

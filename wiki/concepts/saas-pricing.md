@@ -61,6 +61,13 @@ Usage-based aligns revenue with cost structure but creates revenue volatility. H
 - **NRR** (Net Revenue Retention): Expansion revenue - churn; >100% indicates growth within existing base
 
 ## Connections
+- [[log]]
+- [[concepts/saas]]
+- [[projects/goodrobot/index]]
+- [[concepts/saas-pricing]]
+- [[projects/goodrobot/active-business-plan]]
+- [[index]]
+- [[saas-pricing]]
 
 - [[goodrobot]] — archived AI agent SaaS project with documented pricing tiers
 - [[saas]] — broader SaaS business model context

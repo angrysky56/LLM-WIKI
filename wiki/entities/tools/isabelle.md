@@ -66,6 +66,19 @@ The generic architecture means Isabelle can be used for:
 This is unique among major proof assistants — Coq is tied to CIC, Lean to its own logic.
 
 ## Connections
+- [[sources/documentation/isabelle-installation]]
+- [[concepts/formal-methods]]
+- [[concepts/load-bearing-reasoning]]
+- [[concepts/formal-verification]]
+- [[entities/tools/prover9]]
+- [[index]]
+- [[concepts/category-theory]]
+- [[entities/tools/isabelle]]
+- [[concepts/proof-assistant]]
+- [[log]]
+- [[concepts/isabelle-hol]]
+- [[entities/tools/isabelle-hol]]
+- [[isabelle]]
 
 - [[isabelle-hol]] — the concrete instantiation with Higher Order Logic
 - [[proof-assistant]] — the category of tools
@@ -73,3 +86,5 @@ This is unique among major proof assistants — Coq is tied to CIC, Lean to its 
 - [[formal-verification]] — application to seL4 and similar projects
 - [[load-bearing-reasoning]] — potential use in verifying AI reasoning chains
 - [[hermes-agent]] — Hermes could use Isabelle to formally verify agent safety properties
+- [[category-theory]]
+- [[prover9]]

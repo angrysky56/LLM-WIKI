@@ -14,6 +14,14 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[index]]
+- [[concepts/attractor-dynamics]]
+- [[log]]
+- [[concepts/hopfield-network]]
+- [[sources/papers/critical-initialization-biological-neural-networks]]
+- [[concepts/criticality]]
+- [[criticality]]
 
 - [[critical-initialization-biological-neural-networks]]
 - [[hopfield-network]]
+- [[attractor-dynamics]]

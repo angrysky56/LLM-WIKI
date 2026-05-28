@@ -46,6 +46,25 @@ The [[ai-governance-substrate]] concept attempts to build accountability into AI
 [[agentic-oversight]] is the specific application of accountability mechanisms to agentic AI systems, where the question of who is responsible for autonomous actions is particularly acute.
 
 ## Connections
+- [[sources/news/2026/middle-east-lebanon-hormuz-may-2026]]
+- [[concepts/institutional-design]]
+- [[concepts/accountability]]
+- [[sources/israel-ben-gvir-flotilla-video]]
+- [[sources/rubio-declares-cuba-threat]]
+- [[concepts/institutional-accountability]]
+- [[concepts/agentic-oversight]]
+- [[concepts/ai-governance-substrate]]
+- [[index]]
+- [[sources/us-sanctions-francesca-albanese]]
+- [[sources/news/2026/nato-troops-poland-may-2026]]
+- [[concepts/institutional-capture]]
+- [[synthesis/news/2026-may/headlines-2026-05-22]]
+- [[log]]
+- [[sources/news/2026/ebola-bundibugyo-outbreak-drc-uganda-2026]]
+- [[sources/news/2026/alberta-independence-referendum-2026]]
+- [[concepts/governance]]
+- [[sources/ebola-hospital-tents-fire-congo]]
+- [[institutional-accountability]]
 
 - [[institutional-capture]] — the failure mode that accountability mechanisms counter
 - [[governance]] — the broader structure within which accountability operates

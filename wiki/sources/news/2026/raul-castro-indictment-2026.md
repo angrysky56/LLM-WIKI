@@ -38,6 +38,9 @@ The US indictment of Raúl Castro is not primarily about justice for the 1996 pl
 The indictment of a former head of state is extraordinary. The fact that Castro is now 93 and in poor health makes the death penalty exposure particularly notable. Russia and China framing this as "violence" raises the temperature on great power competition around the Caribbean.
 
 ## Connections
+- [[sources/news/2026/raul-castro-indictment-2026]]
+- [[index]]
+- [[raul-castro-indictment-2026]]
 
 Part of the [[china-cuba-us]] conflict dimension. Related to [[us-cuba-tensions]] and the broader great power competition dynamic involving [[russia]] and [[china]].
 

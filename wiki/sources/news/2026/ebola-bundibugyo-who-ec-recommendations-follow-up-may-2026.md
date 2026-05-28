@@ -71,6 +71,9 @@ The task referenced a "May 29/30 attack window risk" — this likely refers to t
 6. **Italy suspected cases** — demonstrates international spread risk; Europe on alert
 
 ## Connections
+- [[sources/news/2026/ebola-bundibugyo-who-ec-recommendations-follow-up-may-2026]]
+- [[index]]
+- [[ebola-bundibugyo-who-ec-recommendations-follow-up-may-2026]]
 
 - [[ebola-outbreak-drc-2026]] — main concept page
 - [[ebola-bundibugyo-who-emergency-committee-may-2026]] — source article for EC meeting

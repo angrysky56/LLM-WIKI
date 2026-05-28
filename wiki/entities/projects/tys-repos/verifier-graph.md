@@ -24,6 +24,30 @@ confidence: 1.0
 - `get_context`: Retrieve the causal ancestors for a specific node.
 
 ## Connections
+- [[sources/papers/proxy-based-shapley-banzhaf-2026]]
+- [[sources/papers/recuriosity-episodic-context-3d-exploration-2026]]
+- [[entities/projects/tys-repos/verifier-graph]]
+- [[sources/papers/cua-gym]]
+- [[log]]
+- [[sources/papers/vector-policy-optimization-vpo-2026]]
+- [[sources/papers/tokenisation-convex-relaxations-2026]]
+- [[synthesis/seg-scientist-agent-design]]
+- [[sources/papers/behavioral-credibility-trilemma]]
+- [[scratchpad/jobs/reports/arxiv/arxiv-2026-05-22-top-papers]]
+- [[sources/papers/awarevln-self-aware-vision-language-navigation-2026]]
+- [[sources/papers/safectrl-rl]]
+- [[sources/papers/boiling-frog-agentic-safety-2026]]
+- [[sources/papers/shannon-scaling-law-2026]]
+- [[scratchpad/jobs/reports/arxiv/arxiv-2026-05-23-top-papers]]
+- [[index]]
+- [[sources/papers/codeskill]]
+- [[sources/papers/forecasting-scientific-progress-ai-2026]]
+- [[sources/papers/legalsearch-r1]]
+- [[sources/papers/alphaproof-nexus-formal-proof-search-2026]]
+- [[entities/projects/tys-repos]]
+- [[verifier-graph]]
 - [[efhf]] — Provides reasoning provenance for the entire stack.
 - [[agem]] — Used to track the "evolution" of agent thoughts.
 - [[tys-repos]] — Part of Ty's repository collection.
+
+- [[recuriosity-episodic-context-3d-exploration-2026]]

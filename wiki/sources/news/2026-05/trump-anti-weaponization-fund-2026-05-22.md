@@ -23,6 +23,10 @@ The fund represents a structural corruption mechanism that repurposes DOJ as a p
 - **Accountability vacuum** — No transparent criteria for who receives funds, enabling selective prosecution/differential protection
 
 ## Connections
+- [[sources/news/2026-05/trump-anti-weaponization-fund-2026-05-22]]
+- [[synthesis/news/2026-may/news-2026-05-22-headlines]]
+- [[index]]
+- [[trump-anti-weaponization-fund-2026-05-22]]
 - [[doj]] — Operating agency
 - [[trump-administration]] — Principal
 - [[institutional-capture-vs-species-framing]] — Institutional capture analysis thread

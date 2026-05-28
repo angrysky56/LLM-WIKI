@@ -31,6 +31,9 @@ US Secretary of State Marco Rubio publicly declared Cuba a national security thr
 3. **Difficult to separate from Iran diplomacy**: The US simultaneously needs Qatar's mediation help on Iran. Tensions in the Western Hemisphere may complicate signals being sent through the same Gulf channels.
 
 ## Connections
+- [[sources/rubio-declares-cuba-threat]]
+- [[index]]
+- [[rubio-declares-cuba-threat]]
 - [[china-cuba-tensions]] — direct continuation of Chinese surveillance facility story
 - [[taiwan-strait-dynamics]] — simultaneous US-China pressure on Taiwan and in Cuba
 - [[institutional-accountability]] — Rubio's stance as a political performance vs. strategic necessity

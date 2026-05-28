@@ -14,5 +14,10 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[synthesis/news/public-health-emergency-of-international-concern]]
+- [[log]]
+- [[index]]
+- [[sources/news/who-declares-ebola-outbreak-in-dr-congo-an-international-eme]]
+- [[public-health-emergency-of-international-concern]]
 
 - [[who]]

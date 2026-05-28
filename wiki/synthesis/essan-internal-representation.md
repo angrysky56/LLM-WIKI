@@ -341,6 +341,13 @@ Start with the 7 ARC tokens. The multi-symbol sequences (like `⧬⦿⧈⧉⧿�
 
 
 
+## Related
+- [[index]]
+- [[synthesis/essan-internal-representation]]
+- [[concepts/emergent-communication]]
+
+- [[essan-internal-representation]]
+
 ## Status History
 
 - 2026-05-22: Initial draft from three-agent parallel investigation (MCP logic + pidgin + vector encoding). Training framework documented.

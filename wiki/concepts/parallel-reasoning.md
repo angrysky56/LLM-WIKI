@@ -52,6 +52,20 @@ Key properties:
 For multi-step reasoning, the pairwise comparison must happen at the step level — asking "which sub-step gets closer to the goal?" — not just at the final answer level. Process Reward Models (PRMs) approximate this by providing per-step scores. OpenDeepThink's Bradley-Terry aggregation could potentially be combined with PRM step-level scores for better intermediate ranking.
 
 ## Connections
+- [[scratchpad/jobs/reports/researcher/discovery-2026-07-03]]
+- [[concepts/bradley-terry]]
+- [[concepts/multi-agent-reasoning]]
+- [[log]]
+- [[concepts/opendeepthink-parallel-reasoning]]
+- [[index]]
+- [[concepts/generative-ai]]
+- [[concepts/imagination]]
+- [[scratchpad/agent-sheets/librarian/carryover]]
+- [[concepts/parallel-reasoning]]
+- [[concepts/creativity]]
+- [[concepts/chain-of-thought]]
+- [[concepts/shorthand-for-thought]]
+- [[parallel-reasoning]]
 
 - [[llm-reasoning]] — Base reasoning capability; parallel reasoning is test-time scaling applied to base reasoning
 - [[chain-of-thought]] — CoT generates the single trace that parallel reasoning then parallelizes; CoT is the atomic unit of parallel reasoning
@@ -62,6 +76,10 @@ For multi-step reasoning, the pairwise comparison must happen at the step level 
 - [[inference-time-compute-scaling]] — The broader category; parallel reasoning is a specific architecture within it
 - [[opendeepthink-parallel-reasoning]] — The arXiv paper source; primary empirical evidence for Bradley-Terry aggregation
 
+- [[bradley-terry]]
+- [[imagination]]
+- [[generative-ai]]
+- [[creativity]]
 ## Open Questions
 
 1. **Parallel reasoning with non-verifiable outputs**: Bradley-Terry and self-consistency both degrade on subjective tasks where "correct" is not ground-truthable. What selection mechanism works when outputs are essays, narratives, or nuanced opinions?

@@ -80,6 +80,16 @@ Results tagged `in_vector: True` and/or `in_bm25: True` for debugging.
 - `generate_insights()` — Zettelkasten engine, unchanged
 
 ## Connections
+- [[synthesis/wiki-indexing-theory]]
+- [[agents/markovian-dev-agency/soul]]
+- [[synthesis/bounded-structured-memory]]
+- [[concept-index]]
+- [[sources/papers/code-as-agent-harness]]
+- [[synthesis/synapse-llm-wiki-operating-guide]]
+- [[concepts/markovian-carryover]]
+- [[index]]
+- [[synthesis/synapse-retrieval-architecture]]
+- [[synapse-retrieval-architecture]]
 
 - [[project-synapse]] — the system this lives in
 - [[graphrag]] — the broader paradigm this implements

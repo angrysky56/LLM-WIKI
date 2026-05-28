@@ -43,6 +43,12 @@ tags: [agem-expert, reference]
 4. sheaf-consistency-enforcer:get_closure_status   → check cross-tool consistency
 ```
 
+## Related
+- [[agents/skills/agem-expert/references/strategies]]
+- [[index]]
+
+- [[strategies]]
+
 ## Strategy 4: Value-Anchored Analysis (alignment-sensitive)
 
 ```

@@ -30,6 +30,20 @@ confidence: 1.0
 - `check_drift`: Evaluate metrics against drift thresholds.
 
 ## Connections
+- [[entities/projects/tys-repos/agem]]
+- [[entities/projects/tys-repos/efhf]]
+- [[entities/people/tyler-hall]]
+- [[index]]
+- [[entities/projects/tys-repos]]
+- [[log]]
+- [[entities/projects/tys-repos/conscience-servitor]]
+- [[synthesis/seg-scientist-agent-design]]
+- [[synthesis/cross-layer-drift-falsification]]
+- [[entities/projects/tys-repos/toward-transcendent-moral-instrumentality]]
+- [[entities/projects/tys-repos/mcp-coordinator]]
+- [[conscience-servitor]]
 - [[efhf]] — Layer 5+ meta-orchestrator.
 - [[toward-transcendent-moral-instrumentality]] — The ethical framework being enforced.
 - [[tys-repos]] — Part of Ty's repository collection.
+
+- [[mcp-coordinator]]

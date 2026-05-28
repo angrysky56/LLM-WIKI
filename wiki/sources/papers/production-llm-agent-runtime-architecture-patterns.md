@@ -34,6 +34,9 @@ The [[production-stage-architecture]] synthesis already identifies the productio
 Connects to: [[chain-of-thought]] (as a runtime reasoning pattern), [[load-bearing-reasoning]] (the boundary as load-bearing), [[waldis-instructions-shape-language-2026]] (how instructions structure production behavior).
 
 ## Connections
+- [[index]]
+- [[sources/papers/production-llm-agent-runtime-architecture-patterns]]
+- [[production-llm-agent-runtime-architecture-patterns]]
 - [[llm-agent-architecture]]
 - [[production-stage-architecture]]
 - [[load-bearing-reasoning]]

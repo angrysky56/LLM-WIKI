@@ -45,6 +45,27 @@ AlphaEvolve instantiates the [[minimal-generative-architectures]] pattern: minim
 Compared to [[utimula-openpraparat-2025]]: AlphaEvolve is *guided* evolution (has fitness function); OpenPraparat is *guideless* (natural selection only). Both use the same loop structure, but AlphaEvolve's LLM mutations are dramatically more efficient than random character flips.
 
 ## Connections
+- [[index]]
+- [[sources/articles/why-llms-arent-scientists-yet]]
+- [[concepts/mathematical-reasoning-ai]]
+- [[concepts/maximum-occupancy-principle]]
+- [[concepts/eml-operator]]
+- [[sources/articles/llm-kernel-optimization]]
+- [[sources/articles/momoa-researcher]]
+- [[log]]
+- [[scratchpad/agent-sheets/librarian/carryover]]
+- [[sources/papers/vector-policy-optimization-vpo-2026]]
+- [[concepts/ai-scientific-discovery]]
+- [[concepts/openpraparat]]
+- [[entities/projects/alphaevolve]]
+- [[sources/news/2026/transformer-vm-moran-2026]]
+- [[concepts/open-ended-evolution]]
+- [[concepts/symbolic-regression]]
+- [[concept-index]]
+- [[sources/papers/utimula-openpraparat-2025]]
+- [[synthesis/news/openai-research]]
+- [[concepts/agentic-research]]
+- [[alphaevolve]]
 
 - [[llm-kernel-optimization]] — detailed technical analysis of the approach
 - [[minimal-generative-architectures]] — MGA pattern instantiation
@@ -56,3 +77,8 @@ Compared to [[utimula-openpraparat-2025]]: AlphaEvolve is *guided* evolution (ha
 - [[momoa-researcher]] — AI research agent context
 - [[agentic-research]] — The broader paradigm of autonomous AI-led scientific discovery.
 - [[causal-state-edm-ood-isomorphism]] — AI-generated algorithmic breakthroughs as high-Δ disruption events
+
+- [[ai-scientific-discovery]]
+- [[transformer-vm-moran-2026]]
+- [[mathematical-reasoning-ai]]
+- [[openpraparat]]

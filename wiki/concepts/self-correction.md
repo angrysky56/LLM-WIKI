@@ -78,6 +78,27 @@ Self-correction reduces the brittleness of LLM outputs. Without it, errors propa
 For agentic systems, self-correction at the action level prevents cascading failures — catching a bad tool call before it happens is better than correcting the output.
 
 ## Connections
+- [[concepts/load-bearing-reasoning]]
+- [[concepts/engineering-internal-awareness]]
+- [[concepts/process-reward-model]]
+- [[concepts/agent-taxonomies]]
+- [[concepts/generative-ai]]
+- [[scratchpad/jobs/reports/librarian/audit-2026-05-21]]
+- [[concepts/chain-of-thought]]
+- [[concepts/imagination]]
+- [[concepts/cognitive-architecture]]
+- [[concepts/agentic-reasoning]]
+- [[concepts/parallel-reasoning]]
+- [[concepts/llm-reasoning]]
+- [[concepts/reward-hacking]]
+- [[concepts/agentic-research]]
+- [[index]]
+- [[concepts/metacognitive-architecture-closed-loop-self-regulation]]
+- [[scratchpad/jobs/reports/researcher/discovery-2026-05-22]]
+- [[concepts/multi-agent-reasoning]]
+- [[concepts/self-correction]]
+- [[log]]
+- [[self-correction]]
 
 - [[metacognitive-architecture-closed-loop-self-regulation]] — The formal control-theory version; self-correction can be seen as the behavioral output of metacognitive monitoring
 - [[oMCD]] — The formal framework for metacognitive control; Epsilon and Beta archetypes implement self-correction
@@ -91,6 +112,12 @@ For agentic systems, self-correction at the action level prevents cascading fail
 - Concept: [[reward-hacking]]
 
 
+- [[parallel-reasoning]]
+- [[llm-reasoning]]
+- [[imagination]]
+- [[multi-agent-reasoning]]
+- [[generative-ai]]
+- [[agentic-reasoning]]
 ## Limitations
 
 - **Self-trust bias**: Models often fail to catch errors they are capable of catching if the error is on a topic where the model is overconfident

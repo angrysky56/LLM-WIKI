@@ -23,6 +23,15 @@ A New York Times poll published May 18, 2026 shows President Trump's approval ra
 - The New York Times: "Trump's Approval Sinks Amid Unpopular War, Darkening G.O.P. Prospects" (May 18, 2026)
 - The Times of Israel: "NYT Times poll finds waning support for Trump, Iran war, Israel among US voters"
 
+## Related
+- [[sources/news/2026-05/trump-approval-war-polling-2026-05-18]]
+- [[synthesis/news/2026-may/news-2026-05-18-headlines]]
+- [[index]]
+- [[trump-approval-war-polling-2026-05-18]]
+- [[trump-approval-war-polling-2026-05-18.md]]
+
+- [[wiki/sources/news/2026-05/trump-approval-war-polling-2026-05-18.md]]
+
 ## Wiki Connections
 - [[trump-administration]]
 - [[iran-war]]

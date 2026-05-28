@@ -14,6 +14,13 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[index]]
+- [[entities/tools/obsidian]]
+- [[log]]
+- [[concepts/llm-wiki-pattern]]
+- [[concepts/obsidian-git-setup]]
+- [[obsidian-git-setup]]
 
 - [[obsidian]]
 - [[version-control]]
+- [[obsidian]]

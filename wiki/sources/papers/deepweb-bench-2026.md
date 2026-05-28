@@ -49,6 +49,9 @@ Frontier deep research products score high on existing benchmarks, making capabi
 4. **Agentic research connection** — deep research is the primary use case for agentic AI; this benchmark isolates exactly where current agents fail (derivation, not retrieval)
 
 ## Connections
+- [[sources/papers/deepweb-bench-2026]]
+- [[index]]
+- [[deepweb-bench-2026]]
 
 - [[agentic-research]] — DeepWeb-Bench is the evaluation substrate for autonomous research agents
 - [[graphrag]] — graph traversal helps with cross-source reconciliation but not derivation depth

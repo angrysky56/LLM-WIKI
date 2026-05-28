@@ -71,6 +71,12 @@ Context: This comes after Trump threatened 25% tariffs on EU cars (May 1), a US 
 
 ---
 
+## Related
+- [[synthesis/news/2026-may/headlines-2026-05-24]]
+- [[index]]
+
+- [[headlines-2026-05-24]]
+
 ## Carryover Updated
 
 `jobs/reports/news/carryover.md` — Updated with new Ebola escalation details, SpaceX V3 success supporting IPO narrative, EU-US deal status, and monitoring priorities for next cycle.

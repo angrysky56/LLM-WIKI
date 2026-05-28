@@ -40,5 +40,31 @@ This page serves as a central hub for the various projects and repositories deve
 - [[project-synapse-mcp]] — Autonomous knowledge synthesis (The tool behind this wiki).
 
 ## Connections
+- [[entities/projects/tys-repos/graph-rlm]]
+- [[entities/projects/tys-repos/efhf]]
+- [[concepts/agentic-research]]
+- [[entities/projects/tys-repos/mcp-logic]]
+- [[entities/projects/tys-repos/toward-transcendent-moral-instrumentality]]
+- [[entities/projects/tys-repos/aseke-compass-mcp]]
+- [[index]]
+- [[sources/repositories/sentience-metaphysics]]
+- [[entities/projects/tys-repos]]
+- [[entities/projects/tys-repos/verifier-graph]]
+- [[sources/repositories/project-synapse-mcp]]
+- [[entities/projects/tys-repos/ethical-ai-core]]
+- [[log]]
+- [[entities/projects/tys-repos/conscience-servitor]]
+- [[entities/projects/tys-repos/nexus]]
+- [[entities/projects/meta-harness]]
+- [[entities/projects/tys-repos/sentience-metaphysics]]
+- [[entities/projects/tys-repos/sheaf-consistency-enforcer]]
+- [[entities/projects/tys-repos/mcp-coordinator]]
+- [[entities/people/tyler-hall]]
+- [[entities/projects/tys-repos/advanced-reasoning-mcp]]
+- [[entities/projects/tys-repos/agem]]
+- [[entities/projects/tys-repos/project-synapse-mcp]]
+- [[entities/projects/tys-repos/ast-mcp-server]]
+- [[entities/projects/tys-repos/hipai-montague]]
+- [[tys-repos]]
 - [[agentic-research]] — Many of these tools support autonomous research workflows.
 - [[tyler-hall]] — The developer behind these projects.

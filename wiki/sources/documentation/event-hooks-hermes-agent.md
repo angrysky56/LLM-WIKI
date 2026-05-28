@@ -29,6 +29,9 @@ Hermes has three independent hook systems that run custom code at lifecycle poin
 Gateway events include: `gateway:startup`, `agent:start`, `agent:end`, `agent:step`, `command:*`, `tool:*`, `error:*`.
 
 ## Connections
+- [[sources/documentation/event-hooks-hermes-agent]]
+- [[index]]
+- [[event-hooks-hermes-agent]]
 
 - [[hermes-agent]] — parent system
 - [[webhook-subscriptions]] — webhook delivery pattern related to gateway hooks

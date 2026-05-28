@@ -63,6 +63,10 @@ This creates a direct California vs. federal divergence on AI policy, with Calif
 - **May 22, 2026**: Reports detail state subsidies for non-displacing companies; Trump administration abandons federal AI order
 
 ## Connections
+- [[sources/news/2026/trump-ai-executive-order-abandoned-may-2026]]
+- [[index]]
+- [[sources/news/2026/california-ai-worker-protection-order-2026]]
+- [[california-ai-worker-protection-order-2026]]
 
 - [[AI-policy-federalism]] — California/federal divergence on AI regulation
 - [[public-health-governance]] — Framework parallels between California's AI preparation and pandemic preparedness (anticipatory vs. reactive)

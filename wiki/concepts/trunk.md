@@ -14,5 +14,13 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[log]]
+- [[concepts/trunk]]
+- [[sources/documentation/github-actions-troubleshooting]]
+- [[index]]
+- [[concepts/maximum-occupancy-principle]]
+- [[trunk]]
 
 - [[maximum-occupancy-principle]]
+
+- [[github-actions-troubleshooting]]

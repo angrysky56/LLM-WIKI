@@ -61,6 +61,12 @@ All 50 stubs mapped to one of:
 2. **Schema competition** — blocked indefinitely, needs meta-harness project context
 3. **agentic-react concept gap** (low priority) — coverage adequate via the agentic-react skill; concept page would be redundant per carryover assessment
 
+## Related
+- [[scratchpad/jobs/reports/researcher/discovery-2026-08-08]]
+- [[index]]
+
+- [[discovery-2026-08-08]]
+
 ## Stub Count
 
 **49 → 47** (net -2 from today's upgrades). Cluster coverage solid; focus should shift to empirical open items from kanban.

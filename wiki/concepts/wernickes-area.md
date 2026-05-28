@@ -25,6 +25,14 @@ Damage results in **Receptive Aphasia**:
 - **Anosognosia**: Patients are often unaware that their own speech does not make sense.
 
 ## Connections
+- [[concepts/arcuate-fasciculus]]
+- [[sources/articles/brocas-area-gemini-chat]]
+- [[concepts/wernickes-area]]
+- [[index]]
+- [[concept-index]]
+- [[concepts/brocas-area]]
+- [[synthesis/llm-biological-analogies]]
+- [[wernickes-area]]
 - [[brocas-area]]: The production counterpart.
 - [[arcuate-fasciculus]]: The neural bridge connecting Wernicke's to Broca's.
 - [[llm-biological-analogies]]: Analogy to Attention and Embedding layers in LLMs.

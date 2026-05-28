@@ -99,6 +99,7 @@ The three-layer model here maps directly to MOP:
 - [[mop-architecture]]: the general pattern this implements
 - [[hermes-agent]]: the agent using this memory architecture
 - [[cognitive-architecture]]: the cognitive science foundation (episodic/semantic/procedural memory division is well-established in psychology)
+- [[autonomous-agents]]: autonomous agents depend on bounded structured memory for session-level continuity and cross-session persistence
 
 ## Open Questions
 

@@ -14,5 +14,10 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/workflow-management]]
+- [[index]]
+- [[concepts/process-management]]
+- [[sources/articles/kanban-development]]
+- [[workflow-management]]
 
 - [[process-management]]

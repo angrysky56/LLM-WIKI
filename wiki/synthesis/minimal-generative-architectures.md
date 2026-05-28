@@ -171,6 +171,17 @@ The original [[mop-edm-cognitive-architecture]] maps MOP into EFHF as Layer 0. A
 
 
 ## Connections
+- [[entities/projects/alphaevolve]]
+- [[synthesis/causal-state-edm-ood-isomorphism]]
+- [[synthesis/minimal-generative-architectures]]
+- [[synthesis/intelligence-as-entropic-sculpting]]
+- [[sources/news/2026/transformer-vm-moran-2026]]
+- [[sources/news/2026/wolchover-life-force-2026]]
+- [[index]]
+- [[sources/articles/llm-kernel-optimization]]
+- [[synthesis/mop-edm-cognitive-architecture]]
+- [[concepts/openpraparat]]
+- [[minimal-generative-architectures]]
 
 - [[mop-edm-cognitive-architecture]] — parent synthesis; this page extends it with embodied/evolutionary/computational dimensions
 - [[maximum-occupancy-principle]] — foundational theory; OpenPraparat validates its predictions empirically

@@ -14,6 +14,14 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[sources/news/how-worrying-is-the-ebola-outbreak-in-dr-congo]]
+- [[index]]
+- [[sources/articles/ebola-bundibugyo-drc-uganda-may-2026]]
+- [[synthesis/news/public-health-emergency-of-international-concern]]
+- [[log]]
+- [[entities/people/who]]
+- [[sources/news/who-declares-ebola-outbreak-in-dr-congo-an-international-eme]]
+- [[who]]
 
 - [[public-health]]
 - [[ebola-outbreak-2026]]

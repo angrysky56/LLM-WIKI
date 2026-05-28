@@ -31,6 +31,13 @@ GoodRobot's Local Lead-Gen Business Plan outlines customer acquisition for local
 
 ---
 
+## Related
+- [[projects/goodrobot/local-lead-gen]]
+- [[index]]
+- [[projects/goodrobot/index]]
+
+- [[local-lead-gen]]
+
 ## Lead Generation Channels
 
 ### Channel 1: Paid Search (Google Ads)

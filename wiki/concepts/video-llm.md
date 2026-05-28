@@ -65,6 +65,13 @@ A notable result: synthetic-only training (on simple geometric primitives) trans
 3. **Synthetic instruction tuning teaches geometry, not amplitude.** Models learn the structure of motion direction but the signal weakens in new domains. Fixing magnitude recovers performance.
 
 ## Connections
+- [[index]]
+- [[concepts/vision-language-alignment]]
+- [[concepts/video-llm]]
+- [[concepts/motion-understanding]]
+- [[concepts/maximum-occupancy-principle]]
+- [[log]]
+- [[video-llm]]
 
 - [[vision-language-alignment]] — alignment between visual and language representations
 - [[motion-understanding]] — temporal dynamics and motion perception

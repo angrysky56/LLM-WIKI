@@ -42,6 +42,12 @@ An Air France flight from Paris to Detroit was diverted to Montreal after a pass
 - [[who-declares-ebola-outbreak-in-dr-congo-an-international-eme]] — WHO emergency declaration
 - [[hantavirus-cruise-outbreak-2026-05-17]] — cruise ship outbreak comparison
 
+## Related
+- [[index]]
+- [[sources/news/2026-05/us-flight-diverts-ebola-passenger-2026-05-21]]
+
+- [[us-flight-diverts-ebola-passenger-2026-05-21]]
+
 ## Tags
 
 #ebola #health #aviation #screening #drc

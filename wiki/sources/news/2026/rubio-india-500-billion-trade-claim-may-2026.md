@@ -33,6 +33,9 @@ India has been one of the few countries engaged in active trade negotiation with
 4. **AI and tech policy intersection** — India is a critical actor in global AI governance discussions; a broken trade relationship reduces US leverage in getting India to align on AI standards, data flows, or technology transfer rules.
 
 ## Connections
+- [[sources/news/2026/rubio-india-500-billion-trade-claim-may-2026]]
+- [[index]]
+- [[rubio-india-500-billion-trade-claim-may-2026]]
 - [[trump-tariffs]] — Trump tariff policy framework, tariff court ruling
 - [[AI-policy-federalism]] — India AI governance guidelines and their role in global AI policy alignment
 

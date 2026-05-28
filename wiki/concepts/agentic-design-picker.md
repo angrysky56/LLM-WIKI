@@ -101,12 +101,24 @@ Task decomposed cleanly?
 | Hierarchical | Nested parallel workstreams | Pipeline (nested vs linear) |
 
 ## Connections
+- [[concepts/spiral-architecture]]
+- [[log]]
+- [[concepts/multi-agent-llm-systems]]
+- [[sources/articles/choosing-right-agentic-design-pattern]]
+- [[scratchpad/agent-sheets/researcher/carryover]]
+- [[concepts/agentic-research]]
+- [[index]]
+- [[sources/articles/designing-agentic-design-picker]]
+- [[agents/skills/librarian-agent/skill]]
+- [[concepts/agentic-design-picker]]
+- [[agentic-design-picker]]
 
 - [[multi-agent-llm-systems]] — the five patterns this picker selects among
 - [[agentic-planner]] — planning is the cognitive function that drives decomposition in supervisor and hierarchical patterns
 - [[agentic-hierarchy]] — hierarchical organizational structure for multi-agent systems
 - [[agents]] — parent concept for agent taxonomy
 
+- [[agentic-research]]
 ## Open Questions
 
 1. **Can a task change coordination pattern mid-execution?** Most systems fix the pattern at design time, but a truly adaptive agent might promote from Pipeline → Supervisor-Worker when decomposition reveals structure. No established pattern for dynamic migration.

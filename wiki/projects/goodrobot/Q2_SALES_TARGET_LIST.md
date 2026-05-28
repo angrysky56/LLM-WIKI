@@ -99,6 +99,13 @@ Smaller or less digitally visible firms requiring research validation:
 
 ---
 
+## Related
+- [[projects/goodrobot/q2_sales_target_list]]
+- [[projects/goodrobot/index]]
+- [[index]]
+
+- [[q2_sales_target_list]]
+
 ## Success Metrics
 
 | Metric | Target | Current |

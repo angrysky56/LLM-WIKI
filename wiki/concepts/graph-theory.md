@@ -14,6 +14,12 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/network-theory]]
+- [[index]]
+- [[concepts/graph-theory]]
+- [[concepts/hilbert-hotel-graph-architecture]]
+- [[log]]
+- [[graph-theory]]
 
 - [[knowledge-graph]]
 - [[network-theory]]

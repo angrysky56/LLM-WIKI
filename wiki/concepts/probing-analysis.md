@@ -14,5 +14,17 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/probing-analysis]]
+- [[concepts/video-llm]]
+- [[concepts/motion-understanding]]
+- [[index]]
+- [[concepts/vision-language-alignment]]
+- [[concepts/maximum-occupancy-principle]]
+- [[log]]
+- [[probing-analysis]]
 
 - [[maximum-occupancy-principle]]
+
+- [[motion-understanding]]
+- [[vision-language-alignment]]
+- [[video-llm]]

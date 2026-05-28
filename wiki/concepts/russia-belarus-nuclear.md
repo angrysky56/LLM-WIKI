@@ -14,5 +14,12 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/russia-belarus-nuclear]]
+- [[index]]
+- [[concepts/maximum-occupancy-principle]]
+- [[sources/news/2026/middle-east-lebanon-hormuz-may-2026]]
+- [[synthesis/news/2026-may/headlines-2026-05-22]]
+- [[log]]
+- [[russia-belarus-nuclear]]
 
 - [[maximum-occupancy-principle]]

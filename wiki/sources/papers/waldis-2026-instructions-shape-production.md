@@ -14,6 +14,10 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[sources/papers/waldis-2026-instructions-shape-production]]
+- [[index]]
+- [[synthesis/self-prompting-via-production-stage-architecture]]
+- [[waldis-2026-instructions-shape-production]]
 
 - [[instruction-tuning]]
 - [[model-behavior]]

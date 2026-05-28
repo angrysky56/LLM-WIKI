@@ -14,6 +14,19 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concept-index]]
+- [[log]]
+- [[entities/tools/obsidian]]
+- [[concepts/obsidian-cli-skill]]
+- [[concepts/llm-wiki-pattern]]
+- [[sources/documentation/obsidian-git-setup]]
+- [[entities/tools/obsidian-skills-repo]]
+- [[index]]
+- [[obsidian-cli-skill]]
 
 - [[obsidian]]
 - [[knowledge-management]]
+- [[obsidian-git-setup]]
+- [[knowledge-management]]
+- [[obsidian-skills-repo]]
+- [[obsidian]]

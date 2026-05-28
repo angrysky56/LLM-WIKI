@@ -68,6 +68,20 @@ The key insight from SD-Search: GRPO's trajectory-level advantage averages over 
 3. **Credit assignment within groups**: GRPO distributes uniform advantage within a trajectory but doesn't differentiate between steps. SD-Search's token-level JSD distillation addresses this for search-augmented reasoning — but for general tasks, how should within-group credit be assigned?
 
 ## Connections
+- [[concepts/constitutional-ai]]
+- [[concepts/maximum-occupancy-principle]]
+- [[concepts/llm-training]]
+- [[log]]
+- [[concepts/mop-and-rlhf-interaction]]
+- [[concepts/inference-time-compute-scaling]]
+- [[index]]
+- [[concepts/evolutionary-strategies]]
+- [[concepts/reward-modeling]]
+- [[concepts/reinforcement-learning-from-human-feedback]]
+- [[concepts/mop-next-token-prediction]]
+- [[concepts/reward-hacking]]
+- [[concepts/group-relative-policy-optimization]]
+- [[concepts/essa]]
 
 - [[reward-modeling]] — GRPO is the RL algorithm used to optimize reward models in LLM training
 - [[inference-time-compute-scaling]] — SD-Search uses GRPO + self-distillation for step-level credit assignment
@@ -80,3 +94,5 @@ The key insight from SD-Search: GRPO's trajectory-level advantage averages over 
 - Concept: [[mop-next-token-prediction]]
 - Concept: [[reinforcement-learning-from-human-feedback]]
 - Concept: [[reward-hacking]]
+
+- [[essa]]

@@ -72,6 +72,18 @@ This is parallel to weight-level continual learning methods, but operates at inf
 4. **Relationship to episodic memory**: NAMM is effectively an episodic memory mechanism operating at the attention level. How does this connect to the MOP schema-based episodic memory?
 
 ## Connections
+- [[concepts/namm]]
+- [[scratchpad/jobs/reports/researcher/discovery-2026-07-20]]
+- [[log]]
+- [[concepts/rz-nas]]
+- [[concepts/kv-cache]]
+- [[sources/articles/ml-evolution-benchmarking-protocol]]
+- [[concepts/qes]]
+- [[concepts/control-llm]]
+- [[concepts/continual-learning]]
+- [[concepts/llm-inference]]
+- [[index]]
+- [[concepts/catastrophic-forgetting]]
 
 - [[kv-cache]]: the underlying mechanism NAMM learns to manage
 - [[llm-inference]]: NAMM is an inference-time optimization for memory management
@@ -80,3 +92,7 @@ This is parallel to weight-level continual learning methods, but operates at inf
 - [[namm]]: self-reference
 - [[maximum-occupancy-principle]]: MOP's memory budget concepts may inform principled NAMM cache sizing
 - [[bounded-structured-memory]]: both deal with bounded memory management; NAMM at the attention layer, BSM at the agent scaffolding level
+- [[continual-learning]]
+- [[qes]]
+- [[ml-evolution-benchmarking-protocol]]
+- [[rz-nas]]

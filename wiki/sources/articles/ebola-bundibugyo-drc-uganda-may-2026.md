@@ -47,6 +47,9 @@ confidence: 0.85
 - Italy reported 2 suspected cases (imported)
 
 ## Connections
+- [[index]]
+- [[sources/articles/ebola-bundibugyo-drc-uganda-may-2026]]
+- [[ebola-bundibugyo-drc-uganda-may-2026]]
 
 - [[ebola]] — general Ebola disease concept
 - [[PHEIC]] — Public Health Emergency of International Concern framework

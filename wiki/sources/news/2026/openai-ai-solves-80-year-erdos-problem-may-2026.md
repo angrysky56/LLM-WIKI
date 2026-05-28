@@ -27,6 +27,9 @@ The pattern — multiple AI labs demonstrating concrete scientific discovery res
 4. **Competitive landscape**: OpenAI, Google DeepMind, and Anthropic all positioning AI for scientific discovery — this becomes a key AI capability race
 
 ## Connections
+- [[sources/news/2026/openai-ai-solves-80-year-erdos-problem-may-2026]]
+- [[index]]
+- [[openai-ai-solves-80-year-erdos-problem-may-2026]]
 - [[AI-scientific-discovery]] — broader thread on AI in scientific research
 - [[OpenAI-developments]] — OpenAI capability developments
 - [[Google-DeepMind]] — Co-Scientist and Gemini for Science competing products

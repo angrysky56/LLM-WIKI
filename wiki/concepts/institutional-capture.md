@@ -48,6 +48,18 @@ Institutional capture is one of the primary failure modes of large organizations
 **Information asymmetry**: Those being measured learn the metric's structure faster than those deploying it, allowing gaming before corrective action is possible.
 
 ## Connections
+- [[concepts/institutional-accountability]]
+- [[concepts/evaluation]]
+- [[concepts/institutional-capture]]
+- [[log]]
+- [[concepts/agentic-oversight]]
+- [[index]]
+- [[concepts/benchmark]]
+- [[concepts/reward-modeling]]
+- [[concepts/governance]]
+- [[concepts/accountability]]
+- [[concepts/reward-hacking]]
+- [[institutional-capture]]
 
 - [[governance]] — institutional capture is a failure mode of governance structures that rely on measurable proxies for complex goals
 - [[proxy-signalling]] — related but distinct: proxy signalling is about using third parties to communicate capability; institutional capture is about internal metric distortion

@@ -47,6 +47,12 @@ specialist: diagnostician
 - [ ] Identify specific ingest path that produces garbage
 - [ ] Document root cause
 
+## Related
+- [[index]]
+- [[agents/markovian-dev-agency/workspace/active-issues/issue-001]]
+
+- [[issue-001]]
+
 ## Related Issues
 
 - Issue-002 (generic untyped nodes) — likely same root cause

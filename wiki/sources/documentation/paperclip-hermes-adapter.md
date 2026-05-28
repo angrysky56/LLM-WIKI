@@ -32,6 +32,11 @@ The `hermes_local` adapter runs full Hermes Agent on the same machine as Papercl
 Skills merge from Paperclip-managed (UI-togglable) and Hermes-native (`~/.hermes/skills/`, read-only, always loaded).
 
 ## Connections
+- [[index]]
+- [[sources/documentation/paperclip-hermes-adapter]]
+- [[sources/documentation/paperclip-api]]
+- [[sources/repositories/paperclip]]
+- [[paperclip-hermes-adapter]]
 
 - [[hermes-agent]] — the agent being adapter
 - [[paperclip]] — parent orchestration system

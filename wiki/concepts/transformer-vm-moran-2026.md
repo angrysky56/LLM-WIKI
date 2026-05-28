@@ -14,6 +14,15 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[log]]
+- [[concepts/sheffer-stroke]]
+- [[synthesis/minimal-generative-architectures]]
+- [[concepts/symbolic-regression]]
+- [[concepts/transformer-vm-moran-2026]]
+- [[sources/mixture-of-recursions]]
+- [[index]]
+- [[concepts/eml-operator]]
+- [[transformer-vm-moran-2026]]
 
 - [[transformers]]
 - [[machine-learning]]

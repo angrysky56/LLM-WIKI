@@ -47,6 +47,12 @@ PRISM achieves highest held-out log-likelihood across all domains while recoveri
 - [[credit-assignment]] — PRISM performs "inverse option discovery": instead of recovering skills/policies (which are temporally extended), it recovers the reward structure that generates behavioral options
 - [[mop-explorer]] — intention switching as a form of behavioral exploration/exploitation trade-off; PRISM's latent intention variable provides a representational substrate for this
 
+## Related
+- [[sources/papers/prism]]
+- [[index]]
+
+- [[prism]]
+
 ## Key Quotes
 
 > "Recovering the reward functions that drive each goal, the moments at which the agent switches between them, and the aspects of the history that trigger these switches is essential for understanding complex sequential behavior."

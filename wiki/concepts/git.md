@@ -14,6 +14,11 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/github]]
+- [[concepts/version-control]]
+- [[index]]
+- [[concepts/git]]
+- [[git]]
 
 - [[version-control]]
 - [[github]]

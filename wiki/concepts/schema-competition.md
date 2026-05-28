@@ -168,6 +168,10 @@ Resolution: apply the 90-day rule strictly; the single-late-sale exception is a 
 - [[meta-harness]]: the system in which schema competition is concretely observable
 
 ## See Also
+- [[concepts/schema-competition]]
+- [[index]]
+- [[log]]
+- [[schema-competition]]
 
 - The [[ramirez-ruiz-mop-2024]] page, which explicitly frames schema competition as an open research question
 - `bootstrap_domain.py::build_pack_context()` — the assembly function that concatenates competing layers

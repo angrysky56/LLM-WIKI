@@ -67,6 +67,19 @@ In the ML Evolution Benchmarking Protocol framework, QES represents the "tactica
 Both are guided evolution methods where LLMs (or their derived representations) guide the search.
 
 ## Connections
+- [[concepts/bounded-memory-budget-optimization]]
+- [[sources/articles/ml-evolution-benchmarking-protocol]]
+- [[concepts/qes]]
+- [[scratchpad/agent-sheets/researcher/carryover]]
+- [[index]]
+- [[concepts/maximum-occupancy-principle]]
+- [[concepts/llama-nas]]
+- [[log]]
+- [[scratchpad/jobs/reports/researcher/discovery-2026-08-03]]
+- [[concepts/neural-architecture-search]]
+- [[concepts/qora]]
+- [[scratchpad/jobs/reports/researcher/discovery-2026-07-15]]
+- [[qes]]
 
 - [[ml-evolution-benchmarking-protocol]] — source reference for QES
 - [[ml-evolution]] — QES as guided evolution of quantized representations
@@ -76,6 +89,11 @@ Both are guided evolution methods where LLMs (or their derived representations) 
 - [[evolutionary-strategies]] — QES uses CMA-ES-style adaptation over residual space
 - [[namm]] — NAMM evolves KV cache representations; QES evolves quantization residuals; different memory modalities, similar evolutionary philosophy
 
+- [[llama-nas]]
+- [[qora]]
+- [[neural-architecture-search]]
+- [[bounded-memory-budget-optimization]]
+- [[maximum-occupancy-principle]]
 ## Open Questions
 
 1. Does QES residual correction transfer across different token sequences, or only for the calibration distribution?

@@ -28,6 +28,24 @@ ML Evolution (or Machine Learning Evolution) refers to the use of evolutionary a
 - **Topological Overfitting**: Over-optimizing an architecture for a specific training set without generalizability.
 
 ## Connections
+- [[concepts/transformer-architecture]]
+- [[concepts/attention-mechanism]]
+- [[concepts/bounded-memory-budget-optimization]]
+- [[concepts/collm-nas]]
+- [[log]]
+- [[concepts/qes]]
+- [[concepts/essa]]
+- [[concepts/ml-evolution]]
+- [[concepts/mixture-of-experts]]
+- [[index]]
+- [[concepts/evolutionary-strategies]]
+- [[concepts/parameter-efficient-fine-tuning]]
+- [[concepts/rz-nas]]
+- [[concepts/neural-architecture-search]]
+- [[concepts/qora]]
+- [[concepts/neural-long-term-memory]]
+- [[sources/papers/kalra-barkeshli-hyperparameter-transfer-2026]]
+- [[ml-evolution]]
 - [[neural-long-term-memory]] — Connection to memory mechanisms in evolutionary systems
 - Concept: [[rz-nas]] (zero-cost proxy NAS)
 - Concept: [[llama-nas]] (one-shot NAS)
@@ -36,3 +54,11 @@ ML Evolution (or Machine Learning Evolution) refers to the use of evolutionary a
 - Concept: [[mixture-of-experts]]
 - Concept: [[transformer-architecture]]
 
+
+- [[parameter-efficient-fine-tuning]]
+- [[essa]]
+- [[collm-nas]]
+- [[qora]]
+- [[neural-architecture-search]]
+- [[bounded-memory-budget-optimization]]
+- [[qes]]

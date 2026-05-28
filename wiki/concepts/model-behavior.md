@@ -14,6 +14,11 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[sources/papers/waldis-2026-instructions-shape-production]]
+- [[index]]
+- [[concepts/model-behavior]]
+- [[log]]
+- [[model-behavior]]
 
 - [[llm]]
 - [[model-properties]]

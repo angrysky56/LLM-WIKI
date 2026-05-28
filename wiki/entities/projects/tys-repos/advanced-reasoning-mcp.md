@@ -26,6 +26,14 @@ confidence: 1.0
 - `create_memory_library`: Manage separate knowledge contexts.
 
 ## Connections
+- [[entities/people/tyler-hall]]
+- [[entities/projects/tys-repos/efhf]]
+- [[index]]
+- [[entities/projects/tys-repos]]
+- [[log]]
+- [[entities/projects/tys-repos/advanced-reasoning-mcp]]
+- [[synthesis/seg-scientist-agent-design]]
+- [[advanced-reasoning-mcp]]
 - [[efhf]] — Layer 4 meta-cognitive monitoring.
 - [[tys-repos]] — Part of Ty's repository collection.
 - [[mcp-logic]] — Used in conjunction for verified reasoning.

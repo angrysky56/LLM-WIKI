@@ -71,6 +71,9 @@ Six gated signals, all subject to cooldown:
 - **CONSOLIDATION** — both PCRs high → no clean direction
 
 ## Connections
+- [[index]]
+- [[concepts/astar-structural-pathfinding]]
+- [[astar-structural-pathfinding]]
 
 - Foundation: Yang-Zhang σ estimation for volatility normalization
 - Methodological cousin: ST-EP06 Isotropic Trend Lines (longest-monotonic-segment is a one-scale analog of pivot-graph PCR)

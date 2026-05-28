@@ -26,6 +26,12 @@ The following facts formed the evidence chain for this insight:
 - The division blocks model extends Simss virtual creatures into a broader context of OEE and ecological dynamics by adopting natural selection without explicit fitness functions. (source: `Guideless Artificial Life Model for Reproduction, Development, and Interactions`)
 - An alternative approach to assessing the degree of OEE is the concept of a complexity barrier proposed by Dolson et al. (2023). (source: `Guideless Artificial Life Model for Reproduction, Development, and Interactions`)
 
+## Related
+- [[synthesis/insights/oee-knowledge-cluster-insight]]
+- [[index]]
+
+- [[oee-knowledge-cluster-insight]]
+
 ## Metadata
 
 - **Zettel ID**: insight_23499667

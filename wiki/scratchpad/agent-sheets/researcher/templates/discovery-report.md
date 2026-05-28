@@ -15,5 +15,11 @@
 ## Gap Analysis
 - [concepts that still need work]
 
+## Related
+- [[index]]
+- [[scratchpad/agent-sheets/researcher/templates/discovery-report]]
+
+- [[discovery-report]]
+
 ## Open Questions
 - [things that need more research or user input]

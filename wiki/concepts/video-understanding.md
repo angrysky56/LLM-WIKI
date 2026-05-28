@@ -14,6 +14,13 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[index]]
+- [[log]]
+- [[sources/papers/deltadirect-directional-motion-blindness-video-llms-2026]]
+- [[concepts/delta-direct]]
+- [[concepts/video-understanding]]
+- [[video-understanding]]
 
 - [[multimodal-llm]]
 - [[vision-language-models]]
+- [[delta-direct]]

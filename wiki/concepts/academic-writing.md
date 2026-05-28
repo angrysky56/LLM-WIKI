@@ -14,6 +14,12 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[index]]
+- [[concepts/academic-writing]]
+- [[log]]
+- [[concepts/scientific-writing]]
+- [[concepts/research-paper]]
+- [[academic-writing]]
 
 - [[scientific-writing]]
 - [[research-paper]]

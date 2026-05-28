@@ -14,6 +14,12 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/exploitation]]
+- [[index]]
+- [[concepts/exploration]]
+- [[log]]
+- [[concepts/recuriosity-episodic-context-3d-exploration-2026]]
+- [[exploration]]
 
 - [[reinforcement-learning]]
 - [[exploitation]]

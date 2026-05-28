@@ -14,6 +14,11 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/momoa-researcher]]
+- [[concepts/research-agent]]
+- [[log]]
+- [[index]]
+- [[research-agent]]
 
 - [[autonomous-agents]]
 - [[ai-research]]

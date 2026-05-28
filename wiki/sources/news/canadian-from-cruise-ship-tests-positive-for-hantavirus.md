@@ -19,6 +19,8 @@ A Canadian passenger aboard a cruise ship that had already experienced a hantavi
 | Cruise ship: enclosed environment amplifying transmission risk | Ventilation systems can spread aerosolized virus |
 
 ## Connections
+- [[sources/news/canadian-from-cruise-ship-tests-positive-for-hantavirus]]
+- [[index]]
 
 - [[hantavirus]] — the pathogen
 - [[cruise-ship-outbreak]] — the setting

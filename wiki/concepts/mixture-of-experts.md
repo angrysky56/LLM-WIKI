@@ -122,6 +122,37 @@ Top-k selection picks the k highest-scoring experts. The routing weights are com
 5. **Integration with test-time compute**: Can we combine MoE's sparse compute with inference-time compute techniques (BoN, PRM-guided search)? The per-token activation is already low; BoN would multiply that cost by N candidates.
 
 ## Connections
+- [[concepts/scaling-laws]]
+- [[sources/papers/mixture-of-recursions]]
+- [[concepts/llm-reasoning]]
+- [[concepts/control-llm]]
+- [[concepts/continual-learning]]
+- [[concepts/mop-and-rlhf-interaction]]
+- [[concepts/ml-evolution]]
+- [[concepts/llm-inference]]
+- [[index]]
+- [[sources/moe-sieve-routing-guided-lora-for-efficient-moe-fine-tuning]]
+- [[concepts/route-collapse-rlhf]]
+- [[sources/defending-moe-llms-against-harmful-fine-tuning-via-safety-routing-alignment]]
+- [[concepts/llm-training]]
+- [[concepts/attention-mechanism]]
+- [[concepts/model-serving]]
+- [[concepts/parameter-efficient-fine-tuning]]
+- [[log]]
+- [[scratchpad/jobs/reports/researcher/discovery-2026-05-21]]
+- [[concepts/kv-cache]]
+- [[concepts/inference-time-compute-scaling]]
+- [[concepts/lora]]
+- [[concepts/mixture-of-experts]]
+- [[concepts/adaptive-computation]]
+- [[concepts/early-exit-networks]]
+- [[concepts/reward-modeling]]
+- [[concepts/transformer-architecture]]
+- [[sources/on-the-representation-collapse-of-sparse-mixture-of-experts]]
+- [[concepts/catastrophic-forgetting]]
+- [[concepts/adaptive-budget-learning]]
+- [[concepts/reinforcement-learning-from-human-feedback]]
+- [[mixture-of-experts]]
 
 - [[adaptive-budget-learning]] — training gating models for adaptive compute allocation; gradient blocking problem and RL approaches
 - [[inference-time-compute-scaling]] — MoE provides architectural basis for efficient test-time compute; the two techniques are complementary
@@ -139,6 +170,14 @@ Top-k selection picks the k highest-scoring experts. The routing weights are com
 - Concept: [[transformer-architecture]]
 
 
+- [[model-serving]]
+- [[continual-learning]]
+- [[parameter-efficient-fine-tuning]]
+- [[llm-reasoning]]
+- [[control-llm]]
+- [[lora]]
+- [[catastrophic-forgetting]]
+- [[llm-training]]
 ## Related Papers
 
 - Shazeer et al. (2017): "Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer" — foundational work

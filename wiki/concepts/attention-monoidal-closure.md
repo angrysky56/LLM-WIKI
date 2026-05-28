@@ -136,6 +136,17 @@ This category is **symmetric monoidal** (parallel composition commutes). Whether
 5. **Scaling to full transformers**: Attention layers in isolation may form a closed monoidal category, but full transformers include residual connections, layer norms, and MLPs. Are these also covered? LayerNorm is not a linear map — it introduces a normalization step that may break the purely linear morphism structure.
 
 ## Connections
+- [[concepts/transformer-architecture]]
+- [[concepts/categorical-reasoning]]
+- [[concepts/attention-mechanism]]
+- [[concepts/functor-string-diagrams]]
+- [[concepts/formal-verification]]
+- [[index]]
+- [[concepts/attention-monoidal-closure]]
+- [[concepts/category-theory]]
+- [[log]]
+- [[scratchpad/agent-sheets/librarian/carryover]]
+- [[attention-monoidal-closure]]
 
 - [[category-theory]] — foundational structures: monoidal categories, internal hom, Yoneda
 - [[attention-mechanism]] — the subject of the categorical analysis

@@ -50,6 +50,11 @@ Full tracking: [[spacex-blackrock-10b-stake-tracking]]
 5. **Mars narrative**: IPO prospectus explicitly frames civilizational mission — "civilization on Mars"
 
 ## Connections
+- [[sources/news/2026/spacex-blackrock-10b-stake-tracking]]
+- [[sources/news/2026/spacex-ipo-june-12-2026]]
+- [[index]]
+- [[synthesis/news/2026-may/headlines-2026-05-25]]
+- [[spacex-ipo-june-12-2026]]
 - [[spacex-blackrock-10b-stake-tracking]] — dedicated BlackRock tracking
 - [[spacex-ipo-spcx-2026]] — existing wiki thread on IPO coverage
 - [[spacex-ipo-governance-questions-may-2026]] — Musk voting control governance gap

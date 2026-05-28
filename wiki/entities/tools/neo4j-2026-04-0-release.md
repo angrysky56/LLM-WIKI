@@ -14,6 +14,12 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[index]]
+- [[log]]
+- [[entities/tools/neo4j]]
+- [[entities/tools/neo4j-2026-04-0-release]]
+- [[neo4j-2026-04-0-release]]
 
 - [[neo4j]]
 - [[graph-database]]
+- [[neo4j]]

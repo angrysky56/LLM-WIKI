@@ -14,5 +14,11 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/maximum-occupancy-principle]]
+- [[log]]
+- [[index]]
+- [[sources/news/2026/meta-social-media-addiction-settlement-2026]]
+- [[concepts/tiktok-youtube-ofcom-report]]
+- [[tiktok-youtube-ofcom-report]]
 
 - [[maximum-occupancy-principle]]

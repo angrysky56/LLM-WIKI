@@ -57,6 +57,12 @@ Located at `~/.hermes/kanban/workspaces/t_3f6f2a5e0e9755d4/`. Contains detailed 
 2. **Process reward models as defense** — residual surface area unquantified
 3. **Constitutional AI effectiveness** against sophisticated reward hacking — unverified
 
+## Related
+- [[index]]
+- [[scratchpad/jobs/reports/researcher/discovery-2026-05-30]]
+
+- [[discovery-2026-05-30]]
+
 ## Sources Cited
 
 - Wang et al. (2026) — arXiv:2604.16242

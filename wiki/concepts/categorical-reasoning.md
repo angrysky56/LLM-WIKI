@@ -70,6 +70,21 @@ Category theory and formal methods are deeply entangled:
 The nLab and the nLab's synthetic mathematics program show how category theory can reconstruct large swaths of mathematics in a compositional way — relevant to how LLMs might learn to "compose" concepts structurally rather than as isolated facts.
 
 ## Connections
+- [[concepts/categorical-reasoning]]
+- [[concepts/formal-methods]]
+- [[concepts/multi-agent-llm-systems]]
+- [[concepts/load-bearing-reasoning]]
+- [[scratchpad/jobs/reports/researcher/discovery-2026-06-08]]
+- [[concepts/formal-verification]]
+- [[concepts/mathematical-reasoning]]
+- [[entities/projects/tys-repos/mcp-logic]]
+- [[index]]
+- [[concepts/attention-monoidal-closure]]
+- [[concepts/category-theory]]
+- [[log]]
+- [[scratchpad/agent-sheets/librarian/carryover]]
+- [[concepts/multi-agent-coordination]]
+- [[categorical-reasoning]]
 
 - [[category-theory]] — the foundational theory
 - [[mathematical-reasoning]] — categorical reasoning is a high-level form of mathematical reasoning

@@ -50,6 +50,14 @@ The 2026 Menin-D-serine-hypothalamus research establishes a specific molecular p
 | Sleep optimization | Strong — glymphatic clearance |
 
 ## Connections
+- [[entities/hypothalamus]]
+- [[sources/articles/menin-d-serine-hypothalamus-anti-aging]]
+- [[log]]
+- [[entities/neuroinflammation]]
+- [[entities/cognitive-decline]]
+- [[index]]
+- [[entities/longevity-research]]
+- [[cognitive-decline]]
 
 - [[neuroinflammation]] — upstream mechanism driving decline
 - [[hypothalamus]] — anatomical locus; Menin production site

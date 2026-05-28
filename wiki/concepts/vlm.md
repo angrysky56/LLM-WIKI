@@ -14,5 +14,11 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[sources/papers/decoupling-perception-reasoning-vlm-post-training]]
+- [[concepts/maximum-occupancy-principle]]
+- [[log]]
+- [[index]]
+- [[concepts/vlm]]
+- [[vlm]]
 
 - [[maximum-occupancy-principle]]

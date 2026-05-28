@@ -14,6 +14,13 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/social-science]]
+- [[index]]
+- [[concepts/cognitive-science]]
+- [[log]]
+- [[concepts/psychology]]
+- [[psychology]]
 
 - [[cognitive-science]]
 - [[neuroscience]]
+- [[social-science]]

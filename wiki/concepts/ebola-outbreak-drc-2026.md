@@ -99,6 +99,14 @@ The concept of "ETC attacks driving patients into rebel-held territory" is confi
 | American surgeon evacuation | Confirmed — evacuated to Berlin, Germany May 17-20 |
 
 ## Connections
+- [[concepts/ebola-outbreak-drc-2026]]
+- [[concepts/maximum-occupancy-principle]]
+- [[log]]
+- [[sources/news/2026/ebola-bundibugyo-who-ec-recommendations-follow-up-may-2026]]
+- [[sources/news/2026/ebola-outbreak-drc-uganda-pheic-2026]]
+- [[sources/news/2026/ebola-plane-divert-2026]]
+- [[index]]
+- [[ebola-outbreak-drc-2026]]
 
 - [[public-health-governance]] — PHEIC/IHR framework and Emergency Committee process
 - [[who-emergency-declarations]] — IHR EC process history
@@ -106,3 +114,5 @@ The concept of "ETC attacks driving patients into rebel-held territory" is confi
 - [[who-ihr-emergency-committee-ebola-may-2026]] — WHO EC first meeting source
 - [[infectious-disease]] — disease dynamics
 - [[global-health-security]] — outbreak as security event
+
+- [[maximum-occupancy-principle]]

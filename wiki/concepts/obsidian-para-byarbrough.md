@@ -14,6 +14,17 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[log]]
+- [[sources/documentation/obsidian-cli-skill]]
+- [[concepts/llm-wiki-pattern]]
+- [[concepts/obsidian-para-byarbrough]]
+- [[sources/documentation/obsidian-git-setup]]
+- [[concepts/para-methodology]]
+- [[index]]
+- [[obsidian-para-byarbrough]]
 
 - [[obsidian]]
 - [[para]]
+- [[obsidian-git-setup]]
+- [[para-methodology]]
+- [[obsidian-cli-skill]]

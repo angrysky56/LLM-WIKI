@@ -42,6 +42,12 @@ The US-Iran war remains in a fragile ceasefire as President Trump alternates bet
 - [[uae-reports-drone-strike-near-abu-dhabi-nuclear-power-plant]] — regional vulnerability
 - [[iran-us-diplomacy-2026-05-18]] — previous day's coverage
 
+## Related
+- [[sources/news/2026-05/trump-iran-diplomacy-threats-2026-05-21]]
+- [[index]]
+
+- [[trump-iran-diplomacy-threats-2026-05-21]]
+
 ## Tags
 
 #us-iran #geopolitics #war #diplomacy #middle-east

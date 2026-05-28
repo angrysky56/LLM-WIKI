@@ -90,6 +90,17 @@ The EFHF five-layer architecture implements bounded rationality structurally:
 - L5 (Persistence): Enforces consistency within bounded computational resources
 
 ## Connections
+- [[concepts/epistemic-energy]]
+- [[concepts/working-memory]]
+- [[scratchpad/agent-sheets/researcher/carryover]]
+- [[index]]
+- [[concepts/bounded-rationality]]
+- [[log]]
+- [[concepts/adaptive-computation]]
+- [[concepts/hybrid-agents]]
+- [[concepts/agent-native-design]]
+- [[concepts/cognitive-world-models-for-llm-agents]]
+- [[bounded-rationality]]
 
 - [[agent-native-design]] — the architectural framework that makes bounded rationality first-class
 - [[epistemic-energy]] — the quantitative resource form of bounded rationality in agentic systems
@@ -97,8 +108,12 @@ The EFHF five-layer architecture implements bounded rationality structurally:
 - [[efhf]] — Layer 4 explicitly tracks bounded reasoning resources
 - [[bounded-structured-memory]] — memory architecture implementing bounded retention decisions
 - [[working-memory]] — the substrate most directly subject to bounded rationality constraints
-- [[cognitive-world-models-for-llm-agents]] — how world models compensate for bounded context
+- [[cognitive-world-models-for-llm-agents]] — how world models compensate for bounded context- [[concepts/sovereign-ai.md]]
 
+
+- [[adaptive-computation]]
+- [[sovereign-ai]]
+- [[hybrid-agents]]
 ## Open Questions
 
 1. **Information-theoretic formulation**: Can bounded rationality be fully expressed as a rate-distortion or compression problem? The agent minimizes distortion subject to a bounded representation budget — is this equivalent to bounded rational decision-making?

@@ -49,4 +49,7 @@ AwareVLN's core contribution — giving a navigation agent the ability to reason
 > "Current VLM-based VLN methods primarily focus on taming VLMs for direct action prediction, overlooking the potential to harness their inherent reasoning capabilities. Consequently, the resulting end-to-end navigation process remains largely unexplainable and lacks robustness, struggling with precise subtask planning and error correction due to a fundamental lack of self-awareness."
 
 ## Connections
+- [[index]]
+- [[sources/papers/awarevln-self-aware-vision-language-navigation-2026]]
+- [[awarevln-self-aware-vision-language-navigation-2026]]
 - [[efhf]], [[maximum-occupancy-principle]], [[verifier-graph]], [[agentic-research]]

@@ -55,6 +55,12 @@ SafeCtrl-RL is an inference-time behavioral control framework that formulates LL
 - [[verifier-graph]] — Safety-quality evaluator is an independent checking authority analogous to verifier in the reliability graph
 - [[agentic-research]] — 11 strategies as action space mirrors option/strategy discovery; RL policy learns which context representation works best per harm category
 
+## Related
+- [[sources/papers/safectrl-rl]]
+- [[index]]
+
+- [[safectrl-rl]]
+
 ## Key Quotes
 
 > "SafeCtrl-RL can be viewed as performing inference-time behavioural unlearning, where undesirable behaviours are suppressed without modifying model parameters."

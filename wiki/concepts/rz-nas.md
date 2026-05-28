@@ -71,6 +71,19 @@ The reflection module discovers these relationships from search experience witho
 RZ-NAS achieves the lowest evaluation cost (forward pass only) with the most sophisticated proxy combination mechanism.
 
 ## Connections
+- [[log]]
+- [[concepts/rz-nas]]
+- [[scratchpad/jobs/reports/researcher/discovery-2026-08-03]]
+- [[concepts/neural-architecture-search]]
+- [[scratchpad/jobs/reports/researcher/discovery-2026-07-15]]
+- [[scratchpad/jobs/reports/researcher/discovery-2026-07-20]]
+- [[concepts/collm-nas]]
+- [[sources/articles/ml-evolution-benchmarking-protocol]]
+- [[concepts/ml-evolution]]
+- [[scratchpad/agent-sheets/researcher/carryover]]
+- [[index]]
+- [[concepts/llama-nas]]
+- [[rz-nas]]
 
 - [[neural-architecture-search]] — RZ-NAS is a specific NAS method within the architecture search field
 - [[ml-evolution-benchmarking-protocol]] — source reference for RZ-NAS
@@ -81,6 +94,7 @@ RZ-NAS achieves the lowest evaluation cost (forward pass only) with the most sop
 - [[essa]] — both RZ-NAS and ESSA aim for gradient-free search; RZ-NAS avoids training via proxies, ESSA avoids RLHF via singular value mutations
 - [[namm]] — both use learnable "reflection" mechanisms to make black-box search tractable (proxy reliability for RZ-NAS, KV retention for NAMM)
 
+- [[llama-nas]]
 ## Open Questions
 
 1. Does RZ-NAS reflection module need to be retrained per architecture family or does it generalize across families?

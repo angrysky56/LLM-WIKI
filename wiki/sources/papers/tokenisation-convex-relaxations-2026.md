@@ -48,4 +48,7 @@ Tokenisation is a foundational data processing step that determines how informat
 > "Solving the LP provides a lower bound on the compression achieved by any tokeniser on the used dataset. Our method thus allows us to compute tight bounds on how close-to-optimal any tokeniser is."
 
 ## Connections
+- [[index]]
+- [[sources/papers/tokenisation-convex-relaxations-2026]]
+- [[tokenisation-convex-relaxations-2026]]
 - [[efhf]], [[mop-explorer]], [[verifier-graph]], [[sheaf-consistency-enforcer]]

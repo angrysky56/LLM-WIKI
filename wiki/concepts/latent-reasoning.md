@@ -56,6 +56,14 @@ When models are prompted to answer faster (without CoT), they still show multi-s
 | Generalization | Can fail silently | Fails with explicit error |
 
 ## Connections
+- [[index]]
+- [[concepts/reasoning]]
+- [[log]]
+- [[sources/mixture-of-recursions]]
+- [[concepts/agentic-reasoning]]
+- [[concepts/latent-reasoning]]
+- [[concepts/llm-reasoning]]
+- [[latent-reasoning]]
 
 - [[llm-reasoning]] — the parent concept; CoT is explicit reasoning, latent reasoning is the hidden-state substrate
 - [[chain-of-thought]] — explicit reasoning token chains; may be rendering of latent reasoning rather than the reasoning itself
@@ -63,6 +71,8 @@ When models are prompted to answer faster (without CoT), they still show multi-s
 - [[process-reward-model]] — PRMs may be exploiting latent reasoning signals; step-level scores may partially read latent computation
 - [[epistemic-energy]] — depletion signals may appear in hidden states before explicit confidence tokens are generated
 
+- [[agentic-reasoning]]
+- [[reasoning]]
 ## Limitations
 
 - **Probing is imperfect**: Probing classifiers are trained on the same data distribution; they may find correlations that don't reflect causal reasoning structure.

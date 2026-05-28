@@ -14,6 +14,17 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/critical-initialization-biological-neural-networks]]
+- [[concepts/activation-steering]]
+- [[concepts/attractor-dynamics]]
+- [[concepts/initialization]]
+- [[concepts/working-memory]]
+- [[concepts/criticality]]
+- [[concepts/emergence]]
+- [[index]]
+- [[log]]
+- [[critical-initialization-biological-neural-networks]]
 
 - [[neural-networks]]
 - [[initialization]]
+- [[attractor-dynamics]]

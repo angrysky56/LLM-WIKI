@@ -14,6 +14,11 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[sources/news/bill-cassidy-republican-senator-who-voted-to-convict-trump-l]]
+- [[log]]
+- [[entities/people/donald-trump]]
+- [[index]]
+- [[donald-trump]]
 
 - [[trump-administration]]
 - [[us-politics]]

@@ -14,5 +14,14 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/maximum-occupancy-principle]]
+- [[sources/news/2026/china-coal-mine-explosion-shanxi-may-2026]]
+- [[index]]
+- [[concepts/china-industrial-policy]]
+- [[log]]
+- [[china-industrial-policy]]
 
-- [[maximum-occupancy-principle]]
+- [[maximum-occupancy-principle]]- [[concepts/sovereign-ai.md]]
+
+
+- [[sovereign-ai]]

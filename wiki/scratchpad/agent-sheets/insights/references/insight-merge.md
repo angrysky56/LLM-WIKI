@@ -51,6 +51,9 @@ confidence: {confidence score from insight}
 - {evidence chain item 3}
 
 ## Connections
+- [[scratchpad/agent-sheets/insights/references/insight-merge]]
+- [[index]]
+- [[insight-merge]]
 - [[related-concept-1]]
 - [[related-concept-2]]
 

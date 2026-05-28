@@ -14,5 +14,11 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/trump-administration-national-security]]
+- [[log]]
+- [[sources/news/2026/tulsi-gabbard-resigns-intelligence-director-may-2026]]
+- [[index]]
+- [[concepts/maximum-occupancy-principle]]
+- [[trump-administration-national-security]]
 
 - [[maximum-occupancy-principle]]

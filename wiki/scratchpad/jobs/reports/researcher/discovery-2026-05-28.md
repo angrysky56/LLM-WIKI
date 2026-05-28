@@ -43,6 +43,12 @@ Remaining thin coverage:
 4. China stance — does China engage or view this as Western institutional overreach?
 5. Vatican follow-up conference — expected in 3-6 months per typical encyclical pattern
 
+## Related
+- [[scratchpad/jobs/reports/researcher/discovery-2026-05-28]]
+- [[index]]
+
+- [[discovery-2026-05-28]]
+
 ## Carryover for Next Researcher Session
 
 - ai-policy-federalism.md is a stub needing content

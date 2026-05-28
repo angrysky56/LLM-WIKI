@@ -14,6 +14,16 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/space-exploration]]
+- [[log]]
+- [[synthesis/news/16-psyche]]
+- [[sources/news/2026-05/nasa-psyche-mars-flyby-2026-05-22]]
+- [[synthesis/news/mars]]
+- [[entities/projects/esa]]
+- [[entities/projects/nasa]]
+- [[index]]
+- [[space-exploration]]
 
 - [[nasa]]
 - [[mars]]
+- [[esa]]

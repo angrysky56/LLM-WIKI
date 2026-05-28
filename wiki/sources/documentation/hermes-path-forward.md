@@ -47,6 +47,9 @@ upstream/main
 ```
 
 ## Connections
+- [[index]]
+- [[sources/documentation/hermes-path-forward]]
+- [[hermes-path-forward]]
 
 - [[codegraph-hermes-phase1-implementation]] — Phase 1 detailed implementation
 - [[hermes-agent]] — Target project

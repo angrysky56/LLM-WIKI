@@ -14,6 +14,13 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/reasoning]]
+- [[scratchpad/agent-sheets/librarian/carryover]]
+- [[sources/news/2026/openai-o3-erdos-conjecture-breakthrough-2026]]
+- [[concepts/mathematical-reasoning-ai]]
+- [[log]]
+- [[index]]
+- [[mathematical-reasoning-ai]]
 
 - [[reasoning]]
 - [[alphaevolve]]

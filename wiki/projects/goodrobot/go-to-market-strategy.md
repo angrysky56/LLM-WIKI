@@ -347,6 +347,14 @@ When a prospect says "We're also looking at [competitor]":
 
 ---
 
+## Related
+- [[projects/goodrobot/go-to-market-strategy]]
+- [[projects/goodrobot/active-business-plan]]
+- [[index]]
+- [[projects/goodrobot/index]]
+
+- [[go-to-market-strategy]]
+
 ## Appendix: 30/60/90 Day Sales Agent Training Plan
 
 *(For reference when hiring or onboarding a sales agent to run the playbook)*

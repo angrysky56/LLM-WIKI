@@ -29,6 +29,10 @@ A human user prompted Gemini (as "Frank Einstein") with an Einstein persona to d
 | **Methodology as key** | The manner of engagement matters more than the information retrieved |
 
 ## Connections
+- [[sources/articles/truth-emotion-sacred-agem-analysis]]
+- [[index]]
+- [[sources/articles/frank-einstein-gemma-truth-emotion-sacred]]
+- [[frank-einstein-gemma-truth-emotion-sacred]]
 
 - [[gemma4]] — the small model discussed in the conversation
 - [[truth-seeking]] — related to the philosophical content

@@ -210,6 +210,12 @@ Sample: "five", "Obsidian", "thousands", "three", "10-15", "two", "5", "Hotkeys"
 
 
 
+## Related
+- [[index]]
+- [[synthesis/librarian-report-2026-05-09]]
+
+- [[librarian-report-2026-05-09]]
+
 ## Next Cycle Target
 
 **Week 2: Duplicates + Stale** — but with a twist. Given the severity of orphan/misclassification issues, Week 2 should include:

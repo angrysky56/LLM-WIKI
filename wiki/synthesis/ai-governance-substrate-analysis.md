@@ -63,6 +63,11 @@ These primitives are aligned in spirit with what the ASEKE framework attempts: m
 - It does not claim moral neutrality. The frames are diagnostic, but the diagnosis they tend to produce — that current AI deployment patterns are operating under captured-institutional logic at unacceptable steady-state cost — is not neutral, and the synthesis does not pretend otherwise.
 
 ## Related
+- [[index]]
+- [[concepts/spin-vs-substrate]]
+- [[concept-index]]
+- [[synthesis/ai-governance-substrate-analysis]]
+- [[ai-governance-substrate-analysis]]
 
 - [[spin-vs-substrate]]
 - [[absence-of-worst-case-metric]]

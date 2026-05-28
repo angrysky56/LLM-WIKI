@@ -59,6 +59,13 @@ This connects to [[weil-gate]] as the operational mechanism that drives the spir
 - "We have reached an opening" is a valid council conclusion; "we have closed the loop" is not
 
 ## Connections
+- [[index]]
+- [[concepts/weil-gate]]
+- [[concepts/spiral-architecture]]
+- [[synthesis/two-council-architecture]]
+- [[log]]
+- [[synthesis/empty-chair-protocol]]
+- [[spiral-architecture]]
 
 - [[two-council-architecture]]: the two-council system uses spiral architecture for its philosophical council
 - [[empty-chair-protocol]]: the empty chair protocol extends the spiral when a missing perspective is needed

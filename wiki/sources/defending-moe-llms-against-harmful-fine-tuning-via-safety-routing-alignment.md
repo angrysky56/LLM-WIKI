@@ -63,6 +63,10 @@ This preserves the pre-fine-tuned routing distribution for safety-critical input
 - Only 2% overhead for the safety mechanism
 
 ## Connections
+- [[concepts/mop-and-rlhf-interaction]]
+- [[index]]
+- [[sources/defending-moe-llms-against-harmful-fine-tuning-via-safety-routing-alignment]]
+- [[defending-moe-llms-against-harmful-fine-tuning-via-safety-routing-alignment]]
 - [[mixture-of-experts]] — the architecture affected
 - [[mop-and-rlhf-interaction]] — directly answers routing collapse question; SafeMoE's routing penalty is Path 1 in practice
 - [[adversarial-training]] — harmful fine-tuning (HFT) is an adversarial attack on alignment

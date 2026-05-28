@@ -14,6 +14,13 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/is-grep-all-you-need]]
+- [[concepts/agentic-research]]
+- [[index]]
+- [[log]]
+- [[agents/skills/agentic-tooluse/skill]]
+- [[is-grep-all-you-need]]
 
 - [[llm-nlp]]
 - [[pattern-matching]]
+- [[agentic-research]]

@@ -29,6 +29,10 @@ Agentic design patterns form a decision topology: single-agent for simple tasks;
 | **Multi-Agent Council** | Multiple perspectives deliberate on a decision | Consensus or majority vote |
 
 ## Connections
+- [[sources/articles/designing-agentic-design-picker]]
+- [[sources/articles/choosing-right-agentic-design-pattern]]
+- [[index]]
+- [[choosing-right-agentic-design-pattern]]
 
 - [[delegation]] — related to orchestration pattern
 - [[hermes-agent]] — supports orchestrator subagent mode

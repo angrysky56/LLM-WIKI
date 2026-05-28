@@ -166,6 +166,7 @@ LLM-WIKI/
 - [[bounded-structured-memory]] — the full architectural synthesis
 - [[synapse-retrieval-architecture]] — retrieval pipeline this integrates with
 - [[persistent-knowledge-compilation]] — why durable artifacts beat re-derivation
+- [[autonomous-agents]] — autonomous agents are the primary users of Markovian carryover for session continuity
 
 
 ## Connections

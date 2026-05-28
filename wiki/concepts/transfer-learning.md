@@ -14,6 +14,11 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[log]]
+- [[concepts/fine-tuning]]
+- [[concepts/transfer-learning]]
+- [[index]]
+- [[transfer-learning]]
 
 - [[fine-tuning]]
 - [[machine-learning]]

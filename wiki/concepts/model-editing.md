@@ -66,6 +66,14 @@ More general than ROME but with similar locality guarantees.
 - **KN+**: Upgraded Knowledge Neurons with better generalization via targeted ablation
 
 ## Connections
+- [[concepts/model-editing]]
+- [[scratchpad/agent-sheets/researcher/carryover]]
+- [[index]]
+- [[concepts/activation-engineering]]
+- [[log]]
+- [[concepts/steering-vectors]]
+- [[concepts/fine-tuning]]
+- [[model-editing]]
 
 - [[fine-tuning]] — broader parameter update; model editing is surgical fine-tuning
 - [[steering-vectors]] — activation steering as an alternative to weight editing
@@ -74,6 +82,7 @@ More general than ROME but with similar locality guarantees.
 - [[bounded-representation-capacity]] — editing works because knowledge is superposed; capacity constraints determine edit density limits
 - [[catastrophic-forgetting]] — the anti-pattern; editing aims to avoid the generalization failures that forgetting causes
 
+- [[activation-engineering]]
 ## Open Questions
 
 1. **Compositionality**: Can we edit composed facts (A is X, B is Y, A+B is Z) without editing each independently?

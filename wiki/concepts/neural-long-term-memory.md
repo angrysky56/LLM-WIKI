@@ -24,6 +24,16 @@ Neural Long-Term Memory (NLTM) is a paradigm in sequence modeling where the mode
 In the Titans architecture, NLTM uses **surprise-based memorization**, where gradients of a local loss function indicate which tokens carry enough new information to justify a weight update.
 
 ## Connections
+- [[concepts/ml-evolution]]
+- [[index]]
+- [[entities/tools/mamba]]
+- [[sources/articles/titans-test-time-memory]]
+- [[log]]
+- [[concepts/surprise-based-learning]]
+- [[concepts/neural-long-term-memory]]
+- [[concepts/length-generalization]]
+- [[concepts/titans]]
+- [[neural-long-term-memory]]
 
 - Source: [[titans-test-time-memory]]
 - Concept: [[mamba]]

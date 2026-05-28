@@ -25,6 +25,14 @@ Damage to this area (e.g., via stroke) results in **Expressive Aphasia**:
 - **Awareness**: Patients are typically aware of their deficit, leading to significant frustration.
 
 ## Connections
+- [[concepts/brocas-area]]
+- [[concepts/arcuate-fasciculus]]
+- [[sources/articles/brocas-area-gemini-chat]]
+- [[concept-index]]
+- [[synthesis/llm-biological-analogies]]
+- [[concepts/wernickes-area]]
+- [[index]]
+- [[brocas-area]]
 - [[wernickes-area]]: The comprehension counterpart.
 - [[arcuate-fasciculus]]: The neural bridge connecting Broca's to Wernicke's.
 - [[llm-biological-analogies]]: Analogy to the un-embedding and FFN layers in LLMs.

@@ -21,6 +21,14 @@ confidence: 0.7
 Counterfactual reasoning involves mentally simulating alternative pasts — "what would have happened if X had been different?" It is a form of imagination applied to causal reasoning, central to planning, evaluation, and causal inference.
 
 ## Connections
+- [[scratchpad/agent-sheets/librarians-assistant/carryover]]
+- [[index]]
+- [[concepts/imagination]]
+- [[log]]
+- [[concepts/counterfactual]]
+- [[scratchpad/jobs/reports/librarian/batch-progress]]
+- [[scratchpad/agent-sheets/librarians-assistant/workspace/batch-progress]]
+- [[counterfactual]]
 
 - [[imagination]] — imagination enables counterfactual simulation
 - [[world-model]] — world models provide the substrate for counterfactual reasoning

@@ -14,6 +14,11 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[index]]
+- [[concepts/technology]]
+- [[concepts/entrepreneurship]]
+- [[concepts/innovation]]
+- [[innovation]]
 
 - [[technology]]
 - [[entrepreneurship]]

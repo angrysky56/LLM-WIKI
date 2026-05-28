@@ -9,6 +9,14 @@ status: reference
 confidence: 0.5
 ---
 
+## Related
+
+- [[agents/skills/agentic-reflection]]
+- [[scratchpad/agent-sheets/librarians-assistant/carryover]]
+- [[index]]
+- [[scratchpad/agent-sheets/librarian/carryover]]
+- [[scratchpad/agent-sheets/librarians-assistant/workspace/batch-progress]]
+
 # Agentic Reflection
 
 Stub page for [[agentic-reflection]] agent skill.

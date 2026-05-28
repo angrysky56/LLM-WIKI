@@ -36,6 +36,9 @@ The Hormuz crisis has a direct energy security dimension that connects to global
 The Russia-Belarus nuclear escalation is the most direct nuclear dimension change in the European theater since the initial invasion. It extends the pattern of nuclear signaling and escalation management that has been ongoing since 2022.
 
 ## Connections
+- [[index]]
+- [[sources/news/2026/middle-east-lebanon-hormuz-may-2026]]
+- [[middle-east-lebanon-hormuz-may-2026]]
 - [[institutional-accountability]] — health worker targeting as violation of IHL
 - [[hormuz-strait-security]] — energy crisis, Venezuela alternative supply routes
 - [[russia-belarus-nuclear]] — nuclear weapons deployment as escalation

@@ -14,6 +14,13 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/goal-management]]
+- [[log]]
+- [[concepts/planning]]
+- [[index]]
+- [[concepts/imagination]]
+- [[planning]]
 
 - [[agent-architectures]]
 - [[goal-management]]
+- [[imagination]]

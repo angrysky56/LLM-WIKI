@@ -59,6 +59,20 @@ The existence of EML parallels Rule 110 and NAND for continuous domains. If all 
 EML suggests FPGA or silicon designs using only one gate type (an EML evaluator). A compiler would break any physics engine, differential equation solver, or generative algorithm into pure EML machine code. The uniform binary tree topology maps naturally to massively parallel hardware — every node is identical, enabling extreme regularity in chip layout and routing.
 
 ## Connections
+- [[concepts/sheffer-stroke]]
+- [[entities/projects/alphaevolve]]
+- [[sources/news/2026/transformer-vm-moran-2026]]
+- [[synthesis/minimal-generative-architectures]]
+- [[concepts/symbolic-regression]]
+- [[concepts/eml-operator]]
+- [[sources/papers/odrzywolek-eml-2026]]
+- [[sources/papers/utimula-openpraparat-2025]]
+- [[sources/papers/kalra-barkeshli-hyperparameter-transfer-2026]]
+- [[index]]
+- [[sources/articles/llm-kernel-optimization]]
+- [[concepts/open-ended-evolution]]
+- [[log]]
+- [[eml-operator]]
 
 - [[odrzywolek-eml-2026]] — source paper
 - [[symbolic-regression]] — gradient-based formula discovery

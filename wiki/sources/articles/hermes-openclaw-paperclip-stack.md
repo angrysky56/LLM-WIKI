@@ -29,6 +29,9 @@ Hermes + OpenClaw + Paperclip is a three-layer stack: Hermes handles persistent 
 Key insight: Most people fail with AI agents because they use one tool for everything and it forgets context or can't complete workflows. The three-layer approach gives each tool one clear job.
 
 ## Connections
+- [[sources/articles/hermes-openclaw-paperclip-stack]]
+- [[index]]
+- [[hermes-openclaw-paperclip-stack]]
 
 - [[hermes-agent]] — memory layer
 - [[openclaw]] — execution layer

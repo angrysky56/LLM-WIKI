@@ -30,6 +30,16 @@ Citing the spin as evidence about the substrate is the move that produces credul
 For any claim about institutional behavior: *what would change about the operational substrate if this rhetorical artifact didn't exist?* If the answer is "very little," the artifact is doing political work, not operational work, and shouldn't be cited as if it were the latter.
 
 ## Related
+- [[index]]
+- [[concept-index]]
+- [[concepts/absence-of-worst-case-metric]]
+- [[sources/papers/deepweb-bench-2026]]
+- [[concepts/institutional-capture-vs-species-framing]]
+- [[concepts/spin-vs-substrate]]
+- [[concepts/cryptographic-vs-semantic-alignment]]
+- [[concepts/frame-transmission]]
+- [[synthesis/ai-governance-substrate-analysis]]
+- [[spin-vs-substrate]]
 
 - [[absence-of-worst-case-metric]] — adjacent failure mode where the rhetorical metric obscures ongoing operational harm
 - [[institutional-capture-vs-species-framing]] — the layer where the substrate-level decisions actually live

@@ -14,6 +14,11 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[synthesis/news/healthcare]]
+- [[index]]
+- [[synthesis/news/medical-research]]
+- [[synthesis/news/biomedical-research]]
+- [[biomedical-research]]
 
 - [[medical-research]]
 - [[healthcare]]

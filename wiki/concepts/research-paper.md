@@ -14,6 +14,13 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[sources/papers/bae-mor-2025]]
+- [[concepts/research-paper]]
+- [[index]]
+- [[concepts/academic-writing]]
+- [[log]]
+- [[concepts/scientific-writing]]
+- [[research-paper]]
 
 - [[academic-writing]]
 - [[scientific-writing]]

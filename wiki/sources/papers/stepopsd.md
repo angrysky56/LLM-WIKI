@@ -54,6 +54,12 @@ StepOPSD attains best or second-best on subsets most sensitive to local causal e
 - [[bounded-representation-capacity]] — StepOPSD avoids learning a dense value model (notoriously unstable and hallucination-prone in agentic domains) by using post-rollout distillation instead
 - [[efhf]] — the two-knob law (αclip for local stability, λmix for task-dependent global mixing) connects to capability routing under capacity constraints
 
+## Related
+- [[index]]
+- [[sources/papers/stepopsd]]
+
+- [[stepopsd]]
+
 ## Key Quotes
 
 > "The key problem is not merely how to inject a stronger teacher, but where credit should be redistributed once hindsight information is available."

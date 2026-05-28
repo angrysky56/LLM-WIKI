@@ -59,6 +59,13 @@ Ctx2Skill is directly relevant to Hermes's own skill system. Key parallels:
 
 **Potential integration**: Ctx2Skill could auto-generate Hermes SKILL.md files from project repos or documentation, with Cross-Time Replay ensuring they stay generalizable.
 
+## Related
+
+- [[sources/papers/ctx2skill]]
+- [[index]]
+- [[sources/papers/clinseekagent-multimodal-clinical-evidence-seeking]]
+- [[sources/papers/code-as-agent-harness]]
+
 ## Citation
 
 Shuzheng Si et al., "From Context to Skills: Can Language Models Learn from Context Skillfully?" arXiv:2604.27660, Apr 2026. [[ctx2skill]]

@@ -42,6 +42,23 @@ Most evolutionary simulations plateau. Fitness functions, once optimized, stop d
 - **Energy/resource constraints** — metabolic pressure as selection driver
 
 ## Connections
+- [[concepts/catastrophic-forgetting]]
+- [[concepts/maximum-occupancy-principle]]
+- [[concepts/computational-irreducibility]]
+- [[concepts/eml-operator]]
+- [[concepts/artificial-life]]
+- [[concepts/emergence]]
+- [[index]]
+- [[sources/articles/llm-kernel-optimization]]
+- [[concepts/open-ended-evolution]]
+- [[log]]
+- [[sources/news/2026-05/smile-satellite-earth-magnetosphere-2026-05-21]]
+- [[concepts/openpraparat]]
+- [[entities/projects/alphaevolve]]
+- [[synthesis/minimal-generative-architectures]]
+- [[sources/articles/agem-ooe]]
+- [[sources/news/2026-05/chirality-origin-life-2026-05-20]]
+- [[open-ended-evolution]]
 
 - [[maximum-occupancy-principle]] — MOP provides a formal basis for why OEE systems explore broadly: path-entropy maximization drives action-state diversity rather than reward convergence
 - [[utimula-openpraparat-2025]] — state-of-the-art integrated OEE model

@@ -31,6 +31,9 @@ The Trump administration confirmed it has not altered its stance on sanctioning 
 3. **US position as outlier**: Most Western democracies have not sanctioned human rights rapporteurs. The US move places it in a small category of states willing to target international officials.
 
 ## Connections
+- [[index]]
+- [[sources/us-sanctions-francesca-albanese]]
+- [[us-sanctions-francesca-albanese]]
 - [[institutional-accountability]] — UN officials facing sanctions vs. Israeli officials facing none
 - [[gaza-humanitarian-crisis]] — Albanese's reporting focused on Gaza/Palestinian territories
 - [[social-media-regulation]] — platforms enabled rapid spread of the Ben-Gvir video; same dynamic applies to accountability content being suppressed

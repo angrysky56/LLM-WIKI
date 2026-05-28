@@ -93,6 +93,12 @@ In the [[maximum-occupancy-principle]] framework, hybrid architecture correspond
 The [[bounded-rationality]] concept explains why the routing exists at all: cognitive resources are bounded, so the agent must decide when the marginal value of deliberation exceeds its cost.
 
 ## Connections
+- [[scratchpad/agent-sheets/researcher/carryover]]
+- [[index]]
+- [[concepts/agents]]
+- [[log]]
+- [[concepts/hybrid-agents]]
+- [[hybrid-agents]]
 
 - [[agentic-planner]]: the deliberative planning subsystem
 - [[agentic-reasoning]]: ReAct as the reactive layer implementation
@@ -103,6 +109,7 @@ The [[bounded-rationality]] concept explains why the routing exists at all: cogn
 - [[maximum-occupancy-principle]]: MOP Layer 0/1 framework for the routing decision
 - [[agent-architectures]]: taxonomy that contains this pattern
 
+- [[agents]]
 ## Open Questions
 
 1. **Optimal routing criteria**: What is the best signal for mode switching — token count, explicit complexity scoring, LLM self-assessed uncertainty, or something else?

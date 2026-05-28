@@ -28,6 +28,16 @@ Titans is a neural network architecture family introduced by Google Research (Be
 The neural long-term memory uses gradient-based "surprise" (∇θL) to identify which tokens are worth storing. Only tokens that produce a sufficiently large gradient update the memory parameters. This acts as an adaptive filter preventing parameter saturation on long sequences.
 
 ## Connections
+- [[sources/papers/decoupling-perception-reasoning-vlm-post-training]]
+- [[concepts/length-generalization]]
+- [[concepts/titans]]
+- [[entities/tools/mamba]]
+- [[index]]
+- [[agents/skills/librarian-agent/skill]]
+- [[concepts/titans-test-time-memory]]
+- [[log]]
+- [[concepts/surprise-based-learning]]
+- [[concepts/neural-long-term-memory]]
 
 - Concept: [[neural-long-term-memory]] — the memory paradigm Titans implements
 - Concept: [[surprise-based-learning]] — the memorization mechanism

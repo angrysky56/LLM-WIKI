@@ -18,6 +18,12 @@ WHO declared the DR Congo Ebola outbreak a **Public Health Emergency of Internat
 | Case count and geographic spread cited as rationale | [[how-worrying-is-the-ebola-outbreak-in-dr-congo]] |
 
 ## Connections
+- [[sources/news/who-declares-ebola-outbreak-in-dr-congo-an-international-eme]]
+- [[index]]
+- [[sources/news/2026-05/ebola-travel-restriction-2026-05-21]]
+- [[sources/news/2026-05/us-flight-diverts-ebola-passenger-2026-05-21]]
+- [[who-declares-ebola-outbreak-in-dr-congo-an-international-eme]]
+- [[wiki/sources/news/2026-05/who-declares-ebola-outbreak-in-dr-congo-an-international-eme.md]]
 
 - [[ebola]] — the disease itself
 - [[who]] — the declaring body

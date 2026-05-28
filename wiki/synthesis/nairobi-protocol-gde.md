@@ -137,6 +137,9 @@ Key design decisions flagged for review:
 - **Content-addressed storage as LLM cache layer** — deterministic, reproducible, auditable
 
 ## Related
+- [[synthesis/nairobi-protocol-gde]]
+- [[index]]
+- [[nairobi-protocol-gde]]
 
 - [[geometric-hashing]] — core technique
 - [[knowledge-store]] — retrieval patterns

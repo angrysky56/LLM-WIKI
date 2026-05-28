@@ -77,6 +77,20 @@ GRPO is notable because:
 For MoE systems specifically, GRPO may naturally preserve expert diversity better than PPO — but this is empirically untested.
 
 ## Connections
+- [[concepts/mop-and-rlhf-interaction]]
+- [[concepts/mixture-of-experts]]
+- [[index]]
+- [[concepts/reward-modeling]]
+- [[concepts/reinforcement-learning-from-human-feedback]]
+- [[concepts/mop-next-token-prediction]]
+- [[concepts/llm-reasoning]]
+- [[concepts/reward-hacking]]
+- [[concepts/group-relative-policy-optimization]]
+- [[concepts/catastrophic-forgetting]]
+- [[concepts/maximum-occupancy-principle]]
+- [[concepts/llm-training]]
+- [[log]]
+- [[reinforcement-learning-from-human-feedback]]
 
 - [[group-relative-policy-optimization]] — alternative to PPO/DPO, structurally closer to MOP
 - [[mop-and-rlhf-interaction]] — tension between MOP entropy and KL-regularization
@@ -87,6 +101,8 @@ For MoE systems specifically, GRPO may naturally preserve expert diversity bette
 - Concept: [[mop-next-token-prediction]]
 
 
+- [[llm-reasoning]]
+- [[catastrophic-forgetting]]
 ## Limitations
 
 - **Reward hacking**: Human preferences are imperfectly specified. Reward models learn proxies, not actual values — leading to Goodhart's Law failures and [[reward-hacking]].

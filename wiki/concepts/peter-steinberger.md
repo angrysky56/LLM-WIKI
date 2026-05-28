@@ -14,5 +14,11 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[index]]
+- [[concepts/maximum-occupancy-principle]]
+- [[log]]
+- [[sources/repositories/cli-printing-press]]
+- [[concepts/peter-steinberger]]
+- [[peter-steinberger]]
 
 - [[maximum-occupancy-principle]]

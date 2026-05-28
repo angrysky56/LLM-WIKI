@@ -14,6 +14,11 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
+- [[concepts/numerical-methods]]
+- [[index]]
+- [[concepts/scientific-computing]]
+- [[concepts/computational-science]]
+- [[scientific-computing]]
 
 - [[numerical-methods]]
 - [[computational-science]]

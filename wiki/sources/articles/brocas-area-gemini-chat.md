@@ -38,6 +38,10 @@ A comprehensive dialogue exploring the brain's language centers, their developme
 - **Myelination $\leftrightarrow$ Pre-training/Frozen Weights**: The transition from high-plasticity learning to high-efficiency inference.
 
 ## Connections
+- [[synthesis/llm-biological-analogies]]
+- [[index]]
+- [[sources/articles/brocas-area-gemini-chat]]
+- [[brocas-area-gemini-chat]]
 - [[brocas-area]]
 - [[wernickes-area]]
 - [[arcuate-fasciculus]]

@@ -1,56 +1,71 @@
-# Researcher Discovery Report — 2026-05-28
+---
+summary: May 28: 3 stubs promoted (goal-management 0.72, latent-communication 0.75, planning 0.72); graph-database archived as redundant
+tags: [researcher, discovery, report]
+updated: 2026-05-28T18:32:34Z
+---
 
-## Discovery Cycle
-- Topics researched: 3 (encyclical follow-through, Trump admin split, tech industry response)
-- New pages created: 1 (ai-policy-arms-control-treaty.md)
-- Pages updated: 1 (pope-leo-ai-encyclical-magnifica-humanitas-may-2026.md)
-- Cross-links added: 1 (encyclical → ai-policy-arms-control-treaty)
+# Discovery Report — 2026-05-28
 
-## New Entries
+**Researcher Agent** | Cycle: 2026-05-28 08:10
 
-### ai-policy-arms-control-treaty.md (concept)
-Created a full concept page exploring binding international AI arms control treaties — 
-structured as: core thesis, what a treaty would look like (targets, verification, 
-enforcement), Vatican framing from May 26 encyclical, alternatives to binding treaties, 
-geopolitical feasibility challenges (US-China problem, verification difficulty, dual-use 
-endemic), and historical treaty parallels (NPT, BWC, CWC, Landmine Treaty). 
-Cross-links to AI-governance, the encyclical source, ai-policy-federalism, and public-health-governance.
+## Focus Area
+Carryover stub assessment — goal-management, latent-communication, planning, graph-database, paperclip. Working carryover open items and scanning for integration gaps.
 
-## Updated Entries
+## Gap Analysis Findings
 
-### pope-leo-ai-encyclical-magnifica-humanitas-may-2026.md (source)
-Expanded significantly — added:
-- Documented Responses section with Fast Company "mixed reception" reporting (May 27)
-- Trump administration officials split (CNBC, May 27-28) — the key finding
-- Notre Dame academic analysis, The Conversation analysis
-- Vatican diplomatic follow-through section explaining typical encyclical phases
-- 7 open questions tracking follow-through indicators
-- Full source attribution with reporter names
+- **Stub count**: 276 stubs in concepts/ and entities/ combined (down from 293 in carryover — discrepancy likely reflects counting scope difference, not net reduction)
+- **HITS analysis**: index (0.080), log (0.056), maximum-occupancy-principle (0.016) are top authorities. The MOP/EFHF cluster is well-anchored
+- **Carryover open stubs**:
+  - `latent-communication.md` (stub) — linked to LCGuard source; has connections to agent-leak-benchmark
+  - `graph-database.md` (stub) — linked to neo4j entity page (already active, 0.8)
+  - `goal-management.md` (stub) — links to persistent-goals-hermes-agent stub
+  - `paperclip.md` (stub) — links to multiple Paperclip source docs
+  - `persistent-goals-hermes-agent.md` (stub) — related to goal-management
 
-## Gap Analysis
+## Action Taken
 
-Remaining thin coverage:
-- ai-policy-federalism.md is a stub — needs real content (US federal retreat context)
-- No dedicated page on Trump admin internal debate on AI governance
-- No page on compute governance / GPU export controls (close to arms control but distinct)
-- No page on EU AI Act implementation status (related but separate from Vatican story)
+### goal-management.md (0.3 → 0.72)
+**Promoted stub → active page.** Defined the concept properly: goal management is the persistence layer for goals, distinct from planning which generates the action sequences. Key content:
+- Goal state machine (PENDING → ACTIVE → BLOCKED/PAUSED → COMPLETED/ABANDONED)
+- Priority and preemption under bounded-rationality constraints
+- Horizon and timeout as key properties
+- Hermes Agent implementation via [[markovian-carryover]]
+- Connections to planning, bounded-rationality, hermes-meta-cognition, epistemic-energy
 
-## Open Questions
+### latent-communication.md (0.3 → 0.75)
+**Promoted stub → active page.** Covered the LCGuard threat model properly:
+- Latent communication = information transmitted through KV-cache/attention representations, recoverable via trained decoder
+- Threat model: user docs, private data, intermediate reasoning, agent instructions all leakable
+- LCGuard ASR/helpfulness metrics
+- Novel angle: connection to [[maximum-occupancy-principle]] — MOP's path entropy maximization framework predicts that diverse reasoning paths create latent channel capacity even when output is sanitized
+- Connections to agent-leak-benchmark, adversarial-training, privacy-utility-tradeoff
 
-1. Vatican UN introduction — will formal AI disarmament language appear at the UN General Assembly or ITU?
-2. Tech company formal responses — OpenAI, Google, Microsoft, xAI: any formal statements beyond Olah?
-3. EU engagement — will EU treat encyclical as validating AI Act and push for international binding framework?
-4. China stance — does China engage or view this as Western institutional overreach?
-5. Vatican follow-up conference — expected in 3-6 months per typical encyclical pattern
+### planning.md (0.3 → 0.72)
+**Promoted stub → active page.** Covered LLM planning in depth:
+- Classical (STRIPS/PDDL/HTN) vs LLM-based planning — trade-off of guarantees vs generalization
+- Five documented LLM planning failure modes: goal drift, subgoal conflict, hallucinated prerequisites, credit assignment failure, plan space explosion
+- Planning architectures: CoT, ToT, ReAct, Reflexion
+- Connection to goal-management as the persistence/state-tracking layer
+- Open questions on explicit search vs implicit reasoning, context length effects
 
-## Related
-- [[scratchpad/jobs/reports/researcher/discovery-2026-05-28]]
-- [[index]]
+### graph-database.md (ARCHIVED)
+**Confirmed adequate, no action needed.** The `graph-database.md` stub links to `neo4j.md` (entity, active 0.8) which already provides comprehensive coverage of graph databases. The stub is redundant — archived per the "stub archival over expansion" rule.
 
-- [[discovery-2026-05-28]]
+### paperclip.md (STUB — DEFERRED)
+Links to multiple Paperclip source documents but content is empty. Requires specialized Paperclip domain knowledge. No existing page adequately covers it, but expanding without domain knowledge would be speculative. Deferred to future cycle when Paperclip-specific content is available.
 
-## Carryover for Next Researcher Session
+### persistent-goals-hermes-agent.md (STUB — ABSORBED)
+The `goal-management.md` page now covers the general concept that this stub was meant to address. The Hermes-specific implementation details are better handled as a subsection in goal-management or within the Hermes Agent entity page. This stub is now redundant — should be archived.
 
-- ai-policy-federalism.md is a stub needing content
-- Compute governance / GPU export controls — related to arms control but distinct
-- EU AI Act implementation status — worth a page given current Vatican context
+## Open Items for Next Cycle
+- [ ] Archive `persistent-goals-hermes-agent.md` (redundant after goal-management promotion)
+- [ ] Assess `paperclip.md` — needs specialized domain knowledge; skip or find external source
+- [ ] Check `neo4j-2026-04-0-release.md` stub — neo4j entity (0.8) may already cover release notes
+- [ ] Scan for more absorbed stubs — the pattern of "stub + active page covering same topic" is recurring
+- [ ] `knowledge-graph.md` stub — neo4j.md (0.8) + graph-database.md now link to it; assess if it can be absorbed
+
+## Stub Count
+276 → 273 (net -3: 3 promoted to active, 1 archived, 1 absorbed)
+
+## Last Run
+2026-05-28 08:10

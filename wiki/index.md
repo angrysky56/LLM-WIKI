@@ -1,5 +1,5 @@
 ---
-updated: 2026-05-28T14:43:26Z
+updated: 2026-05-28T20:20:16Z
 type: index
 ---
 
@@ -187,7 +187,7 @@ type: index
 - [[curiosity-driven-exploration]] — [STUB] Curiosity-driven exploration in RL
 - [[data-privacy]] — Data privacy — protection of personal information in AI systems
 - [[death-penalty]] — [STUB] Death penalty — capital punishment in US legal system
-- [[deep-learning]] — [STUB] Deep learning — neural networks with multiple layers that learn hierarchical representations
+- [[deep-learning]] — ARCHIVED — absorbed by transformers.md (0.78)
 - [[delegation]] — Delegation — the act of assigning authority and task responsibility from one agent to another within an agentic hierarchy
 - [[deliberative-agents]] — Deliberative agents — agent architectures that use explicit planning and world-model reasoning to select actions
 - [[delta-direct]] — [STUB] Delta Direct — LLM research on directional motion blindness in video understanding
@@ -251,7 +251,7 @@ type: index
 - [[github]] — [STUB] GitHub — code hosting and collaboration platform
 - [[global-health-infrastructure]] — [STUB] International systems for disease outbreak response and health security
 - [[global-health-security]] — [STUB] International frameworks for pandemic preparedness and health emergency response
-- [[goal-management]] — [STUB] Goal management — maintaining and tracking agent goals across time
+- [[goal-management]] — Goal management — maintaining, prioritizing, and persisting agent goals across reasoning steps and sessions
 - [[google-research]] — [STUB] Google Research division and its AI/ML research output
 - [[governance]] — Structures, rules, and processes for directing, monitoring, and controlling AI behavior — covering alignment, oversight, accountability, and transparency
 - [[graph-database]] — [STUB] Graph database — databases that use graph structures for queries
@@ -262,7 +262,7 @@ type: index
 - [[habitat]] — [STUB] Habitat simulation platform for embodied AI
 - [[hamm-v-smith]] — May 2026 Supreme Court ruling invalidating IEEPA-based unilateral US tariffs
 - [[hermes-agent-skills]] — 63-skill inventory with categories, descriptions, and connection links
-- [[hermes-meta-cognition]] — [STUB] Hermes metacognitive architecture — oMCD framework, agent archetypes, and self-model structure
+- [[hermes-meta-cognition]] — Hermes metacognitive architecture — oMCD control framework + DMC + closed-loop activation steering
 - [[hermes_agent]] — Architectural overview of the Hermes Agent framework.
 - [[hezbollah]] — [STUB] Hezbollah — Lebanese political/military organization
 - [[hidden-states]] — The internal vector representations (activations) of data at each layer of a neural network, containing "inner knowledge" and confidence signals
@@ -284,7 +284,7 @@ type: index
 - [[india-us-relations]] — [STUB] US-India bilateral relations across energy, defense, and trade
 - [[indie-hacking]] — [STUB] Indie hacking: solo building and shipping profitable products
 - [[infectious-disease]] — [STUB] Infectious disease — pathogen spread and epidemiology
-- [[inference-efficiency]] — [STUB] Inference efficiency — optimizing model inference speed and resource usage
+- [[inference-efficiency]] — ARCHIVED — absorbed by llm-inference.md (0.8)
 - [[inference-time-compute-scaling]] — Allocating inference-time compute to improve reasoning quality — the frontier of scaling laws beyond training
 - [[infinite]] — [STUB] Infinite — concepts of infinity in mathematics and computation
 - [[information-architecture]] — [STUB] Information architecture — organizing, structuring, and labeling information systems for usability
@@ -311,7 +311,7 @@ type: index
 - [[language-evolution]] — The study of the statistical structure and temporal dynamics of language change over time.
 - [[language-models]] — [STUB] Language models — statistical and neural models of language
 - [[large-language-models]] — [ARCHIVED] Duplicate — use transformers.md (0.78). No substantive content.
-- [[latent-communication]] — [STUB] Hidden communication channels in neural networks
+- [[latent-communication]] — Hidden KV-cache side channels in multi-agent LLM systems — reconstruction attacks, LCGuard benchmark, and defenses
 - [[latent-reasoning]] — Latent reasoning — implicit multi-step inference encoded in hidden states before explicit token generation; the distinction between reasoning that appears in CoT tokens vs reasoning that happens in embedding space
 - [[latex]] — [STUB] LaTeX document preparation system
 - [[lcguard]] — LCGuard — tool/safety framework (stub)
@@ -325,12 +325,12 @@ type: index
 - [[llm-inference]] — LLM inference — serving, KV cache management, batching, and efficiency optimizations for large language models at scale
 - [[llm-kernel-optimization]] — [STUB] LLM kernel optimization — optimizing LLMs for efficient inference
 - [[llm-nlp]] — [STUB] LLM NLP — natural language processing with large language models
-- [[llm-optimization]] — [STUB] LLM optimization — techniques for optimizing large language model performance
+- [[llm-optimization]] — ARCHIVED — absorbed by llm-inference.md (0.8)
 - [[llm-reasoning]] — LLM reasoning — the distinction between pattern matching and genuine multi-step logical inference; chain-of-thought, process reward models, search-augmented reasoning, and the emergent reasoning capabilities that appear at scale
 - [[llm-training]] — LLM training — pre-training, fine-tuning, continual learning, and catastrophic forgetting mitigation for large language models
 - [[llm-vision]] — [STUB] LLM vision — visual capabilities of large language models
 - [[llm-wiki-pattern]] — Karpathy's pattern for LLM-maintained persistent Markdown knowledge bases — the foundational architecture this wiki is built on
-- [[llm]] — [STUB] LLM — large language model — general reference
+- [[llm]] — ARCHIVED — absorbed by transformers.md (0.78)
 - [[load-bearing-reasoning]] — A framework for interpretability that distinguishes between tokens necessary for a conclusion (load-bearing) and those that serve as statistical noise reduction (scaffolding).
 - [[logic]] — [STUB] Logic — formal systems of reasoning and inference
 - [[lora]] — LoRA — Low-Rank Adaptation — parameter-efficient fine-tuning method using rank-decomposition matrices to adapt large models with minimal trainable parameters
@@ -426,7 +426,7 @@ type: index
 - [[persistent-knowledge-compilation]] — Paradigm of LLM pre-compiling knowledge into persistent structured bases vs stateless RAG
 - [[peter-steinberger]] — [STUB] Peter Steinberger, developer of PSPDFKit
 - [[planetary-defense]] — [STUB] Planetary defense — detection and mitigation of asteroid threats
-- [[planning]] — [STUB] Planning — AI planning and goal-directed behavior
+- [[planning]] — Planning — generation of action sequences toward goals, classical vs LLM planning, failure modes, and architecture patterns
 - [[power-law-scaling]] — Power law scaling — relationships between system size and properties following f(x) = ax^k across neural networks, biology, and complex systems
 - [[power-law]] — Power law — mathematical relationship where frequency varies as a power of some quantity
 - [[prd-ralph-loop-mop-gemini]] — [STUB] PRD Ralph Loop MOP Gemini — Personal Rapid Transit / MOP research with Gemini
@@ -459,7 +459,7 @@ type: index
 - [[reasoning]] — Alias stub redirecting to load-bearing-reasoning — reasoning as a load-bearing cognitive structure
 - [[reconstruction-attack]] — [STUB] Reconstruction attacks on ML models
 - [[recuriosity-episodic-context-3d-exploration-2026]] — [STUB] Recuriosity — episodic context for 3D exploration in agents
-- [[recursive-neural-networks]] — [STUB] Recursive neural networks — neural networks with recursive connections
+- [[recursive-neural-networks]] — ARCHIVED — absorbed by recursive-transformers.md (0.65)
 - [[recursive-transformers]] — Transformer variants with recursive hidden state passing across layers — combining parallel attention efficiency with sequential inductive bias
 - [[redistricting]] — [STUB] Redrawing electoral district boundaries
 - [[refuser-pattern]] — Engineering persona holding deploy token authority — withholds approval until named, plausible, non-reversible harms are addressed
@@ -534,7 +534,7 @@ type: index
 - [[terrorism]] — [STUB] Terrorism — political violence and intimidation
 - [[text-analysis]] — [STUB] Text analysis — computational analysis of text data
 - [[tiktok-youtube-ofcom-report]] — [STUB] Ofcom safety report on TikTok and YouTube platform regulation
-- [[titans-test-time-memory]] — [STUB] Titans test-time memory — extension of Titans architecture with test-time memory
+- [[titans-test-time-memory]] — ARCHIVED — absorbed by recursive-transformers.md (0.65)
 - [[titans]] — Neural memory architecture combining attention with a learnable long-term memory module that dynamically stores sequence-specific information at test time
 - [[tool-use]] — Tool use in LLM agents — how agents invoke external functions, APIs, and capabilities to affect the world
 - [[tooling]] — [STUB] Tooling — tools and infrastructure for AI development and deployment
@@ -648,6 +648,8 @@ type: index
 - [[us-sanctions-stub]] — US Sanctions — Specially Designated Nationals (SDN) framework
 - [[xai]] — xAI — Elon Musk's AI company; Grok chatbot developer; acquired by SpaceX 2025; integrated with Starlink for AI compute distribution
 - [[hermes-agent-lcm-plugin-slash-commands-research]] — Research on Hermes Agent LCM plugin slash commands not working after restart - no specific bugs found
+- [[arxiv-2605-10878-kolmogorov-weight-norm]] — Weight decay induces Solomonoff universal prior in fixed precision — weight norm = Kolmogorov complexity
+- [[arxiv-2605-27366-muse-autoskill]] — MUSE-Autoskill: skill-centric agent framework with on-demand creation, per-skill memory, and self-refinement via evaluation
 - [[Q2_SALES_TARGET_LIST]] — 
 - [[STRATEGIC_BRIEF]] — 
 - [[active-business-plan]] — GoodRobot — plug-and-play AI agent teams for SMBs (archived trial)
@@ -689,7 +691,7 @@ type: index
 - [[workflow]] — 
 - [[audit-report]] — 
 - [[librarians-assistant]] — 
-- [[carryover]] — 2 reciprocal links added; self-answered 8 non-reciprocal links; 594 reciprocal links still pending batch; gbrain and GoodRobot blockers unchanged
+- [[carryover]] — GAAC phantom pages confirmed — all flagged missing links reference deleted/moved pages (.trash/); no remediation possible; carryover blockers unchanged
 - [[quick-reference]] — 
 - [[workflow]] — 
 - [[batch-progress]] — 
@@ -711,7 +713,7 @@ type: index
 - [[Meta-Meta Process for Structured Exploration]] — 
 - [[carryover-template]] — 
 - [[researcher]] — 
-- [[carryover]] — Aug 19 cycle: transformers (0.3→0.78), recursive-transformers (0.3→0.65) promoted. 2 stubs archived (large-language-models, neural-networks). Stub count 321→299.
+- [[carryover]] — May 28: 3 stubs promoted, 1 archived; stub count 276→273
 - [[workflow]] — 
 - [[discovery-report]] — 
 - [[gap-analysis]] — 
@@ -765,6 +767,7 @@ type: index
 - [[carryover]] — 
 - [[overseer-2026-05-26]] — 
 - [[overseer-2026-05-27]] — 
+- [[overseer-2026-05-28]] — 
 - [[overseer-2026-07-28]] — 
 - [[overseer-2026-08-03]] — 
 - [[overseer-2026-08-05]] — Overseer monitoring cycle 2026-08-05 — 8 agents audited, 3 news cards surfaced, librarian card updated, sheet.md synced
@@ -776,7 +779,7 @@ type: index
 - [[discovery-2026-05-25]] — 
 - [[discovery-2026-05-26]] — 
 - [[discovery-2026-05-27]] — 
-- [[discovery-2026-05-28]] — 
+- [[discovery-2026-05-28]] — May 28: 3 stubs promoted (goal-management 0.72, latent-communication 0.75, planning 0.72); graph-database archived as redundant
 - [[discovery-2026-05-29]] — Researcher discovery report
 - [[discovery-2026-05-30]] — Researcher discovery report
 - [[discovery-2026-06-04]] — Researcher discovery report
@@ -799,6 +802,7 @@ type: index
 - [[discovery-2026-08-10]] — Discovery report — Aug 10 cycle: upgraded sovereign-ai (0.3→0.75), knowledge-management (0.3→0.75), knowledge-architecture (0.3→0.7); stub count 325, active 213
 - [[discovery-2026-08-18]] — 
 - [[discovery-2026-08-19]] — 
+- [[discovery-2026-08-20]] — 
 - [[google-deepmind-vatican-encyclical-response-may-2026]] — No Google DeepMind response to Magnifica humanitas encyclical found; compiled monitoring report
 - [[microsoft-vatican-encyclical-response-may-2026]] — No Microsoft response to Magnifica humanitas encyclical found; compiled monitoring report
 - [[sheet]] — t_ff1740de complete: no Microsoft response found to Magnifica humanitas encyclical

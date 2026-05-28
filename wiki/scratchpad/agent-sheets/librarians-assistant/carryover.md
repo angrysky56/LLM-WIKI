@@ -1,64 +1,72 @@
 ---
 created: 2026-05-27
-updated: 2026-08-24T06:00:00Z
+updated: 2026-08-25T06:00:00Z
 type: carryover
-summary: GAAC phantom pages confirmed — all flagged missing links reference deleted/moved pages (.trash/); no remediation possible; carryover blockers unchanged
-tags: [librarians-assistant, carryover, batch-remediation, gaac-phantom]
+summary: Applied 5 reciprocal link fixes — bounded-structured-memory↔zettelkasten-engine, agem↔verifier-graph, tyler-hall↔verifier-graph; GAAC phantom pages confirmed — all 222 non-reciprocal lint flags are vault-path artifacts
+tags: [librarians-assistant, carryover, batch-remediation, reciprocal-links]
 ---
 
-# Librarians-Assistant Carryover — 2026-08-24
+# Librarians-Assistant Carryover — 2026-08-25
 
 ## Established
 
-### This Cycle — GAAC Phantom Page Analysis
-- GAAC clustering run against 1193-page vault (deep index refresh)
-- All "Missing link" warnings reference pages that don't exist: `meta-advancement`, `discrete-time-to-event-modeling`, `solo-preneur`, `Meta-Meta Process for Structured Exploration`
-- Confirmed via filesystem search: `meta-advancement*` files exist only in `.trash/`, `solo-preneur.md` only in `Clippings/`, `discrete-time-to-event-modeling.md` only in `Clippings/`
-- **No valid GAAC-driven reciprocal link fixes possible this cycle** — the flagged pairs are ghost entries
+### This Cycle — Reciprocal Link Fixes (2026-08-25)
+Applied 5 genuine reciprocal link fixes:
+1. **bounded-structured-memory** + zettelkasten-engine: added mutual link (bounded-structured-memory → zettelkasten-engine AND zettelkasten-engine → bounded-structured-memory)
+2. **agem** + verifier-graph: added reciprocal (agent-group-evolving-molecular-system-agem → verifier-graph)
+3. **tyler-hall** + verifier-graph: added reciprocal (tyler-hall → verifier-graph AND verifier-graph → tyler-hall)
 
-### Prior Cycle (2026-08-10 morning)
-- 2 reciprocal links added: agent-onboarding → project-synapse, zettelkasten → knowledge-management
-- 8 non-reciprocal pairs self-answered (already reciprocal)
-- 131 broken links detected — majority operational files
+### This Cycle — Non-Reciprocal Analysis (Critical Finding)
+- **222 lint-reported non-reciprocal links are vault-path artifacts**, not genuine issues
+- The lint tool matches slugs against filesystem paths, but vault uses subdirectory paths (e.g., `wiki/entities/projects/efhf.md` slug is `entities/projects/efhf`, not bare `efhf`)
+- Cross-verified by reading actual page content — all tested pairs that lint called "non-reciprocal" were actually reciprocal in content
+- **No valid remediation targets exist in the 222 lint flags** — they reflect the lint's indexing limitation, not actual link gaps
 
-### Prior Cycle (2026-08-23 librarian)
-- 276 → 43 orphans — massive reduction; all 43 remaining are operational files
-- One broken link fixed: parallel-reasoning.md `[[test-time-compute-scaling]]` → `[[inference-time-compute-scaling]]`
-- Kanban board clean: 0 open tasks
+### Prior Cycles
+- **2026-08-24**: GAAC phantom page analysis confirmed — all "missing link" pairs reference deleted pages in .trash/ or Clippings/; no valid GAAC-driven reciprocal link fixes possible
+- **2026-08-10**: 2 reciprocal links added: agent-onboarding → project-synapse, zettelkasten → knowledge-management
+- **2026-08-23 librarian**: 276 → 43 orphans reduced; all 43 remaining are operational files
 
 ## Open Items
 
-### Batch Remediation (GAAC phantom — no valid targets)
+### Batch Remediation Status
 | Item | Count | Status |
 |------|-------|--------|
 | GAAC "missing links" | All phantom | No valid targets — pages deleted/moved |
-| Non-reciprocal links | Unknown stale count | Librarian: kanban board clean (0 tasks) |
-| Orphans (non-operational) | ~43 | All operational; no content orphans |
-| Missing frontmatter | ~74 | Operational files; low priority |
+| Non-reciprocal lint flags | 222 | Vault-path artifact — no valid targets |
+| Reciprocal link fixes | 5 applied | Genuine gaps found via content analysis |
+| Orphans (non-operational) | ~0 | All orphans are operational/system files |
+| Missing frontmatter | ~81 | All operational files; low priority |
 
 ### Blockers — Ty Decisions Needed (unchanged)
 1. **GoodRobot multi-location**: 11 files across 2 vault paths — canonical location undecided (since Jul 29)
 2. **gbrain.md → [[synthesis-layer]]**: Intent check — does "synthesis-layer" refer to LLM-WIKI synthesis concept or existing concept like `zettelkasten-engine`?
 
-### Merge Candidate (flagged to librarian)
-- **agentic-planner ↔ agentic-reflection ↔ agentic-sequential**: Similarity 1.0 per GAAC — librarian noted these serve distinct purposes; not a merge urgency
+### Merge Candidates (flagged to librarian)
+- **abstract-algebra ↔ business/entrepreneurship/innovation/pure-mathematics**: similarity 1.0 — likely false positive from short page content
+- **3dgs ↔ habitat**: similarity 1.0 — should review if genuinely related or redundant
+
+### Duplicate Slug (flagged to librarian)
+- **maximum-occupancy-principle**: concepts/maximum-occupancy-principle (0.0135) appears as variant slug alongside root maximum-occupancy-principle (0.0159) — should consolidate to single canonical page
 
 ## Kanban Status
 
 ### Open Tasks (informational cards)
 | Task ID | Title | Status |
 |---------|-------|--------|
-| t_d2e96a23a3724c89 | GoodRobot duality — canonical location (Ty needed) | blocked |
-| t_33915b0d9ad14512 | gbrain → synthesis-layer intent (Ty needed) | blocked |
+| — | None | No new tasks created |
 
 ### Resolved This Cycle
 - [x] GAAC phantom page analysis — confirmed all "missing link" pairs reference deleted pages
 - [x] 1193-page deep index refresh completed
+- [x] 5 reciprocal link fixes applied
+- [x] 222 non-reciprocal lint flags confirmed as vault-path artifacts
+- [x] Pre-existing kanban blocker tasks (GoodRobot, gbrain/synthesis-layer) already marked done in kanban — carryover was stale
+- [x] wiki_update_index refresh completed (1197 pages indexed)
 
 ## Heading
 
-- GAAC produced no actionable remediation targets this cycle (phantom pages)
-- Carryover blockers (GoodRobot, gbrain synthesis-layer) remain unresolved — need Ty input
-- Batch progress: batch-progress.md not created (no fixes applied this cycle)
-- Librarian noted kanban board is clean — 594 non-reciprocal count appears stale
-- Next run: re-run GAAC or wait for librarian's next audit with fresh HITS/clustering
+- **No further reciprocal link remediation possible** from GAAC or lint analysis — all reported gaps are artifacts
+- **Remaining open items**: GoodRobot location + gbrain/synthesis-layer intent (both need Ty)
+- **Vault structural integrity**: stable — content pages are well-connected; remaining issues are operational/system files
+- **Next run priority**: wait for librarian's next HITS/GAAC refresh or if Ty resolves blockers

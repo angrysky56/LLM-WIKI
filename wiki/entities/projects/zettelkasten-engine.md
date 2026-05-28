@@ -39,6 +39,7 @@ Insights are stored as `Zettel` nodes in Neo4j with vector embeddings, enabling 
 - [[entities/projects/project-synapse]]
 - [[concepts/llm-wiki-pattern]]
 - [[entities/projects/zettelkasten-engine]]
+- [[concepts/bounded-structured-memory]]: layered memory architecture sharing similar bounded-capacity knowledge synthesis principles
 - [[synthesis/synapse-retrieval-architecture]]
 - [[concepts/maximum-occupancy-principle]]
 - [[concept-index]]

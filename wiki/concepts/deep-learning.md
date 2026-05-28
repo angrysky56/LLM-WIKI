@@ -1,31 +1,22 @@
 ---
+summary: ARCHIVED — absorbed by transformers.md (0.78)
+tags: [archived]
+updated: 2026-05-28T17:44:55Z
+---
+
+---
 created: 2026-05-25
-updated: 2026-05-25
+updated: 2026-08-20
 type: concept
-summary: "[STUB] Deep learning — neural networks with multiple layers that learn hierarchical representations"
-tags: [ml, neural-networks, stubs]
+summary: "ARCHIVED — absorbed by transformers.md (0.78)"
+tags: [archived]
 sources: []
-status: stub
-confidence: 0.3
+status: archived
+confidence: 0.0
 ---
 
 # Deep Learning
 
-*Stub page — needs real content*
+*Archived — content absorbed by [[transformers]] which provides comprehensive coverage of modern neural network architecture including deep learning foundations, representation learning, and the transformer revolution.*
 
-## Connections
-- [[log]]
-- [[concepts/neural-networks]]
-- [[concepts/deep-learning]]
-- [[concepts/transformers]]
-- [[concepts/representation-learning]]
-- [[concepts/machine-learning]]
-- [[concepts/feature-learning]]
-- [[index]]
-- [[deep-learning]]
-
-- [[neural-networks]]
-- [[machine-learning]]
-- [[feature-learning]]
-- [[transformers]]
-- [[representation-learning]]
+See: [[transformers]]

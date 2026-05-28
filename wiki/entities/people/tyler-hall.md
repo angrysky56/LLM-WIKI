@@ -52,3 +52,4 @@ His research involves **SIP-Net** (Synergistic Information Primitive Network), *
 - [[efhf]] — Creator and architect.
 - [[tys-repos]] — Portfolio of projects.
 - [[dhruv-trehan]] — Research collaborator/connection (via scientific interest).
+- [[entities/projects/tys-repos/verifier-graph]] — Reasoning provenance MCP server created by Tyler Hall for tracking causal reasoning chains across the stack.

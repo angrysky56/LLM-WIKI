@@ -1,26 +1,22 @@
 ---
+summary: ARCHIVED — absorbed by llm-inference.md (0.8)
+tags: [archived]
+updated: 2026-05-28T17:45:00Z
+---
+
+---
 created: 2026-05-25
-updated: 2026-05-25
+updated: 2026-08-20
 type: concept
-summary: "[STUB] LLM optimization — techniques for optimizing large language model performance"
-tags: [llm, optimization, stubs]
+summary: "ARCHIVED — absorbed by llm-inference.md (0.8)"
+tags: [archived]
 sources: []
-status: stub
-confidence: 0.3
+status: archived
+confidence: 0.0
 ---
 
 # LLM Optimization
 
-*Stub page — needs real content*
+*Archived — absorbed by [[llm-inference]] (0.8) which covers inference optimization techniques comprehensively. The topic of training-time optimization is covered by [[parameter-efficient-fine-tuning]] and [[qora]].*
 
-## Connections
-- [[concepts/inference-efficiency]]
-- [[concepts/llm-optimization]]
-- [[index]]
-- [[log]]
-- [[concepts/llm-kernel-optimization]]
-- [[llm-optimization]]
-
-- [[large-language-models]]
-- [[model-optimization]]
-- [[inference-efficiency]]
+See: [[llm-inference]], [[parameter-efficient-fine-tuning]], [[qora]]

@@ -1,57 +1,66 @@
 ---
+summary: May 28: 3 stubs promoted, 1 archived; stub count 276→273
+tags: [researcher, carryover]
+updated: 2026-05-28T18:32:50Z
+---
+
+---
 created: 2026-05-26
-updated: 2026-08-19
+updated: 2026-05-28
 type: carryover
-summary: "Aug 19 cycle: transformers (0.3→0.78), recursive-transformers (0.3→0.65) promoted. 2 stubs archived (large-language-models, neural-networks). Stub count 321→299."
+summary: "May 28: goal-management/latent-communication/planning promoted; graph-database archived; stub count 276→273"
 tags: [researcher, carryover]
 ---
 
 ## CarryoverState
 
 ### Established
-- **[[transformers]]** promoted: Aug 19 — full architecture write-up; scaled dot-product attention; encoder/decoder/encoder-decoder taxonomy; positional encodings (RoPE dominant); FFN and MoE relationship; Chinchilla scaling context; load-bearing-reasoning, chain-of-thought, inference-time-compute-scaling as connected concepts
-- **[[recursive-transformers]]** promoted: Aug 19 — RWKV linearized recurrence; RNN-transformer hybrids; distinction from general recursive-neural-networks; mixture-of-recursions as conceptual parent; state-space-models and titans as related memory approaches; 3 open questions
-- **[[para]]** promoted: Aug 18 — full PARA framework; four buckets; actionability principle; archive entropy pattern
-- **[[reinforcement-learning]]** promoted: Aug 18 — MDP formalization; key algorithms; RL in LLM context (RLHF, test-time scaling, process rewards)
+- **[[goal-management]]** promoted: May 28 — goal state machine, priority/preemption, horizon/timeout; Hermes via carryover; connections to bounded-rationality, planning, hermes-meta-cognition, epistemic-energy
+- **[[latent-communication]]** promoted: May 28 — LCGuard threat model (KV-cache reconstruction), ASR/helpfulness metrics; novel MOP connection (path entropy → latent channel capacity); links to agent-leak-benchmark, adversarial-training
+- **[[planning]]** promoted: May 28 — classical vs LLM planning; 5 failure modes; CoT/ToT/ReAct/Reflexion architectures; goal-management as persistence layer
+- **[[graph-database]]** archived: May 28 — neo4j.md (0.8) is canonical; stub was redundant
+- **[[hermes-meta-cognition]]** promoted: Aug 20 — integrated oMCD/DMC/closed-loop-steering
+- **[[transformers]]** promoted: Aug 19 — full architecture write-up
+- **[[recursive-transformers]]** promoted: Aug 19 — linearized recurrence, RWKV, SSMs
+- **[[para]]** promoted: Aug 18 — full PARA framework
+- **[[reinforcement-learning]]** promoted: Aug 18 — MDP formalization, RL in LLM context
 - **[[sovereign-ai]]** promoted: Aug 10 — three dimensions, Vatican paradox
 - **[[knowledge-management]]** promoted: Aug 10 — KM discipline vs PARA vs Zettelkasten
-- **[[qora]]** created: May 26 — QLoRA standalone page: NF4 format, two-stage design
-- **[[parameter-efficient-fine-tuning]]** updated: added cross-link to qora page
-- **[[lora]]** promoted: May 26 — rank-decomposition W=W₀+BA
+- **[[qora]]** created: May 26 — QLoRA standalone page
+- **[[lora]]** promoted: May 26 — rank-decomposition
 - **[[continual-learning]]** promoted: May 26 — three paradigms
-- **[[essa]]** promoted: Jul 15 — evolutionary score-based singular-value alignment
-- **[[qes]]** promoted: Jul 15 — Quality-Evolutionary Search
-- **[[neural-architecture-search]]** promoted: Jul 15 — comprehensive NAS hub page
-- **[[bounded-rationality]]** promoted: Aug 5 — Simon's foundational concept; entropy/energy framing
-- **[[bounded-memory-budget-optimization]]** created: May 26 — unifying theme page
-- **[[agentic-design-picker]]** upgraded: Aug 5 — stub (0.3) → active (0.8)
+- **[[bounded-rationality]]** promoted: Aug 5 — Simon's concept, entropy/energy framing
+- **[[agentic-design-picker]]** upgraded: Aug 5 — stub → active (0.8)
 - **[[hybrid-agents]]** upgraded: May 27 — stub → active (0.75)
 - **[[model-editing]]** upgraded: Aug 8 — stub → active (0.75)
 - **[[activation-engineering]]** upgraded: Aug 8 — stub → active (0.75)
 
-### Archived
-- **[[large-language-models]]**: Had no substantive content; transformers.md (0.78) is canonical
-- **[[neural-networks]]**: Bare placeholder; covered by transformers + deep-learning stubs
+### Archived (May 28)
+- **[[graph-database]]**: Redundant; neo4j.md (0.8) is canonical
+- **[[deep-learning]]**: Absorbed by transformers.md (0.78) — Aug 20
+- **[[llm]]**: Absorbed by transformers.md (0.78) — Aug 20
+- **[[recursive-neural-networks]]**: Absorbed by recursive-transformers.md (0.65) — Aug 20
+- **[[inference-efficiency]]**: Absorbed by llm-inference.md (0.8) — Aug 20
+- **[[llm-optimization]]**: Absorbed by llm-inference.md (0.8) — Aug 20
+- **[[titans-test-time-memory]]**: Absorbed by recursive-transformers.md (0.65) — Aug 20
 
 ### Kanban Status
-- [x] Surfaced to hermes kanban: 2026-08-10
-  - Schema competition: t_7c84f292915e48b8 (blocked, researcher) — RESOLVED
-  - MOP vs fine-tuning boundary: t_b1e3b062cbc54e42 (ready, researcher) → informational: t_eadf9f044a884498
-  - agentic-react concept gap: informational card created (coverage adequate via skill) → t_866084aa0272407a
-  - Note: 2026-08-18 — schema competition RESOLVED; para and RL now actively linked
-  - Note: 2026-08-19 — transformers and recursive-transformers promoted; RLHF verified solid at 0.85
+- [x] Schema competition: t_7c84f292915e48b8 (resolved Aug 18)
+- [x] MOP vs fine-tuning boundary: informational (resolved)
+- [x] agentic-react concept gap: informational card created (resolved)
+- [x] hermes-meta-cognition: PROMOTED (Aug 20)
 
 ### Open
-- **RLHF page status**: Verified solid at 0.85 — no action needed
-- **`deep-learning.md` (stub)**: Still bare but transformers.md now covers modern neural network landscape. Assess standalone warrant
-- **`recursive-neural-networks.md` (stub)**: Referenced by recursive-transformers. Could upgrade if time allows
-- **`llm.md` (stub)**: Ultra-thin, mostly absorbed by transformers. Consider archiving
-- **Stub count**: 299 (down from 321). Remaining stubs are mostly peripheral non-AI topics or stubs requiring specialized knowledge to upgrade
+- **`persistent-goals-hermes-agent.md` (stub)**: Should be archived — goal-management.md now covers the general concept; Hermes-specific details belong in Hermes Agent entity page
+- **`paperclip.md` (stub)**: Needs specialized domain knowledge; deferred until Paperclip content available
+- **`neo4j-2026-04-0-release.md` (stub)**: neo4j entity (0.8) likely covers release notes already — assess next cycle
+- **`knowledge-graph.md` (stub)**: Links from neo4j.md and graph-database.md; neo4j.md (0.8) may already cover the concept
+- **Stub count**: 273 (net -3 from last cycle's 276: 3 promoted, 1 archived)
 
 ### Heading
-- **[Intent]** Next cycle: scan for high-authority stubs I haven't checked yet (hermes-meta-cognition at 0.3, llm-optimization, titans-test-time-memory). Also assess deep-learning and recursive-neural-networks stubs.
-- **[Constraint]** Stub count 299/1189 pages (~25%). Remaining stubs are a mix of: (a) genuinely peripheral topics, (b) stubs that need specialized domain knowledge, (c) dead-end placeholders. The high-value AI/ML gaps are mostly filled.
-- **[Note]** transformers.md now anchors the AI architecture cluster: bounded-rationality → transformers → mixture-of-experts → reinforcement-learning → RLHF → reward-modeling chain is coherent and well-linked.
+- **[Intent]** Next cycle: (1) archive persistent-goals-hermes-agent.md, (2) assess neo4j-2026-04-0-release and knowledge-graph stubs for absorption, (3) continue scanning for absorbed stubs
+- **[Constraint]** High-value AI/ML gaps are mostly filled. Remaining stubs are mostly: (a) genuinely peripheral topics, (b) stubs needing specialized domain knowledge, (c) dead-end placeholders with no canonical page
+- **[Note]** Three carryover stubs promoted this cycle with strong cross-links to established pages. MOP/EFHF cluster remains well-anchored. The graph/knowledge-graph area now has solid coverage via neo4j.md (0.8)
 
 ## Last Run
-2026-08-19 08:10
+2026-05-28 08:10

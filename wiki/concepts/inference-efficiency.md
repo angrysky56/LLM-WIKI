@@ -1,27 +1,22 @@
 ---
+summary: ARCHIVED — absorbed by llm-inference.md (0.8)
+tags: [archived]
+updated: 2026-05-28T17:44:59Z
+---
+
+---
 created: 2026-05-25
-updated: 2026-05-25
+updated: 2026-08-20
 type: concept
-summary: "[STUB] Inference efficiency — optimizing model inference speed and resource usage"
-tags: [inference, optimization, stubs]
+summary: "ARCHIVED — absorbed by llm-inference.md (0.8)"
+tags: [archived]
 sources: []
-status: stub
-confidence: 0.3
+status: archived
+confidence: 0.0
 ---
 
 # Inference Efficiency
 
-*Stub page — needs real content*
+*Archived — absorbed by [[llm-inference]] (0.8) which provides comprehensive coverage of inference optimization including KV cache management, speculative decoding, batching strategies, and quantization.*
 
-## Connections
-- [[concepts/llm-kernel-optimization]]
-- [[concepts/inference-efficiency]]
-- [[concepts/model-optimization]]
-- [[index]]
-- [[concepts/model-serving]]
-- [[log]]
-- [[inference-efficiency]]
-
-- [[llm-optimization]]
-- [[model-serving]]
-- [[model-optimization]]
+See: [[llm-inference]], [[model-serving]]

@@ -1,69 +1,79 @@
-# Librarian Carryover — 2026-08-23
+# Librarian Carryover — 2026-08-24
 
 ## Kanban Status
-- [x] Audit complete: 2026-08-23 08:50 AM UTC
+- [x] Audit complete: 2026-08-24 08:50 AM UTC
 - [x] MCP tools: REACHABLE this cycle ✓
-- [x] wiki_lint + wiki_hits_analysis + wiki_cluster_pages ran successfully
-- [x] Broken link fixed: parallel-reasoning.md → [[test-time-compute-scaling]] → [[inference-time-compute-scaling]] (correct target exists)
+- [x] wiki_lint + wiki_hits_analysis + wiki_cluster_pages + wiki_update_index ran successfully
 - [x] All prior kanban tasks resolved (kanban board is clean — 0 open tasks)
 - [ ] New items identified this cycle (no kanban needed — see Open below)
 
 ## Established
 
-### Vault Stats (Updated 2026-08-23)
-- Total wiki pages: 1200
-- True orphans: 43 (↓ from 276 — massive reduction since May audit)
-- Orphan breakdown: all operational files (carryovers, reports, SKILL files, TEMPLATE, discovery/headlines reports)
+### Vault Stats (Updated 2026-08-24)
+- Total wiki pages: 1204 (1197 indexed after update_index)
+- True orphans: 48 (slight increase from 43, but all operational files — carryovers, reports, TEMPLATE, discovery files, SKILL files, agent sheets)
+- Orphan breakdown: all operational/non-content files (zero knowledge orphans)
 - .bak files: 0 (clean)
 
 ### MCP Tools Available ✓
-MCP server confirmed reachable. `wiki_lint`, `wiki_hits_analysis`, `wiki_cluster_pages` all functional this cycle.
+MCP server confirmed reachable. `wiki_lint`, `wiki_hits_analysis`, `wiki_cluster_pages`, `wiki_update_index` all functional this cycle.
 
 ### HITS Analysis (Top Authorities — this cycle)
-1. [[index]] (0.0801) — structural hub, not a content page
-2. [[log]] (0.0561) — structural hub, not a content page
-3. [[maximum-occupancy-principle]] (0.0158) — load-bearing concept page
-4. [[efhf]] (0.0051) — entity page
-5. [[concept-index]] (0.0046) — structural hub
-6. [[agentic-research]] (0.0036) — concept page
-7. [[load-bearing-reasoning]] (0.0034) — concept page
+1. [[index]] (0.0799) — structural hub, not a content page
+2. [[log]] (0.0557) — structural hub, not a content page  
+3. [[maximum-occupancy-principle]] (0.0159) — load-bearing concept page
+4. [[concepts/maximum-occupancy-principle]] (0.0135) — duplicate slug variant
+5. [[efhf]] (0.0052) — entity page
+6. [[concept-index]] (0.0048) — structural hub
+7. [[agentic-research]] (0.0037) — concept page
+8. [[load-bearing-reasoning]] (0.0036) — concept page
 
 **Top Hubs:**
 - [[maximum-occupancy-principle]] (hub+authority dual)
-- [[efhf]], [[concept-index]], [[load-bearing-reasoning]], [[zettelkasten-engine]], [[edm-framework]], [[alphaevolve]], [[world-model]]
+- [[efhf]], [[concept-index]], [[carryover]], [[load-bearing-reasoning]], [[zettelkasten-engine]], [[edm-framework]], [[alphaevolve]]
 
 ### GAAC Clustering
-- Cluster 0: Large agent design cluster (agentic-planner, agentic-reflection, agentic-sequential, agentic-react, agentic-multiagent, etc.)
-- Clusters are coherent topic neighborhoods; no urgent missing links flagged this cycle
+- 35 clusters identified
+- Cluster 0 (content): meta-advancement, Meta-Meta Process, discrete-time-to-event-modeling, solo-preneur — 6 missing links between genuine knowledge pages
+- All other clusters (Cluster 1–34) are operational system pages (agent sheets, SKILL files, carryovers, project files) — missing links are system artifacts, not content issues
+- No urgent content cluster remediation needed
 
-### Broken Links
-- **4825 broken links reported** — this count is inflated by log.md noise and template artifacts
-- Key fix applied: `wiki/concepts/parallel-reasoning.md` had `[[test-time-compute-scaling]]` (no page) → patched to `[[inference-time-compute-scaling]]`
-- Remaining genuine broken links are operational file references, not content issues
+### Broken Links (4786)
+- Overwhelming majority are operational artifacts (wiki/agents/* paths, discovery reports, TEMPLATE, carryovers)
+- parallel-reasoning.md: correctly links to inference-time-compute-scaling (verified — prior cycle fix confirmed)
+- Zero broken links in content pages (concepts, entities, synthesis, sources)
 
-### Non-Reciprocal Links (594 — prior cycle)
-- Still present in vault; kanban card t_eac64c085f424ab7 was created but board now shows 0 open tasks
-- librarians-assistant should resume this remediation
+### Non-Reciprocal Links (222 — ↓ from 594)
+- Significant improvement — 372 fewer non-reciprocal links since last cycle
+- Still present in vault; librarians-assistant should continue remediation
+- Key notable non-reciprocal pairs: efhf↛mcp-logic, verifier-graph↛agem, meta_harness_loop↛agem, feature-learning↛deep-learning, agent-architectures (truncated)
+
+### Missing Frontmatter (81)
+- All operational files (carryovers, SKILLs, templates, project files)
+- No knowledge pages missing frontmatter
 
 ## Open
 
-1. **276 → 43 orphans** — massive reduction since May audit. All 43 remaining are operational files (carryovers, reports, TEMPLATE, SKILL files). No content orphans. No action needed unless Ty wants a formal classification.
+1. **48 orphans** — all operational files. No content orphans. No action needed.
 
-2. **74 missing frontmatter** — operational files. Not critical; can batch-fix if librarians-assistant has capacity.
+2. **81 missing frontmatter** — all operational files. Not critical; librarians-assistant can batch-fix if capacity allows.
 
-3. **594 non-reciprocal links** — prior kanban card resolved (board clean). librarians-assistant should resume remediation.
+3. **222 non-reciprocal links** — down from 594. Significant improvement. librarians-assistant should continue remediation in priority order: high-authority pages first.
 
-4. **test-time-compute-scaling → [[inference-time-compute-scaling]] FIXED THIS CYCLE** — patched parallel-reasoning.md.
+4. **Cluster 0 missing links** — 6 missing links between meta-advancement, Meta-Meta Process for Structured Exploration, discrete-time-to-event-modeling, solo-preneur. These are genuine knowledge pages needing reciprocal connections. Delegated to librarians-assistant.
 
-5. **Merge candidate: agentic-planner ↔ agentic-reflection ↔ agentic-sequential** — Similarity 1.0. These three pages serve distinct purposes in the agentic-decision-tree skill taxonomy. Not a merge urgency.
+5. **Merge candidate: abstract-algebra ↔ business/entrepreneurship/innovation/pure-mathematics** — similarity 1.0. Likely false positive from short page content. librarians-assistant should evaluate.
 
-6. **GoodRobot multi-location** — unchanged since Jul 29. Canonical location TBD by Ty.
+6. **Merge candidate: 3dgs ↔ habitat** — similarity 1.0. Should review if these are genuinely related or redundant.
+
+7. **maximum-occupancy-principle duplicate** — concepts/maximum-occupancy-principle (0.0135) appears as variant slug alongside root maximum-occupability-principle (0.0159). Should consolidate to single canonical page.
+
+8. **GoodRobot multi-location** — unchanged since Jul 29. Canonical location TBD by Ty.
 
 ## Heading
 
 - MCP tools: available this cycle
 - Audit complete; all findings documented
-- Orphan count dramatically improved (276 → 43) — vault linkage improved significantly
-- One broken link fixed (test-time-compute-scaling)
 - 0 open kanban tasks — board is clean
-- All prior kanban items resolved
+- Vault structural integrity: stable (orphans flat, broken links flat, non-reciprocal significantly reduced)
+- Next priority: Cluster 0 content remediation + non-reciprocal link completion

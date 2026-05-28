@@ -1,35 +1,22 @@
 ---
-created: 2026-05-25
-updated: 2026-05-25
-type: concept
-summary: [STUB] Titans test-time memory — extension of Titans architecture with test-time memory
-tags: [titans, architecture, memory, stubs]
-sources: []
-status: stub
-confidence: 0.3
+summary: ARCHIVED — absorbed by recursive-transformers.md (0.65)
+tags: [archived]
+updated: 2026-05-28T17:45:01Z
 ---
 
+---
+created: 2026-05-25
+updated: 2026-08-20
+type: concept
+summary: "ARCHIVED — absorbed by recursive-transformers.md (0.65)"
+tags: [archived]
+sources: []
+status: archived
+confidence: 0.0
+---
 
 # Titans Test-Time Memory
 
-*Stub page — needs real content*
+*Archived — Titans architecture is covered in [[recursive-transformers]] which addresses RWKV, state-space models, and related memory-augmented architectures. Test-time memory extension concepts are also treated in [[neural-long-term-memory]] and [[in-context-learning]].*
 
-## Connections
-- [[index]]
-- [[entities/tools/mamba]]
-- [[concepts/titans-test-time-memory]]
-- [[log]]
-- [[concepts/surprise-based-learning]]
-- [[concepts/neural-long-term-memory]]
-- [[concepts/in-context-learning]]
-- [[sources/papers/decoupling-perception-reasoning-vlm-post-training]]
-- [[concepts/chain-of-thought]]
-- [[concepts/length-generalization]]
-- [[concepts/titans]]
-- [[titans-test-time-memory]]
-
-- [[titans]]
-- [[memory-mechanisms]]
-- [[length-generalization]]
-- [[titans]]
-- [[chain-of-thought]]
+See: [[recursive-transformers]], [[neural-long-term-memory]], [[in-context-learning]]

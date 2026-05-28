@@ -1,25 +1,22 @@
 ---
+summary: ARCHIVED — absorbed by transformers.md (0.78)
+tags: [archived]
+updated: 2026-05-28T17:44:56Z
+---
+
+---
 created: 2026-05-25
-updated: 2026-05-25
+updated: 2026-08-20
 type: concept
-summary: "[STUB] LLM — large language model — general reference"
-tags: [llm, stubs]
+summary: "ARCHIVED — absorbed by transformers.md (0.78)"
+tags: [archived]
 sources: []
-status: stub
-confidence: 0.3
+status: archived
+confidence: 0.0
 ---
 
 # LLM
 
-*Stub page — needs real content*
+*Archived — content absorbed by [[transformers]] which provides comprehensive coverage of large language model architecture, training, and capabilities.*
 
-## Connections
-- [[concepts/llm]]
-- [[concepts/model-behavior]]
-- [[log]]
-- [[index]]
-- [[llm]]
-
-- [[large-language-models]]
-- [[nlp]]
-- [[model-behavior]]
+See: [[transformers]]

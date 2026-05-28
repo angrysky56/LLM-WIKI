@@ -1,24 +1,22 @@
 ---
+summary: ARCHIVED — absorbed by recursive-transformers.md (0.65)
+tags: [archived]
+updated: 2026-05-28T17:44:57Z
+---
+
+---
 created: 2026-05-25
-updated: 2026-05-25
+updated: 2026-08-20
 type: concept
-summary: "[STUB] Recursive neural networks — neural networks with recursive connections"
-tags: [recursive-neural-networks, deep-learning, stubs]
+summary: "ARCHIVED — absorbed by recursive-transformers.md (0.65)"
+tags: [archived]
 sources: []
-status: stub
-confidence: 0.3
+status: archived
+confidence: 0.0
 ---
 
 # Recursive Neural Networks
 
-*Stub page — needs real content*
+*Archived — topic absorbed by [[recursive-transformers]] which covers the relationship between recursive connections and transformer architectures, including RWKV linearized recurrence and RNN-transformer hybrids.*
 
-## Connections
-- [[index]]
-- [[concepts/recursive-neural-networks]]
-- [[log]]
-- [[concepts/recursive-transformers]]
-- [[recursive-neural-networks]]
-
-- [[neural-networks]]
-- [[recursive-transformers]]
+See: [[recursive-transformers]]

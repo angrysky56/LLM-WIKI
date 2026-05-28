@@ -1,4 +1,4 @@
----
+
 created: 2026-05-17T21:15:00Z
 updated: 2026-05-17T21:15:00Z
 type: synthesis
@@ -7,7 +7,7 @@ tags: [synthesis, self-prompting, chain-of-thought, production-stage, instructio
 sources: [], [[chen-molecular-cot-2026|Chen et al. 2026 — Molecular Structure of Long CoT]], [[shorthand-for-thought|Shorthand for Thought (supertokens)]], [[bae-mor-2025|MoR dynamic recursion depth]], [[entropic-machinery-cot-and-flagellum|Entropic Machinery synthesis]], [[llm-biological-analogies|Biological Analogies in LLMs]]
 status: active
 confidence: 0.78 — derivation is solid from established sources; specific bond-energy parameters and cascade timescales are extrapolated from analogy, not measured
----
+
 
 
 # Self-Prompting: Production-Stage Architecture and the Three-Bond Self-Direction Mechanism

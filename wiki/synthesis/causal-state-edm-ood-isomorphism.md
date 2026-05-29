@@ -111,7 +111,7 @@ Within [[project-synapse]]'s [[zettelkasten-engine]]:
 
 1. ~~Can the disruption score be grounded in computational mechanics?~~ **Partially answered.** Cross-log-probability interpretation confirmed. Full connection to excess entropy remains open.
 2. Is cosine distance monotonically related to state-splitting cost? (Requires constructing explicit epsilon machine for a subgraph.)
-3. For LLMs: which internal representation serves as past/future vector? KV cache? Hidden state? Attention?
+3. For LLMs: which internal representation serves as past/future vector? KV cache? Hidden state? Attention? **Partially answered** for one task class in [[test-time-sampling-vs-retraining-ood]]: the entity-state aggregation site at the final token, with suppression-tag activation as the disruption signal.
 4. Can convergent future vectors identify systematic LLM confabulation patterns?
 5. ~~Path entropy ↔ excess entropy?~~ **Partially answered via MOP connection:** β-seeking = state-splitting = complexity growth. See [[mop-edm-cognitive-architecture]].
 6. Does independent wiki synthesis page convergence indicate a "ripe" concept worth a dedicated page?

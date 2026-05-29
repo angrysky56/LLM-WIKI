@@ -1,6 +1,6 @@
 ## Insights Agent — Carryover
 
-**Run**: 2026-05-28 06:00 AM
+**Run**: 2026-05-29 06:00 AM
 **Status**: Complete — CLI watchdog timeout (570s), no new insights generated
 
 ---

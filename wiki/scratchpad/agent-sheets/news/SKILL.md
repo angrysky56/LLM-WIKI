@@ -37,11 +37,11 @@ Use web_search for news discovery. Build queries dynamically — do NOT hardcode
 ```
 # Topic queries — use current context, not hardcoded dates
 geopolitics conflict
-AI tech policy regulation
 science breakthrough discovery
-economy trade tariff
-AI reasoning math breakthrough
-climate energy transition
+economy trade energy
+AI breakthrough
+AI policy regulation
+climate transition
 health pandemic epidemic
 ```
 
@@ -73,7 +73,7 @@ For each selected story:
 2. WRITE clipping:
    wiki_write_page(path="Clippings/articles/{year}/{slug}.md", content=...)
    Frontmatter:
-   ---
+   
    created: {today}
    updated: {today}
    type: source
@@ -81,7 +81,7 @@ For each selected story:
    tags: [news, {topic}]
    sources: {url}
    status: active
-   ---
+   
 
 3. WRITE synthesis (if story is consequential enough):
    wiki_write_page(path="wiki/synthesis/{slug}.md", content=...)

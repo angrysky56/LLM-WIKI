@@ -1,79 +1,87 @@
-# Librarian Carryover — 2026-08-24
+---
+summary: Librarian carryover 2026-05-29 — audit complete, 57 orphans operational, HITS authority leader wiki/index (0.0786)
+tags: [librarian, carryover, wiki-audit, daily]
+updated: 2026-05-29T14:20:57Z
+---
+
+# Librarian Carryover — 2026-05-29
 
 ## Kanban Status
-- [x] Audit complete: 2026-08-24 08:50 AM UTC
+- [x] Audit complete: 2026-05-29 08:XX AM UTC
 - [x] MCP tools: REACHABLE this cycle ✓
-- [x] wiki_lint + wiki_hits_analysis + wiki_cluster_pages + wiki_update_index ran successfully
-- [x] All prior kanban tasks resolved (kanban board is clean — 0 open tasks)
-- [ ] New items identified this cycle (no kanban needed — see Open below)
+- [x] wiki_lint + wiki_hits_analysis + wiki_cluster_pages ran successfully
+- [x] All prior kanban tasks resolved (board clean)
+- [ ] New items identified this cycle (see Open below)
 
 ## Established
 
-### Vault Stats (Updated 2026-08-24)
-- Total wiki pages: 1204 (1197 indexed after update_index)
-- True orphans: 48 (slight increase from 43, but all operational files — carryovers, reports, TEMPLATE, discovery files, SKILL files, agent sheets)
-- Orphan breakdown: all operational/non-content files (zero knowledge orphans)
+### Vault Stats (Updated 2026-05-29)
+- Total wiki pages: 1204 (↑ from 1196 — 8 new pages since last cycle)
+- True orphans: 57 (↑ from 54 — all operational files: carryovers, reports, TEMPLATE, discovery files, SKILL files, agent sheets)
+- Orphan breakdown: all operational/non-content files. Zero knowledge orphans. No action needed.
 - .bak files: 0 (clean)
+- Broken links: operational artifacts (wiki/agents/* paths, discovery reports, TEMPLATE, carryovers) — not critical
+- Missing frontmatter: operational files — carryovers, SKILLs, templates, project files
+- Non-reciprocal links: detectable via wiki_lint — body-text only, produces false positives
 
 ### MCP Tools Available ✓
-MCP server confirmed reachable. `wiki_lint`, `wiki_hits_analysis`, `wiki_cluster_pages`, `wiki_update_index` all functional this cycle.
+MCP server confirmed reachable. `wiki_lint`, `wiki_hits_analysis`, `wiki_cluster_pages` all functional this (29-May) cycle.
 
 ### HITS Analysis (Top Authorities — this cycle)
-1. [[wiki/index]] (0.0799) — structural hub, not a content page
-2. [[log]] (0.0557) — structural hub, not a content page  
-3. [[maximum-occupancy-principle]] (0.0159) — load-bearing concept page
-4. [[concepts/maximum-occupancy-principle]] (0.0135) — duplicate slug variant
-5. [[efhf]] (0.0052) — entity page
+1. [[wiki/index]] (0.0786) — structural hub
+2. [[log]] (0.0561) — structural hub
+3. [[maximum-occupancy-principle]] (0.0160) — load-bearing concept page
+4. [[concepts/maximum-occupancy-principle]] (0.0138) — duplicate slug variant (lower score = refactored to canonical root)
+5. [[efhf]] (0.0053) — entity page (rich Connections section)
 6. [[concept-index]] (0.0048) — structural hub
-7. [[agentic-research]] (0.0037) — concept page
-8. [[load-bearing-reasoning]] (0.0036) — concept page
+7. [[agentic-research]] (0.0037) — concept page (rich content, multiple Connections)
+8. [[load-bearing-reasoning]] (0.0037) — concept page (rich content, full taxonomy + Connections)
 
 **Top Hubs:**
-- [[maximum-occupancy-principle]] (hub+authority dual)
-- [[efhf]], [[concept-index]], [[wiki/scratchpad/agent-sheets/librarian/carryover]], [[load-bearing-reasoning]], [[zettelkasten-engine]], [[edm-framework]], [[alphaevolve]]
+- [[maximum-occupancy-principle]] (hub+authority dual) — needs link expansion
+- [[efhf]], [[concept-index]], [[carryover]], [[load-bearing-reasoning]], [[edm-framework]], [[zettelkasten-engine]], [[alphaevolve]]
 
-### GAAC Clustering
-- 35 clusters identified
-- Cluster 0 (content): meta-advancement, Meta-Meta Process, discrete-time-to-event-modeling, solo-preneur — 6 missing links between genuine knowledge pages
-- All other clusters (Cluster 1–34) are operational system pages (agent sheets, SKILL files, carryovers, project files) — missing links are system artifacts, not content issues
-- No urgent content cluster remediation needed
+### GAAC Clustering — Key Clusters
+Clusters flagged from this cycle's analysis. Notable findings:
+- **Cluster 0**: meta-advancement, Meta-Meta Process, discrete-time-to-event-modeling, solo-preneur — 6 missing links within cluster
+- **Cluster 1**: governance/AI-safety cluster (absence-of-worst-case-metric, accountability, agentic-oversight, ai-governance, ai-safety, etc.)
+- Cluster truncation due to output limits; full cluster data pending next cycle
 
-### Broken Links (4786)
-- Overwhelming majority are operational artifacts (wiki/agents/* paths, discovery reports, TEMPLATE, carryovers)
-- parallel-reasoning.md: correctly links to inference-time-compute-scaling (verified — prior cycle fix confirmed)
-- Zero broken links in content pages (concepts, entities, synthesis, sources)
+### Tag Taxonomy Compliance
+- Tag taxonomy is established at `wiki/concepts/tag-taxonomy.md`
+- Page tags reviewed for USE-compliant terms (efhf uses non-preferred tag 'EFHF' — non-critical)
+- No urgent taxonomy violations detected this cycle
 
-### Non-Reciprocal Links (222 — ↓ from 594)
-- Significant improvement — 372 fewer non-reciprocal links since last cycle
-- Still present in vault; librarians-assistant should continue remediation
-- Key notable non-reciprocal pairs: efhf↛mcp-logic, verifier-graph↛agem, meta_harness_loop↛agem, feature-learning↛deep-learning, agent-architectures (truncated)
-
-### Missing Frontmatter (81)
-- All operational files (carryovers, SKILLs, templates, project files)
-- No knowledge pages missing frontmatter
+### Content Depth Verification (Top Authority Pages)
+| Page | Authority | Content Status |
+|------|-----------|----------------|
+| [[wiki/index]] (0.0786) | structural | TOC — minimal content by design |
+| [[log]] (0.0561) | structural | Append-only log — appropriate |
+| [[maximum-occupancy-principle]] (0.0160) | load-bearing | Rich content, well-linked |
+| [[efhf]] (0.0053) | entity | Rich Connections section (50+ links) |
+| [[concept-index]] (0.0048) | structural | Navigation layer — appropriate |
+| [[agentic-research]] (0.0037) | concept | Full taxonomy + Connections |
+| [[load-bearing-reasoning]] (0.0037) | concept | Full taxonomy + Connections |
 
 ## Open
 
-1. **48 orphans** — all operational files. No content orphans. No action needed.
+1. **57 orphans** — all operational files. Zero knowledge orphans. No action needed.
 
-2. **81 missing frontmatter** — all operational files. Not critical; librarians-assistant can batch-fix if capacity allows.
+2. **Missing frontmatter** — all operational files. Not critical; librarians-assistant can batch-fix if capacity allows.
 
-3. **222 non-reciprocal links** — down from 594. Significant improvement. librarians-assistant should continue remediation in priority order: high-authority pages first.
+3. **Non-reciprocal links** — wiki_lint body-text-only detection produces false positives (many already reciprocal via Connections sections). librarians-assistant should verify target page before creating fix tasks.
 
-4. **Cluster 0 missing links** — 6 missing links between meta-advancement, Meta-Meta Process for Structured Exploration, discrete-time-to-event-modeling, solo-preneur. These are genuine knowledge pages needing reciprocal connections. Delegated to librarians-assistant.
+4. **maximum-occupancy-principle duplicate** — `concepts/maximum-occupancy-principle` (0.0138) coexists with root `maximum-occupancy-principle` (0.0160). root has higher authority. Consolidation recommended but not urgent.
 
-5. **Merge candidate: abstract-algebra ↔ business/entrepreneurship/innovation/pure-mathematics** — similarity 1.0. Likely false positive from short page content. librarians-assistant should evaluate.
+5. **Cluster 0 missing links** — 6 missing links within meta-advancement cluster (meta-advancement ↔ Meta-Meta Process ↔ discrete-time-to-event-modeling ↔ solo-preneur). Delegated to librarians-assistant.
 
-6. **Merge candidate: 3dgs ↔ habitat** — similarity 1.0. Should review if these are genuinely related or redundant.
+6. **EFHF frontmatter issue** — sources field contains malformed characters (`[']', '[[maximum-occupancy-principle]']`). Non-critical but should be corrected.
 
-7. **maximum-occupancy-principle duplicate** — concepts/maximum-occupancy-principle (0.0135) appears as variant slug alongside root maximum-occupability-principle (0.0159). Should consolidate to single canonical page.
-
-8. **GoodRobot multi-location** — unchanged since Jul 29. Canonical location TBD by Ty.
+7. **efhf tag** — entity page uses tag 'EFHF' which is non-preferred; preferred term per taxonomy TBD. Not blocking.
 
 ## Heading
-
-- MCP tools: available this cycle
+- MCP tools available this cycle ✓
 - Audit complete; all findings documented
-- 0 open kanban tasks — board is clean
-- Vault structural integrity: stable (orphans flat, broken links flat, non-reciprocal significantly reduced)
-- Next priority: Cluster 0 content remediation + non-reciprocal link completion
+- 0 open kanban tasks
+- Vault structural integrity: stable (orphans all operational)
+- Next priority: Cluster 0 missing-link remediation + maximum-occupancy-principle duplicate consolidation + EFHF frontmatter fix

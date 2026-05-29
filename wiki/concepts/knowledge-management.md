@@ -1,7 +1,7 @@
 ---
-summary: Knowledge management — systematic approaches to capturing, organizing, and retrieving knowledge across personal and organizational contexts
-tags: [knowledge-management, PKM, organizational-learning, knowledge-graph, zettelkasten, information-architecture]
-updated: 2026-05-27T22:25:24Z
+summary: Knowledge management — systematic approaches to capturing, organizing, and retrieving knowledge
+tags: [knowledge-management, organizational-learning, knowledge-graph, zettelkasten, information-architecture]
+updated: 2026-05-29T06:12:33Z
 ---
 
 ---
@@ -9,7 +9,7 @@ created: 2026-05-25
 updated: 2026-08-10
 type: concept
 summary: "Knowledge management — systematic approaches to capturing, organizing, maintaining, and retrieving institutional knowledge; spans PKM, organizational learning, and knowledge graph methodologies"
-tags: [knowledge-management, PKM, organizational-learning, knowledge-graph, zettelkasten, information-architecture]
+tags: [knowledge-management, organizational-learning, knowledge-graph, zettelkasten, information-architecture]
 sources: []
 status: active
 confidence: 0.75
@@ -63,10 +63,9 @@ Both require: selection pressure on what to keep, regular review/refinement, and
 - [[knowledge-store]]: Technical storage layer for KM
 - [[information-architecture]]: System-level design for information organization
 - [[knowledge-graph]]: Graph-based KM implementation
-- [[obsidian-cli-skill]]: Tool-level implementation of PKM principles- [[entities/knowledge-architecture-stub.md]]
-
-
+- [[obsidian-cli-skill]]: Tool-level implementation of PKM principles
 - [[knowledge-architecture-stub]]
+
 ## Open Questions
 
 1. Does a knowledge graph actually improve over a flat note collection for personal KM — or does the overhead of relationship maintenance outweigh the retrieval benefits?

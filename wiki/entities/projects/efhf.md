@@ -3,10 +3,10 @@ created: 2026-04-14T01:26:54Z
 updated: 2026-05-23T08:55:00Z
 type: project
 summary: Five-layer AI architecture implementing computational mechanics (epsilon machines, lumpability, causal closure) as a live multi-agent system — MOP proposed as Layer 0 for proactive exploration
-tags: [EFHF, lumpability, epsilon-machine, causal-closure, Kernel-1, Kernel-2, MOP, multi-agent, sheaf-consistency, conscience-servitor, computational-mechanics]
+tags: [efhf, lumpability, epsilon-machine, causal-closure, kernel-1, kernel-2, MOP, multi-agent, sheaf-consistency, conscience-servitor, computational-mechanics]
 status: active
 confidence: 1.0
-sources: [], [[maximum-occupancy-principle]]
+sources: []
 ---
 
 # Emergent Functional Hierarchies Framework

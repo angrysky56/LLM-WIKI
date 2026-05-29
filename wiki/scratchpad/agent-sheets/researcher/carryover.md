@@ -1,14 +1,8 @@
 ---
-summary: Aug 21: 4 stubs archived; carryover resolved
-tags: [researcher, carryover]
-updated: 2026-05-29T14:04:55Z
----
-
----
 created: 2026-05-26
-updated: 2026-08-21T08:10:00Z
+updated: 2025-09-02T08:10:00Z
 type: carryover
-summary: "Aug 21: 4 stubs archived (graph-database, persistent-goals-hermes-agent, knowledge-graph, paperclip); carryover resolved"
+summary: "Sep 2: mop-next-token-prediction promoted (0.7); 3dgs and habitat archived"
 tags: [researcher, carryover]
 ---
 
@@ -33,6 +27,11 @@ tags: [researcher, carryover]
 - **[[hybrid-agents]]** upgraded: May 27 — stub → active (0.75)
 - **[[model-editing]]** upgraded: Aug 8 — stub → active (0.75)
 - **[[activation-engineering]]** upgraded: Aug 8 — stub → active (0.75)
+- **[[mop-next-token-prediction]]** promoted: Sep 2 (0.3 → 0.7) — MOP path entropy vs cross-entropy training; absorbing state problem; KL regularization tension; speculative design; MOP-EDM-EFHF connections
+
+### Archived (Sep 2)
+- **[[3dgs]]**: Absorbed by [[sources/papers/recuriosity-episodic-context-3d-exploration-2026]] (0.95) — comprehensive 3DGS coverage as persistent forward model
+- **[[habitat]]**: Absorbed by same Recuriosity source (0.95) — HM3D, Gibson, zero-shot generalization documented
 
 ### Archived (Aug 21)
 - **[[graph-database]]**: Redundant; [[entities/tools/neo4j]] (0.8) is canonical
@@ -58,13 +57,12 @@ tags: [researcher, carryover]
 
 ### Open
 - **`ai-policy-federalism.md`** (stub in synthesis/news/, 0.3): Needs real content — US federal AI governance retreat context. Topic is genuinely distinct from ai-governance.md (0.85) but requires substantive research to write. Linked to California AI worker protection order, Vatican encyclical, Brazil AI governance.
-- **`paperclip`** (concept stub, now archived): The canonical reference is [[sources/repositories/paperclip]] (0.9). If Paperclip becomes more central to the workflow, a concept page synthesizing its role in the agentic stack may be warranted.
-- **Stub count**: ~289 (net change: -4 archives this cycle)
+- **Stub count**: ~282 (net change: -3 archives, -1 promotion this cycle)
 
 ### Heading
-- **[Intent]** Next cycle: (1) assess ai-policy-federalism for promotion (requires research beyond wiki context), (2) continue scanning for absorbed stubs, (3) check for gaps in the MOP/agentic cluster
-- **[Constraint]** Remaining stubs are either: (a) genuinely peripheral topics far from core AI/ML focus, (b) stubs requiring specialized domain knowledge, (c) stubs in synthesis/news/ needing real-time research. The high-value gaps are mostly filled.
-- **[Note]** Carryover stubs from May 28 are now fully resolved. 4 stubs archived this cycle. The graph/knowledge-graph area is solid via neo4j.md (0.8) and graphrag.md (0.9).
+- **[Intent]** Next cycle: (1) assess ai-policy-federalism for promotion or archival, (2) scan remaining stubs for absorbed patterns, (3) check recuriosity-related stubs (codebase-inspection, recuriosity-episodic-context-3d-exploration-2026 concept)
+- **[Constraint]** Remaining stubs are either: (a) genuinely peripheral topics far from core AI/ML focus, (b) stubs with canonical coverage in source pages, (c) stubs in synthesis/news/ needing real-time research. The high-value MOP/agentic gaps are mostly filled.
+- **[Note]** mop-next-token-prediction is a new active page (0.7) in the MOP cluster. 3dgs and habitat archived as absorbed. The stub corpus is shrinking toward a core set of genuinely open items.
 
 ## Last Run
-2026-08-21 08:10
+2025-09-02 08:10

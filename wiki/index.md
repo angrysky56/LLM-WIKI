@@ -1,12 +1,12 @@
 ---
-updated: 2026-05-29T14:41:54Z
+updated: 2026-05-29T18:07:23Z
 type: index
 ---
 
 # Wiki Index
 
 - [[concept-index]] — Conceptual index — maps ideas to pages by meaning rather than structure; complement to the structural TOC in index.md
-- [[3dgs]] — [STUB] 3D Gaussian Splatting for scene reconstruction
+- [[3dgs]] — Archived — absorbed by recuriosity source (0.95)
 - [[CRI]] — [STUB] Container Runtime Interface in Kubernetes
 - [[Firecracker]] — [STUB] MicroVM virtualization technology from AWS
 - [[MCTS]] — Monte Carlo Tree Search — tree search algorithm using random simulation and backpropagation for decision-making in complex, non-trivial game trees and planning problems
@@ -200,7 +200,7 @@ type: index
 - [[graphrag]] — RAG enhanced with graph traversal for richer context beyond vector similarity
 - [[great-power-rivalry]] — Great power rivalry — competition between major geopolitical powers
 - [[group-relative-policy-optimization]] — GRPO — a group-relative policy optimization algorithm for LLM training that uses within-group advantage estimation instead of a reference model
-- [[habitat]] — [STUB] Habitat simulation platform for embodied AI
+- [[habitat]] — Archived — absorbed by recuriosity source (0.95)
 - [[hamm-v-smith]] — May 2026 Supreme Court ruling invalidating IEEPA-based unilateral US tariffs
 - [[hermes-agent-skills]] — 63-skill inventory with categories, descriptions, and connection links
 - [[hermes-meta-cognition]] — Hermes metacognitive architecture — oMCD control framework + DMC + closed-loop activation steering
@@ -316,7 +316,7 @@ type: index
 - [[momoa-researcher]] — [STUB] MOPOA researcher agent — memory-oriented psychological architecture research
 - [[mop-and-rlhf-interaction]] — Structural tension between Maximum Occupancy Policy (MOP) entropy maximization and RLHF's KL-regularization — three potential resolution paths identified
 - [[mop-architecture]] — MOP architecture — Memory-Oriented Programming design pattern for LLM agents with persistent, layered memory schemas
-- [[mop-next-token-prediction]] — [STUB] Applying MOP's path entropy maximization to transformer next-token prediction training from scratch
+- [[mop-next-token-prediction]] — Can MOP's path entropy maximization replace cross-entropy as the training objective for autoregressive language models? Design principles and open questions.
 - [[motion-understanding]] — Understanding motion and temporal dynamics in visual data — the elementary primitives of motion, direction binding, and the magnitude deficit problem in visual reasoning
 - [[multi-agent-coordination]] — Mechanisms by which multiple AI agents work together toward shared or negotiated goals — from shared state to market-based coordination
 - [[multi-agent-llm-systems]] — Frameworks and coordination patterns for using multiple LLM agents together to solve complex tasks beyond the capability of any single agent
@@ -614,7 +614,7 @@ type: index
 - [[report]] — 
 - [[research-brief]] — 
 - [[ingest]] — 
-- [[carryover]] — 2 files processed, raw/ empty. AGEM reflexive honest messenger (weak lumpability/RLHF) and Claude Code agent teams documentation.
+- [[carryover]] — 1 file processed, raw/ empty. Power sampling (MCMC) paper ingested.
 - [[workflow]] — 
 - [[ingest-report]] — 
 - [[insights]] — 
@@ -628,7 +628,7 @@ type: index
 - [[workflow]] — 
 - [[audit-report]] — 
 - [[librarians-assistant]] — 
-- [[carryover]] — Fixed 1 non-preferred tag (PKM→knowledge-management); confirmed 236 non-reciprocal lint flags are vault-path slug-resolution artifacts — no valid remediation targets from lint
+- [[carryover]] — EFHF frontmatter fixed (sources field malformed chars, EFHF→efhf tag, Kernel-1/Kernel-2→kernel-1/kernel-2); vault structurally healthy — all remaining items need Ty decisions or librarian judgment
 - [[quick-reference]] — 
 - [[workflow]] — 
 - [[batch-progress]] — 
@@ -643,7 +643,7 @@ type: index
 - [[user]] — User preferences and project context for the Markovian Dev Agency
 - [[issue-001]] — 
 - [[news]] — 
-- [[carryover]] — SpaceX S-1 filed ($2T target, 14 days to June 12); California AI workforce executive order signed; Ebola case count update pending; Russia vaccine claim unverified
+- [[carryover]] — 3 ongoing stories: Ebola case count 1,018+ with Sud-Kivu expansion, May 29-30 ETC attack window; SpaceX IPO 13 days (quiet period approaching, BlackRock unconfirmed); California AI agency review in implementation
 - [[rss-queries]] — 
 - [[workflow]] — 
 - [[headlines-report]] — 
@@ -659,7 +659,7 @@ type: index
 - [[Meta-Meta Process for Structured Exploration]] — 
 - [[carryover-template]] — 
 - [[researcher]] — 
-- [[carryover]] — Aug 21: 4 stubs archived; carryover resolved
+- [[carryover]] — Sep 2: mop-next-token-prediction promoted (0.7); 3dgs and habitat archived
 - [[workflow]] — 
 - [[discovery-report]] — 
 - [[gap-analysis]] — 
@@ -760,6 +760,7 @@ type: index
 - [[carryover]] — Librarians-assistant carryover — 15 nested sources fixed, republican-party-duplicate deleted, 0 true broken links in core dirs
 - [[carryover]] — Three new stories: EU-US trade deal ratified with 2029 expiry, Trump walks back AI model vetting, Google DeepMind Gemini for Science launches
 - [[headlines-2026-05-28]] — 2 new stories: SpaceX S-1 filed ($2T IPO confirmed, June 12 target), California AI workforce EO enters implementation phase
+- [[headlines-2026-05-29]] — 3 ongoing stories: Ebola case count escalation (1,018+, Sud-Kivu confirmed, May 29-30 ETC attack window), SpaceX IPO 13 days out (quiet period approaching, BlackRock unconfirmed), California AI agency review in progress
 - [[carryover]] — 
 - [[overseer-2026-05-26]] — 
 - [[overseer-2026-05-27]] — 
@@ -771,6 +772,7 @@ type: index
 - [[overseer-2026-08-07]] — 
 - [[overseer-2026-08-10]] — 
 - [[carryover]] — Monitoring tasks and discovery gaps carryover
+- [[discovery-2025-09-02]] — 
 - [[discovery-2026-05-21]] — 
 - [[discovery-2026-05-22]] — 
 - [[discovery-2026-05-25]] — 
@@ -832,6 +834,7 @@ type: index
 - [[llm-wiki-pattern]] — Karpathy's pattern for LLM-maintained persistent Markdown knowledge bases
 - [[magnifica-humanitas-wikipedia-may-2026]] — Wikipedia: Magnifica Humanitas encyclical by Pope Leo XIV, AI ethics
 - [[menin-d-serine-hypothalamus-anti-aging]] — Menin protein decline in hypothalamus drives aging; D-serine supplementation reverses cognitive decline but not physical aging
+- [[metropolis-hastings-navarro-2026]] — Accessible MCMC tutorial on Metropolis-Hastings by Danielle Navarro — proposal distributions, accept-reject step, intuitive grounding.
 - [[microsoft-ai-blog-may-2026]] — Microsoft AI blog: accessibility, aged care, dairy, manufacturing, motorsport AI cases
 - [[microsoft-search-magnifica-humanitas-may-2026]] — Microsoft.com search for Magnifica humanitas via Bing Copilot
 - [[ml-evolution-benchmarking-protocol]] — Systematic review of guided vs unconstrained LLM architecture evolution.
@@ -841,6 +844,8 @@ type: index
 - [[openai-pope-leo-magnifica-humanitas-may-2026]] — Bing search: OpenAI response to Magnifica Humanitas encyclical
 - [[pope-leo-ai-encyclical-magnifica-humanitas-may-2026]] — First papal AI encyclical demands global AI disarmament treaties — tracked for government/company responses and Vatican diplomatic follow-through
 - [[prd-ralph-loop-mop-gemini]] — Gemini conversation connecting PRD-driven Ralph Loops with MOP and Theory of Mind for autonomous scientific research — epistemic energy as the critical constraint
+- [[reasoning-with-sampling-cutting-at-decision-points-2026]] — LLM inference-time reasoning paper on selectively branching/sampling only at high-entropy decision points
+- [[reasoning-with-sampling-power-sampling-2025]] — Training-free inference-time reasoning via MCMC power sampling, matches RL without training
 - [[shorthand-for-thought]] — Research on compressing LLM Chain-of-Thought (CoT) reasoning by merging low-entropy structural phrases into "supertokens.
 - [[solo-preneur]] — Framework for solo-developer micro-SaaS: "time is money, convenience is king, marketing is queen" — constraints, 4 product categories, and strategic rules
 - [[spacex-ipo-governance-questions-may-2026]] — SpaceX IPO 16 days out — Barron's flags Tesla spillover risk, 24/7 Wall St. surfaces Musk voting control question SpaceX declines to answer pre-IPO. BlackRock $10B still under consideration, no confirmation.

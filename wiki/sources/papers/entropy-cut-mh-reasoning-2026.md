@@ -9,14 +9,14 @@ created: 2026-05-29T14:13:14Z
 
 ## Metadata
 
-| Field | Value |
-|-------|-------|
-| arXiv ID | 2605.30327 |
-| Published | 2026-05-28 |
-| Authors | Felix Zhou, Anay Mehrotra, Quanquan C. Liu (Yale/Stanford) |
-| Categories | cs.LG, cs.AI, cs.CL |
-| PDF | /home/ty/Documents/paper-research/2605.30327v1.pdf |
-| Wiki path | wiki/sources/papers/entropy-cut-mh-reasoning-2026.md |
+| Field      | Value                                                      |
+| ---------- | ---------------------------------------------------------- |
+| arXiv ID   | 2605.30327                                                 |
+| Published  | 2026-05-28                                                 |
+| Authors    | Felix Zhou, Anay Mehrotra, Quanquan C. Liu (Yale/Stanford) |
+| Categories | cs.LG, cs.AI, cs.CL                                        |
+| PDF        | /home/ty/Documents/paper-research/2605.30327v1.pdf         |
+| Wiki path  | wiki/sources/papers/entropy-cut-mh-reasoning-2026.md       |
 
 ## Summary
 

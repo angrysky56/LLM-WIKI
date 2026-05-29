@@ -165140,3 +165140,61 @@ Updated page: wiki/scratchpad/agent-sheets/librarian/carryover.md
 ## [2026-05-29 14:41] index
 
 Index updated with 1198 pages
+
+## [2026-05-29 17:11] ingest | The Metropolis-Hastings algorithm.md
+
+Ingested raw/The Metropolis-Hastings algorithm.md into knowledge graph.
+
+Preview: Here’s a quick primer on the [Metropolis-Hastings algorithm](https://en.wikipedia.org/wiki/Metropolis%E2%80%93Hastings_algorithm). The target audience for this is someone who has a little bit of proba...
+
+## [2026-05-29 17:11] write
+
+Updated page: wiki/sources/articles/metropolis-hastings-navarro-2026.md
+
+## [2026-05-29 17:11] index
+
+Index updated with 1200 pages
+
+## [2026-05-29 17:21] ingest | Reasoning with Sampling Cutting at Decision Points.md
+
+Ingested raw/Reasoning with Sampling Cutting at Decision Points.md into knowledge graph.
+
+Preview: 	The paper "Reasoning with Sampling: Cutting at Decision Points" (arXiv:2605.30327) is a newly released 2026 machine learning preprint co-authored by researchers Anay Mehrotra (Stanford University), F...
+
+## [2026-05-29 17:21] write
+
+Updated page: wiki/sources/articles/reasoning-with-sampling-cutting-at-decision-points-2026.md
+
+## [2026-05-29 17:21] index
+
+Index updated with 1201 pages
+
+## [2026-05-29 17:56] ingest | Reasoning with Sampling Your Base Model is Smarter Than You Think.md
+
+Ingested raw/Reasoning with Sampling Your Base Model is Smarter Than You Think.md into knowledge graph.
+
+Preview: <iframe src="https://aakaran.github.io/reasoning_with_sampling/teaser.html" title=""></iframe>  ## Abstract  Frontier reasoning models have exhibited incredible capabilities across a wide array of dis...
+
+## [2026-05-29 17:57] write
+
+Updated page: wiki/sources/articles/reasoning-with-sampling-power-sampling-2025.md
+
+## [2026-05-29 17:57] index
+
+Index updated with 1202 pages
+
+## [2026-05-29 18:06] write
+
+Updated page: wiki/concepts/mop-next-token-prediction.md
+
+## [2026-05-29 18:06] write
+
+Updated page: wiki/concepts/3dgs.md
+
+## [2026-05-29 18:06] write
+
+Updated page: wiki/concepts/habitat.md
+
+## [2026-05-29 18:07] index
+
+Index updated with 1203 pages

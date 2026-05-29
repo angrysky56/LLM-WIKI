@@ -1,26 +1,25 @@
 ---
-created: 2026-06-03
-updated: 2026-06-03
-type: concept
-summary: "[STUB] 3D Gaussian Splatting for scene reconstruction"
-tags: [stubs]
-sources: []
-status: stub
-confidence: 0.3
+summary: Archived — absorbed by recuriosity source (0.95)
+tags: [3dgs, stubs, archived]
+updated: 2026-05-29T18:06:45Z
 ---
 
-# 3dgs
+---
+summary: Archived — absorbed by recuriosity source (0.95), which provides comprehensive 3DGS coverage as the persistent forward model
+tags: [3dgs, stubs, archived]
+updated: 2025-09-02T08:10:00Z
+---
 
-*Stub page — needs real content*
+# 3D Gaussian Splatting
 
-## Connections
-- [[wiki/index]]
-- [[sources/papers/recuriosity-episodic-context-3d-exploration-2026]]
-- [[log]]
-- [[concepts/maximum-occupancy-principle]]
-- [[concepts/3dgs]]
-- [[3dgs]]
+**Archived** — absorbed by [[sources/papers/recuriosity-episodic-context-3d-exploration-2026]] (source, 0.95), which provides comprehensive coverage of 3DGS as a persistent forward model for curiosity-driven 3D exploration.
 
-- [[maximum-occupancy-principle]]
+The Recuriosity source page covers:
+- Online 3DGS as persistent world model for photorealistic 3D environments
+- Gaussian primitive initialization from RGB-D frames
+- Densification and pruning via 3DGS-MCMC
+- Differentiable rasterization for view rendering
+- Curiosity reward via prediction error on rendered views
+- Zero-shot generalization to Gibson and AI-generated worlds
 
-- [[recuriosity-episodic-context-3d-exploration-2026]]
+No standalone concept page needed — source coverage is reference-quality.

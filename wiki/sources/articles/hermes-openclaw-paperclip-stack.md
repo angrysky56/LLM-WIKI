@@ -30,7 +30,7 @@ Key insight: Most people fail with AI agents because they use one tool for every
 
 ## Connections
 - [[sources/articles/hermes-openclaw-paperclip-stack]]
-- [[index]]
+- [[wiki/index]]
 - [[hermes-openclaw-paperclip-stack]]
 
 - [[hermes-agent]] — memory layer

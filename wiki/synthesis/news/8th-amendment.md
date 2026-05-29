@@ -16,7 +16,7 @@ confidence: 0.3
 ## Connections
 - [[synthesis/news/us-supreme-court]]
 - [[sources/news/2026-05/scotus-death-penalty-intellectual-disability-2026-05-22]]
-- [[index]]
+- [[wiki/index]]
 - [[synthesis/news/8th-amendment]]
 - [[log]]
 - [[8th-amendment]]

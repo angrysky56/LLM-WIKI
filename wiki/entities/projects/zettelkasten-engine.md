@@ -48,7 +48,7 @@ Insights are stored as `Zettel` nodes in Neo4j with vector embeddings, enabling 
 - [[log]]
 - [[synthesis/news/non-obvious-insight]]
 - [[entities/tools/neo4j]]
-- [[index]]
+- [[wiki/index]]
 - [[synthesis/causal-state-edm-ood-isomorphism]]
 - [[synthesis/wiki-indexing-theory]]
 - [[scratchpad/jobs/reports/librarian/audit-2026-05-21]]

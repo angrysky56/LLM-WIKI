@@ -33,7 +33,7 @@ Open-ended evolution (OEE) splits into two tiers: **weak OEE** (unbounded novelt
 
 ## Connections
 - [[sources/articles/agem-ooe]]
-- [[index]]
+- [[wiki/index]]
 - [[agem-ooe]]
 
 - [[open-ended-evolution]] — related concept already in wiki

@@ -17,7 +17,7 @@ confidence: 0.3
 - [[concepts/scientific-computing]]
 - [[concepts/computational-science]]
 - [[concepts/high-performance-computing]]
-- [[index]]
+- [[wiki/index]]
 - [[computational-science]]
 
 - [[scientific-computing]]

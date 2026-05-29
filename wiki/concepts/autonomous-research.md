@@ -72,7 +72,7 @@ The architecture treats verification as a first-class concern, not a post-hoc ch
 - [[concepts/autonomous-research]]
 - [[scratchpad/jobs/reports/researcher/discovery-2026-06-09]]
 - [[concepts/agentic-research]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/maximum-occupancy-principle]]
 - [[log]]
 - [[scratchpad/agent-sheets/librarian/carryover]]

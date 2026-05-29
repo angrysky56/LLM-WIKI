@@ -57,7 +57,7 @@ Each profile lives in `~/.hermes/profiles/<name>/` and contains:
 - [[sources/documentation/scheduled-tasks-cron-hermes-agent]]
 - [[sources/documentation/kanban-multi-agent-board-hermes-agent]]
 - [[sources/documentation/profiles-running-multiple-agents]]
-- [[index]]
+- [[wiki/index]]
 - [[profiles-running-multiple-agents]]
 
 - [[hermes-agent]] — parent system

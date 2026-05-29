@@ -63,7 +63,7 @@ All 50 stubs mapped to one of:
 
 ## Related
 - [[scratchpad/jobs/reports/researcher/discovery-2026-08-08]]
-- [[index]]
+- [[wiki/index]]
 
 - [[discovery-2026-08-08]]
 

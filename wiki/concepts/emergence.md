@@ -92,7 +92,7 @@ See [[scaling-laws]] for the power-law framework that governs the smooth aspects
 - [[concepts/emergence]]
 - [[concepts/complexity]]
 - [[concepts/power-law-scaling]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/imagination]]
 - [[concepts/open-ended-evolution]]
 - [[sources/papers/critical-initialization-biological-neural-networks]]

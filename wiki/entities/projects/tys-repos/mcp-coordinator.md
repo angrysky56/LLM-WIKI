@@ -27,7 +27,7 @@ confidence: 1.0
 - `find_tools` / `call_tool`: Semantic discovery and execution of any MCP tool.
 
 ## Connections
-- [[index]]
+- [[wiki/index]]
 - [[entities/projects/tys-repos]]
 - [[log]]
 - [[entities/projects/tys-repos/mcp-coordinator]]

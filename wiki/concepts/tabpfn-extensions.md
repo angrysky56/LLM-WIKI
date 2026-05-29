@@ -16,7 +16,7 @@ confidence: 0.3
 ## Connections
 - [[concepts/tabpfn-extensions]]
 - [[sources/repositories/tabpfn]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/maximum-occupancy-principle]]
 - [[log]]
 - [[tabpfn-extensions]]

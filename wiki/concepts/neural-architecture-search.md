@@ -80,7 +80,7 @@ NAS is a natural application of [[evolutionary-strategies]] — CMA-ES and its v
 - [[log]]
 - [[sources/articles/ml-evolution-benchmarking-protocol]]
 - [[scratchpad/agent-sheets/researcher/carryover]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/llama-nas]]
 - [[concepts/rz-nas]]
 - [[scratchpad/jobs/reports/researcher/discovery-2026-08-03]]

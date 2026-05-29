@@ -14,7 +14,7 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
-- [[index]]
+- [[wiki/index]]
 - [[sources/papers/bae-mor-2025]]
 - [[synthesis/self-prompting-via-production-stage-architecture]]
 - [[sources/papers/equilibrium-reasoners-eqr-2026]]

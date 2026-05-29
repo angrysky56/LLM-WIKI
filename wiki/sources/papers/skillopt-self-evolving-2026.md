@@ -103,7 +103,7 @@ The optimizer model generates **add/delete/replace** operations on the skill doc
 
 ## Related
 - [[sources/papers/skillopt-self-evolving-2026]]
-- [[index]]
+- [[wiki/index]]
 
 - [[skillopt-self-evolving-2026]]
 

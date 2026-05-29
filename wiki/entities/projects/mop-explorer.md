@@ -40,7 +40,7 @@ Seven cognitive actions: TRIAGE, QUERY, EXPLORE, HYPOTHESIZE, VERIFY, SYNTHESIZE
 ## Connections
 - [[log]]
 - [[sources/papers/prism]]
-- [[index]]
+- [[wiki/index]]
 - [[sources/papers/orthogonal-bottlenecks-rl]]
 - [[sources/papers/recuriosity-episodic-context-3d-exploration-2026]]
 - [[sources/papers/cua-gym]]

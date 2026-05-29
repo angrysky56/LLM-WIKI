@@ -50,7 +50,7 @@ Verified compatible clients: **Gemini CLI**, **Claude Code**, **Windsurf**
 - Do not open issues directly — discussions are the entry point for all requests
 
 ## Connections
-- [[index]]
+- [[wiki/index]]
 - [[sources/repositories/googlecolab-colab-mcp]]
 - [[googlecolab-colab-mcp]]
 

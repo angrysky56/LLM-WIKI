@@ -15,7 +15,7 @@ confidence: 0.3
 
 ## Connections
 - [[entities/tools/neo4j]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/hilbert-hotel-graph-architecture]]
 - [[log]]
 - [[concepts/graphrag]]

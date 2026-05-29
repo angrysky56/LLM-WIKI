@@ -77,7 +77,7 @@ Exploits empirical discovery: layer-wise Jacobians at different reachable activa
 
 ## Connections
 - [[sources/news/2026/engineering-internal-awareness-and-closed-loop-self-regulation-in-large-language-models]]
-- [[index]]
+- [[wiki/index]]
 - [[engineering-internal-awareness-and-closed-loop-self-regulation-in-large-language-models]]
 
 - [[mechanistic-interpretability]] — TransformerLens as the "EEG" of the artificial mind

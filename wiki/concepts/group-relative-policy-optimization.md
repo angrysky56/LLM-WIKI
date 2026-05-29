@@ -74,7 +74,7 @@ The key insight from SD-Search: GRPO's trajectory-level advantage averages over 
 - [[log]]
 - [[concepts/mop-and-rlhf-interaction]]
 - [[concepts/inference-time-compute-scaling]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/evolutionary-strategies]]
 - [[concepts/reward-modeling]]
 - [[concepts/reinforcement-learning-from-human-feedback]]

@@ -74,7 +74,7 @@ Extends Supervised Semantic Differential (SSD) with an interaction term that mod
 
 ## Related
 - [[scratchpad/jobs/reports/arxiv/arxiv-2026-05-27-top-papers]]
-- [[index]]
+- [[wiki/index]]
 
 - [[arxiv-2026-05-27-top-papers]]
 

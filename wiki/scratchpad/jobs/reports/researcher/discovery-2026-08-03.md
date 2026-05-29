@@ -61,7 +61,7 @@ The ml-evolution cluster is now complete. Next expansion should target PEFT clus
 3. What is the theoretical relationship between weight inheritance (LLaMA-NAS) and gradient-based adaptation (LoRA)? Are they complementary or substitutes?
 
 ## Related
-- [[index]]
+- [[wiki/index]]
 - [[scratchpad/jobs/reports/researcher/discovery-2026-08-03]]
 
 - [[discovery-2026-08-03]]

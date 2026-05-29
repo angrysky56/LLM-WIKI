@@ -116,7 +116,7 @@ The first Starship Version 3 flight launched May 23, 2026 from SpaceX Starbase, 
 
 ## Connections
 - [[entities/projects/spacex]]
-- [[index]]
+- [[wiki/index]]
 - [[log]]
 - [[entities/xai]]
 - [[concepts/musk-velocity]]

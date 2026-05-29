@@ -19,8 +19,8 @@ confidence: 0.3
 - [[synthesis/minimal-generative-architectures]]
 - [[concepts/symbolic-regression]]
 - [[concepts/transformer-vm-moran-2026]]
-- [[sources/mixture-of-recursions]]
-- [[index]]
+- [[mixture-of-recursions 1]]
+- [[wiki/index]]
 - [[concepts/eml-operator]]
 - [[transformer-vm-moran-2026]]
 

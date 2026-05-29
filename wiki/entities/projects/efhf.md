@@ -89,7 +89,7 @@ The [[maximum-occupancy-principle]] fills a specific gap: EFHF is reactive (wait
 - [[sources/papers/akbe]]
 - [[sources/papers/bae-lmac-2026]]
 - [[entities/projects/tys-repos/mcp-logic]]
-- [[index]]
+- [[wiki/index]]
 - [[sources/papers/forecasting-scientific-progress-ai-2026]]
 - [[concepts/vision-language-alignment]]
 - [[concepts/maximum-occupancy-principle]]

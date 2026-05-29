@@ -15,7 +15,7 @@ confidence: 0.3
 
 ## Connections
 - [[concepts/model-properties]]
-- [[index]]
+- [[wiki/index]]
 - [[log]]
 - [[concepts/model-evaluation]]
 - [[model-evaluation]]

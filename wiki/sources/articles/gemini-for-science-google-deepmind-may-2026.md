@@ -29,7 +29,7 @@ This connects to the ongoing OpenAI o3 math breakthrough story (Erdős conjectur
 - **Stanford biomedical cluster** (related by theme): Stanford's three breakthroughs this week (T1D cure, arthritis pain treatment, warp drive loophole) all involve AI-assisted discovery — Gemini for Science represents Google's equivalent infrastructure investment
 
 ## Related
-- [[index]]
+- [[wiki/index]]
 - [[sources/articles/gemini-for-science-google-deepmind-may-2026]]
 
 - [[gemini-for-science-google-deepmind-may-2026]]

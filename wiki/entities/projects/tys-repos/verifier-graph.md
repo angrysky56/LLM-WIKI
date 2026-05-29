@@ -39,7 +39,7 @@ confidence: 1.0
 - [[sources/papers/boiling-frog-agentic-safety-2026]]
 - [[sources/papers/shannon-scaling-law-2026]]
 - [[scratchpad/jobs/reports/arxiv/arxiv-2026-05-23-top-papers]]
-- [[index]]
+- [[wiki/index]]
 - [[sources/papers/codeskill]]
 - [[sources/papers/forecasting-scientific-progress-ai-2026]]
 - [[sources/papers/legalsearch-r1]]

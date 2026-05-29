@@ -38,7 +38,7 @@ The overseer is the **primary coordinator across all wiki agents**. It:
 5. **All agents also use `kanban-review`** (loaded alongside their agent skill in every cron job) to surface their open items directly to kanban after each run. This is the correct pattern — both the overseer AND individual agents create kanban cards. The "only overseer" rule means the overseer is the *coordinator* who also surfaces cross-agent items and manages the board; it does NOT mean agents are banned from creating their own kanban tickets.
 
 ## Related
-- [[index]]
+- [[wiki/index]]
 - [[scratchpad/agent-sheets/overseer/skill]]
 - [[skill]]
 - [[librarian/skill.md]]

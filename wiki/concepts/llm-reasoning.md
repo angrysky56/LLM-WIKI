@@ -138,7 +138,7 @@ Most current reasoning models do not monitor their own confidence at the step le
 - [[concepts/multi-agent-reasoning]]
 - [[concepts/latent-reasoning]]
 - [[concepts/shorthand-for-thought]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/generative-ai]]
 - [[concepts/imagination]]
 - [[llm-reasoning]]

@@ -15,7 +15,7 @@ confidence: 0.3
 
 ## Connections
 - [[concepts/google-research]]
-- [[index]]
+- [[wiki/index]]
 - [[sources/articles/titans-test-time-memory]]
 - [[log]]
 - [[concepts/maximum-occupancy-principle]]

@@ -71,7 +71,7 @@ but not urgent.
 
 ## Related
 - [[scratchpad/jobs/reports/librarian/audit-2026-05-26-path-verification]]
-- [[index]]
+- [[wiki/index]]
 
 - [[audit-2026-05-26-path-verification]]
 

@@ -38,7 +38,7 @@ Traditional reward models are often as large as the generator models they evalua
 - [[concepts/inference-time-compute-scaling]]
 - [[concepts/elhsr]]
 - [[concepts/process-reward-model]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/critical-analysis]]
 - [[concepts/institutional-capture]]
 - [[concepts/bradley-terry]]

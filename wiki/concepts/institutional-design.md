@@ -24,7 +24,7 @@ The study and practice of designing organizations and structures that produce de
 - [[concepts/governance]]
 - [[concepts/institutional-design]]
 - [[concepts/institutional-capture-vs-species-framing]]
-- [[index]]
+- [[wiki/index]]
 - [[log]]
 - [[institutional-design]]
 

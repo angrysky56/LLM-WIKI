@@ -17,7 +17,7 @@ confidence: 0.3
 - [[concepts/social-science]]
 - [[concepts/business]]
 - [[concepts/economics]]
-- [[index]]
+- [[wiki/index]]
 - [[economics]]
 
 - [[business]]

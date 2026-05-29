@@ -15,7 +15,7 @@ confidence: 0.3
 
 ## Connections
 - [[synthesis/news/ukraine-russia-war]]
-- [[index]]
+- [[wiki/index]]
 - [[synthesis/news/russia-sanctions-regime]]
 - [[log]]
 - [[synthesis/news/russia]]

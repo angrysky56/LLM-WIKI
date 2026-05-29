@@ -15,7 +15,7 @@ confidence: 0.3
 
 ## Connections
 - [[log]]
-- [[index]]
+- [[wiki/index]]
 - [[synthesis/news/great-power-competition]]
 - [[sources/news/2026-05/xi-putin-summit-2026-05-20]]
 - [[great-power-competition]]

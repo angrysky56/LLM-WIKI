@@ -16,7 +16,7 @@ confidence: 0.3
 ## Connections
 - [[sources/articles/agem-ooe]]
 - [[concepts/maximum-occupancy-principle]]
-- [[index]]
+- [[wiki/index]]
 - [[log]]
 - [[concepts/major-transitions]]
 - [[major-transitions]]

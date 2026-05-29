@@ -16,7 +16,7 @@ confidence: 0.3
 ## Connections
 - [[synthesis/news/nuclear-security]]
 - [[sources/news/uae-reports-drone-strike-near-abu-dhabi-nuclear-power-plant]]
-- [[index]]
+- [[wiki/index]]
 - [[log]]
 - [[synthesis/news/barakah-nuclear-plant]]
 - [[nuclear-security]]

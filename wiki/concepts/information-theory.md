@@ -17,7 +17,7 @@ confidence: 0.3
 - [[concepts/communication-theory]]
 - [[concepts/signals]]
 - [[concepts/information-theory]]
-- [[index]]
+- [[wiki/index]]
 - [[log]]
 - [[concepts/signal-processing]]
 - [[concepts/compression]]

@@ -17,7 +17,7 @@ confidence: 0.3
 - [[concepts/maximum-occupancy-principle]]
 - [[log]]
 - [[concepts/waldis-instructions-shape-language-2026]]
-- [[index]]
+- [[wiki/index]]
 - [[sources/papers/production-llm-agent-runtime-architecture-patterns]]
 - [[waldis-instructions-shape-language-2026]]
 

@@ -19,7 +19,7 @@ confidence: 1.0
 - **Unified Chat**: Interact with the trained model within the same application.
 
 ## Connections
-- [[index]]
+- [[wiki/index]]
 - [[entities/projects/tys-repos]]
 - [[entities/projects/tys-repos/ethical-ai-core]]
 - [[log]]

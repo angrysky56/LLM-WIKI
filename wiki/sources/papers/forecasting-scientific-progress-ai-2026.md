@@ -79,7 +79,7 @@ The key methodological contribution is **temporally grounded evaluation with con
 4. **Overconfidence in temporal reasoning is a safety-relevant failure mode**: If models cannot reliably estimate uncertainty about scientific progress timelines, they also cannot reliably estimate uncertainty about their own capabilities and limitations — a core requirement for safe deployment.
 
 ## Connections
-- [[index]]
+- [[wiki/index]]
 - [[sources/papers/forecasting-scientific-progress-ai-2026]]
 - [[scratchpad/jobs/reports/arxiv/papers-2026-05-24-researched]]
 - [[forecasting-scientific-progress-ai-2026]]

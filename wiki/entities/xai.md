@@ -50,7 +50,7 @@ xAI is part of Musk's overlapping governance structure:
 - xAI's compute strategy is integrated with Tesla's Dojo (per public statements)
 
 ## Connections
-- [[index]]
+- [[wiki/index]]
 - [[concepts/musk-velocity]]
 - [[entities/xai]]
 - [[entities/projects/spacex]]

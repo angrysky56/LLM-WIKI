@@ -78,7 +78,7 @@ The nLab and the nLab's synthetic mathematics program show how category theory c
 - [[concepts/formal-verification]]
 - [[concepts/mathematical-reasoning]]
 - [[entities/projects/tys-repos/mcp-logic]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/attention-monoidal-closure]]
 - [[concepts/category-theory]]
 - [[log]]

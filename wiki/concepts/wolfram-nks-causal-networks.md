@@ -51,7 +51,7 @@ The **distinction** matters: NKS causal networks represent the causal structure 
 - [[log]]
 - [[concepts/wolfram-physics-project]]
 - [[concepts/wolfram-nks-causal-networks]]
-- [[index]]
+- [[wiki/index]]
 - [[wolfram-nks-causal-networks]]
 
 - [[wolfram-physics-project]] — the broader research program; causal networks are the representational framework

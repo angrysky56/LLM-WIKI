@@ -16,7 +16,7 @@ confidence: 0.3
 ## Connections
 - [[log]]
 - [[concepts/scientific-reasoning]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/molecular-reasoning]]
 - [[concepts/reasoning]]
 - [[concepts/scientific-method]]

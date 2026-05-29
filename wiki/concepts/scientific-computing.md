@@ -15,7 +15,7 @@ confidence: 0.3
 
 ## Connections
 - [[concepts/numerical-methods]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/scientific-computing]]
 - [[concepts/computational-science]]
 - [[scientific-computing]]

@@ -126,7 +126,7 @@ confidence: 1.0
 ---
 
 ## Connections
-- [[index]]
+- [[wiki/index]]
 - [[agents/skills/ingest-agent/skill]]
 - [[concept-index]]
 - [[concepts/tag-taxonomy]]

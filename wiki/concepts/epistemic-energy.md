@@ -88,7 +88,7 @@ None of these are fully validated. This is an active measurement problem.
 - [[concepts/latent-reasoning]]
 - [[concepts/epistemic-energy]]
 - [[concepts/working-memory]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/world-model]]
 - [[concepts/bounded-rationality]]
 - [[log]]

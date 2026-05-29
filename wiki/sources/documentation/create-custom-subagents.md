@@ -34,7 +34,7 @@ Subagents are specialized AI assistants defined as Markdown files with YAML fron
 ## Connections
 - [[sources/documentation/delegation-parallel-work]]
 - [[sources/documentation/create-custom-subagents]]
-- [[index]]
+- [[wiki/index]]
 - [[create-custom-subagents]]
 
 - [[delegation]] — subagents are a form of delegation

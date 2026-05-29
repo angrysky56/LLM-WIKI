@@ -54,7 +54,7 @@ The Vatican's framing of AI as a WMD-equivalent requiring binding treaty control
 
 ## Connections
 - [[concepts/ai-policy-global-governance]]
-- [[index]]
+- [[wiki/index]]
 - [[log]]
 - [[sources/articles/pope-leo-ai-encyclical-magnifica-humanitas-may-2026]]
 - [[ai-policy-global-governance]]

@@ -19,7 +19,7 @@ confidence: 0.3
 - [[log]]
 - [[synthesis/news/ukraine-russia-war]]
 - [[synthesis/news/moscow]]
-- [[index]]
+- [[wiki/index]]
 - [[synthesis/news/russia-sanctions-regime]]
 - [[ukraine-russia-war]]
 

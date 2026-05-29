@@ -109,7 +109,7 @@ For production systems, this means:
 The practical cost of recalibration (1000 GPU-hours) argues for selecting model families with stable architecture across versions.
 
 ## Related
-- [[index]]
+- [[wiki/index]]
 - [[concepts/alqr-memory-estimates]]
 
 - [[alqr-memory-estimates]]

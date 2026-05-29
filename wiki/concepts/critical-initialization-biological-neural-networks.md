@@ -21,7 +21,7 @@ confidence: 0.3
 - [[concepts/working-memory]]
 - [[concepts/criticality]]
 - [[concepts/emergence]]
-- [[index]]
+- [[wiki/index]]
 - [[log]]
 - [[critical-initialization-biological-neural-networks]]
 

@@ -17,7 +17,7 @@ confidence: 0.3
 - [[log]]
 - [[concepts/chain-of-thought]]
 - [[sources/papers/chen-molecular-cot-2026]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/molecular-reasoning]]
 - [[molecular-reasoning]]
 

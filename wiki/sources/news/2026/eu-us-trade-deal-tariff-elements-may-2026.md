@@ -39,7 +39,7 @@ The deal signals that EU-US trade relations are stabilizing on the tariff front,
 - [[EU-US-trade-relations]] — relationship tracking page
 
 ## Related
-- [[index]]
+- [[wiki/index]]
 - [[sources/news/2026/eu-us-trade-deal-tariff-elements-may-2026]]
 - [[synthesis/news/2026-may/headlines-2026-05-24]]
 

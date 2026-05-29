@@ -196,7 +196,7 @@ MOP formally proves: when utility serves entropy (possibility), agents survive, 
 - [[concepts/epistemic-energy]]
 - [[concepts/working-memory]]
 - [[concepts/mop-and-rlhf-interaction]]
-- [[index]]
+- [[wiki/index]]
 - [[synthesis/causal-state-edm-ood-isomorphism]]
 - [[concepts/world-model]]
 - [[synthesis/minimal-generative-architectures]]

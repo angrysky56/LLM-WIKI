@@ -17,7 +17,7 @@ confidence: 0.3
 - [[concept-index]]
 - [[sources/papers/equilibrium-reasoners-eqr-2026]]
 - [[sources/papers/chen-molecular-cot-2026]]
-- [[index]]
+- [[wiki/index]]
 - [[synthesis/self-prompting-via-production-stage-architecture]]
 - [[sources/news/2026-05/chirality-origin-life-2026-05-20]]
 - [[chen-molecular-cot-2026]]

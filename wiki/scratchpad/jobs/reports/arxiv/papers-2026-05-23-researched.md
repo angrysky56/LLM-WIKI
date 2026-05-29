@@ -7,7 +7,7 @@
 **One key finding:** The direction binding gap is a readout-level failure, not an encoder or projector failure — and the fix is a training-only auxiliary objective at the projector that strengthens signed displacement signals before they enter the LLM, without any inference-time overhead.
 
 ## Related
-- [[index]]
+- [[wiki/index]]
 - [[scratchpad/jobs/reports/arxiv/papers-2026-05-23-researched]]
 
 - [[papers-2026-05-23-researched]]

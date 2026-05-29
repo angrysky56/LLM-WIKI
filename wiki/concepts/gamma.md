@@ -15,7 +15,7 @@ confidence: 0.9
 **Gamma** is the Adaptive Learning Rate Agent in the [[oMCD]] framework. It dynamically calibrates the precision update learning rate $\beta$.
 
 ## See Also
-- [[index]]
+- [[wiki/index]]
 - [[concepts/gamma]]
 - [[log]]
 - [[concepts/omcd]]

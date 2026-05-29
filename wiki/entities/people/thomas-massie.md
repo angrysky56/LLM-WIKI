@@ -16,7 +16,7 @@ confidence: 0.3
 ## Connections
 - [[sources/news/2026-05/trump-massie-primary-2026-05-17]]
 - [[entities/people/thomas-massie]]
-- [[index]]
+- [[wiki/index]]
 - [[log]]
 - [[thomas-massie]]
 

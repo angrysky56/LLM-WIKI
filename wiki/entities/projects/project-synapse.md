@@ -73,7 +73,7 @@ Raw Source → Semantic Pipeline → Neo4j (entities, facts, embeddings)
 - [[entities/projects/zettelkasten-engine]]
 - [[sources/papers/bae-lmac-2026]]
 - [[entities/tools/obsidian-skills-repo]]
-- [[index]]
+- [[wiki/index]]
 - [[synthesis/synapse-retrieval-architecture]]
 - [[synthesis/wiki-indexing-theory]]
 - [[sources/documentation/hermes-mcp-integration]]

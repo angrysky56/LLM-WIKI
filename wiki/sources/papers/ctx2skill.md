@@ -62,7 +62,7 @@ Ctx2Skill is directly relevant to Hermes's own skill system. Key parallels:
 ## Related
 
 - [[sources/papers/ctx2skill]]
-- [[index]]
+- [[wiki/index]]
 - [[sources/papers/clinseekagent-multimodal-clinical-evidence-seeking]]
 - [[sources/papers/code-as-agent-harness]]
 

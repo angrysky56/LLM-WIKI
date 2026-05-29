@@ -47,7 +47,7 @@ Organize by **when you'll need it**, not **what it is**. A note about nutrition 
 | LLM-WIKI | `/home/ty/Documents/LLM-WIKI` | Karpathy-style wiki (complementary approach) |
 
 ## Connections
-- [[index]]
+- [[wiki/index]]
 - [[entities/tools/obsidian]]
 - [[concepts/design-thinking]]
 - [[synthesis/insights/para-knowledge-architecture-cohesion-insight]]

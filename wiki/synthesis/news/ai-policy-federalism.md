@@ -25,7 +25,7 @@ confidence: 0.3
 - [[sources/articles/trump-abandons-ai-model-vetting-may-2026]]
 - [[sources/news/2026/brazil-2026-elections-ai-regulation-stress-test]]
 - [[synthesis/news/brazil-ai-governance]]
-- [[index]]
+- [[wiki/index]]
 - [[sources/news/2026/trump-ai-executive-order-abandoned-may-2026]]
 - [[synthesis/news/ai-policy-federalism]]
 - [[concepts/ai-governance]]

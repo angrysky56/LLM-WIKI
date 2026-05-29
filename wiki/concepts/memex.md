@@ -38,7 +38,7 @@ Bush envisioned something closer to a personal wiki than a public search engine.
 - [[concepts/memex]]
 - [[concept-index]]
 - [[entities/people/andrej-karpathy]]
-- [[index]]
+- [[wiki/index]]
 - [[memex]]
 
 - [[llm-wiki-pattern]] — the direct contemporary implementation of Bush's idea

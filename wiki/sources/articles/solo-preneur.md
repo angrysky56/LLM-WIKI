@@ -85,7 +85,7 @@ Dedicated trackers for specific expiration types. "Set it and forget it" — cro
 
 ## Connections
 - [[sources/articles/solo-preneur]]
-- [[index]]
+- [[wiki/index]]
 - [[solo-preneur]]
 
 - [[micro-saas]] — broader concept of single-developer SaaS products

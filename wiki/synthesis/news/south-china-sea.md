@@ -15,7 +15,7 @@ confidence: 0.3
 
 ## Connections
 - [[synthesis/news/south-china-sea]]
-- [[index]]
+- [[wiki/index]]
 - [[synthesis/news/china]]
 - [[log]]
 - [[sources/news/taiwan-reaffirms-independence-despite-trump-warning]]

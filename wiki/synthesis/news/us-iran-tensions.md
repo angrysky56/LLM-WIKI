@@ -15,7 +15,7 @@ confidence: 0.3
 
 ## Connections
 - [[synthesis/news/us-iran-tensions]]
-- [[index]]
+- [[wiki/index]]
 - [[log]]
 - [[sources/news/2026-05/iran-us-diplomacy-2026-05-18]]
 - [[synthesis/news/china-cuba-us-threats-2026-05-21]]

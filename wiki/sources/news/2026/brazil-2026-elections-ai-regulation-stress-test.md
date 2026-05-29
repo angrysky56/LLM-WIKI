@@ -33,7 +33,7 @@ The U.S., EU, and India are all watching Brazil's implementation closely as they
 ## Related
 - [[synthesis/news/2026-may/headlines-2026-05-25]]
 - [[sources/news/2026/brazil-2026-elections-ai-regulation-stress-test]]
-- [[index]]
+- [[wiki/index]]
 
 - [[brazil-2026-elections-ai-regulation-stress-test]]
 

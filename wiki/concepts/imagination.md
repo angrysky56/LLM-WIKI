@@ -60,7 +60,7 @@ Imagination is central to [[llm-reasoning]]:
 [[Emergence]] in LLMs may have an imagination connection: emergent capabilities like chain-of-thought reasoning could be understood as the model developing better internal simulations. CoT emergence at ~10B parameters may reflect the development of compressed reasoning simulations that the model can "imagine" rather than generate token-by-token.
 
 ## Connections
-- [[index]]
+- [[wiki/index]]
 - [[concepts/imagination]]
 - [[concepts/counterfactual]]
 - [[concepts/creativity]]

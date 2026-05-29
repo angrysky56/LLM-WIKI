@@ -92,7 +92,7 @@ The sheaf-consistency-enforcer detects coboundary norm violations via differenti
 - [[concepts/model-editing]]
 - [[concepts/activation-steering]]
 - [[concepts/causal-reasoning]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/taylors-law]]
 - [[concepts/attractor-dynamics]]
 - [[concepts/latent-reasoning]]

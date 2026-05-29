@@ -16,7 +16,7 @@ confidence: 0.3
 ## Connections
 - [[concepts/maximum-occupancy-principle]]
 - [[sources/news/2026/china-coal-mine-explosion-shanxi-may-2026]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/china-industrial-policy]]
 - [[log]]
 - [[china-industrial-policy]]

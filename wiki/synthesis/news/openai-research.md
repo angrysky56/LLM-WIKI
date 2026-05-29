@@ -17,7 +17,7 @@ confidence: 0.3
 - [[sources/news/2026/openai-erdos-mathematics-proof-2026]]
 - [[synthesis/news/openai-research]]
 - [[synthesis/news/openai-developments]]
-- [[index]]
+- [[wiki/index]]
 - [[openai-research]]
 
 - [[alphaevolve]]

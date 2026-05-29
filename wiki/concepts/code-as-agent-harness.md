@@ -15,7 +15,7 @@ confidence: 0.3
 
 ## Connections
 - [[concepts/llm-agent-architecture]]
-- [[index]]
+- [[wiki/index]]
 - [[sources/papers/clinseekagent-multimodal-clinical-evidence-seeking]]
 - [[log]]
 - [[concepts/code-generation]]

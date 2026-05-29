@@ -24,7 +24,7 @@ Under the [[spontaneous-activity-reshaping-hypothesis]], hyperphantasia represen
 - [[concepts/hyperphantasia]]
 - [[concepts/spontaneous-activity-reshaping-hypothesis]]
 - [[log]]
-- [[index]]
+- [[wiki/index]]
 - [[hyperphantasia]]
 
 - **Concepts:** [[aphantasia]], [[spontaneous-activity-reshaping-hypothesis]]

@@ -30,7 +30,7 @@ confidence: 1.0
 
 ## Connections
 - [[entities/projects/tys-repos/sentience-metaphysics]]
-- [[index]]
+- [[wiki/index]]
 - [[sources/repositories/sentience-metaphysics]]
 - [[entities/projects/tys-repos]]
 - [[synthesis/efhf-mcp-configuration]]

@@ -68,7 +68,7 @@ This is the foundation for the RL + MCTS combination used in modern reasoning sy
 - [[concepts/mcts]]
 - [[scratchpad/jobs/reports/researcher/discovery-2026-06-09]]
 - [[concepts/causal-reasoning]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/collm-nas]]
 - [[log]]
 - [[sources/papers/deltabox-stateful-agent-checkpoint-rollback-2026]]

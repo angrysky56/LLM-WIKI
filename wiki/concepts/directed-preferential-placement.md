@@ -15,7 +15,7 @@ confidence: 0.3
 
 ## Connections
 - [[sources/articles/language-evolution]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/maximum-occupancy-principle]]
 - [[concepts/directed-preferential-placement]]
 - [[log]]

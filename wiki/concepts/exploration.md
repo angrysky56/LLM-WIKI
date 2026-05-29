@@ -15,7 +15,7 @@ confidence: 0.3
 
 ## Connections
 - [[concepts/exploitation]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/exploration]]
 - [[log]]
 - [[concepts/recuriosity-episodic-context-3d-exploration-2026]]

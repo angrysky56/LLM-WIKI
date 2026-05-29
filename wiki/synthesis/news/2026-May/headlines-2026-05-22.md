@@ -45,7 +45,7 @@ tags: [news, report]
 - **Everest deaths**: Recurring seasonal risk, not new pattern
 
 ## Related
-- [[index]]
+- [[wiki/index]]
 - [[scratchpad/jobs/reports/librarian/audit-2026-05-26-path-verification]]
 - [[synthesis/news/2026-may/headlines-2026-05-22]]
 

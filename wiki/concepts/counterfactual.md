@@ -22,7 +22,7 @@ Counterfactual reasoning involves mentally simulating alternative pasts — "wha
 
 ## Connections
 - [[scratchpad/agent-sheets/librarians-assistant/carryover]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/imagination]]
 - [[log]]
 - [[concepts/counterfactual]]

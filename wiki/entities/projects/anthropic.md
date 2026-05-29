@@ -17,7 +17,7 @@ confidence: 0.3
 - [[log]]
 - [[sources/repositories/cli-printing-press]]
 - [[entities/projects/anthropic]]
-- [[index]]
+- [[wiki/index]]
 - [[anthropic]]
 
 - [[ai-safety]]

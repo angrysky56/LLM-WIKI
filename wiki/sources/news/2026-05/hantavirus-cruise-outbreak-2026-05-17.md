@@ -28,7 +28,7 @@ A hantavirus outbreak originating on a cruise ship has spread to North America, 
 - STAT News: "The hantavirus outbreak is prompting Covid flashbacks — including the conspiracies"
 
 ## Related
-- [[index]]
+- [[wiki/index]]
 - [[sources/news/2026-05/hantavirus-cruise-outbreak-2026-05-17]]
 - [[sources/news/2026-05/us-flight-diverts-ebola-passenger-2026-05-21]]
 - [[synthesis/news/2026-may/news-2026-05-18-headlines]]

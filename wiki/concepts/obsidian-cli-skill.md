@@ -21,7 +21,7 @@ confidence: 0.3
 - [[concepts/llm-wiki-pattern]]
 - [[sources/documentation/obsidian-git-setup]]
 - [[entities/tools/obsidian-skills-repo]]
-- [[index]]
+- [[wiki/index]]
 - [[obsidian-cli-skill]]
 
 - [[obsidian]]

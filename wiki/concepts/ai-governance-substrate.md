@@ -69,7 +69,7 @@ It connects to [[agentic-oversight]] as the specific structural mechanism for ov
 - [[sources/news/2026/tiktok-youtube-ofcom-not-safe-enough-2026]]
 - [[concepts/institutional-design]]
 - [[concepts/agentic-oversight]]
-- [[index]]
+- [[wiki/index]]
 - [[sources/news/2026/meta-social-media-addiction-settlement-2026]]
 - [[entities/longevity-research]]
 - [[sources/news/2026/trump-taiwan-call-2026]]

@@ -37,7 +37,7 @@ The combination of: (1) no existing vaccine, (2) a growing case count, (3) respo
 
 ## Connections
 - [[sources/news/2026/ebola-bundibugyo-outbreak-drc-uganda-2026]]
-- [[index]]
+- [[wiki/index]]
 - [[sources/news/2026/ebola-outbreak-drc-who-very-high-may-2026]]
 - [[ebola-bundibugyo-outbreak-drc-uganda-2026]]
 - [[public-health-governance]] — WHO emergency declarations and their limits when funding doesn't follow

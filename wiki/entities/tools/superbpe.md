@@ -23,7 +23,7 @@ SuperBPE is the core algorithm used to derive **[[supertokens]]** from LLM reaso
 ## Connections
 - [[sources/articles/shorthand-for-thought]]
 - [[sources/papers/kalra-barkeshli-hyperparameter-transfer-2026]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/supertokens]]
 - [[entities/tools/superbpe]]
 - [[superbpe]]

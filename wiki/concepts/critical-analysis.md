@@ -38,7 +38,7 @@ Evaluating the "so what?" of the research.
 - [[concepts/hidden-states]]
 - [[sources/papers/reward-inside-model-elhsr]]
 - [[sources/articles/critical-review-scientific-article-guide]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/critical-analysis]]
 - [[concept-index]]
 - [[concepts/academic-peer-review]]

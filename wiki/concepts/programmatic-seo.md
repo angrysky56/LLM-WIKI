@@ -15,7 +15,7 @@ confidence: 0.3
 
 ## Connections
 - [[concepts/programmatic-seo]]
-- [[index]]
+- [[wiki/index]]
 - [[sources/articles/solo-preneur]]
 - [[concepts/maximum-occupancy-principle]]
 - [[log]]

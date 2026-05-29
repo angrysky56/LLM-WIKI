@@ -71,7 +71,7 @@ Six gated signals, all subject to cooldown:
 - **CONSOLIDATION** — both PCRs high → no clean direction
 
 ## Connections
-- [[index]]
+- [[wiki/index]]
 - [[concepts/astar-structural-pathfinding]]
 - [[astar-structural-pathfinding]]
 

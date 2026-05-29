@@ -28,7 +28,7 @@ confidence: 1.0
 - [[synthesis/seg-scientist-agent-design]]
 - [[concepts/machine-psychology]]
 - [[entities/projects/tys-repos/aseke-compass-mcp]]
-- [[index]]
+- [[wiki/index]]
 - [[entities/projects/tys-repos]]
 - [[aseke-compass-mcp]]
 - [[agem]] — Used for psychological profiling of agent personas.

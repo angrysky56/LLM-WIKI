@@ -52,7 +52,7 @@ Full tracking: [[spacex-blackrock-10b-stake-tracking]]
 ## Connections
 - [[sources/news/2026/spacex-blackrock-10b-stake-tracking]]
 - [[sources/news/2026/spacex-ipo-june-12-2026]]
-- [[index]]
+- [[wiki/index]]
 - [[synthesis/news/2026-may/headlines-2026-05-25]]
 - [[spacex-ipo-june-12-2026]]
 - [[spacex-blackrock-10b-stake-tracking]] — dedicated BlackRock tracking

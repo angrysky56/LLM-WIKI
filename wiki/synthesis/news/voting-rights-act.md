@@ -15,7 +15,7 @@ confidence: 0.3
 
 ## Connections
 - [[synthesis/news/voting-rights-act]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/redistricting]]
 - [[log]]
 - [[sources/news/2026-05/scotus-voting-rights-2026-05-18]]

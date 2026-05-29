@@ -82,7 +82,7 @@ With the US federal AI regulatory path definitively closed (Trump abandoned AI m
 - [[concepts/ai-policy-global-governance]]
 - [[concepts/ai-policy-arms-control-treaty]]
 - [[synthesis/news/russia-bundibugyo-ebola-vaccine-may-2026]]
-- [[index]]
+- [[wiki/index]]
 - [[sources/articles/pope-leo-ai-encyclical-magnifica-humanitas-may-2026]]
 - [[synthesis/news/anthropic-vatican-alignment-may-2026]]
 - [[concepts/ai-governance]]

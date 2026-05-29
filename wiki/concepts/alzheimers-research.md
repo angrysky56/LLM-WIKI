@@ -18,7 +18,7 @@ confidence: 0.3
 - [[log]]
 - [[concepts/protein-aggregation]]
 - [[sources/news/2026-05/alzheimers-breakthrough-2026-05-20]]
-- [[index]]
+- [[wiki/index]]
 - [[alzheimers-research]]
 
 - [[ai-scientific-discovery]]

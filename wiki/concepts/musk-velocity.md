@@ -47,7 +47,7 @@ SpaceX's June 12, 2026 IPO under ticker SPCX is the most significant test of Mus
 | What is xAI's weight in SpaceX's $1.75T valuation? | Anthropic deal ($15B/year) disclosed; AI space data center viability flagged as unproven risk |
 
 ## Connections
-- [[index]]
+- [[wiki/index]]
 - [[log]]
 - [[sources/news/2026/spacex-ipo-june-12-2026]]
 - [[entities/xai]]

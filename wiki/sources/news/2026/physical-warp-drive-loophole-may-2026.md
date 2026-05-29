@@ -19,7 +19,7 @@ The implications are enormous if even partially correct. A practical warp drive 
 The finding remains theoretical — the engineering to create and control the required spacetime geometry is far beyond current technology. But it shifts warp drives from "impossible by known physics" to "possible but requiring technology we don't yet have." It is a genuine theoretical physics breakthrough.
 
 ## Connections
-- [[index]]
+- [[wiki/index]]
 - [[sources/news/2026/physical-warp-drive-loophole-may-2026]]
 - [[physical-warp-drive-loophole-may-2026]]
 - [[AI-scientific-discovery]] — AI tools playing increasing role in theoretical physics calculations and spacetime modeling

@@ -80,7 +80,7 @@ All current sources use pre-confirmation language.
 ## Related
 - [[sources/news/2026/spacex-blackrock-10b-stake-tracking]]
 - [[sources/news/2026/spacex-ipo-june-12-2026]]
-- [[index]]
+- [[wiki/index]]
 
 - [[spacex-blackrock-10b-stake-tracking]]
 

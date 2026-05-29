@@ -21,7 +21,7 @@ In the context of [[agentic-research]], Claude Code is often used as the "execut
 ## Connections
 - [[entities/tools/claude-code]]
 - [[concepts/agentic-research]]
-- [[index]]
+- [[wiki/index]]
 - [[sources/articles/why-llms-arent-scientists-yet]]
 - [[log]]
 - [[sources/repositories/codegraph]]

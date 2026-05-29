@@ -15,13 +15,13 @@ confidence: 0.3
 
 ## Connections
 - [[agents/skills/librarian-agent/skill]]
-- [[projects/goodrobot/shut-down-entity]]
+- [[shut-down-entity]]
 - [[synthesis/news/goodrobot-revenue-model]]
-- [[projects/goodrobot/active-business-plan]]
+- [[active-business-plan]]
 - [[concepts/revenue-model]]
-- [[projects/goodrobot/index]]
-- [[projects/goodrobot/business-concept]]
-- [[index]]
-- [[revenue-model]]
+- [[wiki/research/projects/goodrobot/index]]
+- [[business-concept]]
+- [[wiki/index]]
+- [[wiki/concepts/revenue-model]]
 
 - [[maximum-occupancy-principle]]

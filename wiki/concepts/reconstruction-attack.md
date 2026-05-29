@@ -15,7 +15,7 @@ confidence: 0.3
 
 ## Connections
 - [[concepts/reconstruction-attack]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/maximum-occupancy-principle]]
 - [[log]]
 - [[sources/papers/lcguard-kv-communication-guard-2026]]

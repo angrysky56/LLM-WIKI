@@ -17,7 +17,7 @@ confidence: 0.3
 - [[concepts/applied-mathematics]]
 - [[concepts/optimization]]
 - [[concepts/mathematics]]
-- [[index]]
+- [[wiki/index]]
 - [[applied-mathematics]]
 
 - [[mathematics]]

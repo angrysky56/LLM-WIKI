@@ -87,7 +87,7 @@ In the Hermes framework (per `hermes-agent` architecture):
 - [[concepts/domain-onboarding-standards]]
 - [[concepts/adversarial-training]]
 - [[concepts/constitutional-ai]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/llm-training]]
 - [[agents/skills/librarian-agent/skill]]
 - [[log]]

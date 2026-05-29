@@ -37,7 +37,7 @@ With the SpaceX IPO now 16 days from its June 12 Nasdaq listing, two distinct go
 The governance question is the key institutional investor concern. Standard public-company governance norms expect some alignment between economic ownership and voting control. A 78%-controlled public company with no disclosure obligation on this structure is a novel instrument at this valuation scale. The Tesla spillover question is secondary but significant — if Tesla investors interpret SpaceX as Musk's primary attention post-IPO, Tesla could face a re-rating independent of SpaceX's own performance.
 
 ## Connections
-- [[index]]
+- [[wiki/index]]
 - [[sources/news/2026/spacex-ipo-june-12-2026]]
 - [[entities/projects/spacex]]
 - [[sources/news/2026/spacex-blackrock-10b-stake-tracking]]

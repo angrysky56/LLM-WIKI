@@ -31,7 +31,7 @@ Created full concept page for schema competition in the meta-harness Knowledge P
 - agentic-react concept gap: low priority, coverage adequate via skill — no action needed
 
 ## Related
-- [[index]]
+- [[wiki/index]]
 - [[scratchpad/jobs/reports/researcher/discovery-2026-05-27]]
 
 - [[discovery-2026-05-27]]

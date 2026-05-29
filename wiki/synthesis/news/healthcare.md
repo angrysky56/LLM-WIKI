@@ -16,7 +16,7 @@ confidence: 0.3
 ## Connections
 - [[synthesis/news/ai-healthcare]]
 - [[synthesis/news/healthcare]]
-- [[index]]
+- [[wiki/index]]
 - [[synthesis/news/biomedical-research]]
 - [[synthesis/news/medical-research]]
 - [[healthcare]]

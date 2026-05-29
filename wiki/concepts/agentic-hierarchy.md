@@ -119,7 +119,7 @@ The [[bounded-structured-memory]] architecture formalizes this with per-agent va
 - [[concepts/multi-agent-llm-systems]]
 - [[concepts/agentic-oversight]]
 - [[concepts/subagent-delegation]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/delegation]]
 - [[concepts/mcts]]
 - [[concepts/onboarding-standards]]

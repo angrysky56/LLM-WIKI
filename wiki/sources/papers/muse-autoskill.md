@@ -46,7 +46,7 @@ Experiments on SkillsBench show:
 - **Cross-agent transfer**: skills trained on one agent improve performance on others
 
 ## Connections
-- [[index]]
+- [[wiki/index]]
 - [[sources/papers/muse-autoskill]]
 
 - [[agentic-research]] — MUSE-Autoskill is an agentic AI framework

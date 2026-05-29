@@ -72,7 +72,7 @@ Generic stub with no clear scope. The concept of "knowledge storage and retrieva
 
 ## Related
 - [[scratchpad/jobs/reports/researcher/discovery-2026-06-25]]
-- [[index]]
+- [[wiki/index]]
 
 - [[discovery-2026-06-25]]
 

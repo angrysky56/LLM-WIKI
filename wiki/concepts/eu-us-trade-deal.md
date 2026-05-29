@@ -52,7 +52,7 @@ Three factors preventing authoritative rate data:
 The underlying tariffs in force before the Joint Statement (US steel/aluminum Section 232 tariffs, EU retaliatory tariffs on US goods) remain partially unresolved. The deal appears to have *structured* the tariff relationship rather than *reduced* the underlying rates.
 
 ## Connections
-- [[index]]
+- [[wiki/index]]
 - [[concepts/hamm-v-smith]]
 - [[concepts/malaysia-us-trade-deal]]
 - [[concepts/eu-us-trade-deal]]

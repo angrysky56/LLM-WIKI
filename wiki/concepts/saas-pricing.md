@@ -63,12 +63,12 @@ Usage-based aligns revenue with cost structure but creates revenue volatility. H
 ## Connections
 - [[log]]
 - [[concepts/saas]]
-- [[projects/goodrobot/index]]
+- [[wiki/research/projects/goodrobot/index]]
 - [[concepts/saas-pricing]]
-- [[projects/goodrobot/active-business-plan]]
-- [[index]]
+- [[active-business-plan]]
+- [[wiki/index]]
 - [[saas-pricing]]
 
-- [[goodrobot]] — archived AI agent SaaS project with documented pricing tiers
+- [[wiki/entities/projects/goodrobot]] — archived AI agent SaaS project with documented pricing tiers
 - [[saas]] — broader SaaS business model context
 - [[business-model]] — general business model taxonomy

@@ -26,7 +26,7 @@ Key domains of rivalry:
 ## Connections
 - [[concepts/proxy-signalling]]
 - [[concepts/great-power-rivalry]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/china-cuba-tensions]]
 - [[concepts/geopolitics]]
 - [[great-power-rivalry]]

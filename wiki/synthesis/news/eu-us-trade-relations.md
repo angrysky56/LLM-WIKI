@@ -15,7 +15,7 @@ confidence: 0.3
 
 ## Connections
 - [[synthesis/news/eu-us-trade-relations]]
-- [[index]]
+- [[wiki/index]]
 - [[sources/news/2026/eu-us-trade-deal-tariff-elements-may-2026]]
 - [[synthesis/news/transatlantic-trade]]
 - [[concepts/eu-us-trade-deal]]

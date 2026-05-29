@@ -20,7 +20,7 @@ confidence: 0.3
 - [[scratchpad/jobs/reports/arxiv/arxiv-2026-05-22-top-papers]]
 - [[concepts/privacy-utility-tradeoff]]
 - [[concepts/data-privacy]]
-- [[index]]
+- [[wiki/index]]
 - [[privacy-utility-tradeoff]]
 
 - [[data-privacy]]

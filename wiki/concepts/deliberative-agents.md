@@ -28,7 +28,7 @@ See [[agent-architectures]] for the full taxonomy comparison with reactive, hybr
 - [[log]]
 - [[concepts/hybrid-agents]]
 - [[concepts/deliberative-agents]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/agents]]
 - [[deliberative-agents]]
 

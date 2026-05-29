@@ -17,7 +17,7 @@ confidence: 0.3
 - [[concepts/probing-analysis]]
 - [[concepts/video-llm]]
 - [[concepts/motion-understanding]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/vision-language-alignment]]
 - [[concepts/maximum-occupancy-principle]]
 - [[log]]

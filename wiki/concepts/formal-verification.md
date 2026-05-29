@@ -77,7 +77,7 @@ The [[load-bearing-reasoning]] framework identifies critical inference steps; fo
 - [[concepts/formal-verification]]
 - [[concepts/mathematical-reasoning]]
 - [[entities/tools/prover9]]
-- [[index]]
+- [[wiki/index]]
 - [[formal-verification]]
 
 - [[formal-methods]] — the broader field

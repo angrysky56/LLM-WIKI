@@ -17,7 +17,7 @@ confidence: 0.3
 - [[log]]
 - [[entities/projects/priorlabstabpfn]]
 - [[concepts/mlops]]
-- [[index]]
+- [[wiki/index]]
 - [[entities/projects/huggingface]]
 - [[sources/repositories/tabpfn]]
 - [[huggingface]]

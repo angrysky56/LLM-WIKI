@@ -15,7 +15,7 @@ confidence: 0.3
 
 ## Connections
 - [[concepts/spike-campaign-001-004-summary]]
-- [[index]]
+- [[wiki/index]]
 - [[synthesis/seg-scientist-agent-design]]
 - [[log]]
 - [[spike-campaign-001-004-summary]]

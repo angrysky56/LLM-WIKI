@@ -44,7 +44,7 @@ Using Discord as a visual UI for a hierarchical Multi-Agent System (MAS) built o
 - **GitHub issue #50806**: Developer running 7 Hermes instances with mention-based Discord routing. Real friction: bot-ignore config.
 
 ## Related
-- [[index]]
+- [[wiki/index]]
 - [[sources/articles/hermes-multi-agent-discord-architecture]]
 
 - [[hermes-multi-agent-discord-architecture]]

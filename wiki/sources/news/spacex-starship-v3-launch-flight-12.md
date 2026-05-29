@@ -39,7 +39,7 @@ SpaceX has scheduled Starship Version 3 — the largest rocket ever built, and t
 `science / space`
 
 ## Related
-- [[index]]
+- [[wiki/index]]
 - [[sources/news/spacex-starship-v3-launch-flight-12]]
 
 - [[spacex-starship-v3-launch-flight-12]]

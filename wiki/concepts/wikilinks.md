@@ -19,7 +19,7 @@ confidence: 0.3
 - [[concepts/maximum-occupancy-principle]]
 - [[log]]
 - [[concepts/wikilinks]]
-- [[index]]
+- [[wiki/index]]
 - [[wikilinks]]
 
 - [[maximum-occupancy-principle]]

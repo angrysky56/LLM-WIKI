@@ -19,7 +19,7 @@ confidence: 0.3
 - [[concepts/onboarding-standards]]
 - [[scratchpad/jobs/reports/librarian/audit-2026-05-23]]
 - [[concepts/multi-agent-coordination]]
-- [[index]]
+- [[wiki/index]]
 - [[log]]
 - [[onboarding-standards]]
 

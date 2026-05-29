@@ -19,7 +19,7 @@ confidence: 0.3
 - [[synthesis/news/2026-may/headlines-2026-05-22]]
 - [[log]]
 - [[concepts/russia-ukraine-war]]
-- [[index]]
+- [[wiki/index]]
 - [[sources/news/2026/nato-troops-poland-may-2026]]
 - [[russia-ukraine-war]]
 

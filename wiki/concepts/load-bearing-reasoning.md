@@ -55,7 +55,7 @@ The Paraclete EBE chain (`check_action` → `calibrate_belief` → `escalate_blo
 - [[concepts/mathematical-reasoning]]
 - [[concepts/shorthand-for-thought]]
 - [[sources/papers/betteti-baggio-bullo-zampieri-idp-hopfield-2025]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/categorical-reasoning]]
 - [[entities/people/stephen-wolfram]]
 - [[concepts/reasoning]]

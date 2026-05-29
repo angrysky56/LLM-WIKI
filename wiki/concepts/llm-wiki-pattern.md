@@ -63,7 +63,7 @@ See `wiki/sources/articles/llm-wiki-pattern.md` for the full source article.
 - [[entities/projects/project-synapse]]
 - [[sources/documentation/obsidian-cli-skill]]
 - [[concepts/memex]]
-- [[index]]
+- [[wiki/index]]
 - [[synthesis/wiki-indexing-theory]]
 - [[sources/documentation/obsidian-para-byarbrough]]
 - [[concept-index]]

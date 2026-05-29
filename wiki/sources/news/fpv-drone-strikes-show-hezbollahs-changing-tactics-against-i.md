@@ -20,7 +20,7 @@ Hezbollah's released footage of FPV (first-person-view) drone strikes against Is
 
 ## Connections
 - [[sources/news/fpv-drone-strikes-show-hezbollahs-changing-tactics-against-i]]
-- [[index]]
+- [[wiki/index]]
 
 - [[hezbollah]] — actor
 - [[fpv-drone]] — the weapon system

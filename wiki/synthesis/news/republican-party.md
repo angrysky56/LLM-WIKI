@@ -21,7 +21,7 @@ confidence: 0.3
 - [[synthesis/news/trump-administration]]
 - [[synthesis/news/republican-party]]
 - [[synthesis/news/2026-republican-primaries]]
-- [[index]]
+- [[wiki/index]]
 - [[republican-party]]
 
 - [[us-politics]]

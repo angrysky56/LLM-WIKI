@@ -57,7 +57,7 @@ SafeCtrl-RL is an inference-time behavioral control framework that formulates LL
 
 ## Related
 - [[sources/papers/safectrl-rl]]
-- [[index]]
+- [[wiki/index]]
 
 - [[safectrl-rl]]
 

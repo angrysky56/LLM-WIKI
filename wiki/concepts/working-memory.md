@@ -80,7 +80,7 @@ Working memory in this framing is not just storage — it's the space where epis
 - [[concepts/bounded-rationality]]
 - [[concepts/epistemic-energy]]
 - [[concepts/working-memory]]
-- [[index]]
+- [[wiki/index]]
 - [[working-memory]]
 - Concept: [[epistemic-energy]]
 - Concept: [[memory-mechanisms]]

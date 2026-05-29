@@ -92,7 +92,7 @@ A system with delegation but no planning gets sub-tasks done but may produce inc
 - [[concepts/agentic-oversight]]
 - [[concepts/subagent-delegation]]
 - [[sources/articles/choosing-right-agentic-design-pattern]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/delegation]]
 - [[log]]
 - [[sources/documentation/create-custom-subagents]]

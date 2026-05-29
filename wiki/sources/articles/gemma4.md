@@ -32,7 +32,7 @@ Tool support: vision, thinking, audio, cloud, e2b, e4b, 26b, 31b variants.
 
 ## Connections
 - [[sources/articles/truth-emotion-sacred-agem-analysis]]
-- [[index]]
+- [[wiki/index]]
 - [[sources/articles/frank-einstein-gemma-truth-emotion-sacred]]
 - [[sources/documentation/acp-editor-integration-hermes-agent]]
 - [[sources/articles/gemma4]]

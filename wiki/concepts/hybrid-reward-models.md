@@ -114,7 +114,7 @@ These are related but not identical. No published paper yet compares them direct
 
 ## Related
 - [[concepts/process-reward-model]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/hybrid-reward-models]]
 - [[concepts/reward-hacking]]
 - [[log]]

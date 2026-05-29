@@ -82,7 +82,7 @@ This is parallel to weight-level continual learning methods, but operates at inf
 - [[concepts/control-llm]]
 - [[concepts/continual-learning]]
 - [[concepts/llm-inference]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/catastrophic-forgetting]]
 
 - [[kv-cache]]: the underlying mechanism NAMM learns to manage

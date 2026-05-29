@@ -17,7 +17,7 @@ confidence: 0.3
 - [[log]]
 - [[concepts/multi-agent-llm-systems]]
 - [[agents/skills/supervisor-orchestrator]]
-- [[index]]
+- [[wiki/index]]
 - [[agents/skills/agentic-multiagent]]
 - [[agents/skills/supervisor-delegation]]
 - [[concepts/agent-architectures]]

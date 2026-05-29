@@ -96,7 +96,7 @@ If the framework holds, it provides a model for democratic AI governance. If it 
 
 ## Related
 - [[synthesis/news/2026-may/headlines-2026-05-25]]
-- [[index]]
+- [[wiki/index]]
 
 - [[headlines-2026-05-25]]
 

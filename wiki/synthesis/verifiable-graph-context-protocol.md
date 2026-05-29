@@ -120,7 +120,7 @@ The MCP server exposes six tools for managing the reasoning graph:
 - **Temporal reasoning** — VGCP encodes causal structure, not temporal order. Two nodes can be causally related without temporal ordering (e.g., parallel derivation chains). This is handled by the DAG structure but not explicitly formalized.
 
 ## Connections
-- [[index]]
+- [[wiki/index]]
 - [[synthesis/verifiable-graph-context-protocol]]
 - [[verifiable-graph-context-protocol]]
 

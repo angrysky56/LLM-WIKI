@@ -68,7 +68,7 @@ All three share the core insight: when memory is fixed, the search over model va
 ## Connections
 - [[concepts/bounded-memory-budget-optimization]]
 - [[scratchpad/agent-sheets/researcher/carryover]]
-- [[index]]
+- [[wiki/index]]
 - [[log]]
 - [[bounded-memory-budget-optimization]]
 

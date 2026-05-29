@@ -14,7 +14,7 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
-- [[index]]
+- [[wiki/index]]
 - [[synthesis/news/trump-administration]]
 - [[log]]
 - [[synthesis/news/2026-republican-primaries]]

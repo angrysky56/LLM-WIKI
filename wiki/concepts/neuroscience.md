@@ -15,7 +15,7 @@ confidence: 0.3
 
 ## Connections
 - [[concepts/mental-imagery]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/brain-research]]
 - [[concepts/cognitive-science]]
 - [[log]]

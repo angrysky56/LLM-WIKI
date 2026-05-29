@@ -21,7 +21,7 @@ Type 1 diabetes affects approximately 9 million people globally, requiring lifel
 If the mouse results translate to humans — a significant "if" — this could represent a functional cure. Stanford has indicated plans for clinical trials. The hybrid immune approach also has implications for other autoimmune diseases and organ transplants more broadly.
 
 ## Connections
-- [[index]]
+- [[wiki/index]]
 - [[sources/news/2026/stanford-type-1-diabetes-cure-may-2026]]
 - [[stanford-type-1-diabetes-cure-may-2026]]
 - [[AI-scientific-discovery]] — broader pattern of AI-accelerated biomedical research

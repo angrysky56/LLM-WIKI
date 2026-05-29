@@ -15,7 +15,7 @@ confidence: 0.3
 
 ## Connections
 - [[concepts/agentic-research]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/momoa-researcher]]
 - [[log]]
 - [[entities/projects/alphaevolve]]

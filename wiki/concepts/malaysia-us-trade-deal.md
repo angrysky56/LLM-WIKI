@@ -43,7 +43,7 @@ The EU-US 2029 sunset format appears designed to address these concerns:
 ## Connections
 - [[concepts/hamm-v-smith]]
 - [[concepts/malaysia-us-trade-deal]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/eu-us-trade-deal]]
 - [[log]]
 - [[scratchpad/agent-sheets/librarian/carryover]]

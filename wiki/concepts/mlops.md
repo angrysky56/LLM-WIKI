@@ -21,7 +21,7 @@ confidence: 0.3
 - [[concepts/model-serving]]
 - [[log]]
 - [[concepts/mlops]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/benchmarking]]
 - [[mlops]]
 

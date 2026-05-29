@@ -16,7 +16,7 @@ Eris is the Greek goddess of strife and discord. Her most famous mythological ap
 
 ## Related
 - [[sources/articles/eris-mythology]]
-- [[index]]
+- [[wiki/index]]
 
 - [[eris-mythology]]
 

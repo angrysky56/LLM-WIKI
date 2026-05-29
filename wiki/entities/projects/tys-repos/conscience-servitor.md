@@ -33,7 +33,7 @@ confidence: 1.0
 - [[entities/projects/tys-repos/agem]]
 - [[entities/projects/tys-repos/efhf]]
 - [[entities/people/tyler-hall]]
-- [[index]]
+- [[wiki/index]]
 - [[entities/projects/tys-repos]]
 - [[log]]
 - [[entities/projects/tys-repos/conscience-servitor]]

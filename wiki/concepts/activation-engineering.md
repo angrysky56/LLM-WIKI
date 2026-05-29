@@ -123,7 +123,7 @@ The PID steering framework maps directly: P = immediate intervention, I = accumu
 - [[concepts/activation-engineering]]
 - [[concepts/steering-vectors]]
 - [[scratchpad/agent-sheets/researcher/carryover]]
-- [[index]]
+- [[wiki/index]]
 - [[log]]
 - [[concepts/mechanistic-interpretability]]
 - [[activation-engineering]]

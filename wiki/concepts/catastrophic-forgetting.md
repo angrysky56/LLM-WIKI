@@ -92,7 +92,7 @@ This makes MOP fundamentally different from all weight-level approaches: instead
 - [[concepts/essa]]
 - [[concepts/continual-learning]]
 - [[concepts/model-editing]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/ramirez-ruiz-mop-2024]]
 - [[concepts/mop-architecture]]
 - [[concepts/llm-training]]

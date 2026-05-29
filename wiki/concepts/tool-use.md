@@ -49,7 +49,7 @@ Agent reasons about result, calls next tool
 
 ## See Also
 - [[concepts/tool-use]]
-- [[index]]
+- [[wiki/index]]
 - [[log]]
 - [[concepts/autonomous-agents]]
 - [[tool-use]]

@@ -16,7 +16,7 @@ confidence: 0.3
 ## Connections
 - [[concepts/research-tooling]]
 - [[concepts/tooling]]
-- [[index]]
+- [[wiki/index]]
 - [[log]]
 - [[concepts/devops]]
 - [[tooling]]

@@ -1,7 +1,7 @@
 # Paper Selection Brief
 
 ## Related
-- [[index]]
+- [[wiki/index]]
 - [[scratchpad/agent-sheets/arxiv/templates/research-brief]]
 
 - [[research-brief]]

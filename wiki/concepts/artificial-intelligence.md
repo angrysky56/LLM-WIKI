@@ -17,7 +17,7 @@ confidence: 0.3
 - [[concepts/multimodal-ai]]
 - [[concepts/artificial-intelligence]]
 - [[concepts/machine-learning]]
-- [[index]]
+- [[wiki/index]]
 - [[log]]
 - [[synthesis/news/ai-healthcare]]
 - [[artificial-intelligence]]

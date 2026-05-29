@@ -12,7 +12,7 @@ tags: []
 ## See Also
 - [[concepts/functor-string-diagrams]]
 - [[log]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/attention-monoidal-closure]]
 - [[concepts/category-theory]]
 - [[functor-string-diagrams]]

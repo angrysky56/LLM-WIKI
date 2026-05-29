@@ -15,7 +15,7 @@ confidence: 0.3
 
 ## Connections
 - [[concepts/infinite]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/hilbert-hotel]]
 - [[log]]
 - [[hilbert-hotel]]

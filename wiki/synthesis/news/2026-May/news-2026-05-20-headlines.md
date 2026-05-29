@@ -81,7 +81,7 @@ type: summary
 - No celebrity, sports, or entertainment stories
 
 ## Related
-- [[index]]
+- [[wiki/index]]
 - [[synthesis/news/2026-may/news-2026-05-20-headlines]]
 
 - [[news-2026-05-20-headlines]]

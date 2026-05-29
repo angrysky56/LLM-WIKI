@@ -24,7 +24,7 @@ In children, the maturation (specifically [[myelination]]) of the arcuate fascic
 
 ## Connections
 - [[synthesis/llm-biological-analogies]]
-- [[index]]
+- [[wiki/index]]
 - [[sources/articles/brocas-area-gemini-chat]]
 - [[concepts/brocas-area]]
 - [[concepts/myelination]]

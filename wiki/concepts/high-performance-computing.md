@@ -14,7 +14,7 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
-- [[index]]
+- [[wiki/index]]
 - [[log]]
 - [[concepts/computational-science]]
 - [[concepts/high-performance-computing]]

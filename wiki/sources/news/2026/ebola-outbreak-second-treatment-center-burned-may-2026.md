@@ -68,7 +68,7 @@ The burning of ETCs is a direct symptom of community distrust — fueled by misi
 
 ## Related
 - [[sources/news/2026/ebola-outbreak-second-treatment-center-burned-may-2026]]
-- [[index]]
+- [[wiki/index]]
 - [[synthesis/news/2026-may/headlines-2026-05-24]]
 - [[synthesis/news/2026-may/headlines-2026-05-25]]
 

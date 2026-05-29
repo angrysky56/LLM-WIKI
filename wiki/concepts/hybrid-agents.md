@@ -94,7 +94,7 @@ The [[bounded-rationality]] concept explains why the routing exists at all: cogn
 
 ## Connections
 - [[scratchpad/agent-sheets/researcher/carryover]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/agents]]
 - [[log]]
 - [[concepts/hybrid-agents]]

@@ -46,7 +46,7 @@ No changes to wiki/sources/papers/ today — yesterday's 3 new pages remain the 
 
 ## Related
 - [[scratchpad/jobs/reports/arxiv/arxiv-2026-05-21-top-papers]]
-- [[index]]
+- [[wiki/index]]
 
 - [[arxiv-2026-05-21-top-papers]]
 

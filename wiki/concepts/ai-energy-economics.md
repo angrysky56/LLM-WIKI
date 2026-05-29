@@ -14,7 +14,7 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
-- [[index]]
+- [[wiki/index]]
 - [[concepts/ai-energy-economics]]
 - [[sources/news/2026-05/uk-russia-oil-sanctions-2026-05-20]]
 - [[log]]

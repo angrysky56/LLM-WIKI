@@ -27,7 +27,7 @@ confidence: 1.0
 
 ## Connections
 - [[entities/projects/tys-repos/graph-rlm]]
-- [[index]]
+- [[wiki/index]]
 - [[entities/projects/tys-repos]]
 - [[log]]
 - [[graph-rlm]]

@@ -29,7 +29,7 @@ A Trump-backed prayer festival drew thousands to the National Mall on May 18, 20
 ## Related
 - [[sources/news/2026-05/trump-prayer-rally-2026-05-18]]
 - [[synthesis/news/2026-may/news-2026-05-18-headlines]]
-- [[index]]
+- [[wiki/index]]
 - [[trump-prayer-rally-2026-05-18]]
 - [[wiki/sources/news/2026-05/trump-prayer-rally-2026-05-18.md]]
 

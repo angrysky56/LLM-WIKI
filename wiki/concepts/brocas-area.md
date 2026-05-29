@@ -31,7 +31,7 @@ Damage to this area (e.g., via stroke) results in **Expressive Aphasia**:
 - [[concept-index]]
 - [[synthesis/llm-biological-analogies]]
 - [[concepts/wernickes-area]]
-- [[index]]
+- [[wiki/index]]
 - [[brocas-area]]
 - [[wernickes-area]]: The comprehension counterpart.
 - [[arcuate-fasciculus]]: The neural bridge connecting Broca's to Wernicke's.

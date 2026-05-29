@@ -58,7 +58,7 @@ ASEKE's ambition — letting humans and AI see the levers in a situation by deco
 - [[synthesis/ai-governance-substrate-analysis]]
 - [[concepts/absence-of-worst-case-metric]]
 - [[concepts/institutional-capture-vs-species-framing]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/spin-vs-substrate]]
 - [[frame-transmission]]
 

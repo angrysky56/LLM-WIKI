@@ -17,7 +17,7 @@ confidence: 0.3
 - [[concepts/hamm-v-smith]]
 - [[synthesis/news/trump-tariffs]]
 - [[concepts/malaysia-us-trade-deal]]
-- [[index]]
+- [[wiki/index]]
 - [[synthesis/news/us-china-trade]]
 - [[synthesis/news/china]]
 - [[concepts/eu-us-trade-deal]]

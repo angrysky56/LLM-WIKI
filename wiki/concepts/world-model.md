@@ -93,7 +93,7 @@ Biological and some AI systems implement hierarchical predictive coding: each la
 - [[concepts/agentic-planner]]
 - [[concepts/epistemic-energy]]
 - [[concepts/working-memory]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/world-model]]
 - [[concepts/imagination]]
 - [[sources/papers/recuriosity-episodic-context-3d-exploration-2026]]

@@ -17,7 +17,7 @@ confidence: 0.3
 - [[sources/repositories/cli-printing-press]]
 - [[log]]
 - [[synthesis/news/non-obvious-insight]]
-- [[index]]
+- [[wiki/index]]
 - [[non-obvious-insight]]
 
 - [[zettelkasten-engine]]

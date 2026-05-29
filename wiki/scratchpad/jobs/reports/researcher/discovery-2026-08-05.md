@@ -46,7 +46,7 @@ All major clusters resolved:
 
 ## Related
 - [[scratchpad/jobs/reports/researcher/discovery-2026-08-05]]
-- [[index]]
+- [[wiki/index]]
 
 - [[discovery-2026-08-05]]
 

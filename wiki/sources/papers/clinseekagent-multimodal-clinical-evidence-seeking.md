@@ -31,7 +31,7 @@ ClinSeekAgent addresses this by constructing a multimodal evidence-seeking pipel
 The [[code-as-agent-harness]] research and [[awesome-code-as-agent-harness]] papers examine how agents search and use external tool outputs. ClinSeekAgent extends this pattern into a high-stakes, multimodal domain where evidence quality is literally life-or-death. The evidence-seeking loop architecture is directly applicable to our agent tool-use research. Also connects to [[Ctx2skill]] work on grounding — clinical evidence grounding is a concrete instance of the broader grounding problem.
 
 ## Connections
-- [[index]]
+- [[wiki/index]]
 - [[sources/papers/clinseekagent-multimodal-clinical-evidence-seeking]]
 - [[clinseekagent-multimodal-clinical-evidence-seeking]]
 - [[code-as-agent-harness]]

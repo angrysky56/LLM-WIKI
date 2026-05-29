@@ -47,7 +47,7 @@ Higgs mechanism, J/ψ meson (November Revolution 1974), asymptotic freedom in QC
 
 ## Connections
 - [[concept-index]]
-- [[index]]
+- [[wiki/index]]
 - [[sources/papers/kim-ahn-edm-2026]]
 - [[kim-ahn-edm-2026]]
 

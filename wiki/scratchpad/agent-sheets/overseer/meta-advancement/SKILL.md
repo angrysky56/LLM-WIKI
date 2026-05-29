@@ -14,7 +14,6 @@ The central sheet indexes all agents and their tracking file paths.
 ## Per-Agent Tracking File Format
 
 ```yaml
----
 agent: {agent-name}
 job_id: {cron-job-id}
 updated: {ISO-timestamp}
@@ -22,7 +21,6 @@ state: idle|running|waiting|done|blocked|error
 last_run: {ISO-timestamp}
 next_run: {ISO-timestamp}
 deliver: {delivery-target}
----
 
 ## AdvancementState
 

@@ -17,7 +17,7 @@ confidence: 0.3
 - [[synthesis/news/venezuela-oil-india-routing]]
 - [[log]]
 - [[sources/news/2026/rubio-meets-modi-india-energy-may-2026]]
-- [[index]]
+- [[wiki/index]]
 - [[venezuela-oil-india-routing]]
 
 - [[geopolitics]]

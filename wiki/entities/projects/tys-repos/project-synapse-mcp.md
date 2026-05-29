@@ -34,7 +34,7 @@ confidence: 1.0
 ## Connections
 - [[synthesis/seg-scientist-agent-design]]
 - [[entities/projects/tys-repos/project-synapse-mcp]]
-- [[index]]
+- [[wiki/index]]
 - [[entities/projects/tys-repos]]
 - [[sources/repositories/project-synapse-mcp]]
 - [[project-synapse-mcp]]

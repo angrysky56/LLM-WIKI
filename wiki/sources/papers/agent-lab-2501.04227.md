@@ -49,7 +49,7 @@ The paper demonstrates that LLM agents can go from research idea to published-qu
 
 ## Connections
 - [[sources/papers/agent-lab-2501.04227]]
-- [[index]]
+- [[wiki/index]]
 - [[agent-lab-2501.04227]]
 
 - [[llm-agents]] — core capability

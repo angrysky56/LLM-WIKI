@@ -42,7 +42,7 @@ As documented in [[why-llms-arent-scientists-yet]], current agentic research sys
 - [[entities/tools/claude-code]]
 - [[concepts/agentic-research]]
 - [[sources/papers/akbe]]
-- [[index]]
+- [[wiki/index]]
 - [[sources/articles/why-llms-arent-scientists-yet]]
 - [[sources/papers/codeskill]]
 - [[sources/papers/forecasting-scientific-progress-ai-2026]]

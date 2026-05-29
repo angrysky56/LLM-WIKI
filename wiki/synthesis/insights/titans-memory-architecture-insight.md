@@ -27,7 +27,7 @@ The following facts formed the evidence chain for this insight:
 
 ## Related
 - [[synthesis/insights/titans-memory-architecture-insight]]
-- [[index]]
+- [[wiki/index]]
 
 - [[titans-memory-architecture-insight]]
 

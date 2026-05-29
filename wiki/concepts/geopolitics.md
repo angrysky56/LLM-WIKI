@@ -49,7 +49,7 @@ confidence: 0.3
 - [[synthesis/news/maldives]]
 - [[synthesis/news/drone-warfare]]
 - [[synthesis/news/china-cuba-us]]
-- [[index]]
+- [[wiki/index]]
 - [[synthesis/news/lebanon]]
 - [[geopolitics]]
 

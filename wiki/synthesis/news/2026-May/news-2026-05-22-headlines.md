@@ -65,7 +65,7 @@ updated: 2026-05-22
 
 ## Related
 - [[synthesis/news/2026-may/news-2026-05-22-headlines]]
-- [[index]]
+- [[wiki/index]]
 
 - [[news-2026-05-22-headlines]]
 

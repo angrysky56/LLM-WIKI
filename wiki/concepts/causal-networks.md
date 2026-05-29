@@ -23,7 +23,7 @@ While "causal network" is sometimes used metaphorically to describe LLM reasonin
 
 ## Connections
 - [[concepts/wolfram-nks-causal-networks]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/causal-networks]]
 - [[entities/people/stephen-wolfram]]
 - [[log]]

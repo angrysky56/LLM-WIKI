@@ -90,7 +90,7 @@ PEFT methods are central to several clusters in this wiki:
 
 ### MoE Cluster
 - [[mixture-of-experts]] — MoE + LoRA combines sparse computation with parameter-efficient adaptation; per-expert adapters are a natural fit
-- [[moe-sieve-routing-guided-lora-for-efficient-moe-fine-tuning]] — recent research on routing-aware LoRA for MoE
+- [[wiki/sources/papers/moe-sieve-routing-guided-lora-for-efficient-moe-fine-tuning]] — recent research on routing-aware LoRA for MoE
 
 ### Optimization Cluster
 - [[evolutionary-strategies]] — ES applied to PEFT rank allocation (EVOLORA family)
@@ -129,8 +129,8 @@ Beyond the core methods, several research directions extend LoRA:
 - [[concepts/qes]]
 - [[concepts/continual-learning]]
 - [[scratchpad/agent-sheets/researcher/carryover]]
-- [[index]]
-- [[sources/moe-sieve-routing-guided-lora-for-efficient-moe-fine-tuning]]
+- [[wiki/index]]
+- [[wiki/sources/papers/moe-sieve-routing-guided-lora-for-efficient-moe-fine-tuning]]
 - [[scratchpad/jobs/reports/researcher/discovery-2026-07-20]]
 - [[concepts/parameter-efficient-fine-tuning]]
 - [[log]]
@@ -142,7 +142,7 @@ Beyond the core methods, several research directions extend LoRA:
 - [[lora]] — the foundational PEFT method
 - [[fine-tuning]] — PEFT is a subset of fine-tuning (parameter-efficient variant)
 - [[mixture-of-experts]] — MoE + LoRA is a natural combination
-- [[moe-sieve-routing-guided-lora-for-efficient-moe-fine-tuning]] — routing-aware LoRA for MoE
+- [[wiki/sources/papers/moe-sieve-routing-guided-lora-for-efficient-moe-fine-tuning]] — routing-aware LoRA for MoE
 - [[continual-learning]] — LoRA's parameter isolation is ideal for multi-task continual learning
 - [[catastrophic-forgetting]] — frozen backbone preserves prior weights
 - [[ml-evolution]] — ESSA and QES are alternative adaptation paradigms for the ml-evolution framework

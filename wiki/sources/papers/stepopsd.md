@@ -55,7 +55,7 @@ StepOPSD attains best or second-best on subsets most sensitive to local causal e
 - [[efhf]] — the two-knob law (αclip for local stability, λmix for task-dependent global mixing) connects to capability routing under capacity constraints
 
 ## Related
-- [[index]]
+- [[wiki/index]]
 - [[sources/papers/stepopsd]]
 
 - [[stepopsd]]

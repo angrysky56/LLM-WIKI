@@ -66,7 +66,7 @@ The connection to AI alignment:
 - [[concepts/proof-assistant]]
 - [[concepts/formal-verification]]
 - [[concepts/mathematical-reasoning]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/categorical-reasoning]]
 - [[concepts/attention-monoidal-closure]]
 - [[concepts/formal-methods]]

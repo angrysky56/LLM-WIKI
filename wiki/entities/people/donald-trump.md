@@ -17,7 +17,7 @@ confidence: 0.3
 - [[sources/news/bill-cassidy-republican-senator-who-voted-to-convict-trump-l]]
 - [[log]]
 - [[entities/people/donald-trump]]
-- [[index]]
+- [[wiki/index]]
 - [[donald-trump]]
 
 - [[trump-administration]]

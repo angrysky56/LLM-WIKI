@@ -120,7 +120,7 @@ On SWE-bench Verified with MCTS search:
 - **Checkpointing:** CRIU, DMTCP, Firecracker, Btrfs/ZFS snapshots — provide building blocks but lack coupled fine-grained rollback for stateful agents
 
 ## Connections
-- [[index]]
+- [[wiki/index]]
 - [[sources/papers/deltabox-stateful-agent-checkpoint-rollback-2026]]
 - [[deltabox-stateful-agent-checkpoint-rollback-2026]]
 

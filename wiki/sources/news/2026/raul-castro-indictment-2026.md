@@ -39,7 +39,7 @@ The indictment of a former head of state is extraordinary. The fact that Castro 
 
 ## Connections
 - [[sources/news/2026/raul-castro-indictment-2026]]
-- [[index]]
+- [[wiki/index]]
 - [[raul-castro-indictment-2026]]
 
 Part of the [[china-cuba-us]] conflict dimension. Related to [[us-cuba-tensions]] and the broader great power competition dynamic involving [[russia]] and [[china]].

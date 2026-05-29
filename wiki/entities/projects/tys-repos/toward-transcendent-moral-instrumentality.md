@@ -27,7 +27,7 @@ The framework uses a three-tier hierarchy to ensure ethical integrity:
 ## Connections
 - [[entities/projects/tys-repos/hipai-montague]]
 - [[entities/projects/tys-repos/toward-transcendent-moral-instrumentality]]
-- [[index]]
+- [[wiki/index]]
 - [[entities/projects/tys-repos]]
 - [[entities/projects/tys-repos/ethical-ai-core]]
 - [[log]]

@@ -17,7 +17,7 @@ confidence: 0.3
 - [[concepts/eml-operator]]
 - [[log]]
 - [[concepts/sheffer-stroke]]
-- [[index]]
+- [[wiki/index]]
 - [[synthesis/minimal-generative-architectures]]
 - [[sources/articles/llm-kernel-optimization]]
 - [[concepts/open-ended-evolution]]

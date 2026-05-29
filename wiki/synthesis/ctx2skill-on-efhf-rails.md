@@ -120,7 +120,7 @@ Output: DAG nodes for each rubric check, with provenance edges
 This would make skill evaluation structurally sound — not "the Judge agreed" but "here's the proof chain, here's the consistency report, here's the drift monitor."
 
 ## Related
-- [[index]]
+- [[wiki/index]]
 - [[sources/papers/clinseekagent-multimodal-clinical-evidence-seeking]]
 - [[synthesis/ctx2skill-on-efhf-rails]]
 

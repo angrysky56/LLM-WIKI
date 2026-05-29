@@ -41,7 +41,7 @@ The timing is particularly significant given the ongoing AI chip shortage and th
 
 ## Connections
 - [[sources/news/2026-05/samsung-strike-2026-05-20]]
-- [[index]]
+- [[wiki/index]]
 - [[synthesis/news/2026-may/news-2026-05-20-headlines]]
 - [[samsung-strike-2026-05-20]]
 

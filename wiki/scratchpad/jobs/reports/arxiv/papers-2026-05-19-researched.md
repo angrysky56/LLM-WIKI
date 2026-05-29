@@ -40,7 +40,7 @@ confidence: 0.8
 - arXiv rate limit event logged: initial search succeeded; secondary fetches hit 429 after ~15s gap
 
 ## Related
-- [[index]]
+- [[wiki/index]]
 - [[scratchpad/jobs/reports/arxiv/papers-2026-05-19-researched]]
 
 - [[papers-2026-05-19-researched]]

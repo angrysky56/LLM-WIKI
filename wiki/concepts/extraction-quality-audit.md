@@ -18,7 +18,7 @@ confidence: 0.3
 - [[scratchpad/agent-sheets/librarian/carryover]]
 - [[research/index]]
 - [[concepts/extraction-quality-audit]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/research-methodology]]
 - [[extraction-quality-audit]]
 

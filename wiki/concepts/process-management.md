@@ -16,7 +16,7 @@ confidence: 0.3
 ## Connections
 - [[concepts/lean-manufacturing]]
 - [[concepts/workflow-management]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/process-management]]
 - [[log]]
 - [[concepts/project-management]]

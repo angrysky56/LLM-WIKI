@@ -16,7 +16,7 @@
 - [concepts that still need work]
 
 ## Related
-- [[index]]
+- [[wiki/index]]
 - [[scratchpad/agent-sheets/researcher/templates/discovery-report]]
 
 - [[discovery-report]]

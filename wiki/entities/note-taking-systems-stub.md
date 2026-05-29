@@ -12,7 +12,7 @@ sources: []
 
 ## Related
 - [[entities/note-taking-systems-stub]]
-- [[index]]
+- [[wiki/index]]
 - [[synthesis/insights/para-knowledge-architecture-cohesion-insight]]
 
 - [[note-taking-systems-stub]]

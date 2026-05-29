@@ -16,7 +16,7 @@ confidence: 0.3
 ## Connections
 - [[concepts/scaling-laws]]
 - [[concepts/neural-interpretability]]
-- [[index]]
+- [[wiki/index]]
 - [[log]]
 - [[sources/papers/critical-initialization-biological-neural-networks]]
 - [[concepts/critical-initialization-biological-neural-networks]]

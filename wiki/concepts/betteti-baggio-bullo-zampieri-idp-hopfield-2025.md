@@ -20,7 +20,7 @@ confidence: 0.3
 - [[concepts/attractor-dynamics]]
 - [[concepts/load-bearing-reasoning]]
 - [[concepts/emergent-communication]]
-- [[index]]
+- [[wiki/index]]
 - [[log]]
 - [[concepts/hopfield-network]]
 - [[concepts/betteti-baggio-bullo-zampieri-idp-hopfield-2025]]

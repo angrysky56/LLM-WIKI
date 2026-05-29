@@ -83,7 +83,7 @@ The encyclical does not specify which interpretation — this is both a strength
 | Landmine Treaty (1997) | Significant norm change but major non-signatories (US, Russia, China) | Norm pressure matters even without universal participation |
 
 ## Connections
-- [[index]]
+- [[wiki/index]]
 - [[log]]
 - [[sources/articles/pope-leo-ai-encyclical-magnifica-humanitas-may-2026]]
 - [[concepts/ai-policy-global-governance]]

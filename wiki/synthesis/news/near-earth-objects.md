@@ -14,7 +14,7 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
-- [[index]]
+- [[wiki/index]]
 - [[log]]
 - [[synthesis/news/near-earth-objects]]
 - [[synthesis/news/asteroid-2026-jh2]]

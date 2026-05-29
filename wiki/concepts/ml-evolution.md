@@ -37,7 +37,7 @@ ML Evolution (or Machine Learning Evolution) refers to the use of evolutionary a
 - [[concepts/essa]]
 - [[concepts/ml-evolution]]
 - [[concepts/mixture-of-experts]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/evolutionary-strategies]]
 - [[concepts/parameter-efficient-fine-tuning]]
 - [[concepts/rz-nas]]

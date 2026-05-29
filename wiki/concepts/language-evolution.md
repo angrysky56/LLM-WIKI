@@ -32,7 +32,7 @@ Language evolution refers to the processes by which human languages change in st
 - [[log]]
 - [[concepts/emergent-communication]]
 - [[sources/articles/language-evolution]]
-- [[index]]
+- [[wiki/index]]
 - Concept: [[length-generalization]]
 - Concept: [[load-bearing-reasoning]]
 - Source: [[language-evolution|Gemini Review on Language Evolution]]

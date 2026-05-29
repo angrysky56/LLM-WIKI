@@ -40,7 +40,7 @@ The brain's delayed myelination allows for a prolonged learning window. In AI, t
 - [[sources/news/2026/wolchover-life-force-2026]]
 - [[concepts/myelination]]
 - [[concepts/arcuate-fasciculus]]
-- [[index]]
+- [[wiki/index]]
 - [[sources/articles/brocas-area-gemini-chat]]
 - [[concepts/brocas-area]]
 - [[synthesis/self-prompting-via-production-stage-architecture]]

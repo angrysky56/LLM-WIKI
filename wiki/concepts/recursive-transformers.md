@@ -55,7 +55,7 @@ The transformer-specific recursion variants share the goal of adding sequential 
 
 - [[transformers]]: The base architecture recursive transformers build on
 - [[mixture-of-experts]]: Can be combined with recursion for sparse recurrent layers
-- [[mixture-of-recursions]]: Synthesis-level concept exploring iterative refinement loops (no dedicated page yet — this is the conceptual parent)
+- [[mixture-of-recursions 1]]: Synthesis-level concept exploring iterative refinement loops (no dedicated page yet — this is the conceptual parent)
 - [[recursive-neural-networks]]: Broader class of recursive neural architectures
 - [[state-space-models]]: Alternative approach to long-range dependencies via recurrence (Mamba)
 - [[titans]]: Adds explicit memory layers — related goal, different mechanism

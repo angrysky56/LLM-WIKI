@@ -18,7 +18,7 @@ confidence: 0.3
 - [[synthesis/news/asteroid-2026-jh2]]
 - [[log]]
 - [[sources/news/2026-05/asteroid-2026-jh2-2026-05-18]]
-- [[index]]
+- [[wiki/index]]
 - [[asteroid-2026-jh2]]
 
 - [[near-earth-objects]]

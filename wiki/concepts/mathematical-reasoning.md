@@ -90,7 +90,7 @@ The [[load-bearing-reasoning]] framework identifies which inference steps are es
 - [[concepts/load-bearing-reasoning]]
 - [[concepts/formal-verification]]
 - [[concepts/mathematical-reasoning]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/categorical-reasoning]]
 - [[concepts/category-theory]]
 - [[concepts/proof-assistant]]

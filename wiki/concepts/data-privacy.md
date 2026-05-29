@@ -28,7 +28,7 @@ Privacy-preserving techniques in AI:
 ## Connections
 - [[concepts/data-privacy]]
 - [[log]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/federated-learning]]
 - [[concepts/privacy-utility-tradeoff]]
 - [[data-privacy]]

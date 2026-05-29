@@ -122,7 +122,7 @@ See: [[cognitive-architecture]] for the broader MCM context.
 - [[concepts/beta]]
 - [[entities/hermes-meta-cognition]]
 - [[concepts/delta]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/metacognitive-architecture-closed-loop-self-regulation]]
 - [[concepts/self-correction]]
 - [[concepts/hermes-meta-cognition]]
@@ -134,7 +134,7 @@ See: [[cognitive-architecture]] for the broader MCM context.
 - [[concepts/agent-taxonomies]]
 - [[concepts/zeta]]
 - [[concepts/cognitive-architecture]]
-- [[references/portfolio-policies-metacognition]]
+- [[portfolio-policies-metacognition]]
 - [[concepts/alpha]]
 - [[omcd]]
 

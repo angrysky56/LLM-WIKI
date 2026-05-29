@@ -16,7 +16,7 @@ confidence: 0.3
 ## Connections
 - [[concepts/why-llms-arent-scientists-yet]]
 - [[concepts/scientific-writing]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/scientific-discovery]]
 - [[concepts/ai-research]]
 - [[log]]

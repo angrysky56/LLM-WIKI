@@ -32,7 +32,7 @@ Modern transformer attention mechanisms can be framed as generalizations of Hopf
 - [[concepts/attractor-dynamics]]
 - [[concepts/criticality]]
 - [[sources/papers/betteti-baggio-bullo-zampieri-idp-hopfield-2025]]
-- [[index]]
+- [[wiki/index]]
 - [[hopfield-network]]
 - Concept: [[criticality]]
 

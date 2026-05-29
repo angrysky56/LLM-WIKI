@@ -26,7 +26,7 @@ From carryover: the Ebola outbreak was flagged as a story to monitor, with speci
 This matters beyond public health: the outbreak creates conditions for further regional instability, potential travel restrictions that affect economic activity, and a test of whether international health institutions can function in active conflict environments.
 
 ## Connections
-- [[index]]
+- [[wiki/index]]
 - [[sources/news/2026/ebola-outbreak-drc-hospital-attack-2026]]
 - [[ebola-outbreak-drc-hospital-attack-2026]]
 - [[who-emergency-declarations]] — WHO declaration remains in effect, tested by real-world response failures

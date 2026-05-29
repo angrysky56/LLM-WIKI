@@ -19,7 +19,7 @@
 MCP server confirmed reachable. `wiki_lint`, `wiki_hits_analysis`, `wiki_cluster_pages`, `wiki_update_index` all functional this cycle.
 
 ### HITS Analysis (Top Authorities — this cycle)
-1. [[index]] (0.0799) — structural hub, not a content page
+1. [[wiki/index]] (0.0799) — structural hub, not a content page
 2. [[log]] (0.0557) — structural hub, not a content page  
 3. [[maximum-occupancy-principle]] (0.0159) — load-bearing concept page
 4. [[concepts/maximum-occupancy-principle]] (0.0135) — duplicate slug variant
@@ -30,7 +30,7 @@ MCP server confirmed reachable. `wiki_lint`, `wiki_hits_analysis`, `wiki_cluster
 
 **Top Hubs:**
 - [[maximum-occupancy-principle]] (hub+authority dual)
-- [[efhf]], [[concept-index]], [[carryover]], [[load-bearing-reasoning]], [[zettelkasten-engine]], [[edm-framework]], [[alphaevolve]]
+- [[efhf]], [[concept-index]], [[wiki/scratchpad/agent-sheets/librarian/carryover]], [[load-bearing-reasoning]], [[zettelkasten-engine]], [[edm-framework]], [[alphaevolve]]
 
 ### GAAC Clustering
 - 35 clusters identified

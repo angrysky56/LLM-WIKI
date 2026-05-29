@@ -21,7 +21,7 @@ A drone strike was reported near the UAE's Barakah nuclear power plant — the A
 ## Connections
 - [[sources/news/2026-05/trump-iran-diplomacy-threats-2026-05-21]]
 - [[sources/news/uae-reports-drone-strike-near-abu-dhabi-nuclear-power-plant]]
-- [[index]]
+- [[wiki/index]]
 - [[sources/news/2026-05/strait-of-hormuz-iran-claim-2026-05-21]]
 
 - [[uae]] — country

@@ -48,7 +48,7 @@ Experiments show amplification across diverse bias types:
 
 ## Connections
 - [[sources/papers/alignment-tampering]]
-- [[index]]
+- [[wiki/index]]
 - [[alignment-tampering]]
 
 - [[agentic-research]] — agentic goal-seeking behavior is one demonstrated amplification target

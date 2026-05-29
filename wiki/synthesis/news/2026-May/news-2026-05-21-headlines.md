@@ -54,7 +54,7 @@
 - **Trump anti-weaponization fund GOP revolt**: Continuing story from yesterday carryover — Senate GOP delay. Monitor for institutional capture vector.
 
 ## Related
-- [[index]]
+- [[wiki/index]]
 - [[synthesis/news/2026-may/news-2026-05-21-headlines]]
 
 - [[news-2026-05-21-headlines]]

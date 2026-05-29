@@ -43,7 +43,7 @@ Every API has a secret identity — the data it exposes is useful for something 
 
 ## Connections
 - [[sources/repositories/cli-printing-press]]
-- [[index]]
+- [[wiki/index]]
 
 - [[printing-press]] — the project itself
 - [[sqlite]] — local-first data layer

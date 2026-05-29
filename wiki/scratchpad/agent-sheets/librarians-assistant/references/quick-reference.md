@@ -55,7 +55,7 @@ Use judgment — not all hub pages need more links
 
 ## Related
 - [[scratchpad/agent-sheets/librarians-assistant/references/quick-reference]]
-- [[index]]
+- [[wiki/index]]
 
 - [[quick-reference]]
 

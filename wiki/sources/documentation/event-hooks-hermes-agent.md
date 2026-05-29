@@ -30,7 +30,7 @@ Gateway events include: `gateway:startup`, `agent:start`, `agent:end`, `agent:st
 
 ## Connections
 - [[sources/documentation/event-hooks-hermes-agent]]
-- [[index]]
+- [[wiki/index]]
 - [[event-hooks-hermes-agent]]
 
 - [[hermes-agent]] — parent system

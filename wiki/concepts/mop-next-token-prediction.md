@@ -25,7 +25,7 @@ Can [[maximum-occupancy-principle|MOP's]] path entropy maximization be applied t
 
 ## Connections
 - [[log]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/reinforcement-learning-from-human-feedback]]
 - [[concepts/mop-next-token-prediction]]
 - [[concepts/group-relative-policy-optimization]]

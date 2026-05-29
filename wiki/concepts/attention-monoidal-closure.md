@@ -141,7 +141,7 @@ This category is **symmetric monoidal** (parallel composition commutes). Whether
 - [[concepts/attention-mechanism]]
 - [[concepts/functor-string-diagrams]]
 - [[concepts/formal-verification]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/attention-monoidal-closure]]
 - [[concepts/category-theory]]
 - [[log]]

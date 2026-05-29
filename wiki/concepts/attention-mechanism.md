@@ -77,7 +77,7 @@ The practical impact: Enables attention over sequences of length 65K+ on a singl
 - [[scratchpad/jobs/reports/researcher/discovery-2026-06-09]]
 - [[concepts/ml-evolution]]
 - [[concepts/mixture-of-experts]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/attention-monoidal-closure]]
 - [[log]]
 - [[scratchpad/agent-sheets/librarian/carryover]]

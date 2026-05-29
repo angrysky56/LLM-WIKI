@@ -15,7 +15,7 @@ confidence: 0.3
 
 ## Connections
 - [[concepts/hormuz-strait-security]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/maximum-occupancy-principle]]
 - [[sources/news/2026/rubio-meets-modi-india-energy-may-2026]]
 - [[sources/news/2026/middle-east-lebanon-hormuz-may-2026]]

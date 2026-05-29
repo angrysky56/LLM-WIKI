@@ -49,7 +49,7 @@ The survivable path probably isn't centralization or pure decentralization but s
 For any "humans/civilization will inevitably X" claim: *which humans, in which institutions, with what alternatives, would have to make which decision for X to occur or not occur?* If the answer is "a few thousand people in a few hundred institutions," the species framing is doing rhetorical work, not analytical work, and the actual leverage points are at the institutional layer.
 
 ## Related
-- [[index]]
+- [[wiki/index]]
 - [[sources/news/2026-05/trump-anti-weaponization-fund-2026-05-22]]
 - [[sources/news/2026/trump-taiwan-call-2026]]
 - [[sources/news/2026-05/dnc-2024-autopsy-2026-05-22]]

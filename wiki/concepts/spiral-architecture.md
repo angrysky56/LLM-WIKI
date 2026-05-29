@@ -59,7 +59,7 @@ This connects to [[weil-gate]] as the operational mechanism that drives the spir
 - "We have reached an opening" is a valid council conclusion; "we have closed the loop" is not
 
 ## Connections
-- [[index]]
+- [[wiki/index]]
 - [[concepts/weil-gate]]
 - [[concepts/spiral-architecture]]
 - [[synthesis/two-council-architecture]]

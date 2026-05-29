@@ -15,7 +15,7 @@ confidence: 0.3
 
 ## Connections
 - [[sources/papers/waldis-2026-instructions-shape-production]]
-- [[index]]
+- [[wiki/index]]
 - [[synthesis/self-prompting-via-production-stage-architecture]]
 - [[waldis-2026-instructions-shape-production]]
 

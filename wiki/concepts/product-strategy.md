@@ -18,7 +18,7 @@ confidence: 0.3
 - [[concepts/maximum-occupancy-principle]]
 - [[log]]
 - [[concepts/product-strategy]]
-- [[index]]
+- [[wiki/index]]
 - [[product-strategy]]
 
 - [[maximum-occupancy-principle]]

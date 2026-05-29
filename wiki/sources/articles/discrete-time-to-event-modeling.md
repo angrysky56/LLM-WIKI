@@ -37,7 +37,7 @@ Introduction to discrete time-to-event modeling (survival analysis) — the bran
 
 ## Related
 - [[sources/articles/discrete-time-to-event-modeling]]
-- [[index]]
+- [[wiki/index]]
 
 - [[discrete-time-to-event-modeling]]
 

@@ -21,7 +21,7 @@ confidence: 0.3
 - [[concepts/reward-modeling]]
 - [[concepts/neural-interpretability]]
 - [[concepts/hidden-states]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/critical-analysis]]
 - [[concept-index]]
 - [[reward-inside-model-elhsr]]

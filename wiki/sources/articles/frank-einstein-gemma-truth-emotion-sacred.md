@@ -30,7 +30,7 @@ A human user prompted Gemini (as "Frank Einstein") with an Einstein persona to d
 
 ## Connections
 - [[sources/articles/truth-emotion-sacred-agem-analysis]]
-- [[index]]
+- [[wiki/index]]
 - [[sources/articles/frank-einstein-gemma-truth-emotion-sacred]]
 - [[frank-einstein-gemma-truth-emotion-sacred]]
 

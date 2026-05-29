@@ -25,7 +25,7 @@ In the Titans architecture, NLTM uses **surprise-based memorization**, where gra
 
 ## Connections
 - [[concepts/ml-evolution]]
-- [[index]]
+- [[wiki/index]]
 - [[entities/tools/mamba]]
 - [[sources/articles/titans-test-time-memory]]
 - [[log]]

@@ -18,7 +18,7 @@ confidence: 0.3
 - [[concepts/maximum-occupancy-principle]]
 - [[log]]
 - [[synthesis/nairobi-protocol-gde]]
-- [[index]]
+- [[wiki/index]]
 - [[mojo-language]]
 
 - [[maximum-occupancy-principle]]

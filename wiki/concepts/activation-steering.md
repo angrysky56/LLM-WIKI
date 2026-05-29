@@ -56,7 +56,7 @@ Activation steering is the "modulation" half of the biofeedback loop:
 - [[concepts/neural-interpretability]]
 - [[concepts/emergent-communication]]
 - [[sources/papers/betteti-baggio-bullo-zampieri-idp-hopfield-2025]]
-- [[index]]
+- [[wiki/index]]
 - [[log]]
 - [[sources/papers/critical-initialization-biological-neural-networks]]
 - [[concepts/affective-ai-inner-architecture]]

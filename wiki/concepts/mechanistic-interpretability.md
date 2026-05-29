@@ -43,7 +43,7 @@ See also: [[activation-steering]] for the complementary modulation half of the b
 - [[concepts/neural-interpretability]]
 - [[concepts/activation-steering]]
 - [[sources/papers/saerl]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/metacognitive-architecture-closed-loop-self-regulation]]
 - [[concepts/activation-engineering]]
 - [[log]]

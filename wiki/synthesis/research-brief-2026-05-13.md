@@ -97,7 +97,7 @@ The reduction in entities misclassified as `Person` (e.g., "Download") is a sign
 3.  **Further Cleanup of Residual Garbage:** Address the remaining 2 formatting word entities, 14 single-character/minimal entities, 97 file path entities, and the specific single-character/minimal Product/Person/Org entities.
 
 ## Related
-- [[index]]
+- [[wiki/index]]
 - [[synthesis/research-brief-2026-05-13]]
 
 - [[research-brief-2026-05-13]]

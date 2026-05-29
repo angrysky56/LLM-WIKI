@@ -16,7 +16,7 @@ confidence: 0.3
 ## Connections
 - [[sources/documentation/delegation-parallel-work]]
 - [[log]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/profiles]]
 - [[profiles]]
 

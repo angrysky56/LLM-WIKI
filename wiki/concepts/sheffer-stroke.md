@@ -39,7 +39,7 @@ Whether a continuous binary Sheffer exists without a distinguished constant rema
 
 ## Connections
 - [[sources/news/2026/transformer-vm-moran-2026]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/eml-operator]]
 - [[sources/papers/odrzywolek-eml-2026]]
 - [[log]]

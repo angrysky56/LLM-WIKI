@@ -210,7 +210,7 @@ EnvFactory's approach to credit assignment operates at multiple levels:
 
 ## Connections
 - [[sources/papers/xu-envfactory-2026]]
-- [[index]]
+- [[wiki/index]]
 - [[xu-envfactory-2026]]
 
 - [[agentic-research]] — Agentic research paradigm; EnvFactory addresses implementation drift and context degradation

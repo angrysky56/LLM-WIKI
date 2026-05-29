@@ -96,7 +96,7 @@ All of these face the same fundamental tension: optimizing for new behavior whil
 - [[concepts/control-llm]]
 - [[concepts/continual-learning]]
 - [[scratchpad/agent-sheets/researcher/carryover]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/maximum-occupancy-principle]]
 - [[scratchpad/jobs/reports/researcher/discovery-2026-07-20]]
 - [[concepts/parameter-efficient-fine-tuning]]

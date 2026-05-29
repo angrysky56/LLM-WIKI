@@ -15,7 +15,7 @@ confidence: 0.3
 
 ## Connections
 - [[concepts/shapley-values]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/mechanism-design]]
 - [[sources/papers/proxy-based-shapley-banzhaf-2026]]
 - [[shapley-values]]

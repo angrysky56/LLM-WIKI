@@ -60,7 +60,7 @@ The Committee noted that the outbreak's geographic spread and conflict-related a
 
 ## Connections
 - [[sources/news/2026/ebola-outbreak-second-treatment-center-burned-may-2026]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/ebola-outbreak-drc-2026]]
 - [[synthesis/news/2026-may/headlines-2026-05-25]]
 - [[sources/news/2026/who-ihr-emergency-committee-ebola-may-2026]]

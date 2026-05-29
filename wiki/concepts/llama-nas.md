@@ -65,7 +65,7 @@ LLaMA-NAS is one of three NAS methods documented in the ml-evolution benchmarkin
 ## Related
 - [[concepts/ml-evolution]]
 - [[scratchpad/agent-sheets/researcher/carryover]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/llama-nas]]
 - [[concepts/collm-nas]]
 - [[log]]

@@ -18,7 +18,7 @@ confidence: 0.3
 - [[concepts/knowledge-management]]
 - [[synthesis/nairobi-protocol-gde]]
 - [[concepts/knowledge-store]]
-- [[index]]
+- [[wiki/index]]
 - [[knowledge-store]]
 
 - [[knowledge-management]]

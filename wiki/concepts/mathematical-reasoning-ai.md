@@ -19,7 +19,7 @@ confidence: 0.3
 - [[sources/news/2026/openai-o3-erdos-conjecture-breakthrough-2026]]
 - [[concepts/mathematical-reasoning-ai]]
 - [[log]]
-- [[index]]
+- [[wiki/index]]
 - [[mathematical-reasoning-ai]]
 
 - [[reasoning]]

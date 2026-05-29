@@ -17,7 +17,7 @@ confidence: 0.3
 - [[log]]
 - [[concepts/fine-tuning]]
 - [[concepts/transfer-learning]]
-- [[index]]
+- [[wiki/index]]
 - [[transfer-learning]]
 
 - [[fine-tuning]]

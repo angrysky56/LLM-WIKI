@@ -57,7 +57,7 @@ The paper identifies **candidate generation** → **candidate evaluation** → *
 - [[concepts/reward-modeling]]
 - [[concepts/parallel-reasoning]]
 - [[concepts/creativity]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/bradley-terry]]
 - [[log]]
 - [[opendeepthink-parallel-reasoning]]

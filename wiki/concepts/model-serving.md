@@ -83,7 +83,7 @@ The optimal operating point depends on the application. A code autocomplete tool
 ## Connections
 - [[concepts/inference-efficiency]]
 - [[concepts/llm-inference]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/model-serving]]
 - [[log]]
 - [[model-serving]]

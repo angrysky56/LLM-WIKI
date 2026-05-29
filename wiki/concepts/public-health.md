@@ -16,7 +16,7 @@ confidence: 0.3
 ## Connections
 - [[concepts/infectious-disease]]
 - [[concepts/public-health]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/maximum-occupancy-principle]]
 - [[synthesis/news/cruise-ship-outbreak]]
 - [[log]]

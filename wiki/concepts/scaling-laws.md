@@ -92,7 +92,7 @@ See [[inference-time-compute-scaling]] for the inference-time axis.
 - [[concepts/evaluation]]
 - [[concepts/emergence]]
 - [[concepts/mathematical-reasoning]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/taylors-law]]
 - [[concepts/attention-mechanism]]
 - [[concepts/efficient-transformers]]

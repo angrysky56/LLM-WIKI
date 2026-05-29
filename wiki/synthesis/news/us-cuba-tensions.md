@@ -15,7 +15,7 @@ confidence: 0.3
 
 ## Connections
 - [[synthesis/news/us-cuba-tensions]]
-- [[index]]
+- [[wiki/index]]
 - [[log]]
 - [[sources/news/2026/raul-castro-indictment-2026]]
 - [[us-cuba-tensions]]

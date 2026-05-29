@@ -30,7 +30,7 @@ delegate_task is for reasoning-heavy parallel subtasks where isolated context an
 **Critical:** Subagents have ZERO context from parent. Pass everything in goal+context fields.
 
 ## Connections
-- [[index]]
+- [[wiki/index]]
 - [[sources/documentation/delegation-parallel-work]]
 - [[delegation-parallel-work]]
 

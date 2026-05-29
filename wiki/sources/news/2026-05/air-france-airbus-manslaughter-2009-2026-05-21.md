@@ -42,7 +42,7 @@ Paris Appeals Court convicted Air France and Airbus of manslaughter over the cra
 
 ## Related
 - [[sources/news/2026-05/air-france-airbus-manslaughter-2009-2026-05-21]]
-- [[index]]
+- [[wiki/index]]
 
 - [[air-france-airbus-manslaughter-2009-2026-05-21]]
 

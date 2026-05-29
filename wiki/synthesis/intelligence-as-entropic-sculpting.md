@@ -42,7 +42,7 @@ This synthesis suggests that **Layer 0** of the [[efhf]] architecture (MOP) prov
 - **Hallucination as Sculpting Failure:** Under this view, an LLM hallucination is a failure of the feedback mechanism to adequately suppress the spontaneous noise of the latent space, allowing a "phantom signal" to emerge as truth.
 
 ## Connections
-- [[index]]
+- [[wiki/index]]
 - [[concept-index]]
 - [[synthesis/mop-edm-cognitive-architecture]]
 - [[synthesis/causal-state-edm-ood-isomorphism]]

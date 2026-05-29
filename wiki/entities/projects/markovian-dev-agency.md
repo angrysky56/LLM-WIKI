@@ -63,7 +63,7 @@ markovian-dev-agency/
 ## Connections
 - [[concepts/markovian-carryover]]
 - [[synthesis/verifiable-graph-context-protocol]]
-- [[index]]
+- [[wiki/index]]
 - [[log]]
 - [[entities/projects/markovian-dev-agency]]
 - [[entities/tools/hermes-agent]]

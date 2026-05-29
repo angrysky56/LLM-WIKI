@@ -35,7 +35,7 @@ PAPER_STORAGE = "/home/ty/Documents/paper-research"
 ```
 
 ## Related
-- [[index]]
+- [[wiki/index]]
 - [[scratchpad/agent-sheets/arxiv/references/patterns]]
 
 - [[patterns]]

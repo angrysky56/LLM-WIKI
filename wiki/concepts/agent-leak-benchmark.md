@@ -59,7 +59,7 @@ Without protection, **ASR up to 0.900** on vanilla KV sharing across Qwen3-4B, G
 - [[log]]
 - [[sources/papers/lcguard-kv-communication-guard-2026]]
 - [[concepts/multi-agent-llm-systems]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/kv-cache]]
 - [[agent-leak-benchmark]]
 

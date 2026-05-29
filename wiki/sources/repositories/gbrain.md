@@ -121,7 +121,7 @@ gbrain doctor
 For Hermes integration: install GBrain alongside Hermes, configure Hermes as the MCP client, point at GBrain's brain for knowledge queries.
 
 ## Connections
-- [[index]]
+- [[wiki/index]]
 - [[sources/repositories/gbrain]]
 - [[gbrain]]
 

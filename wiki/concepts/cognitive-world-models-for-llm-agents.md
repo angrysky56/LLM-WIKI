@@ -130,7 +130,7 @@ In [[multi-agent-llm-systems]], each agent has a private cognitive world model. 
 - [[concepts/persistent-knowledge-compilation]]
 - [[concepts/epistemic-energy]]
 - [[concepts/multi-agent-llm-systems]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/world-model]]
 - [[concepts/agents]]
 - [[concepts/bounded-rationality]]

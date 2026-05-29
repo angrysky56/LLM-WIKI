@@ -44,7 +44,7 @@ Pre-indexed code knowledge graph — builds an index of code structure and seman
 
 ## Connections
 - [[sources/documentation/codegraph-hermes-phase1-implementation]]
-- [[index]]
+- [[wiki/index]]
 - [[sources/repositories/codegraph]]
 
 - Related to [[codegraph]] (this project)

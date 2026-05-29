@@ -15,7 +15,7 @@ confidence: 0.3
 
 ## Connections
 - [[concepts/multimodal-ai]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/multimodal-llm]]
 - [[log]]
 - [[multimodal-ai]]

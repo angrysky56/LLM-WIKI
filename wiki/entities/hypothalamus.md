@@ -48,7 +48,7 @@ Gene therapy restoring Menin in aged mouse hypothalamus reversed aging signs. D-
 ## Connections
 - [[entities/hypothalamus]]
 - [[sources/articles/menin-d-serine-hypothalamus-anti-aging]]
-- [[index]]
+- [[wiki/index]]
 - [[entities/longevity-research]]
 - [[log]]
 - [[entities/neuroinflammation]]

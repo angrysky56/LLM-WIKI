@@ -140,7 +140,7 @@ Run GAAC on page embeddings to find natural topic clusters. Flag similar pages a
 - [[synthesis/wiki-indexing-theory]]
 - [[synthesis/synapse-llm-wiki-operating-guide]]
 - [[concepts/tag-taxonomy]]
-- [[index]]
+- [[wiki/index]]
 - [[synthesis/synapse-retrieval-architecture]]
 - [[wiki-indexing-theory]]
 

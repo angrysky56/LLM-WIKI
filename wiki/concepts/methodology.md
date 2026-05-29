@@ -19,7 +19,7 @@ confidence: 0.3
 - [[log]]
 - [[concepts/research-methodology]]
 - [[concepts/methodology]]
-- [[index]]
+- [[wiki/index]]
 - [[methodology]]
 
 - [[research-methodology]]

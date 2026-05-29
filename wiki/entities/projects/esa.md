@@ -15,7 +15,7 @@ confidence: 0.3
 
 ## Connections
 - [[sources/news/2026-05/smile-satellite-earth-magnetosphere-2026-05-22]]
-- [[index]]
+- [[wiki/index]]
 - [[log]]
 - [[entities/projects/esa]]
 - [[esa]]

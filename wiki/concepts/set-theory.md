@@ -15,7 +15,7 @@ confidence: 0.3
 
 ## Connections
 - [[concepts/set-theory]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/hilbert-hotel]]
 - [[log]]
 - [[set-theory]]

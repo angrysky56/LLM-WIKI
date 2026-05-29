@@ -16,7 +16,7 @@ confidence: 0.3
 ## Connections
 - [[sources/articles/kanban-development]]
 - [[concepts/project-management]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/scrum]]
 - [[concepts/agile]]
 - [[concepts/lean-manufacturing]]

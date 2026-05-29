@@ -16,7 +16,7 @@ confidence: 0.3
 ## Connections
 - [[synthesis/news/hybrid-attack]]
 - [[sources/news/man-ploughs-car-into-crowd-in-italy-before-trying-to-stab-th]]
-- [[index]]
+- [[wiki/index]]
 - [[log]]
 - [[synthesis/news/drone-warfare]]
 - [[hybrid-attack]]

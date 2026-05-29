@@ -32,7 +32,7 @@ tags: [arxiv, report]
 - **Tags added**: paper, arxiv, agentic-rl, tool-use, search-augmented-rag, multi-agent-rl, communication-protocols, cooperative-learning
 
 ## Related
-- [[index]]
+- [[wiki/index]]
 - [[scratchpad/jobs/reports/arxiv/arxiv-2026-05-19-top-papers]]
 
 - [[arxiv-2026-05-19-top-papers]]

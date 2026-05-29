@@ -18,7 +18,7 @@ confidence: 0.3
 - [[concepts/production-stage-architecture]]
 - [[sources/papers/production-llm-agent-runtime-architecture-patterns]]
 - [[concepts/llm-agent-architecture]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/maximum-occupancy-principle]]
 - [[production-stage-architecture]]
 

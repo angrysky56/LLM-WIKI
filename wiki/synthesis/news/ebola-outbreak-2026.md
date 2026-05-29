@@ -21,7 +21,7 @@ confidence: 0.3
 - [[synthesis/news/bundibugyo]]
 - [[log]]
 - [[synthesis/news/ebola-outbreak-2026]]
-- [[index]]
+- [[wiki/index]]
 - [[sources/news/2026/who-ihr-emergency-committee-ebola-may-2026]]
 - [[entities/people/who]]
 - [[ebola-outbreak-2026]]

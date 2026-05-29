@@ -15,7 +15,7 @@ confidence: 0.9
 **Epsilon** is the Assumption Validation Agent in the [[oMCD]] framework. It monitors Beta's assumptions and enforces the stop criterion.
 
 ## See Also
-- [[index]]
+- [[wiki/index]]
 - [[log]]
 - [[concepts/omcd]]
 - [[concepts/epsilon]]

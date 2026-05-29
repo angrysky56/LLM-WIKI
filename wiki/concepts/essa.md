@@ -75,7 +75,7 @@ ESSA occupies a unique position: gradient-free like ES but with structural induc
 - [[sources/articles/ml-evolution-benchmarking-protocol]]
 - [[concepts/essa]]
 - [[scratchpad/agent-sheets/researcher/carryover]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/parameter-efficient-fine-tuning]]
 - [[concepts/llama-nas]]
 - [[essa]]

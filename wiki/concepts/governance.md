@@ -78,7 +78,7 @@ AI governance does not exist in a vacuum. AI systems are developed, deployed, an
 - [[concepts/institutional-accountability]]
 - [[concepts/agentic-oversight]]
 - [[concepts/ai-governance-substrate]]
-- [[index]]
+- [[wiki/index]]
 - [[governance]]
 
 - [[ai-governance-substrate]] — architectural implementation of governance principles

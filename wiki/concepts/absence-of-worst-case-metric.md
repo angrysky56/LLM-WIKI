@@ -58,7 +58,7 @@ For any claim that a high-stakes system is "working": *what is the steady-state 
 - [[concepts/frame-transmission]]
 - [[concept-index]]
 - [[synthesis/ai-governance-substrate-analysis]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/absence-of-worst-case-metric]]
 - [[sources/papers/deepweb-bench-2026]]
 - [[concepts/institutional-capture-vs-species-framing]]

@@ -79,7 +79,7 @@ ITP tools are increasingly relevant to AI safety research:
 - [[concepts/load-bearing-reasoning]]
 - [[concepts/formal-verification]]
 - [[concepts/mathematical-reasoning]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/category-theory]]
 - [[concepts/proof-assistant]]
 - [[log]]

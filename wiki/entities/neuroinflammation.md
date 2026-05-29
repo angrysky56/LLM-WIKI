@@ -35,7 +35,7 @@ Emerging 2026 research (Menin-D-serine-hypothalamus-anti-aging study) shows Meni
 | Multiple sclerosis | Autoimmune demyelination with strong neuroinflammatory component |
 
 ## Connections
-- [[index]]
+- [[wiki/index]]
 - [[entities/longevity-research]]
 - [[log]]
 - [[entities/neuroinflammation]]

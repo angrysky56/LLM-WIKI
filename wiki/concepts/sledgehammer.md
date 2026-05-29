@@ -17,7 +17,7 @@ confidence: 0.3
 - [[log]]
 - [[sources/documentation/isabelle-installation]]
 - [[concepts/sledgehammer]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/maximum-occupancy-principle]]
 - [[sledgehammer]]
 

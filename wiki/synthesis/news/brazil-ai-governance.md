@@ -18,7 +18,7 @@ confidence: 0.3
 - [[synthesis/news/ai-policy-federalism]]
 - [[sources/news/2026/brazil-2026-elections-ai-regulation-stress-test]]
 - [[synthesis/news/brazil-ai-governance]]
-- [[index]]
+- [[wiki/index]]
 - [[brazil-ai-governance]]
 
 - [[ai-policy-federalism]]

@@ -12,7 +12,7 @@ sources: []
 
 ## Related
 - [[synthesis/insights/francesca-albanese-sanctions-case-insight]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/legal-accountability-stub]]
 
 - [[legal-accountability-stub]]

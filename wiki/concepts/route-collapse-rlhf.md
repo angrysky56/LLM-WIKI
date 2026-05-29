@@ -49,7 +49,7 @@ Specifically:
 
 ## Connections
 - [[concepts/mop-and-rlhf-interaction]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/route-collapse-rlhf]]
 - [[log]]
 - [[concepts/mixture-of-experts]]

@@ -14,7 +14,7 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
-- [[index]]
+- [[wiki/index]]
 - [[log]]
 - [[entities/people/doj]]
 - [[sources/news/2026-05/trump-anti-weaponization-fund-2026-05-22]]

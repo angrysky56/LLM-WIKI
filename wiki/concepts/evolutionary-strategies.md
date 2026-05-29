@@ -71,7 +71,7 @@ The connection to [[group-relative-policy-optimization]]: GRPO can be viewed as 
 - [[scratchpad/jobs/reports/researcher/discovery-2026-06-09]]
 - [[concepts/essa]]
 - [[concepts/ml-evolution]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/maximum-occupancy-principle]]
 - [[concepts/parameter-efficient-fine-tuning]]
 - [[concepts/collm-nas]]

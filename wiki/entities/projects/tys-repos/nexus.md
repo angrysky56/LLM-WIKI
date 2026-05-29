@@ -33,7 +33,7 @@ confidence: 1.0
 - [[entities/people/tyler-hall]]
 - [[entities/projects/tys-repos/nexus]]
 - [[sources/repositories/nexus]]
-- [[index]]
+- [[wiki/index]]
 - [[scratchpad/jobs/reports/librarian/audit-2026-05-21]]
 - [[nexus]]
 - [[efhf]] — NEXUS represents the realization of the "World Model" and "Meta-Cognitive" layers.

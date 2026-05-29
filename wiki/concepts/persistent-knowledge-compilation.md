@@ -44,7 +44,7 @@ Rather than re-deriving answers from raw documents on every query (RAG), an LLM 
 
 ## Connections
 - [[entities/people/andrej-karpathy]]
-- [[index]]
+- [[wiki/index]]
 - [[synthesis/causal-state-edm-ood-isomorphism]]
 - [[concepts/design-thinking]]
 - [[synthesis/bounded-structured-memory]]

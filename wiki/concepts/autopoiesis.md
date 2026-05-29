@@ -15,7 +15,7 @@ confidence: 0.3
 
 ## Connections
 - [[log]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/autopoiesis]]
 - [[sources/articles/agem-ooe]]
 - [[concepts/maximum-occupancy-principle]]

@@ -18,7 +18,7 @@ confidence: 0.3
 - [[concepts/webhook-subscriptions]]
 - [[log]]
 - [[sources/documentation/event-hooks-hermes-agent]]
-- [[index]]
+- [[wiki/index]]
 - [[webhook-subscriptions]]
 
 - [[maximum-occupancy-principle]]

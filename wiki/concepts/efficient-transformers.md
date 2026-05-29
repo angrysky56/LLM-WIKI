@@ -15,8 +15,8 @@ confidence: 0.3
 
 ## Connections
 - [[concepts/scaling-laws]]
-- [[sources/mixture-of-recursions]]
-- [[index]]
+- [[mixture-of-recursions 1]]
+- [[wiki/index]]
 - [[concepts/efficient-transformers]]
 - [[log]]
 - [[efficient-transformers]]

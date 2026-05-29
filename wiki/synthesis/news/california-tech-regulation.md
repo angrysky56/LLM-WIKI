@@ -17,7 +17,7 @@ confidence: 0.3
 - [[synthesis/news/california-tech-regulation]]
 - [[sources/news/2026/california-ai-worker-protection-newsom-2026]]
 - [[synthesis/news/ai-policy-federalism]]
-- [[index]]
+- [[wiki/index]]
 - [[synthesis/news/california-tech-leadership]]
 - [[california-tech-regulation]]
 

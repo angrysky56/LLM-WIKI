@@ -98,7 +98,7 @@ If Microsoft does respond, likely channels and content to watch for:
 
 ## Related
 - [[scratchpad/jobs/reports/researcher/microsoft-vatican-encyclical-response-may-2026]]
-- [[index]]
+- [[wiki/index]]
 
 - [[microsoft-vatican-encyclical-response-may-2026]]
 

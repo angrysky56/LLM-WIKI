@@ -147,7 +147,7 @@ For a personal AI agent handling a mix of tasks:
 - [[concepts/inference-time-compute-scaling]]
 - [[concepts/mixture-of-experts]]
 - [[concepts/process-reward-model]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/hybrid-reward-models]]
 - [[concepts/model-serving]]
 - [[concepts/bradley-terry]]

@@ -141,17 +141,17 @@ However, GRPO has not been specifically studied in the MoE fine-tuning context �
 ## Connections
 - [[concepts/reinforcement-learning-from-human-feedback]]
 - [[concepts/mop-and-rlhf-interaction]]
-- [[index]]
-- [[sources/moe-sieve-routing-guided-lora-for-efficient-moe-fine-tuning]]
+- [[wiki/index]]
+- [[wiki/sources/papers/moe-sieve-routing-guided-lora-for-efficient-moe-fine-tuning]]
 - [[concepts/route-collapse-rlhf]]
-- [[sources/defending-moe-llms-against-harmful-fine-tuning-via-safety-routing-alignment]]
+- [[defending-moe-llms-against-harmful-fine-tuning-via-safety-routing-alignment]]
 - [[concepts/maximum-occupancy-principle]]
 - [[log]]
 - [[concepts/inference-time-compute-scaling]]
 - [[concepts/mixture-of-experts]]
 - [[concepts/group-relative-policy-optimization]]
 - [[concepts/reward-modeling]]
-- [[sources/on-the-representation-collapse-of-sparse-mixture-of-experts]]
+- [[wiki/sources/papers/on-the-representation-collapse-of-sparse-mixture-of-experts]]
 - [[mop-and-rlhf-interaction]]
 
 - [[maximum-occupancy-principle]] — MOP's entropy maximization principle
@@ -174,9 +174,9 @@ However, GRPO has not been specifically studied in the MoE fine-tuning context �
 
 4. **Scale of the conflict**: Observed at 7B to 141B — not a frontier-only phenomenon. Routing drift is measurable at production scale.
 
-5. **Skewed utilization pre-exists fine-tuning**: MoE-Sieve (Manzoni, 2026) shows per-layer routing is already highly skewed pre-fine-tuning — top 25% of experts handle most tokens. Fine-tuning may compound this skew rather than causing it from a uniform baseline. See [[moe-sieve-routing-guided-lora-for-efficient-moe-fine-tuning]].
+5. **Skewed utilization pre-exists fine-tuning**: MoE-Sieve (Manzoni, 2026) shows per-layer routing is already highly skewed pre-fine-tuning — top 25% of experts handle most tokens. Fine-tuning may compound this skew rather than causing it from a uniform baseline. See [[wiki/sources/papers/moe-sieve-routing-guided-lora-for-efficient-moe-fine-tuning]].
 
-6. **Representation collapse in pre-training**: Chi et al. (2022) showed token clustering around expert centroids is a structural tendency of MoE routing mechanisms, not just a fine-tuning artifact. The collapse starts in pre-training. See [[on-the-representation-collapse-of-sparse-mixture-of-experts]].
+6. **Representation collapse in pre-training**: Chi et al. (2022) showed token clustering around expert centroids is a structural tendency of MoE routing mechanisms, not just a fine-tuning artifact. The collapse starts in pre-training. See [[wiki/sources/papers/on-the-representation-collapse-of-sparse-mixture-of-experts]].
 
 ## Limitations
 

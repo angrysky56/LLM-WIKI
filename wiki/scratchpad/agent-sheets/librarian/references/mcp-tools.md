@@ -40,7 +40,7 @@
 | 22 | `ingest_text` | Process text into knowledge graph | `text`, `source`, `metadata` |
 
 ## Related
-- [[index]]
+- [[wiki/index]]
 - [[scratchpad/agent-sheets/librarian/references/mcp-tools]]
 
 - [[mcp-tools]]

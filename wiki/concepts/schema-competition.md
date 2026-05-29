@@ -169,7 +169,7 @@ Resolution: apply the 90-day rule strictly; the single-late-sale exception is a 
 
 ## See Also
 - [[concepts/schema-competition]]
-- [[index]]
+- [[wiki/index]]
 - [[log]]
 - [[schema-competition]]
 

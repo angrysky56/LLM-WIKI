@@ -42,7 +42,7 @@ SpaceX successfully launched its first Starship Version 3 — the tallest and mo
 - Starship V3 success supports valuation thesis for the June 12 listing
 
 ## Related
-- [[index]]
+- [[wiki/index]]
 - [[sources/news/2026/spacex-starship-v3-flight-12-debut-may-2026]]
 - [[synthesis/news/2026-may/headlines-2026-05-24]]
 

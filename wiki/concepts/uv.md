@@ -16,7 +16,7 @@ confidence: 0.3
 ## Connections
 - [[log]]
 - [[concepts/uv]]
-- [[index]]
+- [[wiki/index]]
 - [[sources/documentation/github-actions-troubleshooting]]
 - [[concepts/maximum-occupancy-principle]]
 - [[uv]]

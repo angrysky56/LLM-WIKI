@@ -28,7 +28,7 @@ Context from carryover: this deal stabilizes what was previously a chaotic tarif
 - [[china-rare-earth-geopolitics]] — China watching EU-US bilateral deals as signal of allied realignment; REE weaponization is the alternative pathway countries face if they don't do bilateral deals
 
 ## Related
-- [[index]]
+- [[wiki/index]]
 - [[sources/articles/eu-us-trade-deal-2029-expiry-may-2026]]
 
 - [[eu-us-trade-deal-2029-expiry-may-2026]]

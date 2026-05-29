@@ -32,7 +32,7 @@ The neural long-term memory uses gradient-based "surprise" (∇θL) to identify 
 - [[concepts/length-generalization]]
 - [[concepts/titans]]
 - [[entities/tools/mamba]]
-- [[index]]
+- [[wiki/index]]
 - [[agents/skills/librarian-agent/skill]]
 - [[concepts/titans-test-time-memory]]
 - [[log]]

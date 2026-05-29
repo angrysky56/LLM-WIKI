@@ -15,7 +15,7 @@ confidence: 0.3
 
 ## Connections
 - [[sources/news/2026/search-2026-05-21]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/news]]
 - [[news]]
 

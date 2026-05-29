@@ -16,7 +16,7 @@ confidence: 0.3
 ## Connections
 - [[concepts/random-forest]]
 - [[sources/repositories/tabpfn]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/maximum-occupancy-principle]]
 - [[log]]
 - [[random-forest]]

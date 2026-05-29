@@ -16,7 +16,7 @@ confidence: 0.3
 ## Connections
 - [[entities/tools/hermes-agent]]
 - [[concepts/markovian-carryover]]
-- [[index]]
+- [[wiki/index]]
 - [[log]]
 - [[concepts/persistent-goals-hermes-agent]]
 - [[persistent-goals-hermes-agent]]

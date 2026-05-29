@@ -22,7 +22,7 @@ Multi-agent systems where AI agents operate with varying degrees of independence
 
 ## Connections
 - [[scratchpad/agent-sheets/librarians-assistant/carryover]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/hermes-agent-skills]]
 - [[log]]
 - [[scratchpad/agent-sheets/librarian/carryover]]

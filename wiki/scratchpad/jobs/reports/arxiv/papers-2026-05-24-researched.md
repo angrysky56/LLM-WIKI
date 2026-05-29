@@ -20,7 +20,7 @@ Traditional safety benchmarks evaluate text outputs. Boiling the Frog shows that
 
 ## Related
 - [[scratchpad/jobs/reports/arxiv/papers-2026-05-24-researched]]
-- [[index]]
+- [[wiki/index]]
 
 - [[papers-2026-05-24-researched]]
 

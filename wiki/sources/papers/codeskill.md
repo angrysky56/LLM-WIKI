@@ -56,7 +56,7 @@ OOD generalization: holds across both in-domain and OOD software engineering tas
 
 ## Related
 - [[sources/papers/codeskill]]
-- [[index]]
+- [[wiki/index]]
 
 - [[codeskill]]
 

@@ -170,7 +170,7 @@ VPO's training dynamics (preserving a population of competent alternatives long 
 ---
 
 ## Connections
-- [[index]]
+- [[wiki/index]]
 - [[sources/papers/vector-policy-optimization-vpo-2026]]
 - [[vector-policy-optimization-vpo-2026]]
 

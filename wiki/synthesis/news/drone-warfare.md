@@ -20,7 +20,7 @@ confidence: 0.3
 - [[sources/news/fpv-drone-strikes-show-hezbollahs-changing-tactics-against-i]]
 - [[concepts/fpv-drone]]
 - [[synthesis/news/drone-warfare]]
-- [[index]]
+- [[wiki/index]]
 - [[sources/news/large-scale-ukrainian-drone-attack-kills-three-in-moscow-region]]
 - [[synthesis/news/hybrid-attack]]
 - [[synthesis/news/large-scale-ukrainian-drone-attack-kills-three-in-moscow-reg]]

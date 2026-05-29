@@ -195,7 +195,7 @@ Alpha gates which problems reach Beta. Gamma adapts the learning rate used by Be
 - [[concepts/self-correction]]
 - [[concepts/gamma]]
 - [[log]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/agent-taxonomies]]
 - [[concepts/zeta]]
 - [[agent-taxonomies]]

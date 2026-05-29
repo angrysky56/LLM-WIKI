@@ -61,7 +61,7 @@ Where the moral weight actually has to live, if anywhere: see [[frame-transmissi
 - [[concepts/cryptographic-vs-semantic-alignment]]
 - [[concepts/frame-transmission]]
 - [[synthesis/ai-governance-substrate-analysis]]
-- [[index]]
+- [[wiki/index]]
 - [[concept-index]]
 - [[cryptographic-vs-semantic-alignment]]
 

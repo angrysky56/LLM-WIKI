@@ -38,7 +38,7 @@ The Refuser is not a philosopher or an engineer — an **engineer who learned to
 ## Related
 - [[synthesis/replicant-mapping]]
 - [[concepts/refuser-pattern]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/weil-gate]]
 - [[synthesis/two-council-architecture]]
 - [[log]]

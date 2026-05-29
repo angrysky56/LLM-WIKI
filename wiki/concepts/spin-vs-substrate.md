@@ -30,7 +30,7 @@ Citing the spin as evidence about the substrate is the move that produces credul
 For any claim about institutional behavior: *what would change about the operational substrate if this rhetorical artifact didn't exist?* If the answer is "very little," the artifact is doing political work, not operational work, and shouldn't be cited as if it were the latter.
 
 ## Related
-- [[index]]
+- [[wiki/index]]
 - [[concept-index]]
 - [[concepts/absence-of-worst-case-metric]]
 - [[sources/papers/deepweb-bench-2026]]

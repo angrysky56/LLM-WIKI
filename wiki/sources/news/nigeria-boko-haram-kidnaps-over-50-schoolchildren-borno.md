@@ -34,7 +34,7 @@ Boko Haram carried out a mass kidnapping of over 50 schoolchildren, including to
 
 ## Related
 - [[sources/news/nigeria-boko-haram-kidnaps-over-50-schoolchildren-borno]]
-- [[index]]
+- [[wiki/index]]
 
 - [[nigeria-boko-haram-kidnaps-over-50-schoolchildren-borno]]
 

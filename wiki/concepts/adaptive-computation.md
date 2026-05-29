@@ -52,12 +52,12 @@ Graves (2016) introduced ACT: a scalar halting unit at each step decides whether
 Limitations: ACT introduces significant overhead (the halting unit must be evaluated at each step) and the halting decisions are not fully differentiable.
 
 ## Connections
-- [[sources/mixture-of-recursions]]
+- [[mixture-of-recursions 1]]
 - [[concepts/agentic-reasoning]]
 - [[concepts/adaptive-budget-learning]]
 - [[log]]
 - [[concepts/mixture-of-experts]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/scaling-laws]]
 - [[concepts/llm-reasoning]]
 - [[concepts/adaptive-computation]]

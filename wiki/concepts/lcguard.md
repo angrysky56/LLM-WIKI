@@ -18,7 +18,7 @@ confidence: 0.3
 - [[concepts/agent-leak-benchmark]]
 - [[concepts/lcguard]]
 - [[concepts/adversarial-training]]
-- [[index]]
+- [[wiki/index]]
 - [[lcguard]]
 
 - [[adversarial-training]]

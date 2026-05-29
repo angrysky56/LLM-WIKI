@@ -20,7 +20,7 @@ A man drove a car into a crowd in Italy, then attempted a stabbing — a hybrid 
 
 ## Connections
 - [[sources/news/man-ploughs-car-into-crowd-in-italy-before-trying-to-stab-th]]
-- [[index]]
+- [[wiki/index]]
 
 - [[vehicle-ramming-attack]] — the methodology
 - [[italy]] — country

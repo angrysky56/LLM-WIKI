@@ -42,7 +42,7 @@
 
 ## Related
 - [[synthesis/news/2026-may/headlines-2026-05-23]]
-- [[index]]
+- [[wiki/index]]
 
 - [[headlines-2026-05-23]]
 

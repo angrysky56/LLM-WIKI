@@ -20,7 +20,7 @@ A rescue diver died while attempting to recover the bodies of Italian tourists w
 
 ## Connections
 - [[sources/news/rescue-diver-dies-during-search-for-bodies-of-italians-who-d]]
-- [[index]]
+- [[wiki/index]]
 
 - [[maldives]] — location
 - [[cave-diving]] — the activity

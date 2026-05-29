@@ -47,7 +47,7 @@ Where:
 All coefficient vectors are back-projected from PCA space into original embedding space for interpretability.
 
 ## Connections
-- [[index]]
+- [[wiki/index]]
 - [[sources/papers/semantic-gradients-interactions-ssd]]
 - [[semantic-gradients-interactions-ssd]]
 

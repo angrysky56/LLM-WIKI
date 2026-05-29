@@ -12,7 +12,7 @@ confidence: 0.85
 
 ## Related
 - [[synthesis/insights/para-system-knowledge-architecture-insight]]
-- [[index]]
+- [[wiki/index]]
 
 - [[para-system-knowledge-architecture-insight]]
 

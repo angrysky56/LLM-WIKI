@@ -20,7 +20,7 @@ confidence: 0.3
 - [[concepts/logic]]
 - [[concepts/infinite]]
 - [[concepts/pure-mathematics]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/algebra]]
 - [[log]]
 - [[mathematics]]

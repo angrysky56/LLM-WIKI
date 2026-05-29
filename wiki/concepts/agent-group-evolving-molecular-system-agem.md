@@ -16,7 +16,7 @@ confidence: 0.3
 ## Connections
 - [[concepts/maximum-occupancy-principle]]
 - [[concepts/agent-group-evolving-molecular-system-agem]]
-- [[index]]
+- [[wiki/index]]
 - [[log]]
 - [[synthesis/efhf-mcp-configuration]]
 - [[sources/papers/xu-envfactory-2026]]

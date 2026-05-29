@@ -176,7 +176,7 @@ The original [[mop-edm-cognitive-architecture]] maps MOP into EFHF as Layer 0. A
 - [[synthesis/intelligence-as-entropic-sculpting]]
 - [[sources/news/2026/transformer-vm-moran-2026]]
 - [[sources/news/2026/wolchover-life-force-2026]]
-- [[index]]
+- [[wiki/index]]
 - [[sources/articles/llm-kernel-optimization]]
 - [[synthesis/mop-edm-cognitive-architecture]]
 - [[concepts/openpraparat]]

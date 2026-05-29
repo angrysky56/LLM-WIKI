@@ -49,7 +49,7 @@ Across **8 public benchmarks** (QA, image captioning, NLI, summarization, semant
 ## Connections
 - [[sources/papers/matcha]]
 - [[scratchpad/jobs/reports/arxiv/arxiv-2026-05-27-top-papers]]
-- [[index]]
+- [[wiki/index]]
 - [[matcha]]
 
 - [[llm-evaluation]] — evaluation metrics for text generation

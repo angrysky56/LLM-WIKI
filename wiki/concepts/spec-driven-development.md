@@ -17,7 +17,7 @@ confidence: 0.3
 - [[log]]
 - [[sources/repositories/get-shit-done]]
 - [[concepts/spec-driven-development]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/maximum-occupancy-principle]]
 - [[spec-driven-development]]
 

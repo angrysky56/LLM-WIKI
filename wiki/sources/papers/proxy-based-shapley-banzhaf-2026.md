@@ -74,7 +74,7 @@ ProxySHAP connects to several active EFHF research threads:
 
 ## Connections
 - [[sources/papers/proxy-based-shapley-banzhaf-2026]]
-- [[index]]
+- [[wiki/index]]
 - [[scratchpad/jobs/reports/arxiv/papers-2026-05-24-researched]]
 - [[proxy-based-shapley-banzhaf-2026]]
 

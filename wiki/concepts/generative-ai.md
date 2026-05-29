@@ -65,7 +65,7 @@ The evaluation problem differs fundamentally from discriminative tasks:
 ## Connections
 - [[concepts/diffusion-models]]
 - [[log]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/generative-ai]]
 - [[concepts/creativity]]
 

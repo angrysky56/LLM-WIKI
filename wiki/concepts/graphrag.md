@@ -50,7 +50,7 @@ From Neo4j's research: the most valuable context often comes not from the direct
 - [[sources/papers/deepweb-bench-2026]]
 - [[entities/projects/project-synapse]]
 - [[entities/tools/neo4j]]
-- [[index]]
+- [[wiki/index]]
 - [[synthesis/causal-state-edm-ood-isomorphism]]
 - [[synthesis/wiki-indexing-theory]]
 - [[sources/articles/hilbert-hotel-graph-architecture]]

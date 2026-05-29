@@ -46,7 +46,7 @@ Agent skill definitions (SKILL.md files) teaching AI agents how to work with Obs
 
 ## Connections
 - [[entities/tools/obsidian-skills-repo]]
-- [[index]]
+- [[wiki/index]]
 - [[entities/tools/obsidian]]
 - [[entities/projects/project-synapse]]
 - [[concept-index]]

@@ -59,7 +59,7 @@ Ingested the "Engineering Internal Awareness and Closed-Loop Self-Regulation in 
 
 ## Related
 - [[scratchpad/jobs/reports/ingest/ingest-2026-05-21-run]]
-- [[index]]
+- [[wiki/index]]
 
 - [[ingest-2026-05-21-run]]
 

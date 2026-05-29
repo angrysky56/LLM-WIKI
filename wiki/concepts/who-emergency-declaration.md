@@ -15,7 +15,7 @@ confidence: 0.3
 
 ## Connections
 - [[concepts/who-emergency-declaration]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/maximum-occupancy-principle]]
 - [[log]]
 - [[who-emergency-declaration]]

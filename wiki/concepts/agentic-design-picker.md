@@ -107,7 +107,7 @@ Task decomposed cleanly?
 - [[sources/articles/choosing-right-agentic-design-pattern]]
 - [[scratchpad/agent-sheets/researcher/carryover]]
 - [[concepts/agentic-research]]
-- [[index]]
+- [[wiki/index]]
 - [[sources/articles/designing-agentic-design-picker]]
 - [[agents/skills/librarian-agent/skill]]
 - [[concepts/agentic-design-picker]]

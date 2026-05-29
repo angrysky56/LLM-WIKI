@@ -29,7 +29,7 @@ Stephen Wolfram is a British-American computer scientist, physicist, and entrepr
 - [[concepts/load-bearing-reasoning]]
 - [[concepts/computational-universe]]
 - [[sources/articles/language-evolution]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/wolfram-physics-project]]
 - [[sources/documentation/wolfram-nks-causal-networks]]
 - [[concepts/wolfram-nks-causal-networks]]

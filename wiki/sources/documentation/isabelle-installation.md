@@ -24,7 +24,7 @@ Isabelle supports Linux, Windows, and macOS, providing platform-specific bundles
 
 ## Connections
 - [[sources/documentation/isabelle-installation]]
-- [[index]]
+- [[wiki/index]]
 - [[isabelle-installation]]
 - Tool: [[isabelle]]
 - Concept: [[formal-verification]]

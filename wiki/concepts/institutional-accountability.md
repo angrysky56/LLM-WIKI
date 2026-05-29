@@ -54,7 +54,7 @@ The [[ai-governance-substrate]] concept attempts to build accountability into AI
 - [[concepts/institutional-accountability]]
 - [[concepts/agentic-oversight]]
 - [[concepts/ai-governance-substrate]]
-- [[index]]
+- [[wiki/index]]
 - [[sources/us-sanctions-francesca-albanese]]
 - [[sources/news/2026/nato-troops-poland-may-2026]]
 - [[concepts/institutional-capture]]

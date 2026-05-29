@@ -89,7 +89,7 @@ The production-llm-agent-runtime-architecture-patterns paper confirms this gap e
 - [[concepts/agentic-hierarchy]]
 - [[sources/papers/production-llm-agent-runtime-architecture-patterns]]
 - [[concepts/code-generation]]
-- [[index]]
+- [[wiki/index]]
 - [[llm-agent-architecture]]
 
 - [[agent-native-design]] — architectural ideal that LLM agent architecture approximates

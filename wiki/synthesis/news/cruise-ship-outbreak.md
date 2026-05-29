@@ -14,7 +14,7 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
-- [[index]]
+- [[wiki/index]]
 - [[sources/news/2026-05/hantavirus-cruise-outbreak-2026-05-17]]
 - [[log]]
 - [[sources/news/canadian-from-cruise-ship-tests-positive-for-hantavirus]]

@@ -24,7 +24,7 @@ Roger Koenig-Robert is a neuroscientist known for his research on the neural sub
 - [[concepts/spontaneous-activity-reshaping-hypothesis]]
 - [[synthesis/intelligence-as-entropic-sculpting]]
 - [[concepts/aphantasia]]
-- [[index]]
+- [[wiki/index]]
 - [[log]]
 - [[roger-koenig-robert]]
 

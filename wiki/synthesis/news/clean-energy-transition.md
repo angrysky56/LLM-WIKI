@@ -19,7 +19,7 @@ confidence: 0.3
 - [[concepts/ai-energy-economics]]
 - [[sources/news/2026-05/natural-hydrogen-discovery-2026-05-20]]
 - [[synthesis/news/hydrogen-economy]]
-- [[index]]
+- [[wiki/index]]
 - [[clean-energy-transition]]
 
 - [[hydrogen-economy]]

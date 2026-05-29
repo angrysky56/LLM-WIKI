@@ -1,8 +1,7 @@
----
+
 summary: May 28: 3 stubs promoted, 1 archived; stub count 276→273
 tags: [researcher, carryover]
 updated: 2026-05-28T18:32:50Z
----
 
 ---
 created: 2026-05-26

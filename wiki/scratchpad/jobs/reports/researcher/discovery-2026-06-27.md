@@ -55,7 +55,7 @@ This changes the resolution paths: it's not just about preventing fine-tuning co
 
 ## Related
 - [[scratchpad/jobs/reports/researcher/discovery-2026-06-27]]
-- [[index]]
+- [[wiki/index]]
 
 - [[discovery-2026-06-27]]
 

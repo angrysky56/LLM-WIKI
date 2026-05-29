@@ -33,7 +33,7 @@ This settlement pattern matters for several reasons:
 
 ## Connections
 - [[sources/news/2026/tiktok-youtube-ofcom-not-safe-enough-2026]]
-- [[index]]
+- [[wiki/index]]
 - [[sources/news/2026/meta-social-media-addiction-settlement-2026]]
 - [[meta-social-media-addiction-settlement-2026]]
 - [[tiktok-youtube-ofcom-report]] — UK regulator also finding platforms not safe enough for children; global regulatory convergence

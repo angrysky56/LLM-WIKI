@@ -102,7 +102,7 @@ This is a powerful example of how physical constraints (geometry of space, optim
 - [[concepts/scaling-laws]]
 - [[concepts/allometric-scaling]]
 - [[concepts/neural-interpretability]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/taylors-law]]
 - [[log]]
 - [[concepts/power-law-scaling]]

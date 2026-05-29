@@ -19,7 +19,7 @@ confidence: 0.9
 ## Connections
 - [[sources/articles/language-evolution]]
 - [[concepts/agentic-research]]
-- [[index]]
+- [[wiki/index]]
 - [[sources/articles/why-llms-arent-scientists-yet]]
 - [[log]]
 - [[concepts/prd-ralph-loop-mop-gemini]]

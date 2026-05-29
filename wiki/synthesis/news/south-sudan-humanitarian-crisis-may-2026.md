@@ -39,7 +39,7 @@ The African Commission on Human and Peoples' Rights and the UN Independent Inter
 
 ## Related
 - [[synthesis/news/south-sudan-humanitarian-crisis-may-2026]]
-- [[index]]
+- [[wiki/index]]
 
 - [[south-sudan-humanitarian-crisis-may-2026]]
 

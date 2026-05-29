@@ -17,7 +17,7 @@ confidence: 0.3
 - [[sources/repositories/openclaw]]
 - [[concepts/utimula-openpraparat-2025]]
 - [[concepts/paperclip]]
-- [[index]]
+- [[wiki/index]]
 - [[sources/documentation/paperclip-hermes-adapter]]
 - [[log]]
 - [[concepts/paper-analysis]]

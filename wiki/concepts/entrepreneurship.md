@@ -15,7 +15,7 @@ confidence: 0.3
 
 ## Connections
 - [[concepts/business]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/entrepreneurship]]
 - [[concepts/innovation]]
 - [[entrepreneurship]]

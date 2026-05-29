@@ -113,7 +113,7 @@ A meta-skill that **guides extraction toward utility-features** (rather than sim
 ---
 
 ## Related
-- [[index]]
+- [[wiki/index]]
 - [[sources/papers/skill-consumption-2026]]
 
 - [[skill-consumption-2026]]

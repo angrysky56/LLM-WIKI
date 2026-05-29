@@ -68,7 +68,7 @@ Technical Working Group (Engineering)
 - [[synthesis/empty-chair-protocol]]
 - [[synthesis/replicant-mapping]]
 - [[synthesis/two-council-architecture]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/refuser-pattern]]
 - [[replicant-mapping]]
 

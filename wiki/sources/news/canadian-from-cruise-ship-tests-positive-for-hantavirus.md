@@ -20,7 +20,7 @@ A Canadian passenger aboard a cruise ship that had already experienced a hantavi
 
 ## Connections
 - [[sources/news/canadian-from-cruise-ship-tests-positive-for-hantavirus]]
-- [[index]]
+- [[wiki/index]]
 
 - [[hantavirus]] — the pathogen
 - [[cruise-ship-outbreak]] — the setting

@@ -35,7 +35,7 @@ Checked reward-hacking.md lines 89–147:
 Carryover already reflects this completion accurately. No further wiki changes needed.
 
 ## Related
-- [[index]]
+- [[wiki/index]]
 - [[scratchpad/jobs/reports/researcher/discovery-2026-05-25]]
 
 - [[discovery-2026-05-25]]

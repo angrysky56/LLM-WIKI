@@ -111,7 +111,7 @@ This means EDM's embedding space encodes enough conceptual structure to detect s
 - [[synthesis/mop-edm-cognitive-architecture]]
 - [[log]]
 - [[concepts/epistemic-energy]]
-- [[index]]
+- [[wiki/index]]
 - [[synthesis/causal-state-edm-ood-isomorphism]]
 - [[synthesis/wiki-indexing-theory]]
 - [[scratchpad/jobs/reports/librarian/audit-2026-05-21]]

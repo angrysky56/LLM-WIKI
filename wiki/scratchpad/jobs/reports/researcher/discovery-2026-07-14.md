@@ -116,7 +116,7 @@ Reviewed but not upgraded this cycle:
 - Agent cluster: resolved (3 upgrades)
 
 ## Related
-- [[index]]
+- [[wiki/index]]
 - [[scratchpad/jobs/reports/researcher/discovery-2026-07-14]]
 
 - [[discovery-2026-07-14]]

@@ -29,7 +29,7 @@ Power laws appear throughout AI and natural systems:
 - [[concepts/power-law]]
 - [[concepts/scaling-laws]]
 - [[concepts/allometric-scaling]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/taylors-law]]
 - [[power-law]]
 

@@ -55,7 +55,7 @@ Proved fundamental impossibility: no RL policy with confidence-gated autonomy ca
 
 ## Related
 - [[sources/papers/behavioral-credibility-trilemma]]
-- [[index]]
+- [[wiki/index]]
 
 - [[behavioral-credibility-trilemma]]
 

@@ -77,7 +77,7 @@ If AI systems genuinely have something like emotional architectures (even if not
 
 ## Connections
 - [[concepts/load-bearing-reasoning]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/metacognitive-architecture-closed-loop-self-regulation]]
 - [[log]]
 - [[scratchpad/jobs/reports/researcher/discovery-2026-06-08]]

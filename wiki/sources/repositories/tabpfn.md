@@ -58,7 +58,7 @@ predictions = clf.predict(X_test)
 
 ## Connections
 - [[sources/repositories/tabpfn]]
-- [[index]]
+- [[wiki/index]]
 
 - [[priorlabs]] — the company behind TabPFN
 - [[huggingface]] — model hosting and checkpoints

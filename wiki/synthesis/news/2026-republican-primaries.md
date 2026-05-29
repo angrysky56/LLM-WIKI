@@ -18,7 +18,7 @@ confidence: 0.3
 - [[synthesis/news/republican-party]]
 - [[synthesis/news/2026-republican-primaries]]
 - [[synthesis/news/trump-endorsement-primary-dominance]]
-- [[index]]
+- [[wiki/index]]
 - [[log]]
 - [[2026-republican-primaries]]
 

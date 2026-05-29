@@ -18,7 +18,7 @@ Taiwan publicly reaffirmed its de facto independence and sovereignty after Trump
 | Taiwan's response was direct and public | Rejection of quiet diplomacy |
 
 ## Connections
-- [[index]]
+- [[wiki/index]]
 - [[sources/news/taiwan-reaffirms-independence-despite-trump-warning]]
 
 - [[taiwan]] — the entity asserting independence

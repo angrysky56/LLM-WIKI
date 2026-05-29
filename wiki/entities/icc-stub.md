@@ -10,7 +10,7 @@ confidence: 0.3
 ---
 
 ## Related
-- [[index]]
+- [[wiki/index]]
 - [[synthesis/insights/francesca-albanese-sanctions-case-insight]]
 - [[entities/icc-stub]]
 

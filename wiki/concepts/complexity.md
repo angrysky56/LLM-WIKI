@@ -20,7 +20,7 @@ confidence: 0.3
 - [[concepts/systems-theory]]
 - [[concepts/network-theory]]
 - [[concepts/dynamical-systems]]
-- [[index]]
+- [[wiki/index]]
 - [[complexity]]
 
 - [[systems-theory]]

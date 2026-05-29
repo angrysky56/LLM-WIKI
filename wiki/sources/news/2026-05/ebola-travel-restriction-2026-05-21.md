@@ -31,7 +31,7 @@ The broader implication: Ebola is no longer just a health story. It's becoming a
 
 ## Connections
 - [[sources/news/2026-05/ebola-travel-restriction-2026-05-21]]
-- [[index]]
+- [[wiki/index]]
 - [[sources/news/2026-05/air-france-airbus-manslaughter-2009-2026-05-21]]
 - [[ebola-travel-restriction-2026-05-21]]
 - [[ebola-outbreak-drc-2026-05-20]] — WHO declared PHEIC

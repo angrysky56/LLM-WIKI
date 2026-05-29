@@ -138,7 +138,7 @@ Key design decisions flagged for review:
 
 ## Related
 - [[synthesis/nairobi-protocol-gde]]
-- [[index]]
+- [[wiki/index]]
 - [[nairobi-protocol-gde]]
 
 - [[geometric-hashing]] — core technique

@@ -57,7 +57,7 @@ For multi-step reasoning, the pairwise comparison must happen at the step level 
 - [[concepts/multi-agent-reasoning]]
 - [[log]]
 - [[concepts/opendeepthink-parallel-reasoning]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/generative-ai]]
 - [[concepts/imagination]]
 - [[scratchpad/agent-sheets/librarian/carryover]]

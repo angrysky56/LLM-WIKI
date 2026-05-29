@@ -64,7 +64,7 @@ This creates a direct California vs. federal divergence on AI policy, with Calif
 
 ## Connections
 - [[sources/news/2026/trump-ai-executive-order-abandoned-may-2026]]
-- [[index]]
+- [[wiki/index]]
 - [[sources/news/2026/california-ai-worker-protection-order-2026]]
 - [[california-ai-worker-protection-order-2026]]
 

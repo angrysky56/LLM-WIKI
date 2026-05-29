@@ -85,7 +85,7 @@ The gradient blocking problem also applies: when a token exits early, the early 
 - [[log]]
 - [[concepts/mixture-of-experts]]
 - [[concepts/early-exit-networks]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/adaptive-budget-learning]]
 - [[early-exit-networks]]
 

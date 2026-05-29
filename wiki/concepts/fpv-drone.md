@@ -15,7 +15,7 @@ confidence: 0.3
 
 ## Connections
 - [[concepts/fpv-drone]]
-- [[index]]
+- [[wiki/index]]
 - [[log]]
 - [[sources/news/fpv-drone-strikes-show-hezbollahs-changing-tactics-against-i]]
 - [[fpv-drone]]

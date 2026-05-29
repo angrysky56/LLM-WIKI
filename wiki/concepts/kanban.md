@@ -25,7 +25,7 @@ Visual workflow management method using boards, columns (Ready/In Progress/Done)
 - [[scratchpad/agent-sheets/librarian/carryover]]
 - [[scratchpad/agent-sheets/librarians-assistant/workspace/batch-progress]]
 - [[scratchpad/agent-sheets/librarians-assistant/carryover]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/hermes-agent-skills]]
 - [[concepts/kanban]]
 - [[kanban]]

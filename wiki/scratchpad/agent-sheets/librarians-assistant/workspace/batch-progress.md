@@ -67,7 +67,7 @@ All 8 pairs verified already reciprocal (pages link to each other through separa
 | t_f0fcb3dcd69d49b2 | ready | Merge: agentic-planner/reflection/sequential |
 
 ## Related
-- [[index]]
+- [[wiki/index]]
 - [[scratchpad/agent-sheets/librarians-assistant/workspace/batch-progress]]
 
 - [[batch-progress]]

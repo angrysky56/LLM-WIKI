@@ -15,7 +15,7 @@ confidence: 0.3
 
 ## Connections
 - [[concepts/vision-language-models]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/multimodal-llm]]
 - [[concepts/video-understanding]]
 - [[concepts/multimodal-ai]]

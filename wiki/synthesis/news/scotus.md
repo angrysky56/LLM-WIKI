@@ -15,7 +15,7 @@ confidence: 0.3
 
 ## Connections
 - [[sources/news/2026-05/scotus-voting-rights-2026-05-18]]
-- [[index]]
+- [[wiki/index]]
 - [[log]]
 - [[synthesis/news/scotus]]
 - [[synthesis/news/us-supreme-court]]

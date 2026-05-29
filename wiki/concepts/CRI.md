@@ -19,7 +19,7 @@ confidence: 0.3
 - [[log]]
 - [[scratchpad/agent-sheets/librarian/carryover]]
 - [[sources/papers/deltabox-stateful-agent-checkpoint-rollback-2026]]
-- [[index]]
+- [[wiki/index]]
 - [[cri]]
 
 - [[maximum-occupancy-principle]]

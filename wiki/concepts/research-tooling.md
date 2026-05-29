@@ -19,7 +19,7 @@ confidence: 0.3
 - [[concepts/paperclip]]
 - [[concepts/utimula-openpraparat-2025]]
 - [[concepts/paper-analysis]]
-- [[index]]
+- [[wiki/index]]
 - [[research-tooling]]
 
 - [[ai-research]]

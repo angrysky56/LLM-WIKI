@@ -65,7 +65,7 @@ Risk evidence re-injected → agent: refuse / re-plan / approve / escalate
 
 ## Connections
 - [[scratchpad/jobs/reports/arxiv/arxiv-2026-05-27-top-papers]]
-- [[index]]
+- [[wiki/index]]
 - [[sources/papers/finharness]]
 - [[finharness]]
 

@@ -84,7 +84,7 @@ The readout token acts as a bottleneck for directional motion signals — analog
 ## Connections
 - [[concepts/video-llm]]
 - [[concepts/motion-understanding]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/vision-language-alignment]]
 - [[log]]
 - [[motion-understanding]]

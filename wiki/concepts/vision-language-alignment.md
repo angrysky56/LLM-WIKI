@@ -78,7 +78,7 @@ The projection layer (vision → language) is where alignment failures concentra
 ## Connections
 - [[concepts/video-llm]]
 - [[concepts/motion-understanding]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/vision-language-alignment]]
 - [[log]]
 - [[vision-language-alignment]]

@@ -51,7 +51,7 @@ Two scaling axes:
 
 ## Connections
 - [[sources/papers/equilibrium-reasoners-eqr-2026]]
-- [[index]]
+- [[wiki/index]]
 - [[equilibrium-reasoners-eqr-2026]]
 
 - [[chen-molecular-cot-2026]] — molecular CoT three-bond structure maps onto attractor basin topology

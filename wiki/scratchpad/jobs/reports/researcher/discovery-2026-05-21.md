@@ -66,7 +66,7 @@
 
 ## Related
 - [[scratchpad/jobs/reports/researcher/discovery-2026-05-21]]
-- [[index]]
+- [[wiki/index]]
 
 - [[discovery-2026-05-21]]
 

@@ -16,7 +16,7 @@ confidence: 0.3
 ## Connections
 - [[synthesis/news/hantavirus]]
 - [[sources/news/canadian-from-cruise-ship-tests-positive-for-hantavirus]]
-- [[index]]
+- [[wiki/index]]
 - [[sources/news/2026-05/hantavirus-cruise-outbreak-2026-05-17]]
 - [[log]]
 - [[hantavirus]]

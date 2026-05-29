@@ -70,7 +70,7 @@ Follow-up reporting confirms Anthropic was the only major AI company with a form
 
 ## Related
 - [[synthesis/news/headlines-2026-05-27]]
-- [[index]]
+- [[wiki/index]]
 
 - [[headlines-2026-05-27]]
 

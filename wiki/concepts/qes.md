@@ -71,7 +71,7 @@ Both are guided evolution methods where LLMs (or their derived representations) 
 - [[sources/articles/ml-evolution-benchmarking-protocol]]
 - [[concepts/qes]]
 - [[scratchpad/agent-sheets/researcher/carryover]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/maximum-occupancy-principle]]
 - [[concepts/llama-nas]]
 - [[log]]

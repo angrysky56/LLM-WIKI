@@ -182,7 +182,7 @@ The paper argues source-level adaptation is superior to text-mutable evolution a
 | **MOSS** | **Application** | **Source-level (harness included)** |
 
 ## Related
-- [[index]]
+- [[wiki/index]]
 - [[sources/papers/papers-2026-05-22-researched]]
 - [[sources/papers/moss-self-evolution-source-rewriting-2026]]
 - [[sources/papers/awarevln-self-aware-vision-language-navigation-2026]]

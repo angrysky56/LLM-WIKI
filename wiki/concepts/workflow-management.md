@@ -15,7 +15,7 @@ confidence: 0.3
 
 ## Connections
 - [[concepts/workflow-management]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/process-management]]
 - [[sources/articles/kanban-development]]
 - [[workflow-management]]

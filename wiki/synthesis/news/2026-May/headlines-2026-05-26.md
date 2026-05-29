@@ -37,7 +37,7 @@ tags: [news, report]
 - **Top European tech CEOs call for easier AI rules** — May 5, routine lobbying, not new policy
 
 ## Related
-- [[index]]
+- [[wiki/index]]
 - [[synthesis/news/2026-may/headlines-2026-05-26]]
 
 - [[headlines-2026-05-26]]

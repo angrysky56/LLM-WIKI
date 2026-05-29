@@ -26,7 +26,7 @@ The following facts formed the evidence chain for this insight:
 - While Albanese is Italian, her daughter is a US citizen, and she has assets in the country. (source: `raw/us-says-it-has-not-changed-its-stance-on-sanctioning-frances.md`)
 
 ## Related
-- [[index]]
+- [[wiki/index]]
 - [[synthesis/insights/francesca-albanese-sanctions-insight]]
 
 - [[francesca-albanese-sanctions-insight]]

@@ -77,7 +77,7 @@ Incrypted (May 21) notes the announcement has generated significant media attent
 
 ## Connections
 - [[sources/news/2026/openai-o3-erdos-conjecture-breakthrough-2026]]
-- [[index]]
+- [[wiki/index]]
 - [[openai-o3-erdos-conjecture-breakthrough-2026]]
 
 - [[AI-scientific-discovery]] — This is the most significant proof-of-concept for AI as genuine mathematical co-discoverer

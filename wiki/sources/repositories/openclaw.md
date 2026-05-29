@@ -36,7 +36,7 @@ OpenClaw as the execution layer in a stack: Hermes (memory) + OpenClaw (executio
 - [[sources/articles/hermes-openclaw-paperclip-stack]]
 - [[sources/repositories/openclaw]]
 - [[sources/repositories/paperclip]]
-- [[index]]
+- [[wiki/index]]
 - [[sources/documentation/hermes-mcp-integration]]
 - [[sources/documentation/acp-editor-integration-hermes-agent]]
 - [[openclaw]]

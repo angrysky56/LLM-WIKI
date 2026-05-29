@@ -26,7 +26,7 @@ The deal comes as:
 4. **Tariff architecture**: The deal may serve as template for US bilateral deals with other partners — Japan deal earlier showed the pattern
 
 ## Connections
-- [[index]]
+- [[wiki/index]]
 - [[sources/news/2026/eu-us-trade-deal-tariff-may-2026]]
 - [[eu-us-trade-deal-tariff-may-2026]]
 - [[transatlantic-trade]] — broader EU-US trade relationship

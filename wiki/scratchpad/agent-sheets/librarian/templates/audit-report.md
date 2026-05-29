@@ -95,7 +95,7 @@ HITS authority scores identify load-bearing nodes. GAAC clustering identifies mi
 
 ## Related
 - [[scratchpad/agent-sheets/librarian/templates/audit-report]]
-- [[index]]
+- [[wiki/index]]
 
 - [[audit-report]]
 

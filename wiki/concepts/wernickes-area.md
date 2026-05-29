@@ -28,7 +28,7 @@ Damage results in **Receptive Aphasia**:
 - [[concepts/arcuate-fasciculus]]
 - [[sources/articles/brocas-area-gemini-chat]]
 - [[concepts/wernickes-area]]
-- [[index]]
+- [[wiki/index]]
 - [[concept-index]]
 - [[concepts/brocas-area]]
 - [[synthesis/llm-biological-analogies]]

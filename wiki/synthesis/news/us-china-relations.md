@@ -15,7 +15,7 @@ confidence: 0.3
 
 ## Connections
 - [[sources/news/taiwan-reaffirms-independence-despite-trump-warning]]
-- [[index]]
+- [[wiki/index]]
 - [[synthesis/news/us-china-trade]]
 - [[synthesis/news/us-china-relations]]
 - [[log]]

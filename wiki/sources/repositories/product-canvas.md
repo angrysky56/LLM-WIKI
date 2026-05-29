@@ -30,7 +30,7 @@ A multiplayer collaborative canvas for product brainstorming, combining real-tim
 
 ## Related
 - [[sources/repositories/product-canvas]]
-- [[index]]
+- [[wiki/index]]
 - [[concept-index]]
 
 - [[product-canvas]]

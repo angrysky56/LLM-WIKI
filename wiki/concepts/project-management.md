@@ -17,7 +17,7 @@ confidence: 0.3
 - [[concepts/process-management]]
 - [[log]]
 - [[concepts/project-management]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/scrum]]
 - [[project-management]]
 

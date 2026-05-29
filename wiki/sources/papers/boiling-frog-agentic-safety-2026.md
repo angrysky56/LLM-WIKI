@@ -80,7 +80,7 @@ A danger that arrives gradually may be normalized before recognized as dangerous
 ## Connections
 - [[scratchpad/jobs/reports/arxiv/papers-2026-05-24-researched]]
 - [[sources/papers/boiling-frog-agentic-safety-2026]]
-- [[index]]
+- [[wiki/index]]
 - [[boiling-frog-agentic-safety-2026]]
 
 - [[agentic-research]] — implementation drift, multi-turn failure modes

@@ -24,7 +24,7 @@ Legacy Makefiles for Prover9 may require specific linker flag ordering (e.g., pl
 - [[sources/documentation/github-actions-troubleshooting]]
 - [[concepts/formal-verification]]
 - [[entities/tools/prover9]]
-- [[index]]
+- [[wiki/index]]
 - [[log]]
 - [[prover9]]
 - Entity: [[isabelle]]

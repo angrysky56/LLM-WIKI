@@ -15,7 +15,7 @@ confidence: 0.3
 
 ## Connections
 - [[entities/projects/anthropic]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/maximum-occupancy-principle]]
 - [[log]]
 - [[concepts/ai-safety]]

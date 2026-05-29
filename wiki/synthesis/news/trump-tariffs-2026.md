@@ -17,7 +17,7 @@ confidence: 0.3
 - [[sources/news/2026/eu-us-trade-deal-tariff-may-2026]]
 - [[synthesis/news/trump-tariffs]]
 - [[synthesis/news/trump-tariffs-2026]]
-- [[index]]
+- [[wiki/index]]
 - [[sources/news/2026/us-trade-court-tariff-ruling-may-2026]]
 - [[trump-tariffs-2026]]
 

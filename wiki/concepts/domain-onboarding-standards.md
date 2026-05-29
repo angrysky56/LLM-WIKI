@@ -18,7 +18,7 @@ Domain onboarding standards refer to the entry protocols and competency requirem
 ## Connections
 - [[concepts/domain-onboarding-standards]]
 - [[scratchpad/jobs/reports/librarian/audit-2026-05-23]]
-- [[index]]
+- [[wiki/index]]
 - [[log]]
 - [[domain-onboarding-standards]]
 

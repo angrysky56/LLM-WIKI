@@ -20,7 +20,7 @@ confidence: 0.9
 - [[concepts/alpha]]
 - [[concepts/beta]]
 - [[concepts/delta]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/gamma]]
 - [[log]]
 - [[concepts/omcd]]

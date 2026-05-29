@@ -48,7 +48,7 @@ Menin is a protein in the **hypothalamus** that suppresses neuroinflammation. As
 - The Gemini conversation captures a lay summary — original research paper not ingested
 
 ## Connections
-- [[index]]
+- [[wiki/index]]
 - [[entities/longevity-research]]
 - [[entities/hypothalamus]]
 - [[sources/articles/menin-d-serine-hypothalamus-anti-aging]]

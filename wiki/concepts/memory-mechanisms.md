@@ -15,7 +15,7 @@ confidence: 0.3
 
 ## Connections
 - [[concepts/working-memory]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/mop-architecture]]
 - [[concepts/titans-test-time-memory]]
 - [[log]]

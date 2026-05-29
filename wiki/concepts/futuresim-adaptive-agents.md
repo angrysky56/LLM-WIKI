@@ -18,7 +18,7 @@ confidence: 0.3
 - [[concepts/futuresim-adaptive-agents]]
 - [[concepts/world-model]]
 - [[concepts/agentic-research]]
-- [[index]]
+- [[wiki/index]]
 - [[sources/papers/forecasting-scientific-progress-ai-2026]]
 - [[concepts/cognitive-world-models-for-llm-agents]]
 - [[log]]

@@ -47,7 +47,7 @@ upstream/main
 ```
 
 ## Connections
-- [[index]]
+- [[wiki/index]]
 - [[sources/documentation/hermes-path-forward]]
 - [[hermes-path-forward]]
 

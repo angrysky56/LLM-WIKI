@@ -88,7 +88,7 @@ Process evaluation is harder but more robust to spec gaming — a model can get 
 - [[concepts/reward-hacking]]
 - [[concepts/evaluation]]
 - [[concepts/process-reward-model]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/benchmarking]]
 - [[concepts/benchmark]]
 - [[concepts/institutional-capture]]

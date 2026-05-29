@@ -16,7 +16,7 @@ The 216-entity cluster centers on a coherent topic around Francesca Albanese and
 
 ## Related
 - [[synthesis/insights/albanese-sanctions-divergence-insight]]
-- [[index]]
+- [[wiki/index]]
 
 - [[albanese-sanctions-divergence-insight]]
 

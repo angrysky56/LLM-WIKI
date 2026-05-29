@@ -37,7 +37,7 @@ Kanban is a lean method for managing and improving work across human systems, or
 
 ## Connections
 - [[sources/articles/kanban-development]]
-- [[index]]
+- [[wiki/index]]
 - [[scratchpad/agent-sheets/librarian/carryover]]
 - [[kanban-development]]
 

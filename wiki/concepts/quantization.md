@@ -28,7 +28,7 @@ See [[parameter-efficient-fine-tuning]] for how quantization combines with LoRA 
 - [[concepts/parameter-efficient-fine-tuning]]
 - [[concepts/qora]]
 - [[log]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/quantization]]
 - [[quantization]]
 

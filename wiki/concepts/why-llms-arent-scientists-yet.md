@@ -16,7 +16,7 @@ confidence: 0.3
 ## Connections
 - [[entities/tools/claude-code]]
 - [[concepts/agentic-research]]
-- [[index]]
+- [[wiki/index]]
 - [[entities/people/dhruv-trehan]]
 - [[log]]
 - [[concepts/why-llms-arent-scientists-yet]]

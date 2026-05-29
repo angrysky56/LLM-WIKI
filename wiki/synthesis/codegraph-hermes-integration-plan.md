@@ -299,7 +299,7 @@ delegate_task(task) → execute → verify(output) →
 
 ## Related
 - [[synthesis/codegraph-hermes-integration-plan]]
-- [[index]]
+- [[wiki/index]]
 
 - [[codegraph-hermes-integration-plan]]
 

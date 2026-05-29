@@ -20,7 +20,7 @@ confidence: 0.3
 - [[synthesis/news/us-senate]]
 - [[entities/people/cassidy]]
 - [[entities/people/thomas-massie]]
-- [[index]]
+- [[wiki/index]]
 - [[us-senate]]
 
 - [[us-politics]]

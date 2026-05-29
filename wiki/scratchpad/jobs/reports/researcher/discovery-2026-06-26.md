@@ -45,7 +45,7 @@ Maps onto the MOP-EFHF stack explicitly (L2 = hipai-montague = cognitive world m
 - The new cognitive world models page introduces a **belief graph** concept (Layer 1) that doesn't exist elsewhere in the vault. No concept page for belief graphs or belief revision specifically.
 
 ## Related
-- [[index]]
+- [[wiki/index]]
 - [[scratchpad/jobs/reports/researcher/discovery-2026-06-26]]
 
 - [[discovery-2026-06-26]]

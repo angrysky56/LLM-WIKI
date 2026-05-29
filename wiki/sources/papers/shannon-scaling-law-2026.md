@@ -98,7 +98,7 @@ This reconciles the apparent contradiction: monotonic pretraining curves are a *
 
 ## Related
 - [[sources/papers/shannon-scaling-law-2026]]
-- [[index]]
+- [[wiki/index]]
 
 - [[shannon-scaling-law-2026]]
 

@@ -15,7 +15,7 @@ confidence: 0.3
 
 ## Connections
 - [[synthesis/news/healthcare]]
-- [[index]]
+- [[wiki/index]]
 - [[synthesis/news/medical-research]]
 - [[synthesis/news/biomedical-research]]
 - [[biomedical-research]]

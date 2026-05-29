@@ -29,7 +29,7 @@ A sound methodology ensures that the findings are valid, reliable, and reproduci
 - [[concepts/science]]
 - [[sources/articles/critical-review-scientific-article-guide]]
 - [[concepts/methodology]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/critical-analysis]]
 - [[concepts/scientific-method]]
 - [[log]]

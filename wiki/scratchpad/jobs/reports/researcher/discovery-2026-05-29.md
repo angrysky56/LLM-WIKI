@@ -41,7 +41,7 @@ tags: [researcher, report]
 - Key architectural insight: governance embedded in the system as a load-bearing layer rather than applied as an external overlay
 
 ## Related
-- [[index]]
+- [[wiki/index]]
 - [[scratchpad/jobs/reports/researcher/discovery-2026-05-29]]
 
 - [[discovery-2026-05-29]]

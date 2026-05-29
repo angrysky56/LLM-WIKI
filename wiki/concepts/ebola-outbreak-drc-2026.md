@@ -105,7 +105,7 @@ The concept of "ETC attacks driving patients into rebel-held territory" is confi
 - [[sources/news/2026/ebola-bundibugyo-who-ec-recommendations-follow-up-may-2026]]
 - [[sources/news/2026/ebola-outbreak-drc-uganda-pheic-2026]]
 - [[sources/news/2026/ebola-plane-divert-2026]]
-- [[index]]
+- [[wiki/index]]
 - [[ebola-outbreak-drc-2026]]
 
 - [[public-health-governance]] — PHEIC/IHR framework and Emergency Committee process

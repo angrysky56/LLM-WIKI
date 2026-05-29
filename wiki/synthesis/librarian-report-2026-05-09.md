@@ -211,7 +211,7 @@ Sample: "five", "Obsidian", "thousands", "three", "10-15", "two", "5", "Hotkeys"
 
 
 ## Related
-- [[index]]
+- [[wiki/index]]
 - [[synthesis/librarian-report-2026-05-09]]
 
 - [[librarian-report-2026-05-09]]

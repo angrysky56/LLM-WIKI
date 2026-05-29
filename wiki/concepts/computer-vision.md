@@ -17,7 +17,7 @@ confidence: 0.3
 - [[concepts/image-understanding]]
 - [[concepts/visual-recognition]]
 - [[concepts/llm-vision]]
-- [[index]]
+- [[wiki/index]]
 - [[log]]
 - [[concepts/computer-vision]]
 - [[computer-vision]]

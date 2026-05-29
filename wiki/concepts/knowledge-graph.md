@@ -15,7 +15,7 @@ confidence: 0.3
 
 ## Connections
 - [[concepts/knowledge-graph]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/graph-theory]]
 - [[log]]
 - [[concepts/graph-database]]

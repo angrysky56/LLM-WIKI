@@ -122,7 +122,7 @@ The intelligence is in the pruning: a PRM with 85% accuracy on step-level correc
 - [[concepts/evaluation]]
 - [[scratchpad/jobs/reports/researcher/discovery-2026-05-21]]
 - [[concepts/constitutional-ai]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/hybrid-reward-models]]
 - [[concepts/bradley-terry]]
 - [[concepts/multi-agent-reasoning]]

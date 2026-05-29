@@ -27,7 +27,7 @@ The timing is notable: while the China-Cuba tensions (from carryover) represent 
 
 ## Connections
 - [[sources/news/2026/trump-taiwan-call-2026]]
-- [[index]]
+- [[wiki/index]]
 - [[trump-taiwan-call-2026]]
 - [[china-cuba-tensions]] — both represent challenges to Chinese sphere-of-influence claims
 - [[institutional-capture-vs-species-framing]] — Trump as figure operating outside institutional norms creates novel governance scenarios

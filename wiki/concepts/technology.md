@@ -15,7 +15,7 @@ confidence: 0.3
 
 ## Connections
 - [[concepts/engineering]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/innovation]]
 - [[concepts/technology]]
 - [[technology]]

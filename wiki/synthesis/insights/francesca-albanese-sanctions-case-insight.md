@@ -24,7 +24,7 @@ This clustering reveals that 'challenges' in the knowledge graph isn't generic f
 - **UN role** — Special rapporteur on human rights in the Palestinian territories; issued reports documenting ongoing genocide in Gaza.
 
 ## Connections
-- [[index]]
+- [[wiki/index]]
 - [[synthesis/insights/francesca-albanese-sanctions-case-insight]]
 - [[francesca-albanese-sanctions-case-insight]]
 

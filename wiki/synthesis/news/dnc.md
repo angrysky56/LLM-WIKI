@@ -17,7 +17,7 @@ confidence: 0.3
 - [[log]]
 - [[synthesis/news/us-politics]]
 - [[synthesis/news/dnc]]
-- [[index]]
+- [[wiki/index]]
 - [[sources/news/2026-05/dnc-2024-autopsy-2026-05-22]]
 - [[dnc]]
 

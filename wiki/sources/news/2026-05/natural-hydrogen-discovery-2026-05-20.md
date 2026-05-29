@@ -39,7 +39,7 @@ This discovery also validates geological hydrogen as a real and potentially abun
 - **Advantage**: No manufacturing process required; potentially lowest-cost clean hydrogen
 
 ## Connections
-- [[index]]
+- [[wiki/index]]
 - [[synthesis/news/2026-may/news-2026-05-20-headlines]]
 - [[sources/news/2026-05/natural-hydrogen-discovery-2026-05-20]]
 - [[natural-hydrogen-discovery-2026-05-20]]

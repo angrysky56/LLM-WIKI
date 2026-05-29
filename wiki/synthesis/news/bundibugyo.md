@@ -15,7 +15,7 @@ confidence: 0.3
 
 ## Connections
 - [[sources/news/how-worrying-is-the-ebola-outbreak-in-dr-congo]]
-- [[index]]
+- [[wiki/index]]
 - [[synthesis/news/bundibugyo]]
 - [[log]]
 - [[synthesis/news/dr-congo]]

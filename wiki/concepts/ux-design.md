@@ -17,7 +17,7 @@ confidence: 0.3
 - [[concepts/ux-design]]
 - [[log]]
 - [[concepts/information-architecture]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/interaction-design]]
 - [[concepts/human-computer-interaction]]
 - [[ux-design]]

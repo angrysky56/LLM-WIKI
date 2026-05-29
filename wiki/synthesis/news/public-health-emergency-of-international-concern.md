@@ -16,7 +16,7 @@ confidence: 0.3
 ## Connections
 - [[synthesis/news/public-health-emergency-of-international-concern]]
 - [[log]]
-- [[index]]
+- [[wiki/index]]
 - [[sources/news/who-declares-ebola-outbreak-in-dr-congo-an-international-eme]]
 - [[public-health-emergency-of-international-concern]]
 

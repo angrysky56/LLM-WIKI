@@ -20,7 +20,7 @@ The DR Congo Ebola outbreak is concerning not because of raw case numbers but be
 
 ## Connections
 - [[sources/news/how-worrying-is-the-ebola-outbreak-in-dr-congo]]
-- [[index]]
+- [[wiki/index]]
 - [[sources/news/who-declares-ebola-outbreak-in-dr-congo-an-international-eme]]
 
 - [[ebola]] — the disease

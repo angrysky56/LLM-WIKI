@@ -27,7 +27,7 @@ confidence: 0.3
 - [[sources/articles/eu-us-trade-deal-2029-expiry-may-2026]]
 - [[synthesis/news/trump-tariffs-2026]]
 - [[sources/articles/spacex-ipo-governance-questions-may-2026]]
-- [[index]]
+- [[wiki/index]]
 - [[synthesis/news/us-china-trade]]
 - [[trump-tariffs]]
 

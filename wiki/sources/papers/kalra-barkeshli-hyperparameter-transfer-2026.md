@@ -42,7 +42,7 @@ The paper develops a **framework to quantify hyperparameter transfer** through t
 
 ## Connections
 - [[sources/papers/kalra-barkeshli-hyperparameter-transfer-2026]]
-- [[index]]
+- [[wiki/index]]
 - [[kalra-barkeshli-hyperparameter-transfer-2026]]
 
 - [[ml-evolution]] — hyperparameter transfer is foundational to autonomous model evolution (e.g. AlphaEvolve); understanding what's actually being transferred matters for MGA design

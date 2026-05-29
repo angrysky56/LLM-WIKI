@@ -68,7 +68,7 @@ CoLLM-NAS is a core instance of the Guided ML Evolution paradigm from the [[ml-e
 The dual-LLM design also parallels [[agent-architectures]] where deliberative and reactive layers are separated.
 
 ## Connections
-- [[index]]
+- [[wiki/index]]
 - [[concepts/llama-nas]]
 - [[concepts/rz-nas]]
 - [[scratchpad/jobs/reports/researcher/discovery-2026-08-03]]

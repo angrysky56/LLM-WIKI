@@ -89,7 +89,7 @@ Specific MOP architecture decisions (layer count, update policies, retention bud
 - [[concepts/epistemic-energy]]
 - [[concepts/control-llm]]
 - [[sources/papers/bae-lmac-2026]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/catastrophic-forgetting]]
 - [[concepts/maximum-occupancy-principle]]
 - [[concepts/mop-architecture]]

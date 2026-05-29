@@ -15,7 +15,7 @@ confidence: 0.3
 
 ## Connections
 - [[log]]
-- [[index]]
+- [[wiki/index]]
 - [[sources/news/2026/quantum-supremacy-overturned-d-wave-may-2026]]
 - [[concepts/quantum-computing]]
 - [[quantum-computing]]

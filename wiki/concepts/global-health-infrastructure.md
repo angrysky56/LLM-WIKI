@@ -15,7 +15,7 @@ confidence: 0.3
 
 ## Connections
 - [[log]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/global-health-infrastructure]]
 - [[sources/news/2026/ebola-bundibugyo-outbreak-drc-uganda-2026]]
 - [[concepts/maximum-occupancy-principle]]

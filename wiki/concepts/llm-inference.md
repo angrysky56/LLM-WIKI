@@ -103,7 +103,7 @@ The decision of how much inference compute to spend depends on the error cost vs
 
 ## Connections
 - [[concepts/llm-inference]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/namm]]
 - [[concepts/model-serving]]
 - [[log]]

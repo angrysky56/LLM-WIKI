@@ -67,7 +67,7 @@ This makes Control LLM complementary to regularization approaches — EWC could 
 ## Connections
 - [[sources/articles/ml-evolution-benchmarking-protocol]]
 - [[concepts/control-llm]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/catastrophic-forgetting]]
 - [[concepts/llm-training]]
 - [[concepts/namm]]

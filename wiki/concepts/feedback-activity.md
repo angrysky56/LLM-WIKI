@@ -23,7 +23,7 @@ In traditional models, feedback activity was thought to "drive" neurons in the s
 - [[concepts/spontaneous-activity-reshaping-hypothesis]]
 - [[concepts/feedforward-activity]]
 - [[concepts/feedback-activity]]
-- [[index]]
+- [[wiki/index]]
 - [[feedback-activity]]
 
 - **Related:** [[feedforward-activity]], [[spontaneous-activity-reshaping-hypothesis]]

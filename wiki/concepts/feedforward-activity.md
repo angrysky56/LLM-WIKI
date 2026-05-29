@@ -25,7 +25,7 @@ confidence: 0.9
 - [[concepts/feedforward-activity]]
 - [[log]]
 - [[concepts/feedback-activity]]
-- [[index]]
+- [[wiki/index]]
 - [[feedforward-activity]]
 
 - **Related:** [[feedback-activity]], [[spontaneous-activity-reshaping-hypothesis]]

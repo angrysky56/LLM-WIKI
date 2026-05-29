@@ -73,7 +73,7 @@ The [[hermes-agent]] framework provides infrastructure for building code agents:
 - [[concepts/code-agent]]
 - [[concepts/code-generation]]
 - [[concepts/agentic-research]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/benchmark]]
 - [[code-agent]]
 

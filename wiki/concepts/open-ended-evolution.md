@@ -48,7 +48,7 @@ Most evolutionary simulations plateau. Fitness functions, once optimized, stop d
 - [[concepts/eml-operator]]
 - [[concepts/artificial-life]]
 - [[concepts/emergence]]
-- [[index]]
+- [[wiki/index]]
 - [[sources/articles/llm-kernel-optimization]]
 - [[concepts/open-ended-evolution]]
 - [[log]]

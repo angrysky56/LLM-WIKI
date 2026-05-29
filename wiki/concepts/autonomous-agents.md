@@ -83,7 +83,7 @@ The tension in autonomous agent design: **more autonomy creates more capability 
 - [[concepts/agentic-oversight]]
 - [[concepts/llm-agents]]
 - [[concepts/bounded-structured-memory]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/agents]]
 - [[concepts/agentic-planner]]
 - [[log]]

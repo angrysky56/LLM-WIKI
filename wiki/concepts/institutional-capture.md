@@ -53,7 +53,7 @@ Institutional capture is one of the primary failure modes of large organizations
 - [[concepts/institutional-capture]]
 - [[log]]
 - [[concepts/agentic-oversight]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/benchmark]]
 - [[concepts/reward-modeling]]
 - [[concepts/governance]]

@@ -19,7 +19,7 @@ confidence: 0.3
 - [[synthesis/news/trump-endorsement-primary-dominance]]
 - [[sources/news/2026-05/trump-prayer-rally-2026-05-18]]
 - [[synthesis/news/republican-party]]
-- [[index]]
+- [[wiki/index]]
 - [[sources/news/2026-05/trump-approval-war-polling-2026-05-18]]
 - [[log]]
 - [[synthesis/news/trump-republican-party]]

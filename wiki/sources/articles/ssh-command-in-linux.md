@@ -24,7 +24,7 @@ Reference guide for SSH (Secure Shell) command usage in Linux. Covers basic conn
 
 ## Related
 - [[sources/articles/ssh-command-in-linux]]
-- [[index]]
+- [[wiki/index]]
 
 - [[ssh-command-in-linux]]
 

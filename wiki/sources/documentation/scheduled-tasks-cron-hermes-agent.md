@@ -47,7 +47,7 @@ Scripts can run on a schedule with zero LLM involvement. The script's stdout is 
 Cron-run sessions cannot recursively create more cron jobs. Hermes disables cron management tools inside cron executions to prevent runaway scheduling loops.
 
 ## Connections
-- [[index]]
+- [[wiki/index]]
 - [[sources/documentation/scheduled-tasks-cron-hermes-agent]]
 - [[sources/documentation/kanban-multi-agent-board-hermes-agent]]
 - [[sources/documentation/profiles-running-multiple-agents]]

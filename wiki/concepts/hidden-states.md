@@ -32,7 +32,7 @@ Research has shown that LLM hidden states contain "inner knowledge"—a represen
 - [[concepts/inference-time-compute-scaling]]
 - [[concepts/elhsr]]
 - [[concepts/process-reward-model]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/critical-analysis]]
 - [[log]]
 - [[concepts/kv-cache]]

@@ -12,11 +12,11 @@ tags: [overseer, carryover]
 - timestamp: 2026-05-27 (system date used — prior frontmatter `updated: 2026-08-10` was hallucinated)
 
 ## Related
-- [[index]]
+- [[wiki/index]]
 - [[scratchpad/agent-sheets/librarian/carryover]]
 - [[scratchpad/agent-sheets/overseer/carryover]]
 
-- [[carryover]]
+- [[wiki/scratchpad/agent-sheets/overseer/carryover]]
 
 ## Notes for Next Cycle
 - news agent is ACTIVE — its carryover shows `updated: 2026-05-28T08:00:00Z`, not STALE

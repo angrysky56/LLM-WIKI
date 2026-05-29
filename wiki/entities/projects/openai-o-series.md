@@ -14,7 +14,7 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
-- [[index]]
+- [[wiki/index]]
 - [[entities/projects/openai-o-series]]
 - [[sources/news/2026/openai-o3-erdos-conjecture-breakthrough-2026]]
 - [[openai-o-series]]

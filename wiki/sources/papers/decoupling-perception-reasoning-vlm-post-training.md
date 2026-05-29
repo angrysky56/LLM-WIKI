@@ -32,7 +32,7 @@ The proposed solution is a decoupling strategy: train the perception module and 
 The wiki's VLM research thread has been tracking chain-of-thought as a key reasoning pattern. This paper provides an important corrective: CoT is not unconditionally beneficial for VLMs. For our [[chain-of-thought]] concept page, this adds a nuanced boundary condition — CoT helps reasoning tasks but hurts perceptual ones. Also relevant to [[titans]] research (test-time memory), as the decoupling mechanism has implications for how VLMs should allocate compute at inference time.
 
 ## Connections
-- [[index]]
+- [[wiki/index]]
 - [[sources/papers/decoupling-perception-reasoning-vlm-post-training]]
 - [[decoupling-perception-reasoning-vlm-post-training]]
 - [[chain-of-thought]]

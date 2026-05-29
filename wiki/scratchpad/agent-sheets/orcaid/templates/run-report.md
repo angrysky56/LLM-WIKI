@@ -14,7 +14,7 @@
 
 ## Related
 - [[scratchpad/agent-sheets/orcaid/templates/run-report]]
-- [[index]]
+- [[wiki/index]]
 
 - [[run-report]]
 

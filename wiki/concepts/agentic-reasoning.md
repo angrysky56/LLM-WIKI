@@ -69,7 +69,7 @@ Sequential workflows (DAG-based) assume all steps are known upfront. ReAct is us
 - [[concepts/maximum-occupancy-principle]]
 - [[concepts/multi-agent-reasoning]]
 - [[log]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/agentic-reasoning]]
 - [[concepts/hybrid-agents]]
 - [[agentic-reasoning]]

@@ -14,7 +14,7 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
-- [[index]]
+- [[wiki/index]]
 - [[synthesis/news/ai-disruption-work]]
 - [[sources/news/2026/california-ai-worker-protection-may-2026]]
 - [[ai-disruption-work]]

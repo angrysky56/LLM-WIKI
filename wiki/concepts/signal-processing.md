@@ -16,7 +16,7 @@ confidence: 0.3
 ## Connections
 - [[concepts/digital-systems]]
 - [[concepts/pattern-recognition]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/digital-signal-processing]]
 - [[log]]
 - [[concepts/signal-processing]]

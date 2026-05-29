@@ -27,7 +27,7 @@ See [[generative-ai]] for comparison with autoregressive transformers, VAEs, and
 ## See Also
 - [[concepts/diffusion-models]]
 - [[concepts/generative-ai]]
-- [[index]]
+- [[wiki/index]]
 - [[log]]
 - [[diffusion-models]]
 

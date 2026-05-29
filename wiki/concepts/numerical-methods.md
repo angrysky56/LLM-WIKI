@@ -15,7 +15,7 @@ confidence: 0.3
 
 ## Connections
 - [[concepts/optimization]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/numerical-methods]]
 - [[concepts/scientific-computing]]
 - [[numerical-methods]]

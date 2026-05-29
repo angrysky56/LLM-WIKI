@@ -17,7 +17,7 @@ confidence: 0.3
 - [[concepts/github-actions-troubleshooting]]
 - [[log]]
 - [[entities/tools/prover9]]
-- [[index]]
+- [[wiki/index]]
 - [[github-actions-troubleshooting]]
 
 - [[devops]]

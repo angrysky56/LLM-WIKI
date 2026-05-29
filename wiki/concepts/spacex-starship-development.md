@@ -16,7 +16,7 @@ confidence: 0.3
 ## Connections
 - [[entities/projects/spacex]]
 - [[concepts/maximum-occupancy-principle]]
-- [[index]]
+- [[wiki/index]]
 - [[sources/news/2026/spacex-starship-v3-launch-may-2026]]
 - [[log]]
 - [[concepts/spacex-starship-development]]

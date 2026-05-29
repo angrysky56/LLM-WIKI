@@ -215,7 +215,7 @@ SD-Search trades these multi-stage external pipelines for a single in-loop overh
 
 ## Connections
 - [[concepts/sd-search]]
-- [[index]]
+- [[wiki/index]]
 - [[sources/papers/ma-sd-search-2026]]
 - [[ma-sd-search-2026]]
 

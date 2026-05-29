@@ -17,7 +17,7 @@ confidence: 0.3
 - [[log]]
 - [[sources/repositories/tabpfn]]
 - [[concepts/shap]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/maximum-occupancy-principle]]
 - [[shap]]
 

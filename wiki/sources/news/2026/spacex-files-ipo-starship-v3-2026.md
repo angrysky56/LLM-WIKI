@@ -40,7 +40,7 @@ confidence: 0.95
 
 ## Connections
 - [[sources/news/2026/spacex-files-ipo-starship-v3-2026]]
-- [[index]]
+- [[wiki/index]]
 - [[spacex-files-ipo-starship-v3-2026]]
 
 - [[spacex-ipo-spcx-2026]]: IPO filing and V3 test — valuation directly tied to Starship success

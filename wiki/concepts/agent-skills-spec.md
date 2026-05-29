@@ -16,7 +16,7 @@ confidence: 0.3
 ## Connections
 - [[sources/documentation/paperclip-company-spec]]
 - [[concepts/agent-skills-spec]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/maximum-occupancy-principle]]
 - [[log]]
 - [[agent-skills-spec]]

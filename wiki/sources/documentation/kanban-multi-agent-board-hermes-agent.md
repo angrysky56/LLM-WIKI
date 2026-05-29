@@ -56,7 +56,7 @@ Workers that fail to heartbeat within the configured timeout are assumed dead. T
 
 ## Connections
 - [[sources/documentation/profiles-running-multiple-agents]]
-- [[index]]
+- [[wiki/index]]
 - [[scratchpad/agent-sheets/librarian/carryover]]
 - [[sources/documentation/scheduled-tasks-cron-hermes-agent]]
 - [[sources/documentation/kanban-multi-agent-board-hermes-agent]]

@@ -43,7 +43,7 @@ The most significant 2026 breakthrough in longevity research establishes the hyp
 This discovery places the hypothalamus as both a sensor and regulator of biological aging pace.
 
 ## Connections
-- [[index]]
+- [[wiki/index]]
 - [[entities/longevity-research]]
 - [[entities/hypothalamus]]
 - [[sources/articles/menin-d-serine-hypothalamus-anti-aging]]

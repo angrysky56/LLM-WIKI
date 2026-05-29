@@ -50,7 +50,7 @@ The model combines:
 - [[concepts/openpraparat]]
 - [[concepts/artificial-life]]
 - [[concepts/emergence]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/open-ended-evolution]]
 - [[openpraparat]]
 

@@ -33,7 +33,7 @@ Good: `delegate_task(goal="Fix TypeError in api/handlers.py", context="Line 47: 
 
 ## Connections
 - [[sources/documentation/subagent-delegation-hermes-agent]]
-- [[index]]
+- [[wiki/index]]
 - [[sources/documentation/persistent-goals-hermes-agent]]
 - [[subagent-delegation-hermes-agent]]
 

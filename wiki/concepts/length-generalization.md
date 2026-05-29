@@ -76,7 +76,7 @@ Length generalization failures directly impact the reliability of long-horizon a
 - [[concepts/language-evolution]]
 - [[log]]
 - [[concepts/load-bearing-reasoning]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/chain-of-thought]]
 - [[concepts/titans]]
 - [[concepts/transformer-architecture]]

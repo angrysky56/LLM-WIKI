@@ -50,7 +50,7 @@ A pattern where an LLM retrieves relevant document chunks from a vector store at
 - [[concepts/rag]]
 - [[entities/projects/project-synapse]]
 - [[entities/people/andrej-karpathy]]
-- [[index]]
+- [[wiki/index]]
 - [[synthesis/causal-state-edm-ood-isomorphism]]
 - [[synthesis/wiki-indexing-theory]]
 - [[concepts/persistent-knowledge-compilation]]

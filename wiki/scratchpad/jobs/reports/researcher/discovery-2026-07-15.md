@@ -85,7 +85,7 @@ The **PEFT cluster** is now healthy:
 
 ## Related
 - [[scratchpad/jobs/reports/researcher/discovery-2026-07-15]]
-- [[index]]
+- [[wiki/index]]
 
 - [[discovery-2026-07-15]]
 

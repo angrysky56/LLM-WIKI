@@ -15,7 +15,7 @@ confidence: 0.3
 
 ## Connections
 - [[concepts/delta-direct]]
-- [[index]]
+- [[wiki/index]]
 - [[log]]
 - [[concepts/llm-vision]]
 - [[concepts/vision-language-models]]

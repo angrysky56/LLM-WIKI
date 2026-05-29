@@ -14,7 +14,7 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
-- [[index]]
+- [[wiki/index]]
 - [[sources/repositories/graphify-ai-coding-assistant-skill]]
 - [[concepts/codebase-inspection]]
 - [[concepts/maximum-occupancy-principle]]

@@ -123,7 +123,7 @@ Multi-agent systems introduce failure modes that don't exist in single-agent set
 - [[concepts/hierarchical-supervisor]]
 - [[concepts/adversarial-training]]
 - [[concepts/agentic-research]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/categorical-reasoning]]
 - [[concepts/cognitive-world-models-for-llm-agents]]
 - [[concepts/delegation]]

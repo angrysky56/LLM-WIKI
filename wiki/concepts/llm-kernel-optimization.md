@@ -17,7 +17,7 @@ confidence: 0.3
 - [[concepts/symbolic-regression]]
 - [[concepts/maximum-occupancy-principle]]
 - [[concepts/eml-operator]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/open-ended-evolution]]
 - [[log]]
 - [[entities/projects/alphaevolve]]

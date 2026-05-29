@@ -51,7 +51,7 @@ A manager agent decomposes a complex goal into sub-goals, assigns each to a spec
 **Key failure mode**: The manager becomes the bottleneck and single point of failure. If the manager lacks the domain knowledge to decompose correctly, the specialists are solving the wrong problems.
 
 ## Connections
-- [[index]]
+- [[wiki/index]]
 - [[concepts/reasoning]]
 - [[concepts/multi-agent-reasoning]]
 - [[log]]

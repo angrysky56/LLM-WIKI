@@ -20,7 +20,7 @@ confidence: 0.9
 - [[concepts/agent-taxonomies]]
 - [[concepts/alpha]]
 - [[concepts/delta]]
-- [[index]]
+- [[wiki/index]]
 - [[delta]]
 
 - [[agent-taxonomies]]

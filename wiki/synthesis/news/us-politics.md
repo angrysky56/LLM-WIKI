@@ -15,7 +15,7 @@ confidence: 0.3
 
 ## Connections
 - [[synthesis/news/dnc]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/redistricting]]
 - [[entities/people/harris]]
 - [[log]]

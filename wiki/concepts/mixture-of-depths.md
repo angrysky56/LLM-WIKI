@@ -15,9 +15,9 @@ confidence: 0.3
 
 ## Connections
 - [[concepts/adaptive-computation]]
-- [[sources/mixture-of-recursions]]
+- [[mixture-of-recursions 1]]
 - [[log]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/scaling-laws]]
 - [[concepts/mixture-of-depths]]
 - [[mixture-of-depths]]

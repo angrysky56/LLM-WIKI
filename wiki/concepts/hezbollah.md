@@ -18,7 +18,7 @@ confidence: 0.3
 - [[synthesis/news/lebanon]]
 - [[concepts/hezbollah]]
 - [[sources/news/fpv-drone-strikes-show-hezbollahs-changing-tactics-against-i]]
-- [[index]]
+- [[wiki/index]]
 - [[hezbollah]]
 
 - [[drone-warfare]]

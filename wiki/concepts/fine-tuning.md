@@ -11,7 +11,7 @@ tags: []
 
 ## See Also
 - [[concepts/transfer-learning]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/parameter-efficient-fine-tuning]]
 - [[log]]
 - [[concepts/fine-tuning]]

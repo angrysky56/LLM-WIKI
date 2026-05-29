@@ -15,7 +15,7 @@ confidence: 0.3
 
 ## Connections
 - [[concepts/dynamical-systems]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/distributed-systems]]
 - [[log]]
 - [[concepts/complexity]]

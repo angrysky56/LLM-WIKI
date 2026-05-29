@@ -23,7 +23,7 @@ Dhruv Trehan is a researcher at Lossfunk. He co-authored [[why-llms-arent-scient
 - [[scratchpad/jobs/reports/librarian/audit-2026-05-21]]
 - [[entities/people/paras-chopra]]
 - [[entities/people/tyler-hall]]
-- [[index]]
+- [[wiki/index]]
 - [[sources/articles/why-llms-arent-scientists-yet]]
 - [[entities/people/dhruv-trehan]]
 - [[dhruv-trehan]]

@@ -17,7 +17,7 @@ confidence: 0.3
 - [[concepts/coordination]]
 - [[log]]
 - [[concepts/multi-agent-systems]]
-- [[index]]
+- [[wiki/index]]
 - [[multi-agent-systems]]
 
 - [[agents]]

@@ -38,7 +38,7 @@ European Centre for Disease Prevention and Control (ECDC) data reveals record le
 
 ## Related
 - [[sources/news/2026-05/sti-record-levels-europe-2026-05-21]]
-- [[index]]
+- [[wiki/index]]
 
 - [[sti-record-levels-europe-2026-05-21]]
 

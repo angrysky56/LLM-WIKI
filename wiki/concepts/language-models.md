@@ -16,7 +16,7 @@ confidence: 0.3
 ## Connections
 - [[concepts/language-models]]
 - [[concepts/natural-language-processing]]
-- [[index]]
+- [[wiki/index]]
 - [[log]]
 - [[language-models]]
 

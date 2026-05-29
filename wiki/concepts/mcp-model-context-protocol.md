@@ -84,7 +84,7 @@ The [[mcp-logic]] server is particularly central: it implements EFHF Layer 3 ver
 ## Connections
 - [[concepts/agentic-reasoning]]
 - [[concepts/maximum-occupancy-principle]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/mcp]]
 - [[sources/repositories/gbrain]]
 - [[log]]

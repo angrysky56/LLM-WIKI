@@ -76,7 +76,7 @@ A key tension in continual learning: do we learn by adding new weights (scaffold
 - [[concepts/group-relative-policy-optimization]]
 - [[concepts/qes]]
 - [[concepts/control-llm]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/catastrophic-forgetting]]
 - [[concepts/llm-training]]
 - [[concepts/parameter-efficient-fine-tuning]]

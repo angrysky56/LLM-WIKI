@@ -15,7 +15,7 @@ confidence: 0.3
 
 ## Connections
 - [[concepts/is-grep-all-you-need]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/llm-nlp]]
 - [[log]]
 - [[llm-nlp]]

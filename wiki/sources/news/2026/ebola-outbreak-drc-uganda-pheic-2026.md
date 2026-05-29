@@ -40,7 +40,7 @@ The World Health Organization declared the Ebola outbreak in the Democratic Repu
 - **CDC enhanced screening** at US airports for travelers from affected regions
 
 ## Connections
-- [[index]]
+- [[wiki/index]]
 - [[sources/news/2026/ebola-outbreak-drc-uganda-pheic-2026]]
 - [[ebola-outbreak-drc-uganda-pheic-2026]]
 

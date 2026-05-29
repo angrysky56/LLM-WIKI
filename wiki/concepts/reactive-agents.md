@@ -26,7 +26,7 @@ See [[agent-architectures]] for the full taxonomy comparison with deliberative, 
 
 ## See Also
 - [[concepts/hybrid-agents]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/agents]]
 - [[log]]
 - [[concepts/reactive-agents]]

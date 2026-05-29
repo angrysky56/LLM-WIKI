@@ -17,7 +17,7 @@ confidence: 0.3
 - [[synthesis/news/gaza-humanitarian-crisis]]
 - [[log]]
 - [[sources/israel-ben-gvir-flotilla-video]]
-- [[index]]
+- [[wiki/index]]
 - [[sources/us-sanctions-francesca-albanese]]
 - [[gaza-humanitarian-crisis]]
 

@@ -17,7 +17,7 @@ confidence: 0.3
 - [[concepts/agile]]
 - [[concepts/lean-manufacturing]]
 - [[sources/articles/kanban-development]]
-- [[index]]
+- [[wiki/index]]
 - [[log]]
 - [[lean-manufacturing]]
 

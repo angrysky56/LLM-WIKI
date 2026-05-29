@@ -25,7 +25,7 @@ The China-Cuba relationship exemplifies proxy signalling in the context of great
 - [[concepts/china-cuba-tensions]]
 - [[concepts/geopolitics]]
 - [[concepts/great-power-rivalry]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/institutional-capture]]
 - [[concepts/proxy-signalling]]
 - [[log]]

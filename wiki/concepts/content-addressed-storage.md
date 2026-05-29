@@ -17,7 +17,7 @@ confidence: 0.3
 - [[log]]
 - [[synthesis/nairobi-protocol-gde]]
 - [[concepts/content-addressed-storage]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/maximum-occupancy-principle]]
 - [[content-addressed-storage]]
 

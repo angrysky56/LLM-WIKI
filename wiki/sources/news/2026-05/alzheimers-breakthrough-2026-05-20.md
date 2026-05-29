@@ -37,7 +37,7 @@ Alzheimer's disease affects over 50 million people worldwide and represents one 
 ## Connections
 - [[synthesis/news/2026-may/news-2026-05-20-headlines]]
 - [[sources/news/2026-05/alzheimers-breakthrough-2026-05-20]]
-- [[index]]
+- [[wiki/index]]
 - [[alzheimers-breakthrough-2026-05-20]]
 
 - [[alzheimers-research]] — New mechanism for Alzheimer's pathology

@@ -16,7 +16,7 @@ confidence: 0.3
 ## Connections
 - [[concepts/github]]
 - [[concepts/version-control]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/git]]
 - [[git]]
 

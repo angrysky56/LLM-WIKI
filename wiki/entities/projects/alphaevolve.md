@@ -45,7 +45,7 @@ AlphaEvolve instantiates the [[minimal-generative-architectures]] pattern: minim
 Compared to [[utimula-openpraparat-2025]]: AlphaEvolve is *guided* evolution (has fitness function); OpenPraparat is *guideless* (natural selection only). Both use the same loop structure, but AlphaEvolve's LLM mutations are dramatically more efficient than random character flips.
 
 ## Connections
-- [[index]]
+- [[wiki/index]]
 - [[sources/articles/why-llms-arent-scientists-yet]]
 - [[concepts/mathematical-reasoning-ai]]
 - [[concepts/maximum-occupancy-principle]]

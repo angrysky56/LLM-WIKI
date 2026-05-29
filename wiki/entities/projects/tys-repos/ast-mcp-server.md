@@ -20,7 +20,7 @@ confidence: 1.0
 
 ## Connections
 - [[log]]
-- [[index]]
+- [[wiki/index]]
 - [[entities/projects/tys-repos]]
 - [[entities/projects/tys-repos/ast-mcp-server]]
 - [[ast-mcp-server]]

@@ -41,7 +41,7 @@ tags: [arxiv, report]
 
 ## Related
 - [[scratchpad/jobs/reports/arxiv/arxiv-2026-05-24-top-papers]]
-- [[index]]
+- [[wiki/index]]
 
 - [[arxiv-2026-05-24-top-papers]]
 

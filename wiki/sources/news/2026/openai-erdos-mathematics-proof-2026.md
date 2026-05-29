@@ -28,7 +28,7 @@ OpenAI's AI system successfully solved an **80-year-old Erdős problem**, markin
 - Scientifically significant but commercial AI challenges remain real
 
 ## Connections
-- [[index]]
+- [[wiki/index]]
 - [[sources/news/2026/openai-erdos-mathematics-proof-2026]]
 - [[openai-erdos-mathematics-proof-2026]]
 

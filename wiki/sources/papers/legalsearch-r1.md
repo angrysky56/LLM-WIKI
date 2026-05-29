@@ -47,7 +47,7 @@ LegalSearch-R1 addresses a fundamental failure mode in legal LLMs: **temporal in
 - [[grpo]] — GRPO training for reasoning agents (was in prior batch)
 
 ## Related
-- [[index]]
+- [[wiki/index]]
 - [[sources/papers/legalsearch-r1]]
 
 - [[legalsearch-r1]]

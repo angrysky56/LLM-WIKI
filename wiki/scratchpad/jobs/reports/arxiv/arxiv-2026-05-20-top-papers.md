@@ -38,7 +38,7 @@ All three share a **credit assignment in distributed/agentic systems** theme —
 
 ## Related
 - [[scratchpad/jobs/reports/arxiv/arxiv-2026-05-20-top-papers]]
-- [[index]]
+- [[wiki/index]]
 
 - [[arxiv-2026-05-20-top-papers]]
 

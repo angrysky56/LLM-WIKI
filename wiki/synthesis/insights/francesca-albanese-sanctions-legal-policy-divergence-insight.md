@@ -12,7 +12,7 @@ confidence: 0.85
 
 ## Related
 - [[concepts/governance]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/accountability]]
 - [[synthesis/insights/francesca-albanese-sanctions-legal-policy-divergence-insight]]
 

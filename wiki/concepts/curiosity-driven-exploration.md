@@ -15,7 +15,7 @@ confidence: 0.3
 
 ## Connections
 - [[concepts/curiosity-driven-exploration]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/maximum-occupancy-principle]]
 - [[sources/papers/recuriosity-episodic-context-3d-exploration-2026]]
 - [[log]]

@@ -60,7 +60,7 @@ CUA-GYM solves the RLVR data bottleneck for computer-use agents (CUAs) through a
 - [[bounded-representation-capacity]] — CUA RLVR data has finite verifiable capacity; environment diversity is a capacity axis distinct from data volume
 
 ## Related
-- [[index]]
+- [[wiki/index]]
 - [[sources/papers/cua-gym]]
 
 - [[cua-gym]]

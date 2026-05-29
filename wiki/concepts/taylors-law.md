@@ -76,7 +76,7 @@ The log-log linear form makes it easy to fit with linear regression, but the sam
 - [[concepts/allometric-scaling]]
 - [[concepts/neural-interpretability]]
 - [[sources/articles/language-evolution]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/taylors-law]]
 - [[taylors-law]]
 

@@ -15,7 +15,7 @@ confidence: 0.3
 
 ## Connections
 - [[concepts/signal-processing]]
-- [[index]]
+- [[wiki/index]]
 - [[log]]
 - [[concepts/digital-signal-processing]]
 - [[digital-signal-processing]]

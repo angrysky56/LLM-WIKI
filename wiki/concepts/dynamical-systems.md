@@ -68,7 +68,7 @@ The open question: Is the attractor landscape of transformer reasoning construct
 - [[log]]
 - [[concepts/attractor-dynamics]]
 - [[concepts/dynamical-systems]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/systems-theory]]
 - [[dynamical-systems]]
 

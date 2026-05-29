@@ -39,7 +39,7 @@ A comprehensive dialogue exploring the brain's language centers, their developme
 
 ## Connections
 - [[synthesis/llm-biological-analogies]]
-- [[index]]
+- [[wiki/index]]
 - [[sources/articles/brocas-area-gemini-chat]]
 - [[brocas-area-gemini-chat]]
 - [[brocas-area]]

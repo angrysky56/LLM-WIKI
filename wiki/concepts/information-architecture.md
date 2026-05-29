@@ -17,7 +17,7 @@ confidence: 0.3
 - [[concepts/knowledge-management]]
 - [[concepts/ux-design]]
 - [[concepts/information-architecture]]
-- [[index]]
+- [[wiki/index]]
 - [[information-architecture]]
 
 - [[knowledge-management]]

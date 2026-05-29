@@ -51,7 +51,7 @@ Filled from stub with connections only to mlops and inference-efficiency → now
 - **Next cycle intent**: Continue stub-first. Emerging cluster candidates: creativity (thin, links to parallel-reasoning), wolfram-nks-causal-networks (thin, connects to computational-irreducibility), creativity (links to parallel-reasoning now active).
 
 ## Related
-- [[index]]
+- [[wiki/index]]
 - [[scratchpad/jobs/reports/researcher/discovery-2026-07-01]]
 
 - [[discovery-2026-07-01]]

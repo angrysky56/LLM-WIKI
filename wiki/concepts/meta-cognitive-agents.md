@@ -29,7 +29,7 @@ See [[agent-architectures]] for the full taxonomy comparison with deliberative, 
 - [[log]]
 - [[concepts/meta-cognitive-agents]]
 - [[concepts/hybrid-agents]]
-- [[index]]
+- [[wiki/index]]
 - [[meta-cognitive-agents]]
 
 - [[epistemic-energy]]: the resource model that powers meta-cognitive regulation

@@ -107,7 +107,7 @@ Code generation requires multiple reasoning modes:
 - [[concepts/load-bearing-reasoning]]
 - [[concepts/code-agent]]
 - [[concepts/code-generation]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/benchmark]]
 - [[concepts/mcts]]
 - [[code-generation]]

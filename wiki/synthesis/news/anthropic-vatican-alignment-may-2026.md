@@ -34,7 +34,7 @@ Vance vs. other Trump officials on the encyclical signals the administration's A
 - Whether Vance is positioning himself as a more multilateral voice within the administration
 
 ## Connections
-- [[index]]
+- [[wiki/index]]
 - [[synthesis/news/anthropic-vatican-alignment-may-2026]]
 - [[anthropic-vatican-alignment-may-2026]]
 

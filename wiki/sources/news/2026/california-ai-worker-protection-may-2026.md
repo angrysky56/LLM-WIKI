@@ -29,7 +29,7 @@ California is now the de facto national AI policy leader as federal oversight re
 
 ## Connections
 - [[sources/news/2026/california-ai-worker-protection-may-2026]]
-- [[index]]
+- [[wiki/index]]
 - [[california-ai-worker-protection-may-2026]]
 - [[AI-policy-federalism]] — state-federal divergence accelerating
 - [[California-tech-leadership]] — California as AI policy leader

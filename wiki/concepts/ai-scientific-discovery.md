@@ -36,7 +36,7 @@ confidence: 0.3
 - [[sources/news/2026/spacex-ipo-june-12-2026]]
 - [[sources/news/2026/openai-erdos-mathematics-proof-2026]]
 - [[concepts/agentic-research]]
-- [[index]]
+- [[wiki/index]]
 - [[ai-scientific-discovery]]
 
 - [[agentic-research]]

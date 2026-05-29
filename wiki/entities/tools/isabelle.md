@@ -71,7 +71,7 @@ This is unique among major proof assistants — Coq is tied to CIC, Lean to its 
 - [[concepts/load-bearing-reasoning]]
 - [[concepts/formal-verification]]
 - [[entities/tools/prover9]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/category-theory]]
 - [[entities/tools/isabelle]]
 - [[concepts/proof-assistant]]

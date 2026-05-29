@@ -27,7 +27,7 @@ The James Webb Space Telescope is currently observing galaxies that formed appro
 - SciTechDaily: "Astronomers Stunned by Ancient Galaxy With No Spin"
 
 ## Related
-- [[index]]
+- [[wiki/index]]
 - [[sources/news/2026-05/jwst-early-galaxies-2026-05-17]]
 - [[synthesis/news/2026-may/news-2026-05-18-headlines]]
 - [[jwst-early-galaxies-2026-05-17]]

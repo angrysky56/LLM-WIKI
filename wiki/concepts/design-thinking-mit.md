@@ -15,7 +15,7 @@ confidence: 0.3
 
 ## Connections
 - [[concepts/para-methodology]]
-- [[index]]
+- [[wiki/index]]
 - [[sources/documentation/obsidian-para-byarbrough]]
 - [[concepts/design-thinking]]
 - [[concepts/design-thinking-mit]]

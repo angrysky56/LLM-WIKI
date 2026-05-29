@@ -18,7 +18,7 @@ confidence: 0.3
 - [[log]]
 - [[concepts/recuriosity-episodic-context-3d-exploration-2026]]
 - [[concepts/episodic-memory]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/maximum-occupancy-principle]]
 - [[episodic-memory]]
 

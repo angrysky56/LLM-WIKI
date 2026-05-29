@@ -16,7 +16,7 @@ confidence: 0.3
 ## Connections
 - [[synthesis/news/china-cuba-us-threats-2026-05-21]]
 - [[synthesis/news/south-china-sea]]
-- [[index]]
+- [[wiki/index]]
 - [[synthesis/news/us-china-trade]]
 - [[log]]
 - [[synthesis/news/china-cuba-us]]

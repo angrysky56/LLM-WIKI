@@ -21,7 +21,7 @@ confidence: 0.3
 
 ## Connections
 - [[concepts/zettelkasten]]
-- [[index]]
+- [[wiki/index]]
 - [[scratchpad/agent-sheets/librarian/carryover]]
 - [[concepts/para]]
 - [[log]]

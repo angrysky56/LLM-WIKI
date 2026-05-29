@@ -17,7 +17,7 @@ confidence: 0.3
 - [[concepts/momoa-researcher]]
 - [[concepts/research-agent]]
 - [[log]]
-- [[index]]
+- [[wiki/index]]
 - [[research-agent]]
 
 - [[autonomous-agents]]

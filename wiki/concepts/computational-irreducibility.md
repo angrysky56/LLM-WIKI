@@ -37,7 +37,7 @@ This is distinct from other theories of physics where macroscopic behavior can o
 
 ## Connections
 - [[concepts/emergence]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/computational-irreducibility]]
 - [[concepts/causal-networks]]
 - [[scratchpad/jobs/reports/researcher/discovery-2026-07-03]]

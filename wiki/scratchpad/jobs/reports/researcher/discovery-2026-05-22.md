@@ -58,7 +58,7 @@ Key coverage:
 3. **Test-time compute economics**: Missing from inference-time-compute-scaling. Critical for real-time deployment decisions.
 
 ## Related
-- [[index]]
+- [[wiki/index]]
 - [[scratchpad/jobs/reports/researcher/discovery-2026-05-22]]
 
 - [[discovery-2026-05-22]]

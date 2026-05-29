@@ -22,7 +22,7 @@
 
 ## Related
 - [[scratchpad/agent-sheets/news/templates/headlines-report]]
-- [[index]]
+- [[wiki/index]]
 
 - [[headlines-report]]
 

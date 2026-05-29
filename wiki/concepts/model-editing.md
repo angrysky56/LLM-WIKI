@@ -68,7 +68,7 @@ More general than ROME but with similar locality guarantees.
 ## Connections
 - [[concepts/model-editing]]
 - [[scratchpad/agent-sheets/researcher/carryover]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/activation-engineering]]
 - [[log]]
 - [[concepts/steering-vectors]]

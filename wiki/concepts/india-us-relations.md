@@ -14,7 +14,7 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
-- [[index]]
+- [[wiki/index]]
 - [[log]]
 - [[concepts/maximum-occupancy-principle]]
 - [[sources/news/2026/rubio-meets-modi-india-energy-may-2026]]

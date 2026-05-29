@@ -40,7 +40,7 @@ The White House has effectively signaled it will not pursue federal AI safety or
 - **May 22, 2026**: Trump administration abandons proposed AI executive order
 
 ## Connections
-- [[index]]
+- [[wiki/index]]
 - [[sources/news/2026/trump-ai-executive-order-abandoned-may-2026]]
 - [[trump-ai-executive-order-abandoned-may-2026]]
 

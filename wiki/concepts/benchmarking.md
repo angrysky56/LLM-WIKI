@@ -17,7 +17,7 @@ confidence: 0.3
 - [[concepts/ml-evolution-benchmarking-protocol]]
 - [[log]]
 - [[concepts/model-evaluation]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/benchmarking]]
 - [[concepts/evaluation]]
 - [[benchmarking]]

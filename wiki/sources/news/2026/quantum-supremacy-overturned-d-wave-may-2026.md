@@ -31,7 +31,7 @@ For AI implications: quantum computing has been proposed as a potential substrat
 
 ## Related
 - [[synthesis/news/2026-may/headlines-2026-05-25]]
-- [[index]]
+- [[wiki/index]]
 - [[sources/news/2026/quantum-supremacy-overturned-d-wave-may-2026]]
 
 - [[quantum-supremacy-overturned-d-wave-may-2026]]

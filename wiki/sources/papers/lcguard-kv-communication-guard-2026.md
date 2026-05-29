@@ -99,7 +99,7 @@ LCGuard adds minimal latency overhead:
 | PrivAct | Policy-level output constraints | Doesn't constrain latent representations; ASR unchanged |
 
 ## Connections
-- [[index]]
+- [[wiki/index]]
 - [[sources/papers/papers-2026-05-22-researched]]
 - [[sources/papers/lcguard-kv-communication-guard-2026]]
 - [[lcguard-kv-communication-guard-2026]]

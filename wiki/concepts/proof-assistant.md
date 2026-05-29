@@ -64,7 +64,7 @@ Proof assistants are relevant to AI alignment:
 - [[concepts/reward-hacking]]
 - [[concepts/formal-verification]]
 - [[concepts/mathematical-reasoning]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/proof-assistant]]
 - [[log]]
 - [[concepts/load-bearing-reasoning]]

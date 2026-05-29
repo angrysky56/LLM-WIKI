@@ -12,7 +12,7 @@ confidence: 0.85
 
 ## Related
 - [[synthesis/insights/titans-memory-efficiency-insight]]
-- [[index]]
+- [[wiki/index]]
 
 - [[titans-memory-efficiency-insight]]
 

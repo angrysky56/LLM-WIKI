@@ -27,7 +27,7 @@ President Trump is actively working to unseat Representative Thomas Massie, one 
 - USA Today: "'Total disaster.' Trump eyes Kentucky's Thomas Massie in latest MAGA purge"
 
 ## Related
-- [[index]]
+- [[wiki/index]]
 - [[sources/news/2026-05/trump-massie-primary-2026-05-17]]
 - [[synthesis/news/2026-may/news-2026-05-18-headlines]]
 - [[trump-massie-primary-2026-05-17]]

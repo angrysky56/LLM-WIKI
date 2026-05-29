@@ -26,7 +26,7 @@ Humans are an **altricial species**, meaning we are born helpless with many brai
 - [[concept-index]]
 - [[synthesis/llm-biological-analogies]]
 - [[concepts/myelination]]
-- [[index]]
+- [[wiki/index]]
 - [[sources/articles/brocas-area-gemini-chat]]
 - [[myelination]]
 - [[arcuate-fasciculus]]: Its myelination triggers the language explosion.

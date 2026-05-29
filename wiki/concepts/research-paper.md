@@ -16,7 +16,7 @@ confidence: 0.3
 ## Connections
 - [[sources/papers/bae-mor-2025]]
 - [[concepts/research-paper]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/academic-writing]]
 - [[log]]
 - [[concepts/scientific-writing]]

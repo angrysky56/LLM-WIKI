@@ -18,7 +18,7 @@ confidence: 0.3
 - [[sources/articles/emotion-concepts-llm]]
 - [[log]]
 - [[concepts/steering-vectors]]
-- [[index]]
+- [[wiki/index]]
 - [[steering-vectors]]
 
 - [[model-editing]]

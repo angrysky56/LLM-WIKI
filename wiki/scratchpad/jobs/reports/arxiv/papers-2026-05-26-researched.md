@@ -9,7 +9,7 @@ tags: [arxiv, report]
 # arxiv Research Report — 2026-05-26
 
 ## Related
-- [[index]]
+- [[wiki/index]]
 - [[scratchpad/jobs/reports/arxiv/papers-2026-05-26-researched]]
 
 - [[papers-2026-05-26-researched]]

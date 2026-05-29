@@ -75,7 +75,7 @@ Example principles:
 - [[scratchpad/jobs/reports/researcher/discovery-2026-05-22]]
 - [[log]]
 - [[concepts/process-reward-model]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/reward-modeling]]
 - [[concepts/reward-hacking]]
 - [[concepts/group-relative-policy-optimization]]

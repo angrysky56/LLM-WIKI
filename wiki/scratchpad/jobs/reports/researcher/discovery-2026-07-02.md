@@ -63,7 +63,7 @@ Confidence: 0.75 (hypothetical framework, empirical support still developing)
 - After: 339 stubs (net -2 from 2 upgrades this cycle)
 
 ## Related
-- [[index]]
+- [[wiki/index]]
 - [[scratchpad/jobs/reports/researcher/discovery-2026-07-02]]
 
 - [[discovery-2026-07-02]]

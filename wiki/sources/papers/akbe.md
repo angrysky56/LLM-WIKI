@@ -59,7 +59,7 @@ AKBE eliminates the accuracy-efficiency trade-off — it simultaneously improves
 
 ## Related
 - [[sources/papers/akbe]]
-- [[index]]
+- [[wiki/index]]
 
 - [[akbe]]
 

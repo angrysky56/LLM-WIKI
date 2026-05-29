@@ -81,7 +81,7 @@ RZ-NAS achieves the lowest evaluation cost (forward pass only) with the most sop
 - [[sources/articles/ml-evolution-benchmarking-protocol]]
 - [[concepts/ml-evolution]]
 - [[scratchpad/agent-sheets/researcher/carryover]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/llama-nas]]
 - [[rz-nas]]
 

@@ -26,7 +26,7 @@ The following facts formed the evidence chain for this insight:
 
 ## Related
 - [[synthesis/insights/para-system-cluster-insight]]
-- [[index]]
+- [[wiki/index]]
 
 - [[para-system-cluster-insight]]
 

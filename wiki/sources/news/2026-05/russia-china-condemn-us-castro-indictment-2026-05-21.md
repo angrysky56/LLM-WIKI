@@ -43,7 +43,7 @@ Beijing and Moscow rally behind Havana after the US indicted former Cuban leader
 
 ## Related
 - [[sources/news/2026-05/russia-china-condemn-us-castro-indictment-2026-05-21]]
-- [[index]]
+- [[wiki/index]]
 
 - [[russia-china-condemn-us-castro-indictment-2026-05-21]]
 

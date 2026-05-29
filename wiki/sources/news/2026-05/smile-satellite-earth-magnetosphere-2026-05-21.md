@@ -29,7 +29,7 @@ This connects to multiple threads in the wiki:
 The European-Chinese collaboration is also notable: despite geopolitical tensions, scientific cooperation continues on fundamental questions. This may reflect the universal human interest in understanding our protective environment.
 
 ## Connections
-- [[index]]
+- [[wiki/index]]
 - [[sources/news/2026-05/smile-satellite-earth-magnetosphere-2026-05-21]]
 - [[smile-satellite-earth-magnetosphere-2026-05-21]]
 - [[wolchover-life-force-2026]] — flagellar motor + entropic machinery

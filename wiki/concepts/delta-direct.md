@@ -18,7 +18,7 @@ confidence: 0.3
 - [[concepts/video-llm]]
 - [[concepts/motion-understanding]]
 - [[concepts/delta-direct]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/vision-language-alignment]]
 - [[delta-direct]]
 

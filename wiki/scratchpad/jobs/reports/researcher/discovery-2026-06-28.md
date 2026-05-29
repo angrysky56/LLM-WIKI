@@ -72,7 +72,7 @@ N/A — all 4 were upgrades from existing stubs
 **Stub count: 174** (down from 175 after this cycle's 3 upgrades + 0 deletions)
 
 ## Related
-- [[index]]
+- [[wiki/index]]
 - [[scratchpad/jobs/reports/researcher/discovery-2026-06-28]]
 
 - [[discovery-2026-06-28]]

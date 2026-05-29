@@ -80,7 +80,7 @@ Raw sources go into `raw/` → ingested via `synapse_mcp` → summary written to
 - [[synthesis/bounded-structured-memory]]
 - [[synthesis/synapse-llm-wiki-operating-guide]]
 - [[concepts/tag-taxonomy]]
-- [[index]]
+- [[wiki/index]]
 - [[synthesis/synapse-retrieval-architecture]]
 - [[synthesis/wiki-indexing-theory]]
 - [[concept-index]]

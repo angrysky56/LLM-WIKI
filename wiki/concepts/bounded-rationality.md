@@ -93,7 +93,7 @@ The EFHF five-layer architecture implements bounded rationality structurally:
 - [[concepts/epistemic-energy]]
 - [[concepts/working-memory]]
 - [[scratchpad/agent-sheets/researcher/carryover]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/bounded-rationality]]
 - [[log]]
 - [[concepts/adaptive-computation]]

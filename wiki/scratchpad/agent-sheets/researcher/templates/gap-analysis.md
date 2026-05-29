@@ -36,7 +36,7 @@
 - [ ]
 
 ## Related
-- [[index]]
+- [[wiki/index]]
 - [[scratchpad/agent-sheets/researcher/templates/gap-analysis]]
 
 - [[gap-analysis]]

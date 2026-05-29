@@ -81,7 +81,7 @@ The connection to [[reward-hacking]] is worth noting: a code agent could learn t
 - [[concepts/agent-onboarding]]
 - [[concepts/code-agent]]
 - [[concepts/code-generation]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/benchmark]]
 - [[concepts/mcts]]
 - [[log]]

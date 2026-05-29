@@ -75,7 +75,7 @@ Process evaluation is more robust to spec gaming: wrong reasoning that happens t
 ## Connections
 - [[concepts/reward-hacking]]
 - [[concepts/evaluation]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/institutional-capture]]
 - [[log]]
 - [[concepts/code-agent]]

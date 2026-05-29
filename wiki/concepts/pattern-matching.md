@@ -16,7 +16,7 @@ confidence: 0.3
 ## Connections
 - [[concepts/pattern-matching]]
 - [[concepts/is-grep-all-you-need]]
-- [[index]]
+- [[wiki/index]]
 - [[log]]
 - [[pattern-matching]]
 

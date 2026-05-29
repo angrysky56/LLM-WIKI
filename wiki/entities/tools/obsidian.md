@@ -41,7 +41,7 @@ From [[andrej-karpathy]]: "Obsidian is the IDE; the LLM is the programmer; the w
 - [[entities/projects/project-synapse]]
 - [[entities/tools/obsidian-skills-repo]]
 - [[concepts/obsidian-git-setup]]
-- [[index]]
+- [[wiki/index]]
 - [[sources/documentation/obsidian-para-byarbrough]]
 - [[concept-index]]
 - [[concepts/obsidian-para-byarbrough]]

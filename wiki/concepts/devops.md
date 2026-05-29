@@ -16,7 +16,7 @@ confidence: 0.3
 ## Connections
 - [[concepts/tooling]]
 - [[concepts/ci-cd]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/github-actions-troubleshooting]]
 - [[log]]
 - [[concepts/version-control]]

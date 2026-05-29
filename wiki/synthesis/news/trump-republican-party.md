@@ -16,7 +16,7 @@ confidence: 0.3
 ## Connections
 - [[synthesis/news/republican-party]]
 - [[synthesis/news/trump-republican-party]]
-- [[index]]
+- [[wiki/index]]
 - [[synthesis/news/trump-administration]]
 - [[log]]
 - [[sources/news/2026-05/trump-massie-primary-2026-05-17]]

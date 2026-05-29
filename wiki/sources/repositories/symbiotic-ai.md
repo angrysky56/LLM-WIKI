@@ -33,7 +33,7 @@ Multi-agent hierarchy available: human → orchestrator → leads → specialist
 
 ## Connections
 - [[sources/repositories/symbiotic-ai]]
-- [[index]]
+- [[wiki/index]]
 - [[symbiotic-ai]]
 
 - [[hermes-agent]] — Symbiotic AI runs on Hermes

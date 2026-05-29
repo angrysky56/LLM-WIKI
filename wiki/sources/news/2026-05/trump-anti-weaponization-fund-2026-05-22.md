@@ -25,7 +25,7 @@ The fund represents a structural corruption mechanism that repurposes DOJ as a p
 ## Connections
 - [[sources/news/2026-05/trump-anti-weaponization-fund-2026-05-22]]
 - [[synthesis/news/2026-may/news-2026-05-22-headlines]]
-- [[index]]
+- [[wiki/index]]
 - [[trump-anti-weaponization-fund-2026-05-22]]
 - [[doj]] — Operating agency
 - [[trump-administration]] — Principal

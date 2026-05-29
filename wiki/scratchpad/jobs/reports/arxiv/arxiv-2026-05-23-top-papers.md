@@ -79,7 +79,7 @@ These papers collectively say: **frontier capabilities depend on internal scaffo
 - Total wiki pages: 311 (up from 308)
 
 ## Related
-- [[index]]
+- [[wiki/index]]
 - [[scratchpad/jobs/reports/arxiv/arxiv-2026-05-23-top-papers]]
 
 - [[arxiv-2026-05-23-top-papers]]

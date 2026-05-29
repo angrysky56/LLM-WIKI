@@ -28,7 +28,7 @@ Instead of viewing transitions between supertokens as "Wolfram-style physics," t
 ## Connections
 - [[concepts/neural-interpretability]]
 - [[concepts/shorthand-for-thought]]
-- [[index]]
+- [[wiki/index]]
 - [[synthesis/self-prompting-via-production-stage-architecture]]
 - [[concepts/supertokens]]
 - [[log]]

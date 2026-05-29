@@ -28,7 +28,7 @@ Implementation plan for adding observable internal state and recovery infrastruc
 
 ## Connections
 - [[sources/documentation/codegraph-readme]]
-- [[index]]
+- [[wiki/index]]
 - [[sources/documentation/hermes-path-forward]]
 - [[sources/documentation/codegraph-hermes-phase1-implementation]]
 - [[codegraph-hermes-phase1-implementation]]

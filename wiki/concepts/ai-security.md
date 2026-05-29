@@ -15,7 +15,7 @@ confidence: 0.3
 
 ## Connections
 - [[concepts/agentic-oversight]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/ai-security]]
 - [[log]]
 - [[sources/news/2026-05/github-data-breach-2026-05-20]]

@@ -11,7 +11,7 @@ confidence: 0.85
 
 
 ## Related
-- [[index]]
+- [[wiki/index]]
 - [[synthesis/insights/oee-knowledge-cluster-tierra-lenia-evosphere-insight]]
 - [[concepts/open-ended-evolution]]
 

@@ -17,7 +17,7 @@ confidence: 0.3
 - [[concepts/semiconductor-geopolitics]]
 - [[sources/news/2026-05/samsung-strike-2026-05-20]]
 - [[concepts/ai-hardware-supply-chain]]
-- [[index]]
+- [[wiki/index]]
 - [[log]]
 - [[ai-hardware-supply-chain]]
 

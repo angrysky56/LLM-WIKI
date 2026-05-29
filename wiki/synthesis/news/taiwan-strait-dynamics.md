@@ -17,7 +17,7 @@ confidence: 0.3
 - [[synthesis/news/taiwan-strait-dynamics]]
 - [[sources/rubio-declares-cuba-threat]]
 - [[synthesis/news/taiwan]]
-- [[index]]
+- [[wiki/index]]
 - [[sources/iran-claims-hormuz-waters]]
 - [[log]]
 - [[taiwan-strait-dynamics]]

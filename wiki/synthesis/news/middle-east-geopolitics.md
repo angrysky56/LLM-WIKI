@@ -14,7 +14,7 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
-- [[index]]
+- [[wiki/index]]
 - [[synthesis/news/middle-east-geopolitics]]
 - [[log]]
 - [[sources/news/2026-05/iran-us-diplomacy-2026-05-18]]

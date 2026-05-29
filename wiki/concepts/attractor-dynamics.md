@@ -53,7 +53,7 @@ The concept of [[criticality]] connects to attractor dynamics: a system at criti
 
 ## Connections
 - [[concepts/dynamical-systems]]
-- [[index]]
+- [[wiki/index]]
 - [[log]]
 - [[concepts/betteti-baggio-bullo-zampieri-idp-hopfield-2025]]
 - [[concepts/attractor-dynamics]]

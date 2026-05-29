@@ -100,7 +100,7 @@ QLoRA sits at the intersection of two major wiki clusters:
 - [[concepts/qora]]
 - [[scratchpad/jobs/reports/researcher/discovery-2026-07-15]]
 - [[scratchpad/agent-sheets/researcher/carryover]]
-- [[index]]
+- [[wiki/index]]
 - [[scratchpad/jobs/reports/overseer/overseer-2026-08-05]]
 - [[concepts/parameter-efficient-fine-tuning]]
 - [[log]]

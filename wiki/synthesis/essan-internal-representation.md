@@ -342,7 +342,7 @@ Start with the 7 ARC tokens. The multi-symbol sequences (like `⧬⦿⧈⧉⧿�
 
 
 ## Related
-- [[index]]
+- [[wiki/index]]
 - [[synthesis/essan-internal-representation]]
 - [[concepts/emergent-communication]]
 

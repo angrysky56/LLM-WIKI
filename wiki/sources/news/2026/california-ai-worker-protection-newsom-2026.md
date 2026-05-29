@@ -32,7 +32,7 @@ The order addresses:
 - States broadly plowing ahead with AI regulation despite White House resistance (NYT, March 2026)
 
 ## Connections
-- [[index]]
+- [[wiki/index]]
 - [[sources/news/2026/california-ai-worker-protection-newsom-2026]]
 - [[california-ai-worker-protection-newsom-2026]]
 

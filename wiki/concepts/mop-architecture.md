@@ -82,7 +82,7 @@ The identity/self-model layer (Layer 4) is where MCM lives architecturally:
 - [[concepts/control-llm]]
 - [[concepts/continual-learning]]
 - [[concepts/bounded-structured-memory]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/catastrophic-forgetting]]
 - [[concepts/ramirez-ruiz-mop-2024]]
 - [[concepts/mop-architecture]]

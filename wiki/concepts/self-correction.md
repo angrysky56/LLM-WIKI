@@ -92,7 +92,7 @@ For agentic systems, self-correction at the action level prevents cascading fail
 - [[concepts/llm-reasoning]]
 - [[concepts/reward-hacking]]
 - [[concepts/agentic-research]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/metacognitive-architecture-closed-loop-self-regulation]]
 - [[scratchpad/jobs/reports/researcher/discovery-2026-05-22]]
 - [[concepts/multi-agent-reasoning]]

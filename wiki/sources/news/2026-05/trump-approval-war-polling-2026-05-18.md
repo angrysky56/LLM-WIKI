@@ -26,7 +26,7 @@ A New York Times poll published May 18, 2026 shows President Trump's approval ra
 ## Related
 - [[sources/news/2026-05/trump-approval-war-polling-2026-05-18]]
 - [[synthesis/news/2026-may/news-2026-05-18-headlines]]
-- [[index]]
+- [[wiki/index]]
 - [[trump-approval-war-polling-2026-05-18]]
 - [[trump-approval-war-polling-2026-05-18.md]]
 

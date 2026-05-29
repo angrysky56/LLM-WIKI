@@ -28,7 +28,7 @@ confidence: 0.3
 - [[concepts/artificial-intelligence]]
 - [[concepts/transformer-vm-moran-2026]]
 - [[concepts/pattern-recognition]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/ml-evolution-benchmarking-protocol]]
 - [[log]]
 - [[scratchpad/agent-sheets/librarian/carryover]]

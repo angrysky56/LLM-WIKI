@@ -50,7 +50,7 @@ SAE features are:
 
 ## Connections
 - [[sources/papers/saerl]]
-- [[index]]
+- [[wiki/index]]
 - [[saerl]]
 
 - [[sae]] — direct use of Sparse Autoencoders as feature extractors

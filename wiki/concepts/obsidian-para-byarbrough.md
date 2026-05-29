@@ -20,7 +20,7 @@ confidence: 0.3
 - [[concepts/obsidian-para-byarbrough]]
 - [[sources/documentation/obsidian-git-setup]]
 - [[concepts/para-methodology]]
-- [[index]]
+- [[wiki/index]]
 - [[obsidian-para-byarbrough]]
 
 - [[obsidian]]

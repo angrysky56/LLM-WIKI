@@ -46,7 +46,7 @@ This page serves as a central hub for the various projects and repositories deve
 - [[entities/projects/tys-repos/mcp-logic]]
 - [[entities/projects/tys-repos/toward-transcendent-moral-instrumentality]]
 - [[entities/projects/tys-repos/aseke-compass-mcp]]
-- [[index]]
+- [[wiki/index]]
 - [[sources/repositories/sentience-metaphysics]]
 - [[entities/projects/tys-repos]]
 - [[entities/projects/tys-repos/verifier-graph]]

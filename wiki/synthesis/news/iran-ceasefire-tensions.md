@@ -14,7 +14,7 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
-- [[index]]
+- [[wiki/index]]
 - [[sources/iran-claims-hormuz-waters]]
 - [[synthesis/news/iran-ceasefire-tensions]]
 - [[log]]

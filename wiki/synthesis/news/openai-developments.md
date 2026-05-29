@@ -16,7 +16,7 @@ confidence: 0.3
 ## Connections
 - [[synthesis/news/openai-developments]]
 - [[sources/news/2026/openai-ai-solves-80-year-erdos-problem-may-2026]]
-- [[index]]
+- [[wiki/index]]
 - [[entities/projects/openai-o-series]]
 - [[synthesis/news/openai-research]]
 - [[openai-developments]]

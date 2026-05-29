@@ -59,7 +59,7 @@ Design thinking projects map naturally onto [[para-methodology]]:
 ## Connections
 - [[concepts/methodology]]
 - [[concepts/memex]]
-- [[index]]
+- [[wiki/index]]
 - [[concept-index]]
 - [[concepts/persistent-knowledge-compilation]]
 - [[concepts/design-thinking-mit]]

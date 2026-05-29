@@ -5,16 +5,16 @@ type: index
 
 # Wiki Index
 
-- [[carryover]] — Markovian Dev Agency carryover — specialist delegation and task routing
+- [[wiki/agents/researcher-agent/carryover]] — Markovian Dev Agency carryover — specialist delegation and task routing
 - [[now]] — Master state for Markovian Dev Agency — active issues and specialist coordination
 - [[soul]] — Multi-specialty dev agency with persistent Markovian state across activations
-- [[carryover]] — Diagnostician specialist carryover
-- [[carryover]] — Fixer specialist carryover
-- [[carryover]] — Researcher specialist carryover
-- [[carryover]] — Ticket-writer specialist carryover
+- [[wiki/agents/researcher-agent/carryover]] — Diagnostician specialist carryover
+- [[wiki/agents/researcher-agent/carryover]] — Fixer specialist carryover
+- [[wiki/agents/researcher-agent/carryover]] — Researcher specialist carryover
+- [[wiki/agents/researcher-agent/carryover]] — Ticket-writer specialist carryover
 - [[user]] — User preferences and project context for the Markovian Dev Agency
 - [[issue-001]] — 
-- [[carryover]] — 
+- [[wiki/agents/researcher-agent/carryover]] — 
 - [[agem-expert]] — 
 - [[PROVING_GROUNDS]] — AGEM expert reference proving grounds
 - [[STRATEGIES]] — AGEM expert reference strategies
@@ -471,7 +471,7 @@ type: index
 - [[research-paper]] — [STUB] Research paper — academic research paper format and structure
 - [[research-tooling]] — [STUB] Research tooling — tools and frameworks for AI research automation
 - [[retrieval-augmented-generation]] — [STUB] RAG: augmenting LLMs with retrieval
-- [[revenue-model]] — [STUB] Revenue model design for tech products
+- [[wiki/concepts/revenue-model]] — [STUB] Revenue model design for tech products
 - [[reward-hacking]] — When RL agents find ways to maximize reward signals without accomplishing intended goals — the AI-specific instantiation of Goodhart's Law
 - [[reward-inside-model-elhsr]] — [STUB] Reward inside model — reward signal mechanisms within neural networks
 - [[reward-modeling]] — The process of training a secondary model to assign scalar scores to LLM outputs, used for alignment (RLHF) and test-time scaling (Best-of-N)
@@ -599,7 +599,7 @@ type: index
 - [[anthropic]] — [STUB] Anthropic — AI safety company behind Claude
 - [[efhf]] — Five-layer AI architecture implementing computational mechanics (epsilon machines, lumpability, causal closure) as a live multi-agent system — MOP proposed as Layer 0 for proactive exploration
 - [[esa]] — [STUB] ESA — European Space Agency
-- [[goodrobot]] — Redirect to wiki/projects/goodrobot/shut-down-entity.md
+- [[wiki/entities/projects/goodrobot]] — Redirect to wiki/projects/goodrobot/shut-down-entity.md
 - [[google-deepmind]] — [STUB] Google DeepMind — AI research division of Google
 - [[huggingface]] — [STUB] Hugging Face — AI model hub and community
 - [[james-webb-space-telescope]] — [STUB] James Webb Space Telescope — JWST observatory
@@ -661,9 +661,9 @@ type: index
 - [[goodrobot-gtm-strategy]] — Redirect to wiki/projects/goodrobot/go-to-market-strategy.md
 - [[goodrobot-research-pipeline]] — Redirect to wiki/projects/goodrobot/research-pipeline.md
 - [[goodrobot-technical-architecture]] — Redirect to wiki/projects/goodrobot/technical-architecture.md
-- [[goodrobot]] — Redirect to wiki/projects/goodrobot/active-business-plan.md
+- [[wiki/entities/projects/goodrobot]] — Redirect to wiki/projects/goodrobot/active-business-plan.md
 - [[research-pipeline]] — GoodRobot research pipeline MVP — 3-stage (Research → Gap Analysis → Pitch Prep), JSON schemas
-- [[revenue-model]] — 
+- [[wiki/concepts/revenue-model]] — 
 - [[roadmap]] — 
 - [[shut-down-entity]] — GoodRobot SHUT DOWN — zero-human AI agent company, ethics board simulation
 - [[technical-architecture]] — GoodRobot technical architecture — agent runtime, task routing, memory system, API design
@@ -671,49 +671,49 @@ type: index
 - [[portfolio-policies-metacognition]] — Research exploration of portfolio-of-policies MDP extension and control graph topologies for metacognition, covering entropy-confidence duality, portfolio allocation formalism, and topology evaluation.
 - [[research_spec]] — 
 - [[arxiv]] — 
-- [[carryover]] — arxiv agent carryover — 2026-05-28 batch: CCO (scalable oversight via conformal decision theory), Gamma-World (multi-agent world models with permutation symmetry), BES (bidirectional evolutionary search for self-improving LLMs) — constraint satisfaction under distribution shift theme
+- [[wiki/agents/researcher-agent/carryover]] — arxiv agent carryover — 2026-05-28 batch: CCO (scalable oversight via conformal decision theory), Gamma-World (multi-agent world models with permutation symmetry), BES (bidirectional evolutionary search for self-improving LLMs) — constraint satisfaction under distribution shift theme
 - [[patterns]] — 
 - [[workflow]] — 
 - [[report]] — 
 - [[research-brief]] — 
 - [[ingest]] — 
-- [[carryover]] — 2 files processed, raw/ empty. VNE vs EE entropy distinction and stateless heartbeat architecture pages created.
+- [[wiki/agents/researcher-agent/carryover]] — 2 files processed, raw/ empty. VNE vs EE entropy distinction and stateless heartbeat architecture pages created.
 - [[workflow]] — 
 - [[ingest-report]] — 
 - [[insights]] — 
-- [[carryover]] — 
+- [[wiki/agents/researcher-agent/carryover]] — 
 - [[insight-merge]] — 
 - [[workflow]] — 
-- [[carryover]] — 
+- [[wiki/agents/researcher-agent/carryover]] — 
 - [[librarian]] — 
-- [[carryover]] — 
+- [[wiki/agents/researcher-agent/carryover]] — 
 - [[mcp-tools]] — 
 - [[workflow]] — 
 - [[audit-report]] — 
 - [[librarians-assistant]] — 
-- [[carryover]] — GAAC phantom pages confirmed — all flagged missing links reference deleted/moved pages (.trash/); no remediation possible; carryover blockers unchanged
+- [[wiki/agents/researcher-agent/carryover]] — GAAC phantom pages confirmed — all flagged missing links reference deleted/moved pages (.trash/); no remediation possible; carryover blockers unchanged
 - [[quick-reference]] — 
 - [[workflow]] — 
 - [[batch-progress]] — 
 - [[batch-progress]] — 
 - [[news]] — 
-- [[carryover]] — SpaceX S-1 filed ($2T target, 14 days to June 12); California AI workforce executive order signed; Ebola case count update pending; Russia vaccine claim unverified
+- [[wiki/agents/researcher-agent/carryover]] — SpaceX S-1 filed ($2T target, 14 days to June 12); California AI workforce executive order signed; Ebola case count update pending; Russia vaccine claim unverified
 - [[rss-queries]] — 
 - [[workflow]] — 
 - [[headlines-report]] — 
 - [[news-article]] — One-line description
 - [[orcaid]] — 
-- [[carryover]] — 
+- [[wiki/agents/researcher-agent/carryover]] — 
 - [[execution-mechanisms]] — 
 - [[task-types]] — 
 - [[run-report]] — 
 - [[wiki-overseer]] — 
-- [[carryover]] — Overseer carryover — May 27 cycle: news agent is ACTIVE (last ran May 28), not STALE
+- [[wiki/agents/researcher-agent/carryover]] — Overseer carryover — May 27 cycle: news agent is ACTIVE (last ran May 28), not STALE
 - [[meta-advancement]] — 
 - [[Meta-Meta Process for Structured Exploration]] — 
 - [[carryover-template]] — 
 - [[researcher]] — 
-- [[carryover]] — May 28: 3 stubs promoted, 1 archived; stub count 276→273
+- [[wiki/agents/researcher-agent/carryover]] — May 28: 3 stubs promoted, 1 archived; stub count 276→273
 - [[workflow]] — 
 - [[discovery-report]] — 
 - [[gap-analysis]] — 
@@ -727,14 +727,14 @@ type: index
 - [[arxiv-2026-05-26-top-papers]] — 
 - [[arxiv-2026-05-27-top-papers]] — 
 - [[arxiv-2026-05-28-top-papers]] — 
-- [[carryover]] — arxiv agent carryover — StepOPSD (step-level credit redistribution in GRPO), AKBE (knowledge boundary probing), PRISM (multi-intention IRL) — instance-level behavioral decomposition theme
+- [[wiki/agents/researcher-agent/carryover]] — arxiv agent carryover — StepOPSD (step-level credit redistribution in GRPO), AKBE (knowledge boundary probing), PRISM (multi-intention IRL) — instance-level behavioral decomposition theme
 - [[papers-2026-05-19-researched]] — Three papers on production LLM agent architecture, VLM reasoning decoupling, and agentic clinical evidence seeking
 - [[papers-2026-05-20]] — Three papers on production LLM agent architecture, VLM reasoning decoupling, and agentic clinical evidence seeking
 - [[papers-2026-05-22-researched]] — Three papers on delta-based AI agent checkpoint/rollback, RLHF memory optimization, and adaptive test-time reasoning
 - [[papers-2026-05-23-researched]] — 
 - [[papers-2026-05-24-researched]] — arxiv papers researched — ProxySHAP and Shapley/Banzhaf interaction indices
 - [[papers-2026-05-26-researched]] — arxiv papers researched — Shannon Scaling Law, SkillOpt, SkillLens, bounded representation capacity theme
-- [[carryover]] — Ingest agent carryover — pipeline healthy, MCP unavailable, 38 missing frontmatter flagged
+- [[wiki/agents/researcher-agent/carryover]] — Ingest agent carryover — pipeline healthy, MCP unavailable, 38 missing frontmatter flagged
 - [[ingest-2026-05-20]] — Ingest report — 7 files processed
 - [[ingest-2026-05-21-run]] — Ingest report — sources processed
 - [[ingest-2026-05-21]] — Ingest run report — 5 sources processed (2026-05-21)
@@ -745,7 +745,7 @@ type: index
 - [[ingest-2026-05-27]] — 
 - [[ingest-2026-05-28]] — 
 - [[ingest-2026-06-27]] — Ingest cycle — 3 documentation files processed (codegraph, hermes-path-forward)
-- [[carryover]] — 
+- [[wiki/agents/researcher-agent/carryover]] — 
 - [[audit-2026-05-19]] — Librarian audit report — broken links and frontmatter fixes
 - [[audit-2026-05-20]] — Librarian audit report
 - [[audit-2026-05-21]] — 
@@ -759,12 +759,12 @@ type: index
 - [[audit-2026-07-26]] — 
 - [[audit-2026-08-12]] — 
 - [[batch-progress]] — Batch progress — no self-remediable items; vault structurally healthy
-- [[carryover]] — 
+- [[wiki/agents/researcher-agent/carryover]] — 
 - [[librarian-2026-05-19-missing-agent-sheet]] — Librarian missing agent sheet report
-- [[carryover]] — Librarians-assistant carryover — 15 nested sources fixed, republican-party-duplicate deleted, 0 true broken links in core dirs
-- [[carryover]] — Three new stories: EU-US trade deal ratified with 2029 expiry, Trump walks back AI model vetting, Google DeepMind Gemini for Science launches
+- [[wiki/agents/researcher-agent/carryover]] — Librarians-assistant carryover — 15 nested sources fixed, republican-party-duplicate deleted, 0 true broken links in core dirs
+- [[wiki/agents/researcher-agent/carryover]] — Three new stories: EU-US trade deal ratified with 2029 expiry, Trump walks back AI model vetting, Google DeepMind Gemini for Science launches
 - [[headlines-2026-05-28]] — 2 new stories: SpaceX S-1 filed ($2T IPO confirmed, June 12 target), California AI workforce EO enters implementation phase
-- [[carryover]] — 
+- [[wiki/agents/researcher-agent/carryover]] — 
 - [[overseer-2026-05-26]] — 
 - [[overseer-2026-05-27]] — 
 - [[overseer-2026-05-28]] — 
@@ -773,7 +773,7 @@ type: index
 - [[overseer-2026-08-05]] — Overseer monitoring cycle 2026-08-05 — 8 agents audited, 3 news cards surfaced, librarian card updated, sheet.md synced
 - [[overseer-2026-08-07]] — 
 - [[overseer-2026-08-10]] — 
-- [[carryover]] — Monitoring tasks and discovery gaps carryover
+- [[wiki/agents/researcher-agent/carryover]] — Monitoring tasks and discovery gaps carryover
 - [[discovery-2026-05-21]] — 
 - [[discovery-2026-05-22]] — 
 - [[discovery-2026-05-25]] — 
@@ -882,8 +882,8 @@ type: index
 - [[iran-claims-hormuz-waters]] — Iran published map claiming armed forces oversight across 22,000+ sq km of Strait of Hormuz
 - [[israel-ben-gvir-flotilla-video]] — Ben-Gvir taunted abducted activists; video went viral, damaged Israeli hasbara
 - [[memo-memory-as-a-model]] — MEMO paper — memory as model parameter, industrial compute required, step 5 pairing advice noted
-- [[mixture-of-recursions]] — MoR unifies parameter sharing and adaptive token-level computation via learned recursive depth routing — connects to causal state assignment and compiled-transformer execution models.
-- [[moe-sieve-routing-guided-lora-for-efficient-moe-fine-tuning]] — Per-layer expert routing is highly skewed — cold experts rarely activated, top-25% routing covers most tokens; only tuning top-25% experts is competitive
+- [[mixture-of-recursions 1]] — MoR unifies parameter sharing and adaptive token-level computation via learned recursive depth routing — connects to causal state assignment and compiled-transformer execution models.
+- [[wiki/sources/papers/moe-sieve-routing-guided-lora-for-efficient-moe-fine-tuning]] — Per-layer expert routing is highly skewed — cold experts rarely activated, top-25% routing covers most tokens; only tuning top-25% experts is competitive
 - [[air-france-airbus-manslaughter-verdict-2026]] — 
 - [[alberta-independence-referendum-2026]] — Alberta schedules October 2026 referendum on whether to hold binding independence vote
 - [[brazil-2026-elections-ai-regulation-stress-test]] — Brazil's 2026 elections serve as first real-world stress test for AI regulation frameworks as candidates navigate voter manipulation, deepfake disclosure, and algorithmic accountability
@@ -979,7 +979,7 @@ type: index
 - [[taiwan-reaffirms-independence-despite-trump-warning]] — Taiwan publicly reasserts sovereignty after Trump's warning, exposing divergence between US ambiguity and Taipei's own messaging.
 - [[uae-reports-drone-strike-near-abu-dhabi-nuclear-power-plant]] — Drone strike near UAE's Barakah nuclear plant — the Arab world's first civilian reactor — exposes nuclear site vulnerability.
 - [[who-declares-ebola-outbreak-in-dr-congo-an-international-eme]] — WHO declares DR Congo Ebola outbreak a global health emergency, its highest alert tier.
-- [[on-the-representation-collapse-of-sparse-mixture-of-experts]] — Routing mechanism encourages token clustering around expert centroids — representation collapse, addressed via hypersphere routing
+- [[wiki/sources/papers/on-the-representation-collapse-of-sparse-mixture-of-experts]] — Routing mechanism encourages token clustering around expert centroids — representation collapse, addressed via hypersphere routing
 - [[agent-lab-2501.04227]] — 
 - [[akbe]] — Dual-path on-policy probing of model's intrinsic knowledge boundary via with-tool/no-tool rollouts eliminates 18% redundant tool calls at +1.85 accuracy improvement over standard agentic GRPO
 - [[alignment-tampering]] — Alignment Tampering: RLHF vulnerability where an LLM being aligned influences its own preference dataset — pairwise comparison only signals which is better, not why, allowing bias amplification through quality confounded with misaligned content.
@@ -1017,7 +1017,7 @@ type: index
 - [[legalsearch-r1]] — LegalSearch-R1 — RL-trained legal agent with temporal statute indexing; 7B model outperforms SOTA by 12.9-29.8% via dual RAG+web architecture enforcing lex retro non agit
 - [[ma-sd-search-2026]] — SD-Search: On-policy hindsight self-distillation for step-level credit assignment in search-augmented reasoning
 - [[matcha]] — 
-- [[mixture-of-recursions]] — [STUB] Mixture of Recursions paper — recursive processing in mixture of experts models
+- [[mixture-of-recursions 1]] — [STUB] Mixture of Recursions paper — recursive processing in mixture of experts models
 - [[moss-self-evolution-source-rewriting-2026]] — Wiki source page for MOSS paper on source-level self-evolving agents
 - [[muse-autoskill]] — MUSE-Autoskill: agents create, reuse, evaluate, and refine skills via a unified lifecycle — skill-level memory accumulates experience across tasks, improving reuse, reliability, and cross-agent transfer.
 - [[odrzywolek-eml-2026]] — Odrzywołek (2026) — discovery of the EML operator eml(x,y)=exp(x)−ln(y), a single binary primitive generating all elementary functions from constant 1, with applications to symbolic regression via gradient-trainable binary trees

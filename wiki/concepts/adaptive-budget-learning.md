@@ -99,7 +99,7 @@ ADEPT (2026) trains a token-level confidence predictor jointly with the model:
 - [[concepts/early-exit-networks]]
 - [[concepts/adaptive-budget-learning]]
 - [[concepts/mixture-of-experts]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/route-collapse-rlhf]]
 - [[adaptive-budget-learning]]
 

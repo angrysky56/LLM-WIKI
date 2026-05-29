@@ -43,7 +43,7 @@ His research involves **SIP-Net** (Synergistic Information Primitive Network), *
 - [[entities/projects/tys-repos/graph-rlm]]
 - [[entities/projects/tys-repos/efhf]]
 - [[entities/people/tyler-hall]]
-- [[index]]
+- [[wiki/index]]
 - [[entities/projects/tys-repos]]
 - [[entities/projects/tys-repos/verifier-graph]]
 - [[entities/projects/tys-repos/ethical-ai-core]]

@@ -77,7 +77,7 @@ The connection to [[world-model]]: A world model is fundamentally causal if it r
 - [[concepts/formal-methods]]
 - [[log]]
 - [[scratchpad/jobs/reports/researcher/discovery-2026-06-09]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/world-model]]
 - [[concepts/mcts]]
 - [[concepts/counterfactual]]

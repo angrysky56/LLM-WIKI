@@ -16,7 +16,7 @@ confidence: 0.3
 ## Connections
 - [[sources/articles/emotion-concepts-llm]]
 - [[concepts/maximum-occupancy-principle]]
-- [[index]]
+- [[wiki/index]]
 - [[log]]
 - [[concepts/blackmail]]
 - [[blackmail]]

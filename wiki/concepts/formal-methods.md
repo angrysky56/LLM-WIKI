@@ -76,7 +76,7 @@ The connection to [[proof-assistant]] and [[interactive-theorem-proving]] is dir
 - [[concepts/formal-verification]]
 - [[concepts/mathematical-reasoning]]
 - [[concepts/causal-reasoning]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/categorical-reasoning]]
 - [[concepts/formal-methods]]
 - [[log]]

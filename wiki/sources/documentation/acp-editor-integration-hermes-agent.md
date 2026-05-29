@@ -31,7 +31,7 @@ ACP (Agent Client Protocol) is the integration layer that makes Hermes behave li
 | **Excluded features** | Messaging delivery and cronjob management not available in ACP mode |
 
 ## Connections
-- [[index]]
+- [[wiki/index]]
 - [[sources/documentation/acp-editor-integration-hermes-agent]]
 - [[acp-editor-integration-hermes-agent]]
 

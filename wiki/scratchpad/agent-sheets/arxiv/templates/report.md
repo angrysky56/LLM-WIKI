@@ -23,7 +23,7 @@
 
 ## Related
 - [[scratchpad/agent-sheets/arxiv/templates/report]]
-- [[index]]
+- [[wiki/index]]
 
 - [[report]]
 

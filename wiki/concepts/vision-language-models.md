@@ -16,7 +16,7 @@ confidence: 0.3
 ## Connections
 - [[log]]
 - [[concepts/vision-language-models]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/video-understanding]]
 - [[vision-language-models]]
 

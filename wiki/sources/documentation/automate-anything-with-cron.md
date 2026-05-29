@@ -32,7 +32,7 @@ Cron jobs in Hermes run in fresh, self-contained sessions with no memory of prev
 | **Delivery targets** | `origin`, `local`, `telegram`, `discord`, `slack`, or specific chat/thread |
 
 ## Connections
-- [[index]]
+- [[wiki/index]]
 - [[sources/documentation/automate-anything-with-cron]]
 - [[automate-anything-with-cron]]
 

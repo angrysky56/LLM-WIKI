@@ -99,7 +99,7 @@ The "thin but connected" criterion was satisfied — both pages were referenced 
 
 ## Related
 - [[scratchpad/jobs/reports/researcher/discovery-2026-07-20]]
-- [[index]]
+- [[wiki/index]]
 
 - [[discovery-2026-07-20]]
 

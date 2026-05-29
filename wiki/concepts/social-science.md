@@ -15,7 +15,7 @@ confidence: 0.3
 
 ## Connections
 - [[concepts/economics]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/social-science]]
 - [[log]]
 - [[social-science]]

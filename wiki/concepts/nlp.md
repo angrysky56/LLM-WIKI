@@ -15,7 +15,7 @@ confidence: 0.3
 
 ## Connections
 - [[concepts/nlp]]
-- [[index]]
+- [[wiki/index]]
 - [[log]]
 - [[concepts/pattern-matching]]
 - [[concepts/llm]]

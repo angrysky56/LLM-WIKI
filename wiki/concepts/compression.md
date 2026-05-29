@@ -17,7 +17,7 @@ confidence: 0.3
 - [[concepts/bounded-memory-budget-optimization]]
 - [[concepts/shorthand-for-thought]]
 - [[concepts/compression]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/llama-nas]]
 - [[log]]
 - [[scratchpad/jobs/reports/researcher/discovery-2026-08-03]]

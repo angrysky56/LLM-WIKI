@@ -30,7 +30,7 @@ Graphify transforms codebases into queryable knowledge graphs using AST analysis
 ## Connections
 - [[sources/repositories/graphify-ai-coding-assistant-skill]]
 - [[sources/papers/code-as-agent-harness]]
-- [[index]]
+- [[wiki/index]]
 - [[graphify-ai-coding-assistant-skill]]
 
 - [[neo4j]] — graph backend for code knowledge

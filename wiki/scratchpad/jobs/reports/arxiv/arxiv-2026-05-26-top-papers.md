@@ -53,7 +53,7 @@
 ---
 
 ## Related
-- [[index]]
+- [[wiki/index]]
 - [[scratchpad/jobs/reports/arxiv/arxiv-2026-05-26-top-papers]]
 
 - [[arxiv-2026-05-26-top-papers]]

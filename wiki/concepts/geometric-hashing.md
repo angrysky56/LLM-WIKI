@@ -16,7 +16,7 @@ confidence: 0.3
 ## Connections
 - [[concepts/geometric-hashing]]
 - [[synthesis/nairobi-protocol-gde]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/maximum-occupancy-principle]]
 - [[log]]
 - [[geometric-hashing]]

@@ -91,7 +91,7 @@ This is distinct from Kleiber's law but shares the same mathematical structure. 
 - [[concepts/allometric-scaling]]
 - [[concepts/neural-interpretability]]
 - [[concepts/emergence]]
-- [[index]]
+- [[wiki/index]]
 - [[power-law-scaling]]
 
 - [[power-law]] — the underlying mathematical relationship; Zipf's law, Pareto distribution, scale-invariance

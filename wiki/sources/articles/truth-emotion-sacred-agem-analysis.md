@@ -31,7 +31,7 @@ AGEM result: 162 nodes, 7 communities, H¹=0 (consensus), SOC regime "nascent" w
 
 ## Connections
 - [[sources/articles/truth-emotion-sacred-agem-analysis]]
-- [[index]]
+- [[wiki/index]]
 - [[truth-emotion-sacred-agem-analysis]]
 
 - [[frank-einstein-gemma-truth-emotion-sacred]] — the conversation itself

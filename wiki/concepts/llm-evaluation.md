@@ -24,7 +24,7 @@ confidence: 0.3
 - [[concepts/opendeepthink-parallel-reasoning]]
 - [[scratchpad/jobs/reports/arxiv/arxiv-2026-05-27-top-papers]]
 - [[sources/papers/futuresim-adaptive-agents]]
-- [[index]]
+- [[wiki/index]]
 - [[llm-evaluation]]
 
 - [[maximum-occupancy-principle]]

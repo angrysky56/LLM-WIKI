@@ -52,7 +52,7 @@ To onboard a new domain, follow the Domain Onboarding Standards:
 ## Connections
 - [[concepts/meta_harness_loop]]
 - [[log]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/hermes_agent]]
 - [[synthesis/domain-onboarding-standards]]
 - [[meta_harness_loop]]

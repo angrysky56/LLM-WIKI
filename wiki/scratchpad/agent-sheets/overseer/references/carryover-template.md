@@ -52,7 +52,7 @@ tags: [{agent-name}, carryover]
 | `## Kanban Status` | Optional | Tracks which items are already on kanban |
 
 ## Related
-- [[index]]
+- [[wiki/index]]
 - [[scratchpad/agent-sheets/overseer/references/carryover-template]]
 
 - [[carryover-template]]

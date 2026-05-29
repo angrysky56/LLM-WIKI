@@ -44,7 +44,7 @@ The US-Iran war remains in a fragile ceasefire as President Trump alternates bet
 
 ## Related
 - [[sources/news/2026-05/trump-iran-diplomacy-threats-2026-05-21]]
-- [[index]]
+- [[wiki/index]]
 
 - [[trump-iran-diplomacy-threats-2026-05-21]]
 

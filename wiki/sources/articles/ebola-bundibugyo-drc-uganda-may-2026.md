@@ -47,7 +47,7 @@ confidence: 0.85
 - Italy reported 2 suspected cases (imported)
 
 ## Connections
-- [[index]]
+- [[wiki/index]]
 - [[sources/articles/ebola-bundibugyo-drc-uganda-may-2026]]
 - [[ebola-bundibugyo-drc-uganda-may-2026]]
 

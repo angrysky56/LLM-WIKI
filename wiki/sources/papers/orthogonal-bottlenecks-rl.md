@@ -56,7 +56,7 @@ The paper studies a simple architectural prior for deep RL: inserting a fixed or
 - [[mop-explorer]] — The paper's insight that minimal sufficient dimension depends on environment complexity parallels capacity planning for bounded representations
 
 ## Related
-- [[index]]
+- [[wiki/index]]
 - [[sources/papers/orthogonal-bottlenecks-rl]]
 
 - [[orthogonal-bottlenecks-rl]]

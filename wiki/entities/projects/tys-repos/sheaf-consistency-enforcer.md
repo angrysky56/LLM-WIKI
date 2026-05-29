@@ -29,7 +29,7 @@ confidence: 1.0
 - [[entities/projects/tys-repos/efhf]]
 - [[scratchpad/jobs/reports/arxiv/arxiv-2026-05-23-top-papers]]
 - [[entities/people/tyler-hall]]
-- [[index]]
+- [[wiki/index]]
 - [[entities/projects/tys-repos]]
 - [[log]]
 - [[entities/projects/tys-repos/conscience-servitor]]

@@ -162,7 +162,7 @@ The MOPS work falsified one specific instance of "global geometric measure" appl
 
 
 ## Connections
-- [[index]]
+- [[wiki/index]]
 - [[synthesis/cross-layer-drift-falsification]]
 - [[cross-layer-drift-falsification]]
 

@@ -14,7 +14,7 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
-- [[index]]
+- [[wiki/index]]
 - [[entities/people/stephen-wolfram]]
 - [[log]]
 - [[sources/documentation/wolfram-nks-causal-networks]]

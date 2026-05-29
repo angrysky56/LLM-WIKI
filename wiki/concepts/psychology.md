@@ -15,7 +15,7 @@ confidence: 0.3
 
 ## Connections
 - [[concepts/social-science]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/cognitive-science]]
 - [[log]]
 - [[concepts/psychology]]

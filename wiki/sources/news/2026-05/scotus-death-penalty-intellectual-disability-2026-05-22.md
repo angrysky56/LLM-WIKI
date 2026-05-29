@@ -21,7 +21,7 @@ The decision also signals that even in a politically polarized environment, some
 ## Connections
 - [[sources/news/2026-05/scotus-death-penalty-intellectual-disability-2026-05-22]]
 - [[synthesis/news/2026-may/news-2026-05-22-headlines]]
-- [[index]]
+- [[wiki/index]]
 - [[scotus-death-penalty-intellectual-disability-2026-05-22]]
 - [[us-supreme-court]] — Issuing body
 - [[death-penalty]] — Subject matter

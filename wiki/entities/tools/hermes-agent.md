@@ -91,7 +91,7 @@ The bounded-servitors framework ([[bounded-structured-memory]]) extends Hermes w
 - [[sources/articles/choosing-right-agentic-design-pattern]]
 - [[concepts/bounded-structured-memory]]
 - [[entities/projects/markovian-dev-agency]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/hermes-agent-skills]]
 - [[sources/documentation/paperclip-hermes-adapter]]
 - [[sources/documentation/hermes-mcp-integration]]
@@ -111,7 +111,7 @@ The bounded-servitors framework ([[bounded-structured-memory]]) extends Hermes w
 - [[sources/repositories/get-shit-done]]
 - [[sources/repositories/symbiotic-ai]]
 - [[sources/documentation/delegation-parallel-work]]
-- [[agents/markovian-dev-agency/soul]]
+- [[soul]]
 
 - [[persistent-goals-hermes-agent]] — /goal feature summary
 - [[subagent-delegation]] — delegate_task mechanics

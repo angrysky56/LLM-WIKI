@@ -31,7 +31,7 @@ GSD is a spec-driven development methodology using meta-prompting and context en
 GSD manifests track phase state and prevent skipping steps.
 
 ## Connections
-- [[index]]
+- [[wiki/index]]
 - [[sources/repositories/get-shit-done]]
 - [[get-shit-done]]
 

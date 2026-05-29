@@ -26,7 +26,7 @@ Variants include:
 - **Federated transfer learning** — transfer learning across domains
 
 ## Connections
-- [[index]]
+- [[wiki/index]]
 - [[concepts/federated-learning]]
 - [[concepts/privacy-utility-tradeoff]]
 - [[log]]

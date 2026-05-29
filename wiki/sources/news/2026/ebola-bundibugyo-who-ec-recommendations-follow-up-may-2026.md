@@ -72,7 +72,7 @@ The task referenced a "May 29/30 attack window risk" — this likely refers to t
 
 ## Connections
 - [[sources/news/2026/ebola-bundibugyo-who-ec-recommendations-follow-up-may-2026]]
-- [[index]]
+- [[wiki/index]]
 - [[ebola-bundibugyo-who-ec-recommendations-follow-up-may-2026]]
 
 - [[ebola-outbreak-drc-2026]] — main concept page

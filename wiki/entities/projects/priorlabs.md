@@ -15,7 +15,7 @@ confidence: 0.3
 
 ## Connections
 - [[entities/projects/priorlabs]]
-- [[index]]
+- [[wiki/index]]
 - [[log]]
 - [[sources/repositories/tabpfn]]
 - [[priorlabs]]

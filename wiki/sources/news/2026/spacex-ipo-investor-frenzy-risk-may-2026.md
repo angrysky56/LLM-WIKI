@@ -42,7 +42,7 @@ SpaceX's IPO will be the largest in history by valuation. The investor enthusias
 **Wiki connections:** [[spacex-ipo-spcx-2026]], [[trump-tariffs]]
 
 ## Related
-- [[index]]
+- [[wiki/index]]
 - [[sources/news/2026/spacex-blackrock-10b-stake-tracking]]
 - [[sources/news/2026/spacex-ipo-investor-frenzy-risk-may-2026]]
 - [[sources/news/2026/spacex-ipo-june-12-2026]]

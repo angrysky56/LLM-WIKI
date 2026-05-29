@@ -43,7 +43,7 @@ Trump faces a structural dilemma:
 The pattern the article describes: applying more force in a stalemate "offers the slim promise that applying more force can alter the equation in Trump's favor" — but this is a trap.
 
 ## Connections
-- [[index]]
+- [[wiki/index]]
 - [[sources/news/2026/trump-iran-diplomacy-threats-2026]]
 - [[trump-iran-diplomacy-threats-2026]]
 

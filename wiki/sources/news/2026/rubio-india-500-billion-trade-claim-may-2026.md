@@ -34,7 +34,7 @@ India has been one of the few countries engaged in active trade negotiation with
 
 ## Connections
 - [[sources/news/2026/rubio-india-500-billion-trade-claim-may-2026]]
-- [[index]]
+- [[wiki/index]]
 - [[rubio-india-500-billion-trade-claim-may-2026]]
 - [[trump-tariffs]] — Trump tariff policy framework, tariff court ruling
 - [[AI-policy-federalism]] — India AI governance guidelines and their role in global AI policy alignment

@@ -192,7 +192,7 @@ AlphaEvolve's success suggests that self-modification is more viable when implem
 
 
 ## Related
-- [[index]]
+- [[wiki/index]]
 - [[synthesis/self-prompting-via-production-stage-architecture]]
 - [[log]]
 - [[scratchpad/jobs/reports/arxiv/arxiv-2026-05-22-top-papers]]

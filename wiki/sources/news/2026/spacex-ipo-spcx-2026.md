@@ -29,7 +29,7 @@ The IPO will make SpaceX's financials more transparent and will likely trigger a
 - [[sources/articles/spacex-ipo-governance-questions-may-2026]]
 - [[entities/projects/spacex]]
 - [[sources/news/2026/spacex-starship-v3-flight-12-debut-may-2026]]
-- [[index]]
+- [[wiki/index]]
 - [[sources/news/2026/spacex-starship-v3-launch-may-2026]]
 - [[synthesis/news/2026-may/headlines-2026-05-25]]
 - [[sources/news/2026/spacex-ipo-spcx-2026]]

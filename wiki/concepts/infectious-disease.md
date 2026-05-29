@@ -17,7 +17,7 @@ confidence: 0.3
 - [[concepts/infectious-disease]]
 - [[concepts/ebola-outbreak-drc-2026]]
 - [[sources/news/canadian-from-cruise-ship-tests-positive-for-hantavirus]]
-- [[index]]
+- [[wiki/index]]
 - [[log]]
 - [[infectious-disease]]
 

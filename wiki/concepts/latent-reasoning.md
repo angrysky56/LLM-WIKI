@@ -56,10 +56,10 @@ When models are prompted to answer faster (without CoT), they still show multi-s
 | Generalization | Can fail silently | Fails with explicit error |
 
 ## Connections
-- [[index]]
+- [[wiki/index]]
 - [[concepts/reasoning]]
 - [[log]]
-- [[sources/mixture-of-recursions]]
+- [[mixture-of-recursions 1]]
 - [[concepts/agentic-reasoning]]
 - [[concepts/latent-reasoning]]
 - [[concepts/llm-reasoning]]

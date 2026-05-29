@@ -19,7 +19,7 @@ Ukraine executed its largest drone attack on Moscow to date, killing three peopl
 | Civilian casualties confirmed | 3 dead, extent of infrastructure damage reported |
 
 ## Connections
-- [[index]]
+- [[wiki/index]]
 - [[sources/news/large-scale-ukrainian-drone-attack-kills-three-in-moscow-region]]
 - [[large-scale-ukrainian-drone-attack-kills-three-in-moscow-region]]
 

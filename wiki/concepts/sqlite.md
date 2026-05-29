@@ -15,7 +15,7 @@ confidence: 0.3
 
 ## Connections
 - [[sources/repositories/cli-printing-press]]
-- [[index]]
+- [[wiki/index]]
 - [[log]]
 - [[concepts/sqlite]]
 - [[sqlite]]

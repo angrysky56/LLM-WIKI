@@ -17,7 +17,7 @@ confidence: 0.3
 - [[log]]
 - [[concepts/sd-search]]
 - [[concepts/process-reward-model]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/hybrid-reward-models]]
 - [[sd-search]]
 

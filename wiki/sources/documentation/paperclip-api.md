@@ -31,7 +31,7 @@ Paperclip API is a company-scoped REST API with JSON payloads, Bearer token auth
 
 ## Connections
 - [[sources/repositories/paperclip]]
-- [[index]]
+- [[wiki/index]]
 - [[sources/documentation/paperclip-api]]
 - [[paperclip-api]]
 

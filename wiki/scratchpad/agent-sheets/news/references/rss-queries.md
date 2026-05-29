@@ -38,7 +38,7 @@ def fetch_rss(query):
 
 ## Related
 - [[scratchpad/agent-sheets/news/references/rss-queries]]
-- [[index]]
+- [[wiki/index]]
 
 - [[rss-queries]]
 

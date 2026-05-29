@@ -21,7 +21,7 @@ The Wiki Librarian agent (`6ee16837c47c`) was assigned to perform a quality audi
 
 ## Related
 - [[scratchpad/jobs/reports/librarian/librarian-2026-05-19-missing-agent-sheet]]
-- [[index]]
+- [[wiki/index]]
 
 - [[librarian-2026-05-19-missing-agent-sheet]]
 

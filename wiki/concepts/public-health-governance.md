@@ -21,7 +21,7 @@ confidence: 0.3
 - [[sources/news/2026/ebola-bundibugyo-outbreak-drc-uganda-2026]]
 - [[sources/articles/ebola-bundibugyo-who-emergency-committee-may-2026]]
 - [[sources/news/2026/ebola-outbreak-second-treatment-center-burned-may-2026]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/ebola-outbreak-drc-2026]]
 - [[concepts/maximum-occupancy-principle]]
 - [[sources/news/2026/china-rare-earth-geopolitics-may-2026]]

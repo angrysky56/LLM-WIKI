@@ -16,7 +16,7 @@ confidence: 0.3
 ## Connections
 - [[concepts/is-grep-all-you-need]]
 - [[concepts/agentic-research]]
-- [[index]]
+- [[wiki/index]]
 - [[log]]
 - [[agents/skills/agentic-tooluse/skill]]
 - [[is-grep-all-you-need]]

@@ -16,7 +16,7 @@ confidence: 0.3
 ## Connections
 - [[sources/news/2026/raul-castro-indictment-2026]]
 - [[synthesis/news/moscow]]
-- [[index]]
+- [[wiki/index]]
 - [[synthesis/news/russia-sanctions-regime]]
 - [[log]]
 - [[synthesis/news/russia]]

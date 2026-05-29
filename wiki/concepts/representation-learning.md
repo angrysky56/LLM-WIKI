@@ -18,7 +18,7 @@ confidence: 0.3
 - [[concepts/feature-learning]]
 - [[log]]
 - [[concepts/compression]]
-- [[index]]
+- [[wiki/index]]
 - [[representation-learning]]
 
 - [[deep-learning]]

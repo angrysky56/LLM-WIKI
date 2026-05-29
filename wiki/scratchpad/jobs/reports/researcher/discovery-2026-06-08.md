@@ -39,7 +39,7 @@ Agent architecture cluster (4 pages) is **mostly complete**: agent-native-design
 **Remaining stubs (~43)**: agent-leak-benchmark, autonomous-research, kv-cache, attention-mechanism, and various domain-specific stubs (taylors-law, esa, qes, etc.).
 
 ## Related
-- [[index]]
+- [[wiki/index]]
 - [[scratchpad/jobs/reports/researcher/discovery-2026-06-08]]
 
 - [[discovery-2026-06-08]]

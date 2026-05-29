@@ -55,7 +55,7 @@ The 2026 Menin-D-serine-hypothalamus research establishes a specific molecular p
 - [[log]]
 - [[entities/neuroinflammation]]
 - [[entities/cognitive-decline]]
-- [[index]]
+- [[wiki/index]]
 - [[entities/longevity-research]]
 - [[cognitive-decline]]
 

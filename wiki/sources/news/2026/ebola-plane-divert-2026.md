@@ -36,7 +36,7 @@ The Air France diversion is the first visible proof that US Ebola travel restric
 
 ## Connections
 - [[sources/news/2026/ebola-plane-divert-2026]]
-- [[index]]
+- [[wiki/index]]
 - [[ebola-plane-divert-2026]]
 
 Part of [[ebola-outbreak-drc-2026]] ongoing monitoring. Connects to [[global-health-security]] and travel restriction enforcement in the context of the PHEIC declaration.

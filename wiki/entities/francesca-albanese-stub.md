@@ -13,7 +13,7 @@ confidence: 0.3
 ## Related
 - [[synthesis/insights/francesca-albanese-sanctions-case-insight]]
 - [[entities/francesca-albanese-stub]]
-- [[index]]
+- [[wiki/index]]
 
 - [[francesca-albanese-stub]]
 

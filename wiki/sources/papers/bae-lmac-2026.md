@@ -190,7 +190,7 @@ AGEM (Agent Group Evolving Molecular System) presumably manages multi-agent grou
 
 ## Connections
 - [[sources/papers/bae-lmac-2026]]
-- [[index]]
+- [[wiki/index]]
 - [[bae-lmac-2026]]
 
 - [[efhf]] — five-layer cognitive architecture; LMAC's metacognitive encoder maps to EFHF L2, SAI maps to L4, cycle-consistency maps to L5 sheaf enforcement

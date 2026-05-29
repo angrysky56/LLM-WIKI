@@ -16,7 +16,7 @@ confidence: 0.3
 ## Connections
 - [[concepts/research-methodology]]
 - [[concepts/science]]
-- [[index]]
+- [[wiki/index]]
 - [[log]]
 - [[concepts/engineering]]
 - [[science]]

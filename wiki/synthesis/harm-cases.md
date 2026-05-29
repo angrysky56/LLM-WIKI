@@ -78,7 +78,7 @@ The technical working group rotates which harm cases are active each quarter to 
 ---
 
 ## Related
-- [[index]]
+- [[wiki/index]]
 - [[concepts/refuser-pattern]]
 - [[synthesis/harm-cases]]
 - [[synthesis/replicant-mapping]]

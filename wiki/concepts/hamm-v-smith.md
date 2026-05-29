@@ -47,7 +47,7 @@ The EU-US Trade Deal's 2029 expiry mechanism was specifically designed to naviga
 - [[concepts/hamm-v-smith]]
 - [[concepts/malaysia-us-trade-deal]]
 - [[log]]
-- [[index]]
+- [[wiki/index]]
 - [[hamm-v-smith]]
 
 - [[eu-us-trade-deal]] — the bilateral deal that uses 2029 sunset format in response to this ruling

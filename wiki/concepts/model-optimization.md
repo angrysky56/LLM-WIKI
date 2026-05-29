@@ -16,7 +16,7 @@ confidence: 0.3
 ## Connections
 - [[concepts/ml-optimization]]
 - [[concepts/llm-optimization]]
-- [[index]]
+- [[wiki/index]]
 - [[log]]
 - [[concepts/model-optimization]]
 - [[model-optimization]]

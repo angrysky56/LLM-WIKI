@@ -50,7 +50,7 @@ Frontier deep research products score high on existing benchmarks, making capabi
 
 ## Connections
 - [[sources/papers/deepweb-bench-2026]]
-- [[index]]
+- [[wiki/index]]
 - [[deepweb-bench-2026]]
 
 - [[agentic-research]] — DeepWeb-Bench is the evaluation substrate for autonomous research agents

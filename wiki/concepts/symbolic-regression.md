@@ -34,7 +34,7 @@ Blind recovery success degrades with tree depth: 100% at depth 2, ~25% at depth 
 - [[synthesis/minimal-generative-architectures]]
 - [[concepts/symbolic-regression]]
 - [[sources/news/2026/transformer-vm-moran-2026]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/eml-operator]]
 - [[sources/papers/odrzywolek-eml-2026]]
 - [[sources/articles/llm-kernel-optimization]]

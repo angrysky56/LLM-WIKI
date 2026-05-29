@@ -40,7 +40,7 @@ A separate but related development: Google's Gemini model solved a different 80-
 
 ## Related
 - [[synthesis/news/openai-erdos-math-breakthrough-may-2026]]
-- [[index]]
+- [[wiki/index]]
 
 - [[openai-erdos-math-breakthrough-may-2026]]
 

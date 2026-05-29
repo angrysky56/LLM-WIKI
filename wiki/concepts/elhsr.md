@@ -18,7 +18,7 @@ confidence: 0.3
 - [[concepts/hybrid-reward-models]]
 - [[concepts/reward-modeling]]
 - [[concepts/hidden-states]]
-- [[index]]
+- [[wiki/index]]
 - [[log]]
 - [[elhsr]]
 

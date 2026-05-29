@@ -15,7 +15,7 @@ confidence: 0.3
 
 ## Connections
 - [[concepts/qora]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/evolutionary-strategies]]
 - [[concepts/llama-nas]]
 - [[concepts/rz-nas]]

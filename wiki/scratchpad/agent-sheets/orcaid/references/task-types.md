@@ -83,7 +83,7 @@ uv run python -m orcaid.cli \
 ---
 
 ## Related
-- [[index]]
+- [[wiki/index]]
 - [[scratchpad/agent-sheets/orcaid/references/task-types]]
 
 - [[task-types]]

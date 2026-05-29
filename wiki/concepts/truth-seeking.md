@@ -14,7 +14,7 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
-- [[index]]
+- [[wiki/index]]
 - [[concepts/truth-seeking]]
 - [[sources/articles/frank-einstein-gemma-truth-emotion-sacred]]
 - [[log]]

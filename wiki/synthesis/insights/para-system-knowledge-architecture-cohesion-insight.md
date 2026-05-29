@@ -17,7 +17,7 @@ The detection of a 208-entity cluster centered on "Areas | Resources | Archives"
 ## Related
 - [[synthesis/insights/para-system-knowledge-architecture-cohesion-insight]]
 - [[concepts/para-methodology]]
-- [[index]]
+- [[wiki/index]]
 
 - [[para-system-knowledge-architecture-cohesion-insight]]
 

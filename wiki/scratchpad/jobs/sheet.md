@@ -53,7 +53,7 @@ Searched:
 4. Trump admin internal debate on AI governance — no dedicated page yet
 
 ## Related
-- [[index]]
+- [[wiki/scratchpad/jobs/index]]
 - [[sheet]]
 
 - [[scratchpad/jobs/sheet]]

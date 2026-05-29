@@ -16,7 +16,7 @@ confidence: 0.3
 ## Connections
 - [[log]]
 - [[synthesis/news/maldives]]
-- [[index]]
+- [[wiki/index]]
 - [[sources/news/rescue-diver-dies-during-search-for-bodies-of-italians-who-d]]
 - [[maldives]]
 

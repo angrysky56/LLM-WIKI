@@ -116,7 +116,7 @@ Confidence: 0.70 (solid cognitive science basis; AI application is more speculat
 - kanban-morning-review for trailing 10:30 AM aggregator cron handles task surfacing
 
 ## Related
-- [[index]]
+- [[wiki/index]]
 - [[scratchpad/jobs/reports/researcher/discovery-2026-07-03]]
 
 - [[discovery-2026-07-03]]

@@ -18,7 +18,7 @@ confidence: 0.3
 - [[concepts/terrorism]]
 - [[synthesis/news/vehicle-ramming-attack]]
 - [[log]]
-- [[index]]
+- [[wiki/index]]
 - [[terrorism]]
 
 - [[geopolitics]]

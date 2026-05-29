@@ -63,7 +63,7 @@ Different agent architectures implement MCM in different ways:
 - **Meta-cognitive agents** — Explicit self-monitoring and self-regulation (see [[agent-taxonomies]])
 
 ## See Also
-- [[index]]
+- [[wiki/index]]
 - [[concepts/metacognitive-architecture-closed-loop-self-regulation]]
 - [[concepts/agent-taxonomies]]
 - [[concepts/ramirez-ruiz-mop-2024]]

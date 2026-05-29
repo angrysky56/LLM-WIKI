@@ -28,7 +28,7 @@ The pattern — multiple AI labs demonstrating concrete scientific discovery res
 
 ## Connections
 - [[sources/news/2026/openai-ai-solves-80-year-erdos-problem-may-2026]]
-- [[index]]
+- [[wiki/index]]
 - [[openai-ai-solves-80-year-erdos-problem-may-2026]]
 - [[AI-scientific-discovery]] — broader thread on AI in scientific research
 - [[OpenAI-developments]] — OpenAI capability developments

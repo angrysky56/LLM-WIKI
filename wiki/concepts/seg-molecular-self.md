@@ -14,7 +14,7 @@ confidence: 0.3
 *Stub page — needs real content*
 
 ## Connections
-- [[index]]
+- [[wiki/index]]
 - [[synthesis/seg-scientist-agent-design]]
 - [[concepts/seg-molecular-self]]
 - [[concepts/maximum-occupancy-principle]]

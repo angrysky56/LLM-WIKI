@@ -16,7 +16,7 @@ confidence: 0.3
 ## Connections
 - [[concepts/maximum-occupancy-principle]]
 - [[sources/documentation/isabelle-installation]]
-- [[index]]
+- [[wiki/index]]
 - [[log]]
 - [[concepts/latex]]
 - [[latex]]

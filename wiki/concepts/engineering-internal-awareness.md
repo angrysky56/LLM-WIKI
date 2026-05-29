@@ -57,7 +57,7 @@ The [[agent-taxonomies]] define how different agent types leverage internal awar
 - [[concepts/self-correction]]
 - [[log]]
 - [[concepts/agentic-oversight]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/agent-taxonomies]]
 - [[engineering-internal-awareness]]
 

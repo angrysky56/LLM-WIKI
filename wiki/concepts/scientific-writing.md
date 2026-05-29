@@ -35,7 +35,7 @@ Most scientific papers follow the **IMRaD** structure:
 - [[concepts/academic-peer-review]]
 - [[concepts/research-methodology]]
 - [[sources/articles/critical-review-scientific-article-guide]]
-- [[index]]
+- [[wiki/index]]
 - [[sources/articles/why-llms-arent-scientists-yet]]
 - [[concepts/academic-writing]]
 - [[concepts/scientific-discovery]]

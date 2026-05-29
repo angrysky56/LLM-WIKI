@@ -59,7 +59,7 @@ If no useful response emerges after 3 attempts, the council acknowledges the gap
 The empty chair is not a devil's advocate. It is not a tool for stress-testing a conclusion the council already reached. The empty chair is a genuine attempt to receive a perspective the council lacks. If the council uses the empty chair to confirm what it already believes, it is doing it wrong.
 
 ## Related
-- [[index]]
+- [[wiki/index]]
 - [[log]]
 - [[synthesis/spiral-architecture]]
 - [[synthesis/empty-chair-protocol]]

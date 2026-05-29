@@ -63,7 +63,7 @@ Multi-agent code-centric systems — roles, shared state, workflow topology.
 ```
 
 ## Related
-- [[index]]
+- [[wiki/index]]
 - [[sources/papers/clinseekagent-multimodal-clinical-evidence-seeking]]
 - [[sources/papers/awesome-code-as-agent-harness]]
 

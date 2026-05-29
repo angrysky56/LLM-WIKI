@@ -28,7 +28,7 @@ Experts quoted in The Guardian note the US has "simply chosen not to stop" the o
 - 2026-05-23: Health experts publicly note US response withdrawal limiting containment
 
 ## Connections
-- [[index]]
+- [[wiki/index]]
 - [[sources/news/2026/ebola-outbreak-drc-who-very-high-may-2026]]
 - [[ebola-outbreak-drc-who-very-high-may-2026]]
 - [[ebola-bundibugyo-outbreak-drc-uganda-2026]] — carryover from previous cycle

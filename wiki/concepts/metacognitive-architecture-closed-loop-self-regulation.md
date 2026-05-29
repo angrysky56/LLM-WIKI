@@ -170,7 +170,7 @@ This is the implementation of the [[oMCD]] 9-step loop at the neural level.
 - [[concepts/self-correction]]
 - [[log]]
 - [[concepts/engineering-internal-awareness]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/agent-taxonomies]]
 - [[concepts/cognitive-architecture]]
 - [[concepts/hermes-meta-cognition]]

@@ -18,17 +18,17 @@ confidence: 1.0
 
 # GoodRobot Revenue Model
 
-> This page has been consolidated. The authoritative content is now at [[revenue-model]] in `wiki/projects/goodrobot/`.
+> This page has been consolidated. The authoritative content is now at [[wiki/concepts/revenue-model]] in `wiki/projects/goodrobot/`.
 
 ## What was here
 
-A stub page pointing to revenue model content. The actual revenue model — subscription tiers, unit economics, and financial projections — is now at [[revenue-model]].
+A stub page pointing to revenue model content. The actual revenue model — subscription tiers, unit economics, and financial projections — is now at [[wiki/concepts/revenue-model]].
 
 ## Related
 - [[agents/skills/librarian-agent/skill]]
 - [[log]]
 - [[synthesis/news/goodrobot-revenue-model]]
-- [[index]]
+- [[wiki/index]]
 
 - [[goodrobot-revenue-model]]
 

@@ -159,7 +159,7 @@ The refactor is now a focused engineering task. Estimated 1-2 days of work; sequ
 - [[synthesis/seg-scientist-agent-design]]
 - [[spikes/spike-001-spacy-owlready2]]
 - [[spikes/spike-campaign-001-004-summary]]
-- [[index]]
+- [[wiki/index]]
 - [[seg-scientist-agent-design]]
 
 - [[efhf]] — verification substrate

@@ -49,7 +49,7 @@ PRISM achieves highest held-out log-likelihood across all domains while recoveri
 
 ## Related
 - [[sources/papers/prism]]
-- [[index]]
+- [[wiki/index]]
 
 - [[prism]]
 

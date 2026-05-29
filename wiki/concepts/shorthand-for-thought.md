@@ -50,7 +50,7 @@ The "Grokked Reasoning Hypothesis" (from [[llm-reasoning]]) states that at suffi
 ## Connections
 - [[concepts/dynamical-systems]]
 - [[concepts/shorthand-for-thought]]
-- [[index]]
+- [[wiki/index]]
 - [[entities/tools/superbpe]]
 - [[concepts/imagination]]
 - [[synthesis/self-prompting-via-production-stage-architecture]]

@@ -16,7 +16,7 @@ confidence: 0.3
 ## Connections
 - [[concepts/maximum-occupancy-principle]]
 - [[sources/articles/gemma4]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/ollama]]
 - [[log]]
 - [[sources/repositories/openclaw]]

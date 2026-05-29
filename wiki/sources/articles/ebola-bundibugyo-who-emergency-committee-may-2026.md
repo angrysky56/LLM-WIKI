@@ -32,7 +32,7 @@ The outbreak is concentrated in eastern DRC, in territory controlled by armed gr
 The WHO EC process adds formal international coordination layers under IHR (2005) — this is the legal and diplomatic framework that obligates member states to coordinate border measures, report case data, and accept recommended resource-sharing. The 2014-2016 West Africa outbreak prompted the strongest reforms to this framework.
 
 ## Connections
-- [[index]]
+- [[wiki/index]]
 - [[concepts/ebola-outbreak-drc-2026]]
 - [[synthesis/news/russia-bundibugyo-ebola-vaccine-may-2026]]
 - [[sources/news/2026/ebola-bundibugyo-who-ec-recommendations-follow-up-may-2026]]

@@ -31,7 +31,7 @@ Agentic design patterns form a decision topology: single-agent for simple tasks;
 ## Connections
 - [[sources/articles/designing-agentic-design-picker]]
 - [[sources/articles/choosing-right-agentic-design-pattern]]
-- [[index]]
+- [[wiki/index]]
 - [[choosing-right-agentic-design-pattern]]
 
 - [[delegation]] — related to orchestration pattern

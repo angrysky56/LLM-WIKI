@@ -39,7 +39,7 @@ Layer 2 — maintains the distribution-independent world model. Hypotheses gener
 - [[entities/projects/tys-repos/sheaf-consistency-enforcer]]
 - [[entities/projects/tys-repos/efhf]]
 - [[entities/people/tyler-hall]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/cognitive-world-models-for-llm-agents]]
 - [[entities/projects/tys-repos]]
 - [[log]]

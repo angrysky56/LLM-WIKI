@@ -38,7 +38,7 @@ confidence: 1.0
 - [[entities/projects/tys-repos/graph-rlm]]
 - [[entities/people/tyler-hall]]
 - [[concepts/data-privacy]]
-- [[index]]
+- [[wiki/index]]
 - [[entities/projects/tys-repos/agem]]
 - [[sources/repositories/agem]]
 - [[entities/projects/tys-repos]]

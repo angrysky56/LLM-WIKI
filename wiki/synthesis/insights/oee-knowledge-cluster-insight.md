@@ -28,7 +28,7 @@ The following facts formed the evidence chain for this insight:
 
 ## Related
 - [[synthesis/insights/oee-knowledge-cluster-insight]]
-- [[index]]
+- [[wiki/index]]
 
 - [[oee-knowledge-cluster-insight]]
 

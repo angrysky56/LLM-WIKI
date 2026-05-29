@@ -31,7 +31,7 @@ The agentic design picker is a meta-orchestrator that evaluates five decision po
 Output is a manifest with `topology_type`, `required_tools`, `reflection_enabled`, `max_iterations`.
 
 ## Connections
-- [[index]]
+- [[wiki/index]]
 - [[sources/articles/designing-agentic-design-picker]]
 - [[designing-agentic-design-picker]]
 

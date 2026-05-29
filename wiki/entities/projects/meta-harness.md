@@ -54,7 +54,7 @@ The project is currently in the **stabilization phase**.
 - [[entities/projects/tys-repos/agem]]
 - [[concepts/meta_harness_loop]]
 - [[concepts/schema-competition]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/hermes_agent]]
 - [[entities/projects/tys-repos]]
 - [[log]]

@@ -34,7 +34,7 @@ Running Neo4j 2026.04.0 (community edition). Qwen 4B via Ollama for embeddings (
 See [[neo4j-2026-04-0-release]] for full release notes.
 
 ## Connections
-- [[index]]
+- [[wiki/index]]
 - [[synthesis/wiki-indexing-theory]]
 - [[entities/tools/obsidian]]
 - [[concepts/graph-database]]

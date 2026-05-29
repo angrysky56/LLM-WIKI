@@ -28,7 +28,7 @@ Recent research, particularly associated with the [[spontaneous-activity-reshapi
 - [[concepts/spontaneous-activity-reshaping-hypothesis]]
 - [[synthesis/intelligence-as-entropic-sculpting]]
 - [[concepts/aphantasia]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/hyperphantasia]]
 - [[log]]
 - [[entities/people/roger-koenig-robert]]

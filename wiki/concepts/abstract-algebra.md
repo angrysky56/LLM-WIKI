@@ -16,7 +16,7 @@ confidence: 0.3
 ## Connections
 - [[concepts/algebra]]
 - [[concepts/pure-mathematics]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/abstract-algebra]]
 - [[abstract-algebra]]
 

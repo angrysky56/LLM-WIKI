@@ -92,7 +92,7 @@ The field has also explored *in-context fine-tuning* (ICT) — updating the weig
 ## Connections
 - [[concepts/emergence]]
 - [[concepts/causal-reasoning]]
-- [[index]]
+- [[wiki/index]]
 - [[sources/articles/titans-test-time-memory]]
 - [[log]]
 - [[concepts/load-bearing-reasoning]]

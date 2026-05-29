@@ -4,7 +4,7 @@ updated: 2026-05-26T20:24:55Z
 ---
 
 ## Related
-- [[index]]
+- [[wiki/index]]
 - [[log]]
 - [[concepts/saas]]
 - [[scratchpad/jobs/reports/librarian/audit-2026-07-15]]
@@ -12,9 +12,9 @@ updated: 2026-05-26T20:24:55Z
 - [[scratchpad/jobs/reports/librarian/carryover]]
 - [[concepts/saas-pricing]]
 
-- [[goodrobot]]
+- [[wiki/entities/projects/goodrobot]]
 
-→ [[wiki/projects/goodrobot/shut-down-entity]]
+→ [[shut-down-entity]]
 
 - [[saas-pricing]]
 - [[saas]]

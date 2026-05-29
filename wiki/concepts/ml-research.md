@@ -16,7 +16,7 @@ confidence: 0.3
 ## Connections
 - [[concepts/ml-research]]
 - [[concepts/ai-research]]
-- [[index]]
+- [[wiki/index]]
 - [[log]]
 - [[ml-research]]
 

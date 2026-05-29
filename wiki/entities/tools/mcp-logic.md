@@ -56,7 +56,7 @@ Layer 3 — checks whether the macro-level world model (Layer 2, [[hipai-montagu
 - [[entities/people/tyler-hall]]
 - [[sources/papers/bae-lmac-2026]]
 - [[concepts/symbolic-regression]]
-- [[index]]
+- [[wiki/index]]
 - [[spikes/spike-001-spacy-owlready2]]
 - [[sources/documentation/hermes-mcp-integration]]
 - [[entities/tools/hipai-montague]]

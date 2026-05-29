@@ -27,7 +27,7 @@ A Supreme Court ruling on voting rights is producing swift action at the local l
 
 ## Related
 - [[sources/news/2026-05/scotus-voting-rights-2026-05-18]]
-- [[index]]
+- [[wiki/index]]
 - [[synthesis/news/2026-may/news-2026-05-18-headlines]]
 - [[scotus-voting-rights-2026-05-18]]
 - [[wiki/sources/news/2026-05/scotus-voting-rights-2026-05-18.md]]

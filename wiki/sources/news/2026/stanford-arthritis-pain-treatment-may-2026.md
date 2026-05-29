@@ -19,7 +19,7 @@ Current osteoarthritis pain management relies on NSAIDs (with GI and cardiovascu
 The Stanford team is moving toward clinical trials. If the human results match mouse models, this would represent a fundamental shift in pain management for the most prevalent joint disease on Earth.
 
 ## Connections
-- [[index]]
+- [[wiki/index]]
 - [[sources/news/2026/stanford-arthritis-pain-treatment-may-2026]]
 - [[stanford-arthritis-pain-treatment-may-2026]]
 - [[AI-scientific-discovery]] — Stanford AI tools accelerating discovery of novel pain pathways

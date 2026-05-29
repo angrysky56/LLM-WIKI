@@ -28,7 +28,7 @@ This marks the third major Starship test of 2026, with the company using these f
 - 2026-05-23: Musk tweets "epic" launch confirmation
 
 ## Connections
-- [[index]]
+- [[wiki/index]]
 - [[sources/news/2026/spacex-starship-v3-launch-may-2026]]
 - [[spacex-starship-v3-launch-may-2026]]
 - [[spacex-ipo-spcx-2026]] — IPO timeline and valuation

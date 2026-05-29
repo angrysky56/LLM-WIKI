@@ -17,7 +17,7 @@ confidence: 0.3
 - [[concepts/research-tooling]]
 - [[concepts/research-agent]]
 - [[concepts/ml-research]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/scientific-discovery]]
 - [[concepts/ai-research]]
 - [[log]]

@@ -16,7 +16,7 @@ confidence: 0.3
 ## Connections
 - [[concepts/visual-recognition]]
 - [[log]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/image-understanding]]
 - [[visual-recognition]]
 

@@ -17,7 +17,7 @@ confidence: 0.3
 - [[concepts/world-model]]
 - [[concepts/recuriosity-episodic-context-3d-exploration-2026]]
 - [[concepts/agentic-research]]
-- [[index]]
+- [[wiki/index]]
 - [[log]]
 - [[recuriosity-episodic-context-3d-exploration-2026]]
 

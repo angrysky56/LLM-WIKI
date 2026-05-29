@@ -19,7 +19,7 @@ confidence: 0.3
 - [[sources/news/2026/middle-east-lebanon-hormuz-may-2026]]
 - [[log]]
 - [[sources/israel-ben-gvir-flotilla-video]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/social-media-regulation]]
 - [[social-media-regulation]]
 

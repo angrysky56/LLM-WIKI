@@ -18,7 +18,7 @@ confidence: 0.3
 - [[concepts/formal-methods]]
 - [[concepts/isabelle-hol]]
 - [[concepts/formal-verification]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/proof-assistant]]
 - [[log]]
 - [[concepts/load-bearing-reasoning]]

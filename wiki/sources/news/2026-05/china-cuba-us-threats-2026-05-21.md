@@ -34,7 +34,7 @@ The blackouts add a human dimension — Cubans are experiencing infrastructure s
 ## Connections
 - [[concepts/china-cuba-tensions]]
 - [[synthesis/news/us-iran-tensions]]
-- [[index]]
+- [[wiki/index]]
 - [[synthesis/news/china]]
 - [[sources/news/2026-05/china-cuba-us-threats-2026-05-21]]
 - [[sources/news/2026-05/russia-china-condemn-us-castro-indictment-2026-05-21]]

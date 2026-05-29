@@ -25,7 +25,7 @@ This clustering suggests the knowledge base has been consistently organized arou
 
 ## Connections
 - [[synthesis/insights/para-knowledge-architecture-cohesion-insight]]
-- [[index]]
+- [[wiki/index]]
 - [[para-knowledge-architecture-cohesion-insight]]
 
 - [[para-methodology]] — knowledge management framework

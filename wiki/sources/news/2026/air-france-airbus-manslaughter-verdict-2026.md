@@ -30,7 +30,7 @@ This is a significant verdict for several reasons:
 3. **Global reach**: French courts have jurisdiction because the crash involved a French-registered airline and a French-manufactured aircraft, but the precedent will be cited in other jurisdictions.
 
 ## Connections
-- [[index]]
+- [[wiki/index]]
 - [[sources/news/2026/air-france-airbus-manslaughter-verdict-2026]]
 - [[air-france-airbus-manslaughter-verdict-2026]]
 - [[institutional-capture-vs-species-framing]] — corporate accountability for known safety risks, institutional failure narrative

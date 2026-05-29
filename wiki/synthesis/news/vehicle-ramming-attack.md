@@ -17,7 +17,7 @@ confidence: 0.3
 - [[sources/news/man-ploughs-car-into-crowd-in-italy-before-trying-to-stab-th]]
 - [[synthesis/news/vehicle-ramming-attack]]
 - [[log]]
-- [[index]]
+- [[wiki/index]]
 - [[vehicle-ramming-attack]]
 
 - [[terrorism]]

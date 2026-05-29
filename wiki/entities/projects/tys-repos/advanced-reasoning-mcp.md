@@ -28,7 +28,7 @@ confidence: 1.0
 ## Connections
 - [[entities/people/tyler-hall]]
 - [[entities/projects/tys-repos/efhf]]
-- [[index]]
+- [[wiki/index]]
 - [[entities/projects/tys-repos]]
 - [[log]]
 - [[entities/projects/tys-repos/advanced-reasoning-mcp]]

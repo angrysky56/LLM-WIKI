@@ -16,7 +16,7 @@ confidence: 0.3
 ## Connections
 - [[sources/articles/emotion-concepts-llm]]
 - [[concepts/functional-emotions]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/maximum-occupancy-principle]]
 - [[log]]
 - [[functional-emotions]]

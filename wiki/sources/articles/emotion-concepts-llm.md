@@ -39,7 +39,7 @@ The research suggests a "case for taking anthropomorphic reasoning seriously." W
 
 ## Connections
 - [[sources/articles/emotion-concepts-llm]]
-- [[index]]
+- [[wiki/index]]
 - [[emotion-concepts-llm]]
 - [[neural-interpretability]]
 - [[ai-safety]]

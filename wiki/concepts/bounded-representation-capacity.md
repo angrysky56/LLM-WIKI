@@ -96,7 +96,7 @@ The fundamental engineering question is not *how much* capacity to add, but *how
 ## Related
 - [[sources/papers/akbe]]
 - [[sources/papers/saerl]]
-- [[index]]
+- [[wiki/index]]
 - [[sources/papers/codeskill]]
 - [[sources/papers/legalsearch-r1]]
 - [[concepts/activation-engineering]]

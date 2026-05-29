@@ -37,7 +37,7 @@ The method is shown to be compatible with:
 - **ResNet on Imagenette/CIFAR-100**: Successfully scales to modern architectures and complex datasets without performance degradation on early tasks.
 
 ## Related
-- [[index]]
+- [[wiki/index]]
 - [[sources/papers/eidetic-learning-2021]]
 
 - [[eidetic-learning-2021]]

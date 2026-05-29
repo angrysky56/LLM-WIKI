@@ -90,7 +90,7 @@ LoRA combines naturally with Mixture of Experts architectures. The MoE router al
 - [[concepts/qes]]
 - [[scratchpad/agent-sheets/researcher/carryover]]
 - [[concepts/lora]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/parameter-efficient-fine-tuning]]
 - [[concepts/llama-nas]]
 - [[scratchpad/jobs/reports/researcher/discovery-2026-08-03]]

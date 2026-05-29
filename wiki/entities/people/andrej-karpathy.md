@@ -28,7 +28,7 @@ Author of the [[llm-wiki-pattern]] — the foundational architecture this knowle
 ## Connections
 - [[entities/people/andrej-karpathy]]
 - [[concepts/memex]]
-- [[index]]
+- [[wiki/index]]
 - [[entities/tools/obsidian]]
 - [[concepts/persistent-knowledge-compilation]]
 - [[sources/articles/llm-wiki-pattern]]

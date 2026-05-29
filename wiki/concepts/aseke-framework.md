@@ -15,7 +15,7 @@ confidence: 0.3
 
 ## Connections
 - [[concepts/aseke-framework]]
-- [[index]]
+- [[wiki/index]]
 - [[log]]
 - [[scratchpad/jobs/reports/librarian/audit-2026-05-21]]
 - [[scratchpad/jobs/reports/librarian/audit-2026-05-23]]

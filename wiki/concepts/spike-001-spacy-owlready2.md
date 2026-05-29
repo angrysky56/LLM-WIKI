@@ -17,7 +17,7 @@ confidence: 0.3
 - [[log]]
 - [[synthesis/seg-scientist-agent-design]]
 - [[spikes/spike-campaign-001-004-summary]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/spike-001-spacy-owlready2]]
 - [[spike-001-spacy-owlready2]]
 

@@ -85,7 +85,7 @@ Agent native design works naturally with [[agentic-hierarchy]]:
 - Absorbing states are shared across the hierarchy (global consistency)
 
 ## Connections
-- [[index]]
+- [[wiki/index]]
 - [[concepts/maximum-occupancy-principle]]
 - [[concepts/world-model]]
 - [[concepts/persistent-knowledge-compilation]]

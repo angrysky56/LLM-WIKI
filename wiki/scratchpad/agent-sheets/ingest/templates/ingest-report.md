@@ -27,7 +27,7 @@
 - [files still pending processing]
 
 ## Related
-- [[index]]
+- [[wiki/index]]
 - [[scratchpad/agent-sheets/ingest/templates/ingest-report]]
 
 - [[ingest-report]]

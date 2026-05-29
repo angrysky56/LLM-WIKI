@@ -90,7 +90,7 @@ Meta-cognitive agents explicitly monitor and regulate their own cognition. They 
 ## Connections
 - [[concepts/autonomous-agents]]
 - [[concepts/agent-design]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/futuresim-adaptive-agents]]
 - [[concepts/cognitive-world-models-for-llm-agents]]
 - [[concepts/agents]]

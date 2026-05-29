@@ -38,7 +38,7 @@ confidence: 0.8
 - Key insight: subsequent checkpoints in AI agents are highly similar, so only duplicate changes (deltas) rather than full state
 
 ## Related
-- [[index]]
+- [[wiki/index]]
 - [[scratchpad/jobs/reports/arxiv/papers-2026-05-22-researched]]
 
 - [[papers-2026-05-22-researched]]

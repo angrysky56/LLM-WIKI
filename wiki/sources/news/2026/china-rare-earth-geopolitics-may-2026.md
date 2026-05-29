@@ -35,7 +35,7 @@ The article outlines how China's rare earth leverage has been deployed asymmetri
 ## Connections
 - [[synthesis/news/russia-bundibugyo-ebola-vaccine-may-2026]]
 - [[sources/news/2026/china-rare-earth-geopolitics-may-2026]]
-- [[index]]
+- [[wiki/index]]
 - [[china-rare-earth-geopolitics-may-2026]]
 - [[trump-tariffs]] — US-China trade war escalation context
 - [[public-health-governance]] — Supply chain resilience lessons (applicable framework)

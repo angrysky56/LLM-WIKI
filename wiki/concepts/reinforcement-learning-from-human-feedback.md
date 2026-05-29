@@ -79,7 +79,7 @@ For MoE systems specifically, GRPO may naturally preserve expert diversity bette
 ## Connections
 - [[concepts/mop-and-rlhf-interaction]]
 - [[concepts/mixture-of-experts]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/reward-modeling]]
 - [[concepts/reinforcement-learning-from-human-feedback]]
 - [[concepts/mop-next-token-prediction]]

@@ -57,7 +57,7 @@ The flagellar motor is the canonical case study for "irreducible complexity" arg
 
 ## Connections
 - [[sources/news/2026/wolchover-life-force-2026]]
-- [[index]]
+- [[wiki/index]]
 - [[scratchpad/jobs/reports/librarian/carryover]]
 - [[sources/news/2026-05/smile-satellite-earth-magnetosphere-2026-05-21]]
 - [[concepts/mop-next-token-prediction]]

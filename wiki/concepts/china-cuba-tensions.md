@@ -23,7 +23,7 @@ confidence: 0.3
 - [[sources/rubio-declares-cuba-threat]]
 - [[concepts/china-cuba-tensions]]
 - [[concepts/geopolitics]]
-- [[index]]
+- [[wiki/index]]
 - [[sources/iran-claims-hormuz-waters]]
 - [[concepts/proxy-signalling]]
 - [[concepts/great-power-rivalry]]

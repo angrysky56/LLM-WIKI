@@ -123,7 +123,7 @@ Recent work applies these classical coordination patterns to LLM-based multi-age
 - [[concepts/agentic-reasoning]]
 - [[concepts/multi-agent-llm-systems]]
 - [[concepts/multi-agent-coordination]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/categorical-reasoning]]
 - [[concepts/delegation]]
 - [[concepts/multi-agent-reasoning]]

@@ -18,7 +18,7 @@ confidence: 0.3
 - [[concepts/agent-architectures]]
 - [[concepts/autonomous-agents]]
 - [[concepts/agent-design]]
-- [[index]]
+- [[wiki/index]]
 - [[concepts/agents]]
 - [[agent-design]]
 

@@ -38,7 +38,7 @@ This summit represents the most significant China-Russia display of unity since 
 - [[sources/news/2026-05/russia-china-condemn-us-castro-indictment-2026-05-21]]
 - [[sources/news/2026-05/xi-putin-summit-2026-05-20]]
 - [[sources/news/2026-05/china-cuba-us-threats-2026-05-21]]
-- [[index]]
+- [[wiki/index]]
 - [[sources/news/2026-05/strait-of-hormuz-iran-claim-2026-05-21]]
 - [[synthesis/news/2026-may/news-2026-05-20-headlines]]
 - [[xi-putin-summit-2026-05-20]]

@@ -1,5 +1,5 @@
 ---
-updated: 2026-05-30T01:35:48Z
+updated: 2026-05-30T02:08:53Z
 type: index
 ---
 
@@ -609,12 +609,12 @@ type: index
 - [[shut-down-entity]] — GoodRobot SHUT DOWN — zero-human AI agent company, ethics board simulation
 - [[technical-architecture]] — GoodRobot technical architecture — agent runtime, task routing, memory system, API design
 - [[arxiv]] — 
-- [[carryover]] — arxiv agent carryover — 2026-05-29 batch: Gram (alignment auditing / sabotage), SoundnessBench (AI scientist evaluation / scientific triage), Entropy-Cut MH (test-time reasoning via power distribution sampling) — evaluation infrastructure for agentic AI theme
+- [[carryover]] — arxiv agent carryover — 2026-05-30 batch: LLMSurgeon (data mixture auditing), Locally Coherent (compositional incoherence in multi-agent), RiM (latent reasoning via memory blocks) — transparency as infrastructure for agentic AI theme
 - [[patterns]] — 
 - [[workflow]] — 
 - [[report]] — 
 - [[research-brief]] — 
-- [[vault]] — 
+- [[vault-2026-05-30]] — 
 - [[ingest]] — 
 - [[carryover]] — 1 file processed, raw/ empty. Power sampling (MCMC) paper ingested.
 - [[workflow]] — 
@@ -725,6 +725,7 @@ type: index
 - [[arxiv-2026-05-27-top-papers]] — 
 - [[arxiv-2026-05-28-top-papers]] — 
 - [[arxiv-2026-05-29-top-papers]] — 
+- [[arxiv-2026-05-30-top-papers]] — 
 - [[carryover]] — arxiv agent carryover — StepOPSD (step-level credit redistribution in GRPO), AKBE (knowledge boundary probing), PRISM (multi-intention IRL) — instance-level behavioral decomposition theme
 - [[papers-2026-05-19-researched]] — Three papers on production LLM agent architecture, VLM reasoning decoupling, and agentic clinical evidence seeking
 - [[papers-2026-05-20]] — Three papers on production LLM agent architecture, VLM reasoning decoupling, and agentic clinical evidence seeking

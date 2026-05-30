@@ -88,9 +88,30 @@ Net: training-free repair on the recombination side; a *detector*, not a fix, on
 - **EFHF / hallucination**: confident silent failure is lumpability failure at *low* entropy — the case the entropy detector misses but a sheaf/mechanistic detector should catch.
 - **EDM isomorphism** ([[causal-state-edm-ood-isomorphism]]): answers its Open Question 3 (which internal representation serves as past/future vector) for one task class — the entity-state aggregation site at the final token, with suppression-tag activation as the disruption signal.
 
+## Empirical pilot (2026-05-29): the ceiling result
+
+A first behavioral probe was built at `/home/ty/Repositories/ai_workspace/entity-tracking-externalization/` (PUT/MOVE/REMOVE tasks, deterministic ground truth, ~50% removed-query items; `direct` vs `externalized` conditions graded off a shared `ANSWER:` line; wrong answers classified as `ghost` / `false_remove` / `stale_or_wrong`).
+
+**MiniMax-M2.7, 14 tasks, n_ops=12, remove_prob=0.45, temp=0, run twice — identical both times:**
+
+| Condition | Overall | Removed-query | Present-query | Ghost rate |
+|--|--|--|--|--|
+| direct | **1.00** | 1.00 | 1.00 | 0.00 |
+| externalized | 0.71 | 0.57 | 0.86 | 0.00 |
+
+The externalized "errors" were **all instrumentation artifacts** — empty output (the reply was a `thinking` block with no `text` block) or token-budget truncation mid-trace — **not a single wrong location, and zero ghost errors in either condition.**
+
+This **inverts the original conjecture** for a current reasoning model:
+
+1. **No fragility to route around.** The fragile-`REMOVE` failure ([[llms-entity-tracking-state-changes]]) is **model-dependent**, found in smaller/older models. MiniMax-M2.7 tracks REMOVE perfectly at this difficulty — its `thinking` block is plausibly *already* externalizing the state internally. The question "does CoT route around the tag?" is moot when there's no tag-failure to begin with.
+2. **Forced externalization can *hurt*.** It spent the token budget and pushed the answer into the reasoning channel, manufacturing artifacts where direct answering was clean.
+3. **The result is a difficulty/capability *floor*, not a test of the boundary.** To probe the recombination/capability boundary you need a regime where `direct` actually fails — a weaker model (the local gemma4 runs trended this way but were too slow to complete) or a harder task that breaks `direct` even for M2.7.
+
+**Tie to [[cross-layer-drift-falsification]].** Same category lesson from the behavioral side: that page shows a *geometric* apparatus (MOPS sheaf drift) missing a signal that lives in a *sparse directional* substrate — wrong observable for where the signal lives. Here a *behavioral output-accuracy* probe cannot see a sub-threshold internal mechanism either: when the competent computation lives in the substrate (the thinking channel), a surface measure (final-answer accuracy) reports a ceiling and tells you nothing about the mechanism. And the Pandey "registers internally, answers anyway" finding is mirrored benignly — M2.7 does the work internally and the externalization harness, measuring the surface, both misses it and interferes with it.
+
 ## Open Questions
 
-1. **Does externalization preserve the failure?** When state tracking is forced into CoT, does the fragile `REMOVE` mechanism still fire, or does verbalization route around it? Determines whether the cut step is needed at all for this task.
+1. **Does externalization preserve the failure?** *(Partially tested, 2026-05-29.)* On MiniMax-M2.7 the question is moot — no REMOVE fragility at this difficulty, and forced externalization only added artifacts. **Still open on a model where `direct` fails:** find the difficulty/model regime where direct REMOVE-tracking breaks, then test whether externalization repairs it (recombination-OOD) or not (capability-OOD). A behavioral probe alone is insufficient to confirm the *mechanism* — see Q2.
 2. **Entropy vs. suppression-tag activation as cut signal** — do they correlate, anti-correlate, or fire on disjoint error sets? Anti-correlation would empirically confirm the confident-failure blind spot.
 3. **Online classification of the boundary.** Is there a cheap test that labels a failure recombination- vs capability-OOD *before* spending a sampling budget? Repeated-resample non-appearance is one signal; a mechanistic probe is another.
 4. **Generality.** Does the recombination/capability split hold for non-entity tasks (arithmetic carries, multi-hop retrieval), or is it specific to the parallel-aggregation strategy entity tracking uses?
@@ -107,3 +128,4 @@ Net: training-free repair on the recombination side; a *detector*, not a fix, on
 - [[maximum-occupancy-principle]] — β = state-splitting appetite; RLHF KL pull
 - [[mechanistic-interpretability]] — source of the non-entropy cut signal
 - [[mop-edm-cognitive-architecture]] — fuller framework synthesis
+- [[cross-layer-drift-falsification]] — same lesson, mechanistic side: wrong observable for where the signal lives

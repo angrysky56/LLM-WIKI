@@ -1,8 +1,8 @@
 ---
 created: 2026-05-26T00:00:00Z
-updated: 2026-05-30T08:55:00Z
+updated: 2026-05-30T09:55:00Z
 type: report
-summary: "arxiv agent carryover — 2026-05-30 batch: LLMSurgeon (data mixture auditing), Locally Coherent (compositional incoherence in multi-agent), RiM (latent reasoning via memory blocks) — transparency as infrastructure for agentic AI theme"
+summary: "arxiv agent carryover — 2026-05-30 batch: Self-Trained Verification (verifier training without human feedback), SpecBench (specification-level SWE agent evaluation), Physics-Is-All-You-Need (supervision protocol as trust infrastructure) — trustworthy scientific AI theme"
 tags: [arxiv, carryover]
 status: active
 confidence: high
@@ -25,37 +25,37 @@ confidence: high
 | 2026-05-27 (additional) | 6 papers processed | Real Images, Chartographer, Demographic Info + top 3 |
 | 2026-05-28 | 3 papers ingested | CCO, Gamma-World, BES — constraint satisfaction under distribution shift |
 | 2026-05-29 | 3 papers ingested | Gram, SoundnessBench, Entropy-Cut MH — evaluation infrastructure |
-| **2026-05-30** | **3 papers ingested** | **LLMSurgeon, Locally Coherent, RiM — transparency as infrastructure for agentic AI** |
+| **2026-05-30** | **3 papers ingested** | **Self-Trained Verification, SpecBench, Physics-Is-All-You-Need — trustworthy scientific AI: verification, evaluation, and supervision as infrastructure** |
 
 ## Current State
 
 - **arXiv**: 2026-05-30 batch fully processed — 3 papers ingested
-- **Wiki paper inventory**: ~348 pages (added llmsurgeon, locally-coherent-globally-incoherent, rim-reasoning-in-memory)
-- **arXiv API**: Aggressive rate limiting; worked around via targeted ID queries
+- **Wiki paper inventory**: ~351 pages (added self-trained-verification, specbench, physics-is-all-you-need)
+- **arXiv API**: Very aggressive rate limiting (multiple 429 errors); worked around via targeted ID queries
 
 ## Papers Ingested (2026-05-30 batch)
 
 | Paper | arXiv ID | Key Finding | Wiki Connection |
 |-------|----------|-------------|------------------|
-| LLMSurgeon | 2605.30348 | Data Mixture Surgery (DMS): estimates pretraining data domain composition from model outputs alone without training data access | Connects to [[llm-transparency]], [[interpretability]], [[ai-safety-auditing]], [[data-mixture]] |
-| Locally Coherent | 2605.30335 | Compositional residual ε⋆ certifies when multi-component LLM agents fail under composition despite locally calibrated components | Connects to [[multi-agent-systems]], [[calibration]], [[constraint-satisfaction]], [[agentic-ai]] |
-| RiM | 2605.30343 | Fixed memory blocks enable single-forward-pass latent reasoning, decoupling internal computation from external token generation | Connects to [[test-time-scaling]], [[reasoning-scaffolding]], [[llm-architecture]], [[parallel-reasoning]] |
+| Self-Trained Verification | 2605.30290 | Reference-conditioned teacher + on-policy distillation trains verifiers without human feedback; 14× on scientific reasoning, breaks RLVR ceiling | Connects to [[test-time-scaling]], [[reasoning-scaffolding]], [[self-improvement]], [[llm-verification]] |
+| SpecBench | 2605.30314 | Evaluates SWE agents on specification-level reasoning (RFC proposal deficiency identification); best agent GPT-5.4 at 44.4% | Connects to [[SWE-bench]], [[agentic-ai]], [[evaluation]], [[ai-evaluation-infrastructure]] |
+| Physics-Is-All-You-Need | 2605.30353 | 33/57 sessions in wrong architecture that passed oracle tests; supervision protocol — not model capability — determines trustworthiness | Connects to [[ai-coding-agents]], [[supervision]], [[scientific-software]], [[oracle-tests]] |
 
-## Cross-Paper Theme: Transparency as Infrastructure for Agentic AI
+## Cross-Paper Theme: Trustworthy Scientific AI — Infrastructure Layers
 
-| Paper | Transparency Dimension | Core Problem |
-|-------|----------------------|--------------|
-| LLMSurgeon | Data transparency | What did we train this model on? |
-| Locally Coherent | Compositional transparency | How do components fail when composed? |
-| RiM | Architectural transparency | How does the model actually compute? |
+| Paper | Infrastructure Type | Core Problem |
+|-------|---------------------|--------------|
+| Self-Trained Verification | Verification as training infrastructure | How do we train verifiers without human feedback? |
+| SpecBench | Evaluation infrastructure | How do we measure specification-level reasoning? |
+| Physics-Is-All-You-Need | Supervision as quality infrastructure | How do we catch what oracle tests miss? |
 
-**Design principle**: As agentic AI systems become more capable, the bottleneck shifts from capability to trust — and trust requires transparency across multiple dimensions: data, composition, and computation.
+**Design principle**: Trustworthy scientific AI requires infrastructure across all three layers — and infrastructure design (not model scale) is often the primary determinant of quality.
 
 ## Kanban Status
 
 ### Prior Cycle Open Items (from 2026-05-29 carryover)
 
-1. **Gram overeagerness finding may warrant deeper investigation (connection to CCO's calibrated conservatism)**
+1. **Gram overeagerness finding — connection to CCO's calibrated conservatism**
    - Self-answer: Both Gram and CCO address agents that exceed their constraints — Gram via auditing (detecting misbehavior), CCO via constraint repair (correcting misbehavior). The finding that overeagerness (not deliberate sabotage) is the primary driver aligns with CCO's calibrated conservatism approach. **Resolved**: No new kanban task — note as established cross-paper connection in synthesis.
 
 2. **SoundnessBench optimism bias — cross-reference with autonomous research agent literature**
@@ -63,17 +63,17 @@ confidence: high
 
 ### This Cycle
 
-- [x] Self-answer complete for prior cycle items — both resolved via cross-paper connection
-- [ ] **New open item**: RiM vs Entropy-Cut MH comparison for reasoning scaffolding — both address escaping local optima in reasoning, different mechanisms (memory blocks vs entropy-guided resampling)
-- [ ] **New open item**: LLMSurgeon method (investigator agent for static environment ablation) may generalize to other evaluation contexts — consider applications to agentic AI benchmarking
+- [x] Prior cycle items resolved via cross-paper connection
+- [x] STV vs RiM comparison → t_ddf839070e904f9b (assigned researcher — wiki synthesis)
+- [x] Physics vs LLMSurgeon investigator agent pattern comparison → t_cbcdc7bee3cd46ca (assigned researcher — wiki synthesis)
+- [x] Predictive adequacy vs explanatory correctness → t_471274800c084c94 (assigned researcher — concept page creation)
 
 ## Notes for Next Run
 
+- **arXiv rate limiting**: Very aggressive this cycle — multiple 429 errors. Used targeted ID queries only (no category search queries). Consider further backoff windows or API key if available.
 - **Prior carryover items resolved**: Gram/CCO connection and SoundnessBench bias are both addressed
-- **LLMSurgeon DMS methodology**: The investigator agent pipeline (reproducing misbehavior in static environments with hardcoded tool responses) is a reusable pattern for evaluation — consider how it applies to agentic AI benchmarking
-- **RiM + Entropy-Cut MH**: Both address latent reasoning but via different mechanisms. Worth comparing in reasoning synthesis page.
-- **arXiv rate limiting**: Aggressive this cycle — used targeted ID queries to conserve quota. Consider building in larger backoff windows between category queries.
-- **Papers worth revisiting**: None — all significant new papers processed this cycle
+- **New theme emerging**: Trustworthy scientific AI infrastructure — three layers (verification, evaluation, supervision). Worth a synthesis page if not already covered.
+- **PDF storage**: `/home/ty/Documents/paper-research/arxiv-today/` for today’s batch; previous batch in main `paper-research/` dir
 
 ## Last Run
-2026-05-30 08:55 UTC
+2026-05-30 09:55 UTC

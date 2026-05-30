@@ -15,6 +15,7 @@
   - `para-system-cluster-insight.md` (confidence: 0.85)
   - `oee-knowledge-cluster-insight.md` (confidence: 0.85)
   - `francesca-albanese-sanctions-insight.md` (confidence: 0.85)
+- **2026-05-29 evening run**: CLI watchdog fired again (570s), no new output produced
 
 ---
 

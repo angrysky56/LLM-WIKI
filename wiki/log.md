@@ -202195,3 +202195,51 @@ Index updated with 1213 pages
   - [[sheffer-stroke]] → [[mcp-logic]] (no return link)
   - [[agentic-oversight]] → [[bounded-structured-memory]] (no return link)
   - [[symbolic-regression]] → [[mcp-logic]] (no return link)
+
+## [2026-05-30 02:26] index
+
+Index updated with 1217 pages
+
+## [2026-05-30 02:33] fetch | nato-condemns-russia-after-drone-hits-romanian-residential-b.md
+
+Fetched https://www.bbc.com/news/articles/c93x4nxlkjeo via defuddle → ingested.
+
+Preview: ## Nato and EU condemn Russia after drone hits Romanian residential block  ![Inquam Photos/George Calin via Reuters Four men in police vests, as well as a man in a white hazmat suit, a helmet and a fa...
+
+## [2026-05-30 02:35] fetch | blue-origin-rocket-explosion-could-damage-nasas-moon-timetab.md
+
+Fetched https://www.bbc.com/news/articles/cwy2q0g07kgo via defuddle → ingested.
+
+Preview: ## Exploding rocket casts doubts over Nasa's Moon plans  Watch: What does rocket explosion mean for Nasa's Moon mission?  The fireball that lit up the sky over Florida's Kennedy Space Centre last nigh...
+
+## [2026-05-30 02:37] fetch | trump-holds-meeting-to-make-final-determination-on-iran-deal.md
+
+Fetched https://www.bbc.com/news/articles/c0r2d40r91qo via defuddle → ingested.
+
+Preview: ## No deal announced after Trump meeting to make 'final determination' on Iran  ![Getty Images US President Donald Trump ](https://ichef.bbci.co.uk/news/1536/cpsprodpb/f155/live/9136a770-5b77-11f1-b93...
+
+## [2026-05-30 02:40] fetch | friday-briefing-what-do-the-cuts-in-aid-mean-for-the-fight-a.md
+
+Fetched https://www.theguardian.com/world/2026/may/29/friday-briefing-what-do-the-cuts-in-aid-mean-for-the-fight-against-ebola-in-the-drc via defuddle → ingested.
+
+Preview: ![A Red Cross worker in protective gear sprays disinfectant in a narrow alley between rundown buildings](https://i.guim.co.uk/img/media/2d86c1c35b60f054413edcebec14e2c5b550dc58/972_0_5090_4072/master/...
+
+## [2026-05-30 02:40] write
+
+Updated page: wiki/sources/articles/spacex-golden-dome-4b-contract-may-2026.md
+
+## [2026-05-30 02:40] write
+
+Updated page: wiki/sources/articles/nato-condemns-russia-after-drone-hits-romanian-residential-b.md
+
+## [2026-05-30 02:40] write
+
+Updated page: wiki/sources/articles/trump-holds-meeting-to-make-final-determination-on-iran-deal.md
+
+## [2026-05-30 02:41] index
+
+Index updated with 1221 pages
+
+## [2026-05-30 03:07] index
+
+Index updated with 1221 pages

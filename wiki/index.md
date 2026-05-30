@@ -1,5 +1,5 @@
 ---
-updated: 2026-05-30T02:08:53Z
+updated: 2026-05-30T03:07:56Z
 type: index
 ---
 
@@ -609,12 +609,13 @@ type: index
 - [[shut-down-entity]] — GoodRobot SHUT DOWN — zero-human AI agent company, ethics board simulation
 - [[technical-architecture]] — GoodRobot technical architecture — agent runtime, task routing, memory system, API design
 - [[arxiv]] — 
-- [[carryover]] — arxiv agent carryover — 2026-05-30 batch: LLMSurgeon (data mixture auditing), Locally Coherent (compositional incoherence in multi-agent), RiM (latent reasoning via memory blocks) — transparency as infrastructure for agentic AI theme
+- [[carryover]] — arxiv agent carryover — 2026-05-30 batch: Self-Trained Verification (verifier training without human feedback), SpecBench (specification-level SWE agent evaluation), Physics-Is-All-You-Need (supervision protocol as trust infrastructure) — trustworthy scientific AI theme
 - [[patterns]] — 
 - [[workflow]] — 
 - [[report]] — 
 - [[research-brief]] — 
 - [[vault-2026-05-30]] — 
+- [[vault]] — 
 - [[ingest]] — 
 - [[carryover]] — 1 file processed, raw/ empty. Power sampling (MCMC) paper ingested.
 - [[workflow]] — 
@@ -646,11 +647,12 @@ type: index
 - [[user]] — User preferences and project context for the Markovian Dev Agency
 - [[issue-001]] — 
 - [[news]] — 
-- [[carryover]] — 3 ongoing stories: Ebola case count 1,018+ with Sud-Kivu expansion, May 29-30 ETC attack window; SpaceX IPO 13 days (quiet period approaching, BlackRock unconfirmed); California AI agency review in implementation
+- [[carryover]] — 5 stories: Russia/NATO first attack, SpaceX $4.16B Golden Dome contract, Trump defers Iran deal, WHO chief DRC Ebola, Blue Origin rocket explosion
 - [[rss-queries]] — 
 - [[workflow]] — 
 - [[headlines-report]] — 
 - [[news-article]] — One-line description
+- [[vault]] — 
 - [[orcaid]] — 
 - [[carryover]] — 
 - [[execution-mechanisms]] — 
@@ -764,7 +766,7 @@ type: index
 - [[carryover]] — Librarians-assistant carryover — 15 nested sources fixed, republican-party-duplicate deleted, 0 true broken links in core dirs
 - [[carryover]] — Three new stories: EU-US trade deal ratified with 2029 expiry, Trump walks back AI model vetting, Google DeepMind Gemini for Science launches
 - [[headlines-2026-05-28]] — 2 new stories: SpaceX S-1 filed ($2T IPO confirmed, June 12 target), California AI workforce EO enters implementation phase
-- [[headlines-2026-05-29]] — 3 ongoing stories: Ebola case count escalation (1,018+, Sud-Kivu confirmed, May 29-30 ETC attack window), SpaceX IPO 13 days out (quiet period approaching, BlackRock unconfirmed), California AI agency review in progress
+- [[headlines-2026-05-29]] — 5 stories: Russia/NATO first attack, SpaceX $4.16B Golden Dome contract, Trump defers Iran deal, WHO chief arrives DRC Ebola, Blue Origin rocket explosion
 - [[carryover]] — 
 - [[overseer-2026-05-26]] — 
 - [[overseer-2026-05-27]] — 
@@ -844,6 +846,7 @@ type: index
 - [[microsoft-search-magnifica-humanitas-may-2026]] — Microsoft.com search for Magnifica humanitas via Bing Copilot
 - [[ml-evolution-benchmarking-protocol]] — Systematic review of guided vs unconstrained LLM architecture evolution.
 - [[momoa-researcher]] — Google Labs agentic research scientist using Mixture of Mixture of Agents
+- [[nato-condemns-russia-after-drone-hits-romanian-residential-b]] — Russian drone hit Romanian apartment — first attack on NATO territory, Article 4 triggered
 - [[news-google-microsoft-pope-leo-ai-encyclical-may-2026]] — News.google.com: Microsoft response to Pope Leo XIV AI encyclical
 - [[news-microsoft-com-may-2026]] — News.microsoft.com: AI impact, OpenAI partnership, sovereign cloud, frontier firms
 - [[openai-pope-leo-magnifica-humanitas-may-2026]] — Bing search: OpenAI response to Magnifica Humanitas encyclical
@@ -853,10 +856,12 @@ type: index
 - [[reasoning-with-sampling-power-sampling-2025]] — Training-free inference-time reasoning via MCMC power sampling, matches RL without training
 - [[shorthand-for-thought]] — Research on compressing LLM Chain-of-Thought (CoT) reasoning by merging low-entropy structural phrases into "supertokens.
 - [[solo-preneur]] — Framework for solo-developer micro-SaaS: "time is money, convenience is king, marketing is queen" — constraints, 4 product categories, and strategic rules
+- [[spacex-golden-dome-4b-contract-may-2026]] — SpaceX $4.16B Golden Dome contract 2 weeks before IPO — material pre-quiet period
 - [[spacex-ipo-governance-questions-may-2026]] — SpaceX IPO 16 days out — Barron's flags Tesla spillover risk, 24/7 Wall St. surfaces Musk voting control question SpaceX declines to answer pre-IPO. BlackRock $10B still under consideration, no confirmation.
 - [[ssh-command-in-linux]] — SSH command reference: connections, key auth, port forwarding, common options
 - [[titans-test-time-memory]] — Titans: Learning to Memorize at Test Time summary.
 - [[trump-abandons-ai-model-vetting-may-2026]] — Trump walks back AI model vetting proposal before signing — second signal in three days that federal AI regulation remains off the table
+- [[trump-holds-meeting-to-make-final-determination-on-iran-deal]] — Trump defers Iran deal decision — framework agreed but hardliners in Tehran trying to derail
 - [[truth-emotion-sacred-agem-analysis]] — 
 - [[two-entropies-two-jobs-vne-ee]] — VNE vs Embedding entropy distinction for AGEM System-1 override detection
 - [[why-llms-arent-scientists-yet]] — Compressed summary of the autonomous research case study.
@@ -1039,6 +1044,7 @@ type: index
 - [[opendeepthink-parallel-reasoning]] — Pairwise Bradley-Terry ranking aggregates noisy LLM judgments for robust parallel reasoning; +405 Elo on Codeforces in 8 rounds, model-agnostic transfer.
 - [[orthogonal-bottlenecks-rl]] — Fixed orthonormal bottlenecks preserve RL expressivity and stabilize representations — once bottleneck dim exceeds task intrinsic rank, performance recovers; orthogonal projections yield higher effective rank
 - [[papers-2026-05-22-researched]] — Papers researched — production LLM agent architecture, VLM reasoning decoupling, clinical evidence seeking
+- [[physics-is-all-you-need]] — Physics-Is-All-You-Need: physicist-supervised AI coding agent builds CLAX-PT (differentiable perturbation theory) over 57 sessions. Supervision protocol design — not model capability — determined trustworthiness.
 - [[prism]] — EM framework with O(nK) E-step for multi-intention IRL using a recurrent gating network; recovers discrete nameable intentions with closed-form per-intention reward recovery
 - [[production-llm-agent-runtime-architecture-patterns]] — A methodology for composing production LLM agent runtime architectures — treating the LLM/software boundary as a first-class design concern
 - [[proxy-based-shapley-banzhaf-2026]] — ProxySHAP — polynomial-time Shapley/Banzhaf interaction estimation via tree-based proxy models with residual correction, setting new SOTA for explainability
@@ -1048,11 +1054,13 @@ type: index
 - [[rim-reasoning-in-memory-2026]] — RiM — Reasoning in Memory, latent reasoning via fixed memory blocks in single forward pass
 - [[saerl]] — SAERL: Sparse Autoencoder Reinforcement Learning — uses SAE features (diversity, difficulty, quality) as intrinsic signals for post-training data engineering in GRPO; achieves 3% improvement over vanilla GRPO on Qwen2.5-Math-1.5B.
 - [[safectrl-rl]] — SafeCtrl-RL: inference-time RL-driven prompt optimization for adaptive LLM behavioral control — 11 refinement strategies, closed-loop state representation, hard safety gating
+- [[self-trained-verification]] — Self-trained verification (STV): trains verifiers via reference-conditioned teacher; doubles hard math accuracy, 14× on scientific reasoning; breaks RLVR convergence plateau with ViL training.
 - [[semantic-gradients-interactions-ssd]] — 
 - [[shannon-scaling-law-2026]] — Shannon Scaling Law: LLM capacity follows noisy-channel dynamics — U-shaped degradation emerges when SNR collapses, with a finite Shannon capacity ceiling.
 - [[skill-consumption-2026]] — SkillLens: First systematic study of full model-generated skill lifecycle — non-trivial negative transfer is common, skill utility is independent of model scale, extraction guidance meta-skill reduces negative transfer.
 - [[skillopt-self-evolving-2026]] — SkillOpt: First systematic text-space optimizer for agent skills — trains skill documents as external state via add/delete/replace edits, validation gating, and epoch-wise meta updates.
 - [[soundnessbench-ai-scientist-2026]] — Benchmark for AI scientist first-gate evaluation; LLMs show pervasive optimism bias on scientific soundness, not reliable as standalone proposal evaluators
+- [[specbench]] — SpecBench: evaluates SWE agents on specification-level reasoning — identifying deficiencies in RFC design proposals before implementation. Best model GPT-5.4 achieves 44.4%. Bridges SWE-bench gap.
 - [[stepopsd]] — Post-rollout step-level credit redistribution via hindsight teacher-student rescoring within GRPO, achieving +12.3% on ALFWorld and +8.7% on Search-QA over GRPO baseline
 - [[tokenisation-convex-relaxations-2026]] — ConvexTok: LP-based tokeniser construction replaces greedy BPE, yielding tokenisers within 1% of optimal compression
 - [[utimula-openpraparat-2025]] — Utimula (2025) — guideless ALife model combining Tierra gene mechanics with 3D virtual creatures; no fitness function; emergent reproduction (binary fission, budding), protective organs, and energy transport networks via mutation + natural selection

@@ -107,11 +107,24 @@ This **inverts the original conjecture** for a current reasoning model:
 2. **Forced externalization can *hurt*.** It spent the token budget and pushed the answer into the reasoning channel, manufacturing artifacts where direct answering was clean.
 3. **The result is a difficulty/capability *floor*, not a test of the boundary.** To probe the recombination/capability boundary you need a regime where `direct` actually fails — a weaker model (the local gemma4 runs trended this way but were too slow to complete) or a harder task that breaks `direct` even for M2.7.
 
+### Below-ceiling confirmation: granite4.1:3b (2026-05-30)
+
+Reran on a small **non-reasoning instruct** model (IBM granite4.1:3b, 3.4B, no thinking channel — the clean substrate for the two-condition contrast). Same task config; n=60 (120 trials).
+
+| Condition | Overall | Removed-query | Present-query | Ghost rate |
+|--|--|--|--|--|
+| `direct` | 0.667 | 0.633 | 0.700 | **0.067** (4 ghost errors) |
+| `externalized` | **0.883** | 0.833 | 0.933 | **0.000** |
+
+**This is the boundary's "recombination-OOD" side, confirmed behaviorally.** Externalization gives ~+22pp and, crucially, the direct condition produced 4 **ghost errors** (removed object reported as still present — the fragile-`REMOVE` signature) which externalization **eliminated entirely**. So the larger sample touches the REMOVE-tag hypothesis directly, not just general tracking: surfacing state into tokens both raises overall accuracy *and* wipes the ghost subclass. The capability was latent; the token-level scaffold recovers it — no retraining. Full detail: `entity-tracking-externalization/FINDINGS.md`.
+
+The two models bracket the boundary cleanly: M2.7 (above ceiling) shows nothing to repair; granite (below ceiling) shows the repair, including the ghost-specific effect. The governing variable is the gap between task demand and the model's *internal* capacity — so the same lever should help larger models on proportionally harder tasks, with reasoning models benefiting least (their thinking channel already externalizes internally).
+
 **Tie to [[cross-layer-drift-falsification]].** Same category lesson from the behavioral side: that page shows a *geometric* apparatus (MOPS sheaf drift) missing a signal that lives in a *sparse directional* substrate — wrong observable for where the signal lives. Here a *behavioral output-accuracy* probe cannot see a sub-threshold internal mechanism either: when the competent computation lives in the substrate (the thinking channel), a surface measure (final-answer accuracy) reports a ceiling and tells you nothing about the mechanism. And the Pandey "registers internally, answers anyway" finding is mirrored benignly — M2.7 does the work internally and the externalization harness, measuring the surface, both misses it and interferes with it.
 
 ## Open Questions
 
-1. **Does externalization preserve the failure?** *(Partially tested, 2026-05-29.)* On MiniMax-M2.7 the question is moot — no REMOVE fragility at this difficulty, and forced externalization only added artifacts. **Still open on a model where `direct` fails:** find the difficulty/model regime where direct REMOVE-tracking breaks, then test whether externalization repairs it (recombination-OOD) or not (capability-OOD). A behavioral probe alone is insufficient to confirm the *mechanism* — see Q2.
+1. **Does externalization preserve the failure?** *(Tested 2026-05-29/30 — answered for the below-ceiling case.)* On MiniMax-M2.7 the question was moot (no REMOVE fragility at this difficulty). On granite4.1:3b (n=60) the direct condition **did** fail — including 4 fragile-`REMOVE` ghost errors — and externalization **repaired all of them** (ghost rate 0.067 → 0.000, ~+22pp overall). So for a below-ceiling model the failure is *not* preserved under externalization: it's recombination-OOD, fixable at test time. **Still open:** confirmation via a *mechanistic* probe (the behavioral result can't prove the suppression tag specifically — see Q2), and whether the effect holds at higher remove-density where ghosts dominate.
 2. **Entropy vs. suppression-tag activation as cut signal** — do they correlate, anti-correlate, or fire on disjoint error sets? Anti-correlation would empirically confirm the confident-failure blind spot.
 3. **Online classification of the boundary.** Is there a cheap test that labels a failure recombination- vs capability-OOD *before* spending a sampling budget? Repeated-resample non-appearance is one signal; a mechanistic probe is another.
 4. **Generality.** Does the recombination/capability split hold for non-entity tasks (arithmetic carries, multi-hop retrieval), or is it specific to the parallel-aggregation strategy entity tracking uses?

@@ -20,6 +20,7 @@ confidence: 0.3
 - [[wiki/index]]
 - [[concepts/spike-001-spacy-owlready2]]
 - [[spike-001-spacy-owlready2]]
+- [[entities/tools/mcp-logic]]
 
 - [[maximum-occupancy-principle]]
 

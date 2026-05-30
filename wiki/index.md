@@ -1,5 +1,5 @@
 ---
-updated: 2026-05-30T03:07:56Z
+updated: 2026-05-30T14:45:16Z
 type: index
 ---
 
@@ -116,7 +116,7 @@ type: index
 - [[content-addressed-storage]] — [STUB] Content-addressed storage systems
 - [[continual-learning]] — Continual learning — ML paradigm where models learn continuously without catastrophic forgetting; regularization, architectural, and memory-based approaches
 - [[control-llm]] — Control LLM — mitigation approach for catastrophic forgetting that splits model layers into frozen (prior knowledge) and trainable (new knowledge) branches
-- [[coordination]] — [STUB] Coordination — coordinating multiple agents or systems
+- [[coordination]] — Coordination mechanisms for multi-agent LLM systems — alignment, protocols, and shared state (promoted from stub)
 - [[cosmology]] — [STUB] Cosmology — universe origin, structure, evolution
 - [[counterfactual]] — Counterfactual reasoning — what would have happened if circumstances differed
 - [[creativity]] — Novel, useful output generation — creative thinking in AI systems, divergent/convergent phases, evaluation challenges, and connection to parallel reasoning as candidate evaluation
@@ -167,7 +167,7 @@ type: index
 - [[evaluation]] — Evaluation methodology and benchmarks for measuring LLM capabilities — MMLU, GSM8K, HumanEval, SWE-Bench; evaluation properties and limitations
 - [[evolutionary-strategies]] — Evolutionary optimization algorithms using covariance matrix adaptation — black-box optimization for neural network training and architecture search
 - [[exploitation]] — [STUB] Exploitation in RL — leveraging known strategies vs exploring new ones
-- [[exploration]] — [STUB] Exploration in reinforcement learning — balancing exploration vs exploitation
+- [[exploration]] — Exploration-exploitation tradeoff in RL — strategies, curiosity-driven methods, and the amnesiac failure mode (promoted from stub)
 - [[extraction-quality-audit]] — [STUB] Research project for quantifying and remediating garbage entities in Synapse Neo4j graph
 - [[feature-learning]] — [STUB] Feature learning — learning features from raw data automatically
 - [[federated-learning]] — Federated learning — machine learning on decentralized data without raw data centralization
@@ -245,7 +245,7 @@ type: index
 - [[isabelle-hol]] — [STUB] Formal verification system based on higher-order logic
 - [[java]] — [STUB] Java programming language
 - [[kanban]] — Kanban workflow skill for task management and agent orchestration
-- [[knowledge-graph]] — Archived — absorbed by neo4j (0.8) and graphrag (0.9)
+- [[knowledge-graph]] — Archived — absorbed by neo4j and graphrag pages
 - [[knowledge-management]] — Knowledge management — systematic approaches to capturing, organizing, and retrieving knowledge
 - [[knowledge-store]] — [STUB] Knowledge store — centralized repository for facts, documents, and structured data
 - [[kv-cache]] — Inference optimization technique that caches key-value tensors from previous tokens to avoid recomputation during autoregressive generation
@@ -305,11 +305,11 @@ type: index
 - [[ml-research]] — [STUB] ML research — machine learning research methodology
 - [[mlops]] — [STUB] MLOps — machine learning operations, deployment and lifecycle management
 - [[mobile-automata]] — [STUB] Cellular automata with mobile cells, from Wolfram NKS
-- [[model-behavior]] — [STUB] Model behavior — how LLMs behave and respond to inputs
+- [[model-behavior]] — Archived — absorbed by behavioral-credibility-trilemma
 - [[model-editing]] — Techniques for modifying trained neural network weights or representations directly — locate-edit frameworks, Knowledge Neurons, ROME
-- [[model-evaluation]] — [STUB] Model evaluation — evaluating ML model performance and quality
+- [[model-evaluation]] — Archived — absorbed by llm-agent-architecture and production source
 - [[model-optimization]] — [STUB] Model optimization — techniques for optimizing ML model performance
-- [[model-properties]] — [STUB] Model properties — properties and characteristics of ML models
+- [[model-properties]] — Archived — absorbed by model-behavior and related pages
 - [[model-serving]] — Production ML model serving — deployment architectures, orchestration, latency/throughput tradeoffs, and the software engineering layer that connects models to users in production
 - [[mojo-language]] — [STUB] Mojo programming language from Modular AI
 - [[molecular-reasoning]] — [STUB] Molecular reasoning — reasoning at the molecular level in science
@@ -321,7 +321,7 @@ type: index
 - [[multi-agent-coordination]] — Mechanisms by which multiple AI agents work together toward shared or negotiated goals — from shared state to market-based coordination
 - [[multi-agent-llm-systems]] — Frameworks and coordination patterns for using multiple LLM agents together to solve complex tasks beyond the capability of any single agent
 - [[multi-agent-reasoning]] — Reasoning architectures that span multiple LLM agents — collaborative problem-solving, debate, arbitration, and the failure modes of multi-agent reasoning systems
-- [[multi-agent-systems]] — [STUB] Multi-agent systems — systems with multiple autonomous agents cooperating or competing
+- [[multi-agent-systems]] — Multi-agent LLM systems taxonomy, coordination patterns, and architectural foundations (promoted from stub)
 - [[multimodal-ai]] — [STUB] Multimodal AI — AI systems that process multiple data modalities
 - [[multimodal-llm]] — [STUB] Multimodal LLM — large language models that process multiple modalities (text, vision, audio)
 - [[musk-velocity]] — Musk Velocity — the distinctive velocity of Elon Musk's simultaneous execution across SpaceX, Tesla, xAI, X, and DOGE; characterized by rapid multi-domain deployment, tolerance for legal and operational risk, and integration of ventures into mutual reinforcement loops
@@ -378,7 +378,7 @@ type: index
 - [[process-management]] — [STUB] Process management — designing, executing, and optimizing business workflows and operational procedures
 - [[process-reward-model]] — Reward models that evaluate individual reasoning steps rather than final outcomes — enabling precise credit assignment and intelligent path pruning
 - [[product-strategy]] — [STUB] Product strategy and roadmap planning
-- [[production-stage-architecture]] — [STUB] Production-stage architecture for LLM agent pipelines
+- [[production-stage-architecture]] — Archived — absorbed by llm-agent-architecture
 - [[profiles]] — [STUB] User profiles — preference and configuration management
 - [[programmatic-seo]] — [STUB] Programmatic SEO: automated search engine optimization
 - [[project-management]] — [STUB] Project management — planning, executing, and delivering projects within scope, time, and budget constraints
@@ -467,7 +467,7 @@ type: index
 - [[systems-theory]] — [STUB] Systems theory — theory of how systems interact and self-organize
 - [[tabpfn-client]] — [STUB] TabPFN client library
 - [[tabpfn-extensions]] — [STUB] TabPFN extensions and integrations
-- [[tabular-data]] — [STUB] Tabular data ML and processing
+- [[tabular-data]] — Archived — absorbed by tabpfn source
 - [[tag-taxonomy]] — Controlled vocabulary reference — USE/UF/BT/NT/RT notation for tag consistency across the wiki
 - [[taplo]] — [STUB] Rust LSP and formatting tool, TOML parser
 - [[taylors-law]] — Taylor's law — ecological power law relationship between the mean and variance of population densities; potential application to neural network loss variance across random initializations
@@ -617,19 +617,21 @@ type: index
 - [[vault-2026-05-30]] — 
 - [[vault]] — 
 - [[ingest]] — 
-- [[carryover]] — 1 file processed, raw/ empty. Power sampling (MCMC) paper ingested.
+- [[carryover]] — MCP restored, 10 files ingested, raw/ empty. Pipeline healthy.
 - [[workflow]] — 
 - [[ingest-report]] — 
+- [[vault]] — 
 - [[insights]] — 
 - [[carryover]] — 
 - [[insight-merge]] — 
 - [[workflow]] — 
 - [[carryover]] — 
 - [[librarian]] — 
-- [[carryover]] — Librarian carryover 2026-08-25 — 1212 pages, 66 orphans operational, 5745 broken links migration artifacts, 249 non-reciprocal flags need verification, 35 GAAC clusters, merge candidates need investigation
+- [[carryover]] — Librarian carryover 2026-08-26 — 1243 pages, 77 orphans operational, 5737 broken links migration artifacts, 271 non-reciprocal false positives, 35 GAAC clusters, 1 non-preferred tag fix needed
 - [[mcp-tools]] — 
 - [[workflow]] — 
 - [[audit-report]] — 
+- [[vault]] — 
 - [[librarians-assistant]] — 
 - [[carryover]] — Vault structurally healthy — all lint/GAAC flags non-actionable; maximum-occupancy-principle duplicate slug resolved (only one page exists); GoodRobot multi-location blocker unchanged.
 - [[quick-reference]] — 
@@ -647,7 +649,7 @@ type: index
 - [[user]] — User preferences and project context for the Markovian Dev Agency
 - [[issue-001]] — 
 - [[news]] — 
-- [[carryover]] — 5 stories: Russia/NATO first attack, SpaceX $4.16B Golden Dome contract, Trump defers Iran deal, WHO chief DRC Ebola, Blue Origin rocket explosion
+- [[carryover]] — 6 stories: Romania/NATO, SpaceX IPO, Trump/Iran defer, Ebola, Blue Origin months delays, Ghana anti-LGBT
 - [[rss-queries]] — 
 - [[workflow]] — 
 - [[headlines-report]] — 
@@ -664,7 +666,7 @@ type: index
 - [[Meta-Meta Process for Structured Exploration]] — 
 - [[carryover-template]] — 
 - [[researcher]] — 
-- [[carryover]] — Sep 2: ai-policy-federalism promoted (0.7); 7 absorbed stubs archived
+- [[carryover]] — Sep 7: multi-agent-systems + coordination + exploration promoted (0.72); 5 absorbed stubs archived
 - [[workflow]] — 
 - [[discovery-report]] — 
 - [[gap-analysis]] — 
@@ -746,6 +748,7 @@ type: index
 - [[ingest-2026-05-27]] — 
 - [[ingest-2026-05-28]] — 
 - [[ingest-2026-05-29]] — 
+- [[ingest-2026-05-30]] — 
 - [[ingest-2026-06-27]] — Ingest cycle — 3 documentation files processed (codegraph, hermes-path-forward)
 - [[carryover]] — 
 - [[audit-2026-05-19]] — Librarian audit report — broken links and frontmatter fixes
@@ -767,6 +770,7 @@ type: index
 - [[carryover]] — Three new stories: EU-US trade deal ratified with 2029 expiry, Trump walks back AI model vetting, Google DeepMind Gemini for Science launches
 - [[headlines-2026-05-28]] — 2 new stories: SpaceX S-1 filed ($2T IPO confirmed, June 12 target), California AI workforce EO enters implementation phase
 - [[headlines-2026-05-29]] — 5 stories: Russia/NATO first attack, SpaceX $4.16B Golden Dome contract, Trump defers Iran deal, WHO chief arrives DRC Ebola, Blue Origin rocket explosion
+- [[headlines-2026-05-30]] — 
 - [[carryover]] — 
 - [[overseer-2026-05-26]] — 
 - [[overseer-2026-05-27]] — 
@@ -810,6 +814,7 @@ type: index
 - [[discovery-2026-08-20]] — 
 - [[discovery-2026-08-21]] — 4 stubs archived, ai-policy-federalism remains open
 - [[discovery-2026-09-02]] — 
+- [[discovery-2026-09-07]] — 
 - [[google-deepmind-vatican-encyclical-response-may-2026]] — No Google DeepMind response to Magnifica humanitas encyclical found; compiled monitoring report
 - [[microsoft-vatican-encyclical-response-may-2026]] — No Microsoft response to Magnifica humanitas encyclical found; compiled monitoring report
 - [[sheet]] — t_ff1740de complete: no Microsoft response found to Magnifica humanitas encyclical
@@ -827,7 +832,12 @@ type: index
 - [[ebola-bundibugyo-who-emergency-committee-may-2026]] — WHO IHR Emergency Committee convened May 22, issued temporary recommendations as Ebola Bundibugyo outbreak "outpaces" response. 750+ suspected cases, 177 deaths at time of EC meeting. No approved treatment for Bundibugyo strain.
 - [[emotion-concepts-llm]] — Anthropic research on functional emotion representations in Claude Sonnet 4.5 and their causal effects on behavior.
 - [[eris-mythology]] — Greek goddess of strife and discord — the Apple of Discord triggered the Trojan War
+- [[essan-mcp-logic-results]] — Essan core symbols FOL formalization:2-element model satisfies all axioms, P1 proved
+- [[essan-pidgin-results]] — Blind Essan pidgin: 0% decode accuracy; symbols encode structure but lack semantic bindings
+- [[essan-vector-results]] — Essan vector encoding: symbol-only random encoding has no semantic signal; hybrid (symbol+NL) achieves 0.86 correlation with NL; hallucinated sequences detectable at 87.5% rate
+- [[essan-vgcp-comparative-analysis]] — Essan vs VGCP: symbolic notation vs DAG enforcement; complementary, not redundant
 - [[eu-us-trade-deal-2029-expiry-may-2026]] — EU-US trade deal formally ratified with 2029 expiry on tariff safeguards — largest bilateral trade framework since post-war era
+- [[formal-pipeline-analysis]] — OrCAID+Meta-Harness+Paper2Code pipeline: integrated confidence 0.47; semantic gap is binding constraint
 - [[frank-einstein-gemma-truth-emotion-sacred]] — 
 - [[gemini-for-science-google-deepmind-may-2026]] — Google DeepMind releases Gemini for Science — AI-native scientific research platform that autonomously designs, executes, and interprets experiments
 - [[gemma4]] — 
@@ -850,6 +860,9 @@ type: index
 - [[news-google-microsoft-pope-leo-ai-encyclical-may-2026]] — News.google.com: Microsoft response to Pope Leo XIV AI encyclical
 - [[news-microsoft-com-may-2026]] — News.microsoft.com: AI impact, OpenAI partnership, sovereign cloud, frontier firms
 - [[openai-pope-leo-magnifica-humanitas-may-2026]] — Bing search: OpenAI response to Magnifica Humanitas encyclical
+- [[orcaid-meta-harness-paper2code-analysis]] — OrCAID+Meta-Harness+Paper2Code unified: closed-loop meta-optimization architecture with self-evolving verification
+- [[paraclete-protocol]] — Paraclete Protocol: AI as moral instrument via theological analogy; accountability lies with creators
+- [[philosophical-deconstruction]] — Philosophical critique: behaviorist vs representationalist vs translationist epistemologies are irreconcilable
 - [[pope-leo-ai-encyclical-magnifica-humanitas-may-2026]] — First papal AI encyclical demands global AI disarmament treaties — tracked for government/company responses and Vatican diplomatic follow-through
 - [[prd-ralph-loop-mop-gemini]] — Gemini conversation connecting PRD-driven Ralph Loops with MOP and Theory of Mind for autonomous scientific research — epistemic energy as the critical constraint
 - [[reasoning-with-sampling-cutting-at-decision-points-2026]] — LLM inference-time reasoning paper on selectively branching/sampling only at high-entropy decision points
@@ -881,6 +894,7 @@ type: index
 - [[isabelle-installation]] — 
 - [[kanban-multi-agent-board-hermes-agent]] — Durable SQLite-backed task board for coordinating multiple Hermes profiles — dispatchers spawn workers with kanban_* tools, CLI for humans/automation
 - [[mcp-model-context-protocol-hermes]] — MCP docs: stdio/HTTP servers, tool discovery, per-server filtering
+- [[modelfile-reference]] — Ollama Modelfile reference: all instructions and parameters for creating customized models
 - [[obsidian-cli-skill]] — kepano's Obsidian CLI agent skill — command reference for reading, writing, searching, and managing Obsidian vaults from the terminal
 - [[obsidian-git-setup]] — Setup guide for the Obsidian Git community plugin (desktop and mobile)
 - [[obsidian-para-byarbrough]] — byarbrough's Obsidian PARA template — Tiago Forte's 4-category knowledge organization system implemented in Obsidian
@@ -1089,6 +1103,7 @@ type: index
 - [[spike-001-spacy-owlready2]] — VALIDATED — spaCy+owlready2 handles transitive subsumption, lemmatization, and pluralization in one sync_reasoner() call. Three v0.3 Layer-2 caveats collapse.
 - [[spike-campaign-001-004-summary]] — Four-spike campaign validating spaCy+owlready2+HermiT as Layer 2 substrate; transaction-per-claim semantics; OWL→Neo4j one-way projection.
 - [[ai-governance-substrate-analysis]] — Five interlocking cognitive primitives for evaluating AI governance discourse at the substrate level — spin-vs-substrate, absence-of-worst-case metric, institutional capture vs species framing, cryptographic vs semantic alignment, frame transmission; ASEKE-compatible diagnostic toolkit
+- [[blue-origin-new-glenn-explosion-may-2026]] — Blue Origin New Glenn explosion at Cape Canaveral has caused substantial launch pad damage, facing months of delays with direct impact on NASA's lunar mission timeline
 - [[bounded-structured-memory]] — Unifying SSL schema + Markovian carryover + Memory Curse fixes into a bounded structured memory architecture for Synapse
 - [[causal-state-edm-ood-isomorphism]] — Epsilon machine causal states ↔ EDM citation vectors — disruptive papers as OOD state-splitting events; connected to MOP (β = state-splitting appetite) and EFHF (hallucination = lumpability failure)
 - [[codegraph-hermes-integration-plan]] — 
@@ -1098,6 +1113,7 @@ type: index
 - [[efhf-mcp-configuration]] — Unified MCP configuration for the EFHF (Emergent Functional Hierarchies Framework) ecosystem.
 - [[empty-chair-protocol]] — Protocol for inviting missing perspectives into research council deliberation via empty chair
 - [[essan-internal-representation]] — Training framework for Essan symbols as internal representation markers in LLMs, enabling hallucination detection via activation geometry.
+- [[ghana-anti-lgbt-bill-may-2026]] — Ghana parliament passed anti-LGBT bill criminalizing gay acts, awaiting presidential signature — tests regional human rights trajectory
 - [[harm-cases]] — Historical engineering disasters grounding the technical-working-group personas in real-world harm
 - [[albanese-sanctions-divergence-insight]] — Francesca Albanese sanctions case reveals legal accountability mechanisms constraining executive sanctions power
 - [[francesca-albanese-sanctions-case-insight]] — Albanese sanctions case: policy enforcement decoupled from legal status

@@ -1,0 +1,1 @@
+soffice --headless --convert-to pdf /home/ty/Repositories/deep-research-reports/boundary_conditions_paper.docx

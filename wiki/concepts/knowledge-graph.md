@@ -1,10 +1,4 @@
 ---
-summary: Archived — absorbed by neo4j (0.8) and graphrag (0.9)
-tags: [knowledge-graph, stubs, archived]
-updated: 2026-05-29T14:04:06Z
----
-
----
 created: 2026-05-25
 updated: 2026-08-21
 type: concept
@@ -25,6 +19,7 @@ This stub had zero substantive content. The concept of "knowledge graph" as used
 
 - **[[entities/tools/neo4j]]** (entity, 0.8) — graph database implementation, Cypher patterns, vector search
 - **[[graphrag]]** (concept, 0.9) — knowledge graphs in the RAG/retrieval context
+- **[[concepts/graph-theory]]** — mathematical foundations
 
 The stub's connections section already pointed to both of these canonical pages, confirming the topic was absorbed.
 

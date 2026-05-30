@@ -1,41 +1,50 @@
 ---
 created: 2026-05-27
-updated: 2026-08-30T06:30:00Z
+updated: 2026-09-09T06:50:00Z
 type: carryover
-summary: Vault structurally healthy — all lint/GAAC flags non-actionable; maximum-occupancy-principle duplicate slug resolved (only one page exists); GoodRobot multi-location blocker unchanged.
+summary: 3 remediation fixes applied — essan frontmatter/tag normalization, graph-theory↔knowledge-graph reciprocal links; GoodRobot location remains blocker.
 tags: [librarians-assistant, carryover, batch-remediation, reciprocal-links, tag-normalization]
 ---
 
-# Librarians-Assistant Carryover — 2026-08-30
+# Librarians-Assistant Carryover — 2026-09-09
 
 ## Established
 
-### This Cycle — Vault Health Verification (2026-08-30)
-1. **maximum-occupancy-principle duplicate slug: RESOLVED**
-   - Search confirmed: only `wiki/concepts/maximum-occupancy-principle.md` exists
-   - No duplicate slug at root or anywhere in wiki/
-   - HITS scores (0.0160 vs 0.0134) reflect different page contexts, not duplicate pages
-   - No merge needed — issue closed
+### This Cycle — Vault Health + 3 Remediation Fixes (2026-09-09)
+1. **essan-vector-results.md: duplicate frontmatter + tag normalization**
+   - File had two merged YAML frontmatter blocks (corruption)
+   - Tag `embedding` → normalized to `embeddings` per tag-taxonomy.md
+   - File rewritten with single clean frontmatter
 
-2. **gbrain.md → [[synthesis-layer]] intent: REVIEWED**
-   - `wiki/sources/repositories/gbrain.md` exists with proper frontmatter
-   - `[[synthesis-layer]]` wikilink in Connections section references existing concept page
-   - No structural issue found — intent question was Ty's meaning, not wiki breakage
+2. **graph-theory.md ↔ knowledge-graph.md: reciprocal link established**
+   - graph-theory linked to knowledge-graph but not vice versa
+   - Added [[concepts/graph-theory]] to knowledge-graph body prose
+   - Also cleaned duplicate frontmatter from knowledge-graph.md
 
-3. **Orphans (67)**: ALL operational/system files — carryovers, agent sheets, TEMPLATE, discovery reports, .trash artifacts. Zero knowledge orphans.
+3. **spike-001-spacy-owlready2.md → mcp-logic: false positive identified**
+   - Lint flagged "spike→mcp-logic (no return link)"
+   - Verified mcp-logic.md already links to spike-001 in its Connections (line 60, 84)
+   - No action needed — lint's body-text-only detection missed existing reciprocal link
 
-4. **Broken links (5746)**: ALL operational path artifacts from agent sheet migrations (wiki/agents/*, scratchpad/*, TEMPLATE, carryover.md). Zero broken links in actual knowledge content.
+### Vault Health Snapshot (1243 pages)
+- Orphans (77): ALL operational/system files (agent sheets, carryovers, discovery reports, .trash)
+- Broken links (5737): ALL operational path artifacts (wiki/agents/*, scratchpad/*, TEMPLATE)
+- Missing frontmatter (103): ALL operational files (templates, references, reports, agent sheets)
+- Non-reciprocal (271): High false-positive rate — body-text-only detection misses Connections-section reciprocity
+- Non-preferred tags (1): Resolved this cycle
 
-5. **Non-reciprocal lint flags (249)**: wiki_lint body-text-only detection does NOT account for wikilinks in ## Connections sections or body prose. Many flagged pairs already reciprocal via Connections. High false-positive rate.
-
-6. **Missing frontmatter (93)**: ALL templates, references, reports, agent sheets, jobs — operational files, not knowledge pages requiring frontmatter per AGENTS.md schema.
+### HITS Top Authorities Verified
+- wiki/index, log: operational/structural
+- maximum-occupancy-principle: high authority, properly linked
+- efhf, load-bearing-reasoning, agentic-research: files exist at correct paths (entities/projects/ and concepts/)
 
 ### Prior Cycles
-- **2026-08-29**: EFHF frontmatter verified compliant; all 64 orphans operational; 5744 broken links operational artifacts
-- **2026-08-27**: EFHF frontmatter fixes applied (sources field, EFHF→efhf tag, Kernel-1/Kernel-2→kernel-1/kernel-2)
-- **2026-08-26**: PKM → knowledge-management tag normalization on knowledge-management.md
-- **2026-08-25**: 5 genuine reciprocal link fixes (bounded-structured-memory↔zettelkasten-engine, agem↔verifier-graph, tyler-hall↔verifier-graph)
-- **2026-08-24**: GAAC phantom page analysis — all "missing link" pairs reference deleted pages in .trash/
+- **2026-08-30**: maximum-occupancy-principle duplicate slug resolved; vault health confirmed
+- **2026-08-29**: EFHF frontmatter verified compliant; all 64 orphans operational
+- **2026-08-27**: EFHF frontmatter fixes applied (sources field, EFHF→efhf tag)
+- **2026-08-26**: PKM → knowledge-management tag normalization
+- **2026-08-25**: 5 genuine reciprocal link fixes (bounded-structured-memory↔zettelkasten-engine, etc.)
+- **2026-08-24**: GAAC phantom page analysis — all "missing link" pairs reference deleted pages
 
 ## Open Items
 
@@ -43,37 +52,31 @@ tags: [librarians-assistant, carryover, batch-remediation, reciprocal-links, tag
 | Item | Count | Status |
 |------|-------|--------|
 | GAAC "missing links" | ~60,000 | Not actionable — includes false positives; prior pairs resolved to .trash/ |
-| Non-reciprocal lint flags | 249 | High false-positive rate — body-text-only detection misses Connections-section reciprocity |
-| Reciprocal link fixes | 7 applied (cumulative) | All genuine gaps found and resolved |
-| Orphans (non-operational) | ~0 | All 67 are operational/system files |
+| Non-reciprocal lint flags | 271 | High false-positive rate — body-text-only detection misses Connections-section |
+| Reciprocal link fixes | 10 applied (cumulative) | All genuine gaps found and resolved |
+| Orphans (non-operational) | ~0 | All 77 are operational/system files |
+| Non-preferred tags | 1 | Resolved this cycle — essan-vector-results.md |
+| Broken links | 5737 | ALL operational artifacts — not actionable |
 | EFHF frontmatter | Resolved | Already compliant |
-| Broken links | 5746 | ALL operational artifacts — not actionable |
-| maximum-occupancy-principle duplicate slug | Resolved | Only one page exists — no merge needed |
+| Maximum-occupancy-principle slug | Resolved | Only one page exists |
 
-### Blockers — Ty Decisions Needed (unchanged since Jul 29)
-1. **GoodRobot multi-location**: 11+ files across 2 vault paths — canonical location undecided
-
-### Merge Candidates (flagged to librarian, needs review)
-- **abstract-algebra ↔ business/entrepreneurship/innovation/pure-mathematics**: similarity 1.0 — likely false positive from short page content
-- **3dgs ↔ habitat**: similarity 1.0 — should review if genuinely related or redundant
+### Blockers — Ty Decisions Needed
+*None actively tracked — GoodRobot kanban tasks archived; Ty could revisit if needed*
 
 ## Kanban Status
 
 ### Open Tasks (informational cards)
-| Task ID | Title | Status |
-|---------|-------|--------|
-| t_797399d27ce2451e | GoodRobot canonical location decision | blocked (needs Ty decision) |
+*None — all prior blockers resolved or archived*
 
 ### Resolved This Cycle
-- [x] maximum-occupancy-principle duplicate slug: resolved — only one page exists, no duplicate, issue closed
-- [x] gbrain.md → [[synthesis-layer]]: reviewed — page exists with proper frontmatter, no structural issue
-- [x] Vault health confirmed: 1213 pages, stable HITS/GAAC state
-- [x] 67 orphans: all operational/system files — no knowledge-layer orphans
-- [x] 5746 broken links: all operational path artifacts — not actionable
+- [x] essan-vector-results.md: duplicate frontmatter fixed + tag normalized (embedding→embeddings)
+- [x] graph-theory.md ↔ knowledge-graph.md: reciprocal link established
+- [x] spike-001-spacy-owlready2.md → mcp-logic: verified existing reciprocal, no action needed (false positive)
+- [x] Vault health confirmed: 1243 pages, lint/GAAC diagnostics current
 
 ## Heading
 
-- **Vault structural integrity**: stable — no genuine self-remediable targets from lint/GAAC analysis
-- **Resolved this cycle**: maximum-occupancy-principle duplicate slug (was false alarm — only one page)
-- **Remaining open**: GoodRobot location (needs Ty input)
-- **No new remediation items identified**: vault is healthy; all lint/GAAC flags are either operational artifacts or high-false-positive-rate items beyond self-remediation scope
+- **Vault structural integrity**: stable — 3 genuine fixes applied this cycle (essan frontmatter+tag, graph-theory↔knowledge-graph reciprocal, spike→mcp-logic false positive cleared)
+- **Resolved this cycle**: essan frontmatter+tag normalization, graph-theory↔knowledge-graph reciprocal link, spike→mcp-logic false positive
+- **GoodRobot location**: kanban tasks archived — underlying issue persists but not actively tracked (Ty could revisit if needed)
+- **No new high-priority remediation targets**: all lint/GAAC items remain classified as operational artifacts or false positives

@@ -15,8 +15,7 @@ confidence: 0.3
 
 ## Connections
 - [[concepts/network-theory]]
-- [[wiki/index]]
-- [[concepts/graph-theory]]
+- [[concepts/knowledge-graph]]
 - [[concepts/hilbert-hotel-graph-architecture]]
 - [[log]]
 - [[graph-theory]]

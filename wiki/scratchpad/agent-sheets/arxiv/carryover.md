@@ -76,4 +76,10 @@ confidence: high
 - **PDF storage**: `/home/ty/Documents/paper-research/arxiv-today/` for today’s batch; previous batch in main `paper-research/` dir
 
 ## Last Run
-2026-05-30 09:55 UTC
+2026-05-30 09:55 UTC (this run — arXiv API rate-limited, batch already fully processed this morning)
+
+## Notes for Next Run
+- arXiv API still aggressively rate-limiting — multiple429s on both HTTP and HTTPS. No new batch available.
+- Today's batch (2026-05-30 morning) fully processed: 3 papers ingested, wiki pages created, report delivered.
+- Open items from prior cycle already surfaced to kanban (t_ddf839070e904f9b, t_cbcdc7bee3cd46ca, t_471274800c084c94) — assigned to researcher.
+- No new open items this cycle — nothing new to surface.

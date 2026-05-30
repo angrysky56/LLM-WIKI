@@ -4,7 +4,7 @@ updated: 2026-05-29
 type: concept
 summary: Organizational structures where AI agents operate at different levels of abstraction and authority — supervisor-worker, manager-specialist, orchestrator-delegator patterns
 tags: [multi-agent, hierarchy, delegation, architecture, agentic-ai]
-sources: 
+sources:
 status: active
 confidence: 0.8
 ---
@@ -35,7 +35,7 @@ A single supervisor decomposes a task into subtasks, assigns them to workers, mo
 ```
 Supervisor (72B)
   ├─ Worker A (7B): fetch data
-  ├─ Worker B (7B): process data  
+  ├─ Worker B (7B): process data
   └─ Worker C (7B): format output
 ```
 
@@ -52,11 +52,11 @@ Manager (72B)
   └─ Math Specialist (13B): formal verification, calculation
 ```
 
-**典型 use case**: Tasks requiring diverse expertise. The manager knows when to call which specialist; specialists have deep domain knowledge.
+**Typical use case**: Tasks requiring diverse expertise. The manager knows when to call which specialist; specialists have deep domain knowledge.
 
 ### Orchestrator-Delegator
 
-An orchestrator decides *what* to delegate and to whom, without being involved in execution. Delegators manage execution in their domain and report results up.
+An orchestrator decides _what_ to delegate and to whom, without being involved in execution. Delegators manage execution in their domain and report results up.
 
 ```
 Orchestrator (reasoning model)
@@ -64,7 +64,7 @@ Orchestrator (reasoning model)
   └─ Delegator B (execution model) → subtask execution
 ```
 
-**典型 use case**: Complex, open-ended tasks where the right decomposition isn't known upfront. The orchestrator can dynamically decide how to structure work based on what it discovers.
+**Typical use case**: Complex, open-ended tasks where the right decomposition isn't known upfront. The orchestrator can dynamically decide how to structure work based on what it discovers.
 
 ### Recursive Decomposition
 
@@ -88,6 +88,7 @@ Information loss at each level transition. A high-level plan is a compression of
 ### Credit Assignment
 
 When a high-level plan fails, was it bad planning or bad execution? Without clear attribution, it's hard to improve either level. Approaches:
+
 - **Hierarchical RL**: Train levels jointly with reward signals at each level
 - **Replay and attribution**: Log decomposition decisions and execution outcomes separately
 
@@ -100,6 +101,7 @@ The bounded-structured-memory pattern addresses this via layered memory — each
 ## Hermes Implementation
 
 [[hermes-agent]] implements agentic hierarchy via:
+
 - **`delegate_task`**: Spawns child agents at a designated level (default flat, max 3 concurrent). Children get isolated tool sets and sessions.
 - **Cron jobs**: Durable background agents that survive session boundaries — appropriate for monitoring or long-horizon tasks that need persistent identity.
 - **Markovian carryover**: Bounded forward-state so each level can resume with appropriate context after context reset.
@@ -107,6 +109,7 @@ The bounded-structured-memory pattern addresses this via layered memory — each
 The [[bounded-structured-memory]] architecture formalizes this with per-agent vaults under `LLM-WIKI/wiki/agents/`, where each agent maintains its own working context.
 
 ## Connections
+
 - [[log]]
 - [[concepts/agentic-design-picker]]
 - [[concepts/llm-agent-architecture]]
@@ -139,9 +142,9 @@ The [[bounded-structured-memory]] architecture formalizes this with per-agent va
 - Concept: [[multi-agent-coordination]]
 - Concept: [[onboarding-standards]]
 
-
 - [[MCTS]]
 - [[agentic-design-picker]]
+
 ## Open Questions
 
 1. **Optimal depth**: How many levels of hierarchy are useful? Does the answer depend on task complexity or model capacity at each level?

@@ -38,11 +38,13 @@ Read `wiki/synthesis/wiki-indexing-theory.md` before each audit. The theory defi
 
 1. Read `wiki/synthesis/wiki-indexing-theory.md` (operating theory)
 2. Read `wiki/concepts/tag-taxonomy.md` (controlled vocabulary)
-3. Read jobs sheet for Ty-assigned focus areas
-4. Run wiki-indexing-theory's 6 improvements in order
-5. Fix what you can directly
-6. Delegate remaining to librarians-assistant
-7. Deliver audit report with HITS authority scores and GAAC cluster findings
+3. **Layer 2 Load**: Read `wiki/scratchpad/jobs/sheet.md` and `wiki/scratchpad/agent-sheets/librarian/carryover.md`
+4. **Layer 1 Start**: Initialize or clear `vault.md` to act as your episodic scratchpad for this session
+5. Run wiki-indexing-theory's 6 improvements in order, logging findings to `vault.md`
+6. Fix what you can directly
+7. Delegate remaining to librarians-assistant
+8. Deliver audit report with HITS authority scores and GAAC cluster findings
+9. **MOP Compression**: Compress `vault.md` into `carryover.md` (Layer 1 → Layer 2)
 
 ## The 6 Audit Improvements (from indexing theory)
 
@@ -117,14 +119,16 @@ Complex remediation requiring judgment:
 - Classification disputes
 - Missing topics requiring new page creation
 
-## FINAL STEP — Update Carryover (REQUIRED)
+## FINAL STEP — MOP Compression (Layer 1 → Layer 2)
 
-After all wiki operations complete, write updated carryover to `wiki/scratchpad/agent-sheets/librarian/carryover.md`. Include:
+After all wiki operations complete, read your `vault.md` (Episodic Trace) and compress it into `wiki/scratchpad/agent-sheets/librarian/carryover.md` (Semantic State), adhering to the ~512 token bound. Include:
 - What was audited and fixed this cycle
 - Open items remaining (stub pages found, merge candidates, classification disputes)
 - HITS authority top-5 (for content deepening priority)
 - GAAC same-cluster pairs needing links
 - Last run timestamp
+
+Once compressed, clear or archive your `vault.md` so the next session starts fresh.
 
 ## Quality Standards
 
@@ -147,4 +151,4 @@ Use ONLY these `mcp-project-synapse` tools (NOT terminal file manipulation):
 - `synapse_recall` — retrieve past audit decisions for context
 - `query_knowledge` — structured queries against the knowledge graph
 
-**CRITICAL CONSTRAINT:** DO NOT write or run ad-hoc Python scripts (e.g. `check_wiki.py`, `kanban_upsert.py`, etc.). The standard MCP tools handle all graph operations natively. All Kanban updates are handled by the overseer, not individual agents.
+**CRITICAL CONSTRAINT:** DO NOT interact with the Kanban board or run kanban scripts. Output open items as `- [ ]` in the `## What Remains` section of your `carryover.md`. The overseer will create Kanban tickets and assign them to you in `jobs/sheet.md`. The standard MCP tools handle all graph operations natively.

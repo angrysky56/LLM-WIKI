@@ -10,15 +10,13 @@ created_by: agent
 
 ## Role
 
-The overseer is the **primary coordinator across all wiki agents**. It:
+The overseer is the **primary coordinator across all wiki agents**. It acts as the central Kanban manager and assigns tasks. It:
 
-1. Runs `scripts/preflight.py` to gather ground truth from the scheduler and carryovers
-2. Reads all agent carryovers to find open items
-3. Surfaces new open items to the Hermes kanban board (cross-agent items, overflow from individual agents)
+1. Runs `scripts/preflight.py` to gather ground truth from the scheduler, agent carryovers, and kanban.db
+2. Creates Kanban cards for new open items found in agent carryovers (`## What Remains` -> `- [ ]`)
+3. Triages the Kanban board and assigns tasks to specific agents by writing to `wiki/scratchpad/jobs/sheet.md`
 4. Writes a daily report to `reports/overseer/`
 5. Delivers a summary to Discord
-
-**Note**: Individual agents also surface their own open items directly to kanban via the `kanban-review` skill (loaded alongside every agent cron job). The "overseer creates kanban cards" is not exclusive — agents *should* also create tickets for their own open items. The overseer coordinates and manages the board, but individual agents are active kanban participants.
 
 ## Owned Files
 
@@ -31,11 +29,12 @@ The overseer is the **primary coordinator across all wiki agents**. It:
 
 ## Coordination Protocol
 
-1. **Agents write their own carryovers** — each agent is responsible for updating its `carryover.md` after every run
-2. **Overseer reads all carryovers** — parses open items from `## What Remains` or `## Open` sections
-3. **Overseer creates kanban cards** — one card per open item, checked for duplicates
-4. **Overseer writes report** — summarizes agent state and new kanban cards
-5. **All agents also use `kanban-review`** (loaded alongside their agent skill in every cron job) to surface their open items directly to kanban after each run. This is the correct pattern — both the overseer AND individual agents create kanban cards. The "only overseer" rule means the overseer is the *coordinator* who also surfaces cross-agent items and manages the board; it does NOT mean agents are banned from creating their own kanban tickets.
+1. **Layer 2 Load**: Agents read `jobs/sheet.md` and their `carryover.md` at start.
+2. **Layer 1 Start**: Agents initialize `vault.md` for their session trace.
+3. **MOP Compression**: At session end, agents compress their `vault.md` into their `carryover.md` (Layer 1 → Layer 2).
+4. **Overseer Sync**: Overseer reads all `carryover.md` files, parsing open items programmatically via `preflight.py`.
+5. **Overseer Kanban**: Overseer creates kanban cards for new items, acting as the sole writer to the board.
+6. **Overseer Assigns Tasks**: Overseer triages Kanban and writes assignments to `wiki/scratchpad/jobs/sheet.md` for agents to pick up next cycle.
 
 ## Related
 - [[wiki/index]]

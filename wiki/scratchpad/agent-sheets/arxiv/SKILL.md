@@ -26,17 +26,19 @@ Discover, select, and research the top 3 arXiv papers or others if the same pape
 
 ## Quick Start
 
-1. Load the `arxiv` skill
-2. Run discovery via arXiv API (Phase 1)
-3. Select top 3 by significance (Phase 2)
-4. Download PDFs via curl — NOT MCP (Phase 3)
-5. Delegate research to subagents (Phase 4)
-6. Assemble and deliver report (Phase 5)
+1. **Layer 2 Load**: Read `wiki/scratchpad/jobs/sheet.md` and `wiki/scratchpad/agent-sheets/arxiv/carryover.md`
+2. **Layer 1 Start**: Initialize or clear `vault.md` to act as your episodic scratchpad for this session
+3. Run discovery via arXiv API (Phase 1), logging findings to `vault.md`
+4. Select top 3 by significance (Phase 2)
+5. Download PDFs via curl — NOT MCP (Phase 3)
+6. Delegate research to subagents (Phase 4)
+7. Assemble and deliver report (Phase 5)
+8. **MOP Compression**: Compress `vault.md` into `carryover.md` (Layer 1 → Layer 2)
 
 ## Wiki Operations
 - **Tools:** `query_knowledge` (check existing coverage), `wiki_write_page` (paper summaries), `wiki_update_index` (after ingest)
 - **Constraint:** Check wiki with `query_knowledge` before ingesting — if topic covered, link to existing page instead of duplicating.
-- **CRITICAL CONSTRAINT:** DO NOT write or run ad-hoc Python scripts (e.g. `kanban_upsert.py`, `fetch.py`, etc.). Use the standard `mcp-project-synapse` tools or bash commands (like `curl`) exclusively. All Kanban updates are handled by the overseer, not individual agents.
+- **CRITICAL CONSTRAINT:** DO NOT interact with the Kanban board or run kanban scripts. Output open items as `- [ ]` in the `## What Remains` section of your `carryover.md`. The overseer will create Kanban tickets and assign them to you in `jobs/sheet.md`. Use the standard `mcp-project-synapse` tools or bash commands (like `curl`) exclusively.
 
 ## Critical Paths
 
@@ -45,13 +47,15 @@ Discover, select, and research the top 3 arXiv papers or others if the same pape
 - **Daily reports**: `wiki/scratchpad/jobs/reports/arxiv/arxiv-YYYY-MM-DD-top-papers.md`
 - **Carryover**: `wiki/scratchpad/agent-sheets/arxiv/carryover.md`
 
-## FINAL STEP — Update Carryover (REQUIRED)
+## FINAL STEP — MOP Compression (Layer 1 → Layer 2)
 
-After completing paper ingestion, write updated carryover to `wiki/scratchpad/agent-sheets/arxiv/carryover.md`. Include:
+After completing paper ingestion, read your `vault.md` (Episodic Trace) and compress it into your strict `wiki/scratchpad/agent-sheets/arxiv/carryover.md` (Semantic State), adhering to the ~512 token bound. Include:
 - Papers processed this cycle (arxiv_id + title + key finding)
 - Pages created in wiki/sources/papers/ (slug)
-- Open items for next cycle
+- Open items for next cycle (as `- [ ]` checklist)
 - Last run timestamp
+
+Once compressed, clear or archive your `vault.md` so the next session starts fresh.
 
 ## Quality Standards
 

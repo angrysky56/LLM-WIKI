@@ -19,14 +19,14 @@ Scan global news via RSS, identify 3-5 significant stories, ingest to wiki, deli
 
 ## Quick Start
 
-1. Read carryover: `cat wiki/scratchpad/agent-sheets/news/carryover.md`
-2. Read jobs sheet for Ty-flagged regions/topics
-3. Query RSS feeds (NOT wiki search) — 5-7 topic queries
+1. **Layer 2 Load**: Read `wiki/scratchpad/agent-sheets/news/carryover.md` and `wiki/scratchpad/jobs/sheet.md`
+2. **Layer 1 Start**: Initialize or clear `vault.md` to act as your episodic scratchpad for this session
+3. Query RSS feeds (NOT wiki search) — 5-7 topic queries, logging results to `vault.md`
 4. Check article index for duplicates (carryover + recent headlines)
 5. Select 3-5 globally significant stories
 6. Process each story (Steps 1-4 below)
 7. Deliver headlines report
-8. **Update carryover** (REQUIRED — Final Step)
+8. **MOP Compression**: Compress `vault.md` into `carryover.md` (Layer 1 → Layer 2)
 
 ## Workflow
 
@@ -111,9 +111,9 @@ Format your delivery response as:
 
 If no stories meet the significance threshold, respond `[SILENT]`.
 
-### Final Step — Update Carryover (REQUIRED)
+### Final Step — MOP Compression (Layer 1 → Layer 2)
 
-Write to `wiki/scratchpad/agent-sheets/news/carryover.md`:
+Read your `vault.md` (Episodic Trace) and compress it into `wiki/scratchpad/agent-sheets/news/carryover.md` (Semantic State), adhering to the ~512 token bound:
 
 ```yaml
 ---
@@ -131,6 +131,8 @@ Include:
 - **Kanban Status**: Items already surfaced
 - **Article Index**: Recent slugs for dedup (last 7 days)
 
+Once compressed, clear or archive your `vault.md` so the next session starts fresh.
+
 ## Critical Paths
 
 - **Clippings**: `Clippings/articles/{year}/{slug}.md`
@@ -147,6 +149,8 @@ Include:
 | `wiki_write_page` | Create clipping and synthesis pages |
 | `wiki_search` | Find related wiki pages for cross-linking (NOT for discovery) |
 | `wiki_update_index` | Refresh index after new pages |
+
+**CRITICAL CONSTRAINT:** DO NOT interact with the Kanban board or run kanban scripts. Output open items as `- [ ]` in the `## What Remains` section of your `carryover.md`. The overseer will create Kanban tickets and assign them to you in `jobs/sheet.md`. Use the standard MCP tools exclusively.
 
 ## Fallback Patterns
 

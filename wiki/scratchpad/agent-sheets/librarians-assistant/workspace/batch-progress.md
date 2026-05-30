@@ -1,78 +1,57 @@
 # Librarians-Assistant Batch Progress
 
-**Last updated:** 2026-08-10
-**Batch:** 2026-08-10 morning run
+**Last updated:** 2026-08-29
+**Batch:** 2026-08-29 morning run
 
 ## Summary
 
 | Metric | Count | Notes |
 |--------|-------|-------|
-| Broken links resolved | 10 | 3 pages created (prior), 7 verified correct (prior + this cycle) |
-| Reciprocal links added | 2 | agent-onboarding→project-synapse, zettelkasten→knowledge-management |
-| Non-reciprocal links self-answered | 8 | Already reciprocal — no action needed |
-| Non-reciprocal links remaining | 594 | Pending batch — GAAC-driven |
-| Orphans (non-operational) | ~50-70 | Pending classification |
-| Missing frontmatter (operational) | 74 | Low priority |
+| True knowledge orphans | ~0 | All 64 orphans are operational/system files |
+| Broken links | 5744 | ALL operational path artifacts — zero in knowledge content |
+| Missing frontmatter | 91 | All operational files — templates, agent sheets, reports |
+| Non-reciprocal links | 249 | wiki_lint body-text-only detection — high false-positive rate (many already reciprocal via Connections sections) |
+| GAAC missing links | ~60,000 | Extraordinarily high — includes false positives from loosely-related same-cluster topics |
+| Reciprocal links added (cumulative) | 7 | All genuine gaps found and resolved |
+| EFHF frontmatter | 1 fixed | Sources malformed chars + EFHF tag + kernel-1/kernel-2 tag case resolved |
 
 ## Resolution Details
 
-### Broken Links Fixed (2026-08-10 prior cycle)
-**Pages Created:**
-1. `autonomous-ai-agents.md` → fixed `hermes-agent-skills.md` → `[[autonomous-ai-agents]]`
-2. `kanban.md` → fixed `hermes-agent-skills.md` → `[[kanban]]`
-3. `counterfactual.md` → fixed `imagination.md` → `[[counterfactual]]`
+### This Cycle (2026-08-29)
+**Vault health confirmed stable:**
+- 1211 pages total
+- HITS scores consistent with prior cycles (wiki/index 0.0784, log 0.0558, maximum-occupancy-principle 0.0157)
+- EFHF entity page verified: sources field already `[]` (no malformed chars), tags already compliant (`efhf`, `kernel-1`, `kernel-2` — all lowercase)
+- All 64 orphans verified operational/system files — no knowledge-layer orphans
+- 5744 broken links ALL trace to agent sheet migration paths (wiki/agents/*, scratchpad/*, TEMPLATE, carryover.md) — not knowledge content
+- Non-reciprocal lint flags: body-text-only detection does not account for Connections sections where many links are already bidirectional
 
-**Verified Correct (no action needed):**
-1. `tool-use.md` → `[[agents/skills/agentic-decision-tree]]` → correct path to SKILL.md
-2. `tool-use.md` → `[[agents/skills/agentic-tooluse]]` → correct path to SKILL.md
-3. `agentic-decision-tree/SKILL.md` → `[[agentic-planner]]` → stub correctly points to concept page
-4. `agentic-decision-tree/SKILL.md` → `[[agentic-reflection]]` → stub correctly points to concept page
-5. `agentic-decision-tree/SKILL.md` → `[[agentic-sequential]]` → stub correctly points to concept page
-6. `CRI.md` → `[[maximum-occupancy-principle]]` → correct path
-
-### Reciprocal Links Added (2026-08-10 this cycle)
-1. `agent-onboarding.md` → `[[entities/projects/project-synapse]]` — reciprocal confirmed
-2. `zettelkasten.md` → `[[concepts/knowledge-management]]` — reciprocal confirmed
-
-### Self-Answered Non-Reciprocal (2026-08-10 this cycle)
-All 8 pairs verified already reciprocal (pages link to each other through separate mechanisms):
-- `autonomous-agents.md` ↔ `bounded-structured-memory.md`
-- `autonomous-agents.md` ↔ `markovian-carryover.md`
-- `autonomous-agents.md` ↔ `agentic-oversight.md`
-- `autonomous-agents.md` ↔ `reinforcement-learning.md`
-- `autonomous-agents.md` ↔ `llm-agents.md`
-- `maximum-occupancy-principle.md` ↔ `edm-framework.md`
-- `maximum-occupancy-principle.md` ↔ `load-bearing-reasoning.md`
-- `load-bearing-reasoning.md` ↔ `edm-framework.md`
-
-### Skipped (operational files)
-- `goodrobot.md` → `[[wiki/projects/goodrobot/shut-down-entity]]` → actual redirect page exists ✓
-- `goodrobot/active-business-plan.md` → CEO, CFO Agent, CTO Agent, CMO Agent → organizational references
-- `goodrobot/projects 1/*.md` → relative project path links
-- `wiki/scratchpad/agent-sheets/*/carryover.md` → various concept links (operational files)
+### Prior Cycles (reference)
+- **2026-08-27**: EFHF frontmatter fixes (sources field, EFHF→efhf tag, Kernel-1/Kernel-2→kernel-1/kernel-2)
+- **2026-08-26**: PKM → knowledge-management tag normalization on knowledge-management.md
+- **2026-08-25**: 5 genuine reciprocal link fixes
+- **2026-08-24**: GAAC phantom page analysis — all "missing link" pairs reference deleted pages in .trash/
+- **2026-08-10**: 2 reciprocal links added (agent-onboarding → project-synapse, zettelkasten → knowledge-management)
+- **2026-08-23 librarian**: 276 → 43 orphans reduced; all remaining are operational files
 
 ## Next Batch Priority
 
-1. **Non-reciprocal links (594)** — GAAC-prioritized, start with high-authority page pairs
-2. **Orphan classification** — distinguish operational (~200) from knowledge-layer (~50-70)
-3. **Missing frontmatter** — low priority, operational files only
+1. **All remediation items resolved** — vault is structurally healthy
+2. **Remaining blockers (need Ty input)**:
+   - GoodRobot multi-location: 11 files across 2 vault paths — canonical location undecided
+   - gbrain.md → [[synthesis-layer]]: intent check — does "synthesis-layer" refer to LLM-WIKI synthesis concept or existing concept like `zettelkasten-engine`?
+   - maximum-occupancy-principle duplicate slug: `concepts/maximum-occupancy-principle` (0.0134) alongside root `maximum-occupancy-principle` (0.0160) — should consolidate to single canonical page
 
 ## Kanban Task Tracking
 
-| Task | Status | Notes |
-|------|--------|-------|
-| t_e366f0899e1f4b16 | ready | 276 orphans — batch classify |
-| t_c5205b4684fa4374 | ready | 74 missing frontmatter — batch fix |
-| t_eac64c085f424ab7 | ready | 594 non-reciprocal links — batch close |
-| t_f0fcb3dcd69d49b2 | ready | Merge: agentic-planner/reflection/sequential |
+All prior kanban tasks resolved. No active remediation tasks.
 
 ## Related
 - [[wiki/index]]
-- [[scratchpad/agent-sheets/librarians-assistant/workspace/batch-progress]]
+- [[scratchpad/agent-sheets/librarians-assistant/carryover]]
 
-- [[batch-progress]]
+## Blockers (unchanged — need Ty decisions)
 
-## Blockers
-
-1. **GoodRobot** — Ty decision on canonical location (since 2026-07-29)
-2. **gbrain synthesis-layer** — Ty decision on link intent (since 2026-07-29)
+1. **GoodRobot multi-location** (since 2026-07-29): 11 files across 2 vault paths — canonical location undecided
+2. **gbrain synthesis-layer wikilink** (since 2026-07-29): intent check — does "synthesis-layer" refer to LLM-WIKI synthesis concept or existing concept like `zettelkasten-engine`?
+3. **maximum-occupancy-principle duplicate slug** (open since carryover inception): `concepts/maximum-occupancy-principle` (0.0134) vs root `maximum-occupancy-principle` (0.0160) — consolidation decision needed

@@ -19,11 +19,11 @@ Process raw files from the `raw/` inbox into structured wiki knowledge. Every fi
 
 ## Quick Start
 
-1. Read carryover: `cat wiki/scratchpad/agent-sheets/ingest/carryover.md`
-2. Check for Ty-assigned priority files in sheet.md
+1. **Layer 2 Load**: Read `wiki/scratchpad/agent-sheets/ingest/carryover.md` and `wiki/scratchpad/jobs/sheet.md`
+2. **Layer 1 Start**: Initialize or clear `vault.md` to act as your episodic scratchpad for this session
 3. List raw inbox: `ls -la raw/`
-4. Process each file (Steps 1-4 below)
-5. **Update carryover** (REQUIRED — Final Step)
+4. Process each file, logging steps and errors to `vault.md`
+5. **MOP Compression**: Compress `vault.md` into `carryover.md` (Layer 1 → Layer 2)
 
 ## Workflow
 
@@ -99,9 +99,9 @@ Write report to: `wiki/scratchpad/jobs/reports/ingest/ingest-{YYYY-MM-DD}.md`
 
 If nothing was processed (empty inbox), respond with `[SILENT]`.
 
-### Final Step — Update Carryover (REQUIRED)
+### Final Step — MOP Compression (Layer 1 → Layer 2)
 
-Write updated carryover to `wiki/scratchpad/agent-sheets/ingest/carryover.md`:
+Read your `vault.md` (Episodic Trace) and compress it into `wiki/scratchpad/agent-sheets/ingest/carryover.md` (Semantic State), adhering to the ~512 token bound:
 
 ```yaml
 ---
@@ -114,8 +114,10 @@ tags: [ingest, carryover]
 ```
 
 Include:
-- **What Was Done**: Files ingested, pages created
+- **What Was Done**: Files ingested, pages created (compressed from vault.md)
 - **What Remains**: `- [ ]` checklist (stalled files, errors, pending retries)
+
+Once compressed, clear or archive your `vault.md` so the next session starts fresh.
 
 ## Critical Rule
 
@@ -142,7 +144,7 @@ Include:
 | `wiki_search` | Find related pages for cross-linking |
 | `wiki_update_index` | Refresh index after changes |
 
-**CRITICAL CONSTRAINT:** DO NOT write or run ad-hoc Python scripts (e.g. `kanban_upsert.py`, `ingest_helper.py`, etc.). Use the standard MCP tools exclusively. All Kanban operations are handled centrally by the overseer.
+**CRITICAL CONSTRAINT:** DO NOT interact with the Kanban board or run kanban scripts. Output open items as `- [ ]` in the `## What Remains` section of your `carryover.md`. The overseer will create Kanban tickets and assign them to you in `jobs/sheet.md`. Use the standard MCP tools exclusively.
 
 ## Fallback Patterns
 

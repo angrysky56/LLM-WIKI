@@ -19,12 +19,13 @@ Run the Zettelkasten insight generation engine and integrate high-confidence ins
 
 ## Quick Start
 
-1. Read carryover: `cat wiki/scratchpad/agent-sheets/insights/carryover.md`
-2. Run insight generation CLI (Step 1)
-3. Read and evaluate generated insights (Step 2)
-4. Create wiki pages for confidence ≥ 0.7 (Step 3)
-5. Deliver (silent if no new pages created)
-6. **Update carryover** (REQUIRED — Final Step)
+1. **Layer 2 Load**: Read `wiki/scratchpad/jobs/sheet.md` and `wiki/scratchpad/agent-sheets/insights/carryover.md`
+2. **Layer 1 Start**: Initialize or clear `vault.md` to act as your episodic scratchpad for this session
+3. Run insight generation CLI (Step 1), logging status to `vault.md`
+4. Read and evaluate generated insights (Step 2)
+5. Create wiki pages for confidence ≥ 0.7 (Step 3)
+6. Deliver (silent if no new pages created)
+7. **MOP Compression**: Compress `vault.md` into `carryover.md` (Layer 1 → Layer 2)
 
 ## Workflow
 
@@ -104,9 +105,9 @@ If new pages were created, deliver a summary:
 
 If no new pages created (timeout or all below threshold), respond `[SILENT]`.
 
-### Final Step — Update Carryover (REQUIRED)
+### Final Step — MOP Compression (Layer 1 → Layer 2)
 
-Write to `wiki/scratchpad/agent-sheets/insights/carryover.md`:
+Read your `vault.md` (Episodic Trace) and compress it into `wiki/scratchpad/agent-sheets/insights/carryover.md` (Semantic State), adhering to the ~512 token bound:
 
 ```yaml
 ---
@@ -122,6 +123,8 @@ Include:
 - **What Was Done**: Insights generated, pages created (title + confidence + slug)
 - **What Remains**: `- [ ]` checklist (below-threshold insights worth revisiting, CLI issues)
 - **Kanban Status**: Items already surfaced
+
+Once compressed, clear or archive your `vault.md` so the next session starts fresh.
 
 ## Critical Paths
 
@@ -141,7 +144,7 @@ Include:
 | `wiki_search` | Find related pages for cross-linking |
 | `wiki_update_index` | Refresh index after new pages |
 
-**CRITICAL CONSTRAINT:** DO NOT write or run ad-hoc Python scripts (e.g. `kanban_upsert.py`, `parse.py`, etc.). You may run the official `generate_insights.py` engine as explicitly documented above, but do not author your own scripts. Use standard MCP tools exclusively for wiki operations. All Kanban operations are handled centrally by the overseer.
+**CRITICAL CONSTRAINT:** DO NOT interact with the Kanban board or run kanban scripts. Output open items as `- [ ]` in the `## What Remains` section of your `carryover.md`. The overseer will create Kanban tickets and assign them to you in `jobs/sheet.md`. You may run the official `generate_insights.py` engine as explicitly documented above, but do not author your own scripts. Use standard MCP tools exclusively for wiki operations.
 
 ## Fallback Patterns
 

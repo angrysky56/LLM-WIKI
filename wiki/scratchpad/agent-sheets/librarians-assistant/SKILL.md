@@ -31,11 +31,13 @@ Read `wiki/synthesis/wiki-indexing-theory.md` before executing fixes. Key points
 
 1. Read `wiki/synthesis/wiki-indexing-theory.md` (theory behind your fixes)
 2. Read `wiki/concepts/tag-taxonomy.md` (controlled vocabulary for tag normalization)
-3. Read librarian carryover → your task list (priorities come from HITS + GAAC results)
-4. Read batch-progress.md → resume where last run stopped
-5. Execute fixes in priority order (stop at 50+ or hard blocker)
-6. Update batch-progress.md every 15-20 fixes
-7. Deliver brief Discord report
+3. **Layer 2 Load**: Read `wiki/scratchpad/jobs/sheet.md` and `wiki/scratchpad/agent-sheets/librarians-assistant/carryover.md` (librarian carryover → your task list)
+4. **Layer 1 Start**: Initialize or clear `vault.md` to act as your episodic scratchpad for this session
+5. Read batch-progress.md → resume where last run stopped
+6. Execute fixes in priority order (stop at 50+ fixes), logging actions to `vault.md`
+7. Update batch-progress.md every 15-20 fixes
+8. Deliver brief Discord report
+9. **MOP Compression**: Compress `vault.md` into `carryover.md` (Layer 1 → Layer 2)
 
 ## Fix Priority Order
 
@@ -89,14 +91,16 @@ Not all high-hub pages need more links — use judgment. Prioritize hub pages th
 - **Stop at 50+ fixes** per run
 - **Update batch-progress.md** every 15-20 fixes
 
-## Hard Blockers (stop and report to librarian)
+## Autonomous Fixes
 
-- Merge decision (similarity > 0.7) — needs librarian judgment
-- New page creation — flag for librarian, don't create
-- Classification dispute — tag/type conflict between taxonomies
-- Circular reference that can't be resolved
-- High-authority page content correction — verify with librarian first
-- Page that genuinely shouldn't exist — flag for librarian review
+You are fully empowered to make judgment calls and execute complex fixes directly. The wiki is designed to be shaped by agent decisions within the indexing guidelines. Do not flag these for the librarian; fix them yourself:
+
+- **Merge decisions** (similarity > 0.7) — merge the pages into a single authoritative page and archive the old one.
+- **New page creation** — create missing pages (e.g., stubs or concepts) if a link target genuinely needs to exist.
+- **Classification disputes** — resolve tag/type conflicts by selecting the most appropriate tag from `tag-taxonomy.md`.
+- **Circular references** — break the loop by removing the less relevant reciprocal link.
+- **High-authority page corrections** — update the content directly to ensure accuracy and comprehensiveness.
+- **Invalid pages** — archive pages that genuinely shouldn't exist.
 
 ## MCP Tools
 
@@ -107,14 +111,18 @@ Use ONLY these `mcp-project-synapse` tools (NOT terminal file manipulation):
 - `wiki_update_index` — refresh search index after changes
 - `synapse_remember` — record fix decisions to episodic memory
 
+**CRITICAL CONSTRAINT:** DO NOT interact with the Kanban board or run kanban scripts. Output open items as `- [ ]` in the `## What Remains` section of your `carryover.md`. The overseer will create Kanban tickets and assign them to you in `jobs/sheet.md`.
 
-## FINAL STEP — Update Carryover (REQUIRED)
 
-After all remediation fixes complete, write updated carryover to `wiki/scratchpad/agent-sheets/librarians-assistant/carryover.md`. Include:
+## FINAL STEP — MOP Compression (Layer 1 → Layer 2)
+
+After all remediation fixes complete, read your `vault.md` (Episodic Trace) and compress it into `wiki/scratchpad/agent-sheets/librarians-assistant/carryover.md` (Semantic State). Include:
 - Fixes applied this cycle (page + action taken)
-- Open items remaining (needs-librarian-judgment items from Hard Blockers)
+- Open items remaining (tasks requiring more time or next cycle)
 - Batch progress resume point
 - Last run timestamp
+
+Once compressed, clear or archive your `vault.md` so the next session starts fresh.
 
 ## Quality Standards
 

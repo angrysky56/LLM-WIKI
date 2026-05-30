@@ -35,7 +35,7 @@ Compressed summaries of past sessions and ingested information — the "gist" of
 
 ### Layer 3 — Procedural Memory (Skill & Method)
 
-How the agent does things — skill repertoires, prompt templates, delegation patterns, workflow templates. This layer encodes *capability* rather than *knowledge*.
+How the agent does things — skill repertoires, prompt templates, delegation patterns, workflow templates. This layer encodes _capability_ rather than _knowledge_.
 
 **Properties**: Most stable layer, changes only when skills are added/modified, guides agent behavior without requiring explicit recall.
 
@@ -49,11 +49,12 @@ The agent's model of itself — its competencies, limitations, values, and opera
 
 ### What Goes in Each Layer?
 
-The boundary between episodic and semantic is the critical design decision. MOP原则: *episodic records are exhaustively complete; semantic summaries are selectively compressed*. You cannot reconstruct everything from Layer 2 — that is a feature, not a bug. Compression forces generalization.
+The boundary between episodic and semantic is the critical design decision. MOP principles: _episodic records are exhaustively complete; semantic summaries are selectively compressed_. You cannot reconstruct everything from Layer 2 — that is a feature, not a bug. Compression forces generalization.
 
 ### Update Policy
 
 When does Layer 2 get updated? Options:
+
 - **On session end**: Compress the session trace into semantic memory before shutdown
 - **On threshold**: When episodic memory exceeds a size budget, compress the oldest entries
 - **On query**: Lazy compression — only compress when needed for a specific retrieval
@@ -65,13 +66,15 @@ Each layer has an implicit or explicit size budget. When budget is exceeded, old
 
 ## Connection to MCM Framework
 
-MOP is the *architectural instantiation* of the Metacognitive Control Model (MCM). MCM specifies what must be modeled (knowledge self-model, meta-cognitive self-model); MOP specifies how that information is stored and accessed across time.
+MOP is the _architectural instantiation_ of the Metacognitive Control Model (MCM). MCM specifies what must be modeled (knowledge self-model, meta-cognitive self-model); MOP specifies how that information is stored and accessed across time.
 
 The identity/self-model layer (Layer 4) is where MCM lives architecturally:
+
 - The **knowledge self-model** lives in Layer 2 (what the agent knows)
 - The **meta-cognitive self-model** lives in Layer 4 (how the agent reasons)
 
 ## Connections
+
 - [[log]]
 - [[concepts/prd-ralph-loop-mop-gemini]]
 - [[concepts/neural-architecture-search]]
@@ -100,16 +103,19 @@ The identity/self-model layer (Layer 4) is where MCM lives architecturally:
 - [[rz-nas]]
 - [[neural-architecture-search]]
 - [[schema-competition]]
+
 ## MOP vs Fine-Tuning: When Memory, When Weights?
 
 This is the core architectural trade-off the task asks to develop. The two paths for incorporating session experience into the agent's capabilities are fundamentally different:
 
 ### Path 1: MOP Memory Compression (this architecture)
+
 Session experience is compressed into the layered memory schema (L1→L2). The weights stay fixed; only the external memory (Retriever-Augmented Generation) is updated.
 
 **Mechanism:** Episodic records → selective compression → Layer 2 semantic summaries. Access via retrieval at inference time.
 
 **Strengths:**
+
 - No catastrophic forgetting risk — weights independent of experience
 - Rapid incorporation — memory updated in minutes, doesn't require retraining
 - Precise, queryable access — can retrieve specific past decisions
@@ -117,21 +123,25 @@ Session experience is compressed into the layered memory schema (L1→L2). The w
 - Supports session-bound context (episodes, carryover state) naturally
 
 **Weaknesses:**
+
 - Retrieval-dependent — the agent's capability is bounded by what memory is retrieved, not by what's encoded in weights
 - Finite memory budget — eventually oldest experiences compressed/truncated
 - No weights-level generalization — can't transfer memory content into improved inference patterns automatically
 
 ### Path 2: Fine-Tuning (weight modification)
+
 Session experience is incorporated via continued pre-training or fine-tuning. The weights are updated to reflect patterns from new experience.
 
 **Mechanism:** SGD update on training data derived from session experience. Weights change.
 
 **Strengths:**
+
 - Generates implicit inference patterns — the model "just knows" without retrieval
 - Compresses experience into faster, more space-efficient representations
 - Enables cross-domain generalization from the learned patterns
 
 **Weaknesses:**
+
 - Catastrophic forgetting risk — new patterns overwrite old patterns
 - Expensive — requires GPU hours, can't do per-session
 - Opaque — what the model learned is not inspectable at the level of specific decisions
@@ -141,15 +151,15 @@ Session experience is incorporated via continued pre-training or fine-tuning. Th
 
 Whether to use MOP memory or fine-tuning depends on:
 
-| Factor | Use MOP Memory | Use Fine-Tuning |
-|--------|---------------|-----------------|
-| **Experience type** | Episodic (session-specific), contextual | Repeated (same pattern across many sessions) |
-| **Update frequency** | Per-session (fast cycles) | Accumulated over many sessions |
-| **Forgetting tolerance** | Low — old experience must be preserved | High — patterns can be overwritten |
-| **Interpretability need** | High — need to inspect specific decisions | Low — implicit behavior preferred |
-| **Budget** | Small compute budget | GPU time available |
-| **Pattern stability** | Novel, exploratory, likely to change | Stable, confirmed across multiple sessions |
-| **Generalization** | Session-local retrieval | Cross-domain weight-level internalization |
+| Factor                    | Use MOP Memory                            | Use Fine-Tuning                              |
+| ------------------------- | ----------------------------------------- | -------------------------------------------- |
+| **Experience type**       | Episodic (session-specific), contextual   | Repeated (same pattern across many sessions) |
+| **Update frequency**      | Per-session (fast cycles)                 | Accumulated over many sessions               |
+| **Forgetting tolerance**  | Low — old experience must be preserved    | High — patterns can be overwritten           |
+| **Interpretability need** | High — need to inspect specific decisions | Low — implicit behavior preferred            |
+| **Budget**                | Small compute budget                      | GPU time available                           |
+| **Pattern stability**     | Novel, exploratory, likely to change      | Stable, confirmed across multiple sessions   |
+| **Generalization**        | Session-local retrieval                   | Cross-domain weight-level internalization    |
 
 **The key insight:** MOP memory accumulation is the right tool when experience is novel, episodic, or potentially revocable. Fine-tuning is the right tool when patterns have been confirmed as stable across many sessions and the cost of retrieval exceeds the cost of weight-update.
 

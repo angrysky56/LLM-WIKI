@@ -1,22 +1,18 @@
 ---
-created: 2026-06-16 08:50:00+00:00
-updated: 2026-06-16 08:50:00+00:00
+created: 2026-06-16T08:50:00+00:00
+updated: 2026-09-02
 type: entity
-summary: Francesca Albanese — UN Special Rapporteur on Palestinian human rights
-tags: [geopolitics, un, human-rights, sanctions]
+summary: "Archived — absorbed by Francesca Albanese sanctions case insight (0.85)"
+tags: [francesca-albanese, geopolitics, stubs, archived]
 sources: https://www.ohchr.org/en/special-procedures/special-procedures-human-rights-council/francesca-albanese
-status: stub
+status: archived
 confidence: 0.3
 ---
 
+# Francesca Albanese
 
-## Related
-- [[synthesis/insights/francesca-albanese-sanctions-case-insight]]
-- [[entities/francesca-albanese-stub]]
-- [[wiki/index]]
+*Archived — absorbed by [[synthesis/insights/francesca-albanese-sanctions-case-insight]] (0.85).*
 
-- [[francesca-albanese-stub]]
+The Francesca Albanese sanctions case insight provides comprehensive coverage of her role as UN Special Rapporteur on Palestinian human rights, the ICC arrest warrant recommendations, the US sanctions targeting her, and the legal accountability mechanisms at play.
 
-# Francesca Albanese (stub)
-
-UN Special Rapporteur on the situation of human rights in the Palestinian territories. Targeted by US sanctions in 2025 after recommending ICC arrest warrants against Israeli officials.
+See [[synthesis/insights/francesca-albanese-sanctions-case-insight]] for the full treatment.

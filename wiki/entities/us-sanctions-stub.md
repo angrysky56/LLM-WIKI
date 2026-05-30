@@ -1,22 +1,18 @@
 ---
-created: 2026-06-16 08:50:00+00:00
-updated: 2026-06-16 08:50:00+00:00
+created: 2026-06-16T08:50:00+00:00
+updated: 2026-09-02
 type: entity
-summary: US Sanctions — Specially Designated Nationals (SDN) framework
-tags: [geopolitics, sanctions, us-policy, financial-regulation]
+summary: "Archived — absorbed by Francesca Albanese sanctions case insight (0.85)"
+tags: [us-sanctions, geopolitics, stubs, archived]
 sources: []
-status: stub
+status: archived
 confidence: 0.3
 ---
 
+# US Sanctions / SDN Framework
 
-## Related
-- [[entities/us-sanctions-stub]]
-- [[wiki/index]]
-- [[synthesis/insights/francesca-albanese-sanctions-case-insight]]
+*Archived — absorbed by [[synthesis/insights/francesca-albanese-sanctions-case-insight]] (0.85).*
 
-- [[us-sanctions-stub]]
+The Francesca Albanese sanctions case insight provides the canonical coverage of the US Specially Designated Nationals (SDN) framework as applied to UN special rapporteurs, and the legal-policy divergence revealed by the Albanese case.
 
-# US Sanctions / SDN Framework (stub)
-
-The Specially Designated Nationals list administered by OFAC. Executive sanctions tool used to restrict access to US financial system.
+See [[synthesis/insights/francesca-albanese-sanctions-case-insight]] for the full treatment.

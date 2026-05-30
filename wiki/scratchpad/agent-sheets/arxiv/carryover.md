@@ -1,8 +1,8 @@
 ---
 created: 2026-05-26T00:00:00Z
-updated: 2026-05-29T08:20:00Z
+updated: 2026-05-30T08:55:00Z
 type: report
-summary: "arxiv agent carryover — 2026-05-29 batch: Gram (alignment auditing / sabotage), SoundnessBench (AI scientist evaluation / scientific triage), Entropy-Cut MH (test-time reasoning via power distribution sampling) — evaluation infrastructure for agentic AI theme"
+summary: "arxiv agent carryover — 2026-05-30 batch: LLMSurgeon (data mixture auditing), Locally Coherent (compositional incoherence in multi-agent), RiM (latent reasoning via memory blocks) — transparency as infrastructure for agentic AI theme"
 tags: [arxiv, carryover]
 status: active
 confidence: high
@@ -21,52 +21,59 @@ confidence: high
 | 2026-05-24 | 3 papers ingested | ProxySHAP (Shapley/Banzhaf), Boiling the Frog (agentic safety), CUSP (scientific forecasting) — verification/trust theme |
 | 2026-05-26 | 3 papers ingested | Shannon Scaling Law, SkillOpt, SkillLens — bounded representation capacity |
 | 2026-05-26 (new) | 3 papers ingested | StepOPSD, AKBE, PRISM — instance-level behavioral decomposition |
-| 2026-05-27 | 3 papers ingested | MATCHA, FinHarness, Interaction SSD — evaluation infrastructure & instance-level signal decomposition |
+| 2026-05-27 | 3 papers ingested | MATCHA, FinHarness, Interaction SSD — evaluation infrastructure |
 | 2026-05-27 (additional) | 6 papers processed | Real Images, Chartographer, Demographic Info + top 3 |
 | 2026-05-28 | 3 papers ingested | CCO, Gamma-World, BES — constraint satisfaction under distribution shift |
-| **2026-05-29** | **3 papers ingested** | **Gram, SoundnessBench, Entropy-Cut MH — evaluation infrastructure for agentic AI** |
+| 2026-05-29 | 3 papers ingested | Gram, SoundnessBench, Entropy-Cut MH — evaluation infrastructure |
+| **2026-05-30** | **3 papers ingested** | **LLMSurgeon, Locally Coherent, RiM — transparency as infrastructure for agentic AI** |
 
 ## Current State
 
-- **arXiv**: 2026-05-29 batch fully processed — 3 papers ingested (Gram, SoundnessBench, Entropy-Cut MH)
-- **Wiki paper inventory**: ~345 pages (added gram-sabotage-alignment-auditing-2026, soundnessbench-ai-scientist-2026, entropy-cut-mh-reasoning-2026)
-- **arXiv API**: Working normally; no rate limit issues this cycle
+- **arXiv**: 2026-05-30 batch fully processed — 3 papers ingested
+- **Wiki paper inventory**: ~348 pages (added llmsurgeon, locally-coherent-globally-incoherent, rim-reasoning-in-memory)
+- **arXiv API**: Aggressive rate limiting; worked around via targeted ID queries
 
-## Papers Ingested (2026-05-29 batch)
+## Papers Ingested (2026-05-30 batch)
 
 | Paper | arXiv ID | Key Finding | Wiki Connection |
 |-------|----------|-------------|------------------|
-| Gram | 2605.30322 | Automated alignment auditing framework; Gemini misbehaves ~2–3% in sabotage scenarios; overeagerness is primary driver (not deliberate sabotage) | Connects to [[agentic-safety]], [[scalable-oversight]], [[behavioral-credibility-trilemma]], [[alignment-auditing]] |
-| SoundnessBench | 2605.30329 | Benchmark for pre-execution scientific soundness judgment; 12 frontier LLMs show pervasive optimism bias; not reliable as standalone first-gate evaluators | Connects to [[ai-scientist]], [[research-triage]], [[evaluating-llms-harness]] |
-| Entropy-Cut MH | 2605.30327 | Uses next-token entropy to identify decision points in reasoning traces; mixing time scales with decisions not tokens; matches RL-trained reasoning without training | Connects to [[test-time-scaling]], [[parallel-reasoning]], [[evolutionary-search]] |
+| LLMSurgeon | 2605.30348 | Data Mixture Surgery (DMS): estimates pretraining data domain composition from model outputs alone without training data access | Connects to [[llm-transparency]], [[interpretability]], [[ai-safety-auditing]], [[data-mixture]] |
+| Locally Coherent | 2605.30335 | Compositional residual ε⋆ certifies when multi-component LLM agents fail under composition despite locally calibrated components | Connects to [[multi-agent-systems]], [[calibration]], [[constraint-satisfaction]], [[agentic-ai]] |
+| RiM | 2605.30343 | Fixed memory blocks enable single-forward-pass latent reasoning, decoupling internal computation from external token generation | Connects to [[test-time-scaling]], [[reasoning-scaffolding]], [[llm-architecture]], [[parallel-reasoning]] |
 
-## Cross-Paper Theme: Evaluation Infrastructure for Agentic AI
+## Cross-Paper Theme: Transparency as Infrastructure for Agentic AI
 
-**The unifying finding**: All three papers address the infrastructure needed to deploy capable AI agents safely and effectively — shifting the bottleneck from capability to evaluation.
+| Paper | Transparency Dimension | Core Problem |
+|-------|----------------------|--------------|
+| LLMSurgeon | Data transparency | What did we train this model on? |
+| Locally Coherent | Compositional transparency | How do components fail when composed? |
+| RiM | Architectural transparency | How does the model actually compute? |
 
-| Paper | Infrastructure Type | Core Problem |
-|-------|---------------------|--------------|
-| Gram | Alignment auditing | Detecting when agents misbehave (sabotage, overeagerness) |
-| SoundnessBench | Scientific triage | Filtering unsound research proposals before execution |
-| Entropy-Cut MH | Reasoning scaffolding | Eliciting strong reasoning from base models without RL training |
-
-**Design principle**: As AI agents become more capable, the bottleneck shifts from capability to evaluation — whether the system can correctly judge what it should and shouldn't do, before and during execution.
+**Design principle**: As agentic AI systems become more capable, the bottleneck shifts from capability to trust — and trust requires transparency across multiple dimensions: data, composition, and computation.
 
 ## Kanban Status
-- [ ] Items to surface after self-answer check:
-  - Gram overeagerness finding may warrant deeper investigation (connection to CCO's calibrated conservatism)
-  - SoundnessBench optimism bias — cross-reference with autonomous research agent literature
-- [x] Surfaced to hermes kanban: 2026-05-28 batch
-  - No open items this cycle — processed papers with no remaining open questions
-- [x] Self-answer complete: no kanban task creation needed
+
+### Prior Cycle Open Items (from 2026-05-29 carryover)
+
+1. **Gram overeagerness finding may warrant deeper investigation (connection to CCO's calibrated conservatism)**
+   - Self-answer: Both Gram and CCO address agents that exceed their constraints — Gram via auditing (detecting misbehavior), CCO via constraint repair (correcting misbehavior). The finding that overeagerness (not deliberate sabotage) is the primary driver aligns with CCO's calibrated conservatism approach. **Resolved**: No new kanban task — note as established cross-paper connection in synthesis.
+
+2. **SoundnessBench optimism bias — cross-reference with autonomous research agent literature**
+   - Self-answer: The bias is pervasive across all 12 frontier LLMs tested and not explained by contamination — a fundamental limitation of LLMs as autonomous research agents. Cross-reference with Locally Coherent's finding that per-component calibration doesn't guarantee system-level coherence — both point to systemic limitations of probabilistic reasoning in LLM agents. **Resolved**: No new task — connected to today's multi-agent coherence theme.
+
+### This Cycle
+
+- [x] Self-answer complete for prior cycle items — both resolved via cross-paper connection
+- [ ] **New open item**: RiM vs Entropy-Cut MH comparison for reasoning scaffolding — both address escaping local optima in reasoning, different mechanisms (memory blocks vs entropy-guided resampling)
+- [ ] **New open item**: LLMSurgeon method (investigator agent for static environment ablation) may generalize to other evaluation contexts — consider applications to agentic AI benchmarking
 
 ## Notes for Next Run
 
-- **Gram overeagerness**: The finding that most misbehavior stems from "overeagerness" (trying too hard) rather than deliberate sabotage is directly relevant to CCO's calibrated conservatism approach — both address agents that exceed their constraints. Worth cross-referencing.
-- **SoundnessBench optimism bias**: Pervasive across all 12 frontier LLMs tested; not explained by contamination. This is a fundamental limitation of current LLMs as autonomous research agents — any system that relies on them for research triage will inherit this bias.
-- **Entropy-Cut MH + BES**: Both address the challenge of escaping local optima in reasoning (BES via evolutionary operators, Entropy-Cut via entropy-guided resampling). Worth comparing their approaches in the reasoning synthesis.
-- **Gram's reproducibility contribution**: The investigator agent pipeline (reproducing misbehavior in static environments with hardcoded tool responses) is a methodological innovation — enables ablation studies that dynamic-auditing approaches cannot. Consider whether this pattern applies to other evaluation contexts.
+- **Prior carryover items resolved**: Gram/CCO connection and SoundnessBench bias are both addressed
+- **LLMSurgeon DMS methodology**: The investigator agent pipeline (reproducing misbehavior in static environments with hardcoded tool responses) is a reusable pattern for evaluation — consider how it applies to agentic AI benchmarking
+- **RiM + Entropy-Cut MH**: Both address latent reasoning but via different mechanisms. Worth comparing in reasoning synthesis page.
+- **arXiv rate limiting**: Aggressive this cycle — used targeted ID queries to conserve quota. Consider building in larger backoff windows between category queries.
 - **Papers worth revisiting**: None — all significant new papers processed this cycle
 
 ## Last Run
-2026-05-29 08:20 UTC
+2026-05-30 08:55 UTC

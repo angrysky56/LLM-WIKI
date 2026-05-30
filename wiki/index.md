@@ -1,5 +1,5 @@
 ---
-updated: 2026-05-29T20:04:21Z
+updated: 2026-05-30T01:35:48Z
 type: index
 ---
 
@@ -98,7 +98,7 @@ type: index
 - [[code-as-agent-harness]] — [STUB] Code as agent harness — using code execution as agent scaffolding
 - [[code-execution]] — [STUB] Code execution — executing code as part of AI agent reasoning
 - [[code-generation]] — Code generation as an AI task — producing executable code from natural language or specifications; the narrow task vs code agents as full systems
-- [[codebase-inspection]] — [STUB] Automated codebase analysis and inspection
+- [[codebase-inspection]] — Archived — absorbed by graphify source page (0.8) and world-model concept (0.8)
 - [[cognitive-architecture]] — Hub page on cognitive architecture, MCM framework, and metacognitive self-models
 - [[cognitive-science]] — [STUB] Cognitive science — interdisciplinary study of mind and cognition
 - [[cognitive-world-models-for-llm-agents]] — How text-based LLM agents represent "what the world looks like" — the abstraction layers between raw conversation history and a predictive world model; covers belief state, tool-history graphs, conversation structure, and the gap between retrieval and compilation
@@ -257,7 +257,7 @@ type: index
 - [[latex]] — [STUB] LaTeX document preparation system
 - [[lcguard]] — LCGuard — tool/safety framework (stub)
 - [[lean-manufacturing]] — [STUB] Lean manufacturing — waste elimination, continuous improvement, just-in-time production
-- [[legal-accountability-stub]] — Legal accountability — judicial constraints on executive/political power
+- [[legal-accountability-stub]] — Archived — absorbed by Francesca Albanese sanctions case insight (0.85)
 - [[length-generalization]] — The failure of LLMs to generalize from short training sequences to longer inference sequences — a fundamental limitation of autoregressive transformers
 - [[llama-nas]] — LLaMA-NAS — one-shot neural architecture search for task-specific sub-networks within the LLaMA model family; achieves compression and throughput gains via inherited pretrained weights
 - [[llm-agent-architecture]] — System architecture patterns for LLM-based autonomous agents — runtime composition, failure modes, and the LLM/software boundary as first-class design concern
@@ -399,7 +399,7 @@ type: index
 - [[reactive-agents]] — Reactive agents — agent architectures that use direct stimulus-response mapping without explicit planning
 - [[reasoning]] — Alias stub redirecting to load-bearing-reasoning — reasoning as a load-bearing cognitive structure
 - [[reconstruction-attack]] — [STUB] Reconstruction attacks on ML models
-- [[recuriosity-episodic-context-3d-exploration-2026]] — [STUB] Recuriosity — episodic context for 3D exploration in agents
+- [[recuriosity-episodic-context-3d-exploration-2026]] — Archived — absorbed by sources/papers/recuriosity-episodic-context-3d-exploration-2026 (0.95)
 - [[recursive-neural-networks]] — ARCHIVED — absorbed by recursive-transformers.md (0.65)
 - [[recursive-transformers]] — Transformer variants with recursive hidden state passing across layers — combining parallel attention efficiency with sequential inductive bias
 - [[redistricting]] — [STUB] Redrawing electoral district boundaries
@@ -516,14 +516,14 @@ type: index
 - [[zeta]] — Zeta archetype — the Entropy Regulation Agent in the oMCD framework
 - [[zettelkasten]] — Zettelkasten — note-taking method using interconnected atomic notes
 - [[cognitive-decline]] — Cognitive decline — age-related memory and reasoning impairment; driven by neuroinflammation, Menin decline in hypothalamus, and D-serine depletion
-- [[francesca-albanese-stub]] — Francesca Albanese — UN Special Rapporteur on Palestinian human rights
+- [[francesca-albanese-stub]] — Archived — absorbed by Francesca Albanese sanctions case insight (0.85)
 - [[hermes-meta-cognition]] — Hermes as an MCM implementation with oMCD, agent archetypes, and self-model structure
 - [[hypothalamus]] — Hypothalamus — brain region controlling homeostasis, hormone release, aging; Menin production site that suppresses neuroinflammation
-- [[icc-stub]] — International Criminal Court — permanent tribunal for war crimes, genocide, crimes against humanity
+- [[icc-stub]] — Archived — absorbed by Francesca Albanese sanctions case insight (0.85)
 - [[knowledge-architecture-stub]] — Knowledge architecture — structural design principles for information systems
 - [[longevity-research]] — Longevity research — scientific efforts to understand and reverse biological aging
 - [[neuroinflammation]] — Neuroinflammation — brain inflammation driven by microglial activation; linked to Menin decline in hypothalamus, cognitive decline, and aging
-- [[note-taking-systems-stub]] — Note-taking systems — tools and methods for personal knowledge management
+- [[note-taking-systems-stub]] — Archived — absorbed by knowledge-management (0.75) and PARA methodology
 - [[andrej-karpathy]] — AI researcher, author of the LLM Wiki Pattern
 - [[cassidy]] — [STUB] US Senator Bill Cassidy — Louisiana
 - [[dhruv-trehan]] — Researcher at Lossfunk focusing on autonomous research systems.
@@ -586,8 +586,9 @@ type: index
 - [[obsidian]] — Markdown knowledge app — the human-readable frontend for the wiki
 - [[prover9]] — An automated theorem prover for first-order and equational logic. Successor to the OTTER prover.
 - [[superbpe]] — A tokenization algorithm that extends standard Byte Pair Encoding (BPE) by allowing merges across whitespace boundaries.
-- [[us-sanctions-stub]] — US Sanctions — Specially Designated Nationals (SDN) framework
+- [[us-sanctions-stub]] — Archived — absorbed by Francesca Albanese sanctions case insight (0.85)
 - [[xai]] — xAI — Elon Musk's AI company; Grok chatbot developer; acquired by SpaceX 2025; integrated with Starlink for AI compute distribution
+- [[mop-agents-integration]] — 
 - [[oMCD-calibration-protocol]] — Warm-start calibration procedure for oMCD parameters β and γ
 - [[portfolio-policies-metacognition]] — Research exploration of portfolio-of-policies MDP extension and control graph topologies for metacognition, covering entropy-confidence duality, portfolio allocation formalism, and topology evaluation.
 - [[Q2_SALES_TARGET_LIST]] — 
@@ -613,6 +614,7 @@ type: index
 - [[workflow]] — 
 - [[report]] — 
 - [[research-brief]] — 
+- [[vault]] — 
 - [[ingest]] — 
 - [[carryover]] — 1 file processed, raw/ empty. Power sampling (MCMC) paper ingested.
 - [[workflow]] — 
@@ -623,15 +625,16 @@ type: index
 - [[workflow]] — 
 - [[carryover]] — 
 - [[librarian]] — 
-- [[carryover]] — Librarian carryover 2026-05-29 — audit complete, 57 orphans operational, HITS authority leader wiki/index (0.0786)
+- [[carryover]] — Librarian carryover 2026-08-25 — 1212 pages, 66 orphans operational, 5745 broken links migration artifacts, 249 non-reciprocal flags need verification, 35 GAAC clusters, merge candidates need investigation
 - [[mcp-tools]] — 
 - [[workflow]] — 
 - [[audit-report]] — 
 - [[librarians-assistant]] — 
-- [[carryover]] — EFHF frontmatter fixed (sources field malformed chars, EFHF→efhf tag, Kernel-1/Kernel-2→kernel-1/kernel-2); vault structurally healthy — all remaining items need Ty decisions or librarian judgment
+- [[carryover]] — Vault structurally healthy — all lint/GAAC flags non-actionable; maximum-occupancy-principle duplicate slug resolved (only one page exists); GoodRobot multi-location blocker unchanged.
 - [[quick-reference]] — 
 - [[workflow]] — 
 - [[batch-progress]] — 
+- [[vault]] — 
 - [[batch-progress]] — 
 - [[carryover]] — Markovian Dev Agency carryover — specialist delegation and task routing
 - [[now]] — Master state for Markovian Dev Agency — active issues and specialist coordination
@@ -659,7 +662,7 @@ type: index
 - [[Meta-Meta Process for Structured Exploration]] — 
 - [[carryover-template]] — 
 - [[researcher]] — 
-- [[carryover]] — Sep 2: mop-next-token-prediction promoted (0.7); 3dgs and habitat archived
+- [[carryover]] — Sep 2: ai-policy-federalism promoted (0.7); 7 absorbed stubs archived
 - [[workflow]] — 
 - [[discovery-report]] — 
 - [[gap-analysis]] — 
@@ -803,6 +806,7 @@ type: index
 - [[discovery-2026-08-19]] — 
 - [[discovery-2026-08-20]] — 
 - [[discovery-2026-08-21]] — 4 stubs archived, ai-policy-federalism remains open
+- [[discovery-2026-09-02]] — 
 - [[google-deepmind-vatican-encyclical-response-may-2026]] — No Google DeepMind response to Magnifica humanitas encyclical found; compiled monitoring report
 - [[microsoft-vatican-encyclical-response-may-2026]] — No Microsoft response to Magnifica humanitas encyclical found; compiled monitoring report
 - [[sheet]] — t_ff1740de complete: no Microsoft response found to Magnifica humanitas encyclical
@@ -1019,6 +1023,8 @@ type: index
 - [[lcguard-kv-communication-guard-2026]] — Framework for safe KV-based latent communication in multi-agent LLM systems, using adversarial-learned transformations to suppress reconstruction-based leakage while preserving task utility.
 - [[legalsearch-r1]] — LegalSearch-R1 — RL-trained legal agent with temporal statute indexing; 7B model outperforms SOTA by 12.9-29.8% via dual RAG+web architecture enforcing lex retro non agit
 - [[llms-entity-tracking-state-changes]] — LMs don't track entity states incrementally — they aggregate all relevant information in parallel at the final token once the query is evident. REMOVE uses a fragile global suppression tag, revealing failure modes that mechanistic analysis predicts.
+- [[llmsurgeon-diagnosing-data-mixture-2026]] — LLMSurgeon — DMS for estimating LLM pretraining data composition from outputs
+- [[locally-coherent-globally-incoherent-2026]] — Locally Coherent, Globally Incoherent — compositional residual ε⋆ for multi-component LLM agent coherence failures
 - [[ma-sd-search-2026]] — SD-Search: On-policy hindsight self-distillation for step-level credit assignment in search-augmented reasoning
 - [[matcha]] — 
 - [[memo-memory-as-a-model]] — MEMO paper — memory as model parameter, industrial compute required, step 5 pairing advice noted
@@ -1038,6 +1044,7 @@ type: index
 - [[ramirez-ruiz-mop-2024]] — Ramírez-Ruiz et al. (Nature Communications 2024) — Maximum Occupancy Principle: agents maximize future action-state path entropy instead of extrinsic reward, producing complex goal-directed behavior from intrinsic motivation alone
 - [[recuriosity-episodic-context-3d-exploration-2026]] — Wiki source page for Recuriosity (2605.22814v1) — curiosity-driven 3D exploration with persistent 3DGS world model and episodic RGB transformer policy
 - [[reward-inside-model-elhsr]] — Efficient Linear Hidden State Reward (ELHSR): A lightweight reward model (<0.005% parameters) using internal LLM hidden states for Best-of-N sampling.
+- [[rim-reasoning-in-memory-2026]] — RiM — Reasoning in Memory, latent reasoning via fixed memory blocks in single forward pass
 - [[saerl]] — SAERL: Sparse Autoencoder Reinforcement Learning — uses SAE features (diversity, difficulty, quality) as intrinsic signals for post-training data engineering in GRPO; achieves 3% improvement over vanilla GRPO on Qwen2.5-Math-1.5B.
 - [[safectrl-rl]] — SafeCtrl-RL: inference-time RL-driven prompt optimization for adaptive LLM behavioral control — 11 refinement strategies, closed-loop state representation, hard safety gating
 - [[semantic-gradients-interactions-ssd]] — 
@@ -1118,7 +1125,7 @@ type: index
 - [[8th-amendment]] — [STUB] US 8th Amendment — cruel and unusual punishment
 - [[ai-disruption-work]] — [STUB] AI disruption of work and labor markets
 - [[ai-healthcare]] — [STUB] AI applications in healthcare — diagnosis, treatment planning, drug discovery, clinical operations
-- [[ai-policy-federalism]] — [STUB] AI-driven federal policy formation and governance frameworks
+- [[ai-policy-federalism]] — AI policy federalism — US federal retreat leaves California as de facto AI regulator; multi-level governance fragmentation
 - [[anthropic-vatican-alignment-may-2026]] — Anthropic's Vatican alignment signals AI companies choosing multilateral governance over unilateral US approach; Trump internal division deepens
 - [[asteroid-2026-jh2]] — [STUB] Asteroid 2026 JH2 — near-Earth object
 - [[barakah-nuclear-plant]] — [STUB] Barakah nuclear plant — UAE nuclear power facility

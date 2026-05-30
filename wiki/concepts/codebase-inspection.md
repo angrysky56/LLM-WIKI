@@ -1,24 +1,20 @@
 ---
 created: 2026-06-03
-updated: 2026-06-03
+updated: 2026-09-02
 type: concept
-summary: "[STUB] Automated codebase analysis and inspection"
-tags: [stubs]
+summary: "Archived — absorbed by graphify source page (0.8) and world-model concept (0.8)"
+tags: [codebase-analysis, graphify, stubs, archived]
 sources: []
-status: stub
+status: archived
 confidence: 0.3
 ---
 
 # Codebase Inspection
 
-*Stub page — needs real content*
+*Archived — topic adequately covered by canonical pages.*
 
-## Connections
-- [[wiki/index]]
-- [[sources/repositories/graphify-ai-coding-assistant-skill]]
-- [[concepts/codebase-inspection]]
-- [[concepts/maximum-occupancy-principle]]
-- [[log]]
-- [[codebase-inspection]]
+- [[sources/repositories/graphify-ai-coding-assistant-skill]] (source, 0.8) provides the definitive reference for AST-based codebase analysis in this vault
+- [[concepts/world-model]] (0.8) covers the agent design pattern of internal predictive models that codebase inspection builds on
+- [[concepts/code-as-agent-harness]] (source, high) covers code as agent operational substrate
 
-- [[maximum-occupancy-principle]]
+See those pages for the canonical treatment.

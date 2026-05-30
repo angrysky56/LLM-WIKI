@@ -1,21 +1,18 @@
 ---
 created: 2026-06-16T08:50:00Z
-updated: 2026-06-16T08:50:00Z
+updated: 2026-09-02
 type: entity
-summary: International Criminal Court — permanent tribunal for war crimes, genocide, crimes against humanity
-tags: [geopolitics, international-law, justice]
+summary: "Archived — absorbed by Francesca Albanese sanctions case insight (0.85)"
+tags: [icc, geopolitics, stubs, archived]
 sources: https://www.icc-cpi.int/
-status: stub
+status: archived
 confidence: 0.3
 ---
 
-## Related
-- [[wiki/index]]
-- [[synthesis/insights/francesca-albanese-sanctions-case-insight]]
-- [[entities/icc-stub]]
+# International Criminal Court (ICC)
 
-- [[icc-stub]]
+*Archived — absorbed by [[synthesis/insights/francesca-albanese-sanctions-case-insight]] (0.85).*
 
-# International Criminal Court (stub)
+The Francesca Albanese sanctions case insight provides the canonical coverage of the ICC's role in the context of arrest warrant recommendations against Israeli officials, and the US sanctions response to those recommendations.
 
-ICC — permanent international tribunal established by the Rome Statute. Has jurisdiction over genocide, war crimes, crimes against humanity, and crime of aggression.
+See [[synthesis/insights/francesca-albanese-sanctions-case-insight]] for the full treatment.

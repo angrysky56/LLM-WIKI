@@ -1,22 +1,18 @@
 ---
 created: 2026-06-16T08:50:00Z
-updated: 2026-06-16T08:50:00Z
+updated: 2026-09-02
 type: entity
-summary: Note-taking systems — tools and methods for personal knowledge management
-tags: [knowledge-management, pkm, tools]
-status: stub
-confidence: 0.3
+summary: "Archived — absorbed by knowledge-management (0.75) and PARA methodology"
+tags: [knowledge-management, stubs, archived]
 sources: []
-
+status: archived
+confidence: 0.3
 ---
 
-## Related
-- [[entities/note-taking-systems-stub]]
-- [[wiki/index]]
-- [[synthesis/insights/para-knowledge-architecture-cohesion-insight]]
+# Note-Taking Systems
 
-- [[note-taking-systems-stub]]
+*Archived — absorbed by [[concepts/knowledge-management]] (0.75) and [[para-methodology]] (0.7).*
 
-# Note-Taking Systems (stub)
+The PARA methodology (Projects/Areas/Resources/Archives) is the canonical framework for note-taking systems in this vault. [[synthesis/insights/para-knowledge-architecture-cohesion-insight]] (0.85) confirms the structural integrity of the PARA framework as an information entropy management system.
 
-Placeholder — page not yet created with substantive content.
+See [[concepts/knowledge-management]] and [[para-methodology]] for the canonical treatment.

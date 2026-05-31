@@ -1,5 +1,5 @@
 ---
-updated: 2026-05-30T14:45:16Z
+updated: 2026-05-30T19:07:12Z
 type: index
 ---
 
@@ -633,7 +633,7 @@ type: index
 - [[audit-report]] — 
 - [[vault]] — 
 - [[librarians-assistant]] — 
-- [[carryover]] — Vault structurally healthy — all lint/GAAC flags non-actionable; maximum-occupancy-principle duplicate slug resolved (only one page exists); GoodRobot multi-location blocker unchanged.
+- [[carryover]] — 3 remediation fixes applied — essan frontmatter/tag normalization, graph-theory↔knowledge-graph reciprocal links; GoodRobot location remains blocker.
 - [[quick-reference]] — 
 - [[workflow]] — 
 - [[batch-progress]] — 
@@ -776,6 +776,7 @@ type: index
 - [[overseer-2026-05-27]] — 
 - [[overseer-2026-05-28]] — 
 - [[overseer-2026-05-29]] — 
+- [[overseer-2026-05-30]] — 
 - [[overseer-2026-07-28]] — 
 - [[overseer-2026-08-03]] — 
 - [[overseer-2026-08-05]] — Overseer monitoring cycle 2026-08-05 — 8 agents audited, 3 news cards surfaced, librarian card updated, sheet.md synced

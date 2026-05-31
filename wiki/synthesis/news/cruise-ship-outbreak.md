@@ -1,11 +1,13 @@
 ---
 created: 2026-06-16
+*Archived — Archived — news synthesis stub. The hantavirus cruise outbreak (May 2026) is covered in news sources. No AI/ML concept connection.*
+
 updated: 2026-06-16
 type: synthesis
 summary: "[STUB] Cruise ship disease outbreak and maritime health protocols"
 tags: [cruise-ship-outbreak, stubs, public-health]
 sources: []
-status: stub
+status: archived
 confidence: 0.3
 ---
 

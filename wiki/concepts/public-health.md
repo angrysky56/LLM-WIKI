@@ -1,11 +1,13 @@
 ---
 created: 2026-06-03
+*Archived — Absorbed by maximum-occupancy-principle (0.85) — public health is a MOP application domain; the MOP page covers population-level resource dynamics.*
+
 updated: 2026-06-03
 type: concept
 summary: "[STUB] Public health systems and governance"
 tags: [stubs]
 sources: []
-status: stub
+status: archived
 confidence: 0.3
 ---
 

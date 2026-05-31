@@ -1,11 +1,13 @@
 ---
 created: 2026-05-25
+*Archived — Absorbed by vision-language-models stub which links to llm-vision and multimodal-ai — stubs together form a connected cluster but no single canonical active page yet. Not expanded due to stub cluster — awaiting high-confidence source.*
+
 updated: 2026-05-25
 type: concept
 summary: "[STUB] Multimodal LLM — large language models that process multiple modalities (text, vision, audio)"
 tags: [multimodal-llm, stubs]
 sources: []
-status: stub
+status: archived
 confidence: 0.3
 ---
 

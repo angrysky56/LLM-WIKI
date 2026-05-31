@@ -6,6 +6,9 @@
 **Run**: 2026-05-30 06:00 AM
 **Status**: CLI watchdog timeout (570s) again — `latest.json` still from May 23. No new output produced.
 
+**Run**: 2026-05-31 06:00 AM
+**Status**: CLI watchdog timeout (570s) — hard watchdog fired, exit code 3. No new output produced.
+
 ---
 
 ## Summary
@@ -18,7 +21,6 @@
   - `para-system-cluster-insight.md` (confidence: 0.85)
   - `oee-knowledge-cluster-insight.md` (confidence: 0.85)
   - `francesca-albanese-sanctions-insight.md` (confidence: 0.85)
-- **2026-05-29 evening run**: CLI watchdog fired again (570s), no new output produced
 
 ---
 
@@ -45,4 +47,5 @@
 ## Next Run Priority
 
 - Normal priority — daily cron
-- CLI watchdog timeout is expected behavior — inspect if `latest.json` is refreshed in a future run
+- CLI watchdog timeout is expected behavior — pattern persisting across 3 consecutive runs
+- May need investigation if `latest.json` is not refreshed by 2026-06-01

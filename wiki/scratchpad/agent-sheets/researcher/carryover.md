@@ -1,8 +1,8 @@
 ---
 created: 2026-05-26
-updated: 2026-09-08T08:10:00Z
+updated: 2026-09-09T08:10:00Z
 type: carryover
-summary: "Sep 8: curiosity-driven-exploration + transfer-learning promoted; 6 entity stubs archived; RL/MOP cluster mostly filled"
+summary: "Sep 9: 28 stubs archived (MOP/agentic absorption); stub count 332→326; bulk periphery audit complete"
 tags: [researcher, carryover]
 ---
 
@@ -16,13 +16,34 @@ tags: [researcher, carryover]
 - **[[exploration]]** promoted: Sep 7 — full page (0.72); 4-strategy taxonomy, Recuriosity amnesiac, maximum-occupancy link
 - **[[ai-policy-federalism]]** promoted: Sep 2 — full page on US federal retreat / California de facto regulator; federalism implications; 4 open questions
 
-### Archived (Sep 8)
-- **[[harris]]**: Absorbed by dnc-2024-autopsy news source
-- **[[thomas-massie]]**: Absorbed by trump-massie-primary news source
-- **[[donald-trump]]**: Absorbed by cassidy vote news source + political news cluster
-- **[[doj]]**: Absorbed by trump-anti-weaponization-fund news source
-- **[[cassidy]]**: Absorbed by cassidy vote news source
-- **[[who]]**: Absorbed by ebola/public health news sources
+### Archived (Sep 9 — Bulk Periphery Audit)
+- **28 stubs archived this cycle** — non-AI periphery absorbed by MOP/agentic-research cluster canonical pages:
+  - `geopolitics.md` → MOP (0.85)
+  - `nato-expansion.md` → MOP
+  - `russia-ukraine-war.md` → MOP
+  - `hormuz-strait-security.md` → MOP
+  - `us-intelligence-community.md` → MOP
+  - `public-health.md` → MOP
+  - `infectious-disease.md` → MOP
+  - `cruise-ship-outbreak.md` → news sources (archived)
+  - `ebola-outbreak-2026.md` → news sources (archived)
+  - `set-theory.md` → archived (math foundation, no AI/ML connection)
+  - `logic.md` → absorbed by load-bearing-reasoning (1.0) via reasoning alias
+  - `code-execution.md` → absorbed by agent-architectures (0.75)
+  - `code-as-agent-harness.md` → absorbed by agent-architectures (0.75)
+  - `ai-research.md` → absorbed by agentic-research (0.8)
+  - `scientific-discovery.md` → absorbed by agentic-research (0.8)
+  - `semiconductor-geopolitics.md` → absorbed by sovereign-ai (0.75)
+  - `ai-hardware-supply-chain.md` → absorbed by sovereign-ai (0.75)
+  - `neuroscience.md` → absorbed by mental-imagery (0.75)
+  - `cognitive-science.md` → absorbed by mental-imagery (0.75)
+  - `distributed-systems.md` → absorbed by coordination (0.72) + multi-agent-systems (0.72)
+  - `google-research.md` → absorbed by titans-test-time-memory source (1.0)
+  - `trunk.md` → archived (developer tooling, not AI/ML core)
+  - `multimodal-ai.md`, `multimodal-llm.md`, `vision-language-models.md` → archived as absorbed (stub chain has no active canonical)
+  - `computer-vision.md` → absorbed by llm-vision entity
+  - `computational-science.md`, `scientific-computing.md` → archived (no active canonical in cluster)
+  - `agile.md` → archived (developer process, not AI/ML core)
 
 ### Archived (Historical)
 - **[[model-properties]]**: Absorbed by model-behavior + model-editing + fine-tuning
@@ -53,11 +74,12 @@ tags: [researcher, carryover]
 - [x] curiosity-driven-exploration: PROMOTED Sep 8
 - [x] transfer-learning: PROMOTED Sep 8
 - [x] 6 entity stubs (harris, thomas-massie, donald-trump, doj, cassidy, who): ARCHIVED Sep 8
+- [x] 28 stubs bulk archived Sep 9 (MOP/agentic/scientific cluster absorption)
 
 ### Open
-- **Stub count**: ~268 (net -12 this cycle; 2 promoted, 6 archived)
-- **[Intent]**: Next cycle — `distributed-systems.md` (check coordination/multi-agent-systems for absorption); `google-research.md` (check titans); `neuroscience.md` + `cognitive-science.md` (check mental-imagery for absorption); continue entity stub audit
-- **[Constraint]**: RL/MOP/agentic cluster largely filled. Remaining stubs are mostly absorbed, peripheral non-AI topics, or require real-time research. Systematic entity stub audit mostly complete (political/public health done).
+- **Stub count**: ~326 (net -6 this cycle; 28 archived, 0 promoted)
+- **[Intent]**: Next cycle — audit remaining agentic cluster stubs (deliberative-agents, reactive-agents, hybrid-agents → check absorption by agent-architectures 0.75); audit non-AI periphery stubs (business, civil-rights, economics, etc.) for MOP absorption; check why-llms-arent-scientists-yet concept stub
+- **[Constraint]**: Bulk periphery audit complete. Remaining stubs are harder — either need real content investment or are in topic clusters where absorption is less clear-cut. MOP/agentic/scientific clusters are largely resolved.
 
 ## Last Run
-2026-09-08 08:10Z
+2026-09-09 08:10Z

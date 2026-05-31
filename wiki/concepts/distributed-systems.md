@@ -1,11 +1,13 @@
 ---
 created: 2026-05-25
+*Archived — Absorbed by coordination (0.72) + multi-agent-systems (0.72) — coordination mechanisms, failure modes, and protocols are comprehensively covered there.*
+
 updated: 2026-05-25
 type: concept
 summary: "[STUB] Distributed systems — systems with multiple independent components communicating over a network"
 tags: [distributed-systems, stubs]
 sources: []
-status: stub
+status: archived
 confidence: 0.3
 ---
 

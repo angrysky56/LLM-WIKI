@@ -1,11 +1,13 @@
 ---
 created: 2026-06-16
+*Archived — Absorbed by public-health stub which links to maximum-occupancy-principle. Infectious disease is a MOP application domain (population dynamics).*
+
 updated: 2026-06-16
 type: concept
 summary: "[STUB] Infectious disease — pathogen spread and epidemiology"
 tags: [infectious-disease, stubs, public-health]
 sources: []
-status: stub
+status: archived
 confidence: 0.3
 ---
 

@@ -5,9 +5,12 @@ type: concept
 summary: "[STUB] US intelligence agencies and community structure"
 tags: [stubs]
 sources: []
-status: stub
+status: archived
 confidence: 0.3
 ---
+
+*Archived — Absorbed by maximum-occupancy-principle (0.85) — US intelligence as geopolitical actor in great-power competition. MOP covers intelligence as a signalling/resolution mechanism.*
+
 
 # Us Intelligence Community
 

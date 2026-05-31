@@ -1,11 +1,13 @@
 ---
 created: 2026-05-25
+*Archived — Absorbed by agentic-research (0.8) which comprehensively covers AI research automation and the why-llms-arent-scientists-yet source (1.0).*
+
 updated: 2026-05-25
 type: concept
 summary: "[STUB] AI research — artificial intelligence research methodology and automation"
 tags: [ai-research, stubs]
 sources: []
-status: stub
+status: archived
 confidence: 0.3
 ---
 

@@ -1,11 +1,13 @@
 ---
 created: 2026-06-16
+*Archived — Absorbed by sovereign-ai (0.75) which explicitly addresses Taiwan/NVIDIA as the compute chokepoint and AI hardware supply chain geopolitics.*
+
 updated: 2026-06-16
 type: concept
 summary: "[STUB] Semiconductor geopolitics — chip manufacturing and trade tensions"
 tags: [semiconductor-geopolitics, stubs, geopolitics]
 sources: []
-status: stub
+status: archived
 confidence: 0.3
 ---
 

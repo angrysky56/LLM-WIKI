@@ -1,11 +1,13 @@
 ---
 created: 2026-05-25
+*Archived — Absorbed by mental-imagery (0.75) which covers the neuroscience of imagery, frontoparietal networks, and top-down generation; brain-research is also a stub.*
+
 updated: 2026-05-25
 type: concept
 summary: "[STUB] Neuroscience — study of the nervous system and brain"
 tags: [neuroscience, brain, stubs]
 sources: []
-status: stub
+status: archived
 confidence: 0.3
 ---
 

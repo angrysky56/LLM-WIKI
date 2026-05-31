@@ -1,11 +1,13 @@
 ---
 created: 2026-05-25
+*Archived — Absorbed by agentic-research (0.8) which covers AI for scientific discovery and the why-llms-arent-scientists-yet source (1.0).*
+
 updated: 2026-05-25
 type: concept
 summary: "[STUB] Scientific discovery — AI systems contributing to scientific knowledge"
 tags: [ai-scientific-discovery, science, stubs]
 sources: []
-status: stub
+status: archived
 confidence: 0.3
 ---
 

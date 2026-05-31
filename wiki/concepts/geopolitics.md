@@ -1,11 +1,13 @@
 ---
 created: 2026-05-29
+*Archived — Absorbed by maximum-occupancy-principle (0.85) which covers great-power competition, conflict dynamics, and geopolitical signalling.*
+
 updated: 2026-05-29
 type: concept
 summary: "[STUB] Geopolitical dynamics between great powers — US, China, Russia"
 tags: [geopolitics, stubs]
 sources: []
-status: stub
+status: archived
 confidence: 0.3
 ---
 

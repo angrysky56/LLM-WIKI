@@ -1,72 +1,71 @@
 ---
 created: 2026-05-29T08:00:00Z
-updated: 2026-05-30T07:30:00Z
+updated: 2026-05-31T07:30:00Z
 type: carryover
-summary: "6 stories: Romania/NATO, SpaceX IPO, Trump/Iran defer, Ebola, Blue Origin months delays, Ghana anti-LGBT"
+summary: "5 stories: Iran/Lebanon escalation, Japan/China militarism spat, Colombia election, Ebola, SpaceX IPO monitoring"
 tags: [news, carryover]
 ---
 
-# News Agent Carryover — 2026-05-30
+# News Agent Carryover — 2026-05-31
 
 ## Established
 
-- **Romania/NATO — First Russian Attack on NATO Territory**: Drone hit Galați apartment building. Article 4 consultations underway. US/NATO: "defend every inch." Putin claims conflict "near end." Escalation assessment continuing.
-- **SpaceX IPO (13 days) — Quiet Period Imminent**: $4.16B Golden Dome contract. BlackRock $10B "considering." Jim Cramer: 3 catalysts, 1 reservation. Pre-quiet window closing within days.
-- **Trump/Iran — No Decision Announced**: Trump held meeting, no final determination. Hormuz reopening key condition. Decision deferred, Middle East on edge.
-- **Ebola PHEIC — WHO Chief Visits Bunia**: Death rate 30-50%. MSF scaling up. ~1,018+ cases. Sud-Kivu expansion. ETC attack window May 29-30 passed without incident.
-- **Blue Origin — Months of Delays Confirmed (May 30 update)**: Launch pad damage at Cape Canaveral confirmed. Months-long delay. NASA Moon mission timeline directly impacted.
-- **Ghana Anti-LGBT Bill (May 30 new)**: Parliament passed bill criminalizing gay acts. Awaiting presidential signature. Regional human rights tension.
-
-## New This Cycle (2026-05-30)
-
-- **Blue Origin months-long delays**: Confirmed from Reuters May 30
-- **Ghana anti-LGBT bill**: Passed parliament, awaiting signature
-- **Hegseth Asia message**: "Do more to get more" — US expects Asian allies to boost defense spending (informational, not ingested)
+- **Iran/Lebanon Escalation (May 31 new)**: Iran War Day 93. Trump told Fox News "no hurry" for Iran deal, demanded amendments to preliminary framework. Israeli forces simultaneously crossed Litani River, captured Beaufort Castle — deepest Lebanon incursion in 26 years. IRGC shot down US drone in Iranian waters. $12bn frozen assets reportedly part of proposed memo. Deal in limbo.
+- **Romania/NATO Drone (carryover)**: Drone hit Galați apartment building. Article 4 consultations underway. No formal resolution yet. NATO: "defend every inch." Putin claims conflict "near end."
+- **SpaceX IPO (~12 days)**: Tiered lockup structure analyzed. No new S-1 filing. BlackRock $10B still under consideration. Quiet window timing approaching.
+- **Ebola DRC**: WHO death rate 30-50% "huge." MSF: spread "deeply alarming." Sud-Kivu expanding. Ceasefire needed for response. ~1,000+ cases. NV-387 trial status unknown.
+- **Ghana Anti-LGBT**: Parliament passed, awaiting presidential signature. International pressure mounting.
+- **Blue Origin**: Months-long delay confirmed. Launch pad damage at Cape Canaveral. NASA Moon mission timeline impacted.
+- **Japan/China "New Militarism" (May 31 new)**: China labels Japan "new militarism." Japan rebuffs, cites China's "huge arsenal." Japan accelerating to 2% GDP defense spending, developing counterstrike capabilities. Direct diplomatic escalation.
+- **Colombia Election (May 31 new)**: Election held May 31. Petro ally vs. pro-Trump candidates. Results pending. US-Colombia relations at stake.
 
 ## Open
 
-- **Romania/NATO**: Article 4 consultation outcome, whether this changes NATO posture
-- **SpaceX IPO (13 days)**: BlackRock $10B confirmation, quiet period start timing
-- **Trump/Iran**: Final determination timing, Hormuz reopening condition
+- **Iran/Lebanon**: Trump deal final determination timing? Hormuz reopening condition? Israel expanding Lebanon — does this help or hurt Iran's incentive to deal?
+- **Romania/NATO**: Article 4 consultation outcome, NATO posture change
+- **SpaceX IPO (~12 days)**: BlackRock $10B confirmation, quiet period start timing
 - **Ebola**: Case count update, Sud-Kivu trajectory, South Sudan border, NV-387 trial status, thermostable vaccine decision
 - **Ghana anti-LGBT**: Presidential signature decision, international reaction
+- **Colombia election**: Winner, policy direction, US relations impact
 
 ## Kanban Status
 
 Items surfaced this cycle — informational cards (status=done, dispatcher ignores):
-- [ ] Romania/NATO: Article 4 consultation outcome → t_a9cc4d787c8a4913
-- [ ] SpaceX IPO: BlackRock $10B confirmation before quiet period → t_8953f066406f4f30
-- [ ] Trump/Iran: Final determination timing and Hormuz condition → t_9494c9e99b9f43dc
-- [ ] Ebola: Case count update, Sud-Kivu trajectory, South Sudan border → t_fa481f2eaddb4222
+- [x] Israel/Lebanon: Deepest incursion 26 years, Beaufort Castle captured → t_new_israel_lebanon_may31 [surfaced]
+- [x] Japan/China: "New militarism" spat, defense spending escalation → t_new_japan_china_may31 [surfaced]
+- [x] Colombia election: May 31 vote, results pending → t_new_colombia_may31 [surfaced]
 
-New this cycle:
-- [x] Blue Origin: Launch pad damage scope, months delay confirmation → t_5f6fad8b414c483b [surfaced]
-- [x] Ghana anti-LGBT: Presidential signature decision → t_06a6407a28ae4cac [surfaced]
+Prior cards (carried):
+- [x] Romania/NATO: Article 4 outcome → t_a9cc4d787c8a4913 [carried]
+- [x] SpaceX IPO: BlackRock confirmation → t_8953f066406f4f30 [carried]
+- [x] Ebola: Case count, Sud-Kivu → t_fa481f2eaddb4222 [carried]
+- [x] Blue Origin: Launch pad damage → t_5f6fad8b414c483b [carried]
+- [x] Ghana anti-LGBT: Presidential signature → t_06a6407a28ae4cac [carried]
 
 ## Heading
 
-**Next cycle (2026-05-31)**:
-1. Romania/NATO: Article 4 outcome, NATO posture change
-2. SpaceX IPO (13 days): Quiet period start, BlackRock confirmation
-3. Trump/Iran: Final determination, Hormuz condition
-4. Ebola: Case count, Sud-Kivu spread, NV-387 trial
-5. Blue Origin: Launch pad damage scope, NASA assessment
+**Next cycle (2026-06-01)**:
+1. Iran/Lebanon: Trump deal outcome, Hormuz condition, Israel expansion trajectory
+2. Colombia election: Winner announcement, policy direction
+3. Romania/NATO: Article 4 formal outcome
+4. SpaceX IPO (~11 days): Quiet period start
+5. Ebola: Case count update, Sud-Kivu spread, NV-387 trial
 6. Ghana anti-LGBT: Presidential signature decision
+7. Japan/China: Further diplomatic development
 
-## Article Index (last 10 ingested — do NOT re-ingest)
+## Article Index (last 7 ingested — do NOT re-ingest)
 
 | Date | Slug |
 |------|------|
+| 2026-05-31 | iran-war-day-93-trump-wont-rush-deal-israel-expands-lebanon- |
+| 2026-05-31 | israel-lebanon-deepest-incursion-26-years-may-2026 |
+| 2026-05-31 | japan-rejects-new-militarism-china-arming-may-2026 |
+| 2026-05-31 | colombia-presidential-election-may-31-2026 |
 | 2026-05-30 | ghana-parliament-passes-anti-lgbt-bill-may-2026 |
 | 2026-05-30 | blue-origin-new-glenn-explosion-may-2026 |
 | 2026-05-29 | spacex-golden-dome-4b-contract-may-2026 |
 | 2026-05-29 | nato-condemns-russia-after-drone-hits-romanian-residential-b |
 | 2026-05-29 | trump-holds-meeting-to-make-final-determination-on-iran-deal |
-| 2026-05-29 | friday-briefing-what-do-the-cuts-in-aid-mean-for-the-fight-a |
-| 2026-05-29 | blue-origin-rocket-explosion-could-damage-nasas-moon-timetab |
-| 2026-05-28 | spacex-ipo-s1-filed-may-2026 |
-| 2026-05-28 | california-ai-workforce-executive-order-may-2026 |
-| 2026-05-28 | openai-erdos-math-breakthrough-may-2026 |
 
 ## Excluded from Next Cycle
 
@@ -74,7 +73,9 @@ New this cycle:
 - General AI regulation unless significant policy shift
 - Spain Sánchez survival (domestic politics)
 - Hegseth Asia comments (informational only)
-- Colombia elections unless major regulatory action
-- EU trade deal routine implementation
-- D-Wave quantum unless peer review completes
-- Ghana anti-LGBT bill — ingested, continue tracking presidential signature
+- Champions League riots (France, local security story)
+- Laos cave rescue (human interest, concluded)
+- Italy Kanye/Travis Scott concerts (entertainment)
+- Ferrari EV backlash (business, not global significance)
+- Cuba blackouts (ongoing, no new development)
+- Australia secondhand nuclear subs (Aukus routine)

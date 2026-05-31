@@ -1,11 +1,13 @@
 ---
 created: 2026-05-25
+*Archived — Absorbed by numerical-methods stub + high-performance-computing stub. No active canonical in this cluster — peripheral to AI/ML focus.*
+
 updated: 2026-05-25
 type: concept
 summary: "[STUB] Scientific computing — computational methods for scientific research"
 tags: [scientific-computing, stubs]
 sources: []
-status: stub
+status: archived
 confidence: 0.3
 ---
 

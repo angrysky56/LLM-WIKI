@@ -1,5 +1,5 @@
 ---
-updated: 2026-05-31T05:04:51Z
+updated: 2026-05-31T14:42:49Z
 type: index
 ---
 
@@ -627,8 +627,9 @@ type: index
 - [[insight-merge]] — 
 - [[workflow]] — 
 - [[carryover]] — 
+- [[vault]] — 
 - [[librarian]] — 
-- [[carryover]] — Librarian carryover 2026-08-26 — 1243 pages, 77 orphans operational, 5737 broken links migration artifacts, 271 non-reciprocal false positives, 35 GAAC clusters, 1 non-preferred tag fix needed
+- [[carryover]] — Librarian carryover 2026-09-09 — 1263 pages, stable HITS, no new violations
 - [[mcp-tools]] — 
 - [[workflow]] — 
 - [[audit-report]] — 
@@ -650,7 +651,7 @@ type: index
 - [[user]] — User preferences and project context for the Markovian Dev Agency
 - [[issue-001]] — 
 - [[news]] — 
-- [[carryover]] — 6 stories: Romania/NATO, SpaceX IPO, Trump/Iran defer, Ebola, Blue Origin months delays, Ghana anti-LGBT
+- [[carryover]] — 5 stories: Iran/Lebanon escalation, Japan/China militarism spat, Colombia election, Ebola, SpaceX IPO monitoring
 - [[rss-queries]] — 
 - [[workflow]] — 
 - [[headlines-report]] — 
@@ -667,7 +668,7 @@ type: index
 - [[Meta-Meta Process for Structured Exploration]] — 
 - [[carryover-template]] — 
 - [[researcher]] — 
-- [[carryover]] — Sep 7: multi-agent-systems + coordination + exploration promoted (0.72); 5 absorbed stubs archived
+- [[carryover]] — Sep 9: 28 stubs archived (MOP/agentic absorption); stub count 332→326; bulk periphery audit complete
 - [[workflow]] — 
 - [[discovery-report]] — 
 - [[gap-analysis]] — 
@@ -774,6 +775,7 @@ type: index
 - [[headlines-2026-05-28]] — 2 new stories: SpaceX S-1 filed ($2T IPO confirmed, June 12 target), California AI workforce EO enters implementation phase
 - [[headlines-2026-05-29]] — 5 stories: Russia/NATO first attack, SpaceX $4.16B Golden Dome contract, Trump defers Iran deal, WHO chief arrives DRC Ebola, Blue Origin rocket explosion
 - [[headlines-2026-05-30]] — 
+- [[headlines-2026-05-31]] — 
 - [[carryover]] — 
 - [[overseer-2026-05-26]] — 
 - [[overseer-2026-05-27]] — 
@@ -819,6 +821,8 @@ type: index
 - [[discovery-2026-08-21]] — 4 stubs archived, ai-policy-federalism remains open
 - [[discovery-2026-09-02]] — 
 - [[discovery-2026-09-07]] — 
+- [[discovery-2026-09-08]] — 
+- [[discovery-2026-09-09]] — 
 - [[google-deepmind-vatican-encyclical-response-may-2026]] — No Google DeepMind response to Magnifica humanitas encyclical found; compiled monitoring report
 - [[microsoft-vatican-encyclical-response-may-2026]] — No Microsoft response to Magnifica humanitas encyclical found; compiled monitoring report
 - [[sheet]] — t_ff1740de complete: no Microsoft response found to Magnifica humanitas encyclical
@@ -1051,6 +1055,7 @@ type: index
 - [[futuresim-adaptive-agents]] — FutureSim replays real-world news chronologically to evaluate agent world-modelling; best frontier agent achieves only 25% accuracy, exposing severe gaps in open-ended temporal adaptation.
 - [[gamma-world-multi-agent-world-modeling-2026]] — Gamma-World: Multi-agent video world model with permutation-symmetric agent encoding and linear cross-agent attention
 - [[gram-sabotage-alignment-auditing-2026]] — Automated alignment auditing framework for sabotage in agentic AI deployments; Gemini misbehaves in ~2-3% of scenarios, primarily via overeagerness
+- [[hilbert-manifold-structures-path-spaces]] — Path spaces on tame two-level manifolds are Hilbert manifolds — Floer homology gains a solid analytical foundation via the tameness condition, which is closed under composition.
 - [[is-grep-all-you-need]] — Grep often outperforms vector retrieval in agentic search; harness architecture and tool result presentation matter more than retrieval strategy.
 - [[kalra-barkeshli-hyperparameter-transfer-2026]] — 
 - [[kim-ahn-edm-2026]] — Kim, Kojaku & Ahn (Science Advances 2026) — introduces EDM embedding-based disruption metric; outperforms CD index; detects simultaneous discoveries via future vector nearest-neighbor clustering
@@ -1143,6 +1148,7 @@ type: index
 - [[titans-memory-architecture-insight]] — Titans three-tier memory architecture connects to speculative decoding through shared efficiency mechanisms
 - [[titans-memory-efficiency-insight]] — Titans memory architecture shares efficiency theme with speculative decoding via complementary test-time learning versus runtime speculation
 - [[intelligence-as-entropic-sculpting]] — Synthesis of SARH and MOP proposing that intelligence is the dynamic balance between maximizing potential states (MOP) and sculpting specific actualizations from noise (SARH).
+- [[iran-war-day-93-lebanon-incursion-may-31-2026]] — Iran War Day 93: Trump toughens Iran deal terms while Israel launches deepest Lebanon incursion in 26 years, seizing Beaufort Castle
 - [[librarian-report-2026-05-09]] — Week 1 quality audit — Orphans and Misclassifications in the LLM-WIKI knowledge graph
 - [[llm-biological-analogies]] — An analysis of the functional parallels between human neurobiology (language loop) and Transformer-based LLM architectures.
 - [[minimal-generative-architectures]] — 

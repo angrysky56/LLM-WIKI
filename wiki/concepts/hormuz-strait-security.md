@@ -5,9 +5,12 @@ type: concept
 summary: "[STUB] Geopolitical security dynamics of the Strait of Hormuz, oil shipping chokepoint"
 tags: [stubs]
 sources: []
-status: stub
+status: archived
 confidence: 0.3
 ---
+
+*Archived — Absorbed by maximum-occupancy-principle (0.85) — Hormuz as a chokepoint in the MOP framework (resource control, strategic chokepoints, conflict dynamics).*
+
 
 # Hormuz Strait Security
 

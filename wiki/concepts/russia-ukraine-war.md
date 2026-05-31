@@ -1,11 +1,13 @@
 ---
 created: 2026-06-03
+*Archived — Absorbed by maximum-occupancy-principle (0.85) which covers this conflict as an MOP case study in great-power competition.*
+
 updated: 2026-06-03
 type: concept
 summary: "[STUB] Ongoing conflict between Russia and Ukraine since 2022"
 tags: [stubs]
 sources: []
-status: stub
+status: archived
 confidence: 0.3
 ---
 

@@ -1,11 +1,13 @@
 ---
 created: 2026-06-16
+*Archived — Absorbed by sovereign-ai (0.75) + semiconductor-geopolitics stub (linked). Sovereign AI covers compute sovereignty and hardware supply chain chokepoints.*
+
 updated: 2026-06-16
 type: concept
 summary: "[STUB] AI hardware supply chain — chips, GPUs, semiconductor supply"
 tags: [ai-hardware-supply-chain, stubs, semiconductor-geopolitics]
 sources: []
-status: stub
+status: archived
 confidence: 0.3
 ---
 

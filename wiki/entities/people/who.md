@@ -1,27 +1,18 @@
 ---
-created: 2026-06-16
-updated: 2026-06-16
-type: entity
-summary: "[STUB] World Health Organization — UN agency for international health coordination"
-tags: [who, stubs, public-health]
-sources: []
-status: stub
-confidence: 0.3
+summary: Archived — absorbed by news sources; public health entity adequately covered by news
+tags: [who, stubs, public-health, archived]
+updated: 2026-05-31T05:04:46Z
+---
+
+---
+summary: Archived — absorbed by news sources; public health coordination entity
+tags: [who, stubs, public-health, archived]
+updated: 2026-09-08
 ---
 
 # World Health Organization (WHO)
 
-*Stub page — needs real content*
+*Archived — absorbed by news sources. Topic adequately covered by multiple public health news sources: [[sources/news/who-declares-ebola-outbreak-in-dr-congo-an-international-eme]], [[sources/news/how-worrying-is-the-ebola-outbreak-in-dr-congo]], [[sources/articles/ebola-bundibugyo-drc-uganda-may-2026]], and [[synthesis/news/public-health-emergency-of-international-concern]].*
 
-## Connections
-- [[sources/news/how-worrying-is-the-ebola-outbreak-in-dr-congo]]
-- [[wiki/index]]
-- [[sources/articles/ebola-bundibugyo-drc-uganda-may-2026]]
-- [[synthesis/news/public-health-emergency-of-international-concern]]
-- [[log]]
-- [[entities/people/who]]
-- [[sources/news/who-declares-ebola-outbreak-in-dr-congo-an-international-eme]]
-- [[who]]
-
-- [[public-health]]
-- [[ebola-outbreak-2026]]
+- Archived: 2026-09-08
+- Canonical sources: [[sources/news/who-declares-ebola-outbreak-in-dr-congo-an-international-eme]], other public health news sources

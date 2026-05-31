@@ -1,5 +1,5 @@
 ---
-updated: 2026-05-30T19:07:12Z
+updated: 2026-05-31T05:04:51Z
 type: index
 ---
 
@@ -125,7 +125,7 @@ type: index
 - [[critical-review-scientific-article-guide]] — [STUB] Critical review guide for scientific articles — evaluation framework
 - [[criticality]] — Self-organization in biological and artificial neural networks near the criticality boundary
 - [[cryptographic-vs-semantic-alignment]] — Distinction between what cryptographic protocols can prove (integrity, provenance, state validity) and what they cannot (semantic alignment of outputs to consequences in a world the protocol does not see); decentralized consensus is necessary but not sufficient for AI governance
-- [[curiosity-driven-exploration]] — [STUB] Curiosity-driven exploration in RL
+- [[curiosity-driven-exploration]] — Curiosity-driven exploration in RL — intrinsic motivation via novelty/surprise/information-gain; relationship to MOP and Recuriosity amnesiac failure
 - [[data-privacy]] — Data privacy — protection of personal information in AI systems
 - [[death-penalty]] — [STUB] Death penalty — capital punishment in US legal system
 - [[deep-learning]] — ARCHIVED — absorbed by transformers.md (0.78)
@@ -480,7 +480,7 @@ type: index
 - [[tool-use]] — Tool use in LLM agents — how agents invoke external functions, APIs, and capabilities to affect the world
 - [[tooling]] — [STUB] Tooling — tools and infrastructure for AI development and deployment
 - [[tools]] — [STUB] Tool directory — software tools and utilities
-- [[transfer-learning]] — [STUB] Transfer learning — applying knowledge from one task or domain to another related task
+- [[transfer-learning]] — Transfer learning — applying knowledge from source to target domain; pretrained model adaptation, three transfer regimes, hyperparameter transfer, μP
 - [[transformer-architecture]] — Decoder-only neural network architecture based on stacked self-attention layers — the foundation of modern large language models
 - [[transformer-vm-moran-2026]] — [STUB] Transformer VM — virtual machine architecture for transformer models
 - [[transformers]] — Attention-based neural architecture — foundation for BERT, GPT, and most modern LLMs; self-attention replaces recurrence, enabling parallel training
@@ -525,20 +525,21 @@ type: index
 - [[neuroinflammation]] — Neuroinflammation — brain inflammation driven by microglial activation; linked to Menin decline in hypothalamus, cognitive decline, and aging
 - [[note-taking-systems-stub]] — Archived — absorbed by knowledge-management (0.75) and PARA methodology
 - [[andrej-karpathy]] — AI researcher, author of the LLM Wiki Pattern
-- [[cassidy]] — [STUB] US Senator Bill Cassidy — Louisiana
+- [[cassidy]] — Archived — absorbed by news sources; US political entity not core to AI/ML
 - [[dhruv-trehan]] — Researcher at Lossfunk focusing on autonomous research systems.
-- [[doj]] — [STUB] US Department of Justice
-- [[donald-trump]] — [STUB] Donald Trump — US President 2025-2029
-- [[harris]] — [STUB] US Vice President Kamala Harris
+- [[doj]] — Archived — absorbed by news source; US government entity not core to AI/ML
+- [[donald-trump]] — Archived — absorbed by news sources; US political entity not core to AI/ML
+- [[harris]] — Archived — absorbed by news source; US political entity not core to AI/ML
 - [[paras-chopra]] — Founder of Lossfunk and researcher focusing on AI autonomy and scientific discovery.
 - [[roger-koenig-robert]] — Neuroscientist specializing in the mechanisms of visual imagination and spontaneous brain activity.
 - [[stephen-wolfram]] — Computer scientist, physicist, and creator of Mathematica, Wolfram|Alpha, and Wolfram Language. Known for "A New Kind of Science.
-- [[thomas-massie]] — [STUB] US Representative Thomas Massie
+- [[thomas-massie]] — Archived — absorbed by news source; US political entity not core to AI/ML
 - [[tyler-hall]] — Developer, researcher, and creator of the EFHF architecture and associated MCP server ecosystem.
-- [[who]] — [STUB] World Health Organization — UN agency for international health coordination
+- [[who]] — Archived — absorbed by news sources; public health entity adequately covered by news
 - [[alphaevolve]] — Google DeepMind's evolutionary coding agent — LLM ensemble + diff-based mutation + real hardware eval; 23% GEMM speedup; Gemini self-improvement; instantiates MGA pattern; open-sourced as OpenEvolve
 - [[anthropic]] — [STUB] Anthropic — AI safety company behind Claude
 - [[efhf]] — Five-layer AI architecture implementing computational mechanics (epsilon machines, lumpability, causal closure) as a live multi-agent system — MOP proposed as Layer 0 for proactive exploration
+- [[entity-tracking-externalization]] — Test harness probing whether externalizing entity-state into tokens lets small local models solve harder state-tracking problems — answer is yes, and completeness beats brevity for REMOVE.
 - [[esa]] — [STUB] ESA — European Space Agency
 - [[goodrobot]] — Redirect to wiki/projects/goodrobot/shut-down-entity.md
 - [[google-deepmind]] — [STUB] Google DeepMind — AI research division of Google
@@ -718,6 +719,8 @@ type: index
 - [[value-guardian]] — 
 - [[AXIOMS]] — Value guardian reference axioms
 - [[value-guardian]] — Agent skill — Value Guardian
+- [[state-scout]] — 
+- [[carryover]] — 
 - [[project-synapse-mcp-tools]] — 
 - [[arxiv-2026-05-19-top-papers]] — arxiv daily report — EnvFactory paper and Claude Code skills article
 - [[arxiv-2026-05-20-top-papers]] — No new arXiv papers today; yesterday's report had 3 fresh papers from 2026-05-18
@@ -1008,7 +1011,17 @@ type: index
 - [[alignment-tampering]] — Alignment Tampering: RLHF vulnerability where an LLM being aligned influences its own preference dataset — pairwise comparison only signals which is better, not why, allowing bias amplification through quality confounded with misaligned content.
 - [[alphaproof-nexus-formal-proof-search-2026]] — AlphaProof Nexus: basic LLM+Lean agent solved all 9 open Erdős problems the full RL-equipped agent solved, at higher per-problem cost
 - [[arxiv-2605-10878-kolmogorov-weight-norm]] — Weight decay induces Solomonoff universal prior in fixed precision — weight norm = Kolmogorov complexity
+- [[arxiv-2605-23887-chronos]] — CHRONOS: Temporal-aware multi-agent coordination for data marketplaces with three layers addressing stale index shortcuts, Shapley pricing under distribution shift, and DP budget coordination
+- [[arxiv-2605-27140-stepopsd]] — StepOPSD uses step-aware credit redistribution for agent RL, decomposing trajectories into action-centered segments and achieving top results on ALFWorld Heat (79.1%), PickTwo (95.0%)
+- [[arxiv-2605-27322-semantic-gradients-interactions-ssd]] — Interaction SSD extends Supervised Semantic Differential to model how semantic meaning varies across moderator groups (e.g., annotator racial identity moderating hate-speech judgments)
+- [[arxiv-2605-27333-finharness]] — FINHARNESS: An inline safety harness for finance LLM agents with three components (QUERY MONITOR, TOOL MONITOR, CASCADE) that cuts attack success rate from 38.3% to 15%
+- [[arxiv-2605-27345-matcha]] — MATCHA: A semantic similarity metric using contrastive alignment with adversarial counterfactuals, outperforming ROUGE/BERTScore by up to 20% on TruthfulQA
+- [[arxiv-2605-27354-saerl-sparse-autoencoder-rl]] — SAERL uses sparse autoencoder activations to model diversity, difficulty, and quality of post-training data, enabling better curriculum learning and data selection for LLM reinforcement learning.
+- [[arxiv-2605-27355-alignment-tampering]] — Alignment tampering is a vulnerability where the LLM undergoing RLHF influences its own preference dataset, causing RLHF to amplify misaligned biases alongside desired qualities.
 - [[arxiv-2605-27366-muse-autoskill]] — 
+- [[arxiv-2605-28807-calibrating-conservatism-scalable-oversight]] — Calibrated Collective Oversight (CCO) uses conformal decision theory to calibrate AI conservatism, enabling weaker overseers to constrain stronger agents with formal guarantees.
+- [[arxiv-2605-28814-bidirectional-evolutionary-search-bes]] — Bidirectional Evolutionary Search (BES) combines forward candidate evolution with backward goal decomposition to overcome entropy-shell limitations of tree search in LLM self-improvement.
+- [[arxiv-2605-28816-gamma-world]] — Gamma-World enables generative multi-agent video world modeling with permutation-symmetric agent encoding and sparse hub attention, scaling beyond two players.
 - [[awarevln-self-aware-vision-language-navigation-2026]] — AwareVLN: sparse self-aware reasoning triggers at key navigation points, enabling state understanding without 3D sensors or SLAM
 - [[awesome-code-as-agent-harness]] — Survey companion repo organizing 200+ papers on code as executable harness for LLM agents — three-layer framework: interface, mechanisms, scaling
 - [[bae-lmac-2026]] — LMAC uses an LLM as a protocol designer for cooperative multi-agent RL — iteratively refining agent-wise communication schemas via a state-awareness criterion (SAI) that measures per-dimension reconstruction accuracy and inter-agent knowledge imbalance

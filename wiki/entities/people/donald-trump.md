@@ -1,24 +1,18 @@
 ---
-created: 2026-06-16
-updated: 2026-06-16
-type: entity
-summary: "[STUB] Donald Trump — US President 2025-2029"
-tags: [donald-trump, stubs, us-politics]
-sources: []
-status: stub
-confidence: 0.3
+summary: Archived — absorbed by news sources; US political entity not core to AI/ML
+tags: [donald-trump, stubs, us-politics, archived]
+updated: 2026-05-31T05:04:22Z
+---
+
+---
+summary: Archived — absorbed by news sources; US political entity not core to AI/ML knowledge graph
+tags: [donald-trump, stubs, us-politics, archived]
+updated: 2026-09-08
 ---
 
 # Donald Trump
 
-*Stub page — needs real content*
+*Archived — absorbed by news sources. Topic adequately covered by [[sources/news/bill-cassidy-republican-senator-who-voted-to-convict-trump-l]] and other political news sources in the wiki.*
 
-## Connections
-- [[sources/news/bill-cassidy-republican-senator-who-voted-to-convict-trump-l]]
-- [[log]]
-- [[entities/people/donald-trump]]
-- [[wiki/index]]
-- [[donald-trump]]
-
-- [[trump-administration]]
-- [[us-politics]]
+- Archived: 2026-09-08
+- Canonical sources: [[sources/news/bill-cassidy-republican-senator-who-voted-to-convict-trump-l]], other political news sources

@@ -29,12 +29,25 @@ read_file(path="...")
 
 ## Quick Start
 
-1. **Layer 2 Load**: Read `wiki/scratchpad/agent-sheets/researcher/carryover.md` and `wiki/scratchpad/jobs/sheet.md`
-2. **Layer 1 Start**: Initialize or clear `vault.md` to act as your episodic scratchpad for this session
-3. Run gap analysis (Step 1 below), logging findings to `vault.md`
-4. Research and write new pages or update existing (Steps 2-3)
-5. Deliver discovery report (Step 4)
-6. **MOP Compression**: Compress `vault.md` into `carryover.md` (Layer 1 → Layer 2)
+1. **STEP 0 — Check Shared Inbox** (do this first):
+   ```bash
+   # Check if there are external PDFs in the shared inbox for processing
+   ls /home/ty/Documents/paper-research/inbox/
+
+   # If inbox has items, process them FIRST
+   # Claim items by updating research-carryover.md:
+   cat /home/ty/Documents/paper-research/research-carryover.md
+   # Update claimed_by column, move to processing/, work, move to processed/
+
+   # External PDFs (non-arxiv): books, preprints, reports → researcher-agent
+   # Set claimed_by = "researcher-agent" in research-carryover.md
+   ```
+2. **Layer 2 Load**: Read `wiki/scratchpad/agent-sheets/researcher/carryover.md` and `wiki/scratchpad/jobs/sheet.md`
+3. **Layer 1 Start**: Initialize or clear `vault.md` to act as your episodic scratchpad for this session
+4. Run gap analysis (Step 1 below), logging findings to `vault.md`
+5. Research and write new pages or update existing (Steps 2-3)
+6. Deliver discovery report (Step 4)
+7. **MOP Compression**: Compress `vault.md` into `carryover.md` (Layer 1 → Layer 2)
 
 ## Workflow
 
@@ -137,10 +150,22 @@ Once compressed, clear or archive your `vault.md` so the next session starts fre
 
 ## Critical Paths
 
+- **Inbox (check first):** `/home/ty/Documents/paper-research/inbox/`
+- **Shared carryover:** `/home/ty/Documents/paper-research/research-carryover.md`
 - **Wiki root**: `/home/ty/Documents/LLM-WIKI`
 - **Discovery reports**: `wiki/scratchpad/jobs/reports/researcher/discovery-YYYY-MM-DD.md`
 - **Carryover**: `wiki/scratchpad/agent-sheets/researcher/carryover.md`
 - **Tag taxonomy**: `wiki/concepts/tag-taxonomy.md` (check before tagging)
+
+## Inbox Workflow (Step 0)
+
+The inbox holds already-downloaded PDFs (external books, preprints, reports) that need processing.
+
+1. `ls /home/ty/Documents/paper-research/inbox/` — check for items
+2. If items exist: claim in `research-carryover.md`, move to `processing/`
+3. Extract text with PyMuPDF, research, write wiki page
+4. On completion: move to `processed/`, update carryover with wiki page URL
+5. Then proceed with normal daily gap analysis if scheduled
 
 ## MCP Tools
 

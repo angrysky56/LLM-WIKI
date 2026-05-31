@@ -1,23 +1,18 @@
 ---
-created: 2026-06-16
-updated: 2026-06-16
-type: entity
-summary: "[STUB] US Senator Bill Cassidy — Louisiana"
-tags: [cassidy, stubs, us-politics]
-sources: []
-status: stub
-confidence: 0.3
+summary: Archived — absorbed by news sources; US political entity not core to AI/ML
+tags: [cassidy, stubs, us-politics, archived]
+updated: 2026-05-31T05:04:45Z
+---
+
+---
+summary: Archived — absorbed by news sources; US political entity not core to AI/ML knowledge graph
+tags: [cassidy, stubs, us-politics, archived]
+updated: 2026-09-08
 ---
 
 # Bill Cassidy
 
-*Stub page — needs real content*
+*Archived — absorbed by news sources. Topic adequately covered by [[sources/news/bill-cassidy-republican-senator-who-voted-to-convict-trump-l]].*
 
-## Connections
-- [[wiki/index]]
-- [[entities/people/cassidy]]
-- [[sources/news/bill-cassidy-republican-senator-who-voted-to-convict-trump-l]]
-- [[log]]
-- [[cassidy]]
-
-- [[us-senate]]
+- Archived: 2026-09-08
+- Canonical source: [[sources/news/bill-cassidy-republican-senator-who-voted-to-convict-trump-l]]

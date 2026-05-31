@@ -1,23 +1,18 @@
 ---
-created: 2026-06-16
-updated: 2026-06-16
-type: entity
-summary: "[STUB] US Department of Justice"
-tags: [doj, stubs, us-politics]
-sources: []
-status: stub
-confidence: 0.3
+summary: Archived — absorbed by news source; US government entity not core to AI/ML
+tags: [doj, stubs, us-politics, archived]
+updated: 2026-05-31T05:04:23Z
+---
+
+---
+summary: Archived — absorbed by news sources; US government entity not core to AI/ML knowledge graph
+tags: [doj, stubs, us-politics, archived]
+updated: 2026-09-08
 ---
 
 # Department of Justice (DOJ)
 
-*Stub page — needs real content*
+*Archived — absorbed by news sources. Topic adequately covered by [[sources/news/2026-05/trump-anti-weaponization-fund-2026-05-22]].*
 
-## Connections
-- [[wiki/index]]
-- [[log]]
-- [[entities/people/doj]]
-- [[sources/news/2026-05/trump-anti-weaponization-fund-2026-05-22]]
-- [[doj]]
-
-- [[us-politics]]
+- Archived: 2026-09-08
+- Canonical source: [[sources/news/2026-05/trump-anti-weaponization-fund-2026-05-22]]

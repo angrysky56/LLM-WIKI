@@ -1,23 +1,17 @@
 ---
-created: 2026-06-03
-updated: 2026-06-03
-type: concept
-summary: "[STUB] Spike campaign 001-004 summary"
-tags: [stubs]
-sources: []
-status: stub
-confidence: 0.3
+summary: [ARCHIVED] Internal project notes absorbed by synthesis/seg-scientist-agent-design.md
+tags: [spike, stubs, archived]
+updated: 2026-06-01T04:03:03Z
 ---
 
-# Spike Campaign 001 004 Summary
+---
+summary: [ARCHIVED] Absorbed by synthesis/seg-scientist-agent-design.md — Spike campaign internal notes not suitable for public concept page
+tags: [spike, stubs, archived]
+updated: 2026-09-13T08:10:00Z
+---
 
-*Stub page — needs real content*
+# Spike Campaign 001-004 Summary
 
-## Connections
-- [[concepts/spike-campaign-001-004-summary]]
-- [[wiki/index]]
-- [[synthesis/seg-scientist-agent-design]]
-- [[log]]
-- [[spike-campaign-001-004-summary]]
+*Archived Sep 13, 2026 — absorbed by [[synthesis/seg-scientist-agent-design]]. This was an internal project notes page, not a public concept. The synthesis page covers the SEG scientist agent design work including Spike campaign iterations. No separate concept page needed.*
 
-- [[maximum-occupancy-principle]]
+See: [[synthesis/seg-scientist-agent-design]]

@@ -1,24 +1,17 @@
 ---
-created: 2026-06-16
-updated: 2026-06-16
-type: concept
-summary: "[STUB] AI security — adversarial robustness, safety, alignment"
-tags: [ai-security, stubs, ai-safety]
-sources: []
-status: stub
-confidence: 0.3
+summary: [ARCHIVED] Absorbed by agentic-oversight.md (0.75) + adversarial-training.md (0.85)
+tags: [ai-security, stubs, archived]
+updated: 2026-06-01T04:03:12Z
+---
+
+---
+summary: [ARCHIVED] Absorbed by agentic-oversight.md (0.75) + adversarial-training.md (0.85) — AI security topics adequately covered there
+tags: [ai-security, stubs, archived]
+updated: 2026-09-13T08:10:00Z
 ---
 
 # AI Security
 
-*Stub page — needs real content*
+*Archived Sep 13, 2026 — absorbed by [[agentic-oversight]] (0.75) and [[adversarial-training]] (0.85). The agentic-oversight page covers the structural mechanisms for human supervision of AI agents. The adversarial-training page covers adversarial robustness. Together they cover the stub's stated topic (adversarial robustness, safety, alignment). No gap remains.*
 
-## Connections
-- [[concepts/agentic-oversight]]
-- [[wiki/index]]
-- [[concepts/ai-security]]
-- [[log]]
-- [[sources/news/2026-05/github-data-breach-2026-05-20]]
-- [[ai-security]]
-
-- [[agentic-oversight]]
+See: [[agentic-oversight]], [[adversarial-training]]

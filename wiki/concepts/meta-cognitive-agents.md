@@ -1,38 +1,32 @@
 ---
+summary: Archived — absorbed by agent-architectures.md (0.75)
+tags: [agent-architectures, archived]
+updated: 2026-05-31T22:44:26Z
+---
+
+---
 created: 2026-07-28
-updated: 2026-07-28
+updated: 2026-09-12
 type: concept
-summary: Meta-cognitive agents — agent architectures that explicitly monitor and regulate their own reasoning processes
-tags: [agent-architectures, meta-cognitive, self-awareness, self-regulation]
+summary: Absorbed — canonical content at [[agent-architectures]] (0.75, active)
+tags: [agent-architectures, archived]
 sources: []
-status: stub
+status: archived
 confidence: 0.3
 ---
 
 # Meta-Cognitive Agents
 
-Meta-cognitive agents explicitly monitor and regulate their own reasoning processes, maintaining awareness of their own cognitive state and adjusting their strategies accordingly.
+> This stub is archived — its canonical content lives at [[agent-architectures]].
 
-## Key Characteristics
+`agent-architectures.md` (confidence 0.75, active) documents meta-cognitive agents as one of four architecture families. The parent page covers the meta-cognitive architecture with its properties (self-monitoring, self-regulation, explicit metacognition, error detection) and the comparison table.
 
-- **Self-monitoring**: Tracks own reasoning state and confidence
-- **Self-regulation**: Adjusts reasoning strategy based on self-observation
-- **Explicit metacognition**: Uses a model of own cognition to guide planning
-- **Error detection**: Detects own failures before they propagate
-
-## Relationship to Other Agent Types
-
-See [[agent-architectures]] for the full taxonomy comparison with deliberative, reactive, and hybrid agents.
+The canonical implementation references are:
+- [[epistemic-energy]] — resource model powering meta-cognitive regulation
+- [[bounded-structured-memory]] — memory substrate for self-observation
 
 ## See Also
-- [[concepts/agents]]
-- [[log]]
-- [[concepts/meta-cognitive-agents]]
-- [[concepts/hybrid-agents]]
-- [[wiki/index]]
-- [[meta-cognitive-agents]]
-
-- [[epistemic-energy]]: the resource model that powers meta-cognitive regulation
-- [[bounded-structured-memory]]: the memory substrate for self-observation
-- [[agents]]: parent concept for agent taxonomy
-- [[hybrid-agents]]
+- [[agent-architectures]] — canonical reference
+- [[cognitive-architecture]] — meta-cognitive layer design
+- [[epistemic-energy]]
+- [[bounded-structured-memory]]

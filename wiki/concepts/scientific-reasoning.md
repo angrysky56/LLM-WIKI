@@ -1,27 +1,30 @@
 ---
+summary: Archived — absorbed by load-bearing-reasoning (1.0) + scientific-method
+tags: [scientific-reasoning, archived]
+updated: 2026-05-31T22:44:34Z
+---
+
+---
 created: 2026-05-25
-updated: 2026-05-25
+updated: 2026-09-12
 type: concept
-summary: "[STUB] Scientific reasoning — reasoning in scientific contexts and experiments"
-tags: [scientific-reasoning, stubs]
+summary: Absorbed — [[load-bearing-reasoning]] (1.0) covers reasoning; [[scientific-method]] covers scientific context
+tags: [scientific-reasoning, archived]
 sources: []
-status: stub
+status: archived
 confidence: 0.3
 ---
 
 # Scientific Reasoning
 
-*Stub page — needs real content*
+> This stub is archived — canonical content lives across [[load-bearing-reasoning]] and [[scientific-method]].
 
-## Connections
-- [[log]]
-- [[concepts/scientific-reasoning]]
-- [[wiki/index]]
-- [[concepts/molecular-reasoning]]
-- [[concepts/reasoning]]
-- [[concepts/scientific-method]]
-- [[scientific-reasoning]]
+- [[load-bearing-reasoning]] (confidence 1.0) — reasoning as a load-bearing cognitive structure, including scientific reasoning modes
+- [[scientific-method]] — formal scientific method and its relationship to AI reasoning
 
-- [[reasoning]]
-- [[scientific-method]]
-- [[molecular-reasoning]]
+The stub had no substantive content beyond the title and connections list.
+
+## See Also
+- [[load-bearing-reasoning]] — primary reasoning concept (1.0)
+- [[scientific-method]] — scientific methodology
+- [[agentic-research]] — where scientific reasoning is most relevant in AI systems

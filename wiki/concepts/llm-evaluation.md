@@ -1,34 +1,17 @@
 ---
-created: 2026-06-03
-updated: 2026-06-03
-type: concept
-summary: "[STUB] Benchmarks and evaluation methodologies for large language model capability assessment"
-tags: [stubs]
-sources: []
-status: stub
-confidence: 0.3
+summary: [ARCHIVED] Absorbed by evaluation.md (0.8) — benchmarks and evaluation methodologies covered comprehensively there
+tags: [llm-evaluation, stubs, archived]
+updated: 2026-06-01T04:03:01Z
 ---
 
-# Llm Evaluation
+---
+summary: [ARCHIVED] Absorbed by evaluation.md (0.8) — benchmarks and evaluation methodologies covered comprehensively there
+tags: [llm-evaluation, stubs, archived]
+updated: 2026-09-13T08:10:00Z
+---
 
-*Stub page — needs real content*
+# LLM Evaluation
 
-## Connections
-- [[concepts/maximum-occupancy-principle]]
-- [[scratchpad/agent-sheets/arxiv/carryover]]
-- [[concepts/llm-evaluation]]
-- [[concepts/bradley-terry]]
-- [[sources/papers/matcha]]
-- [[log]]
-- [[sources/papers/opendeepthink-parallel-reasoning]]
-- [[concepts/opendeepthink-parallel-reasoning]]
-- [[scratchpad/jobs/reports/arxiv/arxiv-2026-05-27-top-papers]]
-- [[sources/papers/futuresim-adaptive-agents]]
-- [[wiki/index]]
-- [[llm-evaluation]]
+*Archived Sep 13, 2026 — the [[evaluation]] page (confidence 0.8) provides comprehensive coverage of benchmarks and evaluation methodologies for LLM capability assessment, including MMLU, GSM8K, HumanEval, SWE-Bench, process vs outcome evaluation, and the benchmark gaming problem. The stub was redundant.*
 
-- [[maximum-occupancy-principle]]
-
-- [[futuresim-adaptive-agents]]
-- [[bradley-terry]]
-- [[opendeepthink-parallel-reasoning]]
+See: [[evaluation]], [[swe-bench]], [[chain-of-thought]], [[reward-hacking]]

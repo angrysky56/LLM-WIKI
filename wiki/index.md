@@ -1,5 +1,5 @@
 ---
-updated: 2026-05-31T14:42:49Z
+updated: 2026-06-01T04:03:17Z
 type: index
 ---
 
@@ -22,7 +22,7 @@ type: index
 - [[adversarial-training]] — Training methodology that exposes models to adversarial examples to improve robustness against adversarial attacks
 - [[affective-ai-inner-architecture]] — Framework for AI self-observation and modification via Panksepp affective systems, mechanistic interpretability, and activation steering
 - [[agent-architectures]] — Agent architectures — design patterns for organizing LLM-based autonomous agents: deliberative, reactive, hybrid, and meta-cognitive
-- [[agent-design]] — [STUB] Agent design — principles and patterns for designing AI agents
+- [[agent-design]] — Archived — absorbed by agent-architectures (0.75), agentic-design-picker (0.8), bounded-rationality
 - [[agent-group-evolving-molecular-system-agem]] — [STUB] AGEM: agent group architecture with evolutionary molecular dynamics
 - [[agent-leak-benchmark]] — Benchmark for measuring information leakage in LLM agents — specifically reconstruction attacks on shared KV-cache artifacts in multi-agent systems
 - [[agent-native-design]] — System design patterns where AI capabilities are architecturally native rather than retrofitted — designing agents with intrinsic motivation, bounded rationality, and epistemic energy management from the ground up
@@ -48,7 +48,7 @@ type: index
 - [[ai-research]] — [STUB] AI research — artificial intelligence research methodology and automation
 - [[ai-safety]] — [STUB] Field of AI safety research, alignment, and preventing harmful AI behavior
 - [[ai-scientific-discovery]] — [STUB] AI systems that autonomously conduct scientific research — hypothesis generation, experiment design, results interpretation
-- [[ai-security]] — [STUB] AI security — adversarial robustness, safety, alignment
+- [[ai-security]] — [ARCHIVED] Absorbed by agentic-oversight.md (0.75) + adversarial-training.md (0.85)
 - [[algebra]] — [STUB] Algebra — mathematical study of algebraic structures and operations
 - [[allometric-scaling]] — Allometric scaling — proportional relationship between body size and biological traits following power laws; fractal network origins; analogies to neural network architecture scaling
 - [[alpha]] — Alpha archetype — the Complexity Gating Agent in the oMCD framework
@@ -130,12 +130,12 @@ type: index
 - [[death-penalty]] — [STUB] Death penalty — capital punishment in US legal system
 - [[deep-learning]] — ARCHIVED — absorbed by transformers.md (0.78)
 - [[delegation]] — Delegation — the act of assigning authority and task responsibility from one agent to another within an agentic hierarchy
-- [[deliberative-agents]] — Deliberative agents — agent architectures that use explicit planning and world-model reasoning to select actions
+- [[deliberative-agents]] — Archived — absorbed by agent-architectures.md (0.75)
 - [[delta-direct]] — [STUB] Delta Direct — LLM research on directional motion blindness in video understanding
 - [[delta]] — Delta archetype — the Evolutionary Search Agent in the oMCD framework
 - [[design-thinking-mit]] — [STUB] Design thinking MIT — design thinking methodology from MIT
 - [[design-thinking]] — Human-centered innovation framework — structured process from need identification through verification, with leverage concentrated in the often-neglected front-end phases
-- [[devops]] — [STUB] DevOps — development operations, CI/CD, and deployment automation
+- [[devops]] — [ARCHIVED] Absorbed by tooling/version-control/github-actions pages — DevOps is a meta-discipline, not a single coherent concept
 - [[diffusion-models]] — Diffusion models — generative models that learn to reverse a noise process to generate data
 - [[digital-electronics]] — [STUB] Digital electronics — electronic circuits and systems that operate on digital signals
 - [[digital-signal-processing]] — [STUB] Digital signal processing — DSP — discrete-time signal processing techniques
@@ -181,7 +181,7 @@ type: index
 - [[fts5]] — [STUB] Full-text search extension 5 for SQLite
 - [[functional-emotions]] — [STUB] Functional approach to emotions in AI systems, emotions as useful signals
 - [[functor-string-diagrams]] — 
-- [[futuresim-adaptive-agents]] — [STUB] Futuresim adaptive agents — simulation-based agent training
+- [[futuresim-adaptive-agents]] — [ARCHIVED] Absorbed by world-model (0.8) + futuresim source (0.9) + agentic-research (0.75)
 - [[gamma]] — Gamma archetype — the Adaptive Learning Rate Agent in the oMCD framework
 - [[generative-ai]] — AI systems that generate new content — text, code, images, audio — via learned probability distributions over structured generation spaces
 - [[geometric-hashing]] — [STUB] Geometric hashing for pattern matching and retrieval
@@ -262,7 +262,7 @@ type: index
 - [[llama-nas]] — LLaMA-NAS — one-shot neural architecture search for task-specific sub-networks within the LLaMA model family; achieves compression and throughput gains via inherited pretrained weights
 - [[llm-agent-architecture]] — System architecture patterns for LLM-based autonomous agents — runtime composition, failure modes, and the LLM/software boundary as first-class design concern
 - [[llm-agents]] — [STUB] Large language model based autonomous agents
-- [[llm-evaluation]] — [STUB] Benchmarks and evaluation methodologies for large language model capability assessment
+- [[llm-evaluation]] — [ARCHIVED] Absorbed by evaluation.md (0.8) — benchmarks and evaluation methodologies covered comprehensively there
 - [[llm-inference]] — LLM inference — serving, KV cache management, batching, and efficiency optimizations for large language models at scale
 - [[llm-kernel-optimization]] — [STUB] LLM kernel optimization — optimizing LLMs for efficient inference
 - [[llm-nlp]] — [STUB] LLM NLP — natural language processing with large language models
@@ -292,7 +292,7 @@ type: index
 - [[memex]] — Vannevar Bush's 1945 vision of a personal associative knowledge device — the intellectual ancestor of the LLM wiki pattern
 - [[memory-mechanisms]] — [STUB] Memory mechanisms in neural networks and AI systems
 - [[mental-imagery]] — Mental imagery — cognitive capacity to form internal visual representations without external sensory input;phantasia vs hyperaphantasia; neural basis in frontoparietal attention networks
-- [[meta-cognitive-agents]] — Meta-cognitive agents — agent architectures that explicitly monitor and regulate their own reasoning processes
+- [[meta-cognitive-agents]] — Archived — absorbed by agent-architectures.md (0.75)
 - [[meta_harness_loop]] — The meta-harness architecture — an agent framework where the harness evaluates and directs specialized sub-agents
 - [[metacognitive-architecture-closed-loop-self-regulation]] — Engineering internal awareness and closed-loop self-regulation in LLMs using biofeedback paradigms, PID control, and LQR — peer-reviewed whitepaper summary
 - [[methodology]] — [STUB] Methodology — research and analytical methodology
@@ -391,12 +391,12 @@ type: index
 - [[pure-mathematics]] — [STUB] Pure mathematics — theoretical mathematics without practical applications
 - [[qes]] — QES (Quality-Evolutionary Search) — accumulated error feedback for high-precision fine-tuning of quantized models at inference-level memory
 - [[qora]] — QLoRA — Quantized LoRA — fine-tuning large models in 4-bit quantization with LoRA adapters; enables frontier model training on consumer GPUs
-- [[quantization]] — Quantization — reducing model weight precision (e.g., 32-bit float to 4/8-bit integer) to decrease memory and compute costs
+- [[quantization]] — Quantization — reducing model weight precision (FP32→INT8/INT4) for memory/compute efficiency; calibration methods, NF4/GPTQ/AWQ formats, KV-cache quantization, and quantization-accuracy tradeoff
 - [[quantum-computing]] — [STUB] Quantum computing applications in AI and cryptography
 - [[rag]] — Retrieval-Augmented Generation — the standard stateless document Q&A pattern
 - [[ramirez-ruiz-mop-2024]] — Ramirez-Ruiz MOP research — foundational work on Memory-Oriented Programming for LLM agents, schema-based memory scaffolding
 - [[random-forest]] — [STUB] Random forest ML algorithm
-- [[reactive-agents]] — Reactive agents — agent architectures that use direct stimulus-response mapping without explicit planning
+- [[reactive-agents]] — Archived — absorbed by agent-architectures.md (0.75)
 - [[reasoning]] — Alias stub redirecting to load-bearing-reasoning — reasoning as a load-bearing cognitive structure
 - [[reconstruction-attack]] — [STUB] Reconstruction attacks on ML models
 - [[recuriosity-episodic-context-3d-exploration-2026]] — Archived — absorbed by sources/papers/recuriosity-episodic-context-3d-exploration-2026 (0.95)
@@ -428,7 +428,7 @@ type: index
 - [[scientific-computing]] — [STUB] Scientific computing — computational methods for scientific research
 - [[scientific-discovery]] — [STUB] Scientific discovery — AI systems contributing to scientific knowledge
 - [[scientific-method]] — [STUB] Scientific method — methodology for conducting scientific research
-- [[scientific-reasoning]] — [STUB] Scientific reasoning — reasoning in scientific contexts and experiments
+- [[scientific-reasoning]] — Archived — absorbed by load-bearing-reasoning (1.0) + scientific-method
 - [[scientific-writing]] — The practice of communicating scientific information to other scientists, characterized by precision, clarity, and adherence to established formats like IMRaD.
 - [[scrum]] — [STUB] Scrum — Agile project management framework with sprints, roles, and ceremonies
 - [[sd-search]] — [STUB] On-policy hindsight self-distillation for step-level credit assignment in search-augmented reasoning (MA et al., 2026)
@@ -452,7 +452,7 @@ type: index
 - [[spacex-starship-development]] — [STUB] SpaceX Starship development and launch campaign
 - [[spec-driven-development]] — [STUB] Specification-driven development methodology
 - [[spike-001-spacy-owlready2]] — [STUB] Spike 001: spacy + owlready2 integration experiment
-- [[spike-campaign-001-004-summary]] — [STUB] Spike campaign 001-004 summary
+- [[spike-campaign-001-004-summary]] — [ARCHIVED] Internal project notes absorbed by synthesis/seg-scientist-agent-design.md
 - [[spin-vs-substrate]] — Analytical primitive — separating the rhetorical layer (clauses, statements, principles) from the operational layer (deployments, integrations, consequences); citing one as evidence about the other is the standard category error
 - [[spiral-architecture]] — Spiral architecture — center as opening not point; deliberate ethical spiral vs closed loop completion
 - [[spontaneous-activity-reshaping-hypothesis]] — A theory proposing that imagination works by suppressing background neural activity to "carve out" mental images from existing noise.
@@ -505,11 +505,11 @@ type: index
 - [[wernickes-area]] — A brain region in the temporal lobe responsible for language comprehension and semantic processing.
 - [[who-emergency-declaration]] — [STUB] WHO public health emergency declaration procedures and criteria
 - [[who-emergency-declarations]] — [STUB] World Health Organization public health emergency declarations and criteria
-- [[why-llms-arent-scientists-yet]] — [STUB] Why LLMs aren't scientists yet — limitations in scientific reasoning and discovery
+- [[why-llms-arent-scientists-yet]] — Archived — absorbed by why-llms-arent-scientists-yet source article (1.0)
 - [[wikilinks]] — [STUB] Obsidian wikilink syntax and semantic linking conventions
 - [[wolfram-nks-causal-networks]] — Stephen Wolfram's causal network interpretation of spacetime and computation — hypergraph rewriting, multiway branching, causal disruption as physical/computational irreducibility
 - [[wolfram-physics-project]] — Stephen Wolfram's project applying A New Kind of Science (NKS) to fundamental physics — causal networks, multiway rewrite systems.
-- [[workflow-management]] — [STUB] Workflow management — orchestrating tasks, dependencies, and processes across systems
+- [[workflow-management]] — [ARCHIVED] Absorbed by process-management and kanban-development — workflow management is a meta-discipline
 - [[working-memory]] — Cognitive system for temporary information storage and active manipulation during reasoning — in LLMs, manifests as attention-based context maintenance and activation patterns
 - [[world-model]] — Internal predictive models used by agents for planning, simulation, and grounding — enabling agents to predict the consequences of actions before executing them; connected to MOP's epistemic energy management and EFHF's world model encoding
 - [[xgboost]] — [STUB] XGBoost — gradient boosting library for tabular data
@@ -629,13 +629,13 @@ type: index
 - [[carryover]] — 
 - [[vault]] — 
 - [[librarian]] — 
-- [[carryover]] — Librarian carryover 2026-09-09 — 1263 pages, stable HITS, no new violations
+- [[carryover]] — Librarian carryover 2026-05-31 — 1264 pages, stable HITS, no new violations
 - [[mcp-tools]] — 
 - [[workflow]] — 
 - [[audit-report]] — 
 - [[vault]] — 
 - [[librarians-assistant]] — 
-- [[carryover]] — 3 remediation fixes applied — essan frontmatter/tag normalization, graph-theory↔knowledge-graph reciprocal links; GoodRobot location remains blocker.
+- [[carryover]] — 1 fix applied: graph-theory.md had stale link to archived knowledge-graph.md — removed. GAAC Cluster 0 false positive identified (unrelated stubs). Vault health confirmed stable.
 - [[quick-reference]] — 
 - [[workflow]] — 
 - [[batch-progress]] — 
@@ -668,7 +668,7 @@ type: index
 - [[Meta-Meta Process for Structured Exploration]] — 
 - [[carryover-template]] — 
 - [[researcher]] — 
-- [[carryover]] — Sep 9: 28 stubs archived (MOP/agentic absorption); stub count 332→326; bulk periphery audit complete
+- [[carryover]] — Sep 12: 6 agent-cluster stubs archived (agent-architectures absorption); stub count 326→320
 - [[workflow]] — 
 - [[discovery-report]] — 
 - [[gap-analysis]] — 
@@ -762,6 +762,7 @@ type: index
 - [[audit-2026-05-25]] — 
 - [[audit-2026-05-26-path-verification]] — 
 - [[audit-2026-05-26]] — 
+- [[audit-2026-05-31]] — 
 - [[audit-2026-07-10]] — 
 - [[audit-2026-07-15]] — 
 - [[audit-2026-07-21]] — 
@@ -823,6 +824,7 @@ type: index
 - [[discovery-2026-09-07]] — 
 - [[discovery-2026-09-08]] — 
 - [[discovery-2026-09-09]] — 
+- [[discovery-2026-09-12]] — 
 - [[google-deepmind-vatican-encyclical-response-may-2026]] — No Google DeepMind response to Magnifica humanitas encyclical found; compiled monitoring report
 - [[microsoft-vatican-encyclical-response-may-2026]] — No Microsoft response to Magnifica humanitas encyclical found; compiled monitoring report
 - [[sheet]] — t_ff1740de complete: no Microsoft response found to Magnifica humanitas encyclical

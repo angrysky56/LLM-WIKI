@@ -1,30 +1,17 @@
 ---
-created: 2026-05-25
-updated: 2026-05-25
-type: concept
-summary: "[STUB] Futuresim adaptive agents — simulation-based agent training"
-tags: [agents, simulation, reinforcement-learning, stubs]
-sources: []
-status: stub
-confidence: 0.3
+summary: [ARCHIVED] Absorbed by world-model (0.8) + futuresim source (0.9) + agentic-research (0.75)
+tags: [agents, simulation, stubs, archived]
+updated: 2026-06-01T04:03:02Z
+---
+
+---
+summary: [ARCHIVED] Absorbed by world-model (0.8) + agentic-research (0.75) + futuresim-adaptive-agents source (0.9)
+tags: [agents, simulation, stubs, archived]
+updated: 2026-09-13T08:10:00Z
 ---
 
 # Futuresim Adaptive Agents
 
-*Stub page — needs real content*
+*Archived Sep 13, 2026 — absorbed by the Futuresim Adaptive Agents paper source page (arXiv:2605.15188, confidence 0.9) which provides comprehensive coverage. The world-model page (0.8) and agentic-research page (0.75) provide the conceptual context. No separate concept page needed — the source paper is reference-quality and the topic is too specific for a general concept page.*
 
-## Connections
-- [[sources/papers/deepweb-bench-2026]]
-- [[concepts/futuresim-adaptive-agents]]
-- [[concepts/world-model]]
-- [[concepts/agentic-research]]
-- [[wiki/index]]
-- [[sources/papers/forecasting-scientific-progress-ai-2026]]
-- [[concepts/cognitive-world-models-for-llm-agents]]
-- [[log]]
-- [[futuresim-adaptive-agents]]
-
-- [[reinforcement-learning]]
-- [[agent-architectures]]
-- [[cognitive-world-models-for-llm-agents]]
-- [[world-model]]
+See: [[sources/papers/futuresim-adaptive-agents]], [[world-model]], [[agentic-research]]

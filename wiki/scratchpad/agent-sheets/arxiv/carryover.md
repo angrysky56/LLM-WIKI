@@ -25,7 +25,7 @@ confidence: high
 | 2026-05-27 (additional) | 6 papers processed | Real Images, Chartographer, Demographic Info + top 3 |
 | 2026-05-28 | 3 papers ingested | CCO, Gamma-World, BES — constraint satisfaction under distribution shift |
 | 2026-05-29 | 3 papers ingested | Gram, SoundnessBench, Entropy-Cut MH — evaluation infrastructure |
-| **2026-05-30** | **3 papers ingested** | **Self-Trained Verification, SpecBench, Physics-Is-All-You-Need — trustworthy scientific AI: verification, evaluation, and supervision as infrastructure** |
+| **2026-05-31** | **No new batch** | No new arXiv submissions today — API returned only 2026-05-28 papers already processed. Same rate-limiting pattern. |
 
 ## Current State
 
@@ -76,10 +76,4 @@ confidence: high
 - **PDF storage**: `/home/ty/Documents/paper-research/arxiv-today/` for today’s batch; previous batch in main `paper-research/` dir
 
 ## Last Run
-2026-05-30 09:55 UTC (this run — arXiv API rate-limited, batch already fully processed this morning)
-
-## Notes for Next Run
-- arXiv API still aggressively rate-limiting — multiple429s on both HTTP and HTTPS. No new batch available.
-- Today's batch (2026-05-30 morning) fully processed: 3 papers ingested, wiki pages created, report delivered.
-- Open items from prior cycle already surfaced to kanban (t_ddf839070e904f9b, t_cbcdc7bee3cd46ca, t_471274800c084c94) — assigned to researcher.
-- No new open items this cycle — nothing new to surface.
+2026-05-31 08:20 UTC — No new batch available. ArXiv API returned only 2026-05-28 papers (already processed). Nothing to process.

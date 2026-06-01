@@ -7,7 +7,10 @@
 **Status**: CLI watchdog timeout (570s) again — `latest.json` still from May 23. No new output produced.
 
 **Run**: 2026-05-31 06:00 AM
-**Status**: CLI watchdog timeout (570s) — hard watchdog fired, exit code 3. No new output produced.
+**Status**: CLI watchdog timeout (570s) again — `latest.json` still from May 23. No new output produced.
+
+**Run**: 2026-05-31 07:00 AM (cron)
+**Status**: CLI watchdog timeout (570s) — hard watchdog fired, exit code 3. Community detection completed in ~2s but LLM synthesis phase hangs. `latest.json` unchanged (still May 23). No new insights generated.
 
 ---
 
@@ -34,7 +37,7 @@
 
 ## Open
 
-- None — all prior open items resolved
+- [ ] **CLI hangs during LLM synthesis phase (~570s)** — community detection completes in ~2s but the LLM synthesis step hangs indefinitely, producing no new `latest.json`. 4 consecutive timeouts (May 29–31). Likely an API issue with minimax provider or MiniMax-M2.7 model — needs investigation.
 
 ---
 
@@ -46,6 +49,4 @@
 
 ## Next Run Priority
 
-- Normal priority — daily cron
-- CLI watchdog timeout is expected behavior — pattern persisting across 3 consecutive runs
-- May need investigation if `latest.json` is not refreshed by 2026-06-01
+- **High** — CLI LLM synthesis phase hanging for 4 consecutive runs. The `generate_insights.py` script completes community detection (~2s) but the LLM synthesis call hangs. Possible causes: API rate limiting, model issue, or hanging HTTP connection.

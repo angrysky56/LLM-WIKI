@@ -1,38 +1,34 @@
 ---
+summary: Archived — absorbed by agent-architectures.md (0.75)
+tags: [agent-architectures, archived]
+updated: 2026-05-31T22:44:23Z
+---
+
+---
 created: 2026-07-28
-updated: 2026-07-28
+updated: 2026-09-12
 type: concept
-summary: Deliberative agents — agent architectures that use explicit planning and world-model reasoning to select actions
-tags: [agent-architectures, deliberative, planning, reasoning]
+summary: Absorbed — canonical content at [[agent-architectures]] (0.75, active)
+tags: [agent-architectures, archived]
 sources: []
-status: stub
+status: archived
 confidence: 0.3
 ---
 
 # Deliberative Agents
 
-Deliberative agents use explicit symbolic planning and world-model simulation to select actions, as opposed to reactive agents that map stimuli directly to responses.
+> This stub is archived — its canonical content lives at [[agent-architectures]].
 
-## Key Characteristics
+`agent-architectures.md` (confidence 0.75, active) documents deliberative agents as one of four architecture families in the full taxonomy. The parent page provides the definitive treatment:
 
-- **Explicit goal representation**: Maintains a symbolic model of the goal state
-- **World-model simulation**: Simulates action outcomes before execution
-- **Plan decomposition**: Breaks high-level goals into sub-tasks hierarchically
-- **Replanning**: Revises plans when simulation reveals unexpected states
+- **Explicit goal representation** (symbolic model of goal state)
+- **World-model simulation** (simulates action outcomes before execution)
+- **Plan decomposition** (hierarchical task breakdown)
+- **Replanning** (revises when simulation reveals unexpected states)
 
-## Relationship to Other Agent Types
-
-See [[agent-architectures]] for the full taxonomy comparison with reactive, hybrid, and meta-cognitive agents.
+The deliberative architecture properties, failure modes, and architectural comparison table are all at [[agent-architectures]].
 
 ## See Also
-- [[log]]
-- [[concepts/hybrid-agents]]
-- [[concepts/deliberative-agents]]
-- [[wiki/index]]
-- [[concepts/agents]]
-- [[deliberative-agents]]
-
-- [[agentic-planner]]: the planning subsystem within deliberative agents
-- [[world-model]]: the simulation substrate for deliberation
-- [[agents]]: parent concept for agent taxonomy
-- [[hybrid-agents]]
+- [[agent-architectures]] — canonical reference
+- [[agentic-planner]] — deliberative planning subsystem
+- [[world-model]] — simulation substrate for deliberation

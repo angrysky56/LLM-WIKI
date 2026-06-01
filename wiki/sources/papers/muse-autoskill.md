@@ -48,6 +48,7 @@ Experiments on SkillsBench show:
 ## Connections
 - [[wiki/index]]
 - [[sources/papers/muse-autoskill]]
+- [[reuserl-skill-reuse-compression]] — ReuseRL's PAC-Bayes MDL bound provides theoretical account of why skill-level memory accumulation generalises
 
 - [[agentic-research]] — MUSE-Autoskill is an agentic AI framework
 - [[bounded-representation-capacity]] — skills as bounded, reusable representation units

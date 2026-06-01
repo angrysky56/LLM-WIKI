@@ -49,3 +49,4 @@ The study identifies six primary failure modes in autonomous research:
 - [[scientific-writing]] — Discusses the automated generation of manuscripts from outlines.
 - [[gemini]] — Used as the primary context management model.
 - [[claude-code]] — Used for autonomous implementation.
+- [[autosci-memory-centric-research-lifecycle]] — AutoSci is a constructive system-level answer to the failure modes this paper documents; its 4-module architecture (SciMem + SciFlow + SciDAG + SciEvolve) addresses memory/context degradation, implementation drift, and weak scientific taste.

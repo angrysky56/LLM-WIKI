@@ -5,11 +5,14 @@ type: concept
 summary: "[STUB] AGEM: agent group architecture with evolutionary molecular dynamics"
 tags: [stubs]
 sources: []
-status: stub
+status: archived
 confidence: 0.3
 ---
 
 # Agent Group Evolving Molecular System Agem
+
+
+*Archived — Mislabelled stub: title claims 'molecular dynamics' but the only source link is to EnvFactory (tool-use agent environments for RL) which is unrelated. No canonical source for the AGEM molecular system concept in the wiki. Archive as misnomer.*
 
 *Stub page — needs real content*
 

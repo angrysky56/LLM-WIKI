@@ -1,43 +1,49 @@
-# Librarian Vault — 2026-08-26 [ARCHIVED — compressed to carryover]
+# Librarian Vault — 2026-06-01 [ARCHIVED — compressed to carryover]
 
 ## Session Summary
-- Vault initialized: 2026-08-26T08:50:00Z
+- Vault initialized: 2026-06-01T08:50:00Z
 - Operating theory: wiki/synthesis/wiki-indexing-theory.md ✓
 - Tag taxonomy: wiki/concepts/tag-taxonomy.md ✓
 
 ## Audit Results (6 Improvements)
 
 ### Improvement 1 — Tag Taxonomy Compliance ✓
-- 1 non-preferred tag found: essan-vector-results.md had `embedding` → FIXED to `embeddings`
-- All other tags compliant
+- 0 non-preferred tag violations this cycle
+- All 1288 pages checked against USE references
+- Compound tags (embedding-LR, embedding-entropy, scientific-method) confirmed NOT violations
 
 ### Improvement 2 — HITS Scoring ✓
-- Top authorities: wiki/index (0.0777), log (0.0553), maximum-occupancy-principle (0.0154)
-- Top hubs: maximum-occupancy-principle (0.0028), efhf (0.0023), concept-index (0.0020)
+- Top authorities: wiki/index (0.0767), log (0.0540), maximum-occupancy-principle (0.0151)
+- Top hubs: maximum-occupancy-principle (0.0030), efhf (0.0024), concept-index (0.0021)
+- HITS scores stable vs prior cycle (slight relative dilution from +24 new pages)
 - Content status: all high-authority pages have rich content ✓
 
 ### Improvement 3 — GAAC Clustering ✓
-- 35 clusters found (stable)
-- Cluster 0 is largest (agent/arxiv broad cluster)
+- 36 clusters (↑1 from 35)
+- New cluster 28: bounded-representation-capacity (Kolmogorov, trilemma, bottlenecks)
+- Cluster 0 still largest knowledge cluster
 - Merge candidates at 1.0 similarity: ALL FALSE POSITIVES (stub page contamination)
 - Missing links: thousands false positives (loosely related topics flagged)
 - Cluster 0 content pairs: not actionable without manual verification
 
 ### Improvement 4 — Reciprocal Link Enforcement ✓
-- 271 non-reciprocal flags — high false-positive rate (body-text-only detection)
+- 336 non-reciprocal flags — high false-positive rate (body-text-only detection)
+- Up from 291 prior cycle (correlates with +24 page growth)
 - Many already reciprocal via Connections sections
 - Not actionable without manual verification
 
 ### Improvement 5 — Orphan Detection ✓
-- 77 orphans — all operational (carryovers, TEMPLATE, discovery, agent sheets)
+- 118 orphans — all operational (carryovers, TEMPLATE, discovery, agent sheets, headlines, overseer, arxiv/news/insight briefs)
+- Up from 96 — new operational files this cycle
 - Zero knowledge orphans
 
 ### Improvement 6 — Frontmatter Completeness ✓
-- 103 missing frontmatter — all operational files (templates, reports, agent sheets)
+- 115 missing frontmatter — all operational files (templates, reports, agent sheets)
+- Up from 109 — new operational files this cycle
 - Not critical
 
 ## Direct Fix Applied
-- essan-vector-results.md: `embedding` → `embeddings` (tag-taxonomy USE reference)
+- None — no violations this cycle
 
 ## Archived
-2026-08-26T08:52:00Z
+2026-06-01T08:52:00Z

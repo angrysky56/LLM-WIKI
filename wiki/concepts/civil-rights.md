@@ -5,11 +5,14 @@ type: concept
 summary: "[STUB] Civil rights — constitutional protections against discrimination"
 tags: [civil-rights, stubs, us-politics]
 sources: []
-status: stub
+status: archived
 confidence: 0.3
 ---
 
 # Civil Rights
+
+
+*Archived — US politics stub, non-AI periphery. Linked to US SCOTUS news and voting-rights news — outside AI/ML knowledge graph scope.*
 
 *Stub page — needs real content*
 

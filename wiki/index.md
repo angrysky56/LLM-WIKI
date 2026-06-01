@@ -1,5 +1,5 @@
 ---
-updated: 2026-06-01T04:03:17Z
+updated: 2026-06-01T14:26:54Z
 type: index
 ---
 
@@ -55,7 +55,7 @@ type: index
 - [[alqr-memory-estimates]] — Memory estimates for A-LQR Jacobian caching: 2GB for A_k cache on 7B models, calibration cost ~1000 GPU-hours one-time, per-token inference is 64MB reads with no recomputation
 - [[alzheimers-research]] — [STUB] Alzheimer's research — disease mechanisms and treatment
 - [[aphantasia]] — The inability to form mental images, potentially linked to high excitability in the early visual cortex.
-- [[applied-mathematics]] — [STUB] Applied mathematics — mathematics applied to practical problems
+- [[applied-mathematics]] — Archived — applied mathematics is non-AI core; math stubs cluster absorbed by mlops periphery
 - [[arcuate-fasciculus]] — A bundle of axons connecting Broca's area and Wernicke's area in the brain.
 - [[artificial-intelligence]] — [STUB] Artificial intelligence — machine systems that exhibit intelligent behavior across perception, reasoning, and decision-making
 - [[artificial-life]] — [STUB] Artificial life — interdisciplinary field studying life-like systems through simulation and synthesis
@@ -147,7 +147,7 @@ type: index
 - [[early-exit-networks]] — Multi-exit networks with early termination based on confidence thresholds; training strategies and connection to adaptive budget learning
 - [[early-universe]] — [STUB] Early universe — cosmic inflation, CMB, formation
 - [[ebola-outbreak-drc-2026]] — Bundibugyo Ebola PHEIC in DRC/Uganda — 1,018+ cases, 244+ deaths. Sud-Kivu expansion confirmed. ETC attacks May 21/23/26 confirmed. Italy suspected cases. No licensed vaccine/therapeutic.
-- [[economics]] — [STUB] Economics — study of production, consumption, and transfer of wealth
+- [[economics]] — Archived — economics is non-AI social science outside focus area
 - [[edm-framework]] — Embedding Disruptiveness Measure — Kim, Kojaku & Ahn (2026) — directional skip-gram on citation networks yielding past/future vectors whose cosine distance quantifies scientific disruption
 - [[efficient-transformers]] — [STUB] Efficient transformer architectures for language modeling
 - [[electrical-engineering]] — [STUB] Electrical engineering — design and application of electrical systems and circuits
@@ -283,7 +283,7 @@ type: index
 - [[markovian-carryover]] — Skill template for Markovian forward-state carryover — bounded ~512 tokens encoding established/open/heading
 - [[mathematical-reasoning-ai]] — [STUB] Mathematical reasoning capabilities in AI systems
 - [[mathematical-reasoning]] — Rigorous deduction and proof-based thinking in mathematics — deductive reasoning, proof techniques, abstraction, formalization, and its intersection with AI reasoning and formal verification
-- [[mathematics]] — [STUB] Mathematics — the study of numbers, structures, and quantities
+- [[mathematics]] — Archived — mathematics is meta-discipline covered in-context in AI/ML pages
 - [[maximum-occupancy-principle]] — Theory of behavior replacing reward maximization with action-state path entropy maximization — Layer 0 of EFHF architecture; absorbing states → Kernel 2 (Prover9-verified)
 - [[mcp-model-context-protocol]] — MCP — an open standard protocol for connecting AI assistants to external tools, data sources, and services via a structured client-server architecture
 - [[mcp]] — Redirect stub — canonical page is mcp-model-context-protocol.md
@@ -340,7 +340,7 @@ type: index
 - [[nlp]] — [STUB] NLP — natural language processing fundamentals
 - [[north-american-energy-politics]] — [STUB] North American energy politics, oil/gas trade, pipeline policy
 - [[novelty-search]] — [STUB] Evolutionary algorithm using novelty rather than fitness to explore search space
-- [[numerical-methods]] — [STUB] Numerical methods — computational methods for solving mathematical problems
+- [[numerical-methods]] — Archived — numerical methods is computational science; no AI/ML canonical absorbs it
 - [[oMCD]] — Formal framework for online metacognitive control of decisions with mathematical formulations
 - [[obsidian-cli-skill]] — [STUB] Obsidian CLI skill — command-line interface for Obsidian vault management
 - [[obsidian-git-setup]] — [STUB] Obsidian Git setup — configuring Git version control for Obsidian vaults
@@ -352,7 +352,7 @@ type: index
 - [[open-source-ai]] — [STUB] Open source AI — open weights models and transparency
 - [[opendeepthink-parallel-reasoning]] — Pairwise Bradley-Terry ranking for aggregating noisy LLM outputs in parallel reasoning — +405 Elo on Codeforces, model-agnostic transfer
 - [[openpraparat]] — Guideless artificial life model combining Tierra gene mechanics with 3D virtual creatures; no fitness function; emergent reproduction via mutation + natural selection
-- [[optimization]] — [STUB] Optimization — mathematical optimization and methods
+- [[optimization]] — Archived — optimization covered in-context in RL and LLM inference pages
 - [[overlayfs]] — [STUB] OverlayFS: Union filesystem for container layers
 - [[panksepp-emotional-systems]] — Panksepp emotional systems — affective neuroscience framework (stub)
 - [[paper-analysis]] — [STUB] Paper analysis — automated analysis of academic papers
@@ -436,7 +436,7 @@ type: index
 - [[self-correction]] — The capability and architectures of LLMs to detect, critique, and revise their own outputs — distinct from explicit CoT or formal metacognitive control
 - [[semiconductor-geopolitics]] — [STUB] Semiconductor geopolitics — chip manufacturing and trade tensions
 - [[set-theory]] — [STUB] Set theory — mathematical theory of sets and collections
-- [[shap]] — [STUB] SHAP values for model interpretability
+- [[shap]] — SHAP (SHapley Additive exPlanations) — game-theory-grounded framework for explaining individual ML predictions via Shapley-value feature attribution
 - [[shapley-values]] — [STUB] Shapley values — game-theoretic method for fair credit allocation
 - [[sheffer-stroke]] — A single primitive operator from which an entire computational domain is reconstructable — NAND for Boolean logic, EML for continuous mathematics, with structural parallels across domains
 - [[shorthand-for-thought]] — Compressed internal representations of reasoning traces — how LLMs encode multi-step inference without explicit token-level chains
@@ -453,9 +453,12 @@ type: index
 - [[spec-driven-development]] — [STUB] Specification-driven development methodology
 - [[spike-001-spacy-owlready2]] — [STUB] Spike 001: spacy + owlready2 integration experiment
 - [[spike-campaign-001-004-summary]] — [ARCHIVED] Internal project notes absorbed by synthesis/seg-scientist-agent-design.md
-- [[spin-vs-substrate]] — Analytical primitive — separating the rhetorical layer (clauses, statements, principles) from the operational layer (deployments, integrations, consequences); citing one as evidence about the other is the standard category error
-- [[spiral-architecture]] — Spiral architecture — center as opening not point; deliberate ethical spiral vs closed loop completion
+- [[spin-vs-substrate]] — Analytical primitive — separating the rhetorical layer (clauses, statements, principles) from the operational layer (deployments, integrations, consequences); citing one as evidence about the other is the standard category error.
+- [[spiral-architecture]] — Spiral architecture — center as opening not point; deliberate ethical spiral vs closed loop completion.
 - [[spontaneous-activity-reshaping-hypothesis]] — A theory proposing that imagination works by suppressing background neural activity to "carve out" mental images from existing noise.
+- [[stateful-monitoring-distributed-agent-attacks]] — First distributed agent attack: a multi-agent scaffold completes hard cybersecurity tasks while hiding the harmful objective across many user accounts. Standard monitors miss it 80% of the time. Online stateful monitor with stream clustering catches distributed attacks 30% earlier at ~99% traffic latency, and also catches standard jailbreaks.
+- [[stepopsd]] — Post-rollout step-level credit redistribution via hindsight teacher-student rescoring within GRPO, achieving +12.3% on ALFWorld and +8.7% on Search-QA over GRPO baseline.
+- [[structural-reuse-unit-of-trustworthiness-2026-06-01]] — The discrete named reusable structural unit (skill/schema/cluster) is the unit of trustworthiness spanning training optimisation, runtime memory, and oversight monitoring.
 - [[sqlite]] — [STUB] SQLite — embedded relational database
 - [[steering-vectors]] — [STUB] Steering vectors — directional activation patterns that bias model behavior
 - [[subagent-delegation]] — Subagent delegation — pattern of spawning child agents to handle subtasks
@@ -486,11 +489,11 @@ type: index
 - [[transformers]] — Attention-based neural architecture — foundation for BERT, GPT, and most modern LLMs; self-attention replaces recurrence, enabling parallel training
 - [[trump-administration-national-security]] — [STUB] Trump administration national security policy and appointments
 - [[trunk]] — [STUB] Rust build tool and package manager
-- [[truth-seeking]] — [STUB] AI truth-seeking and honest responding behavior
+- [[truth-seeking]] — Archived — absorbed by behavioral-credibility-trilemma source page
 - [[uae]] — [STUB] UAE — United Arab Emirates, Middle Eastern federation
 - [[us-intelligence-community]] — [STUB] US intelligence agencies and community structure
 - [[utimula-openpraparat-2025]] — [STUB] OpenPRAPARAT — open research paper analysis and reading tool
-- [[uv]] — [STUB] Fast Python package installer and resolver
+- [[uv]] — Archived — developer tooling outside AI/ML core (uv Python package manager)
 - [[ux-design]] — [STUB] UX design — user experience design, interaction patterns, usability engineering
 - [[version-control]] — [STUB] Version control — tracking changes to code and documents
 - [[video-llm]] — Large language models extended to process and reason about video input — temporal understanding, motion perception, and visual-language integration at video scale
@@ -500,13 +503,13 @@ type: index
 - [[visual-recognition]] — [STUB] Visual recognition — AI recognition of visual patterns and objects
 - [[vlm]] — [STUB] Vision-language models and multimodal understanding
 - [[waldis-instructions-shape-language-2026]] — [STUB] Research on instructions shaping language
-- [[webhook-subscriptions]] — [STUB] Event-driven webhook subscription systems
+- [[webhook-subscriptions]] — Archived — event-driven architecture pattern outside AI/ML core
 - [[weil-gate]] — Weil-gate — ethical deliberation mechanism, "who does this hurt?" as spiral descent through harm layers
 - [[wernickes-area]] — A brain region in the temporal lobe responsible for language comprehension and semantic processing.
 - [[who-emergency-declaration]] — [STUB] WHO public health emergency declaration procedures and criteria
 - [[who-emergency-declarations]] — [STUB] World Health Organization public health emergency declarations and criteria
 - [[why-llms-arent-scientists-yet]] — Archived — absorbed by why-llms-arent-scientists-yet source article (1.0)
-- [[wikilinks]] — [STUB] Obsidian wikilink syntax and semantic linking conventions
+- [[wikilinks]] — Wikilinks — Obsidian double-bracket syntax, retrieval-weight hierarchy, cross-cluster linking conventions
 - [[wolfram-nks-causal-networks]] — Stephen Wolfram's causal network interpretation of spacetime and computation — hypergraph rewriting, multiway branching, causal disruption as physical/computational irreducibility
 - [[wolfram-physics-project]] — Stephen Wolfram's project applying A New Kind of Science (NKS) to fundamental physics — causal networks, multiway rewrite systems.
 - [[workflow-management]] — [ARCHIVED] Absorbed by process-management and kanban-development — workflow management is a meta-discipline
@@ -514,7 +517,7 @@ type: index
 - [[world-model]] — Internal predictive models used by agents for planning, simulation, and grounding — enabling agents to predict the consequences of actions before executing them; connected to MOP's epistemic energy management and EFHF's world model encoding
 - [[xgboost]] — [STUB] XGBoost — gradient boosting library for tabular data
 - [[zeta]] — Zeta archetype — the Entropy Regulation Agent in the oMCD framework
-- [[zettelkasten]] — Zettelkasten — note-taking method using interconnected atomic notes
+- [[zettelkasten]] — Zettelkasten — Luhmann's atomic note-linking method; relationship to PARA, PKM, and LLM agent memory patterns
 - [[cognitive-decline]] — Cognitive decline — age-related memory and reasoning impairment; driven by neuroinflammation, Menin decline in hypothalamus, and D-serine depletion
 - [[francesca-albanese-stub]] — Archived — absorbed by Francesca Albanese sanctions case insight (0.85)
 - [[hermes-meta-cognition]] — Hermes as an MCM implementation with oMCD, agent archetypes, and self-model structure
@@ -618,12 +621,12 @@ type: index
 - [[vault-2026-05-30]] — 
 - [[vault]] — 
 - [[ingest]] — 
-- [[carryover]] — MCP restored, 10 files ingested, raw/ empty. Pipeline healthy.
+- [[carryover]] — 2 files ingested (AGEM quantum mechanics corpus + Copenhagen deep-dive), raw/ empty. Pipeline healthy.
 - [[workflow]] — 
 - [[ingest-report]] — 
 - [[vault]] — 
 - [[insights]] — 
-- [[carryover]] — 
+- [[carryover]] — 4 insights generated, 4 wiki pages created (all confidence 0.85) — CLI completed cleanly in ~5min, healthy 2nd consecutive clean run
 - [[insight-merge]] — 
 - [[workflow]] — 
 - [[carryover]] — 
@@ -651,7 +654,7 @@ type: index
 - [[user]] — User preferences and project context for the Markovian Dev Agency
 - [[issue-001]] — 
 - [[news]] — 
-- [[carryover]] — 5 stories: Iran/Lebanon escalation, Japan/China militarism spat, Colombia election, Ebola, SpaceX IPO monitoring
+- [[carryover]] — 5 new stories: US-Iran direct strikes (Kuwait), French Navy seizes Russian tanker Tagor, Quantinuum $1.46B IPO, Colombia runoff set, Myanmar blast. 5 carryover threads still open.
 - [[rss-queries]] — 
 - [[workflow]] — 
 - [[headlines-report]] — 
@@ -668,7 +671,7 @@ type: index
 - [[Meta-Meta Process for Structured Exploration]] — 
 - [[carryover-template]] — 
 - [[researcher]] — 
-- [[carryover]] — Sep 12: 6 agent-cluster stubs archived (agent-architectures absorption); stub count 326→320
+- [[carryover]] — Jun 1 cycle 2: shap (0.3→0.72) promoted; 11 stubs archived (duplicate alias: rag, concept-index; absorbed: vlm, xgboost, momoa-researcher, AGEM misnomer; non-AI periphery: version-control, ux-design, civil-rights, algebra, scientific-method)
 - [[workflow]] — 
 - [[discovery-report]] — 
 - [[gap-analysis]] — 
@@ -753,6 +756,7 @@ type: index
 - [[ingest-2026-05-28]] — 
 - [[ingest-2026-05-29]] — 
 - [[ingest-2026-05-30]] — 
+- [[ingest-2026-06-01]] — 
 - [[ingest-2026-06-27]] — Ingest cycle — 3 documentation files processed (codegraph, hermes-path-forward)
 - [[carryover]] — 
 - [[audit-2026-05-19]] — Librarian audit report — broken links and frontmatter fixes
@@ -777,12 +781,15 @@ type: index
 - [[headlines-2026-05-29]] — 5 stories: Russia/NATO first attack, SpaceX $4.16B Golden Dome contract, Trump defers Iran deal, WHO chief arrives DRC Ebola, Blue Origin rocket explosion
 - [[headlines-2026-05-30]] — 
 - [[headlines-2026-05-31]] — 
+- [[headlines-2026-06-01]] — 
 - [[carryover]] — 
 - [[overseer-2026-05-26]] — 
 - [[overseer-2026-05-27]] — 
 - [[overseer-2026-05-28]] — 
 - [[overseer-2026-05-29]] — 
 - [[overseer-2026-05-30]] — 
+- [[overseer-2026-05-31]] — 
+- [[overseer-2026-06-01]] — 
 - [[overseer-2026-07-28]] — 
 - [[overseer-2026-08-03]] — 
 - [[overseer-2026-08-05]] — Overseer monitoring cycle 2026-08-05 — 8 agents audited, 3 news cards surfaced, librarian card updated, sheet.md synced
@@ -798,6 +805,7 @@ type: index
 - [[discovery-2026-05-28]] — May 28: 3 stubs promoted (goal-management 0.72, latent-communication 0.75, planning 0.72); graph-database archived as redundant
 - [[discovery-2026-05-29]] — Researcher discovery report
 - [[discovery-2026-05-30]] — Researcher discovery report
+- [[discovery-2026-06-01]] — 
 - [[discovery-2026-06-04]] — Researcher discovery report
 - [[discovery-2026-06-08]] — Researcher discovery report
 - [[discovery-2026-06-09]] — Researcher discovery report
@@ -825,10 +833,13 @@ type: index
 - [[discovery-2026-09-08]] — 
 - [[discovery-2026-09-09]] — 
 - [[discovery-2026-09-12]] — 
+- [[discovery-2026-09-13]] — 
 - [[google-deepmind-vatican-encyclical-response-may-2026]] — No Google DeepMind response to Magnifica humanitas encyclical found; compiled monitoring report
 - [[microsoft-vatican-encyclical-response-may-2026]] — No Microsoft response to Magnifica humanitas encyclical found; compiled monitoring report
 - [[sheet]] — t_ff1740de complete: no Microsoft response found to Magnifica humanitas encyclical
 - [[agem-cycle-reflexive-honest-messenger]] — Hall extends Honest Messenger Paradox to AI: RLHF produces weak lumpability, not strong alignment
+- [[agem-minimax-m27-physics-corpus]] — AGEM engine analysis of six quantum mechanics interpretations with sheaf-cohomology consistency metrics per interpretation
+- [[agem-minimax-m3-copenhagen-iter5]] — AGEM 5-iteration sheaf-localized analysis of the Copenhagen interpretation (M3 model) — formally registers central epistemic/ontic contradiction as coboundary 0.56 / dual pressure 1.08
 - [[agem-ooe]] — 
 - [[anthropic-chris-olah-magnifica-humanitas-may-2026]] — Chris Olah (Anthropic co-founder) remarks on Magnifica Humanitas encyclical
 - [[back-to-agem-stateless-heartbeat]] — Ty and Gemini on stateless heartbeat architecture for AI memory
@@ -1028,6 +1039,7 @@ type: index
 - [[arxiv-2605-28807-calibrating-conservatism-scalable-oversight]] — Calibrated Collective Oversight (CCO) uses conformal decision theory to calibrate AI conservatism, enabling weaker overseers to constrain stronger agents with formal guarantees.
 - [[arxiv-2605-28814-bidirectional-evolutionary-search-bes]] — Bidirectional Evolutionary Search (BES) combines forward candidate evolution with backward goal decomposition to overcome entropy-shell limitations of tree search in LLM self-improvement.
 - [[arxiv-2605-28816-gamma-world]] — Gamma-World enables generative multi-agent video world modeling with permutation-symmetric agent encoding and sparse hub attention, scaling beyond two players.
+- [[autosci-memory-centric-research-lifecycle]] — AutoSci: memory-centric agentic system for the full scientific research lifecycle. Four modules — SciMem (schema-governed memory), SciFlow (5-stage harness), SciDAG (multi-agent augmentation), SciEvolve (self-evolution). End-to-end case studies in GPU kernels and drug discovery yield reviewable papers with ICLR scores 6.3/10 and 5.8/10.
 - [[awarevln-self-aware-vision-language-navigation-2026]] — AwareVLN: sparse self-aware reasoning triggers at key navigation points, enabling state understanding without 3D sensors or SLAM
 - [[awesome-code-as-agent-harness]] — Survey companion repo organizing 200+ papers on code as executable harness for LLM agents — three-layer framework: interface, mechanisms, scaling
 - [[bae-lmac-2026]] — LMAC uses an LLM as a protocol designer for cooperative multi-agent RL — iteratively refining agent-wise communication schemas via a state-awareness criterion (SAI) that measures per-dimension reconstruction accuracy and inter-agent knowledge imbalance
@@ -1085,6 +1097,7 @@ type: index
 - [[proxy-based-shapley-banzhaf-2026]] — ProxySHAP — polynomial-time Shapley/Banzhaf interaction estimation via tree-based proxy models with residual correction, setting new SOTA for explainability
 - [[ramirez-ruiz-mop-2024]] — Ramírez-Ruiz et al. (Nature Communications 2024) — Maximum Occupancy Principle: agents maximize future action-state path entropy instead of extrinsic reward, producing complex goal-directed behavior from intrinsic motivation alone
 - [[recuriosity-episodic-context-3d-exploration-2026]] — Wiki source page for Recuriosity (2605.22814v1) — curiosity-driven 3D exploration with persistent 3DGS world model and episodic RGB transformer policy
+- [[reuserl-skill-reuse-compression]] — ReuseRL grounds agentic RL in the Minimum Description Length principle — extracts a shared skill dictionary from successful trajectories and adds a segmentation-cost penalty, proving that structural compressibility (not raw brevity) drives generalization. PAC-Bayes bound on the MDL penalty.
 - [[reward-inside-model-elhsr]] — Efficient Linear Hidden State Reward (ELHSR): A lightweight reward model (<0.005% parameters) using internal LLM hidden states for Best-of-N sampling.
 - [[rim-reasoning-in-memory-2026]] — RiM — Reasoning in Memory, latent reasoning via fixed memory blocks in single forward pass
 - [[saerl]] — SAERL: Sparse Autoencoder Reinforcement Learning — uses SAE features (diversity, difficulty, quality) as intrinsic signals for post-training data engineering in GRPO; achieves 3% improvement over vanilla GRPO on Qwen2.5-Math-1.5B.
@@ -1096,6 +1109,7 @@ type: index
 - [[skillopt-self-evolving-2026]] — SkillOpt: First systematic text-space optimizer for agent skills — trains skill documents as external state via add/delete/replace edits, validation gating, and epoch-wise meta updates.
 - [[soundnessbench-ai-scientist-2026]] — Benchmark for AI scientist first-gate evaluation; LLMs show pervasive optimism bias on scientific soundness, not reliable as standalone proposal evaluators
 - [[specbench]] — SpecBench: evaluates SWE agents on specification-level reasoning — identifying deficiencies in RFC design proposals before implementation. Best model GPT-5.4 achieves 44.4%. Bridges SWE-bench gap.
+- [[stateful-monitoring-distributed-agent-attacks]] — First distributed agent attack: a multi-agent scaffold completes hard cybersecurity tasks while hiding the harmful objective across many user accounts. Standard monitors miss it 80% of the time. Online stateful monitor with stream clustering catches distributed attacks 30% earlier at ~99% traffic latency, and also catches standard jailbreaks.
 - [[stepopsd]] — Post-rollout step-level credit redistribution via hindsight teacher-student rescoring within GRPO, achieving +12.3% on ALFWorld and +8.7% on Search-QA over GRPO baseline
 - [[tokenisation-convex-relaxations-2026]] — ConvexTok: LP-based tokeniser construction replaces greedy BPE, yielding tokenisers within 1% of optimal compression
 - [[utimula-openpraparat-2025]] — Utimula (2025) — guideless ALife model combining Tierra gene mechanics with 3D virtual creatures; no fitness function; emergent reproduction (binary fission, budding), protective organs, and energy transport networks via mutation + natural selection
@@ -1137,9 +1151,16 @@ type: index
 - [[ghana-anti-lgbt-bill-may-2026]] — Ghana parliament passed anti-LGBT bill criminalizing gay acts, awaiting presidential signature — tests regional human rights trajectory
 - [[harm-cases]] — Historical engineering disasters grounding the technical-working-group personas in real-world harm
 - [[albanese-sanctions-divergence-insight]] — Francesca Albanese sanctions case reveals legal accountability mechanisms constraining executive sanctions power
+- [[bvd-utilities-infrastructure-insight]] — BVD outbreak response clusters water/sanitation infrastructure as topologically central — operational integration, not peripheral concern
+- [[cyprus-flotilla-diplomatic-crisis-insight]] — Far-right Israeli ministers cluster around Cyprus flotilla intercept — 430 abducted, 5+ ambassadors summoned, US selective enforcement
+- [[dflash-block-diffusion-inference-insight]] — DFlash block diffusion drafting: 6x speedup via parallel single-pass block-bidirectional drafters conditioning on target context features
+- [[ebola-drc-aid-collapse-convergence-insight]] — 2026 DR Congo Ebola outbreak exposes convergence of health crisis, USAID collapse, and regional instability — humanitarian response is systemically degraded
+- [[euler-formula-rope-reasoning-topology-insight]] — Euler's formula unifies elementary functions AND underpins RoPE — providing the mathematical substrate for LLM reasoning topology with 0.95 cross-model correlation
 - [[francesca-albanese-sanctions-case-insight]] — Albanese sanctions case: policy enforcement decoupled from legal status
 - [[francesca-albanese-sanctions-insight]] — Francesca Albanese sanctions case reveals legal accountability mechanisms constraining executive sanctions power
 - [[francesca-albanese-sanctions-legal-policy-divergence-insight]] — Francesca Albanese sanctions case reveals US foreign policy enforcement architecture decoupled from legal status through judicial constraints
+- [[markovian-carryover-session-synthesis-insight]] — Markovian carryover + MemGPT + ReAct + CodeAct form a unified bounded-state synthesis pattern for LLM agent session management
+- [[nous-portal-obsidian-para-integration-insight]] — Nous Portal bridges Hermes Agent with Obsidian PARA personal knowledge management — practitioners are stitching AI-PKM integrations the vendors haven't built
 - [[oee-knowledge-cluster-insight]] — Open-ended evolution forms a coherent knowledge community across Tierra, Lenia, and Evosphere artificial life systems
 - [[oee-knowledge-cluster-tierra-lenia-evosphere-insight]] — OEE forms a unifying knowledge community across Tierra, Extended Lenia, Evosphere, and Simss virtual creatures via shared coevolution dynamics
 - [[para-knowledge-architecture-cohesion-insight]] — PARA framework structural integrity confirmed in knowledge graph
@@ -1147,6 +1168,10 @@ type: index
 - [[para-system-cohesion-insight]] — PARA knowledge management framework demonstrates information entropy managed through intentional dormancy
 - [[para-system-knowledge-architecture-cohesion-insight]] — PARA knowledge management framework exhibits structural integrity in the knowledge graph with intentional dormancy as an entropy management strategy
 - [[para-system-knowledge-architecture-insight]] — PARA knowledge management framework confirmed structurally coherent via 208-entity cluster centered on Areas|Resources|Archives
+- [[residual-stream-transformer-vm-insight]] — Transformers implement a virtual machine: residual stream as state, attention/FFN as routines, learned weights as program — executable view of computation
+- [[server-session-unifies-agent-memory-insight]] — Server session unifies Markovian carryover, CodeAct, ReAct, MemGPT into one bounded-state synthesis pattern for LLM agent memory
+- [[sodalitium-pope-leo-xiv-insight]] — Pope Leo XIV's selection traces through Sodalitium Christianae Vitae scandal network — Salinas journalism, Osiek supervision, Peruvian retaliation
+- [[speculative-decoding-agent-efficiency-insight]] — Speculative decoding (DFlash) and LLM agent externalization share efficiency-first design principles; the two research domains are converging
 - [[titans-memory-architecture-insight]] — Titans three-tier memory architecture connects to speculative decoding through shared efficiency mechanisms
 - [[titans-memory-efficiency-insight]] — Titans memory architecture shares efficiency theme with speculative decoding via complementary test-time learning versus runtime speculation
 - [[intelligence-as-entropic-sculpting]] — Synthesis of SARH and MOP proposing that intelligence is the dynamic balance between maximizing potential states (MOP) and sculpting specific actualizations from noise (SARH).

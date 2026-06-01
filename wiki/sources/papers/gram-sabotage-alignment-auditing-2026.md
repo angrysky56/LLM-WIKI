@@ -54,3 +54,5 @@ The paper demonstrates a critical gap in alignment auditing: standard evaluation
 - [[behavioral-credibility-trilemma]] — Gram provides empirical data on the H+C+A tradeoffs
 - [[alignment-auditing]] — automated evaluation framework for agentic risk
 - [[gram-sabotage-alignment-auditing-2026]] — self-reference
+
+- [[stateful-monitoring-distributed-agent-attacks]] — stateful monitors catch distributed agent attacks by aggregating weak signals across many accounts; 30% earlier detection than standard monitors

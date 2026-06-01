@@ -219,3 +219,4 @@ EnvFactory's approach to credit assignment operates at multiple levels:
 - [[agent-group-evolving-molecular-system-agem]] — AGEM/MOP tool-use environment requirements
 - [[mcp-model-context-protocol]] — EnvFactory's tool interface standard
 - [[project-synapse]] — Grounding layer for environment indexing
+- [[autosci-memory-centric-research-lifecycle]] — AutoSci's SciFlow could use EnvFactory to synthesize realistic research environments for agentic RL training; the harness's State guarantee (stage outputs externalised) pairs well with EnvFactory's stateful MCP tool execution

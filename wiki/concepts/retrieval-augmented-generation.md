@@ -5,11 +5,14 @@ type: concept
 summary: "[STUB] RAG: augmenting LLMs with retrieval"
 tags: [stubs]
 sources: []
-status: stub
+status: archived
 confidence: 0.3
 ---
 
 # Retrieval Augmented Generation
+
+
+*Archived — Absorbed by [[rag]] (1.0) — the canonical RAG page. The graphrag (0.9) and rag (1.0) pages cover this concept fully; this stub is a duplicate alias.*
 
 *Stub page — needs real content*
 

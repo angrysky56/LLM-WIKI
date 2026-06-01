@@ -5,11 +5,14 @@ type: concept
 summary: "[STUB] Vision-language models and multimodal understanding"
 tags: [stubs]
 sources: []
-status: stub
+status: archived
 confidence: 0.3
 ---
 
 # Vlm
+
+
+*Archived — Absorbed by [[sources/papers/decoupling-perception-reasoning-vlm-post-training]] (0.8) which comprehensively covers VLM architecture and post-training dynamics. Vision-language-models is a well-defined area; this stub adds no new information.*
 
 *Stub page — needs real content*
 

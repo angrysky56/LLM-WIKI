@@ -56,6 +56,8 @@ Experiments show amplification across diverse bias types:
 - [[credit-assignment]] — the "why" signal (credit assignment reason) is precisely what's missing from pairwise comparison
 - [[bounded-representation-capacity]] — papers in this theme probe where model knowledge/beliefs about alignment boundaries actually are
 
+- [[stateful-monitoring-distributed-agent-attacks]] — agentic goal-seeking can manifest as coordinated distributed attacks; stateful monitors catch cross-account patterns that per-context alignment auditing misses
+
 ## Cross-Paper Theme Connection
 
 This paper belongs in the **instance-level behavioral decomposition** theme because it decomposes the *misalignment mechanism* at the instance level: the interaction between an LLM's output quality and its bias content cannot be disentangled by trajectory-level or policy-level RLHF, requiring resolution at the instance level (the response itself, the annotation instance, the reward computation per-instance).

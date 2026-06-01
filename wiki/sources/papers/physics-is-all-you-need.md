@@ -62,6 +62,7 @@ The critical distinction: **not whether the code produced right numbers, but whe
 - [[agentic-ai]] — AI as scientific collaborator, not just tool
 - [[oracle-tests]] — oracle test suites as supervision mechanism
 - [[self-improvement]] — agent iteratively improved via test feedback, but architectural errors required human intervention
+- [[autosci-memory-centric-research-lifecycle]] — AutoSci is the system-level continuation: full-lifecycle harness with persistent memory vs single-project supervision
 
 ## Kanban Status
 

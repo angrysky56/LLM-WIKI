@@ -5,11 +5,14 @@ type: concept
 summary: "[STUB] Concept index for wiki navigation"
 tags: [stubs]
 sources: []
-status: stub
+status: archived
 confidence: 0.3
 ---
 
 # Concept Index
+
+
+*Archived — Navigation stub duplicating wiki/concept-index.md (the canonical wiki navigation page). The 'connections' section is a list of wiki links, not concept content. Archive — this should never have been a content page.*
 
 *Stub page — needs real content*
 

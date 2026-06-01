@@ -63,3 +63,5 @@ confidence: high
 - CCO and [[behavioral-credibility-trilemma]] both address oversight of capable agents: Trilemma proves structural impossibility of H+C+A simultaneously; CCO provides a working construction for the H+C corner with calibrated conservatism
 - CCO extends [[attentive-utilitarian-preservation]] from side-effect avoidance to full agentic oversight with formal guarantees
 - [[finharness]] (prior batch) also addresses inline agent safety but via cascade routing; CCO provides theoretical grounding for conservatism-based approaches
+
+- [[stateful-monitoring-distributed-agent-attacks]] — stateful monitors aggregate weak signals across many accounts to catch distributed attacks; CCO provides the conservative baseline that makes such monitors reliable

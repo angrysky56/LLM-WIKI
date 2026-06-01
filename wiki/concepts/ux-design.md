@@ -5,11 +5,14 @@ type: concept
 summary: "[STUB] UX design — user experience design, interaction patterns, usability engineering"
 tags: [design, stubs]
 sources: []
-status: stub
+status: archived
 confidence: 0.3
 ---
 
 # UX Design
+
+
+*Archived — Non-AI design discipline stub. Related canonical: [[human-computer-interaction]] is also a stub, [[information-architecture]] and [[interaction-design]] are the application areas. No AI/ML knowledge graph benefit from expansion.*
 
 *Stub page — needs real content*
 

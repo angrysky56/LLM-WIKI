@@ -80,3 +80,5 @@ Risk evidence re-injected → agent: refuse / re-plan / approve / escalate
 - Related to prior cycle's [[agentic-safety]] work (Boiling the Frog) — different domain (finance) but same inline-vs-external supervision theme
 - Cascade routing pattern (lightweight/advanced judge) connects to [[sae]] for implicit risk signals
 - FinVault benchmark = finance-specific state-changing workflows
+
+- [[stateful-monitoring-distributed-agent-attacks]] — FinHarness focuses on per-turn scoring; stateful monitoring extends to cross-account aggregation via stream clustering, catching distributed attacks 30% earlier

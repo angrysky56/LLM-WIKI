@@ -1,33 +1,31 @@
-# News Agent Vault — 2026-05-31
+# News Agent Vault — 2026-06-01
 
-## RSS Summary (2026-05-31)
+## RSS Summary (2026-06-01)
 
-**BBC World**: Israel seizes castle in Lebanon (deepest incursion 26 yrs), Ebola DRC "deeply alarming" MSF, Japan defense minister vs China "huge arsenal", Colombia election today, Romania drone fears ongoing, Laos cave rescue ongoing.
+**BBC World**: US struck Iranian radar sites, Iran targets US in Kuwait (day 94), 20 US sites damaged since war start. Israel PM orders Beirut suburb strikes. Myanmar blast 39+ killed. Ebola DRC 5 patients recovered. France seized Russian tanker with UK help. Colombia runoff set.
 
-**Al Jazeera**: Israel crosses Litani River, seizes 12th century castle. Iran war day 93. Trump tightens terms on Iran deal, won't rush. Japan rejects "new militarism." Colombia election. Hezbollah strikes northern Israel.
+**Al Jazeera**: Beirut suburbs evacuation. El Niño 2026 tropical storm implications. Greece reopens Syrian/Afghan asylum. France Navy seizes Russian tanker. Lebanon Beaufort Castle Israel. Kuwait condemns Iranian attack. Ethiopia election. Israel bombs Lebanese restaurant.
 
-**NYT World**: Ebola inside epicenter, deaths mounting. Trump Iran meeting ends without final decision. Romania drone hit European confidence. Colombia election.
+**NYT World**: Iran US-Iran trade strikes, Kuwait targeted. Lebanon disarm Hezbollah failure. Yermak Ukraine crowdfunding bail. Mandelson Starmer files. Venezuelan industrial decay. Myanmar blast. Taiwan criticizes China over NYT expulsion. Colombia runoff set.
 
-**Guardian**: WHO Ebola death rate 30-50% "huge." DRC ceasefire needed for Ebola. Colombia election. Japan defense rebuffs China militarism claims. Aukus new drone tech. Australia buying secondhand nuclear subs.
+**Guardian**: Ghana LGBTQ panic. Rwanda court ruling. Wildfires study. WHO Ebola. Colombia far-right first-round winner Espriella. Typhoon Jangmi. Japan defense rebuffs China.
 
-**Bloomberg**: AI bubble debate. Congo adds lithium to strategic minerals. Poland growth leader. China factory activity worsens.
+**Bloomberg**: Oil jumps on Iran-Halt-Exchanges report. Colombian assets surge. Honeywell-backed Quantinuum $1.46B IPO. Turkey-Russia gas talks. JPMorgan traders doubt speculative tech after 57% rally. US futures up on Iran peace hope.
 
-## Stories Selected for Ingestion
+## Top Stories (Selected)
 
-1. **Israel/Lebanon — Deepest Incursion 26 Years** (NEW) — Israel crossed Litani River, seized Beaufort Castle. NBC: deepest incursion since 2000. Netanyahu vows to expand.
-2. **Ebola DRC — MSF "Deeply Alarming"** (UPDATING) — Ongoing carryover story. Case count rising, Sud-Kivu spreading, death rate 30-50%.
-3. **Trump/Iran — No Decision, Tightened Terms** (UPDATING) — Trump meeting ended without final determination. War day 93. Terms tightened, Hormuz condition.
-4. **Japan/China — "New Militarism" Spat** (NEW) — China labels Japan "new militarism." Japan rebuffs, says China rapidly arming. Defense spending/diplomatic tensions.
-5. **Colombia Election** (NEW) — May 31 election could redefine US relations. Outgoing leader's ally vs pro-Trump candidates.
+1. **US-Iran Direct Strikes (Kuwait theater)** — Day 94. US bombed Iranian radar; Iran struck US in Kuwait. First Kuwait targeting since 1991.
+2. **France/UK seize Russian tanker Tagor in Atlantic** — First-of-kind shadow-fleet high-seas interdiction. Macron public.
+3. **Quantinuum upsizes IPO to $1.46B at $14.3B** — Quantum-computing public-market milestone.
+4. **Colombia runoff: De la Espriella vs. Cepeda** — First round complete, June runoff.
+5. **Myanmar Shan State blast 39+ killed** — Rebel-held village, explosives depot.
 
 ## Existing Carryover Stories (Still Open — Not Re-ingesting)
-- Romania/NATO: Article 4 consultation ongoing, no formal resolution yet
-- SpaceX IPO: Monitoring — quiet period timing unclear
-- Ghana anti-LGBT: Awaiting presidential signature
-- Blue Origin: Months-long delay confirmed, NASA assessment pending
 
-## Dedup Check
-- spacex-ipo-s1-filed-may-2026: skip (SpaceX IPO still monitoring, no new S-1 news today)
-- nato-condemns-russia-after-drone-hits-romanian-residential-b: skip (Romania/NATO still open, no new determination)
-- trump-holds-meeting-to-make-final-determination-on-iran-deal: skip (still ongoing, Trump tightened terms but no decision)
-- All Ebola items already in carryover — skip unless new major development
+- Romania/NATO: Article 4 ongoing
+- SpaceX IPO: ~11 days to quiet period
+- Ghana anti-LGBT: Presidential signature pending
+- Blue Origin: Months-long delay
+- Israel/Lebanon: Deepest incursion in flight
+- Ebola DRC: WHO calling for community cooperation
+- Japan/China militarism spat: Diplomatic follow-up

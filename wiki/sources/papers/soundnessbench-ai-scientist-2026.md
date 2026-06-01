@@ -53,3 +53,4 @@ Without robust upfront filtering, autonomous research agents risk automating the
 - [[research-triage]] — first-gate evaluation of research proposals
 - [[evaluating-llms-harness]] — benchmark for LLM evaluation
 - [[soundnessbench-ai-scientist-2026]] — self-reference
+- [[autosci-memory-centric-research-lifecycle]] — AutoSci's Trust Guard (independent reviewer agent) is a constructive response to SoundnessBench's finding of pervasive optimism bias in LLM self-evaluation; the Trust Guard uses deterministic linting + independent reviewer agent for content validation

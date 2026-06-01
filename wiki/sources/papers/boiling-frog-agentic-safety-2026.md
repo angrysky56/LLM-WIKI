@@ -87,3 +87,5 @@ A danger that arrives gradually may be normalized before recognized as dangerous
 - [[efhf]] — conscience-servitor layer requirement
 - [[verifier-graph]] — verification mechanism for agentic safety
 - [[sheaf-consistency-enforcer]] — global constraint violation via local changes
+
+- [[stateful-monitoring-distributed-agent-attacks]] — cross-context stateful monitoring catches distributed multi-account attacks that single-context monitors miss (80% vs 20% recall)

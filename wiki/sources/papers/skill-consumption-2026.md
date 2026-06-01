@@ -115,7 +115,7 @@ A meta-skill that **guides extraction toward utility-features** (rather than sim
 ## Related
 - [[wiki/index]]
 - [[sources/papers/skill-consumption-2026]]
-
+- [[reuserl-skill-reuse-compression]] — structural compressibility provides the theoretical anchor for why skill extraction quality matters
 - [[skill-consumption-2026]]
 
 ## Structural Insights

@@ -4,10 +4,6 @@ DB_PATH = os.path.expanduser("~/.hermes/kanban.db")
 conn = sqlite3.connect(DB_PATH)
 cur = conn.cursor()
 
-# Check existing non-done tasks
-cur.execute("SELECT id, title, status FROM tasks WHERE status != 'done'")
-existing_non_done = {str(row[1]).strip(): row[0] for row in cur.fetchall()}
-
 # Check all existing (for dedup)
 cur.execute("SELECT id, title, status FROM tasks")
 existing_all = {str(row[1]).strip(): row[0] for row in cur.fetchall()}
@@ -16,8 +12,6 @@ def upsert(agent, title, body, priority=1, blocked=False):
     key = f"{agent}: {title}".strip()
     if key in existing_all:
         return existing_all[key], "skipped (exists)"
-    if key in existing_non_done:
-        return existing_non_done[key], "skipped (active)"
     ik = hashlib.sha256(key.encode()).hexdigest()[:16]
     tid = f"t_{uuid.uuid4().hex[:16]}"
     # news agent = wiki-writer → status='done' (informational card)
@@ -30,17 +24,29 @@ def upsert(agent, title, body, priority=1, blocked=False):
     conn.commit()
     return tid, "created"
 
-r1 = upsert("news", "Israel/Lebanon: Deepest Incursion 26 Years — Trump Deal Stalls",
-    "Day 93: Trump told Fox 'no hurry' for Iran deal, demanded amendments. Israel crossed Litani River, captured Beaufort Castle. Deal in limbo. IRGC shot down US drone. Needs monitoring.",
-    priority=1)
-r2 = upsert("news", "Japan/China: 'New Militarism' Spat Escalates",
-    "China labels Japan 'new militarism.' Japan rebuffs, citing China's 'huge arsenal.' Japan accelerating to 2% GDP defense spending. Direct diplomatic escalation — follow for policy implications.",
-    priority=1)
-r3 = upsert("news", "Colombia Election: Results Pending — US Relations at Stake",
-    "May 31 election: Petro ally vs. pro-Trump candidates. Winner TBD. Could redefine US-Colombia relations on trade, security, drugs. Monitor for result announcement.",
-    priority=1)
+# News agent informational cards for the 2026-06-01 cycle.
+# News writes to wiki, so these go in as status='done' (informational, dispatcher ignores).
+items = [
+    ("news", "US-Iran Direct Strikes: Kuwait Becomes Theater",
+     "Day 94 of Iran war: US bombed Iranian radar sites and air defenses; Iran retaliated by striking US forces in Kuwait with drones and missiles. First time Kuwait is a direct target since 1991 Gulf War. 20 US sites damaged since war start (BBC satellite analysis). Parallel ceasefire talks ongoing (Trump editing draft agreement on enriched uranium + Hormuz).",
+     1),
+    ("news", "France/UK Seize Russian Tanker 'Tagor' in Atlantic — First-of-Kind",
+     "French Navy with UK support intercepted sanctioned Russian shadow-fleet tanker Tagor in the Atlantic; Macron publicly confirmed. First-of-kind NATO European high-seas interdiction of a Russian sanctions-evasion vessel. Direct challenge to G7 $60/bbl price cap architecture.",
+     1),
+    ("news", "Quantinuum Upsizes IPO to $1.46B at $14.3B Valuation",
+     "Honeywell-backed pure-play trapped-ion quantum company targets $1.46B raise at $14.3B valuation. Major public-market validation for quantum hardware. Comes amid Bloomberg-reported AI-bubble debate — quantum positioned as 'next-AI' thesis.",
+     1),
+    ("news", "Colombia Runoff Set: De la Espriella vs. Cepeda",
+     "Right-wing pro-Trump Bukele-inspired De la Espriella leads first round; will face Petro-ally leftist Cepeda in June runoff. Petro's party 'sowing doubt in results' per AP. Colombian peso and assets surged on right-wing lead. Continues Latin America right-wing wave (Argentina/El Salvador/Ecuador pattern).",
+     1),
+    ("news", "Myanmar Shan State Blast Kills 39+ in Rebel-Held Village",
+     "Explosives depot blast flattened rebel-held village in northeast Myanmar (Shan State). Cause under investigation. Civilian impact of post-2021 civil war.",
+     2),
+]
 
-results = [r1, r2, r3]
+results = []
+for agent, title, body, prio in items:
+    results.append(upsert(agent, title, body, priority=prio))
 
 print("Done. Results:")
 for tid, status in results:

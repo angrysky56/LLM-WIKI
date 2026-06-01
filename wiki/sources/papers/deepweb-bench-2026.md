@@ -57,6 +57,7 @@ Frontier deep research products score high on existing benchmarks, making capabi
 - [[graphrag]] — graph traversal helps with cross-source reconciliation but not derivation depth
 - [[futuresim-adaptive-agents]] — FutureSim showed best frontier agents only 25% accurate on temporal world modeling; DeepWeb-Bench reveals where that failure comes from (derivation, not retrieval)
 - [[spin-vs-substrate]] — calibration failure is a spin-vs-substrate problem: the model reports one thing but the operational performance (derived answer accuracy) is something else
+- [[autosci-memory-centric-research-lifecycle]] — AutoSci's SciFlow harness addresses derivation failures via structured state/context/verification guarantees; SciMem's Trust Guard addresses calibration failures with independent content validation
 
 ## Caveats
 

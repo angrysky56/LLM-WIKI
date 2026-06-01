@@ -5,11 +5,14 @@ type: concept
 summary: "[STUB] XGBoost — gradient boosting library for tabular data"
 tags: [xgboost, stubs, ml-libraries]
 sources: []
-status: stub
+status: archived
 confidence: 0.3
 ---
 
 # XGBoost
+
+
+*Archived — ML library stub absorbed by [[tabpfn]] repository source (high-confidence) and the broader foundation-model-for-tabular-data narrative. XGBoost is the legacy comparison baseline, not a concept page target.*
 
 *Stub page — needs real content*
 

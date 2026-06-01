@@ -4,7 +4,7 @@ source: http://localhost:5173/
 author:
 published:
 created: 2026-05-31
-description: AGEM Interface — Agent Group Evolving Molecular System Output
+description: AGEM Interface —5 iteration output
 tags:
   - clippings
 ---

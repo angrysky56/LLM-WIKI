@@ -102,10 +102,9 @@ The optimizer model generates **add/delete/replace** operations on the skill doc
 ---
 
 ## Related
-- [[sources/papers/skillopt-self-evolving-2026]]
 - [[wiki/index]]
-
-- [[skillopt-self-evolving-2026]]
+- [[sources/papers/skillopt-self-evolving-2026]]
+- [[reuserl-skill-reuse-compression]] — shared theme: RL-based skill optimization and structural compressibility as generalization anchor
 
 ## Structural Insights
 

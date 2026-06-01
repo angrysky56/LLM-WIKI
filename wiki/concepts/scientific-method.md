@@ -5,11 +5,14 @@ type: concept
 summary: "[STUB] Scientific method — methodology for conducting scientific research"
 tags: [scientific-method, stubs]
 sources: []
-status: stub
+status: archived
 confidence: 0.3
 ---
 
 # Scientific Method
+
+
+*Archived — Meta-discipline stub. Related canonical: [[research-methodology]] and [[scientific-reasoning]] are also stubs, suggesting a weak cluster. [[agentic-research]] (0.8) covers the AI-for-science workflow specifically. No clean promotion target.*
 
 *Stub page — needs real content*
 

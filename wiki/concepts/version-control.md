@@ -5,11 +5,14 @@ type: concept
 summary: "[STUB] Version control — tracking changes to code and documents"
 tags: [version-control, stubs]
 sources: []
-status: stub
+status: archived
 confidence: 0.3
 ---
 
 # Version Control
+
+
+*Archived — Developer tooling stub, no AI/ML core connection. Related canonical: [[git]] and [[github]] cover git/version-control in the development context. No promotion path.*
 
 *Stub page — needs real content*
 

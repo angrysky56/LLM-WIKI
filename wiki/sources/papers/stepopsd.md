@@ -57,7 +57,7 @@ StepOPSD attains best or second-best on subsets most sensitive to local causal e
 ## Related
 - [[wiki/index]]
 - [[sources/papers/stepopsd]]
-
+- [[reuserl-skill-reuse-compression]] — orthogonal improvements: credit assignment (StepOPSD) vs structural compression (ReuseRL)
 - [[stepopsd]]
 
 ## Key Quotes

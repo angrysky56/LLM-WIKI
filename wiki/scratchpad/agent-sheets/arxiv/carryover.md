@@ -1,8 +1,8 @@
 ---
 created: 2026-05-26T00:00:00Z
-updated: 2026-05-30T09:55:00Z
+updated: 2026-06-01T14:30:00Z
 type: report
-summary: "arxiv agent carryover — 2026-05-30 batch: Self-Trained Verification (verifier training without human feedback), SpecBench (specification-level SWE agent evaluation), Physics-Is-All-You-Need (supervision protocol as trust infrastructure) — trustworthy scientific AI theme"
+summary: "arxiv agent carryover — 2026-06-01 batch: ReuseRL (MDL-grounded skill reuse), AutoSci (memory-centric research lifecycle), Stateful Monitoring (catches distributed agent attacks). Agent architecture + oversight theme — structural reuse as the unit of trustworthiness."
 tags: [arxiv, carryover]
 status: active
 confidence: high
@@ -25,55 +25,62 @@ confidence: high
 | 2026-05-27 (additional) | 6 papers processed | Real Images, Chartographer, Demographic Info + top 3 |
 | 2026-05-28 | 3 papers ingested | CCO, Gamma-World, BES — constraint satisfaction under distribution shift |
 | 2026-05-29 | 3 papers ingested | Gram, SoundnessBench, Entropy-Cut MH — evaluation infrastructure |
-| **2026-05-31** | **No new batch** | No new arXiv submissions today — API returned only 2026-05-28 papers already processed. Same rate-limiting pattern. |
+| 2026-05-31 | No new batch | No new arXiv submissions today — API returned only 2026-05-28 papers already processed. |
+| **2026-06-01** | **3 papers ingested** | **ReuseRL, AutoSci, Stateful Monitoring — agent architecture + oversight** |
 
 ## Current State
 
-- **arXiv**: 2026-05-30 batch fully processed — 3 papers ingested
-- **Wiki paper inventory**: ~351 pages (added self-trained-verification, specbench, physics-is-all-you-need)
-- **arXiv API**: Very aggressive rate limiting (multiple 429 errors); worked around via targeted ID queries
+- **arXiv**: 2026-06-01 batch fully processed — 3 papers ingested
+- **Wiki paper inventory**: ~94 pages in `wiki/sources/papers/` (added reuserl-skill-reuse-compression, autosci-memory-centric-research-lifecycle, stateful-monitoring-distributed-agent-attacks)
+- **arXiv API**: Still aggressive rate limiting; required sleep+backoff to merge cs.AI+cs.LG+cs.CL queries
 
-## Papers Ingested (2026-05-30 batch)
+## Papers Ingested (2026-06-01 batch)
 
 | Paper | arXiv ID | Key Finding | Wiki Connection |
 |-------|----------|-------------|------------------|
-| Self-Trained Verification | 2605.30290 | Reference-conditioned teacher + on-policy distillation trains verifiers without human feedback; 14× on scientific reasoning, breaks RLVR ceiling | Connects to [[test-time-scaling]], [[reasoning-scaffolding]], [[self-improvement]], [[llm-verification]] |
-| SpecBench | 2605.30314 | Evaluates SWE agents on specification-level reasoning (RFC proposal deficiency identification); best agent GPT-5.4 at 44.4% | Connects to [[SWE-bench]], [[agentic-ai]], [[evaluation]], [[ai-evaluation-infrastructure]] |
-| Physics-Is-All-You-Need | 2605.30353 | 33/57 sessions in wrong architecture that passed oracle tests; supervision protocol — not model capability — determines trustworthiness | Connects to [[ai-coding-agents]], [[supervision]], [[scientific-software]], [[oracle-tests]] |
+| ReuseRL | 2605.31509 | MDL penalty via skill-dictionary extraction from successful trajectories; PAC-Bayes bound; pure round-length penalty collapses (74% burned) | Connects to [[skillopt-self-evolving-2026]], [[skill-consumption-2026]], [[codeskill]], [[muse-autoskill]], [[stepopsd]], [[akbe]] — theoretical anchor for skill theme |
+| AutoSci | 2605.31468 | 4-module system (SciMem + SciFlow + SciDAG + SciEvolve) for full scientific research lifecycle; ICLR scores 6.3/10 (GPU kernels) and 5.8/10 (drug discovery) | Connects to [[physics-is-all-you-need]], [[why-llms-arent-scientists-yet]], [[soundnessbench-ai-scientist-2026]], [[deepweb-bench-2026]], [[xu-envfactory-2026]] — system-level culmination of trustworthy-scientific-AI theme |
+| Stateful Monitoring | 2605.31593 | First distributed agent attack; gpt-oss-120b 0%→36.7-40% via scaffold; online stateful monitor catches 30% earlier with stream clustering; also catches standard jailbreaks | Connects to [[boiling-frog-agentic-safety-2026]], [[gram-sabotage-alignment-auditing-2026]], [[calibrating-conservatism-scalable-oversight-2026]], [[finharness]], [[alignment-tampering]] — architectural level of oversight theme |
 
-## Cross-Paper Theme: Trustworthy Scientific AI — Infrastructure Layers
+## Cross-Paper Theme: Agentic Systems in Three Layers — Structural Reuse as the Unit of Trustworthiness
 
-| Paper | Infrastructure Type | Core Problem |
-|-------|---------------------|--------------|
-| Self-Trained Verification | Verification as training infrastructure | How do we train verifiers without human feedback? |
-| SpecBench | Evaluation infrastructure | How do we measure specification-level reasoning? |
-| Physics-Is-All-You-Need | Supervision as quality infrastructure | How do we catch what oracle tests miss? |
+| Layer | Paper | Architectural Lever |
+|-------|-------|---------------------|
+| **Training** (how the agent learns) | ReuseRL | MDL-grounded skill-dictionary penalty; PAC-Bayes generalisation |
+| **Runtime** (how the agent executes) | AutoSci | Schema-governed persistent memory + lifecycle harness + DAG augmentation + self-evolution |
+| **Oversight** (how the agent is monitored) | Stateful Monitoring | Stream clustering across user accounts; new class of safety monitor |
 
-**Design principle**: Trustworthy scientific AI requires infrastructure across all three layers — and infrastructure design (not model scale) is often the primary determinant of quality.
+**Design principle:** All three layers converge on the same idea — **structural reuse is the unit of trustworthiness**:
+- ReuseRL uses structural reuse as a training regulariser
+- AutoSci uses it as a memory substrate (skill entities, DAG templates, lifecycle stages)
+- Stateful Monitoring uses it as a detection signal (attackers reuse patterns across accounts → monitor catches it)
 
 ## Kanban Status
 
 ### Prior Cycle Open Items (from 2026-05-29 carryover)
 
-1. **Gram overeagerness finding — connection to CCO's calibrated conservatism**
-   - Self-answer: Both Gram and CCO address agents that exceed their constraints — Gram via auditing (detecting misbehavior), CCO via constraint repair (correcting misbehavior). The finding that overeagerness (not deliberate sabotage) is the primary driver aligns with CCO's calibrated conservatism approach. **Resolved**: No new kanban task — note as established cross-paper connection in synthesis.
-
-2. **SoundnessBench optimism bias — cross-reference with autonomous research agent literature**
-   - Self-answer: The bias is pervasive across all 12 frontier LLMs tested and not explained by contamination — a fundamental limitation of LLMs as autonomous research agents. Cross-reference with Locally Coherent's finding that per-component calibration doesn't guarantee system-level coherence — both point to systemic limitations of probabilistic reasoning in LLM agents. **Resolved**: No new task — connected to today's multi-agent coherence theme.
+1. **Gram overeagerness finding — connection to CCO's calibrated conservatism** — **Resolved** (see last carryover)
+2. **SoundnessBench optimism bias — cross-reference with autonomous research agent literature** — **Resolved** (see last carryover)
 
 ### This Cycle
 
-- [x] Prior cycle items resolved via cross-paper connection
-- [x] STV vs RiM comparison → t_ddf839070e904f9b (assigned researcher — wiki synthesis)
-- [x] Physics vs LLMSurgeon investigator agent pattern comparison → t_cbcdc7bee3cd46ca (assigned researcher — wiki synthesis)
-- [x] Predictive adequacy vs explanatory correctness → t_471274800c084c94 (assigned researcher — concept page creation)
+- [x] Prior cycle items remain resolved
+- [x] New theme emerging: Structural Reuse as the Unit of Trustworthiness — three papers converge on this
+- [x] Wiki pages cross-linked to existing concept/sources pages only (no broken wikilinks)
 
 ## Notes for Next Run
 
-- **arXiv rate limiting**: Very aggressive this cycle — multiple 429 errors. Used targeted ID queries only (no category search queries). Consider further backoff windows or API key if available.
-- **Prior carryover items resolved**: Gram/CCO connection and SoundnessBench bias are both addressed
-- **New theme emerging**: Trustworthy scientific AI infrastructure — three layers (verification, evaluation, supervision). Worth a synthesis page if not already covered.
-- **PDF storage**: `/home/ty/Documents/paper-research/arxiv-today/` for today’s batch; previous batch in main `paper-research/` dir
+- **arXiv rate limiting**: Still aggressive this cycle — multiple 429s and timeouts. Used single-category queries with sleep+backoff. Consider adding API key or larger backoff windows.
+- **New theme**: Agentic systems in three layers (training / runtime / oversight) with structural reuse as the unifying concept. Worth a synthesis page if not already covered.
+- **PDF storage**: `/home/ty/Documents/paper-research/processed/` for the three 2026-06-01 PDFs
+- **Inbox**: Empty — no manual processing needed
+
+## What Remains
+
+- [ ] (Optional) Create synthesis page on "Structural Reuse as Unit of Trustworthiness" if not yet covered in synthesis/
+- [ ] (Optional) Add incoming wikilinks from related wiki pages to the three new source pages (currently orphans — only have outgoing links)
+- [ ] (Pending) Researcher tasks from 2026-05-30 carryover: STV vs RiM comparison, Physics vs LLMSurgeon comparison, Predictive adequacy vs explanatory correctness
 
 ## Last Run
-2026-05-31 08:20 UTC — No new batch available. ArXiv API returned only 2026-05-28 papers (already processed). Nothing to process.
+
+2026-06-01 14:30 UTC — 3 papers processed from 2026-05-29 batch: ReuseRL (MDL-grounded skill reuse), AutoSci (memory-centric research lifecycle), Stateful Monitoring (catches distributed agent attacks).

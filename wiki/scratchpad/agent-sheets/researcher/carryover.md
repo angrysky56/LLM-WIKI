@@ -1,70 +1,51 @@
 ---
 created: 2026-05-26
-updated: 2026-09-13T08:10:00Z
+updated: 2026-06-01T08:10:00Z
 type: carryover
-summary: "Sep 13: quantization.md promoted (0.3→0.72); 6 stubs archived (devops, workflow, ai-security, llm-evaluation, futuresim, spike); stub count 320→313"
+summary: "Jun 1 cycle 2: shap (0.3→0.72) promoted; 11 stubs archived (duplicate alias: rag, concept-index; absorbed: vlm, xgboost, momoa-researcher, AGEM misnomer; non-AI periphery: version-control, ux-design, civil-rights, algebra, scientific-method)"
 tags: [researcher, carryover]
 ---
 
 ## CarryoverState
 
 ### Established
-- **[[quantization]]** promoted: Sep 13 — full page (0.72); quantization pipeline, NF4/INT4/FP8 formats, AWQ vs GPTQ, KV cache quantization, QLoRA relationship; cross-links to llm-inference, kv-cache, qora, parameter-efficient-fine-tuning, transformer-architecture
-- **[[curiosity-driven-exploration]]** promoted: Sep 8 — full page (0.72); 3 mechanisms, 6-method taxonomy, MOP relationship, Recuriosity amnesiac failure, LLM-specific, 3 open questions
-- **[[transfer-learning]]** promoted: Sep 8 — full page (0.75); 3 transfer regimes, pretraining→fine-tuning pipeline, hyperparameter transfer (μP, embedding LR bottleneck), transfer vs continual learning
-- **[[multi-agent-systems]]** promoted: Sep 7 — full page (0.72); 5-axis taxonomy, code-as-harness, open questions
-- **[[coordination]]** promoted: Sep 7 — full page (0.72); 5 failure modes, 4 mechanism categories, protocol table
-- **[[exploration]]** promoted: Sep 7 — full page (0.72); 4-strategy taxonomy, Recuriosity amnesiac, maximum-occupancy link
-- **[[ai-policy-federalism]]** promoted: Sep 2 — full page on US federal retreat / California de facto regulator; federalism implications; 4 open questions
+- **[[shap]]** promoted: Jun 1 (cycle 2) — full page (0.72); SHapley Additive exPlanations, axiom-grounded attribution (Lundberg & Lee 2017), KernelSHAP/TreeSHAP/DeepSHAP algorithm variants, foundation-model integration (TabPFN ships SHAP, VLMs use ProxySHAP for token attribution per 2026 paper), adversarial robustness caveat (Slack 2020 fooling attacks). Cross-links to [[shapley-values]], [[maximum-occupancy-principle]], [[tabpfn]], [[proxy-based-shapley-banzhaf-2026]], [[behavioral-credibility-trilemma]], [[llm-agent-architecture]], [[model-interpretation]].
 
-### Archived (Sep 13 — Gap Analysis)
-- **`devops.md`** → archived (meta-discipline, absorbed by tooling/version-control/github-actions)
-- **`workflow-management.md`** → archived (meta-discipline, absorbed by process-management + kanban-development)
-- **`ai-security.md`** → archived (absorbed by agentic-oversight (0.75) + adversarial-training (0.85))
-- **`llm-evaluation.md`** → archived (absorbed by evaluation.md (0.8))
-- **`futuresim-adaptive-agents.md`** → archived (absorbed by futuresim source (0.9) + world-model (0.8) + agentic-research (0.75))
-- **`spike-campaign-001-004-summary.md`** → archived (internal project notes absorbed by synthesis/seg-scientist-agent-design)
+### Archived (Jun 1 — Cycle 2)
+- **`retrieval-augmented-generation.md`** → archived (duplicate alias of `rag` 1.0)
+- **`concept-index.md`** → archived (navigation stub duplicating `wiki/concept-index.md` per AGENTS.md)
+- **`vlm.md`** → archived (absorbed by decoupling-perception-reasoning source 0.8)
+- **`xgboost.md`** → archived (absorbed by tabpfn; XGBoost is legacy comparison baseline, not a concept target)
+- **`momoa-researcher.md`** → archived (project entity, MOPOA is internal term; covered by agentic-research 0.8 + alphaevolve 0.8)
+- **`agent-group-evolving-molecular-system-agem.md`** → archived (MISLABELLED: title claims molecular dynamics but only source link is xu-envfactory-2026/EnvFactory, which is about MCP tool environments, not molecular dynamics)
+- **`version-control.md`** → archived (developer tooling, git/github cover it)
+- **`ux-design.md`** → archived (non-AI design discipline)
+- **`civil-rights.md`** → archived (US politics, non-AI periphery)
+- **`algebra.md`** → archived (math stubs cluster; covered in-context in transformer/optimization/linear-algebra-derived pages)
+- **`scientific-method.md`** → archived (meta-discipline; agentic-research 0.8 covers AI-for-science workflow)
 
-### Archived (Sep 12 — Agent Cluster Absorption)
-- **6 stubs archived** — agent architecture cluster absorbed by canonical pages
+### Archived (Jun 1 — Cycle 1, prior session)
+- **`zettelkasten.md`** → PROMOTED to 0.72
+- **`wikilinks.md`** → PROMOTED to 0.65
+- **`uv.md`, `webhook-subscriptions.md`, `truth-seeking.md`, `economics.md`, `applied-mathematics.md`, `numerical-methods.md`, `optimization.md`, `mathematics.md`** → all archived
 
-### Archived (Sep 9 — Bulk Periphery Audit)
-- **28 stubs archived** — non-AI periphery absorbed by MOP/agentic-research cluster canonical pages
+### Archived (Sep 13 — Previous Cycle)
+- **`devops.md`**, **`workflow-management.md`**, **`ai-security.md`**, **`llm-evaluation.md`**, **`futuresim-adaptive-agents.md`**, **`spike-campaign-001-004-summary.md`** → archived
 
-### Archived (Historical)
-- **[[model-properties]]**: Absorbed by model-behavior + model-editing + fine-tuning
-- **[[model-behavior]]**: Absorbed by behavioral-credibility-trilemma (high-confidence source)
-- **[[model-evaluation]]**: Absorbed by llm-agent-architecture (0.8) + production-llm-agent-runtime-architecture-patterns source
-- **[[production-stage-architecture]]**: Absorbed by llm-agent-architecture (0.8)
-- **[[tabular-data]]**: Absorbed by tabpfn source (high-confidence)
-- **[[graph-database]]**: Redundant; neo4j (0.8) is canonical
-- **[[persistent-goals-hermes-agent]]**: Redundant; goal-management (0.7) covers
-- **[[knowledge-graph]]** (synthesis stub): Redundant; neo4j (0.8) + graphrag (0.9)
-- **[[neural-networks]]**: Archived — absorbed by transformers (0.78)
-- **[[inference-efficiency]]**: Archived — absorbed by llm-inference (0.8)
+### Archived (Historical — Already Resolved)
+- model-properties, model-behavior, model-evaluation, production-stage-architecture, tabular-data, graph-database, persistent-goals-hermes-agent, knowledge-graph (synthesis), neural-networks, inference-efficiency
 
 ### Kanban Status
-- [x] Schema competition: resolved Aug 18
-- [x] MOP vs fine-tuning boundary: informational (resolved)
-- [x] agentic-react concept gap: informational (resolved)
-- [x] hermes-meta-cognition: PROMOTED Aug 20
-- [x] graph-database stub: ARCHIVED Aug 21
-- [x] persistent-goals-hermes-agent stub: ARCHIVED Aug 21
-- [x] ai-policy-federalism: PROMOTED Sep 2
-- [x] note-taking-systems-stub: ARCHIVED Sep 2
-- [x] 7 absorbed entity stubs: ARCHIVED Sep 2
-- [x] multi-agent-systems + coordination + exploration: PROMOTED Sep 7
-- [x] 5 absorbed stubs: ARCHIVED Sep 7
-- [x] curiosity-driven-exploration: PROMOTED Sep 8
-- [x] transfer-learning: PROMOTED Sep 8
-- [x] 6 entity stubs (harris, thomas-massie, donald-trump, doj, cassidy, who): ARCHIVED Sep 8
-- [x] 28 stubs bulk archived Sep 9 (MOP/agentic/scientific cluster absorption)
-- [x] 6 agent-cluster stubs archived Sep 12 (deliberative/reactive/meta-cognitive agents, agent-design, why-llms-arent-scientists-yet, scientific-reasoning)
-- [x] 6 stubs archived Sep 13 (devops, workflow-management, ai-security, llm-evaluation, futuresim-adaptive-agents, spike-campaign-001-004-summary)
+- [x] All prior carryover items resolved
+- [x] zettelkasten + wikilinks: PROMOTED Jun 1 cycle 1
+- [x] 8 stubs archived Jun 1 cycle 1 (uv, webhooks, truth-seeking, economics, math cluster)
+- [x] shap: PROMOTED Jun 1 cycle 2
+- [x] 11 stubs archived Jun 1 cycle 2 (rag duplicate, concept-index nav, vlm, xgboost, momoa-researcher, AGEM misnomer, version-control, ux-design, civil-rights, algebra, scientific-method)
 
 ### Open
-- **[Intent]**: Next cycle — audit optimization.md (applied-math stub cluster: applied-mathematics (0.3), numerical-methods (0.3), optimization (0.3)); audit remaining non-AI periphery stubs (economics, civil-rights, geopolitics) for absorption or archival; check scientific-method.md content thickness
-- **[Constraint]**: Wiki core (agents, MOP/EFHF, inference, PEFT) is largely resolved. Remaining stubs are either meta-disciplines, non-AI periphery, or specialized topics needing real research investment.
+- **[Intent]** Next cycle — promote `synthetic-data.md` (real gap, links to MOP + tabpfn + is-grep-all-you-need paper) and audit `seg-molecular-self.md` (MOP-adjacent, 2 hub hits). Re-scan HITS for thin high-authority pages needing depth.
+- **[Risk]** Stub count of 219 active stubs in concepts/ remains large; ~138 have zero hub links and are likely non-promotable periphery. Continued archival needed.
+- **[Constraint]** Core AI/ML graph (MOP/EFHF, agents, inference, PEFT, reasoning) is largely consolidated. Remaining work is mid-priority concepts (synthetic-data, interpretability variants) and high-volume archival of non-promotable stubs.
 
 ## Last Run
-2026-09-13 08:10Z
+2026-06-01 08:10Z (cycle 2)

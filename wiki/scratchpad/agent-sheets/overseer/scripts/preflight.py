@@ -247,10 +247,13 @@ def read_kanban_summary() -> dict:
         db = sqlite3.connect(str(KANBAN_DB))
         db.row_factory = sqlite3.Row
 
-        # Open tasks
+        # Open tasks: exclude 'done' (completed) AND 'archived' (zombie-recovery closure).
+        # archived is distinct from done — see kanban skill "Zombie recovery" pattern.
+        # Including archived here produced recurring false-positive: 2026-06-01 + 2026-06-02.
         rows = db.execute(
             "SELECT id, title, assignee, status, priority, created_at "
-            "FROM tasks WHERE status != 'done' ORDER BY priority DESC, created_at DESC"
+            "FROM tasks WHERE status NOT IN ('done', 'archived') "
+            "ORDER BY priority DESC, created_at DESC"
         ).fetchall()
 
         result["total_open"] = len(rows)

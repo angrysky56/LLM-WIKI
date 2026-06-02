@@ -1,24 +1,24 @@
 ---
+summary: Maximum Occupancy Principle — path-entropy-maximizing behavior theory; Layer 0 of EFHF (Prover9-verified)
+tags: [mop, entropy, intrinsic-motivation, behavioral-variability, reward-free, reinforcement-learning, absorbing-states, stochastic-policy, efhf, kernel-2, lumpability]
+updated: 2026-06-02T14:46:16Z
+---
+
+---
 created: 2026-04-14 04:12:42+00:00
 updated: 2026-05-23 08:55:00+00:00
 type: concept
 summary: Theory of behavior replacing reward maximization with action-state path entropy maximization — Layer 0 of EFHF architecture; absorbing states → Kernel 2 (Prover9-verified)
-tags: [mop, entropy, intrinsic-motivation, behavioral-variability, reward-free, reinforcement-learning, absorbing-states, stochastic-policy, efhf, kernel-2, lumpability]
+tags: ['mop', 'entropy', 'intrinsic-motivation', 'behavioral-variability', 'reward-free', 'reinforcement-learning', 'absorbing-states', 'stochastic-policy', 'efhf', 'kernel-2', 'lumpability']
 sources: []
 status: active
 confidence: 1.0
 ---
 
-
-
-
 # Maximum Occupancy Principle
 
 **Source:** [[ramirez-ruiz-mop-2024]] — Ramírez-Ruiz et al., *Nature Communications* (2024)
 **Status:** Active research area with follow-up work (NeuroMOP, PIMBAA workshop 2025)
-
-
-
 
 ## What It Is
 
@@ -43,10 +43,7 @@ MOP resolves several persistent problems in theories of behavior:
 Only the ratio β/α and γ matter:
 
 | Parameter | Controls | Effect |
-|
-|
-|
-|
+|---|---|---|
 | α | Action entropy weight | Higher → more diverse action strategies |
 | β | State-transition entropy weight | Higher → preference for surprising/novel outcomes; also controls risk sensitivity |
 | γ | Discount factor | Higher → longer planning horizon; avoids myopic traps (noisy TV problem) |
@@ -72,10 +69,7 @@ MOP serves as Layer 0 (Intrinsic Motivation) of the [[efhf]] architecture. The e
 **Formally verified (Prover9):** MOP absorbing states → EFHF Kernel 2 transitions. Zero future entropy ↔ zero future computation ↔ Kernel 2. The structural equivalence is a logical theorem, not an analogy.
 
 | MOP Concept | EFHF Concept | Relationship |
-|
-|
-|
-|
+|---|---|---|
 | Absorbing state | Kernel 2 transition | Proved equivalent |
 | Energy reservoir | Buffering capacity T | Operational mapping |
 | Discount factor γ | Coherence window τ | Both control planning horizon |
@@ -83,6 +77,7 @@ MOP serves as Layer 0 (Intrinsic Motivation) of the [[efhf]] architecture. The e
 | Uncontrolled high-Δ | Weak lumpability failure | Hallucination |
 
 ## Connections
+
 - [[concepts/reinforcement-learning-from-human-feedback]]
 - [[concepts/privacy-mas]]
 - [[concepts/agent-skills-spec]]
@@ -90,7 +85,6 @@ MOP serves as Layer 0 (Intrinsic Motivation) of the [[efhf]] architecture. The e
 - [[agents/skills/researcher-agent/skill]]
 - [[concepts/trump-administration-national-security]]
 - [[concepts/public-health-governance]]
-- [[scratchpad/agent-sheets/librarians-assistant/workspace/batch-progress]]
 - [[concepts/nasa-artemis]]
 - [[concepts/epistemic-energy]]
 - [[sources/papers/utimula-openpraparat-2025]]
@@ -105,19 +99,17 @@ MOP serves as Layer 0 (Intrinsic Motivation) of the [[efhf]] architecture. The e
 - [[concepts/google-research]]
 - [[concepts/hybrid-agents]]
 - [[sources/papers/shannon-scaling-law-2026]]
-- [[scratchpad/jobs/reports/arxiv/arxiv-2026-05-23-top-papers]]
 - [[concepts/3dgs]]
 - [[concepts/code-generation]]
 - [[concepts/content-addressed-storage]]
 - [[concepts/episodic-memory]]
 - [[concepts/mop-and-rlhf-interaction]]
 - [[concepts/russia-belarus-nuclear]]
-- [[scratchpad/agent-sheets/librarians-assistant/carryover]]
 - [[concepts/firecracker]]
 - [[concepts/llm-agents]]
 - [[concepts/latent-communication]]
 - [[concepts/spike-campaign-001-004-summary]]
-- [[sources/papers/betteti-baggio-bullo-zampieri-idp-hopfield-2025]]
+- [[sources/papers/betteti-baggio-bullo-zampieri-hopfield-2025]]
 - [[concepts/cri]]
 - [[concepts/public-health]]
 - [[concepts/waldis-instructions-shape-language-2026]]
@@ -125,7 +117,6 @@ MOP serves as Layer 0 (Intrinsic Motivation) of the [[efhf]] architecture. The e
 - [[wiki/index]]
 - [[concepts/spike-001-spacy-owlready2]]
 - [[synthesis/causal-state-edm-ood-isomorphism]]
-- [[scratchpad/jobs/reports/librarian/audit-2026-05-21]]
 - [[concepts/india-us-relations]]
 - [[concepts/who-emergency-declarations]]
 - [[concepts/north-american-energy-politics]]
@@ -151,7 +142,6 @@ MOP serves as Layer 0 (Intrinsic Motivation) of the [[efhf]] architecture. The e
 - [[synthesis/bounded-structured-memory]]
 - [[synthesis/mop-edm-cognitive-architecture]]
 - [[log]]
-- [[scratchpad/agent-sheets/librarian/carryover]]
 - [[concepts/2026-05-news]]
 - [[entities/tools/mcp-logic]]
 - [[concepts/tabpfn-extensions]]
@@ -166,7 +156,6 @@ MOP serves as Layer 0 (Intrinsic Motivation) of the [[efhf]] architecture. The e
 - [[concepts/agent-group-evolving-molecular-system-agem]]
 - [[concepts/codebase-inspection]]
 - [[concepts/production-stage-architecture]]
-- [[scratchpad/jobs/reports/researcher/discovery-2026-07-01]]
 - [[concepts/taplo]]
 - [[concepts/wikilinks]]
 - [[concepts/habitat]]
@@ -222,7 +211,6 @@ MOP serves as Layer 0 (Intrinsic Motivation) of the [[efhf]] architecture. The e
 - [[sources/papers/awarevln-self-aware-vision-language-navigation-2026]]
 - [[concepts/global-health-security]]
 - [[concepts/random-forest]]
-- [[concepts/maximum-occupancy-principle]]
 - [[concepts/tabpfn-client]]
 - [[concepts/edm-framework]]
 - [[concepts/webhook-subscriptions]]
@@ -234,7 +222,8 @@ MOP serves as Layer 0 (Intrinsic Motivation) of the [[efhf]] architecture. The e
 - [[concepts/indie-hacking]]
 - [[concepts/concept-index]]
 - [[synthesis/intelligence-as-entropic-sculpting]]
-- [[maximum-occupancy-principle]]
+
+## See Also
 
 - [[ramirez-ruiz-mop-2024]] — source paper with full mathematical detail
 - [[efhf]] — the five-layer architecture MOP integrates with as Layer 0
@@ -242,130 +231,122 @@ MOP serves as Layer 0 (Intrinsic Motivation) of the [[efhf]] architecture. The e
 - [[causal-state-edm-ood-isomorphism]] — epsilon machines provide the theoretical bridge; MOP agents seek to *create* new causal states
 - [[zettelkasten-engine]] — MOP-guided exploration prioritizes high-disruption insight regions
 - [[mop-edm-cognitive-architecture]] — full synthesis: MOP + EDM + EFHF cognitive architecture
-- Concept: [[2026-05-news]]
-- Concept: [[3dgs]]
-- Concept: [[CRI]]
-- Concept: [[Firecracker]]
-- Concept: [[agent-group-evolving-molecular-system-agem]]
-- Concept: [[agent-native-design]]
-- Concept: [[agent-skills-spec]]
-- Concept: [[agentic-reasoning]]
-- Concept: [[ai-for-science]]
-- Concept: [[ai-safety]]
-- Concept: [[alphaevolve]]
-- Concept: [[autonomous-research]]
-- Concept: [[autopoiesis]]
-- Concept: [[betteti-baggio-bullo-zampieri-idp-hopfield-2025]]
-- Concept: [[blackmail]]
-- Concept: [[bounded-structured-memory]]
-- Concept: [[business-model]]
-- Concept: [[causal-reasoning]]
-- Concept: [[china-energy-security]]
-- Concept: [[china-industrial-policy]]
-- Concept: [[code-generation]]
-- Concept: [[codebase-inspection]]
-- Concept: [[compound-commands]]
-- Concept: [[concept-index]]
-- Concept: [[content-addressed-storage]]
-- Concept: [[continual-learning]]
-- Concept: [[curiosity-driven-exploration]]
-- Concept: [[directed-preferential-placement]]
-- Concept: [[ebola-outbreak-drc-2026]]
-- Concept: [[episodic-memory]]
-- Concept: [[epistemic-energy]]
-- Concept: [[essa]]
-- Concept: [[evolutionary-strategies]]
-- Concept: [[fts5]]
-- Concept: [[functional-emotions]]
-- Concept: [[geometric-hashing]]
-- Concept: [[github-actions]]
-- Concept: [[global-health-infrastructure]]
-- Concept: [[global-health-security]]
-- Concept: [[google-research]]
-- Concept: [[group-relative-policy-optimization]]
-- Concept: [[habitat]]
-- Concept: [[hormuz-strait-security]]
-- Concept: [[india-energy-strategy]]
-- Concept: [[india-us-relations]]
-- Concept: [[indie-hacking]]
-- Concept: [[information-retrieval]]
-- Concept: [[iran-ceasefire]]
-- Concept: [[java]]
-- Concept: [[latent-communication]]
-- Concept: [[latex]]
-- Concept: [[llm-agent-architecture]]
-- Concept: [[llm-agents]]
-- Concept: [[llm-evaluation]]
-- Concept: [[llm-kernel-optimization]]
-- Concept: [[machine-psychology]]
-- Concept: [[major-transitions]]
-- Concept: [[mcp-model-context-protocol]]
-- Concept: [[micro-saas]]
-- Concept: [[mobile-automata]]
-- Concept: [[mojo-language]]
-- Concept: [[mop-and-rlhf-interaction]]
-- Concept: [[mop-explorer]]
-- Concept: [[mop-next-token-prediction]]
-- Concept: [[nasa-artemis]]
-- Concept: [[nato-expansion]]
-- Concept: [[neural-architecture-search]]
-- Concept: [[north-american-energy-politics]]
-- Concept: [[novelty-search]]
-- Concept: [[ollama]]
-- Concept: [[open-ended-evolution]]
-- Concept: [[overlayfs]]
-- Concept: [[peter-steinberger]]
-- Concept: [[prd-ralph-loop-mop-gemini]]
-- Concept: [[printing-press]]
-- Concept: [[privacy-mas]]
-- Concept: [[probing-analysis]]
-- Concept: [[product-strategy]]
-- Concept: [[production-stage-architecture]]
-- Concept: [[programmatic-seo]]
-- Concept: [[public-health]]
-- Concept: [[public-health-governance]]
-- Concept: [[qes]]
-- Concept: [[random-forest]]
-- Concept: [[reconstruction-attack]]
-- Concept: [[reinforcement-learning-from-human-feedback]]
-- Concept: [[retrieval-augmented-generation]]
-- Concept: [[russia-belarus-nuclear]]
-- Concept: [[russia-ukraine-war]]
-- Concept: [[seg-molecular-self]]
-- Concept: [[shap]]
-- Concept: [[sledgehammer]]
-- Concept: [[social-media-regulation]]
-- Concept: [[solo-development]]
-- Concept: [[sovereign-ai]]
-- Concept: [[spacex-starship-development]]
-- Concept: [[spec-driven-development]]
-- Concept: [[synthetic-data]]
-- Concept: [[tabpfn-client]]
-- Concept: [[tabpfn-extensions]]
-- Concept: [[tabular-data]]
-- Concept: [[taplo]]
-- Concept: [[tiktok-youtube-ofcom-report]]
-- Concept: [[trump-administration-national-security]]
-- Concept: [[trunk]]
-- Concept: [[truth-seeking]]
-- Concept: [[us-intelligence-community]]
-- Concept: [[utimula-openpraparat-2025]]
-- Concept: [[uv]]
-- Concept: [[video-llm]]
-- Concept: [[vlm]]
-- Concept: [[waldis-instructions-shape-language-2026]]
-- Concept: [[webhook-subscriptions]]
-- Concept: [[who-emergency-declaration]]
-- Concept: [[who-emergency-declarations]]
-- Concept: [[wikilinks]]
-- Concept: [[world-model]]
 
+## Related Concepts
 
-- [[Firecracker]]
-- [[musk-velocity]]
-- [[hybrid-agents]]
-- [[activation-engineering]]
-- [[rz-nas]]
-- [[bounded-rationality]]
-- [[namm]]
+- [[2026-05-news]]
+- [[3dgs]]
 - [[CRI]]
+- [[Firecracker]]
+- [[agent-group-evolving-molecular-system-agem]]
+- [[agent-native-design]]
+- [[agent-skills-spec]]
+- [[agentic-reasoning]]
+- [[ai-for-science]]
+- [[ai-safety]]
+- [[alphaevolve]]
+- [[autonomous-research]]
+- [[autopoiesis]]
+- [[blackmail]]
+- [[bounded-structured-memory]]
+- [[business-model]]
+- [[causal-reasoning]]
+- [[china-energy-security]]
+- [[china-industrial-policy]]
+- [[code-generation]]
+- [[codebase-inspection]]
+- [[compound-commands]]
+- [[concept-index]]
+- [[content-addressed-storage]]
+- [[continual-learning]]
+- [[curiosity-driven-exploration]]
+- [[directed-preferential-placement]]
+- [[ebola-outbreak-drc-2026]]
+- [[episodic-memory]]
+- [[epistemic-energy]]
+- [[essa]]
+- [[evolutionary-strategies]]
+- [[fts5]]
+- [[functional-emotions]]
+- [[geometric-hashing]]
+- [[github-actions]]
+- [[global-health-infrastructure]]
+- [[global-health-security]]
+- [[google-research]]
+- [[group-relative-policy-optimization]]
+- [[habitat]]
+- [[hormuz-strait-security]]
+- [[india-energy-strategy]]
+- [[india-us-relations]]
+- [[indie-hacking]]
+- [[information-retrieval]]
+- [[iran-ceasefire]]
+- [[java]]
+- [[latent-communication]]
+- [[latex]]
+- [[llm-agent-architecture]]
+- [[llm-agents]]
+- [[llm-evaluation]]
+- [[llm-kernel-optimization]]
+- [[machine-psychology]]
+- [[major-transitions]]
+- [[mcp-model-context-protocol]]
+- [[micro-saas]]
+- [[mobile-automata]]
+- [[mojo-language]]
+- [[mop-and-rlhf-interaction]]
+- [[mop-explorer]]
+- [[mop-next-token-prediction]]
+- [[nasa-artemis]]
+- [[nato-expansion]]
+- [[neural-architecture-search]]
+- [[north-american-energy-politics]]
+- [[novelty-search]]
+- [[ollama]]
+- [[open-ended-evolution]]
+- [[overlayfs]]
+- [[peter-steinberger]]
+- [[prd-ralph-loop-mop-gemini]]
+- [[printing-press]]
+- [[privacy-mas]]
+- [[probing-analysis]]
+- [[product-strategy]]
+- [[production-stage-architecture]]
+- [[programmatic-seo]]
+- [[public-health]]
+- [[public-health-governance]]
+- [[qes]]
+- [[random-forest]]
+- [[reconstruction-attack]]
+- [[reinforcement-learning-from-human-feedback]]
+- [[retrieval-augmented-generation]]
+- [[russia-belarus-nuclear]]
+- [[russia-ukraine-war]]
+- [[seg-molecular-self]]
+- [[shap]]
+- [[sledgehammer]]
+- [[social-media-regulation]]
+- [[solo-development]]
+- [[sovereign-ai]]
+- [[spacex-starship-development]]
+- [[spec-driven-development]]
+- [[synthetic-data]]
+- [[tabpfn-client]]
+- [[tabpfn-extensions]]
+- [[tabular-data]]
+- [[taplo]]
+- [[tiktok-youtube-ofcom-report]]
+- [[trump-administration-national-security]]
+- [[trunk]]
+- [[truth-seeking]]
+- [[us-intelligence-community]]
+- [[utimula-openpraparat-2025]]
+- [[uv]]
+- [[video-llm]]
+- [[vlm]]
+- [[waldis-instructions-shape-language-2026]]
+- [[webhook-subscriptions]]
+- [[who-emergency-declaration]]
+- [[who-emergency-declarations]]
+- [[wikilinks]]
+- [[world-model]]

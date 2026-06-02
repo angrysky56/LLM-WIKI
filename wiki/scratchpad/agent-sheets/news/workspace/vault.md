@@ -1,31 +1,35 @@
-# News Agent Vault — 2026-06-01
+# News Agent Vault — 2026-06-02
 
-## RSS Summary (2026-06-01)
+## RSS Summary (2026-06-02)
 
-**BBC World**: US struck Iranian radar sites, Iran targets US in Kuwait (day 94), 20 US sites damaged since war start. Israel PM orders Beirut suburb strikes. Myanmar blast 39+ killed. Ebola DRC 5 patients recovered. France seized Russian tanker with UK help. Colombia runoff set.
+**BBC World**: Top story: Israel-Hezbollah partial ceasefire announced by Trump; ground clashes continue. Russia massive Kyiv strikes 18+ killed. Two shot dead in Kenya Ebola protests. Trump 25% Brazil tariff. Anthropic IPO at $1T.
 
-**Al Jazeera**: Beirut suburbs evacuation. El Niño 2026 tropical storm implications. Greece reopens Syrian/Afghan asylum. France Navy seizes Russian tanker. Lebanon Beaufort Castle Israel. Kuwait condemns Iranian attack. Ethiopia election. Israel bombs Lebanese restaurant.
+**Al Jazeera**: Israel kills five in Lebanon AFTER Trump announces de-escalation. Lebanon partial ceasefire announced but attacks continue. Trump says Israel-Hezbollah to stop fighting. High Court orders Kenya government to release Ebola facility details.
 
-**NYT World**: Iran US-Iran trade strikes, Kuwait targeted. Lebanon disarm Hezbollah failure. Yermak Ukraine crowdfunding bail. Mandelson Starmer files. Venezuelan industrial decay. Myanmar blast. Taiwan criticizes China over NYT expulsion. Colombia runoff set.
+**NYT World**: "Israel Appears to Back Off Threat to Strike Beirut." "Russia Is Showing Signs of Weakness in Ukraine. So It Hits Harder." "U.S. Was Asked to Blacklist Colombian Cartel Gold. It Was Also Buying It." "Trump Targets Brazil With 25% Tariff." Battling Ebola in Eastern Congo. Carney: antisemitism crisis in Canada. UK Releases Mandelson Files.
 
-**Guardian**: Ghana LGBTQ panic. Rwanda court ruling. Wildfires study. WHO Ebola. Colombia far-right first-round winner Espriella. Typhoon Jangmi. Japan defense rebuffs China.
+**Guardian**: "Trump admirer Espriella surprise first-round win in Colombia." "People 'panicking' as Ghana passes sweeping law criminalising LGBTQ+ activity." Trump Targets Brazil 25% Tariff.
 
-**Bloomberg**: Oil jumps on Iran-Halt-Exchanges report. Colombian assets surge. Honeywell-backed Quantinuum $1.46B IPO. Turkey-Russia gas talks. JPMorgan traders doubt speculative tech after 57% rally. US futures up on Iran peace hope.
+**Bloomberg**: Oil drops on Iran-US peace deal prospects. Where US, Iran Stand on Peace Talks, Strait of Hormuz. UniCredit-Commerzbank. Senegal default fears. Russia crude exports amid drone strikes. Hammack Fed inflation warning.
 
 ## Top Stories (Selected)
 
-1. **US-Iran Direct Strikes (Kuwait theater)** — Day 94. US bombed Iranian radar; Iran struck US in Kuwait. First Kuwait targeting since 1991.
-2. **France/UK seize Russian tanker Tagor in Atlantic** — First-of-kind shadow-fleet high-seas interdiction. Macron public.
-3. **Quantinuum upsizes IPO to $1.46B at $14.3B** — Quantum-computing public-market milestone.
-4. **Colombia runoff: De la Espriella vs. Cepeda** — First round complete, June runoff.
-5. **Myanmar Shan State blast 39+ killed** — Rebel-held village, explosives depot.
+1. **Israel-Hezbollah Partial Ceasefire (Trump, ground clashes continue)** — Trump-Netanyahu "crazy" call. Iran suspended US talks.
+2. **Russia massive Kyiv strikes** — 18+ killed, NYT frames as Russian weakness.
+3. **Trump 25% Brazil tariff** — Politically-motivated, first against Latin American BRICS member.
+4. **Anthropic IPO filing at ~$1T** — Second trillion-dollar AI listing this quarter (post-SpaceX 2026-06-12).
+5. **Kenya court blocks US Ebola facility, 2 killed in protests** — Sovereignty test case.
 
 ## Existing Carryover Stories (Still Open — Not Re-ingesting)
 
-- Romania/NATO: Article 4 ongoing
-- SpaceX IPO: ~11 days to quiet period
+- Iran war (day 95): Trump expects deal "over the next week"
+- France/UK tanker seizure Tagor: Russian response pending
+- Quantinuum IPO: Public reception spillover
+- Colombia runoff: Campaign dynamics, US-Brazil coordination
+- Myanmar blast 39+: Cause attribution pending
+- Romania/NATO Article 4: Long-running
+- SpaceX IPO (2026-06-12): BlackRock $10B
 - Ghana anti-LGBT: Presidential signature pending
 - Blue Origin: Months-long delay
-- Israel/Lebanon: Deepest incursion in flight
-- Ebola DRC: WHO calling for community cooperation
 - Japan/China militarism spat: Diplomatic follow-up
+- Ebola DRC: 3 vaccines in development

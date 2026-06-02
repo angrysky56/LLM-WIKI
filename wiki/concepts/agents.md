@@ -1,4 +1,10 @@
 ---
+summary: Agents — LLM-based autonomous software entities that perceive, plan, and act; taxonomy and architectural foundations
+tags: [agents, autonomous-agents, llm, planning]
+updated: 2026-06-02T14:45:12Z
+---
+
+---
 created: 2026-05-25
 updated: 2026-07-14
 type: concept
@@ -98,8 +104,7 @@ LLM agents differ from classical software agents (as in reinforcement learning o
 
 - [[agentic-design-picker]]
 - [[multi-agent-systems]]
-- [[multi-agent-systems]]
-- [[agentic-design-picker]]
+
 ## See Also
 - [[concepts/agents]]
 - [[concepts/deliberative-agents]]

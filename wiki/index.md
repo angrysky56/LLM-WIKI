@@ -1,5 +1,5 @@
 ---
-updated: 2026-06-01T21:53:12Z
+updated: 2026-06-02T14:46:33Z
 type: index
 ---
 
@@ -287,7 +287,7 @@ type: index
 - [[mathematical-reasoning-ai]] — [STUB] Mathematical reasoning capabilities in AI systems
 - [[mathematical-reasoning]] — Rigorous deduction and proof-based thinking in mathematics — deductive reasoning, proof techniques, abstraction, formalization, and its intersection with AI reasoning and formal verification
 - [[mathematics]] — Archived — mathematics is meta-discipline covered in-context in AI/ML pages
-- [[maximum-occupancy-principle]] — Theory of behavior replacing reward maximization with action-state path entropy maximization — Layer 0 of EFHF architecture; absorbing states → Kernel 2 (Prover9-verified)
+- [[maximum-occupancy-principle]] — Maximum Occupancy Principle — path-entropy-maximizing behavior theory; Layer 0 of EFHF (Prover9-verified)
 - [[mcp-model-context-protocol]] — MCP — an open standard protocol for connecting AI assistants to external tools, data sources, and services via a structured client-server architecture
 - [[mcp]] — Redirect stub — canonical page is mcp-model-context-protocol.md
 - [[mechanism-design]] — [STUB] Mechanism design — game theory of designing incentive-compatible systems
@@ -437,7 +437,7 @@ type: index
 - [[score-based-models]] — Score-based generative models — learn ∇_x log p(x) and sample via Langevin dynamics or SDE reverse-time simulation.
 - [[scrum]] — [STUB] Scrum — Agile project management framework with sprints, roles, and ceremonies
 - [[sd-search]] — [STUB] On-policy hindsight self-distillation for step-level credit assignment in search-augmented reasoning (MA et al., 2026)
-- [[seg-molecular-self]] — [STUB] SEG molecular self-assembly system
+- [[seg-molecular-self]] — Drift-resistance mechanism for persona-level consistency in the SEG council — molecular-self analogy, three mechanisms (anchored memory, cross-probes, MOP bounds), failure modes
 - [[self-correction]] — The capability and architectures of LLMs to detect, critique, and revise their own outputs — distinct from explicit CoT or formal metacognitive control
 - [[semiconductor-geopolitics]] — [STUB] Semiconductor geopolitics — chip manufacturing and trade tensions
 - [[set-theory]] — [STUB] Set theory — mathematical theory of sets and collections
@@ -468,7 +468,7 @@ type: index
 - [[surprise-based-learning]] — A learning paradigm where the model prioritizes information storage or weight updates based on the "surprise" value (prediction error or gradient magnitude).
 - [[swe-bench]] — SWE-Bench — benchmark for software engineering tasks from real GitHub issues; tests agent ability to resolve real-world code problems
 - [[symbolic-regression]] — Discovering closed-form mathematical expressions from data — approaches include genetic programming, neural-guided search, and gradient-optimized EML trees that are complete by construction
-- [[synthetic-data]] — [STUB] Synthetic data generation for ML training
+- [[synthetic-data]] — Synthetic data generation for ML — generation strategies, model collapse, MOP integration, when to use vs. real data
 - [[systems-theory]] — [STUB] Systems theory — theory of how systems interact and self-organize
 - [[tabpfn-client]] — [STUB] TabPFN client library
 - [[tabpfn-extensions]] — [STUB] TabPFN extensions and integrations
@@ -618,7 +618,7 @@ type: index
 - [[shut-down-entity]] — GoodRobot SHUT DOWN — zero-human AI agent company, ethics board simulation
 - [[technical-architecture]] — GoodRobot technical architecture — agent runtime, task routing, memory system, API design
 - [[arxiv]] — 
-- [[carryover]] — arxiv agent carryover — 2026-06-01 batch: ReuseRL (MDL-grounded skill reuse), AutoSci (memory-centric research lifecycle), Stateful Monitoring (catches distributed agent attacks). Agent architecture + oversight theme — structural reuse as the unit of trustworthiness.
+- [[carryover]] — arxiv agent carryover — 2026-06-02 batch: Monitoring Maturity (3x3 scope×dim grid + variance + FMEA triage), SkillHarm (lifecycle skill attacks, ASR 86.3%/69.3%), HLL (CAPTCHA as human-substitution test + trace-conditioned validation). New theme: capability-vs-deployment gap.
 - [[patterns]] — 
 - [[workflow]] — 
 - [[report]] — 
@@ -626,18 +626,18 @@ type: index
 - [[vault-2026-05-30]] — 
 - [[vault]] — 
 - [[ingest]] — 
-- [[carryover]] — 2 files ingested (AGEM quantum mechanics corpus + Copenhagen deep-dive), raw/ empty. Pipeline healthy.
+- [[carryover]] — 2 files ingested (AGEM hard-problem corpus + image-extender README), 486 graph nodes, raw/ empty. Pipeline healthy; one skill patch needed.
 - [[workflow]] — 
 - [[ingest-report]] — 
 - [[vault]] — 
 - [[insights]] — 
-- [[carryover]] — 4 insights generated, 4 wiki pages created (all confidence 0.85) — CLI completed cleanly in ~5min, healthy 2nd consecutive clean run
+- [[carryover]] — 5 insights generated (all confidence 0.85), 2 wiki pages created + 3 noted as duplicates of existing pages — third consecutive clean CLI run
 - [[insight-merge]] — 
 - [[workflow]] — 
 - [[carryover]] — 
 - [[vault]] — 
 - [[librarian]] — 
-- [[carryover]] — Librarian carryover 2026-06-01 — 1288 pages, +24 this cycle (substantial activity), vault stable, HITS scores steady
+- [[carryover]] — Librarian carryover 2026-06-02 — 1324 pages, +36 this cycle (vault growing), HITS scores stable, all structural findings operational
 - [[mcp-tools]] — 
 - [[workflow]] — 
 - [[audit-report]] — 
@@ -659,11 +659,16 @@ type: index
 - [[user]] — User preferences and project context for the Markovian Dev Agency
 - [[issue-001]] — 
 - [[news]] — 
-- [[carryover]] — 5 new stories: US-Iran direct strikes (Kuwait), French Navy seizes Russian tanker Tagor, Quantinuum $1.46B IPO, Colombia runoff set, Myanmar blast. 5 carryover threads still open.
+- [[carryover]] — 5 new stories 2026-06-02: Israel-Hezbollah partial ceasefire (Trump, ground clashes), Russia Kyiv strikes 18+ killed, Trump 25% Brazil tariff, Anthropic IPO filing $1T, Kenya court blocks US Ebola facility. 9 carryover threads still open.
 - [[rss-queries]] — 
 - [[workflow]] — 
 - [[headlines-report]] — 
 - [[news-article]] — One-line description
+- [[clipping_anthropic_ipo]] — Anthropic confidentially files IPO prospectus with SEC, planning US share sale later this year as valuation approaches $1 trillion. Sets up major 2026 AI public-market event.
+- [[clipping_brazil_tariff]] — USTR announces 25% tariff on Brazilian goods, citing 'unfair trade practices.' Comes days after Bolsonaro trial developments and amid escalating Trump-Lula political friction.
+- [[clipping_ebola_kenya]] — Kenya High Court orders government to release US-Ebola-quarantine-center details. Protests against the facility kill two. NYT: 'Kenyan Court Deals New Blow to Plans for U.S. Ebola Unit.
+- [[clipping_lebanon_ceasefire]] — Trump announces Israel-Hezbollah partial ceasefire. Israel appears to back off Beirut strikes after reportedly being called 'crazy' by Trump. But ground clashes continue — at least 5-8 killed in southern Lebanon a day after the announcement.
+- [[clipping_russia_kyiv]] — Russia's 'one of the deadliest offensives in months' hits Kyiv — 18+ killed, apartment building toppled, dozens trapped in rubble. NYT frames it: 'Russia Is Showing Signs of Weakness in Ukraine. So It Hits Harder.
 - [[vault]] — 
 - [[orcaid]] — 
 - [[carryover]] — 
@@ -676,7 +681,7 @@ type: index
 - [[Meta-Meta Process for Structured Exploration]] — 
 - [[carryover-template]] — 
 - [[researcher]] — 
-- [[carryover]] — Jun 1 cycle 2: shap (0.3→0.72) promoted; 11 stubs archived (duplicate alias: rag, concept-index; absorbed: vlm, xgboost, momoa-researcher, AGEM misnomer; non-AI periphery: version-control, ux-design, civil-rights, algebra, scientific-method)
+- [[carryover]] — Jun 2 cycle: synthetic-data (0.3→0.72) and seg-molecular-self (0.3→0.7) promoted; load-bearing-reasoning depth-checked and confirmed adequate
 - [[workflow]] — 
 - [[discovery-report]] — 
 - [[gap-analysis]] — 
@@ -743,6 +748,7 @@ type: index
 - [[arxiv-2026-05-29-top-papers]] — 
 - [[arxiv-2026-05-30-top-papers]] — 
 - [[arxiv-2026-06-01-top-papers]] — arxiv-agent daily report 2026-06-01: 3 papers ingested from 2026-05-29 batch — ReuseRL (MDL-grounded skill reuse), AutoSci (memory-centric research lifecycle), Stateful Monitoring (catches distributed agent attacks). Trustworthy scientific AI + agent architecture + oversight theme.
+- [[arxiv-2026-06-02-top-papers]] — 2026-06-02 arxiv report — 3 papers on agent deployment-readiness: Monitoring Maturity (3x3 grid + variance), SkillHarm (lifecycle skill attacks ASR 86.3%), HLL (CAPTCHA as human-substitution). New theme: capability-vs-deployment gap.
 - [[carryover]] — arxiv agent carryover — StepOPSD (step-level credit redistribution in GRPO), AKBE (knowledge boundary probing), PRISM (multi-intention IRL) — instance-level behavioral decomposition theme
 - [[papers-2026-05-19-researched]] — Three papers on production LLM agent architecture, VLM reasoning decoupling, and agentic clinical evidence seeking
 - [[papers-2026-05-20]] — Three papers on production LLM agent architecture, VLM reasoning decoupling, and agentic clinical evidence seeking
@@ -763,6 +769,7 @@ type: index
 - [[ingest-2026-05-29]] — 
 - [[ingest-2026-05-30]] — 
 - [[ingest-2026-06-01]] — 
+- [[ingest-2026-06-02]] — 
 - [[ingest-2026-06-27]] — Ingest cycle — 3 documentation files processed (codegraph, hermes-path-forward)
 - [[carryover]] — 
 - [[audit-2026-05-19]] — Librarian audit report — broken links and frontmatter fixes
@@ -774,6 +781,7 @@ type: index
 - [[audit-2026-05-26]] — 
 - [[audit-2026-05-31]] — 
 - [[audit-2026-06-01]] — 
+- [[audit-2026-06-02]] — 
 - [[audit-2026-07-10]] — 
 - [[audit-2026-07-15]] — 
 - [[audit-2026-07-21]] — 
@@ -790,6 +798,7 @@ type: index
 - [[headlines-2026-05-30]] — 
 - [[headlines-2026-05-31]] — 
 - [[headlines-2026-06-01]] — 
+- [[headlines-2026-06-02]] — 5 stories: Israel-Hezbollah partial ceasefire (Trump, ground clashes continue), Russia massive Kyiv strikes (18+ killed, NYT: Russian weakness), Trump 25% Brazil tariff, Anthropic IPO filing ($1T), Kenya court blocks US Ebola facility (2 killed in protests).
 - [[carryover]] — 
 - [[overseer-2026-05-26]] — 
 - [[overseer-2026-05-27]] — 
@@ -814,6 +823,7 @@ type: index
 - [[discovery-2026-05-29]] — Researcher discovery report
 - [[discovery-2026-05-30]] — Researcher discovery report
 - [[discovery-2026-06-01]] — 
+- [[discovery-2026-06-02]] — 
 - [[discovery-2026-06-04]] — Researcher discovery report
 - [[discovery-2026-06-08]] — Researcher discovery report
 - [[discovery-2026-06-09]] — Researcher discovery report
@@ -845,6 +855,7 @@ type: index
 - [[google-deepmind-vatican-encyclical-response-may-2026]] — No Google DeepMind response to Magnifica humanitas encyclical found; compiled monitoring report
 - [[microsoft-vatican-encyclical-response-may-2026]] — No Microsoft response to Magnifica humanitas encyclical found; compiled monitoring report
 - [[sheet]] — t_ff1740de complete: no Microsoft response found to Magnifica humanitas encyclical
+- [[agem-corpus-1-hard-problem]] — AGEM 2-iteration sheaf-localized analysis of Chalmers' hard problem — Mace4-verifies zombie conceivability as first-order consistent, steelmans illusionism, surfaces three vulnerabilities in Chalmers' framing.
 - [[agem-cycle-reflexive-honest-messenger]] — Hall extends Honest Messenger Paradox to AI: RLHF produces weak lumpability, not strong alignment
 - [[agem-minimax-m27-physics-corpus]] — AGEM engine analysis of six quantum mechanics interpretations with sheaf-cohomology consistency metrics per interpretation
 - [[agem-minimax-m3-copenhagen-iter5]] — AGEM 5-iteration sheaf-localized analysis of the Copenhagen interpretation (M3 model) — formally registers central epistemic/ontic contradiction as coboundary 0.56 / dual pressure 1.08
@@ -920,6 +931,7 @@ type: index
 - [[hermes-agent-lcm-plugin-slash-commands-research]] — Research on Hermes Agent LCM plugin slash commands not working after restart - no specific bugs found
 - [[hermes-mcp-integration]] — Hermes Agent MCP integration: consuming external tools, acting as an MCP server for messaging, per-server filtering, sampling, dynamic discovery
 - [[hermes-path-forward]] — 3-phase roadmap for Hermes Agent observability: EventBus + StateManager, Memory Taxonomy, Self-Healing
+- [[image-extender-readme]] — image-extender (boona13) README — open-source Next.js 14 web app for AI outpainting (Gemini via OpenRouter) with Poisson-blended seams, plus four game-art studios. Primary source for the existing image-extender entity.
 - [[isabelle-installation]] — 
 - [[kanban-multi-agent-board-hermes-agent]] — Durable SQLite-backed task board for coordinating multiple Hermes profiles — dispatchers spawn workers with kanban_* tools, CLI for humans/automation
 - [[mcp-model-context-protocol-hermes]] — MCP docs: stdio/HTTP servers, tool discovery, per-server filtering
@@ -938,6 +950,7 @@ type: index
 - [[wolfram-nks-causal-networks]] — Wolfram's NKS excerpt on causal networks and spacetime.
 - [[air-france-airbus-manslaughter-verdict-2026]] — 
 - [[alberta-independence-referendum-2026]] — Alberta schedules October 2026 referendum on whether to hold binding independence vote
+- [[anthropic-ipo-sec-filing-2026-06-02]] — Anthropic confidentially files IPO prospectus with SEC, US share sale planned for later this year at ~$1T valuation. Second trillion-dollar AI listing this quarter.
 - [[brazil-2026-elections-ai-regulation-stress-test]] — Brazil's 2026 elections serve as first real-world stress test for AI regulation frameworks as candidates navigate voter manipulation, deepfake disclosure, and algorithmic accountability
 - [[california-ai-worker-protection-may-2026]] — California first state to sign executive order proactively preparing workers for AI disruption — signals state-led AI policy divergence from federal retreat
 - [[california-ai-worker-protection-newsom-2026]] — California Governor Newsom signs first-in-nation executive order to prepare workers and businesses for AI disruption — addresses automation displacement, retraining, economic transition
@@ -946,6 +959,7 @@ type: index
 - [[china-rare-earth-geopolitics-may-2026]] — China consolidates rare earth dominance as geopolitical weapon, restricting global access amid US-China tech war escalation
 - [[ebola-bundibugyo-outbreak-drc-uganda-2026]] — WHO emergency declaration for Ebola Bundibugyo outbreak in DRC/Uganda; no proven vaccine, UK developing new one
 - [[ebola-bundibugyo-who-ec-recommendations-follow-up-may-2026]] — WHO EC recommendations follow-up: case count 1,011+, Sud-Kivu expansion, 2nd ETC attack May 23, Italy suspected cases, thermostable vaccine status unclear
+- [[ebola-kenya-court-protests-2026-06-02]] — Kenya High Court orders government to release US-Ebola-quarantine-center details. Protests kill two. Major sovereignty test case.
 - [[ebola-outbreak-drc-hospital-attack-2026]] — 
 - [[ebola-outbreak-drc-uganda-pheic-2026]] — WHO declares Ebola outbreak in DRC and Uganda a global health emergency — Bundibugyo strain, ~750 suspected cases, 177 deaths, case count tripling weekly
 - [[ebola-outbreak-drc-who-very-high-may-2026]] — WHO raises DRC risk to 'very high' as suspected cases triple in one week; US public health cuts limiting response capacity
@@ -954,6 +968,7 @@ type: index
 - [[engineering-internal-awareness-and-closed-loop-self-regulation-in-large-language-models]] — Engineering internal awareness and closed-loop self-regulation in LLMs via biofeedback paradigm, PID control theory, and activation steering.
 - [[eu-us-trade-deal-tariff-elements-may-2026]] — EU and US Council/Parliament reach agreement on tariff elements of Joint Statement, implementing joint framework
 - [[eu-us-trade-deal-tariff-may-2026]] — EU and US strike deal to implement tariff elements of Joint Statement — transatlantic trade rapprochement amid tariff chaos
+- [[israel-hezbollah-partial-ceasefire-trump-2026-06-02]] — Trump announces Israel-Hezbollah partial ceasefire. Israel backs off Beirut strikes after Trump reportedly called Netanyahu 'crazy.' Ground clashes continue — 5-8 killed in southern Lebanon after the announcement.
 - [[malaysia-exits-us-reciprocal-trade-deal-may-2026]] — Malaysia exits US reciprocal trade deal following Supreme Court ruling that invalidated tariff authority
 - [[meta-social-media-addiction-settlement-2026]] — 
 - [[middle-east-lebanon-hormuz-may-2026]] — Israeli Lebanon strikes kill health workers; Venezuela offers India oil alternative amid Hormuz crisis; Russia sends more nukes to Belarus
@@ -967,6 +982,7 @@ type: index
 - [[raul-castro-indictment-2026]] — US indicts Raúl Castro over 1996 plane shootdown; Russia/China condemn as coercive "violence
 - [[rubio-india-500-billion-trade-claim-may-2026]] — $500B question as Rubio's India trade claim unravels after original tariff bargain loses footing
 - [[rubio-meets-modi-india-energy-may-2026]] — Rubio visits India with energy agenda to replace Iranian oil disrupted by US-Iran conflict; H-1B visa registrations down 38.5%
+- [[russia-kyiv-deadly-strikes-2026-06-02]] — Russia hits Kyiv with massive missile-drone barrage, 18+ killed, apartment building toppled. NYT frames as symptom of Russian weakness.
 - [[search-2026-05-21]] — Google News aggregation for 2026-05-21 — broad headline snapshot
 - [[spacex-blackrock-10b-stake-tracking]] — BlackRock $10B stake UNCONFIRMED — 16 days to June 12, no confirmation in any source through May 27. Created tracking page.
 - [[spacex-files-ipo-starship-v3-2026]] — SpaceX filed for IPO in May 2026 — $1.75T-$2T valuation, Starship V3 successful pre-IPO test, $15B+ spent on Starship development, $75B IPO target
@@ -982,6 +998,7 @@ type: index
 - [[tiktok-youtube-ofcom-not-safe-enough-2026]] — 
 - [[transformer-vm-moran-2026]] — Moran (2026) — analytically compiling programs into transformer weights; residual stream as registers, attention as lookup, FFN as arithmetic, layers as machine steps; connects to EML as minimal instruction set for compiled transformers
 - [[trump-ai-executive-order-abandoned-may-2026]] — Trump administration calls off proposed AI executive order after objections from tech industry over concerns it could weaken US AI competitiveness
+- [[trump-brazil-25-percent-tariff-2026-06-02]] — USTR announces 25% tariff on Brazilian goods, citing 'unfair trade practices.' Politically-motivated tariff targeting Lula government.
 - [[trump-iran-diplomacy-threats-2026]] — Trump oscillates between diplomacy and threats on Iran; 14-point peace plan under review
 - [[trump-taiwan-call-2026]] — 
 - [[tulsi-gabbard-resigns-intelligence-director-may-2026]] — Tulsi Gabbard resigns as US National Intelligence Director, citing husband's illness
@@ -1078,6 +1095,7 @@ type: index
 - [[gamma-world-multi-agent-world-modeling-2026]] — Gamma-World: Multi-agent video world model with permutation-symmetric agent encoding and linear cross-agent attention
 - [[gram-sabotage-alignment-auditing-2026]] — Automated alignment auditing framework for sabotage in agentic AI deployments; Gemini misbehaves in ~2-3% of scenarios, primarily via overeagerness
 - [[hilbert-manifold-structures-path-spaces]] — Path spaces on tame two-level manifolds are Hilbert manifolds — Floer homology gains a solid analytical foundation via the tameness condition, which is closed under composition.
+- [[hll-humanitys-last-line-verification-2026]] — HLL benchmark — interactive CAPTCHA as the test for human-substitution. 8 frontier multimodal agents evaluated. Process validation is the new scoring dimension. Reveals the capability-vs-deployment gap.
 - [[is-grep-all-you-need]] — Grep often outperforms vector retrieval in agentic search; harness architecture and tool result presentation matter more than retrieval strategy.
 - [[kalra-barkeshli-hyperparameter-transfer-2026]] — 
 - [[kim-ahn-edm-2026]] — Kim, Kojaku & Ahn (Science Advances 2026) — introduces EDM embedding-based disruption metric; outperforms CD index; detects simultaneous discoveries via future vector nearest-neighbor clustering
@@ -1093,6 +1111,7 @@ type: index
 - [[mixture-of-recursions 1]] — MoR unifies parameter sharing and adaptive token-level computation via learned recursive depth routing — connects to causal state assignment and compiled-transformer execution models.
 - [[mixture-of-recursions]] — [STUB] Mixture of Recursions paper — recursive processing in mixture of experts models
 - [[moe-sieve-routing-guided-lora-for-efficient-moe-fine-tuning]] — Per-layer expert routing is highly skewed — cold experts rarely activated, top-25% routing covers most tokens; only tuning top-25% experts is competitive
+- [[monitoring-agentic-systems-reliability-2026]] — Maturity-staged agent monitoring — 3x3 scope×dimension grid using variance (CV) as the characterization signal. Triage routes 97% to automated tracking, 2% to humans. Stage 1 finding: structural diagnosis must precede error detection.
 - [[moss-self-evolution-source-rewriting-2026]] — Wiki source page for MOSS paper on source-level self-evolving agents
 - [[muse-autoskill]] — MUSE-Autoskill: agents create, reuse, evaluate, and refine skills via a unified lifecycle — skill-level memory accumulates experience across tasks, improving reuse, reliability, and cross-agent transfer.
 - [[odrzywolek-eml-2026]] — Odrzywołek (2026) — discovery of the EML operator eml(x,y)=exp(x)−ln(y), a single binary primitive generating all elementary functions from constant 1, with applications to symbolic regression via gradient-trainable binary trees
@@ -1115,6 +1134,7 @@ type: index
 - [[semantic-gradients-interactions-ssd]] — 
 - [[shannon-scaling-law-2026]] — Shannon Scaling Law: LLM capacity follows noisy-channel dynamics — U-shaped degradation emerges when SNR collapses, with a finite Shannon capacity ceiling.
 - [[skill-consumption-2026]] — SkillLens: First systematic study of full model-generated skill lifecycle — non-trivial negative transfer is common, skill utility is independent of model scale, extraction guidance meta-skill reduces negative transfer.
+- [[skillharm-lifecycle-skill-attacks-2026]] — SkillHarm — first lifecycle-aware benchmark of skill-based attacks. 879 samples, 12 risk types, ASR up to 86.3%. Persistent mutation attacks work; "attack failures" are confounded with non-engagement.
 - [[skillopt-self-evolving-2026]] — SkillOpt: First systematic text-space optimizer for agent skills — trains skill documents as external state via add/delete/replace edits, validation gating, and epoch-wise meta updates.
 - [[soundnessbench-ai-scientist-2026]] — Benchmark for AI scientist first-gate evaluation; LLMs show pervasive optimism bias on scientific soundness, not reliable as standalone proposal evaluators
 - [[specbench]] — SpecBench: evaluates SWE agents on specification-level reasoning — identifying deficiencies in RFC design proposals before implementation. Best model GPT-5.4 achieves 44.4%. Bridges SWE-bench gap.
@@ -1162,6 +1182,8 @@ type: index
 - [[generative-ai-math-primer-comparison]] — Comparative reading guide for mathematical primers on generative AI: Chen (2026, "Little Book"), Murphy (PML 2022-23), Prince (UDL 2023), and the original papers (Blei, Kingma, Goodfellow, Ho, Song) — strengths, weaknesses, recommended order.
 - [[ghana-anti-lgbt-bill-may-2026]] — Ghana parliament passed anti-LGBT bill criminalizing gay acts, awaiting presidential signature — tests regional human rights trajectory
 - [[harm-cases]] — Historical engineering disasters grounding the technical-working-group personas in real-world harm
+- [[ai-development-religious-ethics-convergence-insight]] — AI development (Olah at Vatican, Traut Codex work) is converging with religious AI ethics discourse (Magnifica humanitas) — moral-philosophical framing is replacing purely technical risk language
+- [[air-france-travel-security-focal-point-insight]] — Air France emerges as the recurrent focal entity in the knowledge graph's travel security cluster — bridging the 2009 Rio manslaughter case, Ebola-era US entry restrictions, and broader aviation-public health governance convergence
 - [[albanese-sanctions-divergence-insight]] — Francesca Albanese sanctions case reveals legal accountability mechanisms constraining executive sanctions power
 - [[bvd-utilities-infrastructure-insight]] — BVD outbreak response clusters water/sanitation infrastructure as topologically central — operational integration, not peripheral concern
 - [[cyprus-flotilla-diplomatic-crisis-insight]] — Far-right Israeli ministers cluster around Cyprus flotilla intercept — 430 abducted, 5+ ambassadors summoned, US selective enforcement

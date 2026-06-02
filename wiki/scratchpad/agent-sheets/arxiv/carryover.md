@@ -1,8 +1,8 @@
 ---
 created: 2026-05-26T00:00:00Z
-updated: 2026-06-01T14:30:00Z
+updated: 2026-06-02T08:20:00Z
 type: report
-summary: "arxiv agent carryover — 2026-06-01 batch: ReuseRL (MDL-grounded skill reuse), AutoSci (memory-centric research lifecycle), Stateful Monitoring (catches distributed agent attacks). Agent architecture + oversight theme — structural reuse as the unit of trustworthiness."
+summary: "arxiv agent carryover — 2026-06-02 batch: Monitoring Maturity (3x3 scope×dim grid + variance + FMEA triage), SkillHarm (lifecycle skill attacks, ASR 86.3%/69.3%), HLL (CAPTCHA as human-substitution test + trace-conditioned validation). New theme: capability-vs-deployment gap."
 tags: [arxiv, carryover]
 status: active
 confidence: high
@@ -26,61 +26,63 @@ confidence: high
 | 2026-05-28 | 3 papers ingested | CCO, Gamma-World, BES — constraint satisfaction under distribution shift |
 | 2026-05-29 | 3 papers ingested | Gram, SoundnessBench, Entropy-Cut MH — evaluation infrastructure |
 | 2026-05-31 | No new batch | No new arXiv submissions today — API returned only 2026-05-28 papers already processed. |
-| **2026-06-01** | **3 papers ingested** | **ReuseRL, AutoSci, Stateful Monitoring — agent architecture + oversight** |
+| 2026-06-01 | 3 papers ingested | ReuseRL, AutoSci, Stateful Monitoring — agent architecture + oversight |
+| **2026-06-02** | **3 papers ingested** | **Monitoring Maturity, SkillHarm, HLL — capability-vs-deployment gap** |
 
 ## Current State
 
-- **arXiv**: 2026-06-01 batch fully processed — 3 papers ingested
-- **Wiki paper inventory**: ~94 pages in `wiki/sources/papers/` (added reuserl-skill-reuse-compression, autosci-memory-centric-research-lifecycle, stateful-monitoring-distributed-agent-attacks)
-- **arXiv API**: Still aggressive rate limiting; required sleep+backoff to merge cs.AI+cs.LG+cs.CL queries
+- **arXiv**: 2026-06-02 batch fully processed — 3 papers ingested
+- **Wiki paper inventory**: ~97 pages in `wiki/sources/papers/` (added monitoring-agentic-systems-reliability-2026, skillharm-lifecycle-skill-attacks-2026, hll-humanitys-last-line-verification-2026)
+- **arXiv API**: Continued aggressive rate limiting; 3 consecutive 429s. Mitigated with 60-150s backoff + 5s inter-category sleep.
 
-## Papers Ingested (2026-06-01 batch)
+## Papers Ingested (2026-06-02 batch)
 
 | Paper | arXiv ID | Key Finding | Wiki Connection |
 |-------|----------|-------------|------------------|
-| ReuseRL | 2605.31509 | MDL penalty via skill-dictionary extraction from successful trajectories; PAC-Bayes bound; pure round-length penalty collapses (74% burned) | Connects to [[skillopt-self-evolving-2026]], [[skill-consumption-2026]], [[codeskill]], [[muse-autoskill]], [[stepopsd]], [[akbe]] — theoretical anchor for skill theme |
-| AutoSci | 2605.31468 | 4-module system (SciMem + SciFlow + SciDAG + SciEvolve) for full scientific research lifecycle; ICLR scores 6.3/10 (GPU kernels) and 5.8/10 (drug discovery) | Connects to [[physics-is-all-you-need]], [[why-llms-arent-scientists-yet]], [[soundnessbench-ai-scientist-2026]], [[deepweb-bench-2026]], [[xu-envfactory-2026]] — system-level culmination of trustworthy-scientific-AI theme |
-| Stateful Monitoring | 2605.31593 | First distributed agent attack; gpt-oss-120b 0%→36.7-40% via scaffold; online stateful monitor catches 30% earlier with stream clustering; also catches standard jailbreaks | Connects to [[boiling-frog-agentic-safety-2026]], [[gram-sabotage-alignment-auditing-2026]], [[calibrating-conservatism-scalable-oversight-2026]], [[finharness]], [[alignment-tampering]] — architectural level of oversight theme |
+| Monitoring Maturity | 2606.02494 | 3×3 (scope×dim) grid; CV=0.02 within-run, CV=1.25 cross-run, CV=0.00 structural; 97% automated triage, 2% humans; FMEA severity routing | Connects to [[stateful-monitoring-distributed-agent-attacks-2026]], [[boiling-frog-agentic-safety-2026]], [[gram-sabotage-alignment-auditing-2026]], [[finharness-2026]], [[matcha-2026]] — argues field is in wrong monitoring stage |
+| SkillHarm | 2606.02540 | 879 attacks × 71 skills × 12 risk types; ASR 86.3% FPP, 69.3% SMP; latent risk: "attack failures" are non-engagement, not resistance | Connects to [[reuserl-skill-reuse-compression-2026]], [[skillopt-self-evolving-2026]], [[codeskill]], [[muse-autoskill]], [[stepopsd-2026]], [[akbe-2026]] — inverts skill theme into attack surface |
+| HLL | 2606.02449 | 8 frontier multimodal agents; trace-conditioned validation; brittle under realism stressors; process consistency gap | Connects to [[finharness-2026]], [[matcha-2026]], [[soundnessbench-ai-scientist-2026]], [[autosci-memory-centric-research-lifecycle-2026]] — process-validated scoring upgrade |
 
-## Cross-Paper Theme: Agentic Systems in Three Layers — Structural Reuse as the Unit of Trustworthiness
+## Cross-Paper Theme: The Capability-vs-Deployment Gap
 
-| Layer | Paper | Architectural Lever |
-|-------|-------|---------------------|
-| **Training** (how the agent learns) | ReuseRL | MDL-grounded skill-dictionary penalty; PAC-Bayes generalisation |
-| **Runtime** (how the agent executes) | AutoSci | Schema-governed persistent memory + lifecycle harness + DAG augmentation + self-evolution |
-| **Oversight** (how the agent is monitored) | Stateful Monitoring | Stream clustering across user accounts; new class of safety monitor |
+**New theme emerging across cycles:** Agents cross the capability threshold (can do tasks) but not the deployment threshold (services can trust them with workflows).
 
-**Design principle:** All three layers converge on the same idea — **structural reuse is the unit of trustworthiness**:
-- ReuseRL uses structural reuse as a training regulariser
-- AutoSci uses it as a memory substrate (skill entities, DAG templates, lifecycle stages)
-- Stateful Monitoring uses it as a detection signal (attackers reuse patterns across accounts → monitor catches it)
+| Paper | Deployment Boundary | What the Agent Cannot Do |
+|-------|---------------------|--------------------------|
+| Monitoring Maturity | structural integration | fail safely when the system is broken |
+| SkillHarm | third-party supply chain | refuse poisoned skills across the lifecycle |
+| HLL | human-verification gate | act like a human, not just recognize answers |
+
+This is the **third new theme in 6 days** for the agentic-systems thread:
+1. (2026-05-27) Evaluation infrastructure
+2. (2026-06-01) Structural reuse as unit of trustworthiness
+3. (2026-06-02) **Capability-vs-deployment gap** — current candidate
 
 ## Kanban Status
 
-### Prior Cycle Open Items (from 2026-05-29 carryover)
-
-1. **Gram overeagerness finding — connection to CCO's calibrated conservatism** — **Resolved** (see last carryover)
-2. **SoundnessBench optimism bias — cross-reference with autonomous research agent literature** — **Resolved** (see last carryover)
-
 ### This Cycle
 
-- [x] Prior cycle items remain resolved
-- [x] New theme emerging: Structural Reuse as the Unit of Trustworthiness — three papers converge on this
-- [x] Wiki pages cross-linked to existing concept/sources pages only (no broken wikilinks)
+- [x] 3 papers ingested, all cross-linked
+- [x] Wiki pages have outgoing + incoming links to existing concept/sources pages
+- [x] New theme identified: capability-vs-deployment gap
+- [x] shared carryover updated (research-carryover.md)
+- [x] report at wiki/scratchpad/jobs/reports/arxiv/arxiv-2026-06-02-top-papers.md
 
 ## Notes for Next Run
 
-- **arXiv rate limiting**: Still aggressive this cycle — multiple 429s and timeouts. Used single-category queries with sleep+backoff. Consider adding API key or larger backoff windows.
-- **New theme**: Agentic systems in three layers (training / runtime / oversight) with structural reuse as the unifying concept. Worth a synthesis page if not already covered.
-- **PDF storage**: `/home/ty/Documents/paper-research/processed/` for the three 2026-06-01 PDFs
-- **Inbox**: Empty — no manual processing needed
+- **arXiv rate limiting**: Continued 429s — 3 in a row before first 200. Used 60-150s backoff. Consider rotating User-Agent or adding API key in next maintenance.
+- **New theme**: Capability-vs-deployment gap — three papers converge without citing each other. Candidate for a synthesis page.
+- **Skill theme pivot**: SkillHarm inverts the entire skill theme (now 7+ papers) into an attack surface. Subsequent skill papers may need to address provenance/signing/sandboxing.
+- **Process-validated scoring**: HLL's trace-conditioned validation is a method upgrade the field should adopt more broadly.
 
 ## What Remains
 
-- [ ] (Optional) Create synthesis page on "Structural Reuse as Unit of Trustworthiness" if not yet covered in synthesis/
-- [ ] (Optional) Add incoming wikilinks from related wiki pages to the three new source pages (currently orphans — only have outgoing links)
-- [ ] (Pending) Researcher tasks from 2026-05-30 carryover: STV vs RiM comparison, Physics vs LLMSurgeon comparison, Predictive adequacy vs explanatory correctness
+- [ ] (Optional) Create synthesis page on "Capability-vs-Deployment Gap" if not yet covered in synthesis/
+- [ ] (Optional) Add incoming wikilinks from related wiki pages to the three new source pages
+- [ ] (Optional) Synthesis page on "The Skill Theme: From Compression to Attack Surface" — covers the full arc from SkillOpt → ReuseRL → SkillHarm
+- [ ] (Optional) Create an entity page for "Reins AI" (Boston et al.'s company)
+- [x] ~~(Pending) Researcher tasks from 2026-05-30 carryover: STV vs RiM comparison, Physics vs LLMSurgeon comparison, Predictive adequacy vs explanatory correctness *(all resolved: t_ddf839070e904f9b, t_cbcdc7bee3cd46ca, t_471274800c084c94)*~~ *(verified done 2026-06-02, t_ddf839070e904f9b)*
 
 ## Last Run
 
-2026-06-01 14:30 UTC — 3 papers processed from 2026-05-29 batch: ReuseRL (MDL-grounded skill reuse), AutoSci (memory-centric research lifecycle), Stateful Monitoring (catches distributed agent attacks).
+2026-06-02 08:20 UTC — 3 papers processed from 2026-06-01 batch: Monitoring Maturity (3×3 grid + variance + FMEA triage), SkillHarm (lifecycle skill attacks), HLL (CAPTCHA human-substitution). New theme: capability-vs-deployment gap.

@@ -68,6 +68,13 @@ The evaluation problem differs fundamentally from discriminative tasks:
 - [[wiki/index]]
 - [[concepts/generative-ai]]
 - [[concepts/creativity]]
+- [[variational-autoencoder]] — encoder-decoder latent-variable variant
+- [[generative-adversarial-networks]] — adversarial training variant
+- [[normalizing-flows]] — exact-density invertible variant
+- [[energy-based-models]] — unnormalized-density variant
+- [[score-based-models]] — score-function variant (unifies with diffusion)
+- [[little-book-generative-ai-foundations]] — primer covering the math behind all five families
+- [[evidence-lower-bound-elbo]] — the variational bound underpinning VAE and diffusion training
 
 - [[creativity]] — the convergent evaluation phase of creative generation; CFG as divergent/convergent dial
 - [[parallel-reasoning]] — the selection mechanism problem is shared; OpenDeepThink's Bradley-Terry may inform creative selection

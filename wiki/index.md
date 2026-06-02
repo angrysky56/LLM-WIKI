@@ -1,5 +1,5 @@
 ---
-updated: 2026-06-01T14:26:54Z
+updated: 2026-06-01T21:53:12Z
 type: index
 ---
 
@@ -156,6 +156,7 @@ type: index
 - [[emergence]] — Sudden appearance ofCapabilities at scale thresholds — phase transitions in LLM capability landscapes, distinct from smooth power-law improvement
 - [[emergent-communication]] — Spontaneous development of shared protocols and languages between agents without explicit design
 - [[eml-operator]] — Single binary operator eml(x,y)=exp(x)−ln(y) that generates all elementary functions from constant 1 — the continuous NAND gate, with applications to symbolic regression, neuro-symbolic AI, automated reasoning, and single-instruction hardware
+- [[energy-based-models]] — Energy-based models — unnormalized density p(x) ∝ exp(-E(x)); train via score matching or contrastive divergence to avoid the partition function.
 - [[engineering-internal-awareness]] — Engineering internal awareness mechanisms in LLMs — closed-loop self-regulation via metacognition
 - [[engineering]] — [STUB] Engineering — application of scientific and mathematical principles to practical problems
 - [[entrepreneurship]] — [STUB] Entrepreneurship — creating and running new businesses ventures
@@ -165,6 +166,7 @@ type: index
 - [[essa]] — ESSA — Evolutionary Score-based algorithm with singular value optimization for gradient-free LLM alignment; 6x faster scaling on 128 GPUs
 - [[eu-us-trade-deal]] — Bilateral EU-US trade agreement ratified May 20 2026 with 2029 tariff safeguard sunset — implementation text and specific rates not publicly published
 - [[evaluation]] — Evaluation methodology and benchmarks for measuring LLM capabilities — MMLU, GSM8K, HumanEval, SWE-Bench; evaluation properties and limitations
+- [[evidence-lower-bound-elbo]] — The ELBO — Jensen-derived lower bound on log-likelihood that is the central training objective in VAEs, DDPM, and PPCA.
 - [[evolutionary-strategies]] — Evolutionary optimization algorithms using covariance matrix adaptation — black-box optimization for neural network training and architecture search
 - [[exploitation]] — [STUB] Exploitation in RL — leveraging known strategies vs exploring new ones
 - [[exploration]] — Exploration-exploitation tradeoff in RL — strategies, curiosity-driven methods, and the amnesiac failure mode (promoted from stub)
@@ -183,6 +185,7 @@ type: index
 - [[functor-string-diagrams]] — 
 - [[futuresim-adaptive-agents]] — [ARCHIVED] Absorbed by world-model (0.8) + futuresim source (0.9) + agentic-research (0.75)
 - [[gamma]] — Gamma archetype — the Adaptive Learning Rate Agent in the oMCD framework
+- [[generative-adversarial-networks]] — GANs — generator vs. discriminator minimax game; Wasserstein variant uses 1-Lipschitz critic for stable training.
 - [[generative-ai]] — AI systems that generate new content — text, code, images, audio — via learned probability distributions over structured generation spaces
 - [[geometric-hashing]] — [STUB] Geometric hashing for pattern matching and retrieval
 - [[geopolitics]] — [STUB] Geopolitical dynamics between great powers — US, China, Russia
@@ -338,6 +341,7 @@ type: index
 - [[neuroscience]] — [STUB] Neuroscience — study of the nervous system and brain
 - [[news]] — [STUB] News content and curation in the wiki
 - [[nlp]] — [STUB] NLP — natural language processing fundamentals
+- [[normalizing-flows]] — Normalizing flows — exact-density generative models using invertible transformations and the change-of-variables formula; train by direct maximum likelihood.
 - [[north-american-energy-politics]] — [STUB] North American energy politics, oil/gas trade, pipeline policy
 - [[novelty-search]] — [STUB] Evolutionary algorithm using novelty rather than fitness to explore search space
 - [[numerical-methods]] — Archived — numerical methods is computational science; no AI/ML canonical absorbs it
@@ -430,6 +434,7 @@ type: index
 - [[scientific-method]] — [STUB] Scientific method — methodology for conducting scientific research
 - [[scientific-reasoning]] — Archived — absorbed by load-bearing-reasoning (1.0) + scientific-method
 - [[scientific-writing]] — The practice of communicating scientific information to other scientists, characterized by precision, clarity, and adherence to established formats like IMRaD.
+- [[score-based-models]] — Score-based generative models — learn ∇_x log p(x) and sample via Langevin dynamics or SDE reverse-time simulation.
 - [[scrum]] — [STUB] Scrum — Agile project management framework with sprints, roles, and ceremonies
 - [[sd-search]] — [STUB] On-policy hindsight self-distillation for step-level credit assignment in search-augmented reasoning (MA et al., 2026)
 - [[seg-molecular-self]] — [STUB] SEG molecular self-assembly system
@@ -453,12 +458,9 @@ type: index
 - [[spec-driven-development]] — [STUB] Specification-driven development methodology
 - [[spike-001-spacy-owlready2]] — [STUB] Spike 001: spacy + owlready2 integration experiment
 - [[spike-campaign-001-004-summary]] — [ARCHIVED] Internal project notes absorbed by synthesis/seg-scientist-agent-design.md
-- [[spin-vs-substrate]] — Analytical primitive — separating the rhetorical layer (clauses, statements, principles) from the operational layer (deployments, integrations, consequences); citing one as evidence about the other is the standard category error.
-- [[spiral-architecture]] — Spiral architecture — center as opening not point; deliberate ethical spiral vs closed loop completion.
+- [[spin-vs-substrate]] — Analytical primitive — separating the rhetorical layer (clauses, statements, principles) from the operational layer (deployments, integrations, consequences); citing one as evidence about the other is the standard category error
+- [[spiral-architecture]] — Spiral architecture — center as opening not point; deliberate ethical spiral vs closed loop completion
 - [[spontaneous-activity-reshaping-hypothesis]] — A theory proposing that imagination works by suppressing background neural activity to "carve out" mental images from existing noise.
-- [[stateful-monitoring-distributed-agent-attacks]] — First distributed agent attack: a multi-agent scaffold completes hard cybersecurity tasks while hiding the harmful objective across many user accounts. Standard monitors miss it 80% of the time. Online stateful monitor with stream clustering catches distributed attacks 30% earlier at ~99% traffic latency, and also catches standard jailbreaks.
-- [[stepopsd]] — Post-rollout step-level credit redistribution via hindsight teacher-student rescoring within GRPO, achieving +12.3% on ALFWorld and +8.7% on Search-QA over GRPO baseline.
-- [[structural-reuse-unit-of-trustworthiness-2026-06-01]] — The discrete named reusable structural unit (skill/schema/cluster) is the unit of trustworthiness spanning training optimisation, runtime memory, and oversight monitoring.
 - [[sqlite]] — [STUB] SQLite — embedded relational database
 - [[steering-vectors]] — [STUB] Steering vectors — directional activation patterns that bias model behavior
 - [[subagent-delegation]] — Subagent delegation — pattern of spawning child agents to handle subtasks
@@ -495,6 +497,7 @@ type: index
 - [[utimula-openpraparat-2025]] — [STUB] OpenPRAPARAT — open research paper analysis and reading tool
 - [[uv]] — Archived — developer tooling outside AI/ML core (uv Python package manager)
 - [[ux-design]] — [STUB] UX design — user experience design, interaction patterns, usability engineering
+- [[variational-autoencoder]] — VAE — encoder-decoder generative model trained by maximising the ELBO; reparameterisation trick enables end-to-end gradient training.
 - [[version-control]] — [STUB] Version control — tracking changes to code and documents
 - [[video-llm]] — Large language models extended to process and reason about video input — temporal understanding, motion perception, and visual-language integration at video scale
 - [[video-understanding]] — [STUB] Video understanding — LLM capabilities for understanding video content
@@ -541,6 +544,7 @@ type: index
 - [[who]] — Archived — absorbed by news sources; public health entity adequately covered by news
 - [[alphaevolve]] — Google DeepMind's evolutionary coding agent — LLM ensemble + diff-based mutation + real hardware eval; 23% GEMM speedup; Gemini self-improvement; instantiates MGA pattern; open-sourced as OpenEvolve
 - [[anthropic]] — [STUB] Anthropic — AI safety company behind Claude
+- [[cartridge-forge]] — Ty's ECS-based turn-based game generator — declarative DSL, Zod-validated Cartridge JSON, multi-agent pipeline (Map Architect / Mechanics Designer / Lore Weaver). Natural integration partner with image-extender.
 - [[efhf]] — Five-layer AI architecture implementing computational mechanics (epsilon machines, lumpability, causal closure) as a live multi-agent system — MOP proposed as Layer 0 for proactive exploration
 - [[entity-tracking-externalization]] — Test harness probing whether externalizing entity-state into tokens lets small local models solve harder state-tracking problems — answer is yes, and completeness beats brevity for REMOVE.
 - [[esa]] — [STUB] ESA — European Space Agency
@@ -580,6 +584,7 @@ type: index
 - [[gemini]] — Family of multimodal LLMs by Google DeepMind with significant long-context capabilities.
 - [[hermes-agent]] — Nous Research's open-source AI agent framework — multi-platform, provider-agnostic, skill-powered, with delegation, goals, cron, and memory systems
 - [[hipai-montague]] — Graph-based world model and ontology server — encodes beliefs, facts, relationships; supports natural language belief input and Cypher queries
+- [[image-extender]] — Open-source Next.js app for AI outpainting (Gemini via OpenRouter) with Poisson blending, plus 4 game-art studios (Parallax, Tiles, Sprites, Props). Ty's hook: agent could use for visual thought exploration.
 - [[isabelle-hol]] — Isabelle/HOL — Higher-Order Logic instantiation of the generic Isabelle proof assistant; the foundation for the seL4 microkernel verification and major verification projects
 - [[isabelle]] — Isabelle — generic proof assistant based on Higher-Order Logic; used for the seL4 microkernel verification and major verification projects
 - [[mamba]] — A state-space model (SSM) architecture for sequence modeling that offers linear scaling with sequence length.
@@ -613,7 +618,7 @@ type: index
 - [[shut-down-entity]] — GoodRobot SHUT DOWN — zero-human AI agent company, ethics board simulation
 - [[technical-architecture]] — GoodRobot technical architecture — agent runtime, task routing, memory system, API design
 - [[arxiv]] — 
-- [[carryover]] — arxiv agent carryover — 2026-05-30 batch: Self-Trained Verification (verifier training without human feedback), SpecBench (specification-level SWE agent evaluation), Physics-Is-All-You-Need (supervision protocol as trust infrastructure) — trustworthy scientific AI theme
+- [[carryover]] — arxiv agent carryover — 2026-06-01 batch: ReuseRL (MDL-grounded skill reuse), AutoSci (memory-centric research lifecycle), Stateful Monitoring (catches distributed agent attacks). Agent architecture + oversight theme — structural reuse as the unit of trustworthiness.
 - [[patterns]] — 
 - [[workflow]] — 
 - [[report]] — 
@@ -632,13 +637,13 @@ type: index
 - [[carryover]] — 
 - [[vault]] — 
 - [[librarian]] — 
-- [[carryover]] — Librarian carryover 2026-05-31 — 1264 pages, stable HITS, no new violations
+- [[carryover]] — Librarian carryover 2026-06-01 — 1288 pages, +24 this cycle (substantial activity), vault stable, HITS scores steady
 - [[mcp-tools]] — 
 - [[workflow]] — 
 - [[audit-report]] — 
 - [[vault]] — 
 - [[librarians-assistant]] — 
-- [[carryover]] — 1 fix applied: graph-theory.md had stale link to archived knowledge-graph.md — removed. GAAC Cluster 0 false positive identified (unrelated stubs). Vault health confirmed stable.
+- [[carryover]] — Librarians-Assistant carryover 2026-06-01 — 0 fixes applied, vault stable per librarian audit, all 3 long-standing items require Ty judgment (MOP duplicate, GoodRobot multi-location, gbrain synthesis-layer)
 - [[quick-reference]] — 
 - [[workflow]] — 
 - [[batch-progress]] — 
@@ -737,6 +742,7 @@ type: index
 - [[arxiv-2026-05-28-top-papers]] — 
 - [[arxiv-2026-05-29-top-papers]] — 
 - [[arxiv-2026-05-30-top-papers]] — 
+- [[arxiv-2026-06-01-top-papers]] — arxiv-agent daily report 2026-06-01: 3 papers ingested from 2026-05-29 batch — ReuseRL (MDL-grounded skill reuse), AutoSci (memory-centric research lifecycle), Stateful Monitoring (catches distributed agent attacks). Trustworthy scientific AI + agent architecture + oversight theme.
 - [[carryover]] — arxiv agent carryover — StepOPSD (step-level credit redistribution in GRPO), AKBE (knowledge boundary probing), PRISM (multi-intention IRL) — instance-level behavioral decomposition theme
 - [[papers-2026-05-19-researched]] — Three papers on production LLM agent architecture, VLM reasoning decoupling, and agentic clinical evidence seeking
 - [[papers-2026-05-20]] — Three papers on production LLM agent architecture, VLM reasoning decoupling, and agentic clinical evidence seeking
@@ -767,6 +773,7 @@ type: index
 - [[audit-2026-05-26-path-verification]] — 
 - [[audit-2026-05-26]] — 
 - [[audit-2026-05-31]] — 
+- [[audit-2026-06-01]] — 
 - [[audit-2026-07-10]] — 
 - [[audit-2026-07-15]] — 
 - [[audit-2026-07-21]] — 
@@ -775,6 +782,7 @@ type: index
 - [[batch-progress]] — Batch progress — no self-remediable items; vault structurally healthy
 - [[carryover]] — 
 - [[librarian-2026-05-19-missing-agent-sheet]] — Librarian missing agent sheet report
+- [[reuserl-orphan-fix-2026-06-01]] — 
 - [[carryover]] — Librarians-assistant carryover — 15 nested sources fixed, republican-party-duplicate deleted, 0 true broken links in core dirs
 - [[carryover]] — Three new stories: EU-US trade deal ratified with 2029 expiry, Trump walks back AI model vetting, Google DeepMind Gemini for Science launches
 - [[headlines-2026-05-28]] — 2 new stories: SpaceX S-1 filed ($2T IPO confirmed, June 12 target), California AI workforce EO enters implementation phase
@@ -1075,6 +1083,7 @@ type: index
 - [[kim-ahn-edm-2026]] — Kim, Kojaku & Ahn (Science Advances 2026) — introduces EDM embedding-based disruption metric; outperforms CD index; detects simultaneous discoveries via future vector nearest-neighbor clustering
 - [[lcguard-kv-communication-guard-2026]] — Framework for safe KV-based latent communication in multi-agent LLM systems, using adversarial-learned transformations to suppress reconstruction-based leakage while preserving task utility.
 - [[legalsearch-r1]] — LegalSearch-R1 — RL-trained legal agent with temporal statute indexing; 7B model outperforms SOTA by 12.9-29.8% via dual RAG+web architecture enforcing lex retro non agit
+- [[little-book-generative-ai-foundations]] — Compact (~120pp) mathematical primer on the foundations of the major generative model families (VAE, diffusion/score-based, normalizing flows, GANs, EBMs), derived from first principles. Math-first, no code, foundational rather than frontier.
 - [[llms-entity-tracking-state-changes]] — LMs don't track entity states incrementally — they aggregate all relevant information in parallel at the final token once the query is evident. REMOVE uses a fragile global suppression tag, revealing failure modes that mechanistic analysis predicts.
 - [[llmsurgeon-diagnosing-data-mixture-2026]] — LLMSurgeon — DMS for estimating LLM pretraining data composition from outputs
 - [[locally-coherent-globally-incoherent-2026]] — Locally Coherent, Globally Incoherent — compositional residual ε⋆ for multi-component LLM agent coherence failures
@@ -1137,6 +1146,8 @@ type: index
 - [[tabpfn]] — Foundation model for tabular data using in-context learning. Trained on synthetic data, matches XGBoost on small-to-medium datasets. GPU recommended. Rich extension ecosystem.
 - [[spike-001-spacy-owlready2]] — VALIDATED — spaCy+owlready2 handles transitive subsumption, lemmatization, and pluralization in one sync_reasoner() call. Three v0.3 Layer-2 caveats collapse.
 - [[spike-campaign-001-004-summary]] — Four-spike campaign validating spaCy+owlready2+HermiT as Layer 2 substrate; transaction-per-claim semantics; OWL→Neo4j one-way projection.
+- [[agent-safety-rl-2026-06-01]] — Three papers on AI agent safety, capability, and training — distributed attack defense, skill reuse as compression, and reward model routing.
+- [[structural-reuse-crosslink-survey-2026-06-01]] — 
 - [[ai-governance-substrate-analysis]] — Five interlocking cognitive primitives for evaluating AI governance discourse at the substrate level — spin-vs-substrate, absence-of-worst-case metric, institutional capture vs species framing, cryptographic vs semantic alignment, frame transmission; ASEKE-compatible diagnostic toolkit
 - [[blue-origin-new-glenn-explosion-may-2026]] — Blue Origin New Glenn explosion at Cape Canaveral has caused substantial launch pad damage, facing months of delays with direct impact on NASA's lunar mission timeline
 - [[bounded-structured-memory]] — Unifying SSL schema + Markovian carryover + Memory Curse fixes into a bounded structured memory architecture for Synapse
@@ -1148,6 +1159,7 @@ type: index
 - [[efhf-mcp-configuration]] — Unified MCP configuration for the EFHF (Emergent Functional Hierarchies Framework) ecosystem.
 - [[empty-chair-protocol]] — Protocol for inviting missing perspectives into research council deliberation via empty chair
 - [[essan-internal-representation]] — Training framework for Essan symbols as internal representation markers in LLMs, enabling hallucination detection via activation geometry.
+- [[generative-ai-math-primer-comparison]] — Comparative reading guide for mathematical primers on generative AI: Chen (2026, "Little Book"), Murphy (PML 2022-23), Prince (UDL 2023), and the original papers (Blei, Kingma, Goodfellow, Ho, Song) — strengths, weaknesses, recommended order.
 - [[ghana-anti-lgbt-bill-may-2026]] — Ghana parliament passed anti-LGBT bill criminalizing gay acts, awaiting presidential signature — tests regional human rights trajectory
 - [[harm-cases]] — Historical engineering disasters grounding the technical-working-group personas in real-world harm
 - [[albanese-sanctions-divergence-insight]] — Francesca Albanese sanctions case reveals legal accountability mechanisms constraining executive sanctions power
@@ -1283,6 +1295,7 @@ type: index
 - [[seg-scientist-agent-design]] — Integrated design for an autonomous AI scientist combining the SEG council (Layer 1) with the EFHF verification stack. v0.5 — empirical foundation complete; Layer 2 fully specified by four validated patterns from Spike Campaign 001-004.
 - [[self-prompting-via-production-stage-architecture]] — 
 - [[spiral-architecture]] — Spiral vs closed loop — center as opening not point
+- [[structural-reuse-unit-of-trustworthiness-2026-06-01]] — The discrete named reusable structural unit (skill/schema/cluster) is the unit of trustworthiness spanning training optimisation, runtime memory, and oversight monitoring.
 - [[synapse-llm-wiki-operating-guide]] — Operating guide for maintaining the LLM-WIKI — conventions, workflows, best practices
 - [[synapse-retrieval-architecture]] — 
 - [[test-time-sampling-vs-retraining-ood]] — Combining the entity-tracking mechanism (fragile REMOVE tag, parallel final-token aggregation) with Entropy-Cut sampling: test-time repair substitutes for retraining only on recombination-OOD (correct path already in the base model), never on capability-OOD (state absent from the machine). Confident silent failures need a mechanistic cut signal, not entropy.

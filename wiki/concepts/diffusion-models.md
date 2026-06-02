@@ -24,6 +24,12 @@ Diffusion models are a class of generative models that learn to generate data by
 
 See [[generative-ai]] for comparison with autoregressive transformers, VAEs, and GANs.
 
+For the mathematical foundations (forward/reverse SDE, score matching, ELBO derivations), see the primer [[little-book-generative-ai-foundations]] Chapters 4–6.
+
+See also [[score-based-models]] — score-based models are mathematically equivalent to diffusion under the right parameterisation.
+
+The diffusion ELBO uses the [[evidence-lower-bound-elbo]] as its central training objective.
+
 ## See Also
 - [[concepts/diffusion-models]]
 - [[concepts/generative-ai]]

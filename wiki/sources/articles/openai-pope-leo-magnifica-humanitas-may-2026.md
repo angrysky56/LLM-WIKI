@@ -1,9 +1,3 @@
----
-summary: Bing search: OpenAI response to Magnifica Humanitas encyclical
-tags: [openai, pope-leo-xiv, magnifica-humanitas, search]
-updated: 2026-05-28T01:58:39Z
-created: 2026-05-28T01:58:39Z
----
 
 ---
 created: 2026-05-28

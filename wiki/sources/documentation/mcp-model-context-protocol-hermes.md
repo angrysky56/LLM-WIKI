@@ -1,9 +1,3 @@
----
-summary: MCP docs: stdio/HTTP servers, tool discovery, per-server filtering
-tags: [mcp, model-context-protocol, hermes-agent, tools, integration]
-updated: 2026-05-28T01:58:38Z
-created: 2026-05-28T01:58:38Z
----
 
 ---
 created: 2026-05-28

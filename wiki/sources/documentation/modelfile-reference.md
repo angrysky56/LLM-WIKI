@@ -1,9 +1,3 @@
----
-summary: Ollama Modelfile reference: all instructions and parameters for creating customized models
-tags: [ollama, modelfile, llm-configuration, documentation]
-updated: 2026-05-30T08:52:51Z
-created: 2026-05-30T08:52:51Z
----
 
 ---
 created: 2026-05-29

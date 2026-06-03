@@ -1,6 +1,5 @@
 ---
 created: 2026-06-03
-*Archived — Absorbed by maximum-occupancy-principle (0.85) which covers NATO/geopolitical conflict as an MOP application domain.*
 
 updated: 2026-06-03
 type: concept

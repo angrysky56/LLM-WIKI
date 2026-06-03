@@ -1,13 +1,16 @@
 ---
+
 created: 2026-06-16
 updated: 2026-06-16
 type: concept
 summary: "[STUB] Magnetosphere — Earth's magnetic field and solar wind interaction"
 tags: [magnetosphere, stubs, space-science]
 sources: []
-status: stub
+status: archived
 confidence: 0.3
 ---
+
+*Archived — Non-AI periphery — meta/AI-adjacent without canonical anchor.*
 
 # Magnetosphere
 

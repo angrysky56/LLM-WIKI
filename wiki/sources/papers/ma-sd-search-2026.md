@@ -1,8 +1,3 @@
----
-summary: SD-Search: On-policy hindsight self-distillation for step-level credit assignment in search-augmented reasoning
-tags: [paper, arxiv, search-augmented-rag, self-distillation, reinforcement-learning, credit-assignment]
-updated: 2026-05-20T18:18:04Z
----
 
 ---
 

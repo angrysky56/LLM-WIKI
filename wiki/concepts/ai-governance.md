@@ -2,7 +2,7 @@
 created: 2026-05-25
 updated: 2026-05-28
 type: concept
-summary: "AI governance — multi-stakeholder regulatory frameworks including EU AI Act, US federal retreat under Trump (AI model vetting abandoned May 22), and Vatican encyclical "Magnifica humanitas" calling for binding AI disarmament treaties (May 26)."
+summary: 'AI governance — multi-stakeholder regulatory frameworks including EU AI Act, US federal retreat under Trump (AI model vetting abandoned May 22), and Vatican encyclical "Magnifica humanitas" calling for binding AI disarmament treaties (May 26).'
 tags: [AI, governance, regulation, EU-AI-Act, federal-AI, Vatican, arms-control]
 sources: https://news.google.com/rss/articles/CBMioAFBVV95cUxOSkh5WmtUaDF2cVItTmpiUTd0YTdOOUdONzBnY0JVeExGQ1d5OFhRRGNwR1dycnl1TkM1emJuaEQ4UEc1cWNzejNSbXNEYVRiUXZlZTVvcmlGbUo0SEVsNmVYd09fWFl2MGtneHMyMlhUaC04akwwWk9XOF9YaEhWenBTT2gxbUNqTnp2bGNyRnNZVjAxa3Y1LVFxT1VicFdY
 status: active

@@ -1,3 +1,20 @@
+---
+summary: News headlines 2026-05-23 — China coal mine disaster (90 dead), Tulsi Gabbard ODNI resignation, SpaceX Starship V3 pre-IPO test, WHO escalates DRC Ebola to "very high", Rubio India energy diplomacy
+tags: [news, headlines, ebola, spacex, china, india, russia, geopolitics, news-brief]
+updated: 2026-06-03T14:52:59Z
+---
+
+---
+created: 2026-05-23
+updated: 2026-06-03T14:48:00Z
+type: synthesis
+summary: News headlines 2026-05-23 — China coal mine disaster (90 dead), Tulsi Gabbard ODNI resignation, SpaceX Starship V3 pre-IPO test, WHO escalates DRC Ebola to "very high", Rubio India energy diplomacy
+tags: [news, headlines, ebola, spacex, china, india, russia, geopolitics, news-brief]
+sources: []
+status: active
+confidence: 0.85
+---
+
 # News Report — 2026-05-23
 
 ## Stories Ingested
@@ -40,11 +57,11 @@
 - Japan-China diplomatic talks: Minor thaw, no concrete deliverables
 - Alberta referendum: Already tracked from previous cycle; PM statement reported but no new developments
 
-## Related
-- [[synthesis/news/2026-may/headlines-2026-05-23]]
-- [[wiki/index]]
+## Connections
 
-- [[headlines-2026-05-23]]
+- [[wiki/synthesis/news/2026-May/headlines-2026-05-21]] — earlier news cycle
+- [[wiki/synthesis/news/2026-May/news-2026-05-21-headlines]] — alternate index
+- [[wiki/index]] — top-level wiki index
 
 ## Notable Patterns
 

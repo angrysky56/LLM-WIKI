@@ -2,7 +2,7 @@
 created: 2026-05-25
 updated: 2026-05-25
 type: source
-summary: 3-phase roadmap for Hermes Agent observability: EventBus + StateManager, Memory Taxonomy, Self-Healing
+summary: "3-phase roadmap for Hermes Agent observability: EventBus + StateManager, Memory Taxonomy, Self-Healing"
 tags: [hermes-agent, roadmap, architecture, event-bus, state-machine, memory]
 sources: 
 status: active

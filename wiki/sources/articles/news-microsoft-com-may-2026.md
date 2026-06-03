@@ -1,9 +1,3 @@
----
-summary: News.microsoft.com: AI impact, OpenAI partnership, sovereign cloud, frontier firms
-tags: [microsoft, news, blog, ai, openai, sovereign-cloud]
-updated: 2026-05-28T01:59:00Z
-created: 2026-05-28T01:59:00Z
----
 
 ---
 created: 2026-05-28

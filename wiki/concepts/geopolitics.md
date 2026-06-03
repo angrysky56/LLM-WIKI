@@ -1,6 +1,5 @@
 ---
 created: 2026-05-29
-*Archived — Absorbed by maximum-occupancy-principle (0.85) which covers great-power competition, conflict dynamics, and geopolitical signalling.*
 
 updated: 2026-05-29
 type: concept

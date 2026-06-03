@@ -1,9 +1,3 @@
----
-summary: Iran War Day 93: Trump toughens Iran deal terms while Israel launches deepest Lebanon incursion in 26 years, seizing Beaufort Castle
-tags: [synthesis, geopolitics, middle-east, iran, lebanon, israel, us-policy]
-updated: 2026-05-31T13:41:06Z
-created: 2026-05-31T13:41:06Z
----
 
 ---
 created: 2026-05-31T00:00:00Z

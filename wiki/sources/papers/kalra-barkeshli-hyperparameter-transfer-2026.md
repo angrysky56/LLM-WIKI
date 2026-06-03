@@ -1,9 +1,3 @@
----
-summary: μP's advantage over SP: almost entirely from maximizing embedding layer LR — simple fix resolves training instability bottleneck
-tags: [paper, hyperparameter-transfer, LLM-training, embedding-LR, scaling-laws]
-updated: 2026-05-21T16:53:08Z
-created: 2026-05-21T16:53:08Z
----
 
 ---
 

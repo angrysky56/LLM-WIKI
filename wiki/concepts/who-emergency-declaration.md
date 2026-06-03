@@ -1,13 +1,16 @@
 ---
+
 created: 2026-06-03
 updated: 2026-06-03
 type: concept
 summary: "[STUB] WHO public health emergency declaration procedures and criteria"
 tags: [stubs]
 sources: []
-status: stub
+status: archived
 confidence: 0.3
 ---
+
+*Archived — Non-AI periphery — life sciences / public health.*
 
 # Who Emergency Declaration
 

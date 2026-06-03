@@ -1,6 +1,5 @@
 ---
 created: 2026-06-16
-*Archived — Archived — news synthesis stub. The 2026 Ebola outbreak is covered in news sources with WHO connections. No AI/ML concept connection.*
 
 updated: 2026-06-16
 type: synthesis

@@ -1,8 +1,20 @@
 ---
-summary: Ramírez-Ruiz et al. (Nature Communications 2024) — Maximum Occupancy Principle: agents maximize future action-state path entropy instead of extrinsic reward, producing complex goal-directed behavior from intrinsic motivation alone
-tags: [MOP, intrinsic-motivation, entropy, reinforcement-learning, reward-free, behavioral-variability, Bellman-equation, empowerment, free-energy-principle]
-updated: 2026-04-14T00:34:32Z
-created: 2026-04-14T00:34:32Z
+summary: MOP paper (Ramírez-Ruiz et al. 2024) — replaces reward maximization with path entropy maximization. Layer 0 of EFHF architecture.
+tags: [mop, entropy, intrinsic-motivation, paper, efhf, kernel-2, reinforcement-learning, absorbing-states, stochastic-policy, lumpability]
+updated: 2026-06-03T20:25:40Z
+---
+
+---
+created: 2026-05-22
+updated: 2026-05-22
+type: source
+title: "Complex Behavior from Intrinsic Motivation to Occupy Future Action-State Path Space"
+authors: ["Jorge Ramírez-Ruiz", "Dmytro Grytskyy", "Chiara Mastrogiuseppe", "Yamen Habib", "Rubén Moreno-Bote"]
+summary: "Maximum Occupancy Principle (MOP) — replaces reward maximization with action-state path entropy maximization. Rewards become means to continued exploration, not goals. Proves path entropy is the only measure consistent with additivity, monotonicity, and smoothness. Layer 0 of the EFHF architecture (absorbing states → Kernel 2 transitions)."
+tags: [mop, entropy, intrinsic-motivation, behavioral-variability, reward-free, reinforcement-learning, absorbing-states, stochastic-policy, efhf, kernel-2, lumpability]
+sources: [https://doi.org/10.1038/s41467-024-49711-1, https://zenodo.org/records/11401402]
+status: active
+confidence: 0.95
 ---
 
 # Complex Behavior from Intrinsic Motivation to Occupy Future Action-State Path Space
@@ -33,51 +45,3 @@ where $\alpha$ weights action entropy (diversity of strategies), $\beta$ weights
 **Key result (Theorem 1):** Action-state path entropy is the *only* measure of path occupancy consistent with additivity per time step, monotonicity (rare paths contribute more), and smoothness. This uniqueness is analogous to Shannon's derivation of information entropy but uses different axioms.
 
 ## Optimal Policy
-
-The optimal policy is a softmax/Boltzmann distribution (Eq. 6):
-
-$$\pi^*(a|s) = \frac{1}{Z(s)} \exp\left(\alpha^{-1}\beta \mathcal{H}(S'|s,a) + \alpha^{-1}\gamma \sum_{s'} p(s'|s,a) V^*(s')\right)$$
-
-**Critical property:** Optimal MOP policies are *always stochastic* — behavioral variability persists even after learning. This contrasts with all reward-maximizing frameworks where the optimal policy is deterministic.
-
-## Key Properties
-
-| Property | Mechanism |
-|---|---|
-| Survival instinct | Absorbing states (death) have zero future entropy → naturally avoided |
-| Goal-directedness | Emerges near constraints (low energy → deterministic food-seeking) |
-| Exploration | Intrinsic — agents seek unoccupied path space, no exploration bonus needed |
-| Risk sensitivity | β controls preference for stochastic vs. deterministic environments |
-| Altruism | When other agents' states are included in state space, β drives freedom-giving behavior |
-| No exploration-exploitation tradeoff | Agents care about rewards only as means to continue exploring |
-
-## Empirical Results
-
-- **Gridworld:** MOP agents visit entire arena; reward agents park at food; random walkers die
-- **Prey-predator:** MOP mouse teases cat, uses both clockwise and counterclockwise escape routes; reward mouse uses one route 90% of the time
-- **Cartpole:** MOP agent "dances" with wide angle variety; reward agent maintains minimal-movement balance
-- **Agent-pet altruism:** Higher β → agent sacrifices own action freedom to give pet more state freedom
-- **Quadruped (MuJoCo):** MOP agent walks, jumps, spins without any locomotion reward; becomes goal-directed toward food when energy is low
-
-## Comparison with Other Reward-Free Approaches
-
-| Framework | Behavior | Problem |
-|---|---|---|
-| Empowerment (MPOW) | Finds highest-empowerment state, parks there | Collapses to deterministic; not additive over paths |
-| Free Energy Principle (FEP/EFE) | Minimizes surprise; proven equivalent to reward maximization in deterministic environments | Optimal policy is deterministic; no behavioral variability |
-| MOP | Variable, curiosity-driven, goal-directed when constrained | None identified in paper (see limitations below) |
-
-## Limitations
-
-1. Discrete state spaces require full transition model (model-free extension via SAC demonstrated but not fully developed)
-2. Learning the transition matrix in unknown environments is an open problem
-3. α/β/γ are hyperparameters — no principled method for setting them (though only β/α ratio matters)
-4. Computational cost scales with state space size for exact solutions
-
-## Connections
-
-- [[maximum-occupancy-principle]] — the concept page distilling the principle itself
-- [[edm-framework]] — EDM's disruption metric as a possible measurement analog in concept space
-- [[causal-state-edm-ood-isomorphism]] — epsilon machine framing connects to MOP's entropy formalism
-- [[zettelkasten-engine]] — MOP-guided insight exploration as a curation strategy
-- [[mop-edm-cognitive-architecture]] — synthesis applying MOP to AI cognitive architecture

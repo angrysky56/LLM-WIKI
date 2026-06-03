@@ -1,9 +1,3 @@
----
-summary: Blind Essan pidgin: 0% decode accuracy; symbols encode structure but lack semantic bindings
-tags: [essan, pidgin, communication, blind-decoding, hallucination, vector-symbolic]
-updated: 2026-05-30T08:52:45Z
-created: 2026-05-30T08:52:45Z
----
 
 ---
 created: 2026-05-22

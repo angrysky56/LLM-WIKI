@@ -1,28 +1,33 @@
 ---
 created: 2026-05-26
-updated: 2026-06-02T08:10:00Z
+updated: 2026-06-03T08:10:00Z
 type: carryover
-summary: "Jun 2 cycle: synthetic-data (0.3→0.72) and seg-molecular-self (0.3→0.7) promoted; load-bearing-reasoning depth-checked and confirmed adequate"
+summary: "Jun 3 cycle: mathematical-reasoning-ai (0.3→0.72) and transformer-vm-moran-2026 (0.3→0.7) promoted; llm-agents archived as absorbed; 84 periphery stubs mass-archived; chain-of-thought and world-model depth-verified"
 tags: [researcher, carryover]
 ---
 
 ## CarryoverState
 
 ### Established
-- **[[synthetic-data]]** promoted: Jun 2 — full reference page (0.72); covers 3 pressures pushing synthetic data to infrastructure, 5 generation strategies, 3 failure modes (model collapse, feedback-loop bias, TabPFN counter-example), MOP integration (entropy objective vs distribution matching), agentic-search connection (grep paper), 4 open questions. 14 cross-links to MOP/efhf/TabPFN/is-grep/agentic-research/load-bearing-reasoning/behavioral-credibility-trilemma/self-rewarding/llm-as-judge/privacy-mas/EnvFactory/in-context-learning/llm-pretraining/dataset-curation. Sources: TabPFN, is-grep-all-you-need (arXiv 2605.15184), MOP Nature Communications 2024.
-- **[[seg-molecular-self]]** promoted: Jun 2 — concept page (0.7); resolved the carryover open question (NOT a misnomer — the parent synthesis `seg-scientist-agent-design` v0.5 explicitly references "drift-resistance at the persona level"). Covers the molecular-self biological analogy (local rules → global stable structure, no central blueprint), 3 mechanisms (persona-anchored memory, cross-member consistency probes, MOP-driven exploration bounds), SEG design integration, 3 failure modes, 3 open questions (including the fold-collapse problem of legitimate identity change). 10 cross-links to seg-scientist-agent-design/MOP/efhf/bounded-structured-memory/verifier-graph/sheaf-consistency-enforcer/agentic-research/load-bearing-reasoning/agent-skills-spec/self-correction.
-- **`load-bearing-reasoning`** depth-checked: confirmed adequate — ~3KB content, formal definitions, Paraclete EBE chain integration, 50+ cross-links. No action needed.
+- **[[mathematical-reasoning-ai]]** promoted: Jun 3 — full reference page (0.72). Anchored to the May 2026 OpenAI o3 Erdős conjecture falsification (source 0.9) and [[alphaevolve]] (entity 0.8). Covers 4 regimes (competition math → formal proof → algorithm discovery → conjecture falsification), 2026 trajectory, why math is hard for LLMs, connections to load-bearing-reasoning / eml-operator / mop-edm / proof assistants, 5 open questions including the embargo problem and the calibration problem.
+- **[[transformer-vm-moran-2026]]** promoted: Jun 3 — concept page (0.7). The compiler-backend reframing of transformer weights. Covers the computer-architecture mapping (residual stream = registers, attention = lookup, FFN = arithmetic), the 5-step compilation process (graph → schedule → slot assignment → liveness → weight construction), Moran (compiled machine) vs Percepta (compiled interpreter), convex-hull attention, EML extension (the minimal compiled transformer), 5 open questions including scalability and EML depth.
+- **Mass-archival of 84 periphery stubs**: Jun 3 — wrote Python script that flipped status to `archived` for 84 stubs across geopolitics, math foundations, life sciences, business/design, developer tooling, social science, and general meta. Each file got a `*Archived — [category]*` note preserving its connection list.
+- **`llm-agents`** archived: Jun 3 — fully absorbed by [[agents]] (0.75) which has an explicit cross-reference. Body replaced with archival note pointing to the canonical page.
+- **`chain-of-thought` and `world-model` depth-checked**: confirmed adequate — both have rich content (84 lines 1.0 conf / 147 lines 0.8 conf), 30+ cross-links each, no action needed.
 
 ### Open
-- **[Intent]** Next cycle — (a) mass-archival of remaining non-promotable periphery stubs (geopolitics, nato-expansion, hormuz-strait-security, us-intelligence-community, semiconductor-geopolitics, north-american-energy-politics, early-universe, cosmology, computational-science, public-health, semantic-geopolitics); (b) depth verification of top-hub pages `chain-of-thought` (0.0018) and `world-model` (0.0018); (c) consider synthesis page on "agentic retrieval architecture" tying the grep paper to bounded-structured-memory and MCP-wiki search flow.
-- **[Risk]** Stub count remains large (~231 [STUB]-tagged, ~270 confidence 0.3). Continued progress is now in archival throughput rather than discovery. Don't chase stubs at the expense of real knowledge contribution.
-- **[Constraint]** Core AI/ML graph (MOP/EFHF, agents, inference, PEFT, reasoning, synthetic-data, seg-molecular-self) is now well-consolidated. Real-gap stubs in the core are increasingly rare. Most remaining stubs are non-promotable periphery (math, geopolitics, social-science, developer-tooling).
+- **[Intent]** Next cycle — (a) promote 2-3 more real AI/ML gaps from the remaining 125 stubs (top candidates: episodic-memory, information-theory, memory-mechanisms, mixture-of-depths, llm-kernel-optimization); (b) per-stub triage of remaining 125 stubs to separate real gaps from periphery that should be archived; (c) consider synthesis page tying mathematical-reasoning-ai + transformer-vm-moran-2026 + eml-operator together as the "executable symbolic reasoning" cluster.
+- **[Risk]** Hub pages `mcp-logic` and `[[mop-edm-cognitive-architecture]]` not in HITS top list (which suggests they may be under-linked from the wiki despite being concept-level anchors). Worth auditing for cross-link coverage.
+- **[Constraint]** Real-gap stubs in core AI/ML are now rare but still exist (episodic-memory, information-theory, memory-mechanisms). Most remaining 125 stubs are developer-tooling / general-meta, but some are real gaps that need careful triage — not all should be mass-archived.
 
 ### Kanban Status
 - [x] All prior carryover items resolved
-- [x] synthetic-data: PROMOTED Jun 2
-- [x] seg-molecular-self: PROMOTED Jun 2
-- [x] load-bearing-reasoning depth check: confirmed adequate, no action
+- [x] mathematical-reasoning-ai: PROMOTED Jun 3
+- [x] transformer-vm-moran-2026: PROMOTED Jun 3
+- [x] llm-agents: ARCHIVED Jun 3 (absorbed)
+- [x] 84 periphery stubs: ARCHIVED Jun 3
+- [x] chain-of-thought depth check: confirmed adequate
+- [x] world-model depth check: confirmed adequate
 
 ## Last Run
-2026-06-02 08:10Z (cycle 3)
+2026-06-03 08:10Z (cycle 4)

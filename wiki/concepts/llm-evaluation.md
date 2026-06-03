@@ -1,14 +1,13 @@
 ---
-summary: [ARCHIVED] Absorbed by evaluation.md (0.8) — benchmarks and evaluation methodologies covered comprehensively there
-tags: [llm-evaluation, stubs, archived]
-updated: 2026-06-01T04:03:01Z
+created: 2026-05-31
+updated: 2026-05-31
+type: concept
+summary: "[ARCHIVED] Absorbed by evaluation.md (0.8) — benchmarks and evaluation methodologies covered comprehensively"
+tags: ['llm-evaluation', 'archived']
+status: archived
+confidence: 0.3
 ---
 
----
-summary: [ARCHIVED] Absorbed by evaluation.md (0.8) — benchmarks and evaluation methodologies covered comprehensively there
-tags: [llm-evaluation, stubs, archived]
-updated: 2026-09-13T08:10:00Z
----
 
 # LLM Evaluation
 

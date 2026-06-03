@@ -1,9 +1,3 @@
----
-summary: GitHub search: Hermes Agent LCM plugin slash commands
-tags: [github, hermes-agent, search, repositories]
-updated: 2026-05-28T01:58:32Z
-created: 2026-05-28T01:58:32Z
----
 
 ---
 created: 2026-05-28

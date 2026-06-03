@@ -2,7 +2,7 @@
 created: 2026-05-22T20:57:14Z
 updated: 2026-05-22T20:57:14Z
 type: synthesis
-summary: CodeGraph-driven integration plan: GeNNAiS memory architecture + AGEM EventBus/StateManager for Hermes
+summary: "CodeGraph-driven integration plan: GeNNAiS memory architecture + AGEM EventBus/StateManager for Hermes"
 tags: [hermes, integration, plan, memory, state-machine, codegraph, agem, gennaiis]
 sources: []
 status: active

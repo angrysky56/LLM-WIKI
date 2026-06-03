@@ -1,13 +1,16 @@
 ---
+
 created: 2026-06-16
 updated: 2026-06-16
 type: concept
 summary: "[STUB] FPV drones — first-person view unmanned aerial vehicles used in warfare"
 tags: [fpv-drone, stubs, military-technology]
 sources: []
-status: stub
+status: archived
 confidence: 0.3
 ---
+
+*Archived — Non-AI periphery — business / design / hardware.*
 
 # FPV Drone
 

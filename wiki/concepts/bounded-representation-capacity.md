@@ -1,5 +1,5 @@
 ---
-summary: Bounded representation capacity: finite representational resources must be allocated strategically; appears in knowledge boundary probing, orthogonal bottleneck compression, skill banks, SAE features, temporal indexing, gating networks, and safety gating
+summary: "Bounded representation capacity: finite representational resources must be allocated strategically; appears in knowledge boundary probing, orthogonal bottleneck compression, skill banks, SAE features, temporal indexing, gating networks, and safety gating"
 tags: [concept, representation-learning, capacity-allocation, rl, agentic-ai]
 updated: 2026-05-27T07:26:53Z
 created: 2026-05-27T07:26:53Z

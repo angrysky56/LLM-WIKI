@@ -1,5 +1,5 @@
 ---
-summary: Combining the entity-tracking mechanism (fragile REMOVE tag, parallel final-token aggregation) with Entropy-Cut sampling: test-time repair substitutes for retraining only on recombination-OOD (correct path already in the base model), never on capability-OOD (state absent from the machine). Confident silent failures need a mechanistic cut signal, not entropy.
+summary: "Combining the entity-tracking mechanism (fragile REMOVE tag, parallel final-token aggregation) with Entropy-Cut sampling: test-time repair substitutes for retraining only on recombination-OOD (correct path already in the base model), never on capability-OOD (state absent from the machine). Confident silent failures need a mechanistic cut signal, not entropy."
 tags: [synthesis, ood, test-time-scaling, entropy-cut, entity-tracking, causal-states, hallucination-detection, retraining, chain-of-thought, mechanistic-interpretability]
 updated: 2026-05-29T20:00:30Z
 created: 2026-05-29T20:00:30Z

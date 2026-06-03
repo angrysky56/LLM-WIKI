@@ -1,13 +1,16 @@
 ---
+
 created: 2026-06-16
 updated: 2026-06-16
 type: concept
 summary: "[STUB] Cosmology — universe origin, structure, evolution"
 tags: [cosmology, stubs, astrophysics]
 sources: []
-status: stub
+status: archived
 confidence: 0.3
 ---
+
+*Archived — Non-AI periphery — math / engineering foundations.*
 
 # Cosmology
 

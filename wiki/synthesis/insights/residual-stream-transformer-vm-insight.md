@@ -1,9 +1,3 @@
----
-summary: Transformers implement a virtual machine: residual stream as state, attention/FFN as routines, learned weights as program — executable view of computation
-tags: [insights, zettelkasten, transformer-architecture, residual-stream, mechanistic-interpretability, attention, ffn]
-updated: 2026-06-01T09:02:09Z
-created: 2026-06-01T09:02:09Z
----
 
 ---
 created: 2026-06-01

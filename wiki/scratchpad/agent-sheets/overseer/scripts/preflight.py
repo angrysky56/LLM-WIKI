@@ -13,6 +13,26 @@ This eliminates date hallucination by providing machine-verified data.
 Usage:
     python3 preflight.py
     python3 preflight.py --output /tmp/wiki-overseer-preflight.json
+
+PATH RESOLUTION (read this before patching):
+  In cron context, ``Path.home()`` may resolve to a different root than
+  the running user's interactive session — particularly if ``HERMES_HOME``
+  is set, if the cron job's workdir puts the agent in a sandbox, or if
+  the dispatcher profile is running under a service account. The
+  previously-validated buggy cycles (2026-06-01, 2026-06-03) all reported
+  ``"kanban.db not found"`` while the canonical DB existed at the
+  expected path — the script and the dispatcher were not looking at the
+  same home. This file resolves paths in this priority order:
+
+    1. ``$HERMES_HOME`` env var (set by the dispatcher / hermes-cli when
+       a profile is active) — primary source of truth
+    2. ``$HOME/.hermes`` — interactive-session fallback
+    3. Warn (do not crash) when the resolved path doesn't exist
+
+  When the kanban block returns an error or empty result, the caller
+  should ALWAYS run ``scripts/verify_kanban_state.py`` (sibling of this
+  file's project) as a second source of truth, per the wiki-overseer
+  skill's STEP 0 instruction.
 """
 
 import json
@@ -25,10 +45,27 @@ from pathlib import Path
 
 # ── Constants ────────────────────────────────────────────────────────────
 
-WIKI_ROOT = Path("/home/ty/Documents/LLM-WIKI")
+WIKI_ROOT = Path(os.environ.get("LLM_WIKI_ROOT", "/home/ty/Documents/LLM-WIKI"))
+
+
+def _resolve_hermes_home() -> Path:
+    """Pick the most authoritative Hermes home available.
+
+    Order: explicit $HERMES_HOME → $HOME/.hermes → Path.home()/.hermes.
+    Returns the Path even if it does not exist (callers should .exists()
+    before reading).
+    """
+    env = os.environ.get("HERMES_HOME")
+    if env:
+        return Path(env)
+    home = os.environ.get("HOME") or str(Path.home())
+    return Path(home) / ".hermes"
+
+
+HERMES_HOME = _resolve_hermes_home()
 AGENT_SHEETS = WIKI_ROOT / "wiki" / "scratchpad" / "agent-sheets"
-JOBS_JSON = Path.home() / ".hermes" / "cron" / "jobs.json"
-KANBAN_DB = Path.home() / ".hermes" / "kanban.db"
+JOBS_JSON = HERMES_HOME / "cron" / "jobs.json"
+KANBAN_DB = HERMES_HOME / "kanban.db"
 REPORTS_DIR = WIKI_ROOT / "wiki" / "scratchpad" / "jobs" / "reports"
 
 # Map cron job names → agent sheet directory names
@@ -408,6 +445,35 @@ def main():
             output["warnings"].append(
                 f"{name}: last cron run errored: {agent['cron'].get('last_error')}"
             )
+
+    # Preflight-internal diagnostics: surface the resolved paths so debugging
+    # sessions can verify the script is looking at the same Hermes home the
+    # dispatcher uses. When the kanban block errors out (path-not-found),
+    # these are the first thing to inspect.
+    output["_preflight"] = {
+        "hermes_home": str(HERMES_HOME),
+        "kanban_db": str(KANBAN_DB),
+        "kanban_db_exists": KANBAN_DB.exists(),
+        "jobs_json": str(JOBS_JSON),
+        "jobs_json_exists": JOBS_JSON.exists(),
+        "wiki_root": str(WIKI_ROOT),
+        "wiki_root_exists": WIKI_ROOT.exists(),
+        "hermes_home_from_env": bool(os.environ.get("HERMES_HOME")),
+    }
+    if not KANBAN_DB.exists():
+        output["warnings"].append(
+            f"kanban block could not find {KANBAN_DB}. "
+            f"This is a known false-negative in cron context (HERMES_HOME "
+            f"may differ from interactive session). Run "
+            f"scripts/verify_kanban_state.py at "
+            f"{KANBAN_DB.parent.parent}/.hermes/skills/wiki-overseer/"
+            f"scripts/verify_kanban_state.py as the source of truth."
+        )
+    if not JOBS_JSON.exists():
+        output["warnings"].append(
+            f"cron block could not find {JOBS_JSON}. "
+            f"Carryover frontmatter will be the only status source this cycle."
+        )
 
     # Output
     output_path = None

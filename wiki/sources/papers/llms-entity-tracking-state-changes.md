@@ -1,19 +1,21 @@
 ---
+summary: LMs don't track entity states incrementally — they aggregate all relevant information in parallel at the final token once the query is evident. REMOVE uses a fragile global suppression tag, revealing failure modes that mechanistic analysis predicts.
+tags: [entity-tracking, mechanistic-interpretability, language-models, ICML-2026]
+updated: 2026-06-03T14:53:26Z
+---
+
+---
 created: 2026-05-29
-updated: 2026-05-29
+updated: 2026-06-03T14:48:00Z
 type: source
 paper_id: 2605.30233
-summary: "LMs don't track entity states incrementally — they aggregate all relevant information in parallel at the final token once the query is evident. REMOVE uses a fragile global suppression tag, revealing failure modes that mechanistic analysis predicts."
-tags: [entity-tracking, mechanistic-interpretability, language-models, ICML-2026]
-authors:
-  - Zilu Tang
-  - Qiao Zhao
-  - Gabriel Franco
-  - Derry Wijaya
-  - Aaron Mueller
-  - Sebastian Schuster
-  - Najoung Kim
+summary: LMs don't track entity states incrementally — they aggregate all relevant information in parallel at the final token once the query is evident. REMOVE uses a fragile global suppression tag, revealing failure modes that mechanistic analysis predicts.
+tags: ['entity-tracking', 'mechanistic-interpretability', 'language-models', 'ICML-2026']
+authors: 
 venue: ICML main conference 2026
+sources: https://arxiv.org/abs/2605.30233
+status: active
+confidence: 0.85
 ---
 
 # Do Language Models Track Entities Across State Changes?
@@ -117,7 +119,15 @@ The paper is situated at the intersection of:
 - Mechanistic interpretability of transformer attention mechanisms
 - Behavioral evaluation of LMs on reasoning tasks
 
-It builds on prior work in [[entity tracking]], [[mechanistic interpretability]], and [[attention mechanisms]] in transformers.
+It builds on prior work in [[entity-tracking-externalization]], [[mechanistic-interpretability]], and [[attention-mechanism]] in transformers.
+
+## Connections
+
+- [[entity-tracking-externalization]] — entity-tracking as a cognitive externalization pattern (related entity project)
+- [[mechanistic-interpretability]] — the broader field of mechanistic analysis
+- [[attention-mechanism]] — the architectural component central to the suppression-tag finding
+- [[transformer-architecture]] — model family investigated
+- [[ICML-2026]] — venue (if a tag page exists; otherwise drop)
 
 ## References
 

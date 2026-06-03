@@ -1,9 +1,3 @@
----
-summary: Gamma-World: Multi-agent video world model with permutation-symmetric agent encoding and linear cross-agent attention
-tags: [world-models, multi-agent, video-generation, permutation-symmetry, nvidea]
-updated: 2026-05-28T14:13:21Z
-created: 2026-05-28T14:13:21Z
----
 
 ---
 created: 2026-05-28T00:00:00Z

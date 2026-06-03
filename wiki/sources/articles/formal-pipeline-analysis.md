@@ -1,9 +1,3 @@
----
-summary: OrCAID+Meta-Harness+Paper2Code pipeline: integrated confidence 0.47; semantic gap is binding constraint
-tags: [orcaid, meta-harness, paper2code, pipeline-analysis, formal-optimization, domain-building]
-updated: 2026-05-30T08:52:48Z
-created: 2026-05-30T08:52:48Z
----
 
 ---
 created: 2026-05-24

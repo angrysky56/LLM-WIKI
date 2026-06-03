@@ -1,13 +1,16 @@
 ---
+
 created: 2026-06-16
 updated: 2026-06-16
 type: concept
 summary: "[STUB] AI diagnostics — medical diagnosis using AI systems"
 tags: [ai-diagnostics, stubs, healthcare-ai]
 sources: []
-status: stub
+status: archived
 confidence: 0.3
 ---
+
+*Archived — Non-AI periphery — meta/AI-adjacent without canonical anchor.*
 
 # AI Diagnostics
 

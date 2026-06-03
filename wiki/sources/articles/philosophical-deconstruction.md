@@ -1,9 +1,3 @@
----
-summary: Philosophical critique: behaviorist vs representationalist vs translationist epistemologies are irreconcilable
-tags: [philosophical-critique, orcaid, meta-harness, paper2code, epistemology, knowledge-theory]
-updated: 2026-05-30T08:52:52Z
-created: 2026-05-30T08:52:52Z
----
 
 ---
 created: 2026-05-24

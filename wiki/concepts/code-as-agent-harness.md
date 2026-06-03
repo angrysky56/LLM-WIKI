@@ -1,7 +1,4 @@
 ---
-
-*Archived — Absorbed by agent-architectures (0.75) which explicitly covers code as agent scaffolding, tool use patterns, and the reactive/deliberative execution layers.*
-
 created: 2026-05-25
 updated: 2026-05-25
 type: concept

@@ -1,9 +1,3 @@
----
-summary: News.google.com: Microsoft response to Pope Leo XIV AI encyclical
-tags: [news, google, microsoft, pope-leo-xiv, magnifica-humanitas]
-updated: 2026-05-28T01:58:59Z
-created: 2026-05-28T01:58:59Z
----
 
 ---
 created: 2026-05-28

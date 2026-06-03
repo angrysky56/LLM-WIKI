@@ -1,9 +1,3 @@
----
-summary: 2026-06-02 arxiv report — 3 papers on agent deployment-readiness: Monitoring Maturity (3x3 grid + variance), SkillHarm (lifecycle skill attacks ASR 86.3%), HLL (CAPTCHA as human-substitution). New theme: capability-vs-deployment gap.
-tags: [arxiv, daily-report, 2026-06, agent-deployment, oversight, skill-security, multimodal-agent]
-updated: 2026-06-02T14:21:29Z
-created: 2026-06-02T14:21:29Z
----
 
 ---
 created: 2026-06-02T00:00:00Z

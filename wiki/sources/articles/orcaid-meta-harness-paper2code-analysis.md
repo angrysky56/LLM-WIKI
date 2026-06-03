@@ -1,9 +1,3 @@
----
-summary: OrCAID+Meta-Harness+Paper2Code unified: closed-loop meta-optimization architecture with self-evolving verification
-tags: [orcaid, meta-harness, paper2code, integration, closed-loop, meta-optimization]
-updated: 2026-05-30T08:52:49Z
-created: 2026-05-30T08:52:49Z
----
 
 ---
 created: 2026-05-24

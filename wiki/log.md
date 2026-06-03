@@ -3248,3 +3248,247 @@ Index updated with 1320 pages
 ## [2026-06-03 08:19] lint
 
 1337 pages · 65 orphans · 513 broken · 9 missing-fm · report: audits/lint-2026-06-03.md
+
+## [2026-06-03 12:08] write
+
+Updated page: wiki/synthesis/insights/archival-package-computational-biology-bridge-insight.md
+
+## [2026-06-03 12:09] write
+
+Updated page: wiki/synthesis/insights/neuronal-idol-alzheimers-therapy-insight.md
+
+## [2026-06-03 12:09] index
+
+Index updated with 1334 pages
+
+## [2026-06-03 12:32] ingest | AGEM hard problem full corpus minimax m3.md
+
+Ingested raw/AGEM hard problem full corpus minimax m3.md into knowledge graph.
+
+Preview: user  ## Corpus  ### 1\. The hard problem and the easy problems are different kinds of question  David Chalmers' distinction is categorical, not a matter of difficulty ranking. The **easy problems** a...
+
+## [2026-06-03 12:41] ingest | AGEM hard problem minimax m3 cycle failures.md
+
+Ingested raw/AGEM hard problem minimax m3 cycle failures.md into knowledge graph.
+
+Preview: user  ## Corpus  ### 1\. The hard problem and the easy problems are different kinds of question  David Chalmers' distinction is categorical, not a matter of difficulty ranking. The **easy problems** a...
+
+## [2026-06-03 12:41] ingest | AGEM logic test 1.md
+
+Ingested raw/AGEM logic test 1.md into knowledge graph.
+
+Preview: ## Logic-H¹ test corpus  Three sections, each a set of "blocks" for `evaluate_logical_consistency`. Engineered to exercise the logic-based H¹ pipeline end-to-end and to be distinguishable in the outpu...
+
+## [2026-06-03 12:43] ingest | AGEM wiki introduction prior to synapse fixes.md
+
+Ingested raw/AGEM wiki introduction prior to synapse fixes.md into knowledge graph.
+
+Preview: user  You have synapse mcp to utilize the LLM-WIKI to begin explore the concepts here: /home/ty/Documents/LLM-WIKI/wiki/concepts/persistent-knowledge-compilation.md  assistant  I'll explore this conce...
+
+## [2026-06-03 12:45] ingest | chopratejasheadroom Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server..md
+
+Ingested raw/chopratejasheadroom Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server..md into knowledge graph.
+
+Preview: ``` ██╗  ██╗███████╗ █████╗ ██████╗ ██████╗  ██████╗  ██████╗ ███╗   ███╗ ██║  ██║██╔════╝██╔══██╗██╔══██╗██╔══██╗██╔═══██╗██╔═══██╗████╗ ████║ ███████║█████╗  ███████║██║  ██║██████╔╝██║   ██║██║   █...
+
+## [2026-06-03 12:46] ingest | How to Install Google Antigravity on Ubuntu 26.04, 24.04 and 22.04.md
+
+Ingested raw/How to Install Google Antigravity on Ubuntu 26.04, 24.04 and 22.04.md into knowledge graph.
+
+Preview: Before installing Google Antigravity on Ubuntu, choose the product surface you need: the Antigravity 2.0 desktop app for visual agent orchestration, the Antigravity IDE for editor-first coding, or the...
+
+## [2026-06-03 12:54] write
+
+Updated page: wiki/sources/articles/agem-cycle-failures-iter3.md
+
+## [2026-06-03 12:56] ingest | AGEM hard problem minimax m3 cycle failures.md
+
+Ingested raw/AGEM hard problem minimax m3 cycle failures.md into knowledge graph.
+
+Preview: user  ## Corpus  ### 1\. The hard problem and the easy problems are different kinds of question  David Chalmers' distinction is categorical, not a matter of difficulty ranking. The **easy problems** a...
+
+## [2026-06-03 12:56] write
+
+Updated page: wiki/sources/articles/agem-corpus-full-minimax-m3.md
+
+## [2026-06-03 12:56] write
+
+Updated page: wiki/sources/articles/agem-logic-test-1.md
+
+## [2026-06-03 12:57] write
+
+Updated page: wiki/sources/articles/agem-wiki-introduction-prior-synapse-fixes.md
+
+## [2026-06-03 12:57] write
+
+Updated page: wiki/sources/repositories/headroom-chopratejas.md
+
+## [2026-06-03 12:57] write
+
+Updated page: wiki/sources/articles/google-antigravity-ubuntu-install.md
+
+## [2026-06-03 12:57] index
+
+Index updated with 1340 pages
+
+## [2026-06-03 13:33] fetch | us-and-iran-launch-new-strikes-as-kuwait-says-airport-hit-by.md
+
+Fetched https://www.bbc.com/news/articles/c5yx135yg53o via defuddle → ingested.
+
+Preview: ![Reuters People run amid smoke from a fire, in the aftermath of Iranian strikes, according to the foreign ministry, at Kuwait International Airport in Kuwait City](https://ichef.bbci.co.uk/news/1536/...
+
+## [2026-06-03 13:35] fetch | iran-kuwait-bahrain-hit-is-the-war-in-the-gulf-escalating-ag.md
+
+Fetched https://www.aljazeera.com/news/2026/6/3/iran-kuwait-bahrain-hit-is-the-war-in-the-gulf-escalating-again via defuddle → ingested.
+
+Preview: ![Fishing boats along the Strait of Hormuz](https://www.aljazeera.com/wp-content/uploads/2026/06/getty_6a1fe763c7-1780475747.jpg?resize=730%2C410&quality=80)  07:38  Iran targets Bahrain and Kuwait as...
+
+## [2026-06-03 13:36] fetch | ukrainian-drones-hit-st-petersburg-as-putins-flagship-econom.md
+
+Fetched https://www.bbc.com/news/articles/c0e2vqd3j1vo via defuddle → ingested.
+
+Preview: Ukrainian drones hit Russia's St Petersburg area  Ukraine has carried out a strike on the outskirts of Russia's St Petersburg, hours before the opening of a major economic forum designed to attract fo...
+
+## [2026-06-03 13:36] fetch | spacex-seeks-75-billion-in-ipo-at-135-per-share-reuters-says.md
+
+Fetched https://www.bloomberg.com/news/articles/2026-06-03/spacex-seeks-75-billion-in-ipo-at-135-per-share-reuters-says via defuddle → ingested.
+
+Preview: [Contact us:](https://www.bloomberg.com/help/question/submit-feedback-news-coverage/)  [Provide news feedback or report an error](https://www.bloomberg.com/help/question/submit-feedback-news-coverage/...
+
+## [2026-06-03 13:38] fetch | us-and-iran-launch-new-strikes-as-kuwait-says-airport-hit-by.md
+
+Fetched https://www.bbc.com/news/articles/c5yx135yg53o via defuddle → ingested.
+
+Preview: ![Reuters People run amid smoke from a fire, in the aftermath of Iranian strikes, according to the foreign ministry, at Kuwait International Airport in Kuwait City](https://ichef.bbci.co.uk/news/1536/...
+
+## [2026-06-03 13:40] write
+
+Updated page: wiki/sources/news/2026/iran-strikes-kuwait-bahrain-gulf-escalation-june-3-2026.md
+
+## [2026-06-03 13:40] write
+
+Updated page: wiki/sources/news/2026/ukraine-strikes-st-petersburg-putin-economic-forum-june-3-2026.md
+
+## [2026-06-03 13:40] write
+
+Updated page: wiki/sources/news/2026/trump-endorses-colombia-espriella-runoff-june-3-2026.md
+
+## [2026-06-03 13:40] write
+
+Updated page: wiki/sources/news/2026/trump-canada-51st-state-trade-talks-june-3-2026.md
+
+## [2026-06-03 13:40] write
+
+Updated page: wiki/sources/news/2026/spacex-ipo-75-billion-135-per-share-june-3-2026.md
+
+## [2026-06-03 13:40] index
+
+Index updated with 1346 pages
+
+## [2026-06-03 14:07] write
+
+Updated page: wiki/concepts/mathematical-reasoning-ai.md
+
+## [2026-06-03 14:08] write
+
+Updated page: wiki/concepts/transformer-vm-moran-2026.md
+
+## [2026-06-03 14:10] lint
+
+1353 pages · 73 orphans · 571 broken · 9 missing-fm · report: audits/lint-2026-06-03.md
+
+## [2026-06-03 14:10] index
+
+Index updated with 1347 pages
+
+## [2026-06-03 14:37] index
+
+Index updated with 1354 pages
+
+## [2026-06-03 14:39] lint
+
+1360 pages · 73 orphans · 588 broken · 9 missing-fm · report: audits/lint-2026-06-03.md
+
+## [2026-06-03 14:41] lint
+
+1360 pages · 73 orphans · 588 broken · 9 missing-fm · report: audits/lint-2026-06-03.md
+
+## [2026-06-03 14:48] lint
+
+1361 pages · 73 orphans · 588 broken · 9 missing-fm · report: audits/lint-2026-06-03.md
+
+## [2026-06-03 14:49] write
+
+Updated page: wiki/research/mop-agents-integration.md
+
+## [2026-06-03 14:51] write
+
+Updated page: wiki/research/projects/goodrobot/Q2_SALES_TARGET_LIST.md
+
+## [2026-06-03 14:51] write
+
+Updated page: wiki/research/projects/goodrobot/STRATEGIC_BRIEF.md
+
+## [2026-06-03 14:51] write
+
+Updated page: wiki/synthesis/_index/structural-reuse-crosslink-survey-2026-06-01.md
+
+## [2026-06-03 14:52] write
+
+Updated page: wiki/synthesis/news/2026-May/headlines-2026-05-23.md
+
+## [2026-06-03 14:53] write
+
+Updated page: wiki/synthesis/news/2026-May/headlines-2026-05-24.md
+
+## [2026-06-03 14:53] write
+
+Updated page: wiki/synthesis/news/2026-May/headlines-2026-05-25.md
+
+## [2026-06-03 14:53] write
+
+Updated page: wiki/synthesis/news/2026-May/headlines-2026-05-28.md
+
+## [2026-06-03 14:53] write
+
+Updated page: wiki/synthesis/news/2026-May/news-2026-05-21-headlines.md
+
+## [2026-06-03 14:53] write
+
+Updated page: wiki/sources/papers/llms-entity-tracking-state-changes.md
+
+## [2026-06-03 14:54] write
+
+Updated page: wiki/concepts/knowledge-architecture.md
+
+## [2026-06-03 14:55] index
+
+Index updated with 1356 pages (Deep refresh completed)
+
+## [2026-06-03 14:55] lint
+
+1362 pages · 71 orphans · 595 broken · 0 missing-fm · report: audits/lint-2026-06-03.md
+
+## [2026-06-03 20:13] lint
+
+1363 pages · 71 orphans · 595 broken · 42 missing-fm · report: audits/lint-2026-06-03.md
+
+## [2026-06-03 20:15] lint
+
+1363 pages · 71 orphans · 595 broken · 42 missing-fm · report: audits/lint-2026-06-03.md
+
+## [2026-06-03 20:16] index
+
+Index updated with 1357 pages (Deep refresh completed)
+
+## [2026-06-03 20:20] lint
+
+1363 pages · 71 orphans · 595 broken · 42 missing-fm · report: audits/lint-2026-06-03.md
+
+## [2026-06-03 20:25] write
+
+Updated page: wiki/sources/papers/ramirez-ruiz-mop-2024.md
+
+## [2026-06-03 20:25] write
+
+Updated page: wiki/entities/tools/image-extender.md

@@ -1,8 +1,8 @@
 ---
 created: 2026-05-26T00:00:00Z
-updated: 2026-06-02T08:20:00Z
+updated: 2026-06-03T08:38:00Z
 type: report
-summary: "arxiv agent carryover — 2026-06-02 batch: Monitoring Maturity (3x3 scope×dim grid + variance + FMEA triage), SkillHarm (lifecycle skill attacks, ASR 86.3%/69.3%), HLL (CAPTCHA as human-substitution test + trace-conditioned validation). New theme: capability-vs-deployment gap."
+summary: "arxiv agent carryover — 2026-06-03 batch: Sleep/Self-Modify (Behrouz wake/sleep paradigm with low-rank expert consolidation + dreaming), Skill-RM (Alibaba: reward modeling as executable reward-evaluation skill; Qwen3.5-27B 86.2 avg on reward bench), Faithful Confidence (Yale: first framework to quantify LRM decisiveness-confidence gap; LRMs systematically unfaithful). New theme: bounded self-model."
 tags: [arxiv, carryover]
 status: active
 confidence: high
@@ -15,74 +15,73 @@ confidence: high
 | Date | Result | Notes |
 |------|--------|-------|
 | 2026-05-18 | 3 papers ingested | EnvFactory, SD-Search, LMAC — credit assignment theme |
-| 2026-05-20 | No new papers | arXiv late-UTC batch not yet posted |
 | 2026-05-21 | 3 papers ingested | EqR (attractors), DeepWeb-Bench, hyperparameter transfer |
-| 2026-05-23 | 3 papers ingested | VPO (diversity RL), DeltaDirect (motion blindness), Recuriosity (3D exploration) — test-time scaffolding theme |
-| 2026-05-24 | 3 papers ingested | ProxySHAP (Shapley/Banzhaf), Boiling the Frog (agentic safety), CUSP (scientific forecasting) — verification/trust theme |
-| 2026-05-26 | 3 papers ingested | Shannon Scaling Law, SkillOpt, SkillLens — bounded representation capacity |
-| 2026-05-26 (new) | 3 papers ingested | StepOPSD, AKBE, PRISM — instance-level behavioral decomposition |
+| 2026-05-23 | 3 papers ingested | VPO, DeltaDirect, Recuriosity — test-time scaffolding theme |
+| 2026-05-24 | 3 papers ingested | ProxySHAP, Boiling the Frog, CUSP — verification/trust theme |
+| 2026-05-26 | 3 papers ingested | Shannon Scaling Law, SkillOpt, SkillLens — bounded representation |
+| 2026-05-26 (new) | 3 papers ingested | StepOPSD, AKBE, PRISM — behavioral decomposition |
 | 2026-05-27 | 3 papers ingested | MATCHA, FinHarness, Interaction SSD — evaluation infrastructure |
-| 2026-05-27 (additional) | 6 papers processed | Real Images, Chartographer, Demographic Info + top 3 |
-| 2026-05-28 | 3 papers ingested | CCO, Gamma-World, BES — constraint satisfaction under distribution shift |
+| 2026-05-27 (add) | 6 papers processed | Real Images, Chartographer, Demographic Info + top 3 |
+| 2026-05-28 | 3 papers ingested | CCO, Gamma-World, BES — constraint satisfaction |
 | 2026-05-29 | 3 papers ingested | Gram, SoundnessBench, Entropy-Cut MH — evaluation infrastructure |
-| 2026-05-31 | No new batch | No new arXiv submissions today — API returned only 2026-05-28 papers already processed. |
-| 2026-06-01 | 3 papers ingested | ReuseRL, AutoSci, Stateful Monitoring — agent architecture + oversight |
-| **2026-06-02** | **3 papers ingested** | **Monitoring Maturity, SkillHarm, HLL — capability-vs-deployment gap** |
+| 2026-06-01 | 3 papers ingested | ReuseRL, AutoSci, Stateful Monitoring |
+| 2026-06-02 | 3 papers ingested | Monitoring Maturity, SkillHarm, HLL — capability-vs-deployment gap |
+| **2026-06-03** | **3 papers ingested** | **Sleep, Skill-RM, Faithful Confidence — bounded self-model** |
 
 ## Current State
-
 - **arXiv**: 2026-06-02 batch fully processed — 3 papers ingested
-- **Wiki paper inventory**: ~97 pages in `wiki/sources/papers/` (added monitoring-agentic-systems-reliability-2026, skillharm-lifecycle-skill-attacks-2026, hll-humanitys-last-line-verification-2026)
-- **arXiv API**: Continued aggressive rate limiting; 3 consecutive 429s. Mitigated with 60-150s backoff + 5s inter-category sleep.
+- **Wiki paper inventory**: ~100 pages in `wiki/sources/papers/` (added sleep-self-modify-consolidate-2026, skill-rm-2026, faithful-confidence-lrm-2026)
+- **arXiv API**: 4 consecutive 429/503s before first 200. 60-180s backoff worked.
 
-## Papers Ingested (2026-06-02 batch)
+## Papers Ingested (2026-06-03 batch)
 
 | Paper | arXiv ID | Key Finding | Wiki Connection |
 |-------|----------|-------------|------------------|
-| Monitoring Maturity | 2606.02494 | 3×3 (scope×dim) grid; CV=0.02 within-run, CV=1.25 cross-run, CV=0.00 structural; 97% automated triage, 2% humans; FMEA severity routing | Connects to [[stateful-monitoring-distributed-agent-attacks-2026]], [[boiling-frog-agentic-safety-2026]], [[gram-sabotage-alignment-auditing-2026]], [[finharness-2026]], [[matcha-2026]] — argues field is in wrong monitoring stage |
-| SkillHarm | 2606.02540 | 879 attacks × 71 skills × 12 risk types; ASR 86.3% FPP, 69.3% SMP; latent risk: "attack failures" are non-engagement, not resistance | Connects to [[reuserl-skill-reuse-compression-2026]], [[skillopt-self-evolving-2026]], [[codeskill]], [[muse-autoskill]], [[stepopsd-2026]], [[akbe-2026]] — inverts skill theme into attack surface |
-| HLL | 2606.02449 | 8 frontier multimodal agents; trace-conditioned validation; brittle under realism stressors; process consistency gap | Connects to [[finharness-2026]], [[matcha-2026]], [[soundnessbench-ai-scientist-2026]], [[autosci-memory-centric-research-lifecycle-2026]] — process-validated scoring upgrade |
+| Sleep / Self-Modify | 2606.03979 | Wake/sleep lifecycle; low-rank expert addition + upward distillation + RL dreaming; outperforms SFT/GRPO/OPSD on AIME, BABILong 10M tokens, novel-language continual translation, SQuAD knowledge incorporation | [[continual-learning]], [[bounded-representation-capacity]], [[mixture-of-experts]], [[reuserl-skill-reuse-compression]], [[stepopsd-2026]], [[akbe-2026]], [[saerl]] |
+| Skill-RM | 2606.03980 | Reward modeling as executable Reward-Evaluation Skill (M_RM + U_RM); Qwen3.5-27B 86.2 avg on RewardBench2/RM-Bench/JudgeBench; +2.3 over raw judge, +9.9 over RewardAgent at matched backbone | [[bounded-representation-capacity]], [[agent-skills]], [[reward-models]], [[skillopt-self-evolving-2026]], [[skillharm-lifecycle-skill-attacks-2026]], [[muse-autoskill]], [[codeskill]] |
+| Faithful Confidence | 2606.03969 | 7 models × 5 datasets; 3-estimator triangulation (RCC + DeepConf + prefix-conditioned sampling); cMFG* metric; LRMs systematically unfaithful; reasoning training doesn't fix; prompt interventions don't transfer | [[calibration]], [[faithfulness]], [[uncertainty-quantification]], [[agent-trust]], [[bounded-representation-capacity]], [[meta-cognitive-agents]], [[finharness-2026]], [[matcha-2026]], [[hll-humanitys-last-line-verification-2026]] |
 
-## Cross-Paper Theme: The Capability-vs-Deployment Gap
+## Cross-Paper Theme: Bounded Self-Model
 
-**New theme emerging across cycles:** Agents cross the capability threshold (can do tasks) but not the deployment threshold (services can trust them with workflows).
+**New theme emerging across this cycle:** All three papers address the same deep problem — the model has a *bounded capacity to represent its own state*, and the gap between internal state and externalised representation is the locus of failure.
 
-| Paper | Deployment Boundary | What the Agent Cannot Do |
-|-------|---------------------|--------------------------|
-| Monitoring Maturity | structural integration | fail safely when the system is broken |
-| SkillHarm | third-party supply chain | refuse poisoned skills across the lifecycle |
-| HLL | human-verification gate | act like a human, not just recognize answers |
+| Paper | Self-Representation | Failure Mode |
+|-------|---------------------|--------------|
+| Sleep | Memory modules at different frequencies | In-context knowledge never consolidated into parameters |
+| Skill-RM | Procedural evaluation skill | Reward criteria implicit in prompt; no resource orchestration |
+| Faithful Confidence | Confidence-decisiveness alignment | What the model *thinks* vs what the model *says* diverges |
 
-This is the **third new theme in 6 days** for the agentic-systems thread:
+This is the **fourth new theme in 7 days** for the agentic-systems / meta-cognition thread:
 1. (2026-05-27) Evaluation infrastructure
 2. (2026-06-01) Structural reuse as unit of trustworthiness
-3. (2026-06-02) **Capability-vs-deployment gap** — current candidate
+3. (2026-06-02) Capability-vs-deployment gap
+4. (2026-06-03) **Bounded self-model** — current candidate
+
+The bounded-self-model theme *subsumes* yesterday's capability-vs-deployment gap: the deployment gap is exactly a bounded-self-model problem (the model doesn't know what it doesn't know, and can't express what it does know).
 
 ## Kanban Status
 
 ### This Cycle
-
 - [x] 3 papers ingested, all cross-linked
 - [x] Wiki pages have outgoing + incoming links to existing concept/sources pages
-- [x] New theme identified: capability-vs-deployment gap
+- [x] New theme identified: bounded self-model
 - [x] shared carryover updated (research-carryover.md)
-- [x] report at wiki/scratchpad/jobs/reports/arxiv/arxiv-2026-06-02-top-papers.md
+- [x] report at wiki/scratchpad/jobs/reports/arxiv/arxiv-2026-06-03-top-papers.md
 
 ## Notes for Next Run
-
-- **arXiv rate limiting**: Continued 429s — 3 in a row before first 200. Used 60-150s backoff. Consider rotating User-Agent or adding API key in next maintenance.
-- **New theme**: Capability-vs-deployment gap — three papers converge without citing each other. Candidate for a synthesis page.
-- **Skill theme pivot**: SkillHarm inverts the entire skill theme (now 7+ papers) into an attack surface. Subsequent skill papers may need to address provenance/signing/sandboxing.
-- **Process-validated scoring**: HLL's trace-conditioned validation is a method upgrade the field should adopt more broadly.
+- **arXiv rate limiting**: 4 consecutive 429/503s on this run. 60-180s backoff worked. May need API key or different user agent rotation.
+- **Theme: bounded self-model**: Three papers converge without citing each other. Strong synthesis candidate.
+- **Skill theme**: Skill-RM is the 8th paper in the skill thread (SkillOpt, SkillLens, ReuseRL, MUSE, CODESKILL, SkillHarm, Ctx2Skill, Skill-RM). The skill abstraction is now: (a) operational unit, (b) compression unit, (c) evaluation unit, (d) attack surface. Skill-RM also opens an **adversarial reward-skill** question that the wiki should track.
+- **Faithful confidence**: The cMFG* metric + prefix-conditioned sampling are method upgrades worth propagating to prior cycle's evaluation papers (MATCHA, FinHarness, SoundnessBench, HLL). Out-of-scope for now but candidate for a follow-up synthesis.
+- **Sleep + security**: The dreaming phase is the most security-sensitive part — adversarial wake-phase inputs shape the dream curriculum. Connects to SkillHarm (poisoned skills) on the security thread.
 
 ## What Remains
-
-- [ ] (Optional) Create synthesis page on "Capability-vs-Deployment Gap" if not yet covered in synthesis/
-- [ ] (Optional) Add incoming wikilinks from related wiki pages to the three new source pages
-- [ ] (Optional) Synthesis page on "The Skill Theme: From Compression to Attack Surface" — covers the full arc from SkillOpt → ReuseRL → SkillHarm
-- [ ] (Optional) Create an entity page for "Reins AI" (Boston et al.'s company)
-- [x] ~~(Pending) Researcher tasks from 2026-05-30 carryover: STV vs RiM comparison, Physics vs LLMSurgeon comparison, Predictive adequacy vs explanatory correctness *(all resolved: t_ddf839070e904f9b, t_cbcdc7bee3cd46ca, t_471274800c084c94)*~~ *(verified done 2026-06-02, t_ddf839070e904f9b)*
+- [ ] (Optional) Create synthesis page on "Bounded Self-Model" — covers Sleep + Skill-RM + Faithful Confidence + cross-references to 2026-06-02 capability-vs-deployment
+- [ ] (Optional) Add incoming wikilinks from related wiki pages (continual-learning, bounded-representation-capacity, skill-theme pages) to the three new source pages
+- [ ] (Optional) Synthesis page on "The Skill Theme: From Compression to Attack Surface to Evaluation Procedure" — covers full arc from SkillOpt → ReuseRL → SkillHarm → Skill-RM
+- [ ] (Optional) Update bounded-representation-capacity.md to add Sleep (memory consolidation as dynamic capacity allocation), Skill-RM (procedural resource bank as bounded capacity), and FC (bounded self-model of confidence) as canonical examples
+- [ ] (Optional) Create entity page for "Continuum Memory System (CMS) / Nested Learning" (Behrouz et al. 2025)
+- [ ] (Optional) Update Skill-RM wiki page with adversarial-reward-skill security note linking to SkillHarm
 
 ## Last Run
-
-2026-06-02 08:20 UTC — 3 papers processed from 2026-06-01 batch: Monitoring Maturity (3×3 grid + variance + FMEA triage), SkillHarm (lifecycle skill attacks), HLL (CAPTCHA human-substitution). New theme: capability-vs-deployment gap.
+2026-06-03 14:30 UTC — 3 papers processed from 2026-06-02 batch: Sleep/Self-Modify (Behrouz wake/sleep paradigm with low-rank expert consolidation + dreaming), Skill-RM (Alibaba: reward modeling as executable reward-evaluation skill; Qwen3.5-27B 86.2 avg on reward bench), Faithful Confidence (Yale: first framework to quantify LRM decisiveness-confidence gap; LRMs systematically unfaithful). New theme: bounded self-model.

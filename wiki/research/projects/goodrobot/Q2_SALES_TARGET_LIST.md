@@ -1,3 +1,20 @@
+---
+summary: GoodRobot Q2 2026 sales target list — 20 qualified UK professional services prospects, prioritized P1-P3 for discovery call pipeline
+tags: [goodrobot, sales, gtm, prospect-research, professional-services, uk]
+updated: 2026-06-03T14:51:25Z
+---
+
+---
+created: 2026-05-14
+updated: 2026-06-03T14:48:00Z
+type: research
+summary: GoodRobot Q2 2026 sales target list — 20 qualified UK professional services prospects, prioritized P1-P3 for discovery call pipeline
+tags: [goodrobot, sales, gtm, prospect-research, professional-services, uk]
+sources: []
+status: active
+confidence: 0.85
+---
+
 # GoodRobot — Q2 2026 Sales Target List
 
 **Owner:** CEO (GOO-32)  
@@ -15,7 +32,7 @@ From GTM Strategy (GOO-28):
 - **Geography:** UK (initial market matching son's existing business)
 - **Decision-maker:** Owner, MD, or Operations Director
 - **Pain signals:** Manual lead generation, no systematic customer acquisition, over-reliance on word-of-mouth
-- ** disqualifiers:** Under 5 employees, heavily regulated compliance requiring HIPAA/SOC2, no digital presence at all
+- **disqualifiers:** Under 5 employees, heavily regulated compliance requiring HIPAA/SOC2, no digital presence at all
 
 ---
 
@@ -44,8 +61,6 @@ From GTM Strategy (GOO-28):
 | 19 | Heritage Legal LLP | Solicitor | York | heritagelegal.co.uk | P3 | Pending |
 | 20 | Lighthouse Financial Advice | IFA | Plymouth | lighthouseadvice.co.uk | P3 | Pending |
 
----
-
 ## Priority Breakdown
 
 ### P1 — Highest Priority (5 businesses, target for first 5 research calls)
@@ -64,8 +79,6 @@ Established firms with digital presence but unclear acquisition strategy:
 Smaller or less digitally visible firms requiring research validation:
 - Redhall Consulting through Lighthouse Financial Advice (see table)
 
----
-
 ## Research Pipeline Execution Log
 
 | Prospect | Research Started | Profile Completed | Gap Analysis | Script Ready | Notes |
@@ -73,8 +86,6 @@ Smaller or less digitally visible firms requiring research validation:
 | 1–5 (P1) | Pending | Pending | Pending | Pending | Target: first 5 calls by May 21 |
 | 6–10 (P2) | Pending | Pending | Pending | Pending | Target: May 28 |
 | 11–20 (P3) | Pending | Pending | Pending | Pending | Target: June 15 |
-
----
 
 ## Pipeline Status
 
@@ -97,14 +108,12 @@ Smaller or less digitally visible firms requiring research validation:
 6. Book discovery calls — target 5 booked by May 21
 7. Document outcomes and iterate script quality
 
----
+## Connections
 
-## Related
-- [[Q2_SALES_TARGET_LIST]]
-- [[wiki/research/projects/goodrobot/index]]
-- [[wiki/research/projects/goodrobot/index]]
-
-- [[Q2_SALES_TARGET_LIST]]
+- [[wiki/research/projects/goodrobot/STRATEGIC_BRIEF]] — Q2 strategic context for this target list
+- [[wiki/research/projects/goodrobot/index]] — GoodRobot project index
+- [[wiki/research/projects/goodrobot/shut-down-entity]] — post-mortem on what happens when the pipeline breaks
+- [[persistent-knowledge-compilation]] — general paradigm: GoodRobot as zero-human AI company case study
 
 ## Success Metrics
 

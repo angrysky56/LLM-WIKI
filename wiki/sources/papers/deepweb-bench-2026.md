@@ -1,9 +1,3 @@
----
-summary: DeepWeb-Bench: deep research benchmark — derivation/calibration failures dominate over retrieval; cross-model rho=0.61
-tags: [paper, benchmark, deep-research, agentic-AI, evaluation]
-updated: 2026-05-21T16:53:07Z
-created: 2026-05-21T16:53:07Z
----
 
 ---
 created: 2026-05-21T16:51:00Z

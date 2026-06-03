@@ -1,6 +1,5 @@
 ---
 created: 2026-05-25
-*Archived — Absorbed by agentic-research (0.8) which covers AI for scientific discovery and the why-llms-arent-scientists-yet source (1.0).*
 
 updated: 2026-05-25
 type: concept

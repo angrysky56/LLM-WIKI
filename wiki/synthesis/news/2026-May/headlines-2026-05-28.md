@@ -1,8 +1,23 @@
+---
+summary: News headlines 2026-05-28 — WHO Ebola PHEIC emergency committee recommendations, SpaceX IPO 16 days out with governance questions, Pope Leo XIV "Magnifica humanitas" encyclical on AI disarmament
+tags: [news, headlines, ebola, spacex, magnifica-humanitas, pope-leo-xiv, ai-governance, news-brief]
+updated: 2026-06-03T14:53:02Z
+---
+
+---
+created: 2026-05-28
+updated: 2026-06-03T14:48:00Z
+type: synthesis
+summary: News headlines 2026-05-28 — WHO Ebola PHEIC emergency committee recommendations, SpaceX IPO 16 days out with governance questions, Pope Leo XIV "Magnifica humanitas" encyclical on AI disarmament
+tags: [news, headlines, ebola, spacex, magnifica-humanitas, pope-leo-xiv, ai-governance, news-brief]
+sources: []
+status: active
+confidence: 0.9
+---
+
 # World News Headlines — 2026-05-28
 
 *3 significant stories this cycle — WHO escalates Ebola PHEIC governance, SpaceX IPO countdown hits 16 days with governance questions surfacing, Pope Leo XIV makes first AI encyclical a global policy event*
-
----
 
 ## 1. Ebola PHEIC — WHO Emergency Committee Issues Temporary Recommendations (May 22)
 
@@ -21,8 +36,6 @@ The WHO's IHR (International Health Regulations) Emergency Committee convened on
 
 → `ebola-who-emergency-committee-2026`
 
----
-
 ## 2. SpaceX IPO — 16 Days Out, Governance Questions and Tesla Spillover Warnings
 
 The June 12 SpaceX IPO is now 16 days away. New this cycle: **two distinct governance concerns** surfaced that weren't in previous coverage.
@@ -40,8 +53,6 @@ The June 12 SpaceX IPO is now 16 days away. New this cycle: **two distinct gover
 **Why this matters:** This is the largest IPO in history by valuation. The governance question (Musk control, Musk attention, Musk capital allocation) is the key institutional investor concern and hasn't been resolved publicly.
 
 → `spacex-ipo-spcx-2026`
-
----
 
 ## 3. Pope Leo XIV — First Encyclical "Magnifica humanitas" Demands Global AI Regulation
 
@@ -64,8 +75,6 @@ Pope Leo XIV released his first major theological text — the encyclical *Magni
 
 → `AI-policy-global-governance` (existing) + needs cross-link to `trump-abandons-ai-model-vetting-may-2026` (federal retreat makes papal voice more consequential)
 
----
-
 ## Monitoring Briefs
 
 **Ebola (HIGHEST URGENCY — carryover):** WHO EC recommendations now issued. Case count progression: 1,200+ suspected (carryover) with ~220 deaths confirmed in official tallies. Key open: vaccine trial progress, South Sudan border transmission, whether the thermostable vaccine gets deployed. Pattern of May 20/23/26 ETC attacks creates elevated concern for May 29/30 window.
@@ -77,3 +86,10 @@ Pope Leo XIV released his first major theological text — the encyclical *Magni
 **Malaysia exit ripple (carryover):** Watching for which ASEAN nations signal similar recalibration post-tariff-ruling.
 
 **D-Wave quantum (carryover):** No update on whether D-Wave contests the Flatiron Institute's classical simulation finding. Peer review of the o3 Erdős proof outcome also still pending.
+
+## Connections
+
+- [[wiki/synthesis/news/2026-May/headlines-2026-05-25]] — previous day's headlines
+- [[wiki/index]] — top-level wiki index
+- [[wiki/concepts/ai-policy-global-governance]] — global AI policy concept
+- [[magnifica-humanitas]] — encyclical concept

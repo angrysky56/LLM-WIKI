@@ -1,5 +1,5 @@
 ---
-summary: [ARCHIVED] Absorbed by agentic-oversight.md (0.75) + adversarial-training.md (0.85)
+summary: "[ARCHIVED] Absorbed by agentic-oversight.md (0.75) + adversarial-training.md (0.85)"
 tags: [ai-security, stubs, archived]
 updated: 2026-06-01T04:03:12Z
 ---

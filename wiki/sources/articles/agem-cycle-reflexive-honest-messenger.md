@@ -1,9 +1,3 @@
----
-summary: Hall extends Honest Messenger Paradox to AI: RLHF produces weak lumpability, not strong alignment
-tags: [ai-alignment, rlhf, honest-messenger-paradox, lumpability, efhf, paraclete-protocol, agem]
-updated: 2026-05-29T12:36:31Z
-created: 2026-05-29T12:36:31Z
----
 
 ---
 created: 2026-05-29

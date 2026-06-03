@@ -1,5 +1,5 @@
 ---
-summary: Memory estimates for A-LQR Jacobian caching: 2GB for A_k cache on 7B models, calibration cost ~1000 GPU-hours one-time, per-token inference is 64MB reads with no recomputation
+summary: "Memory estimates for A-LQR Jacobian caching: 2GB for A_k cache on 7B models, calibration cost ~1000 GPU-hours one-time, per-token inference is 64MB reads with no recomputation"
 type: concept
 tags: [a-lqr, memory-estimates, jacobian-caching, implementation, closed-loop]
 updated: 2026-05-21T08:28:21Z

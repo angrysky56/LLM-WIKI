@@ -1,13 +1,16 @@
 ---
+
 created: 2026-05-25
 updated: 2026-05-25
 type: concept
 summary: "[STUB] Critical review guide for scientific articles — evaluation framework"
 tags: [scientific-writing, peer-review, stubs]
 sources: []
-status: stub
+status: archived
 confidence: 0.3
 ---
+
+*Archived — Non-AI periphery — developer tooling / general.*
 
 # Critical Review Scientific Article Guide
 

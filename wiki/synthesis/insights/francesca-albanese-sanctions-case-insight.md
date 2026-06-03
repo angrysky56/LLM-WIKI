@@ -2,7 +2,7 @@
 created: 2026-05-23T20:30:00Z
 updated: 2026-05-24T02:22:48Z
 type: synthesis
-summary: Albanese sanctions case: policy enforcement decoupled from legal status
+summary: "Albanese sanctions case: policy enforcement decoupled from legal status"
 tags: [insights, zettelkasten, sanctions governance]
 sources: [derived from insight evidence: raw/us-says-it-has-not-changed-its-stance-on-sanctioning-frances.md]
 status: active

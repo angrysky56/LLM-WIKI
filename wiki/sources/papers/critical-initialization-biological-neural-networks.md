@@ -1,9 +1,3 @@
----
-summary: Nature paper: critically normalized symmetric matrices produce brain-like power-law dynamics and zero-shot working memory
-tags: [neuroscience, initialization, criticality, symmetric-matrix, working-memory]
-updated: 2026-05-24T06:49:01Z
-created: 2026-05-24T06:49:01Z
----
 
 ---
 title: "A critical initialization for biological neural networks"

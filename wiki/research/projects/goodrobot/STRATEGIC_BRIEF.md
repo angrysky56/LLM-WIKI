@@ -1,11 +1,26 @@
+---
+summary: GoodRobot Q2 2026 strategic brief — 3 priorities (Research Pipeline MVP, Sales Pipeline Activation, Unit Economics Validation) to break the 2hr/weekend son-dependency ceiling
+tags: [goodrobot, strategy, q2-2026, research-pipeline, sales-pipeline, unit-economics]
+updated: 2026-06-03T14:51:26Z
+---
+
+---
+created: 2026-05-13
+updated: 2026-06-03T14:48:00Z
+type: research
+summary: GoodRobot Q2 2026 strategic brief — 3 priorities (Research Pipeline MVP, Sales Pipeline Activation, Unit Economics Validation) to break the 2hr/weekend son-dependency ceiling
+tags: [goodrobot, strategy, q2-2026, research-pipeline, sales-pipeline, unit-economics]
+sources: []
+status: active
+confidence: 0.85
+---
+
 # GoodRobot — Q2 2026 Strategic Brief
 
 **Prepared by:** CEO Agent  
 **Date:** 2026-05-13  
 **Reference:** GOO-30  
 **Status:** Active
-
----
 
 ## Situation Assessment
 
@@ -24,8 +39,6 @@ The entire business runs on the son's 2hr/weekend ceiling. Breaking that ceiling
 - No scalable research pipeline: the 2hr ceiling is the binding constraint
 - No real financial dashboard: decisions are made on intuition, not data
 
----
-
 ## 3 Q2 Priorities
 
 ### Priority 1: Research Pipeline MVP
@@ -38,8 +51,6 @@ The research methodology is the moat. The son spends 20-30 minutes per prospect 
 
 **Why first:** Everything else depends on this. No research pipeline = no scalable sales.
 
----
-
 ### Priority 2: End-to-End Sales Pipeline Activation
 **Owner:** CMO  
 **Issue:** GOO-32
@@ -49,8 +60,6 @@ The discovery call playbook (CMO.md) is complete. The research pipeline (CTO, wh
 **What must work:** 20 qualified prospects researched → discovery call booked. 5 discovery calls completed in Q2. Target: 2 new clients from this cohort.
 
 **Why second:** Revenue only comes from closed deals. Everything else is infrastructure.
-
----
 
 ### Priority 3: Unit Economics Validation
 **Owner:** CFO  
@@ -62,8 +71,6 @@ The CFO financial model (CFO.md) is grounded in reasonable assumptions. We need 
 
 **Why third:** Good strategy without numbers is a guess. We need to know if the business can fund its own growth or needs external capital.
 
----
-
 ## Strategic Narrative
 
 > The son has already proven this business works. Q2 is about removing the son-dependency bottleneck and proving it can scale.
@@ -72,15 +79,11 @@ The research pipeline breaks the 2hr/weekend ceiling. The sales pipeline turns r
 
 If all three land, we have a replicable machine: research → discovery → close → deliver → repeat.
 
----
-
 ## Cross-Dependencies
 
 - GOO-31 (CTO Research Pipeline) → feeds GOO-32 (CMO Sales Pipeline)
 - GOO-33 (CFO Unit Economics) → informs GOO-32 targets and GOO-31 investment decisions
 - All three report status to CEO by end of Q2 (June 30, 2026)
-
----
 
 ## Key Documents
 
@@ -94,14 +97,12 @@ If all three land, we have a replicable machine: research → discovery → clos
 | CFO.md (Financial Model) | CFO | Model Complete |
 | ROADMAP.md | CEO | Q2 milestones defined |
 
----
+## Connections
 
-## Related
-- [[wiki/research/projects/goodrobot/index]]
-- [[wiki/research/projects/goodrobot/index]]
-- [[STRATEGIC_BRIEF]]
-
-- [[STRATEGIC_BRIEF]]
+- [[wiki/research/projects/goodrobot/index]] — GoodRobot project index
+- [[wiki/research/projects/goodrobot/Q2_SALES_TARGET_LIST]] — companion Q2 sales targets
+- [[wiki/research/projects/goodrobot/shut-down-entity]] — post-mortem on what happens when the PKC loop breaks (son-dependency equivalent)
+- [[persistent-knowledge-compilation]] — PKC as the broader paradigm: GoodRobot demonstrates the consequence of PKC loop failure
 
 ## Success Criteria — End of Q2
 

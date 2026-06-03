@@ -1,15 +1,16 @@
 ---
+
 summary: Human-centered innovation framework — structured process from need identification through verification, with leverage concentrated in the often-neglected front-end phases
 type: concept
 tags: [design-thinking, methodology, innovation, process, human-centered]
 updated: 2026-04-10T23:18:43Z
 created: 2026-04-10T23:18:43Z
 sources: []
-status: active
+status: archived
 confidence: 0.8
 ---
 
-
+*Archived — Non-AI periphery — business / design / hardware.*
 
 # Design Thinking
 

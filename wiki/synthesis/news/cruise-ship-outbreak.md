@@ -1,6 +1,5 @@
 ---
 created: 2026-06-16
-*Archived — Archived — news synthesis stub. The hantavirus cruise outbreak (May 2026) is covered in news sources. No AI/ML concept connection.*
 
 updated: 2026-06-16
 type: synthesis

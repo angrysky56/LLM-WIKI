@@ -1,9 +1,3 @@
----
-summary: Schema competition: how competing Knowledge Pack layers vie for model attention during inference
-tags: [meta-harness, knowledge-pack, schema, memory, agent-architecture, mop]
-updated: 2026-05-27T18:07:01Z
-created: 2026-05-27T18:07:01Z
----
 
 ---
 created: 2026-05-27

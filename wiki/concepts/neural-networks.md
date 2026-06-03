@@ -1,8 +1,3 @@
----
-summary: [ARCHIVED] Duplicate — covered by transformers (0.78) and deep-learning (stub). No substantive content.
-tags: [ml, neural-networks, stubs, archived]
-updated: 2026-05-28T14:05:23Z
----
 
 ---
 created: 2026-05-25

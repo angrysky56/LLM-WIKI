@@ -1,3 +1,20 @@
+---
+summary: News headlines 2026-05-25 — DRC Ebola 900+ suspected cases, SpaceX IPO investor frenzy vs governance warnings, D-Wave quantum supremacy overturned, Brazil 2026 elections as AI regulation stress test
+tags: [news, headlines, ebola, spacex, quantum, brazil-elections, ai-regulation, news-brief]
+updated: 2026-06-03T14:53:01Z
+---
+
+---
+created: 2026-05-25
+updated: 2026-06-03T14:48:00Z
+type: synthesis
+summary: News headlines 2026-05-25 — DRC Ebola 900+ suspected cases, SpaceX IPO investor frenzy vs governance warnings, D-Wave quantum supremacy overturned, Brazil 2026 elections as AI regulation stress test
+tags: [news, headlines, ebola, spacex, quantum, brazil-elections, ai-regulation, news-brief]
+sources: []
+status: active
+confidence: 0.85
+---
+
 # World News Daily — 2026-05-25
 
 **Agent**: news-agent
@@ -25,8 +42,6 @@ The second ETC burn is catastrophic for containment — patients re-entering com
 
 **Wiki**: [[ebola-outbreak-second-treatment-center-burned-may-2026]], [[who-ihr-emergency-committee-ebola-may-2026]]
 
----
-
 ### 2. SpaceX IPO Investor Frenzy vs. Governance Warnings
 **June 12 listing — Barron's and Seeking Alpha flag risk**
 
@@ -43,8 +58,6 @@ Seeking Alpha: "Investor frenzy for SpaceX IPO may overwhelm concerns about loss
 
 **Wiki**: [[spacex-ipo-spcx-2026]], [[spacex-ipo-june-12-2026]]
 
----
-
 ### 3. Flatiron Institute Overturns D-Wave "Quantum Supremacy" Claim
 **Classical tensor network algorithm matches quantum benchmark**
 
@@ -58,8 +71,6 @@ Key facts:
 For AI: quantum computing has been proposed as a substrate for next-generation AI. If classical algorithms can match certain quantum approaches on relevant tasks, the quantum advantage timeline for AI extends further than claimed.
 
 **Wiki**: [[quantum-supremacy-overturned-d-wave-may-2026]]
-
----
 
 ### 4. Brazil 2026 Elections: First Real Stress Test for AI Regulation
 **October election — 40+ countries watching implementation**
@@ -76,15 +87,11 @@ If the framework holds, it provides a model for democratic AI governance. If it 
 
 **Wiki**: [[brazil-2026-elections-ai-regulation-stress-test]]
 
----
-
 ## Stories Monitored (No Significant Update This Cycle)
 
 - **OpenAI math proof**: o3 solved 80-year-old Erdős geometry conjecture — peer review ongoing, no verdict yet
 - **California AI worker protection order**: 60-day review ongoing — next action likely from state agencies
 - **EU-US Trade Deal**: Implementation details pending — Council/Parliament agreement on tariff elements reached May 20
-
----
 
 ## Wiki Pages Updated This Cycle
 
@@ -92,13 +99,10 @@ If the framework holds, it provides a model for democratic AI governance. If it 
 2. `wiki/sources/articles/brazil-2026-elections-ai-regulation-stress-test.md` — NEW
 3. `wiki/sources/articles/spacex-ipo-investor-frenzy-risk-may-2026.md` — NEW
 
----
+## Connections
 
-## Related
-- [[synthesis/news/2026-may/headlines-2026-05-25]]
-- [[wiki/index]]
-
-- [[headlines-2026-05-25]]
+- [[wiki/synthesis/news/2026-May/headlines-2026-05-24]] — previous day's headlines
+- [[wiki/index]] — top-level wiki index
 
 ## Carryover Updated
 

@@ -1,3 +1,20 @@
+---
+summary: News headlines 2026-05-21 — Iran Hormuz control claim, US surveillance near Cuba, SpaceX SPCX IPO filing, Meta social media settlement, Ofcom TikTok/YouTube child safety finding, Trump-Taiwan call, DRC Ebola hospital burned, Air France/Airbus manslaughter verdict
+tags: [news, headlines, iran, cuba, spacex, meta, tiktok, youtube, ebola, air-france, news-brief]
+updated: 2026-06-03T14:53:03Z
+---
+
+---
+created: 2026-05-21
+updated: 2026-06-03T14:48:00Z
+type: synthesis
+summary: News headlines 2026-05-21 — Iran Hormuz control claim, US surveillance near Cuba, SpaceX SPCX IPO filing, Meta social media settlement, Ofcom TikTok/YouTube child safety finding, Trump-Taiwan call, DRC Ebola hospital burned, Air France/Airbus manslaughter verdict
+tags: [news, headlines, iran, cuba, spacex, meta, tiktok, youtube, ebola, air-france, news-brief]
+sources: []
+status: active
+confidence: 0.85
+---
+
 # News Report — 2026-05-21
 
 ## Stories Ingested
@@ -14,7 +31,7 @@
 
 3. **[SpaceX Files for IPO — Ticker SPCX](wiki/sources/articles/spacex-ipo-spcx-2026.md)**
    - Region: Global / Technology / Finance
-   - Significance: SpaceX IPO filing could make Elon Musk the world's first trillionaire. Dominant launch provider with Starlink becoming largest satellite internet constellation. Financial透明度 will reframe Musk's net worth narrative.
+   - Significance: SpaceX IPO filing could make Elon Musk the world's first trillionaire. Dominant launch provider with Starlink becoming largest satellite internet constellation. Financial transparency will reframe Musk's net worth narrative.
    - Wiki status: ingested
 
 4. **[Meta Settles Social Media Addiction Case](wiki/sources/articles/meta-social-media-addiction-settlement-2026.md)**
@@ -53,11 +70,11 @@
 - **Air France crash verdict**: Ingested despite being historical (17-year case concluded today) — precedent value for institutional accountability analysis.
 - **Trump anti-weaponization fund GOP revolt**: Continuing story from yesterday carryover — Senate GOP delay. Monitor for institutional capture vector.
 
-## Related
-- [[wiki/index]]
-- [[synthesis/news/2026-may/news-2026-05-21-headlines]]
+## Connections
 
-- [[news-2026-05-21-headlines]]
+- [[wiki/index]] — top-level wiki index
+- [[wiki/synthesis/news/2026-May/headlines-2026-05-23]] — next day's headlines
+- [[wiki/synthesis/news/2026-May/headlines-2026-05-24]] — later cycle
 
 ## Notable Patterns
 
@@ -72,5 +89,4 @@
 5. **Institutional accountability in focus**: DOJ slush fund (carryover), Air France manslaughter verdict, Meta settlement, Ofcom regulation — institutions either functioning as accountability mechanisms or captured/ineffective. Worth tracking which pattern dominates.
 
 ---
-
 *Report generated: 2026-05-21 | Next run: 2026-05-23 8AM*

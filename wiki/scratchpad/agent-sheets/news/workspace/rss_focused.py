@@ -1,35 +1,43 @@
+#!/usr/bin/env python3
+"""Focused Google News RSS query for the two stories whose article URL failed."""
 import httpx, xml.etree.ElementTree as ET, urllib3, json
 urllib3.disable_warnings()
 client = httpx.Client(timeout=20.0, verify=False, follow_redirects=True,
-                       headers={'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36'})
+                       headers={'User-Agent': 'Mozilla/5.0'})
 
-# Google News focused queries for stories we need more detail on
 queries = {
-    'Israel Hezbollah ceasefire': 'Israel+Hezbollah+ceasefire+Trump+de-escalation',
-    'Iran US peace deal': 'Iran+US+peace+deal+Hormuz+June+2026',
-    'Anthropic share offering trillion': 'Anthropic+valuation+share+sale+2026',
-    'Ebola Kenya court ruling': 'Ebola+Kenya+court+ruling+quarantine',
-    'Russia Kyiv strikes June 2': 'Russia+Kyiv+strikes+June+2+2026',
-    'Trump Brazil tariff 25': 'Trump+Brazil+25+tariff',
-    'Lebanon ceasefire partial': 'Israel+Lebanon+ceasefire+Beirut',
-    'Russia Ukraine weakness strikes': 'Russia+Ukraine+strikes+rubble',
+    'trump-espriella-colombia': 'https://news.google.com/rss/search?q=Trump+endorses+De+La+Espriella+Colombia&hl=en-US&gl=US&ceid=US:en',
+    'trump-canada-51st-state': 'https://news.google.com/rss/search?q=Trump+Canada+51st+state+trade+talks&hl=en-US&gl=US&ceid=US:en',
 }
-
-results = {}
-for name, q in queries.items():
+out = {}
+for k, url in queries.items():
     try:
-        url = f'https://news.google.com/rss/search?q={q}&hl=en-US&gl=US&ceid=US:en'
         r = client.get(url)
+        if r.status_code != 200:
+            out[k] = {'error': f'HTTP {r.status_code}'}
+            continue
         root = ET.fromstring(r.text)
         items = []
         for item in root.findall('.//item')[:8]:
-            t = item.findtext('title') or ''
-            l = item.findtext('link') or ''
-            p = item.findtext('pubDate') or ''
-            d = item.findtext('description') or ''
-            items.append({'title': t, 'pubDate': p, 'desc': d[:300], 'link': l})
-        results[name] = items
+            items.append({
+                'title': (item.findtext('title') or '').strip(),
+                'link': (item.findtext('link') or '').strip(),
+                'pubDate': (item.findtext('pubDate') or '').strip(),
+                'description': (item.findtext('description') or '').strip()[:500],
+            })
+        out[k] = {'items': items}
     except Exception as e:
-        results[name] = {'error': str(e)}
+        out[k] = {'error': str(e)}
 
-print(json.dumps(results, indent=2, default=str))
+with open('/home/ty/Documents/LLM-WIKI/wiki/scratchpad/agent-sheets/news/workspace/rss_focused.json', 'w') as f:
+    json.dump(out, f, indent=2)
+
+for k, v in out.items():
+    print(f"\n=== {k} ===")
+    if 'error' in v:
+        print(f"  ERROR: {v['error']}")
+        continue
+    for i, it in enumerate(v['items']):
+        print(f"\n  {i+1}. {it['title'][:140]}")
+        print(f"     PUB: {it['pubDate'][:30]}")
+        print(f"     DESC: {it['description'][:200]}")

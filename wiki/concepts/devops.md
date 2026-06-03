@@ -1,14 +1,13 @@
 ---
-summary: [ARCHIVED] Absorbed by tooling/version-control/github-actions pages — DevOps is a meta-discipline, not a single coherent concept
-tags: [devops, stubs, archived]
-updated: 2026-06-01T04:03:13Z
+created: 2026-05-31
+updated: 2026-05-31
+type: concept
+summary: "[ARCHIVED] DevOps is a broad meta-discipline — components covered by tooling, CI/CD, and process-management pages"
+tags: ['devops', 'archived']
+status: archived
+confidence: 0.3
 ---
 
----
-summary: [ARCHIVED] DevOps is a meta-discipline covering CI/CD, tooling, and deployment; absorbed by tool-oriented pages already in the wiki (tooling, version-control, github-actions)
-tags: [devops, stubs, archived]
-updated: 2026-09-13T08:10:00Z
----
 
 # DevOps
 

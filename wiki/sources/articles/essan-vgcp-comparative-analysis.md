@@ -1,9 +1,3 @@
----
-summary: Essan vs VGCP: symbolic notation vs DAG enforcement; complementary, not redundant
-tags: [essan, vgcp, reasoning-traceability, agent-memory, symbolic-notation, dag-verification]
-updated: 2026-05-30T08:52:47Z
-created: 2026-05-30T08:52:47Z
----
 
 ---
 created: 2026-05-21

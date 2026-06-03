@@ -1,6 +1,5 @@
 ---
 created: 2026-05-25
-*Archived — Absorbed by llm-vision entity page — check wiki/entities/tools/ for actual llm-vision coverage. Stub chain (vision-language-models → multimodal-llm → multimodal-ai) has no active canonical.*
 
 updated: 2026-05-25
 type: concept

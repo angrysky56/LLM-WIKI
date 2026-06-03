@@ -1,6 +1,5 @@
 ---
 created: 2026-05-25
-*Archived — Mathematical foundation — low relevance to AI/ML knowledge graph unless directly connected to a concept page. Linked to logic and mathematics which are also stubs.*
 
 updated: 2026-05-25
 type: concept

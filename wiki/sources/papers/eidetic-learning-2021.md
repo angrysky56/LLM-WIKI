@@ -1,10 +1,3 @@
----
-type: paper
-summary: Summary of Eidetic Learning: An Efficient and Provable Solution to Catastrophic Forgetting — solving catastrophic forgetting via structured pruning and disjoint subnetworks.
-tags: [catastrophic-forgetting, continual-learning, pruning, machine-learning]
-updated: 2026-04-28T20:26:19Z
-created: 2026-04-28T20:26:19Z
----
 
 ---
 ---

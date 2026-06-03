@@ -1,5 +1,5 @@
 ---
-summary: Training gating models for adaptive computation: supervised losses, RL, teacher-guidance, and open problems
+summary: "Training gating models for adaptive computation: supervised losses, RL, teacher-guidance, and open problems"
 tags: [adaptive-computation, gating, routing, moe, early-exit, ml-architectures, training]
 updated: 2026-05-25T20:22:25Z
 created: 2026-05-25T20:22:25Z

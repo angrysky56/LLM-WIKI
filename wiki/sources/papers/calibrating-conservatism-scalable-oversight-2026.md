@@ -1,9 +1,3 @@
----
-summary: CCO: Conformal Decision Theory for calibrated agentic oversight with finite-time guarantees
-tags: [scalable-oversight, agentic-safety, conformal-decision-theory, control-theory]
-updated: 2026-05-28T14:13:20Z
-created: 2026-05-28T14:13:20Z
----
 
 ---
 created: 2026-05-28T00:00:00Z

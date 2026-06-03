@@ -2,7 +2,7 @@
 created: 2026-05-25
 updated: 2026-07-14
 type: concept
-summary: Agent architectures — design patterns for organizing LLM-based autonomous agents: deliberative, reactive, hybrid, and meta-cognitive
+summary: "Agent architectures — design patterns for organizing LLM-based autonomous agents: deliberative, reactive, hybrid, and meta-cognitive"
 tags: [agents, architecture, agent-design, deliberative, reactive, hybrid]
 sources: []
 status: active

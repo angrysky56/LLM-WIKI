@@ -1,13 +1,16 @@
 ---
+
 created: 2026-05-25
 updated: 2026-05-25
 type: concept
 summary: "[STUB] Paper analysis — automated analysis of academic papers"
 tags: [paper-analysis, research-tooling, stubs]
 sources: []
-status: stub
+status: archived
 confidence: 0.3
 ---
+
+*Archived — Non-AI periphery — meta/AI-adjacent without canonical anchor.*
 
 # Paper Analysis
 

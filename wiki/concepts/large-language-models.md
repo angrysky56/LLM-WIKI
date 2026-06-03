@@ -1,8 +1,3 @@
----
-summary: [ARCHIVED] Duplicate — use transformers.md (0.78). No substantive content.
-tags: [llm, nlp, stubs, archived]
-updated: 2026-05-28T14:05:15Z
----
 
 ---
 created: 2026-05-25

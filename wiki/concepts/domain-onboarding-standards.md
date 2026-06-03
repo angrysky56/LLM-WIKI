@@ -1,13 +1,16 @@
 ---
+
 created: 2026-05-30
 updated: 2026-05-30
 type: concept
 summary: "[STUB] Domain onboarding standards — entry protocols for new domains in agent systems"
 tags: [agent-onboarding, stubs]
 sources: []
-status: stub
+status: archived
 confidence: 0.3
 ---
+
+*Archived — Non-AI periphery — developer tooling / general.*
 
 # Domain Onboarding Standards
 

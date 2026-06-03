@@ -1,7 +1,7 @@
 ---
 created: 2026-05-11
 type: source
-summary: "/goal slash command — standing goal + auto-continuation loop with judge model, inspired by Codex CLI's Ralph loop
+summary: '/goal slash command — standing goal + auto-continuation loop with judge model, inspired by Codex CLI''s Ralph loop'
 tags: [hermes, goals, persistence, ralph-loop, delegate-task, mini-max]
 sources: https://hermes-agent.nousresearch.com/docs/user-guide/features/goals
 status: active

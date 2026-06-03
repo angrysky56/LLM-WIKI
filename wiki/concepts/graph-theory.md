@@ -1,8 +1,3 @@
----
-summary: [STUB] Graph theory — mathematical study of graphs and networks
-tags: [graph-theory, mathematics, stubs]
-updated: 2026-05-31T14:42:45Z
----
 
 ---
 created: 2026-05-25

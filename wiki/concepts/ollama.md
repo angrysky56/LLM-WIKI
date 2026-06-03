@@ -1,13 +1,16 @@
 ---
+
 created: 2026-06-03
 updated: 2026-06-03
 type: concept
 summary: "[STUB] Local LLM inference server enabling running open models on native hardware"
 tags: [stubs]
 sources: []
-status: stub
+status: archived
 confidence: 0.3
 ---
+
+*Archived — Non-AI periphery — developer tooling / general.*
 
 # Ollama
 

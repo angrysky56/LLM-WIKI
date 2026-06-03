@@ -1,9 +1,3 @@
----
-summary: BES: Bidirectional Evolutionary Search — evolution operators escape entropy shell + backward decomposition provides dense verification signal
-tags: [evolutionary-search, self-improvement, LLM-reasoning, search-algorithms, post-training]
-updated: 2026-05-28T14:13:22Z
-created: 2026-05-28T14:13:22Z
----
 
 ---
 created: 2026-05-28T00:00:00Z

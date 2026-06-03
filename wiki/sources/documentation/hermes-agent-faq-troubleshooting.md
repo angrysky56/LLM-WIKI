@@ -1,9 +1,3 @@
----
-summary: Hermes Agent FAQ: providers, WSL2, Termux, OAuth, troubleshooting
-tags: [hermes-agent, faq, troubleshooting, documentation]
-updated: 2026-05-28T01:58:34Z
-created: 2026-05-28T01:58:34Z
----
 
 ---
 created: 2026-05-28

@@ -1,10 +1,25 @@
+---
+summary: Crosslink target survey for 13 candidate pages (12 MISSING, 1 EXISTS) for the structural-reuse unit-of-trustworthiness synthesis; documents gaps to inform drafter
+tags: [research-survey, crosslink-targets, structural-reuse, trustworthiness, gap-analysis]
+updated: 2026-06-03T14:51:27Z
+---
+
+---
+created: 2026-06-01
+updated: 2026-06-03T14:48:00Z
+type: research
+summary: Crosslink target survey for 13 candidate pages (12 MISSING, 1 EXISTS) for the structural-reuse unit-of-trustworthiness synthesis; documents gaps to inform drafter
+tags: [research-survey, crosslink-targets, structural-reuse, trustworthiness, gap-analysis]
+sources: []
+status: active
+confidence: 0.85
+---
+
 # Structural Reuse — Crosslink Target Survey
 
 **Date:** 2026-06-01
 **Task:** t_156ae6e2
 **Scope:** 13 target pages for cross-link survey (12 named + this file's own slug)
-
----
 
 ## Survey Results
 
@@ -12,43 +27,29 @@
 - **Status:** MISSING
 - **Notes:** No page found under `concepts/`, `synthesis/`, `sources/`, or `entities/` namespaces.
 
----
-
 ### `skill-consumption-2026`
 - **Status:** MISSING
 - **Notes:** No page found under `concepts/`, `synthesis/`, `sources/`, or `entities/` namespaces.
-
----
 
 ### `codeskill`
 - **Status:** MISSING
 - **Notes:** No page found under `concepts/`, `synthesis/`, `sources/`, or `entities/` namespaces.
 
----
-
 ### `muse-autoskill`
 - **Status:** MISSING
 - **Notes:** No page found under `concepts/`, `synthesis/`, `sources/`, or `entities/` namespaces.
-
----
 
 ### `stepopsd`
 - **Status:** MISSING
 - **Notes:** No page found under `concepts/`, `synthesis/`, `sources/`, or `entities/` namespaces.
 
----
-
 ### `akbe`
 - **Status:** MISSING
 - **Notes:** No page found under `concepts/`, `synthesis/`, `sources/`, or `entities/` namespaces.
 
----
-
 ### `physics-is-all-you-need`
 - **Status:** MISSING
 - **Notes:** No page found under `concepts/`, `synthesis/`, `sources/`, or `entities/` namespaces.
-
----
 
 ### `why-llms-arent-scientists-yet`
 - **Status:** EXISTS — `wiki/concepts/why-llms-arent-scientists-yet.md`
@@ -56,37 +57,25 @@
 - **Terminology overlapping "structural reuse" or "unit of trustworthiness":** None explicitly. Related concept: "weak scientific taste" as a failure mode — implies a reliability/trustworthiness gap.
 - **Back-links from synthesis namespace:** `[[seg-scientist-agent-design]]` — SEG's response to these failure modes.
 
----
-
 ### `soundnessbench-ai-scientist-2026`
 - **Status:** MISSING
 - **Notes:** No page found under `concepts/`, `synthesis/`, `sources/`, or `entities/` namespaces.
-
----
 
 ### `boiling-frog-agentic-safety-2026`
 - **Status:** MISSING
 - **Notes:** No page found under `concepts/`, `synthesis/`, `sources/`, or `entities/` namespaces.
 
----
-
 ### `gram-sabotage-alignment-auditing-2026`
 - **Status:** MISSING
 - **Notes:** No page found under `concepts/`, `synthesis/`, `sources/`, or `entities/` namespaces.
-
----
 
 ### `calibrating-conservatism-scalable-oversight-2026`
 - **Status:** MISSING
 - **Notes:** No page found under `concepts/`, `synthesis/`, `sources/`, or `entities/` namespaces.
 
----
-
 ### `alignment-tampering`
 - **Status:** MISSING
 - **Notes:** No page found under `concepts/`, `synthesis/`, `sources/`, or `entities/` namespaces.
-
----
 
 ## Summary
 
@@ -109,3 +98,9 @@
 **12 of 13 pages are MISSING.** Only `why-llms-arent-scientists-yet` exists (archived stub, canonical source at `sources/articles/why-llms-arent-scientists-yet`).
 
 The drafter should note that the synthesis cross-links will mostly create new pages rather than connect to existing ones.
+
+## Connections
+
+- [[synthesis/structural-reuse-unit-of-trustworthiness-2026-06-01]] — sibling survey page that consumes these gap results
+- [[wiki/research]] — parent research index
+- [[wiki/research/extraction-quality-audit]] — related audit project on knowledge base quality

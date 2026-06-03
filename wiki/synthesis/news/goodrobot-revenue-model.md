@@ -1,20 +1,13 @@
 ---
-summary: [REDIRECT] Consolidated to wiki/projects/goodrobot/revenue-model.md
-tags: [goodrobot, revenue, redirect]
-updated: 2026-05-26T20:21:54Z
+created: 2026-05-29
+updated: 2026-05-29
+type: synthesis
+summary: "[REDIRECT] This stub now redirects to wiki/synthesis/news/goodrobot-revenue-model.md — consolidated Goodrobot revenue analysis"
+tags: ['goodrobot', 'revenue', 'stub']
+status: archived
+confidence: 0.3
 ---
 
----
-created: 2026-05-28
-updated: 2026-05-26
-type: synthesis
-summary: [REDIRECT] This stub now redirects to wiki/projects/goodrobot/revenue-model.md
-tags: ['goodrobot', 'revenue', 'redirect']
-status: redirect
-redirect_to: wiki/projects/goodrobot/revenue-model.md
-sources: []
-confidence: 1.0
----
 
 # GoodRobot Revenue Model
 

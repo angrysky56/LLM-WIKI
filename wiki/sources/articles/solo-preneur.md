@@ -1,19 +1,13 @@
 ---
-summary: Framework for solo-developer micro-SaaS: "time is money, convenience is king, marketing is queen" — constraints, 4 product categories, and strategic rules
-tags: [micro-saas, solo-development, product-strategy, indie-hacking, marketing]
-updated: 2026-05-07T08:37:26Z
+created: 2026-05-29
+updated: 2026-05-29
+type: source
+summary: "Solo-preneur article — micro-SaaS development strategies for independent builders"
+tags: ['solo-preneur', 'saas', 'business']
+status: archived
+confidence: 0.3
 ---
 
----
-created: 2026-05-07T00:00:00Z
-updated: 2026-05-07T00:00:00Z
-type: source
-summary: Framework for solo-developer micro-SaaS: "time is money, convenience is king, marketing is queen" — constraints, 4 product categories, and strategic rules
-tags: [micro-saas, solo-development, product-strategy, indie-hacking, marketing]
-sources: https://github.com/angrysky56/meta-harness
-status: active
-confidence: 0.8
----
 
 # Solo-Preneur Micro-SaaS Framework
 

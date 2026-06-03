@@ -1,9 +1,3 @@
----
-summary: Maturity-staged agent monitoring — 3x3 scope×dimension grid using variance (CV) as the characterization signal. Triage routes 97% to automated tracking, 2% to humans. Stage 1 finding: structural diagnosis must precede error detection.
-tags: [arxiv-2026, agent-monitoring, agentic-systems, FMEA, evaluation-methodology, structural-failure, reliability, oversight]
-updated: 2026-06-02T14:20:22Z
-created: 2026-06-02T14:20:22Z
----
 
 ---
 created: 2026-06-02T00:00:00Z

@@ -1,5 +1,5 @@
 ---
-summary: SSH command reference: connections, key auth, port forwarding, common options
+summary: "SSH command reference: connections, key auth, port forwarding, common options"
 tags: [linux, ssh, command-line, networking, reference]
 updated: 2026-05-07T16:48:57Z
 created: 2026-05-07T16:48:57Z

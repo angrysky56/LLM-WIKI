@@ -1,14 +1,13 @@
 ---
-summary: [ARCHIVED] Absorbed by process-management and kanban-development — workflow management is a meta-discipline
-tags: [process-management, stubs, archived]
-updated: 2026-06-01T04:03:14Z
+created: 2026-05-31
+updated: 2026-05-31
+type: concept
+summary: "[ARCHIVED] Absorbed by process-management and kanban-development articles — workflow orchestration, task management"
+tags: ['workflow', 'management', 'archived']
+status: archived
+confidence: 0.3
 ---
 
----
-summary: [ARCHIVED] Absorbed by process-management.md and kanban-development article — workflow management is a meta-discipline
-tags: [process-management, stubs, archived]
-updated: 2026-09-13T08:10:00Z
----
 
 # Workflow Management
 

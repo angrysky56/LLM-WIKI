@@ -1,13 +1,16 @@
 ---
+
 created: 2026-05-25
 updated: 2026-05-25
 type: concept
 summary: "[STUB] Business — commercial activity and organizations"
 tags: [business, stubs]
 sources: []
-status: stub
+status: archived
 confidence: 0.3
 ---
+
+*Archived — Non-AI periphery — business / design / hardware.*
 
 # Business
 

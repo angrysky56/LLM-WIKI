@@ -1,14 +1,13 @@
 ---
-summary: [ARCHIVED] Internal project notes absorbed by synthesis/seg-scientist-agent-design.md
-tags: [spike, stubs, archived]
-updated: 2026-06-01T04:03:03Z
+created: 2026-05-31
+updated: 2026-05-31
+type: concept
+summary: "[ARCHIVED] Spike campaign internal notes absorbed by synthesis/seg-scientist-agent-design.md"
+tags: ['spike', 'stubs', 'archived']
+status: archived
+confidence: 0.3
 ---
 
----
-summary: [ARCHIVED] Absorbed by synthesis/seg-scientist-agent-design.md — Spike campaign internal notes not suitable for public concept page
-tags: [spike, stubs, archived]
-updated: 2026-09-13T08:10:00Z
----
 
 # Spike Campaign 001-004 Summary
 

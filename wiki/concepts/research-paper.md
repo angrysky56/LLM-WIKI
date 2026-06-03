@@ -1,13 +1,16 @@
 ---
+
 created: 2026-05-25
 updated: 2026-05-25
 type: concept
 summary: "[STUB] Research paper — academic research paper format and structure"
 tags: [research-paper, academic, stubs]
 sources: []
-status: stub
+status: archived
 confidence: 0.3
 ---
+
+*Archived — Non-AI periphery — meta/AI-adjacent without canonical anchor.*
 
 # Research Paper
 

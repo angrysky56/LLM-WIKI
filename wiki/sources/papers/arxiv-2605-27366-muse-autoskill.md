@@ -1,5 +1,5 @@
 ---
-summary: MUSE-Autoskill: skill-centric agent framework with on-demand creation, per-skill memory, and self-refinement via evaluation
+summary: "MUSE-Autoskill: skill-centric agent framework with on-demand creation, per-skill memory, and self-refinement via evaluation"
 tags: [skill-creation, agent-architecture, LLM-agents, skill-memory, self-evolution]
 updated: 2026-05-28T20:01:29Z
 created: 2026-05-28T20:01:29Z

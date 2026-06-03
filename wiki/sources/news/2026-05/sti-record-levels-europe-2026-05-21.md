@@ -1,9 +1,3 @@
----
-summary: Record STI levels in Europe: gonorrhoea up 303% since 2015, syphilis doubled — congenital cases nearly doubled
-tags: [news, health, europe, sti, public-health]
-updated: 2026-05-21T19:30:43Z
-created: 2026-05-21T19:30:43Z
----
 
 ---
 summary: ECDC data shows gonorrhoea cases surged 303% since 2015 (106,331) and syphilis more than doubled (45,557), with congenital syphilis cases nearly doubling — straining European public health systems

@@ -1,13 +1,16 @@
 ---
+
 created: 2026-05-25
 updated: 2026-05-25
 type: concept
 summary: "[STUB] Compression in neural networks — representation compression and information theory"
 tags: [compression, neural-networks, stubs]
 sources: []
-status: stub
+status: archived
 confidence: 0.3
 ---
+
+*Archived — Non-AI periphery — math / engineering foundations.*
 
 # Compression
 

@@ -1,5 +1,5 @@
 ---
-summary: Four-stage query_knowledge pipeline: entity graph seeding → RRF hybrid search → wikilink expansion → Zettelkasten insights
+summary: "Four-stage query_knowledge pipeline: entity graph seeding → RRF hybrid search → wikilink expansion → Zettelkasten insights"
 type: synthesis
 tags: [retrieval, architecture, RRF, hybrid-search, entity-extraction, wikilinks, synapse]
 updated: 2026-04-11T04:35:21Z

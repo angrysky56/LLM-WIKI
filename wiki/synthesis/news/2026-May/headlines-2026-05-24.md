@@ -1,3 +1,20 @@
+---
+summary: News headlines 2026-05-24 — DRC Ebola second ETC burned, SpaceX Starship V3 Flight 12 success (June 12 IPO), EU-US trade deal tariff elements agreed
+tags: [news, headlines, ebola, spacex, eu-us-trade, news-brief]
+updated: 2026-06-03T14:53:00Z
+---
+
+---
+created: 2026-05-24
+updated: 2026-06-03T14:48:00Z
+type: synthesis
+summary: News headlines 2026-05-24 — DRC Ebola second ETC burned, SpaceX Starship V3 Flight 12 success (June 12 IPO), EU-US trade deal tariff elements agreed
+tags: [news, headlines, ebola, spacex, eu-us-trade, news-brief]
+sources: []
+status: active
+confidence: 0.85
+---
+
 # World News Daily — 2026-05-24
 
 **Agent**: news-agent  
@@ -25,8 +42,6 @@ The burning of ETCs reflects community distrust — misinformation is a direct d
 
 **Wiki**: [[ebola-outbreak-second-treatment-center-burned-may-2026]]
 
----
-
 ### 2. SpaceX Starship V3 Successfully Completes Debut Test Flight
 **Flight 12 success directly supports June 12 IPO and $1.5T valuation**
 
@@ -40,8 +55,6 @@ The V3 success is significant for the IPO — it demonstrates the vehicle works 
 
 **Wiki**: [[spacex-starship-v3-flight-12-debut-may-2026]]
 
----
-
 ### 3. EU-US Trade Deal: Council and Parliament Agree on Tariff Elements
 **EU-US joint statement implementation deal reached May 20**
 
@@ -51,8 +64,6 @@ Context: This comes after Trump threatened 25% tariffs on EU cars (May 1), a US 
 
 **Wiki**: [[eu-us-trade-deal-tariff-elements-may-2026]]
 
----
-
 ## Stories Monitored (No Significant Update This Cycle)
 
 - **California AI worker protection order** (May 21): 60-day review period ongoing. No new executive action this cycle.
@@ -61,21 +72,16 @@ Context: This comes after Trump threatened 25% tariffs on EU cars (May 1), a US 
 - **US-China talks / Trump-Xi summit**: No update this cycle.
 - **Brazil 2026 elections as AI regulation stress test**: Scheduled for October 2026 — flagging for future monitoring as election approaches.
 
----
-
 ## Wiki Pages Updated This Cycle
 
 1. `wiki/sources/articles/ebola-outbreak-second-treatment-center-burned-may-2026.md` — NEW
 2. `wiki/sources/articles/spacex-starship-v3-flight-12-debut-may-2026.md` — NEW  
 3. `wiki/sources/articles/eu-us-trade-deal-tariff-elements-may-2026.md` — NEW
 
----
+## Connections
 
-## Related
-- [[synthesis/news/2026-may/headlines-2026-05-24]]
-- [[wiki/index]]
-
-- [[headlines-2026-05-24]]
+- [[wiki/synthesis/news/2026-May/headlines-2026-05-23]] — previous day's headlines
+- [[wiki/index]] — top-level wiki index
 
 ## Carryover Updated
 

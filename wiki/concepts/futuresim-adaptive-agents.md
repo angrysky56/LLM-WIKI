@@ -1,14 +1,13 @@
 ---
-summary: [ARCHIVED] Absorbed by world-model (0.8) + futuresim source (0.9) + agentic-research (0.75)
-tags: [agents, simulation, stubs, archived]
-updated: 2026-06-01T04:03:02Z
+created: 2026-05-31
+updated: 2026-05-31
+type: concept
+summary: "[ARCHIVED] Absorbed by Futuresim Adaptive Agents paper (arXiv:2605.15188) — world-model integration for LLM agents"
+tags: ['futuresim', 'agents', 'archived']
+status: archived
+confidence: 0.3
 ---
 
----
-summary: [ARCHIVED] Absorbed by world-model (0.8) + agentic-research (0.75) + futuresim-adaptive-agents source (0.9)
-tags: [agents, simulation, stubs, archived]
-updated: 2026-09-13T08:10:00Z
----
 
 # Futuresim Adaptive Agents
 

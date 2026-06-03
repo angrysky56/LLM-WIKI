@@ -1,13 +1,16 @@
 ---
+
 created: 2026-06-03
 updated: 2026-06-03
 type: concept
 summary: "[STUB] Language evolution model of directed preferential attachment"
 tags: [stubs]
 sources: []
-status: stub
+status: archived
 confidence: 0.3
 ---
+
+*Archived — Non-AI periphery — math / engineering foundations.*
 
 # Directed Preferential Placement
 

@@ -1,5 +1,5 @@
 ---
-summary: Survey companion repo organizing 200+ papers on code as executable harness for LLM agents — three-layer framework: interface, mechanisms, scaling
+summary: "Survey companion repo organizing 200+ papers on code as executable harness for LLM agents — three-layer framework: interface, mechanisms, scaling"
 tags: [paper, survey, code-as-agent-harness, literature, agent-architecture]
 updated: 2026-05-19T17:27:40Z
 created: 2026-05-19T17:27:40Z

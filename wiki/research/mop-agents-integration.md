@@ -1,3 +1,20 @@
+---
+summary: MOP (Memory-Oriented Programming) architecture integration plan — introducing vault.md as Layer 1 Episodic Working Memory and formalizing MOP compression cycle across all worker agent SKILL.md files
+tags: [mop, agent-architecture, memory-management, vault, carryover, episodic-memory, semantic-state]
+updated: 2026-06-03T14:49:59Z
+---
+
+---
+created: 2026-06-03
+updated: 2026-06-03T14:48:00Z
+type: research
+summary: MOP (Memory-Oriented Programming) architecture integration plan — introducing vault.md as Layer 1 Episodic Working Memory and formalizing MOP compression cycle across all worker agent SKILL.md files
+tags: [mop, agent-architecture, memory-management, vault, carryover, episodic-memory, semantic-state]
+sources: [wiki/concepts/mop-architecture.md, wiki/synthesis/bounded-structured-memory.md]
+status: active
+confidence: 0.85
+---
+
 # MOP Architecture Integration Plan
 
 The MOP (Memory-Oriented Programming) architecture defines a layered approach to memory to enable continuity of cognition. Currently, the agents use `carryover.md` for passing state, but lack a formalized episodic trace (Layer 1) and explicit compression cycle (Layer 1 → Layer 2) as defined by the MOP principles.
@@ -33,3 +50,21 @@ Layer 1 Start: The agent initializes or clears a vault.md file in its directory.
 Trace Logging: As the agent executes tasks (like running API queries, gap analysis, or reading RSS feeds), it logs its thoughts, reasoning, and intermediate outputs directly into vault.md.
 MOP Compression: At the end of the session, the agent executes the crucial MOP compression step: it reads the bloated, verbose vault.md (Layer 1) and compresses the actual learnings, findings, and open items down into the strict ~512 token carryover.md template (Layer 2). The vault.md is then archived or cleared so the next session starts fresh.
 This ensures your agents can reason deeply without hitting context limits, and strictly adheres to the architectural design from your mop-architecture.md concepts file.
+
+## Connections
+
+- [[mop-architecture]] — the foundational concept (Layer 0/1/2 memory model)
+- [[bounded-structured-memory]] — architectural synthesis implementing MOP for agents
+- [[markovian-carryover]] — the ~512-token forward-state pattern MOP compression produces
+- [[librarians-assistant]] — example agent sheet implementing the MOP lifecycle
+- [[librarian-agent]] — peer agent sheet using the same MOP compression protocol
+- [[insights-agent]] — peer agent sheet running daily insight synthesis (Layer 1 → Layer 2)
+- [[researcher-agent]] — peer agent sheet with MOP-integrated workflow
+- [[news-agent]] — peer agent sheet with MOP-integrated workflow
+- [[wiki/research]] — the parent index for research projects including this one
+
+## See Also
+
+- [[agent-native-design]] — agent architecture with persistence from the ground up
+- [[synapse-llm-wiki-operating-guide]] — operating procedures that complement MOP
+- [[llm-wiki-pattern]] — the broader wiki pattern MOP integrates into

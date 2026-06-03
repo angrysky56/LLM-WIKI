@@ -1,9 +1,3 @@
----
-summary: Hermes Agent docs: install, skills, MCP, profiles, cron, delegation, kanban
-tags: [hermes-agent, documentation, install, skills, mcp]
-updated: 2026-05-28T01:58:35Z
-created: 2026-05-28T01:58:35Z
----
 
 ---
 created: 2026-05-28

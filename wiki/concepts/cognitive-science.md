@@ -1,6 +1,5 @@
 ---
 created: 2026-05-25
-*Archived — Absorbed by mental-imagery (0.75) which covers cognitive science topics including perception, attention, and mental representation.*
 
 updated: 2026-05-25
 type: concept

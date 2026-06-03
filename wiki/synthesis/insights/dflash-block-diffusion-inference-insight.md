@@ -1,9 +1,3 @@
----
-summary: DFlash block diffusion drafting: 6x speedup via parallel single-pass block-bidirectional drafters conditioning on target context features
-tags: [insights, zettelkasten, llm-inference, speculative-decoding, dflash, block-diffusion, acceleration]
-updated: 2026-06-01T08:59:39Z
-created: 2026-06-01T08:59:39Z
----
 
 ---
 created: 2026-06-01

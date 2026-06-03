@@ -1,9 +1,3 @@
----
-summary: WHO EC recommendations follow-up: case count 1,011+, Sud-Kivu expansion, 2nd ETC attack May 23, Italy suspected cases, thermostable vaccine status unclear
-tags: [Ebola, DRC, Uganda, WHO, PHEIC, public-health, Bundibugyo, IHR, global-health]
-updated: 2026-05-27T06:00:14Z
-created: 2026-05-27T06:00:14Z
----
 
 ---
 created: 2026-05-28T00:00:00Z

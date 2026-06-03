@@ -1,5 +1,5 @@
 ---
-summary: Introduction to discrete-time survival analysis: discretization, censoring mechanisms, and life table foundations
+summary: "Introduction to discrete-time survival analysis: discretization, censoring mechanisms, and life table foundations"
 tags: [time-to-event, survival-analysis, censoring, life-table, discrete-time, predictive-modeling]
 updated: 2026-05-07T16:27:31Z
 created: 2026-05-07T16:27:31Z

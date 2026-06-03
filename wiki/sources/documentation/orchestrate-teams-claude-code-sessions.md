@@ -1,9 +1,3 @@
----
-summary: Claude Code agent teams: multi-instance coordination with shared task lists and direct messaging
-tags: [claude-code, agent-teams, orchestration, multi-agent, documentation]
-updated: 2026-05-29T12:36:44Z
-created: 2026-05-29T12:36:44Z
----
 
 ---
 created: 2026-05-29

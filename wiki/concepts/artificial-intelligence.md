@@ -1,13 +1,16 @@
 ---
+
 created: 2026-05-25
 updated: 2026-05-25
 type: concept
 summary: "[STUB] Artificial intelligence — machine systems that exhibit intelligent behavior across perception, reasoning, and decision-making"
 tags: [ai, ml, stubs]
 sources: []
-status: stub
+status: archived
 confidence: 0.3
 ---
+
+*Archived — Non-AI periphery — meta/AI-adjacent without canonical anchor.*
 
 # Artificial Intelligence
 

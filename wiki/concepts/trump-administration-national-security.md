@@ -1,13 +1,16 @@
 ---
+
 created: 2026-06-03
 updated: 2026-06-03
 type: concept
 summary: "[STUB] Trump administration national security policy and appointments"
 tags: [stubs]
 sources: []
-status: stub
+status: archived
 confidence: 0.3
 ---
+
+*Archived — Non-AI periphery — geopolitics.*
 
 # Trump Administration National Security
 

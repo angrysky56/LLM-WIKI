@@ -1,5 +1,5 @@
 ---
-summary: Hermes Agent MCP integration: consuming external tools, acting as an MCP server for messaging, per-server filtering, sampling, dynamic discovery
+summary: "Hermes Agent MCP integration: consuming external tools, acting as an MCP server for messaging, per-server filtering, sampling, dynamic discovery"
 tags: [hermes-agent, mcp, model-context-protocol, tool-integration, configuration]
 updated: 2026-05-07T16:47:13Z
 created: 2026-05-07T16:47:13Z

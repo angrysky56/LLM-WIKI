@@ -1,13 +1,16 @@
 ---
+
 created: 2026-05-25
 updated: 2026-05-25
 type: concept
 summary: "[STUB] Brain research — neuroscience research on brain structure and function"
 tags: [brain, neuroscience, stubs]
 sources: []
-status: stub
+status: archived
 confidence: 0.3
 ---
+
+*Archived — Non-AI periphery — life sciences / public health.*
 
 # Brain Research
 

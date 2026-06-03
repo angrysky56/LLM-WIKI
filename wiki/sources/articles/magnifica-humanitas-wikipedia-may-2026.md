@@ -1,9 +1,3 @@
----
-summary: Wikipedia: Magnifica Humanitas encyclical by Pope Leo XIV, AI ethics
-tags: [pope-leo-xiv, magnifica-humanitas, encyclical, wikipedia]
-updated: 2026-05-28T01:58:37Z
-created: 2026-05-28T01:58:37Z
----
 
 ---
 created: 2026-05-28

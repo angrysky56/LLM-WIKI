@@ -1,6 +1,5 @@
 ---
 created: 2026-05-25
-*Archived — Absorbed by multimodal-llm (stub) which links to vision-language-models and video-understanding; the canonical content is in vision-language-models stub which points to llm-vision.*
 
 updated: 2026-05-25
 type: concept

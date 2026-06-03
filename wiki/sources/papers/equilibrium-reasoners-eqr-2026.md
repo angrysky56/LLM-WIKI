@@ -1,9 +1,3 @@
----
-summary: Equilibrium Reasoners: test-time scaling via learned attractor landscapes, 2.6%→99% on Sudoku-Extreme
-tags: [paper, reasoning, test-time-compute, attractors, latent-dynamics]
-updated: 2026-05-21T16:53:06Z
-created: 2026-05-21T16:53:06Z
----
 
 ---
 created: 2026-05-21T16:50:00Z

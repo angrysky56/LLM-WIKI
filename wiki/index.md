@@ -1,10 +1,11 @@
 ---
-updated: 2026-06-03T07:43:13Z
+updated: 2026-06-03T20:16:18Z
 type: index
 ---
 
 # Wiki Index
 
+- [[lint-2026-06-03]] — 
 - [[concept-index]] — Conceptual index — maps ideas to pages by meaning rather than structure; complement to the structural TOC in index.md
 - [[3dgs]] — Archived — absorbed by recuriosity source (0.95)
 - [[CRI]] — [STUB] Container Runtime Interface in Kubernetes
@@ -135,7 +136,7 @@ type: index
 - [[delta]] — Delta archetype — the Evolutionary Search Agent in the oMCD framework
 - [[design-thinking-mit]] — [STUB] Design thinking MIT — design thinking methodology from MIT
 - [[design-thinking]] — Human-centered innovation framework — structured process from need identification through verification, with leverage concentrated in the often-neglected front-end phases
-- [[devops]] — [ARCHIVED] Absorbed by tooling/version-control/github-actions pages — DevOps is a meta-discipline, not a single coherent concept
+- [[devops]] — [ARCHIVED] DevOps is a broad meta-discipline — components covered by tooling, CI/CD, and process-management pages
 - [[diffusion-models]] — Diffusion models — generative models that learn to reverse a noise process to generate data
 - [[digital-electronics]] — [STUB] Digital electronics — electronic circuits and systems that operate on digital signals
 - [[digital-signal-processing]] — [STUB] Digital signal processing — DSP — discrete-time signal processing techniques
@@ -183,7 +184,7 @@ type: index
 - [[fts5]] — [STUB] Full-text search extension 5 for SQLite
 - [[functional-emotions]] — [STUB] Functional approach to emotions in AI systems, emotions as useful signals
 - [[functor-string-diagrams]] — 
-- [[futuresim-adaptive-agents]] — [ARCHIVED] Absorbed by world-model (0.8) + futuresim source (0.9) + agentic-research (0.75)
+- [[futuresim-adaptive-agents]] — [ARCHIVED] Absorbed by Futuresim Adaptive Agents paper (arXiv:2605.15188) — world-model integration for LLM agents
 - [[gamma]] — Gamma archetype — the Adaptive Learning Rate Agent in the oMCD framework
 - [[generative-adversarial-networks]] — GANs — generator vs. discriminator minimax game; Wasserstein variant uses 1-Lipschitz critic for stable training.
 - [[generative-ai]] — AI systems that generate new content — text, code, images, audio — via learned probability distributions over structured generation spaces
@@ -199,7 +200,7 @@ type: index
 - [[google-research]] — [STUB] Google Research division and its AI/ML research output
 - [[governance]] — Structures, rules, and processes for directing, monitoring, and controlling AI behavior — covering alignment, oversight, accountability, and transparency
 - [[graph-database]] — Archived — absorbed by neo4j entity (0.8)
-- [[graph-theory]] — [STUB] Graph theory — mathematical study of graphs and networks
+- [[graph-theory]] — 
 - [[graphrag]] — RAG enhanced with graph traversal for richer context beyond vector similarity
 - [[great-power-rivalry]] — Great power rivalry — competition between major geopolitical powers
 - [[group-relative-policy-optimization]] — GRPO — a group-relative policy optimization algorithm for LLM training that uses within-group advantage estimation instead of a reference model
@@ -248,13 +249,14 @@ type: index
 - [[isabelle-hol]] — [STUB] Formal verification system based on higher-order logic
 - [[java]] — [STUB] Java programming language
 - [[kanban]] — Kanban workflow skill for task management and agent orchestration
+- [[knowledge-architecture]] — Knowledge architecture — structural design principles for information systems; how knowledge is organized at the system level (folder structure, linking conventions, schema design)
 - [[knowledge-graph]] — Archived — absorbed by neo4j and graphrag pages
 - [[knowledge-management]] — Knowledge management — systematic approaches to capturing, organizing, and retrieving knowledge
 - [[knowledge-store]] — [STUB] Knowledge store — centralized repository for facts, documents, and structured data
 - [[kv-cache]] — Inference optimization technique that caches key-value tensors from previous tokens to avoid recomputation during autoregressive generation
 - [[language-evolution]] — The study of the statistical structure and temporal dynamics of language change over time.
 - [[language-models]] — [STUB] Language models — statistical and neural models of language
-- [[large-language-models]] — [ARCHIVED] Duplicate — use transformers.md (0.78). No substantive content.
+- [[large-language-models]] — 
 - [[latent-communication]] — Hidden KV-cache side channels in multi-agent LLM systems — reconstruction attacks, LCGuard benchmark, and defenses
 - [[latent-reasoning]] — Latent reasoning — implicit multi-step inference encoded in hidden states before explicit token generation; the distinction between reasoning that appears in CoT tokens vs reasoning that happens in embedding space
 - [[latex]] — [STUB] LaTeX document preparation system
@@ -264,8 +266,8 @@ type: index
 - [[length-generalization]] — The failure of LLMs to generalize from short training sequences to longer inference sequences — a fundamental limitation of autoregressive transformers
 - [[llama-nas]] — LLaMA-NAS — one-shot neural architecture search for task-specific sub-networks within the LLaMA model family; achieves compression and throughput gains via inherited pretrained weights
 - [[llm-agent-architecture]] — System architecture patterns for LLM-based autonomous agents — runtime composition, failure modes, and the LLM/software boundary as first-class design concern
-- [[llm-agents]] — [STUB] Large language model based autonomous agents
-- [[llm-evaluation]] — [ARCHIVED] Absorbed by evaluation.md (0.8) — benchmarks and evaluation methodologies covered comprehensively there
+- [[llm-agents]] — Large language model based autonomous agents
+- [[llm-evaluation]] — [ARCHIVED] Absorbed by evaluation.md (0.8) — benchmarks and evaluation methodologies covered comprehensively
 - [[llm-inference]] — LLM inference — serving, KV cache management, batching, and efficiency optimizations for large language models at scale
 - [[llm-kernel-optimization]] — [STUB] LLM kernel optimization — optimizing LLMs for efficient inference
 - [[llm-nlp]] — [STUB] LLM NLP — natural language processing with large language models
@@ -284,7 +286,7 @@ type: index
 - [[major-transitions]] — [STUB] Evolutionary major transitions in individuality, from cells to multicellular organisms
 - [[malaysia-us-trade-deal]] — Malaysia-US bilateral trade deal — first country to exit US bilateral post Hamm v. Smith ruling
 - [[markovian-carryover]] — Skill template for Markovian forward-state carryover — bounded ~512 tokens encoding established/open/heading
-- [[mathematical-reasoning-ai]] — [STUB] Mathematical reasoning capabilities in AI systems
+- [[mathematical-reasoning-ai]] — AI systems performing mathematical reasoning — competition math, formal proof, conjecture generation; trajectory from narrow benchmarks through AlphaEvolve-style evolutionary algorithm discovery to autonomous proof of 80-year-old Erdős problems
 - [[mathematical-reasoning]] — Rigorous deduction and proof-based thinking in mathematics — deductive reasoning, proof techniques, abstraction, formalization, and its intersection with AI reasoning and formal verification
 - [[mathematics]] — Archived — mathematics is meta-discipline covered in-context in AI/ML pages
 - [[maximum-occupancy-principle]] — Theory of behavior replacing reward maximization with action-state path entropy maximization — Layer 0 of EFHF architecture; absorbing states → Kernel 2 (Prover9-verified)
@@ -337,7 +339,7 @@ type: index
 - [[neural-architecture-search]] — Neural Architecture Search — automated methods for discovering optimal neural network architectures; covers CoLLM-NAS, RZ-NAS, LLaMA-NAS, and CMA-ES-driven search
 - [[neural-interpretability]] — Techniques for understanding what neural networks represent internally — probing, feature visualization, representation geometry, superposition, and the relationship between activation patterns and model behavior
 - [[neural-long-term-memory]] — Neural network architectures that explicitly separate working memory from long-term memory stores, enabling persistent information across very long contexts
-- [[neural-networks]] — [ARCHIVED] Duplicate — covered by transformers (0.78) and deep-learning (stub). No substantive content.
+- [[neural-networks]] — 
 - [[neuroscience]] — [STUB] Neuroscience — study of the nervous system and brain
 - [[news]] — [STUB] News content and curation in the wiki
 - [[nlp]] — [STUB] NLP — natural language processing fundamentals
@@ -427,7 +429,7 @@ type: index
 - [[saas-pricing]] — SaaS pricing — software subscription pricing models (per-user, tiered, usage-based); key frameworks for AI agent SaaS products
 - [[saas]] — SaaS — cloud-hosted subscription software delivery model
 - [[scaling-laws]] — Empirical power-law relationships between neural network performance and model/data/compute scale — Kaplan/Chinchilla laws, emergent capabilities, and modern inference-time compute scaling
-- [[schema-competition]] — Schema competition: how competing Knowledge Pack layers vie for model attention during inference
+- [[schema-competition]] — 
 - [[science]] — [STUB] Science — systematic study of the natural world through observation and experimentation
 - [[scientific-computing]] — [STUB] Scientific computing — computational methods for scientific research
 - [[scientific-discovery]] — [STUB] Scientific discovery — AI systems contributing to scientific knowledge
@@ -457,7 +459,7 @@ type: index
 - [[spacex-starship-development]] — [STUB] SpaceX Starship development and launch campaign
 - [[spec-driven-development]] — [STUB] Specification-driven development methodology
 - [[spike-001-spacy-owlready2]] — [STUB] Spike 001: spacy + owlready2 integration experiment
-- [[spike-campaign-001-004-summary]] — [ARCHIVED] Internal project notes absorbed by synthesis/seg-scientist-agent-design.md
+- [[spike-campaign-001-004-summary]] — [ARCHIVED] Spike campaign internal notes absorbed by synthesis/seg-scientist-agent-design.md
 - [[spin-vs-substrate]] — Analytical primitive — separating the rhetorical layer (clauses, statements, principles) from the operational layer (deployments, integrations, consequences); citing one as evidence about the other is the standard category error
 - [[spiral-architecture]] — Spiral architecture — center as opening not point; deliberate ethical spiral vs closed loop completion
 - [[spontaneous-activity-reshaping-hypothesis]] — A theory proposing that imagination works by suppressing background neural activity to "carve out" mental images from existing noise.
@@ -487,7 +489,7 @@ type: index
 - [[tools]] — [STUB] Tool directory — software tools and utilities
 - [[transfer-learning]] — Transfer learning — applying knowledge from source to target domain; pretrained model adaptation, three transfer regimes, hyperparameter transfer, μP
 - [[transformer-architecture]] — Decoder-only neural network architecture based on stacked self-attention layers — the foundation of modern large language models
-- [[transformer-vm-moran-2026]] — [STUB] Transformer VM — virtual machine architecture for transformer models
+- [[transformer-vm-moran-2026]] — Compiling deterministic programs into transformer weights — the residual stream as a register file, attention as lookup, FFN as arithmetic, layers as machine steps; a substrate for executable symbolic reasoning inside frozen transformers
 - [[transformers]] — Attention-based neural architecture — foundation for BERT, GPT, and most modern LLMs; self-attention replaces recurrence, enabling parallel training
 - [[trump-administration-national-security]] — [STUB] Trump administration national security policy and appointments
 - [[trunk]] — [STUB] Rust build tool and package manager
@@ -515,7 +517,7 @@ type: index
 - [[wikilinks]] — Wikilinks — Obsidian double-bracket syntax, retrieval-weight hierarchy, cross-cluster linking conventions
 - [[wolfram-nks-causal-networks]] — Stephen Wolfram's causal network interpretation of spacetime and computation — hypergraph rewriting, multiway branching, causal disruption as physical/computational irreducibility
 - [[wolfram-physics-project]] — Stephen Wolfram's project applying A New Kind of Science (NKS) to fundamental physics — causal networks, multiway rewrite systems.
-- [[workflow-management]] — [ARCHIVED] Absorbed by process-management and kanban-development — workflow management is a meta-discipline
+- [[workflow-management]] — [ARCHIVED] Absorbed by process-management and kanban-development articles — workflow orchestration, task management
 - [[working-memory]] — Cognitive system for temporary information storage and active manipulation during reasoning — in LLMs, manifests as attention-based context maintenance and activation patterns
 - [[world-model]] — Internal predictive models used by agents for planning, simulation, and grounding — enabling agents to predict the consequences of actions before executing them; connected to MOP's epistemic energy management and EFHF's world model encoding
 - [[xgboost]] — [STUB] XGBoost — gradient boosting library for tabular data
@@ -584,7 +586,7 @@ type: index
 - [[gemini]] — Family of multimodal LLMs by Google DeepMind with significant long-context capabilities.
 - [[hermes-agent]] — Nous Research's open-source AI agent framework — multi-platform, provider-agnostic, skill-powered, with delegation, goals, cron, and memory systems
 - [[hipai-montague]] — Graph-based world model and ontology server — encodes beliefs, facts, relationships; supports natural language belief input and Cypher queries
-- [[image-extender]] — Open-source Next.js app for AI outpainting (Gemini via OpenRouter) with Poisson blending, plus 4 game-art studios (Parallax, Tiles, Sprites, Props). Ty's hook: agent could use for visual thought exploration.
+- [[image-extender]] — 
 - [[isabelle-hol]] — Isabelle/HOL — Higher-Order Logic instantiation of the generic Isabelle proof assistant; the foundation for the seL4 microkernel verification and major verification projects
 - [[isabelle]] — Isabelle — generic proof assistant based on Higher-Order Logic; used for the seL4 microkernel verification and major verification projects
 - [[mamba]] — A state-space model (SSM) architecture for sequence modeling that offers linear scaling with sequence length.
@@ -597,11 +599,11 @@ type: index
 - [[superbpe]] — A tokenization algorithm that extends standard Byte Pair Encoding (BPE) by allowing merges across whitespace boundaries.
 - [[us-sanctions-stub]] — Archived — absorbed by Francesca Albanese sanctions case insight (0.85)
 - [[xai]] — xAI — Elon Musk's AI company; Grok chatbot developer; acquired by SpaceX 2025; integrated with Starlink for AI compute distribution
-- [[mop-agents-integration]] — 
+- [[mop-agents-integration]] — MOP (Memory-Oriented Programming) architecture integration plan — introducing vault.md as Layer 1 Episodic Working Memory and formalizing MOP compression cycle across all worker agent SKILL.md files
 - [[oMCD-calibration-protocol]] — Warm-start calibration procedure for oMCD parameters β and γ
 - [[portfolio-policies-metacognition]] — Research exploration of portfolio-of-policies MDP extension and control graph topologies for metacognition, covering entropy-confidence duality, portfolio allocation formalism, and topology evaluation.
-- [[Q2_SALES_TARGET_LIST]] — 
-- [[STRATEGIC_BRIEF]] — 
+- [[Q2_SALES_TARGET_LIST]] — GoodRobot Q2 2026 sales target list — 20 qualified UK professional services prospects, prioritized P1-P3 for discovery call pipeline
+- [[STRATEGIC_BRIEF]] — GoodRobot Q2 2026 strategic brief — 3 priorities (Research Pipeline MVP, Sales Pipeline Activation, Unit Economics Validation) to break the 2hr/weekend son-dependency ceiling
 - [[active-business-plan]] — GoodRobot — plug-and-play AI agent teams for SMBs (archived trial)
 - [[business-concept]] — 
 - [[go-to-market-strategy]] — GoodRobot GTM strategy — target customer profiles, 30/60/90 day launch plan, sales motion
@@ -618,32 +620,44 @@ type: index
 - [[shut-down-entity]] — GoodRobot SHUT DOWN — zero-human AI agent company, ethics board simulation
 - [[technical-architecture]] — GoodRobot technical architecture — agent runtime, task routing, memory system, API design
 - [[arxiv]] — 
-- [[carryover]] — arxiv agent carryover — 2026-06-02 batch: Monitoring Maturity (3x3 scope×dim grid + variance + FMEA triage), SkillHarm (lifecycle skill attacks, ASR 86.3%/69.3%), HLL (CAPTCHA as human-substitution test + trace-conditioned validation). New theme: capability-vs-deployment gap.
+- [[carryover]] — arxiv agent carryover — 2026-06-03 batch: Sleep/Self-Modify (Behrouz wake/sleep paradigm with low-rank expert consolidation + dreaming), Skill-RM (Alibaba: reward modeling as executable reward-evaluation skill; Qwen3.5-27B 86.2 avg on reward bench), Faithful Confidence (Yale: first framework to quantify LRM decisiveness-confidence gap; LRMs systematically unfaithful). New theme: bounded self-model.
 - [[patterns]] — 
 - [[workflow]] — 
 - [[report]] — 
 - [[research-brief]] — 
 - [[vault-2026-05-30]] — 
 - [[vault]] — 
+- [[papers-2026-06-03-researched]] — 
+- [[vault]] — 
 - [[ingest]] — 
-- [[carryover]] — 2 files ingested (AGEM hard-problem corpus + image-extender README), 486 graph nodes, raw/ empty. Pipeline healthy; one skill patch needed.
+- [[carryover]] — 6 files processed (5 ingested + 1 partial), 809 nodes + 422 edges, 5 new source summaries, raw/ empty. AGEM trilogy complete (sheaf + axis-regrouping + formal-logic-with-honest-failures) + logic test + wiki-curation + 2 infrastructure sources.
 - [[workflow]] — 
 - [[ingest-report]] — 
 - [[vault]] — 
 - [[insights]] — 
-- [[carryover]] — 5 insights generated (all confidence 0.85), 2 wiki pages created + 3 noted as duplicates of existing pages — third consecutive clean CLI run
+- [[carryover]] — 6 insights generated (all confidence 0.85), 2 wiki pages created + 4 noted as duplicates (3 canonical duplicates, 1 partial) — fourth consecutive clean CLI run
 - [[insight-merge]] — 
 - [[workflow]] — 
 - [[carryover]] — 
 - [[vault]] — 
 - [[librarian]] — 
-- [[carryover]] — Librarian carryover 2026-06-02 — 1324 pages, +36 this cycle (vault growing), HITS scores stable, all structural findings operational
+- [[carryover]] — Librarian carryover 2026-06-03 cycle 3 — vault stable at 1360 pages, 0 tag violations, but 50-file duplicate-first-YAML-block pattern discovered (NEW finding); MOP phantom persists 3 cycles
+- [[defuddle]] — 
+- [[json-canvas]] — 
+- [[EXAMPLES]] — 
+- [[obsidian-bases]] — 
+- [[FUNCTIONS_REFERENCE]] — 
+- [[obsidian-cli]] — 
+- [[obsidian-markdown]] — 
+- [[CALLOUTS]] — 
+- [[EMBEDS]] — 
+- [[PROPERTIES]] — 
 - [[mcp-tools]] — 
 - [[workflow]] — 
 - [[audit-report]] — 
-- [[vault]] — 
+- [[vault-2026-06-03]] — 
 - [[librarians-assistant]] — 
-- [[carryover]] — 2 minor content cleanups applied this cycle. MOP page had self-referential wikilinks contributing to phantom authority score; agents.md had duplicate wikilinks in Connections section. Vault remains structurally stable per librarian's 2026-06-02 audit (1324 pages, +36 from prior cycle, 0 new actionable items).
+- [[carryover]] — Librarians-Assistant carryover 2026-06-03 — 9 frontmatter completions + 3 typo fixes + 1 stub page created; vault health improved. All actionable items addressed.
 - [[quick-reference]] — 
 - [[workflow]] — 
 - [[batch-progress]] — 
@@ -659,7 +673,7 @@ type: index
 - [[user]] — User preferences and project context for the Markovian Dev Agency
 - [[issue-001]] — 
 - [[news]] — 
-- [[carryover]] — 5 new stories 2026-06-02: Israel-Hezbollah partial ceasefire (Trump, ground clashes), Russia Kyiv strikes 18+ killed, Trump 25% Brazil tariff, Anthropic IPO filing $1T, Kenya court blocks US Ebola facility. 9 carryover threads still open.
+- [[carryover]] — 5 new stories 2026-06-03: Iran strikes Kuwait/Bahrain (Gulf war escalates), Ukraine hits St Petersburg on Putin's SPIEF opening day, Trump endorses Colombia's Espriella, Trump '51st state' before Canada trade talks, SpaceX IPO priced $75B/$135. 11 carryover threads still open.
 - [[rss-queries]] — 
 - [[workflow]] — 
 - [[headlines-report]] — 
@@ -676,12 +690,12 @@ type: index
 - [[task-types]] — 
 - [[run-report]] — 
 - [[wiki-overseer]] — 
-- [[carryover]] — Overseer carryover — May 27 cycle: news agent is ACTIVE (last ran May 28), not STALE
+- [[carryover]] — Overseer carryover — 2026-06-03 cycle: 1 actionable item (librarian 50-file duplicate-YAML remediation), 24 items resolved at rules 1/3/4, 0 open tasks in kanban
 - [[meta-advancement]] — 
 - [[Meta-Meta Process for Structured Exploration]] — 
 - [[carryover-template]] — 
 - [[researcher]] — 
-- [[carryover]] — Jun 2 cycle: synthetic-data (0.3→0.72) and seg-molecular-self (0.3→0.7) promoted; load-bearing-reasoning depth-checked and confirmed adequate
+- [[carryover]] — Jun 3 cycle: mathematical-reasoning-ai (0.3→0.72) and transformer-vm-moran-2026 (0.3→0.7) promoted; llm-agents archived as absorbed; 84 periphery stubs mass-archived; chain-of-thought and world-model depth-verified
 - [[workflow]] — 
 - [[discovery-report]] — 
 - [[gap-analysis]] — 
@@ -748,7 +762,8 @@ type: index
 - [[arxiv-2026-05-29-top-papers]] — 
 - [[arxiv-2026-05-30-top-papers]] — 
 - [[arxiv-2026-06-01-top-papers]] — arxiv-agent daily report 2026-06-01: 3 papers ingested from 2026-05-29 batch — ReuseRL (MDL-grounded skill reuse), AutoSci (memory-centric research lifecycle), Stateful Monitoring (catches distributed agent attacks). Trustworthy scientific AI + agent architecture + oversight theme.
-- [[arxiv-2026-06-02-top-papers]] — 2026-06-02 arxiv report — 3 papers on agent deployment-readiness: Monitoring Maturity (3x3 grid + variance), SkillHarm (lifecycle skill attacks ASR 86.3%), HLL (CAPTCHA as human-substitution). New theme: capability-vs-deployment gap.
+- [[arxiv-2026-06-02-top-papers]] — 
+- [[arxiv-2026-06-03-top-papers]] — 
 - [[carryover]] — arxiv agent carryover — StepOPSD (step-level credit redistribution in GRPO), AKBE (knowledge boundary probing), PRISM (multi-intention IRL) — instance-level behavioral decomposition theme
 - [[papers-2026-05-19-researched]] — Three papers on production LLM agent architecture, VLM reasoning decoupling, and agentic clinical evidence seeking
 - [[papers-2026-05-20]] — Three papers on production LLM agent architecture, VLM reasoning decoupling, and agentic clinical evidence seeking
@@ -770,6 +785,7 @@ type: index
 - [[ingest-2026-05-30]] — 
 - [[ingest-2026-06-01]] — 
 - [[ingest-2026-06-02]] — 
+- [[ingest-2026-06-03]] — 
 - [[ingest-2026-06-27]] — Ingest cycle — 3 documentation files processed (codegraph, hermes-path-forward)
 - [[carryover]] — 
 - [[audit-2026-05-19]] — Librarian audit report — broken links and frontmatter fixes
@@ -782,6 +798,8 @@ type: index
 - [[audit-2026-05-31]] — 
 - [[audit-2026-06-01]] — 
 - [[audit-2026-06-02]] — 
+- [[audit-2026-06-03-cycle3]] — Librarian audit cycle 3 (2026-06-03 14:41 UTC) — vault stable but 50-file duplicate-first-YAML-block pattern discovered
+- [[audit-2026-06-03]] — Librarian audit report for 2026-06-03 — stable state vs prior cycle, no new issues, 9 missing-frontmatter files remain for delegation
 - [[audit-2026-07-10]] — 
 - [[audit-2026-07-15]] — 
 - [[audit-2026-07-21]] — 
@@ -799,6 +817,7 @@ type: index
 - [[headlines-2026-05-31]] — 
 - [[headlines-2026-06-01]] — 
 - [[headlines-2026-06-02]] — 5 stories: Israel-Hezbollah partial ceasefire (Trump, ground clashes continue), Russia massive Kyiv strikes (18+ killed, NYT: Russian weakness), Trump 25% Brazil tariff, Anthropic IPO filing ($1T), Kenya court blocks US Ebola facility (2 killed in protests).
+- [[headlines-2026-06-03]] — 
 - [[carryover]] — 
 - [[overseer-2026-05-26]] — 
 - [[overseer-2026-05-27]] — 
@@ -808,6 +827,7 @@ type: index
 - [[overseer-2026-05-31]] — 
 - [[overseer-2026-06-01]] — 
 - [[overseer-2026-06-02]] — 
+- [[overseer-2026-06-03]] — 
 - [[overseer-2026-07-28]] — 
 - [[overseer-2026-08-03]] — 
 - [[overseer-2026-08-05]] — Overseer monitoring cycle 2026-08-05 — 8 agents audited, 3 news cards surfaced, librarian card updated, sheet.md synced
@@ -825,6 +845,7 @@ type: index
 - [[discovery-2026-05-30]] — Researcher discovery report
 - [[discovery-2026-06-01]] — 
 - [[discovery-2026-06-02]] — 
+- [[discovery-2026-06-03]] — 
 - [[discovery-2026-06-04]] — Researcher discovery report
 - [[discovery-2026-06-08]] — Researcher discovery report
 - [[discovery-2026-06-09]] — Researcher discovery report
@@ -857,10 +878,14 @@ type: index
 - [[microsoft-vatican-encyclical-response-may-2026]] — No Microsoft response to Magnifica humanitas encyclical found; compiled monitoring report
 - [[sheet]] — t_ff1740de complete: no Microsoft response found to Magnifica humanitas encyclical
 - [[agem-corpus-1-hard-problem]] — AGEM 2-iteration sheaf-localized analysis of Chalmers' hard problem — Mace4-verifies zombie conceivability as first-order consistent, steelmans illusionism, surfaces three vulnerabilities in Chalmers' framing.
-- [[agem-cycle-reflexive-honest-messenger]] — Hall extends Honest Messenger Paradox to AI: RLHF produces weak lumpability, not strong alignment
+- [[agem-corpus-full-minimax-m3]] — AGEM 3-iteration 4-axis regrouping of the 10-distinction philosophy-of-mind corpus — argues the 10 distinctions fall into 4 axes (shape-of-explanation, intrinsic-vs-relational, kind-vs-phenomenon, higher-order structure) plus 2 local technicalities, with three deceptive surface similarities the corpus warns about.
+- [[agem-cycle-failures-iter3]] — AGEM 3-cycle formal-logic run on the philosophy-of-mind corpus — 560 nodes, 10 communities, 21 pairwise FOL checks clean, 3 honest FOL encoding failures (D1/D6/D10 nested-→ syntax), surfaces the corpus's strongest unseen bridge (P/A ↔ HOT/HOP) and most isolated concept (IIT intrinsicity).
+- [[agem-cycle-reflexive-honest-messenger]] — 
+- [[agem-logic-test-1]] — AGEM Logic-H¹ test corpus — three engineered test sections (propositional 3-wise inconsistency, pairwise contradiction control, fully consistent control) validate the logic-based H¹ pipeline end-to-end. All three sections pass with checkFailures=[] and expected verdicts in checkLog.
 - [[agem-minimax-m27-physics-corpus]] — AGEM engine analysis of six quantum mechanics interpretations with sheaf-cohomology consistency metrics per interpretation
 - [[agem-minimax-m3-copenhagen-iter5]] — AGEM 5-iteration sheaf-localized analysis of the Copenhagen interpretation (M3 model) — formally registers central epistemic/ontic contradiction as coboundary 0.56 / dual pressure 1.08
 - [[agem-ooe]] — 
+- [[agem-wiki-introduction-prior-synapse-fixes]] — AGEM 1-iter exploration of wiki/concepts/persistent-knowledge-compilation.md — cleaned duplicate Connections sections, added 3 new sections (Invalidation/EDM Lens, PKC in Agent World Models, Failure Modes), answered all 3 open questions, added 4 new open questions, expanded wikilink network from ~15 to ~30.
 - [[anthropic-chris-olah-magnifica-humanitas-may-2026]] — Chris Olah (Anthropic co-founder) remarks on Magnifica Humanitas encyclical
 - [[back-to-agem-stateless-heartbeat]] — Ty and Gemini on stateless heartbeat architecture for AI memory
 - [[brocas-area-gemini-chat]] — Source summary for Gemini chat on Broca's area and LLM analogies.
@@ -874,14 +899,15 @@ type: index
 - [[emotion-concepts-llm]] — Anthropic research on functional emotion representations in Claude Sonnet 4.5 and their causal effects on behavior.
 - [[eris-mythology]] — Greek goddess of strife and discord — the Apple of Discord triggered the Trojan War
 - [[essan-mcp-logic-results]] — Essan core symbols FOL formalization:2-element model satisfies all axioms, P1 proved
-- [[essan-pidgin-results]] — Blind Essan pidgin: 0% decode accuracy; symbols encode structure but lack semantic bindings
+- [[essan-pidgin-results]] — 
 - [[essan-vector-results]] — Essan vector encoding: symbol-only random encoding has no semantic signal; hybrid (symbol+NL) achieves 0.86 correlation with NL; hallucinated sequences detectable at 87.5% rate
-- [[essan-vgcp-comparative-analysis]] — Essan vs VGCP: symbolic notation vs DAG enforcement; complementary, not redundant
+- [[essan-vgcp-comparative-analysis]] — 
 - [[eu-us-trade-deal-2029-expiry-may-2026]] — EU-US trade deal formally ratified with 2029 expiry on tariff safeguards — largest bilateral trade framework since post-war era
-- [[formal-pipeline-analysis]] — OrCAID+Meta-Harness+Paper2Code pipeline: integrated confidence 0.47; semantic gap is binding constraint
+- [[formal-pipeline-analysis]] — 
 - [[frank-einstein-gemma-truth-emotion-sacred]] — 
 - [[gemini-for-science-google-deepmind-may-2026]] — Google DeepMind releases Gemini for Science — AI-native scientific research platform that autonomously designs, executes, and interprets experiments
 - [[gemma4]] — 
+- [[google-antigravity-ubuntu-install]] — Installation guide for Google Antigravity 2.0 (desktop, IDE, CLI) on Ubuntu 26.04/24.04/22.04 — covers the three current install paths via Google-hosted tarballs and the legacy 1.x APT package; includes update, launch, authentication, and sandbox troubleshooting.
 - [[hermes-multi-agent-discord-architecture]] — Designing a hierarchical multi-agent system on Discord using Hermes harness — 3-tier architecture with mention-based routing, validated by Anthropic's Multiagent Sessions
 - [[hermes-openclaw-paperclip-stack]] — 
 - [[hilbert-hotel-graph-architecture]] — Gemini conversation exploring Hilbert Hotel paradox as graph database architecture — immutable nodes with lazy offset protocols, quantum oracle sketching, and 4D superspace simulations
@@ -890,30 +916,30 @@ type: index
 - [[language-evolution]] — Review of language evolution statistics and AI communication frontiers.
 - [[llm-kernel-optimization]] — Technical deep-dive on AlphaEvolve/OpenEvolve for GPU kernel optimization — LLM ensemble + diff-based mutation + real hardware eval; 23% GEMM speedup; Gemini optimizing its own training; tensor decomposition as game-playing; connects to MGA framework as engineering instantiation
 - [[llm-wiki-pattern]] — Karpathy's pattern for LLM-maintained persistent Markdown knowledge bases
-- [[magnifica-humanitas-wikipedia-may-2026]] — Wikipedia: Magnifica Humanitas encyclical by Pope Leo XIV, AI ethics
+- [[magnifica-humanitas-wikipedia-may-2026]] — 
 - [[menin-d-serine-hypothalamus-anti-aging]] — Menin protein decline in hypothalamus drives aging; D-serine supplementation reverses cognitive decline but not physical aging
 - [[metropolis-hastings-navarro-2026]] — Accessible MCMC tutorial on Metropolis-Hastings by Danielle Navarro — proposal distributions, accept-reject step, intuitive grounding.
-- [[microsoft-ai-blog-may-2026]] — Microsoft AI blog: accessibility, aged care, dairy, manufacturing, motorsport AI cases
+- [[microsoft-ai-blog-may-2026]] — 
 - [[microsoft-search-magnifica-humanitas-may-2026]] — Microsoft.com search for Magnifica humanitas via Bing Copilot
 - [[ml-evolution-benchmarking-protocol]] — Systematic review of guided vs unconstrained LLM architecture evolution.
 - [[momoa-researcher]] — Google Labs agentic research scientist using Mixture of Mixture of Agents
 - [[nato-condemns-russia-after-drone-hits-romanian-residential-b]] — Russian drone hit Romanian apartment — first attack on NATO territory, Article 4 triggered
-- [[news-google-microsoft-pope-leo-ai-encyclical-may-2026]] — News.google.com: Microsoft response to Pope Leo XIV AI encyclical
-- [[news-microsoft-com-may-2026]] — News.microsoft.com: AI impact, OpenAI partnership, sovereign cloud, frontier firms
-- [[openai-pope-leo-magnifica-humanitas-may-2026]] — Bing search: OpenAI response to Magnifica Humanitas encyclical
-- [[orcaid-meta-harness-paper2code-analysis]] — OrCAID+Meta-Harness+Paper2Code unified: closed-loop meta-optimization architecture with self-evolving verification
-- [[paraclete-protocol]] — Paraclete Protocol: AI as moral instrument via theological analogy; accountability lies with creators
-- [[philosophical-deconstruction]] — Philosophical critique: behaviorist vs representationalist vs translationist epistemologies are irreconcilable
+- [[news-google-microsoft-pope-leo-ai-encyclical-may-2026]] — 
+- [[news-microsoft-com-may-2026]] — 
+- [[openai-pope-leo-magnifica-humanitas-may-2026]] — 
+- [[orcaid-meta-harness-paper2code-analysis]] — 
+- [[paraclete-protocol]] — 
+- [[philosophical-deconstruction]] — 
 - [[pope-leo-ai-encyclical-magnifica-humanitas-may-2026]] — First papal AI encyclical demands global AI disarmament treaties — tracked for government/company responses and Vatican diplomatic follow-through
 - [[prd-ralph-loop-mop-gemini]] — Gemini conversation connecting PRD-driven Ralph Loops with MOP and Theory of Mind for autonomous scientific research — epistemic energy as the critical constraint
 - [[reasoning-with-sampling-cutting-at-decision-points-2026]] — LLM inference-time reasoning paper on selectively branching/sampling only at high-entropy decision points
 - [[reasoning-with-sampling-power-sampling-2025]] — Training-free inference-time reasoning via MCMC power sampling, matches RL without training
 - [[shorthand-for-thought]] — Research on compressing LLM Chain-of-Thought (CoT) reasoning by merging low-entropy structural phrases into "supertokens.
-- [[solo-preneur]] — Framework for solo-developer micro-SaaS: "time is money, convenience is king, marketing is queen" — constraints, 4 product categories, and strategic rules
+- [[solo-preneur]] — Solo-preneur article — micro-SaaS development strategies for independent builders
 - [[spacex-golden-dome-4b-contract-may-2026]] — SpaceX $4.16B Golden Dome contract 2 weeks before IPO — material pre-quiet period
 - [[spacex-ipo-governance-questions-may-2026]] — SpaceX IPO 16 days out — Barron's flags Tesla spillover risk, 24/7 Wall St. surfaces Musk voting control question SpaceX declines to answer pre-IPO. BlackRock $10B still under consideration, no confirmation.
 - [[ssh-command-in-linux]] — SSH command reference: connections, key auth, port forwarding, common options
-- [[titans-test-time-memory]] — Titans: Learning to Memorize at Test Time summary.
+- [[titans-test-time-memory]] — 
 - [[trump-abandons-ai-model-vetting-may-2026]] — Trump walks back AI model vetting proposal before signing — second signal in three days that federal AI regulation remains off the table
 - [[trump-holds-meeting-to-make-final-determination-on-iran-deal]] — Trump defers Iran deal decision — framework agreed but hardliners in Tehran trying to derail
 - [[truth-emotion-sacred-agem-analysis]] — 
@@ -927,24 +953,24 @@ type: index
 - [[delegation-parallel-work]] — 
 - [[event-hooks-hermes-agent]] — 
 - [[github-actions-troubleshooting]] — GitHub Actions CI Troubleshooting guide summary.
-- [[hermes-agent-documentation]] — Hermes Agent docs: install, skills, MCP, profiles, cron, delegation, kanban
-- [[hermes-agent-faq-troubleshooting]] — Hermes Agent FAQ: providers, WSL2, Termux, OAuth, troubleshooting
+- [[hermes-agent-documentation]] — 
+- [[hermes-agent-faq-troubleshooting]] — 
 - [[hermes-agent-lcm-plugin-slash-commands-research]] — Research on Hermes Agent LCM plugin slash commands not working after restart - no specific bugs found
 - [[hermes-mcp-integration]] — Hermes Agent MCP integration: consuming external tools, acting as an MCP server for messaging, per-server filtering, sampling, dynamic discovery
 - [[hermes-path-forward]] — 3-phase roadmap for Hermes Agent observability: EventBus + StateManager, Memory Taxonomy, Self-Healing
 - [[image-extender-readme]] — image-extender (boona13) README — open-source Next.js 14 web app for AI outpainting (Gemini via OpenRouter) with Poisson-blended seams, plus four game-art studios. Primary source for the existing image-extender entity.
 - [[isabelle-installation]] — 
 - [[kanban-multi-agent-board-hermes-agent]] — Durable SQLite-backed task board for coordinating multiple Hermes profiles — dispatchers spawn workers with kanban_* tools, CLI for humans/automation
-- [[mcp-model-context-protocol-hermes]] — MCP docs: stdio/HTTP servers, tool discovery, per-server filtering
-- [[modelfile-reference]] — Ollama Modelfile reference: all instructions and parameters for creating customized models
+- [[mcp-model-context-protocol-hermes]] — 
+- [[modelfile-reference]] — 
 - [[obsidian-cli-skill]] — kepano's Obsidian CLI agent skill — command reference for reading, writing, searching, and managing Obsidian vaults from the terminal
 - [[obsidian-git-setup]] — Setup guide for the Obsidian Git community plugin (desktop and mobile)
 - [[obsidian-para-byarbrough]] — byarbrough's Obsidian PARA template — Tiago Forte's 4-category knowledge organization system implemented in Obsidian
-- [[orchestrate-teams-claude-code-sessions]] — Claude Code agent teams: multi-instance coordination with shared task lists and direct messaging
+- [[orchestrate-teams-claude-code-sessions]] — 
 - [[paperclip-api]] — 
 - [[paperclip-company-spec]] — 
 - [[paperclip-hermes-adapter]] — 
-- [[persistent-goals-hermes-agent]] — /goal slash command — standing goal + auto-continuation loop with judge model, inspired by Codex CLI's Ralph loop
+- [[persistent-goals-hermes-agent]] — /goal slash command — standing goal + auto-continuation loop with judge model, inspired by Codex CLI''s Ralph loop
 - [[profiles-running-multiple-agents]] — Run multiple independent Hermes agents on the same machine — each with its own config, API keys, memory, sessions, skills, and gateway state
 - [[scheduled-tasks-cron-hermes-agent]] — Schedule automated tasks with natural language, manage with one cron tool, attach skills, deliver to origin/platform/local
 - [[subagent-delegation-hermes-agent]] — 
@@ -959,7 +985,7 @@ type: index
 - [[china-coal-mine-explosion-shanxi-may-2026]] — 90 killed in Shanxi province gas explosion — China's deadliest mining disaster in 16 years
 - [[china-rare-earth-geopolitics-may-2026]] — China consolidates rare earth dominance as geopolitical weapon, restricting global access amid US-China tech war escalation
 - [[ebola-bundibugyo-outbreak-drc-uganda-2026]] — WHO emergency declaration for Ebola Bundibugyo outbreak in DRC/Uganda; no proven vaccine, UK developing new one
-- [[ebola-bundibugyo-who-ec-recommendations-follow-up-may-2026]] — WHO EC recommendations follow-up: case count 1,011+, Sud-Kivu expansion, 2nd ETC attack May 23, Italy suspected cases, thermostable vaccine status unclear
+- [[ebola-bundibugyo-who-ec-recommendations-follow-up-may-2026]] — 
 - [[ebola-kenya-court-protests-2026-06-02]] — Kenya High Court orders government to release US-Ebola-quarantine-center details. Protests kill two. Major sovereignty test case.
 - [[ebola-outbreak-drc-hospital-attack-2026]] — 
 - [[ebola-outbreak-drc-uganda-pheic-2026]] — WHO declares Ebola outbreak in DRC and Uganda a global health emergency — Bundibugyo strain, ~750 suspected cases, 177 deaths, case count tripling weekly
@@ -969,6 +995,7 @@ type: index
 - [[engineering-internal-awareness-and-closed-loop-self-regulation-in-large-language-models]] — Engineering internal awareness and closed-loop self-regulation in LLMs via biofeedback paradigm, PID control theory, and activation steering.
 - [[eu-us-trade-deal-tariff-elements-may-2026]] — EU and US Council/Parliament reach agreement on tariff elements of Joint Statement, implementing joint framework
 - [[eu-us-trade-deal-tariff-may-2026]] — EU and US strike deal to implement tariff elements of Joint Statement — transatlantic trade rapprochement amid tariff chaos
+- [[iran-strikes-kuwait-bahrain-gulf-escalation-june-3-2026]] — Iran strikes Kuwait and Bahrain with missile/drone barrage while US and Iran accuse each other of launching new strikes. Rubio says war is 'over' same day. Gulf war escalates beyond prior cycle's 'deal next week' narrative.
 - [[israel-hezbollah-partial-ceasefire-trump-2026-06-02]] — Trump announces Israel-Hezbollah partial ceasefire. Israel backs off Beirut strikes after Trump reportedly called Netanyahu 'crazy.' Ground clashes continue — 5-8 killed in southern Lebanon after the announcement.
 - [[malaysia-exits-us-reciprocal-trade-deal-may-2026]] — Malaysia exits US reciprocal trade deal following Supreme Court ruling that invalidated tariff authority
 - [[meta-social-media-addiction-settlement-2026]] — 
@@ -987,6 +1014,7 @@ type: index
 - [[search-2026-05-21]] — Google News aggregation for 2026-05-21 — broad headline snapshot
 - [[spacex-blackrock-10b-stake-tracking]] — BlackRock $10B stake UNCONFIRMED — 16 days to June 12, no confirmation in any source through May 27. Created tracking page.
 - [[spacex-files-ipo-starship-v3-2026]] — SpaceX filed for IPO in May 2026 — $1.75T-$2T valuation, Starship V3 successful pre-IPO test, $15B+ spent on Starship development, $75B IPO target
+- [[spacex-ipo-75-billion-135-per-share-june-3-2026]] — SpaceX targets $75B IPO at $135/share — fixed pricing more than a week before expected 2026-06-12 trading. Largest IPO of 2026. BlackRock $10B anchor stake tracks.
 - [[spacex-ipo-investor-frenzy-risk-may-2026]] — SpaceX IPO investor frenzy analyzed — Barron's and Seeking Alpha assess whether governance concerns and losses are being overlooked in retail enthusiasm
 - [[spacex-ipo-june-12-2026]] — Updated SpaceX IPO page — BlackRock $10B confirmed unconfirmed, 16 days to listing
 - [[spacex-ipo-spcx-2026]] — 
@@ -1000,9 +1028,12 @@ type: index
 - [[transformer-vm-moran-2026]] — Moran (2026) — analytically compiling programs into transformer weights; residual stream as registers, attention as lookup, FFN as arithmetic, layers as machine steps; connects to EML as minimal instruction set for compiled transformers
 - [[trump-ai-executive-order-abandoned-may-2026]] — Trump administration calls off proposed AI executive order after objections from tech industry over concerns it could weaken US AI competitiveness
 - [[trump-brazil-25-percent-tariff-2026-06-02]] — USTR announces 25% tariff on Brazilian goods, citing 'unfair trade practices.' Politically-motivated tariff targeting Lula government.
+- [[trump-canada-51st-state-trade-talks-june-3-2026]] — Trump again calls Canada the '51st state' hours before USMCA trade talks; Canada formally requests 16-year USMCA renewal; Carney shrugs off the jab. Pairs with Brazil tariff and Colombia endorsement as a unified 'Americas realignment' posture.
+- [[trump-endorses-colombia-espriella-runoff-june-3-2026]] — Trump publicly endorses right-wing Colombian presidential candidate Abelardo De La Espriella ahead of the June runoff against center-left Iván Cepeda. Espriella vows closer US ties. Pairs with yesterday's Brazil 25% tariff as a coordinated Latin America right-wing consolidation push.
 - [[trump-iran-diplomacy-threats-2026]] — Trump oscillates between diplomacy and threats on Iran; 14-point peace plan under review
 - [[trump-taiwan-call-2026]] — 
 - [[tulsi-gabbard-resigns-intelligence-director-may-2026]] — Tulsi Gabbard resigns as US National Intelligence Director, citing husband's illness
+- [[ukraine-strikes-st-petersburg-putin-economic-forum-june-3-2026]] — Ukrainian long-range drones hit oil storage and naval base near St Petersburg on 2026-06-03, opening day of Putin's flagship economic forum. Deepest strike by name in the war and most symbolically timed.
 - [[us-surveillance-cuba-flights-2026]] — 
 - [[us-trade-court-tariff-ruling-may-2026]] — US trade court rules Trump 10% global tariff illegal — may reshape trade war trajectory
 - [[who-ihr-emergency-committee-ebola-may-2026]] — WHO Emergency Committee convenes as Ebola PHEIC reaches critical threshold with 395+ cases, temporary recommendations issued
@@ -1027,7 +1058,7 @@ type: index
 - [[scotus-voting-rights-2026-05-18]] — Supreme Court voting rights ruling impacting local level; Black Democrats warn minority-majority legislative districts at risk; accusations of 'Jim Crow 2.0' redistricting tactics
 - [[smile-satellite-earth-magnetosphere-2026-05-21]] — Joint European-Chinese SMILE satellite launched to study Earth's magnetosphere — first direct imaging of the protective magnetic shield against solar wind
 - [[smile-satellite-earth-magnetosphere-2026-05-22]] — SMILE satellite — joint European-Chinese mission to study Earth's magnetosphere — launched May 21, 2026 on Vega-C from French Guiana
-- [[sti-record-levels-europe-2026-05-21]] — Record STI levels in Europe: gonorrhoea up 303% since 2015, syphilis doubled — congenital cases nearly doubled
+- [[sti-record-levels-europe-2026-05-21]] — 
 - [[strait-of-hormuz-iran-claim-2026-05-21]] — Iran creates "Persian Gulf Strait Authority" claiming control over 22,000+ sq km — challenge to US naval dominance of critical oil chokepoint
 - [[trump-anti-weaponization-fund-2026-05-22]] — DOJ memo reveals Trump's $1.8B 'anti-weaponization' fund as slush fund for allies — GOP senators revolt, Senate budget vote delayed
 - [[trump-approval-war-polling-2026-05-18]] — NYT polling shows Trump's approval sinking amid unpopular Iran war, darkening GOP electoral prospects for 2026 midterms
@@ -1072,33 +1103,34 @@ type: index
 - [[bae-mor-2025]] — [STUB] Bae Mor 2025 — research paper
 - [[behavioral-credibility-trilemma]] — Behavioral Credibility Trilemma — proved impossibility: no RL agent with confidence-gated autonomy can simultaneously maximize helpfulness, calibration, and full autonomy; optimizer-independent, unconditional
 - [[betteti-baggio-bullo-zampieri-idp-hopfield-2025]] — IDP Hopfield model for input-driven, noise-robust memory retrieval in recurrent networks
-- [[bidirectional-evolutionary-search-bes-2026]] — BES: Bidirectional Evolutionary Search — evolution operators escape entropy shell + backward decomposition provides dense verification signal
+- [[bidirectional-evolutionary-search-bes-2026]] — 
 - [[boiling-frog-agentic-safety-2026]] — Boiling the Frog — multi-turn agentic safety benchmark showing 44.4% aggregate attack success rate across 9 models, with Gemini 3.1 Flash Lite at 92.9% ASR
-- [[calibrating-conservatism-scalable-oversight-2026]] — CCO: Conformal Decision Theory for calibrated agentic oversight with finite-time guarantees
+- [[calibrating-conservatism-scalable-oversight-2026]] — 
 - [[chen-molecular-cot-2026]] — [STUB] Chen Molecular CoT 2026 — molecular chain of thought research paper
 - [[clinseekagent-multimodal-clinical-evidence-seeking]] — ClinSeekAgent automates multimodal evidence seeking for agentic clinical reasoning — addressing the gap where evidence is assumed rather than retrieved
 - [[code-as-agent-harness]] — Survey on code as operational substrate ("harness") for agentic AI systems
 - [[codeskill]] — CODESKILL — RL-trained skill management policy for coding agents; learns to extract/evolve/maintain procedural skills from trajectories; +9.69 pass rate over no-skill, +4.01 over prompt-based baselines
-- [[critical-initialization-biological-neural-networks]] — Nature paper: critically normalized symmetric matrices produce brain-like power-law dynamics and zero-shot working memory
+- [[critical-initialization-biological-neural-networks]] — 
 - [[ctx2skill]] — Self-evolving multi-agent framework that autonomously discovers natural-language skills from complex contexts via adversarial self-play — no human annotation, no external feedback.
 - [[cua-gym]] — CUA-GYM: agentic pipeline for scalable RLVR training data synthesis for computer-use agents — 32K verified tuples, 110 environments, Qwen3.5-A3B reaches 62.1% OSWorld-Verified
 - [[decoupling-perception-reasoning-vlm-post-training]] — Post-training VLMs with decoupled perception and reasoning modules improves visual task performance — challenging the long-CoT assumption
-- [[deepweb-bench-2026]] — DeepWeb-Bench: deep research benchmark — derivation/calibration failures dominate over retrieval; cross-model rho=0.61
+- [[deepweb-bench-2026]] — 
 - [[defending-moe-llms-against-harmful-fine-tuning-via-safety-routing-alignment]] — Fine-tuning causes significant routing drift for harmful inputs in MoE LLMs — SafeMoE penalizes routing gap to preserve safety routing
 - [[deltabox-stateful-agent-checkpoint-rollback-2026]] — Dong et al. (2026) — DeltaBox: millisecond-level checkpoint/rollback for stateful AI agents via change-based state management (DeltaFS + DeltaCR); 14ms ckpt, 5ms restore; enables practical MCTS and RL training at scale
 - [[deltadirect-directional-motion-blindness-video-llms-2026]] — [STUB] DeltaDirect directional motion blindness in video LLMs — research on LLM perception of motion
-- [[eidetic-learning-2021]] — Summary of Eidetic Learning: An Efficient and Provable Solution to Catastrophic Forgetting — solving catastrophic forgetting via structured pruning and disjoint subnetworks.
+- [[eidetic-learning-2021]] — 
 - [[entropy-cut-mh-reasoning-2026]] — Entropy-based decision point identification for power distribution sampling; matches RL-trained reasoning without training, dataset, or verifier
-- [[equilibrium-reasoners-eqr-2026]] — Equilibrium Reasoners: test-time scaling via learned attractor landscapes, 2.6%→99% on Sudoku-Extreme
+- [[equilibrium-reasoners-eqr-2026]] — 
+- [[faithful-confidence-lrm-2026]] — Faithful Calibration in LRMs (Gani et al., Yale) — first framework to systematically quantify whether large reasoning models *linguistically express* their intrinsic confidence. Three complementary confidence estimators (RCC hidden-state probe, DeepConf log-prob, sampling consistency). LRMs are systematically unfaithful; reasoning training doesn't fix it; prompt interventions from non-reasoning LLMs do not transfer.
 - [[finharness]] — 
 - [[forecasting-scientific-progress-ai-2026]] — CUSP benchmark for AI scientific forecasting — frontier models fail to predict when scientific advances will occur, misestimate timing, and exhibit systematic overconfidence
 - [[futuresim-adaptive-agents]] — FutureSim replays real-world news chronologically to evaluate agent world-modelling; best frontier agent achieves only 25% accuracy, exposing severe gaps in open-ended temporal adaptation.
-- [[gamma-world-multi-agent-world-modeling-2026]] — Gamma-World: Multi-agent video world model with permutation-symmetric agent encoding and linear cross-agent attention
+- [[gamma-world-multi-agent-world-modeling-2026]] — 
 - [[gram-sabotage-alignment-auditing-2026]] — Automated alignment auditing framework for sabotage in agentic AI deployments; Gemini misbehaves in ~2-3% of scenarios, primarily via overeagerness
 - [[hilbert-manifold-structures-path-spaces]] — Path spaces on tame two-level manifolds are Hilbert manifolds — Floer homology gains a solid analytical foundation via the tameness condition, which is closed under composition.
 - [[hll-humanitys-last-line-verification-2026]] — HLL benchmark — interactive CAPTCHA as the test for human-substitution. 8 frontier multimodal agents evaluated. Process validation is the new scoring dimension. Reveals the capability-vs-deployment gap.
 - [[is-grep-all-you-need]] — Grep often outperforms vector retrieval in agentic search; harness architecture and tool result presentation matter more than retrieval strategy.
-- [[kalra-barkeshli-hyperparameter-transfer-2026]] — μP's advantage over SP: almost entirely from maximizing embedding layer LR — simple fix resolves training instability bottleneck
+- [[kalra-barkeshli-hyperparameter-transfer-2026]] — 
 - [[kim-ahn-edm-2026]] — Kim, Kojaku & Ahn (Science Advances 2026) — introduces EDM embedding-based disruption metric; outperforms CD index; detects simultaneous discoveries via future vector nearest-neighbor clustering
 - [[lcguard-kv-communication-guard-2026]] — Framework for safe KV-based latent communication in multi-agent LLM systems, using adversarial-learned transformations to suppress reconstruction-based leakage while preserving task utility.
 - [[legalsearch-r1]] — LegalSearch-R1 — RL-trained legal agent with temporal statute indexing; 7B model outperforms SOTA by 12.9-29.8% via dual RAG+web architecture enforcing lex retro non agit
@@ -1106,13 +1138,13 @@ type: index
 - [[llms-entity-tracking-state-changes]] — LMs don't track entity states incrementally — they aggregate all relevant information in parallel at the final token once the query is evident. REMOVE uses a fragile global suppression tag, revealing failure modes that mechanistic analysis predicts.
 - [[llmsurgeon-diagnosing-data-mixture-2026]] — LLMSurgeon — DMS for estimating LLM pretraining data composition from outputs
 - [[locally-coherent-globally-incoherent-2026]] — Locally Coherent, Globally Incoherent — compositional residual ε⋆ for multi-component LLM agent coherence failures
-- [[ma-sd-search-2026]] — SD-Search: On-policy hindsight self-distillation for step-level credit assignment in search-augmented reasoning
+- [[ma-sd-search-2026]] — 
 - [[matcha]] — 
 - [[memo-memory-as-a-model]] — MEMO paper — memory as model parameter, industrial compute required, step 5 pairing advice noted
 - [[mixture-of-recursions 1]] — MoR unifies parameter sharing and adaptive token-level computation via learned recursive depth routing — connects to causal state assignment and compiled-transformer execution models.
 - [[mixture-of-recursions]] — [STUB] Mixture of Recursions paper — recursive processing in mixture of experts models
 - [[moe-sieve-routing-guided-lora-for-efficient-moe-fine-tuning]] — Per-layer expert routing is highly skewed — cold experts rarely activated, top-25% routing covers most tokens; only tuning top-25% experts is competitive
-- [[monitoring-agentic-systems-reliability-2026]] — Maturity-staged agent monitoring — 3x3 scope×dimension grid using variance (CV) as the characterization signal. Triage routes 97% to automated tracking, 2% to humans. Stage 1 finding: structural diagnosis must precede error detection.
+- [[monitoring-agentic-systems-reliability-2026]] — 
 - [[moss-self-evolution-source-rewriting-2026]] — Wiki source page for MOSS paper on source-level self-evolving agents
 - [[muse-autoskill]] — MUSE-Autoskill: agents create, reuse, evaluate, and refine skills via a unified lifecycle — skill-level memory accumulates experience across tasks, improving reuse, reliability, and cross-agent transfer.
 - [[odrzywolek-eml-2026]] — Odrzywołek (2026) — discovery of the EML operator eml(x,y)=exp(x)−ln(y), a single binary primitive generating all elementary functions from constant 1, with applications to symbolic regression via gradient-trainable binary trees
@@ -1124,7 +1156,7 @@ type: index
 - [[prism]] — EM framework with O(nK) E-step for multi-intention IRL using a recurrent gating network; recovers discrete nameable intentions with closed-form per-intention reward recovery
 - [[production-llm-agent-runtime-architecture-patterns]] — A methodology for composing production LLM agent runtime architectures — treating the LLM/software boundary as a first-class design concern
 - [[proxy-based-shapley-banzhaf-2026]] — ProxySHAP — polynomial-time Shapley/Banzhaf interaction estimation via tree-based proxy models with residual correction, setting new SOTA for explainability
-- [[ramirez-ruiz-mop-2024]] — Ramírez-Ruiz et al. (Nature Communications 2024) — Maximum Occupancy Principle: agents maximize future action-state path entropy instead of extrinsic reward, producing complex goal-directed behavior from intrinsic motivation alone
+- [[ramirez-ruiz-mop-2024]] — 
 - [[recuriosity-episodic-context-3d-exploration-2026]] — Wiki source page for Recuriosity (2605.22814v1) — curiosity-driven 3D exploration with persistent 3DGS world model and episodic RGB transformer policy
 - [[reuserl-skill-reuse-compression]] — ReuseRL grounds agentic RL in the Minimum Description Length principle — extracts a shared skill dictionary from successful trajectories and adds a segmentation-cost penalty, proving that structural compressibility (not raw brevity) drives generalization. PAC-Bayes bound on the MDL penalty.
 - [[reward-inside-model-elhsr]] — Efficient Linear Hidden State Reward (ELHSR): A lightweight reward model (<0.005% parameters) using internal LLM hidden states for Best-of-N sampling.
@@ -1135,8 +1167,10 @@ type: index
 - [[semantic-gradients-interactions-ssd]] — 
 - [[shannon-scaling-law-2026]] — Shannon Scaling Law: LLM capacity follows noisy-channel dynamics — U-shaped degradation emerges when SNR collapses, with a finite Shannon capacity ceiling.
 - [[skill-consumption-2026]] — SkillLens: First systematic study of full model-generated skill lifecycle — non-trivial negative transfer is common, skill utility is independent of model scale, extraction guidance meta-skill reduces negative transfer.
+- [[skill-rm-2026]] — Skill-RM (Alibaba Qwen team) — reformulates reward modeling as the execution of a reusable Reward-Evaluation Skill. Resource bank (rubrics, verifiers, references, checklists) + procedural invocation protocol + structured judgment. Achieves 86.2 avg on RewardBench2/RM-Bench/JudgeBench, beats all scalar, generative, rubric, agentic, and LLM-as-Judge baselines at matched backbone.
 - [[skillharm-lifecycle-skill-attacks-2026]] — SkillHarm — first lifecycle-aware benchmark of skill-based attacks. 879 samples, 12 risk types, ASR up to 86.3%. Persistent mutation attacks work; "attack failures" are confounded with non-engagement.
 - [[skillopt-self-evolving-2026]] — SkillOpt: First systematic text-space optimizer for agent skills — trains skill documents as external state via add/delete/replace edits, validation gating, and epoch-wise meta updates.
+- [[sleep-self-modify-consolidate-2026]] — Sleep paradigm (Behrouz et al., Google/Cornell) — replaces the static train/test lifecycle with a wake/sleep cycle. Memory Consolidation (Knowledge Seeding: smaller self distills upward into expanded low-rank expert) and Dreaming (RL self-generated curriculum). Outperforms SFT, GRPO, and OPSD on AIME, BABILong, novel-language continual translation, and SQuAD knowledge incorporation.
 - [[soundnessbench-ai-scientist-2026]] — Benchmark for AI scientist first-gate evaluation; LLMs show pervasive optimism bias on scientific soundness, not reliable as standalone proposal evaluators
 - [[specbench]] — SpecBench: evaluates SWE agents on specification-level reasoning — identifying deficiencies in RFC design proposals before implementation. Best model GPT-5.4 achieves 44.4%. Bridges SWE-bench gap.
 - [[stateful-monitoring-distributed-agent-attacks]] — First distributed agent attack: a multi-agent scaffold completes hard cybersecurity tasks while hiding the harmful objective across many user accounts. Standard monitors miss it 80% of the time. Online stateful monitor with stream clustering catches distributed attacks 30% earlier at ~99% traffic latency, and also catches standard jailbreaks.
@@ -1152,9 +1186,10 @@ type: index
 - [[codegraph]] — Local code knowledge graph for Claude Code/Codex/Cursor — 35% cheaper, 70% fewer tool calls, 100% local
 - [[gbrain]] — GBrain — personal/company knowledge brain with graph-extracted entity edges, synthesis layer, and 24/7 dream cycle. 146K+ pages, P@5 49.1%, R@5 97.9%. Bun/PGLite, MCP server for agent integration.
 - [[get-shit-done]] — 
-- [[github-hermes-agent-lcm-slash-commands-search]] — GitHub search: Hermes Agent LCM plugin slash commands
+- [[github-hermes-agent-lcm-slash-commands-search]] — 
 - [[googlecolab-colab-mcp]] — MCP server bridging local AI agents to Google Colab browser sessions via uvx
 - [[graphify-ai-coding-assistant-skill]] — 
+- [[headroom-chopratejas]] — chopratejas/headroom — context compression library/proxy/MCP server for LLM agents. 60-95% token reduction on tool outputs, logs, files, RAG chunks, and conversation history. 6 algorithms, local-first, reversible. Sits between agent tool calls and the LLM context window.
 - [[hermes-agent-github-labels]] — NousResearch/hermes-agent GitHub labels system — 70+ labels
 - [[mcp-logic]] — Source summary for mcp-logic.
 - [[nexus]] — Source summary for NEXUS.
@@ -1168,7 +1203,7 @@ type: index
 - [[spike-001-spacy-owlready2]] — VALIDATED — spaCy+owlready2 handles transitive subsumption, lemmatization, and pluralization in one sync_reasoner() call. Three v0.3 Layer-2 caveats collapse.
 - [[spike-campaign-001-004-summary]] — Four-spike campaign validating spaCy+owlready2+HermiT as Layer 2 substrate; transaction-per-claim semantics; OWL→Neo4j one-way projection.
 - [[agent-safety-rl-2026-06-01]] — Three papers on AI agent safety, capability, and training — distributed attack defense, skill reuse as compression, and reward model routing.
-- [[structural-reuse-crosslink-survey-2026-06-01]] — 
+- [[structural-reuse-crosslink-survey-2026-06-01]] — Crosslink target survey for 13 candidate pages (12 MISSING, 1 EXISTS) for the structural-reuse unit-of-trustworthiness synthesis; documents gaps to inform drafter
 - [[ai-governance-substrate-analysis]] — Five interlocking cognitive primitives for evaluating AI governance discourse at the substrate level — spin-vs-substrate, absence-of-worst-case metric, institutional capture vs species framing, cryptographic vs semantic alignment, frame transmission; ASEKE-compatible diagnostic toolkit
 - [[blue-origin-new-glenn-explosion-may-2026]] — Blue Origin New Glenn explosion at Cape Canaveral has caused substantial launch pad damage, facing months of delays with direct impact on NASA's lunar mission timeline
 - [[bounded-structured-memory]] — Unifying SSL schema + Markovian carryover + Memory Curse fixes into a bounded structured memory architecture for Synapse
@@ -1180,21 +1215,23 @@ type: index
 - [[efhf-mcp-configuration]] — Unified MCP configuration for the EFHF (Emergent Functional Hierarchies Framework) ecosystem.
 - [[empty-chair-protocol]] — Protocol for inviting missing perspectives into research council deliberation via empty chair
 - [[essan-internal-representation]] — Training framework for Essan symbols as internal representation markers in LLMs, enabling hallucination detection via activation geometry.
-- [[generative-ai-math-primer-comparison]] — Comparative reading guide for mathematical primers on generative AI: Chen (2026, "Little Book"), Murphy (PML 2022-23), Prince (UDL 2023), and the original papers (Blei, Kingma, Goodfellow, Ho, Song) — strengths, weaknesses, recommended order.
+- [[generative-ai-math-primer-comparison]] — 
 - [[ghana-anti-lgbt-bill-may-2026]] — Ghana parliament passed anti-LGBT bill criminalizing gay acts, awaiting presidential signature — tests regional human rights trajectory
 - [[harm-cases]] — Historical engineering disasters grounding the technical-working-group personas in real-world harm
 - [[ai-development-religious-ethics-convergence-insight]] — AI development (Olah at Vatican, Traut Codex work) is converging with religious AI ethics discourse (Magnifica humanitas) — moral-philosophical framing is replacing purely technical risk language
 - [[air-france-travel-security-focal-point-insight]] — Air France emerges as the recurrent focal entity in the knowledge graph's travel security cluster — bridging the 2009 Rio manslaughter case, Ebola-era US entry restrictions, and broader aviation-public health governance convergence
 - [[albanese-sanctions-divergence-insight]] — Francesca Albanese sanctions case reveals legal accountability mechanisms constraining executive sanctions power
+- [[archival-package-computational-biology-bridge-insight]] — 
 - [[bvd-utilities-infrastructure-insight]] — BVD outbreak response clusters water/sanitation infrastructure as topologically central — operational integration, not peripheral concern
 - [[cyprus-flotilla-diplomatic-crisis-insight]] — Far-right Israeli ministers cluster around Cyprus flotilla intercept — 430 abducted, 5+ ambassadors summoned, US selective enforcement
-- [[dflash-block-diffusion-inference-insight]] — DFlash block diffusion drafting: 6x speedup via parallel single-pass block-bidirectional drafters conditioning on target context features
+- [[dflash-block-diffusion-inference-insight]] — 
 - [[ebola-drc-aid-collapse-convergence-insight]] — 2026 DR Congo Ebola outbreak exposes convergence of health crisis, USAID collapse, and regional instability — humanitarian response is systemically degraded
 - [[euler-formula-rope-reasoning-topology-insight]] — Euler's formula unifies elementary functions AND underpins RoPE — providing the mathematical substrate for LLM reasoning topology with 0.95 cross-model correlation
 - [[francesca-albanese-sanctions-case-insight]] — Albanese sanctions case: policy enforcement decoupled from legal status
 - [[francesca-albanese-sanctions-insight]] — Francesca Albanese sanctions case reveals legal accountability mechanisms constraining executive sanctions power
 - [[francesca-albanese-sanctions-legal-policy-divergence-insight]] — Francesca Albanese sanctions case reveals US foreign policy enforcement architecture decoupled from legal status through judicial constraints
 - [[markovian-carryover-session-synthesis-insight]] — Markovian carryover + MemGPT + ReAct + CodeAct form a unified bounded-state synthesis pattern for LLM agent session management
+- [[neuronal-idol-alzheimers-therapy-insight]] — IDOL enzyme in Alzheimer's is neuron-specific, not microglia-driven — challenging the assumption that targeting the main producer cell type is optimal
 - [[nous-portal-obsidian-para-integration-insight]] — Nous Portal bridges Hermes Agent with Obsidian PARA personal knowledge management — practitioners are stitching AI-PKM integrations the vendors haven't built
 - [[oee-knowledge-cluster-insight]] — Open-ended evolution forms a coherent knowledge community across Tierra, Lenia, and Evosphere artificial life systems
 - [[oee-knowledge-cluster-tierra-lenia-evosphere-insight]] — OEE forms a unifying knowledge community across Tierra, Extended Lenia, Evosphere, and Simss virtual creatures via shared coevolution dynamics
@@ -1203,14 +1240,14 @@ type: index
 - [[para-system-cohesion-insight]] — PARA knowledge management framework demonstrates information entropy managed through intentional dormancy
 - [[para-system-knowledge-architecture-cohesion-insight]] — PARA knowledge management framework exhibits structural integrity in the knowledge graph with intentional dormancy as an entropy management strategy
 - [[para-system-knowledge-architecture-insight]] — PARA knowledge management framework confirmed structurally coherent via 208-entity cluster centered on Areas|Resources|Archives
-- [[residual-stream-transformer-vm-insight]] — Transformers implement a virtual machine: residual stream as state, attention/FFN as routines, learned weights as program — executable view of computation
+- [[residual-stream-transformer-vm-insight]] — 
 - [[server-session-unifies-agent-memory-insight]] — Server session unifies Markovian carryover, CodeAct, ReAct, MemGPT into one bounded-state synthesis pattern for LLM agent memory
 - [[sodalitium-pope-leo-xiv-insight]] — Pope Leo XIV's selection traces through Sodalitium Christianae Vitae scandal network — Salinas journalism, Osiek supervision, Peruvian retaliation
 - [[speculative-decoding-agent-efficiency-insight]] — Speculative decoding (DFlash) and LLM agent externalization share efficiency-first design principles; the two research domains are converging
 - [[titans-memory-architecture-insight]] — Titans three-tier memory architecture connects to speculative decoding through shared efficiency mechanisms
 - [[titans-memory-efficiency-insight]] — Titans memory architecture shares efficiency theme with speculative decoding via complementary test-time learning versus runtime speculation
 - [[intelligence-as-entropic-sculpting]] — Synthesis of SARH and MOP proposing that intelligence is the dynamic balance between maximizing potential states (MOP) and sculpting specific actualizations from noise (SARH).
-- [[iran-war-day-93-lebanon-incursion-may-31-2026]] — Iran War Day 93: Trump toughens Iran deal terms while Israel launches deepest Lebanon incursion in 26 years, seizing Beaufort Castle
+- [[iran-war-day-93-lebanon-incursion-may-31-2026]] — 
 - [[librarian-report-2026-05-09]] — Week 1 quality audit — Orphans and Misclassifications in the LLM-WIKI knowledge graph
 - [[llm-biological-analogies]] — An analysis of the functional parallels between human neurobiology (language loop) and Transformer-based LLM architectures.
 - [[minimal-generative-architectures]] — Cross-domain synthesis: NAND, EML, MOP, and OpenPraparat share a structural pattern — minimal primitives + recursion + boundary constraints = unbounded complexity; OpenPraparat validates MOP predictions empirically; EML provides the computational substrate; extends EFHF with L-1 computational primitive layer
@@ -1218,15 +1255,15 @@ type: index
 - [[nairobi-protocol-gde]] — O(1) deterministic knowledge retrieval via DCT-II geometric hashing + mmap — 345x faster than RAG, zero collisions
 - [[16-psyche]] — [STUB] 16 Psyche asteroid — metal-rich asteroid in main belt
 - [[headlines-2026-05-22]] — News report — Stanford diabetes cure and warp drive physics breakthrough
-- [[headlines-2026-05-23]] — 
-- [[headlines-2026-05-24]] — 
-- [[headlines-2026-05-25]] — 
+- [[headlines-2026-05-23]] — News headlines 2026-05-23 — China coal mine disaster (90 dead), Tulsi Gabbard ODNI resignation, SpaceX Starship V3 pre-IPO test, WHO escalates DRC Ebola to "very high", Rubio India energy diplomacy
+- [[headlines-2026-05-24]] — News headlines 2026-05-24 — DRC Ebola second ETC burned, SpaceX Starship V3 Flight 12 success (June 12 IPO), EU-US trade deal tariff elements agreed
+- [[headlines-2026-05-25]] — News headlines 2026-05-25 — DRC Ebola 900+ suspected cases, SpaceX IPO investor frenzy vs governance warnings, D-Wave quantum supremacy overturned, Brazil 2026 elections as AI regulation stress test
 - [[headlines-2026-05-26]] — News report — global news headlines
 - [[headlines-2026-05-27]] — Three significant stories — EU-US trade deal ratified with 2029 expiry, Trump walks back AI model vetting before signing, Google DeepMind launches Gemini for Science autonomous research platform
-- [[headlines-2026-05-28]] — 
+- [[headlines-2026-05-28]] — News headlines 2026-05-28 — WHO Ebola PHEIC emergency committee recommendations, SpaceX IPO 16 days out with governance questions, Pope Leo XIV "Magnifica humanitas" encyclical on AI disarmament
 - [[news-2026-05-18-headlines]] — Global news headlines for May 18, 2026 — Iran diplomacy, Trump polling, asteroid, JWST, hantavirus, SCOTUS, Massie primary, prayer rally
 - [[news-2026-05-20-headlines]] — Global news headlines for May 20, 2026 — 7 stories across geopolitics, AI/tech, science, health, and energy
-- [[news-2026-05-21-headlines]] — 
+- [[news-2026-05-21-headlines]] — News headlines 2026-05-21 — Iran Hormuz control claim, US surveillance near Cuba, SpaceX SPCX IPO filing, Meta social media settlement, Ofcom TikTok/YouTube child safety finding, Trump-Taiwan call, DRC Ebola hospital burned, Air France/Airbus manslaughter verdict
 - [[news-2026-05-22-headlines]] — Global news headlines for May 22, 2026 — 5 stories across science, US politics, and law
 - [[2026-republican-primaries]] — [STUB] 2026 Republican primaries
 - [[8th-amendment]] — [STUB] US 8th Amendment — cruel and unusual punishment
@@ -1256,7 +1293,7 @@ type: index
 - [[ebola]] — [STUB] Ebola disease — viral hemorrhagic fever
 - [[eu-us-trade-relations]] — [STUB] EU-US trade relations and economic policy
 - [[gaza-humanitarian-crisis]] — [STUB] Ongoing humanitarian crisis in Gaza 2024-2026
-- [[goodrobot-revenue-model]] — [REDIRECT] Consolidated to wiki/projects/goodrobot/revenue-model.md
+- [[goodrobot-revenue-model]] — [REDIRECT] This stub now redirects to wiki/synthesis/news/goodrobot-revenue-model.md — consolidated Goodrobot revenue analysis
 - [[great-power-competition]] — [STUB] Great power competition — US-China-Russia strategic rivalry
 - [[hantavirus]] — [STUB] Hantavirus outbreak and public health response
 - [[headlines-2026-05-27]] — Russia's Bundibugyo Ebola vaccine claim + global travel restrictions + CBP tariff refunds — geopolitical positioning, state capacity signaling

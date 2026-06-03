@@ -1,9 +1,3 @@
----
-summary: Microsoft AI blog: accessibility, aged care, dairy, manufacturing, motorsport AI cases
-tags: [microsoft, ai, blog, accessibility, manufacturing]
-updated: 2026-05-28T01:58:30Z
-created: 2026-05-28T01:58:30Z
----
 
 ---
 created: 2026-05-28

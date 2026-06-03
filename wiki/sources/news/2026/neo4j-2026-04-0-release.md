@@ -1,5 +1,5 @@
 ---
-summary: Neo4j 2026.04.0: vector-3.0 quantization fix, io_uring async I/O, GenAI plugin token functions, Cypher 25 GQL alignment
+summary: "Neo4j 2026.04.0: vector-3.0 quantization fix, io_uring async I/O, GenAI plugin token functions, Cypher 25 GQL alignment"
 tags: [neo4j, release-notes, vector-index, genai-plugin, cypher, gql, io_uring]
 updated: 2026-05-07T16:46:17Z
 created: 2026-05-07T16:46:17Z

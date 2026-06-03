@@ -1,6 +1,5 @@
 ---
 created: 2026-06-16
-*Archived — Absorbed by sovereign-ai (0.75) which explicitly addresses Taiwan/NVIDIA as the compute chokepoint and AI hardware supply chain geopolitics.*
 
 updated: 2026-06-16
 type: concept

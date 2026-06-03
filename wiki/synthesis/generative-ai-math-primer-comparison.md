@@ -1,9 +1,3 @@
----
-summary: Comparative reading guide for mathematical primers on generative AI: Chen (2026, "Little Book"), Murphy (PML 2022-23), Prince (UDL 2023), and the original papers (Blei, Kingma, Goodfellow, Ho, Song) — strengths, weaknesses, recommended order.
-tags: [generative-models, mathematical-foundations, primer, reading-list, vae, diffusion-models, gans, normalizing-flows, energy-based-models]
-updated: 2026-06-01T21:52:55Z
-created: 2026-06-01T21:52:55Z
----
 
 ---
 created: 2026-06-01T15:30:00Z

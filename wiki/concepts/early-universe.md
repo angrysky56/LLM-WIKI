@@ -1,13 +1,16 @@
 ---
+
 created: 2026-06-16
 updated: 2026-06-16
 type: concept
 summary: "[STUB] Early universe — cosmic inflation, CMB, formation"
 tags: [early-universe, stubs, cosmology]
 sources: []
-status: stub
+status: archived
 confidence: 0.3
 ---
+
+*Archived — Non-AI periphery — math / engineering foundations.*
 
 # Early Universe
 

@@ -1,15 +1,9 @@
 ---
-summary: Maximum Occupancy Principle — path-entropy-maximizing behavior theory; Layer 0 of EFHF (Prover9-verified)
-tags: [mop, entropy, intrinsic-motivation, behavioral-variability, reward-free, reinforcement-learning, absorbing-states, stochastic-policy, efhf, kernel-2, lumpability]
-updated: 2026-06-02T14:46:16Z
----
-
----
 created: 2026-04-14 04:12:42+00:00
-updated: 2026-05-23 08:55:00+00:00
+updated: 2026-06-02T14:46:16Z
 type: concept
 summary: Theory of behavior replacing reward maximization with action-state path entropy maximization — Layer 0 of EFHF architecture; absorbing states → Kernel 2 (Prover9-verified)
-tags: ['mop', 'entropy', 'intrinsic-motivation', 'behavioral-variability', 'reward-free', 'reinforcement-learning', 'absorbing-states', 'stochastic-policy', 'efhf', 'kernel-2', 'lumpability']
+tags: [mop, entropy, intrinsic-motivation, behavioral-variability, reward-free, reinforcement-learning, absorbing-states, stochastic-policy, efhf, kernel-2, lumpability]
 sources: []
 status: active
 confidence: 1.0

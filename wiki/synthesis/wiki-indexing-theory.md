@@ -1,4 +1,4 @@
-
+---
 created: 2026-04-11T04:47:47Z
 updated: 2026-04-11T04:47:47Z
 type: synthesis
@@ -7,7 +7,7 @@ tags: [indexing, information-retrieval, controlled-vocabulary, thesaurus, HITS, 
 sources: []
 status: active
 confidence: 0.8
-
+---
 
 # Wiki Indexing Theory — Implications for LLM-WIKI
 

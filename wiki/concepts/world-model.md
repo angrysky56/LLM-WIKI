@@ -4,7 +4,9 @@ updated: 2026-06-08
 type: concept
 summary: Internal predictive models used by agents for planning, simulation, and grounding — enabling agents to predict the consequences of actions before executing them; connected to MOP's epistemic energy management and EFHF's world model encoding
 tags: [agent-design, planning, prediction, world-model, epistemic-energy, reinforcement-learning]
-sources: [], [[mop-edm-cognitive-architecture]], [[futuresim-adaptive-agents]]
+sources:
+  - "[[mop-edm-cognitive-architecture]]"
+  - "[[futuresim-adaptive-agents]]"
 status: active
 confidence: 0.8
 ---

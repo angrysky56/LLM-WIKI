@@ -4,7 +4,9 @@ updated: 2026-05-23T08:55:00Z
 type: entity
 subtype: project
 summary: Dev agency with 4 specialists that maintains persistent Markovian state across activations
-sources: [], [[markovian-carryover]], [[paperclip]]
+sources:
+  - "[[markovian-carryover]]"
+  - "[[paperclip]]"
 status: active
 confidence: 0.9
 tags: [agency, devops, markovian, persistent-agents, multi-specialist]

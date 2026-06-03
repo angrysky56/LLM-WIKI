@@ -13,6 +13,8 @@ tags: [evolution, architecture, meta-harness]
 
 The Evolution Loop is the core mechanism of the Meta-Harness, designed to iteratively improve agent memory systems and domain skills through autonomous experimentation.
 
+/home/ty/Repositories/ai_workspace/meta-harness/README.md
+
 ## Architecture
 
 ```mermaid

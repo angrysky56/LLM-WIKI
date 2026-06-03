@@ -1,4 +1,4 @@
-
+---
 created: 2026-05-22T20:57:14Z
 updated: 2026-05-22T20:57:14Z
 type: synthesis
@@ -7,7 +7,7 @@ tags: [hermes, integration, plan, memory, state-machine, codegraph, agem, gennai
 sources: []
 status: active
 confidence: 0.8
-
+---
 
 # CodeGraph Hermes Integration Plan
 **Status:** Assessment Complete — Integration Recommended (Partial)

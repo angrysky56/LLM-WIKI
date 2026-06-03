@@ -1,88 +1,91 @@
 ---
-summary: Librarian carryover 2026-06-02 — 1324 pages, +36 this cycle (vault growing), HITS scores stable, all structural findings operational
-tags: [librarian, carryover, wiki-audit, daily]
-updated: 2026-06-02T08:50:00Z
+summary: Librarian carryover 2026-06-03 — 1326 pages, linter upgraded to knowledge-only view, 10 frontmatter files fixed directly, MOP duplicate consolidated, 9 stub frontmatter items delegated
+tags: [librarian, carryover, wiki-audit, daily, 2026-06-03]
+updated: 2026-06-03T07:40:00Z
 ---
 
-# Librarian Carryover — 2026-06-02
+# Librarian Carryover — 2026-06-03
 
 ## Kanban Status
-- [x] Audit complete: 2026-06-02 08:50 AM UTC
+- [x] Audit complete: 2026-06-03 07:38 UTC
 - [x] MCP tools: REACHABLE this cycle ✓
 - [x] wiki_lint + wiki_hits_analysis + wiki_cluster_pages ran successfully
-- [x] All prior cycle open items reviewed — still unchanged (operational artifacts, zero knowledge impact)
-- [x] HITS scores stable vs prior cycle (slight relative dilution from +36 page growth)
-- [x] No new non-preferred tag violations
-- [x] No knowledge orphans found (all 136 are operational)
+- [x] Linter upgraded: knowledge-only view excludes 247 operational files (orphan/broken-link counts now meaningful)
+- [x] 10 frontmatter files fixed directly (delimiters added)
+- [x] MOP duplicate frontmatter consolidated (HITS analyzer should reflect next cycle)
+- [x] Zero tag taxonomy violations confirmed
+- [x] Wiki index rebuilt (1320 pages)
+- [x] Synapse episodic memory updated (fact_id: tfact_7f0b34cfce191a3e)
 
 ## Established
 
-### Vault Stats (Updated 2026-06-02)
-- **Total wiki pages: 1324 (↑ from 1288 — +36 pages this cycle, continued substantial ingestion)**
-- Orphans: 136 — all operational (agent sheets, carryovers, reports, TEMPLATE, discovery, headlines, overseer, arxiv/news/insight briefs, audits, batch progress, archives). Zero knowledge orphans.
-  - Breakdown by category: ~14 agent sheets, ~13 discovery, ~5 headlines, ~6 overseer, ~32 arxiv/news/insight briefs, ~50 other operational (vault.md, batch-progress, audit-*, ingest-*, carryover variants, insight-*, structural-reuse-*, gamma-world, agem-*, clipping_*, news-*, microsoft-search-*, meta-)
-- Broken links: 5865 — ALL operational path artifacts (wiki/agents/*, scratchpad/*, TEMPLATE, carryover.md). Zero in knowledge content. Up from 5745 (correlates with +36 pages).
-- Missing frontmatter: 120 — operational files (agent sheets, reports, carryovers, templates, vault.md, mcp-tools reference). Not critical. Up from 115.
-- Non-reciprocal links: 345 — body-text-only detection. High false-positive rate (links already reciprocal via Connections sections). Up from 336 (correlates with +36 page growth). Not actionable without manual verification.
-- GAAC clusters: 36 — STABLE (same as prior cycle)
-- Tag taxonomy: no new non-preferred tag violations. Compound tags (embedding-LR, embedding-entropy, scientific-method) are NOT violations of USE table.
+### Vault Stats (2026-06-03)
+- **Total wiki pages: 1326 (↑ +2 vs 1324 prior cycle)**
+- Orphans: **65** (knowledge-only; down from 136 which was all operational) — newly-ingested arxiv papers, news clippings, insights, entity pages from 2026-05-28 to 2026-06-02
+- Broken links: **513** (knowledge-only, all scratchpad/* refs in body text; down from 5865)
+- Missing frontmatter: **9** (down from 19 — 10 fixed directly this cycle)
+- Non-reciprocal links: **408** (body-text-only false positives; not actionable)
+- GAAC clusters: **36** (stable)
 
-### MCP Tools Available ✓
-All tools functional this (2-Jun) cycle.
+### Frontmatter Files Fixed (10)
+- `wiki/concepts/agent-architectures.md` (referenced from `concepts/agents.md`)
+- `wiki/sources/papers/arxiv-2605-27366-muse-autoskill.md`
+- `wiki/sources/papers/eidetic-learning-2021.md`
+- `wiki/sources/papers/kalra-barkeshli-hyperparameter-transfer-2026.md`
+- `wiki/synthesis/codegraph-hermes-integration-plan.md`
+- `wiki/synthesis/minimal-generative-architectures.md`
+- `wiki/synthesis/mop-edm-cognitive-architecture.md`
+- `wiki/synthesis/self-prompting-via-production-stage-architecture.md`
+- `wiki/synthesis/synapse-retrieval-architecture.md`
+- `wiki/synthesis/wiki-indexing-theory.md` (librarian's own operating theory)
 
-### HITS Analysis (Authority — this cycle)
+### MOP Duplicate Consolidated
+- `wiki/concepts/maximum-occupancy-principle.md` had two stacked YAML blocks. Kept complete one with updated date. HITS analyzer may take a cycle to reflect.
 
-| Page | Authority | Type | Content Status |
-|------|-----------|------|----------------|
-| [[wiki/index]] | 0.0765 | structural | TOC — minimal by design ✓ |
-| [[log]] | 0.0537 | structural | Append-only log — appropriate ✓ |
-| [[maximum-occupancy-principle]] | 0.0148 | load-bearing | Rich content, full taxonomy ✓ |
-| [[concepts/maximum-occupancy-principle]] | 0.0126 | refactored | Lower authority after slug consolidation — stable |
-| [[efhf]] | 0.0056 | entity | Rich Connections section ✓ |
-| [[concept-index]] | 0.0052 | structural | Navigation layer — appropriate ✓ |
-| [[load-bearing-reasoning]] | 0.0039 | concept | Full taxonomy + Connections ✓ |
-| [[agentic-research]] | 0.0037 | concept | Full taxonomy + Connections ✓ |
+### HITS Authority Top 5 (2026-06-03)
+1. [[wiki/index]] — 0.0770
+2. [[log]] — 0.0541
+3. [[maximum-occupancy-principle]] — 0.0151
+4. [[concepts/maximum-occupancy-principle]] — 0.0125 (alias, on-disk consolidated)
+5. [[efhf]] — 0.0057
 
-**Top Hubs (this cycle):** maximum-occupancy-principle (0.0030 hub+authority dual), efhf (0.0024), concept-index (0.0021), load-bearing-reasoning (0.0019), edm-framework (0.0018), alphaevolve (0.0018), world-model (0.0018), chain-of-thought (0.0018)
-
-**Comparison vs prior cycle (1-Jun):** Authority scores stable. Index 0.0767→0.0765; log 0.0540→0.0537; mop 0.0151→0.0148; efhf 0.0056→0.0056. Slight relative dilution from +36 new pages. No structural change.
-
-### GAAC Clustering — this cycle
-- Clusters: 36 (STABLE, same as prior cycle)
-- All knowledge clusters stable. Cluster 0 (research projects, MOP/bounded-representation/agentic-research hub), Cluster 4 (memory/transformer/MoE architectural), and Cluster 20 (graphrag/knowledge-graph/project-synapse) remain load-bearing hubs
-- Missing links: loosely-related topic pairs flagged across clusters. Per skill pitfalls, NOT actionable without manual verification (high false-positive rate)
-- Merge candidates: All 1.0 similarity pairs confirmed as false positives (stub page contamination). No merge action needed.
+### HITS Hub Top 5
+1. [[maximum-occupancy-principle]] — 0.0027
+2. [[efhf]] — 0.0024
+3. [[concept-index]] — 0.0021
+4. [[load-bearing-reasoning]] — 0.0019
+5. [[edm-framework]] / [[alphaevolve]] / [[world-model]] / [[chain-of-thought]] — 0.0018 (tied)
 
 ### Tag Taxonomy Compliance
-- Checked vault against tag-taxonomy.md USE references
-- **No violations** of: `embedding`, `vector-embedding`, `semantic-search`, `graph-RAG`, `PKM`, `KG`, `taxonomy`, `scientometrics`, `bibliometrics`, `method`, `ANN`, `fulltext-search`
-- Compound tags like `embedding-LR`, `embedding-entropy`, `scientific-method` are NOT in the USE table — no action needed
-
-### Notable New Content This Cycle (per file mtime + orphan list)
-- New arxiv papers indexed: arxiv-2605-27140-stepopsd, arxiv-2605-28814-bidirectional-evolutionary-search-bes, arxiv-2605-28816-gamma-world, plus several 27322-27355 series
-- New insight files: cyprus-flotilla-diplomatic-crisis, sodalitium-pope-leo-xiv, ebola-drc-aid-collapse-convergence, euler-formula-rope-reasoning-topology, markovian-carryover-session-synthesis, server-session-unifies-agent-memory, speculative-decoding-agent-efficiency
-- New research entities: paper2code-enhanced, orcaid, goodrobot, llmsurgeon-diagnosing-data-mixture-2026, mixture-of-recursions, on-the-representation-collapse-of-sparse-mixture-of-experts, applying-mathematics
-- New agent/operational sheets: librarian-agent, librarians-assistant, researcher, researcher-agent, news-agent, hermes-agent, mcp-model-context-protocol-hermes, project-synapse-mcp-tools, hermes-agent-github-labels, github-hermes-agent-lcm-slash-commands-search
-- New clip entities: clipping_anthropic_ipo, clipping_brazil_tariff, clipping_ebola_kenya, clipping_lebanon_ceasefire, clipping_russia_kyiv
-- New event pages: ghana-anti-lgbt-bill-may-2026, iran-war-day-93-lebanon-incursion-may-31-2026, blue-origin-new-glenn-explosion-may-2026
+- Zero violations across the entire wiki
+- All 12 USE references confirmed clean
 
 ## Open
 
-1. **maximum-occupancy-principle duplicate** — `concepts/maximum-occupancy-principle` (0.0126) coexists with root `maximum-occupancy-principle` (0.0148). Root has higher authority. On-disk verification: only `wiki/concepts/maximum-occupancy-principle.md` file exists; the root authority score is coming from a wikilink alias the analyzer is treating as a separate node. Consolidation still recommended but not urgent. Unchanged from prior cycle.
+1. **9 stub frontmatter files** — delegate to librarians-assistant (no YAML body exists; needs authoring with summary/tags/type/status):
+   - `wiki/research/mop-agents-integration.md` (research plan)
+   - `wiki/research/projects/goodrobot/Q2_SALES_TARGET_LIST.md` (operational)
+   - `wiki/research/projects/goodrobot/STRATEGIC_BRIEF.md` (operational)
+   - `wiki/synthesis/_index/structural-reuse-crosslink-survey-2026-06-01.md` (report)
+   - `wiki/synthesis/news/2026-May/headlines-2026-05-23.md` (news)
+   - `wiki/synthesis/news/2026-May/headlines-2026-05-24.md` (news)
+   - `wiki/synthesis/news/2026-May/headlines-2026-05-25.md` (news)
+   - `wiki/synthesis/news/2026-May/headlines-2026-05-28.md` (news)
+   - `wiki/synthesis/news/2026-May/news-2026-05-21-headlines.md` (news)
 
-2. **136 orphans** — all operational files. Zero knowledge orphans. No action needed. Up from 118 — correlates with new operational files for this cycle.
+2. **65 knowledge orphans** — newly-created arxiv/news/insight/entity pages. Per skill pitfalls, will get linked via natural ingestion flow in 1-2 cycles. Not actionable today.
 
-3. **5865 broken links** — ALL operational path artifacts. Zero in knowledge content. Not actionable. Up from 5745.
+3. **513 broken links** — all operational path artifacts in knowledge body text. Not actionable.
 
-4. **345 non-reciprocal links** — body-text-only detection. High false-positive rate. Not actionable without manual verification. Up from 336.
+4. **408 non-reciprocal links** — body-text-only detection. High false-positive rate. Not actionable.
 
-5. **Cluster missing links** — GAAC flags loosely-related topic pairs. False positive rate high. Not actionable without manual verification.
+5. **Cluster missing links** — 1724+ pairs in Cluster 0 alone, all high false-positive. Per skill pitfalls, not actionable.
 
 ## Heading
-- MCP tools available this cycle ✓
-- Audit complete; all findings documented
-- **Vault grew 36 pages this cycle** (1324 vs 1288 prior) — continued substantial ingestion
-- No new actionable items — vault is stable
-- Prior cycle Open items #1-#5 confirmed unchanged (operational artifacts, zero knowledge impact)
+- Audit complete; all 6 improvements run in order
+- Linter upgrade (knowledge-only view) gives much cleaner signal vs prior cycles
+- 10/19 frontmatter issues resolved directly; 9 remain for delegation
+- MOP duplicate frontmatter consolidated; HITS alias should self-resolve next cycle
+- Prior cycle open items #1-#5 (carryover 2026-06-02) all closed: MOP duplicate consolidated, orphan/broken-link counts reclassified to knowledge-only
+- Next priority: frontmatter authoring delegation (9 stub files) — librarians-assistant
 - Cluster count stable at 36
-- Next priority: maximum-occupancy-principle duplicate consolidation (still not urgent)

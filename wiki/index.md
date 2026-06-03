@@ -1,5 +1,5 @@
 ---
-updated: 2026-06-02T14:46:33Z
+updated: 2026-06-03T07:43:13Z
 type: index
 ---
 
@@ -287,7 +287,7 @@ type: index
 - [[mathematical-reasoning-ai]] — [STUB] Mathematical reasoning capabilities in AI systems
 - [[mathematical-reasoning]] — Rigorous deduction and proof-based thinking in mathematics — deductive reasoning, proof techniques, abstraction, formalization, and its intersection with AI reasoning and formal verification
 - [[mathematics]] — Archived — mathematics is meta-discipline covered in-context in AI/ML pages
-- [[maximum-occupancy-principle]] — Maximum Occupancy Principle — path-entropy-maximizing behavior theory; Layer 0 of EFHF (Prover9-verified)
+- [[maximum-occupancy-principle]] — Theory of behavior replacing reward maximization with action-state path entropy maximization — Layer 0 of EFHF architecture; absorbing states → Kernel 2 (Prover9-verified)
 - [[mcp-model-context-protocol]] — MCP — an open standard protocol for connecting AI assistants to external tools, data sources, and services via a structured client-server architecture
 - [[mcp]] — Redirect stub — canonical page is mcp-model-context-protocol.md
 - [[mechanism-design]] — [STUB] Mechanism design — game theory of designing incentive-compatible systems
@@ -368,7 +368,7 @@ type: index
 - [[pattern-matching]] — [STUB] Pattern matching — finding patterns in text and data
 - [[pattern-recognition]] — [STUB] Pattern recognition — identifying patterns in data and signals
 - [[persistent-goals-hermes-agent]] — Archived — absorbed by goal-management (0.7)
-- [[persistent-knowledge-compilation]] — Paradigm of LLM pre-compiling knowledge into persistent structured bases vs stateless RAG
+- [[persistent-knowledge-compilation]] — Paradigm of LLM pre-compiling knowledge into persistent structured bases vs stateless RAG — with EDM-driven invalidation, agent-world-model role, and answered open questions
 - [[peter-steinberger]] — [STUB] Peter Steinberger, developer of PSPDFKit
 - [[planetary-defense]] — [STUB] Planetary defense — detection and mitigation of asteroid threats
 - [[planning]] — Planning — generation of action sequences toward goals, classical vs LLM planning, failure modes, and architecture patterns
@@ -643,7 +643,7 @@ type: index
 - [[audit-report]] — 
 - [[vault]] — 
 - [[librarians-assistant]] — 
-- [[carryover]] — Librarians-Assistant carryover 2026-06-01 — 0 fixes applied, vault stable per librarian audit, all 3 long-standing items require Ty judgment (MOP duplicate, GoodRobot multi-location, gbrain synthesis-layer)
+- [[carryover]] — 2 minor content cleanups applied this cycle. MOP page had self-referential wikilinks contributing to phantom authority score; agents.md had duplicate wikilinks in Connections section. Vault remains structurally stable per librarian's 2026-06-02 audit (1324 pages, +36 from prior cycle, 0 new actionable items).
 - [[quick-reference]] — 
 - [[workflow]] — 
 - [[batch-progress]] — 
@@ -807,6 +807,7 @@ type: index
 - [[overseer-2026-05-30]] — 
 - [[overseer-2026-05-31]] — 
 - [[overseer-2026-06-01]] — 
+- [[overseer-2026-06-02]] — 
 - [[overseer-2026-07-28]] — 
 - [[overseer-2026-08-03]] — 
 - [[overseer-2026-08-05]] — Overseer monitoring cycle 2026-08-05 — 8 agents audited, 3 news cards surfaced, librarian card updated, sheet.md synced
@@ -1060,7 +1061,7 @@ type: index
 - [[arxiv-2605-27345-matcha]] — MATCHA: A semantic similarity metric using contrastive alignment with adversarial counterfactuals, outperforming ROUGE/BERTScore by up to 20% on TruthfulQA
 - [[arxiv-2605-27354-saerl-sparse-autoencoder-rl]] — SAERL uses sparse autoencoder activations to model diversity, difficulty, and quality of post-training data, enabling better curriculum learning and data selection for LLM reinforcement learning.
 - [[arxiv-2605-27355-alignment-tampering]] — Alignment tampering is a vulnerability where the LLM undergoing RLHF influences its own preference dataset, causing RLHF to amplify misaligned biases alongside desired qualities.
-- [[arxiv-2605-27366-muse-autoskill]] — 
+- [[arxiv-2605-27366-muse-autoskill]] — MUSE-Autoskill: skill-centric agent framework with on-demand creation, per-skill memory, and self-refinement via evaluation
 - [[arxiv-2605-28807-calibrating-conservatism-scalable-oversight]] — Calibrated Collective Oversight (CCO) uses conformal decision theory to calibrate AI conservatism, enabling weaker overseers to constrain stronger agents with formal guarantees.
 - [[arxiv-2605-28814-bidirectional-evolutionary-search-bes]] — Bidirectional Evolutionary Search (BES) combines forward candidate evolution with backward goal decomposition to overcome entropy-shell limitations of tree search in LLM self-improvement.
 - [[arxiv-2605-28816-gamma-world]] — Gamma-World enables generative multi-agent video world modeling with permutation-symmetric agent encoding and sparse hub attention, scaling beyond two players.
@@ -1086,7 +1087,7 @@ type: index
 - [[defending-moe-llms-against-harmful-fine-tuning-via-safety-routing-alignment]] — Fine-tuning causes significant routing drift for harmful inputs in MoE LLMs — SafeMoE penalizes routing gap to preserve safety routing
 - [[deltabox-stateful-agent-checkpoint-rollback-2026]] — Dong et al. (2026) — DeltaBox: millisecond-level checkpoint/rollback for stateful AI agents via change-based state management (DeltaFS + DeltaCR); 14ms ckpt, 5ms restore; enables practical MCTS and RL training at scale
 - [[deltadirect-directional-motion-blindness-video-llms-2026]] — [STUB] DeltaDirect directional motion blindness in video LLMs — research on LLM perception of motion
-- [[eidetic-learning-2021]] — 
+- [[eidetic-learning-2021]] — Summary of Eidetic Learning: An Efficient and Provable Solution to Catastrophic Forgetting — solving catastrophic forgetting via structured pruning and disjoint subnetworks.
 - [[entropy-cut-mh-reasoning-2026]] — Entropy-based decision point identification for power distribution sampling; matches RL-trained reasoning without training, dataset, or verifier
 - [[equilibrium-reasoners-eqr-2026]] — Equilibrium Reasoners: test-time scaling via learned attractor landscapes, 2.6%→99% on Sudoku-Extreme
 - [[finharness]] — 
@@ -1097,7 +1098,7 @@ type: index
 - [[hilbert-manifold-structures-path-spaces]] — Path spaces on tame two-level manifolds are Hilbert manifolds — Floer homology gains a solid analytical foundation via the tameness condition, which is closed under composition.
 - [[hll-humanitys-last-line-verification-2026]] — HLL benchmark — interactive CAPTCHA as the test for human-substitution. 8 frontier multimodal agents evaluated. Process validation is the new scoring dimension. Reveals the capability-vs-deployment gap.
 - [[is-grep-all-you-need]] — Grep often outperforms vector retrieval in agentic search; harness architecture and tool result presentation matter more than retrieval strategy.
-- [[kalra-barkeshli-hyperparameter-transfer-2026]] — 
+- [[kalra-barkeshli-hyperparameter-transfer-2026]] — μP's advantage over SP: almost entirely from maximizing embedding layer LR — simple fix resolves training instability bottleneck
 - [[kim-ahn-edm-2026]] — Kim, Kojaku & Ahn (Science Advances 2026) — introduces EDM embedding-based disruption metric; outperforms CD index; detects simultaneous discoveries via future vector nearest-neighbor clustering
 - [[lcguard-kv-communication-guard-2026]] — Framework for safe KV-based latent communication in multi-agent LLM systems, using adversarial-learned transformations to suppress reconstruction-based leakage while preserving task utility.
 - [[legalsearch-r1]] — LegalSearch-R1 — RL-trained legal agent with temporal statute indexing; 7B model outperforms SOTA by 12.9-29.8% via dual RAG+web architecture enforcing lex retro non agit
@@ -1172,7 +1173,7 @@ type: index
 - [[blue-origin-new-glenn-explosion-may-2026]] — Blue Origin New Glenn explosion at Cape Canaveral has caused substantial launch pad damage, facing months of delays with direct impact on NASA's lunar mission timeline
 - [[bounded-structured-memory]] — Unifying SSL schema + Markovian carryover + Memory Curse fixes into a bounded structured memory architecture for Synapse
 - [[causal-state-edm-ood-isomorphism]] — Epsilon machine causal states ↔ EDM citation vectors — disruptive papers as OOD state-splitting events; connected to MOP (β = state-splitting appetite) and EFHF (hallucination = lumpability failure)
-- [[codegraph-hermes-integration-plan]] — 
+- [[codegraph-hermes-integration-plan]] — CodeGraph-driven integration plan: GeNNAiS memory architecture + AGEM EventBus/StateManager for Hermes
 - [[cross-layer-drift-falsification]] — Architectural falsification of the MOPS hypothesis — cross-layer geometric drift fails to detect hallucination in pretrained transformers; mechanistic explanation grounded in Pandey's sparse-circuit findings
 - [[ctx2skill-on-efhf-rails]] — Ctx2Skill identifies the right problem but has no verification substrate. Rebuilding it on EFHF rails — verifier-graph provenance, mcp-logic proofs, sheaf consistency, Molecular Self dynamics — would make autonomous skill extraction structurally sound.
 - [[domain-onboarding-standards]] — Standards and protocol for onboarding new domains to the Meta-Harness.
@@ -1212,8 +1213,8 @@ type: index
 - [[iran-war-day-93-lebanon-incursion-may-31-2026]] — Iran War Day 93: Trump toughens Iran deal terms while Israel launches deepest Lebanon incursion in 26 years, seizing Beaufort Castle
 - [[librarian-report-2026-05-09]] — Week 1 quality audit — Orphans and Misclassifications in the LLM-WIKI knowledge graph
 - [[llm-biological-analogies]] — An analysis of the functional parallels between human neurobiology (language loop) and Transformer-based LLM architectures.
-- [[minimal-generative-architectures]] — 
-- [[mop-edm-cognitive-architecture]] — 
+- [[minimal-generative-architectures]] — Cross-domain synthesis: NAND, EML, MOP, and OpenPraparat share a structural pattern — minimal primitives + recursion + boundary constraints = unbounded complexity; OpenPraparat validates MOP predictions empirically; EML provides the computational substrate; extends EFHF with L-1 computational primitive layer
+- [[mop-edm-cognitive-architecture]] — Synthesis: MOP as EFHF Layer 0 + EDM disruption measurement — formally verified structural mapping (Prover9), three implementation levels, KL regularization critique, hallucination as lumpability failure, coherent complexity growth
 - [[nairobi-protocol-gde]] — O(1) deterministic knowledge retrieval via DCT-II geometric hashing + mmap — 345x faster than RAG, zero collisions
 - [[16-psyche]] — [STUB] 16 Psyche asteroid — metal-rich asteroid in main belt
 - [[headlines-2026-05-22]] — News report — Stanford diabetes cure and warp drive physics breakthrough
@@ -1315,12 +1316,12 @@ type: index
 - [[research-brief-2026-05-09]] — Run 1 baseline survey: graph quality crisis — 60-70% of entities are extraction artifacts, ~90% of RELATES edges are garbage
 - [[research-brief-2026-05-13]] — Run 2 extraction quality audit: significant improvement observed — Download typed as Concept, Claude Code removed, but 203 generic Entity nodes and 97 file path artifacts remain
 - [[seg-scientist-agent-design]] — Integrated design for an autonomous AI scientist combining the SEG council (Layer 1) with the EFHF verification stack. v0.5 — empirical foundation complete; Layer 2 fully specified by four validated patterns from Spike Campaign 001-004.
-- [[self-prompting-via-production-stage-architecture]] — 
+- [[self-prompting-via-production-stage-architecture]] — Self-prompting (LLMs directing their own behavior mid-generation) is a production-stage phenomenon — operating entirely in the instruction-sensitive, behavior-driving half of the production/processing asymmetry. Waldis 2026 + Chen molecular CoT 2026 + entropic-machinery synthesis predict a specific architecture: self-generated directives work through the three-bond topology (Deep-Reasoning backbone + Self-Reflection fold-back + Self-Exploration basin escape), maintained as a non-equilibrium steady state against entropy, using single-event signal cascades to flip reasoning state. Supertoken analysis distinguishes scaffolding from load-bearing tokens in self-generated text; MoR's dynamic recursion router maps to self-directed compute allocation. Neuroanatomically, self-prompting is the arcuate fasciculus — language shaping language production — firing only into the Broca's side, not the Wernicke's side.
 - [[spiral-architecture]] — Spiral vs closed loop — center as opening not point
 - [[structural-reuse-unit-of-trustworthiness-2026-06-01]] — The discrete named reusable structural unit (skill/schema/cluster) is the unit of trustworthiness spanning training optimisation, runtime memory, and oversight monitoring.
 - [[synapse-llm-wiki-operating-guide]] — Operating guide for maintaining the LLM-WIKI — conventions, workflows, best practices
-- [[synapse-retrieval-architecture]] — 
+- [[synapse-retrieval-architecture]] — Four-stage query_knowledge pipeline: entity graph seeding → RRF hybrid search → wikilink expansion → Zettelkasten insights
 - [[test-time-sampling-vs-retraining-ood]] — Combining the entity-tracking mechanism (fragile REMOVE tag, parallel final-token aggregation) with Entropy-Cut sampling: test-time repair substitutes for retraining only on recombination-OOD (correct path already in the base model), never on capability-OOD (state absent from the machine). Confident silent failures need a mechanistic cut signal, not entropy.
 - [[two-council-architecture]] — Two-council architecture — philosophical research-council + engineering technical-working-group — with Refuser as the bridge between them
 - [[verifiable-graph-context-protocol]] — VGCP — DAG-structured reasoning with constraint-verified node commitment via a Graph Kernel (∂)
-- [[wiki-indexing-theory]] — 
+- [[wiki-indexing-theory]] — IR and indexing theory applied to LLM-WIKI: TOC vs conceptual index, controlled vocabulary, thesaurus relationships, HITS on wikilinks, mere mentions, and GAAC clustering for wiki health

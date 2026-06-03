@@ -146,6 +146,25 @@ cd ~/Documents/LLM-WIKI && for f in wiki/synthesis/insights/*.md; do
 done
 ```
 
+### 5b. Invalid YAML Frontmatter (HIGH PRIORITY — breaks Obsidian)
+**Detection:** `wiki_lint()` reports an **Invalid frontmatter** count with per-page YAML errors. These parse-fail, so Obsidian silently drops the page's properties and any `[[wikilinks]]` inside frontmatter break. Fix these FIRST.
+**Authoritative syntax reference:** the **obsidian-markdown skill** at `wiki/scratchpad/agent-sheets/librarian/obsidian-skills/obsidian-markdown/SKILL.md` (and its `references/PROPERTIES.md`).
+**The three causes seen in this vault and their fixes:**
+- **Unquoted colon or em-dash in a value** (`mapping values are not allowed here`): quote the whole value.
+  - `summary: Theory of X: the Y mechanism` → `summary: "Theory of X: the Y mechanism"`
+- **Inline `[[wikilink]]` array** (`while scanning a simple key` / `block mapping`): convert to a block list of quoted items.
+  ```yaml
+  # WRONG (invalid YAML, breaks links):
+  sources: [], [[page-a]], [[page-b]]
+  # RIGHT:
+  sources:
+    - "[[page-a]]"
+    - "[[page-b]]"
+  ```
+- **Bare reserved word** (`found undefined alias`): quote it. `status: Archived` → `status: "Archived"`.
+**Verify after fixing:** the frontmatter must parse as valid YAML. Read the file back and confirm `wiki_lint` no longer lists it.
+**Fix via:** `wiki_read_page` → correct the frontmatter → `wiki_write_page`. Do NOT use the old inline-array pattern shown elsewhere in this sheet.
+
 ### 6. Tag Normalization
 **Detection:** Pages with non-standard tags, compound-tag arrays (`[['news', 'geopolitics', ...]]`), or inconsistent tag formatting.
 **Fix:** Normalize tags to single-level strings in the frontmatter `tags` array.

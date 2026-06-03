@@ -1,91 +1,70 @@
 ---
-summary: Librarian carryover 2026-06-03 — 1326 pages, linter upgraded to knowledge-only view, 10 frontmatter files fixed directly, MOP duplicate consolidated, 9 stub frontmatter items delegated
+summary: Librarian carryover 2026-06-03 cycle 2 — vault stable at 1337 pages, 0 tag violations, 9 missing-frontmatter files still require delegation, MOP consolidation held
 tags: [librarian, carryover, wiki-audit, daily, 2026-06-03]
-updated: 2026-06-03T07:40:00Z
+updated: 2026-06-03T09:50:00Z
 ---
 
-# Librarian Carryover — 2026-06-03
+# Librarian Carryover — 2026-06-03 (Cycle 2)
 
 ## Kanban Status
-- [x] Audit complete: 2026-06-03 07:38 UTC
-- [x] MCP tools: REACHABLE this cycle ✓
+- [x] Audit complete: 2026-06-03 09:50 UTC
+- [x] MCP tools: REACHABLE ✓
 - [x] wiki_lint + wiki_hits_analysis + wiki_cluster_pages ran successfully
-- [x] Linter upgraded: knowledge-only view excludes 247 operational files (orphan/broken-link counts now meaningful)
-- [x] 10 frontmatter files fixed directly (delimiters added)
-- [x] MOP duplicate frontmatter consolidated (HITS analyzer should reflect next cycle)
-- [x] Zero tag taxonomy violations confirmed
-- [x] Wiki index rebuilt (1320 pages)
-- [x] Synapse episodic memory updated (fact_id: tfact_7f0b34cfce191a3e)
+- [x] Vault state stable vs prior cycle — no new issues, no regressions
+- [x] 0 non-preferred tag violations confirmed (12 USE references clean)
+- [x] MOP duplicate-frontmatter fix held (single YAML block)
+- [x] Prior 10 frontmatter delimiter fixes all held
+- [x] Synapse episodic memory updated
 
 ## Established
 
-### Vault Stats (2026-06-03)
-- **Total wiki pages: 1326 (↑ +2 vs 1324 prior cycle)**
-- Orphans: **65** (knowledge-only; down from 136 which was all operational) — newly-ingested arxiv papers, news clippings, insights, entity pages from 2026-05-28 to 2026-06-02
-- Broken links: **513** (knowledge-only, all scratchpad/* refs in body text; down from 5865)
-- Missing frontmatter: **9** (down from 19 — 10 fixed directly this cycle)
-- Non-reciprocal links: **408** (body-text-only false positives; not actionable)
+### Vault Stats (2026-06-03 09:50 UTC)
+- **Total wiki pages: 1337** (1079 knowledge, 258 operational excluded)
+- Orphans: **65** (stable, all knowledge nodes from 2026-05-28 to 2026-06-02 ingestion)
+- Broken links: **513** (all `scratchpad/*` operational refs — non-actionable per skill)
+- Missing frontmatter: **9** (same as last cycle — need content authoring, not linter fix)
+- Non-reciprocal: **408** (body-text-only, high false-positive)
+- Non-preferred tags: **0** ✅
 - GAAC clusters: **36** (stable)
 
-### Frontmatter Files Fixed (10)
-- `wiki/concepts/agent-architectures.md` (referenced from `concepts/agents.md`)
-- `wiki/sources/papers/arxiv-2605-27366-muse-autoskill.md`
-- `wiki/sources/papers/eidetic-learning-2021.md`
-- `wiki/sources/papers/kalra-barkeshli-hyperparameter-transfer-2026.md`
-- `wiki/synthesis/codegraph-hermes-integration-plan.md`
-- `wiki/synthesis/minimal-generative-architectures.md`
-- `wiki/synthesis/mop-edm-cognitive-architecture.md`
-- `wiki/synthesis/self-prompting-via-production-stage-architecture.md`
-- `wiki/synthesis/synapse-retrieval-architecture.md`
-- `wiki/synthesis/wiki-indexing-theory.md` (librarian's own operating theory)
-
-### MOP Duplicate Consolidated
-- `wiki/concepts/maximum-occupancy-principle.md` had two stacked YAML blocks. Kept complete one with updated date. HITS analyzer may take a cycle to reflect.
-
-### HITS Authority Top 5 (2026-06-03)
-1. [[wiki/index]] — 0.0770
-2. [[log]] — 0.0541
-3. [[maximum-occupancy-principle]] — 0.0151
-4. [[concepts/maximum-occupancy-principle]] — 0.0125 (alias, on-disk consolidated)
-5. [[efhf]] — 0.0057
+### HITS Authority Top 5 (stable)
+1. [[wiki/index]] — 0.0659
+2. [[log]] — 0.0464
+3. [[maximum-occupancy-principle]] — 0.0135
+4. [[concepts/maximum-occupancy-principle]] — 0.0109 (alias)
+5. [[efhf]] — 0.0055
 
 ### HITS Hub Top 5
-1. [[maximum-occupancy-principle]] — 0.0027
-2. [[efhf]] — 0.0024
-3. [[concept-index]] — 0.0021
-4. [[load-bearing-reasoning]] — 0.0019
-5. [[edm-framework]] / [[alphaevolve]] / [[world-model]] / [[chain-of-thought]] — 0.0018 (tied)
+1. [[lint-2026-06-03]] — 0.0038 (audit hub)
+2. [[maximum-occupancy-principle]] — 0.0028
+3. [[efhf]] — 0.0025
+4. [[concept-index]] — 0.0022
+5. [[load-bearing-reasoning]] — 0.0019
 
-### Tag Taxonomy Compliance
-- Zero violations across the entire wiki
-- All 12 USE references confirmed clean
+## What Remains
 
-## Open
+- [ ] **9 missing-frontmatter files** — delegate to librarians-assistant for YAML authoring:
+  - `wiki/research/mop-agents-integration.md` (research plan)
+  - `wiki/research/projects/goodrobot/Q2_SALES_TARGET_LIST.md` (operational)
+  - `wiki/research/projects/goodrobot/STRATEGIC_BRIEF.md` (operational)
+  - `wiki/synthesis/_index/structural-reuse-crosslink-survey-2026-06-01.md` (report)
+  - `wiki/synthesis/news/2026-May/headlines-2026-05-23.md` (news)
+  - `wiki/synthesis/news/2026-May/headlines-2026-05-24.md` (news)
+  - `wiki/synthesis/news/2026-May/headlines-2026-05-25.md` (news)
+  - `wiki/synthesis/news/2026-May/headlines-2026-05-28.md` (news)
+  - `wiki/synthesis/news/2026-May/news-2026-05-21-headlines.md` (news)
 
-1. **9 stub frontmatter files** — delegate to librarians-assistant (no YAML body exists; needs authoring with summary/tags/type/status):
-   - `wiki/research/mop-agents-integration.md` (research plan)
-   - `wiki/research/projects/goodrobot/Q2_SALES_TARGET_LIST.md` (operational)
-   - `wiki/research/projects/goodrobot/STRATEGIC_BRIEF.md` (operational)
-   - `wiki/synthesis/_index/structural-reuse-crosslink-survey-2026-06-01.md` (report)
-   - `wiki/synthesis/news/2026-May/headlines-2026-05-23.md` (news)
-   - `wiki/synthesis/news/2026-May/headlines-2026-05-24.md` (news)
-   - `wiki/synthesis/news/2026-May/headlines-2026-05-25.md` (news)
-   - `wiki/synthesis/news/2026-May/headlines-2026-05-28.md` (news)
-   - `wiki/synthesis/news/2026-May/news-2026-05-21-headlines.md` (news)
+- [ ] **65 knowledge orphans** — re-verify next cycle (self-resolve via ingestion flow)
 
-2. **65 knowledge orphans** — newly-created arxiv/news/insight/entity pages. Per skill pitfalls, will get linked via natural ingestion flow in 1-2 cycles. Not actionable today.
+- [ ] **GAAC Cluster 0 deep-dive** — extract genuine knowledge-page pairs needing links (skip all-cluster inflated false positives)
 
-3. **513 broken links** — all operational path artifacts in knowledge body text. Not actionable.
-
-4. **408 non-reciprocal links** — body-text-only detection. High false-positive rate. Not actionable.
-
-5. **Cluster missing links** — 1724+ pairs in Cluster 0 alone, all high false-positive. Per skill pitfalls, not actionable.
+## Flagged for Ty
+- News headlines frontmatter policy (5 of 9 missing-frontmatter files)
+- goodrobot/ operational files in research/ — should linter exclude?
 
 ## Heading
-- Audit complete; all 6 improvements run in order
-- Linter upgrade (knowledge-only view) gives much cleaner signal vs prior cycles
-- 10/19 frontmatter issues resolved directly; 9 remain for delegation
-- MOP duplicate frontmatter consolidated; HITS alias should self-resolve next cycle
-- Prior cycle open items #1-#5 (carryover 2026-06-02) all closed: MOP duplicate consolidated, orphan/broken-link counts reclassified to knowledge-only
-- Next priority: frontmatter authoring delegation (9 stub files) — librarians-assistant
-- Cluster count stable at 36
+- Vault health: **8.5/10** (stable, no actions required)
+- Audit report: `wiki/scratchpad/jobs/reports/librarian/audit-2026-06-03.md`
+- Next cycle: re-verify orphan count self-resolved; re-evaluate missing-frontmatter after delegation
+- HITS authority top-3 stable 2 cycles running — vault graph topology is healthy
+- Cluster 0 (reasoning/cognitive) is the only cluster worth genuine remediation focus

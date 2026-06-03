@@ -3244,3 +3244,7 @@ Index updated with 1319 pages
 ## [2026-06-03 07:43] index
 
 Index updated with 1320 pages
+
+## [2026-06-03 08:19] lint
+
+1337 pages · 65 orphans · 513 broken · 9 missing-fm · report: audits/lint-2026-06-03.md

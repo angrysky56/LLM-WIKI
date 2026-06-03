@@ -104,10 +104,30 @@ Check every page for required frontmatter fields:
 - Missing `summary` → flag for completion
 - Missing `type` → flag for classification (entity/concept/synthesis/source)
 
+### Improvement 7 — Frontmatter Validity (HIGH PRIORITY)
+
+`wiki_lint` reports an **Invalid frontmatter** count — pages whose YAML does not
+parse. These are worse than missing frontmatter: Obsidian silently fails to read
+the properties and any `[[wikilinks]]` in them break. Fix these FIRST, directly,
+per the syntax rules in "Fix What You Can Directly" below and the obsidian-markdown
+skill. Common causes seen in this vault: unquoted colons/em-dashes in `summary`,
+inline `sources: [], [[x]]` arrays, bare `status: Archived`.
+
 ## Fix What You Can Directly
 
 - Relinking (reciprocal link fix)
 - Frontmatter corrections (missing fields, stale dates)
+- **Invalid YAML frontmatter** (the `wiki_lint` "Invalid frontmatter" category) — these break Obsidian's property parser and any wikilinks living in frontmatter, so fix them first. See the **obsidian-markdown skill** (`obsidian-skills/obsidian-markdown/SKILL.md`, and its `references/PROPERTIES.md`) for correct syntax. The rules that matter:
+  - **Quote any scalar value containing a colon, em-dash (—), or `[[wikilink]]`.** e.g. `summary: "Theory of X: the Y mechanism"`, not `summary: Theory of X: the Y mechanism`.
+  - **Write multi-value fields as a YAML block list of quoted items, never an inline `[a, b]` array** — especially when values are wikilinks:
+    ```yaml
+    sources:
+      - "[[page-a]]"
+      - "[[page-b|Display Text]]"
+    ```
+    NOT `sources: [], [[page-a]], [[page-b]]` (invalid YAML — breaks the field and the links).
+  - **Bare reserved words must be quoted**: `status: "Archived"`, not `status: Archived`.
+  - After editing, the value must parse as valid YAML. If unsure, the obsidian-markdown skill's PROPERTIES reference has worked examples.
 - Tag normalization (per tag-taxonomy.md USE references)
 - Stub page creation for genuine missing topics
 

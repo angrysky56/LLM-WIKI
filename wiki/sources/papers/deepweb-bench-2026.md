@@ -5,7 +5,7 @@ updated: 2026-05-21T16:51:00Z
 type: source
 summary: "DeepWeb-Bench: deep research benchmark where derivation/calibration failures (70%+) dominate over retrieval failures (12-14%); cross-model agreement rho=0.61"
 tags: [paper, benchmark, deep-research, agentic-AI, evaluation, cs-AI]
-sources: https://arxiv.org/abs/2605.21482
+sources: [https://arxiv.org/abs/2605.21482]
 status: active
 confidence: high
 ---

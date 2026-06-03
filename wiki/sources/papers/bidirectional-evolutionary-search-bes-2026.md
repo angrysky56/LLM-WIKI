@@ -5,7 +5,7 @@ updated: 2026-05-28T00:00:00Z
 type: source
 summary: "BES: Bidirectional Evolutionary Search — couples forward candidate evolution (recombination operators) with backward goal decomposition (dense sub-goal verification) — escapes entropy shell limitation of expansion-only search."
 tags: [evolutionary-search, self-improvement, LLM-reasoning, search-algorithms, post-training]
-sources: https://arxiv.org/abs/2605.28814
+sources: [https://arxiv.org/abs/2605.28814]
 status: active
 confidence: high
 ---

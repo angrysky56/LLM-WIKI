@@ -5,7 +5,7 @@ updated: 2026-05-28
 type: source
 summary: "GitHub search results for Hermes Agent LCM plugin slash commands — references Hermes Agent configuration, skill creation, and slash command extensibility"
 tags: [github, hermes-agent, search, repositories, slash-commands, lcm-plugin]
-sources: https://github.com/search?q=Hermes+Agent+LCM+plugin+slash+commands
+sources: [https://github.com/search?q=Hermes+Agent+LCM+plugin+slash+commands]
 status: active
 confidence: 0.6
 ---

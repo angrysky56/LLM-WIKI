@@ -5,7 +5,7 @@ updated: 2026-05-31T00:00:00Z
 type: synthesis
 summary: "Iran War Day 93: Trump toughens deal terms, won't rush. Israeli ground forces cross Litani River in deepest Lebanon incursion in 26 years, seizing Beaufort Castle. US-Iran deal remains in limbo."
 tags: [synthesis, geopolitics, middle-east, iran, lebanon, israel, us-policy]
-sources: https://www.aljazeera.com/news/2026/5/31/iran-war-day-93-trump-wont-rush-deal-israel-expands-lebanon-invasion
+sources: [https://www.aljazeera.com/news/2026/5/31/iran-war-day-93-trump-wont-rush-deal-israel-expands-lebanon-invasion]
 status: active
 confidence: 0.9
 ---

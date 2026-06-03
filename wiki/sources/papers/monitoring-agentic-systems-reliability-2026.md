@@ -5,7 +5,7 @@ updated: 2026-06-02T00:00:00Z
 type: source
 summary: "Maturity-staged agent monitoring — 3x3 scope×dimension grid (within-run, cross-run, structural) × (quality, suitability, efficiency) using variance (CV) as the characterization signal. Triage routes 97% to automated tracking; 2% to humans. Stage 1 finding: structural diagnosis must precede error detection."
 tags: [arxiv-2026, agent-monitoring, agentic-systems, FMEA, evaluation-methodology, structural-failure, reliability]
-sources: https://arxiv.org/abs/2606.02494
+sources: [https://arxiv.org/abs/2606.02494]
 status: active
 confidence: 0.9
 ---

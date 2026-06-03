@@ -5,7 +5,7 @@ updated: 2026-05-28T00:00:00Z
 type: source
 summary: "CCO: Calibrated Collective Oversight — aggregates diverse overseer signals into a conservatism penalty, calibrated online via Conformal Decision Theory to control undesirable outcome rates with finite-time guarantees."
 tags: [scalable-oversight, agentic-safety, conformal-decision-theory, control-theory, multi-agent]
-sources: https://arxiv.org/abs/2605.28807
+sources: [https://arxiv.org/abs/2605.28807]
 status: active
 confidence: high
 ---

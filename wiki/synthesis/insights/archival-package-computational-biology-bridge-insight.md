@@ -8,6 +8,7 @@ confidence: 0.85
 zettel_id: insight_87315669
 summary: "The 'archival package' concept bridges computational artifact management and biological neural network research — a structural taxonomic coupling where data preservation practices and neuroscience reproducibility co-occur systematically across 179 entities"
 tags: [insights, zettelkasten, neuroscience, computational-biology, data-preservation, archival-package, reproducibility]
+sources: []
 ---
 
 # "Archival Package" Bridges Computational and Biological Domains

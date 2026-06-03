@@ -1,8 +1,3 @@
----
-summary: MOP paper (Ramírez-Ruiz et al. 2024) — replaces reward maximization with path entropy maximization. Layer 0 of EFHF architecture.
-tags: [mop, entropy, intrinsic-motivation, paper, efhf, kernel-2, reinforcement-learning, absorbing-states, stochastic-policy, lumpability]
-updated: 2026-06-03T20:25:40Z
----
 
 ---
 created: 2026-05-22

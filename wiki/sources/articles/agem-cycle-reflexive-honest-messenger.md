@@ -5,7 +5,7 @@ updated: 2026-05-29
 type: source
 summary: "Hall extends the Honest Messenger Paradox to AI alignment: RLHF produces weak lumpability (alignment that fails under distributional shift) rather than strong lumpability. Military AI case study included."
 tags: [ai-alignment, rlhf, honest-messenger-paradox, lumpability, efhf, paraclete-protocol, agem]
-sources: http://localhost:5173/
+sources: [http://localhost:5173/]
 status: active
 confidence: 0.9
 ---

@@ -1,11 +1,13 @@
 
 ---
-summary: ECDC data shows gonorrhoea cases surged 303% since 2015 (106,331) and syphilis more than doubled (45,557), with congenital syphilis cases nearly doubling — straining European public health systems
-tags: [news, health, europe, sti, public-health, epidemic]
-confidence: high
-status: active
 created: 2026-05-21
+updated: 2026-05-21
 type: source
+summary: "ECDC data shows gonorrhoea cases surged 303% since 2015 (106,331) and syphilis more than doubled (45,557), with congenital syphilis cases nearly doubling — straining European public health systems"
+tags: [news, health, europe, sti, public-health, epidemic]
+sources: [https://www.bbc.com/news/articles/cm2pj07dr7lo]
+status: active
+confidence: 0.9
 ---
 
 # Gonorrhoea and Syphilis Hit Record Levels in Europe
@@ -35,7 +37,3 @@ European Centre for Disease Prevention and Control (ECDC) data reveals record le
 - [[wiki/index]]
 
 - [[sti-record-levels-europe-2026-05-21]]
-
-## Tags
-
-#health #europe #sti #epidemic #public-health

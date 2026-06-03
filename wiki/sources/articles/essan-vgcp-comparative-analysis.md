@@ -4,8 +4,8 @@ created: 2026-05-21
 updated: 2026-05-30
 type: source
 summary: "Essan vs VGCP: Essan contributes symbolic feedback notation; VGCP contributes architectural impossibility of error classes; complementary, not redundant"
-tags: [essan,vgcp,reasoning-traceability,agent-memory,symbolic-notation,dag-verification]
-sources: 
+tags: [essan, vgcp, reasoning-traceability, agent-memory, symbolic-notation, dag-verification]
+sources: []
 status: active
 confidence: 0.88
 ---

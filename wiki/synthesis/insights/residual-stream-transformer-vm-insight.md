@@ -5,6 +5,7 @@ updated: 2026-06-01
 type: synthesis
 summary: "Residual stream + attention/FFN + learned weights form an executable view of transformer computation — modifiable state with reusable routines"
 tags: [insights, zettelkasten, transformer-architecture, residual-stream, mechanistic-interpretability, attention, ffn]
+sources: []
 status: active
 confidence: 0.85
 zettel_id: insight_531001ee

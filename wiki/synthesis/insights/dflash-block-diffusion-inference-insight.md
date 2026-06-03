@@ -5,6 +5,7 @@ updated: 2026-06-01
 type: synthesis
 summary: "DFlash block diffusion drafting displaces iterative autoregressive speculative decoding with 6x speedup and 2.5x EAGLE-3 acceptance rates"
 tags: [insights, zettelkasten, llm-inference, speculative-decoding, dflash, block-diffusion, acceleration]
+sources: []
 status: active
 confidence: 0.82
 zettel_id: insight_44e5cc3d

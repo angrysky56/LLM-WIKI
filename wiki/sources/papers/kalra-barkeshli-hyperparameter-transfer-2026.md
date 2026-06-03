@@ -1,13 +1,11 @@
 
 ---
-
----
 created: 2026-05-21T16:52:00Z
 updated: 2026-05-21T16:52:00Z
 type: source
 summary: "μP's advantage over standard parameterization (SP) for hyperparameter transfer is almost entirely from maximizing embedding layer learning rate — the embedding LR is a bottleneck in SP that induces training instabilities"
 tags: [paper, hyperparameter-transfer, LLM-training, embedding-LR, scaling-laws, cs-LG]
-sources: https://arxiv.org/abs/2605.21486
+sources: [https://arxiv.org/abs/2605.21486]
 status: active
 confidence: high
 ---

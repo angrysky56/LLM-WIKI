@@ -5,7 +5,7 @@ updated: 2026-05-28
 type: source
 summary: "Official Hermes Agent documentation — install, configure, skills system, MCP, profiles, cron, delegation, kanban"
 tags: [hermes-agent, documentation, install, skills, mcp, profiles, cron, delegation]
-sources: https://hermes-agent.nousresearch.com/docs
+sources: [https://hermes-agent.nousresearch.com/docs]
 status: active
 confidence: 0.9
 ---

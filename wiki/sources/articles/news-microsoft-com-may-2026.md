@@ -5,7 +5,7 @@ updated: 2026-05-28
 type: source
 summary: "News.microsoft.com homepage — featured: AI pilots to enterprise impact, frontier firms operating model, sovereign private cloud, Microsoft-OpenAI partnership"
 tags: [microsoft, news, blog, ai, openai, sovereign-cloud, frontier-firms]
-sources: https://news.microsoft.com/
+sources: [https://news.microsoft.com/]
 status: active
 confidence: 0.8
 ---

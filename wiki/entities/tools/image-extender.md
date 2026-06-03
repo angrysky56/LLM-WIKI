@@ -1,8 +1,3 @@
----
-summary: image-extender — Next.js web app for AI outpainting + 4 game-art studios. 263★, MIT, BYOK.
-tags: [image-extender, tools, image, ai, open-source, game-art, gemini, outpainting, nextjs]
-updated: 2026-06-03T20:25:41Z
----
 
 ---
 created: 2026-06-01

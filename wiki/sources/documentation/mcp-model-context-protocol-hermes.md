@@ -5,7 +5,7 @@ updated: 2026-05-28
 type: source
 summary: "Official MCP documentation — connect Hermes to external tool servers (stdio/HTTP), per-server tool filtering, resource/prompt support, quickstart guide"
 tags: [mcp, model-context-protocol, hermes-agent, tools, integration, stdio, http]
-sources: https://hermes-agent.nousresearch.com/docs/user-guide/features/mcp
+sources: [https://hermes-agent.nousresearch.com/docs/user-guide/features/mcp]
 status: active
 confidence: 0.9
 ---

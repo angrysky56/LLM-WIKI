@@ -5,7 +5,7 @@ updated: 2026-05-28T00:00:00Z
 type: source
 summary: "Gamma-World: Multi-agent video world model using Simplex Rotary Agent Encoding (permutation-symmetric, parameter-free) + Sparse Hub Attention (linear cross-agent cost) — enables real-time 24-FPS multi-player simulation."
 tags: [world-models, multi-agent, video-generation, permutation-symmetry, nvidea]
-sources: https://arxiv.org/abs/2605.28816
+sources: [https://arxiv.org/abs/2605.28816]
 status: active
 confidence: high
 ---

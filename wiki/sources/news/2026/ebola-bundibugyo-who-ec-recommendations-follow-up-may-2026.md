@@ -5,7 +5,7 @@ updated: 2026-05-29T00:00:00Z
 type: source
 summary: "WHO IHR EC temporary recommendations (May 22) follow-up: case count update to 1,011+ cases/233+ deaths; new geographic expansion to Sud-Kivu; 2nd ETC attack Mongbwalu May 23 (18 patients fled); American surgeon evacuated to Germany; Italy 2 suspected cases; thermostable vaccine status unclear; South Sudan silent; May 29/30 attack window unconfirmed."
 tags: ['Ebola', 'DRC', 'Uganda', 'WHO', 'PHEIC', 'public-health', 'Bundibugyo', 'IHR', 'global-health']
-sources: https://www.cdc.gov/ebola/situation-summary/index.html, https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON603
+sources: [https://www.cdc.gov/ebola/situation-summary/index.html, https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON603]
 status: active
 confidence: 0.9
 ---

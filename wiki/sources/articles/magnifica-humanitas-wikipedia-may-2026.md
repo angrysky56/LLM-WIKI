@@ -5,7 +5,7 @@ updated: 2026-05-28
 type: source
 summary: "Wikipedia article on Magnifica Humanitas encyclical by Pope Leo XIV — AI ethics, human dignity, international governance, May 2026"
 tags: [pope-leo-xiv, magnifica-humanitas, encyclical, wikipedia, ai-governance, human-dignity]
-sources: https://en.wikipedia.org/wiki/Magnifica_humanitas
+sources: [https://en.wikipedia.org/wiki/Magnifica_humanitas]
 status: active
 confidence: 0.9
 ---

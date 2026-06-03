@@ -4,8 +4,8 @@ created: 2026-05-24
 updated: 2026-05-30
 type: source
 summary: "Philosophical critique of OrCAID/Meta-Harness/Paper2Code: behaviorist vs representationalist vs translationist epistemologies are irreconcilable without a translation layer"
-tags: [philosophical-critique,orcaid,meta-harness,paper2code,epistemology,knowledge-theory]
-sources: 
+tags: [philosophical-critique, orcaid, meta-harness, paper2code, epistemology, knowledge-theory]
+sources: []
 status: active
 confidence: 0.83
 ---

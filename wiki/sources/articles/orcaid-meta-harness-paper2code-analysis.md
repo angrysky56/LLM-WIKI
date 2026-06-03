@@ -4,8 +4,8 @@ created: 2026-05-24
 updated: 2026-05-30
 type: source
 summary: "OrCAID+Meta-Harness+Paper2Code form a closed-loop meta-optimization architecture; novel capability: self-evolving verification strategy selection"
-tags: [orcaid,meta-harness,paper2code,integration,closed-loop,meta-optimization]
-sources: 
+tags: [orcaid, meta-harness, paper2code, integration, closed-loop, meta-optimization]
+sources: []
 status: active
 confidence: 0.83
 ---
@@ -53,5 +53,5 @@ confidence: 0.83
 
 ## Connections
 
-- [[formal-pipeline-analysis]] — Formal analysis of the same three systems; confidence0.47 due to semantic gap
+- [[formal-pipeline-analysis]] — Formal analysis of the same three systems; confidence 0.47 due to semantic gap
 - [[philosophical-deconstruction]] — Philosophical critique; conflicts in epistemology, verification standards, learning models

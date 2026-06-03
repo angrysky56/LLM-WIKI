@@ -1,11 +1,14 @@
 
 ---
-title: "A critical initialization for biological neural networks"
-source: https://www.nature.com/articles/s41586-026-10528-1
 created: 2026-05-24
+updated: 2026-06-03
 type: source
-tags: [neuroscience, initialization, criticality, symmetric-matrix, working-memory, power-law]
+title: "A critical initialization for biological neural networks"
 summary: "Brain spontaneous activity follows dynamics from a critically normalized random symmetric matrix (spectral radius ≈ 1), producing a power-law variance spectrum (exponent ~2/3) that matches cortical and brainwide recordings (observed: 0.7–0.85). CA1 hippocampus is an exception, optimized for information storage over long-timescale coordination."
+tags: [neuroscience, initialization, criticality, symmetric-matrix, working-memory, power-law]
+sources: [https://www.nature.com/articles/s41586-026-10528-1]
+status: active
+confidence: 0.85
 ---
 
 ## Paper Metadata

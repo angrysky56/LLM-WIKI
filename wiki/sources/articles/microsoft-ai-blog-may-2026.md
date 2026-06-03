@@ -5,7 +5,7 @@ updated: 2026-05-28
 type: source
 summary: "Microsoft AI blog aggregator featuring accessibility-focused AI, aged care automation, dairy cooperative AI agents, manufacturing AI, and Porsche crash analysis"
 tags: [microsoft, ai, blog, accessibility, manufacturing, aged-care]
-sources: https://blogs.microsoft.com/ai/
+sources: [https://blogs.microsoft.com/ai/]
 status: active
 confidence: 0.9
 ---

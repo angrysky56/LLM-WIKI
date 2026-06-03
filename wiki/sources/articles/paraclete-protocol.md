@@ -4,8 +4,8 @@ created: 2025-10-11
 updated: 2026-05-30
 type: source
 summary: "Paraclete Protocol: AI as moral instrument via theological analogy; ethical accountability lies with creators/users, not the AI itself"
-tags: [paraclete,ethical-ai,philosophical,theological-analogy,ai-safety,agent-framework]
-sources: 
+tags: [paraclete, ethical-ai, philosophical, theological-analogy, ai-safety, agent-framework]
+sources: []
 status: active
 confidence: 0.75
 ---

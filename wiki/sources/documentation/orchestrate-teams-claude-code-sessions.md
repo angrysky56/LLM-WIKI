@@ -5,7 +5,7 @@ updated: 2026-05-29
 type: source
 summary: "Claude Code experimental agent teams feature: multiple Claude instances coordinated by a lead, with shared task lists, direct inter-agent messaging, and independent context windows."
 tags: [claude-code, agent-teams, orchestration, multi-agent, documentation]
-sources: https://code.claude.com/docs/en/agent-teams
+sources: [https://code.claude.com/docs/en/agent-teams]
 status: active
 confidence: 1.0
 ---

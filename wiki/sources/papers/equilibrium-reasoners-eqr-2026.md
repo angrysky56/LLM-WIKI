@@ -5,7 +5,7 @@ updated: 2026-05-21T16:50:00Z
 type: source
 summary: "Equilibrium Reasoners (EqR): iterative latent reasoning via learned attractor landscapes — test-time compute scaling without verifiers, 2.6%→99% on Sudoku-Extreme"
 tags: [paper, reasoning, test-time-compute, attractors, latent-dynamics, cs-LG]
-sources: https://arxiv.org/abs/2605.21488
+sources: [https://arxiv.org/abs/2605.21488]
 status: active
 confidence: high
 ---

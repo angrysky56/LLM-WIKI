@@ -5,7 +5,7 @@ updated: 2026-05-28
 type: source
 summary: "OpenAI's response to Pope Leo XIV's Magnifica Humanitas encyclical — Bing search results capturing OpenAI's public positioning on AI ethics and Vatican engagement"
 tags: [openai, pope-leo-xiv, magnifica-humanitas, bing, search, ai-ethics]
-sources: https://www.bing.com/search?q=OpenAI+Pope+Leo+XIV+Magnifica+humanitas+encyclical
+sources: [https://www.bing.com/search?q=OpenAI+Pope+Leo+XIV+Magnifica+humanitas+encyclical]
 status: active
 confidence: 0.6
 ---

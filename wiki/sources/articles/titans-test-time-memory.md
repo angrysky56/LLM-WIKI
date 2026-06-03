@@ -5,7 +5,7 @@ updated: 2026-05-06T20:08:19Z
 type: source
 summary: Google Research paper introducing Titans, an architecture that combines attention with a neural long-term memory module that learns to memorize at test time.
 tags: [llm, memory, long-context, titans, neural-memory, machine-learning]
-sources: https://www.alphaxiv.org/overview/2501.00663
+sources: [https://www.alphaxiv.org/overview/2501.00663]
 status: active
 confidence: 1.0
 ---

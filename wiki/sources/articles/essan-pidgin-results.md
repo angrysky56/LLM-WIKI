@@ -4,8 +4,8 @@ created: 2026-05-22
 updated: 2026-05-30
 type: source
 summary: "Blind Essan pidgin communication: 0% decode accuracy across 20 trials; symbols encode structural roles but lack semantic bindings"
-tags: [essan,pidgin,communication,blind-decoding,hallucination,vector-symbolic]
-sources: 
+tags: [essan, pidgin, communication, blind-decoding, hallucination, vector-symbolic]
+sources: []
 status: active
 confidence: 0.85
 ---
@@ -48,7 +48,7 @@ confidence: 0.85
 
 ## Conclusion
 
-Pure symbol-based pidgin Essan achieves0% decode accuracy in blind conditions. The vocabulary encodes structural reasoning roles but **lacks semantic bindings**. To improve decode accuracy: bind specific concept labels to symbols rather than using bare symbols.
+Pure symbol-based pidgin Essan achieves 0% decode accuracy in blind conditions. The vocabulary encodes structural reasoning roles but **lacks semantic bindings**. To improve decode accuracy: bind specific concept labels to symbols rather than using bare symbols.
 
 ## Connections
 

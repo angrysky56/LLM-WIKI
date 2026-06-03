@@ -1,11 +1,14 @@
 
 ---
----
-title: "Eidetic Learning: An Efficient and Provable Solution to Catastrophic Forgetting"
+created: 2026-04-28
+updated: 2026-06-03
 type: source
-status: ingested
+title: "Eidetic Learning: An Efficient and Provable Solution to Catastrophic Forgetting"
+summary: "EideticNets use structured pruning to allocate dedicated subnetworks per task, providing provable guarantees that performance on prior tasks is never altered. Compatible with linear, convolutional, batch-norm, residual, and recurrent layers."
 tags: [catastrophic-forgetting, continual-learning, pruning, subnetworks, deep-learning, machine-learning]
-source: "https://arxiv.org/abs/2106.01257"
+sources: [https://arxiv.org/abs/2106.01257]
+status: active
+confidence: 0.9
 ---
 
 # Eidetic Learning: An Efficient and Provable Solution to Catastrophic Forgetting

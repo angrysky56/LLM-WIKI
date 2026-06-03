@@ -5,7 +5,7 @@ updated: 2026-05-28
 type: source
 summary: "Official Hermes Agent FAQ — providers (OpenRouter, Nous Portal, OpenAI, Anthropic, Google, MiniMax, local), Windows/WSL2, Termux, Chrome control, OAuth, MCP, troubleshooting"
 tags: [hermes-agent, documentation, faq, troubleshooting, providers, wsl2, termux]
-sources: https://hermes-agent.nousresearch.com/docs/reference/faq
+sources: [https://hermes-agent.nousresearch.com/docs/reference/faq]
 status: active
 confidence: 0.9
 ---

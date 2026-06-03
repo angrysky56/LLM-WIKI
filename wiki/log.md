@@ -3492,3 +3492,51 @@ Updated page: wiki/sources/papers/ramirez-ruiz-mop-2024.md
 ## [2026-06-03 20:25] write
 
 Updated page: wiki/entities/tools/image-extender.md
+
+## [2026-06-03 20:25] write
+
+Updated page: wiki/sources/papers/eidetic-learning-2021.md
+
+## [2026-06-03 20:26] write
+
+Updated page: wiki/sources/papers/critical-initialization-biological-neural-networks.md
+
+## [2026-06-03 20:26] write
+
+Updated page: wiki/sources/articles/essan-pidgin-results.md
+
+## [2026-06-03 20:26] write
+
+Updated page: wiki/sources/articles/essan-vgcp-comparative-analysis.md
+
+## [2026-06-03 20:27] write
+
+Updated page: wiki/sources/articles/formal-pipeline-analysis.md
+
+## [2026-06-03 20:27] write
+
+Updated page: wiki/sources/articles/orcaid-meta-harness-paper2code-analysis.md
+
+## [2026-06-03 20:27] write
+
+Updated page: wiki/sources/articles/philosophical-deconstruction.md
+
+## [2026-06-03 20:27] write
+
+Updated page: wiki/sources/articles/paraclete-protocol.md
+
+## [2026-06-03 20:27] write
+
+Updated page: wiki/sources/news/2026-05/sti-record-levels-europe-2026-05-21.md
+
+## [2026-06-03 20:30] write
+
+Updated page: wiki/sources/papers/ma-sd-search-2026.md
+
+## [2026-06-03 20:30] write
+
+Updated page: wiki/sources/papers/kalra-barkeshli-hyperparameter-transfer-2026.md
+
+## [2026-06-03 20:33] lint
+
+1364 pages · 71 orphans · 595 broken · 42 missing-fm · report: audits/lint-2026-06-03.md

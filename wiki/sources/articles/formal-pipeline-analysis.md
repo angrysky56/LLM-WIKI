@@ -3,9 +3,9 @@
 created: 2026-05-24
 updated: 2026-05-30
 type: source
-summary: "OrCAID+Meta-Harness+Paper2Code pipeline: integrated confidence0.47 due to semantic gap bottleneck (PC4); each component0.76-0.83 standalone"
-tags: [orcaid,meta-harness,paper2code,pipeline-analysis,formal-optimization,domain-building]
-sources: 
+summary: "OrCAID+Meta-Harness+Paper2Code pipeline: integrated confidence 0.47 due to semantic gap bottleneck (PC4); each component 0.76-0.83 standalone"
+tags: [orcaid, meta-harness, paper2code, pipeline-analysis, formal-optimization, domain-building]
+sources: []
 status: active
 confidence: 0.83
 ---
@@ -51,7 +51,7 @@ Domain building = constructing Knowledge Pack K = (O, W, R, F, E) that maximizes
 
 ## Key Recommendations
 
-1. **Address the semantic gap first** — PC4 =0.69 is the binding constraint
+1. **Address the semantic gap first** — PC4 = 0.69 is the binding constraint
 2. **Instrument F1 propagation** — Paper2Code failures should auto-create failure_mode entries in meta-harness Pack
 3. **Monitor F2 early** — bond classifier should emit escalation signals to meta-harness Phase 2 gating
 4. **Bound worst-case runtime** — Paper2Code's non-convergence is the primary time-complexity risk

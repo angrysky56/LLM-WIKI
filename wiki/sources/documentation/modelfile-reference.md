@@ -5,7 +5,7 @@ updated: 2026-05-30
 type: source
 summary: "Ollama Modelfile reference: FROM, PARAMETER, TEMPLATE, SYSTEM, ADAPTER, LICENSE, MESSAGE, REQUIRES instructions for creating customized models"
 tags: [ollama,modelfile,llm-configuration,documentation]
-sources: https://docs.ollama.com/modelfile
+sources: [https://docs.ollama.com/modelfile]
 status: active
 confidence: 1.0
 ---

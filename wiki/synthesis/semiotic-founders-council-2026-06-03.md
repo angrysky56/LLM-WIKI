@@ -1,9 +1,8 @@
----
+
 summary: Five meaning/language/systems theorists (Peirce, Chomsky, Derrida, Habermas, Luhmann) built as v1.2 Molecular Self replicants and run as a council on the SEG Scientist Agent root failure mode. Key finding: closure-assignment is a control variable — Luhmann's "no exit" closing fold is itself a candidate Comfort Trap, and the council re-derived the design rationale for keeping the EFHF verification layer external to the generative layer.
 tags: [seg, molecular-self, council, scientist-agent, comfort-trap, efhf, drift, semiotics, systems-theory, experiment]
 updated: 2026-06-03T22:16:29Z
 created: 2026-06-03T22:16:29Z
----
 
 # Semiotic Founders Council — Self-Consistency vs World-Consistency
 

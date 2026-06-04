@@ -24,6 +24,6 @@ confidence: 0.3
 - [[sources/papers/is-grep-all-you-need]]
 - [[retrieval-augmented-generation]]
 
-- [[maximum-occupancy-principle]]
+- [[concepts/maximum-occupancy-principle]]
 
 - [[is-grep-all-you-need]]

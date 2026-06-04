@@ -99,7 +99,7 @@ This is exactly what episodic curiosity and novelty search algorithms do in RL �
 
 ## Connections
 
-- [[maximum-occupancy-principle]] — source theory; Theorem 1 (uniqueness of path entropy) and Sec. F (KL critique) are the key results
+- [[concepts/maximum-occupancy-principle]] — source theory; Theorem 1 (uniqueness of path entropy) and Sec. F (KL critique) are the key results
 - [[causal-state-edm-ood-isomorphism]] — EDM's Δ as state-splitting signal; maps to high-Δ token events in LM
 - [[mop-and-rlhf-interaction]] — the KL tension is the central problem; RLHF is the most well-documented case
 - [[group-relative-policy-optimization]] — GRPO is the most MOP-compatible existing RL algorithm (no reference model)

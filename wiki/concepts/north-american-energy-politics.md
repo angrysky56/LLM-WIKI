@@ -24,4 +24,4 @@ confidence: 0.3
 - [[sources/news/2026/alberta-independence-referendum-2026]]
 - [[north-american-energy-politics]]
 
-- [[maximum-occupancy-principle]]
+- [[concepts/maximum-occupancy-principle]]

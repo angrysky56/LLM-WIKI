@@ -53,7 +53,7 @@ ProxySHAP connects to several active EFHF research threads:
 
 - **[[verifier-graph]]**: ProxySHAP is itself a verification mechanism — it provides a principled, computationally tractable way to verify feature-level attribution in ML models. The interaction indices can be seen as verifying which components of a model's reasoning contribute to its output.
 - **[[efhf]]**: The sheaf-consistency enforcement and layer boundary verification work relates to ProxySHAP's contribution of polynomial-time verification of interaction structure. Verifying cross-layer attribution in EFHF is analogous to verifying feature interactions in a model.
-- **[[maximum-occupancy-principle]]**: MOP's resource allocation at layer boundaries may benefit from interaction analysis — knowing which features/interactions dominate resource usage is directly applicable.
+- **[[concepts/maximum-occupancy-principle]]**: MOP's resource allocation at layer boundaries may benefit from interaction analysis — knowing which features/interactions dominate resource usage is directly applicable.
 - **[[mop-explorer]]**: The interaction quantification that ProxySHAP enables could feed into MOP's occupancy and resource allocation models.
 
 ## Key Quotes
@@ -81,4 +81,4 @@ ProxySHAP connects to several active EFHF research threads:
 - [[shapley-values]] — core concept
 - [[verifier-graph]] — verification mechanism parallels
 - [[efhf]] — layer verification connection
-- [[maximum-occupancy-principle]] — resource allocation interaction
+- [[concepts/maximum-occupancy-principle]] — resource allocation interaction

@@ -22,4 +22,4 @@ confidence: 0.3
 - [[wiki/index]]
 - [[nato-expansion]]
 
-- [[maximum-occupancy-principle]]
+- [[concepts/maximum-occupancy-principle]]

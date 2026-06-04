@@ -1,11 +1,11 @@
-
 ---
 created: 2026-05-28
 updated: 2026-05-28
 type: source
 summary: "News.google.com search results for Microsoft response to Pope Leo XIV AI encyclical — Bing/Copilot AI-synthesized news aggregator"
 tags: [news, google, microsoft, pope-leo-xiv, magnifica-humanitas, ai-encyclical, search]
-sources: [https://news.google.com/search?q=microsoft%20response%20pope%20AI%20encyclical]
+sources:
+  - https://news.google.com/search?q=microsoft%20response%20pope%20AI%20encyclical
 status: active
 confidence: 0.5
 ---

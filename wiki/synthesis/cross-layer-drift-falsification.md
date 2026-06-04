@@ -168,7 +168,7 @@ The MOPS work falsified one specific instance of "global geometric measure" appl
 
 - [[conscience-servitor]] — the deployment vehicle for the substrate monitor that this falsification motivates
 - [[efhf]] — the theoretical framework in which MOPS was proposed as one possible Layer 0 implementation
-- [[maximum-occupancy-principle]] — the MOP-decoding half of the original architecture; architecturally independent of the falsified sheaf half
+- [[concepts/maximum-occupancy-principle]] — the MOP-decoding half of the original architecture; architecturally independent of the falsified sheaf half
 - [[hidden-states]] — the broader interpretability tradition this work sits within
 - [[sheaf-consistency-enforcer]] — the dual project doing ADMM-based gluing enforcement (smoothing), as opposed to obstruction detection (this falsified project)
 - [[toward-transcendent-moral-instrumentality]] — Paraclete Protocol's constitutive-vs-regulatory constraint distinction (substrate monitoring is constitutive; output-stage triage is regulatory)

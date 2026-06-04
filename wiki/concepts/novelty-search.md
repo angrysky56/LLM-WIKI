@@ -21,4 +21,4 @@ confidence: 0.3
 - [[wiki/index]]
 - [[novelty-search]]
 
-- [[maximum-occupancy-principle]]
+- [[concepts/maximum-occupancy-principle]]

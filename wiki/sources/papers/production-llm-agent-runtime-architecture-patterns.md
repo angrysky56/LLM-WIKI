@@ -31,7 +31,7 @@ The key insight is that production agent failures (hallucinations, tool misuse, 
 
 The [[production-stage-architecture]] synthesis already identifies the production boundary as the locus of self-direction failures. This paper provides an empirical and methodological grounding for that observation — confirming that the boundary between LLM and deterministic software is genuinely under-engineered. The pattern catalog would be valuable input for the [[llm-agent-architecture]] concept page.
 
-Connects to: [[chain-of-thought]] (as a runtime reasoning pattern), [[load-bearing-reasoning]] (the boundary as load-bearing), [[waldis-instructions-shape-language-2026]] (how instructions structure production behavior).
+Connects to: [[chain-of-thought]] (as a runtime reasoning pattern), [[concepts/load-bearing-reasoning]] (the boundary as load-bearing), [[waldis-instructions-shape-language-2026]] (how instructions structure production behavior).
 
 ## Connections
 - [[wiki/index]]
@@ -39,5 +39,5 @@ Connects to: [[chain-of-thought]] (as a runtime reasoning pattern), [[load-beari
 - [[production-llm-agent-runtime-architecture-patterns]]
 - [[llm-agent-architecture]]
 - [[production-stage-architecture]]
-- [[load-bearing-reasoning]]
+- [[concepts/load-bearing-reasoning]]
 - [[chain-of-thought]]

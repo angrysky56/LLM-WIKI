@@ -40,7 +40,7 @@ Dependently typed programming language with a terminating checker. Based on Mart
 
 Proof assistants are relevant to AI alignment:
 
-1. **Formal verification of reasoning chains**: The [[load-bearing-reasoning]] framework identifies critical inference steps; proof assistants could verify invariants on those steps (e.g., "this constitutional-ai reasoning chain never violates safety constraints")
+1. **Formal verification of reasoning chains**: The [[concepts/load-bearing-reasoning]] framework identifies critical inference steps; proof assistants could verify invariants on those steps (e.g., "this constitutional-ai reasoning chain never violates safety constraints")
 
 2. **Mechanistic interpretability**: Circuit-level verification — proving properties of neural network circuits against formal specifications
 
@@ -80,7 +80,7 @@ Proof assistants are relevant to AI alignment:
 - [[formal-verification]] — application to software/hardware verification
 - [[isabelle-hol]] — specific proof assistant with major verification results
 - [[mathematical-reasoning]] — the underlying mathematics
-- [[load-bearing-reasoning]] — identifying which reasoning steps need formal verification
+- [[concepts/load-bearing-reasoning]] — identifying which reasoning steps need formal verification
 - [[reward-hacking]] — reward hacking as violation of formal behavioral specifications
 - Concept: [[category-theory]]
 - Concept: [[isabelle]]

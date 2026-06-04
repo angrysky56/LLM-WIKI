@@ -78,7 +78,7 @@ This means:
 
 - **[[causal-reasoning]]** — VGCP is a formalization of causal reasoning: every edge is a causal or support relation, not an association.
 - **[[chain-of-thought]]** — CoT is linear; VGCP is graph-structured. CoT allows circular paths; VGCP prohibits them structurally.
-- **[[load-bearing-reasoning]]** — Load-bearing reasoning identifies which inference steps are essential; VGCP makes that explicit via the causal chain in every `CLAIM`.
+- **[[concepts/load-bearing-reasoning]]** — Load-bearing reasoning identifies which inference steps are essential; VGCP makes that explicit via the causal chain in every `CLAIM`.
 - **[[agentic-research]]** — Tool calling in agents is where VGCP's `TOOL_RESULT` constraint matters most — hallucinated tool outputs are the primary failure mode in deep research.
 
 ## Architecture
@@ -124,4 +124,4 @@ The MCP server exposes six tools for managing the reasoning graph:
 - [[synthesis/verifiable-graph-context-protocol]]
 - [[verifiable-graph-context-protocol]]
 
-→ [[causal-reasoning]], [[chain-of-thought]], [[load-bearing-reasoning]], [[agentic-research]], [[project-synapse]], [[markovian-dev-agency]]
+→ [[causal-reasoning]], [[chain-of-thought]], [[concepts/load-bearing-reasoning]], [[agentic-research]], [[project-synapse]], [[markovian-dev-agency]]

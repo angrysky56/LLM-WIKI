@@ -93,13 +93,13 @@ The production-llm-agent-runtime-architecture-patterns paper confirms this gap e
 - [[llm-agent-architecture]]
 
 - [[agent-native-design]] — architectural ideal that LLM agent architecture approximates
-- [[maximum-occupancy-principle]] — path entropy maximization as intrinsic motivation
+- [[concepts/maximum-occupancy-principle]] — path entropy maximization as intrinsic motivation
 - [[production-stage-architecture]] — self-direction and the production boundary
 - [[agentic-hierarchy]] — hierarchical agent organization
 - [[code-agent]] — software engineering specialization
 - [[world-model]] — internal predictive model for planning
 - [[code-as-agent-harness]] — code as universal tool interface
-- [[load-bearing-reasoning]] — boundary reasoning as load-bearing
+- [[concepts/load-bearing-reasoning]] — boundary reasoning as load-bearing
 - Concept: [[code-generation]]
 
 

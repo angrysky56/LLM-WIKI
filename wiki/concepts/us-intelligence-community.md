@@ -25,4 +25,4 @@ confidence: 0.3
 - [[log]]
 - [[us-intelligence-community]]
 
-- [[maximum-occupancy-principle]]
+- [[concepts/maximum-occupancy-principle]]

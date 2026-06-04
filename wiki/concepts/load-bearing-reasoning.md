@@ -1,10 +1,16 @@
 ---
+summary: Interpretability frame distinguishing irreducible load-bearing tokens from scaffolding tokens
+tags: [interpretability, causal-mediation, mech-interp, reasoning]
+updated: 2026-06-04T06:50:45Z
+---
+
+---
 created: 2026-05-23T08:50:00Z
-updated: 2026-05-23T08:55:00Z
+updated: 2026-06-04T06:50:00Z
 type: concept
 summary: A framework for interpretability that distinguishes between tokens necessary for a conclusion (load-bearing) and those that serve as statistical noise reduction (scaffolding).
 tags: [interpretability, causal-mediation, mech-interp, reasoning]
-sources: ['Pearl (2001)', 'Conmy et al. (2023)', 'Shorthand for Thought (2026)']
+sources: [Pearl (2001), Conmy et al. (2023), Shorthand for Thought (2026)]
 status: active
 confidence: 1.0
 ---
@@ -65,10 +71,8 @@ The Paraclete EBE chain (`check_action` → `calibrate_belief` → `escalate_blo
 - [[concepts/supertokens]]
 - [[log]]
 - [[sources/papers/production-llm-agent-runtime-architecture-patterns]]
-- [[concepts/load-bearing-reasoning]]
 - [[concepts/interactive-theorem-proving]]
 - [[concepts/code-agent]]
-- [[load-bearing-reasoning]]
 - Source: [[shorthand-for-thought]]
 - Concept: [[chain-of-thought]]
 - Concept: [[supertokens]]
@@ -96,4 +100,3 @@ The Paraclete EBE chain (`check_action` → `calibrate_belief` → `escalate_blo
 - Concept: [[reward-modeling]]
 - Concept: [[self-correction]]
 - Concept: [[stephen-wolfram]]
-

@@ -21,4 +21,4 @@ confidence: 0.3
 - [[concepts/china-energy-security]]
 - [[china-energy-security]]
 
-- [[maximum-occupancy-principle]]
+- [[concepts/maximum-occupancy-principle]]

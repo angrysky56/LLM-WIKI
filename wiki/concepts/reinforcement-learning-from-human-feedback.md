@@ -53,7 +53,7 @@ Without RLHF, language models optimize next-token prediction — which correlate
 
 ## The MOP Tension
 
-RLHF's KL-regularized structure is in fundamental tension with [[maximum-occupancy-principle]]'s entropy maximization objective:
+RLHF's KL-regularized structure is in fundamental tension with [[concepts/maximum-occupancy-principle]]'s entropy maximization objective:
 
 | Property | MOP | RLHF (PPO) |
 |----------|-----|------------|
@@ -94,7 +94,7 @@ For MoE systems specifically, GRPO may naturally preserve expert diversity bette
 
 - [[group-relative-policy-optimization]] — alternative to PPO/DPO, structurally closer to MOP
 - [[mop-and-rlhf-interaction]] — tension between MOP entropy and KL-regularization
-- [[maximum-occupancy-principle]] — MOP's incompatible entropy objective
+- [[concepts/maximum-occupancy-principle]] — MOP's incompatible entropy objective
 - [[reward-modeling]] — the reward model is the alignment bottleneck
 - [[mixture-of-experts]] — where RLHF causes routing collapse
 - Concept: [[llm-training]]

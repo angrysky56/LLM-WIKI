@@ -90,7 +90,7 @@ The nLab and the nLab's synthetic mathematics program show how category theory c
 - [[mathematical-reasoning]] — categorical reasoning is a high-level form of mathematical reasoning
 - [[formal-verification]] — compositional verification is functorial
 - [[formal-methods]] — category theory provides the mathematical framework
-- [[load-bearing-reasoning]] — categorical analysis of which reasoning steps are load-bearing vs scaffolding
+- [[concepts/load-bearing-reasoning]] — categorical analysis of which reasoning steps are load-bearing vs scaffolding
 - [[multi-agent-llm-systems]] — multi-agent composition as categorical composition
 - [[multi-agent-coordination]] — adjunction structures in supervisor-worker relationships
 - Concept: [[attention-monoidal-closure]]

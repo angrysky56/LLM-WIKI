@@ -3596,3 +3596,83 @@ Updated page: wiki/synthesis/internalizable-index-and-the-harness.md
 ## [2026-06-04 06:32] lint
 
 1373 pages · 202 orphans · 6045 broken · 43 missing-fm · report: audits/lint-2026-06-04.md
+
+## [2026-06-04 06:47] lint
+
+1373 pages · 202 orphans · 6045 broken · 43 missing-fm · report: audits/lint-2026-06-04.md
+
+## [2026-06-04 06:49] lint
+
+1373 pages · 202 orphans · 6045 broken · 43 missing-fm · report: audits/lint-2026-06-04.md
+
+## [2026-06-04 06:50] write
+
+Updated page: wiki/concepts/load-bearing-reasoning.md
+
+## [2026-06-04 06:51] lint
+
+1373 pages · 202 orphans · 6044 broken · 43 missing-fm · report: audits/lint-2026-06-04.md
+
+## [2026-06-04 06:51] index
+
+Index updated with 1103 pages (Deep refresh completed)
+
+## [2026-06-04 06:52] lint
+
+1373 pages · 202 orphans · 6044 broken · 43 missing-fm · report: audits/lint-2026-06-04.md
+
+## [2026-06-04 06:52] lint
+
+1373 pages · 202 orphans · 6044 broken · 43 missing-fm · report: audits/lint-2026-06-04.md
+
+## [2026-06-04 06:53] write
+
+Updated page: wiki/sources/papers/gamma-world-multi-agent-world-modeling-2026.md
+
+## [2026-06-04 06:53] lint
+
+1373 pages · 202 orphans · 6044 broken · 42 missing-fm · report: audits/lint-2026-06-04.md
+
+## [2026-06-04 06:53] lint
+
+1373 pages · 202 orphans · 6044 broken · 42 missing-fm · report: audits/lint-2026-06-04.md
+
+## [2026-06-04 06:54] lint
+
+1373 pages · 202 orphans · 6044 broken · 42 missing-fm · report: audits/lint-2026-06-04.md
+
+## [2026-06-04 06:55] lint
+
+1373 pages · 202 orphans · 6044 broken · 41 missing-fm · report: audits/lint-2026-06-04.md
+
+## [2026-06-04 06:57] lint
+
+1373 pages · 202 orphans · 6044 broken · 1 missing-fm · report: audits/lint-2026-06-04.md
+
+## [2026-06-04 06:58] lint
+
+1373 pages · 202 orphans · 6044 broken · 1 missing-fm · report: audits/lint-2026-06-04.md
+
+## [2026-06-04 06:58] index
+
+Index updated with 1103 pages (Deep refresh completed)
+
+## [2026-06-04 06:58] lint
+
+1373 pages · 202 orphans · 6044 broken · 1 missing-fm · report: audits/lint-2026-06-04.md
+
+## [2026-06-04 07:00] lint
+
+1373 pages · 202 orphans · 6096 broken · 1 missing-fm · report: audits/lint-2026-06-04.md
+
+## [2026-06-04 07:00] index
+
+Index updated with 1103 pages (Deep refresh completed)
+
+## [2026-06-04 07:02] write
+
+Updated page: wiki/scratchpad/agent-sheets/librarians-assistant/batch-progress.md
+
+## [2026-06-04 07:02] write
+
+Updated page: wiki/scratchpad/agent-sheets/librarians-assistant/carryover.md

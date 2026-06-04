@@ -90,7 +90,7 @@ The connection to [[world-model]]: A world model is fundamentally causal if it r
 - [[causal-reasoning]]
 
 - [[world-model]] — causal structure is a key component of internal world representations
-- [[maximum-occupancy-principle]] — MOP's path entropy maximization can be viewed as a causal hypothesis about what drives exploration behavior
+- [[concepts/maximum-occupancy-principle]] — MOP's path entropy maximization can be viewed as a causal hypothesis about what drives exploration behavior
 - [[neural-interpretability]] — hidden-state causal signals (ELHSR) use the same activation data that neural interpretability studies
 - [[formal-methods]] — causal models are a form of structural specification amenable to formal verification
 - [[in-context-learning]] — some argue in-context learning itself involves implicit causal inference

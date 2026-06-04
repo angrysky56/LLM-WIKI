@@ -21,4 +21,4 @@ confidence: 0.3
 - [[log]]
 - [[programmatic-seo]]
 
-- [[maximum-occupancy-principle]]
+- [[concepts/maximum-occupancy-principle]]

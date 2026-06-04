@@ -60,7 +60,7 @@ The goal of "full sovereign AI" — complete independence from foreign compute, 
 - [[bounded-rationality]]: Resource constraint framing — sovereign AI as a bounded rationality problem for nations- [[concepts/maximum-occupancy-principle.md]]
 
 
-- [[maximum-occupancy-principle]]
+- [[concepts/maximum-occupancy-principle]]
 ## Open Questions
 
 1. Can smaller nations achieve meaningful sovereign AI through strategic alignment rather than full autarky? (Canada, Finland, Estonia suggest yes — through domestic talent + selective partnerships)

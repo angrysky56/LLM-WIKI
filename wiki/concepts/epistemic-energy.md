@@ -5,7 +5,7 @@ type: concept
 summary: First-class information-theoretic resource tracking reasoning coherence and energy depletion in agentic AI systems — maps to EFHF Layer 4 coherence monitoring and MOP's energy reservoir
 tags: [MOP, EFHF, information-theory, bounded-rationality, coherence, agent-design, epistemic-energy]
 sources:
-  - "[[maximum-occupancy-principle]]"
+  - "[[concepts/maximum-occupancy-principle]]"
   - "[[ramirez-ruiz-mop-2024]]"
 status: active
 confidence: 0.8
@@ -97,7 +97,7 @@ None of these are fully validated. This is an active measurement problem.
 - [[epistemic-energy]]
 
 - [[agent-native-design]] — the architectural context where epistemic energy is first-class
-- [[maximum-occupancy-principle]] — the energy reservoir analogy; MOP agents maximize entropy subject to energy constraints (absorbing states)
+- [[concepts/maximum-occupancy-principle]] — the energy reservoir analogy; MOP agents maximize entropy subject to energy constraints (absorbing states)
 - [[working-memory]] — the active maintenance substrate for epistemic energy; attention decay is one depletion mechanism
 - [[bounded-rationality]] — epistemic energy is the quantitative form of bounded rationality
 - [[efhf]] — Layer 4 (coherence monitoring) implements epistemic energy tracking

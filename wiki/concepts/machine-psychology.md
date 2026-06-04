@@ -91,10 +91,10 @@ If AI systems genuinely have something like emotional architectures (even if not
 - [[machine-psychology]]
 
 - [[agent-native-design]] — psychological frameworks as architectural primitives
-- [[maximum-occupancy-principle]] — MOP as a theory of intrinsic motivation; analogous to SEEKING system
+- [[concepts/maximum-occupancy-principle]] — MOP as a theory of intrinsic motivation; analogous to SEEKING system
 - [[aseke-compass-mcp]] — uses Panksepp's emotional systems for behavioral discernment
 - [[agem]] — psychological profiling for agent personas
-- [[load-bearing-reasoning]] — psychological scaffolding vs load-bearing tokens (scaffolding analogs to "emotional calibration")
+- [[concepts/load-bearing-reasoning]] — psychological scaffolding vs load-bearing tokens (scaffolding analogs to "emotional calibration")
 - [[metacognitive-architecture-closed-loop-self-regulation]] — closed-loop emotional regulation in LLMs
 
 - [[panksepp-emotional-systems]]

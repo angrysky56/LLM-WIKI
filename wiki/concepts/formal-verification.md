@@ -44,7 +44,7 @@ Formal verification is increasingly relevant to AI systems:
 3. **Reward hacking detection**: If we can formally specify "benign behavior" vs "reward-hacked behavior," we can check whether a policy satisfies the specification
 4. **Multi-agent coordination**: Formal protocols for agent communication can be verified for deadlock freedom, liveness, and safety
 
-The [[load-bearing-reasoning]] framework identifies critical inference steps; formal verification could prove invariants on those steps — e.g., "this reasoning chain never violates the constitution."
+The [[concepts/load-bearing-reasoning]] framework identifies critical inference steps; formal verification could prove invariants on those steps — e.g., "this reasoning chain never violates the constitution."
 
 ## Major Projects
 
@@ -84,7 +84,7 @@ The [[load-bearing-reasoning]] framework identifies critical inference steps; fo
 - [[proof-assistant]] — tools like Coq, Isabelle, Lean for interactive verification
 - [[interactive-theorem-proving]] — the practice of constructing machine-checked proofs
 - [[isabelle-hol]] — specific proof assistant with major verification results
-- [[load-bearing-reasoning]] — causal mediation analysis for identifying verification targets
+- [[concepts/load-bearing-reasoning]] — causal mediation analysis for identifying verification targets
 - [[reward-hacking]] — reward hacking as a violation of formal behavioral specifications
 - Concept: [[attention-monoidal-closure]]
 - Concept: [[categorical-reasoning]]

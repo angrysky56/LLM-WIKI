@@ -21,4 +21,4 @@ confidence: 0.3
 - [[concepts/overlayfs]]
 - [[overlayfs]]
 
-- [[maximum-occupancy-principle]]
+- [[concepts/maximum-occupancy-principle]]

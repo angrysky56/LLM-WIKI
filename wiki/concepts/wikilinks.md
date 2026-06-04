@@ -76,7 +76,7 @@ High-value cross-cluster links:
 ## Connections
 
 - [[synthesis/synapse-retrieval-architecture]]: The query_knowledge pipeline that uses wikilinks as a retrieval signal (Stage 3)
-- [[maximum-occupancy-principle]]: Hub page demonstrating the retrieval-weight hierarchy
+- [[concepts/maximum-occupancy-principle]]: Hub page demonstrating the retrieval-weight hierarchy
 - [[concept-index]]: Navigation hub that relies on wikilinks for cluster mapping
 - [[knowledge-management]]: Where wikilinks fit in the broader KM discipline
 - [[information-architecture]]: Structural design of which wikilinks carry what weight

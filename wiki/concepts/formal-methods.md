@@ -49,7 +49,7 @@ Formal methods are increasingly relevant to AI safety:
 
 1. **Mechanistic interpretability as verification**: If we can formally specify what a circuit *should* do, we can prove what it *does* — or find the gap
 2. **Constitutional AI as formal specification**: CAI's principles are a kind of formal specification for behavior; formal methods could verify principle adherence
-3. **Load-bearing reasoning verification**: The [[load-bearing-reasoning]] framework identifies critical inference steps; formal verification (e.g., via [[isabelle-hol]]) could prove invariants on those steps
+3. **Load-bearing reasoning verification**: The [[concepts/load-bearing-reasoning]] framework identifies critical inference steps; formal verification (e.g., via [[isabelle-hol]]) could prove invariants on those steps
 4. **Reward hacking as safety property violation**: Formal specifications of "what the reward function should encode" could be checked against the actual learned reward
 
 The connection to [[proof-assistant]] and [[interactive-theorem-proving]] is direct: tools like Lean and Coq are used to verify properties of programs, including programs that reason.
@@ -89,7 +89,7 @@ The connection to [[proof-assistant]] and [[interactive-theorem-proving]] is dir
 - [[proof-assistant]] — tools for interactive theorem proving (Coq, Isabelle, Lean)
 - [[category-theory]] — mathematical foundations; compositional semantics uses category-theoretic structures
 - [[mathematical-reasoning]] — the broader practice of rigorous deduction
-- [[load-bearing-reasoning]] — causal mediation analysis as formal verification for reasoning traces
+- [[concepts/load-bearing-reasoning]] — causal mediation analysis as formal verification for reasoning traces
 - [[isabelle-hol]] — specific proof assistant used for major verification projects
 - Concept: [[categorical-reasoning]]
 - Concept: [[causal-reasoning]]

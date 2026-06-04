@@ -115,5 +115,5 @@ All of these face the same fundamental tension: optimizing for new behavior whil
 - [[mixture-of-experts]]: modular architecture that naturally reduces interference between knowledge domains
 - [[parameter-efficient-fine-tuning]]: parameter-efficient methods as a practical approach to task-specific adaptation without full model fine-tuning
 - [[betteti-baggio-bullo-zampieri-idp-hopfield-2025]]
-- [[maximum-occupancy-principle]]
+- [[concepts/maximum-occupancy-principle]]
 - [[lora]]

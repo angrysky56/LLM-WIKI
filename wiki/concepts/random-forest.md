@@ -21,4 +21,4 @@ confidence: 0.3
 - [[log]]
 - [[random-forest]]
 
-- [[maximum-occupancy-principle]]
+- [[concepts/maximum-occupancy-principle]]

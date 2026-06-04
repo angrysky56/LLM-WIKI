@@ -55,7 +55,7 @@ The success of o3 on the Erdős problem suggests that scale + RL on math competi
 ## Connection to Existing Wiki Concepts
 
 ### Reasoning
-The general [[load-bearing-reasoning]] page covers reasoning as a load-bearing cognitive structure for AI. Mathematical reasoning is the canonical test case — if reasoning in LLMs is real, mathematical reasoning is where it should be most visible, because the verifier (peer review) is unambiguous.
+The general [[concepts/load-bearing-reasoning]] page covers reasoning as a load-bearing cognitive structure for AI. Mathematical reasoning is the canonical test case — if reasoning in LLMs is real, mathematical reasoning is where it should be most visible, because the verifier (peer review) is unambiguous.
 
 ### Code as a Reasoning Medium
 [[eml-operator]] and the [[eml-operator]]-based compilation approach (see [[transformer-vm-moran-2026]]) suggest that *symbolic computation* is the substrate where compiled transformers excel. Mathematical reasoning is the application of this compiled symbolic machinery to mathematical claims.
@@ -89,7 +89,7 @@ If AI systems can do these things in mathematics (where verification is rigorous
 5. **Competition Effect**: Google DeepMind, Anthropic, and academic groups are all working on AI math. The competitive pressure may incentivize announcing results before full verification, increasing the risk of high-profile retractions.
 
 ## Connections
-- [[load-bearing-reasoning]]: general reasoning as a load-bearing cognitive structure
+- [[concepts/load-bearing-reasoning]]: general reasoning as a load-bearing cognitive structure
 - [[agents]]: agents that perform reasoning tasks
 - [[alphaevolve]]: AI algorithm discovery via evolutionary search
 - [[transformer-vm-moran-2026]]: compiled symbolic computation in transformers

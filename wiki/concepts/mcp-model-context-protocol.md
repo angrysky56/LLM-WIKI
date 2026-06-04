@@ -94,7 +94,7 @@ The [[mcp-logic]] server is particularly central: it implements EFHF Layer 3 ver
 
 - [[mcp-logic]] — MCP server for first-order logic verification
 - [[efhf]] — MCP servers implement the EFHF layers (L3: mcp-logic)
-- [[maximum-occupancy-principle]] — MCP enables agents to discover and use external tools for exploration
+- [[concepts/maximum-occupancy-principle]] — MCP enables agents to discover and use external tools for exploration
 - [[hermes-agent]] — implements full MCP client + server capability
 - [[autonomous-agents]] — autonomous agents rely on MCP as the standard tool interface protocol
 

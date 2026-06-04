@@ -21,4 +21,4 @@ confidence: 0.3
 - [[concepts/india-energy-strategy]]
 - [[india-energy-strategy]]
 
-- [[maximum-occupancy-principle]]
+- [[concepts/maximum-occupancy-principle]]

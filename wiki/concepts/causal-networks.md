@@ -19,7 +19,7 @@ In the context of the **[[wolfram-physics-project|Wolfram Physics Project]]** an
 - **Emergent Spacetime**: Spacetime is not a pre-existing container but is emergent from the topology of this network.
 
 ## Distinction from Reasoning
-While "causal network" is sometimes used metaphorically to describe LLM reasoning traces, the NKS definition is strictly defined by rewrite system semantics. For analysis of LLM intent and logical dependencies, see **[[load-bearing-reasoning]]**.
+While "causal network" is sometimes used metaphorically to describe LLM reasoning traces, the NKS definition is strictly defined by rewrite system semantics. For analysis of LLM intent and logical dependencies, see **[[concepts/load-bearing-reasoning]]**.
 
 ## Connections
 - [[concepts/wolfram-nks-causal-networks]]

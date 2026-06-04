@@ -31,5 +31,5 @@ No single active concept page treats optimization itself as its primary subject.
 ## Related
 
 - [[curiosity-driven-exploration]]: Uses intrinsic motivation signals as optimization objectives
-- [[maximum-occupancy-principle]]: Entropy-based behavioral optimization
+- [[concepts/maximum-occupancy-principle]]: Entropy-based behavioral optimization
 - [[llm-inference]]: Optimization in the inference pipeline

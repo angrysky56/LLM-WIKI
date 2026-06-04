@@ -83,7 +83,7 @@ Maximum-occupancy principle (MOP) and curiosity-driven exploration share a commo
 | Failure mode | Noisy-TV problem (random noise maximizes surprise) | Mode collapse to low-density but useless regions |
 | Typical use | Dense intrinsic reward, works with sparse external reward | Skill discovery, behavioral diversity |
 
-The two approaches can be combined: MOP provides a coverage objective, curiosity provides the directional signal toward high-learning-progress regions. This is the insight behind methods like [[maximum-occupancy-principle]] that use embedding-space density as the coverage metric while allowing curiosity-style intrinsic rewards to guide the exploration policy.
+The two approaches can be combined: MOP provides a coverage objective, curiosity provides the directional signal toward high-learning-progress regions. This is the insight behind methods like [[concepts/maximum-occupancy-principle]] that use embedding-space density as the coverage metric while allowing curiosity-style intrinsic rewards to guide the exploration policy.
 
 ## Relationship to Recuriosity (Amnesiac Failure)
 
@@ -116,7 +116,7 @@ The ICM approach has been adapted for LLM tool use: train a predictor on whether
 ## Connections
 
 - [[exploration]]: Parent concept — curiosity-driven is one major family
-- [[maximum-occupancy-principle]]: Related coverage-based approach, different signal
+- [[concepts/maximum-occupancy-principle]]: Related coverage-based approach, different signal
 - [[reinforcement-learning]]: The RL paradigm within which curiosity-driven exploration operates
 - [[recuriosity-episodic-context-3d-exploration-2026]]: Identifies amnesiac failure mode of pure curiosity
 - [[orthogonal-bottlenecks-rl]]: Exploration in the context of orthogonal capacity allocation

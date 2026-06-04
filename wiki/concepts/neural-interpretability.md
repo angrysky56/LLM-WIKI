@@ -111,7 +111,7 @@ The sheaf-consistency-enforcer detects coboundary norm violations via differenti
 - [[mechanistic-interpretability]] — circuit-level analysis and reverse-engineering; neural interpretability is the broader field
 - [[hidden-states]] — the raw material for neural interpretability
 - [[activation-steering]] — modulation using discovered features; closed-loop biofeedback requires interpretability as the sensor
-- [[load-bearing-reasoning]] — causal mediation analysis on which activations are load-bearing vs scaffolding
+- [[concepts/load-bearing-reasoning]] — causal mediation analysis on which activations are load-bearing vs scaffolding
 - [[reward-inside-model-elhsr]] — linear probe on hidden states as reward signal
 - [[supertokens]] — structural patterns in reasoning that might be geometrically compressed in activation space
 - Superposition — the phenomenon that motivates sparse autoencoders (see neural-interpretability.md lines 42–63 for full treatment)

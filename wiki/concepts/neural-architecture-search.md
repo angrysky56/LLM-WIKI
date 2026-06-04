@@ -101,7 +101,7 @@ NAS is a natural application of [[evolutionary-strategies]] — CMA-ES and its v
 - [[scaling-laws]] — architecture search interacts with scaling laws; discovered architectures must be evaluated relative to their compute budget
 - [[catastrophic-forgetting]] — architectural changes can cause forgetting; search must preserve capability
 
-- [[maximum-occupancy-principle]]
+- [[concepts/maximum-occupancy-principle]]
 - [[bounded-memory-budget-optimization]]
 ## Open Questions
 

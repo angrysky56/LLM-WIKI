@@ -104,7 +104,7 @@ The EFHF five-layer architecture implements bounded rationality structurally:
 
 - [[agent-native-design]] — the architectural framework that makes bounded rationality first-class
 - [[epistemic-energy]] — the quantitative resource form of bounded rationality in agentic systems
-- [[maximum-occupancy-principle]] — path entropy maximization as bounded exploration
+- [[concepts/maximum-occupancy-principle]] — path entropy maximization as bounded exploration
 - [[efhf]] — Layer 4 explicitly tracks bounded reasoning resources
 - [[bounded-structured-memory]] — memory architecture implementing bounded retention decisions
 - [[working-memory]] — the substrate most directly subject to bounded rationality constraints

@@ -24,4 +24,4 @@ confidence: 0.3
 - [[log]]
 - [[ai-for-science]]
 
-- [[maximum-occupancy-principle]]
+- [[concepts/maximum-occupancy-principle]]

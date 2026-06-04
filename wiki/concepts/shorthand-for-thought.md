@@ -21,7 +21,7 @@ The term comes from the observation that chain-of-thought reasoning works not be
 
 1. **Explains CoT emergence**: Chain-of-thought prompting works because it activates compressed reasoning routines that were formed during pre-training. The visible CoT is a key that unlocks an internal process, not the process itself.
 
-2. **Load-bearing vs scaffolding**: The [[load-bearing-reasoning]] framework distinguishes between tokens that are logically necessary for the conclusion (load-bearing) and tokens that serve as calibration noise (scaffolding). Shorthand for thought explains how the network decides which steps need explicit tokenization and which can be compressed internally.
+2. **Load-bearing vs scaffolding**: The [[concepts/load-bearing-reasoning]] framework distinguishes between tokens that are logically necessary for the conclusion (load-bearing) and tokens that serve as calibration noise (scaffolding). Shorthand for thought explains how the network decides which steps need explicit tokenization and which can be compressed internally.
 
 3. **Efficiency vs interpretability tradeoff**: Compression in reasoning is like compression in storage — it saves resources but loses fidelity. The tension between internal shorthand and explicit reasoning traces is fundamental to LLM reasoning architecture.
 
@@ -29,7 +29,7 @@ The term comes from the observation that chain-of-thought reasoning works not be
 
 | Concept | Relationship |
 |---------|-------------|
-| [[load-bearing-reasoning]] | The analytical framework that distinguishes shorthand (scaffolding) from necessary logical steps |
+| [[concepts/load-bearing-reasoning]] | The analytical framework that distinguishes shorthand (scaffolding) from necessary logical steps |
 | [[chain-of-thought]] | Explicit CoT is the visible form; shorthand is the internal compressed version |
 | [[compression]] | Reasoning shorthand is a form of representation compression in neural networks |
 | [[llm-reasoning]] | The broader capability; shorthand for thought explains its mechanism |
@@ -43,7 +43,7 @@ The "Grokked Reasoning Hypothesis" (from [[llm-reasoning]]) states that at suffi
 
 1. **Measurement**: Can we detect shorthand compression vs explicit reasoning via probing studies? The internal representation should show compression signatures (shared latent space, efficient encodings) for shorthand reasoning.
 
-2. **Scaffolding identification**: Can we systematically identify which tokens in a CoT trace are scaffolding (calibration) vs load-bearing (logically necessary)? [[load-bearing-reasoning]] provides the framework; practical identification methods are still being developed.
+2. **Scaffolding identification**: Can we systematically identify which tokens in a CoT trace are scaffolding (calibration) vs load-bearing (logically necessary)? [[concepts/load-bearing-reasoning]] provides the framework; practical identification methods are still being developed.
 
 3. **Training implications**: If reasoning is compressed internally, can we train models to use more efficient shorthands rather than relying on explicit CoT?
 
@@ -66,7 +66,7 @@ The "Grokked Reasoning Hypothesis" (from [[llm-reasoning]]) states that at suffi
 - [[shorthand-for-thought]]
 
 - [[llm-reasoning]] — the broader capability this describes
-- [[load-bearing-reasoning]] — the interpretability framework for distinguishing reasoning types
+- [[concepts/load-bearing-reasoning]] — the interpretability framework for distinguishing reasoning types
 - [[chain-of-thought]] — explicit form of reasoning; shorthand is the internal compressed version
 - [[compression]] — reasoning shorthand as a special case of neural representation compression
 - [[supertokens]] — compressing CoT traces by merging structural phrases; related to shorthand encoding

@@ -79,7 +79,7 @@ The connection to [[group-relative-policy-optimization]]: GRPO can be viewed as 
 - [[evolutionary-strategies]]
 
 - [[ml-evolution]] — ES is the optimization engine for neural architecture search
-- [[maximum-occupancy-principle]] — MOP's path entropy maximization can be expressed as an evolutionary objective: maximize diversity of visited states
+- [[concepts/maximum-occupancy-principle]] — MOP's path entropy maximization can be expressed as an evolutionary objective: maximize diversity of visited states
 - [[group-relative-policy-optimization]] — GRPO as group-relative ES variant
 - [[scaling-laws]] — ES has been used to study how architecture choices interact with model scale
 - [[swe-bench]] — ES for code agent task optimization (evolving prompts or tool-use strategies)

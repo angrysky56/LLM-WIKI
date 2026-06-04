@@ -160,7 +160,7 @@ For a personal AI agent handling a mix of tasks:
 - [[reward-modeling]] — BoN is the primary application; ORM vs PRM distinction is central
 - [[hidden-states]] — ELHSR extracts reward signals from hidden states
 - [[chain-of-thought]] — reasoning traces are what get scored; longer chains benefit more from compute allocation
-- [[load-bearing-reasoning]] — identifying which tokens in a reasoning trace are load-bearing vs scaffolding
+- [[concepts/load-bearing-reasoning]] — identifying which tokens in a reasoning trace are load-bearing vs scaffolding
 - Concept: [[group-relative-policy-optimization]]
 - Concept: [[hybrid-reward-models]]
 - Concept: [[in-context-learning]]

@@ -38,7 +38,7 @@ Instead of viewing transitions between supertokens as "Wolfram-style physics," t
 - [[sources/articles/shorthand-for-thought]]
 - [[supertokens]]
 - Source: [[shorthand-for-thought|Shorthand for Thought]]
-- Concept: [[load-bearing-reasoning]]
+- Concept: [[concepts/load-bearing-reasoning]]
 - Concept: [[chain-of-thought]]
 - Tool: [[superbpe]]
 - Concept: [[neural-interpretability]]

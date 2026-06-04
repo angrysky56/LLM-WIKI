@@ -50,4 +50,4 @@ The hypersphere solution shows that architectural/geometric regularization can a
 - [[wiki/sources/papers/on-the-representation-collapse-of-sparse-mixture-of-experts]]
 - [[mixture-of-experts]]
 - [[mop-and-rlhf-interaction]] — routing collapse is the core tension
-- [[maximum-occupancy-principle]] — MOP's entropy objective is the opposite of collapse
+- [[concepts/maximum-occupancy-principle]] — MOP's entropy objective is the opposite of collapse

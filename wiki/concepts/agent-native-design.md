@@ -32,7 +32,7 @@ Agent native design proposes changing the architecture:
 
 ### 1. Intrinsic Motivation from Birth
 
-The [[maximum-occupancy-principle]] provides the theoretical foundation: agents should maximize action-state path entropy rather than reward. This means behavioral diversity is the primary objective, with survival (avoiding absorbing states) as the constraint.
+The [[concepts/maximum-occupancy-principle]] provides the theoretical foundation: agents should maximize action-state path entropy rather than reward. This means behavioral diversity is the primary objective, with survival (avoiding absorbing states) as the constraint.
 
 In an agent native system, this means:
 - The base policy is trained to maximize entropy over reachable states
@@ -103,7 +103,7 @@ Agent native design works naturally with [[agentic-hierarchy]]:
 - [[concepts/working-memory]]
 - [[agent-native-design]]
 
-- [[maximum-occupancy-principle]] — the intrinsic motivation foundation
+- [[concepts/maximum-occupancy-principle]] — the intrinsic motivation foundation
 - [[mop-edm-cognitive-architecture]] — the full architectural synthesis
 - [[efhf]] — the verification and consistency enforcement backbone
 - [[agentic-hierarchy]] — hierarchical agent organization as native pattern

@@ -83,4 +83,4 @@ AlphaEvolve uses fitness functions (benchmark performance) — it is NOT guidele
 - [[symbolic-regression]] — EML trees as an alternative to tensor decomposition for discovering matrix multiplication algorithms
 - [[minimal-generative-architectures]] — this article instantiates the MGA pattern in GPU kernel engineering
 - [[open-ended-evolution]] — AlphaEvolve is guided evolution; removing the fitness function would make it OEE
-- [[maximum-occupancy-principle]] — the exploitation/exploration balance in prompt sampling IS the α/β tradeoff
+- [[concepts/maximum-occupancy-principle]] — the exploitation/exploration balance in prompt sampling IS the α/β tradeoff

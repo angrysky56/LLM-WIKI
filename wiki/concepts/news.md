@@ -22,4 +22,4 @@ confidence: 0.3
 - [[concepts/news]]
 - [[news]]
 
-- [[maximum-occupancy-principle]]
+- [[concepts/maximum-occupancy-principle]]

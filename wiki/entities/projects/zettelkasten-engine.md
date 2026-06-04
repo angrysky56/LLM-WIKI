@@ -64,4 +64,4 @@ Insights are stored as `Zettel` nodes in Neo4j with vector embeddings, enabling 
 - [[llm-wiki-pattern]]
 - [[ramirez-ruiz-mop-2024]]
 - [[mop-explorer]]
-- [[maximum-occupancy-principle]]
+- [[concepts/maximum-occupancy-principle]]

@@ -24,4 +24,4 @@ confidence: 0.3
 - [[sources/news/2026/strait-of-hormuz-iran-claim-2026]]
 - [[iran-ceasefire]]
 
-- [[maximum-occupancy-principle]]
+- [[concepts/maximum-occupancy-principle]]

@@ -25,4 +25,4 @@ confidence: 0.3
 - [[wiki/index]]
 - [[cri]]
 
-- [[maximum-occupancy-principle]]
+- [[concepts/maximum-occupancy-principle]]

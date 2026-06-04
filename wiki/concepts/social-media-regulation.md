@@ -26,4 +26,4 @@ confidence: 0.3
 - [[concepts/social-media-regulation]]
 - [[social-media-regulation]]
 
-- [[maximum-occupancy-principle]]
+- [[concepts/maximum-occupancy-principle]]

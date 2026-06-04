@@ -168,9 +168,9 @@ AlphaEvolve's success suggests that self-modification is more viable when implem
 
 - [[intelligence-as-entropic-sculpting]] — parent synthesis; provides the five-part isomorphism (Boltzmann substrate, asymmetric multi-bond rectifier, conformational folding, continuously replenished gradient, single-event signal cascade); Self-Reflection as load-bearing bond is Prediction 5
 - [[llm-biological-analogies]] — provides the Broca's/Wernicke's/arcuate-fasciculus mapping; this page extends it with self-prompting as arcuate-fasciculus event
-- [[maximum-occupancy-principle]] — MoR router implements MOP α/β tradeoff; self-prompting is bounded by the same absorbing-state constraints
+- [[concepts/maximum-occupancy-principle]] — MoR router implements MOP α/β tradeoff; self-prompting is bounded by the same absorbing-state constraints
 - [[chain-of-thought]] — CoT is entirely production-stage; the three-bond topology applies to all CoT, including self-generated CoT
-- [[load-bearing-reasoning]] — scaffolding vs. load-bearing distinction applies directly to self-generated text
+- [[concepts/load-bearing-reasoning]] — scaffolding vs. load-bearing distinction applies directly to self-generated text
 - [[supertokens]] — the compression mechanism (79% lower continuation entropy for scaffolding) applies to self-prompt scaffolding
 - [[bae-mor-2025]] — MoR dynamic recursion depth; router as MOP α/β tradeoff; self-directed compute allocation model
 - [[waldis-2026-instructions-shape-production]] — production/processing asymmetry; instruction-sensitivity of production; attention intervention causal confirmation

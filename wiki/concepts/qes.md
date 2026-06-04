@@ -93,7 +93,7 @@ Both are guided evolution methods where LLMs (or their derived representations) 
 - [[qora]]
 - [[neural-architecture-search]]
 - [[bounded-memory-budget-optimization]]
-- [[maximum-occupancy-principle]]
+- [[concepts/maximum-occupancy-principle]]
 ## Open Questions
 
 1. Does QES residual correction transfer across different token sequences, or only for the calibration distribution?

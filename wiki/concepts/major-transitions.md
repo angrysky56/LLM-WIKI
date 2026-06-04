@@ -21,4 +21,4 @@ confidence: 0.3
 - [[concepts/major-transitions]]
 - [[major-transitions]]
 
-- [[maximum-occupancy-principle]]
+- [[concepts/maximum-occupancy-principle]]

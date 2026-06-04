@@ -60,7 +60,7 @@ Most evolutionary simulations plateau. Fitness functions, once optimized, stop d
 - [[sources/news/2026-05/chirality-origin-life-2026-05-20]]
 - [[open-ended-evolution]]
 
-- [[maximum-occupancy-principle]] — MOP provides a formal basis for why OEE systems explore broadly: path-entropy maximization drives action-state diversity rather than reward convergence
+- [[concepts/maximum-occupancy-principle]] — MOP provides a formal basis for why OEE systems explore broadly: path-entropy maximization drives action-state diversity rather than reward convergence
 - [[utimula-openpraparat-2025]] — state-of-the-art integrated OEE model
 - [[eml-operator]] — the grammar $S \to 1 \mid \operatorname{eml}(S,S)$ generates all elementary functions from minimal rules, paralleling how OEE generates biological complexity from minimal mechanisms
 - [[alphaevolve]] — evolutionary code search with LLM mutation, but guided (has fitness); OEE would be the unguided version

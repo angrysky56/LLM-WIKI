@@ -55,7 +55,7 @@ A foundation model trained *entirely* on synthetic tabular data ([[sources/repos
 
 ## Connection to Maximum Occupancy Principle
 
-The [[maximum-occupancy-principle]] (MOP) reframes what good synthetic data should optimize for. Under MOP, the goal is not to match the real distribution but to **maximize path entropy** — generate samples that explore diverse action-state trajectories. This:
+The [[concepts/maximum-occupancy-principle]] (MOP) reframes what good synthetic data should optimize for. Under MOP, the goal is not to match the real distribution but to **maximize path entropy** — generate samples that explore diverse action-state trajectories. This:
 
 - Naturally resists model collapse (entropy is preserved by construction)
 - Provides an exploration bonus for [[agentic-research]] loops (high-β MOP synthesis)
@@ -82,7 +82,7 @@ The [[sources/papers/is-grep-all-you-need|is-grep-all-you-need]] paper (arXiv 26
 
 ## Connections
 
-- [[maximum-occupancy-principle]] — entropy-based synthesis objective
+- [[concepts/maximum-occupancy-principle]] — entropy-based synthesis objective
 - [[efhf]] — MOP integration into verification stack
 - [[sources/repositories/tabpfn]] — synthetic-only pretraining success case
 - [[sources/papers/is-grep-all-you-need]] — harness-aware synthetic data for agents

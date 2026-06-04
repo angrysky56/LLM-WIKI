@@ -25,7 +25,7 @@ confidence: 0.3
 - [[log]]
 - [[github-actions]]
 
-- [[maximum-occupancy-principle]]
+- [[concepts/maximum-occupancy-principle]]
 
 - [[ci-cd]]
 - [[github-actions-troubleshooting]]

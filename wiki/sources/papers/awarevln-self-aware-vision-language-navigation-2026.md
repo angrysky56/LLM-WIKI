@@ -40,7 +40,7 @@ The architecture maintains end-to-end differentiability and data-driven learning
 
 ## Relevance to EFHF/AGEM/MOP Research
 
-AwareVLN's core contribution — giving a navigation agent the ability to reason about its own state relative to a goal — is analogous to the self-monitoring capabilities that [[efhf]] and [[maximum-occupancy-principle]] require of agent architectures. The idea that reasoning should be *sparse and strategic* (triggered only at key decision nodes) rather than constant parallels MOP's emphasis on efficient resource allocation. The paper also connects to [[verifier-graph]]: verifying whether the agent's current state is consistent with progress toward the goal is a form of internal self-verification. The data engine with progress division is structurally similar to the harness-layer scaffolding in [[moss-self-evolution-source-rewriting-2026]] — both generate structured training data to teach a capability the base model lacks.
+AwareVLN's core contribution — giving a navigation agent the ability to reason about its own state relative to a goal — is analogous to the self-monitoring capabilities that [[efhf]] and [[concepts/maximum-occupancy-principle]] require of agent architectures. The idea that reasoning should be *sparse and strategic* (triggered only at key decision nodes) rather than constant parallels MOP's emphasis on efficient resource allocation. The paper also connects to [[verifier-graph]]: verifying whether the agent's current state is consistent with progress toward the goal is a form of internal self-verification. The data engine with progress division is structurally similar to the harness-layer scaffolding in [[moss-self-evolution-source-rewriting-2026]] — both generate structured training data to teach a capability the base model lacks.
 
 ## Key Quotes
 
@@ -52,4 +52,4 @@ AwareVLN's core contribution — giving a navigation agent the ability to reason
 - [[wiki/index]]
 - [[sources/papers/awarevln-self-aware-vision-language-navigation-2026]]
 - [[awarevln-self-aware-vision-language-navigation-2026]]
-- [[efhf]], [[maximum-occupancy-principle]], [[verifier-graph]], [[agentic-research]]
+- [[efhf]], [[concepts/maximum-occupancy-principle]], [[verifier-graph]], [[agentic-research]]

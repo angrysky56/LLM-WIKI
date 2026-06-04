@@ -230,7 +230,7 @@ Output: entity hits + facts + wiki links + insights
 - [[synapse-retrieval-architecture]] — current pipeline this extends
 - [[synapse-llm-wiki-operating-guide]] — operating procedures this would replace parts of
 - [[persistent-knowledge-compilation]] — paradigm this implements
-- [[load-bearing-reasoning]] — what makes a reasoning trace worth storing (vs. scaffolding)
-- [[maximum-occupancy-principle]] — EFHF Layer 0 connection; absorbing states ↔ stale entity nodes
+- [[concepts/load-bearing-reasoning]] — what makes a reasoning trace worth storing (vs. scaffolding)
+- [[concepts/maximum-occupancy-principle]] — EFHF Layer 0 connection; absorbing states ↔ stale entity nodes
 - [[chain-of-thought]] — the Memory Curse finding: CoT amplifies the curse; structured carryover may be safer than raw CoT storage
 - [[graphrag]] — this is GraphRAG with bounded, SSL-structured, content-curated nodes

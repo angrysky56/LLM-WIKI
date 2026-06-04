@@ -21,4 +21,4 @@ confidence: 0.3
 - [[sources/documentation/isabelle-installation]]
 - [[java]]
 
-- [[maximum-occupancy-principle]]
+- [[concepts/maximum-occupancy-principle]]

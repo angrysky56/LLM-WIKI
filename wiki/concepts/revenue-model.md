@@ -27,4 +27,4 @@ confidence: 0.3
 - [[wiki/index]]
 - [[wiki/concepts/revenue-model]]
 
-- [[maximum-occupancy-principle]]
+- [[concepts/maximum-occupancy-principle]]

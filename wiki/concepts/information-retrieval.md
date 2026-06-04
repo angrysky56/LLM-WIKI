@@ -24,7 +24,7 @@ confidence: 0.3
 - [[wiki/index]]
 - [[information-retrieval]]
 
-- [[maximum-occupancy-principle]]
+- [[concepts/maximum-occupancy-principle]]
 
 - [[text-analysis]]
 - [[is-grep-all-you-need]]

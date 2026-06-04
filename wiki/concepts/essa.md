@@ -93,7 +93,7 @@ ESSA occupies a unique position: gradient-free like ES but with structural induc
 - [[collm-nas]]
 - [[rz-nas]]
 - [[bounded-memory-budget-optimization]]
-- [[maximum-occupancy-principle]]
+- [[concepts/maximum-occupancy-principle]]
 ## Open Questions
 
 1. What singular value spectral properties actually correlate with alignment? Has ESSA reverse-engineered interpretable factors?

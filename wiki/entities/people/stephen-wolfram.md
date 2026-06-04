@@ -38,6 +38,6 @@ Stephen Wolfram is a British-American computer scientist, physicist, and entrepr
 - [[stephen-wolfram]]
 - Project: [[wolfram-physics-project]]
 - Source: [[wolfram-nks-causal-networks]]
-- Concept: [[load-bearing-reasoning]] (distinction from NKS causal graphs)
+- Concept: [[concepts/load-bearing-reasoning]] (distinction from NKS causal graphs)
 
 - [[language-evolution]]

@@ -106,7 +106,7 @@ SHAP explanations can be **manipulated**: an adversary who controls a model's gr
 ## Connections
 
 - [[shapley-values]] — the theoretical foundation (game theory credit allocation); SHAP is the ML-specific instantiation
-- [[maximum-occupancy-principle]] — MOP integration: SHAP-based feature attribution can guide LLM agent memory writes (decide what to commit to long-term memory)
+- [[concepts/maximum-occupancy-principle]] — MOP integration: SHAP-based feature attribution can guide LLM agent memory writes (decide what to commit to long-term memory)
 - [[tabpfn]] — repository entity; TabPFN uses SHAP-based explanations as a built-in extension
 - [[sources/papers/proxy-based-shapley-banzhaf-2026]] — 2026 paper extending SHAP to polynomial-time interaction estimation
 - [[behavioral-credibility-trilemma]] — calibration/autonomy/helpfulness tension; SHAP is a transparency tool

@@ -80,7 +80,7 @@ Formal verification of reasoning chains requires mathematical reasoning:
 2. **Reward hacking detection**: Formal specification of "benign behavior" requires precise mathematical definition
 3. **Safety invariants**: Mathematical proof that a code agent never deletes `/etc` or exfiltrates secrets
 
-The [[load-bearing-reasoning]] framework identifies which inference steps are essential (load-bearing) vs scaffolding. Mathematical reasoning is the paradigm case where every step should be load-bearing — if a proof step isn't essential to the conclusion, the proof is wrong.
+The [[concepts/load-bearing-reasoning]] framework identifies which inference steps are essential (load-bearing) vs scaffolding. Mathematical reasoning is the paradigm case where every step should be load-bearing — if a proof step isn't essential to the conclusion, the proof is wrong.
 
 ## Connections
 - [[scratchpad/jobs/reports/researcher/discovery-2026-06-08]]
@@ -102,7 +102,7 @@ The [[load-bearing-reasoning]] framework identifies which inference steps are es
 - [[formal-verification]] — applying mathematical reasoning to prove system correctness
 - [[interactive-theorem-proving]] — machine-assisted mathematical reasoning
 - [[proof-assistant]] — tools for formal mathematical reasoning
-- [[load-bearing-reasoning]] — which reasoning steps are essential vs scaffolding (proof steps should all be load-bearing)
+- [[concepts/load-bearing-reasoning]] — which reasoning steps are essential vs scaffolding (proof steps should all be load-bearing)
 - [[scaling-laws]] — mathematical forms governing neural network behavior
 - Concept: [[formal-methods]]
 

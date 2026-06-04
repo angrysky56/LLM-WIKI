@@ -66,7 +66,7 @@ The flagellar motor is the canonical case study for "irreducible complexity" arg
 - [[concept-index]]
 
 - [[wolchover-life-force-2026]] — synthesis: the same Boltzmann-bond rectifier architecture appears in Long CoT reasoning
-- [[maximum-occupancy-principle]] — proton-driven motility is literal action-state path-entropy maximization at the cellular scale
+- [[concepts/maximum-occupancy-principle]] — proton-driven motility is literal action-state path-entropy maximization at the cellular scale
 - [[minimal-generative-architectures]] — 5:2 stator as a minimal asymmetric rectifier primitive
 - [[llm-biological-analogies]] — adjacent biological-analogy synthesis (brain anatomy ↔ transformer parts)
 

@@ -80,7 +80,7 @@ The architecture treats verification as a first-class concern, not a post-hoc ch
 
 - [[agentic-research]] — related concept (same underlying idea, different naming)
 - [[world-model]] — the cognitive representation an autonomous agent maintains about its experimental environment
-- [[maximum-occupancy-principle]] — MOP as Layer 0 intrinsic motivation may help prevent the "novelty bias" failure mode (exploring new configurations vs. defaulting to standard ones)
+- [[concepts/maximum-occupancy-principle]] — MOP as Layer 0 intrinsic motivation may help prevent the "novelty bias" failure mode (exploring new configurations vs. defaulting to standard ones)
 - [[code-agent]] — code agents are often the execution arm of autonomous research pipelines
 - [[agent-leak-benchmark]] — related: benchmark for agent information leakage
 - [[agentic-reasoning]]

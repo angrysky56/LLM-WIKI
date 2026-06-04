@@ -70,4 +70,4 @@ The paper also observes a non-monotonic relationship between expert count and se
 - [[mixture-of-experts]] — the architecture studied
 - [[mop-and-rlhf-interaction]] — confirms skewed utilization is real, not just theory
 - [[parameter-efficient-fine-tuning]] — LoRA is the PEFT method used
-- [[maximum-occupancy-principle]] — cold experts represent low-occupancy paths
+- [[concepts/maximum-occupancy-principle]] — cold experts represent low-occupancy paths

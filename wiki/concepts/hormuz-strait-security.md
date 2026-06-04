@@ -26,4 +26,4 @@ confidence: 0.3
 - [[log]]
 - [[hormuz-strait-security]]
 
-- [[maximum-occupancy-principle]]
+- [[concepts/maximum-occupancy-principle]]

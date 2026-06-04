@@ -31,7 +31,7 @@ Four apparently unrelated results share a single structural pattern: **minimal p
 |
 | **NAND** | 1 gate | Circuit composition | Power supply, fan-out limits | All Boolean logic |
 | **[[eml-operator]]** | 1 operator + constant 1 | Binary tree nesting: $S \to 1 \mid \operatorname{eml}(S,S)$ | Complex branch cuts, overflow clamping | All elementary functions |
-| **[[maximum-occupancy-principle]]** | Entropy + absorbing states | Action-state path integration | Energy depletion, terminal states | All goal-directed behavior |
+| **[[concepts/maximum-occupancy-principle]]** | Entropy + absorbing states | Action-state path integration | Energy depletion, terminal states | All goal-directed behavior |
 | **[[utimula-openpraparat-2025]]** | 4 gene actions + natural selection | Book/bookmarker gene expression | Energy metabolism, death | Emergent morphology, reproduction, ecology |
 | **[[transformer-vm-moran-2026]]** | 1 FFN op + attention lookup | Layer-by-layer state transitions | Finite width/depth, slot liveness | Deterministic compiled computation inside transformers |
 
@@ -181,7 +181,7 @@ The original [[mop-edm-cognitive-architecture]] maps MOP into EFHF as Layer 0. A
 - [[minimal-generative-architectures]]
 
 - [[mop-edm-cognitive-architecture]] — parent synthesis; this page extends it with embodied/evolutionary/computational dimensions
-- [[maximum-occupancy-principle]] — foundational theory; OpenPraparat validates its predictions empirically
+- [[concepts/maximum-occupancy-principle]] — foundational theory; OpenPraparat validates its predictions empirically
 - [[eml-operator]] — computational substrate; one operator for all continuous math
 - [[utimula-openpraparat-2025]] — embodied MOP; guideless evolution producing goal-directed behavior
 - [[open-ended-evolution]] — the broader OEE research program

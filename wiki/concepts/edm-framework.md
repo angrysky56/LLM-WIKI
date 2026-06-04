@@ -124,7 +124,7 @@ This means EDM's embedding space encodes enough conceptual structure to detect s
 - [[persistent-knowledge-compilation]] — disruptive papers break compiled knowledge bases
 - Concept: [[critical-analysis]]
 - Concept: [[epistemic-energy]]
-- Concept: [[maximum-occupancy-principle]]
+- Concept: [[concepts/maximum-occupancy-principle]]
 - Concept: [[mop-explorer]]
 - Concept: [[ramirez-ruiz-mop-2024]]
 

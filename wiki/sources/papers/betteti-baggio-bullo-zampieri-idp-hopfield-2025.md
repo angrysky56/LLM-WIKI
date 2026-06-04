@@ -116,9 +116,9 @@ IDP's input-driven reshaping of energy landscapes is a concrete mechanism for th
 ## Connections
 
 - Concept: [[activation-steering]]
-- Concept: [[load-bearing-reasoning]]
+- Concept: [[concepts/load-bearing-reasoning]]
 - Concept: [[bounded-structured-memory]]
-- Concept: [[maximum-occupancy-principle]]
+- Concept: [[concepts/maximum-occupancy-principle]]
 - Concept: [[continual-learning]] (implied, not yet created)
 - Concept: [[hopfield-network]] (stub — needs content)
 - Concept: [[transformer-architecture]]

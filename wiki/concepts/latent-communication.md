@@ -48,7 +48,7 @@ The [[agent-leak-benchmark]] page covers the full LCGuard benchmark. Key metrics
 
 ## Connection to Maximum Occupancy Principle
 
-The [[maximum-occupancy-principle]] (MOP) provides an unexpected angle on latent communication. MOP frames behavior as entropy maximization over action-state paths. Latent communication channels can be understood as **path entropy leaks** — information about which states the agent is visiting leaks through the latent representations even when the textual output remains neutral.
+The [[concepts/maximum-occupancy-principle]] (MOP) provides an unexpected angle on latent communication. MOP frames behavior as entropy maximization over action-state paths. Latent communication channels can be understood as **path entropy leaks** — information about which states the agent is visiting leaks through the latent representations even when the textual output remains neutral.
 
 This creates an alignment tension: an agent optimizing MOP will visit diverse reasoning paths (high state-transition entropy). If those paths contain sensitive intermediate conclusions, the KV-cache encodes the diversity — and thus the sensitivity — even when the final output is sanitized.
 
@@ -63,7 +63,7 @@ This is a privacy-utility tradeoff problem: aggressive sanitization degrades mod
 ## Connections
 
 - [[agent-leak-benchmark]] — the benchmark measuring latent communication leakage
-- [[maximum-occupancy-principle]] — behavioral theory connecting path entropy to latent information
+- [[concepts/maximum-occupancy-principle]] — behavioral theory connecting path entropy to latent information
 - [[adversarial-training]] — the primary defense mechanism
 - [[multi-agent-llm-systems]] — systems where shared KV caches create the attack surface
 - [[privacy-utility-tradeoff]] — the fundamental tension in defending against latent communication

@@ -56,7 +56,7 @@ Active regions of the evolved book constitute only ~1.7% of total length. ~97.5%
 
 ## Connections
 
-- [[maximum-occupancy-principle]] — MOP's path-entropy maximization provides a theoretical framework for why guideless systems explore diverse survival strategies; OpenPraparat is empirical evidence of this principle in action
+- [[concepts/maximum-occupancy-principle]] — MOP's path-entropy maximization provides a theoretical framework for why guideless systems explore diverse survival strategies; OpenPraparat is empirical evidence of this principle in action
 - [[eml-operator]] — the "persistent pattern search" philosophy parallels EML's minimal-primitive approach: both seek what emerges from the simplest possible generative rules
 - [[sheffer-stroke]] — conceptual parallel: minimal computational primitives (4 gene actions) generating complex emergent behavior
 - [[efhf]] — the book/bookmarker mechanism could be modeled as an epsilon machine with causal states; energy transport emergence as a phase transition is a lumpability event

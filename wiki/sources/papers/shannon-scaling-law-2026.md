@@ -78,7 +78,7 @@ This reconciles the apparent contradiction: monotonic pretraining curves are a *
 
 **[[verifier-graph]]**: Verification at inference time is analogous to receiver-side error correction in a noisy channel. The verifier-graph must operate within the SNR budget established by the Shannon capacity — if the verifier's confidence scores don't track actual reliability, the system is operating below the capacity bound and will produce overconfident failures. The paper's SNR analysis (signal / noise) maps to the verifier's reliability ratio.
 
-**[[maximum-occupancy-principle]]**: MOP's "maximum occupancy" of semantic space has an analog in information theory: channel capacity is maximized at optimal SNR. Beyond the optimal operating point, increasing bandwidth (model size) without improving SNR decreases effective capacity — a precise formalization of MOP's saturation intuition.
+**[[concepts/maximum-occupancy-principle]]**: MOP's "maximum occupancy" of semantic space has an analog in information theory: channel capacity is maximized at optimal SNR. Beyond the optimal operating point, increasing bandwidth (model size) without improving SNR decreases effective capacity — a precise formalization of MOP's saturation intuition.
 
 **[[mop-explorer]]**: The MOP explorer's bounded exploration strategy parallels the paper's finding that effective capacity is noise-limited. Agents that don't account for capacity collapse (SNR degradation) will exploration-explode their state space without corresponding gains.
 

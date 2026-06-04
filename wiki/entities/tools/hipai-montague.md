@@ -52,7 +52,7 @@ Layer 2 — maintains the distribution-independent world model. Hypotheses gener
 - [[mcp-logic]] — Layer 3; verifies beliefs encoded here
 - [[mop-explorer]] — encodes hypotheses from MOP exploration
 - [[mop-edm-cognitive-architecture]] — world model for cognitive MOP agents
-- [[load-bearing-reasoning]]
+- [[concepts/load-bearing-reasoning]]
 - [[spike-campaign-001-004-summary]]
 - [[cognitive-world-models-for-llm-agents]]
 - [[tyler-hall]]

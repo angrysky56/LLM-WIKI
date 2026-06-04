@@ -24,6 +24,6 @@ confidence: 0.3
 - [[log]]
 - [[directed-preferential-placement]]
 
-- [[maximum-occupancy-principle]]
+- [[concepts/maximum-occupancy-principle]]
 
 - [[language-evolution]]

@@ -73,7 +73,7 @@ A consolidating paper is in-distribution with respect to the field's current eps
 
 This synthesis is the theoretical bridge connecting three frameworks:
 
-**MOP's β parameter = state-splitting appetite.** When a [[maximum-occupancy-principle]] agent seeks high state entropy (β), it intentionally hunts for state-splitting events — discoveries that force the conceptual epsilon machine to grow. Each genuine high-Δ event increases the statistical complexity (excess entropy) of the world model. MOP selects for *coherent* complexity growth because absorbing states (contradictions) are terminal. See [[mop-edm-cognitive-architecture]] for the full synthesis.
+**MOP's β parameter = state-splitting appetite.** When a [[concepts/maximum-occupancy-principle]] agent seeks high state entropy (β), it intentionally hunts for state-splitting events — discoveries that force the conceptual epsilon machine to grow. Each genuine high-Δ event increases the statistical complexity (excess entropy) of the world model. MOP selects for *coherent* complexity growth because absorbing states (contradictions) are terminal. See [[mop-edm-cognitive-architecture]] for the full synthesis.
 
 **EFHF's lumpability = controlled disruption.** The [[efhf]] architecture defines hallucination as lumpability failure — the model's macro-level predictions no longer commute with micro-level reality. This is the *same phenomenon* as uncontrolled high-Δ disruption in EDM terms, and as entering absorbing state territory without energy to return in MOP terms. The sheaf-consistency-enforcer detects this via coboundary norms between agents.
 
@@ -138,7 +138,7 @@ Within [[project-synapse]]'s [[zettelkasten-engine]]:
 - [[causal-state-edm-ood-isomorphism]]
 
 - [[edm-framework]] — source paper; formal math and empirical results
-- [[maximum-occupancy-principle]] — MOP's β = state-splitting appetite; absorbing states = Kernel 2
+- [[concepts/maximum-occupancy-principle]] — MOP's β = state-splitting appetite; absorbing states = Kernel 2
 - [[efhf]] — lumpability framework; hallucination as lumpability failure
 - [[mop-edm-cognitive-architecture]] — full synthesis connecting all three frameworks
 - [[zettelkasten-engine]] — disruption/convergence as curation heuristics

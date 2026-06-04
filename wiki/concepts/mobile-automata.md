@@ -21,6 +21,6 @@ confidence: 0.3
 - [[concepts/mobile-automata]]
 - [[mobile-automata]]
 
-- [[maximum-occupancy-principle]]
+- [[concepts/maximum-occupancy-principle]]
 
 - [[wolfram-nks-causal-networks]]

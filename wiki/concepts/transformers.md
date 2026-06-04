@@ -71,7 +71,7 @@ Pure transformers have no native recurrence — each layer processes the same in
 - [[state-space-models]]: Alternative to attention for long-range dependencies (Mamba)
 - [[titans]]: Adds neural long-term memory module to transformer stack
 - [[inference-time-compute-scaling]]: How test-time compute (longer sequences, more layers) improves outputs
-- [[load-bearing-reasoning]]: Attention heads as the load-bearing structure for reasoning traces
+- [[concepts/load-bearing-reasoning]]: Attention heads as the load-bearing structure for reasoning traces
 - [[chain-of-thought]]: Emergent reasoning behavior in large decoder-only transformers
 
 ## Limitations

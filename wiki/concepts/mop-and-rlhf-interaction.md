@@ -154,7 +154,7 @@ However, GRPO has not been specifically studied in the MoE fine-tuning context �
 - [[wiki/sources/papers/on-the-representation-collapse-of-sparse-mixture-of-experts]]
 - [[mop-and-rlhf-interaction]]
 
-- [[maximum-occupancy-principle]] — MOP's entropy maximization principle
+- [[concepts/maximum-occupancy-principle]] — MOP's entropy maximization principle
 - [[ramirez-ruiz-mop-2024]] — source paper; Supplemental Sec. F contains the KL formal critique
 - [[group-relative-policy-optimization]] — GRPO, the most compatible existing algorithm
 - [[mixture-of-experts]] — where this tension is most acute; routing collapse under RLHF confirmed

@@ -34,7 +34,7 @@ confidence: 0.3
 - [[concepts/ai-governance]]
 - [[public-health-governance]]
 
-- [[maximum-occupancy-principle]]
+- [[concepts/maximum-occupancy-principle]]
 
 - [[ai-governance]]
 - [[ai-policy-arms-control-treaty]]

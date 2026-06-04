@@ -21,4 +21,4 @@ confidence: 0.3
 - [[concepts/blackmail]]
 - [[blackmail]]
 
-- [[maximum-occupancy-principle]]
+- [[concepts/maximum-occupancy-principle]]

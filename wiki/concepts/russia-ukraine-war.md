@@ -24,4 +24,4 @@ confidence: 0.3
 - [[sources/news/2026/nato-troops-poland-may-2026]]
 - [[russia-ukraine-war]]
 
-- [[maximum-occupancy-principle]]
+- [[concepts/maximum-occupancy-principle]]

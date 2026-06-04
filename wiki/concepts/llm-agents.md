@@ -16,6 +16,6 @@ confidence: 0.3
 This stub has been archived. The canonical treatment of LLM agents is in [[agents]].
 
 ## Connections
-- [[maximum-occupancy-principle]]
+- [[concepts/maximum-occupancy-principle]]
 - [[autonomous-agents]] — LLM agents are a subclass of autonomous agents focused on large language model-based planning and reasoning
 - [[agents]]

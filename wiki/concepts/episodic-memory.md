@@ -22,6 +22,6 @@ confidence: 0.3
 - [[concepts/maximum-occupancy-principle]]
 - [[episodic-memory]]
 
-- [[maximum-occupancy-principle]]
+- [[concepts/maximum-occupancy-principle]]
 
 - [[recuriosity-episodic-context-3d-exploration-2026]]

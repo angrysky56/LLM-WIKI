@@ -29,7 +29,7 @@ Yes — but only for one class of OOD. The boundary between "fixable by sampling
 
 **Entropy-Cut MH ([[entropy-cut-mh-reasoning-2026]]).** Next-token entropy locates consequential decision points in a *generated* trace. Cut there, resample the suffix, accept/reject via Metropolis–Hastings. Mixing time scales with the number of decision points, not token count. Training-free, dataset-free, verifier-free — and it rests on the "reasoning is already in the base model" thesis (Karan & Du).
 
-Shared structure: **reasoning is a few load-bearing junctions buried in many inert tokens** ([[load-bearing-reasoning]]). Paper 1 locates failure junctions mechanistically; Paper 2 locates decision junctions statistically.
+Shared structure: **reasoning is a few load-bearing junctions buried in many inert tokens** ([[concepts/load-bearing-reasoning]]). Paper 1 locates failure junctions mechanistically; Paper 2 locates decision junctions statistically.
 
 ## The Locus Mismatch (resolve this first)
 
@@ -84,7 +84,7 @@ Net: training-free repair on the recombination side; a *detector*, not a fix, on
 
 ## Connection to Existing Frameworks
 
-- **MOP** ([[maximum-occupancy-principle]]): β = state-splitting appetite. Recombination-OOD is path occupancy *within* existing states; capability-OOD requires genuine state-splitting, which sampling cannot supply. KL-regularized RLHF (which MOP critiques) pulls *toward* the old modes — the opposite of the mode-switching that repair needs.
+- **MOP** ([[concepts/maximum-occupancy-principle]]): β = state-splitting appetite. Recombination-OOD is path occupancy *within* existing states; capability-OOD requires genuine state-splitting, which sampling cannot supply. KL-regularized RLHF (which MOP critiques) pulls *toward* the old modes — the opposite of the mode-switching that repair needs.
 - **EFHF / hallucination**: confident silent failure is lumpability failure at *low* entropy — the case the entropy detector misses but a sheaf/mechanistic detector should catch.
 - **EDM isomorphism** ([[causal-state-edm-ood-isomorphism]]): answers its Open Question 3 (which internal representation serves as past/future vector) for one task class — the entity-state aggregation site at the final token, with suppression-tag activation as the disruption signal.
 
@@ -145,9 +145,9 @@ This sharpens the recombination-OOD reading: the capability was latent, and the 
 - [[chen-molecular-cot-2026]] — CoT topology; the externalization target
 - [[engineering-internal-awareness]] — knowledge-vs-awareness diagnostic = the OOD boundary
 - [[metacognitive-architecture-closed-loop-self-regulation]] — abstain/tool-call gate for silent failures
-- [[load-bearing-reasoning]] — sparse consequential junctions
+- [[concepts/load-bearing-reasoning]] — sparse consequential junctions
 - [[chain-of-thought]] — externalization medium
-- [[maximum-occupancy-principle]] — β = state-splitting appetite; RLHF KL pull
+- [[concepts/maximum-occupancy-principle]] — β = state-splitting appetite; RLHF KL pull
 - [[mechanistic-interpretability]] — source of the non-entropy cut signal
 - [[mop-edm-cognitive-architecture]] — fuller framework synthesis
 - [[cross-layer-drift-falsification]] — same lesson, mechanistic side: wrong observable for where the signal lives

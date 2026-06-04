@@ -34,5 +34,5 @@ Language evolution refers to the processes by which human languages change in st
 - [[sources/articles/language-evolution]]
 - [[wiki/index]]
 - Concept: [[length-generalization]]
-- Concept: [[load-bearing-reasoning]]
+- Concept: [[concepts/load-bearing-reasoning]]
 - Source: [[language-evolution|Gemini Review on Language Evolution]]

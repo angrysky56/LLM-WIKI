@@ -75,7 +75,7 @@ Isabelle/HOL is relevant to AI alignment:
 
 1. **Verifying agent safety invariants**: Can we prove an agent won't take certain harmful actions under specific conditions? Formal specifications in Isabelle/HOL, verified against agent code.
 
-2. **Reasoning chain verification**: The [[load-bearing-reasoning]] framework identifies critical steps; Isabelle/HOL could prove invariants on those steps (e.g., constitutional constraints).
+2. **Reasoning chain verification**: The [[concepts/load-bearing-reasoning]] framework identifies critical steps; Isabelle/HOL could prove invariants on those steps (e.g., constitutional constraints).
 
 3. **Multi-agent protocol verification**: Agent coordination protocols (message passing, shared state) can be verified for deadlock freedom, information isolation, liveness.
 
@@ -88,5 +88,5 @@ Isabelle/HOL is relevant to AI alignment:
 - [[formal-methods]] — the broader field
 - [[formal-verification]] — applying Isabelle/HOL to verify systems
 - [[interactive-theorem-proving]] — the practice
-- [[load-bearing-reasoning]] — reasoning chains that could be verified in Isabelle/HOL
+- [[concepts/load-bearing-reasoning]] — reasoning chains that could be verified in Isabelle/HOL
 - [[hermes-agent]] — potential use of Isabelle/HOL in the Hermes agent framework

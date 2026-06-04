@@ -25,6 +25,6 @@ confidence: 0.3
 - [[sources/news/2026/sti-record-levels-europe-2026]]
 - [[global-health-security]]
 
-- [[maximum-occupancy-principle]]
+- [[concepts/maximum-occupancy-principle]]
 
 - [[ebola-outbreak-drc-2026]]

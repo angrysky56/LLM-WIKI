@@ -43,5 +43,5 @@ Supertokens provide a window into the model's internal process using **Causal Me
 ## Connections
 - Concept: [[chain-of-thought]]
 - Concept: [[supertokens]]
-- Concept: [[load-bearing-reasoning]]
+- Concept: [[concepts/load-bearing-reasoning]]
 - Tool: [[superbpe]]

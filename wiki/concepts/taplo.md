@@ -21,6 +21,6 @@ confidence: 0.3
 - [[concepts/maximum-occupancy-principle]]
 - [[taplo]]
 
-- [[maximum-occupancy-principle]]
+- [[concepts/maximum-occupancy-principle]]
 
 - [[github-actions-troubleshooting]]

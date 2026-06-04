@@ -1,4 +1,3 @@
-
 ---
 created: 2026-05-21T16:50:00Z
 updated: 2026-05-21T16:50:00Z
@@ -51,7 +50,7 @@ Two scaling axes:
 - [[chen-molecular-cot-2026]] — molecular CoT three-bond structure maps onto attractor basin topology
 - [[self-prompting-via-production-stage-architecture]] — self-directed compute = attractor navigation
 - [[bae-mor-2025]] — MoR's dynamic recursion depth routing may implement multi-scale attractor traversal
-- [[load-bearing-reasoning]] — attractor fixed points are the load-bearing reasoning outcomes; scaffolding tokens maintain basin structure
+- [[concepts/load-bearing-reasoning]] — attractor fixed points are the load-bearing reasoning outcomes; scaffolding tokens maintain basin structure
 
 ## Caveats
 

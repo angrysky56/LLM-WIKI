@@ -23,4 +23,4 @@ confidence: 0.3
 - [[log]]
 - [[who-emergency-declaration]]
 
-- [[maximum-occupancy-principle]]
+- [[concepts/maximum-occupancy-principle]]

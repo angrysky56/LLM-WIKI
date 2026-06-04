@@ -33,6 +33,6 @@ confidence: 0.3
 - [[sources/news/2026/ebola-bundibugyo-who-ec-recommendations-follow-up-may-2026]]
 - [[who-emergency-declarations]]
 
-- [[maximum-occupancy-principle]]
+- [[concepts/maximum-occupancy-principle]]
 
 - [[ebola-outbreak-drc-2026]]

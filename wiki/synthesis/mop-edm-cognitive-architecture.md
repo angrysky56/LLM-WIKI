@@ -12,7 +12,7 @@ confidence: 0.6
 # MOP-EDM Cognitive Architecture
 
 **Type:** Synthesis — original cross-domain design
-**Origin:** Ty (2026-04-13), building on [[maximum-occupancy-principle]], [[edm-framework]], [[causal-state-edm-ood-isomorphism]], [[efhf]]
+**Origin:** Ty (2026-04-13), building on [[concepts/maximum-occupancy-principle]], [[edm-framework]], [[causal-state-edm-ood-isomorphism]], [[efhf]]
 **Confidence:** 0.80 — conceptual framework grounded in formal results; KL insight confirmed by MOP paper; AbsorbingState→Kernel2Transition proved (Prover9); EFHF integration at WEAK closure status
 
 
@@ -211,7 +211,7 @@ MOP formally proves: when utility serves entropy (possibility), agents survive, 
 - [[synthesis/mop-edm-cognitive-architecture]]
 - [[mop-edm-cognitive-architecture]]
 
-- [[maximum-occupancy-principle]] — foundational theory
+- [[concepts/maximum-occupancy-principle]] — foundational theory
 - [[ramirez-ruiz-mop-2024]] — source paper
 - [[efhf]] — the five-layer architecture MOP integrates with as Layer 0
 - [[edm-framework]] — disruption measurement providing the Δ signal

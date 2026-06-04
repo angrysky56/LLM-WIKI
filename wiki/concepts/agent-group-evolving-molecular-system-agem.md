@@ -26,4 +26,4 @@ confidence: 0.3
 - [[agent-group-evolving-molecular-system-agem]]
 - [[entities/projects/tys-repos/verifier-graph]]: Verifier-Graph tracks the evolution of agent reasoning states within the AGEM molecular dynamics model
 
-- [[maximum-occupancy-principle]]
+- [[concepts/maximum-occupancy-principle]]

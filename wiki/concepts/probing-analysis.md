@@ -23,7 +23,7 @@ confidence: 0.3
 - [[log]]
 - [[probing-analysis]]
 
-- [[maximum-occupancy-principle]]
+- [[concepts/maximum-occupancy-principle]]
 
 - [[motion-understanding]]
 - [[vision-language-alignment]]

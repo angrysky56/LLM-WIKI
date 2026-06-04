@@ -25,6 +25,6 @@ confidence: 0.3
 - [[concepts/spacex-starship-development]]
 - [[spacex-starship-development]]
 
-- [[maximum-occupancy-principle]]
+- [[concepts/maximum-occupancy-principle]]
 
 - [[spacex]]

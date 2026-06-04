@@ -25,7 +25,7 @@ confidence: 0.3
 - [[concepts/maximum-occupancy-principle]]
 - [[business-model]]
 
-- [[maximum-occupancy-principle]]
+- [[concepts/maximum-occupancy-principle]]
 
 - [[saas-pricing]]
 - [[saas]]

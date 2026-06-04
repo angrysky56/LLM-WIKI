@@ -116,7 +116,7 @@ Biological and some AI systems implement hierarchical predictive coding: each la
 - [[world-model]]
 
 - [[mop-edm-cognitive-architecture]] — L2 world model encoding in the MOP-EDM framework
-- [[maximum-occupancy-principle]] — MOP generates the exploration targets the world model is tested against
+- [[concepts/maximum-occupancy-principle]] — MOP generates the exploration targets the world model is tested against
 - [[recuriosity-episodic-context-3d-exploration-2026]] — persistent 3D world model for exploration agents
 - [[futuresim-adaptive-agents]] — world modeling failure in frontier agents (only 25% accurate on temporal modeling)
 - [[hipai-montague]] — the cognitive world model in the EFHF stack

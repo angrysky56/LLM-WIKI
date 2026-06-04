@@ -24,4 +24,4 @@ confidence: 0.3
 - [[concepts/maximum-occupancy-principle]]
 - [[autopoiesis]]
 
-- [[maximum-occupancy-principle]]
+- [[concepts/maximum-occupancy-principle]]

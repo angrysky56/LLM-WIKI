@@ -24,4 +24,4 @@ confidence: 0.3
 - [[log]]
 - [[functional-emotions]]
 
-- [[maximum-occupancy-principle]]
+- [[concepts/maximum-occupancy-principle]]

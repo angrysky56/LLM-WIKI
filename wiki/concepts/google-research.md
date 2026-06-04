@@ -24,6 +24,6 @@ confidence: 0.3
 - [[concepts/maximum-occupancy-principle]]
 - [[google-research]]
 
-- [[maximum-occupancy-principle]]
+- [[concepts/maximum-occupancy-principle]]
 
 - [[titans-test-time-memory]]

@@ -70,7 +70,7 @@ This addresses ActAdd's "one-size-fits-all" problem: a single steering vector fo
 
 Designed for agentic tasks where behavioral diversity (not correctness) is the goal:
 - Compute a steering vector that *maximizes output entropy* — encourages the model to explore diverse completions
-- Connection to [[maximum-occupancy-principle]]: MOP seeks high action-state path entropy; EAST seeks high outputentropy during inference
+- Connection to [[concepts/maximum-occupancy-principle]]: MOP seeks high action-state path entropy; EAST seeks high outputentropy during inference
 
 ### Dynamic Activation Composition
 

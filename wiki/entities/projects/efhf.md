@@ -43,7 +43,7 @@ A five-layer AI architecture implementing computational mechanics concepts (epsi
 
 ## Connection to MOP
 
-The [[maximum-occupancy-principle]] fills a specific gap: EFHF is reactive (waits for input); MOP makes it proactive (generates exploration targets). The mapping:
+The [[concepts/maximum-occupancy-principle]] fills a specific gap: EFHF is reactive (waits for input); MOP makes it proactive (generates exploration targets). The mapping:
 
 - MOP absorbing states = Kernel 2 transitions (proved)
 - MOP energy = buffering capacity T
@@ -118,7 +118,7 @@ The [[maximum-occupancy-principle]] fills a specific gap: EFHF is reactive (wait
 - [[sources/papers/behavioral-credibility-trilemma]]
 - [[efhf]]
 
-- [[maximum-occupancy-principle]] — Layer 0 motivation theory
+- [[concepts/maximum-occupancy-principle]] — Layer 0 motivation theory
 - [[mop-edm-cognitive-architecture]] — full synthesis of MOP + EDM + EFHF
 - [[edm-framework]] — disruption measurement; high Δ = state-splitting = lumpability shift
 - [[causal-state-edm-ood-isomorphism]] — epsilon machine bridge connecting EDM, EFHF, and MOP
@@ -138,7 +138,7 @@ The [[maximum-occupancy-principle]] fills a specific gap: EFHF is reactive (wait
 - [[mcp-model-context-protocol]]
 - [[graph-rlm]]
 - [[bounded-rationality]]
-- [[maximum-occupancy-principle]]
+- [[concepts/maximum-occupancy-principle]]
 - [[mcp-coordinator]]
 - [[nexus]]
 - [[motion-understanding]]

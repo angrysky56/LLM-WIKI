@@ -14,7 +14,7 @@ sources: []
 
 # Intelligence as Entropic Sculpting
 
-This synthesis connects the [[spontaneous-activity-reshaping-hypothesis]] (SARH) with the [[maximum-occupancy-principle]] (MOP) to propose a unified view of intelligence as a process of managed entropy.
+This synthesis connects the [[spontaneous-activity-reshaping-hypothesis]] (SARH) with the [[concepts/maximum-occupancy-principle]] (MOP) to propose a unified view of intelligence as a process of managed entropy.
 
 ## The Isomorphism
 
@@ -52,7 +52,7 @@ This synthesis suggests that **Layer 0** of the [[efhf]] architecture (MOP) prov
 - [[synthesis/llm-biological-analogies]]
 
 - **Entities:** [[roger-koenig-robert]]
-- **Concepts:** [[spontaneous-activity-reshaping-hypothesis]], [[maximum-occupancy-principle]], [[efhf]], [[aphantasia]]
+- **Concepts:** [[spontaneous-activity-reshaping-hypothesis]], [[concepts/maximum-occupancy-principle]], [[efhf]], [[aphantasia]]
 - **Parallel:** [[intelligence-as-entropic-sculpting]] (rectifying entropic energy into torque/logic)
 - [[mop-edm-cognitive-architecture]]
 - [[minimal-generative-architectures]]

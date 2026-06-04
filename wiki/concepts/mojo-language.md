@@ -24,4 +24,4 @@ confidence: 0.3
 - [[wiki/index]]
 - [[mojo-language]]
 
-- [[maximum-occupancy-principle]]
+- [[concepts/maximum-occupancy-principle]]

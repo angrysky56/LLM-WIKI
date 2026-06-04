@@ -90,7 +90,7 @@ RZ-NAS achieves the lowest evaluation cost (forward pass only) with the most sop
 - [[ml-evolution]] — zero-cost proxy search is the extreme end of "cheap evaluation" in guided ML evolution
 - [[collm-nas]] — complementary NAS method; CoLLM-NAS uses LLM guidance, RZ-NAS uses proxy-based evaluation
 - [[evolutionary-strategies]] — RZ-NAS can be viewed as ES where the fitness function is the reflection-weighted proxy (not training loss)
-- [[maximum-occupancy-principle]] — reflection module parallels MOP's exploration model; both maintain adaptive models of reliability
+- [[concepts/maximum-occupancy-principle]] — reflection module parallels MOP's exploration model; both maintain adaptive models of reliability
 - [[essa]] — both RZ-NAS and ESSA aim for gradient-free search; RZ-NAS avoids training via proxies, ESSA avoids RLHF via singular value mutations
 - [[namm]] — both use learnable "reflection" mechanisms to make black-box search tractable (proxy reliability for RZ-NAS, KV retention for NAMM)
 

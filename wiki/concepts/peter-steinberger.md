@@ -21,4 +21,4 @@ confidence: 0.3
 - [[concepts/peter-steinberger]]
 - [[peter-steinberger]]
 
-- [[maximum-occupancy-principle]]
+- [[concepts/maximum-occupancy-principle]]

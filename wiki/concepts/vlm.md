@@ -24,4 +24,4 @@ confidence: 0.3
 - [[concepts/vlm]]
 - [[vlm]]
 
-- [[maximum-occupancy-principle]]
+- [[concepts/maximum-occupancy-principle]]

@@ -75,7 +75,7 @@ Complex features require many reasoning steps. Code generation systems exhibit:
 
 ## Code Generation and the MOP Connection
 
-Code generation is interesting from a [[maximum-occupancy-principle]] perspective because code is a low-entropy, highly structured output space. The model isn't maximizing path entropy over arbitrary text — it's searching a structured program space where valid programs are a tiny subset of all possible strings.
+Code generation is interesting from a [[concepts/maximum-occupancy-principle]] perspective because code is a low-entropy, highly structured output space. The model isn't maximizing path entropy over arbitrary text — it's searching a structured program space where valid programs are a tiny subset of all possible strings.
 
 The [[swe-bench]] failure pattern — low overall scores despite frontier models — suggests that the program's search space is sufficiently constrained that random exploration (sampling) is inefficient. Better search strategies (causal reasoning, MCTS-style exploration, verification-guided search) are what separate higher-scoring systems.
 
@@ -114,10 +114,10 @@ Code generation requires multiple reasoning modes:
 
 - [[code-agent]] — full system that uses code generation as one capability
 - [[swe-bench]] — realistic evaluation benchmark for code generation
-- [[maximum-occupancy-principle]] — structured search space of valid programs
+- [[concepts/maximum-occupancy-principle]] — structured search space of valid programs
 - [[llm-agent-architecture]] — runtime architecture for code generation systems
 - [[benchmark]] — evaluation methodology
-- [[load-bearing-reasoning]] — critical reasoning steps in generating correct code
+- [[concepts/load-bearing-reasoning]] — critical reasoning steps in generating correct code
 - Concept: [[MCTS]]
 
 

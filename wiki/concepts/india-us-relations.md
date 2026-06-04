@@ -21,4 +21,4 @@ confidence: 0.3
 - [[concepts/india-us-relations]]
 - [[india-us-relations]]
 
-- [[maximum-occupancy-principle]]
+- [[concepts/maximum-occupancy-principle]]

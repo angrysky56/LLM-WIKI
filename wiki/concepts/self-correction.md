@@ -105,7 +105,7 @@ For agentic systems, self-correction at the action level prevents cascading fail
 - [[cognitive-architecture]] — MCM framework where self-correction is the control output
 - [[chain-of-thought]] — CoT provides the substrate for implicit self-correction; explicit CoT often includes self-correction as a step
 - [[process-reward-model]] — Both PRM and self-correction involve evaluating intermediate steps; PRM provides a learned reward signal, self-correction uses the model's own judgment
-- [[load-bearing-reasoning]] — Identifies which reasoning steps are essential vs. scaffolding; self-correction often removes or revises scaffolding steps
+- [[concepts/load-bearing-reasoning]] — Identifies which reasoning steps are essential vs. scaffolding; self-correction often removes or revises scaffolding steps
 - [[agent-taxonomies]] — The Epsilon archetype specifically implements assumption validation and self-correction triggers
 - [[agentic-research]] — Self-correction is essential for agentic research loops to handle implementation drift
 - Concept: [[engineering-internal-awareness]]

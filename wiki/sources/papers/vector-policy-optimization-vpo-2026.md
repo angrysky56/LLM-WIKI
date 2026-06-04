@@ -178,5 +178,5 @@ VPO's training dynamics (preserving a population of competent alternatives long 
 - [[alphaevolve]] — evolutionary test-time search; VPO unlocks problems GRPO cannot solve in this setting
 - [[reward-modeling]] — VPO exploits vector-valued reward structure; relates to ORM vs PRM distinction
 - [[agentic-research]] — VPO directly enables diverse hypothesis generation for research agents
-- [[maximum-occupancy-principle]] — structural analog: both prevent collapse to single mode by maintaining population-level diversity
+- [[concepts/maximum-occupancy-principle]] — structural analog: both prevent collapse to single mode by maintaining population-level diversity
 - [[verifier-graph]] — diverse candidate sets from VPO could serve as anchors for reasoning graph construction

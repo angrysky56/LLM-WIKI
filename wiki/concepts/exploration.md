@@ -60,7 +60,7 @@ Ensure the agent visits a diverse set of states:
 
 - **Count-based exploration**: Reward states proportional to how rarely they've been visited
 - **Pseudo-counts**: Extend count-based methods to continuous spaces
-- **Maximum-occupancy planning**: Keep state visitation close to a target distribution (see [[maximum-occupancy-principle]])
+- **Maximum-occupancy planning**: Keep state visitation close to a target distribution (see [[concepts/maximum-occupancy-principle]])
 
 ### Bayesian Exploration
 
@@ -83,7 +83,7 @@ The challenge is that the "state space" of language is combinatorially large, an
 
 - [[exploitation]] — the other side of the tradeoff
 - [[reinforcement-learning]] — the broader RL context
-- [[maximum-occupancy-principle]] — coverage-based exploration as capacity planning
+- [[concepts/maximum-occupancy-principle]] — coverage-based exploration as capacity planning
 - [[recuriosity-episodic-context-3d-exploration-2026]] — the amnesiac exploration failure mode and persistent world model solution
 - [[orthogonal-bottlenecks-rl]] — how low-dimensional representation structure affects exploration
 - [[curiosity-driven-exploration]] — Recuriosity's specific approach

@@ -24,4 +24,4 @@ confidence: 0.3
 - [[concepts/maximum-occupancy-principle]]
 - [[trump-administration-national-security]]
 
-- [[maximum-occupancy-principle]]
+- [[concepts/maximum-occupancy-principle]]

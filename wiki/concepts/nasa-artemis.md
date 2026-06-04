@@ -24,4 +24,4 @@ confidence: 0.3
 - [[sources/news/2026/spacex-starship-v3-launch-may-2026]]
 - [[nasa-artemis]]
 
-- [[maximum-occupancy-principle]]
+- [[concepts/maximum-occupancy-principle]]

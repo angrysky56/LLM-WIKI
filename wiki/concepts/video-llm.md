@@ -77,7 +77,7 @@ A notable result: synthetic-only training (on simple geometric primitives) trans
 - [[motion-understanding]] — temporal dynamics and motion perception
 - [[delta-direct]] — the specific paper with directional motion blindness findings
 - [[probing-analysis]] — linear probing as diagnostic technique for representation analysis
-- [[maximum-occupancy-principle]] — the readout token as a binding bottleneck (MOP analogy)
+- [[concepts/maximum-occupancy-principle]] — the readout token as a binding bottleneck (MOP analogy)
 
 ## Open Questions
 

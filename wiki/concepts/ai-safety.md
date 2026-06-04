@@ -26,7 +26,7 @@ confidence: 0.3
 - [[sources/articles/emotion-concepts-llm]]
 - [[ai-safety]]
 
-- [[maximum-occupancy-principle]]
+- [[concepts/maximum-occupancy-principle]]
 
 - [[anthropic]]
 - [[ai-policy-arms-control-treaty]]

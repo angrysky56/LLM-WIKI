@@ -24,4 +24,4 @@ confidence: 0.3
 - [[log]]
 - [[geometric-hashing]]
 
-- [[maximum-occupancy-principle]]
+- [[concepts/maximum-occupancy-principle]]

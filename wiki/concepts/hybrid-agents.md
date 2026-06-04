@@ -88,7 +88,7 @@ Critically, the deliberative layer itself generates the sub-tasks that the react
 
 ## Connection to MOP
 
-In the [[maximum-occupancy-principle]] framework, hybrid architecture corresponds to **Layer 1 (Goal Inference and Intent Alignment)** for the deliberative path and **Layer 0 (Intrinsic Motivation)** for the routing decision. The reactive layer handles routine goals that don't require layered processing.
+In the [[concepts/maximum-occupancy-principle]] framework, hybrid architecture corresponds to **Layer 1 (Goal Inference and Intent Alignment)** for the deliberative path and **Layer 0 (Intrinsic Motivation)** for the routing decision. The reactive layer handles routine goals that don't require layered processing.
 
 The [[bounded-rationality]] concept explains why the routing exists at all: cognitive resources are bounded, so the agent must decide when the marginal value of deliberation exceeds its cost.
 
@@ -106,7 +106,7 @@ The [[bounded-rationality]] concept explains why the routing exists at all: cogn
 - [[reactive-agents]]: pure reactive (no deliberative layer)
 - [[meta-cognitive-agents]]: adds explicit self-monitoring to the architecture
 - [[bounded-rationality]]: explains why mode switching is necessary (resource boundedness)
-- [[maximum-occupancy-principle]]: MOP Layer 0/1 framework for the routing decision
+- [[concepts/maximum-occupancy-principle]]: MOP Layer 0/1 framework for the routing decision
 - [[agent-architectures]]: taxonomy that contains this pattern
 
 - [[agents]]

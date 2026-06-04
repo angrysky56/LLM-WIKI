@@ -37,6 +37,6 @@ The Ralph Loop (autonomous AI coding loop driven by a PRD) can be transformed fr
 
 ## Connections
 
-- [[maximum-occupancy-principle]] — the behavioral theory driving the exploration
+- [[concepts/maximum-occupancy-principle]] — the behavioral theory driving the exploration
 - [[mop-edm-cognitive-architecture]] — the full synthesis document building on these ideas
 - [[project-synapse]] — the knowledge infrastructure for epistemic energy replenishment

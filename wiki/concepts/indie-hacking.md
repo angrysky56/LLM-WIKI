@@ -24,4 +24,4 @@ confidence: 0.3
 - [[sources/articles/solo-preneur]]
 - [[indie-hacking]]
 
-- [[maximum-occupancy-principle]]
+- [[concepts/maximum-occupancy-principle]]

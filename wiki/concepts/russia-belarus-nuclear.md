@@ -25,4 +25,4 @@ confidence: 0.3
 - [[log]]
 - [[russia-belarus-nuclear]]
 
-- [[maximum-occupancy-principle]]
+- [[concepts/maximum-occupancy-principle]]

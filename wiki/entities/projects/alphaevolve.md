@@ -40,7 +40,7 @@ Deployed to Gemini's training infrastructure: 23% average GEMM kernel speedup, 1
 
 ## MGA Pattern
 
-AlphaEvolve instantiates the [[minimal-generative-architectures]] pattern: minimal primitives (LLM diff-mutations + fitness eval) + recursion (evolutionary loop) + boundary constraints (correctness + hardware benchmarks) = emergent optimal algorithms. The prompt sampling strategy implements the [[maximum-occupancy-principle]] α/β tradeoff: exploitation vs. exploration balance.
+AlphaEvolve instantiates the [[minimal-generative-architectures]] pattern: minimal primitives (LLM diff-mutations + fitness eval) + recursion (evolutionary loop) + boundary constraints (correctness + hardware benchmarks) = emergent optimal algorithms. The prompt sampling strategy implements the [[concepts/maximum-occupancy-principle]] α/β tradeoff: exploitation vs. exploration balance.
 
 Compared to [[utimula-openpraparat-2025]]: AlphaEvolve is *guided* evolution (has fitness function); OpenPraparat is *guideless* (natural selection only). Both use the same loop structure, but AlphaEvolve's LLM mutations are dramatically more efficient than random character flips.
 
@@ -69,7 +69,7 @@ Compared to [[utimula-openpraparat-2025]]: AlphaEvolve is *guided* evolution (ha
 
 - [[llm-kernel-optimization]] — detailed technical analysis of the approach
 - [[minimal-generative-architectures]] — MGA pattern instantiation
-- [[maximum-occupancy-principle]] — exploitation/exploration as α/β tradeoff
+- [[concepts/maximum-occupancy-principle]] — exploitation/exploration as α/β tradeoff
 - [[eml-operator]] — tensor decomposition (finding minimal-rank representations) parallels EML's minimal-depth tree search
 - [[symbolic-regression]] — alternative approach: EML trees could discover matrix multiplication algorithms via gradient descent
 - [[utimula-openpraparat-2025]] — guideless evolutionary parallel

@@ -115,4 +115,4 @@ The concept of "ETC attacks driving patients into rebel-held territory" is confi
 - [[infectious-disease]] — disease dynamics
 - [[global-health-security]] — outbreak as security event
 
-- [[maximum-occupancy-principle]]
+- [[concepts/maximum-occupancy-principle]]

@@ -30,7 +30,7 @@ confidence: 0.3
 - [[synthesis/news/diving-accident]]
 - [[public-health]]
 
-- [[maximum-occupancy-principle]]
+- [[concepts/maximum-occupancy-principle]]
 
 - [[infectious-disease]]
 - [[who]]

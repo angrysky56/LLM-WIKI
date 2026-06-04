@@ -20,7 +20,7 @@ confidence: 0.7
 
 ## What It Is
 
-A proactive exploration agent that uses the [[maximum-occupancy-principle]] as Layer 0 of the [[efhf]] architecture. The agent autonomously navigates concept spaces (knowledge graphs, research papers, wiki content), generates hypotheses, verifies them through the EFHF L2-L5 pipeline, and commits validated insights to the wiki.
+A proactive exploration agent that uses the [[concepts/maximum-occupancy-principle]] as Layer 0 of the [[efhf]] architecture. The agent autonomously navigates concept spaces (knowledge graphs, research papers, wiki content), generates hypotheses, verifies them through the EFHF L2-L5 pipeline, and commits validated insights to the wiki.
 
 Unlike a standard research assistant (reactive, task-completing), MOP Explorer maximizes action-state path entropy through concept space — exploring broadly by default, becoming goal-directed when epistemic energy is low, and avoiding epistemic dead-ends via formal verification.
 
@@ -63,7 +63,7 @@ Seven cognitive actions: TRIAGE, QUERY, EXPLORE, HYPOTHESIZE, VERIFY, SYNTHESIZE
 - [[sources/papers/proxy-based-shapley-banzhaf-2026]]
 - [[mop-explorer]]
 
-- [[maximum-occupancy-principle]] — the behavioral theory
+- [[concepts/maximum-occupancy-principle]] — the behavioral theory
 - [[efhf]] — the verification and consistency architecture
 - [[mop-edm-cognitive-architecture]] — the synthesis document
 - [[edm-framework]] — disruption measurement

@@ -52,7 +52,7 @@ The paper studies a simple architectural prior for deep RL: inserting a fixed or
 ## Wiki Connections
 
 - [[bounded-representation-capacity]] — Orthogonal bottleneck as explicit capacity constraint; once k ≥ r (intrinsic rank), capacity is sufficient; beyond that, additional dimension is wasteful
-- [[maximum-occupancy-principle]] — Value manifold compression mirrors MOP occupancy planning; both exploit low-dimensional structure in high-dimensional representations
+- [[concepts/maximum-occupancy-principle]] — Value manifold compression mirrors MOP occupancy planning; both exploit low-dimensional structure in high-dimensional representations
 - [[mop-explorer]] — The paper's insight that minimal sufficient dimension depends on environment complexity parallels capacity planning for bounded representations
 
 ## Related

@@ -24,4 +24,4 @@ confidence: 0.3
 - [[sources/repositories/cli-printing-press]]
 - [[compound-commands]]
 
-- [[maximum-occupancy-principle]]
+- [[concepts/maximum-occupancy-principle]]

@@ -24,4 +24,4 @@ confidence: 0.3
 - [[concepts/tiktok-youtube-ofcom-report]]
 - [[tiktok-youtube-ofcom-report]]
 
-- [[maximum-occupancy-principle]]
+- [[concepts/maximum-occupancy-principle]]

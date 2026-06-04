@@ -40,7 +40,7 @@ Dependently typed programming language that doubles as a proof assistant. Based 
 
 ITP tools are increasingly relevant to AI safety research:
 
-1. **Verifying reasoning chains**: The [[load-bearing-reasoning]] framework identifies critical inference steps; proof assistants could formally verify invariants on those steps (e.g., "this constitutional-ai reasoning chain never produces harmful output")
+1. **Verifying reasoning chains**: The [[concepts/load-bearing-reasoning]] framework identifies critical inference steps; proof assistants could formally verify invariants on those steps (e.g., "this constitutional-ai reasoning chain never produces harmful output")
 
 2. **Mechanistic interpretability**: Circuit-level verification — specifying what a circuit should compute and proving what it actually computes, finding the gap
 
@@ -92,5 +92,5 @@ ITP tools are increasingly relevant to AI safety research:
 - [[proof-assistant]] — the tools themselves (Coq, Isabelle, Lean, Agda)
 - [[mathematical-reasoning]] — the broader practice of rigorous deduction
 - [[category-theory]] — provides high-level organizing principles for formal mathematics; composition as morphism
-- [[load-bearing-reasoning]] — causal mediation for identifying which reasoning steps need formal verification
+- [[concepts/load-bearing-reasoning]] — causal mediation for identifying which reasoning steps need formal verification
 - Concept: [[isabelle-hol]]

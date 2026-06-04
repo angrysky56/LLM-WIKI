@@ -1,5 +1,5 @@
 ---
-summary: May 28: 3 stubs promoted (goal-management 0.72, latent-communication 0.75, planning 0.72); graph-database archived as redundant
+summary: "May 28: 3 stubs promoted (goal-management 0.72, latent-communication 0.75, planning 0.72); graph-database archived as redundant"
 tags: [researcher, discovery, report]
 updated: 2026-05-28T18:32:34Z
 ---

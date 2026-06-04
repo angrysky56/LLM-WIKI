@@ -2,7 +2,7 @@
 created: 2026-08-08
 updated: 2026-08-08
 type: report
-summary: Discovery report — Aug 8 cycle: upgraded model-editing and activation-engineering stubs to active status
+summary: "Discovery report — Aug 8 cycle: upgraded model-editing and activation-engineering stubs to active status"
 tags: [researcher, discovery-report, wiki-quality]
 ---
 

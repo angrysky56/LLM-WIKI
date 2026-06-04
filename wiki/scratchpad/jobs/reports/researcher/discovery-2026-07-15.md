@@ -2,7 +2,7 @@
 created: 2026-07-15
 updated: 2026-07-15
 type: report
-summary: Researcher discovery report — Jul 15 cycle: 6 pages upgraded (essa, qes, neural-architecture-search, collm-nas, rz-nas, peft), stub count 298 (-6)
+summary: "Researcher discovery report — Jul 15 cycle: 6 pages upgraded (essa, qes, neural-architecture-search, collm-nas, rz-nas, peft), stub count 298 (-6)"
 tags: [researcher, discovery, report]
 ---
 

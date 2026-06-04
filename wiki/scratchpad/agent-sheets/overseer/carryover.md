@@ -2,7 +2,7 @@
 created: 2026-05-26
 updated: 2026-06-03
 type: carryover
-summary: Overseer carryover — 2026-06-03 cycle: 1 actionable item (librarian 50-file duplicate-YAML remediation), 24 items resolved at rules 1/3/4, 0 open tasks in kanban
+summary: "Overseer carryover — 2026-06-03 cycle: 1 actionable item (librarian 50-file duplicate-YAML remediation), 24 items resolved at rules 1/3/4, 0 open tasks in kanban"
 tags: [overseer, carryover]
 ---
 

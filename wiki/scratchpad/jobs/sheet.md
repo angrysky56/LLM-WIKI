@@ -1,5 +1,5 @@
 ---
-summary: t_ff1740de complete: no Microsoft response found to Magnifica humanitas encyclical
+summary: "t_ff1740de complete: no Microsoft response found to Magnifica humanitas encyclical"
 tags: [jobsheet, researcher, 2026-05-28]
 updated: 2026-05-27T20:40:16Z
 ---

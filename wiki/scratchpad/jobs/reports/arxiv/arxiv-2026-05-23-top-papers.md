@@ -1,5 +1,5 @@
 ---
-summary: 3 papers from 2026-05-21 batch: VPO (diversity RL for test-time search), DeltaDirect (directional motion blindness fix), Recuriosity (persistent 3D world model for exploration)
+summary: "3 papers from 2026-05-21 batch: VPO (diversity RL for test-time search), DeltaDirect (directional motion blindness fix), Recuriosity (persistent 3D world model for exploration)"
 tags: [arxiv, daily-report]
 updated: 2026-05-23T14:30:00Z
 created: 2026-05-23T14:30:00Z

@@ -1,5 +1,5 @@
 ---
-summary: 3 papers from 2026-05-21 batch: MOSS (source-level self-evolution), DeltaBox (ms-level C/R), LCGuard (KV sharing privacy)
+summary: "3 papers from 2026-05-21 batch: MOSS (source-level self-evolution), DeltaBox (ms-level C/R), LCGuard (KV sharing privacy)"
 tags: [arxiv, daily-report]
 updated: 2026-05-22T19:00:00Z
 created: 2026-05-22T10:00:00Z

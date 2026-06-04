@@ -2,7 +2,7 @@
 created: 2026-08-03
 updated: 2026-08-03
 type: report
-summary: Researcher discovery report — 2026-08-03 cycle: 1 page upgraded (llama-nas), stub count 297 (-1)
+summary: "Researcher discovery report — 2026-08-03 cycle: 1 page upgraded (llama-nas), stub count 297 (-1)"
 tags: [researcher, discovery, report]
 ---
 

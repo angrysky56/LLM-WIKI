@@ -3572,3 +3572,27 @@ Index updated with 1099 pages
 ## [2026-06-04 02:32] index
 
 Index updated with 1099 pages
+
+## [2026-06-04 06:21] write
+
+Updated page: wiki/synthesis/semiotic-founders-council-2026-06-03.md
+
+## [2026-06-04 06:21] write
+
+Updated page: wiki/sources/articles/language-models-as-semiotic-machines.md
+
+## [2026-06-04 06:22] write
+
+Updated page: wiki/sources/articles/why-we-should-have-seen-that-coming-tay.md
+
+## [2026-06-04 06:23] write
+
+Updated page: wiki/synthesis/internalizable-index-and-the-harness.md
+
+## [2026-06-04 06:24] lint
+
+1373 pages · 202 orphans · 6045 broken · 43 missing-fm · report: audits/lint-2026-06-04.md
+
+## [2026-06-04 06:32] lint
+
+1373 pages · 202 orphans · 6045 broken · 43 missing-fm · report: audits/lint-2026-06-04.md

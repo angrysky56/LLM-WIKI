@@ -12,3 +12,6 @@ entities.json
 
 # CodeGraph data
 .codegraph/
+
+# Synapse index
+.synapse/

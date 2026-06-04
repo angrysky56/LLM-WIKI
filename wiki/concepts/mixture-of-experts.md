@@ -152,7 +152,7 @@ Top-k selection picks the k highest-scoring experts. The routing weights are com
 - [[concepts/catastrophic-forgetting]]
 - [[concepts/adaptive-budget-learning]]
 - [[concepts/reinforcement-learning-from-human-feedback]]
-- [[mixture-of-experts]]
+- [[concepts/mixture-of-experts]]
 
 - [[adaptive-budget-learning]] — training gating models for adaptive compute allocation; gradient blocking problem and RL approaches
 - [[inference-time-compute-scaling]] — MoE provides architectural basis for efficient test-time compute; the two techniques are complementary

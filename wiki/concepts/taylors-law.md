@@ -78,7 +78,7 @@ The log-log linear form makes it easy to fit with linear regression, but the sam
 - [[sources/articles/language-evolution]]
 - [[wiki/index]]
 - [[concepts/taylors-law]]
-- [[taylors-law]]
+- [[concepts/taylors-law]]
 
 - [[power-law]] — the mathematical form; power-law distributions vs scaling relationships
 - [[power-law-scaling]] — the broader category; neural scaling laws as a specific case

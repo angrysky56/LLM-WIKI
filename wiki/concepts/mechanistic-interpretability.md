@@ -48,7 +48,7 @@ See also: [[activation-steering]] for the complementary modulation half of the b
 - [[concepts/activation-engineering]]
 - [[log]]
 - [[concepts/affective-ai-inner-architecture]]
-- [[mechanistic-interpretability]]
+- [[concepts/mechanistic-interpretability]]
 
 - [[activation-steering]] — the modulation counterpart to interpretability's observation
 - [[metacognitive-architecture-closed-loop-self-regulation]] — complete biofeedback loop using interpretability as sensors

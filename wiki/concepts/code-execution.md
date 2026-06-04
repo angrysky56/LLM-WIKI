@@ -19,7 +19,7 @@ confidence: 0.3
 - [[concepts/code-as-agent-harness]]
 - [[concepts/code-execution]]
 - [[wiki/index]]
-- [[code-execution]]
+- [[concepts/code-execution]]
 
 - [[agent-architectures]]
 - [[reasoning]]

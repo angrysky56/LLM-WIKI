@@ -181,7 +181,7 @@ This is the implementation of the [[oMCD]] 9-step loop at the neural level.
 - [[concepts/activation-steering]]
 - [[concepts/constitutional-ai]]
 - [[concepts/metacognitive-architecture-closed-loop-self-regulation]]
-- [[metacognitive-architecture-closed-loop-self-regulation]]
+- [[concepts/metacognitive-architecture-closed-loop-self-regulation]]
 
 - [[oMCD]] — The formal computational framework this neural implementation supports
 - [[cognitive-architecture]] — The MCM framework connecting self-awareness to control

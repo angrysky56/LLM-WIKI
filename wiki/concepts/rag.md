@@ -56,7 +56,7 @@ A pattern where an LLM retrieves relevant document chunks from a vector store at
 - [[concepts/persistent-knowledge-compilation]]
 - [[sources/articles/llm-wiki-pattern]]
 - [[log]]
-- [[rag]]
+- [[concepts/rag]]
 
 - [[andrej-karpathy]] — explicitly proposed the LLM wiki pattern as an alternative to RAG's statelessness
 - [[project-synapse]] — the system in this wiki that supersedes naive RAG

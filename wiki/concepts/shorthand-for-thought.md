@@ -63,7 +63,7 @@ The "Grokked Reasoning Hypothesis" (from [[llm-reasoning]]) states that at suffi
 - [[concepts/chain-of-thought]]
 - [[concepts/attractor-dynamics]]
 - [[concepts/load-bearing-reasoning]]
-- [[shorthand-for-thought]]
+- [[concepts/shorthand-for-thought]]
 
 - [[llm-reasoning]] — the broader capability this describes
 - [[concepts/load-bearing-reasoning]] — the interpretability framework for distinguishing reasoning types

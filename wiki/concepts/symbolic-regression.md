@@ -39,7 +39,7 @@ Blind recovery success degrades with tree depth: 100% at depth 2, ~25% at depth 
 - [[sources/papers/odrzywolek-eml-2026]]
 - [[sources/articles/llm-kernel-optimization]]
 - [[log]]
-- [[symbolic-regression]]
+- [[concepts/symbolic-regression]]
 
 - [[eml-operator]] — the single-operator basis enabling gradient-based SR
 - [[odrzywolek-eml-2026]] — source paper with training experiments

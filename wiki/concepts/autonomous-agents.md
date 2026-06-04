@@ -88,7 +88,7 @@ The tension in autonomous agent design: **more autonomy creates more capability 
 - [[concepts/agentic-planner]]
 - [[log]]
 - [[scratchpad/agent-sheets/librarian/carryover]]
-- [[autonomous-agents]]
+- [[concepts/autonomous-agents]]
 
 - [[agent-architectures]]: the architectural patterns that enable autonomy
 - [[agent-design]]: principles for designing autonomous agents

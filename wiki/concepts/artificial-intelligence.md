@@ -23,7 +23,7 @@ confidence: 0.3
 - [[wiki/index]]
 - [[log]]
 - [[synthesis/news/ai-healthcare]]
-- [[artificial-intelligence]]
+- [[concepts/artificial-intelligence]]
 
 - [[machine-learning]]
 - [[neural-networks]]

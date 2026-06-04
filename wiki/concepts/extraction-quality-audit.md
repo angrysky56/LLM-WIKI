@@ -23,7 +23,7 @@ confidence: 0.3
 - [[concepts/extraction-quality-audit]]
 - [[wiki/index]]
 - [[concepts/research-methodology]]
-- [[extraction-quality-audit]]
+- [[concepts/extraction-quality-audit]]
 
 - [[project-synapse]]
 - [[research-methodology]]

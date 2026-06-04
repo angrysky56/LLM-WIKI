@@ -19,6 +19,6 @@ confidence: 0.3
 - [[log]]
 - [[sources/articles/solo-preneur]]
 - [[concepts/maximum-occupancy-principle]]
-- [[micro-saas]]
+- [[concepts/micro-saas]]
 
 - [[concepts/maximum-occupancy-principle]]

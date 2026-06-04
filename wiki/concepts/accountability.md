@@ -92,7 +92,7 @@ The [[institutional-capture]] failure mode — where institutions drift from the
 - [[concepts/agentic-oversight]]
 - [[concepts/ai-governance-substrate]]
 - [[wiki/index]]
-- [[accountability]]
+- [[concepts/accountability]]
 
 - [[ai-governance-substrate]] — the architectural realization of accountability for AI systems
 - [[institutional-accountability]] — organizational accountability structures; the analogue at institutional scale

@@ -18,7 +18,7 @@ confidence: 0.3
 - [[wiki/index]]
 - [[concepts/innovation]]
 - [[concepts/technology]]
-- [[technology]]
+- [[concepts/technology]]
 
 - [[engineering]]
 - [[innovation]]

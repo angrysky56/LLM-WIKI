@@ -70,7 +70,7 @@ For any "humans/civilization will inevitably X" claim: *which humans, in which i
 - [[concepts/absence-of-worst-case-metric]]
 - [[concepts/institutional-capture-vs-species-framing]]
 - [[sources/news/2026-05/china-cuba-us-threats-2026-05-21]]
-- [[institutional-capture-vs-species-framing]]
+- [[concepts/institutional-capture-vs-species-framing]]
 
 - [[spin-vs-substrate]]
 - [[absence-of-worst-case-metric]]

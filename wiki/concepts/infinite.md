@@ -19,7 +19,7 @@ confidence: 0.3
 - [[wiki/index]]
 - [[concepts/hilbert-hotel]]
 - [[concepts/hilbert-hotel-graph-architecture]]
-- [[infinite]]
+- [[concepts/infinite]]
 
 - [[mathematics]]
 - [[hilbert-hotel]]

@@ -21,7 +21,7 @@ confidence: 0.3
 - [[wiki/index]]
 - [[log]]
 - [[concepts/computer-vision]]
-- [[computer-vision]]
+- [[concepts/computer-vision]]
 
 - [[machine-learning]]
 - [[image-understanding]]

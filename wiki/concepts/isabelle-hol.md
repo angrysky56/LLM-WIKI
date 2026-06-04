@@ -26,7 +26,7 @@ confidence: 0.3
 - [[log]]
 - [[concepts/load-bearing-reasoning]]
 - [[concepts/interactive-theorem-proving]]
-- [[isabelle-hol]]
+- [[concepts/isabelle-hol]]
 
 - [[formal-verification]]
 - [[interactive-theorem-proving]]

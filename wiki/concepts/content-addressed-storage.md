@@ -22,6 +22,6 @@ confidence: 0.3
 - [[concepts/content-addressed-storage]]
 - [[wiki/index]]
 - [[concepts/maximum-occupancy-principle]]
-- [[content-addressed-storage]]
+- [[concepts/content-addressed-storage]]
 
 - [[concepts/maximum-occupancy-principle]]

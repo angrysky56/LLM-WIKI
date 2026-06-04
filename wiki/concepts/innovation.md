@@ -21,7 +21,7 @@ confidence: 0.3
 - [[concepts/technology]]
 - [[concepts/entrepreneurship]]
 - [[concepts/innovation]]
-- [[innovation]]
+- [[concepts/innovation]]
 
 - [[technology]]
 - [[entrepreneurship]]

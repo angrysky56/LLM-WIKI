@@ -30,7 +30,7 @@ Pope Leo XIV released *Magnifica humanitas* — first papal encyclical on AI as 
 - [[concepts/ai-governance]]
 - [[concepts/ai-policy-arms-control-treaty]]
 - [[sources/news/2026-05/xi-putin-summit-2026-05-20]]
-- [[ai-governance]]
+- [[concepts/ai-governance]]
 
 - [[ai-policy-federalism]] — US federal/California divergence
 - [[public-health-governance]] — governance frameworks and PHEIC parallels

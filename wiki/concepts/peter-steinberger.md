@@ -19,6 +19,6 @@ confidence: 0.3
 - [[log]]
 - [[sources/repositories/cli-printing-press]]
 - [[concepts/peter-steinberger]]
-- [[peter-steinberger]]
+- [[concepts/peter-steinberger]]
 
 - [[concepts/maximum-occupancy-principle]]

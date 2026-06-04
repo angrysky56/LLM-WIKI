@@ -22,7 +22,7 @@ confidence: 0.3
 - [[concepts/process-reward-model]]
 - [[wiki/index]]
 - [[concepts/hybrid-reward-models]]
-- [[sd-search]]
+- [[concepts/sd-search]]
 
 - [[process-reward-model]]
 - [[ma-sd-search-2026]]

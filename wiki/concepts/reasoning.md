@@ -27,7 +27,7 @@ sources: []
 - [[concepts/mathematical-reasoning-ai]]
 - [[agents/skills/librarian-agent/skill]]
 - [[concepts/code-execution]]
-- [[reasoning]]
+- [[concepts/reasoning]]
 - [[concepts/load-bearing-reasoning]] — primary documentation
 - Concept: [[code-execution]]
 - Concept: [[latent-reasoning]]

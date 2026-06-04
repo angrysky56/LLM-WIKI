@@ -23,6 +23,6 @@ confidence: 0.3
 - [[sources/news/2026-05/asteroid-2026-jh2-2026-05-18]]
 - [[concepts/planetary-defense]]
 - [[synthesis/news/asteroid-2026-jh2]]
-- [[planetary-defense]]
+- [[concepts/planetary-defense]]
 
 - [[near-earth-objects]]

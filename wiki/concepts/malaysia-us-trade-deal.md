@@ -47,7 +47,7 @@ The EU-US 2029 sunset format appears designed to address these concerns:
 - [[concepts/eu-us-trade-deal]]
 - [[log]]
 - [[scratchpad/agent-sheets/librarian/carryover]]
-- [[malaysia-us-trade-deal]]
+- [[concepts/malaysia-us-trade-deal]]
 
 - [[eu-us-trade-deal]] — the deal format that emerged post-ruling; uses 2029 sunset to address constitutional constraints
 - [[hamm-v-smith]] — Supreme Court ruling that triggered Malaysia's exit

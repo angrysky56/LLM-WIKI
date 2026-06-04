@@ -20,7 +20,7 @@ confidence: 0.3
 - [[concepts/set-theory]]
 - [[concepts/logic]]
 - [[concepts/reasoning]]
-- [[logic]]
+- [[concepts/logic]]
 
 - [[mathematics]]
 - [[reasoning]]

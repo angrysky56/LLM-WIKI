@@ -20,7 +20,7 @@ confidence: 0.3
 - [[concepts/coordination]]
 - [[log]]
 - [[concepts/high-performance-computing]]
-- [[distributed-systems]]
+- [[concepts/distributed-systems]]
 
 - [[systems-theory]]
 - [[coordination]]

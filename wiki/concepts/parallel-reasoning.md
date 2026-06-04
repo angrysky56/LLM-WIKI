@@ -65,7 +65,7 @@ For multi-step reasoning, the pairwise comparison must happen at the step level 
 - [[concepts/creativity]]
 - [[concepts/chain-of-thought]]
 - [[concepts/shorthand-for-thought]]
-- [[parallel-reasoning]]
+- [[concepts/parallel-reasoning]]
 
 - [[llm-reasoning]] — Base reasoning capability; parallel reasoning is test-time scaling applied to base reasoning
 - [[chain-of-thought]] — CoT generates the single trace that parallel reasoning then parallelizes; CoT is the atomic unit of parallel reasoning

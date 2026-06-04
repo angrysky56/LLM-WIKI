@@ -112,7 +112,7 @@ The practical cost of recalibration (1000 GPU-hours) argues for selecting model 
 - [[wiki/index]]
 - [[concepts/alqr-memory-estimates]]
 
-- [[alqr-memory-estimates]]
+- [[concepts/alqr-memory-estimates]]
 
 ## Summary
 

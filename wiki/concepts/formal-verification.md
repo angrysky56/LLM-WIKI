@@ -78,7 +78,7 @@ The [[concepts/load-bearing-reasoning]] framework identifies critical inference 
 - [[concepts/mathematical-reasoning]]
 - [[entities/tools/prover9]]
 - [[wiki/index]]
-- [[formal-verification]]
+- [[concepts/formal-verification]]
 
 - [[formal-methods]] — the broader field
 - [[proof-assistant]] — tools like Coq, Isabelle, Lean for interactive verification

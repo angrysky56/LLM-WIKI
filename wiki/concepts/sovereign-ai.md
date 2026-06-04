@@ -56,7 +56,7 @@ The goal of "full sovereign AI" — complete independence from foreign compute, 
 - [[ai-governance]]: National regulatory frameworks that implement sovereign AI policy
 - [[semiconductor-geopolitics]]: Taiwan + NVIDIA as the structural chokepoint for compute sovereignty
 - [[china-industrial-policy]]: China's approach to sovereign AI through domestic substitution
-- [[sovereign-ai]]: self-reference
+- [[concepts/sovereign-ai]]: self-reference
 - [[bounded-rationality]]: Resource constraint framing — sovereign AI as a bounded rationality problem for nations- [[concepts/maximum-occupancy-principle.md]]
 
 

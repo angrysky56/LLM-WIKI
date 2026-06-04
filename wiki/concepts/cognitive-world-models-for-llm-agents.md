@@ -142,7 +142,7 @@ In [[multi-agent-llm-systems]], each agent has a private cognitive world model. 
 - [[concepts/agents]]
 - [[concepts/bounded-rationality]]
 - [[log]]
-- [[cognitive-world-models-for-llm-agents]]
+- [[concepts/cognitive-world-models-for-llm-agents]]
 
 - [[world-model]] — parent concept; this page answers Open Question #1
 - [[agent-native-design]] — cognitive world model as a native architectural component

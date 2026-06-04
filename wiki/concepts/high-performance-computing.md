@@ -18,7 +18,7 @@ confidence: 0.3
 - [[log]]
 - [[concepts/computational-science]]
 - [[concepts/high-performance-computing]]
-- [[high-performance-computing]]
+- [[concepts/high-performance-computing]]
 
 - [[computational-science]]
 - [[distributed-systems]]

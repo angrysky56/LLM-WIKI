@@ -100,7 +100,7 @@ The EFHF five-layer architecture implements bounded rationality structurally:
 - [[concepts/hybrid-agents]]
 - [[concepts/agent-native-design]]
 - [[concepts/cognitive-world-models-for-llm-agents]]
-- [[bounded-rationality]]
+- [[concepts/bounded-rationality]]
 
 - [[agent-native-design]] — the architectural framework that makes bounded rationality first-class
 - [[epistemic-energy]] — the quantitative resource form of bounded rationality in agentic systems

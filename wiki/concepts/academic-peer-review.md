@@ -33,7 +33,7 @@ Academic peer review is the "gatekeeping" process of science. It involves the ev
 - [[log]]
 - [[concepts/scientific-writing]]
 - [[concepts/academic-peer-review]]
-- [[academic-peer-review]]
+- [[concepts/academic-peer-review]]
 - [[scientific-writing]]
 - [[critical-analysis]]
 - [[research-methodology]]

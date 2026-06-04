@@ -19,7 +19,7 @@ confidence: 0.3
 - [[spikes/spike-campaign-001-004-summary]]
 - [[wiki/index]]
 - [[concepts/spike-001-spacy-owlready2]]
-- [[spike-001-spacy-owlready2]]
+- [[concepts/spike-001-spacy-owlready2]]
 - [[entities/tools/mcp-logic]]
 
 - [[concepts/maximum-occupancy-principle]]

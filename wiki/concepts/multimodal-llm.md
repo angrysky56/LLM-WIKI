@@ -21,7 +21,7 @@ confidence: 0.3
 - [[concepts/video-understanding]]
 - [[concepts/multimodal-ai]]
 - [[log]]
-- [[multimodal-llm]]
+- [[concepts/multimodal-llm]]
 
 - [[large-language-models]]
 - [[multimodal-ai]]

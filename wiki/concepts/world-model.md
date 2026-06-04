@@ -113,7 +113,7 @@ Biological and some AI systems implement hierarchical predictive coding: each la
 - [[concepts/maximum-occupancy-principle]]
 - [[concepts/cognitive-world-models-for-llm-agents]]
 - [[scratchpad/jobs/reports/researcher/discovery-2026-07-03]]
-- [[world-model]]
+- [[concepts/world-model]]
 
 - [[mop-edm-cognitive-architecture]] — L2 world model encoding in the MOP-EDM framework
 - [[concepts/maximum-occupancy-principle]] — MOP generates the exploration targets the world model is tested against

@@ -6,10 +6,10 @@ updated: 2026-05-27T06:01:55Z
 
 ---
 created: 2026-05-25
-updated: 2026-05-29
+updated: 2026-06-04
 type: concept
-summary: Bundibugyo Ebola PHEIC in DRC/Uganda — WHO IHR EC temporary recommendations active. Updated case count 1,011+ total (906+ suspected DRC / 112 confirmed), 233+ deaths. Sud-Kivu expansion confirmed. Second ETC attack May 23 (18 patients fled). Italy 2 suspected cases. No licensed Bundibugyo vaccine or therapeutic.
-tags: ['Ebola', 'DRC', 'Uganda', 'South Sudan', 'WHO', 'PHEIC', 'public-health', 'Bundibugyo', 'IHR', 'global-health']
+summary: Bundibugyo Ebola PHEIC in DRC/Uganda — WHO IHR EC temporary recommendations active. Outbreak began "as early as January 2026" per Tedros (5+ months undetected). 344+ confirmed DRC cases, 60 deaths; 15 Uganda cases, 1 death. US-only Kenya quarantine plan criticized by former CDC officials.
+tags: [Ebola, DRC, Uganda, South Sudan, WHO, PHEIC, public-health, Bundibugyo, IHR, global-health, Kenya, CDC]
 sources: https://www.cdc.gov/ebola/situation-summary/index.html, https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON603, https://www.wsws.org/en/articles/2026/05/26/ddda-m26.html
 status: active
 confidence: 0.85
@@ -88,15 +88,30 @@ The concept of "ETC attacks driving patients into rebel-held territory" is confi
 
 | Item | Status |
 |------|--------|
-| Case count | ~1,018+ total cases (906 suspected DRC + 112 confirmed), 244+ deaths (May 26) — doubling since PHEIC declaration |
+| Case count | **344 confirmed DRC, 60 deaths; 15 confirmed Uganda, 1 death** (June 3 WHO briefing). 1,000+ suspected backlog now ~116 after testing cleared. |
+| Outbreak start | **"As early as January 2026"** per Tedros — outbreak is 5+ months old despite mid-May identification. "Big head start" language. |
 | Sud-Kivu | Confirmed — new geographic expansion |
 | South Sudan transmission | No confirmed cases; at risk via DRC border/displacement corridors |
-| ETC attack pattern | Confirmed May 21, 23, 26 — 18 patients fled May 23; May 29-30 elevated window |
+| ETC attack pattern | Confirmed May 21, 23, 26 — 18 patients fled May 23; community violence remains a containment barrier |
 | Vaccine trial progress | No licensed vaccine; ring vaccination with experimental stocks only available tool |
 | Thermostable vaccine deployment | Deployment decision pending — would be significant for conflict-zone logistics |
 | NV-387 status | Pipeline candidate; press release May 26; no EUA or trial confirmation |
+| US-only Kenya quarantine | **First American responders at Laikipia airbase May 31**; Kenya high court blocked but both governments proceeded; former CDC officials (Jernigan, Nahass) sent open letter to Congress June 3 criticizing as "profound clinical, ethical, operational and legal concerns" |
+| US travel ban | Active; Tedros says it's "disrupting supply chains and hindering the response" — same Trump policy attacked in experts' letter |
 | Italy suspected cases | 2 in Lombardy (May 26); under health surveillance; not yet confirmed |
-| American surgeon evacuation | Confirmed — evacuated to Berlin, Germany May 17-20 |
+| Priest's death (NYT June 4) | Flashpoint for community mistrust in Congolese town |
+
+## 2026-06-04 Update — "Big Head Start" and US Policy Failures
+
+**WHO chief Tedros Adhanom Ghebreyesus** (June 3 briefing) reframed the outbreak's timeline: the virus "had a big head start" — the actual start is "as early as January 2026," with the first identified case (a nurse) on April 24. This means the outbreak was circulating for **at least 4-5 months undetected**, which is consistent with the persistent 45% contact-tracing rate and the geographic spread (Ituri, Nord-Kivu, Sud-Kivu, Uganda, Italy suspected).
+
+**Two US policy failures now exposed**:
+
+1. **The Trump administration's "American-only" Kenya quarantine facility** — Kenya's high court blocked the order but both governments proceeded. A coalition of **former top US health officials** (Daniel Jernigan, 31-year CDC veteran who oversaw 2014-15 response; Ronald Nahass, IDSA president; Yolanda Jacobs, AFGE Local 2883) sent an open letter to Congress calling the policy "a sharp departure from the standard upheld by every previous administration" and recommending Americans exposed to Ebola be brought home to US biocontainment units. The 2014 doctrine (a field hospital for all health workers, regardless of nationality) is being inverted.
+
+2. **US travel bans** — Tedros named the US as one of the countries whose "blanket travel restrictions" are "disrupting supply chains and hindering the response." Public health experts (Nahass): "Borders are porous, you can't keep infectious diseases out of the country."
+
+**Strategic implication**: A virus that began circulating 5+ months ago, with no licensed vaccine, in a conflict zone with 45% contact tracing, is now receiving an international response that the **lead funder and lead responder (US) is materially obstructing**. This is the first major outbreak of the post-USAID-collapse era and the first real test of the "America First" public-health doctrine.
 
 ## Connections
 - [[concepts/ebola-outbreak-drc-2026]]
@@ -106,7 +121,7 @@ The concept of "ETC attacks driving patients into rebel-held territory" is confi
 - [[sources/news/2026/ebola-outbreak-drc-uganda-pheic-2026]]
 - [[sources/news/2026/ebola-plane-divert-2026]]
 - [[wiki/index]]
-- [[ebola-outbreak-drc-2026]]
+- [[concepts/ebola-outbreak-drc-2026]]
 
 - [[public-health-governance]] — PHEIC/IHR framework and Emergency Committee process
 - [[who-emergency-declarations]] — IHR EC process history

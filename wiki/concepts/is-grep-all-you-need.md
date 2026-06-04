@@ -19,7 +19,7 @@ confidence: 0.3
 - [[wiki/index]]
 - [[log]]
 - [[agents/skills/agentic-tooluse/skill]]
-- [[is-grep-all-you-need]]
+- [[concepts/is-grep-all-you-need]]
 
 - [[llm-nlp]]
 - [[pattern-matching]]

@@ -198,7 +198,7 @@ Alpha gates which problems reach Beta. Gamma adapts the learning rate used by Be
 - [[wiki/index]]
 - [[concepts/agent-taxonomies]]
 - [[concepts/zeta]]
-- [[agent-taxonomies]]
+- [[concepts/agent-taxonomies]]
 
 - [[oMCD]] — Formal framework these archetypes implement
 - [[cognitive-architecture]] — MCM context

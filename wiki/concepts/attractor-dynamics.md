@@ -57,7 +57,7 @@ The concept of [[criticality]] connects to attractor dynamics: a system at criti
 - [[log]]
 - [[concepts/betteti-baggio-bullo-zampieri-idp-hopfield-2025]]
 - [[concepts/attractor-dynamics]]
-- [[attractor-dynamics]]
+- [[concepts/attractor-dynamics]]
 
 - [[emergence]] — emergent capabilities may be reorganizations of the energy landscape creating/destroying attractor basins
 - [[neural-interpretability]] — representation geometry maps the structure of attractor basins in activation space

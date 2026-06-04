@@ -88,7 +88,7 @@ The encyclical does not specify which interpretation — this is both a strength
 - [[sources/articles/pope-leo-ai-encyclical-magnifica-humanitas-may-2026]]
 - [[concepts/ai-policy-global-governance]]
 - [[concepts/ai-policy-arms-control-treaty]]
-- [[ai-policy-arms-control-treaty]]
+- [[concepts/ai-policy-arms-control-treaty]]
 
 - [[AI-governance]] — parent concept; arms control is one approach within AI governance
 - [[pope-leo-ai-encyclical-magnifica-humanitas-may-2026]] — the encyclical is the most prominent call for binding AI arms control

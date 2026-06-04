@@ -48,7 +48,7 @@ This is distinct from other theories of physics where macroscopic behavior can o
 - [[sources/articles/language-evolution]]
 - [[concepts/open-ended-evolution]]
 - [[concepts/wolfram-nks-causal-networks]]
-- [[computational-irreducibility]]
+- [[concepts/computational-irreducibility]]
 
 - [[emergence]] — emergence is one manifestation of computational irreducibility: capability appears discontinuously at scale thresholds in a way that cannot be predicted without running the system at scale
 - [[open-ended-evolution]] — OEE systems are paradigmatically computationally irreducible; you cannot predict what evolutionary novelty will arise without simulating evolution

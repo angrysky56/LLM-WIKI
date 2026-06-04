@@ -19,6 +19,6 @@ confidence: 0.3
 - [[sources/articles/solo-preneur]]
 - [[concepts/maximum-occupancy-principle]]
 - [[log]]
-- [[programmatic-seo]]
+- [[concepts/programmatic-seo]]
 
 - [[concepts/maximum-occupancy-principle]]

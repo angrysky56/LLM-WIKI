@@ -82,7 +82,7 @@ The connection to [[proof-assistant]] and [[interactive-theorem-proving]] is dir
 - [[log]]
 - [[concepts/load-bearing-reasoning]]
 - [[concepts/interactive-theorem-proving]]
-- [[formal-methods]]
+- [[concepts/formal-methods]]
 
 - [[formal-verification]] — applying formal methods to verify correctness against specifications
 - [[interactive-theorem-proving]] — human-guided proof construction in proof assistants

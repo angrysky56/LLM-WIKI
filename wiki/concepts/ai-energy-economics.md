@@ -21,6 +21,6 @@ confidence: 0.3
 - [[concepts/ai-energy-economics]]
 - [[sources/news/2026-05/uk-russia-oil-sanctions-2026-05-20]]
 - [[log]]
-- [[ai-energy-economics]]
+- [[concepts/ai-energy-economics]]
 
 - [[clean-energy-transition]]

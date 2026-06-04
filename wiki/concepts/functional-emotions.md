@@ -22,6 +22,6 @@ confidence: 0.3
 - [[wiki/index]]
 - [[concepts/maximum-occupancy-principle]]
 - [[log]]
-- [[functional-emotions]]
+- [[concepts/functional-emotions]]
 
 - [[concepts/maximum-occupancy-principle]]

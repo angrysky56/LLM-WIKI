@@ -83,7 +83,7 @@ Example principles:
 - [[concepts/constitutional-ai]]
 - [[concepts/agent-onboarding]]
 - [[concepts/metacognitive-architecture-closed-loop-self-regulation]]
-- [[constitutional-ai]]
+- [[concepts/constitutional-ai]]
 
 - [[reward-modeling]] — CAI can be seen as a way to generate training data for reward models without human labels
 - [[reward-modeling]] — CAI is a specific alignment technique within the broader alignment research field

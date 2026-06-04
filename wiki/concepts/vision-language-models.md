@@ -19,7 +19,7 @@ confidence: 0.3
 - [[concepts/vision-language-models]]
 - [[wiki/index]]
 - [[concepts/video-understanding]]
-- [[vision-language-models]]
+- [[concepts/vision-language-models]]
 
 - [[llm-vision]]
 - [[multimodal-llm]]

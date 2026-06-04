@@ -104,7 +104,7 @@ QLoRA sits at the intersection of two major wiki clusters:
 - [[scratchpad/jobs/reports/overseer/overseer-2026-08-05]]
 - [[concepts/parameter-efficient-fine-tuning]]
 - [[log]]
-- [[qora]]
+- [[concepts/qora]]
 
 - [[parameter-efficient-fine-tuning]] — QLoRA as a PEFT method
 - [[lora]] — the rank-decomposition base that QLoRA builds on

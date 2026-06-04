@@ -86,7 +86,7 @@ The optimal operating point depends on the application. A code autocomplete tool
 - [[wiki/index]]
 - [[concepts/model-serving]]
 - [[log]]
-- [[model-serving]]
+- [[concepts/model-serving]]
 
 - [[llm-inference]] — The technical layer below serving; KV cache, batching strategies, and inference optimization
 - [[inference-efficiency]] — Broader treatment of efficiency mechanisms; model serving is the systems engineering instantiation

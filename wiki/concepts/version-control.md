@@ -23,7 +23,7 @@ confidence: 0.3
 - [[concepts/github]]
 - [[concepts/git]]
 - [[concepts/version-control]]
-- [[version-control]]
+- [[concepts/version-control]]
 
 - [[git]]
 - [[devops]]

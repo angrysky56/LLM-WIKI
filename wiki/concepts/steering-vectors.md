@@ -19,7 +19,7 @@ confidence: 0.3
 - [[log]]
 - [[concepts/steering-vectors]]
 - [[wiki/index]]
-- [[steering-vectors]]
+- [[concepts/steering-vectors]]
 
 - [[model-editing]]
 - [[activation-engineering]]

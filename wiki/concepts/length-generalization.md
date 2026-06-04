@@ -70,7 +70,6 @@ For Hermes Agent and LLM-WIKI:
 Length generalization failures directly impact the reliability of long-horizon agentic systems.
 
 ## Connections
-- [[concepts/length-generalization]]
 - [[scratchpad/jobs/reports/researcher/discovery-2026-05-22]]
 - [[concepts/attention-mechanism]]
 - [[concepts/language-evolution]]
@@ -82,7 +81,7 @@ Length generalization failures directly impact the reliability of long-horizon a
 - [[concepts/transformer-architecture]]
 - [[concepts/neural-long-term-memory]]
 - [[concepts/hidden-states]]
-- [[length-generalization]]
+- [[concepts/length-generalization]]
 
 - [[chain-of-thought]] — CoT generates long sequences that can trigger length generalization failures
 - [[neural-long-term-memory]] — one solution to length generalization via explicit memory

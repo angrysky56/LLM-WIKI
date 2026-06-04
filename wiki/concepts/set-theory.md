@@ -19,7 +19,7 @@ confidence: 0.3
 - [[wiki/index]]
 - [[concepts/hilbert-hotel]]
 - [[log]]
-- [[set-theory]]
+- [[concepts/set-theory]]
 
 - [[mathematics]]
 - [[logic]]

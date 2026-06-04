@@ -106,7 +106,7 @@ The sheaf-consistency-enforcer detects coboundary norm violations via differenti
 - [[concepts/initialization]]
 - [[scratchpad/jobs/reports/researcher/discovery-2026-08-08]]
 - [[concepts/mechanistic-interpretability]]
-- [[neural-interpretability]]
+- [[concepts/neural-interpretability]]
 
 - [[mechanistic-interpretability]] — circuit-level analysis and reverse-engineering; neural interpretability is the broader field
 - [[hidden-states]] — the raw material for neural interpretability

@@ -24,7 +24,7 @@ confidence: 0.3
 - [[concepts/agile]]
 - [[concepts/lean-manufacturing]]
 - [[log]]
-- [[agile]]
+- [[concepts/agile]]
 
 - [[scrum]]
 - [[lean-manufacturing]]

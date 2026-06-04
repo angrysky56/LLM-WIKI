@@ -105,7 +105,7 @@ Meta-cognitive agents explicitly monitor and regulate their own cognition. They 
 - [[concepts/agent-architectures]]
 - [[concepts/planning]]
 - [[concepts/hybrid-agents]]
-- [[agent-architectures]]
+- [[concepts/agent-architectures]]
 
 - [[agent-design]]: principles for designing agents using these architectures
 - [[autonomous-agents]]: the class of agents these architectures enable

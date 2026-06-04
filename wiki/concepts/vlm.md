@@ -22,6 +22,6 @@ confidence: 0.3
 - [[log]]
 - [[wiki/index]]
 - [[concepts/vlm]]
-- [[vlm]]
+- [[concepts/vlm]]
 
 - [[concepts/maximum-occupancy-principle]]

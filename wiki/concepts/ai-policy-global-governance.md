@@ -57,7 +57,7 @@ The Vatican's framing of AI as a WMD-equivalent requiring binding treaty control
 - [[wiki/index]]
 - [[log]]
 - [[sources/articles/pope-leo-ai-encyclical-magnifica-humanitas-may-2026]]
-- [[ai-policy-global-governance]]
+- [[concepts/ai-policy-global-governance]]
 
 - [[pope-leo-ai-encyclical-magnifica-humanitas-may-2026]] — Vatican encyclical as governance voice
 - [[AI-policy-federalism]] — US federal retreat makes papal voice more consequential

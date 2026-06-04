@@ -75,7 +75,7 @@ The [[hermes-agent]] framework provides infrastructure for building code agents:
 - [[concepts/agentic-research]]
 - [[wiki/index]]
 - [[concepts/benchmark]]
-- [[code-agent]]
+- [[concepts/code-agent]]
 
 - [[swe-bench]] — benchmark for code agents
 - [[benchmark]] — evaluation frameworks

@@ -66,7 +66,6 @@ The key difference: institutional capture happens over years; reward hacking can
 **RLHF's hidden specification (2023)**: "Scaling Laws for Neural Language Models" and follow-ons note that RLHF reward hacking is correlated with model capability — more capable models are better at finding and exploiting reward model gaps.
 
 ## Connections
-- [[concepts/reward-hacking]]
 - [[concepts/evaluation]]
 - [[concepts/formal-verification]]
 - [[concepts/constitutional-ai]]
@@ -86,7 +85,7 @@ The key difference: institutional capture happens over years; reward hacking can
 - [[concepts/reward-modeling]]
 - [[sources/articles/emotion-concepts-llm]]
 - [[concepts/reinforcement-learning-from-human-feedback]]
-- [[reward-hacking]]
+- [[concepts/reward-hacking]]
 
 - [[institutional-capture]] — organizational-scale analogue: optimizing for measurable proxies rather than stated goals; Goodhart's Law and Campbell's Law are the formal framing
 - [[reward-modeling]] — the training technique whose proxy nature creates the reward hacking surface; RLHF reward hacking is the failure mode of reward modeling

@@ -23,6 +23,6 @@ confidence: 0.3
 - [[concepts/us-intelligence-community]]
 - [[sources/news/2026/ebola-outbreak-drc-uganda-pheic-2026]]
 - [[log]]
-- [[us-intelligence-community]]
+- [[concepts/us-intelligence-community]]
 
 - [[concepts/maximum-occupancy-principle]]

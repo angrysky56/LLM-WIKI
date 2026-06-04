@@ -19,7 +19,7 @@ confidence: 0.3
 - [[log]]
 - [[concepts/scrum]]
 - [[sources/articles/kanban-development]]
-- [[scrum]]
+- [[concepts/scrum]]
 
 - [[agile]]
 - [[project-management]]

@@ -18,6 +18,6 @@ confidence: 0.3
 - [[wiki/index]]
 - [[log]]
 - [[concepts/sqlite]]
-- [[sqlite]]
+- [[concepts/sqlite]]
 
 - [[tools]]

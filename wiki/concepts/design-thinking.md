@@ -69,7 +69,7 @@ Design thinking projects map naturally onto [[para-methodology]]:
 - [[sources/articles/design-thinking-mit]]
 - [[synthesis/synapse-llm-wiki-operating-guide]]
 - [[concepts/para-methodology]]
-- [[design-thinking]]
+- [[concepts/design-thinking]]
 
 - [[design-thinking-mit]] — source: MIT/Kotelly 10-step breakdown
 - [[para-methodology]] — complementary organizational framework

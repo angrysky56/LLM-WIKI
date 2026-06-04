@@ -24,7 +24,7 @@ confidence: 0.3
 - [[concepts/academic-peer-review]]
 - [[concepts/critical-review-scientific-article-guide]]
 - [[wiki/index]]
-- [[critical-review-scientific-article-guide]]
+- [[concepts/critical-review-scientific-article-guide]]
 
 - [[academic-peer-review]]
 - [[scientific-writing]]

@@ -79,7 +79,7 @@ The dual-LLM design also parallels [[agent-architectures]] where deliberative an
 - [[concepts/collm-nas]]
 - [[log]]
 - [[sources/articles/ml-evolution-benchmarking-protocol]]
-- [[collm-nas]]
+- [[concepts/collm-nas]]
 
 - [[neural-architecture-search]] — CoLLM-NAS is a specific NAS method within the broader architecture search field
 - [[ml-evolution-benchmarking-protocol]] — source reference for CoLLM-NAS

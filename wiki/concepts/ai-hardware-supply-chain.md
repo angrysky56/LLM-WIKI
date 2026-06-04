@@ -20,6 +20,6 @@ confidence: 0.3
 - [[concepts/ai-hardware-supply-chain]]
 - [[wiki/index]]
 - [[log]]
-- [[ai-hardware-supply-chain]]
+- [[concepts/ai-hardware-supply-chain]]
 
 - [[semiconductor-geopolitics]]

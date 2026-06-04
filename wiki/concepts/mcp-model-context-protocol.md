@@ -90,7 +90,7 @@ The [[mcp-logic]] server is particularly central: it implements EFHF Layer 3 ver
 - [[log]]
 - [[sources/papers/xu-envfactory-2026]]
 - [[concepts/mcp-model-context-protocol]]
-- [[mcp-model-context-protocol]]
+- [[concepts/mcp-model-context-protocol]]
 
 - [[mcp-logic]] — MCP server for first-order logic verification
 - [[efhf]] — MCP servers implement the EFHF layers (L3: mcp-logic)

@@ -21,7 +21,7 @@ confidence: 0.3
 - [[concepts/multi-agent-coordination]]
 - [[wiki/index]]
 - [[log]]
-- [[onboarding-standards]]
+- [[concepts/onboarding-standards]]
 
 - [[multi-agent-coordination]]
 - [[agentic-hierarchy]]

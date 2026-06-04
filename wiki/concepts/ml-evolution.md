@@ -45,7 +45,7 @@ ML Evolution (or Machine Learning Evolution) refers to the use of evolutionary a
 - [[concepts/qora]]
 - [[concepts/neural-long-term-memory]]
 - [[sources/papers/kalra-barkeshli-hyperparameter-transfer-2026]]
-- [[ml-evolution]]
+- [[concepts/ml-evolution]]
 - [[neural-long-term-memory]] — Connection to memory mechanisms in evolutionary systems
 - Concept: [[rz-nas]] (zero-cost proxy NAS)
 - Concept: [[llama-nas]] (one-shot NAS)

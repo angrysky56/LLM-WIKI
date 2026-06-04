@@ -21,7 +21,7 @@ confidence: 0.3
 - [[concepts/economics]]
 - [[wiki/index]]
 - [[concepts/entrepreneurship]]
-- [[business]]
+- [[concepts/business]]
 
 - [[entrepreneurship]]
 - [[economics]]

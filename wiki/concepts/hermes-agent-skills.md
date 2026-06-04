@@ -103,7 +103,7 @@ updated: 2026-05-27T05:45:09Z
 - [[concepts/hermes-agent-skills]]
 - [[sources/documentation/automate-anything-with-cron]]
 - [[log]]
-- [[hermes-agent-skills]]
+- [[concepts/hermes-agent-skills]]
 
 - [[hermes-agent]] — parent concept
 - [[autonomous-ai-agents]] — autonomous AI agents skill; multi-agent orchestration parent

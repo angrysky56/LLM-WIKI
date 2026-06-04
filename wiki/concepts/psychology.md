@@ -19,7 +19,7 @@ confidence: 0.3
 - [[concepts/cognitive-science]]
 - [[log]]
 - [[concepts/psychology]]
-- [[psychology]]
+- [[concepts/psychology]]
 
 - [[cognitive-science]]
 - [[neuroscience]]

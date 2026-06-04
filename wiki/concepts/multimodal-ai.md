@@ -19,7 +19,7 @@ confidence: 0.3
 - [[wiki/index]]
 - [[concepts/multimodal-llm]]
 - [[log]]
-- [[multimodal-ai]]
+- [[concepts/multimodal-ai]]
 
 - [[artificial-intelligence]]
 - [[multimodal-llm]]

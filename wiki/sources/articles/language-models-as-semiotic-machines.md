@@ -9,7 +9,7 @@ created: 2026-06-04T06:21:46Z
 
 **Type:** Source — article summary
 **Author:** Elad Vromen
-**Source:** arXiv 2410.13065v1 · raw clipping at `raw/Language Models as Semiotic Machines.md`
+**Source**: arXiv 2410.13065v1 · archived at `Clippings/papers/2026/Language Models as Semiotic Machines.md`
 **Relates to:** [[internalizable-index-and-the-harness]] · [[semiotic-founders-council-2026-06-03]] · [[seg-scientist-agent-design]] · [[agentic-research]]
 
 ## Thesis

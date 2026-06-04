@@ -90,7 +90,7 @@ The production-llm-agent-runtime-architecture-patterns paper confirms this gap e
 - [[sources/papers/production-llm-agent-runtime-architecture-patterns]]
 - [[concepts/code-generation]]
 - [[wiki/index]]
-- [[llm-agent-architecture]]
+- [[concepts/llm-agent-architecture]]
 
 - [[agent-native-design]] — architectural ideal that LLM agent architecture approximates
 - [[concepts/maximum-occupancy-principle]] — path entropy maximization as intrinsic motivation

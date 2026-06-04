@@ -116,7 +116,7 @@ This means EDM's embedding space encodes enough conceptual structure to detect s
 - [[synthesis/wiki-indexing-theory]]
 - [[scratchpad/jobs/reports/librarian/audit-2026-05-21]]
 - [[synthesis/minimal-generative-architectures]]
-- [[edm-framework]]
+- [[concepts/edm-framework]]
 
 - [[causal-state-edm-ood-isomorphism]] — theoretical grounding via epsilon machines and lumpability
 - [[graphrag]] — citation graphs as retrieval and analysis substrate  

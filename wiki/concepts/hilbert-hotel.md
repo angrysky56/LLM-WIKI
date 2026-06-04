@@ -21,7 +21,7 @@ confidence: 0.3
 - [[wiki/index]]
 - [[concepts/hilbert-hotel]]
 - [[log]]
-- [[hilbert-hotel]]
+- [[concepts/hilbert-hotel]]
 
 - [[infinite]]
 - [[set-theory]]

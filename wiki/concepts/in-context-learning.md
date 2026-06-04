@@ -107,7 +107,7 @@ The field has also explored *in-context fine-tuning* (ICT) — updating the weig
 - [[scratchpad/jobs/reports/librarian/audit-2026-05-23]]
 - [[concepts/scaling-laws]]
 - [[concepts/llm-reasoning]]
-- [[in-context-learning]]
+- [[concepts/in-context-learning]]
 
 - [[scaling-laws]] — ICL ability scales with model parameters; a power-law relationship between scale and ICL performance
 - [[inference-time-compute-scaling]] — ICL examples are part of the input; longer context means more compute per token

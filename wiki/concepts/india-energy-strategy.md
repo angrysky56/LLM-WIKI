@@ -19,6 +19,6 @@ confidence: 0.3
 - [[sources/news/2026/rubio-meets-modi-india-energy-may-2026]]
 - [[log]]
 - [[concepts/india-energy-strategy]]
-- [[india-energy-strategy]]
+- [[concepts/india-energy-strategy]]
 
 - [[concepts/maximum-occupancy-principle]]

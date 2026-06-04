@@ -20,7 +20,7 @@ confidence: 0.3
 - [[log]]
 - [[concepts/sheffer-stroke]]
 - [[concepts/symbolic-regression]]
-- [[odrzywolek-eml-2026]]
+- [[concepts/odrzywolek-eml-2026]]
 
 - [[machine-learning]]
 - [[mlops]]

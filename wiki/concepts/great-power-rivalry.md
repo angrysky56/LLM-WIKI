@@ -29,7 +29,7 @@ Key domains of rivalry:
 - [[wiki/index]]
 - [[concepts/china-cuba-tensions]]
 - [[concepts/geopolitics]]
-- [[great-power-rivalry]]
+- [[concepts/great-power-rivalry]]
 
 - [[china-cuba-tensions]] — specific regional manifestation
 - [[proxy-signalling]] — competitive signaling in third parties

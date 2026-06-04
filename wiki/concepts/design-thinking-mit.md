@@ -21,7 +21,7 @@ confidence: 0.3
 - [[concepts/design-thinking-mit]]
 - [[log]]
 - [[concept-index]]
-- [[design-thinking-mit]]
+- [[concepts/design-thinking-mit]]
 
 - [[design-thinking]]
 - [[methodology]]

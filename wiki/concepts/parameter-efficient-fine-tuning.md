@@ -137,7 +137,7 @@ Beyond the core methods, several research directions extend LoRA:
 - [[concepts/fine-tuning]]
 - [[concepts/qora]]
 - [[concepts/lora]]
-- [[parameter-efficient-fine-tuning]]
+- [[concepts/parameter-efficient-fine-tuning]]
 
 - [[lora]] — the foundational PEFT method
 - [[fine-tuning]] — PEFT is a subset of fine-tuning (parameter-efficient variant)

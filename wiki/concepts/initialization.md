@@ -21,7 +21,7 @@ confidence: 0.3
 - [[sources/papers/critical-initialization-biological-neural-networks]]
 - [[concepts/critical-initialization-biological-neural-networks]]
 - [[concepts/initialization]]
-- [[initialization]]
+- [[concepts/initialization]]
 
 - [[critical-initialization-biological-neural-networks]]
 - [[neural-interpretability]]

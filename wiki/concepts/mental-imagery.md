@@ -68,7 +68,7 @@ Shorthand-for-thought (internal reasoning compression) may involve something ana
 - [[concepts/mental-imagery]]
 - [[log]]
 - [[concepts/how-does-imagination-really-work-in-the-brain-new-theory-upends-what-we-knew]]
-- [[mental-imagery]]
+- [[concepts/mental-imagery]]
 
 - [[imagination]]: broader capacity that encompasses mental imagery
 - [[neuroscience]]: neural basis of imagery in frontoparietal networks

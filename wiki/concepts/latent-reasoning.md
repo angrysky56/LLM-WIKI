@@ -63,7 +63,7 @@ When models are prompted to answer faster (without CoT), they still show multi-s
 - [[concepts/agentic-reasoning]]
 - [[concepts/latent-reasoning]]
 - [[concepts/llm-reasoning]]
-- [[latent-reasoning]]
+- [[concepts/latent-reasoning]]
 
 - [[llm-reasoning]] — the parent concept; CoT is explicit reasoning, latent reasoning is the hidden-state substrate
 - [[chain-of-thought]] — explicit reasoning token chains; may be rendering of latent reasoning rather than the reasoning itself

@@ -31,7 +31,7 @@ Privacy-preserving techniques in AI:
 - [[wiki/index]]
 - [[concepts/federated-learning]]
 - [[concepts/privacy-utility-tradeoff]]
-- [[data-privacy]]
+- [[concepts/data-privacy]]
 
 - [[privacy-utility-tradeoff]] — the central tradeoff in privacy-preserving ML
 - [[federated-learning]] — a key privacy-preserving technique

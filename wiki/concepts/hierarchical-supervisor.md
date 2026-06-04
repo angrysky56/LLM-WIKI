@@ -1,31 +1,20 @@
 ---
 created: 2026-06-16
-updated: 2026-06-16
+updated: 2026-06-04
 type: concept
-summary: "[STUB] Hierarchical agent supervision patterns"
-tags: [hierarchical-supervisor, stubs, agent-design]
+summary: "ARCHIVED — absorbed by [[agent-architectures]] (0.75), which covers hierarchical supervision as a hybrid architecture pattern; canonical links to supervisor-orchestrator and multi-agent-llm-systems skills"
+tags: [archived, agent-design]
 sources: []
-status: stub
-confidence: 0.3
+status: archived
+confidence: 0.0
 ---
 
-# Hierarchical Supervisor
+*Archived — Absorbed by [[concepts/agent-architectures]] (0.75). The hierarchical supervisor pattern is described there as "a common hybrid architecture pattern" with cross-links to [[multi-agent-llm-systems]] (0.85) and the supervisor-orchestrator / supervisor-delegation skills. The canonical coverage is in the agent-architectures page; this stub is redundant.*
 
-*Stub page — needs real content*
-
-## Connections
-- [[log]]
-- [[concepts/multi-agent-llm-systems]]
-- [[agents/skills/supervisor-orchestrator]]
-- [[wiki/index]]
-- [[agents/skills/agentic-multiagent]]
-- [[agents/skills/supervisor-delegation]]
-- [[concepts/agent-architectures]]
-- [[concepts/hierarchical-supervisor]]
-- [[agents/skills/agentic-decision-tree]]
-- [[concepts/aseke-framework]]
-- [[hierarchical-supervisor]]
-
-- [[multi-agent-llm-systems]]
-- [[agent-architectures]]
-- [[aseke-framework]]
+## Connections (preserved)
+- [[concepts/multi-agent-llm-systems]] — coordination layer
+- [[agents/skills/supervisor-orchestrator]] — the orchestrator skill
+- [[agents/skills/agentic-multiagent]] — the multi-agent skill
+- [[agents/skills/supervisor-delegation]] — the delegation skill
+- [[concepts/agent-architectures]] — canonical coverage of the pattern
+- [[agents/skills/agentic-decision-tree]] — decision-tree variant

@@ -89,7 +89,7 @@ The identity/self-model layer (Layer 4) is where MCM lives architecturally:
 - [[concepts/catastrophic-forgetting]]
 - [[concepts/ramirez-ruiz-mop-2024]]
 - [[concepts/mop-architecture]]
-- [[mop-architecture]]
+- [[concepts/mop-architecture]]
 
 - [[cognitive-architecture]]: MOP implements the memory layer of a cognitive architecture
 - [[memory-mechanisms]]: broader category; MOP is a specific design pattern within it

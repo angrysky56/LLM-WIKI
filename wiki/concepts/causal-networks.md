@@ -31,7 +31,7 @@ While "causal network" is sometimes used metaphorically to describe LLM reasonin
 - [[concepts/wolfram-physics-project]]
 - [[sources/documentation/wolfram-nks-causal-networks]]
 - [[concepts/computational-irreducibility]]
-- [[causal-networks]]
+- [[concepts/causal-networks]]
 - Entity: [[stephen-wolfram]]
 - Project: [[wolfram-physics-project]]
 - Source: [[wolfram-nks-causal-networks]]

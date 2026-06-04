@@ -44,7 +44,7 @@ Evaluating the "so what?" of the research.
 - [[concepts/academic-peer-review]]
 - [[concepts/edm-framework]]
 - [[concepts/research-methodology]]
-- [[critical-analysis]]
+- [[concepts/critical-analysis]]
 - [[scientific-writing]]
 - [[research-methodology]]
 - [[edm-framework]]

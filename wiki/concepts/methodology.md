@@ -20,7 +20,7 @@ confidence: 0.3
 - [[concepts/research-methodology]]
 - [[concepts/methodology]]
 - [[wiki/index]]
-- [[methodology]]
+- [[concepts/methodology]]
 
 - [[research-methodology]]
 - [[design-thinking]]

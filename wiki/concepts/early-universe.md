@@ -22,7 +22,7 @@ confidence: 0.3
 - [[sources/news/2026-05/jwst-early-galaxies-2026-05-17]]
 - [[concepts/early-universe]]
 - [[entities/projects/james-webb-space-telescope]]
-- [[early-universe]]
+- [[concepts/early-universe]]
 
 - [[cosmology]]
 - [[james-webb-space-telescope]]

@@ -21,7 +21,7 @@ confidence: 0.3
 - [[wiki/index]]
 - [[concepts/redistricting]]
 - [[log]]
-- [[redistricting]]
+- [[concepts/redistricting]]
 
 - [[us-politics]]
 - [[voting-rights-act]]

@@ -62,7 +62,6 @@ The connection to AI alignment:
 - **Categorical semantics for neural networks**: Work on categorical representations of neural networks (e.g., the nLab program) suggests a path toward functorial verification of network behavior
 
 ## Connections
-- [[concepts/category-theory]]
 - [[concepts/proof-assistant]]
 - [[concepts/formal-verification]]
 - [[concepts/mathematical-reasoning]]
@@ -74,7 +73,7 @@ The connection to AI alignment:
 - [[log]]
 - [[scratchpad/jobs/reports/researcher/discovery-2026-06-08]]
 - [[concepts/interactive-theorem-proving]]
-- [[category-theory]]
+- [[concepts/category-theory]]
 
 - [[formal-methods]] — category theory provides the mathematical foundation for compositional verification
 - [[proof-assistant]] — type theory underlying Coq, Isabelle, Lean has category-theoretic semantics

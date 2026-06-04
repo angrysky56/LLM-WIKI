@@ -28,7 +28,7 @@ confidence: 0.3
 - [[sources/news/canadian-from-cruise-ship-tests-positive-for-hantavirus]]
 - [[sources/news/2026/sti-record-levels-europe-2026]]
 - [[synthesis/news/diving-accident]]
-- [[public-health]]
+- [[concepts/public-health]]
 
 - [[concepts/maximum-occupancy-principle]]
 

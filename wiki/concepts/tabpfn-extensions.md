@@ -19,6 +19,6 @@ confidence: 0.3
 - [[wiki/index]]
 - [[concepts/maximum-occupancy-principle]]
 - [[log]]
-- [[tabpfn-extensions]]
+- [[concepts/tabpfn-extensions]]
 
 - [[concepts/maximum-occupancy-principle]]

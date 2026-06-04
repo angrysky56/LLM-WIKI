@@ -19,6 +19,6 @@ confidence: 0.3
 - [[wiki/index]]
 - [[log]]
 - [[concepts/blackmail]]
-- [[blackmail]]
+- [[concepts/blackmail]]
 
 - [[concepts/maximum-occupancy-principle]]

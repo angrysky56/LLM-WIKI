@@ -26,7 +26,7 @@ confidence: 0.3
 - [[sources/news/2026/transformer-vm-moran-2026]]
 - [[concepts/utimula-openpraparat-2025]]
 - [[concepts/maximum-occupancy-principle]]
-- [[utimula-openpraparat-2025]]
+- [[concepts/utimula-openpraparat-2025]]
 
 - [[research-tooling]]
 - [[paperclip]]

@@ -18,6 +18,6 @@ confidence: 0.3
 - [[log]]
 - [[wiki/index]]
 - [[concepts/profiles]]
-- [[profiles]]
+- [[concepts/profiles]]
 
 - [[hermes-agent]]

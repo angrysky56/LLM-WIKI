@@ -22,6 +22,6 @@ confidence: 0.3
 - [[sources/news/2026-05/smile-satellite-earth-magnetosphere-2026-05-22]]
 - [[concepts/space-weather]]
 - [[concepts/magnetosphere]]
-- [[magnetosphere]]
+- [[concepts/magnetosphere]]
 
 - [[space-weather]]

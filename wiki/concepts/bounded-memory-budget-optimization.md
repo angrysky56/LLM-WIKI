@@ -70,7 +70,7 @@ All three share the core insight: when memory is fixed, the search over model va
 - [[scratchpad/agent-sheets/researcher/carryover]]
 - [[wiki/index]]
 - [[log]]
-- [[bounded-memory-budget-optimization]]
+- [[concepts/bounded-memory-budget-optimization]]
 
 - [[qes]] — quantized fine-tuning with error feedback; saturation at extreme bit-widths
 - [[essa]] — gradient-free alignment via spectral mutations; memory-efficient search

@@ -22,7 +22,7 @@ confidence: 0.3
 - [[sources/documentation/github-actions-troubleshooting]]
 - [[wiki/index]]
 - [[concepts/maximum-occupancy-principle]]
-- [[trunk]]
+- [[concepts/trunk]]
 
 - [[concepts/maximum-occupancy-principle]]
 

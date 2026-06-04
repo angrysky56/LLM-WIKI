@@ -25,7 +25,7 @@ Under the [[spontaneous-activity-reshaping-hypothesis]], hyperphantasia represen
 - [[concepts/spontaneous-activity-reshaping-hypothesis]]
 - [[log]]
 - [[wiki/index]]
-- [[hyperphantasia]]
+- [[concepts/hyperphantasia]]
 
 - **Concepts:** [[aphantasia]], [[spontaneous-activity-reshaping-hypothesis]]
 - Concept: [[how-does-imagination-really-work-in-the-brain-new-theory-upends-what-we-knew]]

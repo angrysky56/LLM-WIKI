@@ -98,7 +98,7 @@ The [[bounded-rationality]] concept explains why the routing exists at all: cogn
 - [[concepts/agents]]
 - [[log]]
 - [[concepts/hybrid-agents]]
-- [[hybrid-agents]]
+- [[concepts/hybrid-agents]]
 
 - [[agentic-planner]]: the deliberative planning subsystem
 - [[agentic-reasoning]]: ReAct as the reactive layer implementation

@@ -22,7 +22,7 @@ confidence: 0.3
 - [[log]]
 - [[concepts/retrieval-augmented-generation]]
 - [[sources/papers/is-grep-all-you-need]]
-- [[retrieval-augmented-generation]]
+- [[concepts/retrieval-augmented-generation]]
 
 - [[concepts/maximum-occupancy-principle]]
 

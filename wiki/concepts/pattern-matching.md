@@ -18,7 +18,7 @@ confidence: 0.3
 - [[concepts/is-grep-all-you-need]]
 - [[wiki/index]]
 - [[log]]
-- [[pattern-matching]]
+- [[concepts/pattern-matching]]
 
 - [[nlp]]
 - [[information-retrieval]]

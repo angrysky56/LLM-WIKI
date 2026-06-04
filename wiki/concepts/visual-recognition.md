@@ -18,7 +18,7 @@ confidence: 0.3
 - [[log]]
 - [[wiki/index]]
 - [[concepts/image-understanding]]
-- [[visual-recognition]]
+- [[concepts/visual-recognition]]
 
 - [[computer-vision]]
 - [[pattern-recognition]]

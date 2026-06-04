@@ -92,7 +92,7 @@ This is distinct from Kleiber's law but shares the same mathematical structure. 
 - [[concepts/neural-interpretability]]
 - [[concepts/emergence]]
 - [[wiki/index]]
-- [[power-law-scaling]]
+- [[concepts/power-law-scaling]]
 
 - [[power-law]] — the underlying mathematical relationship; Zipf's law, Pareto distribution, scale-invariance
 - [[scaling-laws]] — neural scaling laws specifically; Kaplan/Chinchilla/Hoffmann findings; emergent capabilities at scale thresholds

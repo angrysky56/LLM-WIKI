@@ -22,7 +22,7 @@ confidence: 0.3
 - [[concepts/llm-nlp]]
 - [[concepts/natural-language-processing]]
 - [[concepts/nlp]]
-- [[natural-language-processing]]
+- [[concepts/natural-language-processing]]
 
 - [[machine-learning]]
 - [[language-models]]

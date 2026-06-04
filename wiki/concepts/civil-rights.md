@@ -22,6 +22,6 @@ confidence: 0.3
 - [[sources/news/2026-05/scotus-death-penalty-intellectual-disability-2026-05-22]]
 - [[concepts/civil-rights]]
 - [[synthesis/news/voting-rights-act]]
-- [[civil-rights]]
+- [[concepts/civil-rights]]
 
 - [[us-politics]]

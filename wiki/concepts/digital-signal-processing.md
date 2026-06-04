@@ -21,7 +21,7 @@ confidence: 0.3
 - [[wiki/index]]
 - [[log]]
 - [[concepts/digital-signal-processing]]
-- [[digital-signal-processing]]
+- [[concepts/digital-signal-processing]]
 
 - [[signal-processing]]
 - [[digital-systems]]

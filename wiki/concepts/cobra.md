@@ -21,6 +21,6 @@ confidence: 0.3
 - [[log]]
 - [[sources/repositories/cli-printing-press]]
 - [[concepts/cobra]]
-- [[cobra]]
+- [[concepts/cobra]]
 
 - [[tools]]

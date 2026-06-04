@@ -25,7 +25,7 @@ confidence: 0.3
 - [[entities/projects/esa]]
 - [[entities/projects/nasa]]
 - [[wiki/index]]
-- [[space-exploration]]
+- [[concepts/space-exploration]]
 
 - [[nasa]]
 - [[mars]]

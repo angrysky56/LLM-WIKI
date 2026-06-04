@@ -31,7 +31,7 @@ confidence: 0.3
 - [[sources/news/2026/us-surveillance-cuba-flights-2026]]
 - [[sources/news/2026/strait-of-hormuz-iran-claim-2026]]
 - [[sources/news/2026/trump-taiwan-call-2026]]
-- [[china-cuba-tensions]]
+- [[concepts/china-cuba-tensions]]
 
 - [[great-power-rivalry]]
 - [[proxy-signalling]]

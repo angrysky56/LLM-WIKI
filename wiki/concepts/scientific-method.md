@@ -22,7 +22,7 @@ confidence: 0.3
 - [[concepts/research-methodology]]
 - [[concepts/scientific-reasoning]]
 - [[wiki/index]]
-- [[scientific-method]]
+- [[concepts/scientific-method]]
 
 - [[research-methodology]]
 - [[scientific-reasoning]]

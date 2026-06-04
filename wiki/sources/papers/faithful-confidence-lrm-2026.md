@@ -135,8 +135,13 @@ This is a direct contribution to the **deployment-readiness thread** (capability
 > "Despite the importance of FC and wide usage of LRMs, the extent to which LRMs can faithfully express their confidence remains poorly understood. ... Results demonstrate that current LRMs systematically struggle to faithfully express their intrinsic uncertainty in words, and that reasoning training on its own does not improve this alignment relative to non-reasoning counterparts. Prompt-level interventions that boost faithful calibration of LLMs largely fail to generalize to LRMs."
 
 ## What To Watch
-
+## What To Watch
 - **Faithful-calibration as a training objective** — adding a "decisiveness-alignment" loss term during reasoning training is the natural next step
 - **Confidence-decisiveness projection layers** — explicit architectural components that project internal confidence to surface decisiveness
 - **FC for agents that communicate with other agents** — multi-agent LRM systems will be especially vulnerable to FC gaps, since one agent's unfaithful confidence becomes another agent's input
 - **Calibration-vs-faithfulness disambiguation** — future work should clearly separate "the model's *expected* confidence matches its *empirical* accuracy" (classical calibration) from "the model's *expressed* confidence matches its *intrinsic* confidence" (faithfulness). This paper is squarely in the second camp.
+
+### Cross-cycle (2026-06-04 batch)
+- **FC ↔ [[arxiv-2605-30335-locally-coherent-globally-incoherent]]:** This paper's "what the model says vs what the model knows" gap is the *intra-model* version of Kotawala's "what component A says vs what the system jointly knows" gap. FC is a single-model faithfulness failure; Kotawala's ε★ is a multi-model compositional failure. Same root cause (bounded self-model), different scope.
+- **FC ↔ [[arxiv-2605-30348-llmsurgeon-data-mixture-surgery]]:** FC's prefix-conditioned-sampling estimator and LLMSurgeon's calibrated-confusion-matrix inverse problem are both *post-hoc* recoveries of latent properties from observable behaviour. FC recovers the model's intrinsic confidence; LLMSurgeon recovers the pretraining data mixture. Both turn "the model can't introspect this" into a solvable inference problem.
+- **FC ↔ [[arxiv-2605-30343-reasoning-in-memory-rim]]:** RiM is a method that *uses* the residual stream for computation rather than communicating it externally. FC shows the *expressed* confidence is unfaithful. Combining the two: a latent-reasoning model that uses RiM-style memory blocks *cannot* express faithful per-step confidence, because the intermediate steps are invisible. The FC problem is *worse* for latent-reasoning systems.

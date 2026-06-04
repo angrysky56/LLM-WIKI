@@ -79,7 +79,7 @@ As documented in [[why-llms-arent-scientists-yet]], current agentic research sys
 - [[sources/papers/awarevln-self-aware-vision-language-navigation-2026]]
 - [[entities/tools/gemini]]
 - [[sources/papers/safectrl-rl]]
-- [[agentic-research]]
+- [[concepts/agentic-research]]
 
 - [[alphaevolve]] — An early framework for autonomous discovery.
 - [[why-llms-arent-scientists-yet]] — A case study documenting failure modes in this field.

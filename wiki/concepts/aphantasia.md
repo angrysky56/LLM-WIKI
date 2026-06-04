@@ -35,7 +35,7 @@ Recent research, particularly associated with the [[spontaneous-activity-reshapi
 - [[concepts/mental-imagery]]
 - [[concept-index]]
 - [[sources/articles/how-does-imagination-really-work-in-the-brain-new-theory-upends-what-we-knew]]
-- [[aphantasia]]
+- [[concepts/aphantasia]]
 
 - **Sources:** [[how-does-imagination-really-work-in-the-brain-new-theory-upends-what-we-knew]]
 - **Concepts:** [[spontaneous-activity-reshaping-hypothesis]], [[hyperphantasia]]

@@ -57,7 +57,7 @@ To onboard a new domain, follow the Domain Onboarding Standards:
 - [[wiki/index]]
 - [[concepts/hermes_agent]]
 - [[synthesis/domain-onboarding-standards]]
-- [[meta_harness_loop]]
+- [[concepts/meta_harness_loop]]
 
 - [[hermes-agent]]
 - [[agem]]

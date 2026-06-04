@@ -35,6 +35,6 @@ The diffusion ELBO uses the [[evidence-lower-bound-elbo]] as its central trainin
 - [[concepts/generative-ai]]
 - [[wiki/index]]
 - [[log]]
-- [[diffusion-models]]
+- [[concepts/diffusion-models]]
 
 - [[generative-ai]]: parent concept covering all generative model types

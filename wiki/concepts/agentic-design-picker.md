@@ -111,7 +111,7 @@ Task decomposed cleanly?
 - [[sources/articles/designing-agentic-design-picker]]
 - [[agents/skills/librarian-agent/skill]]
 - [[concepts/agentic-design-picker]]
-- [[agentic-design-picker]]
+- [[concepts/agentic-design-picker]]
 
 - [[multi-agent-llm-systems]] — the five patterns this picker selects among
 - [[agentic-planner]] — planning is the cognitive function that drives decomposition in supervisor and hierarchical patterns

@@ -26,7 +26,7 @@ confidence: 0.9
 - [[log]]
 - [[concepts/feedback-activity]]
 - [[wiki/index]]
-- [[feedforward-activity]]
+- [[concepts/feedforward-activity]]
 
 - **Related:** [[feedback-activity]], [[spontaneous-activity-reshaping-hypothesis]]
 - Concept: [[how-does-imagination-really-work-in-the-brain-new-theory-upends-what-we-knew]]

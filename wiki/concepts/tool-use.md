@@ -52,7 +52,7 @@ Agent reasons about result, calls next tool
 - [[wiki/index]]
 - [[log]]
 - [[concepts/autonomous-agents]]
-- [[tool-use]]
+- [[concepts/tool-use]]
 
 - [[mcp]]: Model Context Protocol for tool standardization
 - [[autonomous-agents]]: How tool use fits into autonomous agent architecture

@@ -39,7 +39,7 @@ For any claim about institutional behavior: *what would change about the operati
 - [[concepts/cryptographic-vs-semantic-alignment]]
 - [[concepts/frame-transmission]]
 - [[synthesis/ai-governance-substrate-analysis]]
-- [[spin-vs-substrate]]
+- [[concepts/spin-vs-substrate]]
 
 - [[absence-of-worst-case-metric]] — adjacent failure mode where the rhetorical metric obscures ongoing operational harm
 - [[institutional-capture-vs-species-framing]] — the layer where the substrate-level decisions actually live

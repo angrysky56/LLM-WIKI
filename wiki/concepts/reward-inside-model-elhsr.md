@@ -24,7 +24,7 @@ confidence: 0.3
 - [[wiki/index]]
 - [[concepts/critical-analysis]]
 - [[concept-index]]
-- [[reward-inside-model-elhsr]]
+- [[concepts/reward-inside-model-elhsr]]
 
 - [[reinforcement-learning]]
 - [[reward-modeling]]

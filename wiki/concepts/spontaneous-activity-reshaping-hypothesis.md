@@ -43,7 +43,7 @@ The **Spontaneous Activity Reshaping Hypothesis** (SARH) is a neurological theor
 - [[synthesis/intelligence-as-entropic-sculpting]]
 - [[concepts/aphantasia]]
 - [[concepts/feedback-activity]]
-- [[spontaneous-activity-reshaping-hypothesis]]
+- [[concepts/spontaneous-activity-reshaping-hypothesis]]
 
 - **Sources:** [[how-does-imagination-really-work-in-the-brain-new-theory-upends-what-we-knew]]
 - **People:** [[roger-koenig-robert]]

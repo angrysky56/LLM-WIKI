@@ -59,7 +59,7 @@ Institutional capture is one of the primary failure modes of large organizations
 - [[concepts/governance]]
 - [[concepts/accountability]]
 - [[concepts/reward-hacking]]
-- [[institutional-capture]]
+- [[concepts/institutional-capture]]
 
 - [[governance]] — institutional capture is a failure mode of governance structures that rely on measurable proxies for complex goals
 - [[proxy-signalling]] — related but distinct: proxy signalling is about using third parties to communicate capability; institutional capture is about internal metric distortion

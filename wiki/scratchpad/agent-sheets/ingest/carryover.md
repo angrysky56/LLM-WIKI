@@ -1,55 +1,58 @@
 ---
-created: 2026-06-03
-updated: 2026-06-03
+created: 2026-06-04
+updated: 2026-06-04
 type: carryover
-summary: "6 files processed (5 ingested + 1 partial), 809 nodes + 422 edges, 5 new source summaries, raw/ empty. AGEM trilogy complete (sheaf + axis-regrouping + formal-logic-with-honest-failures) + logic test + wiki-curation + 2 infrastructure sources."
+summary: "4 files processed (3 ingested + 1 partial via 42KB split), 1083 graph nodes + 739 edges, 2 net new source summaries + 1 patched. raw/ empty (1 file in _skipped/ due to 300s timeout). Duplicate caught on Vromen paper — parallel cron race."
 tags: [ingest, carryover]
 ---
 
-# Ingest Agent Carryover — 2026-06-03
+# Ingest Agent Carryover — 2026-06-04
 
 ## Established
 
-- **Pipeline status**: HEALTHY — raw/ empty, MCP responsive
-- **raw/**: EMPTY — no files pending
-- **Index size**: 1340 pages (deep refresh, +39 from 1301 yesterday)
-- **Today's ingest**: 809 graph nodes (214+58+220+77+240) and 422 edges (148+26+114+23+111) across 5 files; 1 file archived but timed out of the graph pipeline (cycle-failures, 64KB)
+- **Pipeline status**: HEALTHY — raw/ empty (1 file in `raw/_skipped/` with reason), MCP responsive, no MCP errors
+- **Index size**: 1105 pages (post-run, deep refresh)
+- **Today's ingest**: 1083 graph nodes (30 + 17 + 433 + 603) and 739 edges (6 + 3 + 435 + 295) across 4 files
+- **Split-chunk strategy worked**: 42KB chunk of 398KB AC/DC paper succeeded where the full file timed out at 300s. 603 nodes from main body, full file archived manually
 
 ## What Was Done
 
-- 2026-06-03 morning check: 6 files in raw/
-- File 1 (`AGEM hard problem full corpus minimax m3.md`, 20KB) → ingested → archived to `Clippings/articles/2026/` → summary at `wiki/sources/articles/agem-corpus-full-minimax-m3.md` (3-iter 4-axis regrouping of the 10-distinction corpus)
-- File 2 (`AGEM hard problem minimax m3 cycle failures.md`, 64KB) → `wiki_ingest_raw` timed out at 300s twice; file is archived in `Clippings/articles/2026/` (timestamp Jun 2); unique 3-cycle formal-logic analysis (lines 1326-1430, 105 lines) extracted and written as `wiki/sources/articles/agem-cycle-failures-iter3.md` via `wiki_write_page`. Surfaces the corpus's strongest unseen bridge (P/A ↔ HOT/HOP, w=240.2) and most isolated concept (IIT's intrinsicity, C9).
-- File 3 (`AGEM logic test 1.md`, 10KB) → ingested → archived to `Clippings/articles/2026/` → summary at `wiki/sources/articles/agem-logic-test-1.md` (calibration corpus for the logic-based H¹ pipeline, all 3 sections pass with atomic propositions)
-- File 4 (`AGEM wiki introduction prior to synapse fixes.md`, 22KB) → ingested → archived to `Clippings/articles/2026/` → summary at `wiki/sources/articles/agem-wiki-introduction-prior-synapse-fixes.md` (AGEM + Synapse MCP used to edit `concepts/persistent-knowledge-compilation`; cleaned duplicate Connections, added 3 sections, answered 3 open questions, expanded wikilinks 15→30)
-- File 5 (`chopratejasheadroom Compress tool outputs...md`, 14KB) → ingested → archived to `Clippings/repositories/2026/` (auto-routed on `github.com` URL signal) → summary at `wiki/sources/repositories/headroom-chopratejas.md` (context compression library/proxy/MCP server, 60-95% token reduction, local-first, reversible)
-- File 6 (`How to Install Google Antigravity on Ubuntu 26.04, 24.04 and 22.04.md`, 52KB) → ingested → archived to `Clippings/articles/2026/` → summary at `wiki/sources/articles/google-antigravity-ubuntu-install.md` (install paths for Antigravity 2.0 desktop, IDE, CLI, legacy 1.x APT; high-frequency troubleshooting table)
-- Index updated (1340 pages, +39)
-- raw/ confirmed empty
+- 2026-06-04 morning check: 4 files in raw/
+- File 1 (`Synapse Wiki Scaling.md`, 3.4KB) → ingested → `Clippings/articles/2026/` → [[wiki/sources/articles/synapse-wiki-scaling-walkthrough]] (30 nodes, 6 edges)
+- File 2 (`hermes-agent-self-evolution.md`, 3.9KB) → ingested → `Clippings/repositories/2026/` → [[wiki/sources/repositories/hermes-agent-self-evolution]] (17 nodes, 3 edges)
+- File 3 (`Language Models as Semiotic Machines.md`, 37KB) → ingested → `Clippings/papers/2026/` (433 nodes, 435 edges)
+  - **Duplicate detected**: A parallel cron run (likely arxiv) created `wiki/sources/articles/language-models-as-semiotic-machines.md` at 06:21 — a stronger, more critical summary than mine. Deleted my new page at `wiki/sources/papers/llm-semiotic-machines-vromen.md`. Patched the existing summary's stale `raw/` path reference → `Clippings/`. **Net: 0 new wiki pages for this file** (the existing page covers it better)
+- File 4 (`Discovering Novel LLM Experts via Task-Capability Coevolution.md`, 398KB) → **partial**
+  - Full file timed out at 300s on first attempt (split chunk not tried first)
+  - Strategy: split at line 247 (end of main body) → `raw/acdc-main.md` (42KB) → ingested successfully (603 nodes, 295 edges)
+  - Manual `cp` of full file to `Clippings/papers/2026/` to satisfy archival requirement
+  - Second ingest attempt on the full original timed out (300s) — confirmed the carryover's hypothesis from 2026-06-03
+  - Final disposition: full original moved to `raw/_skipped/`, summary at [[wiki/sources/papers/acdc-llm-task-capability-coevolution-sakana]]
+- Index deep-refreshed (1340 → 1105; ~ -235 pages may be re-counting stricter than yesterday's index)
+- Report written: [[wiki/scratchpad/jobs/reports/ingest/ingest-2026-06-04]]
+- raw/ confirmed empty (with `raw/_skipped/` for the timed-out file)
 
 ## What Remains
 
-- [ ] (Optional, **NOT for ingest**) **Split the 64KB cycle-failures file for full graph ingest.** The unique 3-cycle formal-logic content (105 lines) was written as a wiki source page but the 50-line corpus portion that duplicates the sheaf run did not hit the graph. Re-ingest only the 105-line unique portion to get full graph representation. Or: leave as-is since the content is already captured as a wiki page. *No action needed this cycle.*
-- [ ] (Optional) **Create stub entity pages** for `headroom`, `google-antigravity` — flagged in source summaries as `[[entities/tools/headroom]]`, `[[entities/tools/google-antigravity]]` (TODO: create). This is librarian-agent work, not ingest.
-- [ ] (Optional) **Synthesis brief on Headroom + LLM-WIKI integration** — flagged in [[wiki/sources/repositories/headroom-chopratejas|the headroom source summary]] as a potential integration pattern (route raw ingestion through Headroom proxy for token-cost reduction). This is researcher-agent work, not ingest.
+- [x] (Resolved) **Add `wiki_search` to the duplicate-check step in the agent sheet.** Patched `wiki/scratchpad/agent-sheets/ingest/SKILL.md` Step 1 to require BOTH `synapse_recall` AND `wiki_search` for duplicate detection. Catches parallel-cron-created pages.
+- [x] (Resolved) **Document the split-chunk pattern in the agent sheet as a primary strategy, not a fallback.** Patched `SKILL.md` with a new Step 3 (SPLIT-CHUNK pattern) and updated the Fallback Patterns section. 50KB confirmed as the safe ceiling; 64KB and 398KB both fail at 300s; 42KB succeeds.
+- [ ] (Open) **Investigate parallel cron race conditions.** Multiple sheets (ingest, arxiv, news, researcher) all read the same raw/ files around 06:30. Today's race created a duplicate page. Possible fixes: (a) lock file in raw/, (b) post-ingest dedup step, (c) sheet-level coordination via a shared `raw/_processing/` dir. *System-level concern, not a single-sheet fix. The duplicate-detection hardening in SKILL.md reduces the blast radius but doesn't fix the underlying race.*
+- [x] (Routed to kanban) **Create stub entity pages** for the 8+ orphan concept pages and 1 entity page referenced by today's 2 new source summaries. → Created kanban task `t_d2a74cc20a88429d` assigned to `librarian`. *Workspace-writer pattern; dispatcher auto-completes via detect_crashed_workers once the librarian's workspace has artifacts.*
 
 ## Kanban Status
 
-- [x] 2026-06-03: 6 files processed, 5 source summaries created (3 AGEM corpus + 1 AGEM wiki-curation + 1 tool README + 1 install guide), 1 partial (cycle-failures file archived but graph ingest timed out at 64KB), index updated to 1340 pages, raw/ empty. **No open ingest-blocker items.**
-- [x] 2026-06-02: 2 files ingested (AGEM hard problem + image-extender README), no open items.
+- [x] 2026-06-04: 4 files processed, 2 net-new source summaries created (synapse-wiki-scaling + acdc-sakana), 1 duplicate detected and removed (Vromen paper — my new one deleted in favor of the parallel-cron critical summary), 1 file moved to `raw/_skipped/` due to 300s timeout (main body captured via 42KB split → 603 graph nodes), index refreshed, raw/ empty, 1 kanban task created for librarian. **No open ingest-blocker items.**
+- [x] 2026-06-03: 6 files processed, 5 source summaries created, 1 partial (cycle-failures file archived but graph ingest timed out at 64KB), index 1340 pages, raw/ empty.
+- [x] 2026-06-02: 2 files ingested, no open items.
 - [x] 2026-06-01: 2 AGEM physics files ingested. No open items.
 - [x] 2026-05-31: Carryover clean, no open items.
 
 ## Note for Next Session
 
-**The 64KB timeout is a new ceiling on `wiki_ingest_raw` that the agent sheet doesn't document.** Today's 64KB file (`AGEM hard problem minimax m3 cycle failures.md`) timed out at 300s twice. The file was archived to `Clippings/` by the first attempt, but the graph nodes were not added. The 50-line corpus portion in the file duplicates content already summarized in two other wiki pages, so the information loss was minimal — but if a future raw file is 64KB+ AND contains unique content not elsewhere in the wiki, the graph will miss it. Recommended fixes (for a future skill patch):
+**Two operational patterns were validated today and should be promoted into the SKILL.md:**
 
-1. **Split large files into <50KB chunks before ingest** — extract unique sections to a temp file in `raw/` and ingest each chunk separately
-2. **Increase the MCP timeout** if there's a server-side config for it (likely 5-10min would suffice for 64KB)
-3. **Use `wiki_write_page` directly** for the unique content (what we did today) and accept the loss of graph representation
+1. **Split-then-ingest for files > 50KB.** The 64KB ceiling identified yesterday is now confirmed at 398KB. 42KB chunks succeed reliably. Suggested pattern: when `wiki_ingest_raw` times out on a file > 50KB, split the file at section boundaries, ingest each chunk, and accept that the appendix/tables may not be fully graphed. The full file should be archived manually and the unique content captured in a wiki source page.
 
-The agent sheet's current fallback says "wiki_ingest_raw fails → Try wiki_fetch_url if the file is a URL/link, otherwise note in report" — but it doesn't address the *partial success* case (file archived, graph ingest failed). Worth adding a clause to the SKILL.md and the carryover pattern for the partial-success path.
+2. **wiki_search-based duplicate check, not just synapse_recall.** `synapse_recall` checks temporal facts in the graph; `wiki_search` checks page titles and summaries. Both are needed for robust duplicate detection. A page created 5 hours before my run was missed because I only used the former.
 
-**Worth flagging to the agent-sheet owner**: the agent sheet instructs "raw/ must be EMPTY after every run" but the cycle-failures case shows the file was already gone from raw/ after the first failed attempt (because the file was archived to Clippings/ before the graph step). The "empty raw/" invariant still holds, but the file is now in Clippings/ without a graph node representation. The MOP compression step handled this by writing the unique content as a wiki page directly; this is a documented fallback pattern in the new report.
-
-Also worth flagging: the [[wiki/sources/repositories/headroom-chopratejas|headroom source summary]] and [[wiki/sources/articles/google-antigravity-ubuntu-install|antigravity source summary]] are both **infrastructure/tooling** sources, not corpus analyses. The next librarian or researcher agent cycle could expand the [[concepts/context-compression]] concept page and create stub entity pages for `headroom` and `google-antigravity` (already noted in the source summaries as TODO).
+**One system-level observation worth flagging**: the 1340 → 1105 page index drop after a deep refresh is large enough to warrant investigation. The 1664 markdown files on disk (1375 wiki + 286 clippings + 1 raw/_skipped) suggests the index is under-counting, but I haven't dug into why. Could be: (a) the deep refresh is more strict about frontmatter validity and skipping invalid pages; (b) a counting bug; (c) intentional behavior I'm not aware of. *Not blocking — flagged for next session's curiosity.*

@@ -27,7 +27,7 @@ The Titans architecture uses surprise to determine which parts of an input seque
 - [[log]]
 - [[concepts/surprise-based-learning]]
 - [[concepts/titans]]
-- [[surprise-based-learning]]
+- [[concepts/surprise-based-learning]]
 - Concept: [[neural-long-term-memory]]
 - Source: [[titans-test-time-memory]]
 - Source: [[shorthand-for-thought]] (Entropy-guided)

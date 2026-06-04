@@ -24,7 +24,7 @@ confidence: 0.3
 - [[concepts/llama-nas]]
 - [[log]]
 - [[scratchpad/jobs/reports/researcher/discovery-2026-08-03]]
-- [[compression]]
+- [[concepts/compression]]
 
 - [[information-theory]]
 - [[representation-learning]]

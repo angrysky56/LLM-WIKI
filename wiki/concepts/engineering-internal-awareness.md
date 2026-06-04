@@ -59,7 +59,7 @@ The [[agent-taxonomies]] define how different agent types leverage internal awar
 - [[concepts/agentic-oversight]]
 - [[wiki/index]]
 - [[concepts/agent-taxonomies]]
-- [[engineering-internal-awareness]]
+- [[concepts/engineering-internal-awareness]]
 
 - [[metacognitive-architecture-closed-loop-self-regulation]] — Neural implementation details
 - [[cognitive-architecture]] — MCM framework

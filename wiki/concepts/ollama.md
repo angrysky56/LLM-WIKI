@@ -23,6 +23,6 @@ confidence: 0.3
 - [[concepts/ollama]]
 - [[log]]
 - [[sources/repositories/openclaw]]
-- [[ollama]]
+- [[concepts/ollama]]
 
 - [[concepts/maximum-occupancy-principle]]

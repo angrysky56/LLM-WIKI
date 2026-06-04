@@ -41,7 +41,7 @@ As LLMs are trained at scale, they develop implicit communication patterns that:
 - [[sources/articles/language-evolution]]
 - [[wiki/index]]
 - [[log]]
-- [[emergent-communication]]
+- [[concepts/emergent-communication]]
 
 - Concept: [[language-evolution]]
 - Concept: [[activation-steering]]

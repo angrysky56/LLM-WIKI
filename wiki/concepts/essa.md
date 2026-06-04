@@ -78,7 +78,7 @@ ESSA occupies a unique position: gradient-free like ES but with structural induc
 - [[wiki/index]]
 - [[concepts/parameter-efficient-fine-tuning]]
 - [[concepts/llama-nas]]
-- [[essa]]
+- [[concepts/essa]]
 
 - [[ml-evolution]] — ESSA is one of the "Guided ML Evolution" frameworks in the benchmarking protocol
 - [[ml-evolution-benchmarking-protocol]] — source reference for ESSA's 6x scaling claim

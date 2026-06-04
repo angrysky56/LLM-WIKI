@@ -31,7 +31,7 @@ Variants include:
 - [[concepts/privacy-utility-tradeoff]]
 - [[log]]
 - [[concepts/data-privacy]]
-- [[federated-learning]]
+- [[concepts/federated-learning]]
 
 - [[data-privacy]] — privacy as the motivation
 - [[privacy-utility-tradeoff]] — tradeoff in federated systems

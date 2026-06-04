@@ -62,7 +62,7 @@ When the [[empty-chair-protocol]] is activated to bring in a missing perspective
 - [[synthesis/spiral-architecture]]
 - [[concepts/weil-gate]]
 - [[concepts/spiral-architecture]]
-- [[weil-gate]]
+- [[concepts/weil-gate]]
 
 - [[spiral-architecture]]: the pattern the Weil-gate implements
 - [[two-council-architecture]]: the architectural context for Weil-gate operation

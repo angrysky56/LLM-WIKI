@@ -120,4 +120,4 @@ The ICM approach has been adapted for LLM tool use: train a predictor on whether
 - [[reinforcement-learning]]: The RL paradigm within which curiosity-driven exploration operates
 - [[recuriosity-episodic-context-3d-exploration-2026]]: Identifies amnesiac failure mode of pure curiosity
 - [[orthogonal-bottlenecks-rl]]: Exploration in the context of orthogonal capacity allocation
-- [[curiosity-driven-exploration]]: Self-reference
+- [[concepts/curiosity-driven-exploration]]: Self-reference

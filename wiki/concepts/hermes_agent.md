@@ -45,6 +45,6 @@ The Meta-Harness interfaces with Hermes via the `AIAgent` library directly.
 - [[synthesis/domain-onboarding-standards]]
 - [[log]]
 - [[concepts/hermes_agent]]
-- [[hermes_agent]]
+- [[concepts/hermes_agent]]
 - [[meta_harness_loop]]
 - [[meta-harness]]

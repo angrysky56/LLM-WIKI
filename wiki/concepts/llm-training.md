@@ -81,7 +81,7 @@ A key tension in continual learning: do we learn by adding new weights (scaffold
 - [[concepts/llm-training]]
 - [[concepts/parameter-efficient-fine-tuning]]
 - [[log]]
-- [[llm-training]]
+- [[concepts/llm-training]]
 
 - [[catastrophic-forgetting]]: the core problem of continual learning
 - [[control-llm]]: controlling LLM behavior during and after training

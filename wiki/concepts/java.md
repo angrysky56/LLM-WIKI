@@ -19,6 +19,6 @@ confidence: 0.3
 - [[log]]
 - [[concepts/java]]
 - [[sources/documentation/isabelle-installation]]
-- [[java]]
+- [[concepts/java]]
 
 - [[concepts/maximum-occupancy-principle]]

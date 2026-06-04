@@ -85,7 +85,7 @@ ITP tools are increasingly relevant to AI safety research:
 - [[log]]
 - [[concepts/interactive-theorem-proving]]
 - [[concepts/isabelle-hol]]
-- [[interactive-theorem-proving]]
+- [[concepts/interactive-theorem-proving]]
 
 - [[formal-methods]] — the broader field
 - [[formal-verification]] — applying ITP to verify software/hardware systems

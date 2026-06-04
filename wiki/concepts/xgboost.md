@@ -22,6 +22,6 @@ confidence: 0.3
 - [[sources/repositories/tabpfn]]
 - [[concepts/mlops]]
 - [[wiki/index]]
-- [[xgboost]]
+- [[concepts/xgboost]]
 
 - [[mlops]]

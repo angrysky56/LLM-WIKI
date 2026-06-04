@@ -18,7 +18,7 @@ tags: []
 - [[concepts/lora]]
 - [[concepts/instruction-tuning]]
 - [[concepts/model-editing]]
-- [[fine-tuning]]
+- [[concepts/fine-tuning]]
 
 - [[parameter-efficient-fine-tuning]]
 - [[lora]]

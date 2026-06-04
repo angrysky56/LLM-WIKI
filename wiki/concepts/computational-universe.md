@@ -23,7 +23,7 @@ confidence: 0.3
 - [[sources/documentation/wolfram-nks-causal-networks]]
 - [[concepts/computational-irreducibility]]
 - [[concepts/computational-universe]]
-- [[computational-universe]]
+- [[concepts/computational-universe]]
 
 - [[stephen-wolfram]]
 - [[computational-irreducibility]]

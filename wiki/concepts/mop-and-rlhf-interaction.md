@@ -152,7 +152,7 @@ However, GRPO has not been specifically studied in the MoE fine-tuning context �
 - [[concepts/group-relative-policy-optimization]]
 - [[concepts/reward-modeling]]
 - [[wiki/sources/papers/on-the-representation-collapse-of-sparse-mixture-of-experts]]
-- [[mop-and-rlhf-interaction]]
+- [[concepts/mop-and-rlhf-interaction]]
 
 - [[concepts/maximum-occupancy-principle]] — MOP's entropy maximization principle
 - [[ramirez-ruiz-mop-2024]] — source paper; Supplemental Sec. F contains the KL formal critique

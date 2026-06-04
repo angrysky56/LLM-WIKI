@@ -77,7 +77,7 @@ Different agent architectures implement MCM in different ways:
 - [[concepts/agent-architectures]]
 - [[concepts/bounded-structured-memory]]
 - [[entities/hermes-meta-cognition]]
-- [[cognitive-architecture]]
+- [[concepts/cognitive-architecture]]
 
 - [[oMCD]] — Operational MCM implementation
 - [[agent-taxonomies]] — Agent archetype taxonomy

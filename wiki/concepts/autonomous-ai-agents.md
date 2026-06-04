@@ -28,7 +28,7 @@ Multi-agent systems where AI agents operate with varying degrees of independence
 - [[scratchpad/agent-sheets/librarian/carryover]]
 - [[concepts/autonomous-ai-agents]]
 - [[scratchpad/agent-sheets/librarians-assistant/workspace/batch-progress]]
-- [[autonomous-ai-agents]]
+- [[concepts/autonomous-ai-agents]]
 
 - [[hermes-agent]] — the agent framework implementing these patterns
 - [[multi-agent-llm-systems]] — multi-agent collaboration architecture

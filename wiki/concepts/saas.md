@@ -56,7 +56,7 @@ See [[saas-pricing]] for the detailed pricing model breakdown.
 - [[log]]
 - [[concepts/saas]]
 - [[concepts/saas-pricing]]
-- [[saas]]
+- [[concepts/saas]]
 
 - [[saas-pricing]] — detailed AI agent SaaS pricing models and frameworks
 - [[business-model]] — broader business model taxonomy

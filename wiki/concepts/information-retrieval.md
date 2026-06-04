@@ -22,7 +22,7 @@ confidence: 0.3
 - [[concepts/maximum-occupancy-principle]]
 - [[log]]
 - [[wiki/index]]
-- [[information-retrieval]]
+- [[concepts/information-retrieval]]
 
 - [[concepts/maximum-occupancy-principle]]
 

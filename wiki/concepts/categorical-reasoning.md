@@ -84,7 +84,7 @@ The nLab and the nLab's synthetic mathematics program show how category theory c
 - [[log]]
 - [[scratchpad/agent-sheets/librarian/carryover]]
 - [[concepts/multi-agent-coordination]]
-- [[categorical-reasoning]]
+- [[concepts/categorical-reasoning]]
 
 - [[category-theory]] — the foundational theory
 - [[mathematical-reasoning]] — categorical reasoning is a high-level form of mathematical reasoning

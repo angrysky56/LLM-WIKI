@@ -146,7 +146,7 @@ This category is **symmetric monoidal** (parallel composition commutes). Whether
 - [[concepts/category-theory]]
 - [[log]]
 - [[scratchpad/agent-sheets/librarian/carryover]]
-- [[attention-monoidal-closure]]
+- [[concepts/attention-monoidal-closure]]
 
 - [[category-theory]] — foundational structures: monoidal categories, internal hom, Yoneda
 - [[attention-mechanism]] — the subject of the categorical analysis

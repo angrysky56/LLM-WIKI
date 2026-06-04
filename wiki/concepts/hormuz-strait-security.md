@@ -24,6 +24,6 @@ confidence: 0.3
 - [[sources/news/2026/middle-east-lebanon-hormuz-may-2026]]
 - [[synthesis/news/2026-may/headlines-2026-05-22]]
 - [[log]]
-- [[hormuz-strait-security]]
+- [[concepts/hormuz-strait-security]]
 
 - [[concepts/maximum-occupancy-principle]]

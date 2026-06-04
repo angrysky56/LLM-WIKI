@@ -22,7 +22,7 @@ confidence: 0.3
 - [[concepts/hilbert-hotel-graph-architecture]]
 - [[log]]
 - [[concepts/graphrag]]
-- [[hilbert-hotel-graph-architecture]]
+- [[concepts/hilbert-hotel-graph-architecture]]
 
 - [[graph-theory]]
 - [[infinite]]

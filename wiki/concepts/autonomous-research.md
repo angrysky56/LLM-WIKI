@@ -76,7 +76,7 @@ The architecture treats verification as a first-class concern, not a post-hoc ch
 - [[concepts/maximum-occupancy-principle]]
 - [[log]]
 - [[scratchpad/agent-sheets/librarian/carryover]]
-- [[autonomous-research]]
+- [[concepts/autonomous-research]]
 
 - [[agentic-research]] — related concept (same underlying idea, different naming)
 - [[world-model]] — the cognitive representation an autonomous agent maintains about its experimental environment

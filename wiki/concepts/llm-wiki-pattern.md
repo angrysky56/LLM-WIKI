@@ -69,7 +69,7 @@ See `wiki/sources/articles/llm-wiki-pattern.md` for the full source article.
 - [[concept-index]]
 - [[concepts/persistent-knowledge-compilation]]
 - [[sources/repositories/product-canvas]]
-- [[llm-wiki-pattern]]
+- [[concepts/llm-wiki-pattern]]
 
 - [[andrej-karpathy]] — origin: authored the pattern
 - [[persistent-knowledge-compilation]] — the paradigm this instantiates

@@ -79,7 +79,7 @@ Both are guided evolution methods where LLMs (or their derived representations) 
 - [[concepts/neural-architecture-search]]
 - [[concepts/qora]]
 - [[scratchpad/jobs/reports/researcher/discovery-2026-07-15]]
-- [[qes]]
+- [[concepts/qes]]
 
 - [[ml-evolution-benchmarking-protocol]] — source reference for QES
 - [[ml-evolution]] — QES as guided evolution of quantized representations

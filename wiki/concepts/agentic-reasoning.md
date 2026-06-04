@@ -72,7 +72,7 @@ Sequential workflows (DAG-based) assume all steps are known upfront. ReAct is us
 - [[wiki/index]]
 - [[concepts/agentic-reasoning]]
 - [[concepts/hybrid-agents]]
-- [[agentic-reasoning]]
+- [[concepts/agentic-reasoning]]
 
 - [[concepts/maximum-occupancy-principle]] — Layer 0 intrinsic motivation framework that drives goal formation and exploration bias in agentic reasoning; MOP Layer 0 generates objectives before reasoning begins
 - [[llm-reasoning]] — The foundational reasoning substrate; agentic reasoning layers ReAct on top of base reasoning capabilities

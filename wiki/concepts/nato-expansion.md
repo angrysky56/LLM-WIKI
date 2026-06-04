@@ -20,6 +20,6 @@ confidence: 0.3
 - [[sources/news/2026/nato-troops-poland-may-2026]]
 - [[concepts/nato-expansion]]
 - [[wiki/index]]
-- [[nato-expansion]]
+- [[concepts/nato-expansion]]
 
 - [[concepts/maximum-occupancy-principle]]

@@ -164,7 +164,7 @@ Resolution: apply the 90-day rule strictly; the single-late-sale exception is a 
 - [[concepts/schema-competition]]
 - [[wiki/index]]
 - [[log]]
-- [[schema-competition]]
+- [[concepts/schema-competition]]
 
 - The [[ramirez-ruiz-mop-2024]] page, which explicitly frames schema competition as an open research question
 - `bootstrap_domain.py::build_pack_context()` — the assembly function that concatenates competing layers

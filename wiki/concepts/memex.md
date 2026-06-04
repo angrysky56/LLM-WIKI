@@ -39,7 +39,7 @@ Bush envisioned something closer to a personal wiki than a public search engine.
 - [[concept-index]]
 - [[entities/people/andrej-karpathy]]
 - [[wiki/index]]
-- [[memex]]
+- [[concepts/memex]]
 
 - [[llm-wiki-pattern]] — the direct contemporary implementation of Bush's idea
 - [[persistent-knowledge-compilation]] — the paradigm that finally solves Bush's maintenance problem

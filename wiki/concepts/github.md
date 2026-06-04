@@ -21,7 +21,7 @@ confidence: 0.3
 - [[concepts/github]]
 - [[concepts/git]]
 - [[log]]
-- [[github]]
+- [[concepts/github]]
 
 - [[git]]
 - [[version-control]]

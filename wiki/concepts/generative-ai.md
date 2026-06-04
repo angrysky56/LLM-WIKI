@@ -78,7 +78,7 @@ The evaluation problem differs fundamentally from discriminative tasks:
 
 - [[creativity]] — the convergent evaluation phase of creative generation; CFG as divergent/convergent dial
 - [[parallel-reasoning]] — the selection mechanism problem is shared; OpenDeepThink's Bradley-Terry may inform creative selection
-- [[generative-ai]] (this entry) is the medium; [[creativity]] is the property; [[llm-reasoning]] is the process
+- [[concepts/generative-ai]] (this entry) is the medium; [[creativity]] is the property; [[llm-reasoning]] is the process
 - [[diffusion-models]] — another generation architecture family
 - [[in-context-learning]] — few-shot prompting enables generation without fine-tuning
 - [[chain-of-thought]] — reasoning as generation with logical constraints

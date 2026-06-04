@@ -56,7 +56,7 @@ The underlying tariffs in force before the Joint Statement (US steel/aluminum Se
 - [[concepts/hamm-v-smith]]
 - [[concepts/malaysia-us-trade-deal]]
 - [[concepts/eu-us-trade-deal]]
-- [[eu-us-trade-deal]]
+- [[concepts/eu-us-trade-deal]]
 
 - [[trump-tariffs]] — tariff policy context; the Supreme Court ruling that constrained US tariff authority
 - [[EU-US-trade-relations]] — relationship tracking page

@@ -21,7 +21,7 @@ confidence: 0.3
 - [[log]]
 - [[concepts/paper-analysis]]
 - [[wiki/index]]
-- [[paper-analysis]]
+- [[concepts/paper-analysis]]
 
 - [[research-tooling]]
 - [[paperclip]]

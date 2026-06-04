@@ -23,7 +23,7 @@ confidence: 0.3
 - [[concepts/emergence]]
 - [[wiki/index]]
 - [[log]]
-- [[critical-initialization-biological-neural-networks]]
+- [[concepts/critical-initialization-biological-neural-networks]]
 
 - [[neural-networks]]
 - [[initialization]]

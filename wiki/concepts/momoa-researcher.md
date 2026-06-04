@@ -23,7 +23,7 @@ confidence: 0.3
 - [[log]]
 - [[entities/projects/alphaevolve]]
 - [[concept-index]]
-- [[momoa-researcher]]
+- [[concepts/momoa-researcher]]
 
 - [[mop-architecture]]
 - [[research-agent]]

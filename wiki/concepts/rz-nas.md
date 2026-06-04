@@ -83,7 +83,7 @@ RZ-NAS achieves the lowest evaluation cost (forward pass only) with the most sop
 - [[scratchpad/agent-sheets/researcher/carryover]]
 - [[wiki/index]]
 - [[concepts/llama-nas]]
-- [[rz-nas]]
+- [[concepts/rz-nas]]
 
 - [[neural-architecture-search]] — RZ-NAS is a specific NAS method within the architecture search field
 - [[ml-evolution-benchmarking-protocol]] — source reference for RZ-NAS

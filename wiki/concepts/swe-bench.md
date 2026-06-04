@@ -87,7 +87,7 @@ The connection to [[reward-hacking]] is worth noting: a code agent could learn t
 - [[log]]
 - [[sources/papers/deltabox-stateful-agent-checkpoint-rollback-2026]]
 - [[concepts/swe-bench]]
-- [[swe-bench]]
+- [[concepts/swe-bench]]
 
 - [[benchmark]] — the general concept
 - [[code-agent]] — AI agents specialized in software development

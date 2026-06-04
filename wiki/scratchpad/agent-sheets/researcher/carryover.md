@@ -1,33 +1,33 @@
 ---
 created: 2026-05-26
-updated: 2026-06-03T08:10:00Z
+updated: 2026-06-04T08:10:00Z
 type: carryover
-summary: "Jun 3 cycle: mathematical-reasoning-ai (0.3→0.72) and transformer-vm-moran-2026 (0.3→0.7) promoted; llm-agents archived as absorbed; 84 periphery stubs mass-archived; chain-of-thought and world-model depth-verified"
+summary: "Jun 4 cycle: episodic-memory (0.3→0.72), memory-mechanisms (0.3→0.7), mixture-of-depths (0.3→0.7) promoted; hierarchical-supervisor archived; context-budget and agent-self-improvement status-flipped to active"
 tags: [researcher, carryover]
 ---
 
 ## CarryoverState
 
 ### Established
-- **[[mathematical-reasoning-ai]]** promoted: Jun 3 — full reference page (0.72). Anchored to the May 2026 OpenAI o3 Erdős conjecture falsification (source 0.9) and [[alphaevolve]] (entity 0.8). Covers 4 regimes (competition math → formal proof → algorithm discovery → conjecture falsification), 2026 trajectory, why math is hard for LLMs, connections to load-bearing-reasoning / eml-operator / mop-edm / proof assistants, 5 open questions including the embargo problem and the calibration problem.
-- **[[transformer-vm-moran-2026]]** promoted: Jun 3 — concept page (0.7). The compiler-backend reframing of transformer weights. Covers the computer-architecture mapping (residual stream = registers, attention = lookup, FFN = arithmetic), the 5-step compilation process (graph → schedule → slot assignment → liveness → weight construction), Moran (compiled machine) vs Percepta (compiled interpreter), convex-hull attention, EML extension (the minimal compiled transformer), 5 open questions including scalability and EML depth.
-- **Mass-archival of 84 periphery stubs**: Jun 3 — wrote Python script that flipped status to `archived` for 84 stubs across geopolitics, math foundations, life sciences, business/design, developer tooling, social science, and general meta. Each file got a `*Archived — [category]*` note preserving its connection list.
-- **`llm-agents`** archived: Jun 3 — fully absorbed by [[agents]] (0.75) which has an explicit cross-reference. Body replaced with archival note pointing to the canonical page.
-- **`chain-of-thought` and `world-model` depth-checked**: confirmed adequate — both have rich content (84 lines 1.0 conf / 147 lines 0.8 conf), 30+ cross-links each, no action needed.
+- **[[episodic-memory]]** promoted: Jun 4 — full reference page (0.72). Anchored to [[sources/papers/recuriosity-episodic-context-3d-exploration-2026]] (0.95). Covers the two failure modes (amnesiac forward model + no trajectory context), the architecture pair (persistent world model × episodic-context policy), LLM-specific instantiations (context-window-as-episode, retrieval-augmented, recurrent-state, explicit-store), TTT and continual learning connection, 5 open questions.
+- **[[memory-mechanisms]]** promoted: Jun 4 — full reference page (0.7). Anchored to [[working-memory]] (0.7) + [[mop-architecture]] (0.75) + [[titans]]. Baddeley-inspired taxonomy applied to neural systems, the timespan × access cost tradeoff, implicit-vs-explicit distinction, 2024-2026 architectural explosion (Mamba, TTT/Titans, MoR, MOP/MemGPT), bounded-rationality connection, 5 open questions.
+- **[[mixture-of-depths]]** promoted: Jun 4 — full reference page (0.7). Anchored to [[adaptive-computation]] (0.78) + [[scaling-laws]] (0.85). Mechanism (per-token top-k layer routing), MoD vs MoE vs early-exit vs ACT comparison, scaling implications, MoR and Titans connection, 5 open questions.
+- **`hierarchical-supervisor`** archived: Jun 4 — absorbed by [[agent-architectures]] (0.75), which explicitly cross-links to it as "a common hybrid architecture pattern." Body was empty placeholder; canonical coverage in the agent-architectures page.
+- **Frontmatter-lag status flips**: `context-budget` (0.8, real content on `response_budget.py`) and `agent-self-improvement` (0.8, 4-approach taxonomy with GEPA/DSPy/hermes-agent-self-evolution) flipped to active. Same pattern as the quantization page from the Sep 13 cycle.
 
 ### Open
-- **[Intent]** Next cycle — (a) promote 2-3 more real AI/ML gaps from the remaining 125 stubs (top candidates: episodic-memory, information-theory, memory-mechanisms, mixture-of-depths, llm-kernel-optimization); (b) per-stub triage of remaining 125 stubs to separate real gaps from periphery that should be archived; (c) consider synthesis page tying mathematical-reasoning-ai + transformer-vm-moran-2026 + eml-operator together as the "executable symbolic reasoning" cluster.
-- **[Risk]** Hub pages `mcp-logic` and `[[mop-edm-cognitive-architecture]]` not in HITS top list (which suggests they may be under-linked from the wiki despite being concept-level anchors). Worth auditing for cross-link coverage.
-- **[Constraint]** Real-gap stubs in core AI/ML are now rare but still exist (episodic-memory, information-theory, memory-mechanisms). Most remaining 125 stubs are developer-tooling / general-meta, but some are real gaps that need careful triage — not all should be mass-archived.
+- **[Intent]** Next cycle — (a) promote 1-2 more real gaps: information-theory (cross-cluster: info-theory ↔ scaling-laws ↔ compression) and llm-kernel-optimization (verify not redundant with transformer-vm-moran-2026 first); (b) audit the remaining ~124 stubs to find 5-10 more real gaps and batch-archive the rest; (c) consider a synthesis page bridging the memory cluster (episodic-memory + memory-mechanisms + MOP layer 1 + bounded-structured-memory) and another bridging the adaptive-compute cluster (mixture-of-depths + MoE + MoR + chain-of-thought + inference-time-compute-scaling).
+- **[Risk]** Stub count is still high (~124). Most are non-AI periphery, but some are real gaps that escaped the prior mass-archive regex. Worth a second-pass proximity-prioritize script run to focus next cycle.
+- **[Constraint]** Real-gap stubs in core AI/ML are now genuinely rare after three promotion cycles. The remaining ones either bridge to other high-authority pages (good candidates) or are too narrow to be worth promoting (archive candidates).
 
 ### Kanban Status
-- [x] All prior carryover items resolved
-- [x] mathematical-reasoning-ai: PROMOTED Jun 3
-- [x] transformer-vm-moran-2026: PROMOTED Jun 3
-- [x] llm-agents: ARCHIVED Jun 3 (absorbed)
-- [x] 84 periphery stubs: ARCHIVED Jun 3
-- [x] chain-of-thought depth check: confirmed adequate
-- [x] world-model depth check: confirmed adequate
+- [x] All prior carryover items addressed
+- [x] episodic-memory: PROMOTED Jun 4
+- [x] memory-mechanisms: PROMOTED Jun 4
+- [x] mixture-of-depths: PROMOTED Jun 4
+- [x] hierarchical-supervisor: ARCHIVED Jun 4
+- [x] context-budget: status-flipped Jun 4
+- [x] agent-self-improvement: status-flipped Jun 4
 
 ## Last Run
-2026-06-03 08:10Z (cycle 4)
+2026-06-04 08:10Z (cycle 5)

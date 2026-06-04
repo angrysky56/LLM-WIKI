@@ -22,7 +22,7 @@ confidence: 0.3
 - [[concepts/maximum-occupancy-principle]]
 - [[concepts/directed-preferential-placement]]
 - [[log]]
-- [[directed-preferential-placement]]
+- [[concepts/directed-preferential-placement]]
 
 - [[concepts/maximum-occupancy-principle]]
 

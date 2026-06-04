@@ -23,7 +23,7 @@ confidence: 0.3
 - [[entities/projects/alphaevolve]]
 - [[concepts/llm-kernel-optimization]]
 - [[sources/news/2026/transformer-vm-moran-2026]]
-- [[llm-kernel-optimization]]
+- [[concepts/llm-kernel-optimization]]
 
 - [[llm-optimization]]
 - [[inference-efficiency]]

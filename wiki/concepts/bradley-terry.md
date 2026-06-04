@@ -50,7 +50,7 @@ Bradley-Terry avoids the overhead of training a separate RM (which can be as lar
 - [[wiki/index]]
 - [[concepts/bradley-terry]]
 - [[log]]
-- [[bradley-terry]]
+- [[concepts/bradley-terry]]
 
 - [[opendeepthink-parallel-reasoning]] — Primary empirical source; +405 Elo via Bradley-Terry aggregation on Codeforces
 - [[reward-modeling]] — Bradley-Terry as a reward-free ranking alternative to scalar reward models for Best-of-N selection

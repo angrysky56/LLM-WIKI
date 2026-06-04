@@ -18,7 +18,7 @@ confidence: 0.3
 - [[concepts/nlp]]
 - [[log]]
 - [[wiki/index]]
-- [[text-analysis]]
+- [[concepts/text-analysis]]
 
 - [[natural-language-processing]]
 - [[information-retrieval]]

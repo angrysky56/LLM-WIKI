@@ -78,7 +78,7 @@ The LCGuard framework (see [[lcguard]]) uses adversarial training to simultaneou
 - [[concepts/agent-leak-benchmark]]
 - [[concepts/lcguard]]
 - [[concepts/agent-onboarding]]
-- [[adversarial-training]]
+- [[concepts/adversarial-training]]
 
 - [[agent-leak-benchmark]] — the benchmark for measuring adversarial reconstruction attacks
 - [[latent-communication]] — the communication paradigm being protected

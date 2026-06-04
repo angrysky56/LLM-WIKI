@@ -20,7 +20,7 @@ confidence: 0.3
 - [[concepts/process-management]]
 - [[log]]
 - [[concepts/project-management]]
-- [[process-management]]
+- [[concepts/process-management]]
 
 - [[workflow-management]]
 - [[project-management]]

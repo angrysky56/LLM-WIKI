@@ -18,7 +18,7 @@ confidence: 0.3
 - [[concepts/graph-theory]]
 - [[log]]
 - [[concepts/network-theory]]
-- [[network-theory]]
+- [[concepts/network-theory]]
 
 - [[graph-theory]]
 - [[complexity]]

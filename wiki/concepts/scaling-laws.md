@@ -113,7 +113,7 @@ See [[inference-time-compute-scaling]] for the inference-time axis.
 - [[power-law-scaling]] — the mathematical form that scaling relationships take
 - [[power-law]] — the underlying statistical distribution; why power laws govern these relationships
 - [[mixture-of-experts]] — conditional computation as a way to get more effective parameters without proportional compute
-- **Chinchilla** (Hoffmann et al. 2022) — the specific paper that reframed optimal compute allocation; see [[scaling-laws]] body for details
+- **Chinchilla** (Hoffmann et al. 2022) — the specific paper that reframed optimal compute allocation; see [[concepts/scaling-laws]] body for details
 - Concept: [[adaptive-budget-learning]]
 - Concept: [[adaptive-computation]]
 - Concept: [[allometric-scaling]]

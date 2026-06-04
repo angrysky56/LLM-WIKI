@@ -69,7 +69,7 @@ The discovery that **model-agnostic transfer** works for parallel reasoning eval
 - [[concepts/creativity]]
 - [[concepts/generative-ai]]
 - [[concepts/imagination]]
-- [[creativity]]
+- [[concepts/creativity]]
 
 - [[parallel-reasoning]] — convergent phase of creative generation is analogous to selection in parallel reasoning; Bradley-Terry as ranking mechanism
 - [[generative-ai]] — the broader category; generative AI provides the output medium (text, image, code) while creativity is the property of the process

@@ -19,6 +19,6 @@ confidence: 0.3
 - [[log]]
 - [[sources/papers/deltabox-stateful-agent-checkpoint-rollback-2026]]
 - [[concepts/overlayfs]]
-- [[overlayfs]]
+- [[concepts/overlayfs]]
 
 - [[concepts/maximum-occupancy-principle]]

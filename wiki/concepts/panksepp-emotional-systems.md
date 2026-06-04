@@ -18,6 +18,6 @@ confidence: 0.3
 - [[log]]
 - [[concepts/machine-psychology]]
 - [[concepts/panksepp-emotional-systems]]
-- [[panksepp-emotional-systems]]
+- [[concepts/panksepp-emotional-systems]]
 
 - [[machine-psychology]]

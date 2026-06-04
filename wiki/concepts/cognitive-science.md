@@ -21,7 +21,7 @@ confidence: 0.3
 - [[concepts/psychology]]
 - [[concepts/brain-research]]
 - [[concepts/neuroscience]]
-- [[cognitive-science]]
+- [[concepts/cognitive-science]]
 
 - [[neuroscience]]
 - [[psychology]]

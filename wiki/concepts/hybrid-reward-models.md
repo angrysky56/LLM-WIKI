@@ -120,7 +120,7 @@ These are related but not identical. No published paper yet compares them direct
 - [[log]]
 - [[concepts/inference-time-compute-scaling]]
 
-- [[hybrid-reward-models]]
+- [[concepts/hybrid-reward-models]]
 
 ## Sources
 

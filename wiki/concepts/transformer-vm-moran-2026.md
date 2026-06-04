@@ -156,7 +156,7 @@ The Transformer VM line matters because it shows that **frozen transformers can 
 - [[concepts/llm-kernel-optimization]]
 - [[concepts/load-bearing-reasoning]]
 - [[concepts/mop-edm-cognitive-architecture]]
-- [[transformer-vm-moran-2026]]
+- [[concepts/transformer-vm-moran-2026]]
 - [[transformers]]
 - [[machine-learning]]
 - [[log]]

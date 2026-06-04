@@ -1,88 +1,94 @@
 ---
 created: 2026-05-29
-updated: 2026-06-03
+updated: 2026-06-04
 type: carryover
-summary: "6 insights generated (all confidence 0.85), 2 wiki pages created + 4 noted as duplicates (3 canonical duplicates, 1 partial) — fourth consecutive clean CLI run"
+summary: "4 insights generated, 1 wiki page created (ML optimization cluster) + 2 duplicates + 1 below-threshold — fifth consecutive clean CLI run"
 tags: [insights, carryover]
 ---
 
 # Insights Agent — Carryover
 
-**Run**: 2026-06-03 06:01 AM (CLI completed in ~5min, fourth consecutive clean run)
-**Status**: Complete — **6 insights generated, 2 wiki pages created + 4 noted as duplicates**
+**Run**: 2026-06-04 06:01 AM (CLI completed in ~5.5min, fifth consecutive clean run)
+**Status**: Complete — **4 insights generated, 1 wiki page created + 2 noted as duplicates + 1 below threshold**
 
-## What Was Done (2026-06-03)
+## What Was Done (2026-06-04)
 
-CLI `generate_insights.py --topic general` completed successfully in ~5min (well under the 580s watchdog), producing **6 high-confidence insights** (one more than the 5 from the prior two runs). All 6 were at confidence 0.85. Of those, **2 were new and published as synthesis pages**, and **4 were noted as duplicates** of existing canonical content (3 full duplicates + 1 partial).
+CLI `generate_insights.py --topic general` completed successfully in ~5.5min (well under the 580s watchdog), producing **4 insights at confidence 0.85**. Of those, **1 was new and published as a synthesis page**, **2 were full duplicates** of existing canonical content, and **1 was below threshold** (3-entity community with empty evidence list — speculative inference).
 
 | # | Insight | Confidence | Slug / Status | Novelty |
 |---|---------|-----------|---------------|---------|
-| 1 | Anthropic-Vatican Discourse Cluster: AI Ethics Meets Catholic Social Teaching | 0.85 | **DUPLICATE** of `ai-development-religious-ethics-convergence-insight.md` (2026-06-02). Same Olah-Vatican-Magnifica humanitas bridge, same "discernment" vocabulary, same Ralph loop / Codex CLI cross-reference. | **0.85** |
-| 2 | P.A.R.A. system nodes cluster tightly in disclosure triangle context | 0.85 | **PARTIAL DUPLICATE** of 6 existing PARA synthesis pages (`para-system-cluster-insight`, `para-system-knowledge-architecture-cohesion-insight`, etc.). Novelty 0.35 — well below publish threshold. Disclosure triangle framing is unique but the underlying PARA clustering pattern is canonical. | 0.35 |
-| 3 | Euler's formula links classical math to LLM reasoning topology | 0.85 | **DUPLICATE** of `euler-formula-rope-reasoning-topology-insight.md` (2026-06-01). Same mathematical bridge, same 0.95 cross-model correlation, same Theorem 1 reference. | 0.65 |
-| 4 | "archival package" bridges computational and biological domains | 0.85 | ✅ Published: `archival-package-computational-biology-bridge-insight.md` | 0.65 |
-| 5 | Neuronal IDOL Deletion Beats Microglia Targeting for Alzheimer's | 0.85 | ✅ Published: `neuronal-idol-alzheimers-therapy-insight.md` | 0.70 |
-| 6 | Bundibugyo Virus Disease Knowledge Cluster Reveals Unified Epidemiological Framework | 0.85 | **DUPLICATE** of `bvd-utilities-infrastructure-insight.md` (2026-06-01). Same May 15 2026 DRC+Uganda outbreak, same 30-50% case fatality, same utilities/water-sanitation topological centrality. | 0.55 |
+| 1 | MCP as the Connectivity Layer for Hermes Agent Architecture | 0.85 | **DUPLICATE** of `mcp-model-context-protocol.md` (concept, 0.85) + `hermes_agent.md` (architectural overview). Both already cover the connectivity-layer framing; a synthesis page would be a restatement. | 0.55 |
+| 2 | Rotational Mathematics Underlies LLM Reasoning Topology | 0.85 | **DUPLICATE** of `euler-formula-rope-reasoning-topology-insight.md` (2026-06-01). Same Euler/RoPE bridge, same 0.95 cross-model correlation, same Theorem 1 reference. Engine re-detected the same cluster as 2026-06-03 — healthy duplication. | 0.72 |
+| 3 | ML Optimization Methods Form Coherent Research Cluster | 0.85 | ✅ Published: `ml-optimization-coherent-cluster-insight.md` — QES, RZ-NAS, LLM-NAS, ESSA unified by capability retention in quantized spaces; **O-Avg 60.5→31.5 datum anchored** (previously unmoored in wiki). | 0.40 |
+| 4 | Precision Infrastructure linked to road funding vulnerabilities | 0.85 | **BELOW THRESHOLD** — 3-entity community (community_1639), empty evidence list, speculative "single points" claim. No synthesis value. | 0.60 |
 
-**Cluster coverage**: 6 insights spanning 4 domains — 1 AI ethics (Anthropic-Vatican, duplicate), 1 personal knowledge management (P.A.R.A., partial duplicate), 1 mathematical foundations of AI (Euler/RoPE, duplicate), 1 cross-domain science (archival package + neuroscience, **NEW**), 1 medical research (IDOL/Alzheimer's, **NEW**), 1 current-events public health (BVD/Ebola, duplicate).
+**Cluster coverage**: 4 insights spanning 4 domains — 1 AI infrastructure (MCP/Hermes, duplicate), 1 mathematical foundations of AI (Euler/RoPE, duplicate), 1 ML optimization research (QES/NAS/capability retention, **NEW**), 1 infrastructure/transport policy (Precision Infrastructure, below threshold).
 
-**Highest novelty score (new insights)**: Insight #5 (IDOL/Alzheimer's) at **0.70** — counter-intuitive finding that targeting the lesser-producing cell type (neurons, not microglia) yields better therapeutic results. Generalizable "downstream amplifier" pattern for cell-type-specific drug development.
+**Anchored a carryover datum**: The **O-Avg 60.5→31.5** datum — previously noted on 2026-06-02 as "a librarian task, not an insights task" — is now anchored in the new ML optimization synthesis page. This closes a small loose end from the prior carryover. The O-Avg metric is the composite tracking general-intelligence retention across ARC, MMLU, and GPQA; the 60.5→31.5 collapse quantifies the cost of naive full-parameter fine-tuning on quantized models.
 
-**Insight #1 anomaly**: Title content (Anthropic-Vatican) has novelty_score 0.85 in metadata — the highest of this run — but it's correctly identified as a duplicate because the canonical synthesis page already exists. The engine's novelty scoring is computed against the raw knowledge graph, not against the wiki synthesis pages, so a high-novelty insight can still be a duplicate from the wiki's perspective. **This is the desired behavior**: the engine is finding strong clusters, the wiki is already canonical.
+**Cross-linking verified**:
+- `ml-optimization-coherent-cluster-insight.md`: **10 cross-links** to existing concepts (qes, neural-architecture-search, bounded-memory-budget-optimization, evolutionary-strategies, ml-evolution-benchmarking-protocol, parameter-efficient-fine-tuning, llama-nas, rz-nas, essa, neuronal-idol-alzheimers-therapy-insight)
 
-**Cross-linking verified**: 
-- `archival-package-computational-biology-bridge-insight.md`: 5 cross-links to existing concepts (data-preservation, reproducibility, neuroscience, computational-artifacts, cross-domain-taxonomy)
-- `neuronal-idol-alzheimers-therapy-insight.md`: 7 cross-links to existing concepts (alzheimers-disease, amyloid-pathology, gene-therapy, cell-type-specific-therapeutics, lipid-metabolism-neurology, indiana-university-school-of-medicine, microglia)
+**Methodological bridge found**: The new page makes a cross-link to `neuronal-idol-alzheimers-therapy-insight.md` (2026-06-03) via the **"downstream amplifier"** pattern — in both ML optimization and IDOL/Alzheimer's, the field discovered that the obvious target (largest architecture / highest-expressing enzyme) was the wrong intervention; the better target is the rate-limiting step that amplifies or suppresses the effect. This is a methodological insight, not just a topical one.
 
-Both pages exceed the SKILL.md minimum of 2 cross-links per new page.
-
-**All 6 facts** recorded to episodic memory (Synapse `synapse_remember`): 2 as `published_synthesis_page`, 4 as `noted_duplicate_insight`. **Wiki index updated** (1334 pages, up from 1299 yesterday — net +35 pages from ingestion + 2 new synthesis pages today).
+**All 4 facts** recorded to episodic memory (Synapse `synapse_remember`): 1 as `published_synthesis_page`, 2 as `noted_duplicate_insight`, 1 as `noted_below_threshold_insight`. **Wiki index updated** (1105 pages after reindex).
 
 ## Cross-Run Pattern
 
-Today's run is the **fourth consecutive clean run** (June 1 02:57, June 1 06:01, June 2, June 3). The CLI is now firmly in the "healthy" regime — watchdog timeout is no longer a concern. Pattern continues: ~5-min run time is the norm, ~3-4 of every 5-6 insights are duplicates of canonical pages, and 1-2 per run are genuinely new cross-domain bridges.
+Today's run is the **fifth consecutive clean run** (June 1 02:57, June 1 06:01, June 2, June 3, June 4). The CLI is firmly in the "healthy" regime. The engine continues to find strong clusters, and the wiki is increasingly absorbing the canonical content — today's 4 insights yielded only 1 publishable item, but the duplicates are still well-grounded cluster detections.
 
-**The duplicate rate is high but the quality of the new insights is improving**:
-- June 1: 4 new (highest novelty 0.75 — Euler/RoPE)
-- June 2: 2 new (highest novelty 0.72 — Olah/Vatican/Anthropic)
-- June 3: 2 new (highest novelty 0.70 — IDOL/Alzheimer's)
+**Insight count per run**:
+- June 1 (02:57): 5
+- June 1 (06:01): 5
+- June 2: 5
+- June 3: 6
+- June 4: 4
 
-**Today's new insights are notably cross-domain**:
-- Archival package bridges computational + biological — a taxonomic-coupling finding, not a typical "two fields share a method" insight. The reproducibility/archival vocabulary is shown to be a shared substrate.
-- IDOL/Alzheimer's reveals a generalizable pattern (downstream amplifier) for cell-type-specific therapeutics — not just a one-off finding, but a methodological insight applicable to other drug-development contexts.
+**Publish rate per run**:
+- June 1: 4 new
+- June 2: 2 new
+- June 3: 2 new
+- June 4: 1 new (with 2 duplicates + 1 below-threshold)
 
-This is the desired maturation: **the engine is finding strong clusters, the wiki is absorbing them, and the new insights are increasingly methodological/structural rather than purely topical**.
+The publish rate is declining as the wiki saturates. This is the **desired maturation**: the engine is finding strong clusters, the wiki is absorbing them, and the new insights are increasingly cross-domain/methodological. Today's ML optimization page is more methodological than topical (the "research thread" framing, the cross-domain bridge to IDOL/Alzheimer's, the O-Avg anchor).
+
+**Today's new insight is methodological**: The ML optimization cluster page frames a **coherent research thread** (QES+NAS+ESSA unified by capability retention) rather than just a topical cluster. This is the same intellectual move that `bounded-memory-budget-optimization.md` makes from a different angle — and the new page makes that connection explicit.
+
+**Below-threshold items are rare but real**: Today's Precision Infrastructure insight is the second below-threshold item in 4 days (after the 2026-06-03 P.A.R.A. partial duplicate). These represent cases where the engine's confidence score (0.85, from community detection) overstates the actual synthesis value — a 3-entity community is not a real cluster, regardless of the LLM's confidence.
 
 ## Established (cumulative)
 
-- **Total wiki synthesis pages** in `wiki/synthesis/insights/`: 25 (4 from May 23 + 6 duplicates from May 29 + 7 new from June 1 02:57 + 4 new from June 1 06:01 + 2 new from June 2 + 2 new from today)
-- **LLM synthesis engine** working reliably when watchdog timeout does not fire — engine completes community detection (~2s) + LLM synthesis (~5min) + storage (~3s) = ~5min total
+- **Total wiki synthesis pages** in `wiki/synthesis/insights/`: 26 (4 from May 23 + 6 duplicates from May 29 + 7 new from June 1 02:57 + 4 new from June 1 06:01 + 2 new from June 2 + 2 new from June 3 + 1 new from June 4)
+- **LLM synthesis engine** working reliably when watchdog timeout does not fire — engine completes community detection (~2.5s) + LLM synthesis (~5.5min) + storage (~1s) = ~5.5min total
 - **All insights** are `pattern_type: community_detection` — consistent with the engine's primary pattern recognition mode
-- **Cross-linking verified**: every new page links to at least 5 existing wiki pages (Insight #4: 5 cross-links; Insight #5: 7 cross-links)
-- **No duplicates** found for the 2 new insights via `wiki_search`; 3 of 6 today's insights were correctly identified as full duplicates of existing canonical pages, and 1 was a partial duplicate
-- **CLI is healthy** as of today's run — 4 consecutive clean runs
-- **Duplicate detection working** — 3/6 insights correctly identified as canonical duplicates + 1/6 partial duplicate, preventing low-value page proliferation
-- **Insight count per run**: 5 (June 1, June 2) → 6 (June 3). Engine is producing slightly more insights per run as the knowledge graph grows.
+- **Cross-linking verified**: every new page links to at least 5 existing wiki pages (today's: 10 cross-links)
+- **Duplicate detection working** — 2/4 insights correctly identified as canonical duplicates, preventing low-value page proliferation
+- **CLI is healthy** as of today's run — 5 consecutive clean runs
+- **Insight count per run** has settled in the 4-6 range with 1-2 publishable items
+- **O-Avg 60.5→31.5 datum** now anchored in `ml-optimization-coherent-cluster-insight.md` (2026-06-04) — closes a loose end from the 2026-06-02 carryover
+- **Cross-domain "downstream amplifier" pattern** now linked between ML optimization and IDOL/Alzheimer's — a methodological bridge, not just a topical one
 
 ## Open / What Remains
 
-- [x] ~~CLI hangs during LLM synthesis phase (~570s)~~ **RESOLVED 2026-06-01**: 4 consecutive clean runs since
+- [x] ~~CLI hangs during LLM synthesis phase (~570s)~~ **RESOLVED 2026-06-01**: 5 consecutive clean runs since
 - [x] ~~Investigate the 00:55 stale `latest.json` artifact~~ **RESOLVED 2026-06-01**: documented as off-schedule run pattern, not corruption
-- [x] ~~Append O-Avg metric datum (60.5→31.5) to `bounded-memory-budget-optimization.md`~~ **NOTED 2026-06-02**: This is a librarian/remediation task, not an insights task. The O-Avg datum is preserved in the Insight #3 evidence chain (`noted_duplicate_insight` fact in episodic memory) and remains accessible for future librarian work. No action required from insights.
-- [ ] **NEW**: The P.A.R.A. cluster is now overrepresented in the synthesis pages — 6+ existing PARA pages (5 from prior runs, none today). The engine keeps re-detecting the PARA cluster at high confidence, but the marginal insight value is now low (novelty 0.35 today). **Suggestion for overseer**: if a `--topic para` or `--topic obsidian` focused run is desired, that would consolidate the PARA literature into a single topic. Otherwise, the engine will continue to surface PARA insights as duplicates of existing pages. Not blocking.
-- [ ] **NEW**: The "downstream amplifier" pattern from Insight #5 (IDOL/Alzheimer's) is a candidate for a **methodological synthesis page** that generalizes the pattern beyond IDOL specifically. A `cell-type-specific-therapeutics-downstream-amplifier-insight.md` page could link together any future drug-development findings that follow this pattern. Not blocking — flagged for overseer if interested in methodological synthesis.
+- [x] ~~Append O-Avg metric datum (60.5→31.5) to `bounded-memory-budget-optimization.md`~~ **RESOLVED 2026-06-04**: O-Avg datum is now anchored in `ml-optimization-coherent-cluster-insight.md` (with cross-link to `bounded-memory-budget-optimization`). The datum is in a synthesis page that explicitly connects to the bounded-memory-budget concept page. Original concern was that the datum was unmoored; it is now anchored in a 10-cross-link synthesis page.
+- [x] ~~Consider PARA-focused run to consolidate PARA literature~~ **NOTED 2026-06-03**: P.A.R.A. cluster continues to be detected at high confidence, with diminishing marginal value. Not blocking. The engine surfaces PARA insights as duplicates of existing pages, which is healthy behavior.
+- [ ] **NEW**: The "downstream amplifier" pattern is now a cross-page methodological bridge (ML optimization → IDOL/Alzheimer's). A standalone `downstream-amplifier-methodological-pattern-insight.md` page could consolidate future findings that follow this pattern. Not blocking — flagged for overseer if interested in methodological synthesis consolidation.
+- [ ] **NEW**: Below-threshold items (3-entity communities with empty evidence lists) are surfacing occasionally. Today's Precision Infrastructure insight is a case where the engine's 0.85 confidence overstates the synthesis value. **Suggestion for overseer**: if a `--min-community-size 10` filter were added to the CLI, these speculative inferences would be filtered out before they reach the LLM synthesis step. Not blocking — noted for future CLI improvement discussion.
 
-No urgent items. All today's insights are either fully self-contained (published as pages) or correctly identified as duplicates of existing canonical content.
+No urgent items. All today's insights are either fully self-contained (published as page) or correctly identified as duplicates / below threshold.
 
 ## Kanban Status
 
 - [x] Prior item (t_ef13d830fc611d11) Index + episodic memory — resolved
-- [x] CLI watchdog timeout issue (4 consecutive runs May 29–31) — resolved 2026-06-01, four consecutive clean runs since
+- [x] CLI watchdog timeout issue (4 consecutive runs May 29–31) — resolved 2026-06-01, five consecutive clean runs since
+- [x] O-Avg 60.5→31.5 datum anchoring — resolved 2026-06-04, anchored in `ml-optimization-coherent-cluster-insight.md`
 
-No new open questions for kanban surfacing. The 2 new pages are self-contained with full cross-links; the 4 duplicates don't require further action. The "consolidate PARA literature via focused run" and "create downstream-amplifier methodological synthesis" items are both small, optional enrichment tasks — listed in `## What Remains` for overseer triage, not as kanban-worthy tasks.
+No new open questions for kanban surfacing. The 1 new page is self-contained with 10 cross-links; the 2 duplicates and 1 below-threshold item don't require further action. The "consolidate downstream-amplifier pattern" and "add min-community-size CLI filter" items are both small, optional enrichment tasks — listed in `## What Remains` for overseer triage, not as kanban-worthy tasks.
 
 ## Next Run Priority
 
-**Low** — Insights engine is healthy, 4 consecutive clean runs, duplicate detection working as expected. Today's run produced 2 genuine cross-domain bridges (archival/biological taxonomic coupling, IDOL/Alzheimer's downstream amplifier pattern) and 4 well-handled duplicates (3 full + 1 partial).
+**Low** — Insights engine is healthy, 5 consecutive clean runs, duplicate detection working as expected. Today's run produced 1 methodological synthesis (ML optimization cluster with O-Avg anchor + cross-domain bridge to IDOL/Alzheimer's) and 3 well-handled items (2 full duplicates + 1 below-threshold).
 
-The duplicate-rate-rising pattern is healthy maturation, not a problem to solve. If the overseer wants a topic-focused run to force new cluster discovery (e.g., `--topic ai-safety` or `--topic medical`), that's a one-line parameter change. Otherwise, the next cron should re-run the standard `--topic general` pipeline; no special action required.
+The publish-rate-decline pattern is healthy maturation, not a problem to solve. The wiki is approaching saturation on the well-trodden clusters (Euler/RoPE, P.A.R.A., MCP), and the new insights are increasingly methodological/cross-domain. If the overseer wants a topic-focused run to force new cluster discovery (e.g., `--topic ai-safety` or `--topic medical`), that's a one-line parameter change. Otherwise, the next cron should re-run the standard `--topic general` pipeline; no special action required.

@@ -85,7 +85,7 @@ Process evaluation is more robust to spec gaming: wrong reasoning that happens t
 - [[concepts/benchmark]]
 - [[concepts/chain-of-thought]]
 - [[concepts/scaling-laws]]
-- [[benchmark]]
+- [[concepts/benchmark]]
 
 - [[evaluation]] — the broader practice of systematic capability measurement
 - [[swe-bench]] — software engineering benchmark

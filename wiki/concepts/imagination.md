@@ -67,7 +67,7 @@ Imagination is central to [[llm-reasoning]]:
 - [[concepts/mental-imagery]]
 - [[concepts/agentic-planner]]
 - [[log]]
-- [[imagination]]
+- [[concepts/imagination]]
 
 - [[creativity]] — imagination provides the divergent generative substrate; [[parallel-reasoning]] selection is convergent evaluation
 - [[world-model]] — internal world models enable imagination; imagination runs simulations on world models

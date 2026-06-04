@@ -15,7 +15,7 @@ tags: []
 - [[wiki/index]]
 - [[concepts/attention-monoidal-closure]]
 - [[concepts/category-theory]]
-- [[functor-string-diagrams]]
+- [[concepts/functor-string-diagrams]]
 
 - [[category-theory]]
 - [[attention-monoidal-closure]]

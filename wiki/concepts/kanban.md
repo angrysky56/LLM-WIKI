@@ -28,7 +28,7 @@ Visual workflow management method using boards, columns (Ready/In Progress/Done)
 - [[wiki/index]]
 - [[concepts/hermes-agent-skills]]
 - [[concepts/kanban]]
-- [[kanban]]
+- [[concepts/kanban]]
 
 - [[hermes-agent]] — the agent using kanban for task orchestration
 - [[bounded-structured-memory]] — carryover patterns used alongside kanban

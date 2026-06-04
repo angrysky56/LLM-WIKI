@@ -94,7 +94,7 @@ None of these are fully validated. This is an active measurement problem.
 - [[concepts/world-model]]
 - [[concepts/bounded-rationality]]
 - [[log]]
-- [[epistemic-energy]]
+- [[concepts/epistemic-energy]]
 
 - [[agent-native-design]] — the architectural context where epistemic energy is first-class
 - [[concepts/maximum-occupancy-principle]] — the energy reservoir analogy; MOP agents maximize entropy subject to energy constraints (absorbing states)

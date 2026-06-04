@@ -90,7 +90,7 @@ For MoE systems specifically, GRPO may naturally preserve expert diversity bette
 - [[concepts/maximum-occupancy-principle]]
 - [[concepts/llm-training]]
 - [[log]]
-- [[reinforcement-learning-from-human-feedback]]
+- [[concepts/reinforcement-learning-from-human-feedback]]
 
 - [[group-relative-policy-optimization]] — alternative to PPO/DPO, structurally closer to MOP
 - [[mop-and-rlhf-interaction]] — tension between MOP entropy and KL-regularization

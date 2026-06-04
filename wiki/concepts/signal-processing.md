@@ -20,7 +20,7 @@ confidence: 0.3
 - [[concepts/digital-signal-processing]]
 - [[log]]
 - [[concepts/signal-processing]]
-- [[signal-processing]]
+- [[concepts/signal-processing]]
 
 - [[information-theory]]
 - [[digital-signal-processing]]

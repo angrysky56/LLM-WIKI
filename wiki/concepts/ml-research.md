@@ -18,7 +18,7 @@ confidence: 0.3
 - [[concepts/ai-research]]
 - [[wiki/index]]
 - [[log]]
-- [[ml-research]]
+- [[concepts/ml-research]]
 
 - [[machine-learning]]
 - [[ai-research]]

@@ -23,7 +23,7 @@ confidence: 0.3
 - [[concepts/hopfield-network]]
 - [[sources/papers/critical-initialization-biological-neural-networks]]
 - [[concepts/criticality]]
-- [[criticality]]
+- [[concepts/criticality]]
 
 - [[critical-initialization-biological-neural-networks]]
 - [[hopfield-network]]

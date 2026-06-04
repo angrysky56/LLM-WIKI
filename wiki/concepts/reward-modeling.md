@@ -56,7 +56,7 @@ Traditional reward models are often as large as the generator models they evalua
 - [[concepts/reward-modeling]]
 - [[concepts/governance]]
 - [[concept-index]]
-- [[reward-modeling]]
+- [[concepts/reward-modeling]]
 
 - **[[concepts/load-bearing-reasoning]]**: Reward models are critical for identifying correct reasoning paths in complex math and logic tasks.
 - **[[hidden-states]]**: New approaches derive rewards directly from the generator's internal representations.

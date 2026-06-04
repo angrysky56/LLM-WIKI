@@ -22,6 +22,6 @@ confidence: 0.3
 - [[sources/papers/agent-lab-2501.04227]]
 - [[wiki/index]]
 - [[log]]
-- [[ai-for-science]]
+- [[concepts/ai-for-science]]
 
 - [[concepts/maximum-occupancy-principle]]

@@ -19,7 +19,7 @@ confidence: 0.3
 - [[log]]
 - [[concepts/llm-wiki-pattern]]
 - [[concepts/obsidian-git-setup]]
-- [[obsidian-git-setup]]
+- [[concepts/obsidian-git-setup]]
 
 - [[obsidian]]
 - [[version-control]]

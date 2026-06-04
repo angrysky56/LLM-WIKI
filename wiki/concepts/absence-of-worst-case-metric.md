@@ -62,7 +62,7 @@ For any claim that a high-stakes system is "working": *what is the steady-state 
 - [[concepts/absence-of-worst-case-metric]]
 - [[sources/papers/deepweb-bench-2026]]
 - [[concepts/institutional-capture-vs-species-framing]]
-- [[absence-of-worst-case-metric]]
+- [[concepts/absence-of-worst-case-metric]]
 
 - [[spin-vs-substrate]]
 - [[institutional-capture-vs-species-framing]]

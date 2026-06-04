@@ -3676,3 +3676,177 @@ Updated page: wiki/scratchpad/agent-sheets/librarians-assistant/batch-progress.m
 ## [2026-06-04 07:02] write
 
 Updated page: wiki/scratchpad/agent-sheets/librarians-assistant/carryover.md
+
+## [2026-06-04 12:09] index
+
+Index updated with 1105 pages
+
+## [2026-06-04 12:33] ingest | Synapse Wiki Scaling.md
+
+Ingested raw/Synapse Wiki Scaling.md into knowledge graph.
+
+Preview: #  — Walkthrough  We have successfully designed, implemented, and verified the Wiki Scaling architectural improvements. The system now supports large Obsidian vaults with 1,200+ pages without flooding...
+
+## [2026-06-04 12:33] write
+
+Updated page: wiki/sources/articles/synapse-wiki-scaling-walkthrough.md
+
+## [2026-06-04 12:34] ingest | hermes-agent-self-evolution.md
+
+Ingested raw/hermes-agent-self-evolution.md into knowledge graph.
+
+Preview: ## 🧬 Hermes Agent Self-Evolution  Hermes Agent Self-Evolution uses DSPy + GEPA (Genetic-Pareto Prompt Evolution) to automatically evolve and optimize Hermes Agent's skills, tool descriptions, system p...
+
+## [2026-06-04 12:35] write
+
+Updated page: wiki/sources/repositories/hermes-agent-self-evolution.md
+
+## [2026-06-04 12:36] ingest | Language Models as Semiotic Machines.md
+
+Ingested raw/Language Models as Semiotic Machines.md into knowledge graph.
+
+Preview: Elad Vromen  ###### Abstract  This paper proposes a novel framework for understanding large language models (LLMs) by reconceptualizing them as semiotic machines rather than as imitations of human cog...
+
+## [2026-06-04 12:37] write
+
+Updated page: wiki/sources/papers/llm-semiotic-machines-vromen.md
+
+## [2026-06-04 12:40] ingest | acdc-main.md
+
+Ingested raw/acdc-main.md into knowledge graph.
+
+Preview: Andrew Dai Boris Meinardus <sup>1</sup>  Ciaran Regan Yingtao Tian Yujin Tang   Sakana AI Equal contribution. Correspondence: adai\[at\]tcd.ie, boris.meinardus00\[at\]gmail.com  ###### Abstract  Front...
+
+## [2026-06-04 12:42] write
+
+Updated page: wiki/sources/papers/acdc-llm-task-capability-coevolution-sakana.md
+
+## [2026-06-04 12:48] index
+
+Index updated with 1106 pages (Deep refresh completed)
+
+## [2026-06-04 12:50] index
+
+Index updated with 1105 pages
+
+## [2026-06-04 12:50] ingest | Discovering Novel LLM Experts via Task-Capability Coevolution.md
+
+Ingested raw/Discovering Novel LLM Experts via Task-Capability Coevolution.md into knowledge graph.
+
+Preview: Andrew Dai Boris Meinardus <sup>1</sup>  Ciaran Regan Yingtao Tian Yujin Tang   Sakana AI Equal contribution. Correspondence: adai\[at\]tcd.ie, boris.meinardus00\[at\]gmail.com  ###### Abstract  Front...
+
+## [2026-06-04 13:34] fetch | us-house-delivers-rebuke-to-trump-as-it-votes-to-halt-iran-w.md
+
+Fetched https://www.bbc.com/news/articles/cj6pldg39deo via defuddle → ingested.
+
+Preview: Watch: Moment House votes to limit Trump's Iran war powers  The US House of Representatives has passed a measure that seeks to halt President Donald Trump from taking further military action in Iran. ...
+
+## [2026-06-04 13:35] fetch | israel-and-lebanon-agree-to-implement-ceasefire-if-hezbollah.md
+
+Fetched https://www.bbc.com/news/articles/c5y01pdqvkgo via defuddle → ingested.
+
+Preview: Watch: Lebanon-Israel ceasefire deal made in 'hope rather than expectation'  Israel and Lebanon have agreed to renew their fragile ceasefire and create a number of "pilot" security zones inside Lebano...
+
+## [2026-06-04 13:36] fetch | n-koreas-kim-jong-un-calls-for-exponential-expansion-of-nucl.md
+
+Fetched https://www.aljazeera.com/news/2026/6/4/n-koreas-kim-jong-un-calls-for-exponential-expansion-of-nuclear-arsenal via defuddle → ingested.
+
+Preview: ![This picture taken on June 3, 2026 and released by North Korea's official Korean Central News Agency (KCNA) on June 4, 2026 shows North Korean leader Kim Jong Un (front R) inspecting the newly-inaug...
+
+## [2026-06-04 13:37] fetch | experts-criticise-plan-for-american-only-ebola-quarantine-ce.md
+
+Fetched https://www.theguardian.com/world/2026/jun/04/experts-criticise-plan-for-american-only-ebola-quarantine-centre-in-kenya via defuddle → ingested.
+
+Preview: ![Airport crew in hi-vis jackets push supplies in cardboard boxes up a conveyor belt loading the hull of a plane](https://i.guim.co.uk/img/media/dc59b472635df99fb3ba0bc267656e93fdc34433/573_0_3500_280...
+
+## [2026-06-04 13:38] fetch | drc-ebola-outbreak-could-have-begun-as-early-as-january-who-.md
+
+Fetched https://www.theguardian.com/global-development/2026/jun/03/drc-ebola-outbreak-could-have-begun-as-early-as-january-who-chief-says via defuddle → ingested.
+
+Preview: ![Two medics in white and yellow hazmat suits attend to a patient in a field hospital tent](https://i.guim.co.uk/img/media/d095acf79ca4526bfd57f0148ba95b8c04715243/1056_193_2544_2034/master/2544.jpg?w...
+
+## [2026-06-04 13:39] fetch | civilians-flee-mogadishu-as-somali-troops-and-opposition-all.md
+
+Fetched https://www.theguardian.com/world/2026/jun/04/civilians-flee-mogadishu-somalia-as-militias-and-troops-trade-fire via defuddle → ingested.
+
+Preview: ![Military armored vehicles move through a Mogadishu street while civilians walk and gather nearby](https://i.guim.co.uk/img/media/a068b997478b489d0239c7b8e77d58bf6a3042f5/142_0_4583_3666/master/4583....
+
+## [2026-06-04 13:42] write
+
+Updated page: wiki/sources/news/2026/us-house-votes-halt-iran-war-powers-june-4-2026.md
+
+## [2026-06-04 13:42] write
+
+Updated page: wiki/sources/news/2026/israel-lebanon-ceasefire-security-zones-june-4-2026.md
+
+## [2026-06-04 13:43] write
+
+Updated page: wiki/sources/news/2026/kim-jong-un-exponential-nuclear-arsenal-expansion-june-4-2026.md
+
+## [2026-06-04 13:43] write
+
+Updated page: wiki/sources/news/2026/somalia-mogadishu-fighting-term-extension-june-4-2026.md
+
+## [2026-06-04 13:44] write
+
+Updated page: wiki/sources/news/2026/ebola-drc-outbreak-began-january-kenya-quarantine-criticized-june-4-2026.md
+
+## [2026-06-04 13:46] index
+
+Index updated with 1127 pages
+
+## [2026-06-04 14:07] write
+
+Updated page: wiki/concepts/episodic-memory.md
+
+## [2026-06-04 14:07] write
+
+Updated page: wiki/concepts/memory-mechanisms.md
+
+## [2026-06-04 14:07] write
+
+Updated page: wiki/concepts/mixture-of-depths.md
+
+## [2026-06-04 14:08] index
+
+Index updated with 1127 pages
+
+## [2026-06-04 14:31] write
+
+Updated page: wiki/sources/papers/arxiv-2605-30343-reasoning-in-memory-rim.md
+
+## [2026-06-04 14:31] write
+
+Updated page: wiki/sources/papers/arxiv-2605-30335-locally-coherent-globally-incoherent.md
+
+## [2026-06-04 14:31] write
+
+Updated page: wiki/sources/papers/arxiv-2605-30348-llmsurgeon-data-mixture-surgery.md
+
+## [2026-06-04 14:36] index
+
+Index updated with 1130 pages
+
+## [2026-06-04 14:38] index
+
+Index updated with 1130 pages
+
+## [2026-06-04 14:41] lint
+
+1405 pages · 217 orphans · 6219 broken · 0 missing-fm · report: audits/lint-2026-06-04.md
+
+## [2026-06-04 14:44] lint
+
+1405 pages · 213 orphans · 6219 broken · 0 missing-fm · report: audits/lint-2026-06-04.md
+
+## [2026-06-04 14:44] index
+
+Index updated with 1130 pages
+
+## [2026-06-04 14:47] lint
+
+1405 pages · 213 orphans · 6219 broken · 0 missing-fm · report: audits/lint-2026-06-04.md
+
+## [2026-06-04 14:49] index
+
+Index updated with 1130 pages (Deep refresh completed)

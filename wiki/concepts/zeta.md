@@ -21,7 +21,7 @@ confidence: 0.9
 - [[wiki/index]]
 - [[concepts/zeta]]
 - [[log]]
-- [[zeta]]
+- [[concepts/zeta]]
 
 - [[agent-taxonomies]]
 - [[Alpha]]

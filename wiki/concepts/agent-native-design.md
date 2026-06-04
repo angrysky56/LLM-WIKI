@@ -101,7 +101,7 @@ Agent native design works naturally with [[agentic-hierarchy]]:
 - [[concepts/cognitive-world-models-for-llm-agents]]
 - [[concepts/epistemic-energy]]
 - [[concepts/working-memory]]
-- [[agent-native-design]]
+- [[concepts/agent-native-design]]
 
 - [[concepts/maximum-occupancy-principle]] — the intrinsic motivation foundation
 - [[mop-edm-cognitive-architecture]] — the full architectural synthesis

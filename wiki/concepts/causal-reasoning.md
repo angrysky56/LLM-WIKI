@@ -87,7 +87,7 @@ The connection to [[world-model]]: A world model is fundamentally causal if it r
 - [[synthesis/verifiable-graph-context-protocol]]
 - [[concepts/causal-reasoning]]
 - [[concepts/maximum-occupancy-principle]]
-- [[causal-reasoning]]
+- [[concepts/causal-reasoning]]
 
 - [[world-model]] — causal structure is a key component of internal world representations
 - [[concepts/maximum-occupancy-principle]] — MOP's path entropy maximization can be viewed as a causal hypothesis about what drives exploration behavior

@@ -130,7 +130,7 @@ confidence: 1.0
 - [[agents/skills/ingest-agent/skill]]
 - [[concept-index]]
 - [[concepts/tag-taxonomy]]
-- [[tag-taxonomy]]
+- [[concepts/tag-taxonomy]]
 
 - [[wiki-indexing-theory]] — theoretical basis for this document
 - [[synapse-llm-wiki-operating-guide]] — references this for tag guidance

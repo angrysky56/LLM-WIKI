@@ -19,7 +19,7 @@ confidence: 0.3
 - [[wiki/index]]
 - [[log]]
 - [[concepts/engineering]]
-- [[science]]
+- [[concepts/science]]
 
 - [[engineering]]
 - [[research-methodology]]

@@ -19,7 +19,7 @@ confidence: 0.3
 - [[concepts/fine-tuning]]
 - [[concepts/instruction-tuning]]
 - [[sources/papers/waldis-2026-instructions-shape-production]]
-- [[instruction-tuning]]
+- [[concepts/instruction-tuning]]
 
 - [[fine-tuning]]
 - [[llm-training]]

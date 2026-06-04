@@ -73,7 +73,7 @@ Proof assistants are relevant to AI alignment:
 - [[concepts/category-theory]]
 - [[entities/tools/isabelle]]
 - [[concepts/formal-methods]]
-- [[proof-assistant]]
+- [[concepts/proof-assistant]]
 
 - [[formal-methods]] — the broader field
 - [[interactive-theorem-proving]] — the practice of using proof assistants

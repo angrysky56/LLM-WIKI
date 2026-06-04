@@ -19,6 +19,6 @@ confidence: 0.3
 - [[sources/news/2026/china-coal-mine-explosion-shanxi-may-2026]]
 - [[log]]
 - [[concepts/china-energy-security]]
-- [[china-energy-security]]
+- [[concepts/china-energy-security]]
 
 - [[concepts/maximum-occupancy-principle]]

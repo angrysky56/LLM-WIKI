@@ -75,7 +75,7 @@ LLaMA-NAS is one of three NAS methods documented in the ml-evolution benchmarkin
 - [[concepts/bounded-memory-budget-optimization]]
 - [[sources/articles/ml-evolution-benchmarking-protocol]]
 
-- [[llama-nas]]
+- [[concepts/llama-nas]]
 
 ## Open Questions
 

@@ -57,7 +57,7 @@ Chain-of-Thought (CoT) is a paradigm in Large Language Models where the model is
 - [[concepts/inference-time-compute-scaling]]
 - [[concepts/process-reward-model]]
 - [[wiki/index]]
-- [[chain-of-thought]]
+- [[concepts/chain-of-thought]]
 
 - Source: [[shorthand-for-thought]]
 - Concept: [[concepts/load-bearing-reasoning]]

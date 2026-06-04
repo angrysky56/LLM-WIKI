@@ -21,7 +21,7 @@ confidence: 0.3
 - [[concepts/abstract-algebra]]
 - [[log]]
 - [[concepts/algebra]]
-- [[algebra]]
+- [[concepts/algebra]]
 
 - [[abstract-algebra]]
 - [[mathematics]]

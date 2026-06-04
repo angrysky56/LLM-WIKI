@@ -19,7 +19,7 @@ confidence: 0.3
 - [[wiki/index]]
 - [[log]]
 - [[concepts/model-optimization]]
-- [[model-optimization]]
+- [[concepts/model-optimization]]
 
 - [[ml-optimization]]
 - [[inference-efficiency]]

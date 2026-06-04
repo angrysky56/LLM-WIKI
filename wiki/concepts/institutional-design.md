@@ -26,7 +26,7 @@ The study and practice of designing organizations and structures that produce de
 - [[concepts/institutional-capture-vs-species-framing]]
 - [[wiki/index]]
 - [[log]]
-- [[institutional-design]]
+- [[concepts/institutional-design]]
 
 - [[governance]] — overarching framework
 - [[institutional-accountability]] — accountability as institutional design

@@ -76,7 +76,7 @@ The connection to [[group-relative-policy-optimization]]: GRPO can be viewed as 
 - [[concepts/parameter-efficient-fine-tuning]]
 - [[concepts/collm-nas]]
 - [[log]]
-- [[evolutionary-strategies]]
+- [[concepts/evolutionary-strategies]]
 
 - [[ml-evolution]] — ES is the optimization engine for neural architecture search
 - [[concepts/maximum-occupancy-principle]] — MOP's path entropy maximization can be expressed as an evolutionary objective: maximize diversity of visited states

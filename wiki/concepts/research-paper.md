@@ -23,7 +23,7 @@ confidence: 0.3
 - [[concepts/academic-writing]]
 - [[log]]
 - [[concepts/scientific-writing]]
-- [[research-paper]]
+- [[concepts/research-paper]]
 
 - [[academic-writing]]
 - [[scientific-writing]]

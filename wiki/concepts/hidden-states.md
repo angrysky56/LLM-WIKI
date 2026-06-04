@@ -43,7 +43,7 @@ Research has shown that LLM hidden states contain "inner knowledge"—a represen
 - [[concepts/transformer-architecture]]
 - [[concept-index]]
 - [[concepts/attention-mechanism]]
-- [[hidden-states]]
+- [[concepts/hidden-states]]
 
 - **[[reward-modeling]]**: Hidden states provide the raw data for state-based reward signals.
 - **[[causal-state-edm-ood-isomorphism]]**: Explores the isomorphism between internal causal states and external observable behaviors.

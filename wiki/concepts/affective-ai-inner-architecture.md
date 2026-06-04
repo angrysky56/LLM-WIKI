@@ -106,7 +106,7 @@ AI self-modification requires:
 - [[concepts/activation-steering]]
 - [[concepts/metacognitive-architecture-closed-loop-self-regulation]]
 - [[wiki/index]]
-- [[affective-ai-inner-architecture]]
+- [[concepts/affective-ai-inner-architecture]]
 
 - [[mechanistic-interpretability]] — TransformerLens and related tools for internal state access
 - [[activation-steering]] — Representation engineering for dynamic state modification

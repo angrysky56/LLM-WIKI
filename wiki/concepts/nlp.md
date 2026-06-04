@@ -19,7 +19,7 @@ confidence: 0.3
 - [[log]]
 - [[concepts/pattern-matching]]
 - [[concepts/llm]]
-- [[nlp]]
+- [[concepts/nlp]]
 
 - [[natural-language-processing]]
 - [[text-analysis]]

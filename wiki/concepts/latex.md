@@ -19,6 +19,6 @@ confidence: 0.3
 - [[wiki/index]]
 - [[log]]
 - [[concepts/latex]]
-- [[latex]]
+- [[concepts/latex]]
 
 - [[concepts/maximum-occupancy-principle]]

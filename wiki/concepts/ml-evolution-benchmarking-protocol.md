@@ -26,7 +26,7 @@ confidence: 0.3
 - [[concepts/ml-evolution-benchmarking-protocol]]
 - [[concepts/collm-nas]]
 - [[log]]
-- [[ml-evolution-benchmarking-protocol]]
+- [[concepts/ml-evolution-benchmarking-protocol]]
 
 - [[machine-learning]]
 - [[benchmarking]]

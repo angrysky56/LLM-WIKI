@@ -19,6 +19,6 @@ confidence: 0.3
 - [[concepts/maximum-occupancy-principle]]
 - [[concepts/privacy-mas]]
 - [[log]]
-- [[privacy-mas]]
+- [[concepts/privacy-mas]]
 
 - [[concepts/maximum-occupancy-principle]]

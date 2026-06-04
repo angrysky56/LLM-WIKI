@@ -23,7 +23,7 @@ confidence: 0.3
 - [[concepts/mlops]]
 - [[wiki/index]]
 - [[concepts/benchmarking]]
-- [[mlops]]
+- [[concepts/mlops]]
 
 - [[huggingface]]
 - [[xgboost]]

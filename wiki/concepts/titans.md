@@ -48,4 +48,4 @@ The neural long-term memory uses gradient-based "surprise" (∇θL) to identify 
 
 ## Note on Terminology
 
-The abbreviation "Titans" in `[[titans]]` wikilinks refers to this architecture concept. The paper summary page is [[titans-test-time-memory]].
+The abbreviation "Titans" in `[[concepts/titans]]` wikilinks refers to this architecture concept. The paper summary page is [[titans-test-time-memory]].

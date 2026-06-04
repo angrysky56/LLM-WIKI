@@ -21,7 +21,7 @@ confidence: 0.3
 - [[log]]
 - [[concepts/signal-processing]]
 - [[concepts/compression]]
-- [[information-theory]]
+- [[concepts/information-theory]]
 
 - [[information-retrieval]]
 - [[communication-theory]]

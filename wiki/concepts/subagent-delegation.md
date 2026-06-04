@@ -30,7 +30,7 @@ In Hermes Agent, delegation is via `delegate_task` which supports:
 - [[wiki/index]]
 - [[concepts/delegation]]
 - [[log]]
-- [[subagent-delegation]]
+- [[concepts/subagent-delegation]]
 
 - [[delegation]] — the broader concept
 - [[agentic-hierarchy]] — hierarchical organization of delegated tasks

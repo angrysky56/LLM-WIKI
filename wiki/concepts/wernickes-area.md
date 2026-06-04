@@ -32,7 +32,7 @@ Damage results in **Receptive Aphasia**:
 - [[concept-index]]
 - [[concepts/brocas-area]]
 - [[synthesis/llm-biological-analogies]]
-- [[wernickes-area]]
+- [[concepts/wernickes-area]]
 - [[brocas-area]]: The production counterpart.
 - [[arcuate-fasciculus]]: The neural bridge connecting Wernicke's to Broca's.
 - [[llm-biological-analogies]]: Analogy to Attention and Embedding layers in LLMs.

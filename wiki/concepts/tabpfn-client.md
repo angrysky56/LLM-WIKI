@@ -19,6 +19,6 @@ confidence: 0.3
 - [[log]]
 - [[wiki/index]]
 - [[sources/repositories/tabpfn]]
-- [[tabpfn-client]]
+- [[concepts/tabpfn-client]]
 
 - [[concepts/maximum-occupancy-principle]]

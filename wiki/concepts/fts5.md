@@ -22,6 +22,6 @@ confidence: 0.3
 - [[log]]
 - [[concepts/fts5]]
 - [[sources/repositories/cli-printing-press]]
-- [[fts5]]
+- [[concepts/fts5]]
 
 - [[concepts/maximum-occupancy-principle]]

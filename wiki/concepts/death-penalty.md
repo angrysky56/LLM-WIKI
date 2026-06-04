@@ -22,6 +22,6 @@ confidence: 0.3
 - [[concepts/death-penalty]]
 - [[wiki/index]]
 - [[synthesis/news/8th-amendment]]
-- [[death-penalty]]
+- [[concepts/death-penalty]]
 
 - [[us-supreme-court]]

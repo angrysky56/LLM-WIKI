@@ -24,7 +24,7 @@ confidence: 0.3
 - [[log]]
 - [[concepts/hopfield-network]]
 - [[concepts/betteti-baggio-bullo-zampieri-idp-hopfield-2025]]
-- [[betteti-baggio-bullo-zampieri-idp-hopfield-2025]]
+- [[concepts/betteti-baggio-bullo-zampieri-idp-hopfield-2025]]
 
 - [[neural-networks]]
 - [[attractor-dynamics]]

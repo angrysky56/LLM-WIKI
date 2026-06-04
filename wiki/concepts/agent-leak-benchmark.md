@@ -61,7 +61,7 @@ Without protection, **ASR up to 0.900** on vanilla KV sharing across Qwen3-4B, G
 - [[concepts/multi-agent-llm-systems]]
 - [[wiki/index]]
 - [[concepts/kv-cache]]
-- [[agent-leak-benchmark]]
+- [[concepts/agent-leak-benchmark]]
 
 - [[multi-agent-llm-systems]] — the target domain where this leakage occurs
 - [[kv-cache]] — the specific artifact being exploited

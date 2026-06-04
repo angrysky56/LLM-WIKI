@@ -88,7 +88,7 @@ NAS is a natural application of [[evolutionary-strategies]] — CMA-ES and its v
 - [[concepts/bounded-memory-budget-optimization]]
 - [[scratchpad/jobs/reports/researcher/discovery-2026-07-15]]
 - [[concepts/essa]]
-- [[neural-architecture-search]]
+- [[concepts/neural-architecture-search]]
 
 - [[ml-evolution-benchmarking-protocol]] — source for CoLLM-NAS, RZ-NAS, LLaMA-NAS
 - [[ml-evolution]] — NAS is the primary application of guided ML evolution

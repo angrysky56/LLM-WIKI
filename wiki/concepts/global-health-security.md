@@ -23,7 +23,7 @@ confidence: 0.3
 - [[log]]
 - [[sources/news/2026/ebola-bundibugyo-who-ec-recommendations-follow-up-may-2026]]
 - [[sources/news/2026/sti-record-levels-europe-2026]]
-- [[global-health-security]]
+- [[concepts/global-health-security]]
 
 - [[concepts/maximum-occupancy-principle]]
 

@@ -18,6 +18,6 @@ confidence: 0.3
 - [[wiki/index]]
 - [[sources/news/2026/quantum-supremacy-overturned-d-wave-may-2026]]
 - [[concepts/quantum-computing]]
-- [[quantum-computing]]
+- [[concepts/quantum-computing]]
 
 - [[ai-scientific-discovery]]

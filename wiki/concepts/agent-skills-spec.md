@@ -19,6 +19,6 @@ confidence: 0.3
 - [[wiki/index]]
 - [[concepts/maximum-occupancy-principle]]
 - [[log]]
-- [[agent-skills-spec]]
+- [[concepts/agent-skills-spec]]
 
 - [[concepts/maximum-occupancy-principle]]

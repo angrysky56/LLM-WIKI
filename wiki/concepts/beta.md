@@ -21,7 +21,7 @@ confidence: 0.9
 - [[log]]
 - [[concepts/omcd]]
 - [[concepts/agent-taxonomies]]
-- [[beta]]
+- [[concepts/beta]]
 
 - [[agent-taxonomies]]
 - [[Alpha]]

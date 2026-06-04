@@ -102,7 +102,7 @@ A system with delegation but no planning gets sub-tasks done but may produce inc
 - [[sources/documentation/subagent-delegation-hermes-agent]]
 - [[concepts/markovian-carryover]]
 - [[concepts/multi-agent-llm-systems]]
-- [[delegation]]
+- [[concepts/delegation]]
 
 - [[agentic-hierarchy]] — organizational structures that make delegation structured and systematic; delegation is the mechanism that moves work down hierarchy levels
 - [[hermes-agent]] — framework with native `delegate_task` support for delegation primitives

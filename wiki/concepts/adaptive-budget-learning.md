@@ -101,7 +101,7 @@ ADEPT (2026) trains a token-level confidence predictor jointly with the model:
 - [[concepts/mixture-of-experts]]
 - [[wiki/index]]
 - [[concepts/route-collapse-rlhf]]
-- [[adaptive-budget-learning]]
+- [[concepts/adaptive-budget-learning]]
 
 - [[adaptive-computation]] — stub page; this entry substantially fills it
 - [[mixture-of-experts]] — gating is the router in MoE

@@ -71,7 +71,7 @@ A notable result: synthetic-only training (on simple geometric primitives) trans
 - [[concepts/motion-understanding]]
 - [[concepts/maximum-occupancy-principle]]
 - [[log]]
-- [[video-llm]]
+- [[concepts/video-llm]]
 
 - [[vision-language-alignment]] — alignment between visual and language representations
 - [[motion-understanding]] — temporal dynamics and motion perception

@@ -23,7 +23,7 @@ confidence: 0.3
 - [[log]]
 - [[synthesis/efhf-mcp-configuration]]
 - [[sources/papers/xu-envfactory-2026]]
-- [[agent-group-evolving-molecular-system-agem]]
+- [[concepts/agent-group-evolving-molecular-system-agem]]
 - [[entities/projects/tys-repos/verifier-graph]]: Verifier-Graph tracks the evolution of agent reasoning states within the AGEM molecular dynamics model
 
 - [[concepts/maximum-occupancy-principle]]

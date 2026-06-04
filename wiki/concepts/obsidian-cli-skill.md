@@ -22,7 +22,7 @@ confidence: 0.3
 - [[sources/documentation/obsidian-git-setup]]
 - [[entities/tools/obsidian-skills-repo]]
 - [[wiki/index]]
-- [[obsidian-cli-skill]]
+- [[concepts/obsidian-cli-skill]]
 
 - [[obsidian]]
 - [[knowledge-management]]

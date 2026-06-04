@@ -114,7 +114,7 @@ The fundamental engineering question is not *how much* capacity to add, but *how
 - [[sources/papers/alignment-tampering]]
 - [[concepts/model-editing]]
 
-- [[bounded-representation-capacity]]
+- [[concepts/bounded-representation-capacity]]
 
 - [[activation-engineering]]
 - [[model-editing]]

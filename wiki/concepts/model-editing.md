@@ -73,7 +73,7 @@ More general than ROME but with similar locality guarantees.
 - [[log]]
 - [[concepts/steering-vectors]]
 - [[concepts/fine-tuning]]
-- [[model-editing]]
+- [[concepts/model-editing]]
 
 - [[fine-tuning]] — broader parameter update; model editing is surgical fine-tuning
 - [[steering-vectors]] — activation steering as an alternative to weight editing

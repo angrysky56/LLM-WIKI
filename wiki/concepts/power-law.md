@@ -31,7 +31,7 @@ Power laws appear throughout AI and natural systems:
 - [[concepts/allometric-scaling]]
 - [[wiki/index]]
 - [[concepts/taylors-law]]
-- [[power-law]]
+- [[concepts/power-law]]
 
 - [[power-law-scaling]] — scaling laws in neural networks
 - [[scaling-laws]] — relationship between model scale and capability

@@ -52,7 +52,7 @@ The model combines:
 - [[concepts/emergence]]
 - [[wiki/index]]
 - [[concepts/open-ended-evolution]]
-- [[openpraparat]]
+- [[concepts/openpraparat]]
 
 ### Related Concepts
 - [[open-ended-evolution]] — the broader property OpenPRAPARAT demonstrates

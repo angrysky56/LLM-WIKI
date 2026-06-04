@@ -31,7 +31,7 @@ In children, the maturation (specifically [[myelination]]) of the arcuate fascic
 - [[concepts/arcuate-fasciculus]]
 - [[concepts/wernickes-area]]
 - [[concept-index]]
-- [[arcuate-fasciculus]]
+- [[concepts/arcuate-fasciculus]]
 - [[brocas-area]]
 - [[wernickes-area]]
 - [[myelination]]

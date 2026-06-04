@@ -1,0 +1,727 @@
+{
+  "BBC World": {
+    "status": 200,
+    "stories": [
+      {
+        "title": "Israel and Lebanon agree to implement ceasefire if Hezbollah stops attacks",
+        "link": "https://www.bbc.com/news/articles/c5y01pdqvkgo?at_medium=RSS&at_campaign=rss",
+        "pubDate": "Thu, 04 Jun 2026 07:49:33 GMT",
+        "pub_dt": "2026-06-04T07:49:33+00:00",
+        "description": "The countries reject \"any attempt, by any state or\u202fnon-state\u202factor, to hold Lebanon's future hostage\", the US says."
+      },
+      {
+        "title": "US House delivers rebuke to Trump as it votes to halt Iran war",
+        "link": "https://www.bbc.com/news/articles/cj6pldg39deo?at_medium=RSS&at_campaign=rss",
+        "pubDate": "Thu, 04 Jun 2026 07:23:41 GMT",
+        "pub_dt": "2026-06-04T07:23:41+00:00",
+        "description": "In the 215-208 vote, four Republicans joined Democrats to pass the measure, which is largely symbolic."
+      },
+      {
+        "title": "'Crazy' phone call between Trump and Netanyahu complicates Iran talks",
+        "link": "https://www.bbc.com/news/articles/cvgz21pq3g6o?at_medium=RSS&at_campaign=rss",
+        "pubDate": "Wed, 03 Jun 2026 20:28:01 GMT",
+        "pub_dt": "2026-06-03T20:28:01+00:00",
+        "description": "Israel's PM laughed off reports of friction, but he has tested the patience of other US presidents."
+      },
+      {
+        "title": "Grab what you can while you can: The new reality in the South China Sea",
+        "link": "https://www.bbc.com/news/articles/cy823n3ln29o?at_medium=RSS&at_campaign=rss",
+        "pubDate": "Wed, 03 Jun 2026 22:00:21 GMT",
+        "pub_dt": "2026-06-03T22:00:21+00:00",
+        "description": "After years of watching China create land to back its expansive claims, others are doing the same."
+      },
+      {
+        "title": "Israeli strikes kill 11 people in Gaza City, medics say",
+        "link": "https://www.bbc.com/news/articles/cg5prr9gr1ro?at_medium=RSS&at_campaign=rss",
+        "pubDate": "Thu, 04 Jun 2026 11:07:12 GMT",
+        "pub_dt": "2026-06-04T11:07:12+00:00",
+        "description": "Women and children were among those killed when Israeli aircraft struck at least four residential buildings in several areas."
+      },
+      {
+        "title": "Missing Sherpa guide found on Mount Everest after 'miracle' self-rescue",
+        "link": "https://www.bbc.com/news/articles/cvgz2yjl4y3o?at_medium=RSS&at_campaign=rss",
+        "pubDate": "Thu, 04 Jun 2026 10:18:49 GMT",
+        "pub_dt": "2026-06-04T10:18:49+00:00",
+        "description": "Cleaners found Dawa Sherpa crawling towards Base Camp six days after he went missing at a higher altitude."
+      },
+      {
+        "title": "Ukraine accused of killing four in occupied Crimea",
+        "link": "https://www.bbc.com/news/articles/c0r2klj0nyxo?at_medium=RSS&at_campaign=rss",
+        "pubDate": "Thu, 04 Jun 2026 11:55:20 GMT",
+        "pub_dt": "2026-06-04T11:55:20+00:00",
+        "description": "At least 10 people have been injured in the attacks, according to Russian-backed officials."
+      },
+      {
+        "title": "Heavy gunfire in Somali capital as row over election delay escalates",
+        "link": "https://www.bbc.com/news/articles/cpdpwgxl1qzo?at_medium=RSS&at_campaign=rss",
+        "pubDate": "Thu, 04 Jun 2026 12:40:22 GMT",
+        "pub_dt": "2026-06-04T12:40:22+00:00",
+        "description": "The opposition has called for protests after the president's term in office was extended by a year."
+      },
+      {
+        "title": "Bondi Beach shooting hero charged with domestic assault",
+        "link": "https://www.bbc.com/news/articles/cd7p11010g5o?at_medium=RSS&at_campaign=rss",
+        "pubDate": "Thu, 04 Jun 2026 11:22:18 GMT",
+        "pub_dt": "2026-06-04T11:22:18+00:00",
+        "description": "Ahmed al Ahmed disarmed one of the alleged shooters during the deadly attack at a Jewish event."
+      },
+      {
+        "title": "Trump to nominate Blanche for attorney general on permanent basis",
+        "link": "https://www.bbc.com/news/articles/c4g8nyzl2pno?at_medium=RSS&at_campaign=rss",
+        "pubDate": "Thu, 04 Jun 2026 08:11:25 GMT",
+        "pub_dt": "2026-06-04T08:11:25+00:00",
+        "description": "If confirmed by the Senate, Trump's former personal lawyer would become the administration's number one prosecutor."
+      },
+      {
+        "title": "Indian film union drops boycott call against Bollywood star Ranveer Singh",
+        "link": "https://www.bbc.com/news/articles/c3r2g0013xpo?at_medium=RSS&at_campaign=rss",
+        "pubDate": "Thu, 04 Jun 2026 06:28:42 GMT",
+        "pub_dt": "2026-06-04T06:28:42+00:00",
+        "description": "The producers of Don 3 had earlier complained that Singh's alleged exit from the film had caused major financial losses."
+      },
+      {
+        "title": "Germany blames Russia for 'bitter defeat' in UN Security Council bid",
+        "link": "https://www.bbc.com/news/articles/cgmp3pg71edo?at_medium=RSS&at_campaign=rss",
+        "pubDate": "Thu, 04 Jun 2026 01:02:24 GMT",
+        "pub_dt": "2026-06-04T01:02:24+00:00",
+        "description": "Johann Wadephul said it was \"no secret\" Russia had stirred up sentiment against Germany over its support for Ukraine."
+      },
+      {
+        "title": "Senate Republicans axe $1bn for Trump's new White House ballroom",
+        "link": "https://www.bbc.com/news/articles/c0r2kxrvlgpo?at_medium=RSS&at_campaign=rss",
+        "pubDate": "Thu, 04 Jun 2026 01:18:09 GMT",
+        "pub_dt": "2026-06-04T01:18:09+00:00",
+        "description": "The bill to fund immigration agencies has been delayed by opposition to Trump's \n'anti-weaponisation fund'."
+      },
+      {
+        "title": "China bans four New Zealand MPs over Taiwan visit",
+        "link": "https://www.bbc.com/news/articles/cx21r1y223ro?at_medium=RSS&at_campaign=rss",
+        "pubDate": "Thu, 04 Jun 2026 05:37:14 GMT",
+        "pub_dt": "2026-06-04T05:37:14+00:00",
+        "description": "Upon their return from Taiwan last month, the lawmakers were told that China had banned them for a year."
+      },
+      {
+        "title": "Ukrainian drones hit St Petersburg as Putin's flagship economic forum opens",
+        "link": "https://www.bbc.com/news/articles/c0e2vqd3j1vo?at_medium=RSS&at_campaign=rss",
+        "pubDate": "Wed, 03 Jun 2026 11:34:07 GMT",
+        "pub_dt": "2026-06-03T11:34:07+00:00",
+        "description": "Several long-range drones struck oil storage facilities near the city, days before Vladimir Putin is due to address the event."
+      },
+      {
+        "title": "One killed and dozens injured in Iranian drone strikes on Kuwait airport",
+        "link": "https://www.bbc.com/news/articles/c5yx135yg53o?at_medium=RSS&at_campaign=rss",
+        "pubDate": "Wed, 03 Jun 2026 20:05:58 GMT",
+        "pub_dt": "2026-06-03T20:05:58+00:00",
+        "description": "Iran says the attack on Kuwait was in retaliation for earlier US strikes on an Iranian oil tanker and island."
+      },
+      {
+        "title": "Foreign nationals among at least 21 killed in Delhi fire",
+        "link": "https://www.bbc.com/news/articles/czd29327qzvo?at_medium=RSS&at_campaign=rss",
+        "pubDate": "Wed, 03 Jun 2026 11:54:25 GMT",
+        "pub_dt": "2026-06-03T11:54:25+00:00",
+        "description": "Many victims were South Asians who had travelled to India for treatment or to accompany relatives."
+      },
+      {
+        "title": "'Nothing left to chance' for Bayeux Tapestry's journey to London",
+        "link": "https://www.bbc.com/news/articles/c9d37dl139eo?at_medium=RSS&at_campaign=rss",
+        "pubDate": "Thu, 04 Jun 2026 11:52:58 GMT",
+        "pub_dt": "2026-06-04T11:52:58+00:00",
+        "description": "The 950-year-old work will be as safe \"as a baby\" during its move to London, French officials say."
+      },
+      {
+        "title": "Uneasy neighbours: Can three World Cup hosts put differences aside for a month?",
+        "link": "https://www.bbc.com/news/articles/cvgz2081y8ko?at_medium=RSS&at_campaign=rss",
+        "pubDate": "Thu, 04 Jun 2026 08:46:23 GMT",
+        "pub_dt": "2026-06-04T08:46:23+00:00",
+        "description": "The tournament comes after a period of fractious relations between the US, Canada and Mexico."
+      },
+      {
+        "title": "Why Canadians can now get cheaper generic Ozempic - and Americans can't",
+        "link": "https://www.bbc.com/news/articles/c142y4p2eyxo?at_medium=RSS&at_campaign=rss",
+        "pubDate": "Wed, 03 Jun 2026 23:34:48 GMT",
+        "pub_dt": "2026-06-03T23:34:48+00:00",
+        "description": "Canada is the first G7 country to approve the lower cost weight-loss drugs, which are rolling out in pharmacies this month."
+      }
+    ]
+  },
+  "Al Jazeera": {
+    "status": 200,
+    "stories": [
+      {
+        "title": "What do Turkiye and Indonesia want from bilateral talks?",
+        "link": "https://www.aljazeera.com/news/2026/6/4/what-do-turkiye-and-indonesia-want-from-bilateral-talks?traffic_source=rss",
+        "pubDate": "Thu, 04 Jun 2026 12:59:38 +0000",
+        "pub_dt": "2026-06-04T12:59:38+00:00",
+        "description": "Turkiye&#039;s Foreign Minister Hakan Fidan travelled to Indonesia to cement the two states&#039; growing partnership."
+      },
+      {
+        "title": "N Korea\u2019s Kim Jong Un calls for \u2018exponential\u2019 expansion of nuclear arsenal",
+        "link": "https://www.aljazeera.com/news/2026/6/4/n-koreas-kim-jong-un-calls-for-exponential-expansion-of-nuclear-arsenal?traffic_source=rss",
+        "pubDate": "Thu, 04 Jun 2026 12:50:09 +0000",
+        "pub_dt": "2026-06-04T12:50:09+00:00",
+        "description": "Kim says expansion necessary due to worsening security threats, long-term confrontations with &#039;most ferocious enemies&#039;."
+      },
+      {
+        "title": "Who are the World Cup Golden Boot favourites? Mbappe, Ronaldo, Messi, Kane?",
+        "link": "https://www.aljazeera.com/sports/2026/6/4/who-are-the-world-cup-golden-boot-favourites-mbappe-ronaldo-messi-kane?traffic_source=rss",
+        "pubDate": "Thu, 04 Jun 2026 12:13:20 +0000",
+        "pub_dt": "2026-06-04T12:13:20+00:00",
+        "description": "There are a host of top players who could claim the coveted title of top goal scorer, including two from the same team."
+      },
+      {
+        "title": "Israel\u2019s Smotrich announces plan for 2,162 homes in occupied West Bank",
+        "link": "https://www.aljazeera.com/news/2026/6/4/israels-smotrich-announces-plan-for-2162-homes-in-occupied-west-bank?traffic_source=rss",
+        "pubDate": "Thu, 04 Jun 2026 12:06:17 +0000",
+        "pub_dt": "2026-06-04T12:06:17+00:00",
+        "description": "The far-right finance minister says the new houses will &#039;strengthen our hold on the land&#039;."
+      },
+      {
+        "title": "Man City threatens legal action against Real Madrid following Haaland claim",
+        "link": "https://www.aljazeera.com/sports/2026/6/4/man-city-threaten-legal-action-against-real-madrid-following-haaland-claim?traffic_source=rss",
+        "pubDate": "Thu, 04 Jun 2026 11:57:24 +0000",
+        "pub_dt": "2026-06-04T11:57:24+00:00",
+        "description": "Enrique Riquelme held up a Real Madrid shirt bearing Erling Haaland&#039;s name, while campaigning for club presidency."
+      },
+      {
+        "title": "Quiz: World Cup 2026 \u2013 player and team records, key statistics",
+        "link": "https://www.aljazeera.com/sports/2026/6/4/quiz-world-cup-2026-player-and-team-records-key-statistics?traffic_source=rss",
+        "pubDate": "Thu, 04 Jun 2026 11:18:35 +0000",
+        "pub_dt": "2026-06-04T11:18:35+00:00",
+        "description": "Test your football knowledge before the World Cup begins with a 10-question quiz."
+      },
+      {
+        "title": "Monsoon rain reaches Kerala 3 days late but on time to save Indian harvests",
+        "link": "https://www.aljazeera.com/news/2026/6/4/monsoon-rain-reaches-kerala-3-days-late-but-on-time-to-save-indian-harvests?traffic_source=rss",
+        "pubDate": "Thu, 04 Jun 2026 11:10:33 +0000",
+        "pub_dt": "2026-06-04T11:10:33+00:00",
+        "description": "The monsoon rains are essential for driving India&#039;s $4 trillion economy."
+      },
+      {
+        "title": "Who is the Indian guru Venezuelan acting President Delcy Rodriguez follows?",
+        "link": "https://www.aljazeera.com/news/2026/6/4/who-is-the-indian-guru-venezuelan-acting-president-delcy-rodriguez-follows?traffic_source=rss",
+        "pubDate": "Thu, 04 Jun 2026 11:04:16 +0000",
+        "pub_dt": "2026-06-04T11:04:16+00:00",
+        "description": "The Venezuelan leader, who is a devotee of Sathya Sai Baba, is in India as the two countries aim to boost energy ties."
+      },
+      {
+        "title": "Itamar Ben-Gvir: The face of Israel\u2019s hard right \u2014 or the face of Israel?",
+        "link": "https://www.aljazeera.com/news/2026/6/4/itamar-ben-gvir-the-face-of-israels-hard-right-or-the-face-of?traffic_source=rss",
+        "pubDate": "Thu, 04 Jun 2026 10:58:59 +0000",
+        "pub_dt": "2026-06-04T10:58:59+00:00",
+        "description": "Despite internal criticism, analysts argue Ben-Gvir holds a mirror to much of Israeli society."
+      },
+      {
+        "title": "\u2018Grossly unfair\u2019: Meta slams Australia\u2019s bid to make platforms pay for news",
+        "link": "https://www.aljazeera.com/economy/2026/6/4/grossly-unfair-meta-slams-australias-bid-to-make-platforms-pay-for-news?traffic_source=rss",
+        "pubDate": "Thu, 04 Jun 2026 10:56:33 +0000",
+        "pub_dt": "2026-06-04T10:56:33+00:00",
+        "description": "Facebook parent company says proposals violate Australia&#039;s commitments under its free trade agreement with the US."
+      },
+      {
+        "title": "Argentina erupts in protest against gender violence after teen murder",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/6/4/argentina-erupts-in-protest-against-gender-violence-after-teen-murder?traffic_source=rss",
+        "pubDate": "Thu, 04 Jun 2026 10:29:32 +0000",
+        "pub_dt": "2026-06-04T10:29:32+00:00",
+        "description": "Argentina erupts in protest against gender violence after teen murder."
+      },
+      {
+        "title": "Mehdi Taremi: Iran\u2019s journey to the 2026 World Cup",
+        "link": "https://www.aljazeera.com/video/game-theory/2026/6/4/mehdi-taremi-irans-journey-to-the-2026-world-cup?traffic_source=rss",
+        "pubDate": "Thu, 04 Jun 2026 10:29:27 +0000",
+        "pub_dt": "2026-06-04T10:29:27+00:00",
+        "description": "Iranian footballer Mehdi Taremi talks to Al Jazeera ahead of one of the most politically charged World Cups in history."
+      },
+      {
+        "title": "Ireland\u2019s Black community opens up about racism after \u2018George Floyd moment\u2019",
+        "link": "https://www.aljazeera.com/news/2026/6/4/irelands-black-community-opens-up-about-racism-after-george-floyd-moment?traffic_source=rss",
+        "pubDate": "Thu, 04 Jun 2026 10:15:17 +0000",
+        "pub_dt": "2026-06-04T10:15:17+00:00",
+        "description": "In the wake of Yves Sakila&#039;s death following a violent restraint, many say racism in Ireland is an overlooked scourge."
+      },
+      {
+        "title": "Israel and Lebanon agree on ceasefire framework in US-led talks",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/6/4/israel-and-lebanon-agree-on-ceasefire-framework-in-us-led-talks?traffic_source=rss",
+        "pubDate": "Thu, 04 Jun 2026 09:50:17 +0000",
+        "pub_dt": "2026-06-04T09:50:17+00:00",
+        "description": "The US announced an Israel-Lebanon ceasefire framework, but Hezbollah&#039;s absence leaves questions over enforcement."
+      },
+      {
+        "title": "US House votes to end Trump\u2019s Iran war: Does it matter?",
+        "link": "https://www.aljazeera.com/news/2026/6/4/us-house-votes-to-end-trumps-iran-war-does-it-matter?traffic_source=rss",
+        "pubDate": "Thu, 04 Jun 2026 09:49:24 +0000",
+        "pub_dt": "2026-06-04T09:49:24+00:00",
+        "description": "Four Republicans join Democrats in rare rebuke of president. But Congress still far from able to stop further attacks."
+      },
+      {
+        "title": "Did Germany lose its UNSC seat because of support for Israel?",
+        "link": "https://www.aljazeera.com/news/2026/6/4/did-germany-lose-its-unsc-seat-because-of-support-for-israel?traffic_source=rss",
+        "pubDate": "Thu, 04 Jun 2026 09:47:00 +0000",
+        "pub_dt": "2026-06-04T09:47:00+00:00",
+        "description": "Germany lost its Security Council bid to Austria and Portugal, which secured the two available seats."
+      },
+      {
+        "title": "Nepali Mount Everest guide found alive after being missing for six days",
+        "link": "https://www.aljazeera.com/news/2026/6/4/nepali-mount-everest-guide-found-alive-after-being-missing-for-six-days?traffic_source=rss",
+        "pubDate": "Thu, 04 Jun 2026 09:28:59 +0000",
+        "pub_dt": "2026-06-04T09:28:59+00:00",
+        "description": "Dawa Sherpa was last seen around May 29 descending the mountain, but while he did not reach base camp, his client did."
+      },
+      {
+        "title": "Who is Khalilur Rahman, Bangladesh FM who beat Cyprus to UNGA presidency?",
+        "link": "https://www.aljazeera.com/news/2026/6/4/who-is-khalilur-rahman-bangladesh-fm-who-beat-cyprus-to-unga-presidency?traffic_source=rss",
+        "pubDate": "Thu, 04 Jun 2026 08:50:04 +0000",
+        "pub_dt": "2026-06-04T08:50:04+00:00",
+        "description": "Rahman, a career diplomat who held several portfolios at the global body, beats Cyprus\u2019s Ambassador Andreas Kakouris."
+      },
+      {
+        "title": "Video: US House of Representatives votes to block further war on Iran",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/6/4/video-us-house-of-representatives-votes-to-block-further-war-on-iran?traffic_source=rss",
+        "pubDate": "Thu, 04 Jun 2026 08:38:42 +0000",
+        "pub_dt": "2026-06-04T08:38:42+00:00",
+        "description": "Republican-led US House of Representatives passed a resolution to halt any further push of the war on Iran."
+      },
+      {
+        "title": "World Cup 2026: What are the key dates from the opening match to the final?",
+        "link": "https://www.aljazeera.com/sports/2026/6/4/world-cup-2026-what-are-the-key-dates-from-the-opening-match-to-the-final?traffic_source=rss",
+        "pubDate": "Thu, 04 Jun 2026 08:38:21 +0000",
+        "pub_dt": "2026-06-04T08:38:21+00:00",
+        "description": "From must-watch games to the grand finale, here&#039;s a list of all the important dates on the 2026 World Cup schedule."
+      }
+    ]
+  },
+  "NYT World": {
+    "status": 200,
+    "stories": [
+      {
+        "title": "Iran War Live Updates: Israel Trades Strikes With Hezbollah After New Cease-Fire With Lebanon",
+        "link": "https://www.nytimes.com/live/2026/06/04/world/iran-war-trump-israel-lebanon",
+        "pubDate": "Thu, 04 Jun 2026 13:19:16 +0000",
+        "pub_dt": "2026-06-04T13:19:16+00:00",
+        "description": "Hezbollah\u2019s leader said the Iran-backed group, which was not included in U.S.-brokered talks, had rejected the deal."
+      },
+      {
+        "title": "Hezbollah\u2019s Fiber-Optic Drones Expose Cracks in Israeli Defenses",
+        "link": "https://www.nytimes.com/2026/06/04/world/middleeast/hezbollah-fiber-optic-drones-israel.html",
+        "pubDate": "Thu, 04 Jun 2026 10:25:36 +0000",
+        "pub_dt": "2026-06-04T10:25:36+00:00",
+        "description": "The Lebanese militant group\u2019s attacks have caught Israelis off guard, forcing its political and military leaders to scramble for solutions."
+      },
+      {
+        "title": "Ireland, Seen as a Weak Link in Europe\u2019s Defense, Is Trying to Bulk Up",
+        "link": "https://www.nytimes.com/2026/06/04/world/europe/ireland-defense.html",
+        "pubDate": "Thu, 04 Jun 2026 10:34:07 +0000",
+        "pub_dt": "2026-06-04T10:34:07+00:00",
+        "description": "As concern rises in Europe over threats from an emboldened Russia, the Irish government says it\u2019s working to plug gaps in its military, which reflect a tradition of neutrality."
+      },
+      {
+        "title": "Marjane Satrapi, the Author of \u2018Persepolis,\u2019 Dies at 56",
+        "link": "https://www.nytimes.com/2026/06/04/world/middleeast/marjane-satrapi-dead.html",
+        "pubDate": "Thu, 04 Jun 2026 13:26:27 +0000",
+        "pub_dt": "2026-06-04T13:26:27+00:00",
+        "description": "Her popular graphic novel series, published in the early 2000s, followed an Iranian girl through the Islamic Revolution and the Iran-Iraq War."
+      },
+      {
+        "title": "Amid War, Iran\u2019s Soccer Leader Works to Get His Team to the World Cup",
+        "link": "https://www.nytimes.com/2026/06/04/world/middleeast/iran-soccer-world-cup-war.html",
+        "pubDate": "Thu, 04 Jun 2026 04:01:06 +0000",
+        "pub_dt": "2026-06-04T04:01:06+00:00",
+        "description": "Mehdi Taj said his federation has been dealing with FIFA, not the United States, in trying to obtain visas for Iran to play in the tournament that begins next week."
+      },
+      {
+        "title": "Can Abelardo De La Espriella, a U.S. Citizen, Become Colombia\u2019s President?",
+        "link": "https://www.nytimes.com/2026/06/04/world/americas/colombia-president-de-la-espriella-us-citizen.html",
+        "pubDate": "Thu, 04 Jun 2026 12:16:15 +0000",
+        "pub_dt": "2026-06-04T12:16:15+00:00",
+        "description": "President Trump this week endorsed the right-wing candidate, Abelardo De La Espriella, a dual citizen of Colombia and the United States, in Colombia\u2019s presidential runoff."
+      },
+      {
+        "title": "Priest\u2019s Ebola Death Stirs Fear and Doubt in Congolese Town",
+        "link": "https://www.nytimes.com/2026/06/04/world/africa/ebola-congo-funeral-photo.html",
+        "pubDate": "Thu, 04 Jun 2026 13:15:11 +0000",
+        "pub_dt": "2026-06-04T13:15:11+00:00",
+        "description": "Priest\u2019s Ebola Death Stirs Fear an Doubt in Congolese Town"
+      },
+      {
+        "title": "Four New Zealand Lawmakers Banned From China After Taiwan Trip",
+        "link": "https://www.nytimes.com/2026/06/04/world/australia/new-zealand-taiwan-china-travel-ban.html",
+        "pubDate": "Thu, 04 Jun 2026 08:10:56 +0000",
+        "pub_dt": "2026-06-04T08:10:56+00:00",
+        "description": "New Zealand\u2019s foreign minister was \u201csurprised\u201d to hear about the one-year travel ban, a spokesperson said, given lawmakers have visited Taiwan for years without issues."
+      },
+      {
+        "title": "Colombia\u2019s Yellow World Cup Jersey, Once a Symbol of Unity, Becomes a Political Statement",
+        "link": "https://www.nytimes.com/2026/06/04/world/americas/colombia-world-cup-jersey-politics.html",
+        "pubDate": "Thu, 04 Jun 2026 09:03:43 +0000",
+        "pub_dt": "2026-06-04T09:03:43+00:00",
+        "description": "A presidential candidate endorsed by President Trump has been accused by some Colombians of co-opting their beloved national team\u2019s yellow soccer jersey."
+      },
+      {
+        "title": "South Korea\u2019s Governing Democratic Party Sweeps Local Elections but Faces Setback in Seoul Mayor\u2019s Race",
+        "link": "https://www.nytimes.com/2026/06/04/world/asia/south-korea-seoul-mayor-elections.html",
+        "pubDate": "Thu, 04 Jun 2026 07:03:48 +0000",
+        "pub_dt": "2026-06-04T07:03:48+00:00",
+        "description": "President Lee Jae Myung\u2019s Democratic Party had hoped to consolidate its influence and extend his political momentum."
+      },
+      {
+        "title": "Ukraine Strikes St. Petersburg on First Day of a Marquee Putin Event",
+        "link": "https://www.nytimes.com/2026/06/03/world/europe/ukraine-russia-attack-st-petersburg-putin.html",
+        "pubDate": "Wed, 03 Jun 2026 16:04:10 +0000",
+        "pub_dt": "2026-06-03T16:04:10+00:00",
+        "description": "As an annual economic conference was set to begin, President Volodymyr Zelensky said Ukraine had targeted a navy base and an oil terminal in the region that includes Russia\u2019s second-largest city."
+      },
+      {
+        "title": "Protests in UK Over Henry Nowak Murder Case Turn Violent, as Leaders Urge Calm",
+        "link": "https://www.nytimes.com/2026/06/03/world/europe/henry-nowak-murder-southampton-protests-uk.html",
+        "pubDate": "Wed, 03 Jun 2026 18:07:51 +0000",
+        "pub_dt": "2026-06-03T18:07:51+00:00",
+        "description": "Eleven officers were wounded in clashes with demonstrators after right-wing politicians and commentators accused the police of anti-white bias."
+      },
+      {
+        "title": "Fire at a New Delhi Hotel Kills at Least 21",
+        "link": "https://www.nytimes.com/2026/06/03/world/asia/fire-hotel-new-delhi-india.html",
+        "pubDate": "Wed, 03 Jun 2026 20:13:48 +0000",
+        "pub_dt": "2026-06-03T20:13:48+00:00",
+        "description": "Dozens more were injured, the authorities said. The blaze appears to be the deadliest in the Indian capital in at least four years."
+      },
+      {
+        "title": "Fighting in Somalia\u2019s Capital, Mogadishu: What\u2019s Happening and Why It Matters",
+        "link": "https://www.nytimes.com/2026/06/04/world/africa/somalia-mogadishu-fighting.html",
+        "pubDate": "Thu, 04 Jun 2026 12:47:26 +0000",
+        "pub_dt": "2026-06-04T12:47:26+00:00",
+        "description": "Gun battles erupted on Thursday, as armed groups loyal to rival politicians clashed. Residents said it was the worst fighting in years."
+      },
+      {
+        "title": "Here\u2019s the latest.",
+        "link": "https://www.nytimes.com/live/2026/06/04/world/iran-war-trump-israel-lebanon/heres-the-latest",
+        "pubDate": "Thu, 04 Jun 2026 13:18:54 +0000",
+        "pub_dt": "2026-06-04T13:18:54+00:00",
+        "description": ""
+      },
+      {
+        "title": "Urban Light Pollution Might Be Worsening Allergies",
+        "link": "https://www.nytimes.com/2026/06/04/climate/urban-light-pollution-pollen-allergies.html",
+        "pubDate": "Thu, 04 Jun 2026 12:39:45 +0000",
+        "pub_dt": "2026-06-04T12:39:45+00:00",
+        "description": "Light pollution prompts plants to shed pollen longer and stronger, according to new research."
+      },
+      {
+        "title": "Israel and Lebanon Renew Cease-Fire, Calling for Evacuation of Hezbollah Operatives",
+        "link": "https://www.nytimes.com/2026/06/03/world/middleeast/israel-lebanon-ceasefire-hezbollah.html",
+        "pubDate": "Thu, 04 Jun 2026 11:35:57 +0000",
+        "pub_dt": "2026-06-04T11:35:57+00:00",
+        "description": "The agreement places the onus on Hezbollah to halt attacks, while demanding few immediate concessions from Israel. The cease-fire could remove an obstacle in the talks between the United States and Iran."
+      },
+      {
+        "title": "Israel\u2019s High Court Rejects Ban on Red Cross Visits for Palestinian Prisoners",
+        "link": "https://www.nytimes.com/2026/06/03/world/middleeast/israel-supreme-court-red-cross-palestinian-prisoners.html",
+        "pubDate": "Thu, 04 Jun 2026 01:48:15 +0000",
+        "pub_dt": "2026-06-04T01:48:15+00:00",
+        "description": "Israel forbade the visits, which allow the Red Cross to monitor prisoners\u2019 conditions, in 2023. Justices said the policy violated Israeli and international law."
+      },
+      {
+        "title": "Trump Says Iran War Is \u2018Not a Big Thing\u2019 for U.S.",
+        "link": "https://www.nytimes.com/2026/06/03/world/middleeast/trump-iran-war-remarks.html",
+        "pubDate": "Thu, 04 Jun 2026 01:04:43 +0000",
+        "pub_dt": "2026-06-04T01:04:43+00:00",
+        "description": "It was the latest attempt by President Trump to flip the narrative on a conflict that he once said would lead to quick and decisive victory."
+      },
+      {
+        "title": "Trump Agitates Brazil\u2019s Politics, Again",
+        "link": "https://www.nytimes.com/2026/06/03/world/americas/trump-brazil-flavio-bolsonaro.html",
+        "pubDate": "Wed, 03 Jun 2026 23:02:12 +0000",
+        "pub_dt": "2026-06-03T23:02:12+00:00",
+        "description": "President Trump appears ready to lend a hand to a new right-wing ally ahead of a crucial election this year that will be the biggest test for Latin America\u2019s left."
+      }
+    ]
+  },
+  "Guardian": {
+    "status": 200,
+    "stories": [
+      {
+        "title": "Experts criticise plan for American-only Ebola quarantine centre in Kenya",
+        "link": "https://www.theguardian.com/world/2026/jun/04/experts-criticise-plan-for-american-only-ebola-quarantine-centre-in-kenya",
+        "pubDate": "Thu, 04 Jun 2026 12:30:06 GMT",
+        "pub_dt": "2026-06-04T12:30:06+00:00",
+        "description": "Plan departs from policy of bringing CDC staff back to US for treatment and offering support to all health workersFormer top US officials and other experts are urging the Trump administration to abandon plans for an Ebola quarantine and treatment centre in Kenya, as the union for workers with the US Centers for Disease Control and Prevention (CDC) calls for Americans exposed to Ebola to be brought"
+      },
+      {
+        "title": "Civilians flee Mogadishu as Somali troops and opposition-allied militias trade fire",
+        "link": "https://www.theguardian.com/world/2026/jun/04/civilians-flee-mogadishu-somalia-as-militias-and-troops-trade-fire",
+        "pubDate": "Thu, 04 Jun 2026 11:52:13 GMT",
+        "pub_dt": "2026-06-04T11:52:13+00:00",
+        "description": "Violence flares before protests on Thursday over president\u2019s decision to remain in office after his term expiredFierce clashes have taken place between government troops and militias allied with the opposition in Somalia\u2019s capital, Mogadishu, damaging property and forcing some civilians to flee.In the runup to the fighting, which started on Wednesday afternoon, opposition leaders embedded with mil"
+      },
+      {
+        "title": "Rebel attacks in eastern DRC kill 30 people and hamper Ebola response",
+        "link": "https://www.theguardian.com/global-development/2026/jun/04/allied-democratic-forces-adf-rebel-attacks-massacre-eastern-drc-ebola-response",
+        "pubDate": "Thu, 04 Jun 2026 04:00:25 GMT",
+        "pub_dt": "2026-06-04T04:00:25+00:00",
+        "description": "Islamic State-linked militia blamed for raids in North Kivu as governor says three patients with disease fled clinicsRebel attacks around a town that is one of the centres of the Ebola outbreak in the Democratic Republic of the Congo have left more than 30 people dead over the past few days, complicating the response to the disease.At least 10 people were massacred in raids on three villages aroun"
+      },
+      {
+        "title": "DRC Ebola outbreak could have begun as early as January, WHO chief says",
+        "link": "https://www.theguardian.com/global-development/2026/jun/03/drc-ebola-outbreak-could-have-begun-as-early-as-january-who-chief-says",
+        "pubDate": "Wed, 03 Jun 2026 17:29:55 GMT",
+        "pub_dt": "2026-06-03T17:29:55+00:00",
+        "description": "Tedros Adhanom Ghebreyesus says the virus \u2018had a big head start\u2019  but that the response was catching upThe Ebola outbreak in the Democratic Republic of the Congo could have begun as early as January, the head of the World Health Organization said, giving the virus \u201ca big head start\u201d.Dr Tedros Adhanom Ghebreyesus also said the response was being hindered by blanket travel restrictions and highlight"
+      },
+      {
+        "title": "\u2018We don\u2019t have another country to run to\u2019: Kenyans fear US plan for Ebola quarantine site",
+        "link": "https://www.theguardian.com/world/2026/jun/02/kenyans-fear-us-plan-for-ebola-quarantine-site",
+        "pubDate": "Tue, 02 Jun 2026 18:13:20 GMT",
+        "pub_dt": "2026-06-02T18:13:20+00:00",
+        "description": "People from town of potential site for US citizens exposed to Ebola say it puts them at risk in country with no known casesPeople from a town in central Kenya where the US wants to set up an Ebola quarantine facility for its citizens have strongly criticised the plan, saying they fear it will expose them to the virus and that it is indicative of double standards on the part of the US.\u201cEverybody sh"
+      },
+      {
+        "title": "Dead but deportable: US immigration judge signed order to eject teen murder victim",
+        "link": "https://www.theguardian.com/us-news/2026/jun/03/north-carolina-judge-deport-teen-murder-victim",
+        "pubDate": "Wed, 03 Jun 2026 18:04:53 GMT",
+        "pub_dt": "2026-06-03T18:04:53+00:00",
+        "description": "North Carolina judge said Levi Mendez-Maldonado failed to show up in court \u2013 even after being told he had died in 2024An immigration judge in Charlotte, North Carolina, recently ordered the deportation of a young man who was killed in 2024, citing his failure to appear in court.Judge Amy Lee ordered the removal of Levi Mendez-Maldonado in absentia on 21 May. Mendez-Maldonado, originally from Hondu"
+      },
+      {
+        "title": "Kidnappings, threats and \u2018protection fees\u2019: how can Mexico confront rise in deadly extortion?",
+        "link": "https://www.theguardian.com/world/2026/jun/03/how-can-mexico-confront-rise-in-deadly-extortion",
+        "pubDate": "Wed, 03 Jun 2026 11:00:04 GMT",
+        "pub_dt": "2026-06-03T11:00:04+00:00",
+        "description": "With corrupt police on the streets and shopkeepers forced to pay gangs, president has vowed to tackle crime that now affects all parts of societyIt was about 11pm and Luis* was about to get into an Uber to go home when the police car pulled up. One of the officers frisked him and produced two plastic bags with what looked like drugs: one contained some sort of powder, the other little crystals. Lu"
+      },
+      {
+        "title": "One-ton cocaine bust reveals secret US-Mexico tunnel",
+        "link": "https://www.theguardian.com/us-news/2026/jun/02/san-diego-drug-tunnel",
+        "pubDate": "Tue, 02 Jun 2026 23:25:07 GMT",
+        "pub_dt": "2026-06-02T23:25:07+00:00",
+        "description": "Members of Jalisco New Generation cartel used fake retail store in San Diego as front for trafficking drugs, officials sayFederal prosecutors have charged four suspects with trafficking more than one ton of cocaine for the Jalisco New Generation cartel using a fake retail store in San Diego as a front for a sophisticated tunnel that ran across the border to Tijuana, Mexico.The defendants include t"
+      },
+      {
+        "title": "Trump administration proposes 25% tariffs on Brazil despite US trade surplus",
+        "link": "https://www.theguardian.com/business/2026/jun/02/trump-administration-brazil-tariffs",
+        "pubDate": "Tue, 02 Jun 2026 18:56:55 GMT",
+        "pub_dt": "2026-06-02T18:56:55+00:00",
+        "description": "US claims world\u2019s 10th-biggest economy engages in \u2018unreasonable\u2019 trade practices that \u2018restrict US commerce\u2019Sign up for the Breaking News US newsletter emailThe Trump administration proposed 25% tariffs on imports from Brazil, charging that the world\u2019s 10th-biggest economy engages in trade practices that are \u201cunreasonable\u2019\u2019 and that \u201cburden or restrict US commerce\u201d.Luiz In\u00e1cio Lula da Silva said h"
+      },
+      {
+        "title": "Cricket Canada suspended over allegations of gang-linked corruption",
+        "link": "https://www.theguardian.com/world/2026/jun/02/cricket-canada-suspension",
+        "pubDate": "Tue, 02 Jun 2026 18:10:07 GMT",
+        "pub_dt": "2026-06-02T18:10:07+00:00",
+        "description": "ICC\u2019s decision comes amid growing concerns the team is being influenced by members of a notorious gang in IndiaCricket\u2019s international governing body has suspended Canada over what it described as \u201cserious breaches of its membership obligations\u201d, dealing the latest blow to an organization that critics say has become a \u201claughing stock\u201d within the sport.The suspension also comes amid growing concern"
+      },
+      {
+        "title": "Europe\u2019s far right exploit Nowak murder with populist rhetoric on race",
+        "link": "https://www.theguardian.com/world/2026/jun/04/polish-far-right-nowak-britain-descent-depths-earth",
+        "pubDate": "Thu, 04 Jun 2026 11:10:57 GMT",
+        "pub_dt": "2026-06-04T11:10:57+00:00",
+        "description": "Polish, Spanish and French populists focus on clips of teenager\u2019s dying moments and accuse UK of descending \u2018into depths of the earth\u2019UK politics live \u2013 latest updatesPolish far-right politicians have claimed that the murder of Henry Nowak symbolises \u201cBritain\u2019s descent into the depths of the earth\u201d as populists from France, Spain and Japan focused on harrowing clips of his dying moments.Despite pl"
+      },
+      {
+        "title": "Japan sees shortage of plastic bags, trays and gloves, as Iran war-induced naphtha shortage worsens",
+        "link": "https://www.theguardian.com/world/2026/jun/04/japan-naphtha-shortage-plastic-bag",
+        "pubDate": "Thu, 04 Jun 2026 00:12:10 GMT",
+        "pub_dt": "2026-06-04T00:12:10+00:00",
+        "description": "The Middle East is Japan\u2019s main source of crude oil, from which naphtha is extracted and used to make items including printing ink and plasticsTakeaways, supermarkets, and bakeries in Japan are running out of plastic bags, trays and food service gloves amid widening shortages of the key plastic ingredient, naphtha, due to the Middle East crisis.The food sector accounts for nearly one-third of Japa"
+      },
+      {
+        "title": "Typhoon Jangmi threatens Japan as Europe swelters",
+        "link": "https://www.theguardian.com/environment/2026/jun/01/typhoon-jangmi-japan-europe-temperatures-australia",
+        "pubDate": "Mon, 01 Jun 2026 07:17:53 GMT",
+        "pub_dt": "2026-06-01T07:17:53+00:00",
+        "description": "Powerful winds and rain expected in parts of Japan and Australia, while temperatures in Spain could hit 40CA powerful tropical storm is forecast to track near Okinawa, Japan, on Monday before moving towards the south-east of the country. Typhoon Jangmi (also known as Typhoon No 6) has formed within the monsoonal gyre over the Philippine Sea.A monsoonal gyre is a large, slow-rotating weather system"
+      },
+      {
+        "title": "Japan defence minister rebuffs claims of \u2018new militarism\u2019 levelled by China",
+        "link": "https://www.theguardian.com/world/2026/may/31/japan-defence-minister-rebuffs-claims-of-new-militarism-levelled-by-china",
+        "pubDate": "Sun, 31 May 2026 05:02:39 GMT",
+        "pub_dt": "2026-05-31T05:02:39+00:00",
+        "description": "Shinjiro Koizumi says Japan valued as a \u2018peace-loving\u2019 nation while China expands military capabilities \u2018without sufficient transparency\u2019Japan\u2019s defence minister took a veiled swipe at China on Sunday, pledging to keep strengthening the military despite Beijing\u2019s criticism of Tokyo\u2019s increasingly muscular security stance.Under the prime minister, Sanae Takaichi, Japan has quickened its pivot to a "
+      },
+      {
+        "title": "New Aukus drone tech to protect critical undersea cables as Marles warns: \u2018seabed is a battlefield\u2019",
+        "link": "https://www.theguardian.com/australia-news/2026/may/31/richard-marles-defence-summit-singapore-china-transparency-pete-hegseth",
+        "pubDate": "Sat, 30 May 2026 22:10:04 GMT",
+        "pub_dt": "2026-05-30T22:10:04+00:00",
+        "description": "Minister at Singapore defence summit also reveals Australia to buy only secondhand Aukus submarines from USFollow our Australia news live blog for latest updatesGet our breaking news email, free app or daily news podcastThe defence minister, Richard Marles, has said the \u201cseabed is a battlefield\u201d in a combative speech urging Beijing to be more transparent about its maritime operations, and taking a"
+      },
+      {
+        "title": "Bondi attack hero Ahmed al-Ahmed charged with assaulting his father",
+        "link": "https://www.theguardian.com/australia-news/2026/jun/04/bondi-attack-hero-charged-with-assaulting-his-father-ntwnfb",
+        "pubDate": "Thu, 04 Jun 2026 10:56:05 GMT",
+        "pub_dt": "2026-06-04T10:56:05+00:00",
+        "description": "Police allege the 44-year-old lauded for disarming one of the gunmen in December\u2019s attack put his father in a headlockGet our breaking news email, free app or daily news podcastThe Sydney man who disarmed one of the Bondi terror attackers has been charged with assaulting his father.Ahmed al-Ahmed, 44, is accused of allegedly putting his father in a headlock on 9 March at a house in Bankstown, in t"
+      },
+      {
+        "title": "Penny Wong says she believes Israeli soldiers sexually assaulted and abused Australian women after Gaza flotilla",
+        "link": "https://www.theguardian.com/australia-news/2026/jun/04/gaza-flotilla-australian-women-assaulted-abused-israeli-detention-penny-wong-ntwnfb",
+        "pubDate": "Thu, 04 Jun 2026 09:44:04 GMT",
+        "pub_dt": "2026-06-04T09:44:04+00:00",
+        "description": "Foreign affairs minister says her position is to \u2018always believe women\u2019 when sexual assault allegations are madeGet our breaking news email, free app or daily news podcastThe foreign affairs minister, Penny Wong, says she believes the Australian women who have alleged they were sexually assaulted and beaten by Israeli soldiers after being detained as part of a humanitarian flotilla attempting to b"
+      },
+      {
+        "title": "Australian woman linked to Islamic State lived with teenage slave who was repeatedly raped, court told",
+        "link": "https://www.theguardian.com/australia-news/2026/jun/04/australian-woman-linked-to-islamic-state-is-teenage-slave-repeatedly-raped-court-melbourne-ntwnfb",
+        "pubDate": "Thu, 04 Jun 2026 08:34:17 GMT",
+        "pub_dt": "2026-06-04T08:34:17+00:00",
+        "description": "Allegations made in Melbourne magistrates court on Thursday as Zeinab Ahmad, 31, applied for bail, a month after she was charged with slavery offencesGet our breaking news email, free app or daily news podcastA woman accused of marrying Islamic State fighters allegedly lived with a teenage slave who was repeatedly assaulted and raped by the woman\u2019s father.The allegations were detailed in Melbourne"
+      },
+      {
+        "title": "Labor\u2019s NDIS overhaul faces delay as Coalition and Greens consider teaming up to slow bill\u2019s passage",
+        "link": "https://www.theguardian.com/australia-news/2026/jun/04/labors-ndis-overhaul-faces-delay-as-coalition-and-greens-consider-teaming-up-to-slow-bills-passage",
+        "pubDate": "Thu, 04 Jun 2026 08:01:08 GMT",
+        "pub_dt": "2026-06-04T08:01:08+00:00",
+        "description": "Government hopes to rush NDIS and tax changes through parliament but opposition and crossbench push for more scrutinyGet our breaking news email, free app or daily news podcastThe Greens want Labor to halt its plans to rush NDIS cuts through the Senate later this month, urging a longer inquiry process as the government seeks the minor party\u2019s support for its contentious tax and housing changes.It "
+      },
+      {
+        "title": "Husic says Labor pile-on after Aukus criticism \u2018not healthy\u2019 \u2013 as it happened",
+        "link": "https://www.theguardian.com/australia-news/live/2026/jun/04/australia-politics-live-capital-gains-tax-property-prices-economy-budget-jim-chalmers-anthony-albanese-angus-taylor-pauline-hanson-senate-estimates-question-time-ntwnfb",
+        "pubDate": "Thu, 04 Jun 2026 07:51:33 GMT",
+        "pub_dt": "2026-06-04T07:51:33+00:00",
+        "description": "This blog is now closedGet our breaking news email, free app or daily news podcastJim Chalmers\u2019 budget bill will face debate and a vote in the House today, and he poses the legislation as a \u201creally simple choice\u201d for the Coalition.As we know, the government has set up the bill as a wedge for the opposition, by including both tax changes to CGT and negative gearing and tax cuts for workers.Really s"
+      }
+    ]
+  },
+  "Bloomberg": {
+    "status": 200,
+    "stories": [
+      {
+        "title": "Goldman Erects Lobby Rockets as Morgan Stanley IPO Rivalry Heats Up",
+        "link": "https://www.bloomberg.com/news/articles/2026-06-04/goldman-erects-lobby-rockets-as-morgan-stanley-ipo-rivalry-heats-up",
+        "pubDate": "Thu, 04 Jun 2026 08:00:00 GMT",
+        "pub_dt": "2026-06-04T08:00:00+00:00",
+        "description": "No sooner had Goldman Sachs Group Inc. locked in top billing for the SpaceX IPO than Morgan Stanley dashed off a note to clients that it was actually co-lead on the deal, noting that their listing is in alphabetical order."
+      },
+      {
+        "title": "Blackstone\u2019s BCRED Caps Redemptions After Investors Seek 10%",
+        "link": "https://www.bloomberg.com/news/articles/2026-06-04/blackstone-bcred-joins-private-credit-funds-limiting-redemptions",
+        "pubDate": "Thu, 04 Jun 2026 12:20:29 GMT",
+        "pub_dt": "2026-06-04T12:20:29+00:00",
+        "description": "Blackstone Inc. limited redemptions from its flagship private credit fund for the first time, after investors sought to pull 10% of the shares, the latest such fund to cap withdrawals amid a continued investor exodus."
+      },
+      {
+        "title": "EU Delays Trading-Book Rules to Blunt Wall Street Advantage",
+        "link": "https://www.bloomberg.com/news/articles/2026-06-04/eu-delays-bank-trading-book-rules-to-blunt-wall-street-advantage",
+        "pubDate": "Thu, 04 Jun 2026 10:01:49 GMT",
+        "pub_dt": "2026-06-04T10:01:49+00:00",
+        "description": "The European Union\u2019s executive arm has unveiled what it hopes will be its final workaround to shield its lenders from being temporarily hit by harsher trading-book rules than those faced by Wall Street rivals."
+      },
+      {
+        "title": "Deadly Screwworm Parasite Found in US Threatens Cattle Herd",
+        "link": "https://www.bloomberg.com/news/articles/2026-06-04/deadly-screwworm-parasite-found-in-us-in-threat-to-cattle-herd",
+        "pubDate": "Thu, 04 Jun 2026 00:38:22 GMT",
+        "pub_dt": "2026-06-04T00:38:22+00:00",
+        "description": "A deadly cattle parasite was confirmed in the US for the first time in nearly a decade, posing the latest threat to a US herd already at its lowest level in 75 years."
+      },
+      {
+        "title": "Abu Dhabi\u2019s IRH Turns Down Zambian Copper Concentrate Waiver",
+        "link": "https://www.bloomberg.com/news/articles/2026-06-04/abu-dhabi-s-irh-turns-down-zambian-copper-concentrate-waiver",
+        "pubDate": "Thu, 04 Jun 2026 12:48:25 GMT",
+        "pub_dt": "2026-06-04T12:48:25+00:00",
+        "description": "The Zambian unit of Abu Dhabi\u2019s International Resources Holding doesn\u2019t plan to export copper concentrate, after again being granted the largest quota in a government waiver to ship the semi-processed form of the metal."
+      },
+      {
+        "title": "Nasdaq Futures Tumble as Broadcom Tests AI Trade: Markets Wrap",
+        "link": "https://www.bloomberg.com/news/articles/2026-06-03/asian-stocks-set-to-fall-on-fresh-us-iran-clashes-markets-wrap",
+        "pubDate": "Wed, 03 Jun 2026 22:04:45 GMT",
+        "pub_dt": "2026-06-03T22:04:45+00:00",
+        "description": "Stocks fell after a disappointing outlook from Broadcom Inc. triggered concern that the blistering rally in technology shares had gone too far."
+      },
+      {
+        "title": "Buyout and Debt Funds Struggle With $632 Billion Stockpile",
+        "link": "https://www.bloomberg.com/news/articles/2026-06-04/buyout-and-debt-funds-struggle-to-spend-632-billion-stockpile",
+        "pubDate": "Thu, 04 Jun 2026 10:47:14 GMT",
+        "pub_dt": "2026-06-04T10:47:14+00:00",
+        "description": "Private markets firms have been slow to spend hoards of capital raised earlier this decade, sparking tough talks with investors about whether they should get more time to find investments."
+      },
+      {
+        "title": "Foreign Investors Snap Up Turkish Stocks in Fast-Track Trades",
+        "link": "https://www.bloomberg.com/news/articles/2026-06-04/foreign-investors-snap-up-turkish-stocks-in-fast-track-trades",
+        "pubDate": "Thu, 04 Jun 2026 12:35:22 GMT",
+        "pub_dt": "2026-06-04T12:35:22+00:00",
+        "description": "Foreign investors are piling into fast-tracked sales of shares in Turkish companies, seeing pockets of value in a market facing political turmoil at home and fallout from the Iran war."
+      },
+      {
+        "title": "Morgan Stanley Sees Zambia Lift Eurobond Price to Break Impasse",
+        "link": "https://www.bloomberg.com/news/articles/2026-06-04/morgan-stanley-sees-zambia-lift-eurobond-price-to-break-impasse",
+        "pubDate": "Thu, 04 Jun 2026 12:29:53 GMT",
+        "pub_dt": "2026-06-04T12:29:53+00:00",
+        "description": "Morgan Stanley expects Zambia to revise its bond buyback offer higher in a bid to break an impasse with a group of bondholders resisting an initial price tabled almost a week ago."
+      },
+      {
+        "title": "Apollo\u2019s Zelter Sees High-Grade Debt Sales Topping US Treasuries",
+        "link": "https://www.bloomberg.com/news/articles/2026-06-04/apollo-s-zelter-sees-high-grade-debt-sales-topping-us-treasuries",
+        "pubDate": "Thu, 04 Jun 2026 12:29:49 GMT",
+        "pub_dt": "2026-06-04T12:29:49+00:00",
+        "description": "Investment-grade debt sales will outpace net issuance of US Treasuries this year, Apollo Global Management Inc.\u2019s President Jim Zelter said, as the Magnificent Seven tech companies and others seek massive amounts of funding to fuel their expansion."
+      },
+      {
+        "title": "Oil Falls After Israel-Lebanon Ceasefire Even as Clashes Persist",
+        "link": "https://www.bloomberg.com/news/articles/2026-06-03/latest-oil-market-news-and-analysis-for-june-4",
+        "pubDate": "Wed, 03 Jun 2026 22:01:29 GMT",
+        "pub_dt": "2026-06-03T22:01:29+00:00",
+        "description": "Oil fell as a conditional ceasefire between Israel and Lebanon offered to ease the way toward a US-Iran peace deal, even as the truce was marred by ongoing clashes."
+      },
+      {
+        "title": "Nasdaq 100 Futures Drop as Broadcom Forecast Spooks Traders",
+        "link": "https://www.bloomberg.com/news/articles/2026-06-04/nasdaq-100-futures-drop-as-broadcom-forecast-spooks-traders",
+        "pubDate": "Thu, 04 Jun 2026 12:20:40 GMT",
+        "pub_dt": "2026-06-04T12:20:40+00:00",
+        "description": "A selloff in technology stocks pushed US stocks lower before the bell on Thursday, as results from Broadcom Inc. forced an unwind in the artificial-intelligence trade that had powered gains over the last several sessions."
+      },
+      {
+        "title": "Sugar Futures Climb as Brazilian Mills Seen Making More Ethanol",
+        "link": "https://www.bloomberg.com/news/articles/2026-06-04/sugar-futures-climb-as-brazilian-mills-seen-making-more-ethanol",
+        "pubDate": "Thu, 04 Jun 2026 12:19:01 GMT",
+        "pub_dt": "2026-06-04T12:19:01+00:00",
+        "description": "Raw sugar futures in New York advanced for the first time three days on expectations that Brazilian mills may allocate more cane to ethanol production, reducing sugar output during the current crushing season."
+      },
+      {
+        "title": "Dwindling US Oil Inventories Are a Warning to Global Markets",
+        "link": "https://www.bloomberg.com/news/newsletters/2026-06-04/dwindling-us-oil-inventories-are-a-warning-to-global-markets-amid-iran-war",
+        "pubDate": "Thu, 04 Jun 2026 12:18:55 GMT",
+        "pub_dt": "2026-06-04T12:18:55+00:00",
+        "description": "The supply buffer is becoming uncomfortably thin as summer driving season begins."
+      },
+      {
+        "title": "Schneider Electric Banks on AI Boom to Sell \u20ac800 Million Debt",
+        "link": "https://www.bloomberg.com/news/articles/2026-06-04/schneider-electric-banks-on-ai-boom-to-sell-800-million-debt",
+        "pubDate": "Thu, 04 Jun 2026 12:05:27 GMT",
+        "pub_dt": "2026-06-04T12:05:27+00:00",
+        "description": "Schneider Electric SE is planning to sell \u20ac800 million ($930 million) of debt following a powerful rally on the back of its increasing incursion into the business of supporting data centers."
+      },
+      {
+        "title": "Rand Swings From Carry Loser to Winner as Bond Inflows Surge",
+        "link": "https://www.bloomberg.com/news/articles/2026-06-04/rand-swings-from-carry-loser-to-winner-as-bond-inflows-surge",
+        "pubDate": "Thu, 04 Jun 2026 12:03:03 GMT",
+        "pub_dt": "2026-06-04T12:03:03+00:00",
+        "description": "South Africa\u2019s rand is back near the top of the carry-trade table after languishing close to the bottom in the weeks following the outbreak of the Iran war."
+      },
+      {
+        "title": "US Premarket Movers for June 4, 2026",
+        "link": "https://www.bloomberg.com/news/articles/2026-06-04/us-stock-futures-today-broadcom-netskope-petco-unitedhealth",
+        "pubDate": "Thu, 04 Jun 2026 11:53:56 GMT",
+        "pub_dt": "2026-06-04T11:53:56+00:00",
+        "description": "S&amp;P 500 Index futures are down 0.5% at 7:47 a.m. in New York as AI-linked stocks falter after a disappointing outlook from chipmaker Broadcom."
+      },
+      {
+        "title": "Economist Shah Says Texas Jobs Data Show Risks, Promise",
+        "link": "https://www.bloomberg.com/news/videos/2026-06-04/sonal-shah-full-interview-6-2-2026",
+        "pubDate": "Thu, 04 Jun 2026 11:44:06 GMT",
+        "pub_dt": "2026-06-04T11:44:06+00:00",
+        "description": "Sonal Shah, an economist and former chief executive officer of the Texas Tribune, says job growth in the state is picking up in 2026 after a stagnant 2025. But temporary employment accounts for an outsize share of the gains, and the US immigration crackdown is crimping labor supply, she tells Bloomberg's Julie Fine. (Source: Bloomberg)"
+      },
+      {
+        "title": "UK and France Finalize Postwar Hormuz Mine-Clearing Mission",
+        "link": "https://www.bloomberg.com/news/articles/2026-06-04/uk-and-france-finalize-postwar-hormuz-mine-clearing-mission",
+        "pubDate": "Thu, 04 Jun 2026 11:42:15 GMT",
+        "pub_dt": "2026-06-04T11:42:15+00:00",
+        "description": "The UK and France have finalized plans to lead a multinational mine-clearing mission in the Strait of Hormuz within days of an agreement between the US and Iran to reopen the waterway, according to people familiar with the matter."
+      },
+      {
+        "title": "Zimbabwe Says China\u2019s Huayou Plans Lithium Carbonate Plant",
+        "link": "https://www.bloomberg.com/news/articles/2026-06-04/zimbabwe-says-china-s-huayou-plans-lithium-carbonate-plant",
+        "pubDate": "Thu, 04 Jun 2026 11:40:28 GMT",
+        "pub_dt": "2026-06-04T11:40:28+00:00",
+        "description": "China\u2019s Zhejiang Huayou Cobalt Ltd. plans to set up a lithium carbonate plant in Zimbabwe, according to the southern African country\u2019s mines minister."
+      }
+    ]
+  }
+}

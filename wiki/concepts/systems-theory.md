@@ -20,7 +20,7 @@ confidence: 0.3
 - [[log]]
 - [[concepts/complexity]]
 - [[concepts/systems-theory]]
-- [[systems-theory]]
+- [[concepts/systems-theory]]
 
 - [[complexity]]
 - [[dynamical-systems]]

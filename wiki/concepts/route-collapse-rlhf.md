@@ -55,7 +55,7 @@ Specifically:
 - [[concepts/mixture-of-experts]]
 - [[scratchpad/jobs/reports/researcher/discovery-2026-05-26]]
 - [[concepts/adaptive-budget-learning]]
-- [[route-collapse-rlhf]]
+- [[concepts/route-collapse-rlhf]]
 
 - [[mixture-of-experts]] — the architecture; token-choice routing is the vulnerable component
 - [[mop-and-rlhf-interaction]] — the broader interaction space; MoE+RLHF routing problems are part of a larger set of MoE training instabilities

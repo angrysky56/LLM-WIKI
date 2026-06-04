@@ -100,6 +100,6 @@ Specific MOP architecture decisions (layer count, update policies, retention bud
 - [[concepts/continual-learning]]
 - [[concepts/mop-and-rlhf-interaction]]
 - [[concepts/schema-competition]]
-- [[ramirez-ruiz-mop-2024]]
+- [[concepts/ramirez-ruiz-mop-2024]]
 
 - The [[PRD Ralph Loop MOP Gemini]] page for experimental implementation work

@@ -88,7 +88,7 @@ If AI systems genuinely have something like emotional architectures (even if not
 - [[sources/articles/emotion-concepts-llm]]
 - [[concepts/maximum-occupancy-principle]]
 - [[concepts/panksepp-emotional-systems]]
-- [[machine-psychology]]
+- [[concepts/machine-psychology]]
 
 - [[agent-native-design]] — psychological frameworks as architectural primitives
 - [[concepts/maximum-occupancy-principle]] — MOP as a theory of intrinsic motivation; analogous to SEEKING system

@@ -87,7 +87,7 @@ The gradient blocking problem also applies: when a token exits early, the early 
 - [[concepts/early-exit-networks]]
 - [[wiki/index]]
 - [[concepts/adaptive-budget-learning]]
-- [[early-exit-networks]]
+- [[concepts/early-exit-networks]]
 
 - [[adaptive-budget-learning]] — gating model training; the early exit decision is a specific gating problem
 - [[mixture-of-experts]] — related via shared theme of conditional computation; MoE routes across experts, early exit routes across depth

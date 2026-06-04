@@ -17,6 +17,6 @@ confidence: 0.3
 - [[concepts/mechanism-design]]
 - [[concepts/shapley-values]]
 - [[wiki/index]]
-- [[mechanism-design]]
+- [[concepts/mechanism-design]]
 
 - [[shapley-values]]

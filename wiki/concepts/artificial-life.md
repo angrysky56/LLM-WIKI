@@ -22,7 +22,7 @@ confidence: 0.3
 - [[log]]
 - [[concepts/openpraparat]]
 - [[concepts/open-ended-evolution]]
-- [[artificial-life]]
+- [[concepts/artificial-life]]
 
 - [[openpraparat]]
 - [[open-ended-evolution]]

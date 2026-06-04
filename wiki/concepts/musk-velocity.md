@@ -53,7 +53,7 @@ SpaceX's June 12, 2026 IPO under ticker SPCX is the most significant test of Mus
 - [[entities/xai]]
 - [[concepts/musk-velocity]]
 - [[entities/projects/spacex]]
-- [[musk-velocity]]
+- [[concepts/musk-velocity]]
 
 - [[spacex]] — SpaceX; the launch vehicle for the broader portfolio; IPO as the culmination of this phase
 - [[xai]] — xAI (acquired by SpaceX 2025); the AI layer in the integrated system

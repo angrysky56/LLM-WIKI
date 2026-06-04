@@ -19,6 +19,6 @@ confidence: 0.3
 - [[concepts/printing-press]]
 - [[concepts/maximum-occupancy-principle]]
 - [[log]]
-- [[printing-press]]
+- [[concepts/printing-press]]
 
 - [[concepts/maximum-occupancy-principle]]

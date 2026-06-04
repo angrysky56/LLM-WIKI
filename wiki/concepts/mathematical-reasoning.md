@@ -95,7 +95,7 @@ The [[concepts/load-bearing-reasoning]] framework identifies which inference ste
 - [[concepts/category-theory]]
 - [[concepts/proof-assistant]]
 - [[log]]
-- [[mathematical-reasoning]]
+- [[concepts/mathematical-reasoning]]
 
 - [[category-theory]] — the highest level of mathematical abstraction
 - [[categorical-reasoning]] — reasoning using category-theoretic structures

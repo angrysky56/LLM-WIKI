@@ -65,7 +65,7 @@ This connects to [[weil-gate]] as the operational mechanism that drives the spir
 - [[synthesis/two-council-architecture]]
 - [[log]]
 - [[synthesis/empty-chair-protocol]]
-- [[spiral-architecture]]
+- [[concepts/spiral-architecture]]
 
 - [[two-council-architecture]]: the two-council system uses spiral architecture for its philosophical council
 - [[empty-chair-protocol]]: the empty chair protocol extends the spiral when a missing perspective is needed

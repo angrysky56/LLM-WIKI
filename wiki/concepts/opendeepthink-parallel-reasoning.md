@@ -60,7 +60,7 @@ The paper identifies **candidate generation** → **candidate evaluation** → *
 - [[wiki/index]]
 - [[concepts/bradley-terry]]
 - [[log]]
-- [[opendeepthink-parallel-reasoning]]
+- [[concepts/opendeepthink-parallel-reasoning]]
 
 - [[parallel-reasoning]] — the broader pattern; OpenDeepThink is the primary empirical instantiation
 - [[chain-of-thought]] — the reasoning traces being ranked

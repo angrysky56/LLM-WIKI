@@ -141,7 +141,7 @@ Most current reasoning models do not monitor their own confidence at the step le
 - [[wiki/index]]
 - [[concepts/generative-ai]]
 - [[concepts/imagination]]
-- [[llm-reasoning]]
+- [[concepts/llm-reasoning]]
 
 - [[mixture-of-experts]] — architectural substrate for scaling parameter count; route collapse under RLHF affects reasoning model fine-tuning
 - [[process-reward-model]] — the reward mechanism needed for coherent reasoning chain learning

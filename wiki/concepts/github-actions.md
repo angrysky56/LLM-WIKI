@@ -23,7 +23,7 @@ confidence: 0.3
 - [[sources/documentation/github-actions-troubleshooting]]
 - [[concepts/maximum-occupancy-principle]]
 - [[log]]
-- [[github-actions]]
+- [[concepts/github-actions]]
 
 - [[concepts/maximum-occupancy-principle]]
 

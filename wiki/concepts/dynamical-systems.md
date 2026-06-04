@@ -70,7 +70,7 @@ The open question: Is the attractor landscape of transformer reasoning construct
 - [[concepts/dynamical-systems]]
 - [[wiki/index]]
 - [[concepts/systems-theory]]
-- [[dynamical-systems]]
+- [[concepts/dynamical-systems]]
 
 - [[attractor-dynamics]]: the neural network instantiation of dynamical systems theory
 - [[systems-theory]]: broader framing of interconnected components

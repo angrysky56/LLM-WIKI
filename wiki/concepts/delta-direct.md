@@ -23,7 +23,7 @@ confidence: 0.3
 - [[concepts/delta-direct]]
 - [[wiki/index]]
 - [[concepts/vision-language-alignment]]
-- [[delta-direct]]
+- [[concepts/delta-direct]]
 
 - [[video-understanding]]
 - [[llm-vision]]

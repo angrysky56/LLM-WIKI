@@ -83,7 +83,7 @@ The practical impact: Enables attention over sequences of length 65K+ on a singl
 - [[scratchpad/agent-sheets/librarian/carryover]]
 - [[concepts/scaling-laws]]
 - [[concepts/kv-cache]]
-- [[attention-mechanism]]
+- [[concepts/attention-mechanism]]
 
 - [[transformer-architecture]] — built on attention mechanisms as the core component
 - [[kv-cache]] — inference optimization for autoregressive attention

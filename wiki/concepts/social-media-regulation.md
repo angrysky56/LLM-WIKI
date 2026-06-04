@@ -24,6 +24,6 @@ confidence: 0.3
 - [[sources/israel-ben-gvir-flotilla-video]]
 - [[wiki/index]]
 - [[concepts/social-media-regulation]]
-- [[social-media-regulation]]
+- [[concepts/social-media-regulation]]
 
 - [[concepts/maximum-occupancy-principle]]

@@ -18,7 +18,7 @@ confidence: 0.3
 - [[wiki/index]]
 - [[concepts/social-science]]
 - [[log]]
-- [[social-science]]
+- [[concepts/social-science]]
 
 - [[economics]]
 - [[psychology]]

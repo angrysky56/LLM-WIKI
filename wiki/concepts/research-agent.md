@@ -18,7 +18,7 @@ confidence: 0.3
 - [[concepts/research-agent]]
 - [[log]]
 - [[wiki/index]]
-- [[research-agent]]
+- [[concepts/research-agent]]
 
 - [[autonomous-agents]]
 - [[ai-research]]

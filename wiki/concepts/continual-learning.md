@@ -103,7 +103,7 @@ All of these face the same fundamental tension: optimizing for new behavior whil
 - [[log]]
 - [[sources/papers/betteti-baggio-bullo-zampieri-idp-hopfield-2025]]
 - [[concepts/lora]]
-- [[continual-learning]]
+- [[concepts/continual-learning]]
 
 - [[catastrophic-forgetting]]: the central problem continual learning tries to solve
 - [[control-llm]]: architectural mitigation for forgetting during weight updates

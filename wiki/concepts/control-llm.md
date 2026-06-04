@@ -75,7 +75,7 @@ This makes Control LLM complementary to regularization approaches — EWC could 
 - [[log]]
 - [[concepts/continual-learning]]
 - [[concepts/lora]]
-- [[control-llm]]
+- [[concepts/control-llm]]
 
 - [[catastrophic-forgetting]]: the problem Control LLM addresses — both are from the same source article and are deeply coupled
 - [[llm-training]]: Control LLM is a training methodology for mitigating forgetting during fine-tuning

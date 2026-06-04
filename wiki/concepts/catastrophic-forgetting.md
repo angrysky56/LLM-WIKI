@@ -104,7 +104,7 @@ This makes MOP fundamentally different from all weight-level approaches: instead
 - [[scratchpad/jobs/reports/researcher/discovery-2026-08-03]]
 - [[concepts/neural-architecture-search]]
 - [[concepts/lora]]
-- [[catastrophic-forgetting]]
+- [[concepts/catastrophic-forgetting]]
 
 - [[llm-training]]: the primary context where catastrophic forgetting manifests in modern systems
 - [[control-llm]]: architectural mitigation from ML Evolution Benchmarking Protocol

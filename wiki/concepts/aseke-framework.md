@@ -22,7 +22,7 @@ confidence: 0.3
 - [[log]]
 - [[scratchpad/jobs/reports/librarian/audit-2026-05-21]]
 - [[scratchpad/jobs/reports/librarian/audit-2026-05-23]]
-- [[aseke-framework]]
+- [[concepts/aseke-framework]]
 
 - [[agentic-planner]]
 - [[hierarchical-supervisor]]

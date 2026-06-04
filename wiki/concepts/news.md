@@ -20,6 +20,6 @@ confidence: 0.3
 - [[sources/news/2026/search-2026-05-21]]
 - [[wiki/index]]
 - [[concepts/news]]
-- [[news]]
+- [[concepts/news]]
 
 - [[concepts/maximum-occupancy-principle]]

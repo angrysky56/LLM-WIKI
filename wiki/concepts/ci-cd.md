@@ -22,7 +22,7 @@ confidence: 0.3
 - [[concepts/github-actions-troubleshooting]]
 - [[log]]
 - [[concepts/devops]]
-- [[ci-cd]]
+- [[concepts/ci-cd]]
 
 - [[devops]]
 - [[github-actions]]

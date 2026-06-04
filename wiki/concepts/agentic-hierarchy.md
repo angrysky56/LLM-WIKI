@@ -126,7 +126,7 @@ The [[bounded-structured-memory]] architecture formalizes this with per-agent va
 - [[concepts/delegation]]
 - [[concepts/mcts]]
 - [[concepts/onboarding-standards]]
-- [[agentic-hierarchy]]
+- [[concepts/agentic-hierarchy]]
 
 - [[multi-agent-llm-systems]] — systems built with agentic hierarchies; five architectural patterns include hierarchical ones
 - [[delegation]] — the mechanism for assigning tasks down the hierarchy; act of moving authority across levels

@@ -21,7 +21,7 @@ confidence: 0.9
 - [[concepts/epsilon]]
 - [[concepts/agent-taxonomies]]
 - [[concepts/alpha]]
-- [[epsilon]]
+- [[concepts/epsilon]]
 
 - [[agent-taxonomies]]
 - [[Alpha]]

@@ -22,6 +22,6 @@ confidence: 0.3
 - [[concepts/autopoiesis]]
 - [[sources/articles/agem-ooe]]
 - [[concepts/maximum-occupancy-principle]]
-- [[autopoiesis]]
+- [[concepts/autopoiesis]]
 
 - [[concepts/maximum-occupancy-principle]]

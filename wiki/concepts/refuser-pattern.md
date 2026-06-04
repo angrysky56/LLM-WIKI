@@ -43,7 +43,7 @@ The Refuser is not a philosopher or an engineer — an **engineer who learned to
 - [[synthesis/two-council-architecture]]
 - [[log]]
 - [[synthesis/harm-cases]]
-- [[refuser-pattern]]
+- [[concepts/refuser-pattern]]
 
 - [[two-council-architecture]]
 - [[harm-cases]]

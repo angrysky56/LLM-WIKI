@@ -32,7 +32,7 @@ confidence: 0.3
 - [[concepts/ml-evolution-benchmarking-protocol]]
 - [[log]]
 - [[scratchpad/agent-sheets/librarian/carryover]]
-- [[machine-learning]]
+- [[concepts/machine-learning]]
 
 - [[deep-learning]]
 - [[artificial-intelligence]]

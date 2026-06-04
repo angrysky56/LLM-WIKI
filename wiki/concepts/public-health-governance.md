@@ -32,7 +32,7 @@ confidence: 0.3
 - [[concepts/public-health-governance]]
 - [[sources/news/2026/ebola-bundibugyo-who-ec-recommendations-follow-up-may-2026]]
 - [[concepts/ai-governance]]
-- [[public-health-governance]]
+- [[concepts/public-health-governance]]
 
 - [[concepts/maximum-occupancy-principle]]
 

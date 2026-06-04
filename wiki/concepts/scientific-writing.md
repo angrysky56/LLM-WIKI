@@ -40,7 +40,7 @@ Most scientific papers follow the **IMRaD** structure:
 - [[concepts/academic-writing]]
 - [[concepts/scientific-discovery]]
 - [[log]]
-- [[scientific-writing]]
+- [[concepts/scientific-writing]]
 - [[critical-analysis]]
 - [[research-methodology]]
 - [[academic-peer-review]]

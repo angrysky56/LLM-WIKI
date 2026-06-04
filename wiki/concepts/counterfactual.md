@@ -28,7 +28,7 @@ Counterfactual reasoning involves mentally simulating alternative pasts — "wha
 - [[concepts/counterfactual]]
 - [[scratchpad/jobs/reports/librarian/batch-progress]]
 - [[scratchpad/agent-sheets/librarians-assistant/workspace/batch-progress]]
-- [[counterfactual]]
+- [[concepts/counterfactual]]
 
 - [[imagination]] — imagination enables counterfactual simulation
 - [[world-model]] — world models provide the substrate for counterfactual reasoning

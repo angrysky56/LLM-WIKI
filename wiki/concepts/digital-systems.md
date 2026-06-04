@@ -22,7 +22,7 @@ confidence: 0.3
 - [[log]]
 - [[concepts/digital-systems]]
 - [[concepts/digital-electronics]]
-- [[digital-systems]]
+- [[concepts/digital-systems]]
 
 - [[signal-processing]]
 - [[digital-electronics]]

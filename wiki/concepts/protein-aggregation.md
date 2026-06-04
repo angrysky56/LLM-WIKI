@@ -18,6 +18,6 @@ confidence: 0.3
 - [[wiki/index]]
 - [[log]]
 - [[concepts/protein-aggregation]]
-- [[protein-aggregation]]
+- [[concepts/protein-aggregation]]
 
 - [[alzheimers-research]]

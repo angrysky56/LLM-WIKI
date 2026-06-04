@@ -1,8 +1,8 @@
 ---
 created: 2026-05-26
-updated: 2026-06-03
+updated: 2026-06-04
 type: carryover
-summary: "Overseer carryover — 2026-06-03 cycle: 1 actionable item (librarian 50-file duplicate-YAML remediation), 24 items resolved at rules 1/3/4, 0 open tasks in kanban"
+summary: "Overseer carryover — 2026-06-04 cycle: 9 agents processed, 0 cards created, 27 open items resolved at rules 1/3/4, 0 open tasks in kanban. 2 system-level concerns flagged for Ty (ingest parallel-cron race, ingestor stub-block root cause)."
 tags: [overseer, carryover]
 ---
 

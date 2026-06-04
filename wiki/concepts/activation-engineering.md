@@ -126,7 +126,7 @@ The PID steering framework maps directly: P = immediate intervention, I = accumu
 - [[wiki/index]]
 - [[log]]
 - [[concepts/mechanistic-interpretability]]
-- [[activation-engineering]]
+- [[concepts/activation-engineering]]
 
 - [[activation-steering]] — the paradigm; this page covers the engineering methods within it
 - [[mechanistic-interpretability]] — provides observability (what's happening in the network)

@@ -52,7 +52,7 @@ The **distinction** matters: NKS causal networks represent the causal structure 
 - [[concepts/wolfram-physics-project]]
 - [[concepts/wolfram-nks-causal-networks]]
 - [[wiki/index]]
-- [[wolfram-nks-causal-networks]]
+- [[concepts/wolfram-nks-causal-networks]]
 
 - [[wolfram-physics-project]] — the broader research program; causal networks are the representational framework
 - [[computational-irreducibility]] — causal networks are the empirical trace of computationally irreducible processes; the network must be simulated to know its structure

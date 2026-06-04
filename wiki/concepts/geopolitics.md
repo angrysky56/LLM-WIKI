@@ -52,7 +52,7 @@ confidence: 0.3
 - [[synthesis/news/china-cuba-us]]
 - [[wiki/index]]
 - [[synthesis/news/lebanon]]
-- [[geopolitics]]
+- [[concepts/geopolitics]]
 
 - [[great-power-rivalry]]
 - [[china-cuba-tensions]]

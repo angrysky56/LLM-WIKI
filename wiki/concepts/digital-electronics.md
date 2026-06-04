@@ -21,7 +21,7 @@ confidence: 0.3
 - [[concepts/electronics]]
 - [[concepts/digital-systems]]
 - [[concepts/digital-electronics]]
-- [[digital-electronics]]
+- [[concepts/digital-electronics]]
 
 - [[digital-systems]]
 - [[electronics]]

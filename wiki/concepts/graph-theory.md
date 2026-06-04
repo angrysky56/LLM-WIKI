@@ -17,6 +17,6 @@ confidence: 0.3
 - [[concepts/network-theory]]
 - [[concepts/hilbert-hotel-graph-architecture]]
 - [[log]]
-- [[graph-theory]]
+- [[concepts/graph-theory]]
 
 - [[network-theory]]

@@ -56,7 +56,7 @@ Organize by **when you'll need it**, not **what it is**. A note about nutrition 
 - [[sources/articles/design-thinking-mit]]
 - [[log]]
 - [[concepts/para-methodology]]
-- [[para-methodology]]
+- [[concepts/para-methodology]]
 
 - [[obsidian-para-byarbrough]] — source template
 - [[obsidian]] — the tool this is implemented in for this vault

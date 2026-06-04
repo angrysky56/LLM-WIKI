@@ -92,7 +92,7 @@ In the Hermes framework (per `hermes-agent` architecture):
 - [[agents/skills/librarian-agent/skill]]
 - [[log]]
 - [[scratchpad/agent-sheets/librarian/carryover]]
-- [[agent-onboarding]]
+- [[concepts/agent-onboarding]]
 - [[entities/projects/project-synapse]] — the underlying MCP framework for agent onboarding infrastructure
 
 - [[delegation]] — the mechanism for assigning tasks to agents

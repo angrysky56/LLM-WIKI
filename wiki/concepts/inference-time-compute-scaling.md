@@ -155,7 +155,7 @@ For a personal AI agent handling a mix of tasks:
 - [[scratchpad/agent-sheets/librarian/carryover]]
 - [[concepts/parallel-reasoning]]
 - [[concepts/scaling-laws]]
-- [[inference-time-compute-scaling]]
+- [[concepts/inference-time-compute-scaling]]
 
 - [[reward-modeling]] — BoN is the primary application; ORM vs PRM distinction is central
 - [[hidden-states]] — ELHSR extracts reward signals from hidden states

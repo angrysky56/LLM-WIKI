@@ -131,7 +131,7 @@ Multi-agent systems introduce failure modes that don't exist in single-agent set
 - [[concepts/agentic-planner]]
 - [[concepts/multi-agent-reasoning]]
 - [[log]]
-- [[multi-agent-llm-systems]]
+- [[concepts/multi-agent-llm-systems]]
 
 - [[multi-agent-coordination]] — the sub-field concerned with coordination mechanisms (blackboard, message passing, market-based, swarm)
 - [[agentic-hierarchy]] — hierarchical organizational structure for multi-agent systems

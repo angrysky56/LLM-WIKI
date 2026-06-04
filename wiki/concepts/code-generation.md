@@ -110,7 +110,7 @@ Code generation requires multiple reasoning modes:
 - [[wiki/index]]
 - [[concepts/benchmark]]
 - [[concepts/mcts]]
-- [[code-generation]]
+- [[concepts/code-generation]]
 
 - [[code-agent]] — full system that uses code generation as one capability
 - [[swe-bench]] — realistic evaluation benchmark for code generation

@@ -89,7 +89,7 @@ This is parallel to weight-level continual learning methods, but operates at inf
 - [[llm-inference]]: NAMM is an inference-time optimization for memory management
 - [[catastrophic-forgetting]]: NAMM addresses forgetting at the contextual level; Control LLM addresses at the weight level — both are mitigation strategies from the same source
 - [[control-llm]]: architectural cousin — same problem (forgetting), different level (weights vs context)
-- [[namm]]: self-reference
+- [[concepts/namm]]: self-reference
 - [[concepts/maximum-occupancy-principle]]: MOP's memory budget concepts may inform principled NAMM cache sizing
 - [[bounded-structured-memory]]: both deal with bounded memory management; NAMM at the attention layer, BSM at the agent scaffolding level
 - [[continual-learning]]

@@ -40,7 +40,7 @@ confidence: 0.3
 - [[sources/news/2026/openai-erdos-mathematics-proof-2026]]
 - [[concepts/agentic-research]]
 - [[wiki/index]]
-- [[ai-scientific-discovery]]
+- [[concepts/ai-scientific-discovery]]
 
 - [[agentic-research]]
 - [[alphaevolve]]

@@ -134,6 +134,11 @@ Most importantly for the field: it suggests **the train/test dichotomy is the wr
 - **Sleep ↔ ReuseRL (prior cycle):** ReuseRL proves the *MDL* generalisation bound for skill compression. Sleep is an unstated *MDL maximiser* — the parameter-expansion step is exactly the case where compressed memory has lower description length than the in-context trace.
 - **Sleep ↔ OPSD:** Sleep is shown to outperform OPSD on math reasoning. Both use post-rollout hindsight; the difference is *Sleep adds parameter growth*.
 
+### Cross-cycle (2026-06-04 batch)
+- **Sleep ↔ [[arxiv-2605-30343-reasoning-in-memory-rim]]:** Sleep adds capacity for *storage* (parameters). RiM shows LLMs can also be trained to *use* the bounded working-memory capacity they already have, for *computation*. Two complementary uses of the same total budget: Sleep grows it; RiM allocates it.
+- **Sleep ↔ [[arxiv-2605-30335-locally-coherent-globally-incoherent]]:** Sleep's wake/sleep cycle is a single-component self-modification. Kotawala's compositional residual ε★ shows that even with self-consistent components, multi-component LLM agents fail globally. Sleep doesn't address composition; Kotawala doesn't address adaptation. Open question: does a sleep-trained component compose better?
+- **Sleep ↔ [[arxiv-2605-30348-llmsurgeon-data-mixture-surgery]]:** LLMSurgeon audits the data that *produced* the weights. Sleep *modifies* the weights post-deployment. Two views of the same "the deployment model ≠ the model you trained" problem.
+
 ## Key Quote
 
 > "The dilemma — between knowledge obsolescence on one hand and catastrophic forgetting as well as the prohibitive cost or destructive nature of updates on the other — underscores a critical, unresolved challenge: enabling LLMs to learn incrementally and efficiently throughout their lifecycle."

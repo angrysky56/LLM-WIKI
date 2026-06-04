@@ -38,5 +38,5 @@ Stephen Wolfram's project applying the framework of **A New Kind of Science (NKS
 - [[concepts/causal-networks]]
 - [[scratchpad/jobs/reports/researcher/discovery-2026-07-03]]
 - [[entities/people/stephen-wolfram]]
-- [[wolfram-physics-project]]
+- [[concepts/wolfram-physics-project]]
 - Concept: [[wolfram-nks-causal-networks]]

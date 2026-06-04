@@ -89,7 +89,7 @@ The relationship to [[scaling-laws]]: the transformer architecture is what made 
 - [[concepts/length-generalization]]
 - [[concepts/transformer-architecture]]
 - [[concepts/attention-mechanism]]
-- [[transformer-architecture]]
+- [[concepts/transformer-architecture]]
 
 - [[attention-mechanism]] — the core computational unit
 - [[kv-cache]] — inference optimization for decoder-only models

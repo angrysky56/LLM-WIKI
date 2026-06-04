@@ -73,7 +73,7 @@ Six gated signals, all subject to cooldown:
 ## Connections
 - [[wiki/index]]
 - [[concepts/astar-structural-pathfinding]]
-- [[astar-structural-pathfinding]]
+- [[concepts/astar-structural-pathfinding]]
 
 - Foundation: Yang-Zhang σ estimation for volatility normalization
 - Methodological cousin: ST-EP06 Isotropic Trend Lines (longest-monotonic-segment is a one-scale analog of pivot-graph PCR)

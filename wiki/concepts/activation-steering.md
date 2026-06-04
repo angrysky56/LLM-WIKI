@@ -65,7 +65,7 @@ Activation steering is the "modulation" half of the biofeedback loop:
 - [[concepts/model-editing]]
 - [[concepts/chain-of-thought]]
 - [[concepts/activation-steering]]
-- [[activation-steering]]
+- [[concepts/activation-steering]]
 
 - [[mechanistic-interpretability]] — provides the observability layer
 - [[metacognitive-architecture-closed-loop-self-regulation]] — full closed-loop self-regulation via PID/LQR steering

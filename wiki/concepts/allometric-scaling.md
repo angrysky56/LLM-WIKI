@@ -106,7 +106,7 @@ This is a powerful example of how physical constraints (geometry of space, optim
 - [[concepts/taylors-law]]
 - [[log]]
 - [[concepts/power-law-scaling]]
-- [[allometric-scaling]]
+- [[concepts/allometric-scaling]]
 
 - [[power-law]] — the mathematical form shared by all allometric relationships
 - [[power-law-scaling]] — neural scaling laws as the AI analog; similar exponent-driven relationships

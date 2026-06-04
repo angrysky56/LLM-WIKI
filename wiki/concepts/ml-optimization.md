@@ -18,7 +18,7 @@ confidence: 0.3
 - [[wiki/index]]
 - [[log]]
 - [[concepts/ml-optimization]]
-- [[ml-optimization]]
+- [[concepts/ml-optimization]]
 
 - [[machine-learning]]
 - [[model-optimization]]

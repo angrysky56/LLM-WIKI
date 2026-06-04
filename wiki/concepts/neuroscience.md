@@ -23,7 +23,7 @@ confidence: 0.3
 - [[concepts/how-does-imagination-really-work-in-the-brain-new-theory-upends-what-we-knew]]
 - [[concepts/psychology]]
 - [[concepts/neuroscience]]
-- [[neuroscience]]
+- [[concepts/neuroscience]]
 
 - [[cognitive-science]]
 - [[brain-research]]

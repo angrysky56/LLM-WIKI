@@ -64,7 +64,7 @@ The [[ai-governance-substrate]] concept attempts to build accountability into AI
 - [[sources/news/2026/alberta-independence-referendum-2026]]
 - [[concepts/governance]]
 - [[sources/ebola-hospital-tents-fire-congo]]
-- [[institutional-accountability]]
+- [[concepts/institutional-accountability]]
 
 - [[institutional-capture]] — the failure mode that accountability mechanisms counter
 - [[governance]] — the broader structure within which accountability operates

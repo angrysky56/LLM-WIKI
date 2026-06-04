@@ -21,6 +21,6 @@ confidence: 0.3
 - [[concepts/ai-diagnostics]]
 - [[sources/news/2026-05/ebola-outbreak-drc-2026-05-20]]
 - [[wiki/index]]
-- [[ai-diagnostics]]
+- [[concepts/ai-diagnostics]]
 
 - [[ai-scientific-discovery]]

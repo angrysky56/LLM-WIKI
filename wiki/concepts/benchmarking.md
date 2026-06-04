@@ -23,7 +23,7 @@ confidence: 0.3
 - [[wiki/index]]
 - [[concepts/benchmarking]]
 - [[concepts/evaluation]]
-- [[benchmarking]]
+- [[concepts/benchmarking]]
 
 - [[evaluation]]
 - [[mlops]]

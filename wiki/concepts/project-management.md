@@ -19,7 +19,7 @@ confidence: 0.3
 - [[concepts/project-management]]
 - [[wiki/index]]
 - [[concepts/scrum]]
-- [[project-management]]
+- [[concepts/project-management]]
 
 - [[agile]]
 - [[process-management]]

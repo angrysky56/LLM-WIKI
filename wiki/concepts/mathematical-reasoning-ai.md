@@ -141,7 +141,7 @@ If AI systems can do these things in mathematics (where verification is rigorous
 - [[concepts/mathematical-reasoning]]
 - [[concepts/AI-scientific-discovery]]
 - [[concepts/proof-assistant]]
-- [[mathematical-reasoning-ai]]
+- [[concepts/mathematical-reasoning-ai]]
 - [[mathematical-reasoning]]
 - [[concepts/scientific-reasoning]]
 - [[concepts/ai-for-science]]

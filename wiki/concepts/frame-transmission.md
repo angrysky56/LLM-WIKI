@@ -60,7 +60,7 @@ ASEKE's ambition — letting humans and AI see the levers in a situation by deco
 - [[concepts/institutional-capture-vs-species-framing]]
 - [[wiki/index]]
 - [[concepts/spin-vs-substrate]]
-- [[frame-transmission]]
+- [[concepts/frame-transmission]]
 
 - [[institutional-capture-vs-species-framing]]
 - [[spin-vs-substrate]]

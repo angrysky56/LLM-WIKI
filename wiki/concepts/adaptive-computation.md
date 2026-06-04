@@ -62,7 +62,7 @@ Limitations: ACT introduces significant overhead (the halting unit must be evalu
 - [[concepts/llm-reasoning]]
 - [[concepts/adaptive-computation]]
 - [[concepts/early-exit-networks]]
-- [[adaptive-computation]]
+- [[concepts/adaptive-computation]]
 
 - [[mixture-of-experts]] — gating is the router in MoE; both MoE and adaptive computation address conditional computation
 - [[adaptive-budget-learning]] — the specific problem of training gating models; includes early exit and RL approaches

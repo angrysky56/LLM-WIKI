@@ -19,7 +19,7 @@ confidence: 0.3
 - [[sources/papers/deltadirect-directional-motion-blindness-video-llms-2026]]
 - [[concepts/delta-direct]]
 - [[concepts/video-understanding]]
-- [[video-understanding]]
+- [[concepts/video-understanding]]
 
 - [[multimodal-llm]]
 - [[vision-language-models]]

@@ -98,7 +98,7 @@ For agentic systems, self-correction at the action level prevents cascading fail
 - [[concepts/multi-agent-reasoning]]
 - [[concepts/self-correction]]
 - [[log]]
-- [[self-correction]]
+- [[concepts/self-correction]]
 
 - [[metacognitive-architecture-closed-loop-self-regulation]] — The formal control-theory version; self-correction can be seen as the behavioral output of metacognitive monitoring
 - [[oMCD]] — The formal framework for metacognitive control; Epsilon and Beta archetypes implement self-correction

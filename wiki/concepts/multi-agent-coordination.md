@@ -129,7 +129,7 @@ Recent work applies these classical coordination patterns to LLM-based multi-age
 - [[concepts/multi-agent-reasoning]]
 - [[concepts/onboarding-standards]]
 - [[log]]
-- [[multi-agent-coordination]]
+- [[concepts/multi-agent-coordination]]
 
 - [[multi-agent-llm-systems]] — LLM-based systems that use these coordination mechanisms
 - [[agentic-hierarchy]] — hierarchical structure that shapes coordination relationships

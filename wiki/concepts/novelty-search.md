@@ -19,6 +19,6 @@ confidence: 0.3
 - [[sources/articles/agem-ooe]]
 - [[concepts/maximum-occupancy-principle]]
 - [[wiki/index]]
-- [[novelty-search]]
+- [[concepts/novelty-search]]
 
 - [[concepts/maximum-occupancy-principle]]

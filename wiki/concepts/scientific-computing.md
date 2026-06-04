@@ -19,7 +19,7 @@ confidence: 0.3
 - [[wiki/index]]
 - [[concepts/scientific-computing]]
 - [[concepts/computational-science]]
-- [[scientific-computing]]
+- [[concepts/scientific-computing]]
 
 - [[numerical-methods]]
 - [[computational-science]]

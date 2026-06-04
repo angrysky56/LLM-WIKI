@@ -21,7 +21,7 @@ confidence: 0.3
 - [[concepts/human-computer-interaction]]
 - [[wiki/index]]
 - [[log]]
-- [[interaction-design]]
+- [[concepts/interaction-design]]
 
 - [[ux-design]]
 - [[human-computer-interaction]]

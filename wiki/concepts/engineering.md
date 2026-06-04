@@ -23,7 +23,7 @@ confidence: 0.3
 - [[log]]
 - [[concepts/engineering]]
 - [[concepts/science]]
-- [[engineering]]
+- [[concepts/engineering]]
 
 - [[science]]
 - [[technology]]

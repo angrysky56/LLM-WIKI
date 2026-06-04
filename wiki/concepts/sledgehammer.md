@@ -19,6 +19,6 @@ confidence: 0.3
 - [[concepts/sledgehammer]]
 - [[wiki/index]]
 - [[concepts/maximum-occupancy-principle]]
-- [[sledgehammer]]
+- [[concepts/sledgehammer]]
 
 - [[concepts/maximum-occupancy-principle]]

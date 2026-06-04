@@ -22,7 +22,7 @@ confidence: 0.3
 - [[concepts/scientific-discovery]]
 - [[concepts/ai-research]]
 - [[log]]
-- [[ai-research]]
+- [[concepts/ai-research]]
 
 - [[scientific-discovery]]
 - [[ml-research]]

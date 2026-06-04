@@ -55,7 +55,7 @@ From Neo4j's research: the most valuable context often comes not from the direct
 - [[synthesis/wiki-indexing-theory]]
 - [[sources/articles/hilbert-hotel-graph-architecture]]
 - [[concepts/persistent-knowledge-compilation]]
-- [[graphrag]]
+- [[concepts/graphrag]]
 
 - [[rag]] — the baseline this extends
 - [[project-synapse]] — implements this pattern with Neo4j

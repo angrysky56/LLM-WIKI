@@ -18,7 +18,7 @@ confidence: 0.3
 - [[concepts/pattern-recognition]]
 - [[concepts/visual-recognition]]
 - [[wiki/index]]
-- [[pattern-recognition]]
+- [[concepts/pattern-recognition]]
 
 - [[machine-learning]]
 - [[signal-processing]]

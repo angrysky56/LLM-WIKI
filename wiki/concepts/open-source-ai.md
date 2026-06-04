@@ -18,6 +18,6 @@ confidence: 0.3
 - [[log]]
 - [[sources/news/2026-05/github-data-breach-2026-05-20]]
 - [[wiki/index]]
-- [[open-source-ai]]
+- [[concepts/open-source-ai]]
 
 - [[ai-governance]]

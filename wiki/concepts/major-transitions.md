@@ -19,6 +19,6 @@ confidence: 0.3
 - [[wiki/index]]
 - [[log]]
 - [[concepts/major-transitions]]
-- [[major-transitions]]
+- [[concepts/major-transitions]]
 
 - [[concepts/maximum-occupancy-principle]]

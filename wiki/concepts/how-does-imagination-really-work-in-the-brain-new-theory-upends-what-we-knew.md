@@ -25,7 +25,7 @@ confidence: 0.3
 - [[synthesis/intelligence-as-entropic-sculpting]]
 - [[concepts/aphantasia]]
 - [[concepts/feedback-activity]]
-- [[how-does-imagination-really-work-in-the-brain-new-theory-upends-what-we-knew]]
+- [[concepts/how-does-imagination-really-work-in-the-brain-new-theory-upends-what-we-knew]]
 
 - [[neuroscience]]
 - [[mental-imagery]]

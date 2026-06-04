@@ -56,7 +56,7 @@ A manager agent decomposes a complex goal into sub-goals, assigns each to a spec
 - [[concepts/multi-agent-reasoning]]
 - [[log]]
 - [[concepts/parallel-reasoning]]
-- [[multi-agent-reasoning]]
+- [[concepts/multi-agent-reasoning]]
 
 - [[multi-agent-llm-systems]] — Structural taxonomy of multi-agent architectures; multi-agent reasoning is one application of multi-agent systems
 - [[multi-agent-coordination]] — The coordination mechanisms (shared state, message passing, market-based, swarm) that enable multi-agent reasoning

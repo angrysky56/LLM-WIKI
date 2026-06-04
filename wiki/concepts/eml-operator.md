@@ -72,7 +72,7 @@ EML suggests FPGA or silicon designs using only one gate type (an EML evaluator)
 - [[sources/articles/llm-kernel-optimization]]
 - [[concepts/open-ended-evolution]]
 - [[log]]
-- [[eml-operator]]
+- [[concepts/eml-operator]]
 
 - [[odrzywolek-eml-2026]] — source paper
 - [[symbolic-regression]] — gradient-based formula discovery

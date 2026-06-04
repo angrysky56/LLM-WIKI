@@ -87,7 +87,7 @@ The readout token acts as a bottleneck for directional motion signals — analog
 - [[wiki/index]]
 - [[concepts/vision-language-alignment]]
 - [[log]]
-- [[motion-understanding]]
+- [[concepts/motion-understanding]]
 
 - [[video-llm]] — Video-LLMs as the system for motion understanding
 - [[vision-language-alignment]] — the alignment problem that motion understanding exposes

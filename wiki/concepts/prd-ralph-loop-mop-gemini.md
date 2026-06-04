@@ -21,7 +21,7 @@ confidence: 0.3
 - [[wiki/index]]
 - [[concepts/ramirez-ruiz-mop-2024]]
 - [[synthesis/mop-edm-cognitive-architecture]]
-- [[prd-ralph-loop-mop-gemini]]
+- [[concepts/prd-ralph-loop-mop-gemini]]
 
 - [[mop-architecture]]
 - [[gemini]]

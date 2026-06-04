@@ -22,6 +22,6 @@ confidence: 0.3
 - [[concepts/spec-driven-development]]
 - [[wiki/index]]
 - [[concepts/maximum-occupancy-principle]]
-- [[spec-driven-development]]
+- [[concepts/spec-driven-development]]
 
 - [[concepts/maximum-occupancy-principle]]

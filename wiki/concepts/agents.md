@@ -108,7 +108,7 @@ LLM agents differ from classical software agents (as in reinforcement learning o
 - [[concepts/meta-cognitive-agents]]
 - [[concepts/multi-agent-systems]]
 - [[wiki/index]]
-- [[agents]]
+- [[concepts/agents]]
 
 - [[agentic-planner]]: the planning capability within agents
 - [[bounded-structured-memory]]: the memory layer for agent continuity

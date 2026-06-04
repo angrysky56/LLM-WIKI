@@ -19,7 +19,7 @@ confidence: 0.3
 - [[log]]
 - [[concepts/llm-vision]]
 - [[concepts/vision-language-models]]
-- [[llm-vision]]
+- [[concepts/llm-vision]]
 
 - [[large-language-models]]
 - [[computer-vision]]

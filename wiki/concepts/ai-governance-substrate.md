@@ -78,7 +78,7 @@ It connects to [[agentic-oversight]] as the specific structural mechanism for ov
 - [[sources/news/2026/strait-of-hormuz-iran-claim-2026]]
 - [[sources/news/2026/spacex-ipo-spcx-2026]]
 - [[entities/xai]]
-- [[ai-governance-substrate]]
+- [[concepts/ai-governance-substrate]]
 
 - [[governance]] — the overarching concern that the substrate addresses
 - [[institutional-accountability]] — principles of accountability that the substrate architecturalizes

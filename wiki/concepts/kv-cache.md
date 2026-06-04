@@ -68,7 +68,7 @@ These reduce memory proportionally, enabling longer contexts within the same mem
 - [[concepts/attention-mechanism]]
 - [[concepts/namm]]
 - [[concepts/model-serving]]
-- [[kv-cache]]
+- [[concepts/kv-cache]]
 
 - [[transformer-architecture]] — applies to decoder-only transformers
 - [[attention-mechanism]] — the mechanism being optimized

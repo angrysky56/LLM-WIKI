@@ -20,7 +20,7 @@ confidence: 0.3
 - [[concepts/utimula-openpraparat-2025]]
 - [[concepts/paper-analysis]]
 - [[wiki/index]]
-- [[research-tooling]]
+- [[concepts/research-tooling]]
 
 - [[ai-research]]
 - [[tooling]]

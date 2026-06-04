@@ -63,7 +63,7 @@ Where the moral weight actually has to live, if anywhere: see [[frame-transmissi
 - [[synthesis/ai-governance-substrate-analysis]]
 - [[wiki/index]]
 - [[concept-index]]
-- [[cryptographic-vs-semantic-alignment]]
+- [[concepts/cryptographic-vs-semantic-alignment]]
 
 - [[institutional-capture-vs-species-framing]] — why central authority fails as the alternative
 - [[frame-transmission]] — what actually carries the moral work

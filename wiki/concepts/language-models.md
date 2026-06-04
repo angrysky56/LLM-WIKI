@@ -18,7 +18,7 @@ confidence: 0.3
 - [[concepts/natural-language-processing]]
 - [[wiki/index]]
 - [[log]]
-- [[language-models]]
+- [[concepts/language-models]]
 
 - [[natural-language-processing]]
 - [[large-language-models]]

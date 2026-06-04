@@ -19,7 +19,7 @@ confidence: 0.3
 - [[wiki/index]]
 - [[concepts/china-industrial-policy]]
 - [[log]]
-- [[china-industrial-policy]]
+- [[concepts/china-industrial-policy]]
 
 - [[concepts/maximum-occupancy-principle]]- [[concepts/sovereign-ai.md]]
 

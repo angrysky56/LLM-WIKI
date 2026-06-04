@@ -99,7 +99,7 @@ See [[scaling-laws]] for the power-law framework that governs the smooth aspects
 - [[concepts/scaling-laws]]
 - [[concepts/openpraparat]]
 - [[concepts/creativity]]
-- [[emergence]]
+- [[concepts/emergence]]
 
 - [[scaling-laws]] — the power-law framework; smooth scale-performance relationships that underlie emergent capability thresholds
 - [[computational-irreducibility]] — why some systems can't be predicted without explicit simulation; related to why emergence surprises us

@@ -46,7 +46,7 @@ Whether a continuous binary Sheffer exists without a distinguished constant rema
 - [[sources/papers/utimula-openpraparat-2025]]
 - [[concepts/sheffer-stroke]]
 - [[synthesis/minimal-generative-architectures]]
-- [[sheffer-stroke]]
+- [[concepts/sheffer-stroke]]
 
 - [[eml-operator]] — the continuous-domain Sheffer
 - [[odrzywolek-eml-2026]] — discovery paper

@@ -23,7 +23,7 @@ confidence: 0.3
 - [[log]]
 - [[concepts/saas]]
 - [[concepts/maximum-occupancy-principle]]
-- [[business-model]]
+- [[concepts/business-model]]
 
 - [[concepts/maximum-occupancy-principle]]
 

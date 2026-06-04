@@ -19,6 +19,6 @@ confidence: 0.3
 - [[wiki/index]]
 - [[concepts/efficient-transformers]]
 - [[log]]
-- [[efficient-transformers]]
+- [[concepts/efficient-transformers]]
 
 - [[scaling-laws]]

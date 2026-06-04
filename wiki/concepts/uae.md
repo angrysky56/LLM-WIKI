@@ -22,6 +22,6 @@ confidence: 0.3
 - [[log]]
 - [[synthesis/news/barakah-nuclear-plant]]
 - [[sources/news/uae-reports-drone-strike-near-abu-dhabi-nuclear-power-plant]]
-- [[uae]]
+- [[concepts/uae]]
 
 - [[geopolitics]]

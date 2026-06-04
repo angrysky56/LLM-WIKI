@@ -144,7 +144,11 @@ This is the **8th paper** in the wiki's skill theme (after SkillOpt, SkillLens, 
 > "Scalar RMs compress complex, resource-grounded evidence into opaque scores, rendering the evaluation process fundamentally uninterpretable and inflexible. ... we can map this principle directly onto heterogeneous evaluation criteria: rubrics, references, constraints, and verifiers are modular and loadable resources, while a 'reward skill' governs their invocation and synthesis."
 
 ## What To Watch
-
 - **Adversarial reward skills** — a poisoned M_RM or a malicious resource in U_RM would silently corrupt every downstream policy trained against it. This is the SkillHarm attack surface applied to evaluation.
 - **Skill-compiled RMs** — a "skill compiler" that turns a natural-language evaluation spec into a portable, versioned reward skill is a natural follow-up.
 - **Integration with agentic RL frameworks** — if Skill-RM becomes a standard reward interface, frameworks like verl / TRL would need to support agentic judges, not just scalar ones.
+
+### Cross-cycle (2026-06-04 batch)
+- **Skill-RM ↔ [[arxiv-2605-30335-locally-coherent-globally-incoherent]]:** Skill-RM is a *single-model* procedural evaluator. Kotawala's compositional residual ε★ is what happens when you stack many such evaluators into a system: each is locally coherent, the composition is not. The Skill-RM idea scales to systems; the ε★ analysis is what tells you when that scaling breaks.
+- **Skill-RM ↔ [[arxiv-2605-30348-llmsurgeon-data-mixture-surgery]]:** Both are post-hoc audits of model internals. Skill-RM audits the *evaluation procedure*; LLMSurgeon audits the *training data*. LLMSurgeon's calibrated-confusion-matrix inverse problem is mathematically the same class of technique that would be needed to audit *which reward skills* an LLM has internalized — a natural follow-up.
+- **Skill-RM ↔ [[arxiv-2605-30343-reasoning-in-memory-rim]]:** RiM is a *latent* reasoning method (no externalised chain-of-thought). Skill-RM is an *externalised* evaluation method (a multi-step evidence trace). Two polar answers to the same question: do you compute in the residual stream, or in the action space?

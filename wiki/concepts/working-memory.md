@@ -81,6 +81,6 @@ Working memory in this framing is not just storage — it's the space where epis
 - [[concepts/epistemic-energy]]
 - [[concepts/working-memory]]
 - [[wiki/index]]
-- [[working-memory]]
+- [[concepts/working-memory]]
 - Concept: [[epistemic-energy]]
 - Concept: [[memory-mechanisms]]

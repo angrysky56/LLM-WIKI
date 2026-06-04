@@ -33,7 +33,7 @@ In the Titans architecture, NLTM uses **surprise-based memorization**, where gra
 - [[concepts/neural-long-term-memory]]
 - [[concepts/length-generalization]]
 - [[concepts/titans]]
-- [[neural-long-term-memory]]
+- [[concepts/neural-long-term-memory]]
 
 - Source: [[titans-test-time-memory]]
 - Concept: [[mamba]]

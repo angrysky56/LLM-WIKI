@@ -20,7 +20,7 @@ confidence: 0.3
 - [[concepts/cobra]]
 - [[log]]
 - [[concepts/agentic-research]]
-- [[tools]]
+- [[concepts/tools]]
 
 - [[agentic-research]]
 - [[cobra]]

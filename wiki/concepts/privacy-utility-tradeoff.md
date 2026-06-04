@@ -21,7 +21,7 @@ confidence: 0.3
 - [[concepts/privacy-utility-tradeoff]]
 - [[concepts/data-privacy]]
 - [[wiki/index]]
-- [[privacy-utility-tradeoff]]
+- [[concepts/privacy-utility-tradeoff]]
 
 - [[data-privacy]]
 - [[federated-learning]]

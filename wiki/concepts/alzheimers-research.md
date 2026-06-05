@@ -5,7 +5,7 @@ type: concept
 summary: "[STUB] Alzheimer's research — disease mechanisms and treatment"
 tags: [alzheimers-research, stubs, neuroscience]
 sources: []
-status: stub
+status: archived
 confidence: 0.3
 ---
 

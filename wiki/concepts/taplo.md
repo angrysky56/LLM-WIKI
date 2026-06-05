@@ -5,7 +5,7 @@ type: concept
 summary: "[STUB] Rust LSP and formatting tool, TOML parser"
 tags: [stubs]
 sources: []
-status: stub
+status: archived
 confidence: 0.3
 ---
 

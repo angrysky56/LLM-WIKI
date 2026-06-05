@@ -5,7 +5,7 @@ type: concept
 summary: "[STUB] Spike 001: spacy + owlready2 integration experiment"
 tags: [stubs]
 sources: []
-status: stub
+status: archived
 confidence: 0.3
 ---
 

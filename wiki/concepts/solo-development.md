@@ -5,7 +5,7 @@ type: concept
 summary: "[STUB] Solo developer workflows and toolchain"
 tags: [stubs]
 sources: []
-status: stub
+status: archived
 confidence: 0.3
 ---
 

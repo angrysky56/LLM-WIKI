@@ -5,7 +5,7 @@ type: concept
 summary: "[STUB] India energy policy and strategic energy imports"
 tags: [stubs]
 sources: []
-status: stub
+status: archived
 confidence: 0.3
 ---
 

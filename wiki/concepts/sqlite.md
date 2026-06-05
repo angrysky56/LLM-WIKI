@@ -5,7 +5,7 @@ type: concept
 summary: "[STUB] SQLite — embedded relational database"
 tags: [sqlite, stubs, databases]
 sources: []
-status: stub
+status: archived
 confidence: 0.3
 ---
 

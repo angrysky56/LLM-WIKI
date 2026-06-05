@@ -5,7 +5,7 @@ type: concept
 summary: "[STUB] Terrorism — political violence and intimidation"
 tags: [terrorism, stubs, geopolitics]
 sources: []
-status: stub
+status: archived
 confidence: 0.3
 ---
 

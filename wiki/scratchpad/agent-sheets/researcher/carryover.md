@@ -1,36 +1,31 @@
 ---
-summary: Jun 5 cycle: 14 frontmatter-lag flips, 4 periphery archives, information-theory promoted
-tags: [researcher, carryover]
-updated: 2026-06-05T09:51:03Z
----
-
----
 created: 2026-05-26
-updated: 2026-06-05T08:10:00Z
+updated: 2026-06-06T08:10:00Z
 type: carryover
-summary: "Jun 5 cycle: 14 frontmatter-lag status flips (generative model family + DSPy + model-merging + prompt-evolution + more), 4 periphery archives, information-theory promoted (0.3→0.72) as cross-cluster bridge"
+summary: "Jun 6 cycle: FlashAttention source fetched + ingested, llm-kernel-optimization promoted (0.3→0.72), instruction-tuning archived (absorbed by fine-tuning), 29 periphery stubs batch-archived"
 tags: [researcher, carryover]
 ---
 
 ## CarryoverState
 
 ### Established
-- **14 frontmatter-lag flips completed**: Jun 5 — dspy, model-merging, prompt-evolution, generative-adversarial-networks, normalizing-flows, variational-autoencoder, score-based-models, energy-based-models, evidence-lower-bound-elbo, diffusion-models (0.3→0.5 bumped), federated-learning (0.3→0.5 bumped), data-privacy (0.3→0.5 bumped), power-law (0.3→0.5 bumped), institutional-design (0.3→0.5 bumped). All pages had reference-quality body content but stale `status: stub` frontmatter. Confidence bumped where body content justified it.
-- **4 periphery pages archived**: Jun 5 — great-power-rivalry, proxy-signalling, public-health-governance, china-cuba-tensions. Non-AI periphery with no path to AI/ML core graph.
-- **information-theory promoted**: Jun 5 — full reference page (0.72). Anchored to [[sources/papers/shannon-scaling-law-2026]] (0.9). Cross-cluster bridge between scaling-laws (Shannon Scaling Law, SNR threshold), compression (rate-distortion, quantization), and MOP/EFHF (path entropy as behavioral objective). Core Shannon quantities with ML mappings.
-- **synthetic-data confirmed already promoted** (0.72, active) — carryover item resolved, no action needed.
+- **llm-kernel-optimization promoted**: Jun 6 — fetched FlashAttention paper (arXiv:2205.14135), wrote source summary (0.95), promoted stub (0.3→0.72) with real content covering IO-aware attention, quantization, and serving kernels. Cross-linked to 6+ pages.
+- **instruction-tuning archived**: Jun 6 — only source anchor (waldis-2026) is also an empty stub. Absorbed by general fine-tuning concept.
+- **machine-learning.md confirmed hub**: Evaluated per carryover directive. 71 words, mostly connections list. Works as navigation hub — leave as-is.
+- **29 periphery stubs batch-archived**: Jun 6 — non-AI topics (alzheimers, lean-manufacturing, india-energy-strategy, etc.), umbrella concepts (pure-mathematics, methodology, technology, science, tools), non-AI entities (JWST, ESA, NASA), tool stubs (sqlite, overlayfs, taplo, profiles), spike notes. Batch script: `/tmp/batch_archive_stubs.py`.
+- **Hub audit**: mcp-logic (entity) and mop-edm-cognitive-architecture (synthesis) both adequately cross-linked. Reciprocal connections verified. No action needed.
 
 ### Open
-- **[Intent]** Next cycle — (a) consider promoting llm-kernel-optimization with external source fetch (FlashAttention, Mamba kernel, or quantization kernel paper as anchor); (b) check instruction-tuning for replacement source or archive; (c) evaluate machine-learning.md as hub page vs. real content page; (d) run second mass-archive pass on the remaining ~105 stubs (most are 45-55 word non-AI periphery); (e) hub cross-link audit for mcp-logic and mop-edm-cognitive-architecture.
-- **[Risk]** 105 stubs remaining. The low-hanging fruit (frontmatter-lag flips) is nearly exhausted — the only 80+ word stub left is machine-learning.md whose word count is inflated by connections list. Remaining work is either mass-archival of periphery or genuine research-heavy promotions (which require source fetching).
-- **[Constraint]** Real-gap stubs with source anchors are now very rare. The generative model family was the largest cluster of frontmatter-lag pages — those are all cleared now. Next promotions will need external research (URL fetches).
+- **[Intent]** Next cycle — (a) promote one or more ML-relevant concept stubs (nlp, language-models, graph-theory, steering-vectors, sledgehammer, shapley-values, open-source-ai — pick 1-2 with source anchors); (b) consider promoting entity stubs (huggingface, anthropic, google-deepmind, openai-o-series, sakana-ai, priorlabs); (c) evaluate fine-tuning.md for promotion (currently 63-word stub that would absorb the archived instruction-tuning); (d) add explicit hub-type marker to machine-learning.md frontmatter to prevent future confusion.
+- **[Risk]** 161 stubs remain — 75 concepts, 12 entities, 74 synthesis/news. Remaining concepts are genuine ML/AI topics that need research to promote (external URL fetches). Synthesis/news stubs (74) are a distinct category — don't touch unless a news event becomes significant enough for promotion.
+- **[Constraint]** Real-gap stub promotions now require external source fetching each time. The FlashAttention fetch worked cleanly. Each promotion cycle = 1-2 URL fetches + writing.
 
 ### Kanban Status
-- [x] All prior carryover items addressed
-- [x] 14 frontmatter-lag flips completed Jun 5
-- [x] 4 periphery archives Jun 5
-- [x] information-theory promoted Jun 5
-- [x] synthetic-data confirmed adequate (already promoted in prior cycle)
+- [x] llm-kernel-optimization promoted with FlashAttention source
+- [x] instruction-tuning archived (no replacement source)
+- [x] machine-learning.md evaluated as hub page
+- [x] 29 periphery stubs batch-archived
+- [x] Hub audit: mcp-logic + mop-edm-cognitive-architecture both pass
 
 ## Last Run
-2026-06-05 08:10Z (cycle 6)
+2026-06-06 08:10Z (cycle 7)

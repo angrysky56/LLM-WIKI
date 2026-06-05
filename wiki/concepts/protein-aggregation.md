@@ -5,7 +5,7 @@ type: concept
 summary: "[STUB] Protein aggregation — pathological protein folding"
 tags: [protein-aggregation, stubs, neuroscience]
 sources: []
-status: stub
+status: archived
 confidence: 0.3
 ---
 

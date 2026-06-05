@@ -5,7 +5,7 @@ type: concept
 summary: "[STUB] Lean manufacturing — waste elimination, continuous improvement, just-in-time production"
 tags: [process-management, stubs]
 sources: []
-status: stub
+status: archived
 confidence: 0.3
 ---
 

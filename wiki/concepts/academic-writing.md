@@ -5,7 +5,7 @@ type: concept
 summary: "[STUB] Academic writing — writing for academic publications and journals"
 tags: [academic-writing, stubs]
 sources: []
-status: stub
+status: archived
 confidence: 0.3
 ---
 

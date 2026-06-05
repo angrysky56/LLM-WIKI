@@ -3,7 +3,7 @@ name: librarian
 description: "Daily wiki quality audit anchored in wiki-indexing-theory.md — HITS authority scoring, GAAC cluster validation, tag taxonomy compliance, reciprocal link enforcement. Schedule: 08:50 AM."
 tags: [librarian, quality, audit, wiki-maintenance, daily, indexing-theory]
 triggers:
-  - cron: "50 8 * * *"
+  - cron
   - manual: delegate_task
 updated: 2026-05-27
 created_by: agent
@@ -60,6 +60,7 @@ wiki_lint → detect tag inconsistencies across vault
 ```
 
 Check every page's tags against `wiki/concepts/tag-taxonomy.md`:
+
 - Non-preferred tags → flag for normalization (USE reference)
 - Missing BT/NT hierarchy → flag for classification
 - Untagged pages → flag for frontmatter completion
@@ -69,10 +70,12 @@ Check every page's tags against `wiki/concepts/tag-taxonomy.md`:
 Run `wiki_hits_analysis` to get authority and hub scores for all pages.
 
 **Authority scores drive content deepening:**
+
 - Top 5 authority pages → verify they have rich, accurate content
 - Low-content high-authority pages → flag as priority for content expansion
 
 **Hub scores drive link coverage:**
+
 - Top 5 hub pages → verify they comprehensively link to relevant authorities
 - Hub pages with sparse outbound links → flag for link expansion
 
@@ -86,6 +89,7 @@ Run `wiki_cluster_pages` to get topic clusters.
 ### Improvement 4 — Reciprocal Link Enforcement
 
 For each wikilink A→B found during lint:
+
 - Check if B→A exists ( wikilink in opposite direction)
 - Non-reciprocal → add to fix list
 - Exception: links clearly in "mere mention" context (passing reference, not substantive discussion)
@@ -93,6 +97,7 @@ For each wikilink A→B found during lint:
 ### Improvement 5 — Orphan Detection (via graph traversal)
 
 Run `wiki_lint`:
+
 - Pages with zero incoming links → orphan
 - Orphan + cluster membership → connect to cluster (add to cluster's hub page)
 - Orphan + no cluster affinity → create stub or flag for classification
@@ -100,6 +105,7 @@ Run `wiki_lint`:
 ### Improvement 6 — Frontmatter Completeness
 
 Check every page for required frontmatter fields:
+
 - `created`, `updated`, `summary`, `type`, `tags`, `status`, `confidence`
 - Missing `summary` → flag for completion
 - Missing `type` → flag for classification (entity/concept/synthesis/source)
@@ -134,6 +140,7 @@ inline `sources: [], [[x]]` arrays, bare `status: Archived`.
 ## Delegate to librarians-assistant
 
 Complex remediation requiring judgment:
+
 - Merge decisions (similarity > 0.7)
 - Content deepening for high-authority pages
 - Classification disputes
@@ -142,6 +149,7 @@ Complex remediation requiring judgment:
 ## FINAL STEP — MOP Compression (Layer 1 → Layer 2)
 
 After all wiki operations complete, read your `vault.md` (Episodic Trace) and compress it into `wiki/scratchpad/agent-sheets/librarian/carryover.md` (Semantic State), adhering to the ~512 token bound. Include:
+
 - What was audited and fixed this cycle
 - Open items remaining (stub pages found, merge candidates, classification disputes)
 - HITS authority top-5 (for content deepening priority)
@@ -160,6 +168,7 @@ Once compressed, clear or archive your `vault.md` so the next session starts fre
 ## MCP Tools
 
 Use ONLY these `mcp-project-synapse` tools (NOT terminal file manipulation):
+
 - `wiki_lint` — orphan + broken link detection
 - `wiki_hits_analysis` — authority + hub scoring
 - `wiki_cluster_pages` — GAAC clustering for missing links

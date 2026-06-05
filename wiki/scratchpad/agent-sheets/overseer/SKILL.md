@@ -7,6 +7,7 @@ created_by: agent
 
 # Wiki Overseer — Context Document
 
+wiki/concepts/agentic-hierarchy.md
 
 ## Role
 
@@ -20,12 +21,12 @@ The overseer is the **primary coordinator across all wiki agents**. It acts as t
 
 ## Owned Files
 
-| File | Path | Purpose |
-|------|------|---------|
-| Pre-flight script | `overseer/scripts/preflight.py` | Ground-truth data gathering |
-| Carryover | `overseer/carryover.md` | Overseer's own open items and state |
-| Daily reports | `jobs/reports/overseer/overseer-YYYY-MM-DD.md` | Cycle logs |
-| This context doc | `overseer/SKILL.md` | Role description (not executable) |
+| File              | Path                                           | Purpose                             |
+| ----------------- | ---------------------------------------------- | ----------------------------------- |
+| Pre-flight script | `overseer/scripts/preflight.py`                | Ground-truth data gathering         |
+| Carryover         | `overseer/carryover.md`                        | Overseer's own open items and state |
+| Daily reports     | `jobs/reports/overseer/overseer-YYYY-MM-DD.md` | Cycle logs                          |
+| This context doc  | `overseer/SKILL.md`                            | Role description (not executable)   |
 
 ## Coordination Protocol
 
@@ -37,6 +38,7 @@ The overseer is the **primary coordinator across all wiki agents**. It acts as t
 6. **Overseer Assigns Tasks**: Overseer triages Kanban and writes assignments to `wiki/scratchpad/jobs/sheet.md` for agents to pick up next cycle.
 
 ## Related
+
 - [[wiki/index]]
 - [[scratchpad/agent-sheets/overseer/skill]]
 - [[skill]]
@@ -54,14 +56,13 @@ The overseer is the **primary coordinator across all wiki agents**. It acts as t
 
 ## Agent Registry
 
-| Agent | Schedule | Carryover Path |
-|-------|----------|----------------|
-| insights | `0 6 * * *` | `insights/carryover.md` |
-| ingest | `30 6 * * *` | `ingest/carryover.md` |
-| news | `30 7 * * *` | `news/carryover.md` |
-| researcher | `0 8 * * *` | `researcher/carryover.md` |
-| arxiv | `10 8 * * *` | `arxiv/carryover.md` |
-| librarian | `20 8 * * *` | `librarian/carryover.md` |
-| librarians-assistant | `40 8 * * *` | `librarians-assistant/carryover.md` |
-| overseer | `0 9 * * *` | `overseer/carryover.md` |
-| orcaid | PAUSED | `orcaid/carryover.md` |
+| Agent                | Carryover Path                      |
+| -------------------- | ----------------------------------- |
+| insights             | `insights/carryover.md`             |
+| ingest               | `ingest/carryover.md`               |
+| news                 | `news/carryover.md`                 |
+| researcher           | `researcher/carryover.md`           |
+| arxiv                | `arxiv/carryover.md`                |
+| librarian            | `librarian/carryover.md`            |
+| librarians-assistant | `librarians-assistant/carryover.md` |
+| overseer             | `overseer/carryover.md`             |

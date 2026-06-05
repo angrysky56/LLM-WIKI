@@ -5,7 +5,7 @@ type: concept
 summary: "[STUB] Methodology — research and analytical methodology"
 tags: [methodology, stubs]
 sources: []
-status: stub
+status: archived
 confidence: 0.3
 ---
 

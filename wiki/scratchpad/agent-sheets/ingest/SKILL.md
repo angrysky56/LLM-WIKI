@@ -3,7 +3,7 @@ name: ingest
 description: "Daily raw file ingestion pipeline — process files from raw/ into structured wiki knowledge, verify frontmatter and links, archive to Clippings/. Schedule: 06:30 AM."
 tags: [ingest, pipeline, wiki-operations, daily]
 triggers:
-  - cron: "30 6 * * *"
+  - cron
   - manual: delegate_task
 updated: 2026-05-27
 created_by: agent
@@ -113,16 +113,19 @@ Write report to: `wiki/scratchpad/jobs/reports/ingest/ingest-{YYYY-MM-DD}.md`
 # Ingest Report — {YYYY-MM-DD}
 
 ## Files Processed
-| File | Action | Archived To | Wiki Page |
-|------|--------|-------------|-----------|
-| {filename} | ingested | Clippings/{type}/{year}/ | [[slug]] |
+
+| File       | Action   | Archived To              | Wiki Page |
+| ---------- | -------- | ------------------------ | --------- |
+| {filename} | ingested | Clippings/{type}/{year}/ | [[slug]]  |
 
 ## Errors
-| File | Error | Action Taken |
-|------|-------|--------------|
+
+| File       | Error   | Action Taken      |
+| ---------- | ------- | ----------------- |
 | {filename} | {error} | skipped / retried |
 
 ## Inbox Status
+
 - Files processed: {N}
 - Files skipped: {N} (with reasons)
 - raw/ is now: EMPTY / {N} remaining
@@ -136,8 +139,8 @@ Read your `vault.md` (Episodic Trace) and compress it into `wiki/scratchpad/agen
 
 ```yaml
 ---
-created: {original date}
-updated: {today's date}
+created: { original date }
+updated: { today's date }
 type: carryover
 summary: "{N} files processed, raw/ {empty|N remaining}"
 tags: [ingest, carryover]
@@ -145,6 +148,7 @@ tags: [ingest, carryover]
 ```
 
 Include:
+
 - **What Was Done**: Files ingested, pages created (compressed from vault.md)
 - **What Remains**: `- [ ]` checklist (stalled files, errors, pending retries)
 
@@ -153,6 +157,7 @@ Once compressed, clear or archive your `vault.md` so the next session starts fre
 ## Critical Rule
 
 **`raw/` must be EMPTY after every run.** Every file either:
+
 - Ingested → archived in `Clippings/<type>/<year>/`
 - Skipped → explicit reason in report and carryover
 
@@ -166,14 +171,14 @@ Once compressed, clear or archive your `vault.md` so the next session starts fre
 
 ## MCP Tools
 
-| Tool | Purpose |
-|------|---------|
-| `wiki_ingest_raw` | Process raw file → Neo4j + auto-route to Clippings |
-| `synapse_recall` | Check for duplicate content before ingesting |
-| `wiki_write_page` | Create source summary page |
-| `wiki_read_page` | Verify page after creation |
-| `wiki_search` | Find related pages for cross-linking |
-| `wiki_update_index` | Refresh index after changes |
+| Tool                | Purpose                                            |
+| ------------------- | -------------------------------------------------- |
+| `wiki_ingest_raw`   | Process raw file → Neo4j + auto-route to Clippings |
+| `synapse_recall`    | Check for duplicate content before ingesting       |
+| `wiki_write_page`   | Create source summary page                         |
+| `wiki_read_page`    | Verify page after creation                         |
+| `wiki_search`       | Find related pages for cross-linking               |
+| `wiki_update_index` | Refresh index after changes                        |
 
 **CRITICAL CONSTRAINT:** DO NOT interact with the Kanban board or run kanban scripts. Output open items as `- [ ]` in the `## What Remains` section of your `carryover.md`. The overseer will create Kanban tickets and assign them to you in `jobs/sheet.md`. Use the standard MCP tools exclusively.
 

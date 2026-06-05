@@ -5,7 +5,7 @@ type: concept
 summary: "[STUB] Micro-SaaS: small, focused software-as-a-service products"
 tags: [stubs]
 sources: []
-status: stub
+status: archived
 confidence: 0.3
 ---
 

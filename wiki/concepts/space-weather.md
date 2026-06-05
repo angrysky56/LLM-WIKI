@@ -5,7 +5,7 @@ type: concept
 summary: "[STUB] Space weather — solar activity effects on Earth and satellites"
 tags: [space-weather, stubs, space-exploration]
 sources: []
-status: stub
+status: archived
 confidence: 0.3
 ---
 

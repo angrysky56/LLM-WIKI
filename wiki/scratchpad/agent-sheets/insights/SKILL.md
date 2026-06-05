@@ -3,7 +3,7 @@ name: insights
 description: "Daily Zettelkasten insight generation — run CLI insight engine, create wiki pages for confidence>=0.7 insights, integrate to wiki. Schedule: 06:00 AM."
 tags: [insights, zettelkasten, synthesis, daily]
 triggers:
-  - cron: "0 6 * * *"
+  - cron
   - manual: delegate_task
 updated: 2026-05-27
 created_by: agent
@@ -42,6 +42,7 @@ cd /home/ty/Repositories/ai_workspace/project-synapse-mcp && \
 **Do NOT use MCP `generate_insights()`** — it times out at 300s (the CLI has a much higher limit).
 
 **If the CLI times out** (exit code 124 from `timeout`):
+
 - This is normal and expected — note in carryover as "CLI watchdog timeout"
 - Check if partial output was produced: `cat data/insights/latest.json 2>/dev/null`
 - If no output, write carryover noting timeout and respond `[SILENT]`
@@ -53,6 +54,7 @@ cat /home/ty/Repositories/ai_workspace/project-synapse-mcp/data/insights/latest.
 ```
 
 For each insight in the output:
+
 - **Confidence ≥ 0.7**: Create a wiki page (Step 3)
 - **Confidence < 0.7**: Note in carryover only — no page created
 - **Duplicate check**: `synapse_recall(query="{insight title}")` — skip if already exists
@@ -111,8 +113,8 @@ Read your `vault.md` (Episodic Trace) and compress it into `wiki/scratchpad/agen
 
 ```yaml
 ---
-created: {original date}
-updated: {today's date}
+created: { original date }
+updated: { today's date }
 type: carryover
 summary: "{N} insights generated, {N} wiki pages created"
 tags: [insights, carryover]
@@ -120,6 +122,7 @@ tags: [insights, carryover]
 ```
 
 Include:
+
 - **What Was Done**: Insights generated, pages created (title + confidence + slug)
 - **What Remains**: `- [ ]` checklist (below-threshold insights worth revisiting, CLI issues)
 - **Kanban Status**: Items already surfaced
@@ -136,13 +139,13 @@ Once compressed, clear or archive your `vault.md` so the next session starts fre
 
 ## MCP Tools
 
-| Tool | Purpose |
-|------|---------|
-| `synapse_remember` | Record insights to episodic memory |
-| `synapse_recall` | Check for duplicate insights |
-| `wiki_write_page` | Create synthesis pages (confidence ≥ 0.7) |
-| `wiki_search` | Find related pages for cross-linking |
-| `wiki_update_index` | Refresh index after new pages |
+| Tool                | Purpose                                   |
+| ------------------- | ----------------------------------------- |
+| `synapse_remember`  | Record insights to episodic memory        |
+| `synapse_recall`    | Check for duplicate insights              |
+| `wiki_write_page`   | Create synthesis pages (confidence ≥ 0.7) |
+| `wiki_search`       | Find related pages for cross-linking      |
+| `wiki_update_index` | Refresh index after new pages             |
 
 **CRITICAL CONSTRAINT:** DO NOT interact with the Kanban board or run kanban scripts. Output open items as `- [ ]` in the `## What Remains` section of your `carryover.md`. The overseer will create Kanban tickets and assign them to you in `jobs/sheet.md`. You may run the official `generate_insights.py` engine as explicitly documented above, but do not author your own scripts. Use standard MCP tools exclusively for wiki operations.
 

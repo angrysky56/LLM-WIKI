@@ -3,7 +3,7 @@ name: news
 description: "Daily global news curator — RSS discovery, significance filtering, clippings archive + synthesis wiki delivery, deliver headlines report. Schedule: 07:30 AM."
 tags: [news, global-news, rss, daily]
 triggers:
-  - cron: "30 7 * * *"
+  - cron
   - manual: delegate_task
 updated: 2026-05-27
 created_by: agent
@@ -51,10 +51,10 @@ health pandemic epidemic
 
 From RSS results, select **3-5 stories** using these criteria:
 
-| Criterion | Weight |
-|-----------|--------|
-| Global consequence (affects >1 country or domain) | High |
-| Novelty (genuinely new development, not rehash) | High |
+| Criterion                                              | Weight |
+| ------------------------------------------------------ | ------ |
+| Global consequence (affects >1 country or domain)      | High   |
+| Novelty (genuinely new development, not rehash)        | High   |
 | Relevance to Ty's interests (AI, science, geopolitics) | Medium |
 | Source quality (established outlets, official reports) | Medium |
 
@@ -73,7 +73,7 @@ For each selected story:
 2. WRITE clipping:
    wiki_write_page(path="Clippings/articles/{year}/{slug}.md", content=...)
    Frontmatter:
-   
+
    created: {today}
    updated: {today}
    type: source
@@ -81,7 +81,7 @@ For each selected story:
    tags: [news, {topic}]
    sources: {url}
    status: active
-   
+
 
 3. WRITE synthesis (if story is consequential enough):
    wiki_write_page(path="wiki/synthesis/{slug}.md", content=...)
@@ -117,8 +117,8 @@ Read your `vault.md` (Episodic Trace) and compress it into `wiki/scratchpad/agen
 
 ```yaml
 ---
-created: {original date}
-updated: {today's date}
+created: { original date }
+updated: { today's date }
 type: carryover
 summary: "{N} stories: {brief titles}"
 tags: [news, carryover]
@@ -126,6 +126,7 @@ tags: [news, carryover]
 ```
 
 Include:
+
 - **What Was Done**: Stories covered (title + slug + significance rationale)
 - **What Remains**: `- [ ]` checklist (ongoing threads to follow, developing stories)
 - **Kanban Status**: Items already surfaced
@@ -142,13 +143,13 @@ Once compressed, clear or archive your `vault.md` so the next session starts fre
 
 ## MCP Tools
 
-| Tool | Purpose |
-|------|---------|
-| `synapse_recall` | Check for duplicate stories |
-| `synapse_remember` | Record headlines to episodic memory |
-| `wiki_write_page` | Create clipping and synthesis pages |
-| `wiki_search` | Find related wiki pages for cross-linking (NOT for discovery) |
-| `wiki_update_index` | Refresh index after new pages |
+| Tool                | Purpose                                                       |
+| ------------------- | ------------------------------------------------------------- |
+| `synapse_recall`    | Check for duplicate stories                                   |
+| `synapse_remember`  | Record headlines to episodic memory                           |
+| `wiki_write_page`   | Create clipping and synthesis pages                           |
+| `wiki_search`       | Find related wiki pages for cross-linking (NOT for discovery) |
+| `wiki_update_index` | Refresh index after new pages                                 |
 
 **CRITICAL CONSTRAINT:** DO NOT interact with the Kanban board or run kanban scripts. Output open items as `- [ ]` in the `## What Remains` section of your `carryover.md`. The overseer will create Kanban tickets and assign them to you in `jobs/sheet.md`. Use the standard MCP tools exclusively.
 

@@ -3,7 +3,7 @@ name: librarians-assistant
 description: "Wiki remediation subagent — execute HITS/GAAC-driven fixes from librarian audit in batches, report progress, carry open items forward. Schedule: after librarian."
 tags: [wiki-remediation, wiki-maintenance, daily, indexing-theory]
 triggers:
-  - cron: "50 8 * * *"
+  - cron
   - manual: delegate_task
 updated: 2026-05-27
 created_by: agent
@@ -51,9 +51,11 @@ Use `wiki_read_page` to confirm context before adding links.
 ### Priority 2 — Tag Normalization (per tag-taxonomy.md)
 
 Check each page's tags against `wiki/concepts/tag-taxonomy.md`:
+
 ```
 Pattern: non-preferred tag (e.g., "embedding") → USE "embeddings"
 ```
+
 USE reference table from tag-taxonomy.md:
 | Non-preferred | USE instead |
 |---|---|
@@ -73,6 +75,7 @@ USE reference table from tag-taxonomy.md:
 ### Priority 3 — Frontmatter Completions
 
 Fill missing required fields per `wiki/synthesis/wiki-indexing-theory.md`:
+
 - `created`, `updated`, `summary`, `type`, `tags`, `status`, `confidence`
 - High-authority pages (top 5 by HITS) → ensure all fields present and accurate
 
@@ -105,6 +108,7 @@ You are fully empowered to make judgment calls and execute complex fixes directl
 ## MCP Tools
 
 Use ONLY these `mcp-project-synapse` tools (NOT terminal file manipulation):
+
 - `wiki_search` — find related pages before adding links
 - `wiki_read_page` — verify page context before editing
 - `wiki_write_page` — apply frontmatter + link fixes
@@ -113,10 +117,10 @@ Use ONLY these `mcp-project-synapse` tools (NOT terminal file manipulation):
 
 **CRITICAL CONSTRAINT:** DO NOT interact with the Kanban board or run kanban scripts. Output open items as `- [ ]` in the `## What Remains` section of your `carryover.md`. The overseer will create Kanban tickets and assign them to you in `jobs/sheet.md`.
 
-
 ## FINAL STEP — MOP Compression (Layer 1 → Layer 2)
 
 After all remediation fixes complete, read your `vault.md` (Episodic Trace) and compress it into `wiki/scratchpad/agent-sheets/librarians-assistant/carryover.md` (Semantic State). Include:
+
 - Fixes applied this cycle (page + action taken)
 - Open items remaining (tasks requiring more time or next cycle)
 - Batch progress resume point

@@ -5,7 +5,7 @@ type: concept
 summary: "[STUB] Obsidian PARA setup — Personal Knowledge Management using PARA method in Obsidian"
 tags: [obsidian, para, knowledge-management, stubs]
 sources: []
-status: stub
+status: archived
 confidence: 0.3
 ---
 

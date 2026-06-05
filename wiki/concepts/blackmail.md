@@ -5,7 +5,7 @@ type: concept
 summary: "[STUB] Blackmail as an AI safety concern, coercive information leverage"
 tags: [stubs]
 sources: []
-status: stub
+status: archived
 confidence: 0.3
 ---
 

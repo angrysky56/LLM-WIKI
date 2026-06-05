@@ -5,7 +5,7 @@ type: concept
 summary: "[STUB] OverlayFS: Union filesystem for container layers"
 tags: [stubs]
 sources: []
-status: stub
+status: archived
 confidence: 0.3
 ---
 

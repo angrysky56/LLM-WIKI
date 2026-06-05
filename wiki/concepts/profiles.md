@@ -5,7 +5,7 @@ type: concept
 summary: "[STUB] User profiles — preference and configuration management"
 tags: [profiles, stubs]
 sources: []
-status: stub
+status: archived
 confidence: 0.3
 ---
 

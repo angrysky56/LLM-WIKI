@@ -5,7 +5,7 @@ type: concept
 summary: "[STUB] US-India bilateral relations across energy, defense, and trade"
 tags: [stubs]
 sources: []
-status: stub
+status: archived
 confidence: 0.3
 ---
 

@@ -5,7 +5,7 @@ type: concept
 summary: "[STUB] TabPFN client library"
 tags: [stubs]
 sources: []
-status: stub
+status: archived
 confidence: 0.3
 ---
 

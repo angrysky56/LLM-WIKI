@@ -5,7 +5,7 @@ type: concept
 summary: "[STUB] Pure mathematics — theoretical mathematics without practical applications"
 tags: [mathematics, pure-math, stubs]
 sources: []
-status: stub
+status: archived
 confidence: 0.3
 ---
 

@@ -6,7 +6,7 @@ Confirm current task focus before doing anything.
 
 ## STEP 1 — Read the Central Jobs Sheet (Optional)
 
-Read `wiki/scratchpad/jobs/sheet.md` to see if Ty has assigned you specific discovery areas this cycle. The overseer owns this sheet — do NOT write to it. If the sheet is stale or empty, proceed with default focus areas.
+Read `wiki/scratchpad/agent-sheets/researcher/carryover` to see specific discovery areas this cycle. The overseer owns this sheet — do NOT write to it. If the sheet is stale or empty, proceed with default focus areas.
 
 ## STEP 2 — Run Discovery Research
 

@@ -5,7 +5,7 @@ type: concept
 summary: "[STUB] China energy security strategy and coal dependency"
 tags: [stubs]
 sources: []
-status: stub
+status: archived
 confidence: 0.3
 ---
 

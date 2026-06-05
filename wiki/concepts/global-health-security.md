@@ -5,7 +5,7 @@ type: concept
 summary: "[STUB] International frameworks for pandemic preparedness and health emergency response"
 tags: [stubs]
 sources: []
-status: stub
+status: archived
 confidence: 0.3
 ---
 

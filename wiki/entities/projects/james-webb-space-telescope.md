@@ -5,7 +5,7 @@ type: entity
 summary: "[STUB] James Webb Space Telescope — JWST observatory"
 tags: [james-webb-space-telescope, stubs, astrophysics]
 sources: []
-status: stub
+status: archived
 confidence: 0.3
 ---
 

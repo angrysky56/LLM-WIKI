@@ -4098,3 +4098,33 @@ Index updated with 1141 pages (Deep refresh completed)
 ## [2026-06-05 14:49] write
 
 Updated page: wiki/scratchpad/agent-sheets/librarians-assistant/carryover.md
+
+## [2026-06-05 20:06] lint
+
+1424 pages · 209 orphans · 6263 broken · 0 missing-fm · report: audits/lint-2026-06-05.md
+
+## [2026-06-05 20:09] fetch | flashattention-fast-and-memory-efficient-exact-attention-wit.md
+
+Fetched https://arxiv.org/abs/2205.14135 via defuddle → ingested.
+
+Preview: ## Title:FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness  Authors:[Tri Dao](https://arxiv.org/search/cs?searchtype=author&query=Dao,+T), [Daniel Y. Fu](https://arxiv.org/se...
+
+## [2026-06-05 20:09] write
+
+Updated page: wiki/sources/papers/flashattention-2022.md
+
+## [2026-06-05 20:10] write
+
+Updated page: wiki/concepts/llm-kernel-optimization.md
+
+## [2026-06-05 20:10] write
+
+Updated page: wiki/concepts/instruction-tuning.md
+
+## [2026-06-05 20:11] index
+
+Index updated with 1142 pages
+
+## [2026-06-05 20:12] write
+
+Updated page: wiki/scratchpad/jobs/reports/researcher/discovery-2026-06-06.md

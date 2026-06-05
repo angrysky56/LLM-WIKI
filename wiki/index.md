@@ -1,5 +1,5 @@
 ---
-updated: 2026-06-05T14:48:59Z
+updated: 2026-06-05T20:11:55Z
 type: index
 ---
 
@@ -299,7 +299,7 @@ type: index
 - [[refuser-pattern]] — Engineering persona holding deploy token authority — withholds approval until named, plausible, non-reversible harms are addressed
 - [[high-performance-computing]] — [STUB] High performance computing — HPC systems and parallel computation for scientific workloads
 - [[supertokens]] — High-level vocabulary entries created by merging multi-token sequences (structural phrases) into single units, functioning as operators in a problem-space search.
-- [[llm-kernel-optimization]] — [STUB] LLM kernel optimization — optimizing LLMs for efficient inference
+- [[llm-kernel-optimization]] — LLM kernel optimization — FlashAttention, FlashDecoding, kernel fusion, and IO-aware GPU techniques that drive most LLM throughput improvements since 2022
 - [[technology]] — [STUB] Technology — application of scientific knowledge for practical purposes
 - [[proxy-signalling]] — Proxy signalling — indirect communication of capability or resolve through third parties (archived, non-AI periphery)
 - [[constitutional-ai]] — Alignment technique using AI-generated self-critique and principle-based revision instead of human-labeled preference data
@@ -324,7 +324,7 @@ type: index
 - [[cognitive-world-models-for-llm-agents]] — How text-based LLM agents represent "what the world looks like" — the abstraction layers between raw conversation history and a predictive world model; covers belief state, tool-history graphs, conversation structure, and the gap between retrieval and compilation
 - [[knowledge-management]] — Knowledge management — systematic approaches to capturing, organizing, and retrieving knowledge
 - [[mechanistic-interpretability]] — Reverse-engineering transformer internals — activation caching, circuit analysis, and the EEG of artificial minds
-- [[instruction-tuning]] — [STUB] Instruction tuning — fine-tuning LLMs on instruction-response pairs
+- [[instruction-tuning]] — [ARCHIVED] Instruction tuning — absorbed by fine-tuning (both are stubs; no replacement source found)
 - [[delta]] — Delta archetype — the Evolutionary Search Agent in the oMCD framework
 - [[git]] — [STUB] Git — distributed version control system
 - [[attention-mechanism]] — Key-value lookup mechanism at the core of transformer architectures — enables content-dependent, long-range dependency modeling
@@ -1146,3 +1146,4 @@ type: index
 - [[us-forced-labor-tariffs-60-countries-june-5-2026]] — 
 - [[gated-deltanet2-linear-attention-2026]] — Gated DeltaNet-2 (Hatamizadeh/Choi/Kautz, NVIDIA 2026) — decouples erase and write gates in linear attention memory editing. Channel-wise erase gate (key-side) and write gate (value-side) replace the scalar beta tie in Gated DeltaNet/KDA. Best 1.3B results among Mamba-2, GDN, KDA, Mamba-3 on long-context RULER and real-world retrieval. Preserves efficient chunkwise WY training.
 - [[ai-chatbots-news-intermediaries-2026]] — Suzgun et al. (Stanford, 2026) — 14-day real-time evaluation of 6 commercial AI chatbots (Gemini 3, Grok 4, Claude 4.5, GPT-5, GPT-4o-mini) on 2,100 emerging-news factual questions across 6 BBC regional services (12,600 model-question instances). Best systems >90% MC accuracy. Three failures: Hindi gap (−12pp driven by Anglophone retrieval bias), 70% of errors are retrieval failures not reasoning failures, adversarial accuracy collapse to 19–70% on false-premise questions.
+- [[flashattention-2022]] — FlashAttention: IO-aware exact attention algorithm using tiling to reduce HBM reads/writes; foundational LLM kernel optimization

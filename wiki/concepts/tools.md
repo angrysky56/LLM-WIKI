@@ -5,7 +5,7 @@ type: concept
 summary: "[STUB] Tool directory — software tools and utilities"
 tags: [tools, stubs]
 sources: []
-status: stub
+status: archived
 confidence: 0.3
 ---
 

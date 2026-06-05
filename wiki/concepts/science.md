@@ -5,7 +5,7 @@ type: concept
 summary: "[STUB] Science — systematic study of the natural world through observation and experimentation"
 tags: [science, stubs]
 sources: []
-status: stub
+status: archived
 confidence: 0.3
 ---
 

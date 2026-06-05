@@ -5,7 +5,7 @@ type: concept
 summary: "[STUB] Peter Steinberger, developer of PSPDFKit"
 tags: [stubs]
 sources: []
-status: stub
+status: archived
 confidence: 0.3
 ---
 

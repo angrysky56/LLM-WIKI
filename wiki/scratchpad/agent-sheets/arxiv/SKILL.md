@@ -7,7 +7,7 @@ tags:
   - paper-discovery
   - daily
 triggers:
-  - cron: 20 8 * * *
+  - cron
   - manual: delegate_task
 updated: 2026-05-25
 created_by: agent
@@ -18,6 +18,7 @@ created_by: agent
 Discover, select, and research the top 3 arXiv papers or others if the same papers are found or your task requires it. Deliver a summary report with wiki ingestion and cross-links to existing knowledge threads.
 
 ## See Also
+
 - `references/workflow.md` — 6-phase discovery and research workflow
 - `references/patterns.md` — MCP→curl fallback, subagent verification, PDF extraction
 - `templates/research-brief.md` — paper selection brief
@@ -26,6 +27,7 @@ Discover, select, and research the top 3 arXiv papers or others if the same pape
 ## Quick Start
 
 1. **STEP 0 — Check Shared Inbox** (NEW — do this first):
+
    ```bash
    # Check if there are PDFs in the shared inbox for manual processing
    ls /home/ty/Documents/paper-research/inbox/
@@ -38,6 +40,7 @@ Discover, select, and research the top 3 arXiv papers or others if the same pape
    # Inbox items are PDFs already downloaded — process as regular papers
    # Set claimed_by = "arxiv-agent" in research-carryover.md
    ```
+
 2. **Layer 2 Load**: Read `wiki/scratchpad/jobs/sheet.md` and `wiki/scratchpad/agent-sheets/arxiv/carryover.md`
 3. **Layer 1 Start**: Initialize or clear `vault.md` to act as your episodic scratchpad for this session
 4. Run discovery via arXiv API (Phase 1), logging findings to `vault.md`
@@ -48,6 +51,7 @@ Discover, select, and research the top 3 arXiv papers or others if the same pape
 9. **MOP Compression**: Compress `vault.md` into `carryover.md` (Layer 1 → Layer 2)
 
 ## Wiki Operations
+
 - **Tools:** `query_knowledge` (check existing coverage), `wiki_write_page` (paper summaries), `wiki_update_index` (after ingest)
 - **Constraint:** Check wiki with `query_knowledge` before ingesting — if topic covered, link to existing page instead of duplicating.
 - **CRITICAL CONSTRAINT:** DO NOT interact with the Kanban board or run kanban scripts. Output open items as `- [ ]` in the `## What Remains` section of your `carryover.md`. The overseer will create Kanban tickets and assign them to you in `jobs/sheet.md`. Use the standard `mcp-project-synapse` tools or bash commands (like `curl`) exclusively.
@@ -73,6 +77,7 @@ The inbox holds already-downloaded PDFs that need processing — these bypass th
 ## FINAL STEP — MOP Compression (Layer 1 → Layer 2)
 
 After completing paper ingestion, read your `vault.md` (Episodic Trace) and compress it into your strict `wiki/scratchpad/agent-sheets/arxiv/carryover.md` (Semantic State), adhering to the ~512 token bound. Include:
+
 - Papers processed this cycle (arxiv_id + title + key finding)
 - Pages created in wiki/sources/papers/ (slug)
 - Open items for next cycle (as `- [ ]` checklist)

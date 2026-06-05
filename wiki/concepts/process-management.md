@@ -5,7 +5,7 @@ type: concept
 summary: "[STUB] Process management — designing, executing, and optimizing business workflows and operational procedures"
 tags: [management, stubs]
 sources: []
-status: stub
+status: archived
 confidence: 0.3
 ---
 

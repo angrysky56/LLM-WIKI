@@ -1,12 +1,13 @@
----
 name: researcher
-description: "Daily wiki knowledge discovery — gap analysis via MCP tools, stub upgrades, cross-link enforcement, deliver discovery report. Schedule: 08:00 AM."
+description: "Daily wiki knowledge discovery — gap analysis via MCP tools, stub upgrades, cross-link enforcement, deliver discovery report."
 tags: [research, discovery, knowledge-graph, daily]
 triggers:
-  - cron: "0 8 * * *"
-  - manual: delegate_task
-updated: 2026-05-27
-created_by: agent
+
+- cron
+- manual: delegate_task
+  updated: 2026-05-27
+  created_by: agent
+
 ---
 
 # researcher — Wiki Knowledge Discovery Agent
@@ -30,6 +31,7 @@ read_file(path="...")
 ## Quick Start
 
 1. **STEP 0 — Check Shared Inbox** (do this first):
+
    ```bash
    # Check if there are external PDFs in the shared inbox for processing
    ls /home/ty/Documents/paper-research/inbox/
@@ -42,6 +44,7 @@ read_file(path="...")
    # External PDFs (non-arxiv): books, preprints, reports → researcher-agent
    # Set claimed_by = "researcher-agent" in research-carryover.md
    ```
+
 2. **Layer 2 Load**: Read `wiki/scratchpad/agent-sheets/researcher/carryover.md` and `wiki/scratchpad/jobs/sheet.md`
 3. **Layer 1 Start**: Initialize or clear `vault.md` to act as your episodic scratchpad for this session
 4. Run gap analysis (Step 1 below), logging findings to `vault.md`
@@ -72,6 +75,7 @@ Use MCP tools to identify knowledge gaps:
 ```
 
 From the results, pick **2-3 gaps** to work on this cycle. Prioritize:
+
 - Stubs linked from high-authority pages (load-bearing gaps)
 - Concepts referenced by multiple agents' carryovers
 - Topics in Ty's focus areas (AI architecture, reasoning, knowledge graphs)
@@ -84,16 +88,14 @@ For each gap identified:
 2. **Search external sources**: Use web search for authoritative content (papers, docs, tutorials)
 3. **Write or update the page**: `wiki_write_page(path, content)` with proper frontmatter:
 
-```yaml
----
+```markdown
 created: {today}
 updated: {today}
-type: concept  # or entity, synthesis, source
+type: concept # or entity, synthesis, source
 summary: "One-line description"
-tags: [tag1, tag2]  # check wiki/concepts/tag-taxonomy.md first
+tags: [tag1, tag2] # check wiki/concepts/tag-taxonomy.md first
 status: active
-confidence: 0.7  # or appropriate value
----
+confidence: 0.7 # or appropriate value
 ```
 
 ### Step 3 — Cross-Link Enforcement
@@ -112,18 +114,22 @@ Write report to: `wiki/scratchpad/jobs/reports/researcher/discovery-{YYYY-MM-DD}
 # Discovery Report — {YYYY-MM-DD}
 
 ## Focus Area
+
 {what you worked on this cycle}
 
 ## Pages Created/Updated
-| Page | Action | Status | Confidence |
-|------|--------|--------|------------|
-| [[slug]] | created/updated | active | 0.X |
+
+| Page     | Action          | Status | Confidence |
+| -------- | --------------- | ------ | ---------- |
+| [[slug]] | created/updated | active | 0.X        |
 
 ## Gap Analysis Findings
+
 - {stubs found}
 - {gaps identified}
 
 ## Open Items for Next Cycle
+
 - [ ] {item}
 ```
 
@@ -131,17 +137,16 @@ Write report to: `wiki/scratchpad/jobs/reports/researcher/discovery-{YYYY-MM-DD}
 
 Read your `vault.md` (Episodic Trace) and compress it into `wiki/scratchpad/agent-sheets/researcher/carryover.md` (Semantic State), adhering to the ~512 token bound. Use the standard template:
 
-```yaml
----
+```markdown
 created: {original date}
 updated: {today's date}
 type: carryover
 summary: "{one-line summary of this cycle}"
 tags: [researcher, carryover]
----
 ```
 
 Include:
+
 - **What Was Done**: Pages created/updated, focus area
 - **What Remains**: `- [ ]` checklist of open items (stubs, gaps, pending research)
 - **Kanban Status**: Items already surfaced to kanban
@@ -169,17 +174,17 @@ The inbox holds already-downloaded PDFs (external books, preprints, reports) tha
 
 ## MCP Tools
 
-| Tool | Purpose |
-|------|---------|
-| `query_knowledge` | Gap analysis, find underdeveloped topics |
-| `wiki_search` | Find related pages, check for duplicates |
-| `wiki_read_page` | Read page content before updating |
-| `wiki_write_page` | Create or update wiki pages |
-| `wiki_lint` | Find orphans, broken links, missing frontmatter |
-| `wiki_hits_analysis` | Authority/hub scoring for priority |
-| `wiki_update_index` | Refresh search index after changes |
-| `synapse_remember` | Record research decisions to episodic memory |
-| `synapse_recall` | Retrieve past research context |
+| Tool                 | Purpose                                         |
+| -------------------- | ----------------------------------------------- |
+| `query_knowledge`    | Gap analysis, find underdeveloped topics        |
+| `wiki_search`        | Find related pages, check for duplicates        |
+| `wiki_read_page`     | Read page content before updating               |
+| `wiki_write_page`    | Create or update wiki pages                     |
+| `wiki_lint`          | Find orphans, broken links, missing frontmatter |
+| `wiki_hits_analysis` | Authority/hub scoring for priority              |
+| `wiki_update_index`  | Refresh search index after changes              |
+| `synapse_remember`   | Record research decisions to episodic memory    |
+| `synapse_recall`     | Retrieve past research context                  |
 
 **CRITICAL CONSTRAINT:** DO NOT interact with the Kanban board or run kanban scripts. Output open items as `- [ ]` in the `## What Remains` section of your `carryover.md`. The overseer will create Kanban tickets and assign them to you in `jobs/sheet.md`. Use the standard MCP tools exclusively.
 

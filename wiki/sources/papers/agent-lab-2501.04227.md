@@ -52,7 +52,6 @@ The paper demonstrates that LLM agents can go from research idea to published-qu
 - [[wiki/index]]
 - [[agent-lab-2501.04227]]
 
-- [[llm-agents]] — core capability
 - [[autonomous-research]] — related research direction
 - [[ai-for-science]] — domain of application
 

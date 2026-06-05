@@ -91,8 +91,6 @@ The tension in autonomous agent design: **more autonomy creates more capability 
 - [[concepts/autonomous-agents]]
 
 - [[agent-architectures]]: the architectural patterns that enable autonomy
-- [[agent-design]]: principles for designing autonomous agents
-- [[llm-agents]]: LLM-based autonomous agents as a class
 - [[agentic-planner]]: planning as the core autonomy capability
 - [[bounded-structured-memory]]: memory architecture for continuous operation
 - [[agentic-oversight]]: oversight mechanisms for autonomous agents

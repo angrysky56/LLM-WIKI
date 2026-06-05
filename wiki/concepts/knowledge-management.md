@@ -36,7 +36,7 @@ PARA's insight is that knowledge entropy is managed through intentional dormancy
 
 ## The Knowledge Graph Approach
 
-The [[knowledge-graph]] is a technical KM implementation: a directed graph where nodes are concepts or entities and edges are typed relationships. Querying the graph retrieves contextually relevant knowledge rather than keyword-matched documents. The approach is particularly powerful for AI-augmented retrieval — systems like this wiki use knowledge graphs to enable multi-hop reasoning across domains.
+The knowledge graph is a technical KM implementation: a directed graph where nodes are concepts or entities and edges are typed relationships. Querying the graph retrieves contextually relevant knowledge rather than keyword-matched documents. The approach is particularly powerful for AI-augmented retrieval — systems like this wiki use knowledge graphs to enable multi-hop reasoning across domains.
 
 ## Key Distinctions
 
@@ -62,7 +62,6 @@ Both require: selection pressure on what to keep, regular review/refinement, and
 - [[para]]: Organization framework for information management
 - [[knowledge-store]]: Technical storage layer for KM
 - [[information-architecture]]: System-level design for information organization
-- [[knowledge-graph]]: Graph-based KM implementation
 - [[obsidian-cli-skill]]: Tool-level implementation of PKM principles
 - [[knowledge-architecture-stub]]
 

@@ -1,73 +1,77 @@
 ---
 created: 2026-06-04T13:55:00Z
-updated: 2026-06-04T13:55:00Z
+updated: 2026-06-05T13:55:00Z
 type: carryover
-summary: "5 new stories 2026-06-04: US House 215-208 war powers vote vs Trump Iran war (4 GOP defect), Israel-Lebanon trilateral ceasefire with Hezbollah evacuation clause, Kim Jong Un 'exponential' nuclear arsenal expansion, Somalia Mogadishu worst fighting in 5+ years (term extension trigger), DRC Ebola began January + US-only Kenya quarantine criticized."
+summary: "5 new stories 2026-06-05: Xi Jinping visits North Korea (follows Kim exponential nuclear), Hezbollah rejects Lebanon-Israel ceasefire (reversal of June 4 deal), Ukraine drone blast at Romanian NATO port + Zelensky peace offer, US jobs data forces Fed rate-hike pricing (first since pause), Trump forced-labor tariffs on 60 economies (broadest trade action ever)."
 tags: [news, carryover]
 ---
 
-# News Agent Carryover — 2026-06-04
+# News Agent Carryover — 2026-06-05
 
 ## Established (Stories Ingested This Cycle)
 
-- **US House Votes 215-208 to Halt Trump Iran War (NEW — TOP STORY)**: First successful House check on presidential war authority since the February Iran war launch. Four Republicans (Massie, Fitzpatrick, Barrett, Davidson) defected, Democrat Golden switched to support. Fourth attempt. Concurrent resolution — Senate version advanced in May, full floor vote pending. White House called it unconstitutional. Same day Trump told reporters "we're close to signing a paper" with Iran — the vote may be a face-saving structure for a deal, not a substantive pivot. Coincides with the 2026-06-03 [[iran-strikes-kuwait-bahrain-gulf-escalation-june-3-2026]] Gulf escalation.
-- **Israel-Lebanon Agree Conditional Ceasefire — Hezbollah Must Evacuate South of Litani (NEW)**: Fourth round of US-mediated trilateral talks in Washington. Deal requires (1) complete cessation of Hezbollah attacks, (2) evacuation of all Hezbollah operatives between Israeli border and Litani River (~30km north), (3) new "pilot security zones" with LAF-only control. No maps for the zones; next talks June 22. Israeli strikes continued same day (9+ killed in south Lebanon; strike on ambulance killed 2 paramedics). Israeli far-right (Ben-Gvir, Smotrich) opposed. Builds on 2026-06-02 [[israel-hezbollah-partial-ceasefire-trump-2026-06-02]] which was Beirut-only.
-- **Kim Jong Un Unveils New Nuclear Materials Factory — "Exponential" Arsenal Expansion (NEW)**: Third disclosed uranium-enrichment site in DPRK. First use of "exponential" in public. Production capacity is "more than double" 5 years ago. KCNA: "epochal milestone." Photos show Kim walking through enrichment centrifuge hall. Analyst read (NK News' O'Carroll): timed to potential Xi visit to Pyongyang, denuclearization is being publicly foreclosed on the eve of contact with PRC. South Korea's Joint Chiefs of Staff confirmed the disclosed site is a uranium enrichment facility. Pairs with 2026-06-04 NYT report on South Korea's Democratic Party sweeping local elections — South Korea's nuclear-weapon debate just got a fresh data point.
-- **Somalia: Worst Mogadishu Fighting in 5+ Years (NEW)**: Heavy clashes in Mogadishu Wed-Thu, mortar and anti-tank fire on residential areas including Bakara market. Trigger: President Hassan Sheikh Mohamud's mid-May one-year term extension beyond 2026-05-15 expiry. Opposition includes former president Sharif Sheikh Ahmed and former PM Hassan Ali Khaire. Government reportedly using drones. UN, UK, US condemn. Same resident: "more intense than [2021] anyone expected." Strategic opening for al-Shabaab. Wider Horn of Africa instability.
-- **DRC Ebola Began "As Early As January" + US-Only Kenya Quarantine Criticized (NEW)**: WHO chief Tedros reframed the timeline: virus "had a big head start" — actual start could be January 2026 (5+ months undetected). 344+ confirmed DRC cases, 60 deaths; 15 Uganda, 1 death. Open letter to Congress from former top US health officials (31-year CDC veteran Jernigan, IDSA president Nahass) calls the Trump "American-only" Kenya quarantine facility "a sharp departure from the standard upheld by every previous administration" — inverts 2014 doctrine. Kenya high court blocked the plan but both governments moved forward; first responders at Laikipia airbase May 31. Tedros also named the US travel ban as "disrupting supply chains." First major outbreak of the post-USAID-collapse era.
+- **Xi Jinping to Visit North Korea for Rare Kim Summit (NEW — TOP STORY)**: Xi to meet Kim weeks after meeting Trump and Putin. Visit comes one day after Kim's "exponential" nuclear arsenal announcement (third enrichment site). Analyst reading: Xi attempts to reassert Chinese influence as Kim's deepening Russia alliance reduces DPRK's dependence on Beijing. First Xi DPRK visit after meeting US and Russian leaders. South Korea local elections (DP sweep) add domestic pressure.
+- **Hezbollah Rejects US-Brokered Lebanon-Israel Ceasefire (REVERSAL — CRITICAL UPDATE)**: Hezbollah explicitly rejected the June 4 trilateral deal (US-Israel-Lebanon government). Structural flaw: Hezbollah, the armed non-state actor controlling south Lebanon, was not at the table. Deal required Hezbollah to stop firing first; group refused. Israeli strikes killed 4+ in south Lebanon. UN boosted Lebanon aid appeal to $640M. June 22 talks uncertain. {Supersedes positive June 4 framing.}
+- **Ukraine Drone Blast at Romanian NATO Port + Zelensky Peace Offer (NEW — ESCALATION DIMENSION)**: Malfunctioning Ukrainian naval drone exploded at a Romanian Black Sea port. EC President: "direct consequence" of the war — first confirmed spillover into NATO via Ukrainian munition. Ukraine separately struck 5 ships in Sea of Azov. Zelensky published open letter to Putin proposing face-to-face talks, citing US Iran-war distraction.
+- **US Jobs Data Forces Full Fed Rate-Hike Pricing (NEW — MACRO REGIME)**: May employment topped expectations. $31T Treasury market fully prices in a Fed rate hike this year — first full pricing since the extended pause. S&P 500 record weekly win streak in danger as AI rotation selloff continues. Dollar strengthened. European gas weekly gain on US-Iran uncertainty.
+- **Trump Proposes Sweeping Forced-Labor Tariffs on 60 Economies (NEW — TRADE ESCALATION)**: 10%+ surcharge proposed on 59 countries + EU simultaneously for forced labor practices. Covers China, EU, Mexico, India, Japan, South Korea, Vietnam, most US trade partners. If implemented: broadest trade action in modern history. Comes on top of existing US-China tariffs, Brazil 25% tariff, Canada/USMCA tension.
 
 ## Established (Carryover Threads — Status Updated)
 
-- **Israel-Hezbollah partial ceasefire → UPGRADED** to trilateral deal (today's story 2)
-- **Kenya Ebola court → EVOLVED** into US-only quarantine criticism (today's story 5)
-- **Iran war trajectory** → US House war powers check is a major new dimension (today's story 1)
-- **DPRK nuclear** → NEW THREAD (today's story 3)
-- **Somalia civil conflict** → NEW THREAD (today's story 4)
-- **Ebola 5-month head start** → NEW THREAD (today's story 5)
-- **Russia-Ukraine back-and-forth** → No new high-significance story in this cycle (carry forward)
-- **Colombia runoff / Brazil tariff / Canada 51st state / SpaceX IPO** → No new high-significance story in this cycle (carry forward)
-- **Anthropic IPO** → No new high-significance story (carry forward)
+- **Kim nuclear → UPGRADED** to Xi visit story (above)
+- **Israel-Lebanon ceasefire → REVERSED** by Hezbollah rejection (above)
+- **Russia-Ukraine war → UPGRADED** with Romania port spillover (above)
+- **US-Iran war** → WFP food crisis warning (Al Jazeera June 5) + OECD recession warning — new dimensions for next cycle
+- **Somalia Mogadishu fighting** → Fighting continues, Guardian reports on civilians fleeing. No dramatic new angle but still active.
+- **Ebola** → NYT gold-mining vector + rebel attacks killing 30 (Guardian). Both stories reinforce and deepen the existing narrative. Not new standalone angle — carry forward.
+- **Colombia runoff** → Cepeda says Trump "backing drug traffickers" (Anadolu Ajansi June 5). Espriella still leads. Carry forward.
+- **SpaceX IPO** → June 12 confirmed. Won't move $135/share price. Chinese investors banned. Carry forward.
+- **Anthropic IPO** → $960B valuation cited. S-1 filed. Carry forward.
 
 ## Open
 
-- [ ] US House war powers resolution: Senate floor vote scheduled? Trump response to the defections? Iran deal announcement (Trump said "as soon as this weekend")?
-- [ ] Israel-Lebanon: Hezbollah official response to the deal. Israeli ground force withdrawal timeline. Implementation of the pilot zones. June 22 next-round agenda.
-- [ ] Kim nuclear expansion: Verify site vs previous disclosed sites. Xi visit confirmation. South Korea nuclear debate acceleration.
-- [ ] Somalia: Death toll. Thursday protest outcomes. AU/ATMIS / UNSOM operational response. Hassan Sheikh term-extension reversal possibility. Al-Shabaab response.
-- [ ] Ebola: Death toll + 7-day trajectory. WHO IHR EC re-convening? US courts ruling on Kenya facility? South Sudan / Rwanda / Burundi transmission? Vaccine pipeline updates.
-- [ ] Russia-Ukraine: Reciprocal strikes trajectory. Putin SPIEF speech delivery. Western long-range weapons decision.
-- [ ] Colombia runoff: Polling post-Trump endorsement. Espriella dual-citizenship legal questions (NYT 2026-06-04 has angle). Cepeda/Petro response.
-- [ ] USMCA renewal: 16-year extension request response. Provincial premiers. Mexico role.
-- [ ] SpaceX IPO T-8 days to trading: BlackRock finalization. Opening day performance.
-- [ ] Anthropic IPO: Final pricing. Public reception. AI bubble debate.
-- [x] ~~Lebanon partial ceasefire: Trump announced.~~ *(superseded 2026-06-04 → trilateral deal)*
-- [x] ~~Kenya Ebola court blocked.~~ *(superseded 2026-06-04 → US-only facility operational despite court)*
+- [ ] Xi-Kim summit: actual meeting dates and duration. What was discussed — denuclearization? Russia arms transfers? Security guarantees? Putin's response. South Korea nuclear-weapons-debate acceleration.
+- [ ] Hezbollah rejection: Iran's official response. Lebanese government pivot (separate track?). Israeli response — ground force withdrawal stayed? June 22 talks status.
+- [ ] Ukraine: Romanian government official response to drone blast. Putin reaction to Zelensky open letter. Further Sea of Azov ship strikes.
+- [ ] Fed: Next CPI print (June 11?). PCE data. FOMC meeting schedule. AI selloff depth — structural or rotation?
+- [ ] Forced-labor tariffs: Notice-and-comment deadline. Country-specific retaliations announced. WTO challenge filings. Congressional reaction (House war powers vote correlation?).
+- [ ] Somalia: Death toll from ongoing clashes. AU/ATMIS/UNSOM operational response. Term-extension reversal possibility. Al-Shabaab opportunistic gains.
+- [ ] Ebola: 7-day case count trajectory. WHO IHR EC re-convening date. US courts ruling on Kenya facility. Vaccine pipeline status.
+- [ ] Colombia runoff: Polling post-Trump endorsement. Cepeda/Petro campaign strategy. Espriella US-dual-citizen legal question.
+- [ ] SpaceX IPO: June 12 countdown. BlackRock finalization of allocation. Opening day pricing and volatility.
+- [ ] Anthropic IPO: Final pricing date. Public reception. Amazon/Google investment disclosure (Fortune article covers this).
 
 ## Kanban Status
 
-Items surfaced this cycle (2026-06-04) — informational cards (status=done, dispatcher ignores):
-- [x] US House war powers resolution halt Iran war → t_616c5c9b7fc04024 [surfaced 2026-06-04]
-- [x] Israel-Lebanon trilateral ceasefire with Hezbollah evacuation → t_6529cbda1cc04b27 [surfaced 2026-06-04]
-- [x] Kim Jong Un "exponential" nuclear arsenal expansion → t_96b59095bc0943eb [surfaced 2026-06-04]
-- [x] Somalia Mogadishu capital fighting term-extension trigger → t_a8abf0d5cc324672 [surfaced 2026-06-04]
-- [x] DRC Ebola "big head start" + US-only Kenya quarantine criticism → t_693b106151374245 [surfaced 2026-06-04]
+Items surfaced this cycle (2026-06-05) — informational cards (status=done, dispatcher ignores):
+- [x] Xi Jinping visits North Korea for Kim summit → t_ce42ed296bbe4fb3 [surfaced 2026-06-05]
+- [x] Hezbollah rejects Lebanon-Israel ceasefire deal → t_8a0292b4304241c9 [surfaced 2026-06-05]
+- [x] Ukraine drone blast at Romanian NATO port + Zelensky peace offer → t_0d28849995af4bdb [surfaced 2026-06-05]
+- [x] US jobs data forces full Fed rate-hike pricing → t_00e9ac356b7f42df [surfaced 2026-06-05]
+- [x] Trump proposes forced-labor tariffs on 60 economies → t_1c1ba1a9b1944e8f [surfaced 2026-06-05]
 
 ## Heading
 
-**Next cycle (2026-06-05)**:
-1. US House war powers follow-up: Senate floor vote, Trump response, Iran deal timing
-2. Israel-Lebanon: Hezbollah response, ground force withdrawal, June 22 agenda
-3. Kim nuclear: Xi visit, South Korea debate, ICBM test correlation
-4. Somalia: death toll, AU/UNSOM response, al-Shabaab angle
-5. Ebola: contact tracing 45→90% trajectory, IHR EC re-convene, US policy response
-6. Russia-Ukraine: reciprocal strikes, SPIEF outcomes
-7. Latin America: Espriella dual-citizen angle, Brazil tariff retaliation
-8. SpaceX / Anthropic IPOs: opening day approach
+**Next cycle (2026-06-06)**:
+1. Xi-Kim summit: meeting details, agenda outcomes, Putin response
+2. Hezbollah rejection: Iran backstopping? Lebanese government response
+3. Ukraine: Romanian reaction, Putin open-letter response, NATO posture
+4. Fed: CPI/PCE calendar, AI selloff trajectory, dollar impact
+5. Forced-labor tariffs: country countermeasures, Congressional reaction
+6. Space/Anthropic IPOs: pricing updates, June 12 approach
+7. Colombia runoff: polling convergence
+8. Ebola: case trajectory, vaccine pipeline, IHR EC status
+9. Somalia: death toll, term-extension reversal, al-Shabaab angle
 
 ## Article Index (last 7 ingested — do NOT re-ingest)
 
 | Date | Slug |
 |------|------|
+| 2026-06-05 | xi-jinping-visits-north-korea-june-5-2026 |
+| 2026-06-05 | hezbollah-rejects-lebanon-israel-ceasefire-june-5-2026 |
+| 2026-06-05 | ukraine-romania-drone-blast-zelensky-peace-offer-june-5-2026 |
+| 2026-06-05 | us-jobs-report-feb-rate-hike-priced-in-june-5-2026 |
+| 2026-06-05 | us-forced-labor-tariffs-60-countries-june-5-2026 |
 | 2026-06-04 | us-house-votes-halt-iran-war-powers-june-4-2026 |
 | 2026-06-04 | israel-lebanon-ceasefire-security-zones-june-4-2026 |
 | 2026-06-04 | kim-jong-un-exponential-nuclear-arsenal-expansion-june-4-2026 |
@@ -78,36 +82,25 @@ Items surfaced this cycle (2026-06-04) — informational cards (status=done, dis
 | 2026-06-03 | trump-endorses-colombia-espriella-runoff-june-3-2026 |
 | 2026-06-03 | trump-canada-51st-state-trade-talks-june-3-2026 |
 | 2026-06-03 | spacex-ipo-75-billion-135-per-share-june-3-2026 |
-| 2026-06-02 | israel-hezbollah-partial-ceasefire-trump-june-2-2026 |
-| 2026-06-02 | russia-kyiv-deadly-strikes-june-2-2026 |
-| 2026-06-02 | trump-administration-25-percent-brazil-tariff-june-2-2026 |
-| 2026-06-02 | anthropic-confidentially-files-ipo-2026-june-2 |
-| 2026-06-02 | ebola-kenya-court-ruling-protests-june-2-2026 |
 
 ## Excluded from Next Cycle
 
-Local crime, sports scores, celebrity news, opinion pieces, clickbait, climate non-policy, healthcare non-policy, mid-cap earnings.
+See [[news-agent/references/excluded-topics.md]] for consolidated list.
 
-Excluded today: 
-- Bondi Beach shooting hero charged (local crime, AUS)
-- Argentina teen murder protest (societal, not geopolitically significant)
-- Apple/Meta news-payment fight (AUS, low global significance)
-- South Korean local elections (carries forward into Kim nuclear angle but no standalone)
-- NZ lawmakers banned from China after Taiwan trip (follows Japan/China thread, low standalone)
-- Smotrich 2,162 West Bank homes (continuation of Israel-Lebanon thread, no standalone)
-- Goldman/MS SpaceX IPO rivalry (fun but not geopolitically significant)
-- Iran World Cup visa story (human interest, low geopolitical)
-- Bloomberg screwworm / Zambia copper (low significance standalone)
-- India monsoon late (low significance)
-- Cannes soccer/World Cup (sports)
-- Japan naphtha plastic shortage (carryover, no new angle)
-- Trump nominate Blanche attorney general (routine, low significance)
-- Mexico cocaine tunnel (low significance standalone)
-- Ireland Black racism story / Ireland defense (carryover, low)
-- Hezbollah fiber-optic drones (NYT feature, fold into Israel-Lebanon ceasefire context, no standalone)
-- Japan/China militarism spat (carryover, no new high-significance story)
-- France/UK tanker seizure Tagor (carryover, no new angle)
-- Quantinuum IPO (carryover, no new angle)
-- Myanmar blast 39+ killed (carryover, no new angle)
-- Espriella US-citizen twist (continuation of Colombia thread, captured in 2026-06-03 clipping)
-- Romania NATO Article 4 (2026-06-01 thread, no new angle)
+Excluded today:
+- Peru runoff Fujimori vs Sanchez (new thread, lower significance — first round for reference)
+- Armenia election Pashinyan Russian disinformation (new thread, starting to watch but not yet ingested standalone)
+- Cuba sanctions new sanctions (continuation of US policy, no standalone)
+- Oman hostage release confirmed (single-incident, lower geopolitical)
+- Hamas won't surrender arms but police will carry weapons (Cairo talks context, carries into Gaza ceasefire thread but no standalone)
+- Nauru whistleblower threats against Australia detainees (low global significance)
+- NZ lawmakers banned from China after Taiwan trip (continuation, carries forward as China/Taiwan thread)
+- UK far-right tension after Henry Nowak murder (domestic UK, no global)
+- France child murder suspect criminal record (domestic France)
+- Typhoon Jangmi 23 injured (natural disaster, no policy angle)
+- India Q4 GDP beats estimates (economic data without policy pair)
+- US death-and-deport immigration judge story (domestic US, tragic but no systemic)
+- Airbus delays XLR deliveries to IndiGo (corporate, supply chain)
+- TPG/Oaktree/Oak Hill €1B debt for Evoke (PE deal, low significance)
+- Screwworm outbreak US (Bloomberg — 2026-06-04 — carries into food/ag)
+- Africa "family values" charter (Guardian — new rights treaty, watch for adoption but not yet significant)

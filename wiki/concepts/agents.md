@@ -90,9 +90,7 @@ LLM agents differ from classical software agents (as in reinforcement learning o
 
 - [[agent-architectures]]: design patterns for agent organization
 - [[autonomous-agents]]: agents that operate independently
-- [[agent-design]]: principles for building agents
 - [[multi-agent-llm-systems]]: systems of multiple collaborating agents
-- [[llm-agents]]: LLM-based agents as a class
 - [[cognitive-world-models-for-llm-agents]]: world-model integration for agents
 - [[agent-taxonomies]]: formal taxonomy of agent types
 

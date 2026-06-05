@@ -3942,3 +3942,159 @@ Updated page: wiki/concepts/public-health-governance.md
 ## [2026-06-05 09:48] write
 
 Updated page: wiki/concepts/china-cuba-tensions.md
+
+## [2026-06-05 09:49] write
+
+Updated page: wiki/concepts/information-theory.md
+
+## [2026-06-05 09:50] index
+
+Index updated with 1133 pages (Deep refresh completed)
+
+## [2026-06-05 09:50] write
+
+Updated page: wiki/scratchpad/jobs/reports/researcher/discovery-2026-06-05.md
+
+## [2026-06-05 09:51] write
+
+Updated page: wiki/scratchpad/agent-sheets/researcher/carryover.md
+
+## [2026-06-05 12:08] write
+
+Updated page: wiki/synthesis/insights/semiotic-theory-benchmarking-llm-evaluation-insight.md
+
+## [2026-06-05 12:09] index
+
+Index updated with 1134 pages
+
+## [2026-06-05 12:33] ingest | A Foundational Overview of Biosemiotics.md
+
+Ingested raw/A Foundational Overview of Biosemiotics.md into knowledge graph.
+
+Preview: # The Living Sign  ### 1. The Biological Paradigm Shift: From Machines to Interpreters  Biosemiotics represents an ontological departure from the traditional, Newtonian view of biology. For decades, t...
+
+## [2026-06-05 12:33] write
+
+Updated page: wiki/sources/articles/foundational-overview-of-biosemiotics.md
+
+## [2026-06-05 12:35] ingest | AGEM Biosemiotics Review.md
+
+Ingested raw/AGEM Biosemiotics Review.md into knowledge graph.
+
+Preview: user  The Living Sign: A Foundational Overview of Biosemiotics  1. The Biological Paradigm Shift: From Machines to Interpreters  Biosemiotics represents an ontological departure from the traditional, ...
+
+## [2026-06-05 12:35] write
+
+Updated page: wiki/sources/articles/agem-biosemiotics-review.md
+
+## [2026-06-05 12:37] ingest | QL-IBNN Concept.md
+
+Ingested raw/QL-IBNN Concept.md into knowledge graph.
+
+Preview: Research and Peer Review Assistant Custom Gem   https://arxiv.org/pdf/2605.30370  ### 1\. Claim Evaluation  **Claim:** An Artificial Neural Network (ANN) using the Standard Model (SM) neuron is only c...
+
+## [2026-06-05 12:38] write
+
+Updated page: wiki/sources/articles/ql-ibnn-concept.md
+
+## [2026-06-05 12:40] ingest | spec-kit.md
+
+Ingested raw/spec-kit.md into knowledge graph.
+
+Preview: [![Spec Kit Logo](https://github.com/github/spec-kit/raw/main/media/logo_large.webp)](https://github.com/github/spec-kit/blob/main/media/logo_large.webp)  ## 🌱 Spec Kit  ### Build high-quality softwar...
+
+## [2026-06-05 12:40] write
+
+Updated page: wiki/sources/repositories/spec-kit.md
+
+## [2026-06-05 12:41] index
+
+Index updated with 1134 pages
+
+## [2026-06-05 13:33] write
+
+Updated page: wiki/sources/news/2026/xi-jinping-visits-north-korea-june-5-2026.md
+
+## [2026-06-05 13:33] write
+
+Updated page: wiki/sources/news/2026/hezbollah-rejects-lebanon-israel-ceasefire-june-5-2026.md
+
+## [2026-06-05 13:33] write
+
+Updated page: wiki/sources/news/2026/ukraine-romania-drone-blast-zelensky-peace-offer-june-5-2026.md
+
+## [2026-06-05 13:33] write
+
+Updated page: wiki/sources/news/2026/us-jobs-report-feb-rate-hike-priced-in-june-5-2026.md
+
+## [2026-06-05 13:33] write
+
+Updated page: wiki/sources/news/2026/us-forced-labor-tariffs-60-countries-june-5-2026.md
+
+## [2026-06-05 13:34] write
+
+Updated page: Clippings/articles/2026/xi-jinping-visits-north-korea-june-5-2026.md
+
+## [2026-06-05 13:34] write
+
+Updated page: Clippings/articles/2026/hezbollah-rejects-lebanon-israel-ceasefire-june-5-2026.md
+
+## [2026-06-05 13:34] write
+
+Updated page: Clippings/articles/2026/ukraine-romania-drone-blast-zelensky-peace-offer-june-5-2026.md
+
+## [2026-06-05 13:34] write
+
+Updated page: Clippings/articles/2026/us-jobs-report-feb-rate-hike-priced-in-june-5-2026.md
+
+## [2026-06-05 13:34] write
+
+Updated page: Clippings/articles/2026/us-forced-labor-tariffs-60-countries-june-5-2026.md
+
+## [2026-06-05 13:34] index
+
+Index updated with 1139 pages (Deep refresh completed)
+
+## [2026-06-05 14:20] write
+
+Updated page: wiki/sources/papers/gated-deltanet2-linear-attention-2026.md
+
+## [2026-06-05 14:22] write
+
+Updated page: wiki/sources/papers/ai-chatbots-news-intermediaries-2026.md
+
+## [2026-06-05 14:23] write
+
+Updated page: wiki/sources/papers/deltadirect-directional-motion-blindness-video-llms-2026.md
+
+## [2026-06-05 14:24] index
+
+Index updated with 1141 pages (Deep refresh completed)
+
+## [2026-06-05 14:27] lint
+
+1423 pages · 209 orphans · 6263 broken · 0 missing-fm · report: audits/lint-2026-06-05.md
+
+## [2026-06-05 14:29] lint
+
+1423 pages · 209 orphans · 6263 broken · 2 missing-fm · report: audits/lint-2026-06-05.md
+
+## [2026-06-05 14:32] lint
+
+1423 pages · 209 orphans · 6263 broken · 0 missing-fm · report: audits/lint-2026-06-05.md
+
+## [2026-06-05 14:32] index
+
+Index updated with 1141 pages
+
+## [2026-06-05 14:41] lint
+
+1423 pages · 209 orphans · 6263 broken · 0 missing-fm · report: audits/lint-2026-06-05.md
+
+## [2026-06-05 14:48] index
+
+Index updated with 1141 pages (Deep refresh completed)
+
+## [2026-06-05 14:49] write
+
+Updated page: wiki/scratchpad/agent-sheets/librarians-assistant/carryover.md

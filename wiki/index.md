@@ -1,5 +1,5 @@
 ---
-updated: 2026-06-05T05:43:29Z
+updated: 2026-06-05T14:48:59Z
 type: index
 ---
 
@@ -38,7 +38,7 @@ type: index
 - [[skill-vectors]] — Skill vectors — binary per-question pass/fail vectors serving as behavioral signatures of model capability profiles.
 - [[algebra]] — [STUB] Algebra — mathematical study of algebraic structures and operations
 - [[nato-expansion]] — [STUB] NATO expansion into Eastern Europe and its geopolitical implications
-- [[normalizing-flows]] — Normalizing flows — exact-density generative models using invertible transformations and the change-of-variables formula; train by direct maximum likelihood.
+- [[normalizing-flows]] — Normalizing flows — exact-density generative models built from invertible transformations and the change-of-variables formula
 - [[Firecracker]] — [STUB] MicroVM virtualization technology from AWS
 - [[evaluation]] — Evaluation methodology and benchmarks for measuring LLM capabilities — MMLU, GSM8K, HumanEval, SWE-Bench; evaluation properties and limitations
 - [[multimodal-ai]] — [STUB] Multimodal AI — AI systems that process multiple data modalities
@@ -123,7 +123,7 @@ type: index
 - [[eml-operator]] — Single binary operator eml(x,y)=exp(x)−ln(y) that generates all elementary functions from constant 1 — the continuous NAND gate, with applications to symbolic regression, neuro-symbolic AI, automated reasoning, and single-instruction hardware
 - [[CRI]] — [STUB] Container Runtime Interface in Kubernetes
 - [[categorical-reasoning]] — Reasoning that leverages categorical structures — functors, natural transformations, adjunctions, and universal properties — to reason about composition, abstraction, and transformations across domains
-- [[energy-based-models]] — Energy-based models — unnormalized density p(x) ∝ exp(-E(x)); train via score matching or contrastive divergence to avoid the partition function.
+- [[energy-based-models]] — Energy-based models — generative models defined by an unnormalized density p(x) ∝ exp(-E(x)) and trained via score matching or contrastive divergence
 - [[formal-methods]] — Mathematically rigorous techniques for specifying, developing, and verifying software and hardware systems — model checking, theorem proving, abstract interpretation, refinement types
 - [[computer-vision]] — [STUB] Computer vision — AI systems that interpret and understand visual data
 - [[llm-agent-architecture]] — System architecture patterns for LLM-based autonomous agents — runtime composition, failure modes, and the LLM/software boundary as first-class design concern
@@ -202,7 +202,7 @@ type: index
 - [[lean-manufacturing]] — [STUB] Lean manufacturing — waste elimination, continuous improvement, just-in-time production
 - [[hermes_agent]] — Architectural overview of the Hermes Agent framework.
 - [[tools]] — [STUB] Tool directory — software tools and utilities
-- [[evidence-lower-bound-elbo]] — The ELBO — Jensen-derived lower bound on log-likelihood that is the central training objective in VAEs, DDPM, and PPCA.
+- [[evidence-lower-bound-elbo]] — The Evidence Lower Bound — a tractable lower bound on log-likelihood used to train latent-variable generative models
 - [[trump-administration-national-security]] — [STUB] Trump administration national security policy and appointments
 - [[betteti-baggio-bullo-zampieri-idp-hopfield-2025]] — [STUB] IDP-Hopfiel research — intrinsic dimension and attractor dynamics in neural networks
 - [[multi-agent-systems]] — Multi-agent LLM systems taxonomy, coordination patterns, and architectural foundations (promoted from stub)
@@ -241,7 +241,7 @@ type: index
 - [[economics]] — Archived — economics is non-AI social science outside focus area
 - [[control-llm]] — Control LLM — mitigation approach for catastrophic forgetting that splits model layers into frozen (prior knowledge) and trainable (new knowledge) branches
 - [[chain-of-thought]] — A prompting technique and internal process where LLMs generate intermediate reasoning steps before providing a final answer
-- [[generative-adversarial-networks]] — GANs — generator vs. discriminator minimax game; Wasserstein variant uses 1-Lipschitz critic for stable training.
+- [[generative-adversarial-networks]] — Generative adversarial networks — generative models trained via a minimax game between a generator and a discriminator; bypass explicit likelihoods
 - [[maximum-occupancy-principle]] — Theory of behavior replacing reward maximization with action-state path entropy maximization — Layer 0 of EFHF architecture; absorbing states → Kernel 2 (Prover9-verified)
 - [[waldis-instructions-shape-language-2026]] — [STUB] Research on instructions shaping language
 - [[sledgehammer]] — [STUB] Automated theorem proving via SMT solvers
@@ -269,13 +269,13 @@ type: index
 - [[machine-learning]] — [STUB] Machine learning — systems that learn patterns from data without explicit programming
 - [[hidden-states]] — The internal vector representations (activations) of data at each layer of a neural network, containing "inner knowledge" and confidence signals
 - [[engineering-internal-awareness]] — Engineering internal awareness mechanisms in LLMs — closed-loop self-regulation via metacognition
-- [[public-health-governance]] — [STUB] Institutional structures for managing public health crises and disease outbreaks
+- [[public-health-governance]] — Public health governance — institutional structures for managing public health crises (archived, non-AI periphery)
 - [[swe-bench]] — SWE-Bench — benchmark for software engineering tasks from real GitHub issues; tests agent ability to resolve real-world code problems
 - [[obsidian-cli-skill]] — [STUB] Obsidian CLI skill — command-line interface for Obsidian vault management
 - [[malaysia-us-trade-deal]] — Malaysia-US bilateral trade deal — first country to exit US bilateral post Hamm v. Smith ruling
 - [[absence-of-worst-case-metric]] — Failure mode in evaluating high-stakes systems — judging success by whether the catastrophic event occurred while bracketing out steady-state cost; the metric that called nuclear deterrence "successful" and is being installed for AI
 - [[qora]] — QLoRA — Quantized LoRA — fine-tuning large models in 4-bit quantization with LoRA adapters; enables frontier model training on consumer GPUs
-- [[information-theory]] — [STUB] Information theory — mathematical theory of information and communication
+- [[information-theory]] — Information theory — Shannon's mathematical theory of communication, entropy, channel capacity, and its application to LLM capacity, scaling laws, and path-entropy objectives
 - [[coevolution]] — Coevolution — evolutionary dynamics where two or more populations mutually influence each other's fitness landscape, applied to LLM-task coevolution in AC/DC.
 - [[hierarchical-supervisor]] — ARCHIVED — absorbed by [[agent-architectures]] (0.75), which covers hierarchical supervision as a hybrid architecture pattern; canonical links to supervisor-orchestrator and multi-agent-llm-systems skills
 - [[complexity]] — [STUB] Complexity — complex systems, emergent behavior, and complexity science
@@ -301,7 +301,7 @@ type: index
 - [[supertokens]] — High-level vocabulary entries created by merging multi-token sequences (structural phrases) into single units, functioning as operators in a problem-space search.
 - [[llm-kernel-optimization]] — [STUB] LLM kernel optimization — optimizing LLMs for efficient inference
 - [[technology]] — [STUB] Technology — application of scientific knowledge for practical purposes
-- [[proxy-signalling]] — Proxy signalling — indirect communication of capability or resolve through third parties
+- [[proxy-signalling]] — Proxy signalling — indirect communication of capability or resolve through third parties (archived, non-AI periphery)
 - [[constitutional-ai]] — Alignment technique using AI-generated self-critique and principle-based revision instead of human-labeled preference data
 - [[russia-belarus-nuclear]] — [STUB] Nuclear sharing arrangements between Russia and Belarus
 - [[taplo]] — [STUB] Rust LSP and formatting tool, TOML parser
@@ -437,7 +437,7 @@ type: index
 - [[privacy-mas]] — [STUB] Multi-agent systems privacy considerations
 - [[scrum]] — [STUB] Scrum — Agile project management framework with sprints, roles, and ceremonies
 - [[brocas-area]] — A region in the frontal lobe of the dominant hemisphere (usually left) with functions linked to speech production.
-- [[china-cuba-tensions]] — [STUB] Great-power rivalry dynamics between China and Cuba — proxy signalling, alliance messaging
+- [[china-cuba-tensions]] — China-Cuba tensions — great-power rivalry dynamics between China and Cuba (archived, non-AI periphery)
 - [[research-tooling]] — [STUB] Research tooling — tools and frameworks for AI research automation
 - [[agent-taxonomies]] — Six agent archetypes (Alpha-Zeta) with roles, instruction sets, and oMCD mappings
 - [[text-analysis]] — [STUB] Text analysis — computational analysis of text data
@@ -472,7 +472,7 @@ type: index
 - [[planetary-defense]] — [STUB] Planetary defense — detection and mitigation of asteroid threats
 - [[wolfram-physics-project]] — Stephen Wolfram's project applying A New Kind of Science (NKS) to fundamental physics — causal networks, multiway rewrite systems.
 - [[evolutionary-model-merging]] — Evolutionary model merging — evolutionary algorithms applied to LLM weight merging, combining task vectors via crossover and SVD-based mutation.
-- [[score-based-models]] — Score-based generative models — learn ∇_x log p(x) and sample via Langevin dynamics or SDE reverse-time simulation.
+- [[score-based-models]] — Score-based generative models — learn the score function ∇_x log p(x) and sample via Langevin dynamics or SDE solvers
 - [[benchmarking]] — [STUB] Benchmarking — measuring and comparing AI model performance
 - [[llm-agents]] — Large language model based autonomous agents
 - [[panksepp-emotional-systems]] — Panksepp emotional systems — affective neuroscience framework (stub)
@@ -487,7 +487,7 @@ type: index
 - [[subagent-delegation]] — Subagent delegation — pattern of spawning child agents to handle subtasks
 - [[agent-group-evolving-molecular-system-agem]] — [STUB] AGEM: agent group architecture with evolutionary molecular dynamics
 - [[mechanism-design]] — [STUB] Mechanism design — game theory of designing incentive-compatible systems
-- [[variational-autoencoder]] — VAE — encoder-decoder generative model trained by maximising the ELBO; reparameterisation trick enables end-to-end gradient training.
+- [[variational-autoencoder]] — Variational autoencoder — generative model that combines an encoder network (amortised posterior) with a decoder and is trained by maximising the ELBO
 - [[fine-tuning]] — 
 - [[social-science]] — [STUB] Social science — study of human society and social relationships
 - [[quantum-computing]] — [STUB] Quantum computing applications in AI and cryptography
@@ -508,7 +508,7 @@ type: index
 - [[bounded-memory-budget-optimization]] — Bounded memory budget optimization theme covering QES saturation, ESSA spectral alignment, and LLaMA-NAS compression
 - [[musk-velocity]] — Musk Velocity — the distinctive velocity of Elon Musk's simultaneous execution across SpaceX, Tesla, xAI, X, and DOGE; characterized by rapid multi-domain deployment, tolerance for legal and operational risk, and integration of ventures into mutual reinforcement loops
 - [[peter-steinberger]] — [STUB] Peter Steinberger, developer of PSPDFKit
-- [[great-power-rivalry]] — Great power rivalry — competition between major geopolitical powers
+- [[great-power-rivalry]] — Great power rivalry — competition between major geopolitical powers (archived, non-AI periphery)
 - [[model-optimization]] — [STUB] Model optimization — techniques for optimizing ML model performance
 - [[open-source-ai]] — [STUB] Open source AI — open weights models and transparency
 - [[terrorism]] — [STUB] Terrorism — political violence and intimidation
@@ -835,7 +835,7 @@ type: index
 - [[awesome-code-as-agent-harness]] — Survey companion repo organizing 200+ papers on code as executable harness for LLM agents — three-layer framework: interface, mechanisms, scaling
 - [[skill-consumption-2026]] — SkillLens: First systematic study of full model-generated skill lifecycle — non-trivial negative transfer is common, skill utility is independent of model scale, extraction guidance meta-skill reduces negative transfer.
 - [[code-as-agent-harness]] — Survey on code as operational substrate ("harness") for agentic AI systems
-- [[deltadirect-directional-motion-blindness-video-llms-2026]] — [STUB] DeltaDirect directional motion blindness in video LLMs — research on LLM perception of motion
+- [[deltadirect-directional-motion-blindness-video-llms-2026]] — Lee et al. (Kyung Hee University, 2026) — identifies directional motion blindness in Video-LLMs: most models perform near chance (25%) at distinguishing left/right/up/down motion direction despite strong appearance recognition. The direction binding gap: motion signal remains linearly decodable throughout the pipeline (vision encoder, projector, LLM states) but the readout fails to bind it to the correct answer option. Introduces MODIRECT (dataset family) and DeltaDirect (projector-level motion vector supervision) — improves accuracy from 25.9% to 85.4% on synthetic benchmarks.
 - [[arxiv-2605-27322-semantic-gradients-interactions-ssd]] — Interaction SSD extends Supervised Semantic Differential to model how semantic meaning varies across moderator groups (e.g., annotator racial identity moderating hate-speech judgments)
 - [[reward-inside-model-elhsr]] — Efficient Linear Hidden State Reward (ELHSR): A lightweight reward model (<0.005% parameters) using internal LLM hidden states for Best-of-N sampling.
 - [[arxiv-2605-28807-calibrating-conservatism-scalable-oversight]] — Calibrated Collective Oversight (CCO) uses conformal decision theory to calibrate AI conservatism, enabling weaker overseers to constrain stronger agents with formal guarantees.
@@ -1134,7 +1134,15 @@ type: index
 - [[news-2026-05-20-headlines]] — Global news headlines for May 20, 2026 — 7 stories across geopolitics, AI/tech, science, health, and energy
 - [[headlines-2026-05-28]] — News headlines 2026-05-28 — WHO Ebola PHEIC emergency committee recommendations, SpaceX IPO 16 days out with governance questions, Pope Leo XIV "Magnifica humanitas" encyclical on AI disarmament
 - [[news-2026-05-21-headlines]] — News headlines 2026-05-21 — Iran Hormuz control claim, US surveillance near Cuba, SpaceX SPCX IPO filing, Meta social media settlement, Ofcom TikTok/YouTube child safety finding, Trump-Taiwan call, DRC Ebola hospital burned, Air France/Airbus manslaughter verdict
-- [[QL-IBNN Concept]] — 
-- [[spec-kit]] — 
-- [[AGEM Biosemiotics Review]] — 
-- [[A Foundational Overview of Biosemiotics]] — 
+- [[semiotic-theory-benchmarking-llm-evaluation-insight]] — Semiotic theory (signifier/signified gap) meets LLM benchmarking literature — every benchmark score implicitly makes a philosophical claim about representation vs. meaning
+- [[foundational-overview-of-biosemiotics]] — Comprehensive overview of biosemiotics as a paradigm shift from mechanical to semiotic biology
+- [[agem-biosemiotics-review]] — AGEM system analysis of a biosemiotics corpus — community detection, formal logic verification, and structural bridge analysis
+- [[ql-ibnn-concept]] — Gemini research review synthesizing IBNN and QL whole-brain model papers into a proposed Complex-Valued GNN with Implicit Node Solvers architecture
+- [[spec-kit]] — GitHub's open source toolkit for Spec-Driven Development — executable specifications that generate implementations via specify CLI and Copilot integration
+- [[xi-jinping-visits-north-korea-june-5-2026]] — 
+- [[hezbollah-rejects-lebanon-israel-ceasefire-june-5-2026]] — 
+- [[ukraine-romania-drone-blast-zelensky-peace-offer-june-5-2026]] — 
+- [[us-jobs-report-feb-rate-hike-priced-in-june-5-2026]] — 
+- [[us-forced-labor-tariffs-60-countries-june-5-2026]] — 
+- [[gated-deltanet2-linear-attention-2026]] — Gated DeltaNet-2 (Hatamizadeh/Choi/Kautz, NVIDIA 2026) — decouples erase and write gates in linear attention memory editing. Channel-wise erase gate (key-side) and write gate (value-side) replace the scalar beta tie in Gated DeltaNet/KDA. Best 1.3B results among Mamba-2, GDN, KDA, Mamba-3 on long-context RULER and real-world retrieval. Preserves efficient chunkwise WY training.
+- [[ai-chatbots-news-intermediaries-2026]] — Suzgun et al. (Stanford, 2026) — 14-day real-time evaluation of 6 commercial AI chatbots (Gemini 3, Grok 4, Claude 4.5, GPT-5, GPT-4o-mini) on 2,100 emerging-news factual questions across 6 BBC regional services (12,600 model-question instances). Best systems >90% MC accuracy. Three failures: Hindi gap (−12pp driven by Anglophone retrieval bias), 70% of errors are retrieval failures not reasoning failures, adversarial accuracy collapse to 19–70% on false-premise questions.

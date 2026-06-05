@@ -35,7 +35,6 @@ Sahil Sen, Akhil Kasturi, Elias Lumer, Anmol Gulati, Vamse Kumar Subbiah
 
 ## Connections
 
-- [[retrieval-augmented-generation]] — core retrieval strategy being benchmarked
 - [[information-retrieval]] — grep vs vector retrieval comparison
 
 ## Open Questions

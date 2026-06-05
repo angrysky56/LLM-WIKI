@@ -69,7 +69,6 @@ Risk evidence re-injected → agent: refuse / re-plan / approve / escalate
 - [[sources/papers/finharness]]
 - [[finharness]]
 
-- [[llm-agents]] — tool-using agents and safety
 - [[agentic-research]] — agent safety benchmarks (AgentDojo, Agent-SafetyBench)
 - [[rlhf]] — alignment and safety signals
 - [[agentic-safety]] — Boiling the Frog (agentic safety) from prior cycle

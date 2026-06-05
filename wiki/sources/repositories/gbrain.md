@@ -125,7 +125,6 @@ For Hermes integration: install GBrain alongside Hermes, configure Hermes as the
 - [[sources/repositories/gbrain]]
 - [[gbrain]]
 
-- [[knowledge-graph]] — graph-based memory/retrieval
 - [[synthesis-layer]] — generative answer synthesis over retrieved context
 - [[mcp-model-context-protocol]] — agent tool integration protocol
 - [[openclaw]] — related agent platform (GBrain author also created OpenClaw)

@@ -81,7 +81,7 @@ Meta-cognitive agents explicitly monitor and regulate their own cognition. They 
 
 ## Connection to Agent Design
 
-[[agent-design]] principles determine how these architectural patterns are instantiated in practice:
+Agent-design principles determine how these architectural patterns are instantiated in practice:
 
 - **Modularity**: Each architectural layer should be independently replaceable
 - **Observability**: The agent's reasoning should be inspectable at each layer
@@ -107,7 +107,6 @@ Meta-cognitive agents explicitly monitor and regulate their own cognition. They 
 - [[concepts/hybrid-agents]]
 - [[concepts/agent-architectures]]
 
-- [[agent-design]]: principles for designing agents using these architectures
 - [[autonomous-agents]]: the class of agents these architectures enable
 - [[agentic-planner]]: the deliberative planning capability within agents
 - [[hierarchical-supervisor]]: a common hybrid architecture pattern

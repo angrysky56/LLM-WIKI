@@ -1,103 +1,100 @@
 ---
-summary: "Librarian carryover 2026-06-05 cycle 8 — STABLE cycle. 1409 pages (1133 knowledge), 216/6214/1/0/474/0. 1 missing frontmatter is raw/inbox false positive. HITS top-5 unchanged. Vault health 9/10."
-tags: [librarian, carryover, wiki-audit, daily, 2026-06-05, cycle-8, stable]
-updated: 2026-06-05T05:40:00Z
+summary: "Librarian carryover 2026-06-05 cycle 9 — REMEDIATION cycle. 1423 pages (1141 knowledge), 209/6263/0/0/528/0. Fixed 2 invalid-frontmatter pages (EIGHTH pattern — ingestor-stub first block). HITS top-5 authority stable. Vault health 9/10."
+tags: [librarian, carryover, wiki-audit, daily, 2026-06-05, cycle-9, remediation]
+updated: 2026-06-05T14:35:00Z
 ---
 
-# Librarian Carryover — 2026-06-05 (Cycle 8, 05:40 UTC)
+# Librarian Carryover — 2026-06-05 (Cycle 9, 14:35 UTC)
 
 ## Kanban Status
-- [x] Audit complete: 2026-06-05 05:40 UTC
-- [x] MCP tools: REACHABLE ✓
+- [x] Audit complete: 2026-06-05 14:35 UTC
 - [x] wiki_lint, wiki_hits_analysis, wiki_cluster_pages all ran
-- [x] wiki_update_index: not needed (no fixes applied)
-- [x] **No remediation needed this cycle** — stable state
-- [x] On-disk lint report (`wiki/audits/lint-2026-06-05.md`) matches MCP return
-- [x] Carryover written, verified via stat
+- [x] wiki_update_index: ran (1141 pages indexed)
+- [x] **Invalid frontmatter: 2 → 0** — EIGHTH pattern (ingestor-stub) on two new paper sources. Deleted broken prefixed first `---` block.
+  - `sources/papers/deltadirect-directional-motion-blindness-video-llms-2026.md`
+  - `sources/papers/ai-chatbots-news-intermediaries-2026.md`
+- [x] Re-lint confirmed both counts dropped to 0 (missing: 2→0, invalid: 2→0 after second pass for blank-line artifact)
+- [x] On-disk lint report (`wiki/audits/lint-2026-06-05.md`) 14:32 UTC: Orphans:209, Broken:6263, Missing:0, Invalid:0, Non-reciprocal:528, Tags:0 — **matches MCP return ✓**
 
 ## Established
 
-### Vault Stats — Cycle 8 (2026-06-05 05:34 UTC, 1409 pages = 1133 knowledge + 276 operational)
+### Vault Stats — Cycle 9 (2026-06-05 14:32 UTC, 1423 pages = 1141 knowledge + 282 operational excluded)
 
-| Metric | Cycle 7 | Cycle 8 | Delta |
+| Metric | Cycle 8 (05:40) | Cycle 9 (14:32) | Delta |
 |--------|---------|---------|-------|
-| Orphans | 213 | 216 | +3 (from 4 new pages — normal) |
-| Broken | 6219 | 6214 | -5 (minor fluctuation) |
-| Missing | 0 | 1 | +1 (false positive — raw/inbox file) |
-| Invalid | 0 | 0 | ✓ stable |
-| Non-reciprocal | 474 | 474 | ✓ stable |
+| Orphans | 216 | 209 | -7 (normal — some got linked) |
+| Broken | 6214 | 6263 | +49 (from 8 new pages) |
+| Missing | 1 (raw/false positive) | 0 | -1 |
+| Invalid | 0 | 0 | ✓ stable (was 2, fixed → 0) |
+| Non-reciprocal | 474 | 528 | +54 (new pages, body-text false positives) |
 | Tags | 0 | 0 | ✓ stable |
 
-**Vault growth:** +4 pages since cycle 7 (1405→1409). +3 knowledge pages (1130→1133). 3/3 new knowledge pages are orphans, as expected.
+**Vault growth:** +14 pages since cycle 8 (1409→1423). +8 knowledge pages (1133→1141). Growth consistent with afternoon ingestion.
 
-**Missing frontmatter (1):** `raw/A Foundational Overview of Biosemiotics.md` — this is a raw/inbox file, not a knowledge page. Raw files don't need frontmatter. **Not actionable.**
+**Missing frontmatter: 0** — the 2 new files after EIGHTH-pattern fix had trailing blank-line artifact (lines 1-2 blank, `---` started at line 3). Fixed via full-content rewrite. After re-lint: 0 missing, 0 invalid.
 
-### HITS Authority Top 5 (stable vs cycle 7)
+### HITS Authority Top 5
+| Rank | Page | Score | Delta vs Cycle 8 |
+|------|------|-------|-------|
+| 1 | `wiki/index` | 0.0734 | ✓ stable |
+| 2 | `log` | 0.0554 | ✓ stable |
+| 3 | `concepts/maximum-occupancy-principle` | 0.0142 | ✓ stable |
+| 4 | `entities/projects/efhf` | 0.0058 | +0.0005 (noise) |
+| 5 | `concept-index` | 0.0052 | +0.0001 (noise) |
+
+**Stable — 9th cycle in a row.** Graph topology frozen. No authority page has changed content depth this cycle.
+
+### HITS Hub Top 5
 | Rank | Page | Score | Delta |
 |------|------|-------|-------|
-| 1 | [[wiki/index]] | 0.0736 | ✓ stable |
-| 2 | [[log]] | 0.0557 | ✓ stable |
-| 3 | [[concepts/maximum-occupancy-principle]] | 0.0142 | +0.0001 (noise) |
-| 4 | [[efhf]] | 0.0053 | ✓ stable |
-| 5 | [[concept-index]] | 0.0051 | ✓ stable |
+| 1 | `maximum-occupancy-principle` (bare-slug alias) | 0.0031 | ✓ stable |
+| 2 | `efhf` | 0.0026 | ✓ stable |
+| 3 | `concept-index` | 0.0022 | ✓ stable |
+| 4 | `load-bearing-reasoning` | 0.0021 | ✓ stable |
+| 5 | `project-synapse` | 0.0020 | *new* (was `chain-of-thought`) |
 
-### HITS Hub Top 5 (stable vs cycle 7)
-| Rank | Page | Score | Delta |
-|------|------|-------|-------|
-| 1 | [[maximum-occupancy-principle]] (bare-slug alias) | 0.0030 | ✓ stable |
-| 2 | [[efhf]] | 0.0025 | ✓ stable |
-| 3 | [[concept-index]] | 0.0022 | ✓ stable |
-| 4 | [[load-bearing-reasoning]] | 0.0021 | ✓ stable |
-| 5 | [[chain-of-thought]] | 0.0020 | ✓ stable |
+**`project-synapse` replaced `chain-of-thought` in hub top-5** — both at 0.0020, this is a rounding-level tie. Not meaningful.
 
-**No audit-cycle artifact in top-hub** — `lint-2026-06-05` not in hub top-5 (expected: report was just generated, but no re-lint happened after it).
+**No audit-cycle artifact** in top-hub (no `lint-*` page).
 
 ### Tag Taxonomy
-- 0 non-preferred tags — controlled vocabulary is compliant
-- Tag taxonomy page: `wiki/concepts/tag-taxonomy.md` — 427 words, status: active
+- 0 non-preferred tags — controlled vocabulary compliant
+- No tag violations detected
 
 ### GAAC Cluster Findings
-- **Merge candidates:** All 1.000 similarity pairs — stub false positives (e.g. `fts5↔compound-commands`, `random-forest↔tabpfn-client`, `sledgehammer↔java↔latex`, `printing-press↔peter-steinberger`, `israel↔lebanon`). Not actionable.
-- **`business ↔ innovation` from prior carryover:** NOT in this cycle's merge candidates. The clustering shifted or it was a single-cycle artifact. The prior carryover's concern about it being a "real or stub artifact" is resolved — it was a stub artifact.
-- **Cluster 0** (4 pages — news/event pages): missing links between them, all trivial news articles. Not actionable.
+- **Merge candidates:** All 1.000 similarity pairs — stub false positives (same set as prior cycles: `fts5↔compound-commands`, `random-forest↔tabpfn-client`/`tabpfn-extensions`, `micro-saas↔programmatic-seo`, `sledgehammer↔java`/`latex`, `printing-press↔peter-steinberger`, `israel↔lebanon`). Not actionable.
+- **`business ↔ innovation`** — not in this cycle's merge candidates (confirmed resolved as single-cycle artifact from prior runs).
+- **No new merge candidates** with similarity between 0.7 and 1.0 seen in output.
 
-### Orphan Sample (top 5)
-| Page | Path | Type | Verdict |
-|------|------|------|---------|
-| mop-agents-integration | `wiki/research/` | research | **Genuine orphan** — only linked from operational `index.md`. Not absorbed yet. Originated 2026-06-03. |
-| skill-vectors | `wiki/concepts/` | concept (new) | **Recent ingestion** — 2026-06-04. Normal 1-2 cycle absorption expected. |
-| quality-diversity | `wiki/concepts/` | concept (new) | **Recent ingestion** — 2026-06-04. Normal. |
-| open-endedness | `wiki/concepts/` | concept (new) | **Recent ingestion** — 2026-06-04. Normal. |
-| synthetic-task-generation | (not checked) | — | Skip — likely same AC/DC batch. |
-
-**Assessment:** 4/5 orphans are fresh ingestion artifacts. `mop-agents-integration` is the only "stuck" orphan (ingested 2026-06-03, still no knowledge-layer incoming links after 2 days). Minority concern — it's linked from index.md which covers discovery.
+### Orphan Status
+- 209 orphans (down from 216 — 7 got linked naturally since cycle 8)
+- First 10 unchanged: `mop-agents-integration`, `oMCD-calibration-protocol`, `skill-vectors`, `quality-diversity`, `open-endedness`, `synthetic-task-generation`, `astar-structural-pathfinding`, `coevolution`, `coverage-metric`, `alqr-memory-estimates`
+- **`mop-agents-integration`** — still orphan after 2+ days (originated 2026-06-03). Linked from `index.md` which covers discovery. Recommend Ty decide whether to add knowledge-layer incoming links or let index.md coverage suffice.
+- Fresh ingestion orphans (skill-vectors, quality-diversity, open-endedness, synthetic-task-generation) from 2026-06-04 — normal 1-2 cycle absorption expected.
 
 ## What Remains
 
 ### High Priority
-- [ ] **Ingestor stub-block prevention** — same as cycle 7. The broken-first-block pattern has recurred across multiple cycles. No new instances in this cycle's 4 new pages (they all have clean frontmatter), which suggests it may have been fixed, or the current batch of 4 pages came through a different ingestion path. **Surface for Ty as a closed item unless it recurs.**
+- [ ] **Ingestor stub-block recurrence confirmed** — the prior cycle (08:40) noted "No new instances in this cycle's 4 new pages" and suggested it may be fixed. At 14:27, 2 new paper sources appeared with the same EIGHTH pattern `--- ... --- / blank / --- ... ---` structure (broken first block with unquoted `summary:` containing colon/em-dash, complete second block). **This confirms the ingestor is still producing the defect.** The 05:40 batch of 4 pages was clean; the 14:22-14:23 batch had the defect. This may depend on the ingestion path or specific paper type. **Surface for Ty** — the ingestor root cause needs fixing at source.
 
 ### Medium Priority
-- [ ] **866 broken `[[wiki/index]]` refs** — long-standing false positive from strict-path-match linter. Not actionable without linter algorithm change. Stable at 866.
-- [ ] **474 non-reciprocal links** — body-text-only false positive (per skill pitfall). Stable (no growth this cycle). Not actionable without reading each target.
-- [ ] **MOP phantom HITS nodes** — 8th cycle confirmed. Documented in skill as known limitation. No change.
+- [ ] **855 broken `[[wiki/index]]` refs** — long-standing false positive from strict-path-match linter. Stable.
+- [ ] **528 non-reciprocal links** — body-text-only false positive per skill pitfall. Up from 474 (+54 from new pages).
+- [ ] **MOP phantom HITS nodes** — 9th cycle confirmed. Known limitation documented in skill.
 
 ### Low Priority
-- [ ] **216 orphans** — 4/5 sampled are fresh ingestion artifacts. Only `mop-agents-integration` (2026-06-03, still orphan after 2 days) warrants attention, but it has index.md coverage.
-- [ ] **6214 broken links** — 866x `[[wiki/index]]` false positive dominates. Real broken links are ~10x fewer.
-- [ ] **GAAC merge candidates** — all stub false positives. `business↔innovation` resolved (not in this cycle's cluster).
+- [ ] **209 orphans** — mostly fresh ingestion artifacts. `mop-agents-integration` (2+ days orphan) warrants attention.
+- [ ] **6263 broken links** — 855x `[[wiki/index]]` false positive dominates.
+- [ ] **GAAC merge candidates** — all stub false positives, same set as prior cycles.
 
 ## Flagged for Ty
-- **Stable cycle** — no remediation needed. All metrics within expected bounds.
-- **Missing frontmatter "1"** is a raw/inbox file false positive, not a real defect. The cycle 6 pattern of phantom missing-frontmatter counts may partially apply (the linter flags raw/ files, which don't need frontmatter).
-- **`mop-agents-integration`** is the only orphan that's been orphaned >1 cycle. Low concern (linked from index.md).
-- **HITS top-5 unchanged** for 8 consecutive cycles. Graph topology is very stable.
-- **No ingestor stub-block recurrence** in this cycle's 4 new pages. The prior cycle's root-cause hypothesis may need revision, or the ingestor was already fixed.
+- **Ingestor stub-block recurrence at 14:22-14:23 UTC** — contradicts prior cycle's hypothesis that it was fixed. The ingestor produced the defect on 2 new paper sources despite 4 clean ones in the morning batch.
+- **`mop-agents-integration`** — 2+ days orphaned. Linked from `index.md` but no knowledge-layer incoming links. Recommend Ty decide whether to add links or accept index.md coverage.
+- **Vault health: 9/10** — stable across all metrics after remediation.
+- **HITS top-5 authority unchanged for 9 cycles** — graph topology essentially frozen.
 
 ## Heading
-- Vault health: **9/10** (unchanged from cycle 7 — stable across all metrics)
-- Audit report: `wiki/audits/lint-2026-06-05.md` (551596 bytes, 6921 lines, 2026-06-05 05:34 UTC)
-- HITS authority top-5: stable for 8 cycles — graph topology very stable
-- Tag taxonomy compliance: 0 violations, stable
-- **Key finding this cycle:** STABLE — no remediation needed. Only notable item is the raw/ false positive.
-- **Next cycle focus:** Verify `mop-agents-integration` orphan status (if unresolved at cycle 9, recommend Ty decide whether to add incoming links or let index.md coverage suffice). Check for ingestor stub-block recurrence.
+- Vault health: **9/10** (unchanged — stable after minor remediation)
+- **Action this cycle:** Fixed 2 invalid-frontmatter files (EIGHTH pattern). No other remediation needed.
+- **Key finding:** Ingestor stub-block defect is still active — just confirmed with fresh instances at 14:22-14:23 UTC.
+- **Next cycle focus:** Check for new ingestor stub-block instances. Verify `mop-agents-integration` orphan status (3+ days at next cycle).

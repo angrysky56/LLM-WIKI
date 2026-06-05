@@ -64,5 +64,5 @@ From Neo4j's research: the most valuable context often comes not from the direct
 - [[persistent-knowledge-compilation]] — complementary: GraphRAG retrieves; compilation pre-synthesises
 - Concept: [[bounded-structured-memory]]
 - Concept: [[hilbert-hotel-graph-architecture]]
-- Concept: [[knowledge-graph]]
+
 

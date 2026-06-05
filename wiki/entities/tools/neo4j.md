@@ -42,7 +42,6 @@ See [[neo4j-2026-04-0-release]] for full release notes.
 - [[sources/articles/llm-wiki-pattern]]
 - [[sources/repositories/graphify-ai-coding-assistant-skill]]
 - [[log]]
-- [[concepts/knowledge-graph]]
 - [[concepts/llm-wiki-pattern]]
 - [[entities/projects/zettelkasten-engine]]
 - [[synthesis/synapse-retrieval-architecture]]
@@ -62,7 +61,6 @@ See [[neo4j-2026-04-0-release]] for full release notes.
 - [[graphrag]] — the retrieval paradigm implemented using this database
 - [[hilbert-hotel-graph-architecture]] — thought experiment: immutable nodes + lazy offset protocols for infinite graph operations
 
-- [[knowledge-graph]]
 - [[llm-wiki-pattern]]
 - [[odrzywolek-eml-2026]]
 - [[graph-database]]

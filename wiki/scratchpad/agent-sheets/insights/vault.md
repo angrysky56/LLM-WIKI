@@ -1,48 +1,47 @@
-# Insights Vault — 2026-06-04 06:00 AM run
+---
+created: 2026-06-05
+type: vault
+agent: insights
+---
 
-**Run started**: 2026-06-04
-**Status**: Complete
+# Vault — 2026-06-05
 
-## Run log
-- CLI `generate_insights.py --topic general` started 06:00:55
-- LLM synthesis phase: ~5.5min
-- Persisted 4/4 insights to knowledge graph at 06:06:28
-- Wrote 4 insights to `data/insights/2026-06-04T06-06-28_general.json`
-- Watchdog timeout: NOT triggered (clean run, ~5.5min)
-- Latest symlink updated to today's file
-- Engine: 5th consecutive clean run (June 1 02:57, June 1 06:01, June 2, June 3, June 4)
+## Step 1: Run Insight Generation CLI
+- CLI completed successfully in ~5.5 min
+- 4 insights at confidence 0.85
+- Topic: general
 
-## Outcome
-- 1 new page published:
-  - `ml-optimization-coherent-cluster-insight.md` (novelty 0.40 — borderline but contains the O-Avg 60.5→31.5 datum that was previously unmoored)
-- 2 duplicates noted (full duplicates of canonical content):
-  - Insight #1: MCP as Connectivity Layer — `mcp-model-context-protocol.md` + `hermes_agent.md` already cover this
-  - Insight #2: Rotational Mathematics / LLM Reasoning — duplicate of `euler-formula-rope-reasoning-topology-insight.md` (2026-06-01)
-- 1 below-threshold noted (3-entity community, empty evidence list):
-  - Insight #4: Precision Infrastructure + road funding — speculative, no synthesis value
+## Step 2: Evaluate Insights
+1. **Mathematical Foundations Bridge Classical Computation and LLM Reasoning Analysis** (0.85, novelty 0.65)
+   - DUPLICATE of `euler-formula-rope-reasoning-topology-insight.md` — same Euler/RoPE bridge, community_45 (288 entities). Adds Port feature X as implementation detail but core connection already documented.
+   
+2. **Iran Geopolitical Cluster: Hormuz, Energy, and International Relations** (0.85, novelty 0.55)
+   - BELOW THRESHOLD — current-events aggregation, not a genuine knowledge synthesis. 0.55 novelty well below 0.60 borderline.
 
-## Cross-linking verified
-- ML optimization page: 10 cross-links (qes, neural-architecture-search, bounded-memory-budget-optimization, evolutionary-strategies, ml-evolution-benchmarking-protocol, parameter-efficient-fine-tuning, llama-nas, rz-nas, essa, neuronal-idol-alzheimers-therapy-insight)
+3. **Semiotic Theory Meets Benchmarking in LLM Evaluation** (0.85, novelty 0.72)
+   - ✅ PUBLISHED — `semiotic-theory-benchmarking-llm-evaluation-insight.md`
+   - Cross-domain bridge: semiotic theory (signifier/signified gap, Vromen's écriture) ↔ practical benchmarks (MT-Bench, CodeAlpaca)
+   - Community: 426 entities (354 entity count)
+   - Cross-links: 5 existing pages (evaluation, language-models-as-semiotic-machines, internalizable-index-and-the-harness, semiotic-founders-council, speculative-decoding-agent-efficiency-insight)
 
-## Episodic memory
-All 4 insights recorded to Synapse:
-- 1 × `published_synthesis_page`
-- 2 × `noted_duplicate_insight`
-- 1 × `noted_below_threshold_insight`
+4. **IDOL as Neuronal Target in Alzheimer's: IU Discovery Cluster** (0.85, novelty 0.65)
+   - DUPLICATE of `neuronal-idol-alzheimers-therapy-insight.md` — same Indiana University IDOL research, same findings. Different zettel_id but functionally identical.
 
-## Wiki index
-Updated: 1105 pages (note: index size dropped from 1334 to 1105 — this likely reflects a reindexing cleanup or different counting method, not actual content loss; the new synthesis page exists at the expected path)
+## Step 3: Pages Created
+- `wiki/synthesis/insights/semiotic-theory-benchmarking-llm-evaluation-insight.md` — ✅ 1 page
 
-## Carryover
-Compressed into `carryover.md` with:
-- What Was Done table
-- Cross-Run Pattern analysis
-- Established cumulative state
-- Open / What Remains checklist
-- Kanban Status (no new items)
-- Next Run Priority (Low)
+## Step 4: Recordings
+- 1 published_synthesis_page
+- 2 noted_duplicate_insight
+- 1 noted_below_threshold_insight
+- All recorded to episodic memory
 
-## Notable observations
-- The O-Avg 60.5→31.5 datum that was carried over from June 2 ("librarian task, not insights") is now anchored in the ML optimization synthesis page. This closes a small loose end from the prior carryover.
-- The "downstream amplifier" cross-link between ML optimization and IDOL/Alzheimer's is a methodological bridge — both fields discovered that the obvious target was the wrong intervention.
-- Insight count per run is settling: 4-6 insights, ~50% duplicates of canonical content, 1-2 new cross-domain bridges, occasional below-threshold items.
+## Step 5: Wiki Index
+- Updated: 1134 pages
+
+## Observations
+- Sixth consecutive clean run (CLI healthy)
+- 4 insights → 1 publishable (25% rate)
+- The semiotic/benchmarking bridge is the second cross-domain methodological insight this week (following the downstream-amplifier pattern from June 4)
+- Duplicate detection working correctly: Euler/RoPE (same community re-detected for second consecutive run), IDOL (same research thread)
+- Below-threshold Iran insight: large community (1173 entities) but low synthesis value — a pattern worth noting: community size ≠ insight quality

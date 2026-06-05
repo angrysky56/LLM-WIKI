@@ -1,8 +1,7 @@
 ---
-summary: The ELBO — Jensen-derived lower bound on log-likelihood that is the central training objective in VAEs, DDPM, and PPCA.
+summary: The Evidence Lower Bound — a tractable lower bound on log-likelihood used to train latent-variable generative models
 tags: [generative-models, variational-inference, elbo, math]
-updated: 2026-06-01T20:40:29Z
-created: 2026-06-01T20:40:29Z
+updated: 2026-06-05T09:47:08Z
 ---
 
 ---
@@ -11,7 +10,7 @@ updated: 2026-06-01T14:33:00Z
 type: concept
 summary: The Evidence Lower Bound — a tractable lower bound on log-likelihood used to train latent-variable generative models
 tags: [generative-models, variational-inference, elbo, math]
-status: stub
+status: active
 confidence: 0.6
 ---
 

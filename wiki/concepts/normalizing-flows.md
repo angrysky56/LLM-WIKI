@@ -1,8 +1,7 @@
 ---
-summary: Normalizing flows — exact-density generative models using invertible transformations and the change-of-variables formula; train by direct maximum likelihood.
+summary: Normalizing flows — exact-density generative models built from invertible transformations and the change-of-variables formula
 tags: [generative-models, normalizing-flows, invertible, exact-density]
-updated: 2026-06-01T20:41:18Z
-created: 2026-06-01T20:41:18Z
+updated: 2026-06-05T09:46:28Z
 ---
 
 ---
@@ -11,7 +10,7 @@ updated: 2026-06-01T14:33:00Z
 type: concept
 summary: Normalizing flows — exact-density generative models built from invertible transformations and the change-of-variables formula
 tags: [generative-models, normalizing-flows, invertible, exact-density]
-status: stub
+status: active
 confidence: 0.7
 ---
 

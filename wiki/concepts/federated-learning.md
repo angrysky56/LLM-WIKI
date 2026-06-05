@@ -1,12 +1,18 @@
 ---
+summary: Federated learning — machine learning on decentralized data without raw data centralization
+tags: [privacy, distributed-systems, machine-learning]
+updated: 2026-06-05T09:47:10Z
+---
+
+---
 created: 2026-05-29
 updated: 2026-05-29
 type: concept
 summary: Federated learning — machine learning on decentralized data without raw data centralization
 tags: [privacy, distributed-systems, machine-learning]
-sources: 
-status: stub
-confidence: 0.3
+sources:
+status: active
+confidence: 0.5
 ---
 
 # Federated Learning
@@ -26,13 +32,12 @@ Variants include:
 - **Federated transfer learning** — transfer learning across domains
 
 ## Connections
-- [[wiki/index]]
-- [[concepts/federated-learning]]
-- [[concepts/privacy-utility-tradeoff]]
-- [[log]]
-- [[concepts/data-privacy]]
-- [[concepts/federated-learning]]
 
 - [[data-privacy]] — privacy as the motivation
 - [[privacy-utility-tradeoff]] — tradeoff in federated systems
 - [[agem]] — where federated learning techniques apply
+
+## Open Questions
+
+- [ ] Can federated learning scale to frontier-sized LLMs? Heterogeneous client hardware makes naive FedAvg impractical.
+- [ ] How does differential privacy interact with federated averaging? Per-step noise compounds across rounds.

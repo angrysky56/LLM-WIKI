@@ -3870,3 +3870,75 @@ Index updated with 1133 pages (Deep refresh completed)
 ## [2026-06-05 05:43] lint
 
 1410 pages · 216 orphans · 6269 broken · 1 missing-fm · report: audits/lint-2026-06-05.md
+
+## [2026-06-05 09:46] write
+
+Updated page: wiki/concepts/dspy.md
+
+## [2026-06-05 09:46] write
+
+Updated page: wiki/concepts/model-merging.md
+
+## [2026-06-05 09:46] write
+
+Updated page: wiki/concepts/prompt-evolution.md
+
+## [2026-06-05 09:46] write
+
+Updated page: wiki/concepts/generative-adversarial-networks.md
+
+## [2026-06-05 09:46] write
+
+Updated page: wiki/concepts/normalizing-flows.md
+
+## [2026-06-05 09:47] write
+
+Updated page: wiki/concepts/variational-autoencoder.md
+
+## [2026-06-05 09:47] write
+
+Updated page: wiki/concepts/score-based-models.md
+
+## [2026-06-05 09:47] write
+
+Updated page: wiki/concepts/energy-based-models.md
+
+## [2026-06-05 09:47] write
+
+Updated page: wiki/concepts/evidence-lower-bound-elbo.md
+
+## [2026-06-05 09:47] write
+
+Updated page: wiki/concepts/diffusion-models.md
+
+## [2026-06-05 09:47] write
+
+Updated page: wiki/concepts/federated-learning.md
+
+## [2026-06-05 09:47] write
+
+Updated page: wiki/concepts/data-privacy.md
+
+## [2026-06-05 09:47] write
+
+Updated page: wiki/concepts/power-law.md
+
+## [2026-06-05 09:47] write
+
+Updated page: wiki/concepts/institutional-design.md
+
+## [2026-06-05 09:47] write
+
+Updated page: wiki/concepts/great-power-rivalry.md
+
+## [2026-06-05 09:47] write
+
+Updated page: wiki/concepts/proxy-signalling.md
+
+## [2026-06-05 09:48] write
+
+Updated page: wiki/concepts/public-health-governance.md
+
+## [2026-06-05 09:48] write
+
+Updated page: wiki/concepts/china-cuba-tensions.md

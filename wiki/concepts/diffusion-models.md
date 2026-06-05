@@ -1,12 +1,18 @@
 ---
+summary: Diffusion models — generative models that learn to reverse a noise process to generate data
+tags: [generative-ai, diffusion, image-generation, generative-models]
+updated: 2026-06-05T09:47:09Z
+---
+
+---
 created: 2026-07-28
 updated: 2026-07-28
 type: concept
 summary: Diffusion models — generative models that learn to reverse a noise process to generate data
 tags: [generative-ai, diffusion, image-generation, generative-models]
 sources: []
-status: stub
-confidence: 0.3
+status: active
+confidence: 0.5
 ---
 
 # Diffusion Models
@@ -30,11 +36,14 @@ See also [[score-based-models]] — score-based models are mathematically equiva
 
 The diffusion ELBO uses the [[evidence-lower-bound-elbo]] as its central training objective.
 
-## See Also
-- [[concepts/diffusion-models]]
-- [[concepts/generative-ai]]
-- [[wiki/index]]
-- [[log]]
-- [[concepts/diffusion-models]]
+## Connections
 
-- [[generative-ai]]: parent concept covering all generative model types
+- [[generative-ai]] — parent concept covering all generative model types
+- [[score-based-models]] — mathematically equivalent continuous-time view
+- [[little-book-generative-ai-foundations]] — mathematical primer
+- [[evidence-lower-bound-elbo]] — core training objective
+
+## Open Questions
+
+- [ ] How do diffusion-based world models compare to autoregressive prediction for planning tasks?
+- [ ] Can diffusion be made efficient enough for real-time interactive generation (video games, robotics)?

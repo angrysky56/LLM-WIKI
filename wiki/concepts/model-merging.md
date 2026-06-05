@@ -1,11 +1,17 @@
 ---
+summary: Model merging — techniques for combining two or more LLM checkpoints into a single model, including weight averaging, task-vector interpolation, and evolutionary approaches.
+tags: [model-merging, llm, weight-merging, ensemble]
+updated: 2026-06-05T09:46:25Z
+---
+
+---
 created: 2026-06-04
 updated: 2026-06-04
 type: concept
-summary: "Model merging — techniques for combining two or more LLM checkpoints into a single model, including weight averaging, task-vector interpolation, and evolutionary approaches."
+summary: Model merging — techniques for combining two or more LLM checkpoints into a single model, including weight averaging, task-vector interpolation, and evolutionary approaches.
 tags: [model-merging, llm, weight-merging, ensemble]
 sources: []
-status: stub
+status: active
 confidence: 0.8
 ---
 

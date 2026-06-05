@@ -1,8 +1,7 @@
 ---
-summary: Score-based generative models — learn ∇_x log p(x) and sample via Langevin dynamics or SDE reverse-time simulation.
+summary: Score-based generative models — learn the score function ∇_x log p(x) and sample via Langevin dynamics or SDE solvers
 tags: [generative-models, score-based, sde, langevin, diffusion]
-updated: 2026-06-01T20:41:01Z
-created: 2026-06-01T20:41:01Z
+updated: 2026-06-05T09:47:06Z
 ---
 
 ---
@@ -11,7 +10,7 @@ updated: 2026-06-01T14:33:00Z
 type: concept
 summary: Score-based generative models — learn the score function ∇_x log p(x) and sample via Langevin dynamics or SDE solvers
 tags: [generative-models, score-based, sde, langevin, diffusion]
-status: stub
+status: active
 confidence: 0.7
 ---
 

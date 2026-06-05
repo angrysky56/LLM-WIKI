@@ -1,8 +1,7 @@
 ---
-summary: GANs — generator vs. discriminator minimax game; Wasserstein variant uses 1-Lipschitz critic for stable training.
+summary: Generative adversarial networks — generative models trained via a minimax game between a generator and a discriminator; bypass explicit likelihoods
 tags: [generative-models, gan, adversarial, wasserstein]
-updated: 2026-06-01T20:41:53Z
-created: 2026-06-01T20:41:53Z
+updated: 2026-06-05T09:46:27Z
 ---
 
 ---
@@ -11,7 +10,7 @@ updated: 2026-06-01T14:33:00Z
 type: concept
 summary: Generative adversarial networks — generative models trained via a minimax game between a generator and a discriminator; bypass explicit likelihoods
 tags: [generative-models, gan, adversarial, wasserstein]
-status: stub
+status: active
 confidence: 0.7
 ---
 

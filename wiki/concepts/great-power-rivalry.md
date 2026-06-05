@@ -1,36 +1,29 @@
 ---
+summary: Great power rivalry — competition between major geopolitical powers (archived, non-AI periphery)
+tags: [geopolitics, international-relations, archived]
+updated: 2026-06-05T09:47:58Z
+---
+
+---
 created: 2026-05-29
 updated: 2026-05-29
 type: concept
-summary: Great power rivalry — competition between major geopolitical powers
-tags: [geopolitics, international-relations]
-sources: 
-status: stub
+summary: Great power rivalry — competition between major geopolitical powers (archived, non-AI periphery)
+tags: [geopolitics, international-relations, archived]
+sources:
+status: archived
 confidence: 0.3
 ---
 
 # Great Power Rivalry
 
-Great power rivalry refers to strategic competition between the world's most powerful states. In contemporary context:
+*This page has been archived as non-AI periphery. Great power rivalry is a geopolitical topic without a direct path to the wiki's AI/ML core focus.*
 
-- **US-China competition** — technological, economic, and military rivalry
-- **China-Cuba tensions** — regional manifestation of US-China rivalry
-- **Multipolar transition** — shift from unipolar to multipolar world order
+## Redirect
 
-Key domains of rivalry:
-- Semiconductor and AI technology
-- Military capabilities (nuclear, conventional, space)
-- Economic influence (Belt and Road, trade agreements)
-- Ideological soft power
+See [[concepts/ai-policy-arms-control-treaty]] for the AI-relevant subset of this topic (technology competition between powers).
 
 ## Connections
-- [[concepts/proxy-signalling]]
-- [[concepts/great-power-rivalry]]
-- [[wiki/index]]
-- [[concepts/china-cuba-tensions]]
-- [[concepts/geopolitics]]
-- [[concepts/great-power-rivalry]]
-
 - [[china-cuba-tensions]] — specific regional manifestation
 - [[proxy-signalling]] — competitive signaling in third parties
 - [[geopolitics]] — broader context

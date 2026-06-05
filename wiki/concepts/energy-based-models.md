@@ -1,8 +1,7 @@
 ---
-summary: Energy-based models — unnormalized density p(x) ∝ exp(-E(x)); train via score matching or contrastive divergence to avoid the partition function.
+summary: Energy-based models — generative models defined by an unnormalized density p(x) ∝ exp(-E(x)) and trained via score matching or contrastive divergence
 tags: [generative-models, energy-based, ebm, score-fields]
-updated: 2026-06-01T20:41:34Z
-created: 2026-06-01T20:41:34Z
+updated: 2026-06-05T09:47:07Z
 ---
 
 ---
@@ -11,7 +10,7 @@ updated: 2026-06-01T14:33:00Z
 type: concept
 summary: Energy-based models — generative models defined by an unnormalized density p(x) ∝ exp(-E(x)) and trained via score matching or contrastive divergence
 tags: [generative-models, energy-based, ebm, score-fields]
-status: stub
+status: active
 confidence: 0.65
 ---
 

@@ -1,14 +1,19 @@
 ---
+summary: Data privacy — protection of personal information in AI systems
+tags: [privacy, data-protection, ai-ethics]
+updated: 2026-06-05T09:47:55Z
+---
+
+---
 created: 2026-05-29
 updated: 2026-05-29
 type: concept
 summary: Data privacy — protection of personal information in AI systems
 tags: [privacy, data-protection, ai-ethics]
 sources: None
-status: stub
-confidence: 0.3
+status: active
+confidence: 0.5
 ---
-
 
 # Data Privacy
 
@@ -26,13 +31,12 @@ Privacy-preserving techniques in AI:
 - Homomorphic encryption
 
 ## Connections
-- [[concepts/data-privacy]]
-- [[log]]
-- [[wiki/index]]
-- [[concepts/federated-learning]]
-- [[concepts/privacy-utility-tradeoff]]
-- [[concepts/data-privacy]]
 
 - [[privacy-utility-tradeoff]] — the central tradeoff in privacy-preserving ML
 - [[federated-learning]] — a key privacy-preserving technique
 - [[agem]] — AgentEvAL where privacy considerations apply
+
+## Open Questions
+
+- [ ] How do privacy guarantees degrade under iterative model updates (continual learning + differential privacy)?
+- [ ] Can we audit privacy compliance without access to training data?

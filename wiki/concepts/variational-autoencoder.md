@@ -1,8 +1,7 @@
 ---
-summary: VAE — encoder-decoder generative model trained by maximising the ELBO; reparameterisation trick enables end-to-end gradient training.
+summary: Variational autoencoder — generative model that combines an encoder network (amortised posterior) with a decoder and is trained by maximising the ELBO
 tags: [generative-models, vae, variational-inference, elbo]
-updated: 2026-06-01T20:40:43Z
-created: 2026-06-01T20:40:43Z
+updated: 2026-06-05T09:47:05Z
 ---
 
 ---
@@ -11,7 +10,7 @@ updated: 2026-06-01T14:33:00Z
 type: concept
 summary: Variational autoencoder — generative model that combines an encoder network (amortised posterior) with a decoder and is trained by maximising the ELBO
 tags: [generative-models, vae, variational-inference, elbo]
-status: stub
+status: active
 confidence: 0.7
 ---
 

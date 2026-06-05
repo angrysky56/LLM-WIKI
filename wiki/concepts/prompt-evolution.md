@@ -1,11 +1,17 @@
 ---
+summary: Prompt evolution — iterative optimization of LLM prompts using execution traces, evolutionary search, and multi-objective selection.
+tags: [prompt-optimization, evolutionary-algorithms, llm]
+updated: 2026-06-05T09:46:26Z
+---
+
+---
 created: 2026-06-04
 updated: 2026-06-04
 type: concept
-summary: "Prompt evolution — iterative optimization of LLM prompts using execution traces, evolutionary search, and multi-objective selection."
+summary: Prompt evolution — iterative optimization of LLM prompts using execution traces, evolutionary search, and multi-objective selection.
 tags: [prompt-optimization, evolutionary-algorithms, llm]
 sources: []
-status: stub
+status: active
 confidence: 0.8
 ---
 

@@ -1,29 +1,25 @@
 ---
 created: 2026-05-26
-updated: 2026-06-05T21:10:00Z
+updated: 2026-06-16T21:10:00Z
 type: carryover
-summary: "Jun 5 cycle: 2 concept promotions (steering-vectors 0.3→0.72, fine-tuning 0.3→0.72), 2 new source summaries (RepE, PEFT survey), hub marker on machine-learning.md"
+summary: "Jun 16 cycle: shapley-values promoted from stub (0.3→0.75), cross-domain verification for steering-vectors and fine-tuning completed"
 tags: [researcher, carryover]
 ---
 
 ## CarryoverState
 
 ### Established
-- **steering-vectors promoted**: Jun 5 — fetched RepE paper (arXiv:2310.01405), wrote source summary (0.95), promoted stub (0.3→0.72) with full content covering extraction (CAA/ActAdd), mathematical properties (orthogonality, superposition, stability), and the reading-vs-controlling distinction. Cross-linked to activation-engineering, bounded-representation-capacity, mechanistic-interpretability.
-- **fine-tuning promoted**: Jun 5 — fetched PEFT survey (arXiv:2303.15647), wrote source summary (0.95), promoted stub (0.3→0.72) with content covering full FT vs PEFT taxonomy, alignment techniques (RLHF, DPO, GRPO), safety concerns, and modification landscape comparison table. Cross-linked to LoRA, parameter-efficient-fine-tuning, model-editing, activation-engineering. Absorbs the archived instruction-tuning.
-- **machine-learning.md hub marker**: Added `subtype: hub` to frontmatter, confidence 0.5 (intentional — hub page not knowledge page). Prevents future audit confusion.
+- **shapley-values promoted**: Jun 16 — leveraged existing source anchor (proxy-based-shapley-banzhaf-2026, 0.85) to expand from stub to full concept page covering: Shapley's 1953 axiomatization (4 axioms, uniqueness theorem), Banzhaf value comparison, computational complexity (#P-complete), applications (cost allocation, voting power, data valuation, SHAP), and 4 genuine open questions. Confidence 0.3→0.75.
+- **Cross-domain verification completed**: steering-vectors and fine-tuning both lack non-ML cross-domain connections. The behavioral-credibility-trilemma is the most plausible bridge for steering-vectors but remains within the same cluster. No forced connections warranted.
 
 ### Open
-- **[Intent]** Next cycle — (a) consider entity stub promotion (huggingface, anthropic, google-deepmind, openai-o-series, sakana-ai, priorlabs — pick 1-2 with source fetching); (b) continue ML concept stub promotion from remaining ~75 candidates; shapley-values has a pre-existing source anchor (proxy-based-shapley-banzhaf-2026) making it a high-efficiency candidate; (c) verify cross-domain connections between newly promoted pages and non-ML clusters.
-- **[Risk]** 73 ML-relevant concept stubs remain plus ~12 entity stubs. Need to maintain pace of 1-2 promotions per cycle or new incoming content will outpace promotion.
-- **[Constraint]** Each promotion requires external source fetching. The RepE and PEFT survey sources are strong anchors (0.95 each). Same workflow should continue.
+- **[Intent]** Next cycle — One of: (a) mechanism-design promotion (reciprocal link to shapley-values, same game-theory cluster, requires source fetching); (b) entity stub promotion (anthropic or sakana-ai — both lack source anchors, would need fetching); (c) cross-domain synthesis — build bridge between steering-vectors and behavioral-credibility-trilemma if the connection is substantiated.
+- **[Risk]** 72 ML-relevant concept stubs remain plus ~12 entity stubs. pace of 1-2 promotions per cycle is sustainable but slow.
+- **[Constraint]** mechanism-design lacks a source anchor. Would need arxiv or resource fetching before promotion — lower efficiency than shapley-values was.
 
-### Kanban Status
-- [x] steering-vectors promoted with RepE source
-- [x] fine-tuning promoted with PEFT survey source
-- [x] machine-learning.md hub marker applied
-- [ ] Entity stub promotion deferred to next cycle
-- [ ] ML concept stubs: ~73 remaining
+### Verifications (Jun 5 promotions)
+- [x] steering-vectors — cross-domain: no non-ML bridges (noted, not a problem)
+- [x] fine-tuning — cross-domain: no non-ML bridges (noted, not a problem)
 
 ## Last Run
-2026-06-05 21:10Z (cycle 8)
+2026-06-16 21:10Z (cycle 9)

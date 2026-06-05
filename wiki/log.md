@@ -4182,3 +4182,15 @@ Updated page: wiki/concepts/machine-learning.md
 ## [2026-06-05 21:07] index
 
 Index updated with 1144 pages (Deep refresh completed)
+
+## [2026-06-05 22:55] write
+
+Updated page: wiki/concepts/shapley-values.md
+
+## [2026-06-05 22:56] index
+
+Index updated with 1145 pages (Deep refresh completed)
+
+## [2026-06-05 22:57] write
+
+Updated page: wiki/scratchpad/jobs/reports/researcher/discovery-2026-06-16.md

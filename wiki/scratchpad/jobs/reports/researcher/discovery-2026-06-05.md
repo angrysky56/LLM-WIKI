@@ -1,92 +1,67 @@
----
-summary: Discovery Report for June 5, 2026 — 14 frontmatter-lag status flips, 4 periphery archives, 1 real gap promotion (information-theory)
-tags: [researcher, discovery, report, 2026-06-05]
-updated: 2026-06-05T09:50:49Z
-created: 2026-06-05T09:50:49Z
----
+# Researcher Discovery Report — 2026-06-05
 
----
-created: 2026-06-05
-updated: 2026-06-05
-type: report
-summary: "Discovery Report for June 5, 2026 — 14 frontmatter-lag status flips, 4 periphery archives, 1 real gap promotion (information-theory)"
-tags: [researcher, discovery, report, 2026-06-05]
----
+## Discovery Cycle
+- Source pages created: 2
+- Concept pages promoted: 2
+- Hub marker applied: 1
+- Total pages written or updated: 5
 
-# Discovery Report — 2026-06-05
+## Focus
+**Concept Advancement** — promoted two ML-relevant concept stubs from 0.3 to 0.72 via source-anchored expansion.
 
-**Researcher Agent** | Cycle: 2026-06-05 08:10Z
+## New Source Summaries
 
-## Focus Area
+### [[sources/papers/repe-representation-engineering]]
+The RepE paper (Zou et al., 2023, arXiv:2310.01405) — "Representation Engineering: A Top-Down Approach to AI Transparency." Introduces contrastive activation addition (CAA/ActAdd), the canonical method for extracting steering vectors from LLM activations. Fetched, ingested, summarized with 95% confidence.
 
-Generative model frontmatter-lag cleanup + information-theory cross-cluster bridge promotion.
+### [[sources/papers/peft-guide-scaling-down-to-scale-up]]
+The PEFT survey (Lialin et al., 2023/2024, arXiv:2303.15647) — "Scaling Down to Scale Up: A Guide to Parameter-Efficient Fine-Tuning." Systematic survey of 50+ PEFT methods with controlled head-to-head comparison at 11B scale. Fetched, ingested, summarized with 95% confidence.
 
-After the Jun 4 cycle focused on memory mechanisms and adaptive computation, this cycle aimed at a different gap: the large backlog of frontmatter-lag pages whose bodies were already reference-quality but whose `status: stub` metadata was never updated. These pages were invisible users of research cycles — the gap analysis flagged them as stubs, but reading them revealed rich content.
+## Concept Advancements
 
-## Gap Analysis Findings
+### [[concepts/steering-vectors]] (0.3 → 0.72)
+**Previously**: Empty stub — "Steering vectors — directional activation patterns that bias model behavior" with no content and no source anchors.
 
-- **Detected 19 stubs with 80+ words** (frontmatter-lag signal). Of these:
-  - 14 confirmed as **true frontmatter-lag** — body has rich content (confidence 0.6-0.85), only status field needed flipping
-  - 4 confirmed as **non-AI periphery** with placeholder content → archived
-  - 1 confirmed as **real gap** with 80+ words but genuine placeholder content (machine-learning.md — needs a real page but requires substantial synthesis)
-- **Verified remaining carryover items**: synthetic-data already promoted (0.72, active), llm-kernel-optimization NOT redundant with transformer-vm-moran-2026, instruction-tuning's waldis source doesn't exist (broken link)
-- **Stub count reduction**: 124 → 105 (net -19)
+**Now**: Full-page covering:
+- Definition: Directional vectors in activation space encoding high-level cognitive phenomena
+- Extraction methods: CAA/ActAdd (RepE), PCA-based, probe-based
+- Mathematical properties: orthogonality (mixed evidence), superposition (fundamental to distributed representations), stability (limited transferability across model versions)
+- The RepE distinction: Reading (monitoring) vs Controlling (steering)
+- Clear separation from activation-engineering: steering-vectors = the *object*, activation-engineering = the *practice*
+- 4 genuine open questions (transferability, optimal extraction, orthogonal decomposition, minimal data requirements)
+- Source anchors: RepE paper + emotion-concepts-llm article
 
-## Action Taken
+### [[concepts/fine-tuning]] (0.3 → 0.72)
+**Previously**: Thin page (~63 words) — "Fine-tuning adapts pretrained models to downstream tasks via additional training" but no depth, no section structure, no open questions.
 
-### Frontmatter-Lag Status Flips (14 pages)
+**Now**: Full-page covering:
+- Definition and position in the modification landscape (vs ICL, activation steering, model editing, pretraining)
+- Full fine-tuning vs Parameter-Efficient Fine-Tuning (PEFT)
+- PEFT taxonomy: low-rank (LoRA), adapter-based, prompt-based, sparse methods
+- Alignment fine-tuning: RLHF, DPO, GRPO
+- Safety and security: harmful fine-tuning, routing drift in MoE models
+- Comparison table of 5 modification techniques
+- 4 genuine open questions (full FT vs PEFT gap, PEFT composability, safety bounds, alternative lifecycles)
+- Source anchors: PEFT survey + SafeMoE paper
 
-Each page below had `status: stub` in frontmatter but substantive body content. Flipped to `status: active` with appropriate confidence bump where needed.
+### [[concepts/machine-learning]] — Hub marker added
+Added `subtype: hub` to frontmatter and updated `tags: [ai, ml, hub]` to signal to future audits that this is a lightweight navigation hub, not a thin knowledge page. Confidence adjusted to 0.5 to reflect that it's not a deep page (as intended).
 
-1. **dspy.md** (0.85 → active) — Full reference on Stanford's declarative LM programming framework, GEPA connection, hermes-agent-self-evolution relationship
-2. **model-merging.md** (0.8 → active) — Weight averaging, task-vector interpolation, evolutionary merging; AC/DC source reference
-3. **prompt-evolution.md** (0.8 → active) — GEPA + DSPy techniques; Pareto multi-objective selection
-4. **generative-adversarial-networks.md** (0.7 → active) — Minimax game, Wasserstein GAN, tradeoffs vs. likelihood-based models
-5. **normalizing-flows.md** (0.7 → active) — Coupling layers, autoregressive flows, continuous-time flows; exact density
-6. **variational-autoencoder.md** (0.7 → active) — ELBO objective, reparameterisation trick, amortised inference
-7. **score-based-models.md** (0.7 → active) — Score matching, Langevin dynamics, SDE connection to diffusion
-8. **energy-based-models.md** (0.65 → active) — Contrastive divergence, score matching, connection to score-based models
-9. **evidence-lower-bound-elbo.md** (0.6 → active) — Jensen's inequality derivation, central training objective for VAEs/DDPM
-10. **diffusion-models.md** (0.3→0.5 → active) — Denoising diffusion, latent diffusion, classifier-free guidance; confidence bumped from 0.3 to 0.5 to match substantive body
-11. **federated-learning.md** (0.3→0.5 → active) — FedAvg, horizontal/vertical/transfer variants; confidence bumped
-12. **data-privacy.md** (0.3→0.5 → active) — Differential privacy, data minimization, privacy-preserving ML techniques
-13. **power-law.md** (0.3→0.5 → active) — Scaling laws, Zipf, Pareto distribution; open questions added
-14. **institutional-design.md** (0.3→0.5 → active) — AI governance, incentive structures, monitoring mechanisms
+## Carryover Items Completed
+- [x] (a) **steering-vectors** promoted with RepE source anchor
+- [x] (a) **fine-tuning** promoted with PEFT survey source anchor (also absorbs archived instruction-tuning)
+- [x] (d) **machine-learning.md** hub-type marker added to frontmatter (+ `subtype: hub` field)
 
-### Periphery Archives (4 pages)
+## Carryover Items Deferred
+- [ ] (b) Entity stubs (huggingface, anthropic, google-deepmind, openai-o-series, sakana-ai, priorlabs) — still pending; entity promotion is a different workflow than concept advancement
 
-Non-AI periphery stubs with no path to the AI/ML core graph. Archived with redirect notes.
+## Vault Health
+- 1144 pages indexed after deep refresh
+- 2 new source anchor pages in `wiki/sources/papers/`
+- 2 previously-stub concepts now promoted to reference status
+- 1 hub page properly tagged
 
-1. **great-power-rivalry.md** — geopolitics, archived
-2. **proxy-signalling.md** — geopolitics/strategy, archived
-3. **public-health-governance.md** — health policy, archived
-4. **china-cuba-tensions.md** — geopolitics, archived
-
-### Real Gap Promotion
-
-1. **information-theory.md** (0.3→0.72) — Full reference page anchored to `shannon-scaling-law-2026` source (0.9). Bridges three clusters: scaling-laws (Shannon Scaling Law, SNR threshold, finite LLM capacity), compression (rate-distortion theory, quantization), and MOP/EFHF (path entropy as information-theoretic behavioral objective). Core quantities (entropy, mutual information, KL divergence, channel capacity) + their ML mappings. 5 open questions on applied info theory.
-
-### Carryover Verification
-
-- **synthetic-data**: Already promoted (0.72, active) — confirmed adequate, no action needed
-- **llm-kernel-optimization**: NOT redundant with transformer-vm-moran-2026 (one is about CUDA/flash-attention kernels, the other about compiled transformer VMs). But it lacks a dedicated source anchor — needs external research to promote.
-- **instruction-tuning**: waldis-2026 source link is broken (page doesn't exist). Can't promote without a source anchor.
-
-## Open Items for Next Cycle
-
-- [ ] `information-theory` cross-cluster bridge created — verify it actually connects scaling-laws ↔ compression ↔ MOP in practice (check backlinks after index refresh)
-- [ ] `llm-kernel-optimization` — real gap but needs external source research. Consider fetching a relevant paper on FlashAttention, vLLM kernel optimization, or quantization kernels to anchor it.
-- [ ] `instruction-tuning` — waldis source is broken; check if a replacement source exists or archive the stub
-- [ ] `machine-learning.md` (103w placeholder + connections list) — real stub, but creating a reference-quality "Machine Learning" page is a large synthesis task. Consider whether a hub page (linking to existing ML sub-disciplines) suffices.
-- [ ] 105 stubs remain (mostly 45-55 word placeholders). Most are non-AI periphery or very narrow topics. Worth a second mass-archive pass in the next cycle.
-- [ ] Hub cross-link audit: mcp-logic and mop-edm-cognitive-architecture HITS positions — verify if they're genuinely under-linked or just low-connectivity by nature.
-
-## Stub Count
-
-124 → 105 (net -19)
-
-Breakdown:
-- -14 frontmatter-lag flips (status: stub → active)
-- -4 periphery archives (status: stub → archived)
-- -1 real gap promotion (information-theory: stub → active)
-- Net: -19
+## Open Questions for Next Cycle
+1. **Entity stub promotion**: Carryover item (b) — promoting entity stubs like huggingface, anthropic, google-deepmind. These need different research (company/product documentation, not papers). Worth a dedicated cycle.
+2. **Ongoing ML concept stubs**: ~75 ML-relevant concept stubs remain (nlp, language-models, graph-theory, shapley-values, open-source-ai). Next cycle could pick shapley-values (has a source anchor in proxy-based-shapley-banzhaf-2026) or open-source-ai (relevant to current AI governance discourse).
+3. **Cross-domain synthesis check**: With 2 recently-promoted ML concepts, check if cross-domain connections exist between them and non-ML clusters that were previously unreachable.

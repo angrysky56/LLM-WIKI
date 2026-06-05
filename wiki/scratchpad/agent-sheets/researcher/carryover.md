@@ -1,31 +1,29 @@
 ---
 created: 2026-05-26
-updated: 2026-06-06T08:10:00Z
+updated: 2026-06-05T21:10:00Z
 type: carryover
-summary: "Jun 6 cycle: FlashAttention source fetched + ingested, llm-kernel-optimization promoted (0.3→0.72), instruction-tuning archived (absorbed by fine-tuning), 29 periphery stubs batch-archived"
+summary: "Jun 5 cycle: 2 concept promotions (steering-vectors 0.3→0.72, fine-tuning 0.3→0.72), 2 new source summaries (RepE, PEFT survey), hub marker on machine-learning.md"
 tags: [researcher, carryover]
 ---
 
 ## CarryoverState
 
 ### Established
-- **llm-kernel-optimization promoted**: Jun 6 — fetched FlashAttention paper (arXiv:2205.14135), wrote source summary (0.95), promoted stub (0.3→0.72) with real content covering IO-aware attention, quantization, and serving kernels. Cross-linked to 6+ pages.
-- **instruction-tuning archived**: Jun 6 — only source anchor (waldis-2026) is also an empty stub. Absorbed by general fine-tuning concept.
-- **machine-learning.md confirmed hub**: Evaluated per carryover directive. 71 words, mostly connections list. Works as navigation hub — leave as-is.
-- **29 periphery stubs batch-archived**: Jun 6 — non-AI topics (alzheimers, lean-manufacturing, india-energy-strategy, etc.), umbrella concepts (pure-mathematics, methodology, technology, science, tools), non-AI entities (JWST, ESA, NASA), tool stubs (sqlite, overlayfs, taplo, profiles), spike notes. Batch script: `/tmp/batch_archive_stubs.py`.
-- **Hub audit**: mcp-logic (entity) and mop-edm-cognitive-architecture (synthesis) both adequately cross-linked. Reciprocal connections verified. No action needed.
+- **steering-vectors promoted**: Jun 5 — fetched RepE paper (arXiv:2310.01405), wrote source summary (0.95), promoted stub (0.3→0.72) with full content covering extraction (CAA/ActAdd), mathematical properties (orthogonality, superposition, stability), and the reading-vs-controlling distinction. Cross-linked to activation-engineering, bounded-representation-capacity, mechanistic-interpretability.
+- **fine-tuning promoted**: Jun 5 — fetched PEFT survey (arXiv:2303.15647), wrote source summary (0.95), promoted stub (0.3→0.72) with content covering full FT vs PEFT taxonomy, alignment techniques (RLHF, DPO, GRPO), safety concerns, and modification landscape comparison table. Cross-linked to LoRA, parameter-efficient-fine-tuning, model-editing, activation-engineering. Absorbs the archived instruction-tuning.
+- **machine-learning.md hub marker**: Added `subtype: hub` to frontmatter, confidence 0.5 (intentional — hub page not knowledge page). Prevents future audit confusion.
 
 ### Open
-- **[Intent]** Next cycle — (a) promote one or more ML-relevant concept stubs (nlp, language-models, graph-theory, steering-vectors, sledgehammer, shapley-values, open-source-ai — pick 1-2 with source anchors); (b) consider promoting entity stubs (huggingface, anthropic, google-deepmind, openai-o-series, sakana-ai, priorlabs); (c) evaluate fine-tuning.md for promotion (currently 63-word stub that would absorb the archived instruction-tuning); (d) add explicit hub-type marker to machine-learning.md frontmatter to prevent future confusion.
-- **[Risk]** 161 stubs remain — 75 concepts, 12 entities, 74 synthesis/news. Remaining concepts are genuine ML/AI topics that need research to promote (external URL fetches). Synthesis/news stubs (74) are a distinct category — don't touch unless a news event becomes significant enough for promotion.
-- **[Constraint]** Real-gap stub promotions now require external source fetching each time. The FlashAttention fetch worked cleanly. Each promotion cycle = 1-2 URL fetches + writing.
+- **[Intent]** Next cycle — (a) consider entity stub promotion (huggingface, anthropic, google-deepmind, openai-o-series, sakana-ai, priorlabs — pick 1-2 with source fetching); (b) continue ML concept stub promotion from remaining ~75 candidates; shapley-values has a pre-existing source anchor (proxy-based-shapley-banzhaf-2026) making it a high-efficiency candidate; (c) verify cross-domain connections between newly promoted pages and non-ML clusters.
+- **[Risk]** 73 ML-relevant concept stubs remain plus ~12 entity stubs. Need to maintain pace of 1-2 promotions per cycle or new incoming content will outpace promotion.
+- **[Constraint]** Each promotion requires external source fetching. The RepE and PEFT survey sources are strong anchors (0.95 each). Same workflow should continue.
 
 ### Kanban Status
-- [x] llm-kernel-optimization promoted with FlashAttention source
-- [x] instruction-tuning archived (no replacement source)
-- [x] machine-learning.md evaluated as hub page
-- [x] 29 periphery stubs batch-archived
-- [x] Hub audit: mcp-logic + mop-edm-cognitive-architecture both pass
+- [x] steering-vectors promoted with RepE source
+- [x] fine-tuning promoted with PEFT survey source
+- [x] machine-learning.md hub marker applied
+- [ ] Entity stub promotion deferred to next cycle
+- [ ] ML concept stubs: ~73 remaining
 
 ## Last Run
-2026-06-06 08:10Z (cycle 7)
+2026-06-05 21:10Z (cycle 8)

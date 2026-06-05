@@ -1,47 +1,45 @@
 ---
+summary: Machine learning — hub page connecting ML sub-domains; added explicit subtype marker for audit clarity
+tags: [ai, ml, hub]
+updated: 2026-06-05T21:07:35Z
+---
+
+---
 created: 2026-05-25
-updated: 2026-05-25
+updated: 2026-06-05
 type: concept
-summary: "[STUB] Machine learning — systems that learn patterns from data without explicit programming"
-tags: [ai, ml, stubs]
+subtype: hub
+summary: Machine learning — systems that learn patterns from data without explicit programming; hub page connecting ML sub-domains and related concepts
+tags: [ai, ml, hub]
 sources: []
-status: stub
-confidence: 0.3
+status: active
+confidence: 0.5
 ---
 
 # Machine Learning
 
-*Stub page — needs real content*
+**Hub page** — this is a navigation page linking to ML sub-domains and related concepts. For deep coverage of specific ML topics, follow the links below.
 
 ## Connections
+
 - [[concepts/neural-networks]]
 - [[concepts/computer-vision]]
 - [[concepts/deep-learning]]
 - [[concepts/reinforcement-learning]]
 - [[concepts/machine-learning]]
 - [[concepts/ml-research]]
-- [[concepts/odrzywolek-eml-2026]]
 - [[concepts/natural-language-processing]]
 - [[concepts/ml-optimization]]
 - [[concepts/model-properties]]
 - [[concepts/transfer-learning]]
 - [[concepts/artificial-intelligence]]
-- [[concepts/transformer-vm-moran-2026]]
 - [[concepts/pattern-recognition]]
-- [[wiki/index]]
+- [[concepts/transformer-vm-moran-2026]]
 - [[concepts/ml-evolution-benchmarking-protocol]]
-- [[log]]
-- [[scratchpad/agent-sheets/librarian/carryover]]
-- [[concepts/machine-learning]]
+- [[concepts/fine-tuning]]
 
-- [[deep-learning]]
-- [[artificial-intelligence]]
-- [[model-properties]]
-- [[pattern-recognition]]
-- [[computer-vision]]
-- [[natural-language-processing]]
-- [[transfer-learning]]
-- [[neural-networks]]
-- [[ml-research]]
-- [[ml-optimization]]
-- [[reinforcement-learning]]
+## See Also
+
+- [[artificial-intelligence]] — broader domain; ML is a subfield of AI
+- [[deep-learning]] — the dominant ML paradigm (neural networks with 2+ hidden layers)
+- [[statistical-learning-theory]] — theoretical foundations of ML

@@ -1,5 +1,5 @@
 ---
-updated: 2026-06-05T20:11:55Z
+updated: 2026-06-05T21:07:49Z
 type: index
 ---
 
@@ -266,7 +266,7 @@ type: index
 - [[systems-theory]] — [STUB] Systems theory — theory of how systems interact and self-organize
 - [[ci-cd]] — [STUB] CI/CD — continuous integration and continuous deployment pipelines
 - [[india-us-relations]] — [STUB] US-India bilateral relations across energy, defense, and trade
-- [[machine-learning]] — [STUB] Machine learning — systems that learn patterns from data without explicit programming
+- [[machine-learning]] — Machine learning — hub page connecting ML sub-domains; added explicit subtype marker for audit clarity
 - [[hidden-states]] — The internal vector representations (activations) of data at each layer of a neural network, containing "inner knowledge" and confidence signals
 - [[engineering-internal-awareness]] — Engineering internal awareness mechanisms in LLMs — closed-loop self-regulation via metacognition
 - [[public-health-governance]] — Public health governance — institutional structures for managing public health crises (archived, non-AI periphery)
@@ -410,7 +410,7 @@ type: index
 - [[lcguard]] — LCGuard — tool/safety framework (stub)
 - [[global-health-infrastructure]] — [STUB] International systems for disease outbreak response and health security
 - [[printing-press]] — [STUB] Modern printing press systems and software
-- [[steering-vectors]] — [STUB] Steering vectors — directional activation patterns that bias model behavior
+- [[steering-vectors]] — Steering vectors — directional activation vectors that bias model behavior; mathematical foundation for activation engineering; extraction via CAA, properties, and open questions
 - [[prompt-evolution]] — Prompt evolution — iterative optimization of LLM prompts using execution traces, evolutionary search, and multi-objective selection.
 - [[spontaneous-activity-reshaping-hypothesis]] — A theory proposing that imagination works by suppressing background neural activity to "carve out" mental images from existing noise.
 - [[pure-mathematics]] — [STUB] Pure mathematics — theoretical mathematics without practical applications
@@ -488,7 +488,7 @@ type: index
 - [[agent-group-evolving-molecular-system-agem]] — [STUB] AGEM: agent group architecture with evolutionary molecular dynamics
 - [[mechanism-design]] — [STUB] Mechanism design — game theory of designing incentive-compatible systems
 - [[variational-autoencoder]] — Variational autoencoder — generative model that combines an encoder network (amortised posterior) with a decoder and is trained by maximising the ELBO
-- [[fine-tuning]] — 
+- [[fine-tuning]] — Fine-tuning — adapting pretrained models via additional training; covers full fine-tuning, PEFT (LoRA, adapters, prompt methods), alignment techniques (RLHF, DPO, GRPO), and safety concerns
 - [[social-science]] — [STUB] Social science — study of human society and social relationships
 - [[quantum-computing]] — [STUB] Quantum computing applications in AI and cryptography
 - [[metacognitive-architecture-closed-loop-self-regulation]] — Engineering internal awareness and closed-loop self-regulation in LLMs using biofeedback paradigms, PID control, and LQR — peer-reviewed whitepaper summary
@@ -1147,3 +1147,5 @@ type: index
 - [[gated-deltanet2-linear-attention-2026]] — Gated DeltaNet-2 (Hatamizadeh/Choi/Kautz, NVIDIA 2026) — decouples erase and write gates in linear attention memory editing. Channel-wise erase gate (key-side) and write gate (value-side) replace the scalar beta tie in Gated DeltaNet/KDA. Best 1.3B results among Mamba-2, GDN, KDA, Mamba-3 on long-context RULER and real-world retrieval. Preserves efficient chunkwise WY training.
 - [[ai-chatbots-news-intermediaries-2026]] — Suzgun et al. (Stanford, 2026) — 14-day real-time evaluation of 6 commercial AI chatbots (Gemini 3, Grok 4, Claude 4.5, GPT-5, GPT-4o-mini) on 2,100 emerging-news factual questions across 6 BBC regional services (12,600 model-question instances). Best systems >90% MC accuracy. Three failures: Hindi gap (−12pp driven by Anglophone retrieval bias), 70% of errors are retrieval failures not reasoning failures, adversarial accuracy collapse to 19–70% on false-premise questions.
 - [[flashattention-2022]] — FlashAttention: IO-aware exact attention algorithm using tiling to reduce HBM reads/writes; foundational LLM kernel optimization
+- [[repe-representation-engineering]] — RepE paper — top-down representation engineering framework for monitoring and steering LLM behavior via contrastive activation addition
+- [[peft-guide-scaling-down-to-scale-up]] — Comprehensive PEFT survey — taxonomy of 50+ methods, experimental comparison at 11B scale, and practical deployment recommendations

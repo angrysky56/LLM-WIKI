@@ -4128,3 +4128,57 @@ Index updated with 1142 pages
 ## [2026-06-05 20:12] write
 
 Updated page: wiki/scratchpad/jobs/reports/researcher/discovery-2026-06-06.md
+
+## [2026-06-05 21:02] fetch | representation-engineering-a-top-down-approach-to-ai-transpa.md
+
+Fetched https://arxiv.org/abs/2310.01405 via defuddle → ingested.
+
+Preview: ## Title:Representation Engineering: A Top-Down Approach to AI Transparency  Authors:[Andy Zou](https://arxiv.org/search/cs?searchtype=author&query=Zou,+A), [Long Phan](https://arxiv.org/search/cs?sea...
+
+## [2026-06-05 21:03] fetch | maximal-subgroups-in-the-cremona-group.md
+
+Fetched https://arxiv.org/abs/2311.04703 via defuddle → ingested.
+
+Preview: **arXiv:2311.04703** (math)  \[Submitted on 8 Nov 2023 ([v1](https://arxiv.org/abs/2311.04703v1)), last revised 2 Jul 2024 (this version, v2)\]  ## Title:Maximal subgroups in the Cremona group  Author...
+
+## [2026-06-05 21:04] fetch | exploring-axions-through-the-photon-ring-of-a-spherically-sy.md
+
+Fetched https://arxiv.org/abs/2310.05908 via defuddle → ingested.
+
+Preview: ## Title:Exploring Axions through the Photon Ring of a Spherically Symmetric Black Hole  Authors:[Sourov Roy](https://arxiv.org/search/gr-qc?searchtype=author&query=Roy,+S), [Pratick Sarkar](https://a...
+
+## [2026-06-05 21:05] fetch | scaling-down-to-scale-up-a-guide-to-parameter-efficient-fine.md
+
+Fetched https://arxiv.org/abs/2303.15647 via defuddle → ingested.
+
+Preview: ## Title:Scaling Down to Scale Up: A Guide to Parameter-Efficient Fine-Tuning  [View PDF](https://arxiv.org/pdf/2303.15647) [HTML (experimental)](https://arxiv.org/html/2303.15647v2)  > Abstract:This ...
+
+## [2026-06-05 21:06] fetch | physics-informed-neural-network-for-option-pricing.md
+
+Fetched https://arxiv.org/abs/2312.06711 via defuddle → ingested.
+
+Preview: **arXiv:2312.06711** (q-fin)  ## Title:Physics Informed Neural Network for Option Pricing  Authors:[Ashish Dhiman](https://arxiv.org/search/q-fin?searchtype=author&query=Dhiman,+A), [Yibei Hu](https:/...
+
+## [2026-06-05 21:06] write
+
+Updated page: wiki/sources/papers/repe-representation-engineering.md
+
+## [2026-06-05 21:06] write
+
+Updated page: wiki/sources/papers/peft-guide-scaling-down-to-scale-up.md
+
+## [2026-06-05 21:07] write
+
+Updated page: wiki/concepts/steering-vectors.md
+
+## [2026-06-05 21:07] write
+
+Updated page: wiki/concepts/fine-tuning.md
+
+## [2026-06-05 21:07] write
+
+Updated page: wiki/concepts/machine-learning.md
+
+## [2026-06-05 21:07] index
+
+Index updated with 1144 pages (Deep refresh completed)

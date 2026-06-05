@@ -56,7 +56,7 @@ Working memory in this framing is not just storage — it's the space where epis
 - [[world-model]] — working memory holds the current state of the world model during planning and simulation
 - [[recursive-transformers]] — per-token recursion depth may be thought of as iterative refinement of working memory representation within a single forward pass; each recursion step is like a " rehearsal" of the token's representation
 - [[critical-initialization-biological-neural-networks]] — biological working memory has initialization dynamics (prefrontal cortex maintenance) that relate to the edge-of-chaos initialization findings
-- [[efhf]] — in the EFHF architecture, the episodic buffer corresponds to working memory; EFHF's "observation" step populates working memory, MOP's "update" step manages it
+- [[entities/projects/efhf]] — in the EFHF architecture, the episodic buffer corresponds to working memory; EFHF's "observation" step populates working memory, MOP's "update" step manages it
 
 ## Limitations
 

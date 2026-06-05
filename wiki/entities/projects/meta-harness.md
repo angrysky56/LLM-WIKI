@@ -64,7 +64,7 @@ The project is currently in the **stabilization phase**.
 - [[project-synapse]] — Integrated with Synapse for knowledge synthesis.
 - [[hermes-agent]] — Utilizes Hermes for autonomous evolution.
 - [[agem]] — Shares concepts with the Agent-Group Evolving Molecular system.
-- [[efhf]] — Architecture that provides the formal verification substrate (via [[mcp-logic]]).
+- [[entities/projects/efhf]] — Architecture that provides the formal verification substrate (via [[mcp-logic]]).
 
 - [[meta_harness_loop]]
 - [[hermes_agent]]

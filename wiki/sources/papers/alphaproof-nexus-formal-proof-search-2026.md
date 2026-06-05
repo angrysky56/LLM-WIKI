@@ -50,7 +50,7 @@ Additional findings: identified several misformalizations in existing literature
 
 ## Relevance to EFHF/AGEM/MOP Research
 
-AlphaProof Nexus is a concrete demonstration of the agentic loop pattern: generate → verify → refine. The Lean compiler acts as a hard [[verifier-graph]] node — falsifiable, automatic, no human-in-the-loop for step verification. The contrast between the basic and full-featured agent is also a natural experiment in [[mop-explorer]]: the simpler agent achieves the same outcome with worse resource efficiency, suggesting the full-featured architecture is solving a cost/bandwidth problem rather than a capability problem. The shift from RL-trained AlphaProof (specialist) to LLM+Ralph loop (generalist) as the primary solver aligns with [[agentic-research]]'s observation that general-purpose reasoning increasingly dominates specialized trained modules. The $100-500 cost per hard problem is also a concrete data point for [[efhf]]'s cost-modeling concerns about resource-constrained reasoning.
+AlphaProof Nexus is a concrete demonstration of the agentic loop pattern: generate → verify → refine. The Lean compiler acts as a hard [[verifier-graph]] node — falsifiable, automatic, no human-in-the-loop for step verification. The contrast between the basic and full-featured agent is also a natural experiment in [[mop-explorer]]: the simpler agent achieves the same outcome with worse resource efficiency, suggesting the full-featured architecture is solving a cost/bandwidth problem rather than a capability problem. The shift from RL-trained AlphaProof (specialist) to LLM+Ralph loop (generalist) as the primary solver aligns with [[agentic-research]]'s observation that general-purpose reasoning increasingly dominates specialized trained modules. The $100-500 cost per hard problem is also a concrete data point for [[entities/projects/efhf]]'s cost-modeling concerns about resource-constrained reasoning.
 
 ## Key Quotes
 
@@ -62,4 +62,4 @@ AlphaProof Nexus is a concrete demonstration of the agentic loop pattern: genera
 - [[wiki/index]]
 - [[sources/papers/alphaproof-nexus-formal-proof-search-2026]]
 - [[alphaproof-nexus-formal-proof-search-2026]]
-- [[verifier-graph]], [[mop-explorer]], [[agentic-research]], [[efhf]], [[sheaf-consistency-enforcer]]
+- [[verifier-graph]], [[mop-explorer]], [[agentic-research]], [[entities/projects/efhf]], [[sheaf-consistency-enforcer]]

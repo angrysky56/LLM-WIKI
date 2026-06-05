@@ -31,6 +31,6 @@ confidence: 1.0
 - [[entities/projects/tys-repos]]
 - [[log]]
 - [[graph-rlm]]
-- [[efhf]] — Implements the "Sheaf Consistency" and "Verification" layers.
+- [[entities/projects/efhf]] — Implements the "Sheaf Consistency" and "Verification" layers.
 - [[agem]] — Provides the underlying recursive reasoning engine for multi-agent groups.
 - [[tys-repos]] — Part of Ty's repository collection.

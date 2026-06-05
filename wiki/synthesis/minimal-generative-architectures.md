@@ -188,7 +188,7 @@ The original [[mop-edm-cognitive-architecture]] maps MOP into EFHF as Layer 0. A
 - [[causal-state-edm-ood-isomorphism]] — punctuated equilibrium as state-splitting
 - [[sheffer-stroke]] — the cross-domain universality concept
 - [[symbolic-regression]] — EML trees as discoverable policy representations
-- [[efhf]] — the verification architecture; extended here with L-1
+- [[entities/projects/efhf]] — the verification architecture; extended here with L-1
 - [[edm-framework]] — disruption measurement; Δ as the β-signal
 - [[transformer-vm-moran-2026]] — compiled computation in transformers; EML as minimal instruction set for L-1 implementation
 - [[intelligence-as-entropic-sculpting]]

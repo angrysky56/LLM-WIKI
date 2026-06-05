@@ -53,7 +53,7 @@ CUA-GYM solves the RLVR data bottleneck for computer-use agents (CUAs) through a
 
 ## Wiki Connections
 
-- [[efhf]] — Externalized hypothesis formation via skill documents; CUA-GYM shows environment state is trainable external state with verification gating
+- [[entities/projects/efhf]] — Externalized hypothesis formation via skill documents; CUA-GYM shows environment state is trainable external state with verification gating
 - [[agentic-research]] — CUA-GYM is itself an agentic pipeline; the Generator/Discriminator/Orchestrator triad mirrors multi-agent research council
 - [[mop-explorer]] — Environment diversity as independent scaling axis parallels capacity planning in bounded representations
 - [[verifier-graph]] — Discriminator as isolated reward writer parallels verifier as independent checking authority

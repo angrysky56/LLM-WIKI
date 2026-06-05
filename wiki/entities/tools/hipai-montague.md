@@ -48,7 +48,7 @@ Layer 2 — maintains the distribution-independent world model. Hypotheses gener
 - [[concepts/load-bearing-reasoning]]
 - [[hipai-montague]]
 
-- [[efhf]] — Layer 2 of the five-layer architecture
+- [[entities/projects/efhf]] — Layer 2 of the five-layer architecture
 - [[mcp-logic]] — Layer 3; verifies beliefs encoded here
 - [[mop-explorer]] — encodes hypotheses from MOP exploration
 - [[mop-edm-cognitive-architecture]] — world model for cognitive MOP agents

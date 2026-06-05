@@ -42,7 +42,7 @@ confidence: 1.0
 - [[entities/projects/tys-repos/toward-transcendent-moral-instrumentality]]
 - [[entities/projects/tys-repos/mcp-coordinator]]
 - [[conscience-servitor]]
-- [[efhf]] — Layer 5+ meta-orchestrator.
+- [[entities/projects/efhf]] — Layer 5+ meta-orchestrator.
 - [[toward-transcendent-moral-instrumentality]] — The ethical framework being enforced.
 - [[tys-repos]] — Part of Ty's repository collection.
 

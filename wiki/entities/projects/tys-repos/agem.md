@@ -46,7 +46,7 @@ confidence: 1.0
 - [[concepts/meta_harness_loop]]
 - [[log]]
 - [[agem]]
-- [[efhf]] — The architectural foundation.
+- [[entities/projects/efhf]] — The architectural foundation.
 - [[mcp-coordinator]] — Provides meta-tool access and orchestration patterns.
 - [[conscience-servitor]] — Performs ethical triage on AGEM reasoning steps.
 - [[tys-repos]] — Part of Ty's repository collection.

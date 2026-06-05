@@ -193,7 +193,7 @@ AGEM (Agent Group Evolving Molecular System) presumably manages multi-agent grou
 - [[wiki/index]]
 - [[bae-lmac-2026]]
 
-- [[efhf]] — five-layer cognitive architecture; LMAC's metacognitive encoder maps to EFHF L2, SAI maps to L4, cycle-consistency maps to L5 sheaf enforcement
+- [[entities/projects/efhf]] — five-layer cognitive architecture; LMAC's metacognitive encoder maps to EFHF L2, SAI maps to L4, cycle-consistency maps to L5 sheaf enforcement
 - [[concepts/maximum-occupancy-principle]] — complementary: MOP selects exploration targets, LMAC manages inter-agent state agreement
 - [[sheaf-consistency-enforcer]] — the general case of LMAC's state-awareness criterion; SAI imbalance = discrete sheaf patching
 - [[mcp-logic]] — structural verification layer could verify LMAC protocol properties formally

@@ -34,7 +34,7 @@ confidence: 1.0
 - [[entities/projects/tys-repos/agem]]
 - [[entities/projects/tys-repos/ast-mcp-server]]
 - [[mcp-coordinator]]
-- [[efhf]] — The overarching architectural framework.
+- [[entities/projects/efhf]] — The overarching architectural framework.
 - [[conscience-servitor]] — Provides ethical triage for coordinator tasks.
 - [[tys-repos]] — Part of Ty's repository collection.
 

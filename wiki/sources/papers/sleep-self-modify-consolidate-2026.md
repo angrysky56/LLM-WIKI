@@ -118,7 +118,7 @@ Most importantly for the field: it suggests **the train/test dichotomy is the wr
 - [[reinforcement-learning]] — Dreaming phase uses RL to generate a self-curated training curriculum
 - [[ramirez-ruiz-mop-2024]] — MOP offloads memory externally; Sleep offloads it through additional parameters; the comparison is *offline consolidation* (weights) vs *off-schema memory* (external)
 - [[bounded-structured-memory]] — Sleep's *frequency spectrum* of memory modules is a structurally bounded memory hierarchy
-- [[efhf]] — the Sleep phase is a form of self-directed externalization of hypothesis formation
+- [[entities/projects/efhf]] — the Sleep phase is a form of self-directed externalization of hypothesis formation
 
 ### Related papers (wiki)
 - [[reuserl-skill-reuse-compression]] — ReuseRL adds *structural compressibility* to agentic RL; Sleep adds *memory consolidation* to LLM training. Both treat compression as the principled fix for a capacity problem

@@ -26,5 +26,5 @@ confidence: 1.0
 
 ## Connections
 - [[toward-transcendent-moral-instrumentality]] — The underlying ethical framework.
-- [[efhf]] — Layer 2 of the EFHF architecture.
+- [[entities/projects/efhf]] — Layer 2 of the EFHF architecture.
 - [[tys-repos]] — Part of Ty's repository collection.

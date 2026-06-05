@@ -27,4 +27,4 @@ The **AGEM** repository implements the Agent Group Evolving Molecular System fra
 
 ## Connections
 - [[agem]] — The entity page for this project.
-- [[efhf]] — Part of the broader EFHF architecture.
+- [[entities/projects/efhf]] — Part of the broader EFHF architecture.

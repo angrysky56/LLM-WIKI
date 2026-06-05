@@ -52,7 +52,7 @@ The key methodological contribution is **temporally grounded evaluation with con
 
 **[[agentic-research]]**: The agentic research pipeline includes ideation, planning, execution, evaluation, and synthesis. CUSP's result — that AI can generate plausible directions but fails at temporal forecasting and feasibility prediction — suggests the synthesis and evaluation stages of agentic research pipelines have fundamental limitations. The "scientific taste" failure mode documented in agentic research is partly a temporal reasoning failure.
 
-**[[efhf]]**: EFHF's advanced-reasoning layer (Layer 4: Meta-Cognitive Monitoring) includes confidence tracking. CUSP shows that current models have systematically unreliable uncertainty estimation for scientific forecasting, suggesting the advanced-reasoning layer must be designed to detect and correct for this overconfidence pattern.
+**[[entities/projects/efhf]]**: EFHF's advanced-reasoning layer (Layer 4: Meta-Cognitive Monitoring) includes confidence tracking. CUSP shows that current models have systematically unreliable uncertainty estimation for scientific forecasting, suggesting the advanced-reasoning layer must be designed to detect and correct for this overconfidence pattern.
 
 **[[futuresim-adaptive-agents]]**: CUSP's finding that models can't predict scientific timing even with controlled knowledge parallels Futuresim's finding that frontier agents score only 25% on real-world event forecasting. Both point to severe world-model limitations in temporal reasoning about complex domains.
 
@@ -86,5 +86,5 @@ The key methodological contribution is **temporally grounded evaluation with con
 
 - [[agentic-research]] — scientific taste, ideation vs. evaluation gap
 - [[futuresim-adaptive-agents]] — temporal world event forecasting limitations
-- [[efhf]] — advanced-reasoning layer confidence tracking
+- [[entities/projects/efhf]] — advanced-reasoning layer confidence tracking
 - [[verifier-graph]] — formal verification limits for real-world claims

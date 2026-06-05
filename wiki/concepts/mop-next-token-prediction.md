@@ -103,7 +103,7 @@ This is exactly what episodic curiosity and novelty search algorithms do in RL �
 - [[causal-state-edm-ood-isomorphism]] — EDM's Δ as state-splitting signal; maps to high-Δ token events in LM
 - [[mop-and-rlhf-interaction]] — the KL tension is the central problem; RLHF is the most well-documented case
 - [[group-relative-policy-optimization]] — GRPO is the most MOP-compatible existing RL algorithm (no reference model)
-- [[efhf]] — Layer 0 (MOP orchestrator) would generate exploration targets for MOP-NTP trained models
+- [[entities/projects/efhf]] — Layer 0 (MOP orchestrator) would generate exploration targets for MOP-NTP trained models
 - [[epistemic-energy]] — high-Δ events accelerate epistemic energy depletion; MOP-NTP training would need to manage this
 - [[route-collapse-rlhf]] — empirical evidence that standard RLHF destroys MoE expert diversity; MOP-NTP would need to avoid this
 

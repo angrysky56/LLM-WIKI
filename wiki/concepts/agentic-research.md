@@ -92,7 +92,7 @@ As documented in [[why-llms-arent-scientists-yet]], current agentic research sys
 - Concept: [[ai-scientific-discovery]]
 - Concept: [[autonomous-research]]
 - Concept: [[code-agent]]
-- Concept: [[efhf]]
+- Concept: [[entities/projects/efhf]]
 - Concept: [[multi-agent-llm-systems]]
 - Concept: [[recuriosity-episodic-context-3d-exploration-2026]]
 - Concept: [[self-correction]]

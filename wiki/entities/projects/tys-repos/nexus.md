@@ -36,7 +36,7 @@ confidence: 1.0
 - [[wiki/index]]
 - [[scratchpad/jobs/reports/librarian/audit-2026-05-21]]
 - [[nexus]]
-- [[efhf]] — NEXUS represents the realization of the "World Model" and "Meta-Cognitive" layers.
+- [[entities/projects/efhf]] — NEXUS represents the realization of the "World Model" and "Meta-Cognitive" layers.
 - [[agem]] — Often used as the cognitive core for AGEM agents.
 - [[tys-repos]] — Part of Ty's repository collection.
 

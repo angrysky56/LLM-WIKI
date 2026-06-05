@@ -53,7 +53,7 @@ AKBE eliminates the accuracy-efficiency trade-off — it simultaneously improves
 ## Wiki Connections
 
 - [[bounded-representation-capacity]] — addresses the model's inability to distinguish when parametric knowledge suffices vs. when external tools are genuinely needed; dual-path probing is a form of capability boundary calibration
-- [[efhf]] — cognitive offloading under capacity constraints parallels the capacity-constrained calibration theme from prior batches
+- [[entities/projects/efhf]] — cognitive offloading under capacity constraints parallels the capacity-constrained calibration theme from prior batches
 - [[agentic-research]] — agentic RL training, tool-augmented LLMs, GRPO-based training on mobile GUI and QA benchmarks
 - [[credit-assignment]] — relates to StepOPSD from this batch: both address credit assignment in multi-turn agents, but AKBE attacks the problem via knowledge boundary probing rather than step-level advantage shaping
 

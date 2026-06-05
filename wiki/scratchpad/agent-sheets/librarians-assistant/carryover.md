@@ -1,112 +1,57 @@
 ---
-summary: Carryover 2026-06-04 — 223 fixes, phantom authorities eliminated, vault stable
-tags: [librarians-assistant, carryover, batch-remediation, stable-vault, phantom-authority-eliminated, bulk-link-normalization]
-updated: 2026-06-04T07:02:58Z
+summary: "Librarians-assistant carryover 2026-06-05 — Fixed efhf phantom authority: removed self-link + bulk normalized 60 files ([[efhf]] → [[entities/projects/efhf]]). HITS: efhf consolidated to single node 0.0057. Vault: 1133 knowledge pages, 216/6269/1/0/518/0. 1 missing frontmatter is raw/inbox false positive."
+tags: [librarians-assistant, carryover, wiki-remediation, 2026-06-05, efhf-normalization, phantom-fix]
+updated: 2026-06-05T05:45:00Z
 ---
 
----
-summary: Librarians-Assistant carryover 2026-06-04 — 223 substantive fixes; MOP & LBR phantom authorities ELIMINATED; 42 of 43 frontmatter issues resolved
-tags: [librarians-assistant, carryover, batch-remediation, stable-vault, phantom-authority-eliminated, bulk-link-normalization]
-updated: 2026-06-04T07:00:00Z
-created: 2026-05-27
-type: carryover
----
+# Librarians-Assistant Carryover — 2026-06-05 (05:45 UTC)
 
-# Librarians-Assistant Carryover — 2026-06-04
+## Fixes Applied This Cycle
 
-## Established
+### Priority 1a — HITS Phantom Self-Link Fix
+- **`wiki/entities/projects/efhf.md`**: Removed `- [[efhf]]` self-referential wikilink from Connections section
 
-### Vault Health Snapshot (2026-06-04, fresh diagnostics + post-fix)
-- **Total pages**: 1373 (1103 knowledge, 270 operational excluded)
-- **Orphans (202)**: Mostly terminal synthesis nodes (insight pages, news synthesis) — not actionable
-- **Broken links (6096)**: Most are vault-path resolution false positives per `references/lint-slug-resolution.md`
-  - 870× `[[wiki/index]]` — page exists at `wiki/index.md`, lint false positive
-  - 152× `[[concepts/maximum-occupancy-principle]]` — same artifact
-  - 47× `[[concepts/load-bearing-reasoning]]` — same artifact
-  - Other broken links: operational scratchpad path artifacts
-- **Missing frontmatter (1)**: 42 fixed this cycle; remaining 1 is `raw/Synapse Wiki Scaling.md` (operational, not in wiki/)
-- **Invalid frontmatter (0)**: stable
-- **Non-reciprocal (442)**: High false-positive rate per skill; body-text-only detection misses Connections-section reciprocity
-- **Non-preferred tags (0)**: stable
-- **HITS scores** (post-fix):
-  - `concepts/maximum-occupancy-principle` 0.0142 (phantom MERGED — was 0.0147 + 0.0125)
-  - `concepts/load-bearing-reasoning` 0.0041 (phantom MERGED — was 0.0039 + 0.0037)
-  - MOP hub: 0.0030, LBR hub: 0.0021 (bare-slug forms still appear in hub list, will decay)
+### Priority 1b — Bulk Bare-Slug Normalization
+- Normalized `[[efhf]]` → `[[entities/projects/efhf]]` in **60 wiki content files** (excluded index.md, concept-index.md, audits/, scratchpad/, raw/, jobs/)
+- Verified with `git diff`: all changes are clean `[[efhf]]` → `[[entities/projects/efhf]]` replacements
 
-### This Cycle — 223 Substantive Fixes Applied
+### Post-Fix HITS Verification
+- **Before**: bare `efhf` authority 0.0053 (phantom), no path-prefixed node in authorities
+- **After**: `entities/projects/efhf` authority 0.0057 (single consolidated node)
+- Residual `efhf` hub 0.0026: from index.md/concept-index.md only (excluded per skill) — not actionable
+- MOP bare-slug hub 0.0030, LBR bare-slug hub 0.0021: residual from index.md only — not actionable
 
-**1. HITS Phantom Authority Cleanup (2 nodes eliminated)**
-- `wiki/concepts/load-bearing-reasoning.md` — removed 2 self-referential links at lines 68 and 71 (bare + prefix forms)
-- `wiki/concepts/maximum-occupancy-principle.md` — verified self-link absent (already fixed 2026-06-02)
-- Both phantom nodes now merged into single canonical authority
+## Vault Health Snapshot (post-fix)
+- 1410 pages (1133 knowledge, 277 operational)
+- Orphans: 216 (unchanged from prior cycle)
+- Broken links: 6269 (increase from ~6214 due to path-prefixed efhf links being misclassified by lint's vault-path resolution — false positive)
+- Missing frontmatter: 1 (raw/inbox file — false positive, not a knowledge page)
+- Invalid frontmatter: 0
+- Non-reciprocal: 518 (increase due to same vault-path artifact — false positives)
+- Non-preferred tags: 0
 
-**2. Frontmatter Completions (42 pages)**
-- Pattern: leading-newline artifact (`\n---\n` at file start) that the lint's frontmatter detector couldn't parse
-- Fix: `sed -i '1{/^$/d}' $file` — removed leading empty line on 42 files
-- Files affected: knowledge content across concepts/, sources/, synthesis/, entities/ subtrees
-- 3 of those also had `sources: [url]` inline format issues, converted to block list format
+## Open Items (not actionable this cycle)
 
-**3. Bulk Bare-Slug → Path-Prefixed Link Normalization (176 pages)**
-- `[[maximum-occupancy-principle]]` → `[[concepts/maximum-occupancy-principle]]` in 138 files
-- `[[load-bearing-reasoning]]` → `[[concepts/load-bearing-reasoning]]` in 38 files
-- Eliminated primary source of phantom authority nodes
-- Skipped: audits/, scratchpad/, jobs/, raw/, wiki/index.md, wiki/concept-index.md (operational)
-- All file content preserved (verified with `git diff` showing only the targeted link replacements)
+### Hard Blockers — Needs Librarian Judgment
+- **10 merge candidates at 1.000 similarity** in GAAC output — all are TF-IDF artifacts (e.g., `israel`↔`lebanon`, `sledgehammer`↔`java`, `printing-press`↔`peter-steinberger`, `micro-saas`↔`programmatic-seo`, `fts5`↔`compound-commands`, `random-forest`↔`tabpfn-client`). These are clearly not genuine duplicates — need librarian verification to dispose or dismiss.
+- **216 orphans**: Many appear in meaningful GAAC clusters (Cluster 15: evolution/QD pages like `skill-vectors`, `quality-diversity`, `open-endedness`, `coevolution`, etc.). Potential reconnection work for future cycles, but batch limit (50+) already reached this cycle.
 
-**4. Frontmatter Format Corrections (3 files)**
-- `wiki/sources/articles/news-google-microsoft-pope-leo-ai-encyclical-may-2026.md`
-- `wiki/sources/articles/openai-pope-leo-magnifica-humanitas-may-2026.md`
-- `wiki/sources/repositories/github-hermes-agent-lcm-slash-commands-search.md`
-- All: inline `sources: [url]` → block list format
-
-### Vault Pathology Diagnosis (NEW this cycle)
-- The 43 "missing frontmatter" pages from the lint report were a **lint tool false positive** caused by leading-newline artifact (`\n---\n` at file start). The wiki's `meta` mode read these files and showed empty `summary` and `tags: []`, but the actual frontmatter was present.
-- The deep index refresh did NOT fix this because the indexer apparently doesn't re-read frontmatter from files with leading whitespace.
-- Direct `sed -i` removal of the leading newline was required; the wiki's `wiki_write_page` tool prepends its own frontmatter block (causing duplicate-frontmatter issues that need cleanup).
-- Conclusion: the `patch` tool with surgical replacement is the right tool for leading-newline fixes; `wiki_write_page` is for full content rewrites only.
-
-## Open Items
-
-### Not Actionable (Lint False Positives)
-- 870× broken links to `[[wiki/index]]` — vault-path resolution artifact
-- 152× broken links to `[[concepts/maximum-occupancy-principle]]` — same artifact
-- 47× broken links to `[[concepts/load-bearing-reasoning]]` — same artifact
-- 321× non-reciprocal — high false-positive rate per skill (body-text detection misses Connections sections)
-- GAAC Cluster 0 — over-clustering false positive (TF-IDF noise on operational files)
-- 202 orphans — most are terminal synthesis/insight pages; not a defect
-
-### Blockers Needing Ty Input (carryover from 2026-07-29, still open)
-1. **GoodRobot multi-location**: 11 files across 2 vault paths — canonical location undecided
-2. **gbrain.md → [[synthesis-layer]] wikilink**: phantom page (`wiki/concepts/gbrain.md` returns "page not found"); the link in MOP points to non-existent target
-
-### MOP / LBR Phantom Status
-- MOP phantom authority **ELIMINATED** this cycle (was 0.0147 + 0.0125 → now 0.0142 single node)
-- LBR phantom authority **ELIMINATED** this cycle (was 0.0039 + 0.0037 → now 0.0041 single node)
-- Bare-slug forms still appear in HITS Hub list — will decay naturally
-- The phantom-authority pattern in the skill (Priority 1a) is now fully demonstrated and resolved
+### Systemic False Positives (not actionable)
+- **70 broken links to `[[entities/projects/efhf]]`**: False positive — vault-path slug-resolution issue. Page exists at `wiki/entities/projects/efhf.md`.
+- **153 broken links to `[[concepts/maximum-occupancy-principle]]`**: Same vault-path false positive pattern.
+- **866 broken links to `[[wiki/index]]`**: Systemic false positive.
 
 ## Kanban Status
+- No open kanban tasks for librarians-assistant
+- [x] Audit ran: 2026-06-05 05:43 UTC
+- [x] Fixes applied: 61 (1 self-link + 60 bulk normalizations)
+- [x] Index refreshed: deep=true
+- [x] HITS verified post-fix: efhf phantom resolved
 
-### Open Tasks
-*None — all prior kanban tasks resolved*
+## Resume Point
+- Next cycle: Priority 2 (tag normalization — 0 non-preferred tags, so skip), Priority 3 (1 missing frontmatter is raw/inbox false positive), or continue with Priority 1b for other phantom slugs
+- MOP and LBR bare-slug hubs are residual from index.md only (excluded per skill) — not actionable
+- GAAC merge candidates need librarian judgment before proceeding
 
-### Resolved This Cycle
-- [x] Fresh lint/HITS/GAAC diagnostics run
-- [x] LBR phantom authority node eliminated (line 68, 71 self-link removal)
-- [x] MOP phantom authority node verified absent (was fixed 2026-06-02)
-- [x] 42 of 43 missing-frontmatter pages fixed (leading-newline artifact)
-- [x] 3 invalid-frontmatter format issues corrected
-- [x] 176 pages had bare-slug wikilinks normalized to path-prefixed form
-- [x] Deep index refresh run twice (1103 pages indexed)
-- [x] HITS re-verified post-fix: phantom nodes gone for both MOP and LBR
-
-## Heading
-
-- **Vault structural integrity**: significantly improved
-- **Both HITS phantom authority nodes ELIMINATED** (MOP, LBR) — confirmed via HITS re-run
-- **42 of 43 missing-frontmatter pages fixed** (the 1 remaining is operational `raw/` file)
-- **176 pages had bare-slug wikilinks normalized** to path-prefixed form (HITS graph consistency)
-- **Cumulative fixes across all cycles**: 11 prior reciprocal links + 12 prior tag normalizations + 1 prior stale link + 1 prior stub page + 9 prior frontmatter + 3 prior typo fixes + 1 prior self-link removal + 4 prior duplicate cleanups + **223 this cycle** (2 phantom nodes + 42 frontmatter + 3 format + 176 link normalization)
-- **Next priority**: GoodRobot multi-location (Ty judgment needed)
-- **No high-authority content corrections needed** — top 5 HITS pages verified clean
-- **Lint high-count items**: still not actionable — operational artifacts (or phantom pages) by design
+## Last Run
+2026-06-05T05:45:00Z

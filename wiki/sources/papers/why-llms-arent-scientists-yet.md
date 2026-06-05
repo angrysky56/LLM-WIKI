@@ -23,8 +23,8 @@ This paper (or article) explores the limitations of current LLMs in performing a
 ## Key Insights
 - **Autonomous Research Attempts**: Analyzes specific instances where LLMs were tasked with end-to-end scientific discovery.
 - **Cognitive Gaps**: Identifies the specific failures (e.g., lack of true experimental design, verification issues, inability to navigate "stagnation").
-- **Lessons Learned**: Provides a framework for what is missing (likely the need for the types of verification and world-modeling layers seen in the [[efhf]] stack).
+- **Lessons Learned**: Provides a framework for what is missing (likely the need for the types of verification and world-modeling layers seen in the [[entities/projects/efhf]] stack).
 
 ## Connections
-- [[efhf]] — Relevant to the "Verification" and "Meta-Cognition" layers needed for scientific rigor.
+- [[entities/projects/efhf]] — Relevant to the "Verification" and "Meta-Cognition" layers needed for scientific rigor.
 - [[tyler-hall|Ty]] — Ingested by Ty as part of the LLM-WIKI research corpus.

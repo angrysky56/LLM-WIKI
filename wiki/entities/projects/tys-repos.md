@@ -34,7 +34,7 @@ This page serves as a central hub for the various projects and repositories deve
 - [[meta-harness]] — Framework for self-adaptive agent evolution and structured knowledge bootstrapping, integrated with Hermes.
 
 ## Mathematical & Structural Logic
-- [[efhf]] — Analyzes hierarchical structures in AI systems (Emergent Functional Hierarchies Framework).
+- [[entities/projects/efhf]] — Analyzes hierarchical structures in AI systems (Emergent Functional Hierarchies Framework).
 - [[sheaf-consistency-enforcer]] — Mathematical consistency enforcer using sheaf theory.
 - [[graph-rlm]] — Graph-based representation learning.
 - [[project-synapse-mcp]] — Autonomous knowledge synthesis (The tool behind this wiki).

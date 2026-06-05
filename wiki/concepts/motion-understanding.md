@@ -68,7 +68,7 @@ The intervention is at the projector level because that's where the direction si
 
 ## Connection to EFHF Architecture
 
-The [[efhf]] layered architecture (sensory → projection → LLM) mirrors the identified breakdown point:
+The [[entities/projects/efhf]] layered architecture (sensory → projection → LLM) mirrors the identified breakdown point:
 
 - Sensory layer: Vision encoder — preserves motion nearly perfectly
 - Projection layer: Projector — well, but can be improved with auxiliary objectives
@@ -93,7 +93,7 @@ The readout token acts as a bottleneck for directional motion signals — analog
 - [[vision-language-alignment]] — the alignment problem that motion understanding exposes
 - [[delta-direct]] — the specific failure mode and solution
 - [[probing-analysis]] — linear probing as the diagnostic technique
-- [[efhf]] — interface as the bottleneck, not the components
+- [[entities/projects/efhf]] — interface as the bottleneck, not the components
 
 ## Open Questions
 

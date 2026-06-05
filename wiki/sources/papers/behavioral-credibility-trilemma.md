@@ -48,7 +48,7 @@ Proved fundamental impossibility: no RL policy with confidence-gated autonomy ca
 ## Wiki Connections
 
 - [[bounded-representation-capacity]] — capacity constraint at the adaptation point (confidence reporting) not output
-- [[efhf]] — analogous to capacity enforcement: trilemma resolution via architectural commitment or domain separation
+- [[entities/projects/efhf]] — analogous to capacity enforcement: trilemma resolution via architectural commitment or domain separation
 - [[verifier-graph]] — calibration as verification signal; strictly proper scoring parallels verification consistency
 - [[agentic-research]] — RL-based agents with confidence-gated action approval
 - [[mop-explorer]] — commitment mechanism parallels MOP's capability bounding

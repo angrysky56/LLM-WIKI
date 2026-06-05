@@ -51,4 +51,4 @@ Tokenisation is a foundational data processing step that determines how informat
 - [[wiki/index]]
 - [[sources/papers/tokenisation-convex-relaxations-2026]]
 - [[tokenisation-convex-relaxations-2026]]
-- [[efhf]], [[mop-explorer]], [[verifier-graph]], [[sheaf-consistency-enforcer]]
+- [[entities/projects/efhf]], [[mop-explorer]], [[verifier-graph]], [[sheaf-consistency-enforcer]]

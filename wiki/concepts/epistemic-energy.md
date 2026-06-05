@@ -54,7 +54,7 @@ This maps to MOP's energy reservoir: food is necessary because exploration burns
 
 ## EFHF Layer 4: Coherence Monitoring
 
-In the [[efhf]] five-layer architecture, epistemic energy tracking is Layer 4 (meta-cognitive monitoring):
+In the [[entities/projects/efhf]] five-layer architecture, epistemic energy tracking is Layer 4 (meta-cognitive monitoring):
 
 - **L1 (Hypothesis)**: Generate possible reasoning paths
 - **L2 (World model)**: Encode hypotheses in context
@@ -100,7 +100,7 @@ None of these are fully validated. This is an active measurement problem.
 - [[concepts/maximum-occupancy-principle]] — the energy reservoir analogy; MOP agents maximize entropy subject to energy constraints (absorbing states)
 - [[working-memory]] — the active maintenance substrate for epistemic energy; attention decay is one depletion mechanism
 - [[bounded-rationality]] — epistemic energy is the quantitative form of bounded rationality
-- [[efhf]] — Layer 4 (coherence monitoring) implements epistemic energy tracking
+- [[entities/projects/efhf]] — Layer 4 (coherence monitoring) implements epistemic energy tracking
 - [[mop-edm-cognitive-architecture]] — the synthesis document defining the L4 role
 - Concept: [[cognitive-world-models-for-llm-agents]]
 - Concept: [[world-model]]

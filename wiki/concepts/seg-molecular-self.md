@@ -58,7 +58,7 @@ This maps to the [[verifier-graph]] DAG and [[sheaf-consistency-enforcer]] Layer
 
 The [[concepts/maximum-occupancy-principle]] offers a natural anti-drift mechanism: if a member's behavior begins to collapse to a deterministic policy (the classical "loss of behavioral variability after learning" problem), high-β MOP synthesis incentives can be applied to re-expand the behavioral distribution.
 
-This is the formal connection to [[efhf]] Layer 0: MOP's path-entropy objective is the only principled way to specify "drift-resistant variability" as a target, rather than a side effect.
+This is the formal connection to [[entities/projects/efhf]] Layer 0: MOP's path-entropy objective is the only principled way to specify "drift-resistant variability" as a target, rather than a side effect.
 
 ## Connection to the SEG Design
 
@@ -86,7 +86,7 @@ These failure modes are precisely the ones the [[synthesis/seg-scientist-agent-d
 
 - [[synthesis/seg-scientist-agent-design]] — the parent design; seg-molecular-self is the persona-level sub-architecture
 - [[concepts/maximum-occupancy-principle]] — MOP is the formal substrate for variability preservation
-- [[efhf]] — verification stack that the SEG council sits on top of
+- [[entities/projects/efhf]] — verification stack that the SEG council sits on top of
 - [[bounded-structured-memory]] — the memory pattern that persona-anchored memory instantiates
 - [[verifier-graph]] — DAG that cross-member consistency probes are written to
 - [[sheaf-consistency-enforcer]] — Layer 5 cross-regime consistency

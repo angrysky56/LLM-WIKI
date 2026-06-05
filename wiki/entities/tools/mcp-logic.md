@@ -69,7 +69,7 @@ Layer 3 — checks whether the macro-level world model (Layer 2, [[hipai-montagu
 - [[concepts/sheffer-stroke]]
 - [[mcp-logic]]
 
-- [[efhf]] — Layer 3 of the five-layer architecture
+- [[entities/projects/efhf]] — Layer 3 of the five-layer architecture
 - [[hipai-montague]] — Layer 2; beliefs verified here
 - [[mop-explorer]] — VERIFY action uses prove/find_counterexample
 - [[concepts/maximum-occupancy-principle]] — absorbing state detection via find_model
@@ -77,7 +77,7 @@ Layer 3 — checks whether the macro-level world model (Layer 2, [[hipai-montagu
 - [[advanced-reasoning-mcp]]
 - [[mcp-model-context-protocol]]
 - [[symbolic-regression]]
-- [[efhf]]
+- [[entities/projects/efhf]]
 - [[spike-campaign-001-004-summary]]
 - [[meta-harness]]
 - [[eml-operator]]

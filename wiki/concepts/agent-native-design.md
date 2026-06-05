@@ -105,7 +105,7 @@ Agent native design works naturally with [[agentic-hierarchy]]:
 
 - [[concepts/maximum-occupancy-principle]] — the intrinsic motivation foundation
 - [[mop-edm-cognitive-architecture]] — the full architectural synthesis
-- [[efhf]] — the verification and consistency enforcement backbone
+- [[entities/projects/efhf]] — the verification and consistency enforcement backbone
 - [[agentic-hierarchy]] — hierarchical agent organization as native pattern
 - [[epistemic-energy]] — the first-class resource for bounded rationality
 - [[bounded-rationality]] — structural bounds on reasoning, not just budgetary

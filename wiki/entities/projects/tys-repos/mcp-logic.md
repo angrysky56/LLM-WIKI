@@ -28,6 +28,6 @@ confidence: 1.0
 - `abductive_explain`: VFE-minimizing explanation engine.
 
 ## Connections
-- [[efhf]] — Layer 3 structural verification.
+- [[entities/projects/efhf]] — Layer 3 structural verification.
 - [[categorical-reasoning]] — Closely related conceptual framework.
 - [[tys-repos]] — Part of Ty's repository collection.

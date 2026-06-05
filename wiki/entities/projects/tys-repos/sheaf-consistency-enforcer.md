@@ -11,7 +11,7 @@ confidence: 1.0
 
 # Sheaf-Consistency-Enforcer
 
-**Sheaf-Consistency-Enforcer** is a Layer 5 component of the [[efhf]] architecture developed by [[tyler-hall|Ty]]. It uses Sheaf Laplacian-based consistency checks and the Alternating Direction Method of Multipliers (ADMM) to ensure coherence across the MCP tool stack.
+**Sheaf-Consistency-Enforcer** is a Layer 5 component of the [[entities/projects/efhf]] architecture developed by [[tyler-hall|Ty]]. It uses Sheaf Laplacian-based consistency checks and the Alternating Direction Method of Multipliers (ADMM) to ensure coherence across the MCP tool stack.
 
 ## Theory & Implementation
 - **Kernel 1 Persistence**: Monitors whether macro-states remain "lumpable" (consistent) across layers.
@@ -43,7 +43,7 @@ confidence: 1.0
 - [[sources/papers/alphaproof-nexus-formal-proof-search-2026]]
 - [[sources/papers/boiling-frog-agentic-safety-2026]]
 - [[sheaf-consistency-enforcer]]
-- [[efhf]] — Layer 5 enforcer.
+- [[entities/projects/efhf]] — Layer 5 enforcer.
 - [[hipai-montague]] — Registered as an agent state.
 - [[mcp-logic]] — Registered as an agent state.
 - [[tys-repos]] — Part of Ty's repository collection.

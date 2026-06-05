@@ -47,7 +47,7 @@ confidence: 1.0
 - [[entities/projects/tys-repos]]
 - [[verifier-graph]]
 - [[recuriosity-episodic-context-3d-exploration-2026]]
-- [[efhf]] — Provides reasoning provenance for the entire stack.
+- [[entities/projects/efhf]] — Provides reasoning provenance for the entire stack.
 - [[agem]] — Used to track the "evolution" of agent thoughts.
 - [[tys-repos]] — Part of Ty's repository collection.
 - [[entities/people/tyler-hall]] — Creator of Verifier-Graph.

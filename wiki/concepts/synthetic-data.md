@@ -59,7 +59,7 @@ The [[concepts/maximum-occupancy-principle]] (MOP) reframes what good synthetic 
 
 - Naturally resists model collapse (entropy is preserved by construction)
 - Provides an exploration bonus for [[agentic-research]] loops (high-β MOP synthesis)
-- Maps directly to [[efhf]] Kernel 2 (absorbing states ↔ terminal synthesis failures)
+- Maps directly to [[entities/projects/efhf]] Kernel 2 (absorbing states ↔ terminal synthesis failures)
 
 Concrete operationalization: a MOP-shaped synthetic pipeline weights samples by their contribution to *occupancy measure diversity*, not by their likelihood under a reference model. This is a research direction, not a deployed technique — but the connection is structurally important.
 
@@ -83,7 +83,7 @@ The [[sources/papers/is-grep-all-you-need|is-grep-all-you-need]] paper (arXiv 26
 ## Connections
 
 - [[concepts/maximum-occupancy-principle]] — entropy-based synthesis objective
-- [[efhf]] — MOP integration into verification stack
+- [[entities/projects/efhf]] — MOP integration into verification stack
 - [[sources/repositories/tabpfn]] — synthetic-only pretraining success case
 - [[sources/papers/is-grep-all-you-need]] — harness-aware synthetic data for agents
 - [[concepts/agentic-research]] — synthetic environments for RL training

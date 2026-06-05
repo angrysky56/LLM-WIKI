@@ -28,4 +28,4 @@ The **NEXUS** repository contains the core implementation of the Neuro-Epistemic
 
 ## Connections
 - [[nexus]] — The entity page for this project.
-- [[efhf]] — Part of the broader EFHF architecture.
+- [[entities/projects/efhf]] — Part of the broader EFHF architecture.

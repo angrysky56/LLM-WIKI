@@ -42,7 +42,7 @@ LegalSearch-R1 addresses a fundamental failure mode in legal LLMs: **temporal in
 
 - [[agentic-research]] — RL-based agentic search with reasoning (ReAct framework)
 - [[verifier-graph]] — entropy-based advantage shaping; calibration signal in RL
-- [[efhf]] — dual-tool architecture parallels EFHF's environment + auxiliary channel design
+- [[entities/projects/efhf]] — dual-tool architecture parallels EFHF's environment + auxiliary channel design
 - [[bounded-representation-capacity]] — temporal indexing as explicit capacity constraint on legal knowledge retrieval
 - [[grpo]] — GRPO training for reasoning agents (was in prior batch)
 

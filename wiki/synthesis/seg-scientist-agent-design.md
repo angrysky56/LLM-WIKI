@@ -162,7 +162,7 @@ The refactor is now a focused engineering task. Estimated 1-2 days of work; sequ
 - [[wiki/index]]
 - [[seg-scientist-agent-design]]
 
-- [[efhf]] — verification substrate
+- [[entities/projects/efhf]] — verification substrate
 - [[sentience-metaphysics]] — Layer 1 council substrate
 - [[seg-molecular-self]] — drift-resistance at the persona level
 - [[why-llms-arent-scientists-yet]] — Trehan-Chopra failure-mode taxonomy

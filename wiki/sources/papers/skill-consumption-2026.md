@@ -90,7 +90,7 @@ A meta-skill that **guides extraction toward utility-features** (rather than sim
 
 ## Relevance to EFHF/Wiki Research Threads
 
-**[[efhf]]**: EFHF's bounded representation layer is challenged by the negative transfer finding. A skill document that encodes too much instance-specific detail will fail to transfer — it has exceeded its semantic capacity for the target agent's context. The meta-skill finding suggests that **structured compression** (guiding extraction toward transferable features) is essential for bounded representations to remain useful across contexts.
+**[[entities/projects/efhf]]**: EFHF's bounded representation layer is challenged by the negative transfer finding. A skill document that encodes too much instance-specific detail will fail to transfer — it has exceeded its semantic capacity for the target agent's context. The meta-skill finding suggests that **structured compression** (guiding extraction toward transferable features) is essential for bounded representations to remain useful across contexts.
 
 **[[agentic-research]]**: This paper directly addresses the agentic research thread's question about skill lifecycle. The finding that extraction and consumption are factorable means agent memory systems should separate:
 1. Skill extraction quality (how well does this model distill experience?)

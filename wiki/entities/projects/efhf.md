@@ -116,8 +116,6 @@ The [[concepts/maximum-occupancy-principle]] fills a specific gap: EFHF is react
 - [[sources/papers/tokenisation-convex-relaxations-2026]]
 - [[synthesis/seg-scientist-agent-design]]
 - [[sources/papers/behavioral-credibility-trilemma]]
-- [[efhf]]
-
 - [[concepts/maximum-occupancy-principle]] — Layer 0 motivation theory
 - [[mop-edm-cognitive-architecture]] — full synthesis of MOP + EDM + EFHF
 - [[edm-framework]] — disruption measurement; high Δ = state-splitting = lumpability shift

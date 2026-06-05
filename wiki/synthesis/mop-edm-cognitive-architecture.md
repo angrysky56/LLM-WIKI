@@ -12,7 +12,7 @@ confidence: 0.6
 # MOP-EDM Cognitive Architecture
 
 **Type:** Synthesis — original cross-domain design
-**Origin:** Ty (2026-04-13), building on [[concepts/maximum-occupancy-principle]], [[edm-framework]], [[causal-state-edm-ood-isomorphism]], [[efhf]]
+**Origin:** Ty (2026-04-13), building on [[concepts/maximum-occupancy-principle]], [[edm-framework]], [[causal-state-edm-ood-isomorphism]], [[entities/projects/efhf]]
 **Confidence:** 0.80 — conceptual framework grounded in formal results; KL insight confirmed by MOP paper; AbsorbingState→Kernel2Transition proved (Prover9); EFHF integration at WEAK closure status
 
 
@@ -27,7 +27,7 @@ MOP provides a principled *motivation* for how AI models should navigate reasoni
 
 ## EFHF Integration: MOP as Layer 0
 
-The [[efhf]] is a five-layer AI architecture implementing computational mechanics concepts as a live multi-agent system. MOP fills a specific gap: EFHF is reactive (responds to user prompts); MOP makes it proactive (generates exploration targets autonomously).
+The [[entities/projects/efhf]] is a five-layer AI architecture implementing computational mechanics concepts as a live multi-agent system. MOP fills a specific gap: EFHF is reactive (responds to user prompts); MOP makes it proactive (generates exploration targets autonomously).
 
 ### Formally Verified Structural Mapping
 
@@ -213,7 +213,7 @@ MOP formally proves: when utility serves entropy (possibility), agents survive, 
 
 - [[concepts/maximum-occupancy-principle]] — foundational theory
 - [[ramirez-ruiz-mop-2024]] — source paper
-- [[efhf]] — the five-layer architecture MOP integrates with as Layer 0
+- [[entities/projects/efhf]] — the five-layer architecture MOP integrates with as Layer 0
 - [[edm-framework]] — disruption measurement providing the Δ signal
 - [[causal-state-edm-ood-isomorphism]] — epsilon machine bridge; state-splitting as coherent complexity growth
 - [[zettelkasten-engine]] — insight generation using MOP-guided exploration

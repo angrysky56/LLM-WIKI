@@ -79,7 +79,7 @@ EML suggests FPGA or silicon designs using only one gate type (an EML evaluator)
 - [[sheffer-stroke]] — Boolean logic analogue
 - [[mcp-logic]] — automated reasoning integration point
 - [[alphaevolve]] — evolutionary code discovery (related paradigm: searching for optimal mathematical representations)
-- [[efhf]] — neuro-symbolic architecture that could use EML as its continuous math primitive
+- [[entities/projects/efhf]] — neuro-symbolic architecture that could use EML as its continuous math primitive
 - Concept: [[llm-kernel-optimization]]
 - Concept: [[open-ended-evolution]]
 - Concept: [[transformer-vm-moran-2026]]

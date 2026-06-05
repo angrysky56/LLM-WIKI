@@ -37,7 +37,7 @@ The Zettelkasten engine identifies a structural parallel between these two domai
 
 ## Connections to EFHF Architecture
 
-This synthesis suggests that **Layer 0** of the [[efhf]] architecture (MOP) provides the "path entropy" while the higher-level modules (Layers 2-5) act as the "sculpting feedback" that suppresses invalid states to arrive at a verified hypothesis.
+This synthesis suggests that **Layer 0** of the [[entities/projects/efhf]] architecture (MOP) provides the "path entropy" while the higher-level modules (Layers 2-5) act as the "sculpting feedback" that suppresses invalid states to arrive at a verified hypothesis.
 
 - **Hallucination as Sculpting Failure:** Under this view, an LLM hallucination is a failure of the feedback mechanism to adequately suppress the spontaneous noise of the latent space, allowing a "phantom signal" to emerge as truth.
 
@@ -52,7 +52,7 @@ This synthesis suggests that **Layer 0** of the [[efhf]] architecture (MOP) prov
 - [[synthesis/llm-biological-analogies]]
 
 - **Entities:** [[roger-koenig-robert]]
-- **Concepts:** [[spontaneous-activity-reshaping-hypothesis]], [[concepts/maximum-occupancy-principle]], [[efhf]], [[aphantasia]]
+- **Concepts:** [[spontaneous-activity-reshaping-hypothesis]], [[concepts/maximum-occupancy-principle]], [[entities/projects/efhf]], [[aphantasia]]
 - **Parallel:** [[intelligence-as-entropic-sculpting]] (rectifying entropic energy into torque/logic)
 - [[mop-edm-cognitive-architecture]]
 - [[minimal-generative-architectures]]

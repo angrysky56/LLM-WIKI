@@ -121,7 +121,7 @@ The architectural implication for any in-forward-pass coherence monitor: **measu
 
 ## Connection to the Broader Research Program
 
-This falsification is not a setback to [[conscience-servitor]] or to the broader [[efhf]] architecture. It is a clarification of *where in the model the signal that conscience-servitor needs to detect actually lives*. Three implications:
+This falsification is not a setback to [[conscience-servitor]] or to the broader [[entities/projects/efhf]] architecture. It is a clarification of *where in the model the signal that conscience-servitor needs to detect actually lives*. Three implications:
 
 **For conscience-servitor.** A new monitoring channel is now justified and specified: a **Falsity Substrate Monitor (FSM)** that operates as a forward-pass hook on a target model, projecting last-token residual activations onto a pre-trained d_lie direction. This complements the existing LLM2Vec-Gen output-stage triage. Spec: `conscience-servitor/docs/falsity_substrate_monitor_spec.md`. The MOPS work, though falsified as an architecture paper, *delivered* the empirical case for why this simpler monitor is warranted.
 
@@ -167,7 +167,7 @@ The MOPS work falsified one specific instance of "global geometric measure" appl
 - [[cross-layer-drift-falsification]]
 
 - [[conscience-servitor]] — the deployment vehicle for the substrate monitor that this falsification motivates
-- [[efhf]] — the theoretical framework in which MOPS was proposed as one possible Layer 0 implementation
+- [[entities/projects/efhf]] — the theoretical framework in which MOPS was proposed as one possible Layer 0 implementation
 - [[concepts/maximum-occupancy-principle]] — the MOP-decoding half of the original architecture; architecturally independent of the falsified sheaf half
 - [[hidden-states]] — the broader interpretability tradition this work sits within
 - [[sheaf-consistency-enforcer]] — the dual project doing ADMM-based gluing enforcement (smoothing), as opposed to obstruction detection (this falsified project)

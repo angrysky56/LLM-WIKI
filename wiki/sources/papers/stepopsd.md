@@ -52,7 +52,7 @@ StepOPSD attains best or second-best on subsets most sensitive to local causal e
 - [[credit-assignment]] — directly addresses the mismatch between sparse trajectory-level rewards and token-level decision quality; step-aware decomposition inverts the usual monolithic credit broadcast
 - [[agentic-research]] — multi-turn agentic RL setting on ALFWorld and Search-QA; architecture is a drop-in module for Search-R1/GRPO
 - [[bounded-representation-capacity]] — StepOPSD avoids learning a dense value model (notoriously unstable and hallucination-prone in agentic domains) by using post-rollout distillation instead
-- [[efhf]] — the two-knob law (αclip for local stability, λmix for task-dependent global mixing) connects to capability routing under capacity constraints
+- [[entities/projects/efhf]] — the two-knob law (αclip for local stability, λmix for task-dependent global mixing) connects to capability routing under capacity constraints
 
 ## Related
 - [[wiki/index]]

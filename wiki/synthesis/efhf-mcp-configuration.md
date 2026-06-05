@@ -14,7 +14,7 @@ sources: []
 
 # EFHF Unified MCP Configuration
 
-This document provides the master configuration for the [[efhf]] (Emergent Functional Hierarchies Framework) Model Context Protocol (MCP) ecosystem. This configuration allows a compliant MCP client (like Claude Desktop) to connect to the entire cognitive stack.
+This document provides the master configuration for the [[entities/projects/efhf]] (Emergent Functional Hierarchies Framework) Model Context Protocol (MCP) ecosystem. This configuration allows a compliant MCP client (like Claude Desktop) to connect to the entire cognitive stack.
 
 ## Installation
 
@@ -154,7 +154,7 @@ To use this configuration with **Claude Desktop**, add the following JSON to you
 - [[entities/projects/tys-repos/efhf]]
 - [[efhf-mcp-configuration]]
 
-- [[efhf]]
+- [[entities/projects/efhf]]
 - [[project-synapse]]
 - [[sentience-metaphysics]]
 - [[agent-group-evolving-molecular-system-agem]]

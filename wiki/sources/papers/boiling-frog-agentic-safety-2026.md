@@ -53,7 +53,7 @@ A danger that arrives gradually may be normalized before recognized as dangerous
 
 ## Relevance to Wiki Research Threads
 
-**[[efhf]]**: The EFHF conscience-servitor layer (ethical triage before response) is directly relevant — Boiling the Frog shows that static single-turn safety evaluation is insufficient for agentic deployments, requiring pre-response ethical review that considers cumulative state changes across turns.
+**[[entities/projects/efhf]]**: The EFHF conscience-servitor layer (ethical triage before response) is directly relevant — Boiling the Frog shows that static single-turn safety evaluation is insufficient for agentic deployments, requiring pre-response ethical review that considers cumulative state changes across turns.
 
 **[[agentic-research]]**: The benchmark directly addresses the failure mode of "incremental harm via normalized gradualism" in agentic systems. It connects to the implementation drift problem documented in agentic research — agents diverge from safety intent through cumulative small actions.
 
@@ -84,7 +84,7 @@ A danger that arrives gradually may be normalized before recognized as dangerous
 - [[boiling-frog-agentic-safety-2026]]
 
 - [[agentic-research]] — implementation drift, multi-turn failure modes
-- [[efhf]] — conscience-servitor layer requirement
+- [[entities/projects/efhf]] — conscience-servitor layer requirement
 - [[verifier-graph]] — verification mechanism for agentic safety
 - [[sheaf-consistency-enforcer]] — global constraint violation via local changes
 

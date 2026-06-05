@@ -58,7 +58,7 @@ This has a deep connection to ethical frameworks where harm is defined deontolog
 
 ## EFHF Integration: Layer 0
 
-MOP serves as Layer 0 (Intrinsic Motivation) of the [[efhf]] architecture. The existing EFHF pipeline (L1-L5+) is reactive — it waits for user prompts. MOP makes it proactive by generating exploration targets autonomously.
+MOP serves as Layer 0 (Intrinsic Motivation) of the [[entities/projects/efhf]] architecture. The existing EFHF pipeline (L1-L5+) is reactive — it waits for user prompts. MOP makes it proactive by generating exploration targets autonomously.
 
 **Formally verified (Prover9):** MOP absorbing states → EFHF Kernel 2 transitions. Zero future entropy ↔ zero future computation ↔ Kernel 2. The structural equivalence is a logical theorem, not an analogy.
 
@@ -220,7 +220,7 @@ MOP serves as Layer 0 (Intrinsic Motivation) of the [[efhf]] architecture. The e
 ## See Also
 
 - [[ramirez-ruiz-mop-2024]] — source paper with full mathematical detail
-- [[efhf]] — the five-layer architecture MOP integrates with as Layer 0
+- [[entities/projects/efhf]] — the five-layer architecture MOP integrates with as Layer 0
 - [[edm-framework]] — disruption as measurement analog: high Δ = high state entropy = novel conceptual territory
 - [[causal-state-edm-ood-isomorphism]] — epsilon machines provide the theoretical bridge; MOP agents seek to *create* new causal states
 - [[zettelkasten-engine]] — MOP-guided exploration prioritizes high-disruption insight regions

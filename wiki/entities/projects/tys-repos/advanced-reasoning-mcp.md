@@ -34,6 +34,6 @@ confidence: 1.0
 - [[entities/projects/tys-repos/advanced-reasoning-mcp]]
 - [[synthesis/seg-scientist-agent-design]]
 - [[advanced-reasoning-mcp]]
-- [[efhf]] — Layer 4 meta-cognitive monitoring.
+- [[entities/projects/efhf]] — Layer 4 meta-cognitive monitoring.
 - [[tys-repos]] — Part of Ty's repository collection.
 - [[mcp-logic]] — Used in conjunction for verified reasoning.

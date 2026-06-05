@@ -74,7 +74,7 @@ This reconciles the apparent contradiction: monotonic pretraining curves are a *
 
 ## Relevance to EFHF/Wiki Research Threads
 
-**[[efhf]]**: The Shannon capacity ceiling directly maps to EFHF's boundedness concern. Just as the Shannon-Hartley theorem sets a hard capacity limit for any communication channel, the Shannon Scaling Law reveals that LLMs have a finite representational capacity that cannot be exceeded by naive scaling — only by improving SNR. This provides a theoretical foundation for EFHF's claim that agentic systems need structured representation layers rather than unbounded weight expansion.
+**[[entities/projects/efhf]]**: The Shannon capacity ceiling directly maps to EFHF's boundedness concern. Just as the Shannon-Hartley theorem sets a hard capacity limit for any communication channel, the Shannon Scaling Law reveals that LLMs have a finite representational capacity that cannot be exceeded by naive scaling — only by improving SNR. This provides a theoretical foundation for EFHF's claim that agentic systems need structured representation layers rather than unbounded weight expansion.
 
 **[[verifier-graph]]**: Verification at inference time is analogous to receiver-side error correction in a noisy channel. The verifier-graph must operate within the SNR budget established by the Shannon capacity — if the verifier's confidence scores don't track actual reliability, the system is operating below the capacity bound and will produce overconfident failures. The paper's SNR analysis (signal / noise) maps to the verifier's reliability ratio.
 

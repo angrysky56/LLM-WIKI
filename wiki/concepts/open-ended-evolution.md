@@ -64,7 +64,7 @@ Most evolutionary simulations plateau. Fitness functions, once optimized, stop d
 - [[utimula-openpraparat-2025]] — state-of-the-art integrated OEE model
 - [[eml-operator]] — the grammar $S \to 1 \mid \operatorname{eml}(S,S)$ generates all elementary functions from minimal rules, paralleling how OEE generates biological complexity from minimal mechanisms
 - [[alphaevolve]] — evolutionary code search with LLM mutation, but guided (has fitness); OEE would be the unguided version
-- [[efhf]] — OEE systems could be analyzed through the epsilon machine lens: novel organisms as state-splitting events, complexity barriers as lumpability failures
+- [[entities/projects/efhf]] — OEE systems could be analyzed through the epsilon machine lens: novel organisms as state-splitting events, complexity barriers as lumpability failures
 - [[oee-knowledge-cluster-tierra-lenia-evosphere-insight]] — OEE cluster in LLM-WIKI knowledge graph
 - Concept: [[artificial-life]]
 - Concept: [[catastrophic-forgetting]]

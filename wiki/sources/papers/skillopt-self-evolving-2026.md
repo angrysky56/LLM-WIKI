@@ -81,7 +81,7 @@ The optimizer model generates **add/delete/replace** operations on the skill doc
 
 ## Relevance to EFHF/Wiki Research Threads
 
-**[[efhf]]**: EFHF's principle of **bounded representation layers** aligns with SkillOpt's architecture: instead of modifying weights (unbounded parameter space), the agent operates on a bounded natural-language skill document. The "textual learning rate" constrains how far the skill can drift per update — analogous to EFHF's bounded state transitions. A skill document that tries to encode too much (exceeding its capacity) will experience the same SNR collapse predicted by the Shannon Scaling Law.
+**[[entities/projects/efhf]]**: EFHF's principle of **bounded representation layers** aligns with SkillOpt's architecture: instead of modifying weights (unbounded parameter space), the agent operates on a bounded natural-language skill document. The "textual learning rate" constrains how far the skill can drift per update — analogous to EFHF's bounded state transitions. A skill document that tries to encode too much (exceeding its capacity) will experience the same SNR collapse predicted by the Shannon Scaling Law.
 
 **[[agentic-research]]**: SkillOpt is a concrete realization of trainable procedural memory. The skill document is the **agent's external cortex** — encoding recurring procedures, domain heuristics, tool policies, and failure modes in a form that can be optimized without touching model weights. This directly addresses the agentic research thread's question: how do agents accumulate and refine experience?
 

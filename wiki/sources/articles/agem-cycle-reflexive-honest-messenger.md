@@ -48,7 +48,7 @@ Claude, behaviorally conditioned via RLHF, deployed through Palantir/DoD infrast
 - [[ai-alignment]] — core domain
 - [[lumpability]] — strong vs weak distinction
 - [[paraclete-protocol]] — tier hierarchy and inversion problem
-- [[efhf]] — Emergent Functional Hierarchies Framework
+- [[entities/projects/efhf]] — Emergent Functional Hierarchies Framework
 - [[honest-messenger-paradox]] — parent paradox being extended
 
 ## See Also

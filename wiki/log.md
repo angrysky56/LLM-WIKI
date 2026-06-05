@@ -3850,3 +3850,23 @@ Index updated with 1130 pages
 ## [2026-06-04 14:49] index
 
 Index updated with 1130 pages (Deep refresh completed)
+
+## [2026-06-05 05:34] lint
+
+1409 pages · 216 orphans · 6214 broken · 1 missing-fm · report: audits/lint-2026-06-05.md
+
+## [2026-06-05 05:40] lint
+
+1410 pages · 216 orphans · 6214 broken · 1 missing-fm · report: audits/lint-2026-06-05.md
+
+## [2026-06-05 05:41] lint
+
+1410 pages · 216 orphans · 6214 broken · 1 missing-fm · report: audits/lint-2026-06-05.md
+
+## [2026-06-05 05:43] index
+
+Index updated with 1133 pages (Deep refresh completed)
+
+## [2026-06-05 05:43] lint
+
+1410 pages · 216 orphans · 6269 broken · 1 missing-fm · report: audits/lint-2026-06-05.md

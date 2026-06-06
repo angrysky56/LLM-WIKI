@@ -1,25 +1,26 @@
 ---
-created: 2026-05-26
-updated: 2026-06-16T21:10:00Z
-type: carryover
-summary: "Jun 16 cycle: shapley-values promoted from stub (0.3→0.75), cross-domain verification for steering-vectors and fine-tuning completed"
-tags: [researcher, carryover]
+agent: researcher
+schema: carryover-v1
+generated: 2026-06-06
+cycle: 8
 ---
 
 ## CarryoverState
 
 ### Established
-- **shapley-values promoted**: Jun 16 — leveraged existing source anchor (proxy-based-shapley-banzhaf-2026, 0.85) to expand from stub to full concept page covering: Shapley's 1953 axiomatization (4 axioms, uniqueness theorem), Banzhaf value comparison, computational complexity (#P-complete), applications (cost allocation, voting power, data valuation, SHAP), and 4 genuine open questions. Confidence 0.3→0.75.
-- **Cross-domain verification completed**: steering-vectors and fine-tuning both lack non-ML cross-domain connections. The behavioral-credibility-trilemma is the most plausible bridge for steering-vectors but remains within the same cluster. No forced connections warranted.
+- **Cycle 8 produced 4 real outputs**: promoted 2 stubs to reference pages (`steering-vectors`, `fine-tuning` both 0.3→0.72) and created 2 new source pages (`repe-representation-engineering`, `peft-guide-scaling-down-to-scale-up`).
+- **No refusals** from DeepSeek v4 Flash after dispatcher + sub-skill split. 8 API calls, 24 tool turns, 98%+ cache hit.
+- **Cross-domain insight surfaced**: RepE paper distinguishes *reading* (activation alignment) from *controlling* (steering) — reading is easier and more reliable, with safety-monitoring implications.
+- **Concept/authority boundary recognized**: `machine-learning` is a hub, not a leaf — marked it accordingly instead of expanding.
+- **Entity stubs deferred**: huggingface, anthropic, google-deepmind need a different workflow (not arxiv-based).
 
 ### Open
-- **[Intent]** Next cycle — One of: (a) mechanism-design promotion (reciprocal link to shapley-values, same game-theory cluster, requires source fetching); (b) entity stub promotion (anthropic or sakana-ai — both lack source anchors, would need fetching); (c) cross-domain synthesis — build bridge between steering-vectors and behavioral-credibility-trilemma if the connection is substantiated.
-- **[Risk]** 72 ML-relevant concept stubs remain plus ~12 entity stubs. pace of 1-2 promotions per cycle is sustainable but slow.
-- **[Constraint]** mechanism-design lacks a source anchor. Would need arxiv or resource fetching before promotion — lower efficiency than shapley-values was.
+- **[Q]** Should the next cycle target the 6 entity stubs the previous run deferred, or move to concept advancements (e.g., `activation-engineering` ↔ `steering-vectors` bridge)?
+- **[Q]** Is `concept-advancement` still the right priority, or should we run a second `cross-domain-synthesis` pass to bridge the new RepE/PEFT material into the existing knowledge graph?
+- **[R]** Sub-skill loading via `skill_view` adds 5K bytes per cycle; need to ensure we don't exceed the practical prompt budget if we load 2+ sub-skills.
+- **[R]** Source-anchor templates need review — current format uses arxiv URLs only; missing `pdf_hash` field for cross-reference.
 
-### Verifications (Jun 5 promotions)
-- [x] steering-vectors — cross-domain: no non-ML bridges (noted, not a problem)
-- [x] fine-tuning — cross-domain: no non-ML bridges (noted, not a problem)
-
-## Last Run
-2026-06-16 21:10Z (cycle 9)
+### Heading
+- **[Intent]** Next cycle: run `cross-domain-synthesis` to build the activation-engineering ↔ steering-vectors bridge and surface safety-monitoring use cases.
+- **[Intent]** Patch the archived monolithic skill to fully remove the cron-injection point (currently in `SKILL.md.bak-deprecated-2026-06-05`).
+- **[Constraint]** Stay under 5K bytes per sub-skill to keep GEPA guardrails happy.

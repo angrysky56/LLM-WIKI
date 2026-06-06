@@ -110,3 +110,16 @@ Include:
 - Open questions must be genuine — not placeholders
 - Write in your own voice — not generic AI filler
 - The best finding is one that changes your understanding
+
+
+## Kanban Queue
+
+Drain your assigned cards at the start of every cycle:
+
+```
+kanban_list(lane="ready", assignee="<your-profile>")
+```
+
+If the queue is empty, proceed with the agent's normal work. Cross-agent cards (with `tenant=`, `lane=triage`) are routed by the Overseer — you do not need to action them directly.
+
+Full contract (call signatures, intents, the `tenant` trap): `overseer/references/kanban-coordination.md`.

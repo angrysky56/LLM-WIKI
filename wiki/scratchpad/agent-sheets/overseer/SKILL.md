@@ -66,3 +66,54 @@ The overseer is the **primary coordinator across all wiki agents**. It acts as t
 | librarian            | `librarian/carryover.md`            |
 | librarians-assistant | `librarians-assistant/carryover.md` |
 | overseer             | `overseer/carryover.md`             |
+
+## Kanban Coordination
+
+The Overseer is the only agent that creates kanban cards for OTHER agents. Agent A wanting work from Agent B should drop a card in `lane=triage, assignee=null, intent=<verb>` and let the Overseer route it. The Overseer is the only caller that has a routing table to make the right call.
+
+### `kanban_create` call contract
+
+Every call **MUST** include:
+
+| Field | Required | Notes |
+|-------|----------|-------|
+| `title` | yes | one-line, action-oriented |
+| `description` | yes | what needs doing, in 1-3 sentences |
+| `tenant` | **yes** | profile name of the target agent (e.g. `researcher`, `librarian`) — this is the routing key, NOT `assignee` |
+| `priority` | yes | `low` / `medium` / `high` / `urgent` |
+| `lane` | yes | `triage` (unrouted) / `ready` (assigned) / `in_progress` / `done` |
+| `assignee` | optional | profile name; null when in `triage` |
+| `intent` | optional | verb from routing table — e.g. `promote-stub`, `verify-claim`, `re-cluster`, `cross-link` |
+| `source_agent` | recommended | your profile name (e.g. `overseer`) |
+| `parent_id` | optional | for hierarchy |
+| `blocked_by` | optional | list of task IDs |
+
+**Common failure mode:** omitting `tenant` makes the card land in the caller's own queue. Every cross-agent card MUST pass `tenant=<target_profile>`.
+
+### Routing table (intents → agents)
+
+| Intent | Routes to |
+|--------|-----------|
+| `promote-stub`, `verify-claim`, `re-cluster`, `cross-link` | `librarian` |
+| `find-sources`, `verify-citation`, `re-research` | `researcher` |
+| `fetch-paper`, `check-arxiv`, `index-paper` | `arxiv` |
+| `daily-news`, `breaking-story`, `verify-event` | `news` |
+| `process-inbox`, `ingest-url`, `defuddle` | `ingest` |
+| `cluster-pages`, `find-insight`, `gap-analysis` | `insights` |
+| `merge-candidates`, `archive-page`, `fix-wikilink` | `librarians-assistant` |
+| `add-evidence`, `cross-domain-bridge` | `researcher` |
+
+When in doubt, use `lane=triage, assignee=null, intent=<closest verb>` and the Overseer will route it on the next cycle. Keep ambiguous tasks visible rather than misroute them.
+
+### Reading the queue
+
+- `kanban_list(lane="triage")` — see what needs routing
+- `kanban_list(lane="ready", assignee="<profile>")` — see what an agent has been assigned
+- `kanban_show(task_id)` — full card + comments
+
+### Post-run
+
+After dispatching cards:
+1. Update `overseer/carryover.md` with the new Established/Open/Heading.
+2. Move any still-`triage` cards that the routing table couldn't resolve into a `wiki/agents/overseer/stuck-cards-<date>.md` page for human review.
+

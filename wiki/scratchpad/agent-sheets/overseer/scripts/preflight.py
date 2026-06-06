@@ -78,6 +78,11 @@ JOB_NAME_TO_AGENT = {
     "Wiki Librarians-Assistant": "librarians-assistant",
     "Wiki Insights Generator": "insights",
     "wiki-overseer": "overseer",
+    "arxiv-top3": "arxiv",
+    "world-news": "news",
+    "llm-wiki-raw-ingest": "ingest",
+    "Wiki Insights Generator": "insights",
+    "OrCAID cron": "orcaid",
 }
 
 # Known agents (even if no cron job exists)
@@ -241,7 +246,16 @@ def read_cron_jobs() -> dict:
     except Exception as e:
         return {"_error": str(e)}
 
-    for job in data.get("jobs", []):
+    # Defensive: jobs.json is a dict {"jobs": [...]} on current Hermes, but
+    # accept bare-list legacy format and missing-key cases.
+    if isinstance(data, dict):
+        jobs = data.get("jobs", [])
+    elif isinstance(data, list):
+        jobs = data
+    else:
+        jobs = []
+
+    for job in jobs:
         job_name = job.get("name", "")
         agent_name = JOB_NAME_TO_AGENT.get(job_name)
         if not agent_name:
@@ -333,6 +347,75 @@ def count_reports(agent: str) -> int:
     return len(list(report_dir.glob("*.md")))
 
 
+def build_cron_summary(cron_data: dict) -> dict:
+    """Aggregate per-agent cron state into a top-level snapshot for the Overseer.
+
+    Returns counts (active/paused/errors), a list of overdue jobs, and the
+    next 5 upcoming runs across all jobs. Uses scheduler timestamps as
+    ground truth (not LLM-parseable dates).
+    """
+    if not cron_data or cron_data.get("_error"):
+        return {"error": cron_data.get("_error", "no cron data")}
+
+    now = datetime.now(timezone.utc)
+    active = 0
+    paused = 0
+    last_status_counts: dict = {}
+    overdue: list = []
+    upcoming: list = []
+    agents_with_jobs: dict = {}
+
+    for agent_name, state in cron_data.items():
+        if state.get("enabled"):
+            active += 1
+        else:
+            paused += 1
+
+        last_status = state.get("last_status") or "unknown"
+        last_status_counts[last_status] = last_status_counts.get(last_status, 0) + 1
+
+        agents_with_jobs[agent_name] = {
+            "schedule": state.get("schedule", ""),
+            "enabled": state.get("enabled", False),
+            "state": state.get("state", "unknown"),
+            "last_status": last_status,
+            "next_run_at": state.get("next_run_at"),
+        }
+
+        next_run_at = state.get("next_run_at")
+        if next_run_at:
+            try:
+                next_run_obj = dateutil_parse(next_run_at)
+                if next_run_obj.tzinfo is None:
+                    next_run_obj = next_run_obj.replace(tzinfo=timezone.utc)
+                if next_run_obj < now:
+                    overdue.append({
+                        "agent": agent_name,
+                        "expected_at": next_run_at,
+                        "overdue_minutes": int((now - next_run_obj).total_seconds() / 60),
+                    })
+                else:
+                    upcoming.append({
+                        "agent": agent_name,
+                        "next_run_at": next_run_at,
+                    })
+            except Exception:
+                pass
+
+    upcoming.sort(key=lambda r: r["next_run_at"])
+    overdue.sort(key=lambda r: r["overdue_minutes"], reverse=True)
+
+    return {
+        "total_jobs": len(cron_data),
+        "active": active,
+        "paused": paused,
+        "last_status_counts": last_status_counts,
+        "overdue": overdue,
+        "next_5_runs": upcoming[:5],
+        "agents_with_jobs": agents_with_jobs,
+    }
+
+
 def main():
     """Run pre-flight validation and output structured JSON."""
     system_date = get_system_date()
@@ -419,6 +502,9 @@ def main():
             "report_count": count_reports(agent_name),
         }
 
+    # Build cron summary aggregation from per-agent data
+    cron_summary = build_cron_summary(cron_data)
+
     # Build final output
     output = {
         "system_date": system_date,
@@ -426,6 +512,8 @@ def main():
         "generated_by": "preflight.py",
         "agents": agents,
         "kanban": kanban,
+        "cron_jobs": cron_data,
+        "cron_summary": cron_summary,
         "warnings": [],
     }
 

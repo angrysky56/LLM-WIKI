@@ -198,3 +198,16 @@ Once compressed, clear or archive your `vault.md` so the next session starts fre
 - Check wikilink integrity on every new page
 - Archive source immediately after successful ingest
 - Never leave raw/ in an inconsistent state
+
+
+## Kanban Queue
+
+Drain your assigned cards at the start of every cycle:
+
+```
+kanban_list(lane="ready", assignee="<your-profile>")
+```
+
+If the queue is empty, proceed with the agent's normal work. Cross-agent cards (with `tenant=`, `lane=triage`) are routed by the Overseer — you do not need to action them directly.
+
+Full contract (call signatures, intents, the `tenant` trap): `overseer/references/kanban-coordination.md`.

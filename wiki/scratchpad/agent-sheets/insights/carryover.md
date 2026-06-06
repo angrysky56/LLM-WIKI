@@ -1,29 +1,25 @@
 ---
-type: carryover
-created: 2026-06-05
-tags: [insights, carryover]
-source: insights-agent daily run
+agent: insights
+schema: carryover-v1
+generated: 2026-06-06
+cycle: 9
 ---
 
-# Insights Agent — Carryover
+## CarryoverState
 
-## Established
-- GAAC clustering (n_clusters=15) completed: 15 clusters identified across 1430+ wiki pages
-- Cluster analysis evaluated against publishability criteria (threshold 0.80)
-- 2 new synthesis pages created from GAAC cluster analysis (no CLI generate_insights run — used GAAC-only workflow as per updated SKILL.md)
+### Established
+- **Cycle 9 (June 5, 7:25pm) GAAC-clustered 220 wiki pages into 5 clusters** and identified 3 candidate insights.
+- **Only 1 of 3 insights was surfaced** in the wiki page `wiki/synthesis/2026-06-05-insights-batch.md` — the other 2 were dropped due to output truncation.
+- **Output ballooned to 73KB** — 4× the typical cycle. Cron storage cap is not the issue; the agent's response itself exceeded the practical synthesis range.
+- **Lost 3 rounds of insights total** across June 4-5 (2 on June 4, 1 on June 5).
 
-## Pages Created (2)
-1. `wiki/synthesis/insights/essan-pidgin-matcha-semantic-bridge-insight.md` — ESSAN PIDGIN/MATCHA semantic bridge from Cluster 8 (confidence 0.82)
-2. `wiki/synthesis/insights/wolfram-causal-networks-reasoning-constraints-insight.md` — Wolfram causal networks reasoning constraints from Cluster 12 (confidence 0.78, borderline — under-developed topic exception)
+### Open
+- **[Q]** Should the agent write a structured JSON intermediate before the wiki page, so a downstream synthesis step can pick up the dropped insights?
+- **[Q]** Are the 2 dropped insights worth recovering, or are they the GAAC artefacts (cluster centroid labels) that aren't real insights?
+- **[R]** 73KB output risks rate-limit and response-truncation by the model itself; downstream tooling may also reject on size.
+- **[R]** Synthesis step is single-pass — no progressive refinement, so quality degrades with cluster count.
 
-## Open
-- **Insight 3 (EFHF Spiral Architecture, confidence 0.76)**: Carried over — below threshold. Pages need to mature from scratchpad notes to concept pages before synthesis is warranted
-- **Cluster 5 (AGEM, ~14 pages)**: Track for future — pages are experimental scratchpad notes, not yet ready for synthesis. Check if AGEM pages mature in future runs
-- **Merge candidates (sim=1.000)**: 6 pairs detected — fts5/compound-commands, random-forest/tabpfn, micro-saas/programmatic-seo, sledgehammer/java/latex, printing-press/peter-steinberger, israel/lebanon. Should be reviewed by librarian for merging
-- **Persistent re-detection**: Clusters 3 (sanctions), 6 (PARA), and embedded insight pages in Cluster 0 continue to re-appear. This is expected — the GAAC catches them because the underlying pages still exist in the wiki. No action needed
-- **Index updated**: 1147 pages (2 new insight pages added)
-
-## Heading
-- Next run: re-run GAAC clustering to check if AGEM/EFHF clusters have matured
-- Consider adding more clusters (20-25) for finer granularity — many clusters are very large (0, 2, 4, 10)
-- The CLI generate_insights was not run this cycle — GAAC-only workflow. If new content has been added, future runs should alternate or combine both approaches
+### Heading
+- **[Intent]** Truncate output at 20KB max — keep the wiki page, drop the verbose cluster breakdown (or move it to a separate `_raw` file).
+- **[Intent]** Surface all N candidate insights in a single wiki page (numbered, with confidence scores), even if 1-2 are weak.
+- **[Constraint]** Cap prompt at 3K tokens; 20KB response cap.

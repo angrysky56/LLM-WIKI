@@ -56,5 +56,5 @@ Two papers were discussed in the conversation:
 
 - [[neo4j]] — the graph database architecture directly discussed
 - [[graphrag]] — graph-based retrieval benefits from the immutable-node pattern
-- [[project-synapse]] — lazy evaluation patterns applicable to knowledge graph operations
+- [[entities/projects/project-synapse]] — lazy evaluation patterns applicable to knowledge graph operations
 - [[causal-state-edm-ood-isomorphism]] — parallels between state-splitting in epsilon machines and the Hilbert Hotel's room-shifting as topological transformations

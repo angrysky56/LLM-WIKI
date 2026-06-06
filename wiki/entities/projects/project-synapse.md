@@ -65,7 +65,6 @@ Raw Source → Semantic Pipeline → Neo4j (entities, facts, embeddings)
 - [[concepts/rag]]
 - [[concepts/multi-agent-llm-systems]]
 - [[entities/projects/efhf]]
-- [[entities/projects/project-synapse]]
 - [[concepts/multi-agent-coordination]]
 - [[sources/documentation/obsidian-cli-skill]]
 - [[synthesis/verifiable-graph-context-protocol]]
@@ -87,8 +86,7 @@ Raw Source → Semantic Pipeline → Neo4j (entities, facts, embeddings)
 - [[entities/projects/meta-harness]]
 - [[sources/papers/xu-envfactory-2026]]
 - [[entities/tools/neo4j]]
-- [[project-synapse]]
-
+- [[neo4j]] — the graph/vector storage layer
 - [[neo4j]] — the graph/vector storage layer
 - [[obsidian]] — the human-readable wiki output layer
 - [[zettelkasten-engine]] — the autonomous insight synthesis component

@@ -45,7 +45,7 @@ Rather than re-deriving answers from raw documents on every query ([[rag|RAG]]),
 ## Implementations
 
 - [[llm-wiki-pattern]] — Karpathy's file-system-only approach (Obsidian + index.md + log.md)
-- [[project-synapse]] — graph-backed implementation with [[neo4j]] + vector search + [[zettelkasten-engine]] for autonomous insight generation
+- [[entities/projects/project-synapse]] — graph-backed implementation with [[neo4j]] + vector search + [[zettelkasten-engine]] for autonomous insight generation
 - This vault ([[wiki/index]]) — a live example: 1,326 pages, 23+ synthesis pages, ~6% stub rate across ~5 months of operation by a single creator plus a [[librarian-agent]] / [[researcher-agent]] / [[insights-agent]] agent sheet
 
 ## Invalidation and the EDM Lens
@@ -131,7 +131,7 @@ The convergence direction is clear: the [[mop-edm-cognitive-architecture|MOP-EFH
 
 ## Open Questions
 
-1. **PKC for non-text modalities** — the current implementations ([[llm-wiki-pattern]], [[project-synapse]]) are Markdown-centric. How does compilation work for video, code, scientific figures, multimodal sources? Initial explorations: [[image-extender]] (outpainting as a visual-thought-externalization pattern), [[codegraph]] (AST-based semantic code knowledge graph), [[video-llm]] (temporal reasoning over video input). None of these are yet integrated into the wiki compilation loop.
+1. **PKC for non-text modalities** — the current implementations ([[llm-wiki-pattern]], [[entities/projects/project-synapse]]) are Markdown-centric. How does compilation work for video, code, scientific figures, multimodal sources? Initial explorations: [[image-extender]] (outpainting as a visual-thought-externalization pattern), [[codegraph]] (AST-based semantic code knowledge graph), [[video-llm]] (temporal reasoning over video input). None of these are yet integrated into the wiki compilation loop.
 2. **Compilable vs. uncompilable domains** — some domains have stable structure (mathematics, software architecture, well-defined scientific fields); others have fluid structure (geopolitics, fashion, current events). The [[insights-agent]]'s duplicate-detection rate is a soft signal: high duplicate rate means the domain is approaching saturation on the current schema. Should the operating guide prescribe domain-specific compilation cadences?
 3. **Cross-vault PKC** — multiple LLM-WIKIs exist (personal, organizational, public). How do compiled bases merge, federate, or stay coherent? Initial exploration in [[mop-explorer]]'s Layer 0 design and [[meta-harness]]'s domain-onboarding standards, but no implementation yet.
 4. **Compilation as a service** — can PKC be offered to other agents as a paid knowledge base, with the compilation loop running autonomously and serving queries via MCP? [[graph-rlm]] and [[gbrain]] are the closest existing implementations; the question is whether the cost model is sustainable.
@@ -140,7 +140,7 @@ The convergence direction is clear: the [[mop-edm-cognitive-architecture|MOP-EFH
 
 - [[rag]] — the stateless alternative this paradigm replaces
 - [[llm-wiki-pattern]] — Karpathy's foundational architecture; the file-system-only implementation
-- [[project-synapse]] — the graph-backed implementation in this system ([[neo4j]] + vector + [[zettelkasten-engine]])
+- [[entities/projects/project-synapse]] — the graph-backed implementation in this system ([[neo4j]] + vector + [[zettelkasten-engine]])
 - [[memex]] — Bush's 1945 vision as intellectual ancestor
 - [[andrej-karpathy]] — articulated this paradigm for LLMs
 - [[graphrag]] — complementary: GraphRAG retrieves from the graph; PKC pre-synthesises into it

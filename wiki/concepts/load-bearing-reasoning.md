@@ -2,10 +2,11 @@
 summary: Interpretability frame distinguishing irreducible load-bearing tokens from scaffolding tokens
 tags: [interpretability, causal-mediation, mech-interp, reasoning]
 updated: 2026-06-04T06:50:45Z
----
-
----
 created: 2026-05-23T08:50:00Z
+type: concept
+status: active
+confidence: 0.75
+---
 updated: 2026-06-04T06:50:00Z
 type: concept
 summary: A framework for interpretability that distinguishes between tokens necessary for a conclusion (load-bearing) and those that serve as statistical noise reduction (scaffolding).

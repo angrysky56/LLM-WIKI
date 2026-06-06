@@ -78,7 +78,6 @@ The [[concepts/maximum-occupancy-principle]] fills a specific gap: EFHF is react
 - [[sources/papers/boiling-frog-agentic-safety-2026]]
 - [[concepts/epistemic-energy]]
 - [[concepts/working-memory]]
-- [[entities/projects/efhf]]
 - [[entities/projects/tys-repos/sheaf-consistency-enforcer]]
 - [[entities/projects/tys-repos/graph-rlm]]
 - [[sources/papers/shannon-scaling-law-2026]]
@@ -120,7 +119,7 @@ The [[concepts/maximum-occupancy-principle]] fills a specific gap: EFHF is react
 - [[mop-edm-cognitive-architecture]] — full synthesis of MOP + EDM + EFHF
 - [[edm-framework]] — disruption measurement; high Δ = state-splitting = lumpability shift
 - [[causal-state-edm-ood-isomorphism]] — epsilon machine bridge connecting EDM, EFHF, and MOP
-- [[project-synapse]] — knowledge graph infrastructure used by the system
+- [[entities/projects/project-synapse]] — knowledge graph infrastructure used by the system
 - [[neo4j]] — graph database backend
 - [[agem]] — Agent-Group Evolving Molecular system, multi-agent orchestration layer
 - [[agent-native-design]]

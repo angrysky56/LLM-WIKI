@@ -61,7 +61,7 @@ The project is currently in the **stabilization phase**.
 - [[entities/projects/meta-harness]]
 - [[meta-harness]]
 - [[tys-repos]] — Part of Ty's core repository suite.
-- [[project-synapse]] — Integrated with Synapse for knowledge synthesis.
+- [[entities/projects/project-synapse]] — Integrated with Synapse for knowledge synthesis.
 - [[hermes-agent]] — Utilizes Hermes for autonomous evolution.
 - [[agem]] — Shares concepts with the Agent-Group Evolving Molecular system.
 - [[entities/projects/efhf]] — Architecture that provides the formal verification substrate (via [[mcp-logic]]).

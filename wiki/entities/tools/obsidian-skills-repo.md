@@ -55,4 +55,4 @@ Agent skill definitions (SKILL.md files) teaching AI agents how to work with Obs
 
 - [[obsidian]] — the tool these skills extend
 - [[obsidian-cli-skill]] — the CLI skill (also from this repo)
-- [[project-synapse]] — wiki adapter as alternative to CLI for agent access
+- [[entities/projects/project-synapse]] — wiki adapter as alternative to CLI for agent access

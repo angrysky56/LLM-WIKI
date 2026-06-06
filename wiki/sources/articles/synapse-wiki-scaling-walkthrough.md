@@ -58,11 +58,11 @@ All pre-existing tests pass — index layer is wire-compatible with the prior fi
 
 ## Why it matters
 
-This is the system that *runs* the [[project-synapse]] tools used by every agent in this vault. The agent context-vs-vault-size problem is the central scaling bottleneck for any agentic knowledge management system, and this change resolved it by moving all hot-path reads from disk to a single-query DuckDB backend with a hard response budget.
+This is the system that *runs* the [[entities/projects/project-synapse]] tools used by every agent in this vault. The agent context-vs-vault-size problem is the central scaling bottleneck for any agentic knowledge management system, and this change resolved it by moving all hot-path reads from disk to a single-query DuckDB backend with a hard response budget.
 
 ## Connections
 
-- [[project-synapse]] — the MCP server these changes ship in
+- [[entities/projects/project-synapse]] — the MCP server these changes ship in
 - [[obsidian]] — the vault format being indexed
 - [[duckdb]] — the embedded OLAP DB backing the page index
 - [[wiki-operations]] — operational category these tools serve

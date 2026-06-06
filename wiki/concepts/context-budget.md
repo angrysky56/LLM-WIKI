@@ -15,7 +15,7 @@ A token-ceiling utility that caps LLM tool responses at a hard character limit (
 
 ## Pattern
 
-The `response_budget.py` pattern used in [[project-synapse]] implements the pattern: a utility that accepts a response string and a ceiling, and returns either the full response if under the ceiling or a truncated prefix with a continuation marker if over. This is distinct from semantic summarization — it's purely a structural budget cap.
+The `response_budget.py` pattern used in [[entities/projects/project-synapse]] implements the pattern: a utility that accepts a response string and a ceiling, and returns either the full response if under the ceiling or a truncated prefix with a continuation marker if over. This is distinct from semantic summarization — it's purely a structural budget cap.
 
 ## Why it matters
 
@@ -23,6 +23,6 @@ When an agent queries a large vault (1,200+ pages), naive aggregation of results
 
 ## Connections
 
-- [[project-synapse]] — implements context budgeting in `response_budget.py`
+- [[entities/projects/project-synapse]] — implements context budgeting in `response_budget.py`
 - [[concepts/context-window]] — the resource being budgeted
 - [[wiki/sources/articles/synapse-wiki-scaling-walkthrough]] — source page

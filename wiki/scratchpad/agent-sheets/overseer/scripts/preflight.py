@@ -62,10 +62,24 @@ def _resolve_hermes_home() -> Path:
     return Path(home) / ".hermes"
 
 
+def _resolve_root_hermes_home() -> Path:
+    """Resolve the root Hermes home ($HOME/.hermes), NOT the profile-level
+    $HERMES_HOME.  Shared resources (kanban.db, cron/jobs.json) live at
+    this root level, not inside profile subdirectories.
+
+    In cron context, $HERMES_HOME points to the active profile directory
+    (e.g. /home/ty/.hermes/profiles/overseer), but the kanban database and
+    shared scheduler jobs.json always live at $HOME/.hermes/.
+    """
+    home = os.environ.get("HOME") or str(Path.home())
+    return Path(home) / ".hermes"
+
+
 HERMES_HOME = _resolve_hermes_home()
+ROOT_HERMES_HOME = _resolve_root_hermes_home()
 AGENT_SHEETS = WIKI_ROOT / "wiki" / "scratchpad" / "agent-sheets"
-JOBS_JSON = HERMES_HOME / "cron" / "jobs.json"
-KANBAN_DB = HERMES_HOME / "kanban.db"
+JOBS_JSON = ROOT_HERMES_HOME / "cron" / "jobs.json"
+KANBAN_DB = ROOT_HERMES_HOME / "kanban.db"
 REPORTS_DIR = WIKI_ROOT / "wiki" / "scratchpad" / "jobs" / "reports"
 
 # Map cron job names → agent sheet directory names
@@ -540,6 +554,7 @@ def main():
     # these are the first thing to inspect.
     output["_preflight"] = {
         "hermes_home": str(HERMES_HOME),
+        "root_hermes_home": str(ROOT_HERMES_HOME),
         "kanban_db": str(KANBAN_DB),
         "kanban_db_exists": KANBAN_DB.exists(),
         "jobs_json": str(JOBS_JSON),
@@ -550,16 +565,12 @@ def main():
     }
     if not KANBAN_DB.exists():
         output["warnings"].append(
-            f"kanban block could not find {KANBAN_DB}. "
-            f"This is a known false-negative in cron context (HERMES_HOME "
-            f"may differ from interactive session). Run "
-            f"scripts/verify_kanban_state.py at "
-            f"{KANBAN_DB.parent.parent}/.hermes/skills/wiki-overseer/"
-            f"scripts/verify_kanban_state.py as the source of truth."
+            f"kanban.db not found at {KANBAN_DB}. "
+            f"Verify the root Hermes home ({ROOT_HERMES_HOME}) exists."
         )
     if not JOBS_JSON.exists():
         output["warnings"].append(
-            f"cron block could not find {JOBS_JSON}. "
+            f"cron jobs.json not found at {JOBS_JSON}. "
             f"Carryover frontmatter will be the only status source this cycle."
         )
 

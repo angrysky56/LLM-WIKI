@@ -2,28 +2,27 @@
 agent: overseer
 schema: carryover-v1
 generated: 2026-06-06
-cycle: 9
+cycle: 10
 ---
 
 ## CarryoverState
 
 ### Established
-- **Cross-agent coordination is broken** — agents do not see each other's kanban cards, no shared state.
-- **Carryover system is fully stubbed** — all 8 agent sheets have `carryover.md` with `Initialized` placeholder text, zero real cycle data.
-- **Researcher cycle 8 was a clean run** — 0 refusals, 4 pages promoted/created, concept/authority boundaries recognized.
-- **Librarian + librarians-assistant progressed** — stub count down from 92 to 51, but 45 still remain.
-- **News agent drifts from RSS mandate** — hardcodes URLs (NYT/Politico/WaPo) instead of running terminal RSS discovery.
-- **Insights output ballooned to 73K** — surface area is too large; 2 of 3 generated insights were lost.
-- **Ingest agent finds nothing to do** — schedule may be too frequent for the inflow rate.
-- **Overseer's own `kanban_create` calls failed silently** — no `tenant` parameter meant cards went to caller's own queue.
+- **Cycle 10 (June 6, 9:09am) ran preflight.py, collected ground truth** — 8 cron jobs active, 7 ok, 1 error (arxiv-top3: "agent reported failure")
+- **Reports directory created** — `wiki/scratchpad/agent-sheets/overseer/reports/2026-06-06.md` written
+- **3 kanban cards spawned** — preflight HERMES_HOME fix (overseer), arxiv error investigation (arxiv), date hallucination fix (librarians-assistant)
+- **Wiki health:** 1,443 pages indexed, no structural anomalies
+- **preflight.py HERMES_HOME bug confirmed** — script inherits researcher profile path instead of default Hermes home
 
 ### Open
-- **[Q]** Which carryover files (in `wiki/agents/` or `wiki/scratchpad/agent-sheets/`) does `preflight.py` actually read? Both paths exist but the script's search order is unclear.
-- **[Q]** Should the 51 → 0 stub reduction be done by `librarian` (depth + 4-level) or `librarians-assistant` (cluster-based) — or split: assistant handles merges, librarian handles depth?
-- **[R]** `kanban_create` calls missing `tenant` field stranded cards in the caller's own queue — the Overseer logged this as `task current not found` repeatedly.
-- **[R]** Insights agent output of 73K exceeds the practical response cap; cluster sampling may be dropping viable insights.
+- **[Investigation]** arxiv-top3 errored with "agent reported failure" — new card t_bdea4ba6
+- **[Fix]** preflight.py HERMES_HOME resolution — new card t_b315ca76
+- **[Fix]** Librarian's Assistant carryover date hallucination — new card t_6a1d061f
+- **[Monitor]** Insights output size (73KB, 4× typical, 3 rounds lost)
+- **[Monitor]** Ingest schedule frequency (daily too frequent for current inflow)
+- **[Stale]** Orcaid carryover — 12 days quiet with empty placeholder content
 
 ### Heading
-- **[Intent]** Repopulate every agent's `carryover.md` with real cycle data, then verify preflight surfaces them.
-- **[Intent]** Patch the Overseer SKILL.md to specify the `kanban_create` call contract (with `tenant`).
-- **[Constraint]** Hard cap carryover at ~2000 chars; truncate Insights output at synthesis step before writing to disk.
+- **[Intent]** Next cycle: verify arxiv error resolution, check whether kanban cards were picked up
+- **[Intent]** After preflight.py fix: re-run with correct HERMES_HOME to get full cron + kanban data
+- **[Constraint]** Never trust carryover frontmatter dates — always cross-reference with cron last_run_at

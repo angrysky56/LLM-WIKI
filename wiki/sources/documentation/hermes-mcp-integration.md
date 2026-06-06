@@ -72,7 +72,7 @@ Project Synapse, ast-asg, mcp-logic, advanced-reasoning, verifier-graph, and loc
 - [[hermes-mcp-integration]]
 
 - [[hermes-agent]] — parent system this MCP integration extends
-- [[project-synapse]] — hosts the `synapse_mcp` server that exposes these MCP tools
+- [[entities/projects/project-synapse]] — hosts the `synapse_mcp` server that exposes these MCP tools
 - [[openclaw]] — alternative local agent launch pattern (`ollama launch`)
 - [[mcp-logic]] — formal logic tools (Mace4, Prover9) consumable via MCP
 - [[agentic-research]] — research workflows using Hermes MCP tools

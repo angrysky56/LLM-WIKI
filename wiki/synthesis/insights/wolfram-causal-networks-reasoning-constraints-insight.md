@@ -42,5 +42,5 @@ This cluster suggests that the Wolfram physics project's causal network formalis
 - [[computational-irreducibility]] — core constraint on reasoning
 - [[causal-reasoning]] — reasoning framework
 - [[wolfram-physics-project]] — broader context
-- [[load-bearing-reasoning]] — related concept on reasoning foundations
+- [[concepts/load-bearing-reasoning]] — related concept on reasoning foundations
 - [[intelligence-as-entropic-sculpting]] — complementary framing of intelligence constraints

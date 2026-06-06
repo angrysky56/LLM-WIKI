@@ -217,7 +217,7 @@ MOP formally proves: when utility serves entropy (possibility), agents survive, 
 - [[edm-framework]] — disruption measurement providing the Δ signal
 - [[causal-state-edm-ood-isomorphism]] — epsilon machine bridge; state-splitting as coherent complexity growth
 - [[zettelkasten-engine]] — insight generation using MOP-guided exploration
-- [[project-synapse]] — MCP infrastructure for epistemic energy replenishment
+- [[entities/projects/project-synapse]] — MCP infrastructure for epistemic energy replenishment
 - [[persistent-knowledge-compilation]] — MOP predicts stochastic access patterns over deterministic retrieval
 - [[prd-ralph-loop-mop-gemini]] — Gemini conversation initiating the cognitive MOP framing
 - [[minimal-generative-architectures]]

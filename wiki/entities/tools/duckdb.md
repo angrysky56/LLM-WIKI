@@ -11,7 +11,7 @@ confidence: 0.85
 
 # DuckDB
 
-An embedded OLAP (Online Analytical Processing) database used as the persistent backing store for the [[project-synapse]] vault index (`.synapse/vault_index.duckdb`). DuckDB was chosen for its zero-configuration embedded deployment, fast SQL queries over large vaults, and full-text search capabilities without a separate search service.
+An embedded OLAP (Online Analytical Processing) database used as the persistent backing store for the [[entities/projects/project-synapse]] vault index (`.synapse/vault_index.duckdb`). DuckDB was chosen for its zero-configuration embedded deployment, fast SQL queries over large vaults, and full-text search capabilities without a separate search service.
 
 ## Why DuckDB for a wiki index
 
@@ -24,5 +24,5 @@ DuckDB's columnar storage handles all three with `<50ms` incremental sync (vs. m
 
 ## Connections
 
-- [[project-synapse]] — the MCP server using DuckDB as its index backend
+- [[entities/projects/project-synapse]] — the MCP server using DuckDB as its index backend
 - [[wiki/sources/articles/synapse-wiki-scaling-walkthrough]] — source page

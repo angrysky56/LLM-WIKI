@@ -197,6 +197,6 @@ AGEM (Agent Group Evolving Molecular System) presumably manages multi-agent grou
 - [[concepts/maximum-occupancy-principle]] — complementary: MOP selects exploration targets, LMAC manages inter-agent state agreement
 - [[sheaf-consistency-enforcer]] — the general case of LMAC's state-awareness criterion; SAI imbalance = discrete sheaf patching
 - [[mcp-logic]] — structural verification layer could verify LMAC protocol properties formally
-- [[project-synapse]] — knowledge graph could store and retrieve LMAC protocol variants per task type
+- [[entities/projects/project-synapse]] — knowledge graph could store and retrieve LMAC protocol variants per task type
 - [[edm-framework]] — high disruption (state entropy) regions in EDM space may correlate with low SAI scores (agents cannot reconstruct novel states)
 - [[ramirez-ruiz-mop-2024]] — source paper for MOP Layer 0 integration

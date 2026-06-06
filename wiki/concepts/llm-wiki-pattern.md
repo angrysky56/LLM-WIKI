@@ -48,7 +48,7 @@ Instead of stateless [[RAG]] (retrieve → generate → forget), the LLM **incre
 
 ## This Vault
 
-This wiki (LLM-WIKI) follows the LLM Wiki Pattern and extends it with [[project-synapse]] — which adds [[Neo4j]] graph structure, vector search, and the [[zettelkasten-engine]] for autonomous insight generation. The Karpathy pattern provides the human-readable output layer; Synapse adds the graph intelligence layer underneath.
+This wiki (LLM-WIKI) follows the LLM Wiki Pattern and extends it with [[entities/projects/project-synapse]] — which adds [[Neo4j]] graph structure, vector search, and the [[zettelkasten-engine]] for autonomous insight generation. The Karpathy pattern provides the human-readable output layer; Synapse adds the graph intelligence layer underneath.
 
 See `wiki/sources/articles/llm-wiki-pattern.md` for the full source article.
 
@@ -73,7 +73,7 @@ See `wiki/sources/articles/llm-wiki-pattern.md` for the full source article.
 
 - [[andrej-karpathy]] — origin: authored the pattern
 - [[persistent-knowledge-compilation]] — the paradigm this instantiates
-- [[project-synapse]] — the extension that adds graph + vector intelligence
+- [[entities/projects/project-synapse]] — the extension that adds graph + vector intelligence
 - [[memex]] — the intellectual ancestor: Bush's 1945 vision of associative trails that this finally solves
 - [[RAG]] — the stateless baseline this supersedes
 - [[para-methodology]] — alternative knowledge organization; wiki pattern as complement

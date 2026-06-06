@@ -29,7 +29,7 @@ Agent B: reads("task_1_status") → reacts
 **Pros**: Simple to reason about; works with heterogeneous agents
 **Cons**: Shared state becomes a bottleneck; concurrent writes cause contention
 
-This pattern appears in LLMOps when multiple agents share a knowledge graph (e.g., [[project-synapse]]) as coordination substrate.
+This pattern appears in LLMOps when multiple agents share a knowledge graph (e.g., [[entities/projects/project-synapse]]) as coordination substrate.
 
 ### Message Passing
 
@@ -113,7 +113,7 @@ Recent work applies these classical coordination patterns to LLM-based multi-age
 |
 |
 --|
-| Shared state | [[project-synapse]] knowledge graph as coordination substrate |
+| Shared state | [[entities/projects/project-synapse]] knowledge graph as coordination substrate |
 | Message passing | Manager-worker task assignment with explicit status reports |
 | Market-based | Task bidding in autonomous coding agents |
 | Swarm | Generative emergence from many simple LLM agents |
@@ -133,7 +133,7 @@ Recent work applies these classical coordination patterns to LLM-based multi-age
 
 - [[multi-agent-llm-systems]] — LLM-based systems that use these coordination mechanisms
 - [[agentic-hierarchy]] — hierarchical structure that shapes coordination relationships
-- [[project-synapse]] — specific knowledge graph used as shared state for coordination
+- [[entities/projects/project-synapse]] — specific knowledge graph used as shared state for coordination
 - [[hermes-agent]] — supports multi-agent coordination patterns
 - [[delegation]] — task assignment as a coordination primitive
 - Concept: [[categorical-reasoning]]

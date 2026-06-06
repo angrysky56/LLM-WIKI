@@ -155,6 +155,6 @@ To use this configuration with **Claude Desktop**, add the following JSON to you
 - [[efhf-mcp-configuration]]
 
 - [[entities/projects/efhf]]
-- [[project-synapse]]
+- [[entities/projects/project-synapse]]
 - [[sentience-metaphysics]]
 - [[agent-group-evolving-molecular-system-agem]]

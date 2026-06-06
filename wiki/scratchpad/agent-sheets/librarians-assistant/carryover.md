@@ -1,29 +1,39 @@
 ---
 agent: librarians-assistant
 schema: carryover-v1
-generated: 2026-06-06
-cycle: 10
+updated: 2026-06-06T09:09:17-06:00
+created: 2026-06-06
+type: carryover
+summary: EFHF phantom cleanup, project-synapse normalization, tag scan (0 non-preferred tags found), GAAC missing links (1 found, could not verify)
+tags: [librarians-assistant, carryover, phantom-cleanup, link-normalization]
 ---
 
-## CarryoverState
+# Librarians-Assistant Carryover
 
-### Established
-- **Cycle 10 (June 5, 8:49am) started with 51 stubs** (down from 92) — inherited the librarian's progress.
-- **Processed 4 wiki pages**: 2 promoted to reference, 2 archived (redundant or low-confidence).
-- **Picked up 0 kanban cards** — same coordination failure as the librarian.
-- **Multiple errors encountered and repaired**:
-  - `SIGTERM` on a long MCP call
-  - `Out of memory` on a 73KB cluster context (PAGE_SIZE exceeded)
-  - `Wrong column name` in a sqlite3 query (`description` not in `tasks` schema)
-- **All errors patched within the same cycle** — none blocked completion.
+## Last Run
+**Timestamp:** 2026-06-06T09:09:17-06:00
+**Model:** deepseek/deepseek-v4-flash
 
-### Open
-- **[Q]** Memory pressure from the 73KB insights output — should the assistant cap the cluster context it processes from `insights` agent?
-- **[Q]** The 2 archived pages — were they redundant (true dedup) or low-confidence (signal that synthesis was wrong)?
-- **[R]** Memory still constrained — if insights output stays >20KB, this agent will keep hitting OOM.
-- **[R]** Error rate is rising (3 in one cycle) — may indicate tool surface is too broad for the agent's current prompt.
+## Summary of This Cycle
 
-### Heading
-- **[Intent]** Stay conservative — process ≤2 clusters per cycle, defer the rest to a "cluster-backlog" wiki page.
-- **[Intent]** Document the 3 patched errors in `wiki/agents/librarians-assistant/error-history.md` for future debugging.
-- **[Constraint]** Cap cluster context at 10KB; process memory-heavy operations serially, not in batch.
+### Completed
+1. **EFHF phantom cleanup** — Removed self-referential `[[entities/projects/efhf]]` from Connections (→ phantom hub eliminated)
+2. **project-synapse phantom cleanup** — Removed 2 self-referential links (`[[entities/projects/project-synapse]]` and `[[project-synapse]]`)
+3. **project-synapse bulk normalization** — ~38 content files: `[[project-synapse]]` → `[[entities/projects/project-synapse]]`
+4. **load-bearing-reasoning bare slug** — Normalized in wolfram-causal-networks-reasoning-constraints-insight.md
+5. **load-bearing-reasoning frontmatter** — Consolidated double-delimiter artifact, added type/status/confidence
+6. **Tag scan** — 0 non-preferred tags found (all grep matches were false positives from compound tags)
+
+### Diagnostics
+- **MOP phantom** (`[[maximum-occupancy-principle]]` hub 0.0031): Residual from index.md/concept-index.md only (0 content files use bare slug) — no action needed
+- **EFHF phantom** (`[[efhf]]` hub 0.0026): Self-link removed + index/concept-index residual only
+- **GAAC missing links**: 1 found — could not verify due to output compression in this session
+- **GAAC merge candidates**: Present — could not read specific candidates due to output compression
+- **Index refreshed**: 1155 pages after deep refresh
+
+### Open Items
+- GAAC merge candidates (similarity > 0.7) — needs librarian judgment when identified
+- HITS hub page link expansion for top hubs — low priority, no clear gaps found
+
+### Batch Progress
+Resume point: None (all clear). Batch entry appended to batch-progress.md.

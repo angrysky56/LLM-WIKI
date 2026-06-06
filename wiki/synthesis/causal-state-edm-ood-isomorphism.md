@@ -98,7 +98,7 @@ Spike without grounded return path = hallucination (uncontrolled disruption). Th
 
 ## Zettelkasten Curation Signal
 
-Within [[project-synapse]]'s [[zettelkasten-engine]]:
+Within [[entities/projects/project-synapse]]'s [[zettelkasten-engine]]:
 - **Low Δ** → consolidating, potentially redundant → deprioritize
 - **High Δ** → disruptive insight, new causal state → flag for attention
 - **Convergent future vectors** → simultaneous discovery pattern → merge or link

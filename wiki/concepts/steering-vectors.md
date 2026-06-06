@@ -92,6 +92,7 @@ The connection: activation engineering *uses* steering vectors. The vector itsel
 
 - [[sources/papers/repe-representation-engineering]] (0.95) — defines contrastive activation addition, the primary extraction method for steering vectors
 - [[sources/articles/emotion-concepts-llm]] (0.80) — demonstrates that even complex, abstract behaviors (functional emotions) correspond to detectable steering directions
+- [[synthesis/representation-reading-safety-monitoring]] — bridge page connecting representation reading to safety monitoring via the reading/controlling duality
 
 ## See Also
 

@@ -136,6 +136,8 @@ The PID steering framework maps directly: P = immediate intervention, I = accumu
 - [[model-editing]] — parametric editing vs. activation-level intervention
 
 - [[steering-vectors]]
+- [[synthesis/representation-reading-safety-monitoring]] — bridge page: reading as sensing vs controlling as actuation in safety monitoring
+
 ## Open Questions
 
 1. **Layer optimality**: Is there a principled way to select the intervention layer without empirical probing? Theory of representation geometry might predict it.

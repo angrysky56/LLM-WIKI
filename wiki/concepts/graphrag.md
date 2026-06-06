@@ -30,7 +30,7 @@ From Neo4j's research: the most valuable context often comes not from the direct
 4. Combine all context into LLM prompt
 5. Generate answer
 
-## Implementation in [[project-synapse]]
+## Implementation in [[entities/projects/project-synapse]]
 
 - `query_semantic` handles step 2 (vector ANN)
 - `explore_connections` handles step 3 (graph traversal)
@@ -58,7 +58,7 @@ From Neo4j's research: the most valuable context often comes not from the direct
 - [[concepts/graphrag]]
 
 - [[rag]] — the baseline this extends
-- [[project-synapse]] — implements this pattern with Neo4j
+- [[entities/projects/project-synapse]] — implements this pattern with Neo4j
 - [[neo4j]] — the graph database powering traversal
 - [[edm-framework]] — citation networks as a domain where GraphRAG is directly applicable
 - [[persistent-knowledge-compilation]] — complementary: GraphRAG retrieves; compilation pre-synthesises

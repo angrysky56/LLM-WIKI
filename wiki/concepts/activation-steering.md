@@ -52,6 +52,7 @@ Activation steering is the "modulation" half of the biofeedback loop:
 - [[sources/news/2026/engineering-internal-awareness-and-closed-loop-self-regulation-in-large-language-models]]
 - [[concepts/metacognitive-architecture-closed-loop-self-regulation]]
 - [[concepts/activation-engineering]]
+- [[synthesis/representation-reading-safety-monitoring]] — bridge page: reading as sensing vs controlling as actuation in safety monitoring
 - [[scratchpad/jobs/reports/researcher/discovery-2026-08-08]]
 - [[concepts/neural-interpretability]]
 - [[concepts/emergent-communication]]

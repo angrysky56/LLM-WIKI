@@ -124,4 +124,4 @@ The MCP server exposes six tools for managing the reasoning graph:
 - [[synthesis/verifiable-graph-context-protocol]]
 - [[verifiable-graph-context-protocol]]
 
-→ [[causal-reasoning]], [[chain-of-thought]], [[concepts/load-bearing-reasoning]], [[agentic-research]], [[project-synapse]], [[markovian-dev-agency]]
+→ [[causal-reasoning]], [[chain-of-thought]], [[concepts/load-bearing-reasoning]], [[agentic-research]], [[entities/projects/project-synapse]], [[markovian-dev-agency]]

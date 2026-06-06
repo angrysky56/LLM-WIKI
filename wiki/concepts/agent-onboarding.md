@@ -97,7 +97,7 @@ In the Hermes framework (per `hermes-agent` architecture):
 
 - [[delegation]] — the mechanism for assigning tasks to agents
 - [[agentic-hierarchy]] — the structure of agent relationships
-- [[project-synapse]] — the underlying MCP framework
+- [[entities/projects/project-synapse]] — the underlying MCP framework
 - [[constitutional-ai]] — the constraint framework for agent behavior
 - [[agent-leak-benchmark]] — measuring information leakage during onboarding
 - Concept: [[adversarial-training]]

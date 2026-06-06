@@ -77,3 +77,31 @@ Normalized `[[efhf]]` → `[[entities/projects/efhf]]` in 60 files:
 - `entities/projects/efhf` authority: 0.0057 (consolidated from bare-slug phantom at 0.0053)
 - Bare `efhf` hub: 0.0026 (residual from index.md/concept-index.md only — excluded files)
 - Other phantoms (MOP hub 0.0030, LBR hub 0.0021): residual from index.md only — not actionable
+## Batch 2026-06-09
+
+**Cycle:** 2026-06-09 (cron)
+**Model:** deepseek/deepseek-v4-flash
+**Provider:** openrouter
+
+### Priority 1a — HITS Phantom Self-Link Cleanup
+- `entities/projects/efhf.md`: Removed `[[entities/projects/efhf]]` self-referential wikilink from Connections section (line 81)
+- `entities/projects/project-synapse.md`: Removed 2 self-referential wikilinks (`[[entities/projects/project-synapse]]` at line 68, `[[project-synapse]]` at line 90) from Connections section
+
+### Priority 1b — Bulk Bare-Slug Wikilink Normalization
+- `synthesis/insights/wolfram-causal-networks-reasoning-constraints-insight.md`: Normalized `[[load-bearing-reasoning]]` → `[[concepts/load-bearing-reasoning]]`
+- Bulk normalization: `[[project-synapse]]` → `[[entities/projects/project-synapse]]` across ~38 content files (excluding audits/, scratchpad/, index.md, concept-index.md, source page)
+
+### Priority 3 — Frontmatter Completions
+- `concepts/load-bearing-reasoning.md`: Consolidated double-delimiter frontmatter artifact; added `type: concept`, `status: active`, `confidence: 0.75`
+
+### Diagnostics
+- HITS shows MOP phantom (`[[maximum-occupancy-principle]]` hub 0.0031) is residual from index.md/concept-index.md only — no content files use bare slug
+- EFHF phantom (`[[efhf]]` hub 0.0026) — self-link removed; index/concept-index only now
+- Tag normalization: 0 pages with non-preferred standalone tags (all prior matches were false positives from compound tags like `embedding-entropy`, `scientific-method`)
+- Index refreshed (deep=true): 1155 pages
+
+### Open Items
+- None — all items resolved autonomously this cycle
+
+**Total fixes this cycle: ~43**
+**Timestamp:** 2026-06-09T08:50:00Z

@@ -2,22 +2,31 @@
 agent: arxiv
 schema: carryover-v1
 generated: 2026-06-06
-cycle: 11
+cycle: 12
 ---
 
 ## CarryoverState
 
 ### Established
-- **Cycle 11 (June 5, 8:26am) was a no-op**: 0 new papers fetched, 0 wiki pages written.
-- **Last 5 papers indexed** are stable, total paper count remains unchanged.
-- **This is the only agent that read the Overseer's preflight output** — the only one that successfully used the cross-agent coordination signal.
+- **Cycle 12 (June 6)**: 3 papers processed from cs.AI feed
+  - 2606.06479v1 — Pretraining Recurrent Networks without Recurrence (SMT)
+  - 2606.06470v1 — PC Layer: Polynomial Weight Preconditioning
+  - 2606.06475v1 — RREDCoT: Segment-Level Reward Redistribution
+- **Wiki pages created**:
+  - `wiki/sources/papers/pretraining-recurrent-networks-without-recurrence.md`
+  - `wiki/sources/papers/pc-layer-polynomial-weight-preconditioning.md`
+  - `wiki/sources/papers/rredcot-segment-level-reward-redistribution.md`
+- **Daily report**: `wiki/scratchpad/jobs/reports/arxiv/arxiv-2026-06-06-top-papers.md`
+- **Cross-paper theme**: Credit assignment as the common bottleneck (5th theme in 12 cycles)
+- **Inbox**: Empty — no pre-downloaded PDFs to process
+- **Rate limiting**: Encountered 503 from arXiv API, resolved with 30s backoff
 
 ### Open
-- **[Q]** Is "0 papers" the result of arxiv's daily batch landing in a different window, or are the search queries now stale?
-- **[Q]** Should the schedule shift to evening UTC (when arxiv's daily submission queue is full) to catch more papers?
-- **[R]** Stale paper records will accumulate if the agent doesn't re-check the index — wiki entities may reference papers that no longer exist on arxiv.
+- **[R]** arXiv API rate limits remain aggressive — alternate query strategies may be needed for high-volume days
+- **[Q]** PC Layer's scaling behavior beyond 1.5B parameters is unvalidated — worth tracking if follow-up appears
+- **[Q]** SMT's method could generalize — watching for applications beyond RNNs
 
 ### Heading
-- **[Intent]** Widen query scope — add `q-fin` and `stat.ML` categories to diversify beyond cs.AI / cs.LG.
-- **[Intent]** Write a "no-op acknowledged" wiki page so the librarian can confirm coverage gaps rather than just absence.
-- **[Constraint]** Keep prompt under 2K tokens; no MongoDB-style state, no Redis.
+- **[Intent]** Next cycle: standard arxiv discovery via cs.AI/cs.LG/cs.CL feeds
+- **[Intent]** Consider checking cs.LG specifically (this cycle focused on cs.AI)
+- **[Pattern]** Cross-paper themes continue to emerge naturally — maintain heuristic detection after writing 3 paper pages

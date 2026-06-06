@@ -136,7 +136,7 @@ Multi-agent systems introduce failure modes that don't exist in single-agent set
 - [[multi-agent-coordination]] — the sub-field concerned with coordination mechanisms (blackboard, message passing, market-based, swarm)
 - [[agentic-hierarchy]] — hierarchical organizational structure for multi-agent systems
 - [[agentic-research]] — research automation uses multi-agent pipelines
-- [[project-synapse]] — knowledge graph as shared state / coordination substrate
+- [[entities/projects/project-synapse]] — knowledge graph as shared state / coordination substrate
 - [[hermes-agent]] — framework supporting hierarchical agent patterns
 - [[delegation]] — how one agent assigns work to another
 - Concept: [[adversarial-training]]

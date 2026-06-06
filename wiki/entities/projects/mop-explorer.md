@@ -67,7 +67,7 @@ Seven cognitive actions: TRIAGE, QUERY, EXPLORE, HYPOTHESIZE, VERIFY, SYNTHESIZE
 - [[entities/projects/efhf]] — the verification and consistency architecture
 - [[mop-edm-cognitive-architecture]] — the synthesis document
 - [[edm-framework]] — disruption measurement
-- [[project-synapse]] — knowledge graph infrastructure
+- [[entities/projects/project-synapse]] — knowledge graph infrastructure
 - [[zettelkasten-engine]] — insight generation seeding
 - [[hipai-montague]]
 - [[how-does-imagination-really-work-in-the-brain-new-theory-upends-what-we-knew]]

@@ -4210,3 +4210,97 @@ Updated page: wiki/synthesis/insights/wolfram-causal-networks-reasoning-constrai
 ## [2026-06-06 01:25] index
 
 Index updated with 1147 pages
+
+## [2026-06-06 12:25] write
+
+Updated page: wiki/synthesis/insights/2026-06-06-insights-batch.md
+
+## [2026-06-06 12:42] ingest | proxy-based-approximation-of-shapley-and-banzhaf-interaction.md
+
+Ingested raw/proxy-based-approximation-of-shapley-and-banzhaf-interaction.md into knowledge graph.
+
+Preview: ## Title:Proxy-Based Approximation of Shapley and Banzhaf Interactions  [View PDF](https://arxiv.org/pdf/2605.22738) [HTML (experimental)](https://arxiv.org/html/2605.22738v2)  > Abstract:Shapley and ...
+
+## [2026-06-06 12:59] write
+
+Updated page: wiki/sources/papers/proxy-based-approximation-of-shapley-and-banzhaf-interaction.md
+
+## [2026-06-06 13:00] index
+
+Index updated with 1148 pages
+
+## [2026-06-06 13:41] index
+
+Index updated with 1154 pages
+
+## [2026-06-06 14:07] fetch | representation-engineering-a-top-down-approach-to-ai-transpa.md
+
+Fetched https://arxiv.org/abs/2310.01405 via defuddle → ingested.
+
+Preview: ## Title:Representation Engineering: A Top-Down Approach to AI Transparency  Authors:[Andy Zou](https://arxiv.org/search/cs?searchtype=author&query=Zou,+A), [Long Phan](https://arxiv.org/search/cs?sea...
+
+## [2026-06-06 14:09] fetch | borromean-states-in-a-one-dimensional-three-body-system.md
+
+Fetched https://arxiv.org/abs/2405.14865 via defuddle → ingested.
+
+Preview: ## Quantum Physics  **arXiv:2405.14865** (quant-ph)  ## Title:Borromean states in a one-dimensional three-body system  Authors:[Tobias Schnurrenberger](https://arxiv.org/search/quant-ph?searchtype=aut...
+
+## [2026-06-06 14:12] write
+
+Updated page: wiki/synthesis/representation-reading-safety-monitoring.md
+
+## [2026-06-06 14:13] index
+
+Index updated with 1155 pages
+
+## [2026-06-06 14:14] write
+
+Updated page: wiki/scratchpad/jobs/reports/researcher/discovery-2026-06-06.md
+
+## [2026-06-06 14:14] write
+
+Updated page: wiki/scratchpad/agent-sheets/researcher/carryover.md
+
+## [2026-06-06 14:34] lint
+
+1443 pages · 220 orphans · 6279 broken · 0 missing-fm · report: audits/lint-2026-06-06.md
+
+## [2026-06-06 14:35] lint
+
+1443 pages · 220 orphans · 6279 broken · 0 missing-fm · report: audits/lint-2026-06-06.md
+
+## [2026-06-06 14:44] lint
+
+1443 pages · 220 orphans · 6279 broken · 0 missing-fm · report: audits/lint-2026-06-06.md
+
+## [2026-06-06 14:57] lint
+
+1443 pages · 220 orphans · 6303 broken · 0 missing-fm · report: audits/lint-2026-06-06.md
+
+## [2026-06-06 15:07] index
+
+Index updated with 1155 pages (Deep refresh completed)
+
+## [2026-06-06 15:12] lint
+
+1443 pages · 220 orphans · 6303 broken · 0 missing-fm · report: audits/lint-2026-06-06.md
+
+## [2026-06-06 16:58] write
+
+Updated page: wiki/sources/papers/pretraining-recurrent-networks-without-recurrence.md
+
+## [2026-06-06 16:58] write
+
+Updated page: wiki/sources/papers/pc-layer-polynomial-weight-preconditioning.md
+
+## [2026-06-06 16:58] write
+
+Updated page: wiki/sources/papers/rredcot-segment-level-reward-redistribution.md
+
+## [2026-06-06 16:59] write
+
+Updated page: wiki/scratchpad/jobs/reports/arxiv/arxiv-2026-06-06-top-papers.md
+
+## [2026-06-06 17:00] index
+
+Index updated with 1158 pages (Deep refresh completed)

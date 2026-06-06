@@ -11,7 +11,7 @@ confidence: 0.8
 
 # Neo4j
 
-Graph database used as the knowledge backbone of [[project-synapse]].
+Graph database used as the knowledge backbone of [[entities/projects/project-synapse]].
 
 ## Role in This System
 
@@ -55,7 +55,7 @@ See [[neo4j-2026-04-0-release]] for full release notes.
 - [[entities/tools/neo4j-2026-04-0-release]]
 - [[neo4j]]
 
-- [[project-synapse]] — the MCP server using this as its graph backend
+- [[entities/projects/project-synapse]] — the MCP server using this as its graph backend
 - [[obsidian]] — the human-readable layer sitting above this graph layer
 - [[zettelkasten-engine]] — runs pattern detection directly over this graph
 - [[graphrag]] — the retrieval paradigm implemented using this database

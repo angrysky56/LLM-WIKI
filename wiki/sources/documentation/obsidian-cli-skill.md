@@ -75,5 +75,5 @@ The CLI gives agents a **direct read/write interface to any open vault** — an 
 ## Connections
 
 - [[llm-wiki-pattern]] — primary vault this CLI operates on
-- [[project-synapse]] — Synapse wiki adapter vs. CLI as complementary interfaces
+- [[entities/projects/project-synapse]] — Synapse wiki adapter vs. CLI as complementary interfaces
 - [[obsidian-para-byarbrough]] — CLI can manage PARA folders natively

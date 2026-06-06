@@ -12,7 +12,7 @@ confidence: 0.8
 
 # Zettelkasten Engine
 
-The autonomous insight generation component of [[project-synapse]].
+The autonomous insight generation component of [[entities/projects/project-synapse]].
 
 ## What It Does
 
@@ -57,7 +57,7 @@ Insights are stored as `Zettel` nodes in Neo4j with vector embeddings, enabling 
 - [[synthesis/bounded-structured-memory]]
 - [[zettelkasten-engine]]
 
-- [[project-synapse]] — the system this engine lives inside
+- [[entities/projects/project-synapse]] — the system this engine lives inside
 - [[neo4j]] — the graph database this engine runs pattern detection over
 - [[edm-framework]] — EDM's disruption score is applicable as a curation signal: high-distance insight nodes signal novel (disruptive) patterns worth surfacing
 

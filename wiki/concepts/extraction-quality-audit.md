@@ -25,5 +25,5 @@ confidence: 0.3
 - [[concepts/research-methodology]]
 - [[concepts/extraction-quality-audit]]
 
-- [[project-synapse]]
+- [[entities/projects/project-synapse]]
 - [[research-methodology]]

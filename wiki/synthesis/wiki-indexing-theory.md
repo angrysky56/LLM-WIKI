@@ -73,7 +73,7 @@ The notebook covers both PageRank (random surfer steady-state) and HITS (hub/aut
 
 **HITS is the more useful model for our wiki:**
 
-- **Authorities** = pages that many other pages link *to* — the canonical reference nodes. In our wiki: `[[neo4j]]`, `[[project-synapse]]`, `[[rag]]`. High-authority pages deserve the richest, most carefully maintained content.
+- **Authorities** = pages that many other pages link *to* — the canonical reference nodes. In our wiki: `[[neo4j]]`, `[[entities/projects/project-synapse]]`, `[[rag]]`. High-authority pages deserve the richest, most carefully maintained content.
 - **Hubs** = pages that link *to* many good authorities — navigational aggregators. In our wiki: `[[synapse-llm-wiki-operating-guide]]`, `[[synapse-retrieval-architecture]]`. Hubs are most useful to agents starting cold.
 
 **The mutual reinforcement insight:** a page becomes a better authority by being linked from better hubs; a page becomes a better hub by linking to better authorities. This means: **agent-facing orientation pages (hubs) should preferentially link to the most information-dense entity/concept pages (authorities)**, not to each other.
@@ -147,7 +147,7 @@ Run GAAC on page embeddings to find natural topic clusters. Flag similar pages a
 - [[synapse-retrieval-architecture]] — the retrieval pipeline these improvements feed into
 - [[graphrag]] — graph-based retrieval; HITS directly applicable
 - [[zettelkasten-engine]] — where clustering and HITS scoring should be implemented
-- [[project-synapse]] — the system being improved
+- [[entities/projects/project-synapse]] — the system being improved
 - [[llm-wiki-pattern]] — the base pattern this extends
 - [[concept-index]] — the conceptual index this theory informed
 - [[edm-framework]] — parallel: EDM's future vectors as a citation PageRank analogue

@@ -90,7 +90,7 @@ Results tagged `in_vector: True` and/or `in_bm25: True` for debugging.
 - [[synthesis/synapse-retrieval-architecture]]
 - [[synapse-retrieval-architecture]]
 
-- [[project-synapse]] — the system this lives in
+- [[entities/projects/project-synapse]] — the system this lives in
 - [[graphrag]] — the broader paradigm this implements
 - [[neo4j]] — vector + fulltext indexes powering Stages 1–2
 - [[zettelkasten-engine]] — Stage 4 insight nodes

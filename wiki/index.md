@@ -1,5 +1,5 @@
 ---
-updated: 2026-06-05T22:56:48Z
+updated: 2026-06-06T01:25:03Z
 type: index
 ---
 
@@ -1150,3 +1150,5 @@ type: index
 - [[headlines-2026-05-28]] — News headlines 2026-05-28 — WHO Ebola PHEIC emergency committee recommendations, SpaceX IPO 16 days out with governance questions, Pope Leo XIV "Magnifica humanitas" encyclical on AI disarmament
 - [[news-2026-05-21-headlines]] — News headlines 2026-05-21 — Iran Hormuz control claim, US surveillance near Cuba, SpaceX SPCX IPO filing, Meta social media settlement, Ofcom TikTok/YouTube child safety finding, Trump-Taiwan call, DRC Ebola hospital burned, Air France/Airbus manslaughter verdict
 - [[proxy-based-approximation-of-shapley-and-banzhaf-interaction]] — 
+- [[essan-pidgin-matcha-semantic-bridge-insight]] — ESSAN experimental results bridge to MATCHA and semantic gradients literature via GAAC clustering
+- [[wolfram-causal-networks-reasoning-constraints-insight]] — Wolfram causal networks provide formal framework for understanding reasoning limitations via computational irreducibility

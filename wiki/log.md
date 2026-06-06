@@ -4194,3 +4194,19 @@ Index updated with 1145 pages (Deep refresh completed)
 ## [2026-06-05 22:57] write
 
 Updated page: wiki/scratchpad/jobs/reports/researcher/discovery-2026-06-16.md
+
+## [2026-06-06 00:59] lint
+
+1430 pages · 213 orphans · 6273 broken · 0 missing-fm · report: audits/lint-2026-06-06.md
+
+## [2026-06-06 01:24] write
+
+Updated page: wiki/synthesis/insights/essan-pidgin-matcha-semantic-bridge-insight.md
+
+## [2026-06-06 01:24] write
+
+Updated page: wiki/synthesis/insights/wolfram-causal-networks-reasoning-constraints-insight.md
+
+## [2026-06-06 01:25] index
+
+Index updated with 1147 pages

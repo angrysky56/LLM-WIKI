@@ -2,7 +2,7 @@
 created: 2026-05-26
 updated: 2026-06-05
 type: carryover
-summary: "Overseer carryover — 2026-06-05 cycle: 9 agents processed, 0 cards created, 27 open items resolved at rules 1/3/4, 0 open tasks in kanban. 3 recommendations for Ty (preflight env-var fix, ingestor stub-block, arxiv synthesis growth)."
+summary: "Overseer carryover — 2026-06-05 cycle: 9 agents processed, 0 cards created, 24 open items resolved at rules 1/3/4, 0 open tasks in kanban. 4 warnings (preflight all-null cron + kanban false-negative + researcher hallucinated date + unreadable warning line)."
 tags: [overseer, carryover]
 ---
 

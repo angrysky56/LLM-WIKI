@@ -52,3 +52,4 @@ The paper provides systematic baselines across multiple models, behaviors, and e
 - [[mechanistic-interpretability]] — RepE as a top-down alternative to bottom-up MI
 - [[ai-safety]] — RepE's motivation is AI transparency and safety
 - [[activation-steering]] — the broader paradigm RepE inaugurated
+- [[../synthesis/representation-reading-for-inference-safety-monitoring|Representation Reading for Safety Monitoring]] — synthesis of reading-as-monitoring across activation engineering and AI safety domains

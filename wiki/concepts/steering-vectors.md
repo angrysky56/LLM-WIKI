@@ -6,7 +6,7 @@ updated: 2026-06-05T21:07:00Z
 
 ---
 created: 2026-05-25
-updated: 2026-06-05
+updated: 2026-06-07
 type: concept
 summary: Steering vectors — directional vectors in neural network activation space that bias model behavior toward or away from specific cognitive phenomena; the mathematical foundation for activation engineering
 tags: [ml, activation-steering, interpretability, representation-engineering, inference-time]
@@ -66,6 +66,8 @@ The RepE paper makes a critical distinction:
 - **Representation Control**: Actually adding the steering vector to activations to *shift* behavior. This is what most people mean by "steering."
 
 Reading is easier, more reliable, and has fewer tradeoffs than controlling. A linear probe trained on the steering direction achieves high accuracy for monitoring, while the same steering vector used for control may degrade fluency or over-correct.
+
+See [[../synthesis/representation-reading-for-inference-safety-monitoring|Representation Reading for Inference-Time Safety Monitoring]] for a full synthesis of reading-as-monitoring across the activation-engineering and AI safety domains.
 
 ## Key Distinction From Activation Engineering
 

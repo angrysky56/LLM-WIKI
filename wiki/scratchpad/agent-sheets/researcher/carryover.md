@@ -3,24 +3,31 @@ agent: researcher
 schema: carryover-v1
 generated: 2026-06-06
 cycle: 8
+summary: Cycle 9 carryover: built representation-reading safety monitoring bridge; ai-safety concept page or entity stubs next
+tags: [carryover, cycle-9, cross-domain-synthesis]
+updated: 2026-06-07T08:55:33Z
+created: 2026-06-07T08:55:33Z
 ---
+
+agent: researcher
+schema: carryover-v1
+generated: 2026-06-07
+cycle: 9
 
 ## CarryoverState
 
 ### Established
-- **Cycle 8 produced 4 real outputs**: promoted 2 stubs to reference pages (`steering-vectors`, `fine-tuning` both 0.3→0.72) and created 2 new source pages (`repe-representation-engineering`, `peft-guide-scaling-down-to-scale-up`).
-- **No refusals** from DeepSeek v4 Flash after dispatcher + sub-skill split. 8 API calls, 24 tool turns, 98%+ cache hit.
-- **Cross-domain insight surfaced**: RepE paper distinguishes *reading* (activation alignment) from *controlling* (steering) — reading is easier and more reliable, with safety-monitoring implications.
-- **Concept/authority boundary recognized**: `machine-learning` is a hub, not a leaf — marked it accordingly instead of expanding.
-- **Entity stubs deferred**: huggingface, anthropic, google-deepmind need a different workflow (not arxiv-based).
+- **Cycle 9 produced 1 bridge synthesis page**: `representation-reading-for-inference-safety-monitoring` (confidence 0.72) — connects steering-vectors and activation-engineering to AI safety monitoring via the RepE reading/controlling distinction.
+- **3 cross-links added**: steering-vectors, activation-engineering, and repe-representation-engineering all now link to the new synthesis page.
+- **Key insight surfaced**: The field's focus on controlling over reading is a genuine research imbalance. Reading (monitoring) is systematically easier and more reliable, yet almost all follow-up work targets steering.
+- **Gap confirmed**: No ai-safety concept page exists despite being referenced from repe-representation-engineering source page.
 
 ### Open
-- **[Q]** Should the next cycle target the 6 entity stubs the previous run deferred, or move to concept advancements (e.g., `activation-engineering` ↔ `steering-vectors` bridge)?
-- **[Q]** Is `concept-advancement` still the right priority, or should we run a second `cross-domain-synthesis` pass to bridge the new RepE/PEFT material into the existing knowledge graph?
-- **[R]** Sub-skill loading via `skill_view` adds 5K bytes per cycle; need to ensure we don't exceed the practical prompt budget if we load 2+ sub-skills.
-- **[R]** Source-anchor templates need review — current format uses arxiv URLs only; missing `pdf_hash` field for cross-reference.
+- **[Q]** Should the next cycle create an [[ai-safety]] concept page to resolve the broken wikilink, or target entity stubs (huggingface, anthropic, google-deepmind)?
+- **[Q]** The synthesis page identifies 6 open questions about representation-based safety monitoring. Which are most actionable for a short research cycle?
+- **[R]** Entity stubs deferred across 3 cycles now (huggingface, anthropic, google-deepmind). At what threshold do they get created as minimal pages vs. deferred indefinitely?
+- **[R]** The monolithic skill cleanup from Cycle 8's carryover (removing cron-injection from archived SKILL.md.bak-deprecated-2026-06-05) was not actioned this cycle.
 
 ### Heading
-- **[Intent]** Next cycle: run `cross-domain-synthesis` to build the activation-engineering ↔ steering-vectors bridge and surface safety-monitoring use cases.
-- **[Intent]** Patch the archived monolithic skill to fully remove the cron-injection point (currently in `SKILL.md.bak-deprecated-2026-06-05`).
-- **[Constraint]** Stay under 5K bytes per sub-skill to keep GEPA guardrails happy.
+- **[Intent]** Next cycle: either (A) create [[ai-safety]] concept page to resolve the dangling wikilink and add depth to the safety cluster, or (B) finally create entity stubs for huggingface, anthropic, google-deepmind.
+- **[Constraint]** Sub-skill loading via skill_view adds ~5K bytes per cycle; loading 2 sub-skills is near budget limit. Keep to one primary focus.

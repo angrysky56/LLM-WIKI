@@ -120,6 +120,8 @@ Together they form a biofeedback loop analogous to HRV (heart rate variability) 
 The PID steering framework maps directly: P = immediate intervention, I = accumulated error correction, D = damping against oscillation.
 
 ## Connections
+
+- [[../synthesis/representation-reading-for-inference-safety-monitoring|Representation Reading for Inference-Time Safety Monitoring]] — bridge page directly connecting activation engineering (the control side) to safety monitoring via representation reading
 - [[concepts/activation-engineering]]
 - [[concepts/steering-vectors]]
 - [[scratchpad/agent-sheets/researcher/carryover]]

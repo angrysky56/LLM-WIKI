@@ -4304,3 +4304,91 @@ Updated page: wiki/scratchpad/jobs/reports/arxiv/arxiv-2026-06-06-top-papers.md
 ## [2026-06-06 17:00] index
 
 Index updated with 1158 pages (Deep refresh completed)
+
+## [2026-06-07 04:15] ingest | Power as Narrative Compression.md
+
+Ingested raw/Power as Narrative Compression.md into knowledge graph.
+
+Preview: ## A note on authority and scale  ![](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*PKBg2ETPpv50BKBFMK7JRg.png)  What does power look like when it operates as a measurable capacity rather t...
+
+## [2026-06-07 04:16] lint
+
+1448 pages · 220 orphans · 6315 broken · 0 missing-fm · report: audits/lint-2026-06-07.md
+
+## [2026-06-07 04:38] lint
+
+1450 pages · 221 orphans · 6323 broken · 0 missing-fm · report: audits/lint-2026-06-07.md
+
+## [2026-06-07 05:42] write
+
+Updated page: wiki/concepts/power-as-narrative-compression.md
+
+## [2026-06-07 05:42] write
+
+Updated page: wiki/synthesis/power-as-narrative-compression-synthesis.md
+
+## [2026-06-07 05:43] index
+
+Index updated with 1161 pages
+
+## [2026-06-07 05:43] lint
+
+1452 pages · 223 orphans · 6352 broken · 0 missing-fm · report: audits/lint-2026-06-07.md
+
+## [2026-06-07 05:44] write
+
+Updated page: wiki/concepts/power-as-narrative-compression.md
+
+## [2026-06-07 05:44] lint
+
+1452 pages · 223 orphans · 6352 broken · 0 missing-fm · report: audits/lint-2026-06-07.md
+
+## [2026-06-07 05:46] index
+
+Index updated with 1161 pages (Deep refresh completed)
+
+## [2026-06-07 05:46] lint
+
+1452 pages · 223 orphans · 6352 broken · 0 missing-fm · report: audits/lint-2026-06-07.md
+
+## [2026-06-07 08:50] fetch | representation-engineering-a-top-down-approach-to-ai-transpa.md
+
+Fetched https://arxiv.org/abs/2310.01405 via defuddle → ingested.
+
+Preview: ## Title:Representation Engineering: A Top-Down Approach to AI Transparency  Authors:[Andy Zou](https://arxiv.org/search/cs?searchtype=author&query=Zou,+A), [Long Phan](https://arxiv.org/search/cs?sea...
+
+## [2026-06-07 08:51] fetch | bogomolnyi-like-equations-in-gravity-theories.md
+
+Fetched https://arxiv.org/abs/2310.12476 via defuddle → ingested.
+
+Preview: ## Title:Bogomol'nyi-like Equations in Gravity Theories  Authors:[Ardian Nata Atmaja](https://arxiv.org/search/gr-qc?searchtype=author&query=Atmaja,+A+N)  [View PDF](https://arxiv.org/pdf/2310.12476) ...
+
+## [2026-06-07 08:52] fetch | formalization-of-complexity-analysis-of-the-first-order-algo.md
+
+Fetched https://arxiv.org/abs/2403.11437 via defuddle → ingested.
+
+Preview: ## Title:Formalization of Complexity Analysis of the First-order Algorithms for Convex Optimization  Authors:[Chenyi Li](https://arxiv.org/search/math?searchtype=author&query=Li,+C), [Ziyu Wang](https...
+
+## [2026-06-07 08:53] write
+
+Updated page: wiki/synthesis/representation-reading-for-inference-safety-monitoring.md
+
+## [2026-06-07 08:54] index
+
+Index updated with 1162 pages (Deep refresh completed)
+
+## [2026-06-07 08:55] write
+
+Updated page: wiki/scratchpad/jobs/reports/researcher/discovery-2026-06-07.md
+
+## [2026-06-07 08:55] write
+
+Updated page: wiki/scratchpad/agent-sheets/researcher/carryover.md
+
+## [2026-06-07 08:55] index
+
+Index updated with 1162 pages
+
+## [2026-06-07 08:56] index
+
+Index updated with 1162 pages

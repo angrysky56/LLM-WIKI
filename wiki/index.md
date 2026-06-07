@@ -1,5 +1,5 @@
 ---
-updated: 2026-06-07T14:09:04Z
+updated: 2026-06-07T17:11:06Z
 type: index
 ---
 
@@ -1168,3 +1168,9 @@ type: index
 - [[news-2026-05-21-headlines]] — News headlines 2026-05-21 — Iran Hormuz control claim, US surveillance near Cuba, SpaceX SPCX IPO filing, Meta social media settlement, Ofcom TikTok/YouTube child safety finding, Trump-Taiwan call, DRC Ebola hospital burned, Air France/Airbus manslaughter verdict
 - [[representation-reading-for-inference-safety-monitoring]] — Bridge synthesis: using steering vectors as probes (representation reading) for real-time AI safety monitoring during inference — connecting activation engineering to inference-time safety oversight and deployment monitoring
 - [[2606.05828-statistical-priors-local-harness]] — arxiv paper — local harness that decouples statistical preference learning from semantic intent parsing for personal-agent skill selection
+- [[israel-strikes-beirut-after-truce-june-7-2026]] — Israel strikes Beirut suburb days after US-brokered truce, citing Hezbollah fire — immediate escalation risk to ceasefire
+- [[chornobyl-drone-strike-zelensky-june-7-2026]] — Russian drone strikes spent nuclear fuel storage near Chornobyl; Zelensky condemns ahead of London talks, raising nuclear safety and escalation concerns
+- [[russia-economic-forum-drone-attacks-st-petersburg-june-7-2026]] — Russian drone attacks on St Petersburg overshadow Putin's flagship SPIEF economic forum — deepening war reaches Russia's second city
+- [[armenia-election-pashinyan-third-term-june-7-2026]] — Armenia votes — Pashinyan seeks third term under Russian pressure; election determines whether Armenia continues Westward pivot
+- [[peru-presidential-runoff-left-right-june-7-2026]] — Peru presidential runoff — left-right choice amid violence surge; voters prioritize security
+- [[2026-06-07-global-news]] — Daily global news briefing — June 7, 2026: Israel strikes Beirut (ceasefire collapse risk) | Chornobyl drone strike | St Petersburg attacks | OPEC+ symbolic quota | Armenia election

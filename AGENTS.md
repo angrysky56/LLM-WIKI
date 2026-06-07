@@ -4,18 +4,6 @@ tags: [meta, schema, conventions, workflow, agent-architecture, delegation]
 updated: 2026-05-25
 ---
 
-# ⚠️ This file is superseded
-
-> **This file's content has been incorporated into two live sources:**
-> - **hermes-ops** (`wiki-guides/AGENTS.md`) — the shareable documentation version, updated to reflect the cron-driven architecture
-> - **Agent sheets** (`wiki/scratchpad/agent-sheets/*.md`) — the actual runtime directives for each cron job
->
-> The vault structure, frontmatter, wikilinks, and workflows described here are accurate, but the agent-architecture section (Manager/Servitor delegation, Markovian state) describes an **older design** that is no longer in use. The current system uses Hermes cron jobs with isolated skills and agent sheets.
->
-> **Do not use this file as a reference.** Use `wiki/scratchpad/agent-sheets/` for operational directives and `wiki-guides/AGENTS.md` in hermes-ops for documentation.
-
----
-
 # AGENTS — LLM-WIKI Schema
 
 > **Operating guide:** Tool decision logic, workflows, and what to avoid → [[synapse-llm-wiki-operating-guide]]  

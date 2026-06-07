@@ -4414,3 +4414,61 @@ Index updated with 1163 pages
 ## [2026-06-07 14:09] index
 
 Index updated with 1163 pages (Deep refresh completed)
+
+## [2026-06-07 17:02] fetch | israel-strikes-beirut-suburb-days-after-us-brokered-truce.md
+
+Fetched https://www.bbc.com/news/articles/c0qyevk8139o?at_medium=RSS&at_campaign=rss via defuddle → ingested.
+
+Preview: ![Reuters People inspect the damage inside a building following an Israeli strike on the southern suburbs of Beirut.](https://ichef.bbci.co.uk/news/1536/cpsprodpb/ff48/live/318f54e0-6287-11f1-a012-97d...
+
+## [2026-06-07 17:03] fetch | zelensky-set-for-london-talks-as-he-criticises-vile-chornoby.md
+
+Fetched https://www.bbc.com/news/articles/cr7xr1g3nvvo?at_medium=RSS&at_campaign=rss via defuddle → ingested.
+
+Preview: ## Zelensky criticises 'vile' Chornobyl drone strike ahead of London talks  ![Getty Images Ukraine's President Volodymyr Zelensky, Britain's Prime Minister Keir Starmer, France's President Emmanuel Ma...
+
+## [2026-06-07 17:05] fetch | steve-rosenberg-lasting-image-of-russias-economic-forum-is-p.md
+
+Fetched https://www.bbc.com/news/articles/c9q2gp52rgro?at_medium=RSS&at_campaign=rss via defuddle → ingested.
+
+Preview: ## Steve Rosenberg: Russia's economic forum overshadowed by drone attacks on St Petersburg  ![Getty Images Smoke seen rising in the background of a scene from St Petersburg with a wide street and hist...
+
+## [2026-06-07 17:05] fetch | opec-agrees-another-symbolic-quota-hike-for-july-delegates-s.md
+
+Fetched https://www.bloomberg.com/news/articles/2026-06-07/opec-agrees-another-symbolic-quota-hike-for-july-delegates-say via defuddle → ingested.
+
+Preview: The headquarters of the Organization of the Petroleum Exporting Countries in Vienna.  Photographer: Andrey Rudakov/Bloomberg  [Contact us:](https://www.bloomberg.com/help/question/submit-feedback-news...
+
+## [2026-06-07 17:07] fetch | armenia-votes-as-russia-piles-pressure-on-pro-west-governmen.md
+
+Fetched https://www.bbc.com/news/articles/c3626n1epd5o?at_medium=RSS&at_campaign=rss via defuddle → ingested.
+
+Preview: ![Getty Images A crowd of people, appearing to be mainly men, wave flags and placards, with many raising their arms. They are identified as supporters of Strong Armenia, the party of billionaire Russi...
+
+## [2026-06-07 17:09] write
+
+Updated page: wiki/sources/news/2026/israel-strikes-beirut-after-truce-june-7-2026.md
+
+## [2026-06-07 17:10] write
+
+Updated page: wiki/sources/news/2026/chornobyl-drone-strike-zelensky-june-7-2026.md
+
+## [2026-06-07 17:10] write
+
+Updated page: wiki/sources/news/2026/russia-economic-forum-drone-attacks-st-petersburg-june-7-2026.md
+
+## [2026-06-07 17:10] write
+
+Updated page: wiki/sources/news/2026/armenia-election-pashinyan-third-term-june-7-2026.md
+
+## [2026-06-07 17:10] write
+
+Updated page: wiki/sources/news/2026/peru-presidential-runoff-left-right-june-7-2026.md
+
+## [2026-06-07 17:10] write
+
+Updated page: wiki/news/2026-06-07-global-news.md
+
+## [2026-06-07 17:11] index
+
+Index updated with 1169 pages

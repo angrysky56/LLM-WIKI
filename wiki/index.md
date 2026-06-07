@@ -1,5 +1,5 @@
 ---
-updated: 2026-06-07T08:56:20Z
+updated: 2026-06-07T14:09:04Z
 type: index
 ---
 
@@ -334,7 +334,7 @@ type: index
 - [[power-law]] — Power law — mathematical relationship where frequency varies as a power of some quantity
 - [[image-understanding]] — [STUB] Image understanding — AI understanding of static images
 - [[truth-seeking]] — Archived — absorbed by behavioral-credibility-trilemma source page
-- [[ai-safety]] — [STUB] Field of AI safety research, alignment, and preventing harmful AI behavior
+- [[ai-safety]] — Field of research ensuring AI systems operate as intended and avoid unintended harm — technical alignment, robustness, monitoring, and governance
 - [[interactive-theorem-proving]] — Human-guided machine-checked mathematical proof construction — the practice of using proof assistants (Coq, Isabelle, Lean) to verify complex proofs
 - [[mathematical-reasoning-ai]] — AI systems performing mathematical reasoning — competition math, formal proof, conjecture generation; trajectory from narrow benchmarks through AlphaEvolve-style evolutionary algorithm discovery to autonomous proof of 80-year-old Erdős problems
 - [[graph-theory]] — [STUB] Graph theory — mathematical study of graphs and networks
@@ -1167,3 +1167,4 @@ type: index
 - [[headlines-2026-05-28]] — News headlines 2026-05-28 — WHO Ebola PHEIC emergency committee recommendations, SpaceX IPO 16 days out with governance questions, Pope Leo XIV "Magnifica humanitas" encyclical on AI disarmament
 - [[news-2026-05-21-headlines]] — News headlines 2026-05-21 — Iran Hormuz control claim, US surveillance near Cuba, SpaceX SPCX IPO filing, Meta social media settlement, Ofcom TikTok/YouTube child safety finding, Trump-Taiwan call, DRC Ebola hospital burned, Air France/Airbus manslaughter verdict
 - [[representation-reading-for-inference-safety-monitoring]] — Bridge synthesis: using steering vectors as probes (representation reading) for real-time AI safety monitoring during inference — connecting activation engineering to inference-time safety oversight and deployment monitoring
+- [[2606.05828-statistical-priors-local-harness]] — arxiv paper — local harness that decouples statistical preference learning from semantic intent parsing for personal-agent skill selection

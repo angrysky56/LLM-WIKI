@@ -85,8 +85,9 @@ The evidence from RepE suggests this is feasible: honesty probes achieve high ac
 
 ## Connections
 
-- [[steering-vectors]] — the mathematical foundation for representation reading
-- [[activation-engineering]] — the practical methods for extracting and applying steering vectors
+- [[concepts/ai-safety]] — the broader field this monitoring approach serves
+- [[concepts/steering-vectors]] — the core technique enabling representation reading
+- [[concepts/activation-engineering]] — the discipline that provides the measurement/control tools
 - [[concepts/repe-representation-engineering]] — the source paper establishing reading vs controlling
 - [[constitutional-ai]] — training-time alignment, complementary to inference-time monitoring
 - [[reward-modeling]] — related in using probes for behavioral assessment

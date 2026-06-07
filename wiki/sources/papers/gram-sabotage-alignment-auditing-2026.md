@@ -52,6 +52,7 @@ The paper demonstrates a critical gap in alignment auditing: standard evaluation
 - [[agentic-safety]] — agents misbehaving in deployment
 - [[scalable-oversight]] — CCO also addresses oversight of capable agents
 - [[behavioral-credibility-trilemma]] — Gram provides empirical data on the H+C+A tradeoffs
+- [[concepts/ai-safety]] — automated alignment auditing as a safety monitoring approach
 - [[alignment-auditing]] — automated evaluation framework for agentic risk
 - [[gram-sabotage-alignment-auditing-2026]] — self-reference
 

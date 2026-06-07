@@ -5,7 +5,7 @@ type: synthesis
 title: "Structural Reuse as Unit of Trustworthiness"
 date: 2026-06-01
 tags: [arxiv-batch, structural-reuse, unit-of-trustworthiness, MDL, PAC-Bayes, skill-dictionary, schema, stream-clustering, trust-lattice]
-converges-on: [2605.31468, 2605.31509, 2605.10823]
+converges-on: [2605.31468, 2605.31509, 2605.31593]
 summary: "The discrete named reusable structural unit (skill/schema/cluster) is the unit of trustworthiness spanning training optimisation, runtime memory, and oversight monitoring."
 sources:
   - wiki/synthesis/_briefs/agent-safety-rl-2026-06-01
@@ -36,11 +36,11 @@ ReuseRL addresses *reasoning collapse* — the tendency of GRPO-trained agents t
 
 The PAC-Bayes bound connects empirical compressibility to expected description length on future successful trajectories, giving a principled reason why a small, reusable skill dictionary generalises better than a large, task-specific one. The insight that *pure round-length is a degenerate fixed-code segmentation cost under a frozen singleton-only dictionary* (brief, §2, key insight) establishes that raw length is a strictly weaker signal than structural compressibility.
 
-### AutoSci: Schema-Governed Persistent Memory (not in brief — see survey)
+### AutoSci: Schema-Governed Persistent Memory (arxiv:2605.31468 — not in brief; sourced via crosslink survey)
 
 The AutoSci paper (referenced in the crosslink survey under `muse-autoskill`) proposes a schema-governed persistent memory layer for LLM agents. A **schema** is a discrete, named, typed template that encodes both the structure of a memory record and the operations permissible on it. The DAG execution harness constrains which schemas can invoke which others, enforcing a structural inductive bias that prevents memory from growing unbounded and unconstrained. This corresponds to a structural reuse primitive at runtime: schemas are *named units* that are *stored* once and *composed* many times across agent sessions.
 
-### Stateful Online Monitor: Cross-Account Stream Clustering (arxiv:2605.31468)
+### Stateful Online Monitor: Cross-Account Stream Clustering (arxiv:2605.31593)
 
 The Stateful Monitor defends against distributed agent attacks — multi-account, multi-agent campaigns where each individual transcript is benign but the aggregate pattern is malicious. The monitor clusters embedding-similarity across *many* user transcripts in real-time using stream clustering:
 

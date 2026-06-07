@@ -51,6 +51,8 @@ SafeCtrl-RL is an inference-time behavioral control framework that formulates LL
 
 ## Wiki Connections
 
+- [[concepts/ai-safety]] — inference-time safety as a sub-problem of the broader AI safety field
+
 - [[bounded-representation-capacity]] — SafeCtrl-RL's hard safety gating parallels capacity-constrained verification; the agent cannot exceed safety thresholds regardless of quality reward
 - [[verifier-graph]] — Safety-quality evaluator is an independent checking authority analogous to verifier in the reliability graph
 - [[agentic-research]] — 11 strategies as action space mirrors option/strategy discovery; RL policy learns which context representation works best per harm category

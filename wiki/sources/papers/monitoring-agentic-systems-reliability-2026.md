@@ -57,6 +57,8 @@ The headline claim: **"Deploy monitoring early: the first thing it finds is the 
 
 ## Connections to Wiki
 
+- [[concepts/ai-safety]] — structural monitoring as a sub-problem of AI safety
+
 - **Last cycle's oversight theme** ([[stateful-monitoring-distributed-agent-attacks-2026]], [[boiling-frog-agentic-safety-2026]], [[gram-sabotage-alignment-auditing-2026]], [[calibrating-conservatism-scalable-oversight-2026]], [[finharness]], [[alignment-tampering-2026]]) all build *task-level* safety/oversight monitors. This paper argues that for early-stage systems those monitors operate in the wrong stage.
 - **Evaluation-infrastructure thread** ([[matcha-2026]], [[finharness]], [[interaction-ssd-2026]], [[soundnessbench-ai-scientist-2026]]): Boston et al. argue the field has skipped Stage 1 and gone directly to Stage 2 monitors. The maturity-staging model is a counter-argument.
 - **Scientific-AI thread** ([[autosci-memory-centric-research-lifecycle-2026]], [[physics-is-all-you-need-2026]], [[why-llms-arent-scientists-yet]], [[deepweb-bench-2026]], [[soundnessbench-ai-scientist-2026]]): AutoSci, DeepWeb-Bench, and SoundnessBench all evaluate task-level performance. This paper would predict those benchmarks cannot distinguish a system that fails for structural reasons from one that fails because the task is hard.

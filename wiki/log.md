@@ -4392,3 +4392,25 @@ Index updated with 1162 pages
 ## [2026-06-07 08:56] index
 
 Index updated with 1162 pages
+
+## [2026-06-07 10:45] fetch | statistical-priors-for-implicit-preferences-decoupling-skill.md
+
+Fetched https://ar5iv.labs.arxiv.org/html/2606.05828 via defuddle → ingested.
+
+Preview: ## Title:Statistical Priors for Implicit Preferences: Decoupling Skill Selection as a Local Harness in Personal Agents  Authors:[Zeyu Gan](https://arxiv.org/search/cs?searchtype=author&query=Gan,+Z), ...
+
+## [2026-06-07 10:46] write
+
+Updated page: wiki/sources/2606.05828-statistical-priors-local-harness.md
+
+## [2026-06-07 14:05] write
+
+Updated page: wiki/concepts/ai-safety.md
+
+## [2026-06-07 14:06] index
+
+Index updated with 1163 pages
+
+## [2026-06-07 14:09] index
+
+Index updated with 1163 pages (Deep refresh completed)

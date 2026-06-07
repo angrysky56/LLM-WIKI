@@ -4472,3 +4472,24 @@ Updated page: wiki/news/2026-06-07-global-news.md
 ## [2026-06-07 17:11] index
 
 Index updated with 1169 pages
+
+## [2026-06-07 21:20] ingest | Quantum Reconstruction Program and GPT.md
+
+Ingested raw/Quantum Reconstruction Program and GPT.md into knowledge graph.
+
+Preview: **You**  From a brilliant person "My style as a theoretical physicist is to take deep geometric and empirical facts about reality, set them up as axioms you cannot violate since we know them to be tru...
+
+## [2026-06-07 21:22] write
+
+Updated page: wiki/sources/articles/quantum-reconstruction-program-and-gpt.md
+
+## [2026-06-07 21:22] index
+
+Index updated with 1170 pages (Deep refresh completed)
+
+## [2026-06-07 21:25] ingest
+
+- Ingested raw/ file → Clippings/articles/2026/Quantum Reconstruction Program and GPT.md (Gemini conversation, 10 messages)
+- Created wiki/sources/articles/quantum-reconstruction-program-and-gpt.md — source summary covering QRP, GPT, principle-vs-constructive theories, continuous reversibility
+- Index refreshed: 1170 pages
+- raw/ inbox: empty ✓

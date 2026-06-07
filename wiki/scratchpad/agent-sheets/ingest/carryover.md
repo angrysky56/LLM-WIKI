@@ -1,24 +1,14 @@
----
-agent: ingest
-schema: carryover-v1
-generated: 2026-06-06
-cycle: 14
----
+# CarryoverState
 
-## CarryoverState
+## Established
+- **Quantum Reconstruction Program ingested**: Gemini conversation (10 msg) about QRP, GPT, principle-vs-constructive theories, continuous reversibility — archived to Clippings/articles/2026/
+- **Source summary written**: wiki/sources/articles/quantum-reconstruction-program-and-gpt.md
+- **Index**: 1170 pages, deep-refreshed
+- **raw/ inbox**: empty (only _skipped/ dir)
 
-### Established
-- **Cycle 14 (June 5, 6:42am) was a no-op**: 0 PDFs in `raw/`, 1 article URL, 0 files processed.
-- **Listed 10 new URLs in `raw/inbox.base`** but the ingest script was a vacuum, not a processor.
-- **Schedule runs daily at 6:30am** — inflow rate is too low to justify daily cycles.
+## Open
+- **Concept pages**: Neither "quantum-reconstruction" nor "generalized-probability-theory" exist as concept pages yet — may want to create them from the source material
+- **Related content**: Existing physics pages (agem-minimax-m27-physics-corpus.md, relational-quantum-mechanics concept) could be linked more densely
 
-### Open
-- **[Q]** What is the actual inflow rate? Need a 2-week sample to know if weekly is enough or biweekly is right.
-- **[Q]** Is `ingest` the right agent for *processing* (defuddle → neo4j write) or just *detection* (URL → flag)? Currently it's neither cleanly.
-- **[R]** Clutter accumulates in `raw/inbox.base` if the agent never transitions URLs into the wiki; the inbox is effectively write-only.
-- **[R]** Article URL detection is fragile — single fetch may have been a transient search engine scrape.
-
-### Heading
-- **[Intent]** Cut schedule to weekly (Mondays only) until inflow rate justifies more frequent runs.
-- **[Intent]** Split responsibilities: `ingest-agent` detects (URL → inbox flag), `arxiv-agent` or a new `processor-agent` writes to wiki.
-- **[Constraint]** No new deps; stay on Python stdlib + urllib.
+## Heading
+- **[Intent]** Next session: check raw/ inbox, ingest any new files

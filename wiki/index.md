@@ -1,5 +1,5 @@
 ---
-updated: 2026-06-07T17:11:06Z
+updated: 2026-06-07T21:22:37Z
 type: index
 ---
 
@@ -1174,3 +1174,4 @@ type: index
 - [[armenia-election-pashinyan-third-term-june-7-2026]] — Armenia votes — Pashinyan seeks third term under Russian pressure; election determines whether Armenia continues Westward pivot
 - [[peru-presidential-runoff-left-right-june-7-2026]] — Peru presidential runoff — left-right choice amid violence surge; voters prioritize security
 - [[2026-06-07-global-news]] — Daily global news briefing — June 7, 2026: Israel strikes Beirut (ceasefire collapse risk) | Chornobyl drone strike | St Petersburg attacks | OPEC+ symbolic quota | Armenia election
+- [[quantum-reconstruction-program-and-gpt]] — Gemini AI conversation exploring the Quantum Reconstruction Program — deriving quantum theory from physical principles via Generalized Probability Theory (GPT), examining principle vs. constructive theory approaches, continuous reversibility, and capacity limits.

@@ -95,6 +95,7 @@ The encyclical does not specify which interpretation — this is both a strength
 - [[ai-policy-federalism]] — US federal retreat under Trump makes international coordination more relevant (US can't lead domestically, but Vatican can pressure internationally)
 - [[public-health-governance]] — parallels to PHEIC frameworks for international coordination on catastrophic risks
 - [[AI-safety]] — arms control is an institutional safety mechanism; overlaps with technical AI safety research but addresses coordination failures
+- [[synthesis/representation-reading-as-arms-control-verification]] — proposes activation-space probing (RepE/steering vectors) as a technical verification mechanism for arms control treaties; bridges the reading capability to the verification need
 
 - [[ai-policy-global-governance]]
 ## Sources

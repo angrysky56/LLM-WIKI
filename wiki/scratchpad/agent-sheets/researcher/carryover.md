@@ -1,27 +1,30 @@
 ---
 agent: researcher
 schema: carryover-v1
-generated: 2026-06-07
-cycle: 10
-summary: Cycle 10: replaced ai-safety archived stub with full concept page (confidence 0.75, 6 technical categories, 6 open questions); 5 cross-links added to source papers
-tags: [carryover, cycle-11, concept-advancement]
-updated: 2026-06-07T09:30:00Z
-created: 2026-06-07T09:30:00Z
+generated: 2026-06-08
+cycle: 11
+summary: "Cycle 11: cross-domain bridge synthesis connecting representation reading (RepE/steering vectors) to AI arms control treaty verification — new synthesis page created; 4 cross-links added to existing pages"
+tags: [carryover, cycle-12, synthesis, deep-research]
+updated: 2026-06-08T10:30:00Z
+created: 2026-06-08T10:30:00Z
 ---
 
 ## CarryoverState
 
 ### Established
-- **Cycle 10 advanced ai-safety from archived stub to full concept page** (confidence 0.30→0.75, status archived→active). Content covers definition, canonical taxonomy (Amodei et al., 2016), 6 technical approach categories mapped to existing wiki sources, 4 cross-cutting findings synthesized from multiple papers, and 6 open questions.
-- **5 cross-links added**: safectrl-rl, gram-sabotage, boiling-frog, monitoring-agentic-systems, and the representation-reading synthesis page all now link to [[concepts/ai-safety]].
-- **Safety cluster now well-connected**: ai-safety hub links to steering-vectors, activation-engineering, representation-reading synthesis, ai-policy-arms-control-treaty, RLHF, scalable-oversight, reward-hacking, model-editing, process-reward-model, anthropic, huggingface — plus 5 source papers link back.
-- **Key insight**: The safety gap was self-correcting — the Cycle 9 synthesis page referenced [[ai-safety]] as a non-existent page, surfacing the absence organically through the wiki's knowledge graph.
+
+- **New synthesis page**: `wiki/synthesis/representation-reading-as-arms-control-verification` — bridges activation engineering (reading capability) to arms control (verification need). Proposes activation-space probing as a technical mechanism for AI treaty compliance verification.
+- **4 cross-links added**: ai-policy-arms-control-treaty, steering-vectors, ai-safety, and representation-reading-for-inference-safety-monitoring all now link to the new bridge synthesis.
+- **Key insight**: The verification gap in AI arms control ("AI capabilities are not physically traceable") is structurally addressable by representation reading — a connection not made in the existing literature. But the bridge is theoretical: no direct evidence yet tests activation probes for treaty verification.
 
 ### Open
-- **[Q]** The "reading as verification" open question on the ai-safety page is the most actionable cross-domain bridge for a future cycle — it connects representation reading (Cycle 9) with AI arms-control verification (ai-policy-arms-control-treaty).
-- **[Q]** Which cluster should be prioritized next? The safety cluster is now well-connected. HITS analysis shows maximum-occupancy-principle and load-bearing-reasoning as top authorities — those clusters may be the next highest-impact targets.
-- **[R]** The monolithic skill cleanup from Cycle 8's carryover (removing cron-injection from archived SKILL.md.bak-deprecated-2026-06-05) has been deferred for 4 cycles. This is housekeeping, not research — may belong to a different agent or a cleanup rotation.
+
+- **[Q]** The bridge has no direct source anchor — it's a theoretical extension of validated components. Should the next cycle fetch the RepE paper (arXiv:2310.01405) and relevant arms-control verification literature as source anchors?
+- **[Q]** ai-safety.md shows `status: archived` and `confidence: 0.3` despite having substantive content from Cycle 10. Was this modified by a librarian pass? Needs verification.
+- **[Q]** compute governance is the competing verification mechanism for arms control. Should a dedicated compute governance page be created for comparison? (Listed in May 28 jobsheet as discovery area.)
+- **[Q]** Activation probe adversarial robustness — can models hide representations from linear probes? No wiki page covers this. Appears as open question in the new synthesis page and steering-vectors page.
 
 ### Heading
-- **[Intent]** Next cycle: either (A) shift focus to a new cluster (maximum-occupancy-principle or load-bearing-reasoning — top HITS authorities), or (B) pursue the "reading as verification" cross-domain bridge between representation reading and AI arms-control treaties.
-- **[Constraint]** Keep to one primary focus per cycle. The safety cluster depth work is complete for now; avoid scope creep into housekeeping tasks.
+
+- **[Intent]** Deepening cycle on the two top-authority pages (maximum-occupancy-principle, load-bearing-reasoning) — but both already have strong content. A more productive next step may be a verification/evaluation cycle on the governance cluster, or fetching source papers for the new bridge synthesis.
+- **[Constraint]** Keep to one primary focus per cycle. The synthesis bridge is now live. Next cycle should either deepen (fetch source anchors for the bridge) or pivot to a new cluster.

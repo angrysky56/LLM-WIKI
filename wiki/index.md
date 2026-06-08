@@ -1,5 +1,5 @@
 ---
-updated: 2026-06-08T04:46:23Z
+updated: 2026-06-08T08:27:47Z
 type: index
 ---
 
@@ -553,6 +553,7 @@ type: index
 - [[spike-campaign-001-004-summary]] — Four-spike campaign validating spaCy+owlready2+HermiT as Layer 2 substrate; transaction-per-claim semantics; OWL→Neo4j one-way projection.
 - [[spike-001-spacy-owlready2]] — VALIDATED — spaCy+owlready2 handles transitive subsumption, lemmatization, and pluralization in one sync_reasoner() call. Three v0.3 Layer-2 caveats collapse.
 - [[2026-06-07-global-news]] — Daily global news briefing — June 7, 2026: Israel strikes Beirut (ceasefire collapse risk) | Chornobyl drone strike | St Petersburg attacks | OPEC+ symbolic quota | Armenia election
+- [[2026-06-08-global-news]] — Daily global news briefing — June 8, 2026: Iran missiles at Israel | Israel-Beirut ceasefire collapse | Tech stock plunge | Xi-Kim summit | Europe Ukraine conditions | Philippines earthquake
 - [[representation-reading-safety-monitoring]] — Bridge concept connecting representation reading (RepE) to inference-time safety monitoring — the sensing side of the reading/controlling duality in activation engineering
 - [[spiral-architecture]] — Spiral vs closed loop — center as opening not point
 - [[replicant-mapping]] — Mapping between hermes-ops personas, SEG replicants, and two-council architecture roles
@@ -940,6 +941,7 @@ type: index
 - [[stanford-arthritis-pain-treatment-may-2026]] — Stanford researchers discover simple, non-pharmaceutical way to relieve arthritis pain — no pills or surgery required
 - [[us-surveillance-cuba-flights-2026]] — 
 - [[quantum-supremacy-overturned-d-wave-may-2026]] — Flatiron Institute algorithm overturns D-Wave's 2019 quantum supremacy claim using tensor network methods, shifting understanding of quantum advantage timeline
+- [[ukraine-europe-peace-conditions-us-steps-back-june-8-2026]] — European allies set five conditions for Ukraine peace talks as US withdraws mediator role — structural shift in diplomatic architecture
 - [[raul-castro-indictment-2026]] — US indicts Raúl Castro over 1996 plane shootdown; Russia/China condemn as coercive "violence
 - [[chornobyl-drone-strike-zelensky-june-7-2026]] — Russian drone strikes spent nuclear fuel storage near Chornobyl; Zelensky condemns ahead of London talks, raising nuclear safety and escalation concerns
 - [[openai-ai-solves-80-year-erdos-problem-may-2026]] — OpenAI's AI solves an 80-year-old Erdős mathematical problem — mathematicians amazed; follows Google Co-Scientist and Gemini for Science launches
@@ -963,6 +965,7 @@ type: index
 - [[trump-taiwan-call-2026]] — 
 - [[stanford-type-1-diabetes-cure-may-2026]] — Stanford scientists use hybrid cell therapy to cure Type 1 diabetes in mice without insulin or immune suppression — human trials pending
 - [[who-ihr-emergency-committee-ebola-may-2026]] — WHO Emergency Committee convenes as Ebola PHEIC reaches critical threshold with 395+ cases, temporary recommendations issued
+- [[philippines-earthquake-tsunami-alerts-june-8-2026]] — Strong earthquake struck southern Philippines, triggering tsunami warnings across multiple Asian countries including Indonesia, Japan, Taiwan
 - [[ebola-kenya-court-protests-2026-06-02]] — Kenya High Court orders government to release US-Ebola-quarantine-center details. Protests kill two. Major sovereignty test case.
 - [[us-jobs-report-feb-rate-hike-priced-in-june-5-2026]] — 
 - [[spacex-ipo-investor-frenzy-risk-may-2026]] — SpaceX IPO investor frenzy analyzed — Barron's and Seeking Alpha assess whether governance concerns and losses are being overlooked in retail enthusiasm
@@ -971,6 +974,7 @@ type: index
 - [[spacex-ipo-75-billion-135-per-share-june-3-2026]] — SpaceX targets $75B IPO at $135/share — fixed pricing more than a week before expected 2026-06-12 trading. Largest IPO of 2026. BlackRock $10B anchor stake tracks.
 - [[neo4j-2026-04-0-release]] — Neo4j 2026.04.0: vector-3.0 quantization fix, io_uring async I/O, GenAI plugin token functions, Cypher 25 GQL alignment
 - [[israel-lebanon-ceasefire-security-zones-june-4-2026]] — US-mediated Israel-Lebanon ceasefire requires Hezbollah to fully evacuate south of Litani River; new "pilot security zones" with Lebanese Armed Forces; 4th round of talks; Israeli strikes continued same day
+- [[iran-launches-missiles-at-israel-june-8-2026]] — Iran launched missiles at Israel on June 8 — first direct state-to-state exchange since April ceasefire; retaliation for Israel's Beirut strike
 - [[physical-warp-drive-loophole-may-2026]] — Researchers identify theoretical loophole enabling physical warp drive — previously considered mathematically impossible
 - [[mali-conflict-rebel-alliance-seizes-key-cities-june-6-2026]] — Rebel alliance makes significant territorial gains in escalating Sahel conflict
 - [[sti-record-levels-europe-2026]] — Gonorrhoea +303% and syphilis doubled in Europe since 2015 — ECDC calls for urgent action
@@ -984,6 +988,7 @@ type: index
 - [[us-trade-court-tariff-ruling-may-2026]] — US trade court rules Trump 10% global tariff illegal — may reshape trade war trajectory
 - [[hezbollah-rejects-lebanon-israel-ceasefire-june-5-2026]] — 
 - [[meta-social-media-addiction-settlement-2026]] — 
+- [[xi-jinping-visits-north-korea-summit-june-8-2026]] — Xi Jinping to meet Kim Jong Un in North Korea — first summit since nuclear expansion announcement; positions China as peninsula mediator
 - [[trump-brazil-25-percent-tariff-2026-06-02]] — USTR announces 25% tariff on Brazilian goods, citing 'unfair trade practices.' Politically-motivated tariff targeting Lula government.
 - [[ebola-bundibugyo-outbreak-drc-uganda-2026]] — WHO emergency declaration for Ebola Bundibugyo outbreak in DRC/Uganda; no proven vaccine, UK developing new one
 - [[spacex-ipo-june-12-2026]] — Updated SpaceX IPO page — BlackRock $10B confirmed unconfirmed, 16 days to listing
@@ -997,6 +1002,7 @@ type: index
 - [[xi-jinping-visits-north-korea-june-5-2026]] — 
 - [[ukrainian-drones-st-petersburg-russia-unprecedented-june-6-2026]] — Ukraine strikes deep into Russian territory as war escalation continues
 - [[us-iran-gulf-strikes-ceasefire-june-6-2026]] — Exchange of military action threatens fragile ceasefire between Washington and Tehran
+- [[israel-strikes-beirut-ceasefire-collapses-june-8-2026]] — Israel struck Beirut again on June 8, collapsing US-brokered ceasefire within 48 hours; triggered Iran missile retaliation
 - [[spacex-files-ipo-starship-v3-2026]] — SpaceX filed for IPO in May 2026 — $1.75T-$2T valuation, Starship V3 successful pre-IPO test, $15B+ spent on Starship development, $75B IPO target
 - [[spacex-ipo-spcx-2026]] — 
 - [[openai-erdos-mathematics-proof-2026]] — OpenAI AI solved an 80-year-old Erdős problem — mathematicians amazed; first AI to prove a major open problem in pure mathematics
@@ -1009,6 +1015,7 @@ type: index
 - [[transformer-vm-moran-2026]] — Moran (2026) — analytically compiling programs into transformer weights; residual stream as registers, attention as lookup, FFN as arithmetic, layers as machine steps; connects to EML as minimal instruction set for compiled transformers
 - [[asia-us-container-rates-spike-iran-war-june-6-2026]] — Shipping costs more than double as Iran conflict disrupts global trade routes
 - [[rubio-india-500-billion-trade-claim-may-2026]] — $500B question as Rubio's India trade claim unravels after original tariff bargain loses footing
+- [[tech-stock-plunge-ai-rally-cools-june-8-2026]] — Global tech stocks plunged as AI rally cooled and Iran-Israel conflict drove risk-off; Treasuries dropped on rate hike bets, oil gained
 - [[spacex-blackrock-10b-stake-tracking]] — BlackRock $10B stake UNCONFIRMED — 16 days to June 12, no confirmation in any source through May 27. Created tracking page.
 - [[ebola-bundibugyo-who-ec-recommendations-follow-up-may-2026]] — WHO IHR EC temporary recommendations (May 22) follow-up: case count update to 1,011+ cases/233+ deaths; new geographic expansion to Sud-Kivu; 2nd ETC attack Mongbwalu May 23 (18 patients fled); American surgeon evacuated to Germany; Italy 2 suspected cases; thermostable vaccine status unclear; South Sudan silent; May 29/30 attack window unconfirmed.
 - [[california-ai-worker-protection-may-2026]] — California first state to sign executive order proactively preparing workers for AI disruption — signals state-led AI policy divergence from federal retreat
@@ -1175,10 +1182,4 @@ type: index
 - [[news-2026-05-20-headlines]] — Global news headlines for May 20, 2026 — 7 stories across geopolitics, AI/tech, science, health, and energy
 - [[headlines-2026-05-28]] — News headlines 2026-05-28 — WHO Ebola PHEIC emergency committee recommendations, SpaceX IPO 16 days out with governance questions, Pope Leo XIV "Magnifica humanitas" encyclical on AI disarmament
 - [[news-2026-05-21-headlines]] — News headlines 2026-05-21 — Iran Hormuz control claim, US surveillance near Cuba, SpaceX SPCX IPO filing, Meta social media settlement, Ofcom TikTok/YouTube child safety finding, Trump-Taiwan call, DRC Ebola hospital burned, Air France/Airbus manslaughter verdict
-- [[iran-launches-missiles-at-israel-june-8-2026]] — Iran launched missiles at Israel on June 8 — first direct state-to-state exchange since April ceasefire; retaliation for Israel's Beirut strike
-- [[israel-strikes-beirut-ceasefire-collapses-june-8-2026]] — Israel struck Beirut again on June 8, collapsing US-brokered ceasefire within 48 hours; triggered Iran missile retaliation
-- [[tech-stock-plunge-ai-rally-cools-june-8-2026]] — Global tech stocks plunged as AI rally cooled and Iran-Israel conflict drove risk-off; Treasuries dropped on rate hike bets, oil gained
-- [[xi-jinping-visits-north-korea-summit-june-8-2026]] — Xi Jinping to meet Kim Jong Un in North Korea — first summit since nuclear expansion announcement; positions China as peninsula mediator
-- [[ukraine-europe-peace-conditions-us-steps-back-june-8-2026]] — European allies set five conditions for Ukraine peace talks as US withdraws mediator role — structural shift in diplomatic architecture
-- [[philippines-earthquake-tsunami-alerts-june-8-2026]] — Strong earthquake struck southern Philippines, triggering tsunami warnings across multiple Asian countries including Indonesia, Japan, Taiwan
-- [[2026-06-08-global-news]] — Daily global news briefing — June 8, 2026: Iran missiles at Israel | Israel-Beirut ceasefire collapse | Tech stock plunge | Xi-Kim summit | Europe Ukraine conditions | Philippines earthquake
+- [[representation-reading-as-arms-control-verification]] — Cross-domain bridge: using representation reading (RepE, steering vectors, activation probes) as a technical verification mechanism for AI arms control treaties — connecting activation engineering to international law compliance verification

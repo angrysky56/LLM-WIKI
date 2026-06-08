@@ -82,6 +82,7 @@ Several cross-cutting patterns emerge from the existing wiki coverage:
 - [[concepts/ai-policy-arms-control-treaty]] — policy dimension of AI safety governance
 - [[concepts/reinforcement-learning-from-human-feedback]] — the dominant training-time alignment approach
 - [[concepts/scalable-oversight]] — evaluating systems beyond human judgement
+- [[synthesis/representation-reading-as-arms-control-verification]] — activation-space verification as a mechanism for international AI arms control compliance
 - [[concepts/reward-hacking]] — a core failure mode alignment aims to prevent
 - [[concepts/model-editing]] — targeted behavioral modifications for safety
 - [[concepts/process-reward-model]] — step-level reward for oversight

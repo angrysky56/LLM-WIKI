@@ -4525,3 +4525,11 @@ Updated page: wiki/news/2026-06-08-global-news.md
 ## [2026-06-08 04:46] index
 
 Index updated with 1177 pages
+
+## [2026-06-08 08:13] write
+
+Updated page: wiki/synthesis/representation-reading-as-arms-control-verification.md
+
+## [2026-06-08 08:27] index
+
+Index updated with 1178 pages (Deep refresh completed)

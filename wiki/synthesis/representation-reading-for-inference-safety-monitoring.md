@@ -94,6 +94,18 @@ The evidence from RepE suggests this is feasible: honesty probes achieve high ac
 - [[ai-safety]] (node does not exist yet) — this bridge page is a foundation for a future dedicated safety monitoring page
 - [[mechanistic-interpretability]] — bottom-up approach to understanding model internals, complementary to RepE's top-down approach
 
+## Extensions: Arms Control Verification
+
+The same reading capability that enables inference-time safety monitoring can, in principle, serve as a technical verification mechanism for AI arms control treaties. If prohibited capabilities leave detectable traces in activation space, an international inspectorate could verify treaty compliance using standardized probes. See [[synthesis/representation-reading-as-arms-control-verification]] for the full cross-domain synthesis.
+
+## Connections
+
+- [[concepts/ai-safety]] — the broader field this monitoring approach serves
+- [[concepts/steering-vectors]] — the core technique enabling representation reading
+- [[concepts/activation-engineering]] — control-theoretic framing for closed-loop monitoring
+- [[concepts/ai-governance]] — the governance dimension of safety monitoring decisions
+- [[synthesis/representation-reading-as-arms-control-verification]] — extension to arms control treaty verification
+
 ## Confidence Assessment
 
 **Confidence: 0.72** — moderate-high for the core claim (reading is easier than controlling, with evidence from RepE), moderate for the safety monitoring application (plausible and partially demonstrated but not production-validated). The primary uncertainty is around real-world deployment robustness, adversarial vulnerability of activation probes, and the observer effect.

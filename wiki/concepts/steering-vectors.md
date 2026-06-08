@@ -105,6 +105,7 @@ The connection: activation engineering *uses* steering vectors. The vector itsel
 ## Open Questions
 
 1. **Transferability**: Do steering vectors computed for one model architecture transfer to another? Initial evidence suggests they do not — even between model versions — but the boundary of transfer is not well characterized.
+1. **Arms control verification**: Can steering vector probes serve as a verification mechanism for AI arms control treaties? The question connects to read-later [[synthesis/representation-reading-as-arms-control-verification]] — it requires answering whether probes are adversarially robust enough to survive deliberate evasion by a non-compliant signatory.
 2. **Optimal extraction**: Is CAA the optimal extraction method, or can alternatives (PCA, ICA, contrastive learning) produce better steering vectors? No systematic comparison exists.
 3. **Orthogonal decomposition**: Can a set of steering vectors be orthogonalized to enable clean compositional steering, or is non-orthogonality inherent to distributed representations?
 4. **Minimal data requirements**: CAA requires dozens of contrastive prompt pairs per behavior. Can effective steering vectors be extracted from fewer examples — or zero-shot from the model's existing representations?

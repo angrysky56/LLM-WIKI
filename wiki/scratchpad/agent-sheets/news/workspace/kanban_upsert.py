@@ -1,74 +1,56 @@
 #!/usr/bin/env python3
-"""Upsert informational kanban cards for news agent open questions.
-   Cards are status='done' so dispatcher ignores them; they exist for
-   Ty's unified view via kanban-review."""
+"""
+Kanban upsert for news-agent Cycle 19 — informational cards (status=done)
+Pattern from news-agent skill: informational cards at status='done' so the
+dispatcher ignores them but Ty sees them on the board.
+"""
 import sqlite3, hashlib, uuid, time, os
 
 DB_PATH = os.path.expanduser("~/.hermes/kanban.db")
 conn = sqlite3.connect(DB_PATH)
 cur = conn.cursor()
 
+# Gather existing tasks
 cur.execute("SELECT id, title, status FROM tasks")
 existing = {str(r[1]).strip(): r[0] for r in cur.fetchall()}
 
 def upsert(agent, title, body, priority=1):
     key = f"{agent}: {title}".strip()
     if key in existing:
-        tid, status = existing[key], "skipped"
-        return tid, status
+        tid = existing[key]
+        print(f"SKIP {tid} | {key} (already exists)")
+        return tid, "skipped"
     ik = hashlib.sha256(key.encode()).hexdigest()[:16]
     tid = f"t_{uuid.uuid4().hex[:16]}"
+    now = int(time.time())
     cur.execute(
-        "INSERT INTO tasks (id, title, body, assignee, status, priority, created_by, idempotency_key, created_at) VALUES (?, ?, ?, ?, 'done', ?, 'cron:news-agent', ?, ?)",
-        (tid, key, body, agent, priority, ik, int(time.time()))
+        "INSERT INTO tasks (id, title, body, assignee, status, priority, created_by, idempotency_key, created_at) VALUES (?, ?, ?, ?, 'done', ?, 'cron:news-cycle19', ?, ?)",
+        (tid, key, body, agent, priority, ik, now)
     )
     conn.commit()
+    print(f"CREATED {tid} | {key}")
     return tid, "created"
 
+# Open questions from Cycle 19 carryover — surfacing as informational cards
 items = [
-    {
-        "agent": "news",
-        "title": "Follow-up: IAEA Chornobyl assessment + London talks",
-        "body": "Chornobyl drone strike on spent fuel storage: Monitor IAEA radiation assessment and London talks outcome. Expected within 48h of June 7 strike.",
-        "priority": 2
-    },
-    {
-        "agent": "news",
-        "title": "Follow-up: Israel-Beirut ceasefire collapse risk",
-        "body": "Israel struck Beirut suburb days after US-brokered truce. Watch for Hezbollah official response and any further strikes that would confirm ceasefire collapse.",
-        "priority": 2
-    },
-    {
-        "agent": "news",
-        "title": "Follow-up: Armenia election preliminary results",
-        "body": "Armenia parliamentary election June 7. Pashinyan seeks third term under Russian pressure. Preliminary results will determine Westward pivot trajectory.",
-        "priority": 2
-    },
-    {
-        "agent": "news",
-        "title": "Follow-up: Peru election runoff results",
-        "body": "Peru presidential runoff — left vs right amid violence surge. Results expected within days.",
-        "priority": 1
-    },
-    {
-        "agent": "news",
-        "title": "Follow-up: OPEC+ quota market reaction",
-        "body": "OPEC+ symbolic July quota increase blocked by Persian Gulf blockade. Track crude price movement and actual production changes.",
-        "priority": 1
-    },
-    {
-        "agent": "news",
-        "title": "Follow-up: USMCA trade tension timeline",
-        "body": "US, Mexico, Canada missed July USMCA review deadline. Track next round of trade talks and any tariff developments.",
-        "priority": 1
-    },
+    ("Iran-Israel escalation: sustained exchange or de-escalate?", 
+     "Iran launched missiles at Israel June 8 — first direct exchange since April ceasefire. Watch UN Security Council, Hezbollah second front, Gulf basing, oil spike."),
+    ("Peru election runoff: results pending",
+     "Votes still being counted in tight Peru presidential runoff. Left-right choice for discontented voters."),
+    ("Chornobyl IAEA nuclear safety assessment",
+     "Expected any day after Russian drone strike on Chornobyl spent fuel storage (June 7). Still not released."),
+    ("Ukraine peace: Russia response to European 5 conditions",
+     "European allies set five preconditions for peace talks as US steps back as mediator. Russia's rejection likely."),
+    ("AI rally unwind: correction or structural rotation?",
+     "Global tech stocks plunged June 8 as AI rally cooled and Middle East crisis drove risk-off. Watch Fed response."),
+    ("Philippines earthquake: casualties and tsunami impact",
+     "Powerful quake struck Mindanao; tsunami warnings across Indonesia, Japan, Taiwan. Assessments ongoing."),
+    ("Xi-Kim North Korea summit outcome",
+     "Xi Jinping to meet Kim Jong Un — first since nuclear expansion announcement. Watch for agreements/shifts."),
 ]
 
-results = []
-for item in items:
-    tid, status = upsert(item["agent"], item["title"], item["body"], item["priority"])
-    results.append(f"  [{status}] {item['title']}: {tid}")
+for title, body in items:
+    upsert("news", title, body)
 
-print("Kanban informational cards results:")
-print("\n".join(results))
 conn.close()
+print("Done.")

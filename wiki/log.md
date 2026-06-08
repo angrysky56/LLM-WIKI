@@ -4493,3 +4493,35 @@ Index updated with 1170 pages (Deep refresh completed)
 - Created wiki/sources/articles/quantum-reconstruction-program-and-gpt.md — source summary covering QRP, GPT, principle-vs-constructive theories, continuous reversibility
 - Index refreshed: 1170 pages
 - raw/ inbox: empty ✓
+
+## [2026-06-08 04:44] write
+
+Updated page: wiki/sources/news/2026/iran-launches-missiles-at-israel-june-8-2026.md
+
+## [2026-06-08 04:44] write
+
+Updated page: wiki/sources/news/2026/israel-strikes-beirut-ceasefire-collapses-june-8-2026.md
+
+## [2026-06-08 04:44] write
+
+Updated page: wiki/sources/news/2026/tech-stock-plunge-ai-rally-cools-june-8-2026.md
+
+## [2026-06-08 04:45] write
+
+Updated page: wiki/sources/news/2026/xi-jinping-visits-north-korea-summit-june-8-2026.md
+
+## [2026-06-08 04:45] write
+
+Updated page: wiki/sources/news/2026/ukraine-europe-peace-conditions-us-steps-back-june-8-2026.md
+
+## [2026-06-08 04:45] write
+
+Updated page: wiki/sources/news/2026/philippines-earthquake-tsunami-alerts-june-8-2026.md
+
+## [2026-06-08 04:45] write
+
+Updated page: wiki/news/2026-06-08-global-news.md
+
+## [2026-06-08 04:46] index
+
+Index updated with 1177 pages

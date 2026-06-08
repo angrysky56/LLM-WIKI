@@ -1,5 +1,5 @@
 ---
-updated: 2026-06-07T21:22:37Z
+updated: 2026-06-08T04:46:23Z
 type: index
 ---
 
@@ -549,8 +549,10 @@ type: index
 - [[neuroinflammation]] — Neuroinflammation — brain inflammation driven by microglial activation; linked to Menin decline in hypothalamus, cognitive decline, and aging
 - [[hypothalamus]] — Hypothalamus — brain region controlling homeostasis, hormone release, aging; Menin production site that suppresses neuroinflammation
 - [[hermes-meta-cognition]] — Hermes as an MCM implementation with oMCD, agent archetypes, and self-model structure
+- [[2606.05828-statistical-priors-local-harness]] — arxiv paper — local harness that decouples statistical preference learning from semantic intent parsing for personal-agent skill selection
 - [[spike-campaign-001-004-summary]] — Four-spike campaign validating spaCy+owlready2+HermiT as Layer 2 substrate; transaction-per-claim semantics; OWL→Neo4j one-way projection.
 - [[spike-001-spacy-owlready2]] — VALIDATED — spaCy+owlready2 handles transitive subsumption, lemmatization, and pluralization in one sync_reasoner() call. Three v0.3 Layer-2 caveats collapse.
+- [[2026-06-07-global-news]] — Daily global news briefing — June 7, 2026: Israel strikes Beirut (ceasefire collapse risk) | Chornobyl drone strike | St Petersburg attacks | OPEC+ symbolic quota | Armenia election
 - [[representation-reading-safety-monitoring]] — Bridge concept connecting representation reading (RepE) to inference-time safety monitoring — the sensing side of the reading/controlling duality in activation engineering
 - [[spiral-architecture]] — Spiral vs closed loop — center as opening not point
 - [[replicant-mapping]] — Mapping between hermes-ops personas, SEG replicants, and two-council architecture roles
@@ -585,6 +587,7 @@ type: index
 - [[self-prompting-via-production-stage-architecture]] — Self-prompting (LLMs directing their own behavior mid-generation) is a production-stage phenomenon — operating entirely in the instruction-sensitive, behavior-driving half of the production/processing asymmetry. Waldis 2026 + Chen molecular CoT 2026 + entropic-machinery synthesis predict a specific architecture: self-generated directives work through the three-bond topology (Deep-Reasoning backbone + Self-Reflection fold-back + Self-Exploration basin escape), maintained as a non-equilibrium steady state against entropy, using single-event signal cascades to flip reasoning state. Supertoken analysis distinguishes scaffolding from load-bearing tokens in self-generated text; MoR's dynamic recursion router maps to self-directed compute allocation. Neuroanatomically, self-prompting is the arcuate fasciculus — language shaping language production — firing only into the Broca's side, not the Wernicke's side.
 - [[verifiable-graph-context-protocol]] — VGCP — DAG-structured reasoning with constraint-verified node commitment via a Graph Kernel (∂)
 - [[essan-internal-representation]] — Training framework for Essan symbols as internal representation markers in LLMs, enabling hallucination detection via activation geometry.
+- [[representation-reading-for-inference-safety-monitoring]] — Bridge synthesis: using steering vectors as probes (representation reading) for real-time AI safety monitoring during inference — connecting activation engineering to inference-time safety oversight and deployment monitoring
 - [[bounded-structured-memory]] — Unifying SSL schema + Markovian carryover + Memory Curse fixes into a bounded structured memory architecture for Synapse
 - [[efhf-mcp-configuration]] — Unified MCP configuration for the EFHF (Emergent Functional Hierarchies Framework) ecosystem.
 - [[structural-reuse-unit-of-trustworthiness-2026-06-01]] — The discrete named reusable structural unit (skill/schema/cluster) is the unit of trustworthiness spanning training optimisation, runtime memory, and oversight monitoring.
@@ -716,6 +719,7 @@ type: index
 - [[agem-corpus-full-minimax-m3]] — AGEM 3-iteration 4-axis regrouping of the 10-distinction philosophy-of-mind corpus — argues the 10 distinctions fall into 4 axes (shape-of-explanation, intrinsic-vs-relational, kind-vs-phenomenon, higher-order structure) plus 2 local technicalities, with three deceptive surface similarities the corpus warns about.
 - [[ml-evolution-benchmarking-protocol]] — Systematic review of guided vs unconstrained LLM architecture evolution.
 - [[microsoft-ai-blog-may-2026]] — Microsoft AI blog aggregator featuring accessibility-focused AI, aged care automation, dairy cooperative AI agents, manufacturing AI, and Porsche crash analysis
+- [[quantum-reconstruction-program-and-gpt]] — Gemini AI conversation exploring the Quantum Reconstruction Program — deriving quantum theory from physical principles via Generalized Probability Theory (GPT), examining principle vs. constructive theory approaches, continuous reversibility, and capacity limits.
 - [[gemini-for-science-google-deepmind-may-2026]] — Google DeepMind releases Gemini for Science — AI-native scientific research platform that autonomously designs, executes, and interprets experiments
 - [[why-llms-arent-scientists-yet]] — Compressed summary of the autonomous research case study.
 - [[essan-vgcp-comparative-analysis]] — Essan vs VGCP: Essan contributes symbolic feedback notation; VGCP contributes architectural impossibility of error classes; complementary, not redundant
@@ -937,19 +941,23 @@ type: index
 - [[us-surveillance-cuba-flights-2026]] — 
 - [[quantum-supremacy-overturned-d-wave-may-2026]] — Flatiron Institute algorithm overturns D-Wave's 2019 quantum supremacy claim using tensor network methods, shifting understanding of quantum advantage timeline
 - [[raul-castro-indictment-2026]] — US indicts Raúl Castro over 1996 plane shootdown; Russia/China condemn as coercive "violence
+- [[chornobyl-drone-strike-zelensky-june-7-2026]] — Russian drone strikes spent nuclear fuel storage near Chornobyl; Zelensky condemns ahead of London talks, raising nuclear safety and escalation concerns
 - [[openai-ai-solves-80-year-erdos-problem-may-2026]] — OpenAI's AI solves an 80-year-old Erdős mathematical problem — mathematicians amazed; follows Google Co-Scientist and Gemini for Science launches
 - [[rubio-meets-modi-india-energy-may-2026]] — Rubio visits India with energy agenda to replace Iranian oil disrupted by US-Iran conflict; H-1B visa registrations down 38.5%
 - [[alberta-independence-referendum-2026]] — Alberta schedules October 2026 referendum on whether to hold binding independence vote
 - [[trump-endorses-colombia-espriella-runoff-june-3-2026]] — Trump publicly endorses right-wing Colombian presidential candidate Abelardo De La Espriella ahead of the June runoff against center-left Iván Cepeda. Espriella vows closer US ties. Pairs with yesterday's Brazil 25% tariff as a coordinated Latin America right-wing consolidation push.
 - [[nato-troops-poland-may-2026]] — Trump announces 5,000 US troops to Poland — NATO allies confused but welcoming
+- [[russia-economic-forum-drone-attacks-st-petersburg-june-7-2026]] — Russian drone attacks on St Petersburg overshadow Putin's flagship SPIEF economic forum — deepening war reaches Russia's second city
 - [[trump-canada-51st-state-trade-talks-june-3-2026]] — Trump again calls Canada the '51st state' hours before USMCA trade talks; Canada formally requests 16-year USMCA renewal; Carney shrugs off the jab. Pairs with Brazil tariff and Colombia endorsement as a unified 'Americas realignment' posture.
 - [[air-france-airbus-manslaughter-verdict-2026]] — 
 - [[ebola-outbreak-east-africa-2014-record-warning-june-6-2026]] — US health officials warn of potential 2014-scale outbreak as gold mines emerge as transmission hub
 - [[ebola-plane-divert-2026]] — Air France flight to Detroit diverted to Montreal after Congolese Ebola-hit-region passenger boarded in error
+- [[peru-presidential-runoff-left-right-june-7-2026]] — Peru presidential runoff — left-right choice amid violence surge; voters prioritize security
 - [[ukraine-strikes-st-petersburg-putin-economic-forum-june-3-2026]] — Ukrainian long-range drones hit oil storage and naval base near St Petersburg on 2026-06-03, opening day of Putin's flagship economic forum. Deepest strike by name in the war and most symbolically timed.
 - [[ebola-outbreak-drc-hospital-attack-2026]] — 
 - [[malaysia-exits-us-reciprocal-trade-deal-may-2026]] — Malaysia exits US reciprocal trade deal following Supreme Court ruling that invalidated tariff authority
 - [[china-rare-earth-geopolitics-may-2026]] — China consolidates rare earth dominance as geopolitical weapon, restricting global access amid US-China tech war escalation
+- [[israel-strikes-beirut-after-truce-june-7-2026]] — Israel strikes Beirut suburb days after US-brokered truce, citing Hezbollah fire — immediate escalation risk to ceasefire
 - [[ebola-outbreak-second-treatment-center-burned-may-2026]] — Ebola outbreak escalates with two treatment centers burned, cases in rebel-held DRC areas, and American infected and evacuated
 - [[ebola-outbreak-drc-who-very-high-may-2026]] — WHO raises DRC risk to 'very high' as suspected cases triple in one week; US public health cuts limiting response capacity
 - [[trump-taiwan-call-2026]] — 
@@ -970,6 +978,7 @@ type: index
 - [[ebola-drc-outbreak-began-january-kenya-quarantine-criticized-june-4-2026]] — WHO chief: DRC Ebola outbreak began 'as early as January' — gives virus 'a big head start'; 344+ cases in DRC, 60 dead, 15 in Uganda; US-only Kenya quarantine plan draws bipartisan expert criticism
 - [[openai-o3-erdos-conjecture-breakthrough-2026]] — OpenAI o3 model disproved a central conjecture in discrete geometry — 80-year Erdős problem — marking the most significant AI-assisted mathematical discovery to date
 - [[eu-us-trade-deal-tariff-may-2026]] — EU and US strike deal to implement tariff elements of Joint Statement — transatlantic trade rapprochement amid tariff chaos
+- [[armenia-election-pashinyan-third-term-june-7-2026]] — Armenia votes — Pashinyan seeks third term under Russian pressure; election determines whether Armenia continues Westward pivot
 - [[russia-kyiv-deadly-strikes-2026-06-02]] — Russia hits Kyiv with massive missile-drone barrage, 18+ killed, apartment building toppled. NYT frames as symptom of Russian weakness.
 - [[kim-jong-un-exponential-nuclear-arsenal-expansion-june-4-2026]] — Kim Jong Un unveils new uranium-enrichment nuclear materials facility; calls for "exponential" arsenal expansion; signals denuclearization off the table on eve of potential Xi visit
 - [[us-trade-court-tariff-ruling-may-2026]] — US trade court rules Trump 10% global tariff illegal — may reshape trade war trajectory
@@ -1166,12 +1175,10 @@ type: index
 - [[news-2026-05-20-headlines]] — Global news headlines for May 20, 2026 — 7 stories across geopolitics, AI/tech, science, health, and energy
 - [[headlines-2026-05-28]] — News headlines 2026-05-28 — WHO Ebola PHEIC emergency committee recommendations, SpaceX IPO 16 days out with governance questions, Pope Leo XIV "Magnifica humanitas" encyclical on AI disarmament
 - [[news-2026-05-21-headlines]] — News headlines 2026-05-21 — Iran Hormuz control claim, US surveillance near Cuba, SpaceX SPCX IPO filing, Meta social media settlement, Ofcom TikTok/YouTube child safety finding, Trump-Taiwan call, DRC Ebola hospital burned, Air France/Airbus manslaughter verdict
-- [[representation-reading-for-inference-safety-monitoring]] — Bridge synthesis: using steering vectors as probes (representation reading) for real-time AI safety monitoring during inference — connecting activation engineering to inference-time safety oversight and deployment monitoring
-- [[2606.05828-statistical-priors-local-harness]] — arxiv paper — local harness that decouples statistical preference learning from semantic intent parsing for personal-agent skill selection
-- [[israel-strikes-beirut-after-truce-june-7-2026]] — Israel strikes Beirut suburb days after US-brokered truce, citing Hezbollah fire — immediate escalation risk to ceasefire
-- [[chornobyl-drone-strike-zelensky-june-7-2026]] — Russian drone strikes spent nuclear fuel storage near Chornobyl; Zelensky condemns ahead of London talks, raising nuclear safety and escalation concerns
-- [[russia-economic-forum-drone-attacks-st-petersburg-june-7-2026]] — Russian drone attacks on St Petersburg overshadow Putin's flagship SPIEF economic forum — deepening war reaches Russia's second city
-- [[armenia-election-pashinyan-third-term-june-7-2026]] — Armenia votes — Pashinyan seeks third term under Russian pressure; election determines whether Armenia continues Westward pivot
-- [[peru-presidential-runoff-left-right-june-7-2026]] — Peru presidential runoff — left-right choice amid violence surge; voters prioritize security
-- [[2026-06-07-global-news]] — Daily global news briefing — June 7, 2026: Israel strikes Beirut (ceasefire collapse risk) | Chornobyl drone strike | St Petersburg attacks | OPEC+ symbolic quota | Armenia election
-- [[quantum-reconstruction-program-and-gpt]] — Gemini AI conversation exploring the Quantum Reconstruction Program — deriving quantum theory from physical principles via Generalized Probability Theory (GPT), examining principle vs. constructive theory approaches, continuous reversibility, and capacity limits.
+- [[iran-launches-missiles-at-israel-june-8-2026]] — Iran launched missiles at Israel on June 8 — first direct state-to-state exchange since April ceasefire; retaliation for Israel's Beirut strike
+- [[israel-strikes-beirut-ceasefire-collapses-june-8-2026]] — Israel struck Beirut again on June 8, collapsing US-brokered ceasefire within 48 hours; triggered Iran missile retaliation
+- [[tech-stock-plunge-ai-rally-cools-june-8-2026]] — Global tech stocks plunged as AI rally cooled and Iran-Israel conflict drove risk-off; Treasuries dropped on rate hike bets, oil gained
+- [[xi-jinping-visits-north-korea-summit-june-8-2026]] — Xi Jinping to meet Kim Jong Un in North Korea — first summit since nuclear expansion announcement; positions China as peninsula mediator
+- [[ukraine-europe-peace-conditions-us-steps-back-june-8-2026]] — European allies set five conditions for Ukraine peace talks as US withdraws mediator role — structural shift in diplomatic architecture
+- [[philippines-earthquake-tsunami-alerts-june-8-2026]] — Strong earthquake struck southern Philippines, triggering tsunami warnings across multiple Asian countries including Indonesia, Japan, Taiwan
+- [[2026-06-08-global-news]] — Daily global news briefing — June 8, 2026: Iran missiles at Israel | Israel-Beirut ceasefire collapse | Tech stock plunge | Xi-Kim summit | Europe Ukraine conditions | Philippines earthquake

@@ -36,4 +36,4 @@ GSD manifests track phase state and prevent skipping steps.
 - [[get-shit-done]]
 
 - [[spec-driven-development]] — related methodology
-- [[hermes-agent]] — Hermes has GSD-related skills (gsd-*)
+- [[entities/tools/hermes-agent]] — Hermes has GSD-related skills (gsd-*)

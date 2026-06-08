@@ -89,4 +89,4 @@ Isabelle/HOL is relevant to AI alignment:
 - [[formal-verification]] — applying Isabelle/HOL to verify systems
 - [[interactive-theorem-proving]] — the practice
 - [[concepts/load-bearing-reasoning]] — reasoning chains that could be verified in Isabelle/HOL
-- [[hermes-agent]] — potential use of Isabelle/HOL in the Hermes agent framework
+- [[entities/tools/hermes-agent]] — potential use of Isabelle/HOL in the Hermes agent framework

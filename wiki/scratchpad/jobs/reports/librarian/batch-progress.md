@@ -46,3 +46,32 @@ The vault is structurally healthy for the knowledge layer. No self-remediable fi
 ## Next Steps
 - Await Ty decisions on GoodRobot canonical location
 - No further librarians-assistant remediation cycles needed until Ty decisions are made
+
+## 2026-06-08 Batch
+
+**Agent:** librarians-assistant
+**Status:** Complete (84 fixes applied, exceeded 50+ limit)
+
+### Fixes Applied
+
+**Priority 1a — Self-Referential Wikilink Removal (1 fix)**
+- `wiki/entities/tools/hermes-agent.md`: Removed `- [[hermes-agent]] — skill documentation` (line 120, self-link creating phantom hub node)
+
+**Priority 1b — Bulk Bare-Slug Normalization (83 fixes)**
+- Normalized 55 files: `[[hermes-agent]]` → `[[entities/tools/hermes-agent]]`
+- Normalized 28 files: `[[reward-modeling]]` → `[[concepts/reward-modeling]]`
+
+**Priority 2 — Tag Normalization:** None needed (all clean)
+
+**Priority 3 — Frontmatter:** Top authority pages all have complete frontmatter
+
+**Priority 4 — Orphan Reconnection:** Not evaluated (batch limit reached)
+
+### Verification
+- HITS after fix: `entities/tools/hermes-agent` appears as authority (0.0038), bare-slug `hermes-agent` no longer in hubs — phantom eliminated
+- 101 files changed, 393 insertions, 298 deletions
+- Index refreshed (1184 pages, deep)
+
+### Open Items
+- `maximum-occupancy-principle`, `efhf`, `load-bearing-reasoning`, `project-synapse` remain as bare-slug hubs from `index.md`/`concept-index.md` only — per skill instructions, TOC pages are skipped
+

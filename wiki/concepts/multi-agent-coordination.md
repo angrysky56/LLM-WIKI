@@ -134,7 +134,7 @@ Recent work applies these classical coordination patterns to LLM-based multi-age
 - [[multi-agent-llm-systems]] — LLM-based systems that use these coordination mechanisms
 - [[agentic-hierarchy]] — hierarchical structure that shapes coordination relationships
 - [[entities/projects/project-synapse]] — specific knowledge graph used as shared state for coordination
-- [[hermes-agent]] — supports multi-agent coordination patterns
+- [[entities/tools/hermes-agent]] — supports multi-agent coordination patterns
 - [[delegation]] — task assignment as a coordination primitive
 - Concept: [[categorical-reasoning]]
 - Concept: [[onboarding-standards]]

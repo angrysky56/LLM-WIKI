@@ -73,5 +73,5 @@ markovian-dev-agency/
 
 - [[markovian-carryover]] — protocol
 - [[bounded-structured-memory]] — architecture
-- [[hermes-agent]] — execution framework
+- [[entities/tools/hermes-agent]] — execution framework
 - [[paperclip]] — inspiration source

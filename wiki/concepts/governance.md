@@ -84,7 +84,7 @@ AI governance does not exist in a vacuum. AI systems are developed, deployed, an
 - [[ai-governance-substrate]] — architectural implementation of governance principles
 - [[institutional-accountability]] — organizational structures for accountability
 - [[institutional-capture]] — failure mode where institutions drift from stated purposes
-- [[reward-modeling]] — governance through outcome-based incentives
+- [[concepts/reward-modeling]] — governance through outcome-based incentives
 - [[agentic-oversight]] — oversight mechanisms specific to agentic systems
 - [[accountability]] — the specific norm of answerability for actions and outcomes
 - Concept: [[institutional-design]]

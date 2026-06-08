@@ -39,7 +39,7 @@ Delegate tasks to subagents via `delegate_task`. Subagents run as independent OS
 SQLite-backed task board for multi-agent coordination. Shared across all profiles via `~/.hermes/kanban.db`.
 
 ## Connections
-- [[hermes-agent]] — entity page
+- [[entities/tools/hermes-agent]] — entity page
 - [[hermes-mcp-integration]] — MCP setup
 - [[hermes-agent-faq-troubleshooting]] — FAQ
 - [[mcp-model-context-protocol]] — protocol reference

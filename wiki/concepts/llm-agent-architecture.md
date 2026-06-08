@@ -58,7 +58,7 @@ Agents must maintain state across multiple reasoning steps:
 - **Persistent memory**: Long-term knowledge and experience
 - **World model state**: Internal model of the environment
 
-The [[hermes-agent]] framework provides a delegate_task pattern for spawning sub-agents, tool registry for file system/shell/git operations, state management for iteration loops, and safety constraints via soul configuration.
+The [[entities/tools/hermes-agent]] framework provides a delegate_task pattern for spawning sub-agents, tool registry for file system/shell/git operations, state management for iteration loops, and safety constraints via soul configuration.
 
 ## Failure Modes at the Boundary
 

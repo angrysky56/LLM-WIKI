@@ -61,7 +61,7 @@ Applying the [[critical-analysis]] framework to this study:
 
 ## Connections
 
-- **[[reward-modeling]]**: A significant shift from text-based to state-based reward evaluation.
+- **[[concepts/reward-modeling]]**: A significant shift from text-based to state-based reward evaluation.
 - **[[hidden-states]]**: Demonstrates the high information density of internal representations for self-evaluation.
 - **[[reasoning]]**: Enhances Best-of-N sampling, a core technique for scaling test-time compute.
 - **[[critical-analysis]]**: This summary serves as a materialized instance of the scientific review process.

@@ -42,6 +42,6 @@ uv pip install -e ".[mcp]"
 ```
 
 ## Connections
-- [[hermes-agent]] — parent tool
+- [[entities/tools/hermes-agent]] — parent tool
 - [[hermes-mcp-integration]] — Hermes-specific MCP setup
 - [[mcp-model-context-protocol]] — concept reference

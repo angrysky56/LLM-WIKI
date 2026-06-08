@@ -34,7 +34,7 @@ Existing robust RLHF techniques fail to fully resolve alignment tampering withou
 ## Related
 
 - [[reinforcement-learning-from-human-feedback]] — RLHF background
-- [[reward-modeling]] — reward model limitations
+- [[concepts/reward-modeling]] — reward model limitations
 - [[AI-safety-vulnerabilities]] — broader class of issues
 - [[best-of-n-sampling]] — amplification mechanism
 - [[PPO]], [[DPO]] — affected algorithms

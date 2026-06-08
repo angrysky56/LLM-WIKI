@@ -33,5 +33,5 @@ Gateway events include: `gateway:startup`, `agent:start`, `agent:end`, `agent:st
 - [[wiki/index]]
 - [[event-hooks-hermes-agent]]
 
-- [[hermes-agent]] — parent system
+- [[entities/tools/hermes-agent]] — parent system
 - [[webhook-subscriptions]] — webhook delivery pattern related to gateway hooks

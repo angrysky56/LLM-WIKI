@@ -52,4 +52,4 @@ upstream/main
 - [[hermes-path-forward]]
 
 - [[codegraph-hermes-phase1-implementation]] — Phase 1 detailed implementation
-- [[hermes-agent]] — Target project
+- [[entities/tools/hermes-agent]] — Target project

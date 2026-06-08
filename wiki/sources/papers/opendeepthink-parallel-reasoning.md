@@ -39,7 +39,7 @@ CF-73: 73 expert-rated Codeforces problems with International Grandmaster annota
 
 ## Connections
 
-- [[reward-modeling]] — connection to pairwise ranking as an alternative to explicit reward models
+- [[concepts/reward-modeling]] — connection to pairwise ranking as an alternative to explicit reward models
 - [[llm-evaluation]] — Codeforces Elo as LLM reasoning benchmark
 
 ## Open Questions

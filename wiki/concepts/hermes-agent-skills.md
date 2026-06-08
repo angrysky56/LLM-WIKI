@@ -105,7 +105,7 @@ updated: 2026-05-27T05:45:09Z
 - [[log]]
 - [[concepts/hermes-agent-skills]]
 
-- [[hermes-agent]] — parent concept
+- [[entities/tools/hermes-agent]] — parent concept
 - [[autonomous-ai-agents]] — autonomous AI agents skill; multi-agent orchestration parent
 - [[kanban]] — kanban workflow skill with lifecycle documentation
 

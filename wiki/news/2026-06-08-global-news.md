@@ -1,5 +1,5 @@
 ---
-summary: Daily global news briefing — June 8, 2026: Iran missiles at Israel | Israel-Beirut ceasefire collapse | Tech stock plunge | Xi-Kim summit | Europe Ukraine conditions | Philippines earthquake
+summary: "Daily global news briefing — June 8, 2026: Iran missiles at Israel | Israel-Beirut ceasefire collapse | Tech stock plunge | Xi-Kim summit | Europe Ukraine conditions | Philippines earthquake"
 tags: [news, daily-briefing, geopolitics, middle-east, iran, israel, markets, ai, stocks, north-korea, ukraine, philippines, cuba, ebola]
 updated: 2026-06-08T04:45:36Z
 created: 2026-06-08T04:45:36Z

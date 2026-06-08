@@ -11,6 +11,8 @@ created_by: agent
 
 # news — Global News Curator
 
+**LANGUAGE: Write ALL output in English. Do not use Chinese or any other language.**
+
 Scan global news via RSS, identify 3-5 significant stories, ingest to wiki, deliver headlines report. **Use RSS for discovery — NOT wiki search.**
 
 ## Tool Protocol

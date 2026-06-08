@@ -214,7 +214,7 @@ EnvFactory's approach to credit assignment operates at multiple levels:
 - [[xu-envfactory-2026]]
 
 - [[agentic-research]] — Agentic research paradigm; EnvFactory addresses implementation drift and context degradation
-- [[reward-modeling]] — Process vs outcome reward models; EnvFactory's step-level RL training enables fine-grained credit assignment
+- [[concepts/reward-modeling]] — Process vs outcome reward models; EnvFactory's step-level RL training enables fine-grained credit assignment
 - [[entities/projects/efhf]] — EFHF architecture layers align with EnvFactory's three-tier pipeline
 - [[agent-group-evolving-molecular-system-agem]] — AGEM/MOP tool-use environment requirements
 - [[mcp-model-context-protocol]] — EnvFactory's tool interface standard

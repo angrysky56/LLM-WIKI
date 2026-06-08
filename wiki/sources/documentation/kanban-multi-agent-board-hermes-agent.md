@@ -62,6 +62,6 @@ Workers that fail to heartbeat within the configured timeout are assumed dead. T
 - [[sources/documentation/kanban-multi-agent-board-hermes-agent]]
 - [[kanban-multi-agent-board-hermes-agent]]
 
-- [[hermes-agent]] — parent system
+- [[entities/tools/hermes-agent]] — parent system
 - [[scheduled-tasks-cron-hermes-agent]] — related cron feature
 - [[profiles-running-multiple-agents]] — related multi-profile feature

@@ -83,7 +83,7 @@ The key insight from SD-Search: GRPO's trajectory-level advantage averages over 
 - [[concepts/group-relative-policy-optimization]]
 - [[concepts/essa]]
 
-- [[reward-modeling]] — GRPO is the RL algorithm used to optimize reward models in LLM training
+- [[concepts/reward-modeling]] — GRPO is the RL algorithm used to optimize reward models in LLM training
 - [[inference-time-compute-scaling]] — SD-Search uses GRPO + self-distillation for step-level credit assignment
 - [[concepts/maximum-occupancy-principle]] — MOP's stochastic optimal policy principle has structural parallels to GRPO's group-relative advantage computation
 - [[constitutional-ai]] — CAI uses RLHF (PPO/DPO) while GRPO is an alternative approach to policy optimization

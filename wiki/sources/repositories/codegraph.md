@@ -48,5 +48,5 @@ Pre-indexed code knowledge graph — builds an index of code structure and seman
 - [[sources/repositories/codegraph]]
 
 - Related to [[codegraph]] (this project)
-- Related to [[hermes-agent]] integration potential
+- Related to [[entities/tools/hermes-agent]] integration potential
 - Related to [[claude-code]] tooling

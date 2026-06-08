@@ -52,5 +52,5 @@ Evaluating the "so what?" of the research.
 - Concept: [[academic-peer-review]]
 - Concept: [[hidden-states]]
 - Concept: [[reward-inside-model-elhsr]]
-- Concept: [[reward-modeling]]
+- Concept: [[concepts/reward-modeling]]
 

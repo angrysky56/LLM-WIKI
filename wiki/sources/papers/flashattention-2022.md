@@ -1,11 +1,4 @@
 ---
-summary: FlashAttention: IO-aware exact attention algorithm using tiling to reduce HBM reads/writes; foundational LLM kernel optimization
-tags: [attention, transformer, kernel-optimization, inference-efficiency, gpu]
-updated: 2026-06-05T20:09:39Z
-created: 2026-06-05T20:09:39Z
----
-
----
 created: 2026-06-06
 updated: 2026-06-06
 type: source

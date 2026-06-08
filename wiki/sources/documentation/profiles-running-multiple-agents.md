@@ -60,6 +60,6 @@ Each profile lives in `~/.hermes/profiles/<name>/` and contains:
 - [[wiki/index]]
 - [[profiles-running-multiple-agents]]
 
-- [[hermes-agent]] — parent system
+- [[entities/tools/hermes-agent]] — parent system
 - [[kanban-multi-agent-board-hermes-agent]] — task coordination across profiles
 - [[scheduled-tasks-cron-hermes-agent]] — scheduling for profile-bound tasks

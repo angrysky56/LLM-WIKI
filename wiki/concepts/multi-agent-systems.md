@@ -108,7 +108,7 @@ The [[llm-agent-architecture]] pattern addresses single-agent runtime architectu
 - [[bounded-structured-memory]] — shared memory as coordination substrate
 - [[code-as-agent-harness]] — code artifacts as coordination medium
 - [[gamma-world]] — concrete example of shared world modeling
-- [[hermes-agent]] — example of agent system with coordination patterns
+- [[entities/tools/hermes-agent]] — example of agent system with coordination patterns
 
 ## Open Questions
 

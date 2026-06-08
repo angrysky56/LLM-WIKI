@@ -39,4 +39,4 @@ Tool support: vision, thinking, audio, cloud, e2b, e4b, 26b, 31b variants.
 - [[gemma4]]
 
 - [[ollama]] — the runtime used for Gemma 4
-- [[hermes-agent]] — Hermes can run Gemma 4 via `ollama launch hermes --model gemma4`
+- [[entities/tools/hermes-agent]] — Hermes can run Gemma 4 via `ollama launch hermes --model gemma4`

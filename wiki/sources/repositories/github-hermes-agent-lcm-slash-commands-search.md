@@ -22,6 +22,6 @@ This is a GitHub search results page, not a primary source document. It referenc
 - Slash command implementations
 
 ## Connections
-- [[hermes-agent]] — primary tool reference
+- [[entities/tools/hermes-agent]] — primary tool reference
 - [[hermes-agent-documentation]] — official docs
 - [[create-custom-subagents]] — subagent creation patterns

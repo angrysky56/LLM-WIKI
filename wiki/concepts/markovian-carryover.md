@@ -172,7 +172,7 @@ LLM-WIKI/
 ## Connections
 - Concept: [[agentic-hierarchy]]
 - Concept: [[delegation]]
-- Concept: [[hermes-agent]]
+- Concept: [[entities/tools/hermes-agent]]
 - Concept: [[markovian-dev-agency]]
 - Concept: [[persistent-goals-hermes-agent]]
 - [[agents]]

@@ -85,6 +85,6 @@ This is unique among major proof assistants — Coq is tied to CIC, Lean to its 
 - [[formal-methods]] — the broader field
 - [[formal-verification]] — application to seL4 and similar projects
 - [[concepts/load-bearing-reasoning]] — potential use in verifying AI reasoning chains
-- [[hermes-agent]] — Hermes could use Isabelle to formally verify agent safety properties
+- [[entities/tools/hermes-agent]] — Hermes could use Isabelle to formally verify agent safety properties
 - [[category-theory]]
 - [[prover9]]

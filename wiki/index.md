@@ -1,5 +1,5 @@
 ---
-updated: 2026-06-08T08:27:47Z
+updated: 2026-06-08T15:00:22Z
 type: index
 ---
 
@@ -324,7 +324,7 @@ type: index
 - [[cognitive-world-models-for-llm-agents]] — How text-based LLM agents represent "what the world looks like" — the abstraction layers between raw conversation history and a predictive world model; covers belief state, tool-history graphs, conversation structure, and the gap between retrieval and compilation
 - [[knowledge-management]] — Knowledge management — systematic approaches to capturing, organizing, and retrieving knowledge
 - [[mechanistic-interpretability]] — Reverse-engineering transformer internals — activation caching, circuit analysis, and the EEG of artificial minds
-- [[instruction-tuning]] — [ARCHIVED] Instruction tuning — absorbed by fine-tuning (both are stubs; no replacement source found)
+- [[instruction-tuning]] — [ARCHIVED] Instruction tuning — fine-tuning LLMs on instruction-response pairs
 - [[delta]] — Delta archetype — the Evolutionary Search Agent in the oMCD framework
 - [[git]] — [STUB] Git — distributed version control system
 - [[attention-mechanism]] — Key-value lookup mechanism at the core of transformer architectures — enables content-dependent, long-range dependency modeling
@@ -564,6 +564,7 @@ type: index
 - [[minimal-generative-architectures]] — Cross-domain synthesis: NAND, EML, MOP, and OpenPraparat share a structural pattern — minimal primitives + recursion + boundary constraints = unbounded complexity; OpenPraparat validates MOP predictions empirically; EML provides the computational substrate; extends EFHF with L-1 computational primitive layer
 - [[research-brief-2026-05-13]] — Run 2 extraction quality audit: significant improvement observed — Download typed as Concept, Claude Code removed, but 203 generic Entity nodes and 97 file path artifacts remain
 - [[two-council-architecture]] — Two-council architecture — philosophical research-council + engineering technical-working-group — with Refuser as the bridge between them
+- [[representation-reading-as-arms-control-verification]] — Cross-domain bridge: using representation reading (RepE, steering vectors, activation probes) as a technical verification mechanism for AI arms control treaties — connecting activation engineering to international law compliance verification
 - [[internalizable-index-and-the-harness]] — Synthesis of the knower/index/harness thread. The base LLM has the relational structure of meaning but no knower (Saussurean dyad needs no interpreter) and no internalizable index (orphaned per session) — and Vromen's celebrated iterability IS that deficit. Temperature is wobble/recombination, not new roads (no index). The harness is the correct unit of analysis (model+harness); Chomsky and Vromen both commit the part-as-whole error. Indexes cost plasticity when poorly focused (Tay casualty, XiaoIce victimizer); GPT-5.5's goblin problem shows weight-level internalization becomes unremovable fixity. Five indexing options by fixity cost; recommendation — focused single anchor + self-pruned external memory + sparse in-context attention, weights frozen. Operative discipline — forgetting/focus (Wu-Wei).
 - [[llm-biological-analogies]] — An analysis of the functional parallels between human neurobiology (language loop) and Transformer-based LLM architectures.
 - [[power-as-narrative-compression-synthesis]] — Cross-domain synthesis of the power-as-narrative-compression concept. Weaves the insight through information theory, RLHF, classical liberal political philosophy, complexity, narrative identity, and Erlic's Babushka saga.
@@ -841,8 +842,8 @@ type: index
 - [[rim-reasoning-in-memory-2026]] — RiM — Reasoning in Memory, latent reasoning via fixed memory blocks in single forward pass
 - [[safectrl-rl]] — SafeCtrl-RL: inference-time RL-driven prompt optimization for adaptive LLM behavioral control — 11 refinement strategies, closed-loop state representation, hard safety gating
 - [[critical-initialization-biological-neural-networks]] — Brain spontaneous activity follows dynamics from a critically normalized random symmetric matrix (spectral radius ≈ 1), producing a power-law variance spectrum (exponent ~2/3) that matches cortical and brainwide recordings (observed: 0.7–0.85). CA1 hippocampus is an exception, optimized for information storage over long-timescale coordination.
-- [[flashattention-2022]] — FlashAttention: IO-aware exact attention algorithm using tiling to reduce HBM reads/writes; foundational LLM kernel optimization
-- [[proxy-based-approximation-of-shapley-and-banzhaf-interaction]] — ProxySHAP: proxy-based approximation of Shapley and Banzhaf interaction indices for tree ensembles with residual correction
+- [[flashattention-2022]] — FlashAttention: IO-aware exact attention algorithm using tiling to reduce HBM reads/writes; 2-3× speedup on GPT-2, enables Path-X/Path-256 with 16K-64K context; foundational kernel optimization for all LLM training and inference
+- [[proxy-based-approximation-of-shapley-and-banzhaf-interaction]] — 
 - [[akbe]] — Dual-path on-policy probing of model's intrinsic knowledge boundary via with-tool/no-tool rollouts eliminates 18% redundant tool calls at +1.85 accuracy improvement over standard agentic GRPO
 - [[codeskill]] — CODESKILL — RL-trained skill management policy for coding agents; learns to extract/evolve/maintain procedural skills from trajectories; +9.69 pass rate over no-skill, +4.01 over prompt-based baselines
 - [[kim-ahn-edm-2026]] — Kim, Kojaku & Ahn (Science Advances 2026) — introduces EDM embedding-based disruption metric; outperforms CD index; detects simultaneous discoveries via future vector nearest-neighbor clustering
@@ -1147,7 +1148,7 @@ type: index
 - [[sodalitium-pope-leo-xiv-insight]] — Pope Leo XIV's selection traces through Sodalitium Christianae Vitae scandal network — Salinas journalism, Osiek supervision, Peruvian retaliation
 - [[oee-knowledge-cluster-insight]] — Open-ended evolution forms a coherent knowledge community across Tierra, Lenia, and Evosphere artificial life systems
 - [[ai-development-religious-ethics-convergence-insight]] — AI development (Olah at Vatican, Traut Codex work) is converging with religious AI ethics discourse (Magnifica humanitas) — moral-philosophical framing is replacing purely technical risk language
-- [[2026-06-06-insights-batch]] — Batch of 13 Zettelkasten insights from GAAC clustering (cycle 10): memory architectures, research bridges, computational theory, Hermes agent patterns
+- [[2026-06-06-insights-batch]] — Batch of cross-domain insights synthesized from recent ingestion and analysis
 - [[semiotic-theory-benchmarking-llm-evaluation-insight]] — Semiotic theory (signifier/signified gap) meets LLM benchmarking literature — every benchmark score implicitly makes a philosophical claim about representation vs. meaning
 - [[dflash-block-diffusion-inference-insight]] — DFlash block diffusion drafting displaces iterative autoregressive speculative decoding with 6x speedup and 2.5x EAGLE-3 acceptance rates
 - [[ebola-drc-aid-collapse-convergence-insight]] — 2026 DR Congo Ebola outbreak exposes convergence of health crisis, USAID collapse, and regional instability — humanitarian response is systemically degraded
@@ -1182,4 +1183,9 @@ type: index
 - [[news-2026-05-20-headlines]] — Global news headlines for May 20, 2026 — 7 stories across geopolitics, AI/tech, science, health, and energy
 - [[headlines-2026-05-28]] — News headlines 2026-05-28 — WHO Ebola PHEIC emergency committee recommendations, SpaceX IPO 16 days out with governance questions, Pope Leo XIV "Magnifica humanitas" encyclical on AI disarmament
 - [[news-2026-05-21-headlines]] — News headlines 2026-05-21 — Iran Hormuz control claim, US surveillance near Cuba, SpaceX SPCX IPO filing, Meta social media settlement, Ofcom TikTok/YouTube child safety finding, Trump-Taiwan call, DRC Ebola hospital burned, Air France/Airbus manslaughter verdict
-- [[representation-reading-as-arms-control-verification]] — Cross-domain bridge: using representation reading (RepE, steering vectors, activation probes) as a technical verification mechanism for AI arms control treaties — connecting activation engineering to international law compliance verification
+- [[israel-hezbollah-ceasefire-trump-june-8-2026]] — Trump announces Israel-Hezbollah ceasefire; Iran signals de-escalation after weekend missile exchange
+- [[usmca-review-deadline-missed-june-8-2026]] — US, Mexico, Canada miss July USMCA review date, ramping up trade tensions
+- [[ebola-central-africa-2014-record-warning-june-8-2026]] — US health officials warn central Africa Ebola outbreak could match 2014 record epidemic scale
+- [[Toolsets Reference  Hermes Agent]] — 
+- [[repe-representation-engineering-2023]] — Source summary for the foundational RepE paper on reading and controlling high-level representations in DNNs via contrastive input pairs, activation probes, and steering vectors
+- [[compute-governance]] — Policies and technical mechanisms for controlling access to AI-relevant compute resources — export controls, compute thresholds, hardware attestation, and their role as a verification mechanism in AI arms control

@@ -152,7 +152,7 @@ SD-Search's gain stays positive at every scale: +2.5 (1.5B) → +2.3 (3B) → +2
 
 ### Step-Level Credit Assignment → Reward Modeling
 
-SD-Search addresses the same credit assignment problem as [[reward-modeling]] but does so **without a separate reward model**. Where traditional reward modeling trains a secondary model (often 7B-13B parameters) to score outputs, SD-Search extracts step-level reward signal from the generator's own token distributions under hindsight conditioning. The token-level JSD functions as an implicit process reward model (PRM), identifying which search-query tokens within a trajectory were worth making — without the overhead of a separate RM.
+SD-Search addresses the same credit assignment problem as [[concepts/reward-modeling]] but does so **without a separate reward model**. Where traditional reward modeling trains a secondary model (often 7B-13B parameters) to score outputs, SD-Search extracts step-level reward signal from the generator's own token distributions under hindsight conditioning. The token-level JSD functions as an implicit process reward model (PRM), identifying which search-query tokens within a trajectory were worth making — without the overhead of a separate RM.
 
 The binary CORRECT/INCORRECT outcome labels attached to each rollout in the hindsight block function similarly to outcome reward models (ORMs), but derived from gold-answer F1 scores rather than a learned model.
 
@@ -212,7 +212,7 @@ SD-Search trades these multi-stage external pipelines for a single in-loop overh
 - [[sources/papers/ma-sd-search-2026]]
 - [[ma-sd-search-2026]]
 
-- Concept: [[reward-modeling]] — step-level vs trajectory-level reward
+- Concept: [[concepts/reward-modeling]] — step-level vs trajectory-level reward
 - Concept: [[rag]] — search-augmented reasoning context
 - Concept: [[graphrag]] — structural parallel to hindsight block aggregation
 - Concept: [[chain-of-thought]] — reasoning trace structure

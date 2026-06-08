@@ -18,7 +18,7 @@ confidence: 0.95
 
 # hermes-agent-self-evolution
 
-Evolutionary self-improvement toolkit for [[hermes-agent]] using [[dspy|DSPy]] + [[gepa|GEPA]] (Genetic-Pareto Prompt Evolution). Optimizes skills, tool descriptions, system prompts, and (eventually) tool code via reflective evolutionary search over execution traces. No GPU training required — pure API calls, ~$2-10 per optimization run.
+Evolutionary self-improvement toolkit for [[entities/tools/hermes-agent]] using [[dspy|DSPy]] + [[gepa|GEPA]] (Genetic-Pareto Prompt Evolution). Optimizes skills, tool descriptions, system prompts, and (eventually) tool code via reflective evolutionary search over execution traces. No GPU training required — pure API calls, ~$2-10 per optimization run.
 
 ## How it works
 
@@ -80,11 +80,11 @@ python -m evolution.skills.evolve_skill --skill github-code-review --iterations 
 
 ## Why it matters for this vault
 
-This is *self-hostable* agent improvement. Skills in this vault ([[hermes-agent]], [[ingest]], [[librarian]], [[researcher]], [[news]], [[arxiv]], [[insights]]) are the kind of artifact this tool is designed to evolve. Phase 1 already supports iterating any of them by name.
+This is *self-hostable* agent improvement. Skills in this vault ([[entities/tools/hermes-agent]], [[ingest]], [[librarian]], [[researcher]], [[news]], [[arxiv]], [[insights]]) are the kind of artifact this tool is designed to evolve. Phase 1 already supports iterating any of them by name.
 
 ## Connections
 
-- [[hermes-agent]] — the tool that ships these optimizations
+- [[entities/tools/hermes-agent]] — the tool that ships these optimizations
 - [[dspy]] — declarative LM program framework
 - [[gepa]] — Genetic-Pareto Prompt Evolution (ICLR 2026 Oral)
 - [[entities/projects/darwinian-evolver]] — code-evolution engine used in Phase 4

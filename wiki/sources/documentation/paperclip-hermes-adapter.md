@@ -38,5 +38,5 @@ Skills merge from Paperclip-managed (UI-togglable) and Hermes-native (`~/.hermes
 - [[sources/repositories/paperclip]]
 - [[paperclip-hermes-adapter]]
 
-- [[hermes-agent]] — the agent being adapter
+- [[entities/tools/hermes-agent]] — the agent being adapter
 - [[paperclip]] — parent orchestration system

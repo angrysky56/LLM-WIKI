@@ -95,7 +95,7 @@ For MoE systems specifically, GRPO may naturally preserve expert diversity bette
 - [[group-relative-policy-optimization]] — alternative to PPO/DPO, structurally closer to MOP
 - [[mop-and-rlhf-interaction]] — tension between MOP entropy and KL-regularization
 - [[concepts/maximum-occupancy-principle]] — MOP's incompatible entropy objective
-- [[reward-modeling]] — the reward model is the alignment bottleneck
+- [[concepts/reward-modeling]] — the reward model is the alignment bottleneck
 - [[mixture-of-experts]] — where RLHF causes routing collapse
 - Concept: [[llm-training]]
 - Concept: [[mop-next-token-prediction]]

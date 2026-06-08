@@ -1,5 +1,5 @@
 ---
-summary: Cross-domain bridge: using representation reading (RepE, steering vectors, activation probes) as a technical verification mechanism for AI arms control treaties — connecting activation engineering to international law compliance verification
+summary: "Cross-domain bridge: using representation reading (RepE, steering vectors, activation probes) as a technical verification mechanism for AI arms control treaties — connecting activation engineering to international law compliance verification"
 tags: [synthesis, cross-domain, ai-governance, arms-control, verification, activation-engineering, representation-engineering, ai-safety]
 updated: 2026-06-08T08:13:35Z
 created: 2026-06-08T08:13:35Z
@@ -93,16 +93,22 @@ For this protocol to work, several technical prerequisites must be met:
 - [[concepts/ai-policy-arms-control-treaty]] — treaty structure, verification challenges, nuclear analogy
 - [[synthesis/representation-reading-for-inference-safety-monitoring]] — established bridge from reading to safety monitoring
 
-### Supporting sources:
+### Source Anchors
 
-- [[concepts/ai-safety]] — the downstream domain; safety monitoring is the same technical capability applied to a different governance context
-- [[synthesis/representation-reading-safety-monitoring]] — early framing of reading as sensing in control loop
+- [[sources/papers/repe-representation-engineering-2023]] — The RepE paper (Zou et al., 2023) providing the technical foundation: CAA for reading/steering, linear probes for monitoring, contrastive pair methodology
+- [[sources/articles/pope-leo-ai-encyclical-magnifica-humanitas-may-2026]] — The encyclical that gives arms control urgency; identifies verification as critical bottleneck
+- [[concepts/ai-policy-arms-control-treaty]] — Treaty design principles and the verification challenge
+
+### Supporting concept pages
+
+- [[concepts/ai-safety]] — safety monitoring is the same technical capability applied to a different governance context
+- [[concepts/compute-governance]] — hardware-layer governance as a complementary mechanism to activation-space verification
+- [[concepts/steering-vectors]] — the primary steering technique derived from RepE
 - [[concepts/ai-policy-global-governance]] — broader governance context
-- [[sources/articles/pope-leo-ai-encyclical-magnifica-humanitas-may-2026]] — the encyclical that gives arms control urgency
+- [[synthesis/representation-reading-for-inference-safety-monitoring]] — early framing of reading as sensing in control loop
 
-### Reciprocal links needed (to be added):
+### Cross-links to add in reciprocal pages
 
-- [[concepts/ai-policy-arms-control-treaty]] → add this page as evidence that verification mechanisms could include activation-space probing
 - [[concepts/steering-vectors]] → add an open question about arms control verification application
 - [[synthesis/representation-reading-for-inference-safety-monitoring]] → add an "extensions" section mentioning this bridge
 

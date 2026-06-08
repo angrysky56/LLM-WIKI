@@ -66,7 +66,7 @@ Institutional capture is one of the primary failure modes of large organizations
 - [[institutional-accountability]] — accountability mechanisms attempt to prevent capture by keeping underlying goals legible
 - [[accountability]] — general accountability structures that can be captured like any other
 - [[agentic-oversight]] — oversight mechanisms are specifically vulnerable to capture if they are evaluated on the same metrics as the systems they oversee
-- [[reward-modeling]] — RLHF reward hacking is a form of institutional capture at the model level
+- [[concepts/reward-modeling]] — RLHF reward hacking is a form of institutional capture at the model level
 - Concept: [[benchmark]]
 - Concept: [[evaluation]]
 - Concept: [[reward-hacking]]

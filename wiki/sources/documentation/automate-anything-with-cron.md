@@ -36,5 +36,5 @@ Cron jobs in Hermes run in fresh, self-contained sessions with no memory of prev
 - [[sources/documentation/automate-anything-with-cron]]
 - [[automate-anything-with-cron]]
 
-- [[hermes-agent]] — parent system with cron feature
+- [[entities/tools/hermes-agent]] — parent system with cron feature
 - [[hermes-agent-skills]] — skills like arxiv, obsidian can be chained in cron workflows

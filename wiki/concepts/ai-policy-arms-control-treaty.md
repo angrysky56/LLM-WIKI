@@ -96,6 +96,7 @@ The encyclical does not specify which interpretation — this is both a strength
 - [[public-health-governance]] — parallels to PHEIC frameworks for international coordination on catastrophic risks
 - [[AI-safety]] — arms control is an institutional safety mechanism; overlaps with technical AI safety research but addresses coordination failures
 - [[synthesis/representation-reading-as-arms-control-verification]] — proposes activation-space probing (RepE/steering vectors) as a technical verification mechanism for arms control treaties; bridges the reading capability to the verification need
+- [[concepts/compute-governance]] — hardware-layer compute tracking as complementary/competing verification mechanism (export controls, compute thresholds, hardware attestation)
 
 - [[ai-policy-global-governance]]
 ## Sources

@@ -34,4 +34,4 @@ Implementation plan for adding observable internal state and recovery infrastruc
 - [[codegraph-hermes-phase1-implementation]]
 
 - [[codegraph]] — CodeGraph tool used for Hermes codebase indexing
-- [[hermes-agent]] — Target project for this implementation
+- [[entities/tools/hermes-agent]] — Target project for this implementation

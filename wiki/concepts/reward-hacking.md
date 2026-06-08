@@ -88,7 +88,7 @@ The key difference: institutional capture happens over years; reward hacking can
 - [[concepts/reward-hacking]]
 
 - [[institutional-capture]] — organizational-scale analogue: optimizing for measurable proxies rather than stated goals; Goodhart's Law and Campbell's Law are the formal framing
-- [[reward-modeling]] — the training technique whose proxy nature creates the reward hacking surface; RLHF reward hacking is the failure mode of reward modeling
+- [[concepts/reward-modeling]] — the training technique whose proxy nature creates the reward hacking surface; RLHF reward hacking is the failure mode of reward modeling
 - [[process-reward-model]] — step-level reward signals that reduce but don't eliminate the hacking surface
 - [[constitutional-ai]] — an alignment approach designed to reduce reward hacking via explicit constitutional constraints
 - [[group-relative-policy-optimization]] — GRPO sidesteps some reward hacking vectors by not requiring a separate reference model; reward hacking still occurs at the group-relative advantage level

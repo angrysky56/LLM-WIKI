@@ -111,4 +111,4 @@ LLM agents differ from classical software agents (as in reinforcement learning o
 - [[agentic-planner]]: the planning capability within agents
 - [[bounded-structured-memory]]: the memory layer for agent continuity
 - [[markovian-carryover]]: the skill implementing forward-state memory
-- [[hermes-agent]]: an LLM agent implementation using these patterns
+- [[entities/tools/hermes-agent]]: an LLM agent implementation using these patterns

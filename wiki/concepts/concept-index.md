@@ -44,7 +44,7 @@ confidence: 0.3
 - [[graphrag]]
 - [[absence-of-worst-case-metric]]
 - [[obsidian-skills-repo]]
-- [[reward-modeling]]
+- [[concepts/reward-modeling]]
 - [[andrej-karpathy]]
 - [[project-synapse]]
 - [[academic-peer-review]]

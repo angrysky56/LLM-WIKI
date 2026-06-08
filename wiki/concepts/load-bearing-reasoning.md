@@ -98,6 +98,6 @@ The Paraclete EBE chain (`check_action` → `calibrate_belief` → `escalate_blo
 - Concept: [[process-reward-model]]
 - Concept: [[proof-assistant]]
 - Concept: [[reasoning]]
-- Concept: [[reward-modeling]]
+- Concept: [[concepts/reward-modeling]]
 - Concept: [[self-correction]]
 - Concept: [[stephen-wolfram]]

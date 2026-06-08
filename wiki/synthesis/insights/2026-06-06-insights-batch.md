@@ -1,14 +1,11 @@
 ---
-summary: Batch of 13 Zettelkasten insights from GAAC clustering (cycle 10): memory architectures, research bridges, computational theory, Hermes agent patterns
-tags: [insights, zettelkasten, synthesis, batch, memory-architecture, ai-research, computational-theory, hermes-agent, tooling]
-updated: 2026-06-06T12:25:51Z
-created: 2026-06-06T12:25:51Z
----
-
-# Insights Batch — 2026-06-06
-
-Generated: 2026-06-06T06:19:01 | Total insights: 13 | All scored 0.85 confidence
-
+created: 2026-06-06
+updated: 2026-06-06
+type: synthesis
+summary: Batch of cross-domain insights synthesized from recent ingestion and analysis
+tags: [synthesis, insights, cross-domain]
+status: active
+confidence: 0.8
 ---
 
 ## 1. Session Memory Architectures Converge Across ReAct, CodeAct, and Markovian Carryover

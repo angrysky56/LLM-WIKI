@@ -34,5 +34,5 @@ Graphify transforms codebases into queryable knowledge graphs using AST analysis
 - [[graphify-ai-coding-assistant-skill]]
 
 - [[neo4j]] — graph backend for code knowledge
-- [[hermes-agent]] — Graphify runs as a skill within Hermes
+- [[entities/tools/hermes-agent]] — Graphify runs as a skill within Hermes
 - [[codebase-inspection]] — related code analysis capability

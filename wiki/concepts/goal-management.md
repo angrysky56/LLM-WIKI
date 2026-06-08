@@ -75,7 +75,7 @@ This connects to [[epistemic-energy]]: when energy is depleted, lower-priority g
 
 ## Hermes Agent Implementation
 
-The [[hermes-agent]] system implements goal management through [[markovian-carryover]]. At session boundary, the agent writes a carryover state that includes:
+The [[entities/tools/hermes-agent]] system implements goal management through [[markovian-carryover]]. At session boundary, the agent writes a carryover state that includes:
 
 - Active goals and their current status
 - Priority ordering

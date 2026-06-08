@@ -20,4 +20,4 @@ confidence: 0.3
 - [[concepts/profiles]]
 - [[concepts/profiles]]
 
-- [[hermes-agent]]
+- [[entities/tools/hermes-agent]]

@@ -34,6 +34,6 @@ delegate_task is for reasoning-heavy parallel subtasks where isolated context an
 - [[sources/documentation/delegation-parallel-work]]
 - [[delegation-parallel-work]]
 
-- [[hermes-agent]] — parent system
+- [[entities/tools/hermes-agent]] — parent system
 - [[create-custom-subagents]] — related subagent pattern (but Claude Code specific)
 - [[profiles]] — multiple independent Hermes agents

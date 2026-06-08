@@ -112,7 +112,7 @@ The field has also explored *in-context fine-tuning* (ICT) — updating the weig
 - [[scaling-laws]] — ICL ability scales with model parameters; a power-law relationship between scale and ICL performance
 - [[inference-time-compute-scaling]] — ICL examples are part of the input; longer context means more compute per token
 - [[chain-of-thought]] — CoT is a form of ICL where the examples demonstrate reasoning steps
-- [[reward-modeling]] — Reward models must learn from few examples via ICL to score new generations
+- [[concepts/reward-modeling]] — Reward models must learn from few examples via ICL to score new generations
 - [[concepts/load-bearing-reasoning]] — ICL is the substrate for the "thinking" that happens in agentic loops
 - Concept: [[causal-reasoning]]
 - Concept: [[emergence]]

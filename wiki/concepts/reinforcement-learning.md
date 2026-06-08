@@ -62,7 +62,7 @@ Unlike outcome reward (scored at final output), process rewards are assigned at 
 
 ## Connections
 
-- [[reward-modeling]] — the technique that trained a separate model to score LLM outputs for RLHF
+- [[concepts/reward-modeling]] — the technique that trained a separate model to score LLM outputs for RLHF
 - [[reward-hacking]] — the principal failure mode when learned reward models become targets
 - [[reinforcement-learning-from-human-feedback]] — RLHF is RL applied at scale to LLM alignment
 - [[autonomous-agents]] — RL is a core training paradigm for developing agent behaviors

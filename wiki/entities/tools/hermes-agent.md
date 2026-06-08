@@ -117,7 +117,7 @@ The bounded-servitors framework ([[bounded-structured-memory]]) extends Hermes w
 - [[subagent-delegation]] — delegate_task mechanics
 - [[bounded-structured-memory]] — layered memory architecture
 - [[markovian-carryover]] — forward-state skill for agent continuity
-- [[hermes-agent]] — skill documentation
+
 - [[markovian-dev-agency]] — runs on Hermes as execution framework
 
 - [[domain-onboarding-standards]]

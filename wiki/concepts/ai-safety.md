@@ -4,9 +4,9 @@ updated: 2026-06-07T14:05:36Z
 type: concept
 summary: Field of research ensuring AI systems operate as intended and avoid unintended harm — technical alignment, robustness, monitoring, and governance
 tags: [ai-safety, alignment, robustness, monitoring, governance, technical-ai-safety]
-sources: []
-status: archived
-confidence: 0.3
+sources: https://arxiv.org/abs/2310.01405, https://www.vatican.va/content/leoxiv/en/encyclicals/magnifica-humanitas.html
+status: active
+confidence: 0.65
 ---
 
 # AI Safety
@@ -86,6 +86,7 @@ Several cross-cutting patterns emerge from the existing wiki coverage:
 - [[concepts/reward-hacking]] — a core failure mode alignment aims to prevent
 - [[concepts/model-editing]] — targeted behavioral modifications for safety
 - [[concepts/process-reward-model]] — step-level reward for oversight
+- [[concepts/compute-governance]] — hardware-layer governance supporting safety verification
 - [[entities/projects/anthropic]] — safety-focused AI lab, origin of Constitutional AI
 - [[entities/projects/huggingface]] — open-source safety research infrastructure
 
@@ -97,7 +98,7 @@ Several cross-cutting patterns emerge from the existing wiki coverage:
 - [[sources/papers/boiling-frog-agentic-safety-2026]] — multi-turn agentic safety benchmark, arXiv:2605.22643, confidence 0.9
 - [[sources/papers/monitoring-agentic-systems-reliability-2026]] — maturity-staged agent monitoring, arXiv:2606.02494, confidence 0.9
 - Constitutional AI (Bai et al., 2022, arXiv:2212.08073) — canonical self-supervised safety training
-- RepE (Zou et al., 2023, arXiv:2310.01405) — representation engineering for steering and monitoring
+- [[sources/papers/repe-representation-engineering-2023|RepE (Zou et al., 2023, arXiv:2310.01405)]] — representation engineering for steering and monitoring
 - Concrete Problems in AI Safety (Amodei et al., 2016, arXiv:1606.06565) — foundational taxonomy
 
 ## Open Questions

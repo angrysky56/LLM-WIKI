@@ -134,7 +134,7 @@ The intelligence is in the pruning: a PRM with 85% accuracy on step-level correc
 - [[concepts/parallel-reasoning]]
 - [[concepts/process-reward-model]]
 
-- [[reward-modeling]] — PRM is a subclass of reward modeling with step-level granularity
+- [[concepts/reward-modeling]] — PRM is a subclass of reward modeling with step-level granularity
 - [[inference-time-compute-scaling]] — PRMs enable intelligent path pruning, the key to efficient test-time compute
 - [[chain-of-thought]] — CoT traces are the "steps" that PRMs score
 - [[concepts/load-bearing-reasoning]] — Identifying which tokens in a trace are load-bearing is the goal PRMs serve

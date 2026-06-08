@@ -15,7 +15,7 @@ confidence: 0.9
 **License**: MIT  
 **Phase**: Phase 1 shipping; Phases 2–5 planned
 
-Evolutionary self-improvement toolkit for [[hermes-agent]] using [[dspy|DSPy]] + [[gepa|GEPA]] (Genetic-Pareto Prompt Evolution). Optimizes skills, tool descriptions, system prompts, and (eventually) tool code via reflective evolutionary search over execution traces.
+Evolutionary self-improvement toolkit for [[entities/tools/hermes-agent]] using [[dspy|DSPy]] + [[gepa|GEPA]] (Genetic-Pareto Prompt Evolution). Optimizes skills, tool descriptions, system prompts, and (eventually) tool code via reflective evolutionary search over execution traces.
 
 ## Five-phase plan
 
@@ -29,7 +29,7 @@ Evolutionary self-improvement toolkit for [[hermes-agent]] using [[dspy|DSPy]] +
 
 ## Connections
 
-- [[hermes-agent]] — the system being improved
+- [[entities/tools/hermes-agent]] — the system being improved
 - [[dspy]] — declarative LM program framework
 - [[gepa]] — genetic-pareto prompt evolution (ICLR 2026 Oral)
 - [[entities/projects/darwinian-evolver]] — code evolution engine for Phase 4

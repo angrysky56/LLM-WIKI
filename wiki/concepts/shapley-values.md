@@ -99,7 +99,7 @@ See [[shap]] for the full treatment of SHAP.
 - [[proxy-based-shapley-banzhaf-2026]] — 2026 paper achieving polynomial-time Shapley/Banzhaf interaction estimation
 - [[mechanism-design]] — broader game theory field: Shapley values are a solution concept within cooperative game theory
 - [[bradley-terry]] — another pairwise comparison framework, related through ranking and preference aggregation
-- [[reward-modeling]] — RL reward models use credit allocation that parallels Shapley's value distribution
+- [[concepts/reward-modeling]] — RL reward models use credit allocation that parallels Shapley's value distribution
 - [[data-valuation]] — Shapley values for measuring data point contributions
 - [[model-interpretation]] — Shapley values as a foundation for interpretability
 

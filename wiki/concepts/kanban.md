@@ -30,7 +30,7 @@ Visual workflow management method using boards, columns (Ready/In Progress/Done)
 - [[concepts/kanban]]
 - [[concepts/kanban]]
 
-- [[hermes-agent]] — the agent using kanban for task orchestration
+- [[entities/tools/hermes-agent]] — the agent using kanban for task orchestration
 - [[bounded-structured-memory]] — carryover patterns used alongside kanban
 - [[markovian-carryover]] — forward-state memory mechanism
 

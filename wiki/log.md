@@ -4533,3 +4533,111 @@ Updated page: wiki/synthesis/representation-reading-as-arms-control-verification
 ## [2026-06-08 08:27] index
 
 Index updated with 1178 pages (Deep refresh completed)
+
+## [2026-06-08 13:40] write
+
+Updated page: wiki/sources/news/2026/israel-hezbollah-ceasefire-trump-june-8-2026.md
+
+## [2026-06-08 13:40] write
+
+Updated page: wiki/sources/news/2026/usmca-review-deadline-missed-june-8-2026.md
+
+## [2026-06-08 13:40] write
+
+Updated page: wiki/sources/news/2026/ebola-central-africa-2014-record-warning-june-8-2026.md
+
+## [2026-06-08 13:41] index
+
+Index updated with 1182 pages
+
+## [2026-06-08 14:06] fetch | representation-engineering-a-top-down-approach-to-ai-transpa.md
+
+Fetched https://arxiv.org/abs/2310.01405 via defuddle → ingested.
+
+Preview: ## Title:Representation Engineering: A Top-Down Approach to AI Transparency  Authors:[Andy Zou](https://arxiv.org/search/cs?searchtype=author&query=Zou,+A), [Long Phan](https://arxiv.org/search/cs?sea...
+
+## [2026-06-08 14:07] write
+
+Updated page: wiki/sources/papers/repe-representation-engineering-2023.md
+
+## [2026-06-08 14:13] fetch | development-of-an-underwater-inductive-coupling-communicatio.md
+
+Fetched https://arxiv.org/abs/2406.02854 via defuddle → ingested.
+
+Preview: ## Title:Development of an underwater inductive coupling communication system with power carrier technology  Authors:[Zhongxing Zhang](https://arxiv.org/search/eess?searchtype=author&query=Zhang,+Z)  ...
+
+## [2026-06-08 14:14] fetch | development-of-an-underwater-inductive-coupling-communicatio.md
+
+Fetched https://arxiv.org/abs/2406.02854 via defuddle → ingested.
+
+Preview: ## Title:Development of an underwater inductive coupling communication system with power carrier technology  Authors:[Zhongxing Zhang](https://arxiv.org/search/eess?searchtype=author&query=Zhang,+Z)  ...
+
+## [2026-06-08 14:15] fetch | development-of-an-underwater-inductive-coupling-communicatio.md
+
+Fetched https://arxiv.org/abs/2406.02854 via defuddle → ingested.
+
+Preview: ## Title:Development of an underwater inductive coupling communication system with power carrier technology  Authors:[Zhongxing Zhang](https://arxiv.org/search/eess?searchtype=author&query=Zhang,+Z)  ...
+
+## [2026-06-08 14:16] write
+
+Updated page: wiki/concepts/compute-governance.md
+
+## [2026-06-08 14:17] index
+
+Index updated with 1184 pages (Deep refresh completed)
+
+## [2026-06-08 14:17] lint
+
+1476 pages · 231 orphans · 6438 broken · 0 missing-fm · report: audits/lint-2026-06-08.md
+
+## [2026-06-08 14:18] write
+
+Updated page: wiki/scratchpad/jobs/reports/researcher/discovery-2026-06-08.md
+
+## [2026-06-08 14:19] write
+
+Updated page: wiki/sources/papers/repe-representation-engineering-2023.md
+
+## [2026-06-08 14:36] lint
+
+1478 pages · 231 orphans · 6438 broken · 0 missing-fm · report: audits/lint-2026-06-08.md
+
+## [2026-06-08 14:43] lint
+
+1478 pages · 231 orphans · 6438 broken · 1 missing-fm · report: audits/lint-2026-06-08.md
+
+## [2026-06-08 14:47] lint
+
+1478 pages · 231 orphans · 6438 broken · 1 missing-fm · report: audits/lint-2026-06-08.md
+
+## [2026-06-08 14:47] lint
+
+1478 pages · 231 orphans · 6438 broken · 0 missing-fm · report: audits/lint-2026-06-08.md
+
+## [2026-06-08 14:49] index
+
+Index updated with 1184 pages
+
+## [2026-06-08 14:51] lint
+
+1478 pages · 231 orphans · 6438 broken · 0 missing-fm · report: audits/lint-2026-06-08.md
+
+## [2026-06-08 14:57] index
+
+Index updated with 1184 pages (Deep refresh completed)
+
+## [2026-06-08 14:59] lint
+
+1478 pages · 231 orphans · 6499 broken · 0 missing-fm · report: audits/lint-2026-06-08.md
+
+## [2026-06-08 15:00] index
+
+Index updated with 1184 pages (Deep refresh completed)
+
+## [2026-06-08 15:11] lint
+
+1478 pages · 231 orphans · 6499 broken · 0 missing-fm · report: audits/lint-2026-06-08.md
+
+## [2026-06-08 15:11] lint
+
+1478 pages · 231 orphans · 6499 broken · 0 missing-fm · report: audits/lint-2026-06-08.md

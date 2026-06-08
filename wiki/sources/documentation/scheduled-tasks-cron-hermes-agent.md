@@ -53,6 +53,6 @@ Cron-run sessions cannot recursively create more cron jobs. Hermes disables cron
 - [[sources/documentation/profiles-running-multiple-agents]]
 - [[scheduled-tasks-cron-hermes-agent]]
 
-- [[hermes-agent]] — parent system
+- [[entities/tools/hermes-agent]] — parent system
 - [[kanban-multi-agent-board-hermes-agent]] — task coordination for scheduled jobs
 - [[profiles-running-multiple-agents]] — profile-bound scheduled tasks

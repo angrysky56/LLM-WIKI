@@ -85,8 +85,8 @@ Example principles:
 - [[concepts/metacognitive-architecture-closed-loop-self-regulation]]
 - [[concepts/constitutional-ai]]
 
-- [[reward-modeling]] — CAI can be seen as a way to generate training data for reward models without human labels
-- [[reward-modeling]] — CAI is a specific alignment technique within the broader alignment research field
+- [[concepts/reward-modeling]] — CAI can be seen as a way to generate training data for reward models without human labels
+- [[concepts/reward-modeling]] — CAI is a specific alignment technique within the broader alignment research field
 - [[metacognitive-architecture-closed-loop-self-regulation]] — shares the self-critique loop idea with CAI; the metacognitive framework provides a more formal version
 - [[process-reward-model]] — both involve step-level evaluation; PRM evaluates reasoning steps, CAI evaluates principle adherence
 - Concept: [[agent-onboarding]]

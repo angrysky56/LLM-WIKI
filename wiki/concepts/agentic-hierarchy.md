@@ -100,7 +100,7 @@ The bounded-structured-memory pattern addresses this via layered memory — each
 
 ## Hermes Implementation
 
-[[hermes-agent]] implements agentic hierarchy via:
+[[entities/tools/hermes-agent]] implements agentic hierarchy via:
 
 - **`delegate_task`**: Spawns child agents at a designated level (default flat, max 3 concurrent). Children get isolated tool sets and sessions.
 - **Cron jobs**: Durable background agents that survive session boundaries — appropriate for monitoring or long-horizon tasks that need persistent identity.
@@ -130,7 +130,7 @@ The [[bounded-structured-memory]] architecture formalizes this with per-agent va
 
 - [[multi-agent-llm-systems]] — systems built with agentic hierarchies; five architectural patterns include hierarchical ones
 - [[delegation]] — the mechanism for assigning tasks down the hierarchy; act of moving authority across levels
-- [[hermes-agent]] — framework supporting hierarchical agent patterns via delegate_task and cron
+- [[entities/tools/hermes-agent]] — framework supporting hierarchical agent patterns via delegate_task and cron
 - [[bounded-structured-memory]] — layered memory architecture that supports multi-level information flow
 - [[markovian-carryover]] — forward-state mechanism for continuity across context resets
 - [[subagent-delegation]] — mechanics of delegate_task spawning

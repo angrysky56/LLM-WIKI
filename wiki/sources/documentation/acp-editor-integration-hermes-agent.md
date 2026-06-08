@@ -35,6 +35,6 @@ ACP (Agent Client Protocol) is the integration layer that makes Hermes behave li
 - [[sources/documentation/acp-editor-integration-hermes-agent]]
 - [[acp-editor-integration-hermes-agent]]
 
-- [[hermes-agent]] — parent system
+- [[entities/tools/hermes-agent]] — parent system
 - [[openclaw]] — also supports `ollama launch` integration pattern
 - [[gemma4]] — Ollama-compatible model usable in Hermes ACP context

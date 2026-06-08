@@ -44,6 +44,6 @@ NousResearch/hermes-agent uses a comprehensive labeling system with 70+ labels a
 - `feature/testing` — Test infrastructure
 
 ## Connections
-- [[hermes-agent]] — main repository
+- [[entities/tools/hermes-agent]] — main repository
 - [[hermes-agent-documentation]] — official docs
 - [[create-custom-subagents]] — related development features

@@ -49,4 +49,4 @@ This is inspired by Codex CLI's `/goal` (Eric Traut, OpenAI), but the implementa
 - [[subagent-delegation-hermes-agent]] — parallel isolated workers via delegate_task
 - [[markovian-carryover]] — bounded forward-state for session continuity
 - [[bounded-structured-memory]] — layered memory architecture this fits within
-- [[hermes-agent]] — framework entity page
+- [[entities/tools/hermes-agent]] — framework entity page

@@ -38,5 +38,5 @@ Subagents are specialized AI assistants defined as Markdown files with YAML fron
 - [[create-custom-subagents]]
 
 - [[delegation]] — subagents are a form of delegation
-- [[hermes-agent]] — Hermes has similar subagent delegation capabilities
+- [[entities/tools/hermes-agent]] — Hermes has similar subagent delegation capabilities
 - [[claude-code]] — parent platform for subagent feature

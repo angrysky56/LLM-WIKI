@@ -36,5 +36,5 @@ Multi-agent hierarchy available: human → orchestrator → leads → specialist
 - [[wiki/index]]
 - [[symbiotic-ai]]
 
-- [[hermes-agent]] — Symbiotic AI runs on Hermes
+- [[entities/tools/hermes-agent]] — Symbiotic AI runs on Hermes
 - [[sovereign-ai]] — related concept of AI as cognitive extension

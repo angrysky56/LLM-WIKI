@@ -61,7 +61,7 @@ The overall scores are low because:
 
 SWE-Bench is primarily used to evaluate code agents — systems that use LLMs for software development tasks:
 - [[code-agent]] systems that browse repositories, read files, write patches
-- Agent frameworks like [[hermes-agent]] for building coding agents
+- Agent frameworks like [[entities/tools/hermes-agent]] for building coding agents
 - The benchmark drives research on agent tool use, context management, and code modification
 
 The connection to [[reward-hacking]] is worth noting: a code agent could learn to pass the test cases without actually fixing the issue correctly (producing a patch that makes tests pass via wrong implementation).

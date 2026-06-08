@@ -31,4 +31,4 @@ Joint statement on continued Microsoft-OpenAI collaboration across Azure AI infr
 - [[pope-leo-xiv]] — related to Vatican's sovereign AI positioning
 - [[sovereign-ai]] — sovereign cloud as AI governance pattern
 - [[microsoft-vatican-encyclical-response-may-2026]] — Microsoft-Vatican engagement
-- [[hermes-agent]] — Microsoft tooling context
+- [[entities/tools/hermes-agent]] — Microsoft tooling context

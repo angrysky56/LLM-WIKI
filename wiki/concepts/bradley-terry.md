@@ -53,7 +53,7 @@ Bradley-Terry avoids the overhead of training a separate RM (which can be as lar
 - [[concepts/bradley-terry]]
 
 - [[opendeepthink-parallel-reasoning]] — Primary empirical source; +405 Elo via Bradley-Terry aggregation on Codeforces
-- [[reward-modeling]] — Bradley-Terry as a reward-free ranking alternative to scalar reward models for Best-of-N selection
+- [[concepts/reward-modeling]] — Bradley-Terry as a reward-free ranking alternative to scalar reward models for Best-of-N selection
 - [[parallel-reasoning]] — Bradley-Terry solves the selection bottleneck in parallel reasoning
 - [[inference-time-compute-scaling]] — Bradley-Terry aggregation is a core mechanism within the test-time compute scaling paradigm
 - [[process-reward-model]] — PRM step-level scores could in principle serve as comparators for per-step Bradley-Terry ranking in multi-step reasoning

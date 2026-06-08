@@ -64,7 +64,7 @@ Key properties:
 - **Parallel execution**: Up to 3 concurrent children
 - **Non-durable**: Interrupt cancels children (use cron jobs for durable delegation)
 
-The [[hermes-agent]] entity page has full details on `delegate_task` mechanics.
+The [[entities/tools/hermes-agent]] entity page has full details on `delegate_task` mechanics.
 
 ### Levels of Delegation
 
@@ -105,7 +105,7 @@ A system with delegation but no planning gets sub-tasks done but may produce inc
 - [[concepts/delegation]]
 
 - [[agentic-hierarchy]] — organizational structures that make delegation structured and systematic; delegation is the mechanism that moves work down hierarchy levels
-- [[hermes-agent]] — framework with native `delegate_task` support for delegation primitives
+- [[entities/tools/hermes-agent]] — framework with native `delegate_task` support for delegation primitives
 - [[subagent-delegation]] — mechanics of Hermes's delegate_task spawning
 - [[bounded-structured-memory]] — layered memory that preserves context across delegation boundaries
 - [[multi-agent-llm-systems]] — systems where delegation is the primary composition primitive

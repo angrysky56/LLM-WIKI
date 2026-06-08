@@ -35,4 +35,4 @@ In Hermes Agent, delegation is via `delegate_task` which supports:
 - [[delegation]] — the broader concept
 - [[agentic-hierarchy]] — hierarchical organization of delegated tasks
 - [[bounded-structured-memory]] — how subagent state is preserved
-- [[hermes-agent]] — framework implementing subagent delegation
+- [[entities/tools/hermes-agent]] — framework implementing subagent delegation

@@ -57,7 +57,7 @@ Code agents can also be evaluated on:
 
 ## Connection to Hermes
 
-The [[hermes-agent]] framework provides infrastructure for building code agents:
+The [[entities/tools/hermes-agent]] framework provides infrastructure for building code agents:
 - `delegate_task()` for spawning code agents
 - Tool registry for file system, shell, git operations
 - State management for iteration loops
@@ -80,7 +80,7 @@ The [[hermes-agent]] framework provides infrastructure for building code agents:
 - [[swe-bench]] — benchmark for code agents
 - [[benchmark]] — evaluation frameworks
 - [[agentic-research]] — agents conducting research via code execution
-- [[hermes-agent]] — framework for building code agents
+- [[entities/tools/hermes-agent]] — framework for building code agents
 - [[code-generation]] — generating code (the narrow task)
 - [[concepts/load-bearing-reasoning]] — identifying critical reasoning steps in code generation
 - Concept: [[autonomous-research]]

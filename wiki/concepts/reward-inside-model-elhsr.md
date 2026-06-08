@@ -27,6 +27,6 @@ confidence: 0.3
 - [[concepts/reward-inside-model-elhsr]]
 
 - [[reinforcement-learning]]
-- [[reward-modeling]]
+- [[concepts/reward-modeling]]
 - [[elhsr]]
 - [[neural-interpretability]]

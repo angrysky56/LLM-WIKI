@@ -129,5 +129,5 @@ For Hermes integration: install GBrain alongside Hermes, configure Hermes as the
 - [[mcp-model-context-protocol]] — agent tool integration protocol
 - [[openclaw]] — related agent platform (GBrain author also created OpenClaw)
 - [[paperclip]] — orchestration layer for multi-agent systems
-- [[hermes-agent]] — this system's agent; potential GBrain integration target
+- [[entities/tools/hermes-agent]] — this system's agent; potential GBrain integration target
 - [[llm-wiki]] — this vault; GBrain integration via MCP or edge-pattern borrowing

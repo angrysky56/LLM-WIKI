@@ -1,10 +1,4 @@
 ---
-summary: [ARCHIVED] Instruction tuning — absorbed by fine-tuning (both are stubs; no replacement source found)
-tags: [instruction-tuning, archived]
-updated: 2026-06-05T20:10:26Z
----
-
----
 created: 2026-05-25
 updated: 2026-06-06
 type: concept

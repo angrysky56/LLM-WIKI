@@ -35,5 +35,5 @@ Agentic design patterns form a decision topology: single-agent for simple tasks;
 - [[choosing-right-agentic-design-pattern]]
 
 - [[delegation]] — related to orchestration pattern
-- [[hermes-agent]] — supports orchestrator subagent mode
+- [[entities/tools/hermes-agent]] — supports orchestrator subagent mode
 - [[agentic-design-picker]] — tool referenced in designing-agentic-design-picker.txt

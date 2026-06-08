@@ -1,5 +1,5 @@
 ---
-summary: Bridge synthesis: using steering vectors as probes (representation reading) for real-time AI safety monitoring during inference — connecting activation engineering to inference-time safety oversight and deployment monitoring
+summary: "Bridge synthesis: using steering vectors as probes (representation reading) for real-time AI safety monitoring during inference — connecting activation engineering to inference-time safety oversight and deployment monitoring"
 tags: [synthesis, cross-domain, ai-safety, activation-steering, representation-engineering, inference-time, monitoring]
 updated: 2026-06-07T08:53:23Z
 created: 2026-06-07T08:53:23Z
@@ -90,7 +90,7 @@ The evidence from RepE suggests this is feasible: honesty probes achieve high ac
 - [[concepts/activation-engineering]] — the discipline that provides the measurement/control tools
 - [[concepts/repe-representation-engineering]] — the source paper establishing reading vs controlling
 - [[constitutional-ai]] — training-time alignment, complementary to inference-time monitoring
-- [[reward-modeling]] — related in using probes for behavioral assessment
+- [[concepts/reward-modeling]] — related in using probes for behavioral assessment
 - [[ai-safety]] (node does not exist yet) — this bridge page is a foundation for a future dedicated safety monitoring page
 - [[mechanistic-interpretability]] — bottom-up approach to understanding model internals, complementary to RepE's top-down approach
 

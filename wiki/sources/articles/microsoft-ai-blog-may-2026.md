@@ -31,6 +31,6 @@ Manufacturing AI deployment covers predictive maintenance, quality inspection, p
 Microsoft AI analyzes racing car crash data for safety improvement. AI accelerates post-incident analysis for motorsport engineering.
 
 ## Connections
-- [[hermes-agent]] — Microsoft integrations mentioned in AI tooling context
+- [[entities/tools/hermes-agent]] — Microsoft integrations mentioned in AI tooling context
 - [[mcp-model-context-protocol]] — MCP for external tool integration
 - [[ai-governance]] — accessibility and equity in AI deployment cases

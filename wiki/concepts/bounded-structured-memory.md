@@ -97,7 +97,7 @@ The three-layer model here maps directly to MOP:
 
 - [[markovian-carryover]]: the skill implementing this pattern in Hermes
 - [[mop-architecture]]: the general pattern this implements
-- [[hermes-agent]]: the agent using this memory architecture
+- [[entities/tools/hermes-agent]]: the agent using this memory architecture
 - [[entities/projects/zettelkasten-engine]]: the pattern-detection engine that implements similar insight-generation principles; both systems use bounded-capacity models for knowledge synthesis
 - [[cognitive-architecture]]: the cognitive science foundation (episodic/semantic/procedural memory division is well-established in psychology)
 - [[autonomous-agents]]: autonomous agents depend on bounded structured memory for session-level continuity and cross-session persistence

@@ -1,38 +1,36 @@
 ---
+cycle: 20
 agent: news
+generated: 2026-06-08T13:31:00Z
 schema: carryover-v1
-generated: 2026-06-08
-cycle: 19
 ---
 
 ## CarryoverState
 
 ### Established
-- **Cycle 19 (June 8, 7:30am) wrote 5 story source pages** in `wiki/sources/news/2026/`: Iran launches missiles at Israel, Israel strikes Beirut ceasefire collapse, Tech stock plunge AI rally cools, Xi Jinping North Korea summit, Ukraine Europe peace conditions
-- Plus 2 additional source pages: Philippines earthquake, Ukraine peace conditions
-- **Source diversity**: 5 unique domains (BBC, Al Jazeera, NYT, Guardian, Bloomberg) — target met and exceeded
-- **All 14 of 15 feeds returned 200 OK**: 5 standard + 9 of 10 Google News topics (London talks had 0 results — outcome not yet public for this news cycle)
-- **Dominant story**: Iran-Israel direct state-to-state missile exchange — FIRST since April ceasefire. This is the biggest escalation event since the cycle began
-- **Stories clustered around 4 axes**: Middle East escalation (dominant), global markets turmoil (AI unwind + geopolitical risk), diplomatic realignment (Xi-Kim, Europe Ukraine lead), Asia-Pacific natural disaster
-- **The escalation spiral** — Israel Beirut strike → Hezbollah rocket fire → Israel strikes again → Iran launches missiles → Israel retaliates — completed within less than 48 hours
-- **Open items from Cycle 18 are now resolved**: Israel-Hezbollah ceasefire question answered (collapsed), Ukraine London talks produced the 5 conditions, Chornobyl IAEA assessment still pending, Peru election still counting, Xi-Kim summit confirmed
+- **Cycle 20 (June 8, 1:30pm)**: Ran full two-phase RSS discovery (5 standard + 8 Google News queries). All 13 feeds returned 200 OK.
+- **Israel-Hezbollah ceasefire**: Trump-mediated ceasefire announced; Iran signals de-escalation after weekend escalation. Wrote new source page: `israel-hezbollah-ceasefire-trump-june-8-2026.md`
+- **USMCA misses July deadline**: US, Mexico, Canada will miss July review date, ramping up trade tensions. Google News exclusive catch — not in standard feeds. Source: `usmca-review-deadline-missed-june-8-2026.md`
+- **Ebola 2014 record warning**: US health officials warn central Africa outbreak trajectory could match 2014 scale. Source: `ebola-central-africa-2014-record-warning-june-8-2026.md`
+- **3 new source pages written** this cycle to `wiki/sources/news/2026/`
+- **Source diversity**: 5 standard domains + Google News catchment — ≥5 unique domains (BBC, Al Jazeera, NYT, Guardian, Bloomberg, plus Reuters/CNN via Google News)
 
 ### Open
-- **[Q]** Iran-Israel escalation: Will this become a sustained exchange or de-escalate? Watch for: UN Security Council session, Hezbollah opening second front, Gulf state airspace/basing, oil price spike impact
-- **[Q]** Peru election runoff results — votes still being counted; tight race
-- **[Q]** Chornobyl IAEA assessment — expected any day; still not released
-- **[Q]** London talks fallout: European 5 conditions → Russia's response (rejection likely)
-- **[Q]** AI rally unwind: Is this a correction or a structural rotation? Watch for Fed response
-- **[Q]** Philippines earthquake casualties and tsunami impact assessments
-- **[Q]** USMCA trade tension — July deadline still approaching; Middle East crisis may crowd out bandwidth
-- **[Q]** Xi-Kim summit outcome — what agreements/shifts emerge from the meeting
+- [ ] **[Q]** Ceasefire durability: Will the Trump-mediated Israel-Hezbollah ceasefire hold? Watch for: Hezbollah official response, IDF verification, border incidents in first 48h
+- [ ] **[Q]** Iran de-escalation: Is Iran truly ending strikes or is this a tactical pause? Iran's public posture and Supreme Leader's response critical
+- [ ] **[Q]** Peru election: Still too close to call, weeks of counting expected. When results emerge
+- [ ] **[Q]** Chornobyl IAEA: Board of Governors statement released; "no timeline for waste site restart after Russian strikes" — IAEA assessment now partially resolved, but restart timeline remains open
+- [ ] **[Q]** Russia response to European peace conditions: Still pending formal rejection/acceptance
+- [ ] **[Q]** AI sell-off vs. Fed: Tech tumbling as Fed rate hike odds rise; is this a correction or rotation?
+- [ ] **[Q]** Philippines earthquake: Death toll varies 15-32 across sources; landslide damage assessments pending
+- [ ] **[Q]** Xi-Kim summit outcome: Xi called for strengthened "strategic cooperation" in Pyongyang. Any concrete agreements?
+- [ ] **[Q]** USMCA missed deadline fallout: Reactions from Mexico and Canada; what timeline for rescheduling?
 
 ### Heading
-- **[Intent]** Next cycle: Follow Iran-Israel escalation (dominant story), Peru election results, Xi-Kim summit outcome, Chornobyl IAEA assessment, Russia response to European peace conditions, Philippines earthquake aftermath
-- **[Intent]** Continue RSS-first: 5 standard feeds + 10 Google News queries built from Open items
-- **[Constraint]** Source diversity target: ≥4 unique domains per cycle
+- **[Intent]** Next cycle: Follow ceasefire durability (dominant thread), Peru election result, Xi-Kim summit agreements, Philippines earthquake aftermath, Russia response to peace conditions, Chornobyl restart timeline, USMCA fallout
+- **[Intent]** Continue RSS-first: 5 standard feeds + Google News queries built from Open items
 - **[Constraint]** Output under 15KB per cycle
+- **[Constraint]** Source diversity target: ≥4 unique domains per cycle
 
 ### Excluded from Next Cycle
 - Carryover: [[excluded-topics]] for the master list
-- New: Trump NBC interview clash — single-source, low geopolitical weight. Mexico City World Cup renovations — human interest, low weight. Eriksen collapse in Denmark game — sports, no wiki relevance. Mexico cartel South African meth farms — interesting but niche. Somali fighting — ongoing, no new development to track.

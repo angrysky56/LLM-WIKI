@@ -37,5 +37,5 @@ Good: `delegate_task(goal="Fix TypeError in api/handlers.py", context="Line 47: 
 - [[sources/documentation/persistent-goals-hermes-agent]]
 - [[subagent-delegation-hermes-agent]]
 
-- [[hermes-agent]] — parent system
+- [[entities/tools/hermes-agent]] — parent system
 - [[delegation]] — broader delegation patterns guide

@@ -137,7 +137,7 @@ Multi-agent systems introduce failure modes that don't exist in single-agent set
 - [[agentic-hierarchy]] — hierarchical organizational structure for multi-agent systems
 - [[agentic-research]] — research automation uses multi-agent pipelines
 - [[entities/projects/project-synapse]] — knowledge graph as shared state / coordination substrate
-- [[hermes-agent]] — framework supporting hierarchical agent patterns
+- [[entities/tools/hermes-agent]] — framework supporting hierarchical agent patterns
 - [[delegation]] — how one agent assigns work to another
 - Concept: [[adversarial-training]]
 - Concept: [[agent-leak-benchmark]]

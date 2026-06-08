@@ -1,56 +1,43 @@
 #!/usr/bin/env python3
-"""
-Kanban upsert for news-agent Cycle 19 — informational cards (status=done)
-Pattern from news-agent skill: informational cards at status='done' so the
-dispatcher ignores them but Ty sees them on the board.
-"""
+"""Kanban upsert for news-agent Cycle 20 — informational cards (status=done)."""
 import sqlite3, hashlib, uuid, time, os
-
 DB_PATH = os.path.expanduser("~/.hermes/kanban.db")
-conn = sqlite3.connect(DB_PATH)
-cur = conn.cursor()
-
-# Gather existing tasks
+conn = sqlite3.connect(DB_PATH); cur = conn.cursor()
 cur.execute("SELECT id, title, status FROM tasks")
 existing = {str(r[1]).strip(): r[0] for r in cur.fetchall()}
-
 def upsert(agent, title, body, priority=1):
     key = f"{agent}: {title}".strip()
-    if key in existing:
-        tid = existing[key]
-        print(f"SKIP {tid} | {key} (already exists)")
-        return tid, "skipped"
+    if key in existing: return existing[key], "skipped"
     ik = hashlib.sha256(key.encode()).hexdigest()[:16]
     tid = f"t_{uuid.uuid4().hex[:16]}"
-    now = int(time.time())
-    cur.execute(
-        "INSERT INTO tasks (id, title, body, assignee, status, priority, created_by, idempotency_key, created_at) VALUES (?, ?, ?, ?, 'done', ?, 'cron:news-cycle19', ?, ?)",
-        (tid, key, body, agent, priority, ik, now)
-    )
-    conn.commit()
-    print(f"CREATED {tid} | {key}")
-    return tid, "created"
+    cur.execute("INSERT INTO tasks (id, title, body, assignee, status, priority, created_by, idempotency_key, created_at) VALUES (?, ?, ?, ?, 'done', ?, 'cron:kanban-morning-review', ?, ?)",
+        (tid, key, body, agent, priority, ik, int(time.time())))
+    conn.commit(); return tid, "created"
 
-# Open questions from Cycle 19 carryover — surfacing as informational cards
+# --- Cycle 20 news topics ---
 items = [
-    ("Iran-Israel escalation: sustained exchange or de-escalate?", 
-     "Iran launched missiles at Israel June 8 — first direct exchange since April ceasefire. Watch UN Security Council, Hezbollah second front, Gulf basing, oil spike."),
-    ("Peru election runoff: results pending",
-     "Votes still being counted in tight Peru presidential runoff. Left-right choice for discontented voters."),
-    ("Chornobyl IAEA nuclear safety assessment",
-     "Expected any day after Russian drone strike on Chornobyl spent fuel storage (June 7). Still not released."),
-    ("Ukraine peace: Russia response to European 5 conditions",
-     "European allies set five preconditions for peace talks as US steps back as mediator. Russia's rejection likely."),
-    ("AI rally unwind: correction or structural rotation?",
-     "Global tech stocks plunged June 8 as AI rally cooled and Middle East crisis drove risk-off. Watch Fed response."),
-    ("Philippines earthquake: casualties and tsunami impact",
-     "Powerful quake struck Mindanao; tsunami warnings across Indonesia, Japan, Taiwan. Assessments ongoing."),
-    ("Xi-Kim North Korea summit outcome",
-     "Xi Jinping to meet Kim Jong Un — first since nuclear expansion announcement. Watch for agreements/shifts."),
+    ("news-agent", "Open Q: Israel-Hezbollah ceasefire durability",
+     "Will the Trump-mediated ceasefire hold? Watch for Hezbollah official response, IDF verification, border incidents in first 48 hours. Source: wiki/sources/news/2026/israel-hezbollah-ceasefire-trump-june-8-2026.md"),
+    ("news-agent", "Open Q: USMCA missed July deadline fallout",
+     "US, Mexico, Canada miss July USMCA review date — trade tensions ramp up. Google News exclusive catch. Source: wiki/sources/news/2026/usmca-review-deadline-missed-june-8-2026.md"),
+    ("news-agent", "Open Q: Peru presidential runoff dead heat",
+     "Too close to call. Weeks of counting expected. Source: BBC, NYT, AJ, Bloomberg"),
+    ("news-agent", "Open Q: Chornobyl IAEA — no restart timeline",
+     "IAEA Board of Governors statement: no timeline for nuclear waste site restart after Russian strikes. Partially resolved. Source: IAEA/Interfax-Ukraine"),
+    ("news-agent", "Open Q: Russia response to European peace conditions",
+     "Five conditions outlined by Ukraine, UK, France, Germany. No formal Russian response yet."),
+    ("news-agent", "Open Q: Xi-Kim summit — strategic cooperation",
+     "Xi in Pyongyang calling for strengthened strategic cooperation. Any concrete agreements? Source: AJ, NYT, Guardian, GN"),
+    ("news-agent", "Open Q: AI sell-off — correction or rotation?",
+     "Tech tumbling as Fed rate hike odds rise. Iran de-escalation may stabilize markets. Source: Bloomberg, Reuters, Economic Times"),
+    ("news-agent", "Written: Israel-Hezbollah ceasefire (Trump-mediated)",
+     "Source page written: israel-hezbollah-ceasefire-trump-june-8-2026. Part of 3-page cycle."),
+    ("news-agent", "Written: USMCA missed deadline",
+     "Source page written: usmca-review-deadline-missed-june-8-2026"),
+    ("news-agent", "Written: Ebola 2014 record warning",
+     "Source page written: ebola-central-africa-2014-record-warning-june-8-2026. US health officials warn DRC outbreak could match 2014 scale."),
 ]
-
-for title, body in items:
-    upsert("news", title, body)
-
+for agent, title, body in items:
+    tid, action = upsert(agent, title, body)
+    print(f"  {action:8s} {tid[:12]} -> {title[:60]}")
 conn.close()
-print("Done.")

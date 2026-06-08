@@ -1,11 +1,4 @@
 ---
-summary: ProxySHAP: proxy-based approximation of Shapley and Banzhaf interaction indices for tree ensembles with residual correction
-tags: [shapley, banzhaf, interaction-indices, xai, feature-attribution, tree-ensembles, proxy-model, residual-correction]
-updated: 2026-06-06T12:59:43Z
-created: 2026-06-06T12:59:43Z
----
-
----
 created: 2026-06-06
 type: source
 status: active

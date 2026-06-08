@@ -1,5 +1,5 @@
 ---
-summary: Daily global news briefing — June 7, 2026: Israel strikes Beirut (ceasefire collapse risk) | Chornobyl drone strike | St Petersburg attacks | OPEC+ symbolic quota | Armenia election
+summary: "Daily global news briefing — June 7, 2026: Israel strikes Beirut (ceasefire collapse risk) | Chornobyl drone strike | St Petersburg attacks | OPEC+ symbolic quota | Armenia election"
 tags: [news, daily-briefing, geopolitics, middle-east, ukraine-russia, energy, opec, armenia, peru]
 updated: 2026-06-07T17:10:50Z
 created: 2026-06-07T17:10:50Z

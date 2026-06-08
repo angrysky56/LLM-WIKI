@@ -158,7 +158,7 @@ However, GRPO has not been specifically studied in the MoE fine-tuning context �
 - [[ramirez-ruiz-mop-2024]] — source paper; Supplemental Sec. F contains the KL formal critique
 - [[group-relative-policy-optimization]] — GRPO, the most compatible existing algorithm
 - [[mixture-of-experts]] — where this tension is most acute; routing collapse under RLHF confirmed
-- [[reward-modeling]] — RLHF's reward model is what gets optimized
+- [[concepts/reward-modeling]] — RLHF's reward model is what gets optimized
 - [[inference-time-compute-scaling]] — BoN search is a form of stochasticity exploitation
 - [[reinforcement-learning-from-human-feedback]] — the alignment method structurally conflicting with MOP
 - [[route-collapse-rlhf]] — empirical confirmation of MoE routing collapse under fine-tuning

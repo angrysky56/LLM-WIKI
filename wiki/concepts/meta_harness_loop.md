@@ -41,7 +41,7 @@ A domain-specific protocol that defines how to run benchmarks and calculate scor
 
 ### 3. Hermes Wrapper (`src/meta_harness/wrapper.py`)
 
-A bridge to the [[hermes-agent]], allowing the engine to execute autonomous research sessions and capture tool-use traces.
+A bridge to the [[entities/tools/hermes-agent]], allowing the engine to execute autonomous research sessions and capture tool-use traces.
 
 ## Onboarding New Domains
 
@@ -59,6 +59,6 @@ To onboard a new domain, follow the Domain Onboarding Standards:
 - [[synthesis/domain-onboarding-standards]]
 - [[concepts/meta_harness_loop]]
 
-- [[hermes-agent]]
+- [[entities/tools/hermes-agent]]
 - [[agem]]
 - [[meta-harness]]

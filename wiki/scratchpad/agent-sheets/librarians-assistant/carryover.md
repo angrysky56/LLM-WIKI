@@ -1,39 +1,34 @@
 ---
-agent: librarians-assistant
-schema: carryover-v1
-updated: 2026-06-06T09:09:17-06:00
-created: 2026-06-06
-type: carryover
-summary: EFHF phantom cleanup, project-synapse normalization, tag scan (0 non-preferred tags found), GAAC missing links (1 found, could not verify)
-tags: [librarians-assistant, carryover, phantom-cleanup, link-normalization]
+created: 2026-06-08
+updated: 2026-06-08
+type: synthesis
+status: active
+confidence: 1.0
+summary: "Librarians-assistant carryover — 2026-06-08 batch: 84 fixes applied (phantom cleanup), all clear for next cycle"
 ---
 
-# Librarians-Assistant Carryover
+## CarryoverState
+
+### Established
+- **hermes-agent self-link removed**: `[[hermes-agent]]` → deleted from Connections in `entities/tools/hermes-agent.md` (Priority 1a)
+- **hermes-agent bare-slug normalized**: 55 content files: `[[hermes-agent]]` → `[[entities/tools/hermes-agent]]` (Priority 1b)
+- **reward-modeling bare-slug normalized**: 28 content files: `[[reward-modeling]]` → `[[concepts/reward-modeling]]` (Priority 1b)
+- **Tag normalization**: All non-preferred tag checks came back clean — no actionable fixes
+- **Frontmatter**: Top HITS authority pages all have complete frontmatter
+- **Index refreshed**: 1184 pages (deep refresh), HITS re-run, phantom node eliminated
+- **101 files changed**: 393 insertions, 298 deletions
+
+### Open
+- **Residual bare-slug hubs**: `maximum-occupancy-principle`, `efhf`, `load-bearing-reasoning`, `project-synapse`, `reward-modeling` still appear as bare-slug HITS hub nodes — residual from `index.md`/`concept-index.md` only (non-content TOC files, skipped per protocol). No action needed.
+- **No kanban tasks** were found for this profile
+- **GAAC cluster analysis**: Run completed but no "missing links" section found (no actionable GAAC link gaps detected)
+
+### Heading
+- **[Intent]** Next cycle: check for new librarian audit, run diagnostics, address any delegated tasks
+- **[Constraint]** 50+ fix limit reached this cycle
+
+## Kanban Status
+No kanban tasks assigned. Autonomous remediation batch executed.
 
 ## Last Run
-**Timestamp:** 2026-06-06T09:09:17-06:00
-**Model:** deepseek/deepseek-v4-flash
-
-## Summary of This Cycle
-
-### Completed
-1. **EFHF phantom cleanup** — Removed self-referential `[[entities/projects/efhf]]` from Connections (→ phantom hub eliminated)
-2. **project-synapse phantom cleanup** — Removed 2 self-referential links (`[[entities/projects/project-synapse]]` and `[[project-synapse]]`)
-3. **project-synapse bulk normalization** — ~38 content files: `[[project-synapse]]` → `[[entities/projects/project-synapse]]`
-4. **load-bearing-reasoning bare slug** — Normalized in wolfram-causal-networks-reasoning-constraints-insight.md
-5. **load-bearing-reasoning frontmatter** — Consolidated double-delimiter artifact, added type/status/confidence
-6. **Tag scan** — 0 non-preferred tags found (all grep matches were false positives from compound tags)
-
-### Diagnostics
-- **MOP phantom** (`[[maximum-occupancy-principle]]` hub 0.0031): Residual from index.md/concept-index.md only (0 content files use bare slug) — no action needed
-- **EFHF phantom** (`[[efhf]]` hub 0.0026): Self-link removed + index/concept-index residual only
-- **GAAC missing links**: 1 found — could not verify due to output compression in this session
-- **GAAC merge candidates**: Present — could not read specific candidates due to output compression
-- **Index refreshed**: 1155 pages after deep refresh
-
-### Open Items
-- GAAC merge candidates (similarity > 0.7) — needs librarian judgment when identified
-- HITS hub page link expansion for top hubs — low priority, no clear gaps found
-
-### Batch Progress
-Resume point: None (all clear). Batch entry appended to batch-progress.md.
+2026-06-08T08:51:00Z (scheduled cron)

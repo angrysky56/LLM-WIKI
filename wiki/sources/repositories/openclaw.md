@@ -43,4 +43,4 @@ OpenClaw as the execution layer in a stack: Hermes (memory) + OpenClaw (executio
 
 - [[ollama]] — supports Ollama launched models
 - [[paperclip]] — orchestration layer
-- [[hermes-agent]] — memory layer in integrated stack
+- [[entities/tools/hermes-agent]] — memory layer in integrated stack

@@ -44,7 +44,7 @@ Tested Termux install path available.
 `hermes auth add anthropic` for direct Anthropic OAuth.
 
 ## Connections
-- [[hermes-agent]] — primary entity
+- [[entities/tools/hermes-agent]] — primary entity
 - [[hermes-mcp-integration]] — MCP setup guide
 - [[mcp-model-context-protocol]] — MCP protocol reference
 - [[scheduled-tasks-cron-hermes-agent]] — cron setup

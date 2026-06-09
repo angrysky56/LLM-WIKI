@@ -40,7 +40,7 @@ This paper is the foundational source for [[concepts/steering-vectors]], [[conce
 - [[concepts/activation-engineering]] — RepE is a sub-field of activation engineering
 - [[synthesis/representation-reading-as-arms-control-verification]] — Uses RepE's reading capability as verification mechanism
 - [[concepts/ai-safety]] — RepE contributes to inference-time safety and monitoring
-
+- [[concepts/activation-probe-adversarial-robustness]] — adversarial robustness of activation probe methodology
 ## Source Anchors
 
 - arXiv:2310.01405 (original paper, latest version v4, March 2025)

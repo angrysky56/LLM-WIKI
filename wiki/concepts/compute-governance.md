@@ -78,6 +78,7 @@ No production system currently implements this, but it is under active research 
 - [[concepts/ai-safety]] — Safety as the downstream motivation for governance
 - [[concepts/ai-policy-federalism]] — Domestic governance distribution (federal/state tension)
 
+- [[concepts/activation-probe-adversarial-robustness]] — adversarial probe attacks as a threat to compute verification
 ## See Also
 
 - EU AI Act (compute threshold provisions, Article 51)
@@ -92,3 +93,7 @@ No production system currently implements this, but it is under active research 
 3. What is the correct compute-to-capability mapping for AI safety regulation, and how frequently must it be updated?
 4. Do export controls create a "compute iron curtain" that accelerates non-Western AI chip development?
 5. Can activation-space probes ([[synthesis/representation-reading-as-arms-control-verification]]) and compute governance be combined into a unified verification protocol with independent failure modes?
+
+### Related Insights
+
+- [[synthesis/insights/iran-ai-compute-supply-chain-vulnerability-insight|Iran-Israel Strike × Compute Supply Chain Vulnerability]] — physical infrastructure vulnerability as an unaccounted-for risk dimension in compute governance

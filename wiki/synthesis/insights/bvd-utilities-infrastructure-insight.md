@@ -80,4 +80,7 @@ May 15, 2026 BVD Outbreak (DRC + Uganda)
 - `raw/ebola-disease-current-situation.md` (clinical protocols, coordination requirements)
 - `raw/ebola-disease-caused-by-bundibugyo-virus-democratic-republic.md` (outbreak details, fatality rates, no vaccine)
 
-Community size: 254 entities, 150 entity count.
+### Related Insights
+
+- [[synthesis/insights/resilience-asymmetry-philippines-ebola-insight|Resilience Asymmetry — Philippines × Ebola]] — infrastructure centrality in health vs natural disaster response
+- [[synthesis/insights/iran-ai-compute-supply-chain-vulnerability-insight|Iran-Israel × Compute Supply Chain]] — physical infrastructure vulnerability as a risk class across domains

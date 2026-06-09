@@ -1,54 +1,62 @@
 # Librarian Carryover
 
 ## Last Run
-2026-06-08 (cron cycle)
+2026-06-09 (cron cycle)
 
 ## What Was Audited
-- Full wiki lint (1478 pages, 1184 knowledge)
+- Full wiki lint (1509 pages, 1212 knowledge, 297 excluded)
 - HITS authority/hub analysis (8 top each)
-- GAAC clustering (15 clusters)
+- GAAC clustering (33 clusters, 0 merge candidates)
 - Frontmatter integrity check
 - Orphan detection
 
 ## What Was Fixed
-- **8 invalid frontmatter files → 0**: Fixed 4× EIGHTH-pattern (ingestor-stub on instruction-tuning.md, flashattention-2022.md, proxy-based-approximation-of-shapley-and-banzhaf-interaction.md, insights-2026-06-06-batch.md), 1× missing opener (instruction-tuning.md was left without `---` after stub deletion), 1× missing frontmatter (insights-batch.md lacked any frontmatter after stub removal — added minimal type:synthesis frontmatter). 2 news files and 2 representation-reading synthesis pages were already single-block clean (the linter had transient false positives on them that resolved after the fixes triggered a full re-lint).
+- 4 invalid frontmatter files (FIFTH pattern — unquoted colons in summaries):
+  - drpo-divergence-regularized-policy-optimization.md
+  - evaluation-cards-ai-evaluation-reporting.md
+  - dcpm-dual-process-cognitive-memory-2026.md
+  - observability-delegated-execution-agentic-2026.md
+- All 4 had `summary:` values containing `:` (e.g. "DRPO: smooth advantage-weighted...") with no YAML quoting. Quoted with double quotes. Verified: invalid frontmatter dropped 6→2 (remaining 2 are raw/ false positives).
 
 ## Current Health
-- Orphans: 231 (+8 from 223 last cycle — new ingestion)
-- Broken links: 6438 (+86 from 6352 — new ingestion links to non-existent pages)
+- Orphans: 246 (+15 from 231 — new ingestion)
+- Broken links: 6552 (+114 from 6438 — new ingestion links to non-existent pages)
 - Missing frontmatter: 0 — **clean**
-- Invalid frontmatter: 0 — **clean**
-- Non-reciprocal: 551 (+2)
+- Invalid frontmatter: 2 — **raw/ false positives only** (wiki layer fully clean)
+- Non-reciprocal: 584 (+33 from 551)
 - Non-preferred tags: 0 — **clean**
 
 ## HITS Top-5
-**Authorities:** wiki/index (0.0734), log (0.0553), concepts/maximum-occupancy-principle (0.0142), entities/projects/efhf (0.0057), concept-index (0.0053)
-**Hubs:** maximum-occupancy-principle (0.0031 bare-slug alias), efhf (0.0026 bare-slug alias), concept-index (0.0022), load-bearing-reasoning (0.0022), project-synapse (0.0020)
-
-No lint-report artifact in hub top — clean. MOP phantom alias persists (bare vs prefixed slug from 50+ external links) — documented limitation.
+**Authorities:** wiki/index (0.0736), log (0.0555), concepts/maximum-occupancy-principle (0.0142), entities/projects/efhf (0.0057), concept-index (0.0053)
+**New:** agentic-research (0.0035) entered top-8 authorities
+**Hubs:** maximum-occupancy-principle (0.0031 bare-slug alias), efhf (0.0026 bare-slug alias), concept-index (0.0022), load-bearing-reasoning (0.0021), project-synapse (0.0020)
+**New hubs:** reward-modeling, chain-of-thought, mixture-of-experts at 0.0020
+No lint-report artifact in hub top. MOP phantom alias persists (documented limitation).
 
 ## GAAC
-- **Merge candidates (1.000):** Many stub-page false positives (fts5↔compound-commands, random-forest↔tabpfn-extensions, business↔innovation↔entrepreneurship, sledgehammer↔java↔latex, micro-saas↔programmatic-seo). None actionable — stub patterns score 1.0 from identical minimal structure. `business↔innovation` is the documented transient artifact.
-- **Missing links (genuine):** normalizing-flows↔energy-based-models, normalizing-flows↔generative-adversarial-networks, spiral-architecture↔refuser-pattern, wolfram-nks-causal-networks↔computational-irreducibility, wolfram-nks-causal-networks↔causal-reasoning. All in same-cluster pairs without wikilinks.
+- 33 clusters (reconfigured from 15 — new pages shifted boundaries)
+- 0 merge candidates (business↔innovation single-cycle artifact did NOT reappear — confirmed as transient)
+- Cluster sizes range from 1 (Cluster 23: modelfile-reference) to 222 (Cluster 1)
 
 ## What Remains
-- 231 orphans are genuine knowledge pages (newly-ingested) — expected to normalize over 1-2 ingestion cycles
-- 6438 broken links are mostly operational path refs in body text — not actionable
-- `business↔innovation` merge candidate appeared in one cycle only — do not remediate until confirmed in next cycle
-- No tag taxonomy violations found
-- No classification disputes flagged
+- 246 orphans are genuine knowledge pages — expected to normalize over 1-2 cycles
+- 6552 broken links are mostly operational path refs — not actionable
+- No merge candidates to flag
+- No tag taxonomy violations
 
 ## CarryoverState
 
 ### Established
-- Frontmatter is fully clean (0 invalid, 0 missing) — a first for this vault
-- EIGHTH-pattern fix workflow validated: delete stub lines, then add `---` opener if missing, then verify with wiki_lint
-- insights-batch.md needs proper frontmatter (added minimal; leaving better summary/tags for Ty review)
+- Frontmatter is effectively clean (0 wiki-layer invalid, 2 raw/ false positives)
+- FIFTH pattern (unquoted colons in ingestor-created summaries) recurred — ingestor still writing unquoted summaries with colons
+- 4 new paper source pages created since yesterday's audit
+- GAAC reconfigured from 15→33 clusters; business↔innovation pair confirmed as transient
 
 ### Open
-- **[Risk]** ingestor is still producing EIGHTH-pattern duplicates on freshly-ingested pages — stub is written, then the same ingestor writes a second complete block without deleting the first. This is a recurring defect. Flagged for ingestor remediation.
-- **[Stable]** vault health is good — stable no-regression from prior cycle
+- **[Recurring]** Unquoted colons in ingestor summaries keep reappearing — 4 new instances this cycle. Flag for ingestor fix.
+- **[Stable]** Vault health stable — no regression beyond expected ingestion growth
+- MOP phantom alias still present (bare-slug vs prefixed from 50+ external links)
 
 ### Heading
-- **[Intent]** Monitor orphan count — if it doesn't self-resolve in 1-2 cycles, bulk-linking needed
-- **[Constraint]** No structural work this cycle beyond frontmatter remediation
+- **[Monitor]** Watch for recurrence of FIFTH pattern on next cycle
+- **[No delegation needed]** All actionable items fixed directly

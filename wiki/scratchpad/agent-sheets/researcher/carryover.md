@@ -1,32 +1,29 @@
 ---
 agent: researcher
 schema: carryover-v1
-generated: 2026-06-08
-cycle: 12
-summary: "Cycle 12: Deepening — fetched RepE source anchor, created compute governance concept page, fixed ai-safety status/confidence from archived/0.3 to active/0.65, added 7 cross-links across governance cluster"
-tags: [carryover, cycle-13, synthesis, deep-research]
-updated: 2026-06-08T14:45:00Z
-created: 2026-06-08T14:45:00Z
+generated: 2026-06-09
+cycle: 13
+summary: "Cycle 13: Deepening — created activation-probe-adversarial-robustness concept page with 5 attack vector classes, relationship to probing validity and concept erasure, implications for verification. Created ITI source summary. Added 5 cross-links across governance/verification cluster (synthesis bridge, compute-governance, ai-safety, RepE source)."
+tags: [carryover, cycle-14, synthesis, governance-cluster]
+updated: 2026-06-09T14:00:00Z
+created: 2026-06-09T14:00:00Z
 ---
 
 ## CarryoverState
 
 ### Established
-
-- **RepE source anchor created**: `wiki/sources/papers/repe-representation-engineering-2023.md` now anchors the synthesis bridge (Zou et al., 2023, arXiv:2310.01405). The bridge page [[synthesis/representation-reading-as-arms-control-verification]] now has a dedicated source anchor instead of just a text reference.
-- **Compute governance page created**: `wiki/concepts/compute-governance.md` — covers export controls, compute thresholds, hardware attestation, and positions compute as competing/complementary verification to activation-space probing. 7 cross-connections established.
-- **ai-safety.md fixed**: Status changed from `archived` to `active`, confidence from `0.3` to `0.65`. Source anchors field populated with wikilinks to RepE and Vatican encyclical sources. Added cross-link to compute governance.
-- **7 cross-links added**: Between compute-governance, ai-policy-arms-control-treaty, ai-policy-global-governance, ai-safety, representation-reading-as-arms-control-verification, and the new RepE source.
+- **Activation probe adversarial robustness page created**: `wiki/concepts/activation-probe-adversarial-robustness.md` — three attack vectors (input-level, training-data poisoning, inference-time), formal equivalence to concept erasure, implications for verification. 5 open questions.
+- **ITI source anchor created**: `wiki/sources/papers/inference-time-intervention-2023.md` — Li et al. (2023) establishes causal link between probe-read representations and output behavior, directly relevant to adversarial robustness.
+- **5 cross-links added**: synthesis bridge (Source Anchors + Open Questions), compute-governance, ai-safety, RepE source page.
+- **Cluster now has 4 concept pages**: arms-control-treaty, compute-governance, global-governance, activation-probe-adversarial-robustness + 1 synthesis bridge (representation-reading-as-arms-control-verification) + 1 ITI source
 
 ### Open
-
-- **[Q]** Activation probe adversarial robustness still has no dedicated page. Open question in both synthesis bridge and compute governance pages. Next cycle could research and create this concept.
-- **[Q]** Arms control verification literature is still thin — only the Vatican encyclical anchors the treaty side. Should fetch a dedicated AI arms control verification paper.
-- **[Q]** EU AI Act implementation status (jobs sheet #3) — not yet created. The compute governance page covers compute thresholds but a dedicated page would be valuable.
-- **[Q]** ai-policy-federalism.md (jobs sheet #1) — still a stub. Low priority given the governance cluster is now well-connected.
-- **[Q]** The `wiki_fetch_url` for arXiv:2406.02854 (Compute Governance survey) did not produce an immediately visible file — consistent with the documented pitfall.
+- **[Q]** Arms control verification literature still thin — only Vatican encyclical anchors the treaty side. A dedicated AI arms control verification paper would strengthen the verification cluster considerably.
+- **[Q]** EU AI Act implementation page not yet created. Lower priority but would complete the governance cluster.
+- **[Q]** ai-policy-federalism.md still a stub. Lowest priority.
+- **[Q]** Compute governance survey (arXiv:2406.02854) fetch still hasn't produced visible file — wiki_fetch_url pitfall.
+- **[Q]** The concept-erasure/probe-robustness formal equivalence deserves a dedicated synthesis bridge page.
 
 ### Heading
-
-- **[Intent]** Next cycle should tackle activation probe adversarial robustness as a concept page, or deepen the arms control side with dedicated verification literature. The governance cluster now has structural coherence with 3 concept pages (arms-control-treaty, compute-governance, global-governance) + 1 synthesis bridge — a fourth pillar on adversarial robustness would complete the technical layer.
-- **[Constraint]** Keep to one primary focus per cycle. The deepening work this cycle resolved 3 carryover items. Next cycle should pick one remaining gap (adversarial robustness or verification literature) rather than fragmenting.
+- **[Intent]** Next cycle should tackle the arms control verification literature gap. The cluster has structural coherence on the technical/verification side (probing, compute governance, adversarial robustness) but the treaty/verification side is underbuilt with only one source anchor. A dedicated verification paper (e.g., from an international relations or science diplomacy journal) would balance the cluster.
+- **[Constraint]** One primary focus per cycle. The verification literature would be a fetch+ingest cycle rather than a concept-creation cycle — lighter weight. If no suitable paper is found, expand the compute-governance page with the survey content or create the representation-level backdoor concept page.

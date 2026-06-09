@@ -56,4 +56,8 @@ The cluster also surfaces the **community trust dimension**: health workers in K
 - `raw/nato-condemns-russia-after-drone-hits-romanian-residential-b.md` (NATO-Russia escalation, Romanian territory)
 - `raw/ebola-outbreak-in-dr-congo-angry-crowd-sets-rwampara-hospita.md` (139 deaths, 600 cases, hospital attack, military protection, football team camp cancellation)
 
+### Related Insights
+
+- [[synthesis/insights/resilience-asymmetry-philippines-ebola-insight|Resilience Asymmetry — Philippines × Ebola]] — warning–response decoupling pattern generalizes the aid-collapse dynamic
+
 Community size: 542 entities, 350 entity count. Novelty score: 0.65. Confidence adjustment: +0.15.

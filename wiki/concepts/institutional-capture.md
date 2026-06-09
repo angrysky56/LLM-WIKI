@@ -87,3 +87,7 @@ Institutional capture is one of the primary failure modes of large organizations
 - Goodhart's Law is descriptive, not predictive — it doesn't tell you *which* metrics will be gamed, only that metric-gaming is likely
 - Not all measurement causes capture; only measurement that becomes a *target* does. Separating legitimate measurement from target-creep is itself a judgment call
 - Small organizations can often avoid capture through culture and small size; scale creates measurement pressure
+
+### Related Insights
+
+- [[synthesis/insights/dual-governance-vacuum-ukraine-ai-insight|Dual Governance Vacuum — Ukraine × AI Regulation]] — institutional substitution dynamic as a new mechanism of capture

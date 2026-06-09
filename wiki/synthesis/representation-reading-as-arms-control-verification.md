@@ -90,7 +90,8 @@ For this protocol to work, several technical prerequisites must be met:
 
 - [[concepts/steering-vectors]] — RepE framework, CAA method, reading vs controlling duality
 - [[concepts/activation-engineering]] — control-theoretic framing, SADI
-- [[concepts/ai-policy-arms-control-treaty]] — treaty structure, verification challenges, nuclear analogy
+- [[concepts/compute-governance]] — compute verification as a complementary check
+- [[concepts/activation-probe-adversarial-robustness]] — whether activation probes can be evaded by adversarial inputs
 - [[synthesis/representation-reading-for-inference-safety-monitoring]] — established bridge from reading to safety monitoring
 
 ### Source Anchors
@@ -126,7 +127,7 @@ The same cannot be said of computed governance alone, which detects *that* train
 
 ## Open Questions
 
-- **[Probe robustness]** How adversarially robust are steering-vector probes? If a signatory trained a model that decorrelates its internal representations from output behavior, could it pass an activation-probe verification and still produce prohibited outputs? This is the fundamental verification evasion question — the AI analog of hiding a nuclear weapon from satellite surveillance.
+- **[Probe robustness]** How adversarially robust are steering-vector probes? The [[concepts/activation-probe-adversarial-robustness]] concept page catalogs attack vectors and defenses. If a signatory trained a model that decorrelates its internal representations from output behavior, could it pass an activation-probe verification and still produce prohibited outputs? This is the fundamental verification evasion question — the AI analog of hiding a nuclear weapon from satellite surveillance.
 
 - **[Standardization]** Who defines the canonical contrastive prompt pairs for prohibited capabilities? Different cultures have different definitions of "deception," "harm," and "autonomous targeting." Probe vectors are only as objective as the normative commitments embedded in the contrastive pairs.
 

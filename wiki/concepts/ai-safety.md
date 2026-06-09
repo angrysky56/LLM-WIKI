@@ -90,6 +90,7 @@ Several cross-cutting patterns emerge from the existing wiki coverage:
 - [[entities/projects/anthropic]] — safety-focused AI lab, origin of Constitutional AI
 - [[entities/projects/huggingface]] — open-source safety research infrastructure
 
+- [[concepts/activation-probe-adversarial-robustness]] — whether activation-based safety monitoring can be adversarially evaded
 ## Source Anchors
 
 - [[synthesis/representation-reading-for-inference-safety-monitoring]] — bridge synthesis, confidence 0.72

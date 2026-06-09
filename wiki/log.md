@@ -110,3 +110,55 @@ Index updated with 1212 pages (Deep refresh completed)
 ## [2026-06-09 16:57] lint
 
 1510 pages · 247 orphans · 6552 broken · 0 missing-fm · report: audits/lint-2026-06-09.md
+
+## [2026-06-09 18:39] ingest | a-fast-compensated-algorithm-for-computing-givens-rotations.md
+
+Ingested raw/a-fast-compensated-algorithm-for-computing-givens-rotations.md into knowledge graph.
+
+Preview: **arXiv:2406.02750** (math)  ## Title:A Fast Compensated Algorithm for Computing Givens Rotations  Authors:[Carlos F. Borges](https://arxiv.org/search/math?searchtype=author&query=Borges,+C+F)  [View ...
+
+## [2026-06-09 18:45] ingest | a-reachability-tree-based-algorithm-for-robot-task-and-motio.md
+
+Ingested raw/a-reachability-tree-based-algorithm-for-robot-task-and-motio.md into knowledge graph.
+
+Preview: ## Title:A Reachability Tree-Based Algorithm for Robot Task and Motion Planning  Authors:[Kanghyun Kim](https://arxiv.org/search/cs?searchtype=author&query=Kim,+K), [Daehyung Park](https://arxiv.org/s...
+
+## [2026-06-09 18:47] write
+
+Updated page: wiki/sources/papers/a-fast-compensated-algorithm-for-computing-givens-rotations.md
+
+## [2026-06-09 18:49] ingest | a-reachability-tree-based-algorithm-for-robot-task-and-motio.md
+
+Ingested raw/a-reachability-tree-based-algorithm-for-robot-task-and-motio.md into knowledge graph.
+
+Preview: ## Title:A Reachability Tree-Based Algorithm for Robot Task and Motion Planning  Authors:[Kanghyun Kim](https://arxiv.org/search/cs?searchtype=author&query=Kim,+K), [Daehyung Park](https://arxiv.org/s...
+
+## [2026-06-09 18:50] ingest | finding-neurons-in-a-haystack-case-studies-with-sparse-probi.md
+
+Ingested raw/finding-neurons-in-a-haystack-case-studies-with-sparse-probi.md into knowledge graph.
+
+Preview: ## Title:Finding Neurons in a Haystack: Case Studies with Sparse Probing  [View PDF](https://arxiv.org/pdf/2305.01610)  > Abstract:Despite rapid adoption and deployment of large language models (LLMs)...
+
+## [2026-06-09 18:51] ingest | honeybee-locality-enhanced-projector-for-multimodal-llm.md
+
+Ingested raw/honeybee-locality-enhanced-projector-for-multimodal-llm.md into knowledge graph.
+
+Preview: ## Title:Honeybee: Locality-enhanced Projector for Multimodal LLM  Authors:[Junbum Cha](https://arxiv.org/search/cs?searchtype=author&query=Cha,+J), [Wooyoung Kang](https://arxiv.org/search/cs?searcht...
+
+## [2026-06-09 18:55] ingest | isotopic-constraints-on-lightning-as-a-source-of-fixed-nitro.md
+
+Ingested raw/isotopic-constraints-on-lightning-as-a-source-of-fixed-nitro.md into knowledge graph.
+
+Preview: ## Title:Isotopic constraints on lightning as a source of fixed nitrogen in Earth's early biosphere  [View PDF](https://arxiv.org/pdf/2305.13345)  > Abstract:Bioavailable nitrogen is thought to be a r...
+
+## [2026-06-09 18:57] ingest | novel-hmathrmdevmathrmcurl-conforming-elements-on-regular-tr.md
+
+Ingested raw/novel-hmathrmdevmathrmcurl-conforming-elements-on-regular-tr.md into knowledge graph.
+
+Preview: **arXiv:2405.14849** (math)  ## Title:Novel H^\\mathrm{dev}(\\mathrm{Curl})-conforming elements on regular triangulations and Clough--Tocher splits for the planar relaxed micromorphic model  [View PDF...
+
+## [2026-06-09 19:00] ingest | reverse-integral-hardy-inequality-on-metric-measure-spaces.md
+
+Ingested raw/reverse-integral-hardy-inequality-on-metric-measure-spaces.md into knowledge graph.
+
+Preview: **arXiv:1911.11187** (math)  ## Title:Reverse integral Hardy inequality on metric measure spaces  [View PDF](https://arxiv.org/pdf/1911.11187)  > Abstract:In this note, we obtain a reverse version of ...

@@ -1,7 +1,7 @@
 ---
 title: A Fast Compensated Algorithm for Computing Givens Rotations
 source: https://arxiv.org/abs/2406.02750
-created: 2026-06-09T18:47:28Z
+created: 2026-06-09T09:07:25Z
 tags: [clippings]
 ---
 

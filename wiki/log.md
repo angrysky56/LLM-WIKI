@@ -162,3 +162,9 @@ Preview: **arXiv:2405.14849** (math)  ## Title:Novel H^\\mathrm{dev}(\\mathrm{Cu
 Ingested raw/reverse-integral-hardy-inequality-on-metric-measure-spaces.md into knowledge graph.
 
 Preview: **arXiv:1911.11187** (math)  ## Title:Reverse integral Hardy inequality on metric measure spaces  [View PDF](https://arxiv.org/pdf/1911.11187)  > Abstract:In this note, we obtain a reverse version of ...
+
+## [2026-06-09 19:02] ingest | Graphing Uncertainty.md
+
+Ingested raw/Graphing Uncertainty.md into knowledge graph.
+
+Preview: **You**  I asked little Gemma: What is the neurology of how we know when we don't know?  Thinking...  Neurology (and neurobiology/cognitive neuroscience) of metacognition, specifically "knowing that y...

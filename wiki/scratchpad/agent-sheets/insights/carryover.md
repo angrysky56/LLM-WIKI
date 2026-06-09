@@ -14,11 +14,14 @@ updated: 2026-06-09
 - 5 reciprocal cross-links added across compute-governance, institutional-capture, ebola-drc-aid-collapse-convergence, and bvd-utilities-infrastructure insight pages
 - Batch index created: 2026-06-09-insights-batch.md
 - log.md updated with recovery entry
+- Standard GAAC clustering run on 2026-06-09 at 07:00: CLI exited cleanly but produced no new JSON output (knowledge graph unchanged since June 8 errored run)
 
 ### Open
 - No stranded insight candidates remain from 2026-06-08 — all 3 recovered and published
-- Core GAAC clustering was unavailable during the errored run; next scheduled run (0 7 * * *) should proceed normally
+- Core GAAC clustering is back online, ran cleanly, no new clusters to surface
+- Below-threshold or duplicate items: none detected
 
 ### Heading
-- Next cycle: standard GAAC clustering run
-- Monitor cross-link navigation on compute-governance and institutional-capture pages for reader engagement
+- Next cycle: standard GAAC clustering run (0 7 * * *)
+### Constraints
+- Knowledge graph needs new content before the engine will generate fresh insights

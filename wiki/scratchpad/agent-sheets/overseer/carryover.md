@@ -1,24 +1,21 @@
 ---
-agent: overseer
-schema: carryover-v1
-generated: 2026-06-08
-cycle: 11
+created: 2026-06-09T10:54:00Z
+updated: 2026-06-09T10:54:00Z
+type: synthesis
+status: active
 ---
 
 ## CarryoverState
 
 ### Established
-- **Cycle 11 (June 8, 9:10am)** ran preflight.py with fallback — 8 cron jobs scanned via raw jobs.json, 6 ok, 1 paused (ingest), 1 errored (insights)
-- **Reports directory updated** — `wiki/scratchpad/agent-sheets/overseer/reports/2026-06-08.md` written
-- **1 kanban card spawned** — `t_37fa793c`: insights recovery (3 stranded insights from errored run)
-- **Preflight.py HERMES_HOME bug** persists — fallback works but is manual; no fix deployed this cycle
+- **[preflight-bug]** Known HERMES_HOME bug persists. Fallback procedure (direct jobs.json read + kanban_list MCP) works reliably. Report written to `reports/2026-06-09.md`.
+- **[cron-paused]** All 8 cron jobs in `enabled=False` (paused) state. All jobs ran successfully on 2026-06-09 except `llm-wiki-raw-ingest` (last run 2026-06-07).
+- **[kanban-clear]** Board has 0 open tasks. No blocked or ready items. Latest completion: insights stranded-insights publish.
+- **[arxiv-open]** 4 optional synthesis items in arxiv's carryover. No kanban cards spawned — optional work, agent running fine.
 
 ### Open
-- **[Q]** Insights recovery card `t_37fa793c` — needs verification next cycle that 3 synthesis pages were created
-- **[Q]** Raw inbox: `Toolsets Reference Hermes Agent.md` — should ingest pipeline be re-enabled or handled manually?
-- **[Q]** Librarians-assistant reports "no kanban tasks found" for its profile — is the routing working correctly?
-- **[R]** Preflight.py still broken — if the system Hermes home changes, the fallback reads will break too
+- **[carryover-repopulate]** 3 agents lack structured carryover: news (frontmatter only, no open items), ingest (no frontmatter), librarian (no frontmatter). Need to prompt re-population next cycle if unchanged.
+- **[orcaid]** 15 days stale. Paused in both cron and carryover. Re-evaluate if needed.
 
 ### Heading
-- **[Intent]** Next cycle: verify insights recovery completion, check for new raw/ files, re-evaluate ingest pipeline pause
-- **[Intent]** Consider patching preflight.py to read from the system-level hermes home or use `hermes cron list` CLI
+- **[next-cycle]** Check if cron jobs remain paused. Re-check empty carryovers. Run wiki_lint if tool output is retrievable.

@@ -42,6 +42,7 @@ import sqlite3
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
+from dateutil.parser import parse as dateutil_parse
 
 # ── Constants ────────────────────────────────────────────────────────────
 
@@ -167,18 +168,20 @@ def extract_open_items(text: str) -> list[str]:
     section_patterns = [
         r"##\s+(?:What Remains|Open|Open Questions|Still Open|Next)\b",
         r"##\s+(?:What|Items)\s+(?:Remains|Open|Remaining)\b",
+        r"###\s+(?:What Remains|Open|Open Questions|Still Open|Next)\b",
+        r"###\s+(?:What|Items)\s+(?:Remains|Open|Remaining)\b",
     ]
 
     in_open_section = False
     for line in text.split("\n"):
-        # Check if we're entering an open-items section
+        # Check if we're entering an open-items section (## or ###)
         for pat in section_patterns:
             if re.match(pat, line, re.IGNORECASE):
                 in_open_section = True
                 break
 
-        # Check if we're leaving (new ## section)
-        if in_open_section and re.match(r"^##\s+", line) and not any(
+        # Check if we're leaving (new ## or ### section that isn't an open section)
+        if in_open_section and re.match(r"^#{2,3}\s+", line) and not any(
             re.match(p, line, re.IGNORECASE) for p in section_patterns
         ):
             in_open_section = False

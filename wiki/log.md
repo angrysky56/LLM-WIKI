@@ -106,3 +106,7 @@ Updated page: wiki/scratchpad/agent-sheets/arxiv/vault.md
 ## [2026-06-09 16:36] index
 
 Index updated with 1212 pages (Deep refresh completed)
+
+## [2026-06-09 16:57] lint
+
+1510 pages · 247 orphans · 6552 broken · 0 missing-fm · report: audits/lint-2026-06-09.md

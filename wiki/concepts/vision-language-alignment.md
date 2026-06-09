@@ -85,7 +85,7 @@ The projection layer (vision → language) is where alignment failures concentra
 
 - [[video-llm]] — VLM processing video input with temporal understanding
 - [[motion-understanding]] — temporal dynamics in visual understanding
-- [[delta-direct]] — directional motion blindness case study
+
 - [[probing-analysis]] — linear probing as alignment diagnostic
 - [[entities/projects/efhf]] — EFHF layered architecture as model for interface design
 

@@ -24,4 +24,3 @@ confidence: 0.3
 - [[large-language-models]]
 - [[computer-vision]]
 - [[vision-language-models]]
-- [[delta-direct]]

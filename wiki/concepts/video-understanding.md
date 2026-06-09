@@ -23,4 +23,3 @@ confidence: 0.3
 
 - [[multimodal-llm]]
 - [[vision-language-models]]
-- [[delta-direct]]

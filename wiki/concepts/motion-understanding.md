@@ -91,7 +91,7 @@ The readout token acts as a bottleneck for directional motion signals — analog
 
 - [[video-llm]] — Video-LLMs as the system for motion understanding
 - [[vision-language-alignment]] — the alignment problem that motion understanding exposes
-- [[delta-direct]] — the specific failure mode and solution
+
 - [[probing-analysis]] — linear probing as the diagnostic technique
 - [[entities/projects/efhf]] — interface as the bottleneck, not the components
 

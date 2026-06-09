@@ -32,7 +32,10 @@ The following facts formed the evidence chain for this insight:
 - [[francesca-albanese-sanctions-insight]]
 
 ## Metadata
+## Cross-Domain Bridge
+- [[synthesis/insights/israeli-lebanon-albanese-sanctions-bridge-insight]] — Links Lebanon operations to sanctions as impunity-protection chain
 
+## Metadata
 - **Zettel ID**: insight_6cbcc9b4
 - **Pattern**: community_detection
 - **Community size**: 216 entities

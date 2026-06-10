@@ -45,3 +45,27 @@ Updated page: wiki/log.md
 ## [2026-06-10 16:50] lint
 
 1530 pages · 249 orphans · 6568 broken · 0 missing-fm · report: audits/lint-2026-06-10.md
+
+## [2026-06-10 17:29] write
+
+Updated page: wiki/sources/papers/target-sft-unifying-lens.md
+
+## [2026-06-10 17:29] write
+
+Updated page: wiki/sources/papers/future-probes-steering.md
+
+## [2026-06-10 17:29] write
+
+Updated page: wiki/sources/papers/reasonalloc-kv-cache-allocation.md
+
+## [2026-06-10 17:29] index
+
+Index updated with 1233 pages
+
+## [2026-06-10 17:29] write
+
+Updated page: wiki/synthesis/hierarchy-principle-llm-pipeline.md
+
+## [2026-06-10 17:30] index
+
+Index updated with 1234 pages

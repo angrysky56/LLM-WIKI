@@ -1,5 +1,5 @@
 ---
-updated: 2026-06-10T16:49:47Z
+updated: 2026-06-10T17:30:14Z
 type: index
 ---
 
@@ -1235,3 +1235,7 @@ type: index
 - [[hermes-optional-skills-catalog]] — Reference catalog of optional skills for Hermes Agent — installable but not active by default
 - [[hermes-toolsets-reference]] — Reference for Hermes Agent's toolset system — named bundles of tools configured per platform/session/task
 - [[headroom-repo]] — chopratejas/headroom — context optimization layer compressing tool outputs before LLM processing
+- [[target-sft-unifying-lens]] — Reinterprets supervised fine-tuning as target distribution design via the Q-target framework, unifying many SFT variants and proposing TARGET-SFT.
+- [[future-probes-steering]] — Introduces Future Probe Controlled Generation (FPCG) for steering reasoning models by distinguishing detection features from prediction features, enabling effective control with minimal output degradation.
+- [[reasonalloc-kv-cache-allocation]] — Introduces ReasonAlloc, a training-free hierarchical KV cache budget allocator for reasoning models that combines offline layer-wise preallocation (capturing the "Reasoning Wave" pattern) with online head-wise reallocation.
+- [[hierarchy-principle-llm-pipeline]] — Cross-paper synthesis: three June 2026 papers independently challenge uniform assumptions in the LLM pipeline (SFT training, KV cache allocation, behavioral steering) and replace them with hierarchical allocation.

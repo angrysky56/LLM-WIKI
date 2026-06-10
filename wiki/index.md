@@ -1,5 +1,5 @@
 ---
-updated: 2026-06-10T14:29:24Z
+updated: 2026-06-10T16:49:47Z
 type: index
 ---
 
@@ -1208,11 +1208,6 @@ type: index
 - [[news-2026-05-20-headlines]] — Global news headlines for May 20, 2026 — 7 stories across geopolitics, AI/tech, science, health, and energy
 - [[headlines-2026-05-28]] — News headlines 2026-05-28 — WHO Ebola PHEIC emergency committee recommendations, SpaceX IPO 16 days out with governance questions, Pope Leo XIV "Magnifica humanitas" encyclical on AI disarmament
 - [[news-2026-05-21-headlines]] — News headlines 2026-05-21 — Iran Hormuz control claim, US surveillance near Cuba, SpaceX SPCX IPO filing, Meta social media settlement, Ofcom TikTok/YouTube child safety finding, Trump-Taiwan call, DRC Ebola hospital burned, Air France/Airbus manslaughter verdict
-- [[Optional Skills Catalog  Hermes Agent]] — 
-- [[a-fast-compensated-algorithm-for-computing-givens-rotations]] — 
-- [[headroom_llms]] — 
-- [[Integrating ELBO into the ACC Monitor]] — 
-- [[Toolsets Reference  Hermes Agent]] — 
 - [[ai-policy-arms-control-treaty]] — AI arms control treaties — design principles, verification mechanisms, enforcement challenges, and historical analogies from nuclear/chemical weapons treaties
 - [[concept-erasure-probe-equivalence]] — Formal duality between concept erasure methods and adversarial probe robustness — structural equivalence with implications for AI verification, safety, and arms control
 - [[activation-probe-adversarial-robustness]] — The vulnerability of activation-space probes and representation reading to adversarial manipulation — attack vectors, defenses, and implications for AI safety and verification.
@@ -1235,3 +1230,8 @@ type: index
 - [[russia-threatens-sanctions-armenia-pashinyan-june-10-2026]] — Russia threatens sanctions as Pashinyan's Armenia accelerates pivot away from Moscow; EU congratulates Pashinyan as Kremlin condemns election.
 - [[south-africa-xenophobia-ramaphosa-crackdown-june-10-2026]] — South Africa's Ramaphosa vows crackdown on xenophobic attackers as 300 Ghanaians leave the country amid escalating anti-immigrant violence.
 - [[supervised-memory-training-smt]] — Supervised Memory Training (SMT) replaces BPTT with supervised learning on Transformer-generated memory targets, enabling fully parallel RNN training that is agnostic to sequence length.
+- [[headroom]] — Context optimization layer for LLM applications — compress tool outputs, logs, files, and RAG chunks before they reach the model
+- [[fast-compensated-givens-rotations]] — Simple compensated scheme for computing very accurate Givens rotations — significantly more straightforward than prior approaches
+- [[hermes-optional-skills-catalog]] — Reference catalog of optional skills for Hermes Agent — installable but not active by default
+- [[hermes-toolsets-reference]] — Reference for Hermes Agent's toolset system — named bundles of tools configured per platform/session/task
+- [[headroom-repo]] — chopratejas/headroom — context optimization layer compressing tool outputs before LLM processing

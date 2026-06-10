@@ -59,15 +59,19 @@ This is the Evidence Lower Bound (ELBO) — the foundation of variational infere
 | $\mathbb{E}_{q(z|x)} [\log p(x|z)]$ | Reconstruction accuracy | **Prediction Error**: Given internal memory state $z$, how accurately can the agent reconstruct observation $x$? |
 | $\text{KL}(q(z|x) \| p(z))$ | Complexity penalty | **Paradigm Shift Cost**: How drastically must prior beliefs be modified to accommodate the new observation? |
 
-### The Three Metacognitive States
+### The Three Metacognitive States (with caveats)
 
-The ELBO gives us a real-time sensor for the agent's epistemic state:
+**Important honesty caveat:** The ELBO, strictly defined, requires a generative model $p(x|z)$ and a variational posterior $q(z|x)$. For an LLM agent operating over a Neo4j knowledge graph, neither exists as a well-defined probabilistic model. There is no likelihood function that says "given memory subgraph $z$, the probability of observing token sequence $x$ is..." — the relationship between an agent's memory and its observations is not a generative model in the statistical sense.
 
-1. **High reconstruction + Low KL = Flow State.** The agent recognizes the environment. Internal model matches reality. No priors must be modified. The system runs on autopilot.
+What we actually use are **proxies** for each term:
 
-2. **Low reconstruction = Sensory Mismatch.** The agent cannot map observation $x$ to any internal memory $z$. Prediction Error spikes. The agent doesn't understand what it's perceiving.
+| ELBO Term | What It Actually Is | Proxy Used |
+|---|---|---|
+| $\log p(x)$ | Evidence | Task-specific (not computed) |
+| $\mathbb{E}_{q(z|x)} [\log p(x|z)]$ | Reconstruction accuracy | Embedding similarity between observation and retrieved subgraph; token log-probabilities under the LLM |
+| $\text{KL}(q(z|x) \| p(z))$ | Paradigm shift cost | Semantic entropy over $k$ sampled answers; divergence between agent's stated confidence and measured accuracy |
 
-3. **High KL = Paradigm Shift.** The observation forces the agent to abandon prior beliefs entirely to make sense of the data. This is the most expensive cognitive state — it requires restructuring the knowledge graph.
+These proxies can work — the functional form (reconstruction minus complexity) is robust — but the architecture's claims inherit the proxies' **calibration quality**, not the ELBO's mathematical status. A poorly calibrated proxy (e.g., an embedding model that doesn't distinguish "confidently wrong" from "correct") will produce a poorly calibrated metacognitive signal. The math provides structure; the proxies provide the numbers. Garbage proxies in a rigorous framework are still garbage in.
 
 ### Connection to Predictive Coding
 
@@ -90,13 +94,17 @@ The PAC-Bayes bound gives us the **true generalization risk** of a proposed acti
 | $n$ | Sample size / evidence weight | How much prior experience supports this action? |
 | $\delta$ | Confidence parameter | How certain must we be? (Type II Error tolerance) |
 
-### The Asymmetric Safety Guarantee
+### The Asymmetric Safety Function
 
-For a **Type II Error Avoidance** policy (where unknown = hostile), the bound becomes the mathematical emergency brake:
+For a **Type II Error Avoidance** policy (where unknown = hostile), the functional form becomes:
 
 $$\text{Risk Score} = \hat{R}(Q) + W_{\text{TypeII}} \cdot \sqrt{\frac{\text{KL}(Q\|P) + \log(1/\delta)}{2n}}$$
 
-Where $W_{\text{TypeII}}$ massively penalizes action-under-uncertainty. The system doesn't just ask "is this safe?" — it asks "can I *prove* this is safe given my prior knowledge?"
+**Critical caveat:** The PAC-Bayes theorem guarantees bounds on generalization risk under strict assumptions: i.i.d. samples from a fixed distribution, with $Q$ and $P$ as distributions over hypotheses evaluated on that data. An agent acting sequentially in a **non-stationary environment** (the world changes, the agent's own actions change the context) violates every one of those assumptions.
+
+What is $n$ — the count of "similar past actions"? They are not i.i.d. Past interactions are path-dependent, non-stationary, and actively altered by the agent's prior choices. The bound's guarantee **evaporates** the moment the i.i.d. assumption fails.
+
+**What survives:** The *functional form* — empirical risk plus a complexity penalty scaled by inverse evidence weight, with an asymmetric multiplier on uncertainty. This is a perfectly good risk score and a reasonable design pattern. It is not a proof of safety. The system should be described as a "risk scoring function with PAC-Bayes structure," not as something that "proves" safety. The word "prove" should not appear in this document when describing what this system does.
 
 ### The TRN Gate
 
@@ -219,9 +227,22 @@ The PARA methodology (Projects, Areas, Resources, Archives) provides the macro-s
 
 The key insight: **knowledge entropy is managed through intentional dormancy**. Archives stabilize the active knowledge surface by removing stale information from the working set.
 
-### The Knowledge Graph as Bayesian Prior
+### The Knowledge Graph as Bayesian Prior (with caveats)
 
-The knowledge graph (L4) serves as the **prior $P$** in the PAC-Bayes bound. When an agent proposes an action, the KL divergence $\text{KL}(Q\|P)$ measures how far the proposal diverges from the known-safe knowledge graph. Actions that stay within well-mapped regions of the knowledge graph have low KL divergence and are approved. Actions that venture into unmapped territory have high KL divergence and trigger the emergency brake.
+The knowledge graph (L4) can serve as the **prior $P$** in the PAC-Bayes bound — but only after choosing a probability measure over it. A knowledge graph is a deterministic structure (nodes + edges), not a probability distribution. To compute $\text{KL}(Q\|P)$, we must first define what $P$ means as a distribution.
+
+**Options for defining $P$:**
+
+| Measure | Definition | Properties |
+|---|---|---|
+| Random-walk stationary | Long-run probability of visiting each node during a random walk | Captures graph topology; dominated by high-degree nodes |
+| MCMC stationary | Stationary distribution of a Metropolis-Hastings chain over the graph | Well-defined; proposal distribution must be chosen |
+| Degree-weighted | Edge weight proportional to node degree | Simple; ignores semantic content |
+| Uniform | Equal probability over all nodes | Uninformative; equivalent to no prior |
+
+The most coherent choice is the **MCMC stationary distribution** (§7): if we run Metropolis-Hastings over the knowledge graph with an appropriate proposal distribution, the stationary distribution gives us a well-defined prior $P$. The KL divergence then measures how far the agent's proposed action diverges from the regions of the graph where the chain spends most of its time — i.e., the well-mapped, frequently-traversed regions.
+
+**Consequence:** The safety brake's behavior is dominated by the choice of proposal distribution and graph weighting. These are engineering decisions, not derived quantities. Different proposal distributions produce different priors, which produce different KL divergences, which produce different halt decisions. This is not a bug — it's a design parameter that must be tuned and validated.
 
 ---
 
@@ -246,13 +267,15 @@ The Metropolis-Hastings algorithm constructs a Markov chain whose stationary dis
 MCMC serves as the **inference engine** that connects the knowledge graph to the ELBO/PAC-Bayes components:
 
 - **ELBO reconstruction**: MCMC samples from the posterior over memory states $z$ to find the best reconstruction of observation $x$
-- **PAC-Bayes prior**: The knowledge graph prior $P$ is the stationary distribution of the MCMC chain over well-mapped regions
+- **PAC-Bayes prior**: MCMC stationary distribution over the knowledge graph provides the well-defined prior $P$
 - **Portfolio MDP**: MCMC samples from the posterior over resource allocations $\mathbf{z}$ to find the optimal portfolio
-- **Entropy monitoring**: The MCMC acceptance rate is a direct measure of system entropy — low acceptance = high entropy = the chain is struggling to find high-probability regions
+- **Entropy monitoring**: The MCMC acceptance rate is *related* to system entropy — low acceptance often means the chain is struggling to find high-probability regions
 
-### Practical Implication
+**Confound to control for:** Low MH acceptance can mean the world is confusing (high entropy = genuine epistemic gap), **or** it can mean the proposal distribution is badly scaled (sampler tuning problem = false alarm). A mistuned sampler would trigger the TRN gate constantly — the agent halts because of its own plumbing, not its epistemic state.
 
-When the MCMC chain has a low acceptance rate (high entropy), this feeds directly into the ELBO perception loop as a high epistemic gap signal, which feeds into the PAC-Bayes bound as a high complexity penalty, which triggers the TRN Gate. The inference engine and the metacognitive monitor are **the same mathematical object viewed from different angles**.
+**Fix:** Use adaptive MH targeting ~0.234 acceptance (the known optimal rate for random-walk proposals). Treat *deviation from target after adaptation* as the signal, not raw acceptance rate. A well-tuned sampler with persistently low acceptance indicates a genuinely rough landscape. A mistuned sampler that converges to the target after adaptation was just poorly initialized.
+
+The inference engine and the metacognitive monitor are the same mathematical object **only after controlling for sampler quality**. Without that control, you measure your plumbing, not your knowledge.
 
 ---
 
@@ -375,49 +398,85 @@ Approximate inference methods (stochastic MCMC, amortized variational inference,
 
 ---
 
-## 10. Connections to Existing Work
+## 10. Honest Citations
 
-| Component | Paper | Key Insight |
+**Note on scope:** The mathematical components (ELBO, PAC-Bayes, Metropolis-Hastings, Friston) are classical and well-established. They do not need the agent-specific papers to be valid. The agent papers contribute *specific instantiations*, not foundational math.
+
+| Component | Classical Foundation | Agent Instantiation (if any) |
 |---|---|---|
-| ELBO Perception | Friston (Free Energy Principle) | Minimizing surprise = maximizing ELBO |
-| PAC-Bayes Action | Xing et al. (2606.09421) | 20% of content prevents 80% of errors |
-| Portfolio MDP | Buchanan et al. (this work) | Entropy-confidence duality as SNR |
-| Knowledge Management | Zhou et al. (2604.08224) | Memory as externalized cognitive infrastructure |
-| MCMC Inference | Navarro (2023), Metropolis-Hastings | Sampling as universal inference engine |
-| Dual-Process | DCPM (2606.09483) | System 1 (record) + System 2 (consolidate) |
-| Observability | Mishra & Sharad (2606.09692) | Delegation requires attribution chains |
+| ELBO Perception | Friston (Free Energy Principle, 2010) | Gemini conversation (integrating ELBO into ACC monitor) |
+| PAC-Bayes Action | McAllester (1999), Catoni (2007) | Gemini conversation (integrating PAC-Bayes into ACC monitor) |
+| Entropy-Confidence Duality | Information theory (Shannon, 1948) | Portfolio-of-Policies MDP document (independent derivation) |
+| Knowledge Management | PARA (Forte), Zettelkasten (Luhmann) | knowledge-management.md concept page |
+| MCMC Inference | Metropolis et al. (1953), Hastings (1970) | Navarro (2023) tutorial |
+| Dual-Process Memory | Kahneman (2011), cognitive psychology | DCPM (2606.09483) — cognitive hierarchy for agents |
+| Observability | Mishra & Sharad (2606.09692) — the only agent-specific paper here |
+| Skill Economics | Xing et al. (2606.09421) — operational anchors, quality-cost trade-offs |
+| Representation Learning | Buchanan et al. (2606.06624) — deep representation learning as memory |
 
 ---
 
-## 11. Implementation Roadmap
+## 11. What to Build First: The Embarrassing Baseline
 
-### Phase 1: Core Loop (Week 1-2)
-- Implement ELBO perception layer using existing knowledge graph
-- Implement PAC-Bayes action bound with configurable $\delta$ and $\tau$
-- Implement TRN Gate as a routing protocol outside the LLM loop
-- Test on single-agent wiki-overseer scenario
+Before building the 8-week cathedral, establish whether the fancy math beats a calibrated threshold over three cheap features. If it can't, the math is decoration on a threshold.
 
-### Phase 2: Multi-Agent Extension (Week 3-4)
-- Implement portfolio-of-policies MDP for 3-5 agent threads
-- Implement Layered+Shortcuts control graph
-- Implement entropy-dependent cost function
-- Test on multi-agent wiki system (librarian + assistant + overseer)
+### The Baseline Gate
 
-### Phase 3: MCMC Integration (Week 5-6)
-- Implement Metropolis-Hastings over knowledge graph
-- Connect MCMC acceptance rate to ELBO perception
-- Connect MCMC posterior to PAC-Bayes prior
-- Benchmark inference quality vs. computational cost
+```python
+def should_halt(observation, retrieval_results, k_sampled_answers):
+    """
+    Three-feature risk score. Calibrate on historical data.
+    Features are proxies for the ELBO/PAC-Bayes terms but are computable
+    without a generative model.
+    """
+    # 1. Token-logprob entropy (proxy for ELBO reconstruction term)
+    #    High entropy in the LLM's own output = the model is uncertain
+    logprob_entropy = compute_logprob_entropy(observation.response_tokens)
+    
+    # 2. Retrieval miss rate (proxy for PAC-Bayes KL divergence)
+    #    Can the knowledge graph answer the question?
+    retrieval_score = retrieval_results.top_k_similarity(observation.query)
+    retrieval_miss = 1.0 - retrieval_score
+    
+    # 3. Self-consistency disagreement (proxy for ELBO KL / paradigm shift)
+    #    Do k sampled answers agree? High disagreement = epistemic gap
+    answer_agreement = pairwise_agreement(k_sampled_answers)
+    consistency_gap = 1.0 - answer_agreement
+    
+    # Calibrated risk score (logistic regression over historical data)
+    risk = sigmoid(beta_0 + beta_1*logprob_entropy + beta_2*retrieval_miss + beta_3*consistency_gap)
+    
+    return risk > tau, risk
+```
 
-### Phase 4: Validation (Week 7-8)
-- Measure: Does the system correctly halt when it should?
-- Measure: Does the system avoid unnecessary halts?
-- Measure: Does resource allocation improve task completion?
-- Compare against baseline (no metacognitive loop)
+**Calibration data:** The wiki-overseer runs 27 completed cycles. Label each cycle's risk score against whether the overseer made an error or missed something that a better system would have caught. That's your ground truth for $\tau$ and $\beta$.
+
+**Phase 4 metrics are the only numbers that matter:**
+- **Halt precision:** Of the times the gate fires, how many were genuine errors?
+- **Halt recall:** Of the actual errors, how many did the gate catch?
+- **Unnecessary halt rate:** How often does the gate fire when the agent would have been fine?
+
+### Retrofit onto Existing Infrastructure
+
+You've partially built this already:
+- **RAA's entropy-triggered associative search** *is* the ACC layer — it detects when retrieval confidence drops and triggers associative search
+- **cognitive-workspace-db** *is* L4/L5 — the knowledge graph + vector index substrate
+- **The wiki-overseer's preflight.py** *is* the evaluation layer — it reads ground truth and computes risk scores
+
+Retrofitting the gate onto RAA gets you to Phase 4's measurements faster than a greenfield implementation. The measurement is the part that distinguishes a research result from a beautiful diagram.
+
+### When to Add Complexity
+
+Only add the full ELBO/PAC-Bayes/MCMC machinery if:
+1. The baseline gate's halt precision/recall is below threshold (say, 80%)
+2. The errors the baseline misses are the *expensive* ones (wrong wiki edits, bad delegation decisions)
+3. The extra computation cost is justified by the error reduction
+
+If the baseline catches 95% of errors at 5% false-positive rate, the fancy math is a research exercise, not an engineering requirement.
 
 ---
 
-## References
+## 12. References
 
 - Buchanan, S., Pai, D., Wang, P., & Ma, Y. (2026). *Principles and Practice of Deep Representation Learning: or a Mathematical Theory of Memory*. arXiv 2606.06624.
 - Fei, T., Song, M., Zheng, M., & Yu, X. (2026). *Memory Beyond Recall: A Dual-Process Cognitive Memory System for Self-Evolving LLM Agents*. arXiv 2606.09483.
@@ -426,3 +485,5 @@ Approximate inference methods (stochastic MCMC, amortized variational inference,
 - Zhou, C., et al. (2026). *Externalization in LLM Agents: A Unified Review of Memory, Skills, Protocols and Harness Engineering*. arXiv 2604.08224.
 - Navarro, D. (2023). *The Metropolis-Hastings Algorithm*. blog.djnavarro.net.
 - Friston, K. (2010). *The Free-Energy Principle: A Unified Brain Theory?* Nature Reviews Neuroscience.
+- McAllester, D. A. (1999). *PAC-Bayesian Model Averaging*. COLT.
+- Catoni, O. (2007). *PAC-Bayesian Supervised Classification: The Thermodynamics of Statistical Learning*. IMS Lecture Notes.

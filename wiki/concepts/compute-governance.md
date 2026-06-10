@@ -76,6 +76,7 @@ No production system currently implements this, but it is under active research 
 - [[synthesis/representation-reading-as-arms-control-verification]] — The competing/complementary verification approach
 - [[concepts/ai-policy-global-governance]] — Broader governance architecture
 - [[concepts/ai-safety]] — Safety as the downstream motivation for governance
+- [[synthesis/concept-erasure-probe-equivalence]] — Formal duality between concept erasure and probe robustness, directly relevant to verification evasion risk
 - [[concepts/ai-policy-federalism]] — Domestic governance distribution (federal/state tension)
 
 - [[concepts/activation-probe-adversarial-robustness]] — adversarial probe attacks as a threat to compute verification

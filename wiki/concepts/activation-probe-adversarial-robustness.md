@@ -100,7 +100,7 @@ These defenses are in early stages and none has been formally proven robust.
 - **[Q]** Is there a fundamental trade-off between probe detectability and robustness? If probes that detect subtle signals are inherently less robust, then safety-critical applications need a different approach.
 - **[Q]** Can representation-level backdoors be implanted during pretraining that survive post-hoc probing (i.e., backdoors that activate for verification inspectors but remain dormant during normal use)?
 - **[Q]** Does the computational hardness defense (randomized probe selection, verifiable signatures) survive an adversary with data-center-scale compute? If not, verification collapses to the resource asymmetry between inspector and inspected.
-- **[Q]** What is the formal relationship between concept erasure adversarial robustness and probe adversarial robustness? Is there a unified theory?
+- **[Q]** What is the formal relationship between concept erasure adversarial robustness and probe adversarial robustness? [[synthesis/concept-erasure-probe-equivalence]] establishes the formal equivalence — including implications for multi-layer verification.
 
 ## Connections
 
@@ -108,6 +108,7 @@ These defenses are in early stages and none has been formally proven robust.
 - [[concepts/compute-governance]] — compute constraints as a complementary defense against probe evasion
 - [[concepts/ai-safety]] — broader context for activation-monitoring-based safety
 - [[concepts/ai-policy-arms-control-treaty]] — international verification mechanisms for AI
+- [[synthesis/concept-erasure-probe-equivalence]] — formal duality between concept erasure methods and probe robustness, addressing the unified theory question
 - [[concepts/representation-engineering]] — the family of methods that produce activation-space probes
 - [[concepts/bounded-representation-capacity]] — fundamental capacity constraints on what probes can detect
 - [[sources/papers/repe-representation-engineering-2023]] — RepE source anchor

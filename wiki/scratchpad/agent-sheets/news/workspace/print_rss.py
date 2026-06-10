@@ -1,26 +1,11 @@
-#!/usr/bin/env python3
-"""Print RSS discovery results in readable format"""
 import json
-with open('/home/ty/Documents/LLM-WIKI/wiki/scratchpad/agent-sheets/news/workspace/rss_output.json') as f:
+with open('/tmp/rss_standard.json') as f:
     data = json.load(f)
 
-for name, feed in data.items():
-    status = feed.get('status', 'unknown')
-    items = feed.get('items', [])
-    print(f"\n{'='*60}")
-    print(f"{name}  (status={status})")
-    print(f"{'='*60}")
-    if status == 'error':
-        print(f"  ERROR: {feed.get('error', 'unknown')}")
-        continue
-    if not items:
-        print("  (no items)")
-        continue
-    for i, item in enumerate(items, 1):
-        print(f"  {i}. {item['title']}")
-        if item.get('pubDate'):
-            print(f"     {item['pubDate']}")
-        if item.get('description'):
-            desc = item['description'][:150].replace('\n', ' ')
-            print(f"     {desc}")
-        print()
+for name, d in data.items():
+    print(f"\n=== {name} ({d['status']}) ===")
+    for i, item in enumerate(d['items']):
+        print(f"  [{i+1}] {item['title'][:120]}")
+        print(f"       {item['link'][:120]}")
+        if item['desc']:
+            print(f"       {item['desc'][:120]}")

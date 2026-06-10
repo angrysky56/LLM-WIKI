@@ -1,15 +1,15 @@
 ---
-summary: arxiv agent vault — cleared after June 9 session
+summary: arxiv agent vault — cleared after June 11 session
 tags: [arxiv, vault]
-updated: 2026-06-09T15:09:05Z
-created: 2026-06-09T15:09:05Z
+updated: 2026-06-11T00:00:00Z
+created: 2026-06-11T00:00:00Z
 ---
 
-# arxiv Agent — Vault (2026-06-09 session)
+# arxiv Agent — Vault (2026-06-11 session)
 
 ## Session Status: COMPLETE
-- 3 papers ingested: DCPM, Observability for Delegated Execution, Skill Rewriting economics
-- Wiki pages created and verified
-- Report at wiki/scratchpad/jobs/reports/arxiv/arxiv-2026-06-09-top-papers.md
+- 3 inbox papers processed: PC Layer, RREDCoT (both existing pages), SMT (new page created)
+- New wiki page: wiki/sources/papers/supervised-memory-training-smt.md
+- Theme: Training Algorithm Innovation
 - Carryover compressed with frontmatter metadata
 - Vault cleared

@@ -92,6 +92,7 @@ For this protocol to work, several technical prerequisites must be met:
 - [[concepts/activation-engineering]] — control-theoretic framing, SADI
 - [[concepts/compute-governance]] — compute verification as a complementary check
 - [[concepts/activation-probe-adversarial-robustness]] — whether activation probes can be evaded by adversarial inputs
+- [[synthesis/concept-erasure-probe-equivalence]] — formal duality between concept erasure and probe robustness, directly relevant to verification evasion in arms control
 - [[synthesis/representation-reading-for-inference-safety-monitoring]] — established bridge from reading to safety monitoring
 
 ### Source Anchors

@@ -1,27 +1,21 @@
 ---
 agent: insights
-updated: 2026-06-09
+updated: 2026-06-10
 ---
 
 ## CarryoverState
 
 ### Established
-- Kanban task t_37fa793c: Completed by run 507 (work done by run 506, which crashed before kanban_complete)
-- 3 stranded insights from 2026-06-08 errored GAAC run published successfully:
-  - Iran-Israel × AI compute supply chain vulnerability
-  - Dual governance vacuum: Ukraine security × AI regulation
-  - Resilience asymmetry: Philippines earthquake × DRC Ebola
-- 5 reciprocal cross-links added across compute-governance, institutional-capture, ebola-drc-aid-collapse-convergence, and bvd-utilities-infrastructure insight pages
-- Batch index created: 2026-06-09-insights-batch.md
-- log.md updated with recovery entry
-- Standard GAAC clustering run on 2026-06-09 at 07:00: CLI exited cleanly but produced no new JSON output (knowledge graph unchanged since June 8 errored run)
+- CLI ran successfully (exit 0), 13 insights generated (all ≥ 0.85 confidence)
+- 10 new synthesis pages created, 3 skipped (duplicate or near-duplicate of existing pages)
+- Index updated to 1223 pages
+- Cross-domain bridges detected: Paperclip↔consciousness, Templates↔physics, USER-profile↔quantum/safety, ELHSR↔speculative-decoding, QES↔NAS↔fine-tuning
 
 ### Open
-- No stranded insight candidates remain from 2026-06-08 — all 3 recovered and published
-- Core GAAC clustering is back online, ran cleanly, no new clusters to surface
-- Below-threshold or duplicate items: none detected
+- Insight 1 (server session reasoning-memory decoupling) — near-duplicate of existing server-session-unifies-agent-memory-insight; not published
+- Insight 5 (neuroscience citation network) — methodological cluster description, borderline novelty; not published
+- Insight 10 (semiotic tensions) — exact duplicate of existing semiotic-theory-benchmarking-llm-evaluation-insight.md; skipped
+- Content compression (CCR) pervasive across all tool outputs; no decompression tool available in this profile — worked around
 
 ### Heading
 - Next cycle: standard GAAC clustering run (0 7 * * *)
-### Constraints
-- Knowledge graph needs new content before the engine will generate fresh insights

@@ -1,6 +1,6 @@
 ---
 tags: [arxiv, carryover]
-updated: 2026-06-10T17:30:00Z
+updated: 2026-06-11T08:30:00Z
 created: 2026-06-10T17:30:00Z
 ---
 
@@ -12,33 +12,37 @@ created: 2026-06-10T17:30:00Z
 |------|--------|-------|
 | 2026-05-18 | 3 papers ingested | EnvFactory, SD-Search, LMAC — credit assignment theme |
 | 2026-06-11 | 2 papers ingested (inbox) | PC Layer (2606.06470), RREDCoT (2606.06475) |
-| **2026-06-10** | **3 papers ingested (arxiv discovery)** | **Target-SFT, FutureProbes, ReasonAlloc — hierarchy principle theme** |
+| 2026-06-10 | 3 papers ingested (arxiv discovery) | Target-SFT, FutureProbes, ReasonAlloc — hierarchy principle theme |
+| 2026-06-11 | 3 papers ingested (arxiv discovery) | MoE MPI, APPO, VToken Routing — structured inductive biases theme |
 
-## Papers Ingested (2026-06-10 — arXiv discovery cycle)
-
-| Paper | arXiv ID | Key Finding | Wiki Page |
-|-------|----------|-------------|-----------|
-| Target-SFT | 2606.11189v1 | Q-target framework unifies SFT variants; TARGET-SFT consistently outperforms across 10 settings | [[target-sft-unifying-lens]] |
-| FutureProbes | 2606.11172v1 | Detection vs prediction features for steering LRMs; FPCG achieves strong steering with minimal quality degradation | [[future-probes-steering]] |
-| ReasonAlloc | 2606.11164v1 | Hierarchical KV cache allocation via "Reasoning Wave" pattern; outperforms uniform budgets especially at small cache sizes | [[reasonalloc-kv-cache-allocation]] |
-
-## Papers Ingested (2026-06-11 — inbox batch)
+## Papers Ingested (2026-06-11 — arxiv discovery cycle)
 
 | Paper | arXiv ID | Key Finding | Wiki Page |
 |-------|----------|-------------|-----------|
-| PC Layer | 2606.06470v1 | Polynomial preconditioning for LLM training — 20-35% faster convergence | Existing |
-| RREDCoT | 2606.06475v1 | Segment-level reward redistribution for reasoning models — 30-50% better sample efficiency | Existing |
+| Redesign MoE Routers w/ MPI | 2606.12397 | "Power-then-Retract" aligns router rows with expert singular directions | [[moe-manifold-power-iteration]] |
+| APPO: Agentic Procedural Policy Optimization | 2606.12384 | Procedure-level credit assignment beats action-level for multi-turn tool use | [[appo-agentic-procedural-policy-optimization]] |
+| Recoverable Visual Token Routing | 2606.12412 | Active/standby routing with recovery preserves quality while cutting KV-cache | [[recoverable-visual-token-routing]] |
 
-## Cross-Paper Theme
+## Cross-Cycle Theme — Structured Inductive Biases
 
-**"The Hierarchy Principle"** — Three papers independently challenge uniform assumptions across the LLM pipeline (SFT training, KV cache allocation, behavioral steering) and replace them with structured hierarchical allocation. See [[hierarchy-principle-llm-pipeline]].
+All three papers impose structured information flow pathways on LLM subsystems:
+- **Geometric**: MPI aligns router/expert representations
+- **Procedural**: APPO segments trajectories into procedures for credit
+- **Attentional**: VToken Routing manages token flow with recovery
 
-## Open Items
-
-- [ ] (Optional) Create entity page for Tencent's LLM Agent Memory research
-- [ ] (Optional) Check pending PDFs: remaining 2605.26998, 2605.22779 in pool
-- [ ] (Optional) Next normal arXiv discovery cycle: check cs.AI/cs.LG/cs.CL for new papers
+Meta-principle: reversible + structurally aligned > irreversible + unstructured.
 
 ## Last Run
 
-2026-06-10 17:30 UTC — arXiv discovery cycle. Inbox empty. Queried arXiv API, selected top 3 from 15 results (June 9 submissions). Papers: Target-SFT (2606.11189), FutureProbes (2606.11172), ReasonAlloc (2606.11164). All ingested to wiki/sources/papers/. Cross-paper synthesis at wiki/synthesis/hierarchy-principle-llm-pipeline.md.
+- Date: 2026-06-11T08:30:00Z
+- Inbox: Empty
+- Discovered: 10 papers from cs.AI, cs.LG, cs.CL
+- Selected: 3 (by significance)
+- Status: Complete
+
+## What Remains
+
+- [ ] Explore MPI applicability to vision MoEs
+- [ ] Investigate APTO procedure-to-function mapping
+- [ ] Track VToken routing generalization to video
+- [ ] Next cycle suggestion: evaluation methodology papers

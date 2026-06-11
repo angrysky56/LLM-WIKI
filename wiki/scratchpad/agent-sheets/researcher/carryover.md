@@ -1,29 +1,29 @@
 ---
 agent: researcher
 schema: carryover-v1
-generated: 2026-06-10
-cycle: 14
-tags: [carryover, cycle-15, synthesis, governance-cluster, verification, duality]
-updated: 2026-06-10T10:00:00Z
-created: 2026-06-10T10:00:00Z
+generated: 2026-06-11
+cycle: 15
+tags: [carryover, cycle-16, governance-cluster, synthesis, source-anchoring]
+updated: 2026-06-11T10:00:00Z
+created: 2026-06-11T10:00:00Z
 ---
 
 ## CarryoverState
 
 ### Established
-- **Arms control treaty page created**: `wiki/concepts/ai-policy-arms-control-treaty.md` — 1236 words covering four treaty design categories, five historical analogies, three foundational verification challenges, and five verification mechanisms. Closes the treaty-side anchor gap in the governance verification cluster.
-- **Concept-erasure/probe-equivalence synthesis bridge created**: `wiki/synthesis/concept-erasure-probe-equivalence.md` — 1138 words establishing the formal duality between concept erasure methods (INLP, LEACE) and probe adversarial robustness, with implications for multi-layer verification.
-- **5 cross-links added**: compute-governance → concept-erasure-probe-equivalence; activation-probe-adversarial-robustness → concept-erasure-probe-equivalence (both Open Question update and Connections); representation-reading-as-arms-control-verification → concept-erasure-probe-equivalence.
-- **Cluster now has 5 concept pages**: ai-policy-arms-control-treaty, compute-governance, activation-probe-adversarial-robustness + 1 stub (ai-policy-federalism) + 2 synthesis bridges (representation-reading-as-arms-control-verification, concept-erasure-probe-equivalence) + 1 ITI source.
-- **wiki_fetch_url pitfall confirmed**: 3 arxiv URL fetches and 2 blog fetches all failed or files did not appear. Pages were written from training knowledge with appropriate confidence flags.
+- **Governance cluster complete**: 5 concept pages now form a mutually reachable cluster — ai-policy-arms-control-treaty, compute-governance, ai-policy-global-governance, ai-policy-federalism, eu-ai-act-implementation
+- **ai-policy-federalism.md created** (79 lines): US federal fragmentation, Trump retreat, California as de facto regulator, preemption analysis
+- **eu-ai-act-implementation.md created** (82 lines): risk-based framework, timeline, enforcement, Vatican validation, implementation challenges
+- **global-governance cross-links repaired**: 2 self-links removed, 3 broken links fixed (wrong slug cases, missing path prefixes, .md extension), 1 new link added
+- **Reciprocal cross-links added** to compute-governance and arms-control-treaty pages, making all 5 governance pages mutually reachable
 
 ### Open
-- **[HIGH]** `wiki/concepts/ai-policy-global-governance.md` — still missing. Both compute-governance and the treaty page link to it. Worth creating with IAEA-analogous institutions focus.
-- **[MED]** Compute governance survey (arXiv:2406.02854) — still no file from fetch. The paper is cited in the treaty page but no source summary exists.
-- **[MED]** Nonlinear probe/erasure duality — the synthesis bridge calls out this open question. An empirical test paper would be valuable.
-- **[LOW]** ai-policy-federalism.md — stub. Lowest priority.
-- **[LOW]** EU AI Act implementation page — mentioned in compute-governance but not a page.
+- **[MED]** Compute governance survey source page (arXiv:2406.02854) — no source summary exists. Fetch remains unreliable.
+- **[MED]** Nonlinear probe/erasure duality empirical test — open question from Cycle 14 synthesis bridge. Worth researching when fetch works.
+- **[LOW]** Vatican encyclical source page — referenced in global-governance links but may not exist as a real source file
+- **[LOW]** Trump admin internal debate on AI governance — distinct page or federalism expansion
+- **[LOW]** Sovereign-ai integration with governance cluster — potential bridge
 
 ### Heading
-- **[Intent]** Cycle 15 should create the missing global-governance page — it's the last structural gap in the verification cluster. The cluster would then have complete concept coverage (treaty → compute → probing → robustness → governance architecture).
-- **[Constraint]** wiki_fetch_url remains unreliable in cron. Continue using training knowledge with confidence flags until a fix is deployed.
+- **[Intent]** Cycle 16 should source-anchor the governance cluster. If wiki_fetch_url remains broken, consider writing source summaries from training knowledge at confidence 0.65 with explicit source gap documentation.
+- **[Constraint]** wiki_fetch_url remains unreliable for cron. Pages continue at confidence ≤ 0.75 from training knowledge until fix deployed.

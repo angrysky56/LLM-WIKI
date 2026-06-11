@@ -47,10 +47,19 @@ Searched:
 
 ## Discovery Areas (Next Session)
 
-1. ai-policy-federalism.md — stub needs real content (US federal AI retreat context)
-2. Compute governance / GPU export controls — related to arms control but distinct topic
-3. EU AI Act implementation status — worth a page given Vatican's framing validates EU approach
-4. Trump admin internal debate on AI governance — no dedicated page yet
+**Cycle 15 (2026-06-11) — Governance cluster completion**
+
+Completed:
+1. ai-policy-federalism.md — CREATED (79 lines: US federal retreat, CA de facto regulator, preemption)
+2. eu-ai-act-implementation.md — CREATED (82 lines: risk-based framework, timeline, Vatican validation)
+3. ai-policy-global-governance.md — CROSS-LINKS REPAIRED (2 self-links, 3 broken links fixed)
+4. compute-governance.md + arms-control-treaty.md — RECIPROCAL LINKS ADDED
+
+Remaining for Cycle 16:
+1. Source-anchor the governance cluster (confidence ≤ 0.75, fetch still unreliable)
+2. Nonlinear probe/erasure duality — empirical test paper investigation
+3. Sovereign-ai integration with governance cluster
+4. Trump admin internal AI governance debate — page or section?
 
 ## Related
 - [[wiki/scratchpad/jobs/index]]

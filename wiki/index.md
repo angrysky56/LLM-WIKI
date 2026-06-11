@@ -1,5 +1,5 @@
 ---
-updated: 2026-06-10T17:30:14Z
+updated: 2026-06-11T14:30:42Z
 type: index
 ---
 
@@ -97,7 +97,6 @@ type: index
 - [[hermes-agent-skills]] — 63-skill inventory with categories, descriptions, and connection links
 - [[neuroscience]] — [STUB] Neuroscience — study of the nervous system and brain
 - [[production-stage-architecture]] — Archived — absorbed by llm-agent-architecture
-- [[ai-policy-global-governance]] — AI policy global governance — international frameworks, treaties, and institutions shaping AI development; Vatican encyclical, UN processes, bilateral agreements
 - [[transformer-architecture]] — Decoder-only neural network architecture based on stacked self-attention layers — the foundation of modern large language models
 - [[agentic-hierarchy]] — Organizational structures where AI agents operate at different levels of abstraction and authority — supervisor-worker, manager-specialist, orchestrator-delegator patterns
 - [[scientific-discovery]] — [STUB] Scientific discovery — AI systems contributing to scientific knowledge
@@ -1208,10 +1207,8 @@ type: index
 - [[news-2026-05-20-headlines]] — Global news headlines for May 20, 2026 — 7 stories across geopolitics, AI/tech, science, health, and energy
 - [[headlines-2026-05-28]] — News headlines 2026-05-28 — WHO Ebola PHEIC emergency committee recommendations, SpaceX IPO 16 days out with governance questions, Pope Leo XIV "Magnifica humanitas" encyclical on AI disarmament
 - [[news-2026-05-21-headlines]] — News headlines 2026-05-21 — Iran Hormuz control claim, US surveillance near Cuba, SpaceX SPCX IPO filing, Meta social media settlement, Ofcom TikTok/YouTube child safety finding, Trump-Taiwan call, DRC Ebola hospital burned, Air France/Airbus manslaughter verdict
-- [[ai-policy-arms-control-treaty]] — AI arms control treaties — design principles, verification mechanisms, enforcement challenges, and historical analogies from nuclear/chemical weapons treaties
 - [[concept-erasure-probe-equivalence]] — Formal duality between concept erasure methods and adversarial probe robustness — structural equivalence with implications for AI verification, safety, and arms control
 - [[activation-probe-adversarial-robustness]] — The vulnerability of activation-space probes and representation reading to adversarial manipulation — attack vectors, defenses, and implications for AI safety and verification.
-- [[compute-governance]] — Policies and technical mechanisms for controlling access to AI-relevant compute resources — export controls, compute thresholds, hardware attestation, and their role as a verification mechanism in AI arms control
 - [[representation-reading-as-arms-control-verification]] — Cross-domain bridge: using representation reading (RepE, steering vectors, activation probes) as a technical verification mechanism for AI arms control treaties — connecting activation engineering to international law compliance verification
 - [[parallel-draft-catastrophic-forgetting-insight]] — Low-cost parallel draft model adaptation connects LLM inference efficiency, catastrophic forgetting mitigation, and agent skill externalization into a unified cognitive architecture pattern
 - [[howl-wadaag-mogadishu-crisis-insight]] — Howl Wadaag district in Mogadishu emerges as epicenter of Somalia's political-military crisis where civilian displacement, military operations, and political violence converge
@@ -1239,3 +1236,33 @@ type: index
 - [[future-probes-steering]] — Introduces Future Probe Controlled Generation (FPCG) for steering reasoning models by distinguishing detection features from prediction features, enabling effective control with minimal output degradation.
 - [[reasonalloc-kv-cache-allocation]] — Introduces ReasonAlloc, a training-free hierarchical KV cache budget allocator for reasoning models that combines offline layer-wise preallocation (capturing the "Reasoning Wave" pattern) with online head-wise reallocation.
 - [[hierarchy-principle-llm-pipeline]] — Cross-paper synthesis: three June 2026 papers independently challenge uniform assumptions in the LLM pipeline (SFT training, KV cache allocation, behavioral steering) and replace them with hierarchical allocation.
+- [[ai-policy-federalism]] — US federal AI governance — fragmentation, Trump administration regulatory retreat, California as de facto regulator, preemption debates, state-federal tension in AI policy
+- [[eu-ai-act-implementation]] — EU AI Act implementation status — risk-based framework operationalization, timeline, compliance categories, validation by Vatican encyclical Magnifica humanitas May 2026
+- [[ai-policy-global-governance]] — AI policy global governance — international frameworks, treaties, and institutions shaping AI development; Vatican encyclical, UN processes, bilateral agreements
+- [[ai-policy-arms-control-treaty]] — AI arms control treaties — design principles, verification mechanisms, enforcement challenges, and historical analogies from nuclear/chemical weapons treaties
+- [[compute-governance]] — Policies and technical mechanisms for controlling access to AI-relevant compute resources — export controls, compute thresholds, hardware attestation, and their role as a verification mechanism in AI arms control
+- [[insight-ny-interdisciplinary-hub]] — New York as an interdisciplinary hub: academic publishing, conferences, and global events converge
+- [[insight-pope-encyclical-ai-governance]] — Pope Leo XIV's Encyclical Magnifica humanitas bridges technical AI governance documentation and religious ethical frameworks
+- [[insight-disclosure-triangle-ml-safety-hub]] — Disclosure triangle emerges as structural hub linking ML safety, time-to-event modeling, and algorithmic trading
+- [[insight-para-template-knowledge-community]] — P.A.R.A. Template as a Coherent Knowledge Community Structuring Goals, Roles, and Documentation
+- [[insight-elhsr-speculative-decoding-efficiency]] — ELHSR reward modeling and speculative decoding converge on unified LLM efficiency frontier through shared scaling strategies
+- [[insight-nagorno-karabakh-geopolitical-resonance]] — Nagorno-Karabakh concession connected to broader Russian threat projection and European security narratives
+- [[insight-codealpaca-mtbench-semiotics-bridge]] — CodeAlpaca and MT-Bench bridge LLM evaluation with semiotic theory about meaning and understanding
+- [[insight-targets-bridging-military-legal]] — Targets' as a bridging concept connecting military strikes and legal sanctions through shared cognitive schema
+- [[insight-mixture-of-recursions-transformer-scaling]] — Mixture-of-Recursions bridges Transformer scaling with block-local memory efficiency via dynamic token-level depth allocation
+- [[insight-ebola-aid-cuts-health-geopolitics]] — Ebola outbreaks and USAID funding cuts reveal tight coupling between epidemiology and geopolitical aid decisions
+- [[insight-quantum-reconstruction-gpts-cluster]] — Quantum Reconstruction Program and Generalized Probabilistic Theories form a single interdependent research program
+- [[diffusion-in-text-generation-explained]] — Google DeepMind explains how text-based diffusion works in DiffusionGemma — covering masked diffusion, uniform state diffusion, self-conditioning, and multi-canvas sampling for non-autoregressive generation.
+- [[diffusiongemma-model-card]] — Official model card for DiffusionGemma, Google DeepMind's open diffusion language model — covering architecture (MoE, encoder-decoder), benchmark results, capabilities, data, and best practices.
+- [[bayesian-networks-and-markov-networks-intuitive-guide]] — A comprehensive hands-on guide to probabilistic graphical models — covering Bayesian networks (DAGs, CPTs, junction tree inference) and Markov networks (undirected constraints, Markov logic), with full Python implementation and real-world applications to visual surveillance and medical diagnosis.
+- [[us-iran-strikes-day-2-june-11]] — US and Iran exchange strikes for second consecutive day; Iran closes Strait of Hormuz and attacks US assets in Bahrain, Kuwait, Jordan
+- [[ecb-rate-hike-june-11]] — ECB raises rates 25bps for first time since 2023, citing Iran war-driven energy shock; bond markets price in potential Fed hike in 2026
+- [[spacex-ipo-70-billion-retail-june-11]] — SpaceX IPO 4x oversubscribed with $70B+ in retail orders; retail traders dump Big Tech to participate as Nasdaq debut approaches
+- [[uk-defense-secretary-resigns-june-11]] — UK Defense Secretary John Healey resigns over military spending dispute, delivering fresh blow to PM Starmer amid Iran and Ukraine wars
+- [[kenya-ebola-quarantine-protests-june-11]] — Protester shot dead in Kenya demonstrating against US Ebola quarantine center; NYT calls it a political crisis for Kenyan government
+- [[el-nino-official-declared-june-11]] — El Niño officially declared by NOAA, potentially strongest in a century, threatening record heat, floods, drought, and bushfires globally
+- [[peru-election-runoff-june-11]] — Leftist Sanchez takes slim lead in Peru presidential runoff; vote count may take weeks as race is too close to call
+- [[cross-axis-analysis-june-11-2026]] — Cross-domain connections: Iran energy shock cascade, US overextension across 3 theaters, AI/tech rotation, El Niño climate conflict overlay
+- [[recoverable-visual-token-routing]] — Recoverable Visual Token Routing for Vision-Language Models — rethinking visual token reduction as a routing problem with recovery, instead of irreversible removal
+- [[moe-manifold-power-iteration]] — MoE router redesign using Manifold Power Iteration — a principled "Power-then-Retract" paradigm aligning router rows with expert principal singular directions
+- [[appo-agentic-procedural-policy-optimization]] — Agentic Procedural Policy Optimization — credit assignment for multi-turn agentic tool use in LLMs, assigning credit over procedures rather than individual actions

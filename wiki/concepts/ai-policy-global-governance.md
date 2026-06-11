@@ -53,16 +53,16 @@ The Vatican's framing of AI as a WMD-equivalent requiring binding treaty control
 | Enforcement | No international enforcement mechanism for software |
 
 ## Connections
-- [[concepts/ai-policy-global-governance]]
 - [[wiki/index]]
 - [[log]]
 - [[sources/articles/pope-leo-ai-encyclical-magnifica-humanitas-may-2026]]
-- [[concepts/ai-policy-global-governance]]
 
-- [[pope-leo-ai-encyclical-magnifica-humanitas-may-2026]] — Vatican encyclical as governance voice
-- [[AI-policy-federalism]] — US federal retreat makes papal voice more consequential
-- [[concepts/compute-governance]] — hardware-layer governance as enforcement mechanism in global governance architecture
-- [[AI-policy-arms-control-treaty]] — binding treaty feasibility analysis
-- [[trump-abandons-ai-model-vetting-may-2026]] — US regulatory retreat context- [[concepts/sovereign-ai.md]]
+- [[sources/articles/pope-leo-ai-encyclical-magnifica-humanitas-may-2026]] — Vatican encyclical as governance voice
+- [[concepts/ai-policy-federalism]] — US federal retreat makes papal voice more consequential
+- [[concepts/compute-governance]] — hardware-layer governance as enforcement mechanism in global governance architecture  
+- [[concepts/eu-ai-act-implementation]] — EU unified model as contrast to US fragmentation
+- [[concepts/ai-policy-arms-control-treaty]] — binding treaty feasibility analysis
+- [[sources/articles/trump-abandons-ai-model-vetting-may-2026]] — US regulatory retreat context
+- [[concepts/sovereign-ai]]
 
 - [[sovereign-ai]]

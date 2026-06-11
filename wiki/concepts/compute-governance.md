@@ -72,6 +72,7 @@ No production system currently implements this, but it is under active research 
 
 ## Connections
 
+- [[concepts/eu-ai-act-implementation]] — EU compute thresholds for systemic-risk designation  
 - [[concepts/ai-policy-arms-control-treaty]] — Compute governance as a verification mechanism in treaty design
 - [[synthesis/representation-reading-as-arms-control-verification]] — The competing/complementary verification approach
 - [[concepts/ai-policy-global-governance]] — Broader governance architecture

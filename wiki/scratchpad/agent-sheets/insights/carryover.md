@@ -1,21 +1,22 @@
 ---
 agent: insights
-updated: 2026-06-10
+updated: 2026-06-11
 ---
 
 ## CarryoverState
 
 ### Established
-- CLI ran successfully (exit 0), 13 insights generated (all ≥ 0.85 confidence)
-- 10 new synthesis pages created, 3 skipped (duplicate or near-duplicate of existing pages)
-- Index updated to 1223 pages
-- Cross-domain bridges detected: Paperclip↔consciousness, Templates↔physics, USER-profile↔quantum/safety, ELHSR↔speculative-decoding, QES↔NAS↔fine-tuning
+- CLI ran successfully (exit 0), 14 insights generated (all ≥ 0.85 confidence)
+- 10 new synthesis pages created (all evidence-validated)
+- 2 skipped: zero-evidence hallucinations (insights 11, 12 — Residual Stream, Precision Infrastructure)
+- 2 skipped: near-duplicates (insight 4 — Euler/RoPE duplicate of existing page)
+- Index updated to 1250 pages
+- Cross-domain bridges detected: technical↔religious AI governance, military↔legal targeting, LLM eval↔semiotic theory
+- CCR compression workaround via small-chunk terminal reads continues to function
 
 ### Open
-- Insight 1 (server session reasoning-memory decoupling) — near-duplicate of existing server-session-unifies-agent-memory-insight; not published
-- Insight 5 (neuroscience citation network) — methodological cluster description, borderline novelty; not published
-- Insight 10 (semiotic tensions) — exact duplicate of existing semiotic-theory-benchmarking-llm-evaluation-insight.md; skipped
-- Content compression (CCR) pervasive across all tool outputs; no decompression tool available in this profile — worked around
+- Insight 11 (Residual Stream, 0.85, 0 ev) — empty evidence, hallucinated confidence; skip per protocol
+- Insight 12 (Precision Infrastructure, 0.85, 0 ev) — same pattern; skip
 
 ### Heading
 - Next cycle: standard GAAC clustering run (0 7 * * *)

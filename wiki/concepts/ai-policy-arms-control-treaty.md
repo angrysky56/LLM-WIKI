@@ -74,6 +74,7 @@ The academic literature on AI verification for arms control has produced several
 - **[Compute threshold stability]** Algorithmic progress (Amodei et al., 2023) suggests that compute-to-capability ratios improve ~4x per year at the frontier. A treaty that fixes compute thresholds will see its effective restrictions erode within one election cycle.
 
 ## Connections
+- [[concepts/eu-ai-act-implementation]] — EU approach as binding treaty template
 
 - [[synthesis/representation-reading-as-arms-control-verification]] — Activation-space probing as a verification mechanism for AI treaty compliance
 - [[concepts/compute-governance]] — The competing/complementary verification approach using hardware and compute tracking

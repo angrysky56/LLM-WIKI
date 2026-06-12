@@ -163,3 +163,6 @@ Index updated with 1261 pages (Deep refresh completed)
   - [[moe-manifold-power-iteration]] — MoE router redesign with geometric representation alignment via Manifold Power Iteration
   - [[appo-agentic-procedural-policy-optimization]] — Procedure-level credit assignment for agentic RL in multi-turn tool use
   - [[recoverable-visual-token-routing]] — Recoverable active/standby token routing for efficient VLM inference
+## [2026-06-11 18:57] write
+
+Updated page: wiki/synthesis/wisdom-engine-analysis-synthetic-metacognition.md

@@ -2,9 +2,7 @@
 mempalace.yaml
 entities.json
 
-# Obsidian: Ignore workspace layouts (they cause merge conflicts)
-.obsidian/workspace.json
-.obsidian/workspace-mobile.json
+
 
 # Cursor: Ignore general settings/caches, but keep agent rules
 .cursor/*
@@ -15,3 +13,9 @@ entities.json
 
 # Synapse index
 .synapse/
+
+# Obsidian: Ignore workspace layouts (they cause merge conflicts)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+/.obsidian/plugins/obsidian-git/main.js
+/.obsidian/plugins/obsidian-git/manifest.json

@@ -227,7 +227,7 @@ Before deploying β, γ to production:
 - [[wiki/index]]
 - [[oMCD-calibration-protocol]]
 
-- [[oMCD-calibration-protocol]]
+- [[wiki/research/portfolio-policies-metacognition.md]]
 
 ## References
 

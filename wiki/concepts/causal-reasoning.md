@@ -1,12 +1,12 @@
 ---
 created: 2026-06-03
-updated: 2026-06-09
+updated: 2026-07-14
 type: concept
-summary: Causal inference and reasoning capabilities in AI systems — structural causal models, do-calculus, causal discovery, and integration with language models
-tags: [causal-reasoning, causal-inference, causal-discovery, reasoning, pearl, machine-learning]
+summary: Causal inference and reasoning capabilities in AI systems — structural causal models, do-calculus, causal discovery, Graph of Thoughts as causal reasoning scaffold, and integration with language models
+tags: [causal-reasoning, causal-inference, causal-discovery, reasoning, pearl, machine-learning, graph-of-thoughts]
 sources: https://arxiv.org/abs/2406.04292 (ELHSR hidden-state causal signals)
 status: active
-confidence: 0.8
+confidence: 0.85
 ---
 
 # Causal Reasoning
@@ -73,34 +73,45 @@ Recent work explores whether LLMs can reason causally:
 
 The connection to [[world-model]]: A world model is fundamentally causal if it represents how actions change state, not just what states co-occur. Causal reasoning enables the counterfactual planning that distinguishes world models from simple state observation.
 
+## Graph of Thoughts as Structural Causal Model
+
+Graph of Thoughts (GoT) doesn't just *use* causal reasoning — it **is** a structural causal model of reasoning. This is not an analogy; it's a formal isomorphism:
+
+1. **DAG as SCM**: Each GoT node is a variable governed by structural equations encoding dependencies on parent nodes. Unlike static SCMs, GoT is *dynamic* — the graph can be modified (split, merge, loop) during reasoning, adapting structure to the problem.
+
+2. **Operations as causal inference**:
+   - `generate` (split) ≈ **do-operator**: Intervene on a thought to create alternative reasoning branches
+   - `aggregate` (merge) ≈ **causal effect computation**: Synthesize multiple branches, mirroring how conditional independence tests combine evidence
+   - `score` / `keep_best_n` ≈ **conditioning**: Select thoughts by quality, analogous to conditioning on specific variables
+   - `improve` ≈ **counterfactual**: Ask "what if this thought were different?" and compute the improvement
+
+3. **Graph metrics as causal diagnostics** (`got_graph_metrics`):
+   | GoT metric | Causal discovery analog | Interpretation |
+   |------------|------------------------|----------------|
+   | Density | Faithfulness check | Too dense → confounding; too sparse → missing edges |
+   | Path length | Mediation depth | Long paths = mediated causal chains; too long = error propagation |
+   | Clustering | Latent common cause detection | High clustering → shared premises or confounders (V-structures) |
+   | Hub reliance | Confounder fragility | Concentrated betweenness = single-point-of-failure reasoning |
+
+   A well-conditioned reasoning DAG has moderate density, bounded path length, and distributed betweenness — the same criteria a causal discovery algorithm uses to score candidate graphs.
+
+4. **Explicit vs implicit causal structure**: The open question "do transformers learn causal structure?" reveals a deeper distinction. Attention patterns may recover graphs resembling causal structure, but this is *descriptive causal discovery* — inferring structure from co-occurrence. GoT's DAG is *prescriptive causal reasoning* — specifying how reasoning should flow. This parallels the SCM argument: structural models over statistical ones because explicit structure supports do-calculus queries (interventions) that observational patterns alone cannot answer. Attention cannot distinguish "A causes B" from "A and B share a cause." GoT's labeled edges can.
+
 ## Connections
-- [[concepts/formal-methods]]
+- [[concepts/formal-methods]] — causal models are structural specifications amenable to formal verification
+- [[concepts/world-model]] — causal structure is a key component of internal world representations
+- [[concepts/mcts]] — tree search with causal backpropagation
+- [[concepts/counterfactual]] — counterfactual reasoning is the third rung of Pearl's ladder
+- [[concepts/in-context-learning]] — some argue ICL involves implicit causal inference
+- [[concepts/neural-interpretability]] — ELHSR hidden-state causal signals use activation-level probing
+- [[concepts/maximum-occupancy-principle]] — path entropy maximization as causal exploration hypothesis
+- [[synthesis/verifiable-graph-context-protocol]] — VGCP's DAG is a causal reasoning scaffold
+- [[entities/tools/graph-of-thoughts]] — GoT is a structural causal model of reasoning; its DAG enables do-calculus on thought sequences
 - [[log]]
 - [[scratchpad/jobs/reports/researcher/discovery-2026-06-09]]
-- [[wiki/index]]
-- [[concepts/world-model]]
-- [[concepts/mcts]]
-- [[concepts/counterfactual]]
-- [[concepts/in-context-learning]]
-- [[concepts/wolfram-nks-causal-networks]]
-- [[concepts/neural-interpretability]]
-- [[synthesis/verifiable-graph-context-protocol]]
-- [[concepts/causal-reasoning]]
-- [[concepts/maximum-occupancy-principle]]
-- [[concepts/causal-reasoning]]
-
-- [[world-model]] — causal structure is a key component of internal world representations
-- [[concepts/maximum-occupancy-principle]] — MOP's path entropy maximization can be viewed as a causal hypothesis about what drives exploration behavior
-- [[neural-interpretability]] — hidden-state causal signals (ELHSR) use the same activation data that neural interpretability studies
-- [[formal-methods]] — causal models are a form of structural specification amenable to formal verification
-- [[in-context-learning]] — some argue in-context learning itself involves implicit causal inference
-- Concept: [[MCTS]]
-
-
-- [[counterfactual]]
-- [[MCTS]]
 ## Open Questions
 
-- **Do transformers implicitly learn causal structure?** The PC algorithm run on attention patterns produces graphs that resemble true causal structure in some cases — but whether this is genuine causal representation or just statistical association is debated
+- **Do transformers implicitly learn causal structure?** The PC algorithm run on attention patterns produces graphs that resemble true causal structure in some cases — but whether this is genuine causal representation or just statistical association is debated. GoT suggests a complementary answer: even if transformers learn implicit causal structure, making it explicit through a formal DAG provides verifiability, auditability, and intervention capability (do-calculus) that implicit structure lacks.
 - **Causal abstract reasoning**: Can LLMs transfer causal reasoning learned in one domain to a novel but structurally similar domain?
 - **Causal world models for LLM agents**: How to build a causal model of the environment for a text-based agent operating in a code repository or document corpus
+- **GoT as causal reasoning testbed**: Can GoT's explicit causal graph be used to *evaluate* whether a reasoning chain is genuinely causal (each step produces the next) rather than merely sequential (steps follow each other)? This would operationalize the distinction between correlation and causation at the reasoning level.

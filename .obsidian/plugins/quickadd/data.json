@@ -9,11 +9,11 @@
   "version": "2.12.3",
   "globalVariables": {},
   "onePageInputEnabled": false,
-  "disableOnlineFeatures": true,
+  "disableOnlineFeatures": false,
   "enableRibbonIcon": false,
   "showCaptureNotification": true,
   "showInputCancellationNotification": false,
-  "enableTemplatePropertyTypes": false,
+  "enableTemplatePropertyTypes": true,
   "dateAliases": {
     "t": "today",
     "tm": "tomorrow",
